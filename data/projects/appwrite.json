@@ -1,0 +1,31 @@
+{
+  "name": "Appwrite",
+  "slug": "appwrite",
+  "description": "Self-hosted backend-as-a-service platform providing authentication, databases, storage, functions and realtime APIs.",
+  "repository": "https://github.com/appwrite/appwrite",
+  "website": "https://appwrite.io",
+  "documentation": "https://appwrite.io/docs",
+  "categories": [
+    "backend",
+    "database",
+    "authentication",
+    "storage"
+  ],
+  "keywords": [
+    "backend-as-a-service",
+    "baas",
+    "authentication",
+    "database",
+    "storage",
+    "functions",
+    "realtime",
+    "login"
+  ],
+  "languages": [
+    "PHP",
+    "TypeScript"
+  ],
+  "license": "BSD-3-Clause",
+  "featured": true,
+  "dateAdded": "2026-09-08"
+}

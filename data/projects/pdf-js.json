@@ -1,0 +1,23 @@
+{
+  "name": "PDF.js",
+  "slug": "pdf-js",
+  "description": "General-purpose, web standards-based platform for parsing and rendering PDFs in the browser.",
+  "repository": "https://github.com/mozilla/pdf.js",
+  "website": "https://mozilla.github.io/pdf.js/",
+  "documentation": "https://mozilla.github.io/pdf.js/getting_started/",
+  "categories": [
+    "media"
+  ],
+  "keywords": [
+    "pdf",
+    "pdf-viewer",
+    "document",
+    "rendering"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2025-12-31"
+}

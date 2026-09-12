@@ -1,0 +1,24 @@
+{
+  "name": "PostgreSQL",
+  "slug": "postgresql",
+  "description": "Powerful, open source object-relational database system with over 35 years of active development.",
+  "repository": "https://github.com/postgres/postgres",
+  "website": "https://www.postgresql.org",
+  "documentation": "https://www.postgresql.org/docs",
+  "categories": [
+    "database"
+  ],
+  "keywords": [
+    "sql",
+    "relational-database",
+    "postgres",
+    "rdbms",
+    "database"
+  ],
+  "languages": [
+    "C"
+  ],
+  "license": "PostgreSQL License",
+  "featured": true,
+  "dateAdded": "2026-08-18"
+}

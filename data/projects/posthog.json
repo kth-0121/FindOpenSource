@@ -1,0 +1,24 @@
+{
+  "name": "PostHog",
+  "slug": "posthog",
+  "description": "Open source product analytics platform with feature flags, session replay and A/B testing.",
+  "repository": "https://github.com/PostHog/posthog",
+  "website": "https://posthog.com",
+  "documentation": "https://posthog.com/docs",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "product-analytics",
+    "analytics",
+    "feature-flags",
+    "session-recording"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2026-04-15"
+}

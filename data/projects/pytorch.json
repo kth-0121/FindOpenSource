@@ -1,0 +1,24 @@
+{
+  "name": "PyTorch",
+  "slug": "pytorch",
+  "description": "Open source machine learning framework that accelerates the path from research prototyping to production deployment.",
+  "repository": "https://github.com/pytorch/pytorch",
+  "website": "https://pytorch.org",
+  "documentation": "https://pytorch.org/docs",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "machine-learning",
+    "deep-learning",
+    "neural-networks",
+    "ai"
+  ],
+  "languages": [
+    "Python",
+    "C++"
+  ],
+  "license": "BSD-3-Clause",
+  "featured": true,
+  "dateAdded": "2025-11-12"
+}

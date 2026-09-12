@@ -1,0 +1,102 @@
+[
+  {
+    "slug": "ai",
+    "name": "AI & Machine Learning",
+    "description": "Open source machine learning frameworks, large language models and AI infrastructure."
+  },
+  {
+    "slug": "authentication",
+    "name": "Authentication & Security",
+    "description": "Open source authentication, identity and security tools."
+  },
+  {
+    "slug": "backend",
+    "name": "Backend",
+    "description": "Backend platforms and backend-as-a-service tools for building applications."
+  },
+  {
+    "slug": "database",
+    "name": "Database",
+    "description": "Relational, document, vector and in-memory databases."
+  },
+  {
+    "slug": "api",
+    "name": "API",
+    "description": "Tools for building, exposing and managing APIs."
+  },
+  {
+    "slug": "cms",
+    "name": "CMS",
+    "description": "Headless and traditional content management systems."
+  },
+  {
+    "slug": "chat",
+    "name": "Chat & Messaging",
+    "description": "Team chat, messaging and real-time communication platforms."
+  },
+  {
+    "slug": "developer-tools",
+    "name": "Developer Tools",
+    "description": "Tools that help developers build, test and ship software."
+  },
+  {
+    "slug": "ui",
+    "name": "UI & Components",
+    "description": "Component libraries and design systems for building interfaces."
+  },
+  {
+    "slug": "analytics",
+    "name": "Analytics",
+    "description": "Web and product analytics platforms."
+  },
+  {
+    "slug": "storage",
+    "name": "Storage",
+    "description": "Object storage, file sync and self-hosted storage systems."
+  },
+  {
+    "slug": "automation",
+    "name": "Automation",
+    "description": "Workflow automation and no-code/low-code integration tools."
+  },
+  {
+    "slug": "devops",
+    "name": "DevOps",
+    "description": "Infrastructure, orchestration and deployment tooling."
+  },
+  {
+    "slug": "search",
+    "name": "Search",
+    "description": "Full-text and search engine infrastructure."
+  },
+  {
+    "slug": "monitoring",
+    "name": "Monitoring",
+    "description": "Observability, metrics, logging and error tracking tools."
+  },
+  {
+    "slug": "ecommerce",
+    "name": "E-commerce",
+    "description": "Open source commerce and storefront platforms."
+  },
+  {
+    "slug": "payments",
+    "name": "Payments",
+    "description": "Open source payment processing and billing infrastructure."
+  },
+  {
+    "slug": "media",
+    "name": "Media",
+    "description": "Media servers, streaming and document/media processing tools."
+  },
+  {
+    "slug": "testing",
+    "name": "Testing",
+    "description": "Testing frameworks and browser automation tools."
+  },
+  {
+    "slug": "mobile",
+    "name": "Mobile",
+    "description": "Frameworks for building cross-platform mobile applications."
+  }
+]

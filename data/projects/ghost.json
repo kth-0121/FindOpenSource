@@ -1,0 +1,24 @@
+{
+  "name": "Ghost",
+  "slug": "ghost",
+  "description": "Open source publishing and membership platform for blogs, newsletters and online publications.",
+  "repository": "https://github.com/TryGhost/Ghost",
+  "website": "https://ghost.org",
+  "documentation": "https://ghost.org/docs",
+  "categories": [
+    "cms"
+  ],
+  "keywords": [
+    "blogging",
+    "cms",
+    "publishing",
+    "newsletter"
+  ],
+  "languages": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2026-07-08"
+}

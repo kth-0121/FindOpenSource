@@ -1,0 +1,23 @@
+{
+  "name": "BTCPay Server",
+  "slug": "btcpay-server",
+  "description": "Self-hosted, open source cryptocurrency payment processor with no fees and no middleman.",
+  "repository": "https://github.com/btcpayserver/btcpayserver",
+  "website": "https://btcpayserver.org",
+  "documentation": "https://docs.btcpayserver.org",
+  "categories": [
+    "payments"
+  ],
+  "keywords": [
+    "bitcoin",
+    "payments",
+    "self-hosted",
+    "cryptocurrency"
+  ],
+  "languages": [
+    "C#"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-01-07"
+}

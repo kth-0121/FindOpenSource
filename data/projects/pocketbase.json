@@ -1,0 +1,26 @@
+{
+  "name": "PocketBase",
+  "slug": "pocketbase",
+  "description": "Open source backend consisting of an embedded SQLite database, authentication, file storage and a realtime API in a single executable.",
+  "repository": "https://github.com/pocketbase/pocketbase",
+  "website": "https://pocketbase.io",
+  "documentation": "https://pocketbase.io/docs",
+  "categories": [
+    "backend",
+    "database"
+  ],
+  "keywords": [
+    "backend-as-a-service",
+    "sqlite",
+    "realtime",
+    "authentication",
+    "baas",
+    "login"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2026-08-27"
+}

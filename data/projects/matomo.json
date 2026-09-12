@@ -1,0 +1,22 @@
+{
+  "name": "Matomo",
+  "slug": "matomo",
+  "description": "Open source web analytics platform giving full control and ownership of visitor data.",
+  "repository": "https://github.com/matomo-org/matomo",
+  "website": "https://matomo.org",
+  "documentation": "https://matomo.org/docs",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "web-analytics",
+    "privacy",
+    "analytics"
+  ],
+  "languages": [
+    "PHP"
+  ],
+  "license": "GPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-04-08"
+}

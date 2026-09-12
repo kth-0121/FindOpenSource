@@ -1,0 +1,23 @@
+{
+  "name": "Umami",
+  "slug": "umami",
+  "description": "Simple, fast, privacy-focused web analytics alternative that you can self-host.",
+  "repository": "https://github.com/umami-software/umami",
+  "website": "https://umami.is",
+  "documentation": "https://umami.is/docs",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "web-analytics",
+    "privacy",
+    "analytics"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-04-22"
+}

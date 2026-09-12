@@ -1,0 +1,26 @@
+{
+  "name": "React Native",
+  "slug": "react-native",
+  "description": "Framework for building native mobile apps for iOS and Android using React.",
+  "repository": "https://github.com/facebook/react-native",
+  "website": "https://reactnative.dev",
+  "documentation": "https://reactnative.dev/docs/getting-started",
+  "categories": [
+    "mobile"
+  ],
+  "keywords": [
+    "mobile",
+    "cross-platform",
+    "ios",
+    "android",
+    "react"
+  ],
+  "languages": [
+    "C++",
+    "Java",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2025-12-10"
+}

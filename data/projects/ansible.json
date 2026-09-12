@@ -1,0 +1,23 @@
+{
+  "name": "Ansible",
+  "slug": "ansible",
+  "description": "Radically simple IT automation platform for configuration management, deployment and orchestration.",
+  "repository": "https://github.com/ansible/ansible",
+  "website": "https://www.ansible.com",
+  "documentation": "https://docs.ansible.com",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "configuration-management",
+    "automation",
+    "iac",
+    "devops"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "GPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-03-04"
+}

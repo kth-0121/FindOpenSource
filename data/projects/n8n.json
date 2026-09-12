@@ -1,0 +1,25 @@
+{
+  "name": "n8n",
+  "slug": "n8n",
+  "description": "Workflow automation platform that lets you connect apps and services with a visual, node-based editor.",
+  "repository": "https://github.com/n8n-io/n8n",
+  "website": "https://n8n.io",
+  "documentation": "https://docs.n8n.io",
+  "categories": [
+    "automation",
+    "developer-tools"
+  ],
+  "keywords": [
+    "workflow-automation",
+    "automation",
+    "integration",
+    "no-code",
+    "low-code"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "Sustainable Use License",
+  "featured": true,
+  "dateAdded": "2026-05-20"
+}

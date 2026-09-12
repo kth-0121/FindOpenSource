@@ -1,0 +1,22 @@
+{
+  "name": "MongoDB",
+  "slug": "mongodb",
+  "description": "Document-oriented NoSQL database designed for scalability and developer flexibility.",
+  "repository": "https://github.com/mongodb/mongo",
+  "website": "https://www.mongodb.com",
+  "documentation": "https://www.mongodb.com/docs",
+  "categories": [
+    "database"
+  ],
+  "keywords": [
+    "nosql",
+    "document-database",
+    "database"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "SSPL-1.0",
+  "featured": true,
+  "dateAdded": "2026-08-12"
+}

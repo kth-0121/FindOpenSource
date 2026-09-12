@@ -1,0 +1,26 @@
+{
+  "name": "Milvus",
+  "slug": "milvus",
+  "description": "Open source vector database built for scalable similarity search and AI applications.",
+  "repository": "https://github.com/milvus-io/milvus",
+  "website": "https://milvus.io",
+  "documentation": "https://milvus.io/docs",
+  "categories": [
+    "ai",
+    "database"
+  ],
+  "keywords": [
+    "vector-database",
+    "embeddings",
+    "similarity-search",
+    "ai",
+    "machine-learning"
+  ],
+  "languages": [
+    "Go",
+    "C++"
+  ],
+  "license": "Apache-2.0",
+  "featured": true,
+  "dateAdded": "2026-07-29"
+}

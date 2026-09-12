@@ -1,0 +1,24 @@
+{
+  "name": "MUI",
+  "slug": "mui",
+  "description": "Comprehensive library of React UI components implementing Google's Material Design.",
+  "repository": "https://github.com/mui/material-ui",
+  "website": "https://mui.com",
+  "documentation": "https://mui.com/material-ui/getting-started/",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "react-components",
+    "ui-components",
+    "material-design",
+    "design-system"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-05-06"
+}

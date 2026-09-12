@@ -1,0 +1,23 @@
+{
+  "name": "MinIO",
+  "slug": "minio",
+  "description": "High-performance, S3-compatible object storage system for self-hosted and hybrid cloud deployments.",
+  "repository": "https://github.com/minio/minio",
+  "website": "https://min.io",
+  "documentation": "https://min.io/docs",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "object-storage",
+    "s3-compatible",
+    "storage",
+    "cloud-storage"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "AGPL-3.0",
+  "featured": true,
+  "dateAdded": "2026-04-01"
+}

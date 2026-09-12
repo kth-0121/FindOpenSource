@@ -1,0 +1,31 @@
+{
+  "name": "Supabase",
+  "slug": "supabase",
+  "description": "Open source Firebase alternative providing a Postgres database, authentication, instant APIs, edge functions, realtime subscriptions and storage.",
+  "repository": "https://github.com/supabase/supabase",
+  "website": "https://supabase.com",
+  "documentation": "https://supabase.com/docs",
+  "categories": [
+    "backend",
+    "database",
+    "authentication"
+  ],
+  "keywords": [
+    "database",
+    "postgresql",
+    "authentication",
+    "auth",
+    "backend",
+    "realtime",
+    "storage",
+    "baas",
+    "login"
+  ],
+  "languages": [
+    "TypeScript",
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": true,
+  "dateAdded": "2026-09-10"
+}

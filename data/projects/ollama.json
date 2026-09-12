@@ -1,0 +1,23 @@
+{
+  "name": "Ollama",
+  "slug": "ollama",
+  "description": "Run large language models locally with a simple command-line interface and API.",
+  "repository": "https://github.com/ollama/ollama",
+  "website": "https://ollama.com",
+  "documentation": "https://github.com/ollama/ollama/tree/main/docs",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "llm",
+    "local-ai",
+    "large-language-models",
+    "ai"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2025-11-05"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Nextcloud",
+  "slug": "nextcloud",
+  "description": "Self-hosted productivity platform for file sync and share, collaboration and communication.",
+  "repository": "https://github.com/nextcloud/server",
+  "website": "https://nextcloud.com",
+  "documentation": "https://docs.nextcloud.com",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "file-sync",
+    "cloud-storage",
+    "self-hosted",
+    "collaboration"
+  ],
+  "languages": [
+    "PHP"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-03-25"
+}

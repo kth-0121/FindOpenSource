@@ -1,0 +1,23 @@
+{
+  "name": "Plausible Analytics",
+  "slug": "plausible",
+  "description": "Lightweight, open source and privacy-friendly alternative to Google Analytics.",
+  "repository": "https://github.com/plausible/analytics",
+  "website": "https://plausible.io",
+  "documentation": "https://plausible.io/docs",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "web-analytics",
+    "privacy",
+    "analytics",
+    "google-analytics-alternative"
+  ],
+  "languages": [
+    "Elixir"
+  ],
+  "license": "AGPL-3.0",
+  "featured": true,
+  "dateAdded": "2026-04-29"
+}

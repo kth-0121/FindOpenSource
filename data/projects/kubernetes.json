@@ -1,0 +1,23 @@
+{
+  "name": "Kubernetes",
+  "slug": "kubernetes",
+  "description": "Open source system for automating deployment, scaling and management of containerized applications.",
+  "repository": "https://github.com/kubernetes/kubernetes",
+  "website": "https://kubernetes.io",
+  "documentation": "https://kubernetes.io/docs",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "container-orchestration",
+    "containers",
+    "devops",
+    "cloud-native"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": true,
+  "dateAdded": "2026-03-18"
+}

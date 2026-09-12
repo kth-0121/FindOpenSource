@@ -1,0 +1,24 @@
+{
+  "name": "Sentry",
+  "slug": "sentry",
+  "description": "Application monitoring platform that helps developers diagnose, fix and optimize the performance of their code.",
+  "repository": "https://github.com/getsentry/sentry",
+  "website": "https://sentry.io",
+  "documentation": "https://docs.sentry.io",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "error-tracking",
+    "monitoring",
+    "observability",
+    "performance-monitoring"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "license": "FSL-1.1",
+  "featured": true,
+  "dateAdded": "2026-01-21"
+}

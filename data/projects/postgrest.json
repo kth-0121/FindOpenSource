@@ -1,0 +1,24 @@
+{
+  "name": "PostgREST",
+  "slug": "postgrest",
+  "description": "Standalone web server that turns any PostgreSQL database directly into a RESTful API.",
+  "repository": "https://github.com/PostgREST/postgrest",
+  "website": "https://postgrest.org",
+  "documentation": "https://postgrest.org",
+  "categories": [
+    "api",
+    "backend"
+  ],
+  "keywords": [
+    "rest-api",
+    "postgresql",
+    "api",
+    "backend"
+  ],
+  "languages": [
+    "Haskell"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-07-22"
+}

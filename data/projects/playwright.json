@@ -1,0 +1,25 @@
+{
+  "name": "Playwright",
+  "slug": "playwright",
+  "description": "Reliable end-to-end testing and browser automation framework for modern web apps.",
+  "repository": "https://github.com/microsoft/playwright",
+  "website": "https://playwright.dev",
+  "documentation": "https://playwright.dev/docs/intro",
+  "categories": [
+    "developer-tools",
+    "testing"
+  ],
+  "keywords": [
+    "testing",
+    "e2e-testing",
+    "browser-automation",
+    "automation",
+    "web-scraping"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": true,
+  "dateAdded": "2026-05-27"
+}

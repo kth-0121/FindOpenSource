@@ -1,0 +1,23 @@
+{
+  "name": "shadcn/ui",
+  "slug": "shadcn-ui",
+  "description": "Collection of copy-and-paste, accessible React components built with Radix UI and Tailwind CSS.",
+  "repository": "https://github.com/shadcn-ui/ui",
+  "website": "https://ui.shadcn.com",
+  "documentation": "https://ui.shadcn.com/docs",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "react-components",
+    "ui-components",
+    "tailwindcss",
+    "design-system"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2026-05-13"
+}

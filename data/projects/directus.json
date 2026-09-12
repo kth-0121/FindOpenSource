@@ -1,0 +1,27 @@
+{
+  "name": "Directus",
+  "slug": "directus",
+  "description": "Open source data platform that wraps any SQL database with a dynamic API and an intuitive admin app.",
+  "repository": "https://github.com/directus/directus",
+  "website": "https://directus.io",
+  "documentation": "https://docs.directus.io",
+  "categories": [
+    "cms",
+    "backend",
+    "api"
+  ],
+  "keywords": [
+    "headless-cms",
+    "database",
+    "api",
+    "admin-panel",
+    "backend",
+    "admin-dashboard"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "BUSL-1.1",
+  "featured": false,
+  "dateAdded": "2026-06-24"
+}

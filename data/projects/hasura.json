@@ -1,0 +1,28 @@
+{
+  "name": "Hasura",
+  "slug": "hasura",
+  "description": "Instant GraphQL and REST APIs on top of new or existing Postgres databases.",
+  "repository": "https://github.com/hasura/graphql-engine",
+  "website": "https://hasura.io",
+  "documentation": "https://hasura.io/docs",
+  "categories": [
+    "backend",
+    "api",
+    "database"
+  ],
+  "keywords": [
+    "graphql",
+    "api",
+    "postgresql",
+    "database",
+    "realtime",
+    "backend"
+  ],
+  "languages": [
+    "Haskell",
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-08-22"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Terraform",
+  "slug": "terraform",
+  "description": "Infrastructure-as-code tool for building, changing and versioning infrastructure safely and efficiently.",
+  "repository": "https://github.com/hashicorp/terraform",
+  "website": "https://www.terraform.io",
+  "documentation": "https://developer.hashicorp.com/terraform/docs",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "infrastructure-as-code",
+    "iac",
+    "provisioning",
+    "devops"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "BUSL-1.1",
+  "featured": true,
+  "dateAdded": "2026-03-11"
+}

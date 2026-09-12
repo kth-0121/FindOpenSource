@@ -1,0 +1,27 @@
+{
+  "name": "Keycloak",
+  "slug": "keycloak",
+  "description": "Open source identity and access management solution with single sign-on, OAuth2 and OpenID Connect support.",
+  "repository": "https://github.com/keycloak/keycloak",
+  "website": "https://www.keycloak.org",
+  "documentation": "https://www.keycloak.org/documentation",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "identity",
+    "sso",
+    "single-sign-on",
+    "oauth",
+    "oidc",
+    "authentication",
+    "iam",
+    "login"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": true,
+  "dateAdded": "2026-09-05"
+}

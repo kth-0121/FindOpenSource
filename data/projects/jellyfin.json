@@ -1,0 +1,23 @@
+{
+  "name": "Jellyfin",
+  "slug": "jellyfin",
+  "description": "Free software media system that puts you in control of managing and streaming your media.",
+  "repository": "https://github.com/jellyfin/jellyfin",
+  "website": "https://jellyfin.org",
+  "documentation": "https://jellyfin.org/docs",
+  "categories": [
+    "media"
+  ],
+  "keywords": [
+    "media-server",
+    "streaming",
+    "self-hosted",
+    "video"
+  ],
+  "languages": [
+    "C#"
+  ],
+  "license": "GPL-2.0",
+  "featured": false,
+  "dateAdded": "2025-12-24"
+}

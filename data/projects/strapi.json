@@ -1,0 +1,24 @@
+{
+  "name": "Strapi",
+  "slug": "strapi",
+  "description": "Leading open source headless CMS for building customizable APIs and content backends.",
+  "repository": "https://github.com/strapi/strapi",
+  "website": "https://strapi.io",
+  "documentation": "https://docs.strapi.io",
+  "categories": [
+    "cms"
+  ],
+  "keywords": [
+    "headless-cms",
+    "content-management",
+    "cms",
+    "api"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2026-07-15"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Cypress",
+  "slug": "cypress",
+  "description": "JavaScript end-to-end testing framework built for the modern web with fast, reliable testing.",
+  "repository": "https://github.com/cypress-io/cypress",
+  "website": "https://www.cypress.io",
+  "documentation": "https://docs.cypress.io",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "testing",
+    "e2e-testing",
+    "test-automation"
+  ],
+  "languages": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2025-12-17"
+}

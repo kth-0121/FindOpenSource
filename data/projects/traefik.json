@@ -1,0 +1,23 @@
+{
+  "name": "Traefik",
+  "slug": "traefik",
+  "description": "Modern, cloud-native reverse proxy and load balancer that integrates with your existing infrastructure.",
+  "repository": "https://github.com/traefik/traefik",
+  "website": "https://traefik.io",
+  "documentation": "https://doc.traefik.io/traefik/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "reverse-proxy",
+    "load-balancer",
+    "api-gateway",
+    "devops"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-02-25"
+}

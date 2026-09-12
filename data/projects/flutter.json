@@ -1,0 +1,25 @@
+{
+  "name": "Flutter",
+  "slug": "flutter",
+  "description": "Google's UI toolkit for building natively compiled applications for mobile, web and desktop from a single codebase.",
+  "repository": "https://github.com/flutter/flutter",
+  "website": "https://flutter.dev",
+  "documentation": "https://docs.flutter.dev",
+  "categories": [
+    "mobile"
+  ],
+  "keywords": [
+    "mobile",
+    "cross-platform",
+    "ios",
+    "android",
+    "ui-toolkit"
+  ],
+  "languages": [
+    "Dart",
+    "C++"
+  ],
+  "license": "BSD-3-Clause",
+  "featured": true,
+  "dateAdded": "2025-12-03"
+}

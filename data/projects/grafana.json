@@ -1,0 +1,24 @@
+{
+  "name": "Grafana",
+  "slug": "grafana",
+  "description": "Open source platform for monitoring and observability, letting you query, visualize and alert on metrics.",
+  "repository": "https://github.com/grafana/grafana",
+  "website": "https://grafana.com",
+  "documentation": "https://grafana.com/docs",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "observability",
+    "dashboards",
+    "monitoring",
+    "visualization"
+  ],
+  "languages": [
+    "TypeScript",
+    "Go"
+  ],
+  "license": "AGPL-3.0",
+  "featured": true,
+  "dateAdded": "2026-02-04"
+}

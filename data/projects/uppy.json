@@ -1,0 +1,26 @@
+{
+  "name": "Uppy",
+  "slug": "uppy",
+  "description": "Sleek, modular open source file uploader that supports drag-and-drop, image cropping, and uploads to S3, Google Drive, and more.",
+  "repository": "https://github.com/transloadit/uppy",
+  "website": "https://uppy.io",
+  "documentation": "https://uppy.io/docs/",
+  "categories": [
+    "ui",
+    "storage"
+  ],
+  "keywords": [
+    "file-upload",
+    "image-upload",
+    "upload",
+    "drag-and-drop",
+    "file-uploader"
+  ],
+  "languages": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-12"
+}

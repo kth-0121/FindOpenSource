@@ -1,0 +1,24 @@
+{
+  "name": "Expo",
+  "slug": "expo",
+  "description": "Open source platform and toolchain for building universal native apps with React Native.",
+  "repository": "https://github.com/expo/expo",
+  "website": "https://expo.dev",
+  "documentation": "https://docs.expo.dev",
+  "categories": [
+    "mobile"
+  ],
+  "keywords": [
+    "react-native",
+    "mobile",
+    "cross-platform",
+    "build-tools"
+  ],
+  "languages": [
+    "TypeScript",
+    "C++"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2025-11-26"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Auth.js",
+  "slug": "auth-js",
+  "description": "Authentication library for the web, supporting OAuth, email and credential-based sign-in for frameworks like Next.js.",
+  "repository": "https://github.com/nextauthjs/next-auth",
+  "website": "https://authjs.dev",
+  "documentation": "https://authjs.dev",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "authentication",
+    "oauth",
+    "session",
+    "nextjs",
+    "jwt",
+    "sso",
+    "login"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "ISC",
+  "featured": false,
+  "dateAdded": "2026-09-01"
+}

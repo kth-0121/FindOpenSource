@@ -1,0 +1,24 @@
+{
+  "name": "Payload",
+  "slug": "payload",
+  "description": "TypeScript-first headless CMS and application framework with a built-in admin panel.",
+  "repository": "https://github.com/payloadcms/payload",
+  "website": "https://payloadcms.com",
+  "documentation": "https://payloadcms.com/docs",
+  "categories": [
+    "cms"
+  ],
+  "keywords": [
+    "headless-cms",
+    "cms",
+    "typescript",
+    "admin-panel",
+    "admin-dashboard"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-07-01"
+}

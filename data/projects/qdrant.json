@@ -1,0 +1,24 @@
+{
+  "name": "Qdrant",
+  "slug": "qdrant",
+  "description": "Vector database and similarity search engine for building AI applications with embeddings.",
+  "repository": "https://github.com/qdrant/qdrant",
+  "website": "https://qdrant.tech",
+  "documentation": "https://qdrant.tech/documentation",
+  "categories": [
+    "ai",
+    "database"
+  ],
+  "keywords": [
+    "vector-database",
+    "embeddings",
+    "similarity-search",
+    "ai"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "license": "Apache-2.0",
+  "featured": true,
+  "dateAdded": "2025-10-22"
+}

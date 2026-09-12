@@ -1,0 +1,23 @@
+{
+  "name": "LangChain",
+  "slug": "langchain",
+  "description": "Framework for developing applications powered by large language models, agents and retrieval-augmented generation.",
+  "repository": "https://github.com/langchain-ai/langchain",
+  "website": "https://www.langchain.com",
+  "documentation": "https://python.langchain.com/docs/introduction/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "llm",
+    "ai-agents",
+    "rag",
+    "large-language-models"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2025-10-29"
+}

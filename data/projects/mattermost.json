@@ -1,0 +1,24 @@
+{
+  "name": "Mattermost",
+  "slug": "mattermost",
+  "description": "Open source, self-hostable platform for secure team communication and collaboration.",
+  "repository": "https://github.com/mattermost/mattermost",
+  "website": "https://mattermost.com",
+  "documentation": "https://docs.mattermost.com",
+  "categories": [
+    "chat"
+  ],
+  "keywords": [
+    "team-chat",
+    "messaging",
+    "collaboration",
+    "chat"
+  ],
+  "languages": [
+    "Go",
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-06-10"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Meilisearch",
+  "slug": "meilisearch",
+  "description": "Fast, open source search engine that is easy to integrate and delivers relevant results instantly.",
+  "repository": "https://github.com/meilisearch/meilisearch",
+  "website": "https://www.meilisearch.com",
+  "documentation": "https://www.meilisearch.com/docs",
+  "categories": [
+    "search"
+  ],
+  "keywords": [
+    "search-engine",
+    "full-text-search",
+    "search"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2026-02-18"
+}

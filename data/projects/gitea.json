@@ -1,0 +1,23 @@
+{
+  "name": "Gitea",
+  "slug": "gitea",
+  "description": "Lightweight, self-hosted Git service with issue tracking, pull requests and CI integration.",
+  "repository": "https://github.com/go-gitea/gitea",
+  "website": "https://about.gitea.com",
+  "documentation": "https://docs.gitea.com",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "git",
+    "self-hosted",
+    "version-control",
+    "developer-tools"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2026-06-03"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Prometheus",
+  "slug": "prometheus",
+  "description": "Open source systems monitoring and alerting toolkit with a dimensional data model and powerful query language.",
+  "repository": "https://github.com/prometheus/prometheus",
+  "website": "https://prometheus.io",
+  "documentation": "https://prometheus.io/docs",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "monitoring",
+    "metrics",
+    "alerting",
+    "observability"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": true,
+  "dateAdded": "2026-01-28"
+}

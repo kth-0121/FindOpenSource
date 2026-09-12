@@ -1,0 +1,23 @@
+{
+  "name": "Elasticsearch",
+  "slug": "elasticsearch",
+  "description": "Distributed search and analytics engine for all types of data, including text, numerical and geospatial.",
+  "repository": "https://github.com/elastic/elasticsearch",
+  "website": "https://www.elastic.co/elasticsearch",
+  "documentation": "https://www.elastic.co/guide/index.html",
+  "categories": [
+    "search"
+  ],
+  "keywords": [
+    "search-engine",
+    "full-text-search",
+    "analytics",
+    "search"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-02-11"
+}

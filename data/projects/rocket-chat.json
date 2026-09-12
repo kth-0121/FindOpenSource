@@ -1,0 +1,24 @@
+{
+  "name": "Rocket.Chat",
+  "slug": "rocket-chat",
+  "description": "Open source team chat and collaboration platform that can be fully self-hosted.",
+  "repository": "https://github.com/RocketChat/Rocket.Chat",
+  "website": "https://www.rocket.chat",
+  "documentation": "https://docs.rocket.chat",
+  "categories": [
+    "chat"
+  ],
+  "keywords": [
+    "team-chat",
+    "messaging",
+    "chat",
+    "collaboration"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2026-06-17"
+}

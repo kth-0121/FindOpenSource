@@ -1,0 +1,25 @@
+{
+  "name": "Redis",
+  "slug": "redis",
+  "description": "In-memory data structure store used as a database, cache, message broker and streaming engine.",
+  "repository": "https://github.com/redis/redis",
+  "website": "https://redis.io",
+  "documentation": "https://redis.io/docs",
+  "categories": [
+    "database",
+    "storage"
+  ],
+  "keywords": [
+    "cache",
+    "in-memory",
+    "key-value",
+    "database",
+    "nosql"
+  ],
+  "languages": [
+    "C"
+  ],
+  "license": "AGPL-3.0",
+  "featured": true,
+  "dateAdded": "2026-08-05"
+}

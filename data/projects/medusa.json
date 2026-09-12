@@ -1,0 +1,22 @@
+{
+  "name": "Medusa",
+  "slug": "medusa",
+  "description": "Open source, headless commerce platform for building fast, customizable storefronts and backends.",
+  "repository": "https://github.com/medusajs/medusa",
+  "website": "https://medusajs.com",
+  "documentation": "https://docs.medusajs.com",
+  "categories": [
+    "ecommerce"
+  ],
+  "keywords": [
+    "ecommerce",
+    "headless-commerce",
+    "commerce"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": true,
+  "dateAdded": "2026-01-14"
+}
