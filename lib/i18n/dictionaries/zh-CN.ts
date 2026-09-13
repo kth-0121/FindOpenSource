@@ -38,6 +38,9 @@ const dictionary: Dictionary = {
     noResultsSuggestion: "可以试试这些搜索词：",
     pageTitle: "搜索",
     pageDescription: "按功能、技术或分类搜索开源项目。",
+    startHeading: "搜索开源项目",
+    relatedSearchesLabel: "试试这些",
+    relatedCategoryLabel: "相关分类",
   },
   categories: {
     ai: {

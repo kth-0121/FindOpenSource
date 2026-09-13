@@ -4,7 +4,9 @@ import { useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Category, Project } from "@/lib/schema";
 import { searchProjects } from "@/lib/search";
+import { getRelatedSearchTerms, getDominantCategory } from "@/lib/search-discovery";
 import { SearchResults } from "@/components/SearchResults";
+import { SearchStart } from "@/components/SearchStart";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
 
@@ -12,21 +14,36 @@ export function SearchExperience({
   initialQuery,
   projects,
   categories,
+  featuredProjects,
+  topCategories,
   locale,
   dict,
 }: {
   initialQuery: string;
   projects: Project[];
   categories: Category[];
+  featuredProjects: Project[];
+  topCategories: (Category & { count: number })[];
   locale: Locale;
   dict: Dictionary;
 }) {
   const router = useRouter();
   const [query, setQuery] = useState(initialQuery);
+  const trimmedQuery = query.trim();
 
   const results = useMemo(
     () => searchProjects(query, projects, categories, locale).map((result) => result.project),
     [query, projects, categories, locale],
+  );
+
+  const relatedSearchTerms = useMemo(
+    () => (trimmedQuery ? getRelatedSearchTerms(trimmedQuery, locale) : []),
+    [trimmedQuery, locale],
+  );
+
+  const relatedCategory = useMemo(
+    () => (results.length > 0 ? getDominantCategory(results, categories) : undefined),
+    [results, categories],
   );
 
   function handleChange(next: string) {
@@ -70,7 +87,23 @@ export function SearchExperience({
           />
         </div>
       </form>
-      <SearchResults query={query} results={results} locale={locale} dict={dict} />
+      {trimmedQuery.length === 0 ? (
+        <SearchStart
+          locale={locale}
+          dict={dict}
+          featuredProjects={featuredProjects}
+          topCategories={topCategories}
+        />
+      ) : (
+        <SearchResults
+          query={query}
+          results={results}
+          relatedCategory={relatedCategory}
+          relatedSearchTerms={relatedSearchTerms}
+          locale={locale}
+          dict={dict}
+        />
+      )}
     </div>
   );
 }

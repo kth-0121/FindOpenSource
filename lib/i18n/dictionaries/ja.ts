@@ -38,6 +38,9 @@ const dictionary: Dictionary = {
     noResultsSuggestion: "代わりに次のキーワードを試してみてください:",
     pageTitle: "検索",
     pageDescription: "機能、技術、カテゴリでオープンソースプロジェクトを検索します。",
+    startHeading: "オープンソースプロジェクトを探す",
+    relatedSearchesLabel: "こちらもおすすめ",
+    relatedCategoryLabel: "関連カテゴリ",
   },
   categories: {
     ai: {

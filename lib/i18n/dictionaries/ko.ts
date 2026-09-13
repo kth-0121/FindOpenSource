@@ -38,6 +38,9 @@ const dictionary: Dictionary = {
     noResultsSuggestion: "대신 이런 검색어는 어떠세요?",
     pageTitle: "검색",
     pageDescription: "기능, 기술 또는 카테고리로 오픈소스 프로젝트를 검색하세요.",
+    startHeading: "오픈소스 프로젝트 검색하기",
+    relatedSearchesLabel: "이런 검색어도 찾아보세요",
+    relatedCategoryLabel: "관련 카테고리",
   },
   categories: {
     ai: {

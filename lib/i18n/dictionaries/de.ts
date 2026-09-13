@@ -38,6 +38,9 @@ const dictionary: Dictionary = {
     noResultsSuggestion: "Versuche es stattdessen mit einem dieser Begriffe:",
     pageTitle: "Suche",
     pageDescription: "Durchsuche Open-Source-Projekte nach Funktion, Technologie oder Kategorie.",
+    startHeading: "Durchsuche Open-Source-Projekte",
+    relatedSearchesLabel: "Versuch es auch mit",
+    relatedCategoryLabel: "Verwandte Kategorie",
   },
   categories: {
     ai: {

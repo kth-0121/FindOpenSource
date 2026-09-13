@@ -36,6 +36,9 @@ export interface Dictionary {
     noResultsSuggestion: string;
     pageTitle: string;
     pageDescription: string;
+    startHeading: string;
+    relatedSearchesLabel: string;
+    relatedCategoryLabel: string;
   };
   categories: Record<string, { name: string; description: string }>;
   categoriesPage: {
