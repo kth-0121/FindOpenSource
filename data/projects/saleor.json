@@ -1,0 +1,46 @@
+{
+  "name": "Saleor",
+  "slug": "saleor",
+  "description": "Composable, GraphQL-first headless commerce platform built as a high-performance API for building custom storefronts and commerce experiences.",
+  "longDescription": "Saleor Core is a high-performance, composable headless commerce API built around GraphQL rather than REST. Instead of shipping a bundled storefront, it exposes commerce functionality - products, checkout, orders, payments, and more - as a GraphQL API that a separately built frontend (web, mobile, or otherwise) consumes, giving teams full control over the customer-facing experience.\n\nBecause the entire platform is API-first, it's designed to be extended and composed with other services rather than customized through a plugin system bolted onto a monolithic application.\n\nSaleor is a fit for teams building custom storefronts or commerce experiences who want a GraphQL-native headless commerce backend, particularly teams already working in a Python/GraphQL stack rather than a Node.js one.",
+  "repository": "https://github.com/saleor/saleor",
+  "website": "https://saleor.io",
+  "documentation": "https://docs.saleor.io",
+  "categories": [
+    "ecommerce"
+  ],
+  "keywords": [
+    "headless-commerce",
+    "ecommerce",
+    "graphql",
+    "online-store"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "BSD-3-Clause",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "可组合的、以 GraphQL 为核心的无头商务平台，作为高性能 API 提供，用于构建定制化的店面和商务体验。",
+      "longDescription": "Saleor Core 是一个高性能、可组合的无头商务 API，围绕 GraphQL（而非 REST）构建。它不提供内置店面，而是将产品、结算、订单、支付等商务功能以 GraphQL API 的形式暴露出来，供单独构建的前端（Web、移动端或其他形式）调用，让团队完全掌控面向客户的体验。\n\n由于整个平台采用 API 优先的设计，它更倾向于通过与其他服务组合和扩展来使用，而不是依靠附加在单体应用上的插件系统进行定制。\n\nSaleor 适合那些希望构建定制化店面或商务体验、并需要原生 GraphQL 无头商务后端的团队，尤其是那些已经在使用 Python/GraphQL 技术栈、而非 Node.js 技术栈的团队。"
+    },
+    "ja": {
+      "description": "コンポーザブルで GraphQL を中心に据えたヘッドレスコマースプラットフォームで、カスタムストアフロントやコマース体験を構築するための高性能 API として提供されます。",
+      "longDescription": "Saleor Core は、REST ではなく GraphQL を中心に構築された、高性能でコンポーザブルなヘッドレスコマース API です。組み込みのストアフロントを提供する代わりに、商品、チェックアウト、注文、決済などのコマース機能を GraphQL API として公開し、別途構築されたフロントエンド(Web、モバイル、その他)がそれを利用することで、チームは顧客向け体験を完全にコントロールできます。\n\nプラットフォーム全体が API ファーストであるため、モノリシックなアプリケーションに後付けされたプラグインシステムを通じてカスタマイズするのではなく、他のサービスと組み合わせて拡張していくことを前提に設計されています。\n\nSaleor は、カスタムストアフロントやコマース体験を構築したいチーム、特に Node.js スタックではなく Python/GraphQL スタックですでに開発しているチームで、GraphQL ネイティブなヘッドレスコマースバックエンドを求める場合に向いています。"
+    },
+    "ko": {
+      "description": "컴포저블하고 GraphQL 중심적인 헤드리스 커머스 플랫폼으로, 맞춤형 스토어프론트와 커머스 경험을 구축하기 위한 고성능 API로 제공됩니다.",
+      "longDescription": "Saleor Core는 REST가 아닌 GraphQL을 중심으로 구축된 고성능 컴포저블 헤드리스 커머스 API입니다. 내장 스토어프론트를 제공하는 대신, 상품, 결제, 주문, 페이먼트 등의 커머스 기능을 GraphQL API로 노출하며, 별도로 구축된 프런트엔드(웹, 모바일, 기타)가 이를 활용해 고객 대면 경험을 완전히 통제할 수 있게 합니다.\n\n전체 플랫폼이 API 우선으로 설계되어 있어, 모놀리식 애플리케이션에 덧붙여진 플러그인 시스템을 통해 커스터마이징하는 대신 다른 서비스와 조합하고 확장하도록 설계되었습니다.\n\nSaleor는 맞춤형 스토어프론트나 커머스 경험을 구축하려는 팀, 특히 Node.js 스택이 아닌 Python/GraphQL 스택에서 이미 작업 중인 팀이 GraphQL 네이티브 헤드리스 커머스 백엔드를 원할 때 적합합니다."
+    },
+    "es": {
+      "description": "Plataforma de comercio headless componible y centrada en GraphQL, construida como una API de alto rendimiento para crear storefronts y experiencias de comercio personalizadas.",
+      "longDescription": "Saleor Core es una API de comercio headless componible y de alto rendimiento, construida en torno a GraphQL en lugar de REST. En lugar de incluir un storefront empaquetado, expone la funcionalidad de comercio —productos, checkout, pedidos, pagos y más— como una API GraphQL que consume un frontend construido por separado (web, móvil u otro), dando a los equipos control total sobre la experiencia de cara al cliente.\n\nComo toda la plataforma es API-first, está pensada para ampliarse y componerse con otros servicios, en lugar de personalizarse mediante un sistema de plugins añadido a una aplicación monolítica.\n\nSaleor encaja en equipos que construyen storefronts o experiencias de comercio personalizadas y quieren un backend de comercio headless nativo en GraphQL, especialmente equipos que ya trabajan en un stack de Python/GraphQL en lugar de Node.js."
+    },
+    "de": {
+      "description": "Komponierbare, GraphQL-first Headless-Commerce-Plattform, gebaut als leistungsstarke API für individuelle Storefronts und Commerce-Erlebnisse.",
+      "longDescription": "Saleor Core ist eine leistungsstarke, komponierbare Headless-Commerce-API, die um GraphQL statt REST herum aufgebaut ist. Statt eines mitgelieferten Storefronts stellt es Commerce-Funktionalität – Produkte, Checkout, Bestellungen, Zahlungen und mehr – als GraphQL-API bereit, die ein separat gebautes Frontend (Web, Mobile oder anderes) konsumiert, sodass Teams die volle Kontrolle über das kundenseitige Erlebnis behalten.\n\nDa die gesamte Plattform API-first ist, ist sie darauf ausgelegt, mit anderen Diensten erweitert und kombiniert zu werden, statt über ein an eine monolithische Anwendung angeflanschtes Plugin-System angepasst zu werden.\n\nSaleor eignet sich für Teams, die individuelle Storefronts oder Commerce-Erlebnisse bauen und ein GraphQL-natives Headless-Commerce-Backend wollen – besonders für Teams, die bereits in einem Python/GraphQL-Stack statt in Node.js arbeiten."
+    }
+  }
+}

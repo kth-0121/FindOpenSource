@@ -1,0 +1,46 @@
+{
+  "name": "Video.js",
+  "slug": "video-js",
+  "description": "Full-featured, open-source HTML5 video player for the web, supporting common streaming formats and extensible through a plugin ecosystem.",
+  "longDescription": "Video.js is an open-source web video player that works across desktop browsers, mobile devices, tablets, and web-based smart TVs. Out of the box it supports the common media formats used on the web, including streaming formats like HLS and DASH, so it can play adaptive-bitrate video without extra configuration in most cases.\n\nIt can be added to a page directly via a CDN-hosted script and stylesheet, or installed via npm for projects that bundle their own dependencies, and its behavior can be extended through a large ecosystem of community and official plugins. The project has been actively developed since 2010 and is used across a large number of production websites.\n\nVideo.js is a fit for teams that need an embeddable, customizable video player component for their own site or app, complementing rather than replacing a full media server (like Jellyfin in the current catalog) that handles storage and library management.",
+  "repository": "https://github.com/videojs/video.js",
+  "website": "https://videojs.com",
+  "documentation": "https://videojs.com/guides/",
+  "categories": [
+    "media"
+  ],
+  "keywords": [
+    "video-player",
+    "html5-video",
+    "streaming",
+    "web-video"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "功能完善的开源 HTML5 网页视频播放器，支持常见流媒体格式，并可通过插件生态系统进行扩展。",
+      "longDescription": "Video.js 是一个开源的网页视频播放器，可在桌面浏览器、移动设备、平板电脑以及基于 Web 的智能电视上运行。它开箱即用地支持 Web 上常见的媒体格式，包括 HLS 和 DASH 等流媒体格式，因此在大多数情况下无需额外配置即可播放自适应码率视频。\n\n它既可以通过 CDN 托管的脚本和样式表直接添加到页面中，也可以通过 npm 安装，供希望自行打包依赖的项目使用；其行为还可以通过庞大的社区和官方插件生态系统进行扩展。该项目自 2010 年以来一直在积极开发，并被大量生产环境网站所使用。\n\nVideo.js 适合那些需要为自己的网站或应用嵌入可定制视频播放组件的团队，与目录中处理存储和媒体库管理的完整媒体服务器（如 Jellyfin）形成互补，而非替代关系。"
+    },
+    "ja": {
+      "description": "一般的なストリーミング形式に対応し、プラグインエコシステムによって拡張可能な、フル機能のオープンソース HTML5 ウェブビデオプレイヤーです。",
+      "longDescription": "Video.js は、デスクトップブラウザ、モバイルデバイス、タブレット、Web ベースのスマート TV にまたがって動作するオープンソースの Web ビデオプレイヤーです。標準で HLS や DASH といったストリーミング形式を含む、Web で使われる一般的なメディア形式に対応しているため、ほとんどの場合、追加設定なしでアダプティブビットレート動画を再生できます。\n\nCDN でホストされたスクリプトとスタイルシートを使ってページに直接追加することも、独自の依存関係をバンドルするプロジェクト向けに npm 経由でインストールすることもでき、その動作はコミュニティおよび公式の大規模なプラグインエコシステムによって拡張できます。このプロジェクトは2010年から活発に開発が続けられており、非常に多くの本番サイトで利用されています。\n\nVideo.js は、自社のサイトやアプリに組み込み可能でカスタマイズ可能なビデオプレイヤーコンポーネントを必要とするチームに向いており、ストレージとライブラリ管理を担うカタログ内の Jellyfin のようなフル機能のメディアサーバーを置き換えるのではなく、補完する関係にあります。"
+    },
+    "ko": {
+      "description": "일반적인 스트리밍 형식을 지원하고 플러그인 생태계를 통해 확장 가능한, 완전한 기능을 갖춘 오픈소스 HTML5 웹 비디오 플레이어입니다.",
+      "longDescription": "Video.js는 데스크톱 브라우저, 모바일 기기, 태블릿, 웹 기반 스마트 TV 전반에서 동작하는 오픈소스 웹 비디오 플레이어입니다. HLS, DASH 같은 스트리밍 형식을 포함해 웹에서 흔히 사용되는 미디어 형식을 기본으로 지원하므로, 대부분의 경우 별도 설정 없이 적응형 비트레이트 동영상을 재생할 수 있습니다.\n\nCDN에 호스팅된 스크립트와 스타일시트를 통해 페이지에 직접 추가하거나, 자체 의존성을 번들링하려는 프로젝트를 위해 npm으로 설치할 수 있으며, 커뮤니티 및 공식 플러그인의 방대한 생태계를 통해 동작을 확장할 수 있습니다. 이 프로젝트는 2010년부터 활발히 개발되어 왔으며 매우 많은 프로덕션 웹사이트에서 사용되고 있습니다.\n\nVideo.js는 자체 사이트나 앱에 내장 가능한 커스터마이징 가능한 비디오 플레이어 컴포넌트가 필요한 팀에 적합하며, 스토리지와 라이브러리 관리를 담당하는 카탈로그의 Jellyfin 같은 완전한 미디어 서버를 대체하기보다는 보완합니다."
+    },
+    "es": {
+      "description": "Reproductor de vídeo HTML5 completo y de código abierto para la web, compatible con formatos de streaming comunes y ampliable mediante un ecosistema de plugins.",
+      "longDescription": "Video.js es un reproductor de vídeo web de código abierto que funciona en navegadores de escritorio, dispositivos móviles, tablets y smart TVs basadas en web. De serie es compatible con los formatos de medios habituales en la web, incluidos formatos de streaming como HLS y DASH, por lo que puede reproducir vídeo de bitrate adaptativo sin configuración adicional en la mayoría de los casos.\n\nSe puede añadir a una página directamente mediante un script y una hoja de estilos alojados en un CDN, o instalarse vía npm para proyectos que empaquetan sus propias dependencias, y su comportamiento se puede ampliar a través de un amplio ecosistema de plugins comunitarios y oficiales. El proyecto se desarrolla activamente desde 2010 y se usa en un gran número de sitios web en producción.\n\nVideo.js encaja en equipos que necesitan un componente de reproductor de vídeo integrable y personalizable para su propio sitio o app, complementando en lugar de sustituir a un servidor multimedia completo (como Jellyfin en el catálogo actual) que gestiona el almacenamiento y la biblioteca."
+    },
+    "de": {
+      "description": "Voll ausgestatteter, quelloffener HTML5-Videoplayer für das Web, der gängige Streaming-Formate unterstützt und über ein Plugin-Ökosystem erweiterbar ist.",
+      "longDescription": "Video.js ist ein Open-Source-Webvideoplayer, der in Desktop-Browsern, auf Mobilgeräten, Tablets und webbasierten Smart-TVs funktioniert. Von Haus aus unterstützt er die im Web gängigen Medienformate, einschließlich Streaming-Formaten wie HLS und DASH, sodass er in den meisten Fällen Video mit adaptiver Bitrate ohne zusätzliche Konfiguration abspielen kann.\n\nEr lässt sich direkt über ein CDN-gehostetes Skript und Stylesheet in eine Seite einbinden oder per npm installieren, für Projekte, die ihre eigenen Abhängigkeiten bündeln, und sein Verhalten lässt sich über ein großes Ökosystem aus Community- und offiziellen Plugins erweitern. Das Projekt wird seit 2010 aktiv weiterentwickelt und auf einer großen Zahl von Produktions-Websites eingesetzt.\n\nVideo.js eignet sich für Teams, die eine einbettbare, anpassbare Videoplayer-Komponente für die eigene Website oder App benötigen – als Ergänzung, nicht als Ersatz für einen vollwertigen Medienserver (wie Jellyfin im aktuellen Katalog), der Speicherung und Bibliotheksverwaltung übernimmt."
+    }
+  }
+}

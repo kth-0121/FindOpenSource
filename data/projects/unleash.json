@@ -1,0 +1,47 @@
+{
+  "name": "Unleash",
+  "slug": "unleash",
+  "description": "Open-source feature management platform for rolling out features gradually, running experiments, and controlling releases without redeploying code.",
+  "longDescription": "Unleash is an open-source feature management platform that lets teams control when and how new features reach users, independently of when code is deployed. Feature flags let a team ship code to production already, then turn a feature on for a subset of users - or roll it back instantly - without a new deployment, and let multiple features be developed and tested with real production data simultaneously rather than coordinating long-lived feature branches.\n\nIt supports gradual rollouts, targeting rules, and the kind of controlled experimentation feature flags are commonly used for, with client SDKs across many languages and both a self-hosted deployment and a managed Unleash offering.\n\nUnleash is a fit for teams that want to decouple releasing code from releasing features - reducing the risk of any single deployment - rather than relying on deployment-time feature toggles or long-lived branches.",
+  "repository": "https://github.com/Unleash/unleash",
+  "website": "https://www.getunleash.io",
+  "documentation": "https://docs.getunleash.io",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "feature-flags",
+    "feature-management",
+    "progressive-rollout",
+    "experimentation",
+    "remote-config"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "开源的功能管理平台，可在不重新部署代码的情况下逐步发布功能、进行实验并控制发布节奏。",
+      "longDescription": "Unleash 是一个开源的功能管理平台，让团队能够独立于代码部署时间，控制新功能何时以及如何触达用户。功能开关让团队可以先将代码部署到生产环境，之后再为部分用户开启某个功能——或者在需要时立即回滚——而无需重新部署；同时也让多个功能能够基于真实生产数据同时开发和测试，而不必协调长期存在的功能分支。\n\n它支持渐进式发布、定向规则，以及功能开关常用于的那种受控实验，并为多种语言提供客户端 SDK，既可以自托管部署，也可以使用托管版 Unleash 服务。\n\nUnleash 适合那些希望将“发布代码”和“发布功能”解耦、从而降低单次部署风险的团队，而不是依赖部署时的功能开关或长期存在的分支。"
+    },
+    "ja": {
+      "description": "コードを再デプロイすることなく、機能を段階的にロールアウトし、実験を行い、リリースをコントロールできる、オープンソースのフィーチャー管理プラットフォームです。",
+      "longDescription": "Unleash は、新機能がいつ、どのようにユーザーに届くかを、コードのデプロイタイミングとは独立してコントロールできる、オープンソースのフィーチャー管理プラットフォームです。フィーチャーフラグを使えば、チームはすでに本番環境にコードをデプロイしておき、その後、新たなデプロイなしに一部のユーザー向けに機能をオンにしたり、即座にロールバックしたりできます。また、長期間存在するフィーチャーブランチを調整するのではなく、実際の本番データを使って複数の機能を同時に開発・テストすることもできます。\n\n段階的なロールアウト、ターゲティングルール、そしてフィーチャーフラグが一般的に使われるような制御された実験をサポートしており、多くの言語向けのクライアント SDK を備え、セルフホストでのデプロイとマネージド版の Unleash の両方が提供されています。\n\nUnleash は、デプロイ時のフィーチャートグルや長期間のブランチに頼るのではなく、コードのリリースと機能のリリースを切り離すことで、個々のデプロイのリスクを減らしたいチームに向いています。"
+    },
+    "ko": {
+      "description": "코드를 다시 배포하지 않고도 기능을 점진적으로 출시하고, 실험을 진행하고, 릴리스를 통제할 수 있는 오픈소스 기능 관리 플랫폼입니다.",
+      "longDescription": "Unleash는 새로운 기능이 언제, 어떻게 사용자에게 도달할지를 코드 배포 시점과 독립적으로 통제할 수 있는 오픈소스 기능 관리 플랫폼입니다. 기능 플래그를 사용하면 팀은 이미 프로덕션에 코드를 배포해 두고, 이후 새로운 배포 없이 일부 사용자에게만 기능을 켜거나 즉시 롤백할 수 있으며, 장기간 유지되는 기능 브랜치를 조율하는 대신 실제 프로덕션 데이터로 여러 기능을 동시에 개발하고 테스트할 수 있습니다.\n\n점진적 출시, 타겟팅 규칙, 그리고 기능 플래그가 흔히 사용되는 방식의 통제된 실험을 지원하며, 다양한 언어를 위한 클라이언트 SDK와 함께 셀프 호스팅 배포와 관리형 Unleash 서비스를 모두 제공합니다.\n\nUnleash는 배포 시점의 기능 토글이나 장기간 유지되는 브랜치에 의존하는 대신, 코드 릴리스와 기능 릴리스를 분리해 개별 배포의 위험을 줄이고 싶은 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Plataforma de gestión de funcionalidades de código abierto para lanzar funciones de forma gradual, ejecutar experimentos y controlar releases sin volver a desplegar código.",
+      "longDescription": "Unleash es una plataforma de gestión de funcionalidades de código abierto que permite a los equipos controlar cuándo y cómo llegan las nuevas funciones a los usuarios, de forma independiente al momento en que se despliega el código. Las feature flags permiten a un equipo desplegar código en producción y luego activar una función para un subconjunto de usuarios —o revertirla al instante— sin un nuevo despliegue, y permiten desarrollar y probar varias funciones simultáneamente con datos reales de producción en lugar de coordinar ramas de funcionalidades de larga duración.\n\nAdmite lanzamientos graduales, reglas de segmentación y el tipo de experimentación controlada para la que suelen usarse las feature flags, con SDKs de cliente para muchos lenguajes y tanto un despliegue autoalojado como una oferta gestionada de Unleash.\n\nUnleash encaja en equipos que quieren desacoplar el lanzamiento de código del lanzamiento de funciones —reduciendo el riesgo de cualquier despliegue concreto—, en lugar de depender de toggles de funciones en el momento del despliegue o de ramas de larga duración."
+    },
+    "de": {
+      "description": "Open-Source-Plattform für Feature-Management, um Funktionen schrittweise auszurollen, Experimente durchzuführen und Releases zu steuern, ohne Code neu zu deployen.",
+      "longDescription": "Unleash ist eine Open-Source-Plattform für Feature-Management, mit der Teams unabhängig vom Zeitpunkt des Code-Deployments steuern können, wann und wie neue Funktionen bei den Nutzern ankommen. Feature Flags erlauben es einem Team, Code bereits in die Produktion zu bringen und eine Funktion anschließend für eine Untergruppe von Nutzern zu aktivieren – oder sofort zurückzurollen – ohne ein neues Deployment, und mehrere Funktionen gleichzeitig mit echten Produktionsdaten zu entwickeln und zu testen, statt langlebige Feature-Branches zu koordinieren.\n\nEs unterstützt schrittweise Rollouts, Targeting-Regeln und die Art kontrollierter Experimente, für die Feature Flags üblicherweise genutzt werden, mit Client-SDKs für viele Sprachen sowie sowohl einem selbst gehosteten Deployment als auch einem verwalteten Unleash-Angebot.\n\nUnleash eignet sich für Teams, die das Releasen von Code vom Releasen von Funktionen entkoppeln möchten – um das Risiko einzelner Deployments zu senken –, statt sich auf Feature-Toggles zum Deployment-Zeitpunkt oder langlebige Branches zu verlassen."
+    }
+  }
+}

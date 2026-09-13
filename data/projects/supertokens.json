@@ -1,0 +1,49 @@
+{
+  "name": "SuperTokens",
+  "slug": "supertokens",
+  "description": "Open-source, self-hosted authentication core service offering passwordless, social, and email/password login as an alternative to Auth0 or Firebase Auth.",
+  "longDescription": "SuperTokens Core is the backend HTTP service at the center of SuperTokens, an open-source authentication system positioned as an alternative to Auth0, Firebase Auth, and AWS Cognito. It handles the core authentication logic and database operations, and is called by SuperTokens' Backend SDKs (available for Node.js, Go, Python, and others), which in turn expose sign-up, sign-in, sign-out, and session-refresh APIs that a Frontend SDK consumes to manage session tokens and render login UI.\n\nIt supports passwordless login, social login, email/password and phone/password authentication, session management, multi-factor authentication, multi-tenancy with per-organization enterprise SSO, user roles, and microservice-to-microservice authentication. Content outside the repository's ee/ directory is Apache-2.0 licensed; the ee/ directory (enterprise features) is licensed separately.\n\nSuperTokens fits teams that want to self-host their authentication logic and data directly, using official SDKs for their stack, rather than depending on a fully hosted third-party identity provider.",
+  "repository": "https://github.com/supertokens/supertokens-core",
+  "website": "https://supertokens.com",
+  "documentation": "https://supertokens.com/docs/guides",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "authentication",
+    "passwordless",
+    "social-login",
+    "session-management",
+    "self-hosted",
+    "login",
+    "mfa"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "开源的自托管身份验证核心服务，提供无密码登录、社交登录和邮箱/密码登录，可作为 Auth0 或 Firebase Auth 的替代方案。",
+      "longDescription": "SuperTokens Core 是 SuperTokens 的核心后端 HTTP 服务，SuperTokens 是一个开源身份验证系统，定位为 Auth0、Firebase Auth 和 AWS Cognito 的替代方案。它负责处理核心身份验证逻辑和数据库操作，由 SuperTokens 的后端 SDK（提供 Node.js、Go、Python 等多种语言版本）调用；这些后端 SDK 又对外暴露注册、登录、登出和会话刷新等 API，供前端 SDK 使用，以管理会话令牌并渲染登录界面。\n\n它支持无密码登录、社交登录、邮箱/密码及手机号/密码认证、会话管理、多因素认证、按组织划分的多租户企业级单点登录、用户角色，以及微服务间身份验证。该仓库中 `ee/` 目录之外的内容采用 Apache-2.0 许可证；`ee/` 目录（企业版功能）则单独授权。\n\nSuperTokens 适合那些希望使用官方 SDK、直接自托管自己的身份验证逻辑和数据，而不是依赖完全托管的第三方身份提供商的团队。"
+    },
+    "ja": {
+      "description": "無パスワードログイン、ソーシャルログイン、メール/パスワードログインを提供する、Auth0やFirebase Authの代替となるオープンソースのセルフホスト型認証コアサービスです。",
+      "longDescription": "SuperTokens Core は、Auth0、Firebase Auth、AWS Cognito の代替として位置づけられているオープンソース認証システム SuperTokens の中核をなすバックエンド HTTP サービスです。コアとなる認証ロジックとデータベース操作を担い、Node.js、Go、Python などに対応する SuperTokens のバックエンド SDK から呼び出されます。バックエンド SDK はサインアップ、サインイン、サインアウト、セッションリフレッシュなどの API を公開し、フロントエンド SDK がそれらを利用してセッショントークンを管理し、ログイン UI を描画します。\n\nパスワードレスログイン、ソーシャルログイン、メール/パスワードおよび電話番号/パスワード認証、セッション管理、多要素認証、組織ごとのエンタープライズ SSO を伴うマルチテナンシー、ユーザーロール、マイクロサービス間認証をサポートしています。このリポジトリの `ee/` ディレクトリ以外のコンテンツは Apache-2.0 ライセンスで、`ee/` ディレクトリ(エンタープライズ機能)は別途ライセンスされています。\n\nSuperTokens は、完全にホストされたサードパーティの ID プロバイダーに依存するのではなく、公式 SDK を使って自分たちのスタックに合わせ、認証ロジックとデータを直接セルフホストしたいチームに向いています。"
+    },
+    "ko": {
+      "description": "비밀번호 없는 로그인, 소셜 로그인, 이메일/비밀번호 로그인을 제공하는 오픈소스 셀프 호스팅 인증 코어 서비스로, Auth0나 Firebase Auth의 대안입니다.",
+      "longDescription": "SuperTokens Core는 Auth0, Firebase Auth, AWS Cognito의 대안으로 자리매김한 오픈소스 인증 시스템 SuperTokens의 중심이 되는 백엔드 HTTP 서비스입니다. 핵심 인증 로직과 데이터베이스 작업을 처리하며, Node.js, Go, Python 등을 지원하는 SuperTokens의 백엔드 SDK에서 호출됩니다. 이 백엔드 SDK는 회원가입, 로그인, 로그아웃, 세션 갱신 API를 제공하며, 프런트엔드 SDK가 이를 활용해 세션 토큰을 관리하고 로그인 UI를 렌더링합니다.\n\n비밀번호 없는 로그인, 소셜 로그인, 이메일/비밀번호 및 전화번호/비밀번호 인증, 세션 관리, 다단계 인증, 조직 단위 엔터프라이즈 SSO를 지원하는 멀티테넌시, 사용자 역할, 마이크로서비스 간 인증을 지원합니다. 이 저장소에서 `ee/` 디렉터리 외부의 콘텐츠는 Apache-2.0 라이선스이며, `ee/` 디렉터리(엔터프라이즈 기능)는 별도로 라이선스됩니다.\n\nSuperTokens는 완전히 호스팅되는 서드파티 아이덴티티 제공자에 의존하는 대신, 공식 SDK를 사용해 자신의 스택에 맞게 인증 로직과 데이터를 직접 셀프 호스팅하고 싶은 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Servicio central de autenticación autoalojado y de código abierto que ofrece inicio de sesión sin contraseña, social y por email/contraseña, como alternativa a Auth0 o Firebase Auth.",
+      "longDescription": "SuperTokens Core es el servicio HTTP backend central de SuperTokens, un sistema de autenticación de código abierto posicionado como alternativa a Auth0, Firebase Auth y AWS Cognito. Se encarga de la lógica de autenticación principal y de las operaciones de base de datos, y es invocado por los SDKs de backend de SuperTokens (disponibles para Node.js, Go, Python y otros), que a su vez exponen APIs de registro, inicio de sesión, cierre de sesión y renovación de sesión que un SDK de frontend consume para gestionar los tokens de sesión y renderizar la interfaz de inicio de sesión.\n\nEs compatible con inicio de sesión sin contraseña, inicio de sesión social, autenticación por email/contraseña y teléfono/contraseña, gestión de sesiones, autenticación multifactor, multi-tenancy con SSO empresarial por organización, roles de usuario y autenticación entre microservicios. El contenido fuera del directorio `ee/` del repositorio tiene licencia Apache-2.0; el directorio `ee/` (funciones empresariales) tiene una licencia distinta.\n\nSuperTokens encaja en equipos que quieren autoalojar directamente su lógica y datos de autenticación, usando los SDKs oficiales para su stack, en lugar de depender de un proveedor de identidad de terceros totalmente alojado."
+    },
+    "de": {
+      "description": "Open-Source, selbst gehosteter Authentifizierungs-Kerndienst mit passwortloser, sozialer und E-Mail-/Passwort-Anmeldung als Alternative zu Auth0 oder Firebase Auth.",
+      "longDescription": "SuperTokens Core ist der zentrale Backend-HTTP-Dienst von SuperTokens, einem Open-Source-Authentifizierungssystem, das als Alternative zu Auth0, Firebase Auth und AWS Cognito positioniert ist. Er übernimmt die eigentliche Authentifizierungslogik und Datenbankoperationen und wird von den Backend-SDKs von SuperTokens aufgerufen (verfügbar für Node.js, Go, Python und weitere), die wiederum APIs für Registrierung, Login, Logout und Session-Refresh bereitstellen, die ein Frontend-SDK nutzt, um Session-Tokens zu verwalten und die Login-UI darzustellen.\n\nEs unterstützt passwortlose Anmeldung, Social Login, E-Mail-/Passwort- und Telefon-/Passwort-Authentifizierung, Session-Management, Multi-Faktor-Authentifizierung, Multi-Tenancy mit organisationsbezogenem Enterprise-SSO, Benutzerrollen sowie Authentifizierung zwischen Microservices. Inhalte außerhalb des `ee/`-Verzeichnisses des Repositorys stehen unter der Apache-2.0-Lizenz; das `ee/`-Verzeichnis (Enterprise-Funktionen) ist separat lizenziert.\n\nSuperTokens eignet sich für Teams, die ihre Authentifizierungslogik und -daten mit offiziellen SDKs für ihren Stack direkt selbst hosten möchten, statt sich auf einen vollständig gehosteten Identitätsanbieter eines Drittanbieters zu verlassen."
+    }
+  }
+}

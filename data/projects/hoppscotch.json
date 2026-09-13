@@ -1,0 +1,48 @@
+{
+  "name": "Hoppscotch",
+  "slug": "hoppscotch",
+  "description": "Lightweight, open-source API development ecosystem for building and testing REST, GraphQL, WebSocket, and other API requests, as an alternative to Postman.",
+  "longDescription": "Hoppscotch is an open-source API development ecosystem for building, sending, and inspecting API requests, positioned as an alternative to Postman and Insomnia. It supports the full range of HTTP methods (including custom methods some APIs use) plus GraphQL, WebSocket, Server-Sent Events, and other protocols, with real-time request/response handling in a deliberately lightweight, minimalist interface.\n\nIt's available as a web app, desktop app, and CLI, and can run fully offline, on-premises, or in the cloud depending on how a team wants to deploy it. As a Progressive Web App it supports instant loading and offline use via service workers, and its themes and settings sync across cloud or local sessions.\n\nHoppscotch is a fit for developers who want a fast, self-hostable API client for building and testing requests during development, rather than a proprietary desktop-only tool.",
+  "repository": "https://github.com/hoppscotch/hoppscotch",
+  "website": "https://hoppscotch.io",
+  "documentation": "https://docs.hoppscotch.io",
+  "categories": [
+    "developer-tools",
+    "api"
+  ],
+  "keywords": [
+    "api-client",
+    "api-testing",
+    "rest-client",
+    "graphql-client",
+    "postman-alternative"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "轻量级开源 API 开发生态系统，用于构建和测试 REST、GraphQL、WebSocket 等各类 API 请求，可作为 Postman 的替代方案。",
+      "longDescription": "Hoppscotch 是一个开源的 API 开发生态系统，用于构建、发送和检查 API 请求，定位为 Postman 和 Insomnia 的替代方案。它支持全部 HTTP 方法（包括部分 API 使用的自定义方法），以及 GraphQL、WebSocket、Server-Sent Events 等协议，在一个刻意保持轻量、简洁的界面中实现实时请求/响应处理。\n\n它提供 Web 应用、桌面应用和 CLI 三种形式，可以完全离线运行、本地部署，或部署在云端，具体取决于团队希望如何部署。作为一个渐进式 Web 应用（PWA），它通过 Service Worker 支持即时加载和离线使用，主题和设置也可以在云端或本地会话之间同步。\n\nHoppscotch 适合那些希望在开发过程中使用快速、可自托管的 API 客户端来构建和测试请求的开发者，而不是使用专有的纯桌面工具。"
+    },
+    "ja": {
+      "description": "REST、GraphQL、WebSocket など各種 API リクエストの作成・テストを行う、軽量なオープンソースの API 開発エコシステムで、Postman の代替として使えます。",
+      "longDescription": "Hoppscotch は、API リクエストの作成、送信、検証を行うためのオープンソース API 開発エコシステムで、Postman や Insomnia の代替として位置づけられています。一般的な HTTP メソッド(一部の API で使われるカスタムメソッドを含む)に加え、GraphQL、WebSocket、Server-Sent Events などのプロトコルにも対応しており、意図的に軽量でミニマルなインターフェースでリアルタイムなリクエスト/レスポンス処理を行えます。\n\nWeb アプリ、デスクトップアプリ、CLI として提供されており、チームがどのようにデプロイしたいかに応じて、完全オフライン、オンプレミス、またはクラウドで動作させることができます。Progressive Web App として、Service Worker による即時読み込みとオフライン利用に対応しており、テーマや設定はクラウドまたはローカルセッション間で同期されます。\n\nHoppscotch は、プロプライエタリなデスクトップ専用ツールではなく、開発中にリクエストを作成・テストするための高速でセルフホスト可能な API クライアントを求める開発者に向いています。"
+    },
+    "ko": {
+      "description": "REST, GraphQL, WebSocket 등 다양한 API 요청을 만들고 테스트하는 경량 오픈소스 API 개발 생태계로, Postman의 대안입니다.",
+      "longDescription": "Hoppscotch는 API 요청을 작성, 전송, 검사하기 위한 오픈소스 API 개발 생태계로, Postman과 Insomnia의 대안으로 자리매김하고 있습니다. 일반적인 HTTP 메서드(일부 API가 사용하는 커스텀 메서드 포함)는 물론 GraphQL, WebSocket, Server-Sent Events 등 다양한 프로토콜을 지원하며, 의도적으로 가볍고 미니멀한 인터페이스에서 실시간 요청/응답 처리를 제공합니다.\n\n웹 앱, 데스크톱 앱, CLI 형태로 제공되며, 팀이 원하는 배포 방식에 따라 완전 오프라인, 온프레미스, 또는 클라우드에서 실행할 수 있습니다. PWA(프로그레시브 웹 앱)로서 서비스 워커를 통한 즉시 로딩과 오프라인 사용을 지원하며, 테마와 설정은 클라우드 또는 로컬 세션 간에 동기화됩니다.\n\nHoppscotch는 독점적인 데스크톱 전용 도구 대신, 개발 중 요청을 만들고 테스트하기 위한 빠르고 셀프 호스팅 가능한 API 클라이언트를 원하는 개발자에게 적합합니다."
+    },
+    "es": {
+      "description": "Ecosistema de desarrollo de API ligero y de código abierto para crear y probar solicitudes REST, GraphQL, WebSocket y de otro tipo, como alternativa a Postman.",
+      "longDescription": "Hoppscotch es un ecosistema de desarrollo de API de código abierto para crear, enviar e inspeccionar solicitudes de API, posicionado como alternativa a Postman e Insomnia. Es compatible con toda la gama de métodos HTTP (incluidos métodos personalizados que usan algunas APIs), además de GraphQL, WebSocket, Server-Sent Events y otros protocolos, con manejo de solicitudes/respuestas en tiempo real en una interfaz deliberadamente ligera y minimalista.\n\nEstá disponible como app web, app de escritorio y CLI, y puede ejecutarse totalmente sin conexión, on-premises o en la nube, según cómo quiera desplegarlo un equipo. Como Progressive Web App, admite carga instantánea y uso sin conexión mediante service workers, y sus temas y ajustes se sincronizan entre sesiones en la nube o locales.\n\nHoppscotch encaja en desarrolladores que quieren un cliente de API rápido y autoalojable para crear y probar solicitudes durante el desarrollo, en lugar de una herramienta propietaria solo de escritorio."
+    },
+    "de": {
+      "description": "Leichtgewichtiges, quelloffenes API-Entwicklungsökosystem zum Erstellen und Testen von REST-, GraphQL-, WebSocket- und anderen API-Anfragen, als Alternative zu Postman.",
+      "longDescription": "Hoppscotch ist ein Open-Source-Ökosystem für die API-Entwicklung, mit dem sich API-Anfragen erstellen, senden und untersuchen lassen – positioniert als Alternative zu Postman und Insomnia. Es unterstützt die gesamte Bandbreite an HTTP-Methoden (einschließlich benutzerdefinierter Methoden, die manche APIs verwenden) sowie GraphQL, WebSocket, Server-Sent Events und weitere Protokolle, mit Echtzeit-Anfrage-/Antwortverarbeitung in einer bewusst leichtgewichtigen, minimalistischen Oberfläche.\n\nEs ist als Web-App, Desktop-App und CLI verfügbar und kann je nach gewünschter Deployment-Art eines Teams vollständig offline, on-premises oder in der Cloud laufen. Als Progressive Web App unterstützt es sofortiges Laden und Offline-Nutzung über Service Worker, und Themes sowie Einstellungen werden zwischen Cloud- oder lokalen Sitzungen synchronisiert.\n\nHoppscotch eignet sich für Entwickler, die einen schnellen, selbst hostbaren API-Client zum Erstellen und Testen von Anfragen während der Entwicklung möchten, statt eines proprietären, reinen Desktop-Tools."
+    }
+  }
+}

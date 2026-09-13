@@ -1,0 +1,47 @@
+{
+  "name": "Kong",
+  "slug": "kong",
+  "description": "Cloud-native API gateway that handles routing, load balancing, authentication, and traffic management for microservices, APIs, and LLM/MCP traffic.",
+  "longDescription": "Kong (Kong Gateway) is a cloud-native, platform-agnostic API gateway built for high performance and extended through a plugin system. It sits in front of your services and handles proxying, routing, load balancing, health checking, and authentication for API and microservice traffic, acting as a central layer instead of building that logic into each individual service.\n\nBeyond conventional API traffic, Kong also provides gateway capabilities specifically for AI workloads, including multi-LLM support, semantic security, and traffic security/analytics for MCP (Model Context Protocol) traffic. It runs natively on Kubernetes via an official Kubernetes Ingress Controller, and can also be deployed via Kong's own hosted Konnect platform if you don't want to operate it yourself.\n\nKong is a fit for teams that need a dedicated, pluggable gateway layer in front of many services or APIs - for routing, auth, and traffic policy - rather than handling that logic in each service or using a general-purpose reverse proxy.",
+  "repository": "https://github.com/Kong/kong",
+  "website": "https://konghq.com",
+  "documentation": "https://docs.konghq.com",
+  "categories": [
+    "api"
+  ],
+  "keywords": [
+    "api-gateway",
+    "reverse-proxy",
+    "microservices",
+    "plugins",
+    "rate-limiting"
+  ],
+  "languages": [
+    "Lua"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "云原生 API 网关，为微服务、API 以及 LLM/MCP 流量处理路由、负载均衡、身份验证和流量管理。",
+      "longDescription": "Kong（Kong Gateway）是一个云原生、平台无关的 API 网关，专为高性能设计，并通过插件系统进行扩展。它部署在你的服务前端，负责处理 API 和微服务流量的代理、路由、负载均衡、健康检查和身份验证，作为一个集中层运行，而不是将这些逻辑分别构建到每个服务中。\n\n除了处理常规 API 流量外，Kong 还专门为 AI 工作负载提供网关能力，包括多 LLM 支持、语义安全，以及针对 MCP（Model Context Protocol）流量的流量安全与分析。它可以通过官方 Kubernetes Ingress Controller 原生运行在 Kubernetes 上，如果不想自行运维，也可以通过 Kong 自家托管的 Konnect 平台进行部署。\n\nKong 适合那些需要在众多服务或 API 前面部署专用、可插拔网关层（用于路由、身份验证和流量策略）的团队，而不是在每个服务中分别处理这些逻辑，或使用通用型反向代理。"
+    },
+    "ja": {
+      "description": "マイクロサービス、API、LLM/MCP トラフィックのルーティング、ロードバランシング、認証、トラフィック管理を担うクラウドネイティブな API ゲートウェイです。",
+      "longDescription": "Kong(Kong Gateway)は、高いパフォーマンスを目指して構築され、プラグインシステムによって拡張できる、クラウドネイティブでプラットフォームに依存しない API ゲートウェイです。サービスの前段に配置され、API やマイクロサービスのトラフィックに対するプロキシ、ルーティング、ロードバランシング、ヘルスチェック、認証を担い、各サービスに個別にそのロジックを組み込むのではなく、中央集権的なレイヤーとして機能します。\n\n通常の API トラフィックに加えて、Kong は AI ワークロード向けのゲートウェイ機能も提供しており、マルチ LLM サポート、セマンティックセキュリティ、MCP(Model Context Protocol)トラフィック向けのトラフィックセキュリティ・分析も含まれます。公式の Kubernetes Ingress Controller を通じて Kubernetes 上でネイティブに動作し、自分で運用したくない場合は Kong 自身がホストする Konnect プラットフォーム経由でデプロイすることもできます。\n\nKong は、各サービスに個別にそのロジックを持たせたり汎用のリバースプロキシを使ったりするのではなく、多数のサービスや API の前段に、ルーティング・認証・トラフィックポリシーのための専用でプラグイン可能なゲートウェイ層を必要とするチームに向いています。"
+    },
+    "ko": {
+      "description": "마이크로서비스, API, LLM/MCP 트래픽에 대한 라우팅, 로드 밸런싱, 인증, 트래픽 관리를 담당하는 클라우드 네이티브 API 게이트웨이입니다.",
+      "longDescription": "Kong(Kong Gateway)은 고성능을 목표로 구축되고 플러그인 시스템을 통해 확장 가능한 클라우드 네이티브, 플랫폼 독립적 API 게이트웨이입니다. 서비스 앞단에 위치해 API 및 마이크로서비스 트래픽에 대한 프록시, 라우팅, 로드 밸런싱, 헬스 체크, 인증을 처리하며, 각 서비스에 개별적으로 이러한 로직을 구축하는 대신 하나의 중앙 계층으로 동작합니다.\n\n일반적인 API 트래픽 외에도, Kong은 AI 워크로드를 위한 게이트웨이 기능도 제공합니다. 여기에는 다중 LLM 지원, 시맨틱 보안, MCP(Model Context Protocol) 트래픽에 대한 트래픽 보안 및 분석이 포함됩니다. 공식 Kubernetes Ingress Controller를 통해 Kubernetes에서 네이티브로 실행되며, 직접 운영하고 싶지 않다면 Kong이 자체적으로 호스팅하는 Konnect 플랫폼을 통해 배포할 수도 있습니다.\n\nKong은 각 서비스마다 해당 로직을 개별 처리하거나 범용 리버스 프록시를 사용하는 대신, 여러 서비스나 API 앞단에 라우팅·인증·트래픽 정책을 위한 전용의 플러그인 가능한 게이트웨이 계층이 필요한 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Puerta de enlace de API cloud-native que gestiona el enrutamiento, el balanceo de carga, la autenticación y la gestión de tráfico para microservicios, APIs y tráfico LLM/MCP.",
+      "longDescription": "Kong (Kong Gateway) es una puerta de enlace de API cloud-native e independiente de la plataforma, construida para un alto rendimiento y ampliable mediante un sistema de plugins. Se sitúa delante de tus servicios y gestiona el proxying, el enrutamiento, el balanceo de carga, las comprobaciones de salud y la autenticación del tráfico de APIs y microservicios, actuando como una capa central en lugar de construir esa lógica en cada servicio individual.\n\nMás allá del tráfico de API convencional, Kong también ofrece capacidades de gateway específicas para cargas de trabajo de IA, incluyendo soporte multi-LLM, seguridad semántica y seguridad/analítica de tráfico para el tráfico MCP (Model Context Protocol). Se ejecuta de forma nativa en Kubernetes a través de un Kubernetes Ingress Controller oficial, y también se puede desplegar a través de la propia plataforma alojada Konnect de Kong si no quieres operarlo tú mismo.\n\nKong encaja en equipos que necesitan una capa de gateway dedicada y extensible mediante plugins delante de muchos servicios o APIs —para enrutamiento, autenticación y políticas de tráfico—, en lugar de gestionar esa lógica en cada servicio o usar un reverse proxy de propósito general."
+    },
+    "de": {
+      "description": "Cloud-natives API-Gateway, das Routing, Load Balancing, Authentifizierung und Traffic-Management für Microservices, APIs und LLM-/MCP-Traffic übernimmt.",
+      "longDescription": "Kong (Kong Gateway) ist ein cloud-natives, plattformunabhängiges API-Gateway, das auf hohe Performance ausgelegt und über ein Plugin-System erweiterbar ist. Es steht vor deinen Diensten und übernimmt Proxying, Routing, Load Balancing, Health-Checks und Authentifizierung für API- und Microservice-Traffic – als zentrale Schicht, statt diese Logik in jeden einzelnen Dienst einzubauen.\n\nÜber gewöhnlichen API-Traffic hinaus bietet Kong auch Gateway-Funktionen speziell für KI-Workloads, darunter Multi-LLM-Unterstützung, semantische Sicherheit sowie Traffic-Sicherheit und -Analyse für MCP-Traffic (Model Context Protocol). Es läuft nativ auf Kubernetes über einen offiziellen Kubernetes Ingress Controller und lässt sich alternativ über Kongs eigene gehostete Konnect-Plattform bereitstellen, falls du es nicht selbst betreiben möchtest.\n\nKong eignet sich für Teams, die vor vielen Diensten oder APIs eine dedizierte, über Plugins erweiterbare Gateway-Schicht benötigen – für Routing, Auth und Traffic-Policy –, statt diese Logik in jedem Dienst einzeln zu implementieren oder einen general-purpose Reverse Proxy zu verwenden."
+    }
+  }
+}

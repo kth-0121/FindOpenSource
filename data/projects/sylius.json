@@ -1,0 +1,47 @@
+{
+  "name": "Sylius",
+  "slug": "sylius",
+  "description": "Open-source ecommerce framework built on Symfony, designed for highly customized commerce applications with a strong testing culture and REST API.",
+  "longDescription": "Sylius is an open-source ecommerce framework built on top of Symfony, aimed at teams that need a commerce application tailored closely to their own business logic rather than a fixed, all-in-one platform. It's built with a strong behavior-driven-development (BDD) testing culture using PHPUnit and Behat, and exposes a REST API for integrations and custom frontend experiences.\n\nAs a framework rather than a turnkey application, Sylius is meant to be extended and customized at the code level to fit specific business requirements; Sylius Plus is a separate, commercial layer that adds modules like one-page checkout, a B2B suite, multi-store management, and loyalty features for teams that want those capabilities without building them.\n\nSylius is a fit for PHP/Symfony teams that want a customizable commerce foundation to build on, rather than configuring a fixed ecommerce platform - it fills a gap for the current catalog, which otherwise has no PHP-based commerce option.",
+  "repository": "https://github.com/Sylius/Sylius",
+  "website": "https://sylius.com",
+  "documentation": "https://docs.sylius.com",
+  "categories": [
+    "ecommerce"
+  ],
+  "keywords": [
+    "ecommerce",
+    "php-ecommerce",
+    "symfony",
+    "headless-commerce",
+    "commerce-framework"
+  ],
+  "languages": [
+    "PHP"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "基于 Symfony 构建的开源电商框架，专为需要高度定制化的商务应用而设计，具备扎实的测试文化和 REST API。",
+      "longDescription": "Sylius 是一个基于 Symfony 构建的开源电商框架，面向那些需要商务应用紧密贴合自身业务逻辑、而不是使用固定全能型平台的团队。它采用 PHPUnit 和 Behat 构建了扎实的行为驱动开发（BDD）测试文化，并对外提供 REST API，方便集成和构建定制化前端体验。\n\n作为一个框架而非开箱即用的应用，Sylius 的设计初衷就是在代码层面进行扩展和定制，以贴合特定的业务需求；Sylius Plus 是一个独立的商业层，为希望直接获得这些能力而不想自己开发的团队提供一页式结账、B2B 套件、多店铺管理和会员忠诚度等模块。\n\nSylius 适合那些希望在可定制的商务基础之上进行构建、而不是配置一个固定电商平台的 PHP/Symfony 团队——它填补了目前目录中缺少基于 PHP 的电商选项这一空白。"
+    },
+    "ja": {
+      "description": "Symfony 上に構築されたオープンソースの EC フレームワークで、高度にカスタマイズされたコマースアプリケーション向けに設計されており、強力なテスト文化と REST API を備えています。",
+      "longDescription": "Sylius は Symfony 上に構築されたオープンソースの EC フレームワークで、固定の全部入りプラットフォームではなく、自社のビジネスロジックに密接に沿ったコマースアプリケーションを必要とするチーム向けに作られています。PHPUnit と Behat を使った、行動駆動開発(BDD)を重視する強力なテスト文化のもとで構築されており、統合やカスタムフロントエンド体験のための REST API も提供します。\n\nすぐに使えるアプリケーションではなくフレームワークであるため、Sylius は特定のビジネス要件に合わせてコードレベルで拡張・カスタマイズされることを前提としています。Sylius Plus は別売りの商用レイヤーで、ワンページチェックアウト、B2B スイート、マルチストア管理、ロイヤリティ機能といったモジュールを、自前で構築せずに使いたいチーム向けに追加提供します。\n\nSylius は、固定の EC プラットフォームを設定するのではなく、カスタマイズ可能なコマース基盤の上に構築していきたい PHP/Symfony チームに向いています。これまでカタログになかった PHP ベースのコマース選択肢という空白を埋めます。"
+    },
+    "ko": {
+      "description": "Symfony 위에 구축된 오픈소스 이커머스 프레임워크로, 높은 수준의 커스터마이징이 필요한 커머스 애플리케이션을 위해 설계되었으며, 탄탄한 테스트 문화와 REST API를 갖추고 있습니다.",
+      "longDescription": "Sylius는 Symfony 위에 구축된 오픈소스 이커머스 프레임워크로, 고정된 올인원 플랫폼이 아니라 자사 비즈니스 로직에 밀접하게 맞춘 커머스 애플리케이션이 필요한 팀을 위해 만들어졌습니다. PHPUnit과 Behat을 사용한 탄탄한 행동 주도 개발(BDD) 테스트 문화를 기반으로 구축되었으며, 통합과 커스텀 프런트엔드 경험을 위한 REST API를 제공합니다.\n\n바로 사용 가능한 애플리케이션이 아니라 프레임워크이기 때문에, Sylius는 특정 비즈니스 요구 사항에 맞춰 코드 수준에서 확장하고 커스터마이징하도록 설계되었습니다. Sylius Plus는 별도의 상용 레이어로, 원페이지 체크아웃, B2B 스위트, 다중 스토어 관리, 로열티 기능 같은 모듈을 직접 만들지 않고 사용하고 싶은 팀을 위해 제공됩니다.\n\nSylius는 고정된 이커머스 플랫폼을 설정하는 대신, 커스터마이징 가능한 커머스 기반 위에 구축하고 싶은 PHP/Symfony 팀에 적합합니다. 현재 카탈로그에 없던 PHP 기반 커머스 옵션의 공백을 메워줍니다."
+    },
+    "es": {
+      "description": "Framework de ecommerce de código abierto construido sobre Symfony, diseñado para aplicaciones de comercio muy personalizadas, con una sólida cultura de testing y una API REST.",
+      "longDescription": "Sylius es un framework de ecommerce de código abierto construido sobre Symfony, pensado para equipos que necesitan una aplicación de comercio ajustada de cerca a su propia lógica de negocio, en lugar de una plataforma fija y todo en uno. Está construido con una sólida cultura de testing basada en desarrollo dirigido por comportamiento (BDD) usando PHPUnit y Behat, y expone una API REST para integraciones y experiencias de frontend personalizadas.\n\nAl ser un framework y no una aplicación lista para usar, Sylius está pensado para ampliarse y personalizarse a nivel de código según requisitos de negocio específicos; Sylius Plus es una capa comercial aparte que añade módulos como checkout de una sola página, un conjunto B2B, gestión multi-tienda y funciones de fidelización para equipos que quieren esas capacidades sin construirlas.\n\nSylius encaja en equipos PHP/Symfony que quieren una base de comercio personalizable sobre la que construir, en lugar de configurar una plataforma de ecommerce fija; cubre un hueco en el catálogo actual, que de otro modo no tiene ninguna opción de comercio basada en PHP."
+    },
+    "de": {
+      "description": "Open-Source-E-Commerce-Framework auf Symfony-Basis, ausgelegt auf stark individualisierte Commerce-Anwendungen, mit ausgeprägter Testkultur und REST-API.",
+      "longDescription": "Sylius ist ein Open-Source-E-Commerce-Framework auf Basis von Symfony, gedacht für Teams, die eine Commerce-Anwendung benötigen, die eng an ihre eigene Geschäftslogik angepasst ist, statt einer starren All-in-one-Plattform. Es ist mit einer ausgeprägten testgetriebenen Kultur (BDD) mit PHPUnit und Behat aufgebaut und stellt eine REST-API für Integrationen und individuelle Frontend-Erlebnisse bereit.\n\nAls Framework statt als schlüsselfertige Anwendung ist Sylius dafür gedacht, auf Code-Ebene erweitert und an spezifische Geschäftsanforderungen angepasst zu werden; Sylius Plus ist eine separate, kommerzielle Schicht, die Module wie One-Page-Checkout, eine B2B-Suite, Multi-Store-Management und Treueprogramm-Funktionen für Teams hinzufügt, die diese Fähigkeiten nutzen möchten, ohne sie selbst zu bauen.\n\nSylius eignet sich für PHP/Symfony-Teams, die eine anpassbare Commerce-Basis zum Aufbauen wollen, statt eine feste E-Commerce-Plattform zu konfigurieren – und schließt damit eine Lücke im aktuellen Katalog, der bislang keine PHP-basierte Commerce-Option enthält."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Crawlee",
+  "slug": "crawlee",
+  "description": "Node.js and TypeScript library for web scraping and browser automation, built to produce reliable crawlers that resist bot detection.",
+  "longDescription": "Crawlee is a web scraping and browser automation library for Node.js and TypeScript, aimed at building reliable crawlers with minimal extra configuration. It's designed so crawlers behave in a more human-like way by default, helping them avoid triggering common bot-detection systems, while giving you the tools to crawl for links, scrape data, and store results to disk or the cloud.\n\nIt integrates with Playwright (already used elsewhere in this catalog for browser automation) as an optional dependency when a crawler needs a real browser rather than raw HTTP requests, and a separate Crawlee for Python package exists for teams working in Python instead of the JavaScript/TypeScript ecosystem this npm package targets.\n\nCrawlee is a fit for JavaScript/TypeScript teams building scrapers or data-extraction pipelines - including for feeding LLM or RAG pipelines - who want a maintained library with built-in anti-detection defaults, complementing Python-first tools like Scrapy in the current catalog rather than duplicating them.",
+  "repository": "https://github.com/apify/crawlee",
+  "website": "https://crawlee.dev",
+  "documentation": "https://crawlee.dev/js/docs/introduction",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "web-scraping",
+    "crawler",
+    "browser-automation",
+    "data-extraction",
+    "javascript"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "用于网页抓取和浏览器自动化的 Node.js/TypeScript 库，旨在构建能够抵御反爬检测的可靠爬虫。",
+      "longDescription": "Crawlee 是一个面向 Node.js 和 TypeScript 的网页抓取与浏览器自动化库，目标是以最少的额外配置构建可靠的爬虫。它的设计让爬虫默认表现得更接近真实用户行为，从而有助于避免触发常见的反爬检测系统，同时提供工具帮你抓取链接、爬取数据，并将结果存储到磁盘或云端。\n\n当爬虫需要真实浏览器而不是原始 HTTP 请求时，它可以将 Playwright（本目录中其他项目也使用它来实现浏览器自动化）作为可选依赖进行集成；此外还有独立的 Crawlee for Python 包，供使用 Python 而非这个 npm 包所面向的 JavaScript/TypeScript 生态的团队使用。\n\nCrawlee 适合那些正在构建抓取器或数据提取管道（包括为 LLM 或 RAG 管道提供数据）的 JavaScript/TypeScript 团队，他们希望使用一个内置反检测默认配置、并持续维护的库，与目录中以 Python 为主的工具（如 Scrapy）形成互补，而非重复。"
+    },
+    "ja": {
+      "description": "信頼性の高いクローラーを構築するための Node.js・TypeScript 向けウェブスクレイピング・ブラウザ自動化ライブラリで、ボット検知を回避しやすい設計になっています。",
+      "longDescription": "Crawlee は、最小限の追加設定で信頼性の高いクローラーを構築することを目指した、Node.js と TypeScript 向けのウェブスクレイピング・ブラウザ自動化ライブラリです。クローラーがデフォルトでより人間らしい振る舞いをするよう設計されており、一般的なボット検知システムのトリガーを避けやすくなっている一方で、リンクをたどってクロールし、データをスクレイピングし、結果をディスクやクラウドに保存するためのツールも提供します。\n\nクローラーが生の HTTP リクエストではなく実際のブラウザを必要とする場合には、(このカタログの他のプロジェクトでもブラウザ自動化に使われている)Playwright をオプションの依存関係として統合できます。また、この npm パッケージが対象とする JavaScript/TypeScript エコシステムではなく Python で作業するチーム向けに、別途 Crawlee for Python パッケージも用意されています。\n\nCrawlee は、LLM や RAG パイプラインへのデータ供給を含め、スクレイパーやデータ抽出パイプラインを構築する JavaScript/TypeScript チームに向いており、組み込みのアンチ検知デフォルト設定を備えたメンテナンスされているライブラリを求める場合に適しています。カタログ内の Scrapy のような Python 中心のツールと重複するのではなく、それらを補完する存在です。"
+    },
+    "ko": {
+      "description": "신뢰할 수 있는 크롤러를 만들기 위한 Node.js·TypeScript용 웹 스크레이핑·브라우저 자동화 라이브러리로, 봇 탐지를 회피하도록 설계되었습니다.",
+      "longDescription": "Crawlee는 최소한의 추가 설정으로 신뢰할 수 있는 크롤러를 구축하는 것을 목표로 하는, Node.js와 TypeScript용 웹 스크레이핑·브라우저 자동화 라이브러리입니다. 크롤러가 기본적으로 더 사람처럼 동작하도록 설계되어 있어 일반적인 봇 탐지 시스템을 트리거하지 않는 데 도움이 되며, 동시에 링크를 따라 크롤링하고 데이터를 스크레이핑하고 결과를 디스크나 클라우드에 저장할 수 있는 도구를 제공합니다.\n\n크롤러가 원시 HTTP 요청이 아니라 실제 브라우저가 필요한 경우, (이 카탈로그의 다른 프로젝트에서도 브라우저 자동화에 사용되는) Playwright를 선택적 의존성으로 통합할 수 있습니다. 또한 이 npm 패키지가 대상으로 하는 JavaScript/TypeScript 생태계가 아니라 Python으로 작업하는 팀을 위한 별도의 Crawlee for Python 패키지도 있습니다.\n\nCrawlee는 LLM이나 RAG 파이프라인에 데이터를 공급하는 용도를 포함해 스크레이퍼나 데이터 추출 파이프라인을 구축하는 JavaScript/TypeScript 팀에 적합하며, 기본 제공되는 안티 디텍션 설정을 갖춘 유지 관리되는 라이브러리를 원하는 경우에 잘 맞습니다. 카탈로그의 Scrapy 같은 Python 중심 도구를 대체하는 것이 아니라 보완합니다."
+    },
+    "es": {
+      "description": "Biblioteca de Node.js y TypeScript para web scraping y automatización de navegador, diseñada para crear crawlers fiables que resistan la detección de bots.",
+      "longDescription": "Crawlee es una biblioteca de web scraping y automatización de navegador para Node.js y TypeScript, orientada a construir crawlers fiables con una configuración adicional mínima. Está diseñada para que los crawlers se comporten de forma más parecida a un humano por defecto, ayudando a evitar activar los sistemas de detección de bots habituales, a la vez que te da las herramientas para rastrear enlaces, extraer datos y guardar los resultados en disco o en la nube.\n\nSe integra con Playwright (ya utilizado en otras partes de este catálogo para automatización de navegador) como dependencia opcional cuando un crawler necesita un navegador real en lugar de solicitudes HTTP sin más, y existe un paquete aparte, Crawlee for Python, para equipos que trabajan en Python en lugar del ecosistema JavaScript/TypeScript al que se dirige este paquete de npm.\n\nCrawlee encaja en equipos de JavaScript/TypeScript que construyen scrapers o pipelines de extracción de datos —incluso para alimentar pipelines de LLM o RAG— y quieren una biblioteca mantenida con valores predeterminados anti-detección incorporados, complementando en lugar de duplicar herramientas Python-first del catálogo actual como Scrapy."
+    },
+    "de": {
+      "description": "Node.js- und TypeScript-Bibliothek für Web Scraping und Browserautomatisierung, gebaut für zuverlässige Crawler, die der Bot-Erkennung widerstehen.",
+      "longDescription": "Crawlee ist eine Web-Scraping- und Browserautomatisierungs-Bibliothek für Node.js und TypeScript, die darauf abzielt, zuverlässige Crawler mit minimalem zusätzlichem Konfigurationsaufwand zu bauen. Sie ist so konzipiert, dass sich Crawler standardmäßig menschenähnlicher verhalten, was hilft, gängige Bot-Erkennungssysteme nicht auszulösen, während sie gleichzeitig die Werkzeuge bereitstellt, um Links zu crawlen, Daten zu scrapen und Ergebnisse auf der Festplatte oder in der Cloud zu speichern.\n\nSie lässt sich mit Playwright (bereits an anderer Stelle in diesem Katalog für Browserautomatisierung genutzt) als optionale Abhängigkeit integrieren, wenn ein Crawler einen echten Browser statt reiner HTTP-Anfragen benötigt, und es gibt ein separates Crawlee-for-Python-Paket für Teams, die in Python statt im JavaScript/TypeScript-Ökosystem arbeiten, auf das dieses npm-Paket abzielt.\n\nCrawlee eignet sich für JavaScript/TypeScript-Teams, die Scraper oder Datenextraktions-Pipelines bauen – auch zur Versorgung von LLM- oder RAG-Pipelines – und eine gepflegte Bibliothek mit eingebauten Anti-Erkennungs-Standardeinstellungen wollen, als Ergänzung zu Python-first-Tools wie Scrapy im aktuellen Katalog statt als Duplikat."
+    }
+  }
+}

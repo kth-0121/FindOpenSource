@@ -1,0 +1,47 @@
+{
+  "name": "SeaweedFS",
+  "slug": "seaweedfs",
+  "description": "Distributed file and object storage system built to store and serve billions of files fast, speaking S3, POSIX, and lakehouse (S3 Tables) protocols.",
+  "longDescription": "SeaweedFS is a distributed storage system designed around two goals: storing billions of files and serving them fast. A single `weed` binary can expose the same underlying data as an S3-compatible object store, a POSIX-compliant file system, and a lakehouse via S3 Tables, rather than requiring separate systems for each access pattern.\n\nEach stored blob is reachable in roughly one disk read, and storage capacity scales by starting additional volume servers rather than resharding existing ones; cloud storage can also be layered in as a transparent cache or storage tier. This makes it a directly comparable option to other S3-compatible object storage systems for teams evaluating self-hosted storage - including as a live alternative for anyone currently relying on MinIO, whose community-edition GitHub repository has been archived and is no longer maintained.\n\nSeaweedFS is a fit for teams that need self-hosted, S3-compatible object storage or a POSIX file system at large file counts, and want the option to scale storage capacity incrementally rather than through a single monolithic cluster.",
+  "repository": "https://github.com/seaweedfs/seaweedfs",
+  "website": "https://seaweedfs.com",
+  "documentation": "https://github.com/seaweedfs/seaweedfs/wiki",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "object-storage",
+    "s3-compatible",
+    "distributed-storage",
+    "file-storage",
+    "self-hosted"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "分布式文件与对象存储系统，专为快速存储和提供数十亿文件而设计，支持 S3、POSIX 及 lakehouse（S3 Tables）协议。",
+      "longDescription": "SeaweedFS 是一个围绕两个目标设计的分布式存储系统：存储数十亿文件，并快速提供这些文件。单个 `weed` 二进制文件即可将同一份底层数据同时暴露为兼容 S3 的对象存储、符合 POSIX 标准的文件系统，以及通过 S3 Tables 实现的 lakehouse，而不需要为每种访问模式分别搭建系统。\n\n每个存储的数据块大致只需一次磁盘读取即可访问，存储容量的扩展方式是启动额外的卷服务器，而不是对现有数据重新分片；云存储也可以作为透明的缓存层或存储层叠加使用。这使它成为正在评估自托管存储方案的团队可以直接对比的另一个兼容 S3 的对象存储选项——对于目前依赖 MinIO 的用户而言，也是一个实际可用的替代方案，因为 MinIO 的社区版 GitHub 仓库已被归档，不再维护。\n\nSeaweedFS 适合那些需要自托管、兼容 S3 的对象存储，或在大文件数量场景下需要 POSIX 文件系统、并希望能够以增量方式扩展存储容量、而不是依赖单一庞大集群的团队。"
+    },
+    "ja": {
+      "description": "数十億のファイルを高速に保存・配信するために構築された分散ファイル・オブジェクトストレージシステムで、S3、POSIX、lakehouse(S3 Tables)プロトコルに対応します。",
+      "longDescription": "SeaweedFS は、数十億のファイルを保存し、それらを高速に配信するという2つの目標を中心に設計された分散ストレージシステムです。単一の `weed` バイナリが、同じ基盤データを S3 互換のオブジェクトストア、POSIX 準拠のファイルシステム、そして S3 Tables を介した lakehouse として公開でき、アクセスパターンごとに別々のシステムを用意する必要がありません。\n\n保存された各 blob はおおよそ1回のディスク読み取りでアクセスでき、ストレージ容量は既存データを再シャーディングするのではなく、追加のボリュームサーバーを起動することで拡張されます。クラウドストレージを透過的なキャッシュやストレージ階層として重ねることもできます。これにより、セルフホスト型ストレージを検討しているチームにとって、他の S3 互換オブジェクトストレージシステムと直接比較検討できる選択肢となります。現在 MinIO に依存しているユーザーにとっても、実際に使える代替手段です。MinIO のコミュニティ版 GitHub リポジトリはアーカイブされ、もはやメンテナンスされていません。\n\nSeaweedFS は、セルフホスト型で S3 互換のオブジェクトストレージ、あるいは大量のファイルを扱う POSIX ファイルシステムを必要とし、単一の巨大なクラスターに頼るのではなくストレージ容量を段階的に拡張していきたいチームに向いています。"
+    },
+    "ko": {
+      "description": "수십억 개의 파일을 빠르게 저장하고 제공하도록 설계된 분산 파일·오브젝트 스토리지 시스템으로, S3, POSIX, 레이크하우스(S3 Tables) 프로토콜을 지원합니다.",
+      "longDescription": "SeaweedFS는 두 가지 목표를 중심으로 설계된 분산 스토리지 시스템입니다: 수십억 개의 파일을 저장하고, 이를 빠르게 제공하는 것입니다. 단일 `weed` 바이너리가 동일한 기반 데이터를 S3 호환 오브젝트 스토어, POSIX 호환 파일 시스템, 그리고 S3 Tables를 통한 레이크하우스로 동시에 노출할 수 있어, 접근 방식마다 별도의 시스템을 구축할 필요가 없습니다.\n\n저장된 각 블롭은 대략 한 번의 디스크 읽기로 접근할 수 있으며, 저장 용량은 기존 데이터를 재샤딩하는 대신 볼륨 서버를 추가로 실행하는 방식으로 확장됩니다. 클라우드 스토리지를 투명한 캐시나 스토리지 계층으로 함께 사용할 수도 있습니다. 이는 셀프 호스팅 스토리지를 검토 중인 팀이 다른 S3 호환 오브젝트 스토리지 시스템과 직접 비교할 수 있는 선택지가 되며, 현재 MinIO에 의존하고 있는 사용자에게도 실질적인 대안이 됩니다. MinIO의 커뮤니티 에디션 GitHub 저장소는 이미 아카이브되어 더 이상 유지 관리되지 않습니다.\n\nSeaweedFS는 셀프 호스팅되는 S3 호환 오브젝트 스토리지나 대량의 파일을 다루는 POSIX 파일 시스템이 필요하고, 단일한 거대 클러스터 대신 점진적으로 스토리지 용량을 확장하고 싶은 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Sistema distribuido de almacenamiento de archivos y objetos diseñado para almacenar y servir miles de millones de archivos rápidamente, hablando los protocolos S3, POSIX y lakehouse (S3 Tables).",
+      "longDescription": "SeaweedFS es un sistema de almacenamiento distribuido diseñado en torno a dos objetivos: almacenar miles de millones de archivos y servirlos rápidamente. Un único binario `weed` puede exponer los mismos datos subyacentes como un almacén de objetos compatible con S3, un sistema de archivos compatible con POSIX y un lakehouse mediante S3 Tables, en lugar de requerir sistemas separados para cada patrón de acceso.\n\nCada blob almacenado es accesible en aproximadamente una lectura de disco, y la capacidad de almacenamiento escala iniciando servidores de volumen adicionales en lugar de resharding los existentes; el almacenamiento en la nube también se puede añadir como una capa de caché o almacenamiento transparente. Esto lo convierte en una opción directamente comparable a otros sistemas de almacenamiento de objetos compatibles con S3 para equipos que evalúan almacenamiento autoalojado, incluyendo como alternativa viable para quienes dependen actualmente de MinIO, cuyo repositorio de GitHub de la edición comunitaria ha sido archivado y ya no se mantiene.\n\nSeaweedFS encaja en equipos que necesitan almacenamiento de objetos autoalojado y compatible con S3, o un sistema de archivos POSIX con grandes cantidades de archivos, y que quieren la opción de escalar la capacidad de almacenamiento de forma incremental en lugar de a través de un único clúster monolítico."
+    },
+    "de": {
+      "description": "Verteiltes Datei- und Objektspeichersystem, das darauf ausgelegt ist, Milliarden von Dateien schnell zu speichern und auszuliefern, und dabei S3, POSIX sowie Lakehouse-Protokolle (S3 Tables) spricht.",
+      "longDescription": "SeaweedFS ist ein verteiltes Speichersystem, das um zwei Ziele herum entwickelt wurde: Milliarden von Dateien zu speichern und sie schnell auszuliefern. Eine einzige `weed`-Binärdatei kann dieselben zugrunde liegenden Daten sowohl als S3-kompatiblen Objektspeicher, als POSIX-konformes Dateisystem als auch als Lakehouse über S3 Tables bereitstellen, statt für jedes Zugriffsmuster ein separates System zu benötigen.\n\nJeder gespeicherte Blob ist mit etwa einem Festplattenzugriff erreichbar, und die Speicherkapazität wird durch das Starten zusätzlicher Volume-Server statt durch Resharding bestehender Daten skaliert; Cloud-Speicher lässt sich zudem als transparente Cache- oder Speicherebene einschichten. Das macht es zu einer direkt vergleichbaren Option zu anderen S3-kompatiblen Objektspeichersystemen für Teams, die selbst gehosteten Speicher evaluieren – auch als praktikable Alternative für alle, die derzeit auf MinIO setzen, dessen GitHub-Repository der Community-Edition archiviert wurde und nicht mehr gepflegt wird.\n\nSeaweedFS eignet sich für Teams, die selbst gehosteten, S3-kompatiblen Objektspeicher oder ein POSIX-Dateisystem bei großen Dateizahlen benötigen und die Speicherkapazität lieber schrittweise statt über einen einzigen monolithischen Cluster skalieren möchten."
+    }
+  }
+}

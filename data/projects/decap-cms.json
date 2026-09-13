@@ -1,0 +1,47 @@
+{
+  "name": "Decap CMS",
+  "slug": "decap-cms",
+  "description": "Git-based, open-source CMS for static site generators, editing content as files in your repository through a simple admin interface.",
+  "longDescription": "Decap CMS (formerly Netlify CMS, renamed in 2023) is a content management system for static site generators that stores content as files directly in a Git repository, rather than in a database. It ships as a single-page app that you add to the /admin path of your site; a YAML configuration file describes your content model, and once a user authenticates, they can create and edit content through a clean UI - changes are committed to your Git repository like any other file change.\n\nIt can be installed two ways: as a single HTML file plus a config file for the simplest setup, or as an npm package for projects that want it integrated into their build. Because content lives in Git, it naturally fits static-site workflows where the site itself is already built from a Git repository and deployed on every push.\n\nDecap CMS is a fit for teams running a static site generator who want a lightweight, git-native way for non-technical editors to manage content, without standing up a separate database-backed CMS.",
+  "repository": "https://github.com/decaporg/decap-cms",
+  "website": "https://decapcms.org",
+  "documentation": "https://decapcms.org/docs/intro/",
+  "categories": [
+    "cms"
+  ],
+  "keywords": [
+    "headless-cms",
+    "git-based-cms",
+    "static-site-cms",
+    "cms",
+    "jamstack"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "基于 Git 的开源静态站点生成器 CMS，通过简单的管理界面将内容以文件形式编辑并保存在你的代码仓库中。",
+      "longDescription": "Decap CMS（前身为 Netlify CMS，2023 年更名）是一个面向静态站点生成器的内容管理系统，它将内容直接以文件形式存储在 Git 仓库中，而不是存放在数据库里。它以单页应用的形式提供，添加到你网站的 `/admin` 路径下；一个 YAML 配置文件描述你的内容模型，用户登录后即可通过简洁的界面创建和编辑内容——所有更改都会像其他文件更改一样提交到你的 Git 仓库。\n\n它有两种安装方式：最简单的方式是使用单个 HTML 文件加一个配置文件，或者作为 npm 包集成到项目构建流程中。由于内容存放在 Git 中，它天然适合那些本身已经基于 Git 仓库构建、并在每次推送时自动部署的静态站点工作流。\n\nDecap CMS 适合那些使用静态站点生成器、希望为非技术编辑人员提供一种轻量级、原生基于 Git 的内容管理方式，而不想额外搭建一个基于数据库的 CMS 的团队。"
+    },
+    "ja": {
+      "description": "静的サイトジェネレーター向けのオープンソースな Git ベース CMS で、シンプルな管理画面を通じてコンテンツをリポジトリ内のファイルとして編集します。",
+      "longDescription": "Decap CMS(旧 Netlify CMS、2023年に改称)は、静的サイトジェネレーター向けのコンテンツ管理システムで、コンテンツをデータベースではなく Git リポジトリ内のファイルとして直接保存します。サイトの `/admin` パスに追加する単一ページアプリケーションとして提供され、YAML 設定ファイルでコンテンツモデルを記述します。ユーザーが認証されると、シンプルな UI を通じてコンテンツを作成・編集でき、その変更は他のファイル変更と同様に Git リポジトリにコミットされます。\n\nインストール方法は2通りあります。最もシンプルな構成として単一の HTML ファイルと設定ファイルを使う方法、またはビルドに組み込みたいプロジェクト向けに npm パッケージとして導入する方法です。コンテンツが Git 上にあるため、サイト自体がすでに Git リポジトリからビルドされ、プッシュのたびにデプロイされる静的サイトのワークフローに自然に適合します。\n\nDecap CMS は、静的サイトジェネレーターを使っているチームで、別途データベースを使う CMS を立てることなく、非技術者の編集者がコンテンツを管理できる軽量で Git ネイティブな方法を求めている場合に向いています。"
+    },
+    "ko": {
+      "description": "정적 사이트 생성기를 위한 오픈소스 Git 기반 CMS로, 간단한 관리자 인터페이스를 통해 저장소 안의 파일로 콘텐츠를 편집합니다.",
+      "longDescription": "Decap CMS(구 Netlify CMS, 2023년 개명)는 정적 사이트 생성기를 위한 콘텐츠 관리 시스템으로, 콘텐츠를 데이터베이스가 아니라 Git 저장소 안의 파일로 직접 저장합니다. 사이트의 `/admin` 경로에 추가하는 싱글 페이지 앱 형태로 제공되며, YAML 설정 파일이 콘텐츠 모델을 정의합니다. 사용자가 인증을 마치면 깔끔한 UI를 통해 콘텐츠를 생성하고 편집할 수 있으며, 변경 사항은 다른 파일 변경과 마찬가지로 Git 저장소에 커밋됩니다.\n\n설치 방법은 두 가지입니다: 가장 간단한 구성으로 단일 HTML 파일과 설정 파일을 사용하거나, 빌드 과정에 통합하고 싶은 프로젝트를 위해 npm 패키지로 설치할 수 있습니다. 콘텐츠가 Git에 저장되기 때문에, 이미 Git 저장소로 빌드되고 푸시할 때마다 배포되는 정적 사이트 워크플로에 자연스럽게 어울립니다.\n\nDecap CMS는 정적 사이트 생성기를 사용하는 팀이 별도의 데이터베이스 기반 CMS를 구축하지 않고도, 비기술 편집자가 콘텐츠를 관리할 수 있는 가볍고 Git 네이티브한 방법을 원할 때 적합합니다."
+    },
+    "es": {
+      "description": "CMS de código abierto basado en Git para generadores de sitios estáticos, que edita el contenido como archivos en tu repositorio a través de una interfaz de administración sencilla.",
+      "longDescription": "Decap CMS (antes Netlify CMS, renombrado en 2023) es un sistema de gestión de contenidos para generadores de sitios estáticos que almacena el contenido como archivos directamente en un repositorio Git, en lugar de en una base de datos. Se distribuye como una aplicación de una sola página que añades a la ruta /admin de tu sitio; un archivo de configuración YAML describe tu modelo de contenido, y una vez que un usuario se autentica, puede crear y editar contenido a través de una interfaz limpia: los cambios se confirman (commit) en tu repositorio Git como cualquier otro cambio de archivo.\n\nSe puede instalar de dos formas: como un único archivo HTML más un archivo de configuración para la configuración más sencilla, o como un paquete npm para proyectos que quieren integrarlo en su build. Como el contenido vive en Git, encaja de forma natural en flujos de trabajo de sitios estáticos donde el propio sitio ya se construye desde un repositorio Git y se despliega en cada push.\n\nDecap CMS encaja en equipos que usan un generador de sitios estáticos y quieren una forma ligera y nativa de Git para que editores no técnicos gestionen contenido, sin necesidad de levantar un CMS aparte respaldado por una base de datos."
+    },
+    "de": {
+      "description": "Git-basiertes, quelloffenes CMS für Static-Site-Generatoren, das Inhalte als Dateien in deinem Repository über eine einfache Admin-Oberfläche bearbeitet.",
+      "longDescription": "Decap CMS (früher Netlify CMS, 2023 umbenannt) ist ein Content-Management-System für Static-Site-Generatoren, das Inhalte direkt als Dateien in einem Git-Repository speichert, statt in einer Datenbank. Es wird als Single-Page-App ausgeliefert, die du unter dem Pfad /admin deiner Seite einbindest; eine YAML-Konfigurationsdatei beschreibt dein Content-Modell, und sobald sich ein Nutzer authentifiziert hat, kann er über eine übersichtliche UI Inhalte erstellen und bearbeiten – Änderungen werden wie jede andere Dateiänderung in dein Git-Repository committet.\n\nEs lässt sich auf zwei Arten installieren: als einzelne HTML-Datei plus Konfigurationsdatei für das einfachste Setup, oder als npm-Paket für Projekte, die es in ihren Build integrieren möchten. Da Inhalte in Git liegen, passt es natürlich zu Static-Site-Workflows, bei denen die Seite selbst bereits aus einem Git-Repository gebaut und bei jedem Push deployt wird.\n\nDecap CMS eignet sich für Teams, die einen Static-Site-Generator einsetzen und einen leichtgewichtigen, git-nativen Weg für nicht-technische Redakteure zur Inhaltsverwaltung wollen, ohne ein separates, datenbankgestütztes CMS aufzusetzen."
+    }
+  }
+}
