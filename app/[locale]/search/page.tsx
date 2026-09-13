@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getAllProjects } from "@/lib/projects";
+import { getAllProjects, getFeaturedProjects, getCategoriesWithCounts } from "@/lib/projects";
 import { getAllCategories } from "@/lib/categories";
 import { SearchExperience } from "@/components/SearchExperience";
 import { isLocale, type Locale } from "@/lib/i18n/config";
@@ -41,6 +41,11 @@ export default async function SearchPage({ params, searchParams }: SearchPagePro
   const query = getQuery(await searchParams);
   const projects = getAllProjects(locale);
   const categories = getAllCategories();
+  const featuredProjects = getFeaturedProjects(locale, 6);
+  const topCategories = getCategoriesWithCounts()
+    .filter((category) => category.count > 0)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 6);
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-12 sm:px-6">
@@ -49,6 +54,8 @@ export default async function SearchPage({ params, searchParams }: SearchPagePro
         initialQuery={query}
         projects={projects}
         categories={categories}
+        featuredProjects={featuredProjects}
+        topCategories={topCategories}
         locale={locale}
         dict={dict}
       />
