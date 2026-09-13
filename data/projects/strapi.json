@@ -24,19 +24,24 @@
   "dateAdded": "2026-07-15",
   "translations": {
     "zh-CN": {
-      "description": "自托管的开源无头 CMS，通过可视化建模的内容类型自动生成 REST 和 GraphQL API。"
+      "description": "自托管的开源无头 CMS，通过可视化建模的内容类型自动生成 REST 和 GraphQL API。",
+      "longDescription": "Strapi 是一个自托管的开源无头 CMS：你可以使用其 Content-Type Builder 以可视化的方式定义内容类型，它会自动为这些内容生成 REST 和 GraphQL API，可供任何 Web 前端、移动应用或其他客户端直接使用。内置功能包括基于角色和权限的访问控制、媒体库、国际化以及草稿/发布工作流，后端还可以通过明确的 Routes -> Middlewares -> Controllers -> Services 架构以及插件系统进行扩展。\n\n它对 TypeScript 提供一流支持，支持 SQLite、PostgreSQL、MySQL 和 MariaDB 作为数据库选项，核心部分采用 MIT 许可证——同一仓库中另有一个独立的 `ee/`（企业版）目录，针对付费功能采用不同的许可协议。除自托管之外，Strapi Cloud 是官方提供的托管方案。\n\n它适合那些希望以可视化方式对内容建模、并立即获得自动生成的 API，同时仍然完全掌控后端代码，而不是使用完全托管的封闭内容平台的团队。"
     },
     "ja": {
-      "description": "コンテンツタイプをビジュアルでモデリングするだけで REST・GraphQL API を自動生成する、セルフホスト型オープンソースヘッドレス CMS です。"
+      "description": "コンテンツタイプをビジュアルでモデリングするだけで REST・GraphQL API を自動生成する、セルフホスト型オープンソースヘッドレス CMS です。",
+      "longDescription": "Strapi は、セルフホスト型のオープンソースヘッドレス CMS です。Content-Type Builder を使ってコンテンツタイプをビジュアルに定義すると、そのコンテンツに対する REST・GraphQL API が自動生成され、どんな Web フロントエンド、モバイルアプリ、その他のクライアントからでもすぐに利用できます。ロール・権限ベースのアクセス制御、メディアライブラリ、国際化、下書き/公開ワークフローが標準搭載されており、バックエンドは明示的な Routes -> Middlewares -> Controllers -> Services アーキテクチャとプラグインシステムを通じて拡張できます。\n\nTypeScript を第一級でサポートし、データベースとして SQLite、PostgreSQL、MySQL、MariaDB を選択でき、コア部分は MIT ライセンスです。同じリポジトリ内の独立した `ee/`(Enterprise Edition)ディレクトリは、有料機能向けに別のライセンスとなっています。セルフホストに加えて、Strapi Cloud が公式のマネージドホスティングの選択肢です。\n\nコンテンツをビジュアルにモデリングしてすぐに生成された API を手に入れつつ、フルホスト型のクローズドなコンテンツプラットフォームを介するのではなく、バックエンドのコードを完全にコントロールしたいチームに向いています。"
     },
     "ko": {
-      "description": "콘텐츠 타입을 시각적으로 모델링하면 REST 및 GraphQL API를 자동으로 생성해주는 셀프 호스팅 오픈소스 헤드리스 CMS입니다."
+      "description": "콘텐츠 타입을 시각적으로 모델링하면 REST 및 GraphQL API를 자동으로 생성해주는 셀프 호스팅 오픈소스 헤드리스 CMS입니다.",
+      "longDescription": "Strapi는 셀프 호스팅 오픈소스 헤드리스 CMS입니다. Content-Type Builder를 사용해 콘텐츠 타입을 시각적으로 정의하면, 해당 콘텐츠에 대한 REST 및 GraphQL API가 자동으로 생성되어 웹 프런트엔드, 모바일 앱, 기타 클라이언트에서 바로 사용할 수 있습니다. 역할 및 권한 기반 접근 제어, 미디어 라이브러리, 다국어 지원, 초안/게시 워크플로가 기본 제공되며, 백엔드는 명시적인 Routes -> Middlewares -> Controllers -> Services 아키텍처와 플러그인 시스템을 통해 확장할 수 있습니다.\n\nTypeScript를 1급으로 지원하며, 데이터베이스 옵션으로 SQLite, PostgreSQL, MySQL, MariaDB를 지원하고, 핵심 부분은 MIT 라이선스입니다. 동일한 저장소에 있는 별도의 `ee/`(엔터프라이즈 에디션) 디렉터리는 유료 기능을 위해 다른 라이선스를 사용합니다. 셀프 호스팅 외에도, Strapi Cloud가 공식 관리형 호스팅 옵션으로 제공됩니다.\n\n콘텐츠를 시각적으로 모델링하고 즉시 생성된 API를 얻으면서도, 완전히 호스팅되는 폐쇄형 콘텐츠 플랫폼을 거치는 대신 백엔드 코드에 대한 완전한 통제권을 유지하고 싶은 팀에 적합합니다."
     },
     "es": {
-      "description": "CMS headless open source y autoalojado que genera APIs REST y GraphQL a partir de tipos de contenido modelados visualmente."
+      "description": "CMS headless open source y autoalojado que genera APIs REST y GraphQL a partir de tipos de contenido modelados visualmente.",
+      "longDescription": "Strapi es un CMS headless de código abierto y autoalojado: defines los tipos de contenido visualmente con su Content-Type Builder, y genera automáticamente APIs REST y GraphQL para ese contenido, listas para consumirse desde cualquier frontend web, app móvil u otro cliente. Las funciones integradas incluyen control de acceso basado en roles y permisos, una biblioteca de medios, internacionalización y un flujo de trabajo de borrador/publicación, y el backend se puede ampliar mediante una arquitectura explícita Routes -> Middlewares -> Controllers -> Services y un sistema de plugins.\n\nTiene soporte de primera clase para TypeScript, admite SQLite, PostgreSQL, MySQL y MariaDB como opciones de base de datos, y el núcleo tiene licencia MIT; un directorio `ee/` (Enterprise Edition) aparte, en el mismo repositorio, tiene una licencia distinta para funciones de pago. Más allá del autoalojamiento, Strapi Cloud es la opción oficial de hosting gestionado.\n\nEncaja en equipos que quieren modelar contenido visualmente y obtener APIs generadas de inmediato, manteniendo al mismo tiempo el control total sobre el código del backend, en lugar de trabajar a través de una plataforma de contenido completamente alojada y cerrada."
     },
     "de": {
-      "description": "Selbst gehostetes, quelloffenes Headless-CMS, das REST- und GraphQL-APIs automatisch aus visuell modellierten Content-Typen generiert."
+      "description": "Selbst gehostetes, quelloffenes Headless-CMS, das REST- und GraphQL-APIs automatisch aus visuell modellierten Content-Typen generiert.",
+      "longDescription": "Strapi ist ein selbst gehostetes, quelloffenes Headless-CMS: Du definierst Content-Typen visuell mit dem Content-Type Builder, und es generiert automatisch REST- und GraphQL-APIs für diesen Content, bereit zur Nutzung von jedem Web-Frontend, jeder mobilen App oder anderen Clients. Zu den integrierten Funktionen gehören rollen- und berechtigungsbasierte Zugriffskontrolle, eine Medienbibliothek, Internationalisierung und ein Entwurf-/Veröffentlichungs-Workflow, und das Backend lässt sich über eine explizite Routes -> Middlewares -> Controllers -> Services-Architektur sowie ein Plugin-System erweitern.\n\nEs bietet erstklassige TypeScript-Unterstützung, unterstützt SQLite, PostgreSQL, MySQL und MariaDB als Datenbankoptionen, und der Kern ist MIT-lizenziert – ein separates `ee/`-Verzeichnis (Enterprise Edition) im selben Repository ist für kostenpflichtige Funktionen anders lizenziert. Über das Self-Hosting hinaus ist Strapi Cloud die offizielle verwaltete Hosting-Option.\n\nEs eignet sich für Teams, die Content visuell modellieren und sofort generierte APIs erhalten möchten, während sie die volle Kontrolle über den Backend-Code behalten, statt über eine vollständig gehostete, geschlossene Content-Plattform zu arbeiten."
     }
   }
 }

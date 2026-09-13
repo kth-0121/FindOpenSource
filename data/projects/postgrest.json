@@ -21,5 +21,22 @@
   ],
   "license": "MIT",
   "featured": false,
-  "dateAdded": "2026-07-22"
+  "dateAdded": "2026-07-22",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "PostgREST 是一个独立的 Web 服务器，可以直接将现有 PostgreSQL 数据库的模式（schema）转换为 RESTful API，而无需你编写单独的应用层来暴露每张表或视图。它使用 Haskell 编写，基于 Warp HTTP 服务器构建，设计上尽可能将工作下沉到数据库本身完成——包括序列化 JSON 响应和在 SQL 中执行数据校验，而不是在 API 服务器中处理这些工作。\n\n它通常以独立二进制文件的形式安装，或通过 Docker 在 Postgres 数据库前运行；该项目表示即使在配置一般的托管环境中，也能实现每秒数千次请求下的亚秒级响应时间。\n\nPostgREST 适合那些希望快速将 Postgres 数据库暴露为 REST API 的团队，让数据库模式本身（表、视图、权限）作为 API 形态的唯一事实来源，而不是手动编写和维护 CRUD 接口。"
+    },
+    "ja": {
+      "longDescription": "PostgREST は、既存の PostgreSQL データベースのスキーマを、別途アプリケーション層を書いて各テーブルやビューを公開することなく、直接 RESTful API に変換するスタンドアロンの Web サーバーです。Haskell で書かれており、Warp HTTP サーバー上で動作し、JSON レスポンスのシリアライズやデータバリデーションを SQL 内で行うなど、可能な限り多くの処理をデータベース自体に押し下げる設計になっています。API サーバー側でその作業を行うのではありません。\n\n通常はスタンドアロンのバイナリとしてインストールされるか、Postgres データベースの前段で Docker 経由で実行されます。プロジェクトによれば、控えめなホスティング環境であっても、1秒あたり数千リクエストでサブ秒のレスポンスタイムを実現できるとされています。\n\nPostgREST は、CRUD エンドポイントを手作業で書いて維持するのではなく、データベーススキーマ(テーブル、ビュー、権限)そのものを API の形の唯一の正とし、Postgres データベースを迅速に REST API として公開したいチームに向いています。"
+    },
+    "ko": {
+      "longDescription": "PostgREST는 기존 PostgreSQL 데이터베이스의 스키마를 별도의 애플리케이션 계층을 작성해 각 테이블이나 뷰를 노출시키지 않고도 곧바로 RESTful API로 전환해주는 독립형 웹 서버입니다. Haskell로 작성되었으며 Warp HTTP 서버 위에서 동작하고, JSON 응답 직렬화나 SQL 내에서의 데이터 검증을 포함해 가능한 한 많은 작업을 데이터베이스 자체로 떠넘기도록 설계되어 있습니다. API 서버에서 그 작업을 처리하지 않습니다.\n\n일반적으로 독립 실행형 바이너리로 설치되거나, Postgres 데이터베이스 앞단에서 Docker를 통해 실행됩니다. 프로젝트에 따르면 다소 평범한 호스팅 환경에서도 초당 수천 건의 요청에 대해 1초 미만의 응답 시간을 낼 수 있다고 합니다.\n\nPostgREST는 CRUD 엔드포인트를 직접 작성하고 유지 관리하는 대신, 데이터베이스 스키마(테이블, 뷰, 권한) 자체를 API 형태에 대한 단일 진실 공급원으로 삼아 Postgres 데이터베이스를 빠르게 REST API로 노출하고 싶은 팀에 적합합니다."
+    },
+    "es": {
+      "longDescription": "PostgREST es un servidor web independiente que convierte el esquema de una base de datos PostgreSQL existente directamente en una API RESTful, sin que tengas que escribir una capa de aplicación aparte para exponer cada tabla o vista. Está escrito en Haskell sobre el servidor HTTP Warp y está diseñado para delegar en la base de datos la mayor cantidad de trabajo posible —incluyendo la serialización de respuestas JSON y la validación de datos en SQL— en lugar de hacer ese trabajo en el servidor de la API.\n\nNormalmente se instala como un binario independiente o se ejecuta mediante Docker delante de una base de datos Postgres, y el proyecto reporta tiempos de respuesta por debajo de un segundo con varios miles de solicitudes por segundo incluso en hosting modesto.\n\nPostgREST encaja en equipos que quieren exponer una base de datos Postgres como una API REST rápidamente, con el propio esquema de la base de datos (tablas, vistas, permisos) como fuente de verdad de cómo es la API, en lugar de escribir y mantener a mano endpoints CRUD."
+    },
+    "de": {
+      "longDescription": "PostgREST ist ein eigenständiger Webserver, der das Schema einer bestehenden PostgreSQL-Datenbank direkt in eine RESTful-API verwandelt, ohne dass du eine separate Anwendungsschicht schreiben musst, um jede Tabelle oder Ansicht bereitzustellen. Er ist in Haskell geschrieben, läuft auf dem Warp-HTTP-Server und ist so konzipiert, dass möglichst viel Arbeit in die Datenbank selbst verlagert wird – einschließlich der Serialisierung von JSON-Antworten und der Ausführung von Datenvalidierung in SQL – statt diese Arbeit im API-Server zu erledigen.\n\nEr wird typischerweise als eigenständige Binärdatei installiert oder über Docker vor einer Postgres-Datenbank betrieben, und das Projekt berichtet von Antwortzeiten unter einer Sekunde bei mehreren tausend Anfragen pro Sekunde, selbst auf bescheidenem Hosting.\n\nPostgREST eignet sich für Teams, die eine Postgres-Datenbank schnell als REST-API bereitstellen möchten, wobei das Datenbankschema selbst (Tabellen, Views, Berechtigungen) als Single Source of Truth dafür dient, wie die API aussieht, statt CRUD-Endpunkte von Hand zu schreiben und zu pflegen."
+    }
+  }
 }

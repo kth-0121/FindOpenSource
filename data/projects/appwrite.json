@@ -31,19 +31,24 @@
   "dateAdded": "2026-09-08",
   "translations": {
     "zh-CN": {
-      "description": "开源后端平台，提供身份验证、数据库、存储、函数和实时 API，可自托管，也可使用托管云服务。"
+      "description": "开源后端平台，提供身份验证、数据库、存储、函数和实时 API，可自托管，也可使用托管云服务。",
+      "longDescription": "Appwrite 是一个开源开发平台，将大多数应用所需的后端基础设施——身份验证（邮箱/密码、OAuth、魔法链接、匿名会话）、结构化数据库、文件存储、无服务器函数、多渠道消息（邮件、短信、推送）以及面向前端的集成托管产品（Sites）——统一在一个 API 和控制台之下。\n\n它专为容器化环境设计：一条 Docker 命令即可启动完整的本地实例，生产环境中也可以运行在 Kubernetes、Docker Swarm 或 Rancher 上。如果你不想自己运维基础设施，Appwrite Cloud 是官方的托管替代方案。\n\nAppwrite 适合那些希望用一个开源平台涵盖认证、数据、存储和托管的团队，而不必分别组装和维护多个独立服务，广泛用于构建 Web、移动端或 AI 应用的后端。"
     },
     "ja": {
-      "description": "認証、データベース、ストレージ、関数、リアルタイム API を提供するオープンソースのバックエンドプラットフォームです。セルフホストでもマネージドクラウドでも利用できます。"
+      "description": "認証、データベース、ストレージ、関数、リアルタイム API を提供するオープンソースのバックエンドプラットフォームです。セルフホストでもマネージドクラウドでも利用できます。",
+      "longDescription": "Appwrite は、多くのアプリに必要なバックエンドインフラ — 認証(メール/パスワード、OAuth、マジックリンク、匿名セッション)、構造化データベース、ファイルストレージ、サーバーレス関数、マルチチャネルメッセージング(メール、SMS、プッシュ通知)、フロントエンド向けの統合ホスティング製品(Sites) — を1つの API とコンソールにまとめて提供するオープンソースの開発プラットフォームです。\n\nコンテナ環境で動作するよう設計されており、Docker コマンド1つでローカルにフルインスタンスを起動でき、本番環境では Kubernetes、Docker Swarm、Rancher 上でも稼働します。自分でインフラを運用したくない場合は、公式のマネージドサービスである Appwrite Cloud を利用できます。\n\nAppwrite は、認証・データ・ストレージ・ホスティングをそれぞれ別々に組み合わせて維持する代わりに、Web・モバイル・AI アプリケーションのバックエンドを1つのオープンソースプラットフォームでまかないたいチームに向いています。"
     },
     "ko": {
-      "description": "인증, 데이터베이스, 스토리지, 함수, 실시간 API를 제공하는 오픈소스 백엔드 플랫폼으로, 셀프 호스팅 또는 매니지드 클라우드 서비스로 이용할 수 있습니다."
+      "description": "인증, 데이터베이스, 스토리지, 함수, 실시간 API를 제공하는 오픈소스 백엔드 플랫폼으로, 셀프 호스팅 또는 매니지드 클라우드 서비스로 이용할 수 있습니다.",
+      "longDescription": "Appwrite는 대부분의 앱에 필요한 백엔드 인프라 — 인증(이메일/비밀번호, OAuth, 매직 링크, 익명 세션), 구조화된 데이터베이스, 파일 스토리지, 서버리스 함수, 다중 채널 메시징(이메일, SMS, 푸시), 프런트엔드를 위한 통합 호스팅 제품(Sites) — 를 하나의 API와 콘솔 뒤에 묶어 제공하는 오픈소스 개발 플랫폼입니다.\n\n컨테이너 환경에서 실행되도록 설계되어 있어, Docker 명령어 하나로 로컬 인스턴스 전체를 실행할 수 있고, 프로덕션에서는 Kubernetes, Docker Swarm, Rancher에서도 동작합니다. 직접 인프라를 운영하고 싶지 않다면 Appwrite Cloud가 공식 매니지드 대안입니다.\n\nAppwrite는 인증, 데이터, 스토리지, 호스팅을 각각 따로 조합하고 유지 관리하는 대신, 웹·모바일·AI 애플리케이션 백엔드를 하나의 오픈소스 플랫폼으로 구축하려는 팀에 적합합니다."
     },
     "es": {
-      "description": "Plataforma backend de código abierto que ofrece autenticación, bases de datos, almacenamiento, funciones y APIs en tiempo real, autoalojada o como servicio en la nube gestionado."
+      "description": "Plataforma backend de código abierto que ofrece autenticación, bases de datos, almacenamiento, funciones y APIs en tiempo real, autoalojada o como servicio en la nube gestionado.",
+      "longDescription": "Appwrite es una plataforma de desarrollo de código abierto que agrupa la infraestructura backend que la mayoría de las apps necesitan —autenticación (email/contraseña, OAuth, enlaces mágicos, sesiones anónimas), una base de datos estructurada, almacenamiento de archivos, funciones serverless, mensajería multicanal (email, SMS, push) y un producto de hosting integrado (Sites) para el frontend— detrás de una sola API y consola.\n\nEstá diseñada para ejecutarse en un entorno en contenedores: un único comando de Docker levanta una instancia local completa, y en producción también funciona sobre Kubernetes, Docker Swarm o Rancher. Appwrite Cloud es la alternativa gestionada oficial si prefieres no operar tú mismo la infraestructura.\n\nAppwrite encaja en equipos que construyen backends de aplicaciones web, móviles o de IA y que quieren una única plataforma de código abierto que cubra autenticación, datos, almacenamiento y hosting, en lugar de ensamblar y mantener varios servicios independientes."
     },
     "de": {
-      "description": "Open-Source-Backend-Plattform mit Authentifizierung, Datenbanken, Storage, Funktionen und Echtzeit-APIs - selbstgehostet oder als verwalteter Cloud-Dienst."
+      "description": "Open-Source-Backend-Plattform mit Authentifizierung, Datenbanken, Storage, Funktionen und Echtzeit-APIs - selbstgehostet oder als verwalteter Cloud-Dienst.",
+      "longDescription": "Appwrite ist eine Open-Source-Entwicklungsplattform, die die Backend-Infrastruktur bündelt, die die meisten Apps benötigen – Authentifizierung (E-Mail/Passwort, OAuth, Magic Links, anonyme Sitzungen), eine strukturierte Datenbank, Dateispeicher, serverlose Funktionen, Multi-Channel-Messaging (E-Mail, SMS, Push) und ein integriertes Hosting-Produkt (Sites) für das Frontend – hinter einer einzigen API und Konsole.\n\nSie ist für den Betrieb in einer containerisierten Umgebung ausgelegt: Ein einzelner Docker-Befehl startet eine vollständige lokale Instanz, und für den Produktivbetrieb läuft sie auch auf Kubernetes, Docker Swarm oder Rancher. Appwrite Cloud ist die offizielle verwaltete Alternative, falls du die Infrastruktur nicht selbst betreiben möchtest.\n\nAppwrite eignet sich für Teams, die Backends für Web-, Mobile- oder KI-Anwendungen bauen und dafür eine einzige Open-Source-Plattform für Authentifizierung, Daten, Storage und Hosting nutzen möchten, statt mehrere separate Dienste zusammenzustellen und zu pflegen."
     }
   }
 }

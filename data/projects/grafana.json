@@ -21,5 +21,22 @@
   ],
   "license": "AGPL-3.0",
   "featured": true,
-  "dateAdded": "2026-02-04"
+  "dateAdded": "2026-02-04",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "Grafana 是一个开源平台，用于查询、可视化和告警各种指标与日志，无论这些数据存储在哪里——它连接多种不同的数据源，甚至可以在同一个仪表盘或面板中混合使用多个数据源，而不是自带存储引擎。\n\n仪表盘由可配置的面板构建而成，并可使用模板变量使其在不同团队之间动态且可复用。其 Explore 视图让你可以通过临时查询深入探究指标和日志、并排比较不同的时间范围和数据源，并可以直接从某个指标跳转到相关日志。告警规则以可视化方式定义，可以向 Slack、PagerDuty、VictorOps、OpsGenie 等系统发送通知。\n\nGrafana 适合那些已经在一个或多个后端中拥有指标或日志、并希望以共享的、仪表盘驱动的方式来探索数据和处理告警，而不必将数据本身集中存放在 Grafana 中的团队。"
+    },
+    "ja": {
+      "longDescription": "Grafana は、データがどこに保存されていても、メトリクスとログをクエリ・可視化・アラート設定できるオープンソースプラットフォームです。独自のストレージエンジンを持つのではなく、複数の異なるデータソースに接続でき、同じダッシュボードやパネル内で複数のソースを組み合わせることもできます。\n\nダッシュボードは設定可能なパネルから構築され、テンプレート変数を使うことでチーム間で動的かつ再利用可能にできます。Explore ビューでは、アドホックなクエリでメトリクスやログを掘り下げたり、複数の期間やデータソースを並べて比較したり、あるメトリクスから関連するログへそのまま移動したりできます。アラートルールはビジュアルに定義でき、Slack、PagerDuty、VictorOps、OpsGenie などのシステムに通知を送れます。\n\nGrafana は、すでに1つ以上のバックエンドにメトリクスやログを持っていて、そのデータを Grafana に集約することなく、共有可能なダッシュボード中心の方法で探索し、アラートに対応したいチームに向いています。"
+    },
+    "ko": {
+      "longDescription": "Grafana는 데이터가 어디에 저장되어 있든 메트릭과 로그를 조회, 시각화, 알림 처리할 수 있는 오픈소스 플랫폼입니다. 자체 스토리지 엔진을 제공하는 대신, 여러 데이터 소스를 하나의 대시보드나 패널에서 함께 사용하는 것을 포함해 다양한 데이터 소스에 연결합니다.\n\n대시보드는 구성 가능한 패널로 구성되며, 템플릿 변수를 사용해 여러 팀에서 동적으로 재사용할 수 있습니다. Explore 화면에서는 애드혹 쿼리로 메트릭과 로그를 세부적으로 파고들거나, 여러 시간 범위와 데이터 소스를 나란히 비교하거나, 메트릭에서 곧바로 관련 로그로 이동할 수 있습니다. 알림 규칙은 시각적으로 정의하며 Slack, PagerDuty, VictorOps, OpsGenie 같은 시스템으로 알림을 보낼 수 있습니다.\n\nGrafana는 이미 하나 이상의 백엔드에 메트릭이나 로그를 가지고 있고, 그 데이터를 Grafana에 중앙집중화하지 않으면서 공유 가능한 대시보드 기반 방식으로 탐색하고 알림에 대응하고 싶은 팀에 적합합니다."
+    },
+    "es": {
+      "longDescription": "Grafana es una plataforma de código abierto para consultar, visualizar y generar alertas sobre métricas y logs, sin importar dónde estén almacenados esos datos: se conecta a muchas fuentes de datos distintas, incluso combinando varias en el mismo dashboard o panel, en lugar de incluir su propio motor de almacenamiento.\n\nLos dashboards se construyen a partir de paneles configurables y pueden usar variables de plantilla para hacerlos dinámicos y reutilizables entre equipos. Sus vistas Explore permiten profundizar en métricas y logs con consultas ad hoc, comparar rangos de tiempo y fuentes de datos lado a lado, y pasar directamente de una métrica a los logs relacionados. Las reglas de alerta se definen visualmente y pueden notificar a sistemas como Slack, PagerDuty, VictorOps y OpsGenie.\n\nGrafana encaja en equipos que ya tienen métricas o logs en uno o varios backends y quieren una forma compartida, basada en dashboards, de explorar esos datos y actuar sobre las alertas, sin centralizar los propios datos en Grafana."
+    },
+    "de": {
+      "longDescription": "Grafana ist eine Open-Source-Plattform zum Abfragen, Visualisieren und Alarmieren auf Basis von Metriken und Logs, unabhängig davon, wo diese Daten gespeichert sind – es verbindet sich mit vielen verschiedenen Datenquellen und kann sogar mehrere Quellen im selben Dashboard oder Panel kombinieren, statt eine eigene Speicher-Engine mitzubringen.\n\nDashboards werden aus konfigurierbaren Panels aufgebaut und können mit Template-Variablen dynamisch und teamübergreifend wiederverwendbar gestaltet werden. Die Explore-Ansicht erlaubt es, mit Ad-hoc-Abfragen tief in Metriken und Logs einzutauchen, Zeiträume und Datenquellen nebeneinander zu vergleichen und direkt von einer Metrik zu den zugehörigen Logs zu wechseln. Alert-Regeln werden visuell definiert und können Systeme wie Slack, PagerDuty, VictorOps und OpsGenie benachrichtigen.\n\nGrafana eignet sich für Teams, die bereits Metriken oder Logs in einem oder mehreren Backends haben und diese Daten gemeinsam, dashboardbasiert erkunden und auf Alerts reagieren möchten, ohne die Daten selbst in Grafana zu zentralisieren."
+    }
+  }
 }

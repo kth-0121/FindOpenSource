@@ -19,5 +19,22 @@
   ],
   "license": "GPL-3.0",
   "featured": false,
-  "dateAdded": "2026-04-08"
+  "dateAdded": "2026-04-08",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "Matomo（前身为 Piwik）是一个自托管的开源网站分析平台，定位为尊重隐私的 Google Analytics 替代方案。你可以在自己的服务器上安装这个 PHP/MySQL 应用，在想要追踪的页面中添加一小段 JavaScript 代码，然后在自己的实例中实时查看访客和流量报告——数据始终归你所有，而不会发送给第三方。\n\n根据该项目介绍，Matomo 已被应用于超过 140 万个网站。对于不想自行运维服务器的团队，Matomo Cloud 提供托管版本，并附带免费试用，作为自托管之外的另一种选择。\n\n它适合希望获得与主流分析工具同等核心报告能力、同时让数据保留在自己可控基础设施上的组织和开发者。"
+    },
+    "ja": {
+      "longDescription": "Matomo(旧称 Piwik)は、Google Analytics に代わるプライバシーに配慮した選択肢として位置づけられている、セルフホスト型のオープンソースウェブ解析プラットフォームです。自分のサーバーに PHP/MySQL アプリケーションをインストールし、計測したいページに小さな JavaScript スニペットを追加するだけで、自分のインスタンスから訪問者数やトラフィックのレポートをリアルタイムで確認できます。収集したデータを第三者に送ることなく、完全に自分の手元に保持できます。\n\nプロジェクトによると、Matomo は140万を超えるウェブサイトで利用されています。自前でサーバーを運用したくないチーム向けには、Matomo Cloud がセルフホストの代替として無料トライアル付きのホスティング版を提供しています。\n\n主要な分析ツールと同等のレポート機能を求めつつ、データは自分たちが管理するインフラに留めたい組織や開発者に向いています。"
+    },
+    "ko": {
+      "longDescription": "Matomo(구 Piwik)는 Google Analytics의 프라이버시 존중형 대안으로 자리매김한 셀프 호스팅 오픈소스 웹 분석 플랫폼입니다. 자신의 서버에 PHP/MySQL 애플리케이션을 설치하고, 추적하려는 페이지에 작은 JavaScript 스니펫을 추가하면, 자신의 인스턴스에서 방문자 및 트래픽 리포트를 실시간으로 확인할 수 있습니다. 수집된 데이터는 제3자에게 전송되지 않고 온전히 직접 소유하게 됩니다.\n\n프로젝트에 따르면 Matomo는 140만 개가 넘는 웹사이트에서 사용되고 있습니다. 직접 서버를 운영하고 싶지 않은 팀을 위해, Matomo Cloud는 셀프 호스팅의 대안으로 무료 체험판이 포함된 호스팅 버전을 제공합니다.\n\n주류 분석 도구와 동일한 핵심 리포팅 기능을 원하면서도, 데이터는 자신이 통제하는 인프라에 두고 싶은 조직과 개발자에게 적합합니다."
+    },
+    "es": {
+      "longDescription": "Matomo (anteriormente Piwik) es una plataforma de analítica web de código abierto y autoalojada, posicionada como una alternativa a Google Analytics que respeta la privacidad. Instalas la aplicación PHP/MySQL en tu propio servidor, añades un pequeño fragmento de JavaScript a las páginas que quieres rastrear, y ves los informes de visitantes y tráfico en tiempo real desde tu propia instancia, manteniendo la propiedad total de los datos recopilados en lugar de enviarlos a un tercero.\n\nSegún el proyecto, Matomo se usa en más de 1,4 millones de sitios web. Para equipos que no quieren gestionar su propio servidor, Matomo Cloud ofrece una versión alojada con prueba gratuita como alternativa al autoalojamiento.\n\nEs adecuado para organizaciones y desarrolladores que quieren analítica web con las mismas capacidades de informes principales que las herramientas de analítica convencionales, pero con los datos alojados en una infraestructura que ellos controlan."
+    },
+    "de": {
+      "longDescription": "Matomo (früher Piwik) ist eine selbst gehostete Open-Source-Webanalyseplattform, die als datenschutzfreundliche Alternative zu Google Analytics positioniert ist. Du installierst die PHP/MySQL-Anwendung auf deinem eigenen Server, fügst den zu beobachtenden Seiten ein kleines JavaScript-Snippet hinzu und siehst Besucher- und Traffic-Berichte in Echtzeit aus deiner eigenen Instanz – die gesammelten Daten bleiben vollständig in deinem Besitz, statt an Dritte weitergegeben zu werden.\n\nLaut dem Projekt wird Matomo auf mehr als 1,4 Millionen Websites eingesetzt. Für Teams, die keinen eigenen Server betreiben möchten, bietet Matomo Cloud als Alternative zum Self-Hosting eine gehostete Version mit kostenloser Testphase.\n\nEs eignet sich für Organisationen und Entwickler, die Webanalyse mit denselben zentralen Reporting-Funktionen wie gängige Analysetools wollen, wobei die Daten jedoch auf einer Infrastruktur verbleiben, die sie selbst kontrollieren."
+    }
+  }
 }

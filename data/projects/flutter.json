@@ -22,5 +22,22 @@
   ],
   "license": "BSD-3-Clause",
   "featured": true,
-  "dateAdded": "2025-12-03"
+  "dateAdded": "2025-12-03",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "Flutter 是 Google 推出的开源 SDK，可以用单一的 Dart 代码库为移动端、Web 和桌面端构建原生编译的应用。它不是对原生平台控件进行封装，而是自带渲染引擎（基于 Skia 和 Impeller）以及一整套控件目录——同时包含 Material 和 Cupertino 风格的控件，因此应用的视觉设计不受限于各平台自身提供的能力。\n\n开发流程围绕有状态热重载展开：在不丢失应用状态的情况下，将代码更改即时应用到正在运行的应用上。配套工具包括 VS Code 和 IntelliJ/Android Studio 的编辑器插件，以及数以万计的社区包。当需要调用现有的平台专属代码时，还可以通过 FFI 和平台通道实现与原生代码的互操作。\n\nFlutter 面向那些希望用一套代码库在 iOS、Android、Web 和桌面端（Windows、macOS、Linux）上实现一致、像素级精确 UI 的团队，也适合希望将其作为 UI 工具包嵌入自定义设备平台的团队。"
+    },
+    "ja": {
+      "longDescription": "Flutter は、単一の Dart コードベースからモバイル、Web、デスクトップ向けのネイティブコンパイルアプリを構築できる、Google のオープンソース SDK です。ネイティブのプラットフォームウィジェットをラップするのではなく、独自のレンダリングエンジン(Skia と Impeller ベース)と、Material スタイル・Cupertino スタイルの両方を含む完全なウィジェットカタログを備えているため、アプリの見た目が各プラットフォームの提供範囲に縛られません。\n\n開発はステートフルホットリロードを中心に構築されており、アプリの状態を失うことなく、実行中のアプリにコード変更を即座に反映できます。ツールとしては VS Code や IntelliJ/Android Studio 向けのエディタプラグイン、そして数万に及ぶコミュニティパッケージが用意されています。既存のプラットフォーム固有コードを呼び出す必要がある場合は、FFI やプラットフォームチャンネルによるネイティブとの相互運用にも対応しています。\n\nFlutter は、iOS、Android、Web、デスクトップ(Windows、macOS、Linux)にわたって1つのコードベースで一貫したピクセル精度の UI を実現したいチームや、カスタムデバイスプラットフォームの UI ツールキットとして組み込みたいチームに向いています。"
+    },
+    "ko": {
+      "longDescription": "Flutter는 하나의 Dart 코드베이스로 모바일, 웹, 데스크톱용 네이티브 컴파일 앱을 만들 수 있는 Google의 오픈소스 SDK입니다. 네이티브 플랫폼 위젯을 감싸는 방식 대신 자체 렌더링 엔진(Skia와 Impeller 기반)과 Material·Cupertino 스타일을 모두 포함한 완전한 위젯 카탈로그를 제공하므로, 앱의 시각적 디자인이 각 플랫폼이 제공하는 것에 제한되지 않습니다.\n\n개발은 스테이트풀 핫 리로드를 중심으로 이루어지는데, 이는 앱 상태를 잃지 않고도 실행 중인 앱에 코드 변경 사항을 즉시 반영합니다. 툴링에는 VS Code와 IntelliJ/Android Studio용 에디터 플러그인, 그리고 수만 개의 커뮤니티 패키지가 포함됩니다. 기존 플랫폼별 코드를 호출해야 할 때는 FFI와 플랫폼 채널을 통한 네이티브 상호운용도 지원합니다.\n\nFlutter는 iOS, Android, 웹, 데스크톱(Windows, macOS, Linux)에 걸쳐 하나의 코드베이스와 픽셀 단위로 일관된 UI를 원하는 팀, 또는 커스텀 디바이스 플랫폼의 UI 툴킷으로 임베드하고 싶은 팀을 대상으로 합니다."
+    },
+    "es": {
+      "longDescription": "Flutter es el SDK de código abierto de Google para construir aplicaciones compiladas de forma nativa para móvil, web y escritorio a partir de una única base de código en Dart. En lugar de envolver los widgets nativos de cada plataforma, incluye su propio motor de renderizado (basado en Skia e Impeller) y un catálogo completo de widgets —tanto de estilo Material como Cupertino—, de modo que el diseño visual de la app no queda limitado por lo que ofrece cada plataforma.\n\nEl desarrollo gira en torno al hot reload con estado, que aplica los cambios de código a una app en ejecución al instante sin perder su estado, y el tooling incluye plugins de editor para VS Code e IntelliJ/Android Studio, además de decenas de miles de paquetes de la comunidad. La interoperabilidad nativa se soporta mediante FFI y platform channels cuando necesitas llamar a código específico de la plataforma ya existente.\n\nFlutter está pensado para equipos que quieren una sola base de código y una UI consistente y precisa a nivel de píxel en iOS, Android, web y escritorio (Windows, macOS, Linux), o que quieren integrarlo como el toolkit de UI de una plataforma de dispositivo personalizada."
+    },
+    "de": {
+      "longDescription": "Flutter ist Googles Open-Source-SDK zum Erstellen nativ kompilierter Apps für Mobilgeräte, Web und Desktop aus einer einzigen Dart-Codebasis. Statt native Plattform-Widgets zu umschließen, bringt es eine eigene Rendering-Engine (basierend auf Skia und Impeller) sowie einen vollständigen Widget-Katalog mit – inklusive Material- und Cupertino-Stil –, sodass das visuelle Design einer App nicht durch das begrenzt wird, was die jeweilige Plattform bietet.\n\nDie Entwicklung ist um zustandserhaltendes Hot Reload herum aufgebaut, das Codeänderungen sofort auf eine laufende App anwendet, ohne den App-Zustand zu verlieren. Das Tooling umfasst Editor-Plugins für VS Code und IntelliJ/Android Studio sowie Zehntausende Community-Pakete. Native Interoperabilität wird über FFI und Platform Channels unterstützt, wenn du auf vorhandenen plattformspezifischen Code zugreifen musst.\n\nFlutter richtet sich an Teams, die eine einzige Codebasis und ein konsistentes, pixelgenaues UI über iOS, Android, Web und Desktop (Windows, macOS, Linux) hinweg wollen, oder die es als UI-Toolkit für eine eigene Geräteplattform einbetten möchten."
+    }
+  }
 }

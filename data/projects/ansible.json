@@ -20,5 +20,22 @@
   ],
   "license": "GPL-3.0",
   "featured": false,
-  "dateAdded": "2026-03-04"
+  "dateAdded": "2026-03-04",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "Ansible 是一个无代理的 IT 自动化系统，可以一次性对多台机器进行配置管理、部署和编排。它不需要在每台目标主机上安装专门的代理软件，而是通过已有的 SSH 服务连接，因此被管理的系统上无需额外的引导安装。\n\nAnsible 的设计围绕几个核心目标展开：尽量降低学习成本、以人类和机器都易于理解的方式描述基础设施，并让诸如在负载均衡器后面进行零停机滚动更新之类的复杂操作变得简单。真正执行操作的模块可以用任意动态语言编写，而不局限于 Python。\n\nAnsible 常用于配置管理、应用部署、云资源编排、临时命令执行以及网络设备自动化，非常适合希望在不为每台受管主机运行专用代理的情况下实现基础设施自动化的团队。"
+    },
+    "ja": {
+      "longDescription": "Ansible は、エージェントを一切インストールすることなく、多数のマシンの構成管理、デプロイ、オーケストレーションを一括で行える IT 自動化システムです。対象ホストごとに専用のエージェントソフトウェアを入れる代わりに既存の SSH デーモン経由で接続するため、管理対象のシステムに追加でブートストラップする必要がありません。\n\nAnsible はいくつかの設計目標を軸に作られています。学習コストを最小限に抑えること、インフラを人間にも機械にも読みやすい形で記述できること、そしてロードバランサー配下でのゼロダウンタイムなローリングアップデートのような複雑な操作をシンプルにすることです。実際の処理を行うモジュールは、Python に限らずどの動的言語でも書くことができます。\n\nAnsible は構成管理、アプリケーションデプロイ、クラウドプロビジョニング、アドホックなコマンド実行、ネットワーク機器の自動化などによく使われており、管理対象のホストごとに専用エージェントを動かすことなくインフラを自動化したいチームに向いています。"
+    },
+    "ko": {
+      "longDescription": "Ansible는 에이전트를 설치하지 않고도 여러 대의 머신을 한 번에 설정 관리, 배포, 오케스트레이션할 수 있는 IT 자동화 시스템입니다. 관리 대상마다 별도의 에이전트 소프트웨어를 설치하는 대신 기존 SSH 데몬을 통해 연결하기 때문에, 관리되는 시스템에 추가로 부트스트랩할 것이 없습니다.\n\nAnsible은 몇 가지 핵심 설계 목표를 중심으로 만들어졌습니다: 학습 곡선을 최소화하고, 인프라를 사람과 기계 모두가 읽기 쉬운 방식으로 기술하며, 로드 밸런서 뒤에서 무중단으로 롤링 업데이트하는 것과 같은 복잡한 작업을 간단하게 만드는 것입니다. 실제 작업을 수행하는 모듈은 Python뿐 아니라 어떤 동적 언어로도 작성할 수 있습니다.\n\nAnsible은 구성 관리, 애플리케이션 배포, 클라우드 프로비저닝, 애드혹 명령 실행, 네트워크 장비 자동화 등에 널리 사용되며, 관리 대상 호스트마다 전용 에이전트를 실행하지 않고 인프라를 자동화하고 싶은 팀에 적합합니다."
+    },
+    "es": {
+      "longDescription": "Ansible es un sistema de automatización de TI sin agentes que gestiona la configuración, el despliegue y la orquestación de muchas máquinas a la vez. En lugar de instalar un software agente especial en cada equipo, se conecta a través del demonio SSH existente, por lo que no hay nada adicional que preparar en los sistemas que gestiona.\n\nEstá construido en torno a unos pocos objetivos de diseño: una curva de aprendizaje mínima, describir la infraestructura de una forma legible tanto para personas como para máquinas, y hacer que operaciones complejas —como actualizaciones continuas sin tiempo de inactividad detrás de un balanceador de carga— resulten sencillas. Los módulos que realizan el trabajo real pueden escribirse en cualquier lenguaje dinámico, no solo en Python.\n\nAnsible se usa habitualmente para gestión de configuración, despliegue de aplicaciones, aprovisionamiento en la nube, ejecución de comandos puntuales y automatización de dispositivos de red, por lo que encaja bien en equipos que quieren automatizar su infraestructura sin ejecutar agentes dedicados en cada host gestionado."
+    },
+    "de": {
+      "longDescription": "Ansible ist ein agentenloses IT-Automatisierungssystem, mit dem sich Konfiguration, Deployment und Orchestrierung vieler Rechner gleichzeitig verwalten lassen. Anstatt auf jedem Zielsystem eine spezielle Agentensoftware zu installieren, verbindet es sich über den vorhandenen SSH-Daemon, sodass auf den verwalteten Systemen nichts zusätzlich vorbereitet werden muss.\n\nEs basiert auf wenigen Design-Zielen: eine minimale Lernkurve, eine Beschreibung der Infrastruktur, die sowohl für Menschen als auch Maschinen lesbar ist, und die Vereinfachung komplexer Vorgänge – etwa unterbrechungsfreie Rolling Updates hinter einem Load Balancer. Module, die die eigentliche Arbeit ausführen, können in jeder dynamischen Sprache geschrieben werden, nicht nur in Python.\n\nAnsible wird häufig für Konfigurationsmanagement, Anwendungs-Deployment, Cloud-Provisionierung, Ad-hoc-Befehlsausführung und die Automatisierung von Netzwerkgeräten eingesetzt und eignet sich damit gut für Teams, die Infrastruktur automatisieren möchten, ohne auf jedem verwalteten Host einen eigenen Agenten laufen zu lassen."
+    }
+  }
 }

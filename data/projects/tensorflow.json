@@ -21,5 +21,22 @@
   ],
   "license": "Apache-2.0",
   "featured": true,
-  "dateAdded": "2025-11-19"
+  "dateAdded": "2025-11-19",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "TensorFlow 是一个端到端的开源机器学习平台，最初由 Google 的 Machine Intelligence 团队（Google Brain）为内部机器学习研究而开发，如今已发展为一个通用框架，使用场景远超最初的范畴。它提供稳定的 Python 和 C++ API（并为其他语言提供额外的、不保证稳定性的 API），以及一个更广泛的工具、库和社区资源生态系统，可用于研究，也可用于构建和部署由机器学习驱动的应用。\n\n它通过 pip 安装（在受支持的平台上使用 `tensorflow` 获取支持 GPU 的构建版本，或使用 `tensorflow-cpu` 获取体积更小的纯 CPU 版本），在 Linux/Windows 上可通过 CUDA 获得 GPU 加速，在其他平台上则可通过 DirectX 和苹果 Metal 的设备插件获得加速。\n\nTensorFlow 适合那些正在构建或部署机器学习模型、并希望使用一个成熟、被广泛采用、具有一流 Python 支持和生产部署工具的框架，而不是仅面向研究或功能范围较窄的机器学习库的团队和研究人员。"
+    },
+    "ja": {
+      "longDescription": "TensorFlow は、機械学習のためのエンドツーエンドのオープンソースプラットフォームであり、もともとは Google の Machine Intelligence チーム(Google Brain)によって社内の ML 研究向けに開発されましたが、現在ではその当初の枠を大きく超えて使われる汎用フレームワークとして維持されています。安定した Python および C++ API(他の言語向けには、安定性が保証されない追加の API)を提供するとともに、研究および ML を活用したアプリケーションの構築・デプロイの両方のための、より広範なツール、ライブラリ、コミュニティリソースのエコシステムを備えています。\n\npip 経由でインストールされ(サポートされているプラットフォームで GPU 対応ビルドを使う場合は `tensorflow`、より小さな CPU 専用パッケージには `tensorflow-cpu`)、Linux/Windows では CUDA による GPU アクセラレーションが、他のプラットフォームでは DirectX や Apple の Metal 向けのデバイスプラグインによるアクセラレーションが利用できます。\n\nTensorFlow は、研究専用または対象範囲の狭い ML ライブラリではなく、成熟し広く採用されている、一流の Python サポートと本番デプロイ向けツールを備えたフレームワークを求める、機械学習モデルを構築・デプロイするチームや研究者に向いています。"
+    },
+    "ko": {
+      "longDescription": "TensorFlow는 머신러닝을 위한 엔드투엔드 오픈소스 플랫폼으로, 원래는 Google의 Machine Intelligence 팀(Google Brain)이 내부 ML 연구를 위해 개발했으나, 지금은 그 본래 맥락을 훨씬 넘어서 널리 사용되는 범용 프레임워크로 유지되고 있습니다. 안정적인 Python 및 C++ API(다른 언어를 위한 추가적이고 안정성이 보장되지 않는 API 포함)를 제공하며, 연구뿐 아니라 ML 기반 애플리케이션을 구축하고 배포하기 위한 더 넓은 도구, 라이브러리, 커뮤니티 리소스 생태계를 갖추고 있습니다.\n\npip를 통해 설치되며(지원되는 플랫폼에서 GPU 지원 빌드를 원하면 `tensorflow`, 더 작은 CPU 전용 패키지를 원하면 `tensorflow-cpu`), Linux/Windows에서는 CUDA를 통한 GPU 가속을, 다른 플랫폼에서는 DirectX와 Apple Metal용 디바이스 플러그인을 통한 가속을 사용할 수 있습니다.\n\nTensorFlow는 연구 전용이거나 범위가 좁은 ML 라이브러리 대신, 성숙하고 널리 채택되었으며 최고 수준의 Python 지원과 프로덕션 배포 도구를 갖춘 프레임워크를 원하는, 머신러닝 모델을 구축하거나 배포하는 팀과 연구자에게 적합합니다."
+    },
+    "es": {
+      "longDescription": "TensorFlow es una plataforma de código abierto de extremo a extremo para machine learning, desarrollada originalmente por el equipo de Machine Intelligence de Google (Google Brain) para investigación interna de ML, y ahora mantenida como un framework de propósito general que se usa mucho más allá de ese contexto original. Ofrece APIs estables de Python y C++ (con APIs adicionales, sin garantía de estabilidad, para otros lenguajes), y un ecosistema más amplio de herramientas, bibliotecas y recursos comunitarios tanto para investigación como para construir/desplegar aplicaciones impulsadas por ML.\n\nSe instala mediante pip (`tensorflow` para compilaciones con soporte de GPU en plataformas compatibles, o `tensorflow-cpu` para un paquete más pequeño solo de CPU), con aceleración por GPU disponible mediante CUDA en Linux/Windows o plugins de dispositivo para DirectX y Metal de Apple en otras plataformas.\n\nTensorFlow encaja en equipos e investigadores que construyen o despliegan modelos de machine learning y quieren un framework maduro y ampliamente adoptado, con soporte de Python de primer nivel y herramientas de despliegue en producción, en lugar de una biblioteca de ML orientada solo a investigación o de alcance limitado."
+    },
+    "de": {
+      "longDescription": "TensorFlow ist eine End-to-End-Open-Source-Plattform für maschinelles Lernen, ursprünglich vom Machine-Intelligence-Team von Google (Google Brain) für interne ML-Forschung entwickelt und heute als universelles Framework gepflegt, das weit über diesen ursprünglichen Kontext hinaus eingesetzt wird. Es bietet stabile Python- und C++-APIs (mit zusätzlichen, nicht garantiert stabilen APIs für andere Sprachen) sowie ein breiteres Ökosystem an Tools, Bibliotheken und Community-Ressourcen sowohl für die Forschung als auch für den Bau und das Deployment von ML-gestützten Anwendungen.\n\nEs wird über pip installiert (`tensorflow` für GPU-fähige Builds auf unterstützten Plattformen oder `tensorflow-cpu` für ein kleineres, reines CPU-Paket), wobei GPU-Beschleunigung über CUDA unter Linux/Windows oder über Geräteplugins für DirectX und Apples Metal auf anderen Plattformen verfügbar ist.\n\nTensorFlow eignet sich für Teams und Forscher, die Machine-Learning-Modelle bauen oder deployen und dabei ein ausgereiftes, weitverbreitetes Framework mit erstklassiger Python-Unterstützung und Production-Deployment-Tooling wollen, statt einer rein forschungsorientierten oder eng gefassten ML-Bibliothek."
+    }
+  }
 }

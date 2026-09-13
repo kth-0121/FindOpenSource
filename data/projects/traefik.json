@@ -20,5 +20,22 @@
   ],
   "license": "MIT",
   "featured": false,
-  "dateAdded": "2026-02-25"
+  "dateAdded": "2026-02-25",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "Traefik 是一款专为动态的容器/编排器环境打造的反向代理和负载均衡器。它不需要你为每个微服务手动配置路由，而是监听你的编排器或服务注册中心（Docker、Swarm、Kubernetes、Consul、Etcd、Rancher、Amazon ECS 或静态文件），并在服务被添加、移除或扩缩容时自动生成和更新路由规则——无需重启。\n\n内置功能包括通过 Let's Encrypt 实现自动 HTTPS（包括通配符证书）、多种负载均衡算法、熔断器与重试机制、WebSocket/HTTP2/gRPC 支持、用于可视化路由的 Web 仪表盘、REST API，以及向 Prometheus、Datadog、StatsD 和 InfluxDB 导出指标。它以单个 Go 二进制文件或官方 Docker 镜像的形式发布。\n\nTraefik 适合那些在 Docker、Kubernetes 或类似编排器上运行微服务、并希望路由和 TLS 能随着部署自动保持同步，而不是手动维护传统反向代理配置文件的团队。"
+    },
+    "ja": {
+      "longDescription": "Traefik は、動的なコンテナ/オーケストレーターベースの環境向けに特別に構築されたリバースプロキシ兼ロードバランサーです。マイクロサービスごとにルートを手動で設定する代わりに、オーケストレーターやサービスレジストリ(Docker、Swarm、Kubernetes、Consul、Etcd、Rancher、Amazon ECS、または静的ファイル)を監視し、サービスの追加・削除・スケーリングに合わせてルーティングルールを自動生成・更新します——再起動は不要です。\n\n組み込み機能には、Let's Encrypt による自動 HTTPS(ワイルドカード証明書を含む)、複数のロードバランシングアルゴリズム、サーキットブレーカーとリトライ、WebSocket/HTTP2/gRPC サポート、ルートを可視化する Web ダッシュボード、REST API、そして Prometheus、Datadog、StatsD、InfluxDB へのメトリクスエクスポートが含まれます。単一の Go バイナリ、または公式 Docker イメージとして提供されます。\n\nTraefik は、Docker、Kubernetes、または類似のオーケストレーター上でマイクロサービスを運用し、従来のリバースプロキシの設定ファイルを手作業で保守するのではなく、ルーティングと TLS をデプロイと自動的に同期させたいチームに向いています。"
+    },
+    "ko": {
+      "longDescription": "Traefik는 동적인 컨테이너/오케스트레이터 기반 환경을 위해 특별히 구축된 리버스 프록시이자 로드 밸런서입니다. 마이크로서비스마다 수동으로 라우트를 설정하는 대신, 오케스트레이터나 서비스 레지스트리(Docker, Swarm, Kubernetes, Consul, Etcd, Rancher, Amazon ECS, 또는 정적 파일)를 감시하며, 서비스가 추가, 제거, 스케일링될 때 라우팅 규칙을 자동으로 생성하고 갱신합니다——재시작이 필요 없습니다.\n\n내장 기능으로는 Let's Encrypt를 통한 자동 HTTPS(와일드카드 인증서 포함), 여러 로드 밸런싱 알고리즘, 서킷 브레이커와 재시도, WebSocket/HTTP2/gRPC 지원, 라우트를 시각화하는 웹 대시보드, REST API, 그리고 Prometheus, Datadog, StatsD, InfluxDB로의 메트릭 내보내기가 있습니다. 단일 Go 바이너리 또는 공식 Docker 이미지 형태로 제공됩니다.\n\nTraefik는 Docker, Kubernetes 또는 유사한 오케스트레이터에서 마이크로서비스를 운영하며, 전통적인 리버스 프록시 설정 파일을 수동으로 유지 관리하는 대신 라우팅과 TLS가 배포와 자동으로 동기화되기를 원하는 팀에 적합합니다."
+    },
+    "es": {
+      "longDescription": "Traefik es un reverse proxy y balanceador de carga construido específicamente para entornos dinámicos basados en contenedores/orquestadores. En lugar de configurar manualmente una ruta para cada microservicio, observa tu orquestador o registro de servicios (Docker, Swarm, Kubernetes, Consul, Etcd, Rancher, Amazon ECS o archivos estáticos) y genera y actualiza automáticamente las reglas de enrutamiento a medida que se añaden, eliminan o escalan servicios, sin necesidad de reinicios.\n\nLas funciones integradas incluyen HTTPS automático mediante Let's Encrypt (incluidos certificados comodín), múltiples algoritmos de balanceo de carga, circuit breakers y reintentos, soporte para WebSocket/HTTP2/gRPC, un panel web para visualizar las rutas, una API REST, y exportación de métricas a Prometheus, Datadog, StatsD e InfluxDB. Se distribuye como un único binario de Go o como imagen oficial de Docker.\n\nTraefik encaja en equipos que ejecutan microservicios en Docker, Kubernetes u orquestadores similares y quieren que el enrutamiento y el TLS se mantengan sincronizados automáticamente con los despliegues, en lugar de mantener a mano un archivo de configuración de reverse proxy tradicional."
+    },
+    "de": {
+      "longDescription": "Traefik ist ein Reverse Proxy und Load Balancer, der speziell für dynamische, container-/orchestratorbasierte Umgebungen entwickelt wurde. Statt für jeden Microservice manuell eine Route zu konfigurieren, beobachtet er deinen Orchestrator oder deine Service-Registry (Docker, Swarm, Kubernetes, Consul, Etcd, Rancher, Amazon ECS oder statische Dateien) und generiert und aktualisiert automatisch Routing-Regeln, sobald Dienste hinzugefügt, entfernt oder skaliert werden – ganz ohne Neustarts.\n\nZu den integrierten Funktionen gehören automatisches HTTPS über Let's Encrypt (einschließlich Wildcard-Zertifikate), mehrere Load-Balancing-Algorithmen, Circuit Breaker und Retries, WebSocket-/HTTP2-/gRPC-Unterstützung, ein Web-Dashboard zur Visualisierung der Routen, eine REST-API sowie Metrik-Export zu Prometheus, Datadog, StatsD und InfluxDB. Es wird als einzelne Go-Binärdatei oder als offizielles Docker-Image ausgeliefert.\n\nTraefik eignet sich für Teams, die Microservices auf Docker, Kubernetes oder ähnlichen Orchestratoren betreiben und möchten, dass Routing und TLS automatisch mit den Deployments synchron bleiben, statt eine traditionelle Reverse-Proxy-Konfigurationsdatei von Hand zu pflegen."
+    }
+  }
 }

@@ -21,5 +21,22 @@
   ],
   "license": "MIT",
   "featured": true,
-  "dateAdded": "2026-04-15"
+  "dateAdded": "2026-04-15",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "PostHog 最初是一个产品分析工具，如今已发展成为一个更广泛的产品开发平台：除了基于事件的分析和网站分析之外，它还包括会话回放、功能开关、A/B 实验、错误追踪、日志摄取、无代码问卷调查、可同步外部数据源（如 Stripe 或 Hubspot）的数据仓库、可配置的数据管道（支持 25 个以上的目的地）、面向 LLM 驱动应用的 AI 可观测性，以及自动化工作流——所有这些都可以在同一个产品中查看。\n\n它可以通过 JavaScript 代码片段、官方 SDK（JS、Python、Node、移动端及其他后端语言）或其 API 安装，也可以作为 MCP 服务器接入，将 PostHog 的数据带入 Claude Code 或 Cursor 等 AI 编程智能体中。\n\n其核心部分采用 MIT 许可证（独立的 `ee` 目录除外），官方推荐的运行方式是使用 PostHog Cloud（美国或欧盟节点），并提供较为宽裕的每月免费额度；此外也可以通过 Docker 进行自托管的开源“hobby 部署”，不过维护者指出自托管部署不提供官方支持，更适合小规模使用，之后再迁移到云端。"
+    },
+    "ja": {
+      "longDescription": "PostHog はもともとプロダクト分析ツールとしてスタートし、より広範なプロダクト開発プラットフォームへと成長しました。イベントベースの分析やウェブ解析に加えて、セッションリプレイ、フィーチャーフラグ、A/B 実験、エラートラッキング、ログの取り込み、ノーコードのアンケート、外部ソース(Stripe や Hubspot など)と同期するデータウェアハウス、25以上の宛先に対応する設定可能なデータパイプライン、LLM を活用したアプリ向けの AI オブザーバビリティ、そして自動化ワークフローが含まれており、これらすべてを1つの製品から確認できます。\n\nJavaScript のスニペット、公式 SDK(JS、Python、Node、モバイルおよびその他のバックエンド言語)、または API を通じて導入でき、MCP サーバーとして接続することで、PostHog のデータを Claude Code や Cursor といった AI コーディングエージェントに取り込むこともできます。\n\nコア部分は(独立した `ee` ディレクトリを除いて)MIT ライセンスであり、推奨される運用方法は寛大な無料月間枠のある PostHog Cloud(US または EU)です。Docker によるセルフホスト型のオープンソース「ホビーデプロイ」も利用可能ですが、メンテナーはセルフホスト型のデプロイには公式サポートが付かず、クラウドへ移行する前の小規模利用を想定したものであると述べています。"
+    },
+    "ko": {
+      "longDescription": "PostHog는 처음에는 제품 분석 도구로 시작했지만, 이제는 더 넓은 범위의 제품 개발 플랫폼으로 성장했습니다. 이벤트 기반 분석과 웹 분석 외에도 세션 리플레이, 기능 플래그, A/B 실험, 오류 추적, 로그 수집, 노코드 설문조사, 외부 소스(Stripe나 Hubspot 등)와 동기화하는 데이터 웨어하우스, 25개 이상의 대상으로 보낼 수 있는 구성 가능한 데이터 파이프라인, LLM 기반 앱을 위한 AI 관측 가능성, 자동화 워크플로를 포함하며, 이 모든 것을 하나의 제품에서 확인할 수 있습니다.\n\nJavaScript 스니펫, 공식 SDK(JS, Python, Node, 모바일 및 기타 백엔드 언어), 또는 API를 통해 설치할 수 있으며, MCP 서버로 연결하여 Claude Code나 Cursor 같은 AI 코딩 에이전트에 PostHog의 데이터를 가져올 수도 있습니다.\n\n핵심 부분은(별도의 `ee` 디렉터리를 제외하고) MIT 라이선스이며, 권장되는 실행 방식은 넉넉한 월간 무료 등급이 있는 PostHog Cloud(미국 또는 EU)입니다. Docker를 통한 셀프 호스팅 오픈소스 \"취미용 배포\"도 가능하지만, 유지관리자들은 셀프 호스팅 배포는 공식 지원을 받지 못하며 클라우드로 이전하기 전의 소규모 사용을 위한 것이라고 설명합니다."
+    },
+    "es": {
+      "longDescription": "PostHog comenzó como una herramienta de analítica de producto y ha crecido hasta convertirse en una plataforma más amplia de desarrollo de producto: junto con la analítica basada en eventos y la analítica web, incluye repetición de sesiones (session replay), feature flags, experimentos A/B, seguimiento de errores, ingesta de logs, encuestas sin código, un almacén de datos que sincroniza fuentes externas (como Stripe o Hubspot), pipelines de datos configurables hacia más de 25 destinos, observabilidad de IA para apps impulsadas por LLM y flujos de automatización, todo visible desde un único producto.\n\nSe instala mediante un fragmento de JavaScript, SDKs oficiales (JS, Python, Node, móvil y otros lenguajes de backend) o su API, y también se puede conectar como servidor MCP para llevar los datos de PostHog a agentes de codificación de IA como Claude Code o Cursor.\n\nEl núcleo tiene licencia MIT (aparte del directorio `ee` independiente), y la forma recomendada de ejecutarlo es PostHog Cloud (EE. UU. o UE), con un nivel gratuito mensual generoso; también existe un \"hobby deploy\" autoalojado y de código abierto mediante Docker, aunque los mantenedores señalan que los despliegues autoalojados no cuentan con soporte oficial y están pensados para un uso a menor escala antes de migrar a Cloud."
+    },
+    "de": {
+      "longDescription": "PostHog begann als Produktanalyse-Tool und hat sich zu einer breiteren Plattform für Produktentwicklung entwickelt: Neben ereignisbasierter Analyse und Webanalyse umfasst es Session Replay, Feature Flags, A/B-Experimente, Fehlerverfolgung, Log-Erfassung, codefreie Umfragen, ein Data Warehouse, das externe Quellen (wie Stripe oder Hubspot) synchronisiert, konfigurierbare Datenpipelines zu über 25 Zielen, KI-Observability für LLM-gestützte Apps sowie Automatisierungs-Workflows – alles einsehbar in einem einzigen Produkt.\n\nEs wird über ein JavaScript-Snippet, offizielle SDKs (JS, Python, Node, Mobile und andere Backend-Sprachen) oder seine API installiert und kann auch als MCP-Server verbunden werden, um PostHog-Daten in KI-Coding-Agenten wie Claude Code oder Cursor einzubringen.\n\nDer Kern ist MIT-lizenziert (abgesehen vom separaten `ee`-Verzeichnis), und der empfohlene Weg, es zu betreiben, ist PostHog Cloud (USA oder EU) mit einem großzügigen kostenlosen monatlichen Kontingent; ein selbst gehostetes, quelloffenes „Hobby-Deploy“ ist ebenfalls über Docker verfügbar, wobei die Maintainer anmerken, dass selbst gehostete Deployments keinen offiziellen Support erhalten und für den kleineren Einsatz gedacht sind, bevor man zu Cloud wechselt."
+    }
+  }
 }
