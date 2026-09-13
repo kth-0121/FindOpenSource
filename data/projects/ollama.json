@@ -23,19 +23,24 @@
   "dateAdded": "2025-11-05",
   "translations": {
     "zh-CN": {
-      "description": "通过简单的命令行界面和 API 在本地运行大语言模型。"
+      "description": "通过简单的命令行界面和 API 在本地运行大语言模型。",
+      "longDescription": "Ollama 让你可以在 macOS、Windows 或 Linux 上（也可以通过官方 Docker 镜像）下载并本地运行开放的大语言模型，并提供一个 REST API，用于以编程方式与这些模型对话或对其进行管理——这对于构建像调用托管 LLM API 一样调用本地模型的应用非常有用。\n\n除了直接运行模型之外，Ollama 还可以启动并连接外部的编程智能体和助手，包括 Claude Code、Codex、Copilot CLI 和 OpenCode；并且通过其 OpenClaw 集成，还能作为个人 AI 助手，通过 WhatsApp、Telegram、Slack、Discord 等聊天应用访问。\n\n官方客户端库支持 Python 和 JavaScript。Ollama 适合那些出于隐私、成本或离线等原因希望在自有硬件上运行模型的开发者，也适合那些希望拥有一个既能独立运行、又能接入现有编程智能体和聊天式 AI 工作流的本地运行环境的开发者。"
     },
     "ja": {
-      "description": "シンプルなコマンドラインインターフェースと API で、大規模言語モデルをローカルで実行できます。"
+      "description": "シンプルなコマンドラインインターフェースと API で、大規模言語モデルをローカルで実行できます。",
+      "longDescription": "Ollama を使えば、macOS、Windows、Linux 上(または公式 Docker イメージ経由)でオープンな大規模言語モデルをダウンロードしてローカルで実行でき、これらのモデルとプログラムからチャットしたり管理したりするための REST API を公開します。これは、ホスト型の LLM API を呼び出すのと同じ感覚でローカルモデルを呼び出すアプリケーションを構築する際に役立ちます。\n\nモデルを直接実行するだけでなく、Ollama は Claude Code、Codex、Copilot CLI、OpenCode といった外部のコーディングエージェントやアシスタントを起動・接続することもでき、OpenClaw との統合を通じて、WhatsApp、Telegram、Slack、Discord などのチャットアプリからアクセスできる個人用 AI アシスタントとしても機能します。\n\n公式のクライアントライブラリは Python と JavaScript 向けに用意されています。Ollama は、プライバシー、コスト、オフライン利用といった理由から自分のハードウェア上でモデルを実行したい開発者や、既存のコーディングエージェントやチャットベースの AI ワークフローにも組み込めるローカルランタイムを求める開発者に向いています。"
     },
     "ko": {
-      "description": "간단한 커맨드라인 인터페이스와 API로 대규모 언어 모델을 로컬에서 실행합니다."
+      "description": "간단한 커맨드라인 인터페이스와 API로 대규모 언어 모델을 로컬에서 실행합니다.",
+      "longDescription": "Ollama를 사용하면 macOS, Windows, Linux(또는 공식 Docker 이미지를 통해)에서 오픈 대규모 언어 모델을 다운로드하여 로컬에서 실행할 수 있으며, 이러한 모델과 프로그래밍 방식으로 대화하거나 관리할 수 있는 REST API를 제공합니다. 이는 호스팅된 LLM API를 호출하는 것과 동일한 방식으로 로컬 모델을 호출하는 애플리케이션을 만들 때 유용합니다.\n\n모델을 직접 실행하는 것 외에도, Ollama는 Claude Code, Codex, Copilot CLI, OpenCode를 포함한 외부 코딩 에이전트 및 어시스턴트를 실행하고 연결할 수 있으며, OpenClaw 통합을 통해 WhatsApp, Telegram, Slack, Discord 같은 채팅 앱에서 접근 가능한 개인용 AI 어시스턴트 역할도 할 수 있습니다.\n\n공식 클라이언트 라이브러리는 Python과 JavaScript용으로 제공됩니다. Ollama는 프라이버시, 비용, 오프라인 사용 등의 이유로 자신의 하드웨어에서 모델을 실행하고 싶은 개발자, 또는 기존 코딩 에이전트나 채팅 기반 AI 워크플로에도 연결할 수 있는 로컬 런타임을 원하는 개발자에게 적합합니다."
     },
     "es": {
-      "description": "Ejecuta modelos de lenguaje grandes de forma local con una interfaz de línea de comandos y una API sencillas."
+      "description": "Ejecuta modelos de lenguaje grandes de forma local con una interfaz de línea de comandos y una API sencillas.",
+      "longDescription": "Ollama te permite descargar y ejecutar modelos de lenguaje grandes abiertos de forma local en macOS, Windows o Linux (o mediante una imagen oficial de Docker), y expone una API REST para chatear con esos modelos o gestionarlos mediante programación, lo cual resulta útil para construir aplicaciones que llaman a un modelo local del mismo modo en que llamarían a una API de LLM alojada.\n\nMás allá de ejecutar modelos directamente, Ollama también puede lanzar y conectarse a agentes y asistentes de codificación externos —incluidos Claude Code, Codex, Copilot CLI y OpenCode— y, a través de su integración OpenClaw, actuar como un asistente de IA personal accesible desde aplicaciones de chat como WhatsApp, Telegram, Slack y Discord.\n\nHay bibliotecas cliente oficiales disponibles para Python y JavaScript. Ollama encaja en desarrolladores que quieren ejecutar modelos en su propio hardware por motivos de privacidad, coste o uso sin conexión, o que buscan un runtime local que también pueda conectarse a flujos de trabajo de IA existentes basados en agentes de codificación y chat."
     },
     "de": {
-      "description": "Führe große Sprachmodelle lokal aus – mit einer einfachen Kommandozeile und API."
+      "description": "Führe große Sprachmodelle lokal aus – mit einer einfachen Kommandozeile und API.",
+      "longDescription": "Mit Ollama kannst du offene große Sprachmodelle lokal auf macOS, Windows oder Linux (oder über ein offizielles Docker-Image) herunterladen und ausführen, und es stellt eine REST-API bereit, um programmatisch mit diesen Modellen zu chatten oder sie zu verwalten – nützlich zum Bau von Anwendungen, die ein lokales Modell genauso aufrufen, wie sie eine gehostete LLM-API aufrufen würden.\n\nÜber das direkte Ausführen von Modellen hinaus kann Ollama auch externe Coding-Agenten und -Assistenten starten und mit ihnen verbinden – darunter Claude Code, Codex, Copilot CLI und OpenCode – und über seine OpenClaw-Integration als persönlicher KI-Assistent fungieren, der über Chat-Apps wie WhatsApp, Telegram, Slack und Discord erreichbar ist.\n\nOffizielle Client-Bibliotheken sind für Python und JavaScript verfügbar. Ollama eignet sich für Entwickler, die Modelle aus Datenschutz-, Kosten- oder Offline-Gründen auf eigener Hardware ausführen möchten, oder die eine lokale Laufzeitumgebung suchen, die sich auch in bestehende Coding-Agent- und Chat-basierte KI-Workflows einbinden lässt."
     }
   }
 }

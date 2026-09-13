@@ -23,5 +23,22 @@
   ],
   "license": "MIT",
   "featured": true,
-  "dateAdded": "2026-08-27"
+  "dateAdded": "2026-08-27",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "PocketBase 是一个使用 Go 编写、以单一可执行文件形式发布的开源后端：它将内嵌的 SQLite 数据库与实时订阅、文件及用户管理、内置的管理后台界面以及类 REST API 打包在一起，让小型后端无需搭建独立的数据库、认证和 API 服务即可运行。\n\n你可以用两种方式使用它：直接运行预编译的可执行文件（可以通过其内置的 JS 虚拟机插件用 JavaScript 进行扩展）作为独立后端；或者将 PocketBase 作为 Go 库/框架导入，在其基础上添加自定义业务逻辑，同时仍然生成单一、可移植的静态链接可执行文件。官方提供 JavaScript 和 Dart 的 SDK。\n\n该项目说明自己仍处于积极开发阶段，在正式发布 v1.0 之前，无法保证完全的向后兼容性。PocketBase 适合中小型项目、原型开发，或希望使用极简的单二进制后端、而不是多服务架构的嵌入式/自托管应用。"
+    },
+    "ja": {
+      "longDescription": "PocketBase は、Go で書かれ、単一の実行ファイルとして提供されるオープンソースのバックエンドです。組み込みの SQLite データベースに、リアルタイムサブスクリプション、ファイル・ユーザー管理、組み込みの管理ダッシュボード UI、REST に近い API をひとまとめにしており、小規模なバックエンドを、個別のデータベース・認証・API サービスを組み合わせることなく動かせます。\n\n使い方は2通りあります。ビルド済みの実行ファイル(組み込みの JS VM プラグイン経由で JavaScript による拡張が可能)を単体のバックエンドとしてそのまま実行するか、PocketBase を Go のライブラリ/フレームワークとしてインポートし、独自のカスタムビジネスロジックをその上に追加しつつ、それでも単一のポータブルで静的リンクされた実行ファイルを生成するかのいずれかです。公式 SDK は JavaScript と Dart 向けに用意されています。\n\nプロジェクトはまだ活発に開発中であり、v1.0 に到達するまでは完全な後方互換性は保証されないとされています。PocketBase は、複数サービスから成るスタックではなく、最小限のシングルバイナリバックエンドを求める中小規模プロジェクト、プロトタイプ、または組み込み/セルフホスト型アプリに向いています。"
+    },
+    "ko": {
+      "longDescription": "PocketBase는 Go로 작성되어 단일 실행 파일로 배포되는 오픈소스 백엔드입니다. 내장된 SQLite 데이터베이스에 실시간 구독, 파일 및 사용자 관리, 내장된 관리자 대시보드 UI, REST에 준하는 API를 하나로 묶어 제공하므로, 별도의 데이터베이스, 인증, API 서비스를 조합하지 않고도 소규모 백엔드를 운영할 수 있습니다.\n\n사용 방법은 두 가지입니다. 사전 빌드된 실행 파일(내장 JS VM 플러그인을 통해 JavaScript로 확장 가능)을 독립형 백엔드로 그대로 실행하거나, PocketBase를 Go 라이브러리/프레임워크로 임포트하여 그 위에 자체 커스텀 비즈니스 로직을 추가하면서도 여전히 하나의 이식 가능한 정적 링크 실행 파일을 만들 수 있습니다. 공식 SDK는 JavaScript와 Dart용으로 제공됩니다.\n\n프로젝트는 아직 활발히 개발 중이며, v1.0에 도달하기 전까지는 완전한 하위 호환성이 보장되지 않는다고 명시하고 있습니다. PocketBase는 다중 서비스 스택 대신 최소한의 단일 바이너리 백엔드를 원하는 중소규모 프로젝트, 프로토타입, 또는 임베디드/셀프 호스팅 앱에 적합합니다."
+    },
+    "es": {
+      "longDescription": "PocketBase es un backend de código abierto escrito en Go que se distribuye como un único ejecutable: agrupa una base de datos SQLite integrada con suscripciones en tiempo real, gestión de archivos y usuarios, un panel de administración integrado y una API de estilo REST, de modo que un backend pequeño puede funcionar sin necesidad de montar servicios independientes de base de datos, autenticación y API.\n\nSe puede usar de dos formas: ejecutar directamente el ejecutable precompilado (ampliable con JavaScript mediante su plugin de VM de JS integrado) como backend independiente, o importar PocketBase como biblioteca/framework de Go para añadir tu propia lógica de negocio personalizada encima, produciendo igualmente un único ejecutable portátil enlazado estáticamente. Hay SDKs oficiales disponibles para JavaScript y Dart.\n\nEl proyecto indica que todavía está en desarrollo activo, y no se garantiza compatibilidad total con versiones anteriores antes de alcanzar la v1.0. PocketBase es adecuado para proyectos pequeños o medianos, prototipos, o apps embebidas/autoalojadas que quieren un backend mínimo de un solo binario en lugar de una pila de múltiples servicios."
+    },
+    "de": {
+      "longDescription": "PocketBase ist ein in Go geschriebenes Open-Source-Backend, das als einzelne ausführbare Datei ausgeliefert wird: Es bündelt eine eingebettete SQLite-Datenbank mit Echtzeit-Subscriptions, Datei- und Benutzerverwaltung, einer integrierten Admin-Dashboard-UI und einer REST-ähnlichen API, sodass ein kleines Backend läuft, ohne separate Datenbank-, Auth- und API-Dienste zusammenstellen zu müssen.\n\nEs lässt sich auf zwei Arten nutzen: die vorgefertigte ausführbare Datei (erweiterbar mit JavaScript über das eingebaute JS-VM-Plugin) direkt als eigenständiges Backend ausführen, oder PocketBase als Go-Bibliothek/Framework importieren, um eigene, benutzerdefinierte Geschäftslogik darauf aufzubauen und dabei weiterhin eine einzige portable, statisch verlinkte ausführbare Datei zu erzeugen. Offizielle SDKs sind für JavaScript und Dart verfügbar.\n\nDas Projekt weist darauf hin, dass es sich noch in aktiver Entwicklung befindet und vollständige Abwärtskompatibilität vor Erreichen von v1.0 nicht garantiert ist. PocketBase eignet sich für kleine bis mittlere Projekte, Prototypen oder eingebettete/selbst gehostete Apps, die ein minimales Single-Binary-Backend statt eines Multi-Service-Stacks möchten."
+    }
+  }
 }

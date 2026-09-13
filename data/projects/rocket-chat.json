@@ -21,5 +21,22 @@
   ],
   "license": "MIT",
   "featured": true,
-  "dateAdded": "2026-06-17"
+  "dateAdded": "2026-06-17",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "Rocket.Chat 是一个使用 TypeScript 构建的开源、可自托管的团队通信平台，面向对数据保护或合规性有严格要求的组织。其部署方式包括自托管（Docker、Podman、Kubernetes）、云端托管，以及适用于高安全性或受监管环境的完全隔离网络（air-gapped，无互联网访问）部署。\n\n安全特性包括端到端加密、身份管理，以及基于角色和属性的访问控制。除核心聊天功能外，它还支持语音通话和联邦功能（在不同的 Rocket.Chat 工作区之间进行通信），并可以通过 Rocket.Chat Marketplace 中的公开应用，或使用其 Apps-Engine 构建的自定义应用进行扩展。除 Web 应用外，还提供桌面端和移动端客户端。\n\n它适合那些需要自托管或完全隔离网络聊天平台、并具备细粒度访问控制和合规工具的组织——包括政府、国防或金融等受监管行业，而不是只依赖 SaaS 的团队聊天产品。"
+    },
+    "ja": {
+      "longDescription": "Rocket.Chat は TypeScript で構築された、オープンソースでセルフホスト可能なチームコミュニケーションプラットフォームで、厳格なデータ保護やコンプライアンス要件を持つ組織を対象としています。デプロイオプションには、セルフホスト(Docker、Podman、Kubernetes)、クラウドホスト、そして高セキュリティ・規制対象環境向けの完全なエアギャップ(インターネットアクセスなし)構成が含まれます。\n\nセキュリティ機能には、エンドツーエンド暗号化、アイデンティティ管理、ロールおよび属性ベースのアクセス制御が含まれます。コアのチャット機能に加えて、音声通話や(個別の Rocket.Chat ワークスペース間で通信する)フェデレーションにも対応しており、Rocket.Chat Marketplace の公開アプリや、Apps-Engine で構築したカスタムアプリを通じて拡張できます。Web アプリに加えて、デスクトップおよびモバイルクライアントも利用できます。\n\n政府、防衛、金融といった規制業種を含め、SaaS 専用のチームチャット製品ではなく、きめ細かなアクセス制御とコンプライアンスツールを備えたセルフホストまたはエアギャップ型のチャットプラットフォームを必要とする組織に向いています。"
+    },
+    "ko": {
+      "longDescription": "Rocket.Chat는 TypeScript로 구축된 오픈소스 셀프 호스팅 가능한 팀 커뮤니케이션 플랫폼으로, 엄격한 데이터 보호나 컴플라이언스 요구 사항을 가진 조직을 대상으로 합니다. 배포 옵션에는 셀프 호스팅(Docker, Podman, Kubernetes), 클라우드 호스팅, 그리고 고보안 또는 규제 환경을 위한 완전한 에어갭(인터넷 접속 없음) 구성이 포함됩니다.\n\n보안 기능으로는 종단 간 암호화, ID 관리, 역할 및 속성 기반 접근 제어가 있습니다. 핵심 채팅 기능 외에도 음성 통화와 페더레이션(별도의 Rocket.Chat 워크스페이스 간 통신)을 지원하며, Rocket.Chat Marketplace의 공개 앱이나 Apps-Engine으로 만든 커스텀 앱을 통해 확장할 수 있습니다. 웹 앱과 더불어 데스크톱 및 모바일 클라이언트도 제공됩니다.\n\n정부, 국방, 금융과 같은 규제 산업을 포함해, SaaS 전용 팀 채팅 제품이 아니라 세밀한 접근 제어와 컴플라이언스 도구를 갖춘 셀프 호스팅 또는 에어갭 채팅 플랫폼이 필요한 조직에 적합합니다."
+    },
+    "es": {
+      "longDescription": "Rocket.Chat es una plataforma de comunicación de equipo de código abierto y autoalojable, construida en TypeScript, dirigida a organizaciones con requisitos estrictos de protección de datos o cumplimiento normativo. Las opciones de despliegue incluyen autoalojado (Docker, Podman, Kubernetes), alojado en la nube, y configuraciones completamente air-gapped (sin acceso a internet) para entornos de alta seguridad o regulados.\n\nLas funciones de seguridad incluyen cifrado de extremo a extremo, gestión de identidad y control de acceso basado en roles y atributos. Más allá del chat básico, admite llamadas de voz y federación (comunicación entre distintos espacios de trabajo de Rocket.Chat), y se puede ampliar mediante apps públicas del Rocket.Chat Marketplace o apps personalizadas construidas con su Apps-Engine. Hay clientes de escritorio y móviles disponibles junto con la app web.\n\nEncaja en organizaciones —incluidos sectores regulados como el gobierno, la defensa o las finanzas— que necesitan una plataforma de chat autoalojada o air-gapped con control de acceso granular y herramientas de cumplimiento, en lugar de un producto de chat de equipo exclusivamente SaaS."
+    },
+    "de": {
+      "longDescription": "Rocket.Chat ist eine quelloffene, selbst hostbare Team-Kommunikationsplattform in TypeScript, die sich an Organisationen mit strengen Datenschutz- oder Compliance-Anforderungen richtet. Zu den Deployment-Optionen gehören Self-Hosting (Docker, Podman, Kubernetes), Cloud-Hosting sowie vollständig air-gapped (ohne Internetzugang) Umgebungen für hochsichere oder regulierte Bereiche.\n\nZu den Sicherheitsfunktionen zählen Ende-zu-Ende-Verschlüsselung, Identitätsmanagement sowie rollen- und attributbasierte Zugriffskontrolle. Über den Kern-Chat hinaus unterstützt es Sprachanrufe und Federation (Kommunikation zwischen separaten Rocket.Chat-Workspaces) und lässt sich durch öffentliche Apps aus dem Rocket.Chat Marketplace oder eigene, mit der Apps-Engine gebaute Apps erweitern. Neben der Web-App stehen Desktop- und Mobile-Clients zur Verfügung.\n\nEs eignet sich für Organisationen – einschließlich regulierter Branchen wie Regierung, Verteidigung oder Finanzwesen –, die eine selbst gehostete oder air-gapped Chat-Plattform mit feingranularer Zugriffskontrolle und Compliance-Tooling benötigen, statt eines reinen SaaS-Team-Chat-Produkts."
+    }
+  }
 }

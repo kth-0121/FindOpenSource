@@ -21,5 +21,22 @@
   ],
   "license": "MIT",
   "featured": false,
-  "dateAdded": "2026-07-01"
+  "dateAdded": "2026-07-01",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "Payload 是一个专为 Next.js 打造的无头 CMS：它不是作为一个需要通过 API 调用的独立服务运行，而是直接安装进你现有的 Next.js `/app` 目录中，让前端和 CMS 可以共用同一个项目，你可以直接从 React Server Components 查询数据库，而不必经过 REST 或 GraphQL。\n\n它完全基于 TypeScript，类型会根据你的数据模式自动生成，并包含身份验证、文档版本控制与草稿、国际化、基于区块的布局构建器、可定制的基于 React 的管理界面、Lexical 富文本编辑器、条件字段逻辑，以及细粒度的、以代码定义的访问控制——几乎每个操作都可以挂载钩子（hooks）。\n\nPayload 是开源的，可以在任何运行 Next.js 的地方自托管，并为 Vercel 和 Cloudflare 提供一键部署选项。它非常适合那些已经在使用 Next.js 构建应用、希望将代码优先、由开发者掌控的 CMS 直接集成到应用中、而不是使用独立托管内容平台的团队。"
+    },
+    "ja": {
+      "longDescription": "Payload は、Next.js 専用に構築されたヘッドレス CMS です。API 経由で呼び出す別サービスとして動作するのではなく、既存の Next.js の `/app` フォルダに直接インストールされるため、フロントエンドと CMS が同じプロジェクトを共有でき、REST や GraphQL を必ずしも経由せずに React Server Components から直接データベースにクエリできます。\n\n完全に TypeScript で構築されており、データスキーマから型が自動生成されます。認証、ドキュメントのバージョン管理とドラフト、ローカライゼーション、ブロックベースのレイアウトビルダー、カスタマイズ可能な React ベースの管理 UI、Lexical リッチテキストエディタ、条件付きフィールドロジック、そしてコードで定義するきめ細かなアクセス制御が含まれ、ほぼすべてのアクションにフックを設定できます。\n\nPayload はオープンソースで、Next.js が動作する場所であればどこでもセルフホストでき、Vercel と Cloudflare 向けのワンクリックデプロイオプションもあります。すでに Next.js で構築しているチームで、独立したホスト型コンテンツプラットフォームではなく、コードファーストで開発者が制御できる CMS をアプリに直接統合したい場合に適しています。"
+    },
+    "ko": {
+      "longDescription": "Payload는 Next.js 전용으로 구축된 헤드리스 CMS입니다. API를 통해 호출하는 별도 서비스로 실행되는 대신, 기존 Next.js `/app` 폴더에 직접 설치되어 프런트엔드와 CMS가 동일한 프로젝트를 공유할 수 있고, 반드시 REST나 GraphQL을 거치지 않고도 React Server Components에서 직접 데이터베이스를 쿼리할 수 있습니다.\n\n완전히 TypeScript로 작성되었으며, 타입은 데이터 스키마로부터 자동 생성됩니다. 인증, 문서 버전 관리 및 초안, 다국어 지원, 블록 기반 레이아웃 빌더, 커스터마이징 가능한 React 기반 관리자 UI, Lexical 리치 텍스트 에디터, 조건부 필드 로직, 그리고 코드로 정의하는 세밀한 접근 제어를 포함하며, 사실상 모든 동작에 대해 훅을 사용할 수 있습니다.\n\nPayload는 오픈소스이며 Next.js가 실행되는 모든 환경에서 셀프 호스팅할 수 있고, Vercel과 Cloudflare용 원클릭 배포 옵션도 제공합니다. 이미 Next.js로 구축하고 있으면서, 별도의 호스팅형 콘텐츠 플랫폼 대신 코드 우선적이고 개발자가 직접 통제하는 CMS를 앱에 통합하고 싶은 팀에 적합합니다."
+    },
+    "es": {
+      "longDescription": "Payload es un CMS headless construido específicamente para Next.js: en lugar de ejecutarse como un servicio aparte al que llamas por API, se instala directamente dentro de tu carpeta `/app` de Next.js existente, de modo que el frontend y el CMS pueden compartir el mismo proyecto y puedes consultar la base de datos directamente desde React Server Components sin necesidad de pasar por REST o GraphQL.\n\nEstá totalmente escrito en TypeScript, con tipos generados automáticamente a partir de tu esquema de datos, e incluye autenticación, versionado de documentos y borradores, localización, un constructor de diseños basado en bloques, una interfaz de administración en React personalizable, un editor de texto enriquecido Lexical, lógica condicional de campos y control de acceso granular definido en código, con hooks disponibles prácticamente en cada acción.\n\nPayload es de código abierto y autoalojable en cualquier lugar donde se ejecute Next.js, con opciones de despliegue de un clic para Vercel y Cloudflare. Encaja bien en equipos que ya construyen sobre Next.js y quieren un CMS code-first, controlado por desarrolladores, integrado en su app en lugar de una plataforma de contenido alojada por separado."
+    },
+    "de": {
+      "longDescription": "Payload ist ein Headless-CMS, das speziell für Next.js entwickelt wurde: Statt als separater Dienst zu laufen, den man über eine API aufruft, wird es direkt in deinen bestehenden Next.js-`/app`-Ordner installiert, sodass Frontend und CMS dasselbe Projekt teilen können und du die Datenbank direkt aus React Server Components abfragen kannst, ohne zwingend über REST oder GraphQL zu gehen.\n\nEs ist vollständig in TypeScript geschrieben, mit Typen, die automatisch aus deinem Datenschema generiert werden, und umfasst Authentifizierung, Dokumentversionierung und Entwürfe, Lokalisierung, einen blockbasierten Layout-Builder, eine anpassbare React-basierte Admin-UI, einen Lexical-Rich-Text-Editor, bedingte Feldlogik sowie feingranulare, im Code definierte Zugriffskontrolle – mit Hooks, die praktisch bei jeder Aktion verfügbar sind.\n\nPayload ist Open Source und überall dort selbst hostbar, wo Next.js läuft, mit Ein-Klick-Deployment-Optionen für Vercel und Cloudflare. Es eignet sich gut für Teams, die bereits auf Next.js aufbauen und ein code-first, entwicklergesteuertes CMS direkt in ihre App integrieren möchten, statt eine separate gehostete Content-Plattform zu nutzen."
+    }
+  }
 }

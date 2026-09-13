@@ -20,5 +20,22 @@
   ],
   "license": "AGPL-3.0",
   "featured": false,
-  "dateAdded": "2026-03-25"
+  "dateAdded": "2026-03-25",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "Nextcloud Server 是一个可自托管的平台，用于存储、同步和共享文件、联系人、日历等内容——定位为消费级云存储和协同办公服务的私有、自主可控替代方案。其核心功能可通过应用生态系统（可从内置的应用商店获取）进行扩展，涵盖日历、通讯录、邮件、Talk（视频/语音聊天）等功能，让基础安装可以逐步扩展为更完整的协作套件。\n\n安全特性包括内置加密选项、双因素认证，以及活跃的 HackerOne 漏洞赏金计划。你可以通过多种方式获取 Nextcloud：向托管服务商注册、自行在自有硬件上安装、购买预装 Nextcloud 的设备，或使用专门的 Nextcloud 服务提供商；此外还有独立的 Nextcloud 企业版，面向企业、公共部门和教育机构客户。\n\n它适合那些希望将文件和协作数据保留在自己可控基础设施上的个人、组织或公共部门团队。"
+    },
+    "ja": {
+      "longDescription": "Nextcloud Server は、ファイル、連絡先、カレンダーなどを保存・同期・共有できるセルフホスト可能なプラットフォームで、一般消費者向けクラウドストレージやグループウェアサービスに代わる、プライベートで自分自身が管理できる選択肢として位置づけられています。コア機能は(組み込みのアプリストアから入手できる)アプリエコシステムによって拡張でき、カレンダー、連絡先、メール、Talk(音声・ビデオチャット)などをカバーするため、基本インストールをより広範なコラボレーションスイートへと育てていくことができます。\n\nセキュリティ機能には、組み込みの暗号化オプション、二要素認証、そして活発に運用されている HackerOne バグバウンティプログラムが含まれます。Nextcloud の入手方法はいくつかあります。ホスティングプロバイダーに申し込む、自分のハードウェアに自分でインストールする、プリインストール済みのデバイスを購入する、あるいは専門の Nextcloud サービスプロバイダーを利用するといった方法です。別途、企業・公共部門・教育機関向けの Nextcloud Enterprise 提供もあります。\n\n自分たちが管理するインフラ上にファイルやコラボレーションデータを保持したい、個人、組織、あるいは公共部門のチームに向いています。"
+    },
+    "ko": {
+      "longDescription": "Nextcloud Server는 파일, 연락처, 캘린더 등을 저장, 동기화, 공유할 수 있는 셀프 호스팅 가능한 플랫폼으로, 일반 소비자용 클라우드 스토리지 및 그룹웨어 서비스를 대체하는 개인적이고 직접 통제 가능한 대안으로 자리매김하고 있습니다. 핵심 기능은 (내장된 앱 스토어에서 제공되는) 앱 생태계를 통해 확장되며, 캘린더, 연락처, 메일, Talk(영상/음성 채팅) 등을 포괄하여 기본 설치를 더 폭넓은 협업 스위트로 성장시킬 수 있습니다.\n\n보안 기능으로는 내장 암호화 옵션, 이중 인증, 그리고 활발히 운영되는 HackerOne 버그 바운티 프로그램이 있습니다. Nextcloud를 얻는 방법은 여러 가지입니다. 호스팅 제공업체에 가입하거나, 직접 자신의 하드웨어에 설치하거나, 미리 설치된 기기를 구매하거나, 전문 Nextcloud 서비스 제공업체를 이용할 수 있습니다. 별도로 기업, 공공 부문, 교육 고객을 대상으로 하는 Nextcloud Enterprise 제품도 있습니다.\n\n파일과 협업 데이터를 자신이 통제하는 인프라에 두고 싶은 개인, 조직, 또는 공공 부문 팀에 적합합니다."
+    },
+    "es": {
+      "longDescription": "Nextcloud Server es una plataforma autoalojable para almacenar, sincronizar y compartir archivos, contactos, calendarios y más, posicionada como una alternativa privada y bajo tu propio control frente a los servicios de almacenamiento en la nube y groupware para consumidores. La funcionalidad principal se amplía mediante un ecosistema de apps (disponibles desde la App Store integrada) que cubre cosas como Calendario, Contactos, Correo y Talk (chat de audio/vídeo), de modo que una instalación básica puede crecer hasta convertirse en una suite de colaboración más completa.\n\nLas funciones de seguridad incluyen opciones de cifrado integradas, autenticación de dos factores y un programa activo de recompensas por errores (bug bounty) en HackerOne. Puedes obtener Nextcloud de varias formas: registrarte con un proveedor de hosting, instalarlo tú mismo en tu propio hardware, comprar un dispositivo con él preinstalado, o usar un proveedor de servicios especializado en Nextcloud; existe además una oferta aparte, Nextcloud Enterprise, dirigida a clientes empresariales, del sector público y educativos.\n\nEncaja en particulares, organizaciones o equipos del sector público que quieren mantener sus archivos y datos de colaboración en una infraestructura que ellos controlan."
+    },
+    "de": {
+      "longDescription": "Nextcloud Server ist eine selbst hostbare Plattform zum Speichern, Synchronisieren und Teilen von Dateien, Kontakten, Kalendern und mehr – positioniert als private, selbst kontrollierte Alternative zu Cloud-Speicher- und Groupware-Diensten für Endverbraucher. Die Kernfunktionalität wird durch ein App-Ökosystem erweitert (verfügbar über den integrierten App Store), das Dinge wie Kalender, Kontakte, Mail und Talk (Video-/Audio-Chat) abdeckt, sodass aus einer Basisinstallation eine umfassendere Kollaborationssuite werden kann.\n\nZu den Sicherheitsfunktionen gehören eingebaute Verschlüsselungsoptionen, Zwei-Faktor-Authentifizierung und ein aktives Bug-Bounty-Programm auf HackerOne. Nextcloud lässt sich auf verschiedene Weisen beziehen: Anmeldung bei einem Hosting-Anbieter, Selbstinstallation auf eigener Hardware, Kauf eines Geräts mit vorinstallierter Software oder Nutzung eines spezialisierten Nextcloud-Dienstleisters; ein separates Angebot, Nextcloud Enterprise, richtet sich an Geschäfts-, Behörden- und Bildungskunden.\n\nSie eignet sich für Einzelpersonen, Organisationen oder Teams im öffentlichen Sektor, die ihre Dateien und Kollaborationsdaten auf einer selbst kontrollierten Infrastruktur behalten möchten."
+    }
+  }
 }

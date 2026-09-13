@@ -22,5 +22,22 @@
   ],
   "license": "AGPL-3.0",
   "featured": true,
-  "dateAdded": "2026-08-05"
+  "dateAdded": "2026-08-05",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "Redis（自 8.0 版本起从“Redis Community Edition”更名为“Redis Open Source”）是一个内存数据结构服务器，最常被用作缓存，但它同时也是一个通用的数据结构存储、会话存储、消息代理/队列系统，并且通过 Redis Search，还可以作为面向 AI 应用的搜索与向量查询引擎（语义缓存、RAG 检索，以及 LLM 的短期/长期记忆）。\n\n由于它主要将数据保存在内存中，并使用高效的数据结构（字符串、列表、集合、哈希、有序集合、流等），因此能实现极低的延迟，通常在亚毫秒级；其模块 API 允许在默认功能之外扩展额外的命令和能力。\n\n许可协议在不同版本间有所变化：7.2.x 及之前的版本采用 BSD-3-Clause 许可证，而 8.0.x 及之后的版本可在 RSALv2、SSPLv1 或 AGPLv3 三种许可证中任选其一。除自托管之外，Redis Ltd. 还提供 Redis Software（面向企业的自管理方案）和 Redis Cloud（在 AWS、Azure 或 Google Cloud 上的全托管方案）。"
+    },
+    "ja": {
+      "longDescription": "Redis(8.0 リリース以降「Redis Community Edition」から「Redis Open Source」に改称)は、主にキャッシュとして使われるインメモリのデータ構造サーバーですが、汎用的なデータ構造ストア、セッションストア、メッセージブローカー/キューシステムとしても機能し、Redis Search を通じて AI アプリケーション向けの検索・ベクトルクエリエンジン(セマンティックキャッシュ、RAG 検索、LLM の短期/長期記憶)としても使えます。\n\n主にメモリ内にデータを保持し、効率的なデータ構造(文字列、リスト、セット、ハッシュ、ソート済みセット、ストリームなど)を使用するため、非常に低い、しばしばサブミリ秒単位のレイテンシを実現します。モジュール API を使えば、デフォルトで提供される以上のコマンドや機能を追加して拡張できます。\n\nライセンスはバージョンによって変化しています。7.2.x までのリリースは BSD-3-Clause ですが、8.0.x 以降は RSALv2、SSPLv1、AGPLv3 のいずれかを選択できる形で提供されています。セルフホストに加え、Redis Ltd. は Redis Software(セルフマネージド、エンタープライズ向け)と Redis Cloud(AWS、Azure、Google Cloud 上でのフルマネージド)も提供しています。"
+    },
+    "ko": {
+      "longDescription": "Redis(8.0 릴리스부터 \"Redis Community Edition\"에서 \"Redis Open Source\"로 이름이 변경됨)는 주로 캐시로 사용되는 인메모리 데이터 구조 서버이지만, 범용 데이터 구조 저장소, 세션 저장소, 메시지 브로커/큐 시스템으로도 동작하며, Redis Search를 통해 AI 애플리케이션을 위한 검색 및 벡터 쿼리 엔진(시맨틱 캐싱, RAG 검색, LLM의 단기/장기 메모리)으로도 기능합니다.\n\n데이터를 주로 메모리에 유지하고 효율적인 데이터 구조(문자열, 리스트, 셋, 해시, 정렬된 셋, 스트림 등)를 사용하기 때문에 매우 낮은, 종종 서브밀리초 단위의 지연 시간을 달성하며, 모듈 API를 통해 기본 제공 기능을 넘어서는 추가 명령과 기능으로 확장할 수 있습니다.\n\n라이선스는 버전에 따라 달라졌습니다. 7.2.x까지의 릴리스는 BSD-3-Clause이며, 8.0.x 이후 버전은 RSALv2, SSPLv1, AGPLv3 중에서 선택하여 제공됩니다. 셀프 호스팅 외에도 Redis Ltd.는 Redis Software(셀프 매니지드, 엔터프라이즈 중심)와 Redis Cloud(AWS, Azure, Google Cloud에서 완전 관리형)도 제공합니다."
+    },
+    "es": {
+      "longDescription": "Redis (renombrado de \"Redis Community Edition\" a \"Redis Open Source\" a partir de la versión 8.0) es un servidor de estructuras de datos en memoria que se usa sobre todo como caché, pero que también funciona como almacén de estructuras de datos de propósito general, almacén de sesiones, sistema de mensajería/colas y, a través de Redis Search, como motor de búsqueda y consultas vectoriales para aplicaciones de IA (caché semántica, recuperación para RAG, y memoria de corto/largo plazo para LLM).\n\nComo mantiene los datos principalmente en memoria y usa estructuras de datos eficientes (cadenas, listas, conjuntos, hashes, conjuntos ordenados, streams y más), logra una latencia muy baja, a menudo por debajo del milisegundo, y su API de módulos permite ampliarlo con comandos y capacidades adicionales más allá de lo que viene por defecto.\n\nEl licenciamiento ha cambiado entre versiones: las versiones hasta la 7.2.x son BSD-3-Clause, mientras que la 8.0.x y posteriores se ofrecen bajo una elección entre RSALv2, SSPLv1 o AGPLv3. Más allá del autoalojamiento, Redis Ltd. también ofrece Redis Software (autogestionado, orientado a empresas) y Redis Cloud (totalmente gestionado en AWS, Azure o Google Cloud)."
+    },
+    "de": {
+      "longDescription": "Redis (mit dem 8.0-Release von „Redis Community Edition“ in „Redis Open Source“ umbenannt) ist ein In-Memory-Datenstrukturserver, der meist als Cache eingesetzt wird, aber auch als universeller Datenstrukturspeicher, Session-Store, Message-Broker/Warteschlangensystem und – über Redis Search – als Such- und Vektorabfrage-Engine für KI-Anwendungen (semantisches Caching, RAG-Retrieval sowie Kurz-/Langzeitgedächtnis für LLMs) dient.\n\nDa Daten hauptsächlich im Arbeitsspeicher gehalten werden und effiziente Datenstrukturen (Strings, Listen, Sets, Hashes, Sorted Sets, Streams und mehr) zum Einsatz kommen, erreicht es sehr niedrige, oft Sub-Millisekunden-Latenzen, und über die Module-API lässt es sich um zusätzliche Befehle und Fähigkeiten über den Standardumfang hinaus erweitern.\n\nDie Lizenzierung hat sich über die Versionen hinweg geändert: Releases bis 7.2.x stehen unter BSD-3-Clause, während 8.0.x und später zur Wahl zwischen RSALv2, SSPLv1 oder AGPLv3 angeboten werden. Über das Self-Hosting hinaus bietet Redis Ltd. auch Redis Software (selbst verwaltet, auf Unternehmen ausgerichtet) und Redis Cloud (vollständig verwaltet auf AWS, Azure oder Google Cloud) an."
+    }
+  }
 }

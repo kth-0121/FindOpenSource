@@ -23,19 +23,24 @@
   "dateAdded": "2025-10-29",
   "translations": {
     "zh-CN": {
-      "description": "用于开发由大语言模型、智能体和检索增强生成(RAG)驱动的应用程序的框架。"
+      "description": "用于开发由大语言模型、智能体和检索增强生成(RAG)驱动的应用程序的框架。",
+      "longDescription": "LangChain 是一个框架，通过将聊天模型、嵌入、向量存储、检索器以及第三方集成等可互操作的组件串联在统一接口之后，来构建由大语言模型驱动的应用和智能体，这样当底层模型格局发生变化时，你可以直接更换提供方，而无需重写应用逻辑。\n\n它的设计可以从快速原型扩展到更复杂的系统：先从 LangChain 的高层抽象入手，随着需求的增长再转向更底层的组件，或使用 LangGraph（用于构建更可控、有状态的智能体工作流）和 LangSmith（用于评估、调试和部署 LLM 应用）等配套工具。它同时提供 Python 和 JavaScript/TypeScript 版本。\n\nLangChain 适合那些正在构建检索增强、工具调用或多步骤 LLM 应用、并希望使用一套通用抽象和庞大集成库的开发者，而不是为每个模型或向量存储从零编写胶水代码。"
     },
     "ja": {
-      "description": "大規模言語モデル、エージェント、検索拡張生成(RAG)を活用したアプリケーションを開発するためのフレームワークです。"
+      "description": "大規模言語モデル、エージェント、検索拡張生成(RAG)を活用したアプリケーションを開発するためのフレームワークです。",
+      "longDescription": "LangChain は、チャットモデル、埋め込み、ベクトルストア、リトリーバー、サードパーティ統合といった相互運用可能なコンポーネントを標準インターフェースの背後で連結することで、LLM を活用したアプリケーションやエージェントを構築するためのフレームワークです。これにより、基盤となるモデルの状況が変化しても、アプリケーションロジックを書き換えることなくプロバイダーを切り替えられます。\n\nシンプルなプロトタイプから、より複雑なシステムへとスケールするよう設計されています。まずは LangChain の高レベルな抽象化から始め、要件が増えるにつれてより低レベルのコンポーネントや、LangGraph(より制御しやすいステートフルなエージェントワークフローの構築用)、LangSmith(LLM アプリケーションの評価・デバッグ・デプロイ用)といった関連ツールへ移行できます。Python と JavaScript/TypeScript の両方で利用可能です。\n\nLangChain は、検索拡張やツール利用、複数ステップにわたる LLM アプリケーションを構築する開発者に向いており、モデルやベクトルストアごとにグルーコードをゼロから書くのではなく、共通の抽象化と豊富な統合ライブラリを求める場合に適しています。"
     },
     "ko": {
-      "description": "대규모 언어 모델, 에이전트, 검색 증강 생성(RAG)으로 구동되는 애플리케이션을 개발하기 위한 프레임워크입니다."
+      "description": "대규모 언어 모델, 에이전트, 검색 증강 생성(RAG)으로 구동되는 애플리케이션을 개발하기 위한 프레임워크입니다.",
+      "longDescription": "LangChain은 챗 모델, 임베딩, 벡터 스토어, 리트리버, 서드파티 통합 등 상호운용 가능한 구성요소를 표준 인터페이스 뒤에서 서로 연결함으로써 LLM 기반 애플리케이션과 에이전트를 구축하는 프레임워크입니다. 덕분에 기반 모델 환경이 바뀌더라도 애플리케이션 로직을 다시 작성하지 않고 제공자를 교체할 수 있습니다.\n\n간단한 프로토타입에서 더 복잡한 시스템까지 확장할 수 있도록 설계되었습니다. LangChain의 고수준 추상화로 시작해, 요구 사항이 커지면 더 저수준의 구성요소나 LangGraph(더 제어 가능하고 상태를 가진 에이전트 워크플로 구축용), LangSmith(LLM 애플리케이션 평가·디버깅·배포용) 같은 동반 도구로 옮겨갈 수 있습니다. Python과 JavaScript/TypeScript 모두에서 사용할 수 있습니다.\n\nLangChain은 검색 증강형, 도구 사용형, 또는 다단계 LLM 애플리케이션을 만드는 개발자에게 적합하며, 모델이나 벡터 스토어마다 글루 코드를 처음부터 작성하는 대신 공통된 추상화 집합과 방대한 통합 라이브러리를 원하는 경우에 잘 맞습니다."
     },
     "es": {
-      "description": "Framework para desarrollar aplicaciones impulsadas por modelos de lenguaje grandes, agentes y generación aumentada por recuperación (RAG)."
+      "description": "Framework para desarrollar aplicaciones impulsadas por modelos de lenguaje grandes, agentes y generación aumentada por recuperación (RAG).",
+      "longDescription": "LangChain es un framework para construir aplicaciones y agentes impulsados por LLM encadenando componentes interoperables —modelos de chat, embeddings, almacenes vectoriales, retrievers e integraciones de terceros— detrás de una interfaz estándar, de modo que puedas cambiar de proveedor a medida que cambia el panorama de modelos subyacente sin reescribir la lógica de la aplicación.\n\nEstá diseñado para escalar desde prototipos rápidos hasta sistemas más complejos: empieza con las abstracciones de alto nivel de LangChain y, a medida que crecen los requisitos, pasa a componentes de nivel más bajo o a herramientas complementarias como LangGraph (para construir flujos de trabajo de agentes con estado y más controlables) y LangSmith (para evaluar, depurar y desplegar aplicaciones LLM). Está disponible tanto para Python como para JavaScript/TypeScript.\n\nLangChain encaja en desarrolladores que construyen aplicaciones LLM con generación aumentada por recuperación, uso de herramientas o múltiples pasos, y que quieren un conjunto común de abstracciones y una amplia biblioteca de integraciones, en lugar de escribir código de conexión para cada modelo o almacén vectorial desde cero."
     },
     "de": {
-      "description": "Framework zur Entwicklung von Anwendungen auf Basis großer Sprachmodelle, Agenten und Retrieval-Augmented Generation (RAG)."
+      "description": "Framework zur Entwicklung von Anwendungen auf Basis großer Sprachmodelle, Agenten und Retrieval-Augmented Generation (RAG).",
+      "longDescription": "LangChain ist ein Framework zum Erstellen von LLM-gestützten Anwendungen und Agenten, indem interoperable Komponenten – Chat-Modelle, Embeddings, Vektorspeicher, Retriever und Integrationen von Drittanbietern – hinter einer einheitlichen Schnittstelle miteinander verkettet werden. So kannst du den Anbieter wechseln, wenn sich die zugrunde liegende Modelllandschaft ändert, ohne die Anwendungslogik neu schreiben zu müssen.\n\nEs ist darauf ausgelegt, von schnellen Prototypen bis zu komplexeren Systemen zu skalieren: Man beginnt mit den High-Level-Abstraktionen von LangChain und wechselt bei wachsenden Anforderungen zu Lower-Level-Komponenten oder zu begleitenden Tools wie LangGraph (für besser kontrollierbare, zustandsbehaftete Agenten-Workflows) und LangSmith (zum Evaluieren, Debuggen und Deployen von LLM-Anwendungen). Es ist sowohl für Python als auch für JavaScript/TypeScript verfügbar.\n\nLangChain eignet sich für Entwickler, die Retrieval-Augmented-, Tool-nutzende oder mehrstufige LLM-Anwendungen bauen und dafür einen gemeinsamen Satz an Abstraktionen sowie eine große Bibliothek an Integrationen wollen, statt für jedes Modell oder jeden Vektorspeicher Klebecode von Grund auf zu schreiben."
     }
   }
 }

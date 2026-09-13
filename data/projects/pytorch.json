@@ -21,5 +21,22 @@
   ],
   "license": "BSD-3-Clause",
   "featured": true,
-  "dateAdded": "2025-11-12"
+  "dateAdded": "2025-11-12",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "PyTorch 是一个围绕两大核心能力构建的 Python 库：一个类似 NumPy、具备强大 GPU 加速能力的张量库，以及一个基于磁带式（tape-based）自动微分系统（autograd）构建的深度学习框架，该系统通过跟踪张量上的操作来计算梯度。其 `torch.nn` 模块在 autograd 之上构建神经网络层，`torch.jit`（TorchScript）可以将 PyTorch 代码编译为可序列化、可优化的模型，同时你还可以使用 NumPy、SciPy、Cython 等现有 Python 库来对其进行扩展。\n\nPyTorch 通常被用作 GPU 加速版的 NumPy 替代品，或作为深度学习研究平台，其设计更倾向于命令式、Python 优先的风格——你可以像编写和调试普通 Python 代码一样编写和调试模型，而不需要单独定义静态计算图。\n\n它适合那些正在构建和训练神经网络、并希望使用灵活的、原生 Python 风格的张量与自动微分库，而不是更高层、更具规定性的深度学习框架的研究人员和工程师。"
+    },
+    "ja": {
+      "longDescription": "PyTorch は、2つのコア機能を中心に構築された Python ライブラリです。1つは強力な GPU アクセラレーションを備えた NumPy ライクなテンソルライブラリ、もう1つはテープベースの自動微分システム(autograd)を基盤とする深層学習フレームワークで、テンソルに対する操作を追跡して勾配を計算します。`torch.nn` モジュールは autograd の上にニューラルネットワーク層を構築し、`torch.jit`(TorchScript)は PyTorch のコードをシリアライズ・最適化可能なモデルにコンパイルでき、NumPy、SciPy、Cython といった既存の Python ライブラリを使って拡張することもできます。\n\nPyTorch は通常、GPU アクセラレーション版の NumPy 代替として、または深層学習の研究プラットフォームとして使われ、その設計は命令的で Python ファーストなスタイルを重視しています。別途静的なグラフ定義を用意するのではなく、通常の Python コードとしてモデルを記述しデバッグできます。\n\nより高レベルで独自色の強い深層学習フレームワークではなく、柔軟で Python ネイティブなテンソル・自動微分ライブラリを求めながらニューラルネットワークを構築・訓練する研究者やエンジニアに向いています。"
+    },
+    "ko": {
+      "longDescription": "PyTorch는 두 가지 핵심 기능을 중심으로 구축된 Python 라이브러리입니다. 하나는 강력한 GPU 가속을 갖춘 NumPy 스타일의 텐서 라이브러리이고, 다른 하나는 테이프 기반 자동 미분 시스템(autograd)을 기반으로 하는 딥러닝 프레임워크로, 텐서에 대한 연산을 추적하여 그래디언트를 계산합니다. `torch.nn` 모듈은 autograd 위에 신경망 레이어를 구축하고, `torch.jit`(TorchScript)는 PyTorch 코드를 직렬화 및 최적화 가능한 모델로 컴파일할 수 있으며, NumPy, SciPy, Cython 같은 기존 Python 라이브러리를 사용해 확장할 수도 있습니다.\n\nPyTorch는 일반적으로 GPU 가속 버전의 NumPy 대체재로, 또는 딥러닝 연구 플랫폼으로 사용되며, 그 설계는 명령형이면서 Python 우선적인 스타일을 지향합니다. 별도의 정적 그래프 정의 대신, 일반적인 Python 코드처럼 모델을 작성하고 디버깅할 수 있습니다.\n\n더 높은 수준이고 더 규정적인 딥러닝 프레임워크 대신, 유연하고 Python 네이티브한 텐서 및 자동 미분 라이브러리를 원하면서 신경망을 구축하고 훈련하는 연구자와 엔지니어에게 적합합니다."
+    },
+    "es": {
+      "longDescription": "PyTorch es una biblioteca de Python construida en torno a dos capacidades principales: una biblioteca de tensores al estilo NumPy con una aceleración por GPU sólida, y un framework de deep learning basado en un sistema de diferenciación automática tipo cinta (tape-based, autograd) que rastrea las operaciones sobre tensores para calcular gradientes. Su módulo `torch.nn` construye capas de redes neuronales sobre autograd, `torch.jit` (TorchScript) puede compilar código de PyTorch en modelos serializables y optimizables, y bibliotecas de Python existentes como NumPy, SciPy y Cython se pueden usar para ampliarlo.\n\nPyTorch se usa habitualmente como sustituto de NumPy acelerado por GPU, o como plataforma de investigación en deep learning, y su diseño favorece un estilo imperativo y centrado en Python: escribes y depuras modelos como código Python normal, en lugar de mediante una definición de grafo estático separada.\n\nEncaja en investigadores e ingenieros que construyen y entrenan redes neuronales y que prefieren una biblioteca de tensores y autograd flexible y nativa de Python, en lugar de un framework de deep learning de más alto nivel y más rígido en sus convenciones."
+    },
+    "de": {
+      "longDescription": "PyTorch ist eine Python-Bibliothek, die um zwei zentrale Fähigkeiten herum aufgebaut ist: eine NumPy-ähnliche Tensor-Bibliothek mit starker GPU-Beschleunigung sowie ein Deep-Learning-Framework, das auf einem bandbasierten (tape-based) automatischen Differenzierungssystem (Autograd) aufbaut, das Operationen auf Tensoren nachverfolgt, um Gradienten zu berechnen. Das Modul `torch.nn` baut auf Autograd neuronale Netzwerkschichten auf, `torch.jit` (TorchScript) kann PyTorch-Code in serialisierbare, optimierbare Modelle kompilieren, und bestehende Python-Bibliotheken wie NumPy, SciPy und Cython lassen sich zur Erweiterung nutzen.\n\nPyTorch wird typischerweise entweder als GPU-beschleunigter Ersatz für NumPy oder als Forschungsplattform für Deep Learning eingesetzt, und sein Design bevorzugt einen imperativen, Python-first geprägten Stil – man schreibt und debuggt Modelle als gewöhnlichen Python-Code statt über eine separate statische Graphdefinition.\n\nEs eignet sich für Forscher und Ingenieure, die neuronale Netze bauen und trainieren und dabei eine flexible, Python-native Tensor- und Autograd-Bibliothek einem höherstufigeren, stärker vorgegebenen Deep-Learning-Framework vorziehen."
+    }
+  }
 }

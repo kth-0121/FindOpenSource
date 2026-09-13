@@ -24,19 +24,24 @@
   "dateAdded": "2026-08-18",
   "translations": {
     "zh-CN": {
-      "description": "功能强大的开源对象关系型数据库系统，已持续开发 35 年以上。"
+      "description": "功能强大的开源对象关系型数据库系统，已持续开发 35 年以上。",
+      "longDescription": "该仓库包含 PostgreSQL 的官方源码发行版，这是一个先进的对象关系型数据库管理系统。它支持 SQL 标准的一个扩展子集，包括事务、外键、子查询、触发器以及用户自定义类型和函数——这也是 Postgres 经常被用自定义数据类型和功能进行扩展、而不是被当作一个固定封闭的关系型引擎来使用的部分原因。\n\n大多数用户会为自己的平台安装预编译包，而不是直接从该源码发行版进行构建；官方文档同时涵盖了从源码构建和一般使用方法。PostgreSQL 适合那些需要一个成熟、符合标准、且具备可扩展空间的关系型数据库的应用——从典型的事务型 Web 应用数据，到通过扩展支持的更专业化的工作负载。"
     },
     "ja": {
-      "description": "35年以上にわたり活発に開発されている、強力なオープンソースのオブジェクトリレーショナルデータベースシステムです。"
+      "description": "35年以上にわたり活発に開発されている、強力なオープンソースのオブジェクトリレーショナルデータベースシステムです。",
+      "longDescription": "このリポジトリには、高度なオブジェクトリレーショナルデータベース管理システムである PostgreSQL の公式ソース配布物が含まれています。トランザクション、外部キー、サブクエリ、トリガー、ユーザー定義の型や関数など、SQL 標準を拡張したサブセットをサポートしています。これは、Postgres が固定的で閉じたリレーショナルエンジンとして扱われるのではなく、カスタムのデータ型や機能でしばしば拡張される理由の一つでもあります。\n\nほとんどのユーザーは、このソース配布物から直接ビルドするのではなく、自分のプラットフォーム向けのビルド済みパッケージをインストールします。公式ドキュメントには、ソースからのビルド方法と一般的な使用方法の両方が記載されています。PostgreSQL は、拡張の余地を持つ、成熟し標準に準拠したリレーショナルデータベースを必要とするアプリケーション、一般的なトランザクション型 Web アプリのデータから、拡張機能を介したより専門的なワークロードまで、幅広い用途に向いています。"
     },
     "ko": {
-      "description": "35년 넘게 활발히 개발되어 온 강력한 오픈소스 객체-관계형 데이터베이스 시스템입니다."
+      "description": "35년 넘게 활발히 개발되어 온 강력한 오픈소스 객체-관계형 데이터베이스 시스템입니다.",
+      "longDescription": "이 저장소에는 고급 객체-관계형 데이터베이스 관리 시스템인 PostgreSQL의 공식 소스 배포판이 포함되어 있습니다. 트랜잭션, 외래 키, 서브쿼리, 트리거, 사용자 정의 타입 및 함수를 포함한 SQL 표준의 확장된 부분집합을 지원합니다. 이는 Postgres가 고정되고 폐쇄적인 관계형 엔진으로 다뤄지기보다는, 커스텀 데이터 타입과 기능으로 자주 확장되는 이유이기도 합니다.\n\n대부분의 사용자는 이 소스 배포판에서 직접 빌드하는 대신 자신의 플랫폼용으로 미리 빌드된 패키지를 설치합니다. 공식 문서는 소스에서 빌드하는 방법과 일반적인 사용법을 모두 다룹니다. PostgreSQL은 확장할 여지가 있는 성숙하고 표준을 준수하는 관계형 데이터베이스가 필요한 애플리케이션에 적합하며, 일반적인 트랜잭션 기반 웹 앱 데이터부터 확장 기능을 통한 더 전문화된 워크로드까지 폭넓게 사용됩니다."
     },
     "es": {
-      "description": "Potente sistema de base de datos objeto-relacional de código abierto, con más de 35 años de desarrollo activo."
+      "description": "Potente sistema de base de datos objeto-relacional de código abierto, con más de 35 años de desarrollo activo.",
+      "longDescription": "Este repositorio contiene la distribución oficial del código fuente de PostgreSQL, un avanzado sistema de gestión de bases de datos objeto-relacional. Admite un subconjunto ampliado del estándar SQL, incluyendo transacciones, claves foráneas, subconsultas, triggers y tipos y funciones definidos por el usuario, lo cual explica en parte por qué Postgres suele ampliarse con tipos de datos y funcionalidades personalizadas en lugar de tratarse como un motor relacional fijo y cerrado.\n\nLa mayoría de los usuarios instalan un paquete precompilado para su plataforma en lugar de compilar directamente desde esta distribución de código fuente; la documentación oficial cubre tanto la compilación desde el código fuente como el uso general. PostgreSQL encaja en aplicaciones que necesitan una base de datos relacional madura y conforme a estándares, con margen para ampliarla, desde datos típicos de aplicaciones web transaccionales hasta cargas de trabajo más especializadas mediante extensiones."
     },
     "de": {
-      "description": "Leistungsstarkes, quelloffenes objektrelationales Datenbanksystem mit über 35 Jahren aktiver Entwicklung."
+      "description": "Leistungsstarkes, quelloffenes objektrelationales Datenbanksystem mit über 35 Jahren aktiver Entwicklung.",
+      "longDescription": "Dieses Repository enthält die offizielle Quellcode-Distribution von PostgreSQL, einem fortschrittlichen objektrelationalen Datenbankmanagementsystem. Es unterstützt einen erweiterten Teilbereich des SQL-Standards, einschließlich Transaktionen, Fremdschlüsseln, Unterabfragen, Triggern sowie benutzerdefinierten Typen und Funktionen – ein Grund, warum Postgres oft mit eigenen Datentypen und Funktionen erweitert wird, statt als feste, geschlossene relationale Engine behandelt zu werden.\n\nDie meisten Nutzer installieren ein vorgefertigtes Paket für ihre Plattform, statt direkt aus dieser Quellcode-Distribution zu bauen; die offizielle Dokumentation deckt sowohl das Bauen aus dem Quellcode als auch die allgemeine Nutzung ab. PostgreSQL eignet sich für Anwendungen, die eine ausgereifte, standardkonforme relationale Datenbank mit Erweiterungsspielraum benötigen – von typischen transaktionalen Webanwendungsdaten bis hin zu spezialisierteren Workloads über Erweiterungen."
     }
   }
 }

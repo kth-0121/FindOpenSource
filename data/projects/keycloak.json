@@ -27,19 +27,24 @@
   "dateAdded": "2026-09-05",
   "translations": {
     "zh-CN": {
-      "description": "支持单点登录、OAuth2 和 OpenID Connect 的开源身份与访问管理解决方案。"
+      "description": "支持单点登录、OAuth2 和 OpenID Connect 的开源身份与访问管理解决方案。",
+      "longDescription": "Keycloak 是一个开源的身份与访问管理（IAM）服务器，通过集中处理身份验证和授权，使各个应用无需自行实现用户存储或登录逻辑。它提供用户联合（对接现有用户目录）、单点登录、强身份验证/多因素认证、自助式用户管理以及细粒度的授权策略。\n\n它以独立服务器的形式运行——可通过可下载的发行版或官方 Docker 镜像部署——应用通过标准协议（OAuth 2.0、OpenID Connect）与其通信，而不是作为库嵌入到每个应用内部。Keycloak 是 Cloud Native Computing Foundation（CNCF）的项目。\n\n它适合那些希望在多个应用或服务前面部署一个统一的身份验证/授权服务，而不是在每个应用中单独构建和维护登录及用户管理逻辑的团队。"
     },
     "ja": {
-      "description": "シングルサインオン、OAuth2、OpenID Connect に対応したオープンソースのアイデンティティ・アクセス管理ソリューションです。"
+      "description": "シングルサインオン、OAuth2、OpenID Connect に対応したオープンソースのアイデンティティ・アクセス管理ソリューションです。",
+      "longDescription": "Keycloak は、認証と認可を一元化することで、個々のアプリケーションが自前でユーザーストレージやログインロジックを実装する必要をなくす、オープンソースの ID・アクセス管理(IAM)サーバーです。ユーザーフェデレーション(既存のユーザーディレクトリとの連携)、シングルサインオン、強力な多要素認証、セルフサービスのユーザー管理、きめ細かな認可ポリシーを提供します。\n\n各アプリにライブラリとして組み込むのではなく、ダウンロード可能な配布物または公式 Docker イメージによるスタンドアロンサーバーとして動作し、アプリケーションは標準プロトコル(OAuth 2.0、OpenID Connect)を使ってこのサーバーとやり取りします。Keycloak は Cloud Native Computing Foundation(CNCF)のプロジェクトです。\n\n複数のアプリケーションやサービスごとにログイン・ユーザー管理ロジックを個別に構築・維持するのではなく、その前段に1つの中央認証・認可サービスを置きたいチームに向いています。"
     },
     "ko": {
-      "description": "싱글 사인온, OAuth2, OpenID Connect를 지원하는 오픈소스 아이덴티티 및 접근 관리 솔루션입니다."
+      "description": "싱글 사인온, OAuth2, OpenID Connect를 지원하는 오픈소스 아이덴티티 및 접근 관리 솔루션입니다.",
+      "longDescription": "Keycloak은 인증과 인가를 중앙집중화하여 개별 애플리케이션이 자체적으로 사용자 저장소나 로그인 로직을 구현할 필요가 없게 해주는 오픈소스 아이덴티티 및 접근 관리(IAM) 서버입니다. 사용자 페더레이션(기존 사용자 디렉터리 연동), 싱글 사인온, 강력한 다단계 인증, 셀프서비스 사용자 관리, 세밀한 인가 정책을 제공합니다.\n\n각 앱 안에 라이브러리로 내장되는 방식이 아니라, 다운로드 가능한 배포판이나 공식 Docker 이미지로 독립 실행되는 서버로 동작하며, 애플리케이션은 표준 프로토콜(OAuth 2.0, OpenID Connect)을 통해 이 서버와 통신합니다. Keycloak은 Cloud Native Computing Foundation(CNCF) 프로젝트입니다.\n\n여러 애플리케이션이나 서비스마다 로그인·사용자 관리 로직을 따로 만들고 유지하는 대신, 하나의 중앙 인증·인가 서비스를 그 앞단에 두고 싶은 팀에 적합합니다."
     },
     "es": {
-      "description": "Solución open source de gestión de identidad y acceso con soporte para inicio de sesión único, OAuth2 y OpenID Connect."
+      "description": "Solución open source de gestión de identidad y acceso con soporte para inicio de sesión único, OAuth2 y OpenID Connect.",
+      "longDescription": "Keycloak es un servidor de código abierto de gestión de identidad y acceso (IAM) que centraliza la autenticación y la autorización, de modo que las aplicaciones individuales no necesitan implementar su propio almacenamiento de usuarios ni su propia lógica de inicio de sesión. Ofrece federación de usuarios (conexión con directorios de usuarios existentes), inicio de sesión único, autenticación fuerte/multifactor, autogestión de usuarios y políticas de autorización de grano fino.\n\nSe ejecuta como un servidor independiente —mediante una distribución descargable o la imagen oficial de Docker— con el que las aplicaciones se comunican usando protocolos estándar (OAuth 2.0, OpenID Connect), en lugar de integrarse como una librería dentro de cada app. Keycloak es un proyecto de la Cloud Native Computing Foundation (CNCF).\n\nEncaja en equipos que quieren un único servicio central de autenticación/autorización delante de varias aplicaciones o servicios, en lugar de construir y mantener por separado la lógica de inicio de sesión y gestión de usuarios en cada una de ellas."
     },
     "de": {
-      "description": "Open-Source-Lösung für Identity- und Access-Management mit Unterstützung für Single Sign-on, OAuth2 und OpenID Connect."
+      "description": "Open-Source-Lösung für Identity- und Access-Management mit Unterstützung für Single Sign-on, OAuth2 und OpenID Connect.",
+      "longDescription": "Keycloak ist ein Open-Source-Server für Identity- und Access-Management (IAM), der Authentifizierung und Autorisierung zentralisiert, sodass einzelne Anwendungen keine eigene Benutzerspeicherung oder Login-Logik implementieren müssen. Er bietet User Federation (Anbindung bestehender Benutzerverzeichnisse), Single Sign-on, starke Multi-Faktor-Authentifizierung, Self-Service-Benutzerverwaltung und feingranulare Autorisierungsrichtlinien.\n\nEr läuft als eigenständiger Server – über eine herunterladbare Distribution oder das offizielle Docker-Image – mit dem Anwendungen über Standardprotokolle (OAuth 2.0, OpenID Connect) kommunizieren, statt als Bibliothek in jede App eingebettet zu werden. Keycloak ist ein Projekt der Cloud Native Computing Foundation (CNCF).\n\nEs eignet sich für Teams, die einen zentralen Authentifizierungs-/Autorisierungsdienst vor mehreren Anwendungen oder Diensten betreiben möchten, statt Login- und Benutzerverwaltungslogik in jeder einzeln zu bauen und zu pflegen."
     }
   }
 }

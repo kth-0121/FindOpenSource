@@ -19,5 +19,22 @@
   ],
   "license": "SSPL-1.0",
   "featured": true,
-  "dateAdded": "2026-08-12"
+  "dateAdded": "2026-08-12",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "该仓库包含 MongoDB 核心数据库服务器（`mongod`）和分片路由器（`mongos`）——即文档型 NoSQL 数据库本身，以及从源码构建和运行它所需的工具链。大多数用户会安装预编译包（通过官方下载、Homebrew 或官方 Docker 镜像），而不是从源码自行构建。\n\n该仓库所指向的更广泛的 MongoDB 生态系统包括 `mongosh`（交互式 Shell）、MongoDB Compass（用于浏览和查询数据的图形界面）以及面向大多数主流编程语言的官方驱动程序。对于不想自行运维服务器的团队，MongoDB Atlas 是官方提供的托管云数据库服务。\n\nMongoDB 适用于将数据建模为灵活的、类似 JSON 的文档、而非固定关系型表结构的应用，以及需要通过分片实现内置水平扩展以应对更大数据集的场景。"
+    },
+    "ja": {
+      "longDescription": "このリポジトリには、MongoDB のコアとなるデータベースサーバー(`mongod`)とシャーディングルーター(`mongos`)——つまりドキュメント指向の NoSQL データベース本体——に加えて、ソースからビルド・実行するために必要なツール類が含まれています。ほとんどのユーザーは、ソースからビルドするのではなく、ビルド済みパッケージ(公式ダウンロード、Homebrew、公式 Docker イメージ経由)としてインストールします。\n\nこのリポジトリから参照される、より広い MongoDB エコシステムには、`mongosh`(対話型シェル)、MongoDB Compass(データの閲覧・クエリ用 GUI)、そして主要なプログラミング言語向けの公式ドライバーが含まれます。自前でサーバーを運用したくないチーム向けには、MongoDB Atlas が公式のマネージドクラウドデータベースサービスとして提供されています。\n\nMongoDB は、固定的なリレーショナルテーブルではなく柔軟な JSON ライクなドキュメントとしてデータをモデル化するアプリケーションや、より大規模なデータセットに対してシャーディングによる組み込みの水平スケーリングを必要とする用途に向いています。"
+    },
+    "ko": {
+      "longDescription": "이 저장소에는 MongoDB의 핵심 데이터베이스 서버(`mongod`)와 샤딩 라우터(`mongos`)——즉 문서 지향 NoSQL 데이터베이스 자체——와, 소스에서 빌드하고 실행하는 데 필요한 도구들이 포함되어 있습니다. 대부분의 사용자는 소스에서 직접 빌드하는 대신 사전 빌드된 패키지(공식 다운로드, Homebrew, 또는 공식 Docker 이미지를 통해)를 설치합니다.\n\n이 저장소에서 참조하는 더 넓은 MongoDB 생태계에는 `mongosh`(대화형 셸), MongoDB Compass(데이터 탐색 및 쿼리를 위한 GUI), 그리고 대부분의 주요 프로그래밍 언어를 위한 공식 드라이버가 포함됩니다. 자체 서버를 운영하고 싶지 않은 팀을 위해서는 MongoDB Atlas가 공식 관리형 클라우드 데이터베이스 서비스로 제공됩니다.\n\nMongoDB는 고정된 관계형 테이블이 아니라 유연한 JSON과 유사한 문서로 데이터를 모델링하는 애플리케이션, 그리고 더 큰 데이터셋을 위해 샤딩을 통한 내장형 수평 확장이 필요한 경우에 적합합니다."
+    },
+    "es": {
+      "longDescription": "Este repositorio contiene el servidor de base de datos principal de MongoDB (`mongod`) y el enrutador de sharding (`mongos`) —la propia base de datos NoSQL orientada a documentos—, junto con las herramientas necesarias para compilarla y ejecutarla desde el código fuente. La mayoría de los usuarios la instalan como paquete precompilado (mediante las descargas oficiales, Homebrew o la imagen oficial de Docker) en lugar de compilarla desde el código fuente.\n\nEl ecosistema más amplio de MongoDB al que hace referencia este repositorio incluye `mongosh` (el shell interactivo), MongoDB Compass (una GUI para explorar y consultar datos) y drivers oficiales para la mayoría de los lenguajes de programación populares. Para equipos que no quieren operar sus propios servidores, MongoDB Atlas es el servicio oficial de base de datos en la nube gestionado.\n\nMongoDB encaja en aplicaciones que modelan los datos como documentos flexibles al estilo JSON en lugar de tablas relacionales fijas, y que necesitan escalado horizontal integrado mediante sharding para conjuntos de datos más grandes."
+    },
+    "de": {
+      "longDescription": "Dieses Repository enthält den Kern-Datenbankserver von MongoDB (`mongod`) und den Sharding-Router (`mongos`) – also die dokumentenorientierte NoSQL-Datenbank selbst – zusammen mit den Werkzeugen, die zum Bauen und Ausführen aus dem Quellcode benötigt werden. Die meisten Nutzer installieren ein vorgefertigtes Paket (über die offiziellen Downloads, Homebrew oder das offizielle Docker-Image), statt aus dem Quellcode zu bauen.\n\nDas breitere, von diesem Repository referenzierte MongoDB-Ökosystem umfasst `mongosh` (die interaktive Shell), MongoDB Compass (eine GUI zum Erkunden und Abfragen von Daten) sowie offizielle Treiber für die meisten gängigen Programmiersprachen. Für Teams, die keine eigenen Server betreiben möchten, ist MongoDB Atlas der offizielle verwaltete Cloud-Datenbankdienst.\n\nMongoDB eignet sich für Anwendungen, die Daten als flexible, JSON-ähnliche Dokumente statt als feste relationale Tabellen modellieren, und die für größere Datensätze eine eingebaute horizontale Skalierung durch Sharding benötigen."
+    }
+  }
 }

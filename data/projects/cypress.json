@@ -20,5 +20,22 @@
   ],
   "license": "MIT",
   "featured": false,
-  "dateAdded": "2025-12-17"
+  "dateAdded": "2025-12-17",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "Cypress 是一款 JavaScript 测试工具，其维护者将其描述为可以快速、简单、可靠地测试任何在浏览器中运行的内容。它作为项目依赖（通过 npm、Yarn 或 pnpm）与现有应用工具一起安装。\n\nCypress 面向前端和全栈团队，适用于需要将基于浏览器的端到端测试集成到日常 JavaScript 开发和 CI 流程中的场景。"
+    },
+    "ja": {
+      "longDescription": "Cypress は、ブラウザ上で動くものであれば何でも高速・簡単・確実にテストできると開発元が説明する JavaScript テストツールです。既存のアプリケーションツールと同様に、プロジェクトの依存関係として npm、Yarn、pnpm でインストールします。\n\nCypress は、通常の JavaScript 開発や CI ワークフローにブラウザベースのエンドツーエンドテストを組み込みたい、フロントエンドおよびフルスタックのチーム向けです。"
+    },
+    "ko": {
+      "longDescription": "Cypress는 브라우저에서 실행되는 모든 것을 빠르고 쉽고 안정적으로 테스트할 수 있다고 유지관리자들이 설명하는 JavaScript 테스트 도구입니다. 기존 애플리케이션 도구와 함께 프로젝트 의존성(npm, Yarn, pnpm)으로 설치합니다.\n\nCypress는 일반적인 JavaScript 개발 및 CI 워크플로에 브라우저 기반 엔드투엔드 테스트를 통합하려는 프런트엔드 및 풀스택 팀을 대상으로 합니다."
+    },
+    "es": {
+      "longDescription": "Cypress es una herramienta de testing en JavaScript que sus mantenedores describen como una forma rápida, sencilla y fiable de probar cualquier cosa que se ejecute en un navegador. Se instala como una dependencia más del proyecto (con npm, Yarn o pnpm), junto al resto de tus herramientas de desarrollo.\n\nCypress está pensado para equipos de frontend y full-stack que necesitan integrar pruebas end-to-end basadas en navegador en su flujo habitual de desarrollo en JavaScript y de CI."
+    },
+    "de": {
+      "longDescription": "Cypress ist ein JavaScript-Testtool, das von seinen Maintainern als schnelles, einfaches und zuverlässiges Testwerkzeug für alles beschrieben wird, was im Browser läuft. Es wird wie eine gewöhnliche Projektabhängigkeit über npm, Yarn oder pnpm neben dem bestehenden Anwendungs-Tooling installiert.\n\nCypress richtet sich an Frontend- und Full-Stack-Teams, die browserbasierte End-to-End-Tests in ihren regulären JavaScript-Entwicklungs- und CI-Workflow integrieren möchten."
+    }
+  }
 }

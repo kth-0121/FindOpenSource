@@ -24,19 +24,24 @@
   "dateAdded": "2026-06-10",
   "translations": {
     "zh-CN": {
-      "description": "开源核心（open-core）自托管团队协作平台，集聊天、工作流自动化、语音通话与屏幕共享于一体，基于 Go、React 和 PostgreSQL 构建。"
+      "description": "开源核心（open-core）自托管团队协作平台，集聊天、工作流自动化、语音通话与屏幕共享于一体，基于 Go、React 和 PostgreSQL 构建。",
+      "longDescription": "Mattermost 是一个开源核心（open-core）的自托管协作平台，将团队聊天与工作流自动化、语音通话、屏幕共享以及 AI 集成结合在一起。服务器使用 Go 和 React 编写，以单个 Linux 二进制文件运行，并以 PostgreSQL 作为后端，同时通过 webhook、斜杠命令、API 和集成市场提供可扩展性。\n\n其许可方式是分层的：Mattermost, Inc. 提供的官方编译版本采用 MIT 许可证，而自行构建源代码则采用 AGPLv3（附带部分例外）或单独的商业许可证，部分管理工具和配置文件则采用 Apache-2.0——这体现了 Mattermost 的开源核心模式，而不是单一简单的许可证。\n\n它常被用于 DevSecOps 沟通、事件响应以及 IT 服务台工作流，适合那些希望使用自托管方案替代托管式聊天平台的团队，可选择本地部署或使用 Mattermost 的云服务。"
     },
     "ja": {
-      "description": "チャット、ワークフロー自動化、音声通話、画面共有を統合した、オープンコア型のセルフホスト型チームコラボレーションプラットフォームです。Go、React、PostgreSQL で構築されています。"
+      "description": "チャット、ワークフロー自動化、音声通話、画面共有を統合した、オープンコア型のセルフホスト型チームコラボレーションプラットフォームです。Go、React、PostgreSQL で構築されています。",
+      "longDescription": "Mattermost は、チームチャットにワークフロー自動化、音声通話、画面共有、AI 統合を組み合わせた、オープンコア型のセルフホスト型コラボレーションプラットフォームです。サーバーは Go と React で書かれており、PostgreSQL を backend とした単一の Linux バイナリとして動作し、Webhook、スラッシュコマンド、API、統合マーケットプレイスを通じて拡張性を提供します。\n\nそのライセンスは階層構造になっています。Mattermost, Inc. が提供する公式のコンパイル済みリリースは MIT ライセンスの下で提供される一方、ソースコードを自分でビルドする場合は AGPLv3(一部例外あり)または別の商用ライセンスが適用され、一部の管理ツールや設定ファイルは Apache-2.0 となっています。これは単一のシンプルなライセンスではなく、Mattermost のオープンコアモデルを反映したものです。\n\nDevSecOps のコミュニケーション、インシデント対応、IT サービスデスクのワークフローなどでよく利用されており、ホスト型チャットプラットフォームの代わりにセルフホストの選択肢を求めるチームに向いています。オンプレミスでのデプロイと Mattermost のクラウド提供のどちらも選択できます。"
     },
     "ko": {
-      "description": "채팅, 워크플로 자동화, 음성 통화, 화면 공유를 결합한 오픈코어 방식의 셀프 호스팅 팀 협업 플랫폼입니다. Go, React, PostgreSQL로 구축되었습니다."
+      "description": "채팅, 워크플로 자동화, 음성 통화, 화면 공유를 결합한 오픈코어 방식의 셀프 호스팅 팀 협업 플랫폼입니다. Go, React, PostgreSQL로 구축되었습니다.",
+      "longDescription": "Mattermost는 팀 채팅에 워크플로 자동화, 음성 통화, 화면 공유, AI 통합을 결합한 오픈코어 방식의 셀프 호스팅 협업 플랫폼입니다. 서버는 Go와 React로 작성되었으며, PostgreSQL을 백엔드로 사용하는 단일 Linux 바이너리로 실행되고, 웹훅, 슬래시 명령어, API, 통합 마켓플레이스를 통해 확장성을 제공합니다.\n\n라이선스는 계층적으로 구성되어 있습니다. Mattermost, Inc.가 제공하는 공식 컴파일 릴리스는 MIT 라이선스로 제공되지만, 소스 코드를 직접 빌드하는 경우에는 AGPLv3(일부 예외 있음) 또는 별도의 상용 라이선스가 적용되며, 관리 도구와 설정 파일의 일부는 Apache-2.0입니다. 이는 단일한 단순 라이선스가 아니라 Mattermost의 오픈코어 모델을 반영한 것입니다.\n\nDevSecOps 커뮤니케이션, 인시던트 대응, IT 서비스 데스크 워크플로에 흔히 사용되며, 호스팅형 채팅 플랫폼 대신 셀프 호스팅 대안을 원하는 팀에 적합합니다. 온프레미스 배포와 Mattermost의 클라우드 서비스 중에서 선택할 수 있습니다."
     },
     "es": {
-      "description": "Plataforma de colaboración en equipo open-core y autoalojada que combina chat, automatización de flujos de trabajo, llamadas de voz y compartición de pantalla, construida con Go, React y PostgreSQL."
+      "description": "Plataforma de colaboración en equipo open-core y autoalojada que combina chat, automatización de flujos de trabajo, llamadas de voz y compartición de pantalla, construida con Go, React y PostgreSQL.",
+      "longDescription": "Mattermost es una plataforma de colaboración open-core y autoalojada que combina el chat de equipo con automatización de flujos de trabajo, llamadas de voz, compartición de pantalla e integración de IA. El servidor está escrito en Go y React, se ejecuta como un único binario de Linux respaldado por PostgreSQL, y ofrece extensibilidad mediante webhooks, comandos slash, una API y un marketplace de integraciones.\n\nSu licenciamiento es escalonado: las versiones compiladas oficiales de Mattermost, Inc. se distribuyen bajo la licencia MIT, mientras que compilar el código fuente tú mismo está sujeto a AGPLv3 (con algunas excepciones) o a una licencia comercial aparte, y un subconjunto de herramientas de administración y archivos de configuración usa Apache-2.0, lo que refleja el modelo open-core de Mattermost en lugar de una única licencia simple.\n\nSe usa habitualmente para comunicación DevSecOps, respuesta a incidentes y flujos de trabajo de mesa de servicio de TI, por equipos que quieren una alternativa autoalojada a las plataformas de chat alojadas, con la opción de desplegarla on-premises o usar la oferta en la nube de Mattermost."
     },
     "de": {
-      "description": "Open-Core-Plattform für Teamzusammenarbeit zum Selbsthosten, die Chat, Workflow-Automatisierung, Sprachanrufe und Bildschirmfreigabe vereint - entwickelt mit Go, React und PostgreSQL."
+      "description": "Open-Core-Plattform für Teamzusammenarbeit zum Selbsthosten, die Chat, Workflow-Automatisierung, Sprachanrufe und Bildschirmfreigabe vereint - entwickelt mit Go, React und PostgreSQL.",
+      "longDescription": "Mattermost ist eine Open-Core-Kollaborationsplattform zum Selbsthosten, die Team-Chat mit Workflow-Automatisierung, Sprachanrufen, Bildschirmfreigabe und KI-Integration kombiniert. Der Server ist in Go und React geschrieben, läuft als einzelne Linux-Binärdatei mit PostgreSQL im Hintergrund und bietet Erweiterbarkeit über Webhooks, Slash-Commands, eine API und einen Marktplatz für Integrationen.\n\nDie Lizenzierung ist mehrschichtig: Offizielle, kompilierte Releases von Mattermost, Inc. stehen unter der MIT-Lizenz, während das eigene Bauen des Quellcodes unter AGPLv3 (mit einigen Ausnahmen) oder einer separaten kommerziellen Lizenz erfolgt, und ein Teil der Admin-Tools und Konfigurationsdateien steht unter Apache-2.0 – ein Spiegelbild von Mattermosts Open-Core-Modell statt einer einzigen, einfachen Lizenz.\n\nEs wird häufig für DevSecOps-Kommunikation, Incident Response und IT-Service-Desk-Workflows eingesetzt, von Teams, die eine selbst gehostete Alternative zu gehosteten Chat-Plattformen suchen – mit der Option, on-premises zu deployen oder das Cloud-Angebot von Mattermost zu nutzen."
     }
   }
 }

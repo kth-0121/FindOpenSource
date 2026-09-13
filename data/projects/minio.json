@@ -20,5 +20,22 @@
   ],
   "license": "AGPL-3.0",
   "featured": true,
-  "dateAdded": "2026-04-01"
+  "dateAdded": "2026-04-01",
+  "translations": {
+    "zh-CN": {
+      "longDescription": "MinIO 是一款高性能、兼容 S3 API 的对象存储服务器，一直以来在需要使用无数现有工具和 SDK 所依赖的 S3 协议的自托管和本地部署存储场景中广受欢迎。\n\n注意：根据当前的 README，该仓库（minio/minio）已被标记为不再维护。项目开发方现在将用户引导至 AIStor——一个免费、功能完整的社区版，以及一个单独的商业企业版——作为其维护中的继任者。此处的 MinIO 社区版现在也仅以源代码形式发布（不再提供预编译二进制文件），必须通过 `go install` 或 Docker 自行构建，并仍然采用 AGPLv3 许可证。\n\n如今评估 MinIO 的团队，在将其用于新项目之前，应直接核实 AIStor 和该仓库的当前状态，因为这里明确不再保证持续维护。"
+    },
+    "ja": {
+      "longDescription": "MinIO は、高性能で S3 API 互換のオブジェクトストレージサーバーであり、数多くの既存ツールや SDK が使用する S3 プロトコルを話す必要があるセルフホスト型・オンプレミスストレージ環境で従来から人気を集めてきました。\n\n注意: 現時点の README によると、このリポジトリ(minio/minio)はもはやメンテナンスされていないとマークされています。プロジェクトの開発元は現在、無料で機能が充実したコミュニティ版と、別途提供される商用のエンタープライズ版からなる AIStor を、メンテナンスされている後継として案内しています。ここにある MinIO コミュニティ版も現在はソースのみの配布となっており(ビルド済みバイナリはなし)、`go install` または Docker でビルドする必要があり、ライセンスは引き続き AGPLv3 です。\n\n現在 MinIO の採用を検討しているチームは、新しいプロジェクトに導入する前に、AIStor とこのリポジトリの現在の状況を直接確認すべきです。継続的なメンテナンスがここで保証されているわけではないと明記されているためです。"
+    },
+    "ko": {
+      "longDescription": "MinIO는 고성능이면서 S3 API와 호환되는 오브젝트 스토리지 서버로, 수많은 기존 도구와 SDK가 사용하는 S3 프로토콜을 사용해야 하는 셀프 호스팅 및 온프레미스 스토리지 환경에서 전통적으로 인기가 있었습니다.\n\n참고: 현재 README에 따르면 이 저장소(minio/minio)는 더 이상 유지 관리되지 않는 것으로 표시되어 있습니다. 프로젝트 제작사는 이제 무료이며 기능이 완전한 커뮤니티 에디션과 별도의 상용 엔터프라이즈 에디션으로 구성된 AIStor를 유지 관리되는 후속작으로 안내하고 있습니다. 여기 있는 MinIO 커뮤니티 에디션도 이제 소스로만 배포되며(사전 빌드된 바이너리 없음), `go install` 또는 Docker로 직접 빌드해야 하고, 여전히 AGPLv3 라이선스로 제공됩니다.\n\n오늘날 MinIO를 검토하는 팀은 새 프로젝트에 도입하기 전에 AIStor와 이 저장소의 현재 상태를 직접 확인해야 합니다. 여기서는 지속적인 유지 관리가 더 이상 명시적으로 보장되지 않기 때문입니다."
+    },
+    "es": {
+      "longDescription": "MinIO es un servidor de almacenamiento de objetos de alto rendimiento, compatible con la API de S3, históricamente popular para almacenamiento autoalojado y on-premises que necesita hablar el protocolo S3 usado por incontables herramientas y SDKs existentes.\n\nNota: según el README actual, este repositorio (minio/minio) está marcado como ya no mantenido. El creador del proyecto ahora dirige a los usuarios hacia AIStor —una edición comunitaria gratuita y completa, y una edición Enterprise comercial aparte— como el sucesor mantenido. La edición comunitaria de MinIO aquí presente también se distribuye ahora solo como código fuente (sin binarios precompilados); debe compilarse con `go install` o Docker, y sigue licenciada bajo AGPLv3.\n\nLos equipos que evalúen MinIO hoy deberían comprobar directamente el estado actual de AIStor y de este repositorio antes de adoptarlo para un proyecto nuevo, ya que aquí se indica explícitamente que el mantenimiento continuo ya no está garantizado."
+    },
+    "de": {
+      "longDescription": "MinIO ist ein leistungsstarker, S3-API-kompatibler Objektspeicherserver, der historisch für selbst gehosteten und On-Premises-Speicher beliebt war, der das S3-Protokoll sprechen muss, das von unzähligen bestehenden Tools und SDKs verwendet wird.\n\nHinweis: Laut aktuellem README ist dieses Repository (minio/minio) als nicht mehr gepflegt markiert. Der Hersteller des Projekts verweist Nutzer nun auf AIStor – eine kostenlose, voll ausgestattete Community-Edition sowie eine separate kommerzielle Enterprise-Edition – als gepflegten Nachfolger. Die hier vorliegende MinIO-Community-Edition wird inzwischen ebenfalls nur noch als Quellcode verteilt (keine vorgebauten Binärdateien); sie muss mit `go install` oder Docker selbst gebaut werden und bleibt unter AGPLv3 lizenziert.\n\nTeams, die MinIO heute evaluieren, sollten den aktuellen Status von AIStor und diesem Repository direkt prüfen, bevor sie es für ein neues Projekt einsetzen, da eine fortlaufende Wartung hier ausdrücklich nicht mehr garantiert wird."
+    }
+  }
 }
