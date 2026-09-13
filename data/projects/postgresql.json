@@ -20,5 +20,22 @@
   ],
   "license": "PostgreSQL License",
   "featured": true,
-  "dateAdded": "2026-08-18"
+  "dateAdded": "2026-08-18",
+  "translations": {
+    "zh-CN": {
+      "description": "功能强大的开源对象关系型数据库系统，已持续开发 35 年以上。"
+    },
+    "ja": {
+      "description": "35年以上にわたり活発に開発されている、強力なオープンソースのオブジェクトリレーショナルデータベースシステムです。"
+    },
+    "ko": {
+      "description": "35년 넘게 활발히 개발되어 온 강력한 오픈소스 객체-관계형 데이터베이스 시스템입니다."
+    },
+    "es": {
+      "description": "Potente sistema de base de datos objeto-relacional de código abierto, con más de 35 años de desarrollo activo."
+    },
+    "de": {
+      "description": "Leistungsstarkes, quelloffenes objektrelationales Datenbanksystem mit über 35 Jahren aktiver Entwicklung."
+    }
+  }
 }

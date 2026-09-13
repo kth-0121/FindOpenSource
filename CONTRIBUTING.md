@@ -53,6 +53,10 @@ Copy this template and fill in real information about the project:
 }
 ```
 
+FindOpenSource is available in English, Simplified Chinese, Japanese, Korean, Spanish and
+German (see [Adding translated descriptions](#adding-translated-descriptions-optional) below) —
+but you only ever need to fill in the English fields above to add a project.
+
 **Field reference**
 
 | Field           | Required | Description                                                                 |
@@ -69,6 +73,7 @@ Copy this template and fill in real information about the project:
 | `license`       | Yes      | The project's license (e.g. `MIT`, `Apache-2.0`, `AGPL-3.0`).               |
 | `featured`      | No       | Set to `true` only for well-established, widely used projects.              |
 | `dateAdded`     | No       | `YYYY-MM-DD`. Used to sort "Recently Added". Set it to today's date; projects without it sort to the bottom of that list. |
+| `translations`  | No       | Optional translated `description`/`keywords` per locale. See below.         |
 
 #### Writing a good description
 
@@ -90,6 +95,38 @@ project's *feature*, not just its name:
 
 - Good: `authentication`, `login`, `oauth`, `sso`
 - Avoid duplicating the project name itself as a keyword — that's already searchable.
+
+#### Adding translated descriptions (optional)
+
+FindOpenSource is available in `en` (canonical), `zh-CN`, `ja`, `ko`, `es` and `de`. English is
+always the fallback, so **you never have to translate anything** to add a project — but if you
+speak one of the other languages and want to add a translated description or localized keywords,
+add a `translations` object keyed by locale:
+
+```json
+{
+  "...": "... the rest of the fields ...",
+  "translations": {
+    "ko": {
+      "description": "한국어로 작성된 한 문장 설명입니다.",
+      "keywords": ["인증", "로그인"]
+    },
+    "ja": {
+      "description": "日本語の説明文です。"
+    }
+  }
+}
+```
+
+Notes:
+
+- Every locale key is optional, and within each locale both `description` and `keywords` are
+  optional — provide only what you have a confident, accurate translation for.
+- Translate the *meaning* of the English description; don't add facts that aren't in the
+  original.
+- Never translate the project `name`, `repository`, `website`, `documentation` or `license` —
+  those stay as-is in every language.
+- A PR that only adds/updates translations for an existing project is welcome too.
 
 #### Only verified information
 

@@ -27,5 +27,22 @@
   ],
   "license": "Apache-2.0",
   "featured": true,
-  "dateAdded": "2026-09-10"
+  "dateAdded": "2026-09-10",
+  "translations": {
+    "zh-CN": {
+      "description": "开源的 Firebase 替代方案，提供 Postgres 数据库、身份验证、开箱即用的 API、边缘函数、实时订阅和存储。"
+    },
+    "ja": {
+      "description": "Postgres データベース、認証、即利用可能な API、エッジ関数、リアルタイムサブスクリプション、ストレージを提供するオープンソースの Firebase 代替です。"
+    },
+    "ko": {
+      "description": "Postgres 데이터베이스, 인증, 즉시 사용 가능한 API, 엣지 함수, 실시간 구독, 스토리지를 제공하는 오픈소스 Firebase 대안입니다."
+    },
+    "es": {
+      "description": "Alternativa open source a Firebase que ofrece una base de datos Postgres, autenticación, APIs instantáneas, funciones edge, suscripciones en tiempo real y almacenamiento."
+    },
+    "de": {
+      "description": "Open-Source-Alternative zu Firebase mit Postgres-Datenbank, Authentifizierung, sofort einsatzbereiten APIs, Edge-Funktionen, Echtzeit-Subscriptions und Storage."
+    }
+  }
 }

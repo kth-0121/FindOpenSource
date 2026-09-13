@@ -2,13 +2,20 @@
 
 import { useRouter } from "next/navigation";
 import { useState, type FormEvent } from "react";
+import type { Locale } from "@/lib/i18n/config";
 
 export function SearchBox({
+  locale,
+  placeholder,
+  inputLabel,
+  submitLabel,
   autoFocus = false,
-  placeholder = "Search by feature, technology or category",
 }: {
+  locale: Locale;
+  placeholder: string;
+  inputLabel: string;
+  submitLabel: string;
   autoFocus?: boolean;
-  placeholder?: string;
 }) {
   const router = useRouter();
   const [value, setValue] = useState("");
@@ -16,18 +23,18 @@ export function SearchBox({
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const query = value.trim();
-    router.push(query ? `/search?q=${encodeURIComponent(query)}` : "/search");
+    router.push(query ? `/${locale}/search?q=${encodeURIComponent(query)}` : `/${locale}/search`);
   }
 
   return (
     <form role="search" onSubmit={handleSubmit} className="w-full max-w-xl">
       <label htmlFor="site-search" className="sr-only">
-        Search open source projects
+        {inputLabel}
       </label>
       <div className="flex items-center gap-2 rounded-full border border-border bg-background px-5 py-3.5 shadow-sm transition-colors focus-within:border-accent">
         <button
           type="submit"
-          aria-label="Search"
+          aria-label={submitLabel}
           className="shrink-0 text-muted-foreground hover:text-accent"
         >
           <svg aria-hidden="true" viewBox="0 0 20 20" fill="none" className="h-5 w-5">

@@ -2,6 +2,30 @@ import { z } from "zod";
 
 export const slugPattern = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 
+const projectTranslationSchema = z
+  .object({
+    description: z
+      .string()
+      .min(10, "translated description should be at least 10 characters")
+      .max(280, "translated description should be at most 280 characters")
+      .optional(),
+    keywords: z.array(z.string().min(1)).min(1, "keywords, if provided, cannot be empty").optional(),
+  })
+  .strict();
+
+// Explicit optional key per locale (rather than z.record) so an unknown
+// locale key (e.g. "fr") is rejected by `.strict()` with a clear error,
+// and no locale is ever required.
+const projectTranslationsSchema = z
+  .object({
+    "zh-CN": projectTranslationSchema.optional(),
+    ja: projectTranslationSchema.optional(),
+    ko: projectTranslationSchema.optional(),
+    es: projectTranslationSchema.optional(),
+    de: projectTranslationSchema.optional(),
+  })
+  .strict();
+
 export const projectSchema = z.object({
   name: z.string().min(1, "name is required"),
   slug: z
@@ -31,6 +55,12 @@ export const projectSchema = z.object({
     .string()
     .regex(/^\d{4}-\d{2}-\d{2}$/, "dateAdded must be in YYYY-MM-DD format")
     .optional(),
+  /**
+   * Optional per-locale overrides for `description` and `keywords`. English
+   * (the fields above) is always the canonical fallback — a project does not
+   * need a translation for every locale, or any at all.
+   */
+  translations: projectTranslationsSchema.optional(),
 });
 
 export type Project = z.infer<typeof projectSchema>;

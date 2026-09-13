@@ -5,11 +5,14 @@ import { AdSlot } from "@/components/AdSlot";
 import { ProjectCard } from "@/components/ProjectCard";
 import { KeywordBadge } from "@/components/KeywordBadge";
 import { getAllProjects, getProjectBySlug, getRelatedProjects } from "@/lib/projects";
-import { getCategoryBySlug } from "@/lib/categories";
+import { getCategoryBySlug, localizeCategory } from "@/lib/categories";
 import { siteConfig } from "@/lib/site";
+import { isLocale, localeMeta, type Locale } from "@/lib/i18n/config";
+import { getDictionary } from "@/lib/i18n/get-dictionary";
+import { buildAlternates, ogLocale, ogAlternateLocales } from "@/lib/i18n/metadata";
 
 type ProjectPageProps = {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ locale: string; slug: string }>;
 };
 
 export function generateStaticParams() {
@@ -17,41 +20,54 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
-  const { slug } = await params;
-  const project = getProjectBySlug(slug);
+  const { locale: localeParam, slug } = await params;
+  if (!isLocale(localeParam)) return {};
+  const locale: Locale = localeParam;
+  const project = getProjectBySlug(slug, locale);
   if (!project) return {};
+
+  const alternates = buildAlternates(locale, `/projects/${project.slug}`);
 
   return {
     title: project.name,
     description: project.description,
-    alternates: { canonical: `/projects/${project.slug}` },
+    alternates,
     openGraph: {
       title: project.name,
       description: project.description,
       type: "article",
+      url: alternates.canonical,
+      locale: ogLocale(locale),
+      alternateLocale: ogAlternateLocales(locale),
     },
   };
 }
 
 export default async function ProjectPage({ params }: ProjectPageProps) {
-  const { slug } = await params;
-  const project = getProjectBySlug(slug);
+  const { locale: localeParam, slug } = await params;
+  if (!isLocale(localeParam)) notFound();
+  const locale: Locale = localeParam;
+  const dict = getDictionary(locale);
+  const project = getProjectBySlug(slug, locale);
   if (!project) notFound();
 
   const categories = project.categories
     .map((categorySlug) => getCategoryBySlug(categorySlug))
-    .filter((category): category is NonNullable<typeof category> => Boolean(category));
-  const relatedProjects = getRelatedProjects(project);
+    .filter((category): category is NonNullable<typeof category> => Boolean(category))
+    .map((category) => localizeCategory(category, dict));
+  const relatedProjects = getRelatedProjects(project.slug, locale);
 
+  const pageUrl = `${siteConfig.url}/${locale}/projects/${project.slug}`;
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "SoftwareSourceCode",
     name: project.name,
     description: project.description,
     codeRepository: project.repository,
-    url: `${siteConfig.url}/projects/${project.slug}`,
+    url: pageUrl,
     license: project.license,
     programmingLanguage: project.languages,
+    inLanguage: localeMeta[locale].bcp47,
   };
 
   return (
@@ -71,7 +87,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           rel="noopener noreferrer"
           className="rounded-full bg-accent px-4 py-2 text-sm font-medium text-accent-foreground hover:opacity-90"
         >
-          GitHub
+          {dict.projectDetail.githubButton}
         </a>
         {project.website && (
           <a
@@ -80,7 +96,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             rel="noopener noreferrer"
             className="rounded-full border border-border px-4 py-2 text-sm font-medium hover:border-accent hover:text-accent"
           >
-            Website
+            {dict.projectDetail.websiteButton}
           </a>
         )}
         {project.documentation && (
@@ -90,17 +106,17 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
             rel="noopener noreferrer"
             className="rounded-full border border-border px-4 py-2 text-sm font-medium hover:border-accent hover:text-accent"
           >
-            Documentation
+            {dict.projectDetail.documentationButton}
           </a>
         )}
       </div>
 
       <dl className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
         <div>
-          <dt className="text-sm font-semibold text-foreground">Categories</dt>
+          <dt className="text-sm font-semibold text-foreground">{dict.projectDetail.categoriesLabel}</dt>
           <dd className="mt-2 flex flex-wrap gap-2">
             {categories.map((category) => (
-              <KeywordBadge key={category.slug} href={`/categories/${category.slug}`}>
+              <KeywordBadge key={category.slug} href={`/${locale}/categories/${category.slug}`}>
                 {category.name}
               </KeywordBadge>
             ))}
@@ -108,10 +124,10 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         </div>
 
         <div>
-          <dt className="text-sm font-semibold text-foreground">Keywords</dt>
+          <dt className="text-sm font-semibold text-foreground">{dict.projectDetail.keywordsLabel}</dt>
           <dd className="mt-2 flex flex-wrap gap-2">
             {project.keywords.map((keyword) => (
-              <KeywordBadge key={keyword} href={`/search?q=${encodeURIComponent(keyword)}`}>
+              <KeywordBadge key={keyword} href={`/${locale}/search?q=${encodeURIComponent(keyword)}`}>
                 {keyword}
               </KeywordBadge>
             ))}
@@ -120,7 +136,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
         {project.languages && project.languages.length > 0 && (
           <div>
-            <dt className="text-sm font-semibold text-foreground">Languages</dt>
+            <dt className="text-sm font-semibold text-foreground">{dict.projectDetail.languagesLabel}</dt>
             <dd className="mt-2 flex flex-wrap gap-2 text-sm text-muted-foreground">
               {project.languages.join(", ")}
             </dd>
@@ -128,22 +144,22 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         )}
 
         <div>
-          <dt className="text-sm font-semibold text-foreground">License</dt>
+          <dt className="text-sm font-semibold text-foreground">{dict.projectDetail.licenseLabel}</dt>
           <dd className="mt-2 text-sm text-muted-foreground">{project.license}</dd>
         </div>
       </dl>
 
-      <AdSlot />
+      <AdSlot label={dict.adSlotLabel} />
 
       {relatedProjects.length > 0 && (
         <section aria-labelledby="related-projects" className="mt-4">
           <h2 id="related-projects" className="mb-6 text-2xl font-semibold tracking-tight">
-            Related Projects
+            {dict.projectDetail.relatedProjects}
           </h2>
           <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {relatedProjects.map((related) => (
               <li key={related.slug}>
-                <ProjectCard project={related} />
+                <ProjectCard project={related} locale={locale} dict={dict} />
               </li>
             ))}
           </ul>
@@ -151,11 +167,11 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       )}
 
       <p className="mt-12 text-sm text-muted-foreground">
-        Spotted an error?{" "}
-        <Link href="/contribute" className="text-accent hover:underline">
-          Suggest an edit on GitHub
+        {dict.projectDetail.spottedError}
+        <Link href={`/${locale}/contribute`} className="text-accent hover:underline">
+          {dict.projectDetail.suggestEditLink}
         </Link>
-        .
+        {dict.projectDetail.suggestEditSuffix}
       </p>
     </div>
   );

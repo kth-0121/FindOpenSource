@@ -5,27 +5,35 @@ import { useRouter } from "next/navigation";
 import type { Category, Project } from "@/lib/schema";
 import { searchProjects } from "@/lib/search";
 import { SearchResults } from "@/components/SearchResults";
+import type { Locale } from "@/lib/i18n/config";
+import type { Dictionary } from "@/lib/i18n/types";
 
 export function SearchExperience({
   initialQuery,
   projects,
   categories,
+  locale,
+  dict,
 }: {
   initialQuery: string;
   projects: Project[];
   categories: Category[];
+  locale: Locale;
+  dict: Dictionary;
 }) {
   const router = useRouter();
   const [query, setQuery] = useState(initialQuery);
 
   const results = useMemo(
-    () => searchProjects(query, projects, categories).map((result) => result.project),
-    [query, projects, categories],
+    () => searchProjects(query, projects, categories, locale).map((result) => result.project),
+    [query, projects, categories, locale],
   );
 
   function handleChange(next: string) {
     setQuery(next);
-    const url = next.trim() ? `/search?q=${encodeURIComponent(next.trim())}` : "/search";
+    const url = next.trim()
+      ? `/${locale}/search?q=${encodeURIComponent(next.trim())}`
+      : `/${locale}/search`;
     router.replace(url, { scroll: false });
   }
 
@@ -33,7 +41,7 @@ export function SearchExperience({
     <div>
       <form role="search" onSubmit={(event) => event.preventDefault()} className="mb-8">
         <label htmlFor="search-page-input" className="sr-only">
-          Search open source projects
+          {dict.search.inputLabel}
         </label>
         <div className="flex items-center gap-2 rounded-full border border-border bg-background px-5 py-3.5 shadow-sm transition-colors focus-within:border-accent">
           <svg
@@ -57,12 +65,12 @@ export function SearchExperience({
             autoFocus
             value={query}
             onChange={(event) => handleChange(event.target.value)}
-            placeholder="Search by feature, technology or category"
+            placeholder={dict.home.searchPlaceholder}
             className="w-full bg-transparent text-base outline-none placeholder:text-muted-foreground"
           />
         </div>
       </form>
-      <SearchResults query={query} results={results} />
+      <SearchResults query={query} results={results} locale={locale} dict={dict} />
     </div>
   );
 }

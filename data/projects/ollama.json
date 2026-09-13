@@ -19,5 +19,22 @@
   ],
   "license": "MIT",
   "featured": true,
-  "dateAdded": "2025-11-05"
+  "dateAdded": "2025-11-05",
+  "translations": {
+    "zh-CN": {
+      "description": "通过简单的命令行界面和 API 在本地运行大语言模型。"
+    },
+    "ja": {
+      "description": "シンプルなコマンドラインインターフェースと API で、大規模言語モデルをローカルで実行できます。"
+    },
+    "ko": {
+      "description": "간단한 커맨드라인 인터페이스와 API로 대규모 언어 모델을 로컬에서 실행합니다."
+    },
+    "es": {
+      "description": "Ejecuta modelos de lenguaje grandes de forma local con una interfaz de línea de comandos y una API sencillas."
+    },
+    "de": {
+      "description": "Führe große Sprachmodelle lokal aus – mit einer einfachen Kommandozeile und API."
+    }
+  }
 }

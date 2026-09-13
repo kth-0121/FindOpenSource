@@ -23,5 +23,22 @@
   ],
   "license": "Apache-2.0",
   "featured": true,
-  "dateAdded": "2026-09-05"
+  "dateAdded": "2026-09-05",
+  "translations": {
+    "zh-CN": {
+      "description": "支持单点登录、OAuth2 和 OpenID Connect 的开源身份与访问管理解决方案。"
+    },
+    "ja": {
+      "description": "シングルサインオン、OAuth2、OpenID Connect に対応したオープンソースのアイデンティティ・アクセス管理ソリューションです。"
+    },
+    "ko": {
+      "description": "싱글 사인온, OAuth2, OpenID Connect를 지원하는 오픈소스 아이덴티티 및 접근 관리 솔루션입니다."
+    },
+    "es": {
+      "description": "Solución open source de gestión de identidad y acceso con soporte para inicio de sesión único, OAuth2 y OpenID Connect."
+    },
+    "de": {
+      "description": "Open-Source-Lösung für Identity- und Access-Management mit Unterstützung für Single Sign-on, OAuth2 und OpenID Connect."
+    }
+  }
 }

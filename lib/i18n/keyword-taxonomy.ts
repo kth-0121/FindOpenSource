@@ -1,0 +1,259 @@
+import type { Locale } from "./config";
+
+export interface KeywordTaxonomyEntry {
+  /** Canonical concept id. Does not need to be a real project keyword. */
+  canonical: string;
+  /** Natural-language synonyms a user might type, keyed by locale. */
+  synonyms: Partial<Record<Locale, string[]>>;
+  /** Project keywords/categories to boost when a query matches this entry. */
+  related: string[];
+}
+
+/**
+ * Maintainable synonym taxonomy used to expand non-English or colloquial
+ * queries into the canonical English keywords that actually appear in
+ * `data/projects/*.json`. Add a new entry (or a new locale to an existing
+ * one) rather than hardcoding one-off conditions in `lib/search.ts`.
+ */
+export const keywordTaxonomy: KeywordTaxonomyEntry[] = [
+  {
+    canonical: "authentication",
+    synonyms: {
+      en: ["login", "sign in", "signin", "user auth"],
+      "zh-CN": ["登录", "登陆", "身份验证", "用户认证"],
+      ja: ["ログイン", "認証", "サインイン"],
+      ko: ["로그인", "인증", "회원인증"],
+      es: ["inicio de sesión", "iniciar sesión", "autenticación"],
+      de: ["anmeldung", "authentifizierung", "einloggen"],
+    },
+    related: ["auth", "oauth", "sso", "oidc", "jwt", "identity", "single-sign-on", "iam"],
+  },
+  {
+    canonical: "vector-database",
+    synonyms: {
+      en: ["vector db", "embeddings database"],
+      "zh-CN": ["向量数据库", "向量库"],
+      ja: ["ベクトルデータベース", "ベクトルDB"],
+      ko: ["벡터 데이터베이스", "벡터DB"],
+      es: ["base de datos vectorial", "base de datos de vectores"],
+      de: ["vektordatenbank"],
+    },
+    related: ["vector-database", "embeddings", "similarity-search"],
+  },
+  {
+    canonical: "image-upload",
+    synonyms: {
+      en: ["file upload", "upload images"],
+      "zh-CN": ["图片上传", "文件上传"],
+      ja: ["画像アップロード", "ファイルアップロード"],
+      ko: ["이미지 업로드", "파일 업로드"],
+      es: ["subida de imágenes", "carga de archivos"],
+      de: ["bild-upload", "datei-upload"],
+    },
+    related: ["file-upload", "image-upload", "upload", "drag-and-drop", "file-uploader"],
+  },
+  {
+    canonical: "chat",
+    synonyms: {
+      en: ["messaging", "team chat"],
+      "zh-CN": ["聊天", "即时通讯"],
+      ja: ["チャット", "メッセージング"],
+      ko: ["채팅", "메시징"],
+      es: ["mensajería", "chat en equipo"],
+      de: ["chat", "messaging"],
+    },
+    related: ["team-chat", "messaging", "chat"],
+  },
+  {
+    canonical: "database",
+    synonyms: {
+      en: ["db", "data store"],
+      "zh-CN": ["数据库", "数据存储"],
+      ja: ["データベース"],
+      ko: ["데이터베이스", "디비"],
+      es: ["base de datos"],
+      de: ["datenbank"],
+    },
+    related: ["database", "nosql", "sql", "relational-database"],
+  },
+  {
+    canonical: "cms",
+    synonyms: {
+      en: ["content management", "content management system"],
+      "zh-CN": ["内容管理系统", "内容管理"],
+      ja: ["コンテンツ管理システム", "コンテンツ管理"],
+      ko: ["콘텐츠 관리 시스템", "콘텐츠 관리"],
+      es: ["sistema de gestión de contenido", "gestor de contenido"],
+      de: ["content-management-system", "content-management"],
+    },
+    related: ["headless-cms", "cms", "content-management"],
+  },
+  {
+    canonical: "ai",
+    synonyms: {
+      en: ["artificial intelligence", "machine learning"],
+      "zh-CN": ["人工智能", "机器学习"],
+      ja: ["人工知能", "機械学習"],
+      ko: ["인공지능", "머신러닝"],
+      es: ["inteligencia artificial", "aprendizaje automático"],
+      de: ["künstliche intelligenz", "maschinelles lernen"],
+    },
+    related: ["ai", "machine-learning", "llm", "large-language-models"],
+  },
+  {
+    canonical: "admin-dashboard",
+    synonyms: {
+      en: ["admin panel", "back office"],
+      "zh-CN": ["管理后台", "管理面板"],
+      ja: ["管理画面", "管理パネル"],
+      ko: ["관리자 대시보드", "관리자 패널"],
+      es: ["panel de administración"],
+      de: ["admin-panel", "verwaltungsoberfläche"],
+    },
+    related: ["admin-panel", "admin-dashboard", "dashboard"],
+  },
+  {
+    canonical: "analytics",
+    synonyms: {
+      en: ["web analytics", "product analytics"],
+      "zh-CN": ["数据分析", "网站分析"],
+      ja: ["アナリティクス", "アクセス解析"],
+      ko: ["분석", "웹 분석"],
+      es: ["analítica web", "analítica de producto"],
+      de: ["webanalyse", "analytics"],
+    },
+    related: ["web-analytics", "product-analytics", "analytics"],
+  },
+  {
+    canonical: "web-scraping",
+    synonyms: {
+      en: ["scraping", "crawler"],
+      "zh-CN": ["网页抓取", "爬虫"],
+      ja: ["スクレイピング", "クローラー"],
+      ko: ["웹 스크래핑", "크롤러"],
+      es: ["raspado web", "scraping"],
+      de: ["web scraping", "crawler"],
+    },
+    related: ["web-scraping", "browser-automation"],
+  },
+  {
+    canonical: "pdf",
+    synonyms: {
+      en: ["pdf viewer", "pdf rendering"],
+      "zh-CN": ["PDF查看器", "PDF文档"],
+      ja: ["PDFビューア", "PDF表示"],
+      ko: ["PDF 뷰어", "PDF 문서"],
+      es: ["visor de pdf", "documento pdf"],
+      de: ["pdf-viewer", "pdf-dokument"],
+    },
+    related: ["pdf", "pdf-viewer", "document"],
+  },
+  {
+    canonical: "storage",
+    synonyms: {
+      en: ["object storage", "file storage"],
+      "zh-CN": ["对象存储", "文件存储"],
+      ja: ["オブジェクトストレージ", "ファイルストレージ"],
+      ko: ["오브젝트 스토리지", "파일 저장소"],
+      es: ["almacenamiento de objetos"],
+      de: ["objektspeicher", "dateispeicher"],
+    },
+    related: ["object-storage", "cloud-storage", "storage", "file-sync"],
+  },
+  {
+    canonical: "devops",
+    synonyms: {
+      en: ["infrastructure as code", "container orchestration"],
+      "zh-CN": ["基础设施即代码", "容器编排"],
+      ja: ["インフラ自動化", "コンテナオーケストレーション"],
+      ko: ["인프라 자동화", "컨테이너 오케스트레이션"],
+      es: ["infraestructura como código"],
+      de: ["infrastructure as code", "container-orchestrierung"],
+    },
+    related: ["devops", "infrastructure-as-code", "container-orchestration", "containers"],
+  },
+  {
+    canonical: "monitoring",
+    synonyms: {
+      en: ["observability", "error tracking"],
+      "zh-CN": ["监控", "可观测性"],
+      ja: ["モニタリング", "可観測性"],
+      ko: ["모니터링", "관측 가능성"],
+      es: ["monitorización", "observabilidad"],
+      de: ["monitoring", "beobachtbarkeit"],
+    },
+    related: ["monitoring", "observability", "metrics", "error-tracking"],
+  },
+  {
+    canonical: "testing",
+    synonyms: {
+      en: ["e2e testing", "test automation"],
+      "zh-CN": ["测试", "端到端测试"],
+      ja: ["テスト", "E2Eテスト"],
+      ko: ["테스트", "E2E 테스트"],
+      es: ["pruebas", "pruebas automatizadas"],
+      de: ["testen", "testautomatisierung"],
+    },
+    related: ["testing", "e2e-testing", "test-automation"],
+  },
+  {
+    canonical: "mobile",
+    synonyms: {
+      en: ["mobile app", "cross platform"],
+      "zh-CN": ["移动应用", "跨平台"],
+      ja: ["モバイルアプリ", "クロスプラットフォーム"],
+      ko: ["모바일 앱", "크로스플랫폼"],
+      es: ["aplicación móvil", "multiplataforma"],
+      de: ["mobile app", "plattformübergreifend"],
+    },
+    related: ["mobile", "cross-platform", "ios", "android"],
+  },
+  {
+    canonical: "search-engine",
+    synonyms: {
+      en: ["search engine", "full text search"],
+      "zh-CN": ["搜索引擎", "全文搜索"],
+      ja: ["検索エンジン", "全文検索"],
+      ko: ["검색엔진", "전문 검색"],
+      es: ["motor de búsqueda", "búsqueda de texto completo"],
+      de: ["suchmaschine", "volltextsuche"],
+    },
+    related: ["search-engine", "full-text-search", "search"],
+  },
+  {
+    canonical: "payments",
+    synonyms: {
+      en: ["payment processing", "billing"],
+      "zh-CN": ["支付", "账单"],
+      ja: ["決済", "支払い"],
+      ko: ["결제", "지불"],
+      es: ["procesamiento de pagos", "facturación"],
+      de: ["zahlungsabwicklung", "abrechnung"],
+    },
+    related: ["payments", "bitcoin", "cryptocurrency"],
+  },
+  {
+    canonical: "ecommerce",
+    synonyms: {
+      en: ["e-commerce", "online store"],
+      "zh-CN": ["电商", "电子商务"],
+      ja: ["EC", "ネットショップ"],
+      ko: ["이커머스", "전자상거래"],
+      es: ["comercio electrónico", "tienda online"],
+      de: ["e-commerce", "onlineshop"],
+    },
+    related: ["ecommerce", "headless-commerce", "commerce"],
+  },
+  {
+    canonical: "automation",
+    synonyms: {
+      en: ["workflow automation", "no code"],
+      "zh-CN": ["自动化", "工作流自动化"],
+      ja: ["自動化", "ワークフロー自動化"],
+      ko: ["자동화", "워크플로 자동화"],
+      es: ["automatización", "automatización de flujos"],
+      de: ["automatisierung", "workflow-automatisierung"],
+    },
+    related: ["workflow-automation", "automation", "integration"],
+  },
+];

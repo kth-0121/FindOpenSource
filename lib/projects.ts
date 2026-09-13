@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { projectSchema, type Project, type Category } from "./schema";
 import { getAllCategories } from "./categories";
+import { defaultLocale, type Locale } from "./i18n/config";
 
 const projectsDir = path.join(process.cwd(), "data", "projects");
 
@@ -20,28 +21,54 @@ function loadProjects(): Project[] {
   return projects.sort((a, b) => a.name.localeCompare(b.name));
 }
 
-export function getAllProjects(): Project[] {
-  return loadProjects();
+/**
+ * Resolves the locale-specific view of a project: translated `description`
+ * and `keywords` when available, falling back to the canonical English
+ * fields otherwise. Every other field (name, repository, categories, license,
+ * ...) is never translated and stays as-is.
+ */
+export function localizeProject(project: Project, locale: Locale): Project {
+  if (locale === defaultLocale) return project;
+  const translation = project.translations?.[locale];
+  if (!translation) return project;
+
+  return {
+    ...project,
+    description: translation.description ?? project.description,
+    keywords: translation.keywords ?? project.keywords,
+  };
 }
 
-export function getProjectBySlug(slug: string): Project | undefined {
-  return loadProjects().find((project) => project.slug === slug);
+function localizeAll(projects: Project[], locale: Locale): Project[] {
+  return projects.map((project) => localizeProject(project, locale));
 }
 
-export function getFeaturedProjects(limit = 8): Project[] {
-  return loadProjects()
+export function getAllProjects(locale: Locale = defaultLocale): Project[] {
+  return localizeAll(loadProjects(), locale);
+}
+
+export function getProjectBySlug(slug: string, locale: Locale = defaultLocale): Project | undefined {
+  const project = loadProjects().find((p) => p.slug === slug);
+  return project ? localizeProject(project, locale) : undefined;
+}
+
+export function getFeaturedProjects(locale: Locale = defaultLocale, limit = 8): Project[] {
+  const featured = loadProjects()
     .filter((project) => project.featured)
     .slice(0, limit);
+  return localizeAll(featured, locale);
 }
 
-export function getRecentProjects(limit = 8): Project[] {
-  return [...loadProjects()]
+export function getRecentProjects(locale: Locale = defaultLocale, limit = 8): Project[] {
+  const recent = [...loadProjects()]
     .sort((a, b) => (b.dateAdded ?? "").localeCompare(a.dateAdded ?? ""))
     .slice(0, limit);
+  return localizeAll(recent, locale);
 }
 
-export function getProjectsByCategory(categorySlug: string): Project[] {
-  return loadProjects().filter((project) => project.categories.includes(categorySlug));
+export function getProjectsByCategory(categorySlug: string, locale: Locale = defaultLocale): Project[] {
+  const matches = loadProjects().filter((project) => project.categories.includes(categorySlug));
+  return localizeAll(matches, locale);
 }
 
 export function getCategoriesWithCounts(): (Category & { count: number })[] {
@@ -52,9 +79,17 @@ export function getCategoriesWithCounts(): (Category & { count: number })[] {
   }));
 }
 
-export function getRelatedProjects(project: Project, limit = 4): Project[] {
-  const others = loadProjects().filter((other) => other.slug !== project.slug);
+/**
+ * Related projects are matched on canonical (English) categories/keywords —
+ * never on translated text — so relevance stays consistent across locales.
+ * The returned projects are localized for display.
+ */
+export function getRelatedProjects(slug: string, locale: Locale = defaultLocale, limit = 4): Project[] {
+  const all = loadProjects();
+  const project = all.find((p) => p.slug === slug);
+  if (!project) return [];
 
+  const others = all.filter((other) => other.slug !== project.slug);
   const scored = others.map((other) => {
     const sharedCategories = other.categories.filter((category) =>
       project.categories.includes(category),
@@ -65,9 +100,11 @@ export function getRelatedProjects(project: Project, limit = 4): Project[] {
     return { project: other, score: sharedCategories * 3 + sharedKeywords * 2 };
   });
 
-  return scored
+  const related = scored
     .filter((entry) => entry.score > 0)
     .sort((a, b) => b.score - a.score)
     .slice(0, limit)
     .map((entry) => entry.project);
+
+  return localizeAll(related, locale);
 }

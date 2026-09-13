@@ -20,5 +20,22 @@
   ],
   "license": "MIT",
   "featured": true,
-  "dateAdded": "2026-07-15"
+  "dateAdded": "2026-07-15",
+  "translations": {
+    "zh-CN": {
+      "description": "领先的开源无头 CMS，用于构建可定制的 API 和内容后端。"
+    },
+    "ja": {
+      "description": "カスタマイズ可能な API とコンテンツバックエンドを構築できる、代表的なオープンソースのヘッドレス CMS です。"
+    },
+    "ko": {
+      "description": "커스터마이징 가능한 API와 콘텐츠 백엔드를 구축할 수 있는 대표적인 오픈소스 헤드리스 CMS입니다."
+    },
+    "es": {
+      "description": "CMS headless open source líder para construir APIs personalizables y backends de contenido."
+    },
+    "de": {
+      "description": "Führendes Open-Source-Headless-CMS zum Erstellen anpassbarer APIs und Content-Backends."
+    }
+  }
 }

@@ -27,5 +27,22 @@
   ],
   "license": "BSD-3-Clause",
   "featured": true,
-  "dateAdded": "2026-09-08"
+  "dateAdded": "2026-09-08",
+  "translations": {
+    "zh-CN": {
+      "description": "自托管的后端即服务(BaaS)平台，提供身份验证、数据库、存储、函数和实时 API。"
+    },
+    "ja": {
+      "description": "認証、データベース、ストレージ、関数、リアルタイム API を提供するセルフホスト型 BaaS(バックエンドサービス)プラットフォームです。"
+    },
+    "ko": {
+      "description": "인증, 데이터베이스, 스토리지, 함수, 실시간 API를 제공하는 셀프 호스팅 BaaS(백엔드 서비스) 플랫폼입니다."
+    },
+    "es": {
+      "description": "Plataforma backend-as-a-service autoalojada que ofrece autenticación, bases de datos, almacenamiento, funciones y APIs en tiempo real."
+    },
+    "de": {
+      "description": "Selbstgehostete Backend-as-a-Service-Plattform mit Authentifizierung, Datenbanken, Storage, Funktionen und Echtzeit-APIs."
+    }
+  }
 }

@@ -1,20 +1,21 @@
 import Link from "next/link";
 import { siteConfig } from "@/lib/site";
+import type { Locale } from "@/lib/i18n/config";
+import type { Dictionary } from "@/lib/i18n/types";
 
-export function Footer() {
+export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
     <footer className="border-t border-border">
       <div className="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-8 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:px-6">
         <p>
-          &copy; {new Date().getFullYear()} {siteConfig.name}. Project data is community
-          maintained on GitHub.
+          &copy; {new Date().getFullYear()} {siteConfig.name}. {dict.footer.tagline}
         </p>
         <nav aria-label="Footer" className="flex items-center gap-4">
-          <Link href="/about" className="hover:text-foreground">
-            About
+          <Link href={`/${locale}/about`} className="hover:text-foreground">
+            {dict.footer.about}
           </Link>
-          <Link href="/contribute" className="hover:text-foreground">
-            Contribute
+          <Link href={`/${locale}/contribute`} className="hover:text-foreground">
+            {dict.footer.contribute}
           </Link>
           <a
             href={siteConfig.githubUrl}
@@ -22,7 +23,7 @@ export function Footer() {
             rel="noopener noreferrer"
             className="hover:text-foreground"
           >
-            GitHub
+            {dict.footer.github}
           </a>
         </nav>
       </div>

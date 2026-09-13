@@ -1,4 +1,4 @@
-export function AdSlot({ label = "Advertisement" }: { label?: string }) {
+export function AdSlot({ label }: { label: string }) {
   return (
     <div
       role="complementary"

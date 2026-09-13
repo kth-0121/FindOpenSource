@@ -19,5 +19,22 @@
   ],
   "license": "MIT",
   "featured": true,
-  "dateAdded": "2025-10-29"
+  "dateAdded": "2025-10-29",
+  "translations": {
+    "zh-CN": {
+      "description": "用于开发由大语言模型、智能体和检索增强生成(RAG)驱动的应用程序的框架。"
+    },
+    "ja": {
+      "description": "大規模言語モデル、エージェント、検索拡張生成(RAG)を活用したアプリケーションを開発するためのフレームワークです。"
+    },
+    "ko": {
+      "description": "대규모 언어 모델, 에이전트, 검색 증강 생성(RAG)으로 구동되는 애플리케이션을 개발하기 위한 프레임워크입니다."
+    },
+    "es": {
+      "description": "Framework para desarrollar aplicaciones impulsadas por modelos de lenguaje grandes, agentes y generación aumentada por recuperación (RAG)."
+    },
+    "de": {
+      "description": "Framework zur Entwicklung von Anwendungen auf Basis großer Sprachmodelle, Agenten und Retrieval-Augmented Generation (RAG)."
+    }
+  }
 }

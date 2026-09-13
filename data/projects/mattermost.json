@@ -20,5 +20,22 @@
   ],
   "license": "Apache-2.0",
   "featured": false,
-  "dateAdded": "2026-06-10"
+  "dateAdded": "2026-06-10",
+  "translations": {
+    "zh-CN": {
+      "description": "用于安全团队沟通与协作的开源自托管平台。"
+    },
+    "ja": {
+      "description": "安全なチームコミュニケーションとコラボレーションのための、オープンソースのセルフホスト型プラットフォームです。"
+    },
+    "ko": {
+      "description": "안전한 팀 커뮤니케이션과 협업을 위한 오픈소스 셀프 호스팅 플랫폼입니다."
+    },
+    "es": {
+      "description": "Plataforma open source autoalojable para la comunicación y colaboración segura en equipo."
+    },
+    "de": {
+      "description": "Quelloffene, selbst hostbare Plattform für sichere Teamkommunikation und Zusammenarbeit."
+    }
+  }
 }

@@ -1,16 +1,27 @@
 import Link from "next/link";
 import type { Project } from "@/lib/schema";
-import { getCategoryBySlug } from "@/lib/categories";
+import { getCategoryBySlug, localizeCategory } from "@/lib/categories";
+import type { Locale } from "@/lib/i18n/config";
+import type { Dictionary } from "@/lib/i18n/types";
 
-export function ProjectCard({ project }: { project: Project }) {
+export function ProjectCard({
+  project,
+  locale,
+  dict,
+}: {
+  project: Project;
+  locale: Locale;
+  dict: Dictionary;
+}) {
   const categories = project.categories
     .map((slug) => getCategoryBySlug(slug))
     .filter((category): category is NonNullable<typeof category> => Boolean(category))
+    .map((category) => localizeCategory(category, dict))
     .slice(0, 3);
 
   return (
     <Link
-      href={`/projects/${project.slug}`}
+      href={`/${locale}/projects/${project.slug}`}
       className="group flex flex-col gap-3 rounded-lg border border-border p-5 transition-colors hover:border-accent"
     >
       <div className="flex items-start justify-between gap-2">
