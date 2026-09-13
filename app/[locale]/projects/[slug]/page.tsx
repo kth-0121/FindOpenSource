@@ -111,6 +111,19 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         )}
       </div>
 
+      {project.longDescription && (
+        <section aria-labelledby="project-overview" className="mt-10">
+          <h2 id="project-overview" className="mb-3 text-xl font-semibold tracking-tight">
+            {dict.projectDetail.overviewHeading}
+          </h2>
+          <div className="space-y-4 text-foreground/90">
+            {project.longDescription.split("\n\n").map((paragraph) => (
+              <p key={paragraph.slice(0, 40)}>{paragraph}</p>
+            ))}
+          </div>
+        </section>
+      )}
+
       <dl className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2">
         <div>
           <dt className="text-sm font-semibold text-foreground">{dict.projectDetail.categoriesLabel}</dt>

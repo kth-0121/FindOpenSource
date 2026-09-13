@@ -35,6 +35,7 @@ export function localizeProject(project: Project, locale: Locale): Project {
   return {
     ...project,
     description: translation.description ?? project.description,
+    longDescription: translation.longDescription ?? project.longDescription,
     keywords: translation.keywords ?? project.keywords,
   };
 }

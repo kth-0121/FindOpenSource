@@ -1,7 +1,8 @@
 {
   "name": "Auth.js",
   "slug": "auth-js",
-  "description": "Authentication library for the web, supporting OAuth, email and credential-based sign-in for frameworks like Next.js.",
+  "description": "Open-source authentication library built on standard Web APIs, supporting OAuth, email/passwordless and credential-based sign-in for any JavaScript framework or runtime.",
+  "longDescription": "Auth.js (formerly NextAuth.js) is a set of open-source authentication packages built on standard Web APIs, designed to work with any JavaScript framework, runtime, or hosting model - including serverless and Docker deployments, not just Next.js.\n\nIt supports OAuth 2.0 and OpenID Connect out of the box, along with email/passwordless sign-in and Passkeys/WebAuthn, and can be used with or without a database: when a database is used, official adapters cover Postgres, MySQL, MariaDB, SQL Server, MongoDB, SQLite and more. Security defaults include CSRF protection, encrypted JSON Web Tokens, and restrictive cookie policies aligned with OWASP guidance.\n\nAuth.js is a good fit for teams that want to own their authentication data and logic directly in their application rather than depending on a hosted identity provider. Its official README notes that the project is now part of Better Auth, and recommends new projects start there unless they specifically need Auth.js's stateless, database-optional session handling.",
   "repository": "https://github.com/nextauthjs/next-auth",
   "website": "https://authjs.dev",
   "documentation": "https://authjs.dev",

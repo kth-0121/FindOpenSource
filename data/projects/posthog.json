@@ -2,6 +2,7 @@
   "name": "PostHog",
   "slug": "posthog",
   "description": "Open source product analytics platform with feature flags, session replay and A/B testing.",
+  "longDescription": "PostHog started as a product analytics tool and has grown into a broader product-development platform: alongside event-based and web analytics, it includes session replay, feature flags, A/B experiments, error tracking, log ingestion, no-code surveys, a data warehouse that syncs external sources (like Stripe or Hubspot), configurable data pipelines to 25+ destinations, AI observability for LLM-powered apps, and automation workflows - all viewable from one product.\n\nIt's installed via a JavaScript snippet, official SDKs (JS, Python, Node, mobile and other backend languages), or its API, and can also be connected as an MCP server to bring PostHog's data into AI coding agents like Claude Code or Cursor.\n\nThe core is MIT-licensed (aside from the separate `ee` directory), and the recommended way to run it is PostHog Cloud (US or EU) with a generous free monthly tier; a self-hosted, open-source \"hobby deploy\" is also available via Docker, though the maintainers note self-hosted deployments don't get official support and are intended for smaller-scale usage before migrating to Cloud.",
   "repository": "https://github.com/PostHog/posthog",
   "website": "https://posthog.com",
   "documentation": "https://posthog.com/docs",

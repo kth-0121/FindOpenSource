@@ -1,7 +1,8 @@
 {
   "name": "Mattermost",
   "slug": "mattermost",
-  "description": "Open source, self-hostable platform for secure team communication and collaboration.",
+  "description": "Open-core, self-hosted team collaboration platform combining chat, workflow automation, voice calling and screen sharing, built on Go, React and PostgreSQL.",
+  "longDescription": "Mattermost is an open-core, self-hosted collaboration platform combining team chat with workflow automation, voice calling, screen sharing, and AI integration. The server is written in Go and React, runs as a single Linux binary backed by PostgreSQL, and ships extensibility through webhooks, slash commands, an API, and a marketplace of integrations.\n\nIts licensing is layered: official compiled releases from Mattermost, Inc. are provided under the MIT license, while building the source code yourself is licensed under AGPLv3 (with some exceptions) or a separate commercial license, and a subset of admin tooling and configuration files is Apache-2.0 - reflecting Mattermost's open-core model rather than a single simple license.\n\nIt's commonly used for DevSecOps communication, incident response, and IT service-desk workflows by teams that want a self-hosted alternative to hosted chat platforms, with the option to deploy on-premises or use Mattermost's cloud offering.",
   "repository": "https://github.com/mattermost/mattermost",
   "website": "https://mattermost.com",
   "documentation": "https://docs.mattermost.com",
@@ -18,24 +19,24 @@
     "Go",
     "TypeScript"
   ],
-  "license": "Apache-2.0",
+  "license": "AGPL-3.0",
   "featured": false,
   "dateAdded": "2026-06-10",
   "translations": {
     "zh-CN": {
-      "description": "用于安全团队沟通与协作的开源自托管平台。"
+      "description": "开源核心（open-core）自托管团队协作平台，集聊天、工作流自动化、语音通话与屏幕共享于一体，基于 Go、React 和 PostgreSQL 构建。"
     },
     "ja": {
-      "description": "安全なチームコミュニケーションとコラボレーションのための、オープンソースのセルフホスト型プラットフォームです。"
+      "description": "チャット、ワークフロー自動化、音声通話、画面共有を統合した、オープンコア型のセルフホスト型チームコラボレーションプラットフォームです。Go、React、PostgreSQL で構築されています。"
     },
     "ko": {
-      "description": "안전한 팀 커뮤니케이션과 협업을 위한 오픈소스 셀프 호스팅 플랫폼입니다."
+      "description": "채팅, 워크플로 자동화, 음성 통화, 화면 공유를 결합한 오픈코어 방식의 셀프 호스팅 팀 협업 플랫폼입니다. Go, React, PostgreSQL로 구축되었습니다."
     },
     "es": {
-      "description": "Plataforma open source autoalojable para la comunicación y colaboración segura en equipo."
+      "description": "Plataforma de colaboración en equipo open-core y autoalojada que combina chat, automatización de flujos de trabajo, llamadas de voz y compartición de pantalla, construida con Go, React y PostgreSQL."
     },
     "de": {
-      "description": "Quelloffene, selbst hostbare Plattform für sichere Teamkommunikation und Zusammenarbeit."
+      "description": "Open-Core-Plattform für Teamzusammenarbeit zum Selbsthosten, die Chat, Workflow-Automatisierung, Sprachanrufe und Bildschirmfreigabe vereint - entwickelt mit Go, React und PostgreSQL."
     }
   }
 }

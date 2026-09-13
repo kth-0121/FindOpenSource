@@ -2,6 +2,7 @@
   "name": "Elasticsearch",
   "slug": "elasticsearch",
   "description": "Distributed search and analytics engine for all types of data, including text, numerical and geospatial.",
+  "longDescription": "Elasticsearch is a distributed search and analytics engine and data store, built to search and analyze very large datasets in near real time. Beyond classic full-text search, it also functions as a vector database, supporting vector search and retrieval-augmented generation (RAG) patterns for generative-AI applications.\n\nIt's commonly used for full-text search, application and infrastructure logs, metrics, application performance monitoring (APM), and security log analysis - the same engine underlies the wider Elastic Stack (including Kibana for visualization). It can be run as a self-managed cluster (via Docker or a downloaded distribution) or as a managed deployment on Elastic Cloud.\n\nElasticsearch fits teams that need to index and query large, unstructured or semi-structured datasets - from search-driven product features to observability and security use cases - in one system rather than separate specialized tools.",
   "repository": "https://github.com/elastic/elasticsearch",
   "website": "https://www.elastic.co/elasticsearch",
   "documentation": "https://www.elastic.co/guide/index.html",

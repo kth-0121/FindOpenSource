@@ -136,6 +136,7 @@ const dictionary: Dictionary = {
     descriptionOther: "由社区精选和维护的 {count} 个开源项目。",
   },
   projectDetail: {
+    overviewHeading: "概述",
     githubButton: "GitHub",
     websiteButton: "官网",
     documentationButton: "文档",

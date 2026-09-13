@@ -2,6 +2,7 @@
   "name": "Ansible",
   "slug": "ansible",
   "description": "Radically simple IT automation platform for configuration management, deployment and orchestration.",
+  "longDescription": "Ansible is an agentless IT automation system that manages configuration, deployment, and orchestration across many machines at once. Instead of installing special agent software on every target, it connects over the existing SSH daemon, so there is nothing extra to bootstrap on the systems it manages.\n\nIt's built around a small set of design goals: a minimal learning curve, describing infrastructure in a way that's readable by both humans and machines, and making complex operations - like zero-downtime rolling updates behind a load balancer - straightforward. Modules that perform actual work can be written in any dynamic language, not just Python.\n\nAnsible is commonly used for configuration management, application deployment, cloud provisioning, ad-hoc command execution, and network device automation, making it a good fit for teams that want infrastructure automation without running dedicated agents on every managed host.",
   "repository": "https://github.com/ansible/ansible",
   "website": "https://www.ansible.com",
   "documentation": "https://docs.ansible.com",

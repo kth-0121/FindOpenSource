@@ -2,6 +2,7 @@
   "name": "Playwright",
   "slug": "playwright",
   "description": "Reliable end-to-end testing and browser automation framework for modern web apps.",
+  "longDescription": "Playwright is a browser automation and testing framework that drives Chromium, Firefox, and WebKit through one API, usable from end-to-end tests, standalone automation scripts, or as a tool AI agents can call. Playwright Test, its full-featured test runner, runs tests in parallel across browsers with full isolation (each test gets a fresh browser context), auto-waiting for elements to become actionable, and web-first assertions that retry automatically instead of relying on fixed timeouts.\n\nLocators are designed to mirror how a user perceives the page (by role, label, placeholder, or test id) rather than brittle CSS selectors, and on failure you get traces, screenshots, and video you can inspect step-by-step in the Trace Viewer. Beyond testing, Playwright also ships a CLI aimed at coding agents (Claude Code, Copilot) and an MCP server for LLM-driven browser automation, plus a VS Code extension for authoring and debugging tests.\n\nIt's a fit for teams that need reliable, cross-browser end-to-end tests, as well as projects that need programmatic or AI-driven browser automation.",
   "repository": "https://github.com/microsoft/playwright",
   "website": "https://playwright.dev",
   "documentation": "https://playwright.dev/docs/intro",

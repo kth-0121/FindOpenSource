@@ -2,6 +2,7 @@
   "name": "MUI",
   "slug": "mui",
   "description": "Comprehensive library of React UI components implementing Google's Material Design.",
+  "longDescription": "Material UI (the `@mui/material` package, from the MUI organization) is a React component library implementing Google's Material Design system as an independent implementation - not a wrapper around Google's own code. It's been developed for more than a decade with contributions from a large open-source community, and its core set of components can be extended with MUI X, a separate suite of more complex components (data grids, date pickers, charts) for advanced use cases.\n\nIt's a fit for React teams that want a mature, ready-made set of accessible UI components following Material Design conventions, rather than building a design system's components from scratch.",
   "repository": "https://github.com/mui/material-ui",
   "website": "https://mui.com",
   "documentation": "https://mui.com/material-ui/getting-started/",

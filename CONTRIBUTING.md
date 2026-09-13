@@ -46,6 +46,7 @@ Copy this template and fill in real information about the project:
   "documentation": "https://your-project.dev/docs",
   "categories": ["backend", "database"],
   "keywords": ["backend", "database", "self-hosted"],
+  "longDescription": "A few short paragraphs on what the project is, what problem it solves, its main capabilities, and when someone would choose it. Optional but encouraged for new projects.",
   "languages": ["TypeScript"],
   "license": "MIT",
   "featured": false,
@@ -69,17 +70,34 @@ but you only ever need to fill in the English fields above to add a project.
 | `documentation` | No       | A link to the docs, if available.                                          |
 | `categories`    | Yes      | One or more slugs from `data/categories.json`. See below.                   |
 | `keywords`      | Yes      | Terms people might search for. See tips below.                              |
+| `longDescription` | No     | 1–4 short paragraphs for the project detail page. 40–2500 characters, plain text (separate paragraphs with a blank line, i.e. `\n\n`). Base it on the project's own README/docs — see tips below. Not used for search ranking. |
 | `languages`     | No       | Primary programming language(s) used by the project.                        |
 | `license`       | Yes      | The project's license (e.g. `MIT`, `Apache-2.0`, `AGPL-3.0`).               |
 | `featured`      | No       | Set to `true` only for well-established, widely used projects.              |
 | `dateAdded`     | No       | `YYYY-MM-DD`. Used to sort "Recently Added". Set it to today's date; projects without it sort to the bottom of that list. |
-| `translations`  | No       | Optional translated `description`/`keywords` per locale. See below.         |
+| `translations`  | No       | Optional translated `description`/`longDescription`/`keywords` per locale. See below. |
 
 #### Writing a good description
 
 - One sentence, written for someone who has never heard of the project.
 - Describe **what it does**, not how popular it is ("Open source CMS for..." not "The best CMS").
 - Avoid marketing language and superlatives.
+
+#### Writing a good longDescription
+
+`longDescription` is what shows on the project's detail page — think of it as an answer to
+"what is this, what problem does it solve, what can it do, and when would I use it?"
+
+- **Base it on the project's own README or docs, but don't copy it.** Read the README, understand
+  it, then write your own summary in your own words. Don't paste marketing taglines, install
+  commands, or code examples.
+- Only state features/facts you can verify in the README, official docs, or website. Don't guess
+  or extrapolate.
+- Skip superlatives ("best", "most popular", "industry-leading") unless the fact itself is
+  concrete and verifiable (e.g. a specific number the project states about itself).
+- Don't repeat what's already in `categories`, `keywords`, `languages`, or `license` — the page
+  shows those separately.
+- 1–4 short paragraphs is usually enough; a simple project doesn't need to hit any word count.
 
 #### Choosing categories
 
@@ -100,8 +118,8 @@ project's *feature*, not just its name:
 
 FindOpenSource is available in `en` (canonical), `zh-CN`, `ja`, `ko`, `es` and `de`. English is
 always the fallback, so **you never have to translate anything** to add a project — but if you
-speak one of the other languages and want to add a translated description or localized keywords,
-add a `translations` object keyed by locale:
+speak one of the other languages and want to add a translated description, longDescription, or
+localized keywords, add a `translations` object keyed by locale:
 
 ```json
 {
@@ -109,6 +127,7 @@ add a `translations` object keyed by locale:
   "translations": {
     "ko": {
       "description": "한국어로 작성된 한 문장 설명입니다.",
+      "longDescription": "한국어로 작성된 상세 설명입니다.",
       "keywords": ["인증", "로그인"]
     },
     "ja": {
@@ -120,8 +139,8 @@ add a `translations` object keyed by locale:
 
 Notes:
 
-- Every locale key is optional, and within each locale both `description` and `keywords` are
-  optional — provide only what you have a confident, accurate translation for.
+- Every locale key is optional, and within each locale `description`, `longDescription`, and
+  `keywords` are all optional — provide only what you have a confident, accurate translation for.
 - Translate the *meaning* of the English description; don't add facts that aren't in the
   original.
 - Never translate the project `name`, `repository`, `website`, `documentation` or `license` —

@@ -2,6 +2,7 @@
   "name": "Ollama",
   "slug": "ollama",
   "description": "Run large language models locally with a simple command-line interface and API.",
+  "longDescription": "Ollama lets you download and run open large language models locally on macOS, Windows, or Linux (or via an official Docker image), and exposes a REST API for chatting with or managing those models programmatically - useful for building applications that call a local model the same way they might call a hosted LLM API.\n\nBeyond running models directly, Ollama can also launch and connect to external coding agents and assistants - including Claude Code, Codex, Copilot CLI, and OpenCode - and, through its OpenClaw integration, act as a personal AI assistant reachable from chat apps like WhatsApp, Telegram, Slack, and Discord.\n\nOfficial client libraries are available for Python and JavaScript. Ollama is a fit for developers who want to run models on their own hardware for privacy, cost, or offline reasons, or who want a local runtime that can also plug into existing coding-agent and chat-based AI workflows.",
   "repository": "https://github.com/ollama/ollama",
   "website": "https://ollama.com",
   "documentation": "https://github.com/ollama/ollama/tree/main/docs",

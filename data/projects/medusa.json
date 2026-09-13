@@ -2,6 +2,7 @@
   "name": "Medusa",
   "slug": "medusa",
   "description": "Open source, headless commerce platform for building fast, customizable storefronts and backends.",
+  "longDescription": "Medusa is a commerce platform built around a customizable framework and a set of commerce modules so teams can assemble a custom commerce application without reimplementing core commerce logic from scratch. It's positioned for more than typical storefronts: the same modules can support B2B or direct-to-consumer stores, marketplaces, distributor platforms, and point-of-sale systems.\n\nThe core commerce modules are open-source (MIT-licensed) and published on npm; a separate Enterprise Edition adds RBAC-based features under a commercial agreement with Medusa's maker, following an open-core model. For hosting, teams can self-host or use the managed Medusa Cloud for deployment, scaling, and maintenance.\n\nMedusa fits teams that need commerce logic more customizable than a typical hosted e-commerce platform allows, without building that foundation entirely in-house.",
   "repository": "https://github.com/medusajs/medusa",
   "website": "https://medusajs.com",
   "documentation": "https://docs.medusajs.com",

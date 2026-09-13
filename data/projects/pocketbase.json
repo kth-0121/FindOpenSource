@@ -2,6 +2,7 @@
   "name": "PocketBase",
   "slug": "pocketbase",
   "description": "Open source backend consisting of an embedded SQLite database, authentication, file storage and a realtime API in a single executable.",
+  "longDescription": "PocketBase is an open-source backend written in Go that ships as a single executable: it bundles an embedded SQLite database with realtime subscriptions, file and user management, a built-in admin dashboard UI, and a REST-ish API, so a small backend can run without assembling separate database, auth, and API services.\n\nYou can use it two ways: run the prebuilt executable directly (extendable with JavaScript via its built-in JS VM plugin) as a standalone backend, or import PocketBase as a Go library/framework to add your own custom business logic on top while still producing one portable, statically-linked executable. Official SDKs are available for JavaScript and Dart.\n\nThe project notes it is still under active development, and full backward compatibility isn't guaranteed before reaching v1.0. PocketBase suits small-to-medium projects, prototypes, or embedded/self-hosted apps that want a minimal, single-binary backend rather than a multi-service stack.",
   "repository": "https://github.com/pocketbase/pocketbase",
   "website": "https://pocketbase.io",
   "documentation": "https://pocketbase.io/docs",

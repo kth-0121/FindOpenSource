@@ -2,6 +2,7 @@
   "name": "Expo",
   "slug": "expo",
   "description": "Open source platform and toolchain for building universal native apps with React Native.",
+  "longDescription": "Expo is an open-source platform for building universal native apps for Android, iOS, and the web from a single React and JavaScript codebase. This repository contains the core open-source pieces: the Expo SDK (a curated set of libraries for native device APIs), a Modules API for writing custom native modules, the Expo Go app for quickly previewing projects on a real device, a CLI, and Expo Router for file-based navigation.\n\nExpo Application Services (EAS) is a separate, hosted platform built on top of these open-source tools that handles building, submitting, and updating apps for teams that don't want to manage their own native build infrastructure - it's optional, not required to use the open-source SDK and CLI.\n\nIt's a good fit for teams that want to target iOS, Android, and web from one React codebase without hand-configuring native Xcode/Android Studio projects for everyday app development.",
   "repository": "https://github.com/expo/expo",
   "website": "https://expo.dev",
   "documentation": "https://docs.expo.dev",

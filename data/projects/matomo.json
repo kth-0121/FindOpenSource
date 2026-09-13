@@ -2,6 +2,7 @@
   "name": "Matomo",
   "slug": "matomo",
   "description": "Open source web analytics platform giving full control and ownership of visitor data.",
+  "longDescription": "Matomo (formerly Piwik) is a self-hosted, open-source web analytics platform positioned as a privacy-respecting alternative to Google Analytics. You install the PHP/MySQL application on your own server, add a small JavaScript snippet to the pages you want to track, and view visitor and traffic reports in real time from your own instance - keeping full ownership of the collected data rather than sending it to a third party.\n\nAccording to the project, Matomo is used on more than 1.4 million websites. For teams that don't want to run their own server, Matomo Cloud offers a hosted version with a free trial as an alternative to self-hosting.\n\nIt suits organizations and developers who want web analytics with the same core reporting capabilities as mainstream analytics tools, but with the data staying on infrastructure they control.",
   "repository": "https://github.com/matomo-org/matomo",
   "website": "https://matomo.org",
   "documentation": "https://matomo.org/docs",

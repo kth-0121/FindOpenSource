@@ -1,7 +1,8 @@
 {
   "name": "Appwrite",
   "slug": "appwrite",
-  "description": "Self-hosted backend-as-a-service platform providing authentication, databases, storage, functions and realtime APIs.",
+  "description": "Open-source backend platform providing authentication, databases, storage, functions and realtime APIs, self-hosted or as a managed cloud service.",
+  "longDescription": "Appwrite is an open-source development platform that bundles the backend infrastructure most apps need - authentication (email/password, OAuth, magic links, anonymous sessions), a structured database, file storage, serverless functions, multi-channel messaging (email, SMS, push), and an integrated hosting product (Sites) for the frontend - behind one API and console.\n\nIt's designed to run in a containerized environment: a single Docker command starts a full local instance, and it also runs on Kubernetes, Docker Swarm, or Rancher for production. Appwrite Cloud is the official managed alternative if you'd rather not operate the infrastructure yourself.\n\nAppwrite is a fit for teams building web, mobile, or AI application backends who want one open-source platform covering auth, data, storage, and hosting, instead of assembling and maintaining several separate services.",
   "repository": "https://github.com/appwrite/appwrite",
   "website": "https://appwrite.io",
   "documentation": "https://appwrite.io/docs",
@@ -30,19 +31,19 @@
   "dateAdded": "2026-09-08",
   "translations": {
     "zh-CN": {
-      "description": "自托管的后端即服务(BaaS)平台，提供身份验证、数据库、存储、函数和实时 API。"
+      "description": "开源后端平台，提供身份验证、数据库、存储、函数和实时 API，可自托管，也可使用托管云服务。"
     },
     "ja": {
-      "description": "認証、データベース、ストレージ、関数、リアルタイム API を提供するセルフホスト型 BaaS(バックエンドサービス)プラットフォームです。"
+      "description": "認証、データベース、ストレージ、関数、リアルタイム API を提供するオープンソースのバックエンドプラットフォームです。セルフホストでもマネージドクラウドでも利用できます。"
     },
     "ko": {
-      "description": "인증, 데이터베이스, 스토리지, 함수, 실시간 API를 제공하는 셀프 호스팅 BaaS(백엔드 서비스) 플랫폼입니다."
+      "description": "인증, 데이터베이스, 스토리지, 함수, 실시간 API를 제공하는 오픈소스 백엔드 플랫폼으로, 셀프 호스팅 또는 매니지드 클라우드 서비스로 이용할 수 있습니다."
     },
     "es": {
-      "description": "Plataforma backend-as-a-service autoalojada que ofrece autenticación, bases de datos, almacenamiento, funciones y APIs en tiempo real."
+      "description": "Plataforma backend de código abierto que ofrece autenticación, bases de datos, almacenamiento, funciones y APIs en tiempo real, autoalojada o como servicio en la nube gestionado."
     },
     "de": {
-      "description": "Selbstgehostete Backend-as-a-Service-Plattform mit Authentifizierung, Datenbanken, Storage, Funktionen und Echtzeit-APIs."
+      "description": "Open-Source-Backend-Plattform mit Authentifizierung, Datenbanken, Storage, Funktionen und Echtzeit-APIs - selbstgehostet oder als verwalteter Cloud-Dienst."
     }
   }
 }

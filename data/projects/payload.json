@@ -2,6 +2,7 @@
   "name": "Payload",
   "slug": "payload",
   "description": "TypeScript-first headless CMS and application framework with a built-in admin panel.",
+  "longDescription": "Payload is a headless CMS built specifically for Next.js: rather than running as a separate service you call over an API, it installs directly into your existing Next.js `/app` folder, so front end and CMS can share the same project and you can query the database directly from React Server Components without necessarily going through REST or GraphQL.\n\nIt's fully TypeScript, with types generated automatically from your data schema, and includes authentication, document versioning and drafts, localization, a block-based layout builder, a customizable React-based admin UI, a Lexical rich-text editor, conditional field logic, and granular, code-defined access control - with hooks available on essentially every action.\n\nPayload is open source and self-hostable anywhere Next.js runs, with one-click deployment options for Vercel and Cloudflare. It's a good fit for teams already building on Next.js who want a code-first, developer-controlled CMS integrated into their app rather than a separate hosted content platform.",
   "repository": "https://github.com/payloadcms/payload",
   "website": "https://payloadcms.com",
   "documentation": "https://payloadcms.com/docs",

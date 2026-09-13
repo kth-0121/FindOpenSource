@@ -2,6 +2,7 @@
   "name": "Plausible Analytics",
   "slug": "plausible",
   "description": "Lightweight, open source and privacy-friendly alternative to Google Analytics.",
+  "longDescription": "Plausible Analytics is a privacy-first web analytics tool positioned as a lightweight, cookie-free alternative to Google Analytics: it doesn't store personal data, IP addresses, or persistent identifiers, and is built to comply with GDPR, CCPA, and PECR out of the box. Its dashboard focuses on a single, uncluttered page of key metrics rather than the deep menu structure of larger analytics suites.\n\nBeyond basic pageview tracking, it supports custom events, goals, conversion funnels, and revenue attribution, with codeless tracking available for outbound link clicks, form completions, file downloads, and 404 pages, plus a Google Search Console integration for keyword data and an API for exporting stats or sending events programmatically.\n\nPlausible is available as a paid, EU-hosted managed cloud service or as a self-hosted community edition; the project is funded by subscriptions rather than advertising or data monetization, which the maintainers present as central to its privacy-first business model.",
   "repository": "https://github.com/plausible/analytics",
   "website": "https://plausible.io",
   "documentation": "https://plausible.io/docs",

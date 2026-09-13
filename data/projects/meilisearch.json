@@ -2,6 +2,7 @@
   "name": "Meilisearch",
   "slug": "meilisearch",
   "description": "Fast, open source search engine that is easy to integrate and delivers relevant results instantly.",
+  "longDescription": "Meilisearch is a search engine designed to be fast and easy to run yourself: it combines full-text and semantic (hybrid) search, typically returns results in under 50 milliseconds, and tolerates typos and misspellings so users still find relevant matches. Built-in filtering, faceted search, sorting, synonyms, geosearch, and multi-tenancy cover most of what a typical product search feature needs without extra services.\n\nIt also supports more AI-oriented use cases out of the box, including conversational search (answering natural-language questions grounded in your indexed data) and integrations with tools like LangChain and the Model Context Protocol (MCP). Fine-grained API keys and tenant tokens handle access control and multi-tenant search.\n\nYou can self-host Meilisearch or use the managed Meilisearch Cloud. It's a fit for teams that want to add fast, relevant search - from simple site search to more AI-assisted or personalized search experiences - without operating a heavier, general-purpose search platform.",
   "repository": "https://github.com/meilisearch/meilisearch",
   "website": "https://www.meilisearch.com",
   "documentation": "https://www.meilisearch.com/docs",

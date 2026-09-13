@@ -2,6 +2,7 @@
   "name": "Rocket.Chat",
   "slug": "rocket-chat",
   "description": "Open source team chat and collaboration platform that can be fully self-hosted.",
+  "longDescription": "Rocket.Chat is an open-source, self-hostable team communication platform built in TypeScript, aimed at organizations with strict data-protection or compliance requirements. Deployment options include self-hosted (Docker, Podman, Kubernetes), cloud-hosted, and fully air-gapped (no internet access) setups for high-security or regulated environments.\n\nSecurity features include end-to-end encryption, identity management, and role- and attribute-based access control. Beyond core chat, it supports voice calls and federation (communicating across separate Rocket.Chat workspaces), and can be extended through public apps from the Rocket.Chat Marketplace or custom apps built with its Apps-Engine. Desktop and mobile clients are available alongside the web app.\n\nIt's a fit for organizations - including regulated industries like government, defense, or finance - that need a self-hosted or air-gapped chat platform with fine-grained access control and compliance tooling, rather than a SaaS-only team chat product.",
   "repository": "https://github.com/RocketChat/Rocket.Chat",
   "website": "https://www.rocket.chat",
   "documentation": "https://docs.rocket.chat",

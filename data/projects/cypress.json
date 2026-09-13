@@ -2,6 +2,7 @@
   "name": "Cypress",
   "slug": "cypress",
   "description": "JavaScript end-to-end testing framework built for the modern web with fast, reliable testing.",
+  "longDescription": "Cypress is a JavaScript testing tool described by its maintainers as fast, easy, and reliable testing for anything that runs in a browser. It's installed as a project dependency (via npm, Yarn, or pnpm) alongside your existing application tooling.\n\nCypress is aimed at front-end and full-stack teams that need browser-based end-to-end tests integrated into their regular JavaScript development and CI workflow.",
   "repository": "https://github.com/cypress-io/cypress",
   "website": "https://www.cypress.io",
   "documentation": "https://docs.cypress.io",

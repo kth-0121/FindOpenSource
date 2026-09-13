@@ -2,6 +2,7 @@
   "name": "Sentry",
   "slug": "sentry",
   "description": "Application monitoring platform that helps developers diagnose, fix and optimize the performance of their code.",
+  "longDescription": "Sentry is a debugging and observability platform that helps developers detect, trace, and fix issues in production applications. Beyond classic error tracking (grouping, tracing, and alerting on exceptions), its feature set now spans performance tracing, a trace explorer, session replay, log aggregation, and uptime monitoring - giving a fuller picture of what happened around an error, not just the stack trace itself.\n\nIt ships official SDKs for a very wide range of platforms - JavaScript, Python, Ruby, PHP/Laravel, Go, Rust, Java/Kotlin, Swift/Objective-C, C#/.NET, C/C++, Dart/Flutter, Elixir, and even game engines like Unity, Unreal, and Godot - so it can be dropped into most application stacks with an official client rather than a community one.\n\nSentry's source is licensed under the Functional Source License (FSL-1.1-Apache-2.0), which converts to Apache-2.0 after a time-delay period - source-available today, but not an OSI-approved open-source license until that conversion happens for a given release. It's a fit for teams that want a self-hostable, full-stack alternative to purely proprietary error-tracking/observability SaaS.",
   "repository": "https://github.com/getsentry/sentry",
   "website": "https://sentry.io",
   "documentation": "https://docs.sentry.io",
@@ -18,7 +19,7 @@
     "Python",
     "TypeScript"
   ],
-  "license": "FSL-1.1",
+  "license": "FSL-1.1-Apache-2.0",
   "featured": true,
   "dateAdded": "2026-01-21"
 }

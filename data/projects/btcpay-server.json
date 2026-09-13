@@ -2,6 +2,7 @@
   "name": "BTCPay Server",
   "slug": "btcpay-server",
   "description": "Self-hosted, open source cryptocurrency payment processor with no fees and no middleman.",
+  "longDescription": "BTCPay Server is a self-hosted, non-custodial Bitcoin payment processor: it lets a merchant accept direct, peer-to-peer Bitcoin payments without paying processor fees, going through a middleman, or requiring KYC from customers. Because it's self-hosted, the operator keeps full control of the private keys and can offer the service to other people or businesses as well (multi-tenant).\n\nBeyond basic invoicing, it includes Lightning Network support (LND, Core Lightning, Eclair) for fast, low-fee payments, SegWit and hardware wallet integration for the underlying wallet, and optional Tor support for added privacy. Built-in \"Apps\" cover common storefront needs like a point-of-sale interface, crowdfunding pages, and donation buttons, on top of invoice and payment-request management.\n\nThe core project is a Bitcoin-only build; a separate, community-maintained fork adds support for other cryptocurrencies. It's a good fit for merchants, developers, or communities who want to accept Bitcoin directly without relying on a custodial payment processor.",
   "repository": "https://github.com/btcpayserver/btcpayserver",
   "website": "https://btcpayserver.org",
   "documentation": "https://docs.btcpayserver.org",

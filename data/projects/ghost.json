@@ -2,6 +2,7 @@
   "name": "Ghost",
   "slug": "ghost",
   "description": "Open source publishing and membership platform for blogs, newsletters and online publications.",
+  "longDescription": "Ghost is a headless, Node.js-based content platform focused on professional publishing - blogs, newsletters, and membership/subscription sites - rather than being a general-purpose CMS. Content is managed through Ghost's admin interface and delivered to your own frontend (themes or a custom site) via its Content API.\n\nYou can self-host it using the official `ghost-cli` tool, which handles local installs for development or full production installs on a server, including automatic SSL via Let's Encrypt. Alternatively, Ghost(Pro) is an official managed hosting service that can launch a site in a couple of minutes with CDN, backups, and maintenance included; its revenue funds the nonprofit Ghost Foundation that maintains the open-source project.\n\nIt suits publishers, writers, and small teams who want a dedicated publishing and membership platform rather than adapting a general CMS for that purpose.",
   "repository": "https://github.com/TryGhost/Ghost",
   "website": "https://ghost.org",
   "documentation": "https://ghost.org/docs",

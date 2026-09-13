@@ -2,6 +2,7 @@
   "name": "Flutter",
   "slug": "flutter",
   "description": "Google's UI toolkit for building natively compiled applications for mobile, web and desktop from a single codebase.",
+  "longDescription": "Flutter is Google's open-source SDK for building natively compiled apps for mobile, web, and desktop from a single Dart codebase. Rather than wrapping native platform widgets, it ships its own rendering engine (built on Skia and Impeller) and a full widget catalog - including both Material and Cupertino-style widgets - so an app's visual design isn't limited by what each platform provides.\n\nDevelopment is built around stateful hot reload, which applies code changes to a running app instantly without losing app state, and the tooling includes editor plugins for VS Code and IntelliJ/Android Studio plus tens of thousands of community packages. Native interoperability is supported through FFI and platform channels when you need to call into existing platform-specific code.\n\nFlutter targets teams that want one codebase and consistent, pixel-precise UI across iOS, Android, web, and desktop (Windows, macOS, Linux), or that want to embed it as the UI toolkit for a custom device platform.",
   "repository": "https://github.com/flutter/flutter",
   "website": "https://flutter.dev",
   "documentation": "https://docs.flutter.dev",

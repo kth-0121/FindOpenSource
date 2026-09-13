@@ -2,6 +2,7 @@
   "name": "TensorFlow",
   "slug": "tensorflow",
   "description": "End-to-end open source platform for machine learning, from research to production.",
+  "longDescription": "TensorFlow is an end-to-end open-source platform for machine learning, originally developed by Google's Machine Intelligence team (Google Brain) for internal ML research, and now maintained as a general-purpose framework used well beyond that original context. It provides stable Python and C++ APIs (with additional, non-guaranteed-stable APIs for other languages), and a broader ecosystem of tools, libraries, and community resources for both research and building/deploying ML-powered applications.\n\nIt's installed via pip (`tensorflow` for GPU-enabled builds on supported platforms, or `tensorflow-cpu` for a smaller CPU-only package), with GPU acceleration available through CUDA on Linux/Windows or device plugins for DirectX and Apple's Metal on other platforms.\n\nTensorFlow fits teams and researchers building or deploying machine learning models who want a mature, widely adopted framework with first-class Python support and production deployment tooling, rather than a research-only or narrowly scoped ML library.",
   "repository": "https://github.com/tensorflow/tensorflow",
   "website": "https://www.tensorflow.org",
   "documentation": "https://www.tensorflow.org/api_docs",

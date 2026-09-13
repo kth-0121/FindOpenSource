@@ -2,6 +2,7 @@
   "name": "n8n",
   "slug": "n8n",
   "description": "Workflow automation platform that lets you connect apps and services with a visual, node-based editor.",
+  "longDescription": "n8n is a fair-code workflow automation platform that combines a visual, node-based canvas with the ability to drop into JavaScript or Python (and npm packages) when the built-in nodes aren't enough. It connects to 1,500+ third-party services and ships thousands of community workflow templates to start from rather than building automations from a blank canvas.\n\nIts current focus is AI agent automation specifically: building multi-step AI workflows with tool use, human-approval steps, and observability, while staying model-agnostic (OpenAI, Anthropic, Google, or self-hosted/open models) so you can switch providers without redesigning the workflow.\n\nn8n can be self-hosted (via Docker) or used through n8n's cloud offering. It's licensed under n8n's own Sustainable Use License plus a separate Enterprise License for additional features - the source is always visible and self-hostable, but this is not an OSI-approved open-source license, which is worth knowing if strict open-source licensing matters for your use case.",
   "repository": "https://github.com/n8n-io/n8n",
   "website": "https://n8n.io",
   "documentation": "https://docs.n8n.io",

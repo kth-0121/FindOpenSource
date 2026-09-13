@@ -2,6 +2,7 @@
   "name": "Grafana",
   "slug": "grafana",
   "description": "Open source platform for monitoring and observability, letting you query, visualize and alert on metrics.",
+  "longDescription": "Grafana is an open-source platform for querying, visualizing, and alerting on metrics and logs, regardless of where that data is stored - it connects to many different data sources, including mixing several sources in the same dashboard or panel, rather than shipping its own storage engine.\n\nDashboards are built from configurable panels and can use template variables to make them dynamic and reusable across teams. Its Explore views let you drill into metrics and logs with ad-hoc queries, compare time ranges and data sources side by side, and pivot from a metric straight to related logs. Alert rules are defined visually and can notify systems like Slack, PagerDuty, VictorOps, and OpsGenie.\n\nGrafana fits teams that already have metrics or logs in one or more backends and want a shared, dashboard-driven way to explore that data and act on alerts, without centralizing the data itself in Grafana.",
   "repository": "https://github.com/grafana/grafana",
   "website": "https://grafana.com",
   "documentation": "https://grafana.com/docs",

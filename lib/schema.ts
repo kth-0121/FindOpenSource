@@ -9,6 +9,11 @@ const projectTranslationSchema = z
       .min(10, "translated description should be at least 10 characters")
       .max(280, "translated description should be at most 280 characters")
       .optional(),
+    longDescription: z
+      .string()
+      .min(40, "translated longDescription should be at least 40 characters")
+      .max(2500, "translated longDescription should be at most 2500 characters")
+      .optional(),
     keywords: z.array(z.string().min(1)).min(1, "keywords, if provided, cannot be empty").optional(),
   })
   .strict();
@@ -35,6 +40,17 @@ export const projectSchema = z.object({
     .string()
     .min(10, "description should be at least 10 characters")
     .max(280, "description should be at most 280 characters"),
+  /**
+   * Optional longer, original (not copy-pasted from the README) explanation
+   * for the project detail page: what it is, what problem it solves, main
+   * capabilities, typical use cases. Plain text; paragraphs are separated by
+   * a blank line ("\n\n").
+   */
+  longDescription: z
+    .string()
+    .min(40, "longDescription should be at least 40 characters")
+    .max(2500, "longDescription should be at most 2500 characters")
+    .optional(),
   repository: z
     .string()
     .url("repository must be a valid URL")

@@ -1,7 +1,8 @@
 {
   "name": "Strapi",
   "slug": "strapi",
-  "description": "Leading open source headless CMS for building customizable APIs and content backends.",
+  "description": "Self-hosted, open-source headless CMS that generates REST and GraphQL APIs from visually modeled content types.",
+  "longDescription": "Strapi is a self-hosted, open-source headless CMS: you define content types visually with its Content-Type Builder, and it automatically generates REST and GraphQL APIs for that content, ready to consume from any web frontend, mobile app, or other client. Built-in features include role- and permission-based access control, a media library, internationalization, and a draft/publish workflow, and the backend can be extended through an explicit Routes -> Middlewares -> Controllers -> Services architecture and a plugin system.\n\nIt's first-class TypeScript, supports SQLite, PostgreSQL, MySQL, and MariaDB as database options, and the core is MIT-licensed - a separate `ee/` (Enterprise Edition) directory in the same repo is licensed differently for paid features. Beyond self-hosting, Strapi Cloud is the official managed hosting option.\n\nIt's a fit for teams that want to model content visually and get generated APIs immediately, while keeping full control over the backend code rather than working through a fully hosted, closed content platform.",
   "repository": "https://github.com/strapi/strapi",
   "website": "https://strapi.io",
   "documentation": "https://docs.strapi.io",
@@ -23,19 +24,19 @@
   "dateAdded": "2026-07-15",
   "translations": {
     "zh-CN": {
-      "description": "领先的开源无头 CMS，用于构建可定制的 API 和内容后端。"
+      "description": "自托管的开源无头 CMS，通过可视化建模的内容类型自动生成 REST 和 GraphQL API。"
     },
     "ja": {
-      "description": "カスタマイズ可能な API とコンテンツバックエンドを構築できる、代表的なオープンソースのヘッドレス CMS です。"
+      "description": "コンテンツタイプをビジュアルでモデリングするだけで REST・GraphQL API を自動生成する、セルフホスト型オープンソースヘッドレス CMS です。"
     },
     "ko": {
-      "description": "커스터마이징 가능한 API와 콘텐츠 백엔드를 구축할 수 있는 대표적인 오픈소스 헤드리스 CMS입니다."
+      "description": "콘텐츠 타입을 시각적으로 모델링하면 REST 및 GraphQL API를 자동으로 생성해주는 셀프 호스팅 오픈소스 헤드리스 CMS입니다."
     },
     "es": {
-      "description": "CMS headless open source líder para construir APIs personalizables y backends de contenido."
+      "description": "CMS headless open source y autoalojado que genera APIs REST y GraphQL a partir de tipos de contenido modelados visualmente."
     },
     "de": {
-      "description": "Führendes Open-Source-Headless-CMS zum Erstellen anpassbarer APIs und Content-Backends."
+      "description": "Selbst gehostetes, quelloffenes Headless-CMS, das REST- und GraphQL-APIs automatisch aus visuell modellierten Content-Typen generiert."
     }
   }
 }

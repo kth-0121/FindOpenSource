@@ -53,6 +53,7 @@ export interface Dictionary {
     descriptionOther: string;
   };
   projectDetail: {
+    overviewHeading: string;
     githubButton: string;
     websiteButton: string;
     documentationButton: string;

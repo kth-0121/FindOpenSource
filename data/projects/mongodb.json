@@ -2,6 +2,7 @@
   "name": "MongoDB",
   "slug": "mongodb",
   "description": "Document-oriented NoSQL database designed for scalability and developer flexibility.",
+  "longDescription": "This repository contains the core MongoDB database server (`mongod`) and sharding router (`mongos`) - the document-oriented NoSQL database itself, along with the tooling needed to build and run it from source. Most users install it as a prebuilt package (via the official downloads, Homebrew, or the official Docker image) rather than building from source.\n\nThe broader MongoDB ecosystem referenced from this repo includes `mongosh` (the interactive shell), MongoDB Compass (a GUI for exploring and querying data), and official drivers for most popular programming languages. For teams that don't want to operate their own servers, MongoDB Atlas is the official managed cloud database service.\n\nMongoDB fits applications that model data as flexible, JSON-like documents rather than fixed relational tables, and that need built-in horizontal scaling through sharding for larger datasets.",
   "repository": "https://github.com/mongodb/mongo",
   "website": "https://www.mongodb.com",
   "documentation": "https://www.mongodb.com/docs",

@@ -2,6 +2,7 @@
   "name": "Kubernetes",
   "slug": "kubernetes",
   "description": "Open source system for automating deployment, scaling and management of containerized applications.",
+  "longDescription": "Kubernetes (K8s) is an open-source system for deploying, scaling, and maintaining containerized applications across a cluster of multiple hosts. Rather than running containers on a single machine, it schedules and manages them across the cluster, handling tasks like restarting failed containers, scaling the number of running instances, and rolling out updates.\n\nIts design draws on more than a decade of Google's internal experience running production workloads at scale with an internal system called Borg, combined with practices contributed by the wider community since Kubernetes became a standalone open-source project. It is hosted by the Cloud Native Computing Foundation (CNCF).\n\nKubernetes is a fit for teams running containerized, microservices-style applications that need automated deployment, scaling, and recovery across many machines, rather than managing containers host-by-host by hand.",
   "repository": "https://github.com/kubernetes/kubernetes",
   "website": "https://kubernetes.io",
   "documentation": "https://kubernetes.io/docs",

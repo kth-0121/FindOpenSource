@@ -2,6 +2,7 @@
   "name": "shadcn/ui",
   "slug": "shadcn-ui",
   "description": "Collection of copy-and-paste, accessible React components built with Radix UI and Tailwind CSS.",
+  "longDescription": "shadcn/ui provides a set of accessible, customizable UI components built with React and Tailwind CSS. Rather than distributing them as a typical npm package you import as an opaque dependency, the project describes itself as \"open code\" meant to be used as a starting point: you bring the component source into your own project and customize, extend, and build on it directly, effectively using shadcn/ui to build your own component library rather than depending on an external one.\n\nIt's MIT licensed and documented at ui.shadcn.com, where the available components and usage patterns are covered in detail.\n\nIt's a fit for teams that want full ownership and control over their component code and styling from day one, rather than working around the constraints or theming system of a traditional, install-as-a-dependency component library.",
   "repository": "https://github.com/shadcn-ui/ui",
   "website": "https://ui.shadcn.com",
   "documentation": "https://ui.shadcn.com/docs",

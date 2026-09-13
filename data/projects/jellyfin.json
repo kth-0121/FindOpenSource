@@ -2,6 +2,7 @@
   "name": "Jellyfin",
   "slug": "jellyfin",
   "description": "Free software media system that puts you in control of managing and streaming your media.",
+  "longDescription": "Jellyfin is a free, open-source media server that streams your own media library - movies, TV, music, and more - from a server you control to apps on other devices, without subscriptions, premium tiers, or hidden restrictions. It was originally forked from Emby (at the 3.5.2 release) and rewritten on .NET for broader cross-platform support, and today it's positioned as a free alternative to proprietary options like Emby and Plex.\n\nThis repository is specifically the Jellyfin backend server; the web client, mobile/TV apps, and the bundled ffmpeg build live in separate repositories under the Jellyfin GitHub organization. The server hosts your media, handles transcoding and metadata, and serves the web client (or other official/community clients) that connect to it.\n\nJellyfin is a fit for anyone who wants to self-host a Plex/Emby-style media server without proprietary licensing or a subscription for core features.",
   "repository": "https://github.com/jellyfin/jellyfin",
   "website": "https://jellyfin.org",
   "documentation": "https://jellyfin.org/docs",

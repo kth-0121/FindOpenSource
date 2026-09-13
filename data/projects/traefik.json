@@ -2,6 +2,7 @@
   "name": "Traefik",
   "slug": "traefik",
   "description": "Modern, cloud-native reverse proxy and load balancer that integrates with your existing infrastructure.",
+  "longDescription": "Traefik is a reverse proxy and load balancer built specifically for dynamic, container/orchestrator-based environments. Instead of manually configuring a route for every microservice, it watches your orchestrator or service registry (Docker, Swarm, Kubernetes, Consul, Etcd, Rancher, Amazon ECS, or static files) and automatically generates and updates routing rules as services are added, removed, or scaled - with no restarts required.\n\nBuilt-in features include automatic HTTPS via Let's Encrypt (including wildcard certificates), multiple load-balancing algorithms, circuit breakers and retries, WebSocket/HTTP2/gRPC support, a web dashboard for visualizing routes, a REST API, and metrics export to Prometheus, Datadog, StatsD, and InfluxDB. It ships as a single Go binary or an official Docker image.\n\nTraefik is a fit for teams running microservices on Docker, Kubernetes, or similar orchestrators who want routing and TLS to stay in sync with deployments automatically, rather than hand-maintaining a traditional reverse-proxy configuration file.",
   "repository": "https://github.com/traefik/traefik",
   "website": "https://traefik.io",
   "documentation": "https://doc.traefik.io/traefik/",

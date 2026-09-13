@@ -2,6 +2,7 @@
   "name": "PostgreSQL",
   "slug": "postgresql",
   "description": "Powerful, open source object-relational database system with over 35 years of active development.",
+  "longDescription": "This repository contains the official source distribution of PostgreSQL, an advanced object-relational database management system. It supports an extended subset of the SQL standard, including transactions, foreign keys, subqueries, triggers, and user-defined types and functions - which is part of why Postgres is often extended with custom data types and functionality rather than treated as a fixed, closed relational engine.\n\nMost users install a prebuilt package for their platform rather than building from this source distribution directly; official documentation covers both building from source and general usage. PostgreSQL fits applications that need a mature, standards-compliant relational database with room to extend it - from typical transactional web-app data to more specialized workloads via extensions.",
   "repository": "https://github.com/postgres/postgres",
   "website": "https://www.postgresql.org",
   "documentation": "https://www.postgresql.org/docs",

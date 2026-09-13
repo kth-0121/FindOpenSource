@@ -2,6 +2,7 @@
   "name": "Nextcloud",
   "slug": "nextcloud",
   "description": "Self-hosted productivity platform for file sync and share, collaboration and communication.",
+  "longDescription": "Nextcloud Server is a self-hostable platform for storing, syncing, and sharing files, contacts, calendars, and more - positioned as a private, self-controlled alternative to consumer cloud storage and groupware services. Core functionality is extended through an app ecosystem (available from the built-in App Store) covering things like Calendar, Contacts, Mail, and Talk (video/audio chat), so a base install can grow into a broader collaboration suite.\n\nSecurity features include built-in encryption options, two-factor authentication, and an active HackerOne bug bounty program. You can get Nextcloud several ways: sign up with a hosting provider, install it yourself on your own hardware, buy a device with it preinstalled, or use a dedicated Nextcloud service provider; a separate Nextcloud Enterprise offering targets business, public sector, and education customers.\n\nIt's a fit for individuals, organizations, or public-sector teams that want to keep their files and collaboration data on infrastructure they control.",
   "repository": "https://github.com/nextcloud/server",
   "website": "https://nextcloud.com",
   "documentation": "https://docs.nextcloud.com",

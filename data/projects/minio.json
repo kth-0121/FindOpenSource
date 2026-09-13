@@ -2,6 +2,7 @@
   "name": "MinIO",
   "slug": "minio",
   "description": "High-performance, S3-compatible object storage system for self-hosted and hybrid cloud deployments.",
+  "longDescription": "MinIO is a high-performance, S3-API-compatible object storage server, historically popular for self-hosted and on-premises storage that needs to speak the S3 protocol used by countless existing tools and SDKs.\n\nNote: as of the current README, this repository (minio/minio) is marked as no longer maintained. The project's maker now directs users toward AIStor - a free, full-featured community edition and a separate commercial Enterprise edition - as the maintained successor. The MinIO community edition here is also now distributed as source only (no pre-built binaries); it must be built with `go install` or Docker, and it remains licensed under AGPLv3.\n\nTeams evaluating MinIO today should check the current status of AIStor and this repository directly before adopting it for a new project, since ongoing maintenance is explicitly no longer guaranteed here.",
   "repository": "https://github.com/minio/minio",
   "website": "https://min.io",
   "documentation": "https://min.io/docs",

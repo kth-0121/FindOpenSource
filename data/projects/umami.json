@@ -2,6 +2,7 @@
   "name": "Umami",
   "slug": "umami",
   "description": "Simple, fast, privacy-focused web analytics alternative that you can self-host.",
+  "longDescription": "Umami is a privacy-first web analytics platform covering traffic, campaigns, user behavior, conversions, and revenue in one dashboard, without cookies or the kind of persistent tracking associated with mainstream analytics tools. It's available self-hosted or as a managed cloud service.\n\nSelf-hosting from source requires Node.js 18.18+ and a PostgreSQL database (12.14+); the build step sets up the database schema and creates a default admin login on first run. Two-factor authentication can be enabled by configuring an encryption key.\n\nUmami fits teams and individuals who want straightforward, privacy-respecting site analytics that they can either run themselves on their own Node.js/Postgres stack or use as a hosted service, as an alternative to cookie-based analytics platforms.",
   "repository": "https://github.com/umami-software/umami",
   "website": "https://umami.is",
   "documentation": "https://umami.is/docs",

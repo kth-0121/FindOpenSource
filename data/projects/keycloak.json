@@ -2,6 +2,7 @@
   "name": "Keycloak",
   "slug": "keycloak",
   "description": "Open source identity and access management solution with single sign-on, OAuth2 and OpenID Connect support.",
+  "longDescription": "Keycloak is an open-source identity and access management (IAM) server that centralizes authentication and authorization so individual applications don't need to implement their own user storage or login logic. It provides user federation (connecting to existing user directories), single sign-on, strong/multi-factor authentication, self-service user management, and fine-grained authorization policies.\n\nIt runs as a standalone server - via a downloadable distribution or the official Docker image - that applications talk to using standard protocols (OAuth 2.0, OpenID Connect), rather than being embedded as a library inside each app. Keycloak is a Cloud Native Computing Foundation (CNCF) project.\n\nIt's a fit for teams that want one central authentication/authorization service in front of multiple applications or services, instead of building and maintaining login and user-management logic separately in each one.",
   "repository": "https://github.com/keycloak/keycloak",
   "website": "https://www.keycloak.org",
   "documentation": "https://www.keycloak.org/documentation",

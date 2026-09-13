@@ -2,6 +2,7 @@
   "name": "PDF.js",
   "slug": "pdf-js",
   "description": "General-purpose, web standards-based platform for parsing and rendering PDFs in the browser.",
+  "longDescription": "PDF.js is a PDF viewer and parsing/rendering library built entirely with web technologies (HTML5/JavaScript) rather than a native plugin. It's community-driven and supported by Mozilla, and its stated goal is to be a general-purpose, web-standards-based platform for parsing and rendering PDF files in the browser.\n\nIt's built directly into Firefox (from version 19 onward) as the default PDF viewer, and an official-style extension is available for Chrome; you can also embed the viewer or library in your own web app, or build your own browser extension from the source.\n\nPDF.js is a fit for web developers who need to render or inspect PDF documents inside a web page or browser extension without relying on a native/plugin-based PDF viewer or a proprietary rendering engine.",
   "repository": "https://github.com/mozilla/pdf.js",
   "website": "https://mozilla.github.io/pdf.js/",
   "documentation": "https://mozilla.github.io/pdf.js/getting_started/",

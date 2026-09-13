@@ -2,6 +2,7 @@
   "name": "Milvus",
   "slug": "milvus",
   "description": "Open source vector database built for scalable similarity search and AI applications.",
+  "longDescription": "Milvus is a vector database purpose-built to store and search embeddings - vector representations of unstructured data like text, images, and multi-modal content - alongside conventional scalar fields such as integers, strings, or JSON, so you can combine vector similarity search with metadata filtering.\n\nIt's built with a distributed, Kubernetes-native architecture that separates compute from storage, letting query and data-ingestion capacity scale independently; it also supports a single-machine Standalone mode and a lightweight, pip-installable Milvus Lite for local prototyping. Multiple vector index types (HNSW, IVF, FLAT, SCANN, DiskANN) and GPU acceleration are supported so the index can be tuned for different accuracy/speed/memory tradeoffs.\n\nMilvus can be self-hosted or used as a fully managed service on Zilliz Cloud. It fits teams building AI applications that need vector search at scale - such as retrieval-augmented generation, recommendation, or multi-modal search - rather than bolting vector search onto a general-purpose database.",
   "repository": "https://github.com/milvus-io/milvus",
   "website": "https://milvus.io",
   "documentation": "https://milvus.io/docs",

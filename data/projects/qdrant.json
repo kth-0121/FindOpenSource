@@ -2,6 +2,7 @@
   "name": "Qdrant",
   "slug": "qdrant",
   "description": "Vector database and similarity search engine for building AI applications with embeddings.",
+  "longDescription": "Qdrant is a vector similarity search engine and vector database, written in Rust, that stores and searches \"points\" - vectors plus an arbitrary payload - with an emphasis on rich, extended filtering alongside the similarity search itself (combining semantic matching with structured metadata filters).\n\nIt runs as a server (via Docker or other deployment) with official client libraries for Python, JavaScript/TypeScript, Go, Rust, .NET/C#, and Java, or as Qdrant Edge, a lightweight embedded variant that runs inside your application process for edge or resource-constrained environments and can sync with a full Qdrant server. Qdrant also publishes ready-made \"agent skills\" that bring its vector-search tooling directly into AI coding assistants.\n\nIt's available self-hosted or as a managed Qdrant Cloud service with a free tier. Qdrant fits teams building semantic search, recommendation, or other embedding-based matching features that also need filtering on structured metadata alongside the vector search itself.",
   "repository": "https://github.com/qdrant/qdrant",
   "website": "https://qdrant.tech",
   "documentation": "https://qdrant.tech/documentation",

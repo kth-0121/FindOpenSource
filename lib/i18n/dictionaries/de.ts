@@ -136,6 +136,7 @@ const dictionary: Dictionary = {
     descriptionOther: "{count} Open-Source-Projekte, kuratiert und gepflegt von der Community.",
   },
   projectDetail: {
+    overviewHeading: "Überblick",
     githubButton: "GitHub",
     websiteButton: "Website",
     documentationButton: "Dokumentation",

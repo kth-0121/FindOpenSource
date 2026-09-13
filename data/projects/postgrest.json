@@ -2,6 +2,7 @@
   "name": "PostgREST",
   "slug": "postgrest",
   "description": "Standalone web server that turns any PostgreSQL database directly into a RESTful API.",
+  "longDescription": "PostgREST is a standalone web server that turns an existing PostgreSQL database's schema directly into a RESTful API, without you writing a separate application layer to expose each table or view. It's written in Haskell on the Warp HTTP server and is designed to push as much work as possible down into the database itself - including serializing JSON responses and running data validation in SQL - rather than doing that work in the API server.\n\nIt's typically installed as a standalone binary or run via Docker in front of a Postgres database, and the project reports subsecond response times at a few thousand requests per second even on modest hosting.\n\nPostgREST fits teams that want to expose a Postgres database as a REST API quickly, with the database schema (tables, views, permissions) itself as the source of truth for what the API looks like, instead of hand-writing and maintaining CRUD endpoints.",
   "repository": "https://github.com/PostgREST/postgrest",
   "website": "https://postgrest.org",
   "documentation": "https://postgrest.org",

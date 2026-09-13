@@ -2,6 +2,7 @@
   "name": "React Native",
   "slug": "react-native",
   "description": "Framework for building native mobile apps for iOS and Android using React.",
+  "longDescription": "React Native lets you build native mobile apps using React: your UI code is written in JavaScript/React, but it renders to real native platform UI components rather than a WebView, so apps get native gestures, text scaling, and accessibility behavior consistent with each OS. Fast Refresh applies JavaScript changes in seconds without a full native rebuild, and Native Modules let you call platform-specific native code from JavaScript when you need functionality beyond what's built in.\n\nThe React Native project itself now recommends building through a framework rather than using bare React Native directly - Expo is highlighted as a production-grade framework built on top of React Native that adds file-based routing, a standard library of native modules, and other tooling most apps end up needing anyway (navigation, native dependencies, platform configuration).\n\nReact Native is a fit for teams that want to share one React codebase across iOS and Android (and other platforms) while still getting native-feeling UI, especially when paired with a framework like Expo rather than configuring the native build tooling by hand.",
   "repository": "https://github.com/facebook/react-native",
   "website": "https://reactnative.dev",
   "documentation": "https://reactnative.dev/docs/getting-started",

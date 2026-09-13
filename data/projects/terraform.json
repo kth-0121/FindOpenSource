@@ -2,6 +2,7 @@
   "name": "Terraform",
   "slug": "terraform",
   "description": "Infrastructure-as-code tool for building, changing and versioning infrastructure safely and efficiently.",
+  "longDescription": "Terraform is an infrastructure-as-code tool for building, changing, and versioning infrastructure safely and predictably: you describe the desired state of your infrastructure in a high-level configuration language, and Terraform figures out how to get there. Before making any change, it generates an execution plan showing exactly what will be created, modified, or destroyed, and it builds a dependency graph of all resources so independent changes can be applied in parallel.\n\nThis repository contains Terraform core - the CLI and the graph engine - while support for individual cloud and service providers is implemented as separate plugins that Terraform downloads automatically from the Terraform Registry (some maintained by HashiCorp, others by the community or vendors).\n\nTerraform is licensed under the Business Source License 1.1, not a fully open-source (OSI-approved) license. It fits teams that want to manage infrastructure across one or more providers as versioned, reviewable code rather than through manual console changes or ad hoc scripts.",
   "repository": "https://github.com/hashicorp/terraform",
   "website": "https://www.terraform.io",
   "documentation": "https://developer.hashicorp.com/terraform/docs",

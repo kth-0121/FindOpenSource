@@ -2,6 +2,7 @@
   "name": "Redis",
   "slug": "redis",
   "description": "In-memory data structure store used as a database, cache, message broker and streaming engine.",
+  "longDescription": "Redis (renamed from \"Redis Community Edition\" to \"Redis Open Source\" as of the 8.0 release) is an in-memory data structure server most often used as a cache, but it also functions as a general-purpose data structure store, session store, message broker/queue system, and - through Redis Search - a search and vector query engine for AI applications (semantic caching, RAG retrieval, and short/long-term LLM memory).\n\nBecause it keeps data primarily in memory and uses efficient data structures (strings, lists, sets, hashes, sorted sets, streams, and more), it achieves very low, often sub-millisecond latency, and its modules API allows extending it with additional commands and capabilities beyond what ships by default.\n\nLicensing has changed across versions: releases through 7.2.x are BSD-3-Clause, while 8.0.x and later are offered under a choice of RSALv2, SSPLv1, or AGPLv3. Beyond self-hosting, Redis Ltd. also offers Redis Software (self-managed, enterprise-focused) and Redis Cloud (fully managed on AWS, Azure, or Google Cloud).",
   "repository": "https://github.com/redis/redis",
   "website": "https://redis.io",
   "documentation": "https://redis.io/docs",

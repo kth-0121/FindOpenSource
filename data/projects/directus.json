@@ -2,6 +2,7 @@
   "name": "Directus",
   "slug": "directus",
   "description": "Open source data platform that wraps any SQL database with a dynamic API and an intuitive admin app.",
+  "longDescription": "Directus is a backend layer that sits on top of an existing SQL database - including Postgres, MySQL, MariaDB, SQL Server, SQLite, Oracle, and CockroachDB - and automatically exposes it as REST and GraphQL APIs, without requiring a specific schema or ORM conventions. Alongside the APIs, it ships a visual Studio (admin app) so non-technical teammates can manage content directly against the live database, with field-level, policy-based access control shared by both humans and AI agents.\n\nA notable recent focus of the project is AI tooling: Directus includes an embedded AI Assistant in the Studio and a native MCP (Model Context Protocol) server, so tools like Claude, Cursor, or ChatGPT can connect to and act on the same live data under the same permission rules as human users, rather than working from an exported copy.\n\nIt can be self-hosted on your own infrastructure or run as a managed project on Directus Cloud, and is extensible through custom endpoints, hooks, interfaces, and modules - making it a fit for teams that want to add an API and admin interface to an existing database without hand-building either.",
   "repository": "https://github.com/directus/directus",
   "website": "https://directus.io",
   "documentation": "https://docs.directus.io",

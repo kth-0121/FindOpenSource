@@ -2,6 +2,7 @@
   "name": "LangChain",
   "slug": "langchain",
   "description": "Framework for developing applications powered by large language models, agents and retrieval-augmented generation.",
+  "longDescription": "LangChain is a framework for building LLM-powered applications and agents by chaining together interoperable components - chat models, embeddings, vector stores, retrievers, and third-party integrations - behind a standard interface, so you can swap providers as the underlying model landscape changes without rewriting application logic.\n\nIt's designed to scale from quick prototypes to more complex systems: start with LangChain's high-level abstractions, and move to lower-level components, or to companion tools like LangGraph (for building more controllable, stateful agent workflows) and LangSmith (for evaluating, debugging, and deploying LLM applications), as requirements grow. It's available for both Python and JavaScript/TypeScript.\n\nLangChain is a fit for developers building retrieval-augmented, tool-using, or multi-step LLM applications who want a common set of abstractions and a large library of integrations, rather than writing glue code for each model or vector store from scratch.",
   "repository": "https://github.com/langchain-ai/langchain",
   "website": "https://www.langchain.com",
   "documentation": "https://python.langchain.com/docs/introduction/",

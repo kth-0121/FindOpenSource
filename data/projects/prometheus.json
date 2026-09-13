@@ -2,6 +2,7 @@
   "name": "Prometheus",
   "slug": "prometheus",
   "description": "Open source systems monitoring and alerting toolkit with a dimensional data model and powerful query language.",
+  "longDescription": "Prometheus is a systems and service monitoring tool, and a Cloud Native Computing Foundation (CNCF) project: it collects metrics from configured targets at regular intervals, evaluates rule expressions against that data, and can trigger alerts when conditions are met.\n\nIts data model is multi-dimensional - time series are identified by a metric name plus a set of key/value labels - and queried with PromQL, its own query language built around that dimensionality. Prometheus normally pulls metrics from targets over HTTP (discovered via service discovery or static configuration), though a push path via an intermediary gateway exists for batch jobs. A single Prometheus server is self-contained with no distributed-storage dependency, and multiple servers can be combined through hierarchical or horizontal federation.\n\nIt's commonly paired with a separate dashboarding tool for visualization and fits teams that need metrics collection, querying, and alerting for services and infrastructure, especially in cloud-native/Kubernetes environments where CNCF tooling is already in use.",
   "repository": "https://github.com/prometheus/prometheus",
   "website": "https://prometheus.io",
   "documentation": "https://prometheus.io/docs",

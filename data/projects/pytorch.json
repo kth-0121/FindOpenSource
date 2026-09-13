@@ -2,6 +2,7 @@
   "name": "PyTorch",
   "slug": "pytorch",
   "description": "Open source machine learning framework that accelerates the path from research prototyping to production deployment.",
+  "longDescription": "PyTorch is a Python library built around two core capabilities: a NumPy-like tensor library with strong GPU acceleration, and a deep learning framework built on a tape-based automatic differentiation system (autograd) that tracks operations on tensors to compute gradients. Its `torch.nn` module builds neural network layers on top of autograd, `torch.jit` (TorchScript) can compile PyTorch code into serializable, optimizable models, and existing Python libraries like NumPy, SciPy, and Cython can be used to extend it.\n\nPyTorch is typically used either as a GPU-accelerated replacement for NumPy, or as a deep learning research platform, and its design favors an imperative, Python-first style - you write and debug models as regular Python code rather than a separate static graph definition.\n\nIt's a fit for researchers and engineers building and training neural networks who want a flexible, Python-native tensor and autograd library rather than a higher-level, more opinionated deep learning framework.",
   "repository": "https://github.com/pytorch/pytorch",
   "website": "https://pytorch.org",
   "documentation": "https://pytorch.org/docs",

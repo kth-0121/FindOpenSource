@@ -2,6 +2,7 @@
   "name": "Uppy",
   "slug": "uppy",
   "description": "Sleek, modular open source file uploader that supports drag-and-drop, image cropping, and uploads to S3, Google Drive, and more.",
+  "longDescription": "Uppy is a modular JavaScript file uploader built around a plugin architecture: a small core handles state and uploads, and plugins add sources (local disk, webcam, Google Drive, Dropbox, Box, or remote URLs via the optional Companion server), UI (a pre-built Dashboard, or headless components/hooks for a custom interface), editing (like an image editor), and upload transports - including resumable uploads over the open tus protocol, so large uploads can survive network interruptions.\n\nIt has first-class integrations for plain JS/HTML, React, Svelte, and Vue (with more limited Angular support), and gives three ways to build the UI depending on how much control you need: a plug-and-play Dashboard component, smaller headless components, or hooks to build a fully custom interface. Uppy works standalone or paired with Transloadit (made by the same team) for file encoding, conversion, and delivery, but doesn't require it.\n\nUppy is a fit for teams that need a flexible, customizable file-upload widget rather than a basic native `<input type=\"file\">`, especially when resumable uploads or multiple file sources are needed.",
   "repository": "https://github.com/transloadit/uppy",
   "website": "https://uppy.io",
   "documentation": "https://uppy.io/docs/",
