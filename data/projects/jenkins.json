@@ -1,0 +1,47 @@
+{
+  "name": "Jenkins",
+  "slug": "jenkins",
+  "description": "Widely used open-source automation server with a large plugin ecosystem for building CI/CD pipelines and automating software delivery.",
+  "longDescription": "Jenkins is an open-source automation server built in Java, extended through more than 2,000 plugins that cover source control integrations, build tools, testing frameworks, deployment targets, and notification systems. Rather than shipping a fixed set of integrations, Jenkins is designed to be assembled into a CI/CD pipeline tailored to a team's specific toolchain.\n\nIt's one of the longest-running and most widely deployed CI/CD tools in active use, with regular releases, a long-term-support release line, and an active plugin ecosystem maintained by both the core team and the community.\n\nJenkins is a fit for teams that need a highly extensible, self-hosted CI/CD server that can integrate with a broad and sometimes unusual mix of tools, rather than a more opinionated, lighter-weight pipeline runner.",
+  "repository": "https://github.com/jenkinsci/jenkins",
+  "website": "https://www.jenkins.io",
+  "documentation": "https://www.jenkins.io/doc/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "ci-cd",
+    "automation-server",
+    "build-automation",
+    "pipelines",
+    "continuous-integration"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "广泛使用的开源自动化服务器，拥有庞大的插件生态系统，用于构建 CI/CD 流水线并实现软件交付自动化。",
+      "longDescription": "Jenkins 是一个用 Java 构建的开源自动化服务器，通过 2000 多个插件进行扩展，涵盖源代码管理集成、构建工具、测试框架、部署目标和通知系统。Jenkins 并不提供固定的一套集成方案，而是被设计为可以组装成贴合团队特定工具链的 CI/CD 流水线。\n\n它是目前仍在活跃使用、运行时间最长、部署最广泛的 CI/CD 工具之一，拥有定期发布、长期支持（LTS）发布线，以及由核心团队和社区共同维护的活跃插件生态系统。\n\nJenkins 适合那些需要高度可扩展、自托管 CI/CD 服务器、并需要与广泛且有时较为特殊的工具组合集成的团队，而不是更强调固定套路、更轻量的流水线运行工具。"
+    },
+    "ja": {
+      "description": "CI/CD パイプラインの構築とソフトウェア配信の自動化のための、大規模なプラグインエコシステムを備えた、広く使われているオープンソースの自動化サーバーです。",
+      "longDescription": "Jenkins は Java で構築されたオープンソースの自動化サーバーで、ソースコード管理との連携、ビルドツール、テストフレームワーク、デプロイ先、通知システムをカバーする2,000以上のプラグインによって拡張できます。固定された一連の連携機能を提供するのではなく、Jenkins はチーム固有のツールチェーンに合わせた CI/CD パイプラインへと組み立てられるよう設計されています。\n\n現在も活発に使われている CI/CD ツールの中でも、最も長い運用実績と最も広い導入実績を持つものの一つであり、定期的なリリース、長期サポート(LTS)のリリースライン、そしてコアチームとコミュニティの両方によって維持される活発なプラグインエコシステムを備えています。\n\nJenkins は、より思想の強い軽量なパイプラインランナーではなく、幅広く、時には特殊なツールの組み合わせと連携できる、高度に拡張可能なセルフホスト型 CI/CD サーバーを必要とするチームに向いています。"
+    },
+    "ko": {
+      "description": "CI/CD 파이프라인을 구축하고 소프트웨어 배포를 자동화하기 위한 대규모 플러그인 생태계를 갖춘, 널리 사용되는 오픈소스 자동화 서버입니다.",
+      "longDescription": "Jenkins는 Java로 구축된 오픈소스 자동화 서버로, 소스 관리 통합, 빌드 도구, 테스트 프레임워크, 배포 대상, 알림 시스템을 아우르는 2,000개 이상의 플러그인으로 확장됩니다. 고정된 통합 세트를 제공하는 대신, Jenkins는 팀의 특정 툴체인에 맞춘 CI/CD 파이프라인으로 조립되도록 설계되었습니다.\n\n현재도 활발히 사용되는 CI/CD 도구 중 가장 오래되고 가장 널리 배포된 도구 중 하나로, 정기적인 릴리스, 장기 지원(LTS) 릴리스 라인, 그리고 핵심 팀과 커뮤니티 모두가 유지 관리하는 활발한 플러그인 생태계를 갖추고 있습니다.\n\nJenkins는 특정한 사고방식을 강요하는 가벼운 파이프라인 실행기가 아니라, 폭넓고 때로는 특이한 도구 조합과 통합할 수 있는 고도로 확장 가능한 셀프 호스팅 CI/CD 서버가 필요한 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Servidor de automatización de código abierto ampliamente utilizado, con un gran ecosistema de plugins para construir pipelines de CI/CD y automatizar la entrega de software.",
+      "longDescription": "Jenkins es un servidor de automatización de código abierto escrito en Java, ampliable mediante más de 2000 plugins que cubren integraciones de control de versiones, herramientas de build, frameworks de testing, destinos de despliegue y sistemas de notificación. En lugar de ofrecer un conjunto fijo de integraciones, Jenkins está diseñado para ensamblarse en un pipeline de CI/CD adaptado al stack de herramientas específico de cada equipo.\n\nEs una de las herramientas de CI/CD más longevas y más ampliamente desplegadas que siguen en uso activo, con lanzamientos regulares, una línea de soporte a largo plazo (LTS) y un ecosistema de plugins activo, mantenido tanto por el equipo principal como por la comunidad.\n\nJenkins encaja en equipos que necesitan un servidor de CI/CD autoalojado y altamente extensible, capaz de integrarse con una combinación amplia y a veces poco habitual de herramientas, en lugar de un runner de pipelines más ligero y con opiniones más marcadas."
+    },
+    "de": {
+      "description": "Weit verbreiteter Open-Source-Automatisierungsserver mit einem großen Plugin-Ökosystem für den Aufbau von CI/CD-Pipelines und die Automatisierung der Softwareauslieferung.",
+      "longDescription": "Jenkins ist ein in Java gebauter Open-Source-Automatisierungsserver, der durch mehr als 2.000 Plugins erweitert wird, die Integrationen für Versionskontrolle, Build-Tools, Test-Frameworks, Deployment-Ziele und Benachrichtigungssysteme abdecken. Statt eines festen Satzes an Integrationen ist Jenkins darauf ausgelegt, zu einer CI/CD-Pipeline zusammengesetzt zu werden, die auf die spezifische Toolchain eines Teams zugeschnitten ist.\n\nEs ist eines der am längsten laufenden und am weitesten verbreiteten aktiv genutzten CI/CD-Tools, mit regelmäßigen Releases, einer Long-Term-Support-Release-Linie und einem aktiven Plugin-Ökosystem, das sowohl vom Kernteam als auch von der Community gepflegt wird.\n\nJenkins eignet sich für Teams, die einen hochgradig erweiterbaren, selbst gehosteten CI/CD-Server benötigen, der sich mit einer breiten und manchmal ungewöhnlichen Mischung aus Tools integrieren lässt, statt eines meinungsstärkeren, leichtgewichtigeren Pipeline-Runners."
+    }
+  }
+}

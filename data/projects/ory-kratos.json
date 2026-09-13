@@ -1,0 +1,48 @@
+{
+  "name": "Ory Kratos",
+  "slug": "ory-kratos",
+  "description": "API-first, headless identity and user management server for cloud-native applications, covering login, registration, recovery, and profile management.",
+  "longDescription": "Ory Kratos is an API-first identity and user management system for cloud-native applications. It centralizes self-service login, registration, account verification, password/account recovery, multi-factor authentication, and profile management into a set of HTTP APIs, so applications consume these flows instead of reimplementing them from scratch.\n\nIt's deliberately headless - Kratos exposes browser-based and native-app authentication flows over APIs, but doesn't ship its own login UI, so it works with any frontend framework. It's built to scale to large numbers of identities and devices, and integrates with the wider Ory stack (Ory Hydra for OAuth2/OpenID Connect, Ory Keto for access control) when those capabilities are needed. It can be self-hosted or run on the managed Ory Network.\n\nKratos is a fit for teams that want to remove identity logic from their application code entirely and consume it as an API, while keeping full control over their own login UI rather than adopting a pre-built one.",
+  "repository": "https://github.com/ory/kratos",
+  "website": "https://www.ory.com",
+  "documentation": "https://www.ory.com/docs/",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "identity-management",
+    "headless-auth",
+    "self-service",
+    "authentication",
+    "login",
+    "passkeys"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "API 优先、无头式的身份与用户管理服务器，专为云原生应用打造，涵盖登录、注册、找回和资料管理。",
+      "longDescription": "Ory Kratos 是一个面向云原生应用的 API 优先身份与用户管理系统。它将自助登录、注册、账户验证、密码/账户找回、多因素认证和资料管理统一整合为一组 HTTP API，让应用直接调用这些流程，而不必从零重新实现。\n\n它刻意采用无头（headless）设计：Kratos 通过 API 暴露基于浏览器和原生应用的身份验证流程，但不自带登录界面，因此可以与任意前端框架配合使用。它的构建目标是能够扩展到大量身份和设备，并在需要时与更广泛的 Ory 技术栈（用于 OAuth2/OpenID Connect 的 Ory Hydra、用于访问控制的 Ory Keto）集成。它既可以自托管，也可以运行在托管的 Ory Network 上。\n\nKratos 适合那些希望完全将身份逻辑从应用代码中剥离、以 API 方式调用，同时仍希望完全掌控自己登录界面（而不是采用现成 UI）的团队。"
+    },
+    "ja": {
+      "description": "API ファーストなヘッドレス型のアイデンティティ・ユーザー管理サーバーで、クラウドネイティブアプリケーション向けにログイン、登録、リカバリー、プロフィール管理をカバーします。",
+      "longDescription": "Ory Kratos は、クラウドネイティブアプリケーション向けの API ファーストなアイデンティティ・ユーザー管理システムです。セルフサービスのログイン、登録、アカウント確認、パスワード/アカウントリカバリー、多要素認証、プロフィール管理を一連の HTTP API に集約し、アプリケーションはこれらのフローをゼロから再実装するのではなく利用するだけで済みます。\n\n意図的にヘッドレスに設計されており、Kratos はブラウザベースおよびネイティブアプリの認証フローを API 経由で公開しますが、独自のログイン UI は提供しないため、どんなフロントエンドフレームワークとも組み合わせられます。大量のアイデンティティとデバイスにスケールするよう構築されており、必要に応じてより広範な Ory スタック(OAuth2/OpenID Connect 向けの Ory Hydra、アクセス制御向けの Ory Keto)と統合できます。セルフホストすることも、マネージドの Ory Network 上で実行することもできます。\n\nKratos は、既製の UI を採用するのではなく自分たちのログイン UI を完全にコントロールしつつ、アイデンティティのロジックをアプリケーションコードから完全に切り離して API として利用したいチームに向いています。"
+    },
+    "ko": {
+      "description": "API 우선, 헤드리스 방식의 아이덴티티·사용자 관리 서버로, 클라우드 네이티브 애플리케이션을 위한 로그인, 가입, 복구, 프로필 관리를 아우릅니다.",
+      "longDescription": "Ory Kratos는 클라우드 네이티브 애플리케이션을 위한 API 우선 아이덴티티·사용자 관리 시스템입니다. 셀프서비스 로그인, 가입, 계정 인증, 비밀번호/계정 복구, 다단계 인증, 프로필 관리를 일련의 HTTP API로 통합해, 애플리케이션이 이러한 흐름을 처음부터 다시 구현하는 대신 그대로 활용할 수 있게 합니다.\n\n의도적으로 헤드리스로 설계되어, Kratos는 브라우저 기반 및 네이티브 앱 인증 흐름을 API로 노출하지만 자체 로그인 UI는 제공하지 않으므로 어떤 프런트엔드 프레임워크와도 함께 사용할 수 있습니다. 대량의 아이덴티티와 디바이스로 확장할 수 있도록 구축되었으며, 필요할 경우 더 넓은 Ory 스택(OAuth2/OpenID Connect를 위한 Ory Hydra, 접근 제어를 위한 Ory Keto)과 통합할 수 있습니다. 셀프 호스팅하거나 관리형 Ory Network에서 실행할 수 있습니다.\n\nKratos는 기성 UI를 채택하는 대신 자체 로그인 UI를 완전히 통제하면서도, 아이덴티티 로직을 애플리케이션 코드에서 완전히 분리해 API로 소비하고 싶은 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Servidor de identidad y gestión de usuarios headless y API-first para aplicaciones cloud-native, que cubre inicio de sesión, registro, recuperación y gestión de perfil.",
+      "longDescription": "Ory Kratos es un sistema de identidad y gestión de usuarios API-first para aplicaciones cloud-native. Centraliza el inicio de sesión de autoservicio, el registro, la verificación de cuentas, la recuperación de contraseña/cuenta, la autenticación multifactor y la gestión de perfil en un conjunto de APIs HTTP, de modo que las aplicaciones consumen estos flujos en lugar de reimplementarlos desde cero.\n\nEs deliberadamente headless: Kratos expone flujos de autenticación basados en navegador y en apps nativas a través de APIs, pero no incluye su propia interfaz de inicio de sesión, por lo que funciona con cualquier framework de frontend. Está construido para escalar a grandes cantidades de identidades y dispositivos, y se integra con el resto del stack de Ory (Ory Hydra para OAuth2/OpenID Connect, Ory Keto para control de acceso) cuando se necesitan esas capacidades. Se puede autoalojar o ejecutar en Ory Network, el servicio gestionado.\n\nKratos encaja en equipos que quieren eliminar por completo la lógica de identidad del código de su aplicación y consumirla como una API, manteniendo el control total sobre su propia interfaz de inicio de sesión en lugar de adoptar una ya construida."
+    },
+    "de": {
+      "description": "API-first, headless Identitäts- und Benutzerverwaltungsserver für cloud-native Anwendungen, der Login, Registrierung, Wiederherstellung und Profilverwaltung abdeckt.",
+      "longDescription": "Ory Kratos ist ein API-first Identitäts- und Benutzerverwaltungssystem für cloud-native Anwendungen. Es zentralisiert Self-Service-Login, Registrierung, Kontoverifizierung, Passwort-/Kontowiederherstellung, Multi-Faktor-Authentifizierung und Profilverwaltung in einer Reihe von HTTP-APIs, sodass Anwendungen diese Abläufe nutzen, statt sie von Grund auf neu zu implementieren.\n\nEs ist bewusst headless konzipiert: Kratos stellt browserbasierte und native App-Authentifizierungsabläufe über APIs bereit, liefert aber keine eigene Login-UI mit, sodass es mit jedem Frontend-Framework funktioniert. Es ist darauf ausgelegt, auf große Mengen an Identitäten und Geräten zu skalieren, und lässt sich bei Bedarf in den breiteren Ory-Stack integrieren (Ory Hydra für OAuth2/OpenID Connect, Ory Keto für Zugriffskontrolle). Es kann selbst gehostet oder auf dem verwalteten Ory Network betrieben werden.\n\nKratos eignet sich für Teams, die die Identitätslogik vollständig aus ihrem Anwendungscode entfernen und als API konsumieren möchten, während sie die volle Kontrolle über ihre eigene Login-UI behalten, statt eine vorgefertigte zu übernehmen."
+    }
+  }
+}

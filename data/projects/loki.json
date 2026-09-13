@@ -1,0 +1,46 @@
+{
+  "name": "Grafana Loki",
+  "slug": "loki",
+  "description": "Horizontally scalable log aggregation system, designed by the Grafana team to pair with Prometheus-style metrics using the same labels.",
+  "longDescription": "Loki is a horizontally scalable, multi-tenant log aggregation system built by Grafana Labs and described by its own maintainers as \"like Prometheus, but for logs.\" Instead of doing full-text indexing on log content, it indexes only a set of labels attached to each log stream, which keeps it simpler to operate and cheaper to run than log systems that index every word.\n\nBecause it uses the same label model as Prometheus, teams already using Prometheus-style labels can query and correlate metrics and logs using consistent labels rather than maintaining two separate labeling schemes, and Loki has native support in Grafana for visualizing that correlated data. It's also a strong fit for Kubernetes environments specifically, since Pod metadata like labels is scraped and indexed automatically.\n\nLoki is a fit for teams that already use Prometheus and Grafana for metrics and want a log-aggregation system that follows the same operational model, rather than adopting a separate, differently-architected logging stack.",
+  "repository": "https://github.com/grafana/loki",
+  "website": "https://grafana.com/oss/loki/",
+  "documentation": "https://grafana.com/docs/loki/latest/",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "logging",
+    "log-aggregation",
+    "observability",
+    "prometheus-compatible"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "水平可扩展的日志聚合系统，由 Grafana 团队设计，使用与 Prometheus 相同的标签体系，便于与其指标数据配合使用。",
+      "longDescription": "Loki 是由 Grafana Labs 构建的水平可扩展、多租户日志聚合系统，其维护者将其描述为“类似 Prometheus，但用于日志”。它不对日志内容进行全文索引，而只索引附加在每个日志流上的一组标签，这使得它比对每个词都建立索引的日志系统更易于运维、成本更低。\n\n由于它采用与 Prometheus 相同的标签模型，已经在使用 Prometheus 风格标签的团队可以用一致的标签来查询和关联指标与日志，而不必维护两套独立的标签体系；Loki 在 Grafana 中也提供原生支持，可用于可视化这些关联数据。它同样非常适合 Kubernetes 环境，因为 Pod 的元数据（如标签）会被自动抓取和索引。\n\nLoki 适合那些已经使用 Prometheus 和 Grafana 进行指标监控、并希望采用相同运维模式的日志聚合系统的团队，而不是引入另一套架构完全不同的日志技术栈。"
+    },
+    "ja": {
+      "description": "Grafana チームが設計した、水平方向にスケール可能なログ集約システムで、Prometheus スタイルのメトリクスと同じラベルを使って連携します。",
+      "longDescription": "Loki は Grafana Labs が構築した水平スケール可能なマルチテナントのログ集約システムで、メンテナー自身によって「ログ版の Prometheus のようなもの」と説明されています。ログの内容そのものを全文インデックスするのではなく、各ログストリームに付与された一連のラベルのみをインデックスするため、すべての単語をインデックスするログシステムよりも運用がシンプルで、コストを抑えられます。\n\nPrometheus と同じラベルモデルを使用しているため、すでに Prometheus スタイルのラベルを使っているチームは、2つの別々のラベリング体系を維持することなく、一貫したラベルでメトリクスとログをクエリ・相関付けできます。また Loki は Grafana でネイティブにサポートされており、その相関データを可視化できます。Pod のラベルなどのメタデータが自動的に収集・インデックスされるため、特に Kubernetes 環境との相性も良好です。\n\nLoki は、すでにメトリクス用に Prometheus と Grafana を使っているチームで、別の異なるアーキテクチャのロギングスタックを新たに導入するのではなく、同じ運用モデルに沿ったログ集約システムを求めている場合に向いています。"
+    },
+    "ko": {
+      "description": "Grafana 팀이 설계한 수평 확장형 로그 수집 시스템으로, Prometheus 스타일 메트릭과 동일한 레이블을 사용해 짝을 이룹니다.",
+      "longDescription": "Loki는 Grafana Labs가 만든 수평 확장 가능한 멀티테넌트 로그 수집 시스템으로, 메인테이너들 스스로 \"로그를 위한 Prometheus 같은 것\"이라고 설명합니다. 로그 내용 전체를 전문 색인하는 대신 각 로그 스트림에 붙은 레이블 집합만 색인하므로, 모든 단어를 색인하는 로그 시스템보다 운영이 단순하고 비용이 저렴합니다.\n\nPrometheus와 동일한 레이블 모델을 사용하기 때문에, 이미 Prometheus 스타일 레이블을 사용하는 팀은 두 가지 별도의 레이블 체계를 유지하는 대신 일관된 레이블로 메트릭과 로그를 쿼리하고 연관 지을 수 있으며, Loki는 Grafana에서 네이티브로 지원되어 이렇게 연관된 데이터를 시각화할 수 있습니다. Pod의 레이블 같은 메타데이터가 자동으로 수집되고 색인되기 때문에 Kubernetes 환경에도 특히 잘 맞습니다.\n\nLoki는 이미 메트릭을 위해 Prometheus와 Grafana를 사용 중이며, 별도의 아키텍처를 가진 로깅 스택을 새로 도입하는 대신 동일한 운영 모델을 따르는 로그 수집 시스템을 원하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Sistema de agregación de logs escalable horizontalmente, diseñado por el equipo de Grafana para combinarse con métricas al estilo Prometheus usando las mismas etiquetas.",
+      "longDescription": "Loki es un sistema de agregación de logs multi-tenant y escalable horizontalmente, construido por Grafana Labs y descrito por sus propios mantenedores como \"como Prometheus, pero para logs\". En lugar de indexar el contenido completo de los logs, indexa solo un conjunto de etiquetas asociadas a cada flujo de logs, lo que lo hace más sencillo de operar y más barato de ejecutar que los sistemas de logs que indexan cada palabra.\n\nComo usa el mismo modelo de etiquetas que Prometheus, los equipos que ya usan etiquetas al estilo Prometheus pueden consultar y correlacionar métricas y logs usando etiquetas consistentes en lugar de mantener dos esquemas de etiquetado separados, y Loki cuenta con soporte nativo en Grafana para visualizar esos datos correlacionados. También encaja especialmente bien en entornos Kubernetes, ya que los metadatos de los Pods, como las etiquetas, se recopilan e indexan automáticamente.\n\nLoki encaja en equipos que ya usan Prometheus y Grafana para métricas y quieren un sistema de agregación de logs que siga el mismo modelo operativo, en lugar de adoptar una pila de logging separada y con una arquitectura distinta."
+    },
+    "de": {
+      "description": "Horizontal skalierbares Log-Aggregationssystem, vom Grafana-Team entwickelt, um mit Prometheus-artigen Metriken über dieselben Labels zusammenzuarbeiten.",
+      "longDescription": "Loki ist ein horizontal skalierbares, mandantenfähiges Log-Aggregationssystem von Grafana Labs, das von den eigenen Maintainern als \"wie Prometheus, nur für Logs\" beschrieben wird. Statt den Loginhalt volltextindexiert zu durchsuchen, indexiert es nur eine Reihe von Labels, die jedem Log-Stream zugeordnet sind, wodurch es einfacher zu betreiben und günstiger im Betrieb ist als Logsysteme, die jedes Wort indexieren.\n\nDa es dasselbe Label-Modell wie Prometheus verwendet, können Teams, die bereits Prometheus-artige Labels nutzen, Metriken und Logs mit denselben Labels abfragen und korrelieren, statt zwei getrennte Labeling-Schemata zu pflegen, und Loki wird nativ in Grafana zur Visualisierung dieser korrelierten Daten unterstützt. Es eignet sich zudem besonders gut für Kubernetes-Umgebungen, da Pod-Metadaten wie Labels automatisch erfasst und indexiert werden.\n\nLoki eignet sich für Teams, die bereits Prometheus und Grafana für Metriken einsetzen und ein Log-Aggregationssystem wollen, das demselben Betriebsmodell folgt, statt einen separaten, anders aufgebauten Logging-Stack einzuführen."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Wagtail",
+  "slug": "wagtail",
+  "description": "Django-based, open-source content management system focused on editor experience, with a headless content API for decoupled frontends.",
+  "longDescription": "Wagtail is an open-source content management system built on Django, focused on giving content editors a fast, attractive authoring interface while giving developers precise control over front-end design and page structure. It scales from a single Raspberry Pi to multi-datacenter deployments handling millions of pages and thousands of editors.\n\nContent is modeled with StreamField, which lets editors build flexible page layouts from structured content blocks without losing that structure to free-form HTML. Wagtail also exposes a Content API for teams that want to run it headless, with a separately built frontend consuming content over the API instead of using Wagtail's own page templates, and it includes integrated search backed by Elasticsearch or PostgreSQL search.\n\nWagtail is a fit for teams on the Python/Django stack who want a CMS with strong editor UX and the option to run either traditional server-rendered pages or a headless content API - filling a gap for teams that don't want a JavaScript-stack CMS.",
+  "repository": "https://github.com/wagtail/wagtail",
+  "website": "https://wagtail.org",
+  "documentation": "https://docs.wagtail.org",
+  "categories": [
+    "cms"
+  ],
+  "keywords": [
+    "cms",
+    "django",
+    "python-cms",
+    "headless-cms",
+    "content-management"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "BSD-3-Clause",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "基于 Django 的开源内容管理系统，专注于编辑体验，并提供无头内容 API 以支持前后端分离。",
+      "longDescription": "Wagtail 是一个基于 Django 构建的开源内容管理系统，专注于为内容编辑者提供快速、直观的创作界面，同时让开发者能够精确掌控前端设计和页面结构。它可以从单台树莓派一直扩展到管理数百万页面、数千名编辑者的多数据中心部署。\n\n内容通过 StreamField 建模，让编辑者可以基于结构化内容块构建灵活的页面布局，而不会因自由格式的 HTML 而失去这种结构性。Wagtail 还为希望以无头方式运行的团队提供了内容 API，前端可以单独构建，通过 API 获取内容，而不必使用 Wagtail 自带的页面模板；它还内置了由 Elasticsearch 或 PostgreSQL 搜索驱动的集成搜索功能。\n\nWagtail 适合那些使用 Python/Django 技术栈、希望拥有出色编辑体验、并可以在传统服务端渲染页面和无头内容 API 之间灵活选择的团队——填补了目前不想使用 JavaScript 技术栈 CMS 的团队的空白。"
+    },
+    "ja": {
+      "description": "Django ベースのオープンソース CMS で、編集者の使い勝手を重視しつつ、デカップルされたフロントエンド向けのヘッドレスコンテンツ API を提供します。",
+      "longDescription": "Wagtail は Django 上に構築されたオープンソースのコンテンツ管理システムで、コンテンツ編集者に高速で魅力的な編集インターフェースを提供する一方、開発者にはフロントエンドのデザインやページ構造を精密にコントロールする手段を提供します。単一の Raspberry Pi から、数百万ページ・数千人の編集者を扱うマルチデータセンター展開まで対応できます。\n\nコンテンツは StreamField によってモデル化され、編集者は構造化されたコンテンツブロックから柔軟なページレイアウトを組み立てられます。自由形式の HTML によってその構造が失われることもありません。Wagtail は、Wagtail 自身のページテンプレートを使う代わりに、別途構築したフロントエンドが API 経由でコンテンツを取得するヘッドレス運用向けに Content API も公開しており、Elasticsearch または PostgreSQL 検索を利用した統合検索機能も含まれています。\n\nWagtail は、Python/Django スタックを使うチームで、優れた編集者体験を持つ CMS を求めており、従来のサーバーレンダリングによるページとヘッドレスなコンテンツ API のどちらも選べるようにしたいチームに向いています。JavaScript スタックの CMS を望まないチームのギャップを埋める存在です。"
+    },
+    "ko": {
+      "description": "Django 기반의 오픈소스 콘텐츠 관리 시스템으로, 에디터 경험에 중점을 두며 분리된 프런트엔드를 위한 헤드리스 콘텐츠 API를 제공합니다.",
+      "longDescription": "Wagtail은 Django 위에 구축된 오픈소스 콘텐츠 관리 시스템으로, 콘텐츠 편집자에게 빠르고 매력적인 작성 인터페이스를 제공하는 동시에 개발자에게는 프런트엔드 디자인과 페이지 구조에 대한 정밀한 통제권을 제공합니다. 단일 라즈베리 파이부터 수백만 페이지와 수천 명의 편집자를 다루는 다중 데이터센터 배포까지 확장할 수 있습니다.\n\n콘텐츠는 StreamField로 모델링되어, 편집자가 구조화된 콘텐츠 블록으로 유연한 페이지 레이아웃을 구성할 수 있으며, 자유 형식 HTML로 인해 구조가 무너지지 않습니다. Wagtail은 또한 헤드리스로 운영하려는 팀을 위해 콘텐츠 API를 제공하여, Wagtail 자체 페이지 템플릿 대신 별도로 구축한 프런트엔드가 API를 통해 콘텐츠를 가져올 수 있으며, Elasticsearch나 PostgreSQL 검색을 기반으로 한 통합 검색 기능도 포함되어 있습니다.\n\nWagtail은 Python/Django 스택을 사용하는 팀 중, 뛰어난 편집자 UX를 갖춘 CMS를 원하면서 전통적인 서버 렌더링 페이지와 헤드리스 콘텐츠 API 중 선택할 수 있길 바라는 팀에 적합합니다. JavaScript 스택 CMS를 원하지 않는 팀의 공백을 메워줍니다."
+    },
+    "es": {
+      "description": "Sistema de gestión de contenidos de código abierto basado en Django, centrado en la experiencia del editor, con una API de contenido headless para frontends desacoplados.",
+      "longDescription": "Wagtail es un sistema de gestión de contenidos de código abierto construido sobre Django, centrado en ofrecer a los editores de contenido una interfaz de creación rápida y atractiva, a la vez que da a los desarrolladores control preciso sobre el diseño del frontend y la estructura de las páginas. Escala desde una sola Raspberry Pi hasta despliegues multi-datacenter que gestionan millones de páginas y miles de editores.\n\nEl contenido se modela con StreamField, que permite a los editores construir maquetaciones de página flexibles a partir de bloques de contenido estructurado, sin perder esa estructura en HTML libre. Wagtail también expone una Content API para equipos que quieren ejecutarlo en modo headless, con un frontend construido por separado que consume contenido a través de la API en lugar de usar las plantillas de página propias de Wagtail, e incluye búsqueda integrada respaldada por Elasticsearch o la búsqueda de PostgreSQL.\n\nWagtail encaja en equipos del stack Python/Django que quieren un CMS con una fuerte experiencia de editor y la opción de ejecutar páginas renderizadas en servidor de forma tradicional o una API de contenido headless, cubriendo un hueco para equipos que no quieren un CMS basado en un stack de JavaScript."
+    },
+    "de": {
+      "description": "Django-basiertes, quelloffenes Content-Management-System mit Fokus auf Redaktionserfahrung und einer Headless-Content-API für entkoppelte Frontends.",
+      "longDescription": "Wagtail ist ein Open-Source-Content-Management-System auf Basis von Django, das Redakteuren eine schnelle, ansprechende Bearbeitungsoberfläche bietet und Entwicklern gleichzeitig präzise Kontrolle über Frontend-Design und Seitenstruktur gibt. Es skaliert von einem einzelnen Raspberry Pi bis zu Multi-Datacenter-Deployments mit Millionen von Seiten und Tausenden von Redakteuren.\n\nInhalte werden mit StreamField modelliert, wodurch Redakteure flexible Seitenlayouts aus strukturierten Inhaltsblöcken bauen können, ohne diese Struktur durch freies HTML zu verlieren. Wagtail stellt außerdem eine Content API für Teams bereit, die es headless betreiben möchten, wobei ein separat gebautes Frontend Inhalte über die API konsumiert, statt Wagtails eigene Seitenvorlagen zu nutzen; integriert ist zudem eine Suche auf Basis von Elasticsearch oder PostgreSQL-Suche.\n\nWagtail eignet sich für Teams im Python/Django-Stack, die ein CMS mit starker Redaktions-UX wollen und wahlweise klassisch serverseitig gerenderte Seiten oder eine Headless-Content-API betreiben möchten – und schließt damit eine Lücke für Teams, die kein CMS aus dem JavaScript-Stack wollen."
+    }
+  }
+}

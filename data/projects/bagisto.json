@@ -1,0 +1,47 @@
+{
+  "name": "Bagisto",
+  "slug": "bagisto",
+  "description": "Open-source Laravel ecommerce and multi-vendor marketplace platform for building single-vendor stores, B2B commerce, or marketplaces.",
+  "longDescription": "Bagisto is an open-source ecommerce and multi-vendor marketplace platform built with Laravel and Vue.js. It provides a flexible foundation that covers single-vendor online stores, B2B commerce, and full multi-vendor marketplaces from the same codebase, rather than requiring a separate product or major rework to move between those models.\n\nIt's aimed at reducing the development time and cost of building a commerce application while still leaving room to customize and scale, and includes localization for numerous languages out of the box, reflecting its use across many regions.\n\nBagisto is a fit for PHP/Laravel teams that want a ready-made commerce and marketplace foundation to build on - particularly teams that need multi-vendor marketplace functionality specifically, which the current catalog's other commerce options don't provide out of the box.",
+  "repository": "https://github.com/bagisto/bagisto",
+  "website": "https://bagisto.com",
+  "documentation": "https://devdocs.bagisto.com/",
+  "categories": [
+    "ecommerce"
+  ],
+  "keywords": [
+    "ecommerce",
+    "laravel-ecommerce",
+    "multi-vendor-marketplace",
+    "marketplace",
+    "commerce"
+  ],
+  "languages": [
+    "PHP"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "开源的 Laravel 电商与多商户市场平台，可用于构建单商户店铺、B2B 商务或市场平台。",
+      "longDescription": "Bagisto 是一个基于 Laravel 和 Vue.js 构建的开源电商与多商户市场平台。它提供了一个灵活的基础架构，使用同一套代码库即可覆盖单商户在线商店、B2B 商务和完整的多商户市场，而无需为不同模式切换产品或进行大规模重构。\n\n它的目标是降低构建商务应用的开发时间和成本，同时仍保留充分的定制和扩展空间，并内置了多种语言的本地化支持，反映出其在多个地区的实际使用情况。\n\nBagisto 适合那些希望在现成的商务与市场平台基础上进行构建的 PHP/Laravel 团队——尤其适合那些明确需要多商户市场功能的团队，因为目前目录中的其他电商选项并未原生提供这一能力。"
+    },
+    "ja": {
+      "description": "Laravel をベースにした、単一店舗、B2B コマース、マーケットプレイスの構築に対応するオープンソースの EC・マルチベンダーマーケットプレイスプラットフォームです。",
+      "longDescription": "Bagisto は、Laravel と Vue.js で構築されたオープンソースの EC・マルチベンダーマーケットプレイスプラットフォームです。同じコードベースから、単一ベンダーのオンラインストア、B2B コマース、そして本格的なマルチベンダーマーケットプレイスまでをカバーする柔軟な基盤を提供しており、それぞれのモデル間を移行する際に別製品への切り替えや大規模な改修を必要としません。\n\nコマースアプリケーションの構築にかかる開発時間とコストを削減しつつ、カスタマイズや拡張の余地も残すことを目指しており、多くの言語に対応したローカライゼーションを標準で備えている点にも、幅広い地域での利用実績が表れています。\n\nBagisto は、すぐに使えるコマース・マーケットプレイス基盤の上に構築したい PHP/Laravel チーム、特にマルチベンダーマーケットプレイス機能そのものを必要とするチームに向いています。現在のカタログにある他の EC 選択肢は、この機能を標準では提供していません。"
+    },
+    "ko": {
+      "description": "단일 판매자 스토어, B2B 커머스, 마켓플레이스 구축이 모두 가능한 오픈소스 Laravel 이커머스·멀티벤더 마켓플레이스 플랫폼입니다.",
+      "longDescription": "Bagisto는 Laravel과 Vue.js로 구축된 오픈소스 이커머스·멀티벤더 마켓플레이스 플랫폼입니다. 동일한 코드베이스로 단일 판매자 온라인 스토어, B2B 커머스, 완전한 멀티벤더 마켓플레이스까지 모두 아우르는 유연한 기반을 제공하여, 모델 간 전환 시 별도 제품이나 대규모 재작업이 필요하지 않습니다.\n\n커머스 애플리케이션 구축에 드는 개발 시간과 비용을 줄이는 데 초점을 맞추면서도 커스터마이징과 확장의 여지를 남겨두며, 다양한 언어에 대한 현지화를 기본으로 제공해 여러 지역에서 사용되고 있음을 보여줍니다.\n\nBagisto는 바로 사용할 수 있는 커머스·마켓플레이스 기반 위에 구축하고 싶은 PHP/Laravel 팀, 특히 멀티벤더 마켓플레이스 기능이 구체적으로 필요한 팀에 적합합니다. 현재 카탈로그의 다른 이커머스 옵션들은 이 기능을 기본으로 제공하지 않습니다."
+    },
+    "es": {
+      "description": "Plataforma de ecommerce y marketplace multi-vendedor de código abierto en Laravel, para construir tiendas de un solo vendedor, comercio B2B o marketplaces.",
+      "longDescription": "Bagisto es una plataforma de ecommerce y marketplace multi-vendedor de código abierto construida con Laravel y Vue.js. Ofrece una base flexible que cubre tiendas online de un solo vendedor, comercio B2B y marketplaces multi-vendedor completos desde la misma base de código, sin necesitar un producto aparte ni una reestructuración importante para pasar de un modelo a otro.\n\nEstá orientada a reducir el tiempo y coste de desarrollo de una aplicación de comercio, dejando a la vez margen para personalizar y escalar, e incluye localización para numerosos idiomas de serie, lo que refleja su uso en muchas regiones.\n\nBagisto encaja en equipos PHP/Laravel que quieren una base de comercio y marketplace ya lista sobre la que construir, especialmente equipos que necesitan específicamente funcionalidad de marketplace multi-vendedor, algo que las demás opciones de comercio del catálogo actual no ofrecen de serie."
+    },
+    "de": {
+      "description": "Open-Source-Laravel-Plattform für E-Commerce und Multi-Vendor-Marktplätze, zum Aufbau von Einzelhändler-Shops, B2B-Commerce oder Marktplätzen.",
+      "longDescription": "Bagisto ist eine quelloffene E-Commerce- und Multi-Vendor-Marktplatz-Plattform, gebaut mit Laravel und Vue.js. Sie bietet eine flexible Grundlage, die Online-Shops mit einem einzigen Anbieter, B2B-Commerce und vollwertige Multi-Vendor-Marktplätze aus derselben Codebasis abdeckt, statt für den Wechsel zwischen diesen Modellen ein separates Produkt oder größere Umbauten zu erfordern.\n\nSie zielt darauf ab, Entwicklungszeit und -kosten beim Aufbau einer Commerce-Anwendung zu senken, während weiterhin Raum für Anpassung und Skalierung bleibt, und bringt Lokalisierung für zahlreiche Sprachen von Haus aus mit – ein Hinweis auf den Einsatz in vielen Regionen.\n\nBagisto eignet sich für PHP/Laravel-Teams, die eine fertige Commerce- und Marktplatz-Grundlage zum Aufbauen wollen – besonders Teams, die konkret Multi-Vendor-Marktplatz-Funktionalität benötigen, die die übrigen Commerce-Optionen im aktuellen Katalog nicht von Haus aus bieten."
+    }
+  }
+}

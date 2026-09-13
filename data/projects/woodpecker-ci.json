@@ -1,0 +1,46 @@
+{
+  "name": "Woodpecker CI",
+  "slug": "woodpecker-ci",
+  "description": "Simple, container-native CI/CD engine extensible via plugins, designed to run pipelines with a lightweight server and agent footprint.",
+  "longDescription": "Woodpecker is a CI/CD engine focused on being simple to run while staying extensible through plugins contributed by both its core team and the community. Pipelines run in containers, and the server uses SQLite as its default database, keeping the runtime footprint small - the project reports around 100 MB of RAM for the server and 30 MB per agent at idle.\n\nIt's used as the primary CI/CD engine at Codeberg, an alternative Git hosting platform focused on privacy and free software, which reflects its intended fit for smaller, self-hosted setups rather than large enterprise Jenkins-style deployments.\n\nWoodpecker is a fit for teams that want a lightweight, container-native CI/CD engine they can self-host without significant operational overhead - a lighter-weight alternative to Jenkins in the catalog for teams that don't need its plugin breadth.",
+  "repository": "https://github.com/woodpecker-ci/woodpecker",
+  "website": "https://woodpecker-ci.org",
+  "documentation": "https://woodpecker-ci.org/docs/intro",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "ci-cd",
+    "pipeline-automation",
+    "continuous-integration",
+    "container-native"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "简单易用的容器原生 CI/CD 引擎，可通过插件扩展，服务器和 Agent 资源占用都很轻量。",
+      "longDescription": "Woodpecker 是一个专注于易于运行的 CI/CD 引擎，同时通过核心团队和社区共同贡献的插件保持可扩展性。流水线在容器中运行，服务器默认使用 SQLite 作为数据库，从而保持较小的运行时占用——据项目介绍，服务器在空闲时大约占用 100 MB 内存，每个 Agent 约占用 30 MB。\n\n它是 Codeberg（一个专注于隐私和自由软件的另类 Git 托管平台）所使用的主要 CI/CD 引擎，这也体现了它更适合中小规模的自托管场景，而不是大型企业级 Jenkins 式部署。\n\nWoodpecker 适合那些希望使用轻量级、容器原生的 CI/CD 引擎、并能够以较低运维成本自托管的团队——对于不需要 Jenkins 那种庞大插件生态的团队来说，它是目录中一个更轻量的替代选择。"
+    },
+    "ja": {
+      "description": "プラグインで拡張可能な、シンプルなコンテナネイティブ CI/CD エンジンで、軽量なサーバー・エージェントのフットプリントでパイプラインを実行できるよう設計されています。",
+      "longDescription": "Woodpecker は、シンプルに運用できることを重視しつつ、コアチームとコミュニティの両方が提供するプラグインによって拡張可能な CI/CD エンジンです。パイプラインはコンテナ内で実行され、サーバーはデフォルトで SQLite をデータベースとして使用するため、ランタイムのフットプリントは小さく抑えられています。プロジェクトによれば、アイドル時のサーバーは約100MBのメモリを、エージェントは1つあたり約30MBを使用するとされています。\n\nプライバシーとフリーソフトウェアに重点を置いた代替 Git ホスティングプラットフォームである Codeberg の主要な CI/CD エンジンとして使われており、これは大規模なエンタープライズ向け Jenkins スタイルの導入ではなく、より小規模なセルフホスト環境向けであることを反映しています。\n\nWoodpecker は、大きな運用負荷をかけずにセルフホストできる、軽量でコンテナネイティブな CI/CD エンジンを求めるチームに向いています。Jenkins ほどのプラグインの幅を必要としないチームにとって、カタログ内でより軽量な代替となる選択肢です。"
+    },
+    "ko": {
+      "description": "플러그인으로 확장 가능한 간단한 컨테이너 네이티브 CI/CD 엔진으로, 가벼운 서버·에이전트 사용량으로 파이프라인을 실행하도록 설계되었습니다.",
+      "longDescription": "Woodpecker는 단순하게 운영할 수 있는 것에 초점을 맞춘 CI/CD 엔진이면서도, 핵심 팀과 커뮤니티가 함께 기여하는 플러그인을 통해 확장 가능합니다. 파이프라인은 컨테이너에서 실행되며, 서버는 기본적으로 SQLite를 데이터베이스로 사용해 런타임 사용량을 작게 유지합니다. 프로젝트에 따르면 유휴 상태에서 서버는 약 100MB, 에이전트는 각각 약 30MB의 메모리를 사용합니다.\n\n프라이버시와 자유 소프트웨어에 중점을 둔 대안적 Git 호스팅 플랫폼인 Codeberg의 주요 CI/CD 엔진으로 사용되고 있으며, 이는 대규모 엔터프라이즈용 Jenkins 스타일 배포가 아니라 더 작은 셀프 호스팅 환경에 적합하다는 것을 보여줍니다.\n\nWoodpecker는 상당한 운영 부담 없이 셀프 호스팅할 수 있는 가볍고 컨테이너 네이티브한 CI/CD 엔진을 원하는 팀에 적합합니다. Jenkins만큼의 폭넓은 플러그인이 필요하지 않은 팀에게는 카탈로그 내에서 더 가벼운 대안이 됩니다."
+    },
+    "es": {
+      "description": "Motor de CI/CD sencillo y nativo de contenedores, ampliable mediante plugins, diseñado para ejecutar pipelines con una huella ligera de servidor y agente.",
+      "longDescription": "Woodpecker es un motor de CI/CD centrado en ser sencillo de operar, manteniéndose a la vez ampliable mediante plugins aportados tanto por su equipo principal como por la comunidad. Los pipelines se ejecutan en contenedores, y el servidor usa SQLite como base de datos por defecto, manteniendo una huella de ejecución reducida: el proyecto reporta alrededor de 100 MB de RAM para el servidor y 30 MB por agente en reposo.\n\nSe usa como motor de CI/CD principal en Codeberg, una plataforma alternativa de alojamiento Git centrada en la privacidad y el software libre, lo que refleja su idoneidad para instalaciones autoalojadas más pequeñas en lugar de grandes despliegues empresariales al estilo Jenkins.\n\nWoodpecker encaja en equipos que quieren un motor de CI/CD ligero y nativo de contenedores que puedan autoalojar sin una sobrecarga operativa significativa: una alternativa más ligera a Jenkins en el catálogo para equipos que no necesitan su amplitud de plugins."
+    },
+    "de": {
+      "description": "Einfache, container-native CI/CD-Engine, über Plugins erweiterbar, ausgelegt auf einen leichten Server- und Agenten-Footprint beim Ausführen von Pipelines.",
+      "longDescription": "Woodpecker ist eine CI/CD-Engine, die darauf ausgelegt ist, einfach zu betreiben zu sein, während sie über Plugins erweiterbar bleibt, die sowohl vom Kernteam als auch von der Community beigesteuert werden. Pipelines laufen in Containern, und der Server nutzt standardmäßig SQLite als Datenbank, was den Laufzeit-Footprint klein hält – das Projekt gibt rund 100 MB RAM für den Server und 30 MB pro Agent im Leerlauf an.\n\nEs wird als primäre CI/CD-Engine bei Codeberg eingesetzt, einer alternativen Git-Hosting-Plattform mit Fokus auf Datenschutz und freie Software, was seine Eignung für kleinere, selbst gehostete Setups statt große, unternehmensweite Jenkins-artige Deployments widerspiegelt.\n\nWoodpecker eignet sich für Teams, die eine leichtgewichtige, container-native CI/CD-Engine wollen, die sie ohne nennenswerten Betriebsaufwand selbst hosten können – eine leichtere Alternative zu Jenkins im Katalog für Teams, die dessen Plugin-Vielfalt nicht benötigen."
+    }
+  }
+}

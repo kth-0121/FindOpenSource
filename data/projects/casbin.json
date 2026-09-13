@@ -1,0 +1,48 @@
+{
+  "name": "Casbin",
+  "slug": "casbin",
+  "description": "Open-source access-control library implementing ACL, RBAC, and ABAC authorization models, with production-ready ports for Go, Java, Python, Node.js, and more.",
+  "longDescription": "Casbin is an access-control library - not a standalone server - that adds authorization to an application by enforcing policies defined against standard access-control models such as ACL, RBAC, and ABAC. Policies and the model that defines them are written in a small configuration format that stays consistent across Casbin's language implementations, so the same policy logic can be reused whether an application is written in Go, Java, Python, Node.js, PHP, .NET, C++, or Rust.\n\nBecause it's a library embedded directly into an application rather than a separate identity service, Casbin handles the authorization decision itself (does this user have permission to perform this action) rather than authentication (who is this user) - it's commonly paired with a separate authentication system. The project is now hosted under the Apache Software Foundation.\n\nCasbin is a fit for developers who need fine-grained, model-based access control inside their own application code, across one or more languages, rather than authentication or a separate policy-decision service.",
+  "repository": "https://github.com/apache/casbin",
+  "website": "https://casbin.apache.org/",
+  "documentation": "https://casbin.apache.org/docs/overview",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "authorization",
+    "access-control",
+    "rbac",
+    "abac",
+    "acl",
+    "policy"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "开源访问控制库，实现了 ACL、RBAC 和 ABAC 等授权模型，并提供 Go、Java、Python、Node.js 等多种语言的生产可用实现。",
+      "longDescription": "Casbin 是一个访问控制库——而非独立服务器——通过针对 ACL、RBAC、ABAC 等标准访问控制模型强制执行策略，为应用添加授权能力。策略及定义策略的模型采用一种小巧的配置格式编写，该格式在 Casbin 的各语言实现中保持一致，因此无论应用是用 Go、Java、Python、Node.js、PHP、.NET、C++ 还是 Rust 编写，都可以复用相同的策略逻辑。\n\n由于它是直接嵌入应用的库，而不是独立的身份服务，Casbin 处理的是授权决策本身（该用户是否有权限执行此操作），而不是身份验证（这个用户是谁）——它通常与单独的身份验证系统配合使用。该项目目前托管在 Apache 软件基金会（Apache Software Foundation）之下。\n\nCasbin 适合那些需要在自己的应用代码内、跨一种或多种语言实现细粒度、基于模型的访问控制的开发者，而不是寻找身份验证或单独的策略决策服务。"
+    },
+    "ja": {
+      "description": "ACL、RBAC、ABAC といった認可モデルを実装したオープンソースのアクセス制御ライブラリで、Go、Java、Python、Node.js などに対応する本番運用可能な実装が用意されています。",
+      "longDescription": "Casbin は、独立したサーバーではなく、ACL、RBAC、ABAC といった標準的なアクセス制御モデルに対して定義されたポリシーを強制することでアプリケーションに認可機能を追加するアクセス制御ライブラリです。ポリシーとそれを定義するモデルは、Casbin の各言語実装間で一貫性を保つ小さな設定フォーマットで記述されるため、アプリケーションが Go、Java、Python、Node.js、PHP、.NET、C++、Rust のいずれで書かれていても同じポリシーロジックを再利用できます。\n\n独立した ID サービスではなくアプリケーションに直接組み込まれるライブラリであるため、Casbin が扱うのは認証(このユーザーは誰か)ではなく認可の判断そのもの(このユーザーはこの操作を行う権限があるか)であり、通常は別の認証システムと組み合わせて使われます。このプロジェクトは現在 Apache Software Foundation の傘下でホストされています。\n\nCasbin は、認証や独立したポリシー決定サービスではなく、1つまたは複数の言語にまたがって、自分たちのアプリケーションコード内できめ細かなモデルベースのアクセス制御を必要とする開発者に向いています。"
+    },
+    "ko": {
+      "description": "ACL, RBAC, ABAC 인가 모델을 구현한 오픈소스 접근 제어 라이브러리로, Go, Java, Python, Node.js 등 다양한 언어의 프로덕션급 구현체를 제공합니다.",
+      "longDescription": "Casbin은 독립 실행형 서버가 아니라, ACL, RBAC, ABAC 같은 표준 접근 제어 모델에 대해 정의된 정책을 적용해 애플리케이션에 인가 기능을 추가하는 접근 제어 라이브러리입니다. 정책과 이를 정의하는 모델은 Casbin의 여러 언어 구현체 전반에서 일관되게 유지되는 작은 설정 형식으로 작성되므로, 애플리케이션이 Go, Java, Python, Node.js, PHP, .NET, C++, Rust 중 무엇으로 작성되었든 동일한 정책 로직을 재사용할 수 있습니다.\n\n별도의 아이덴티티 서비스가 아니라 애플리케이션에 직접 내장되는 라이브러리이기 때문에, Casbin은 인증(이 사용자가 누구인가)이 아니라 인가 판단 자체(이 사용자가 이 작업을 수행할 권한이 있는가)를 처리하며, 일반적으로 별도의 인증 시스템과 함께 사용됩니다. 이 프로젝트는 현재 Apache 소프트웨어 재단(Apache Software Foundation) 산하에서 운영됩니다.\n\nCasbin은 인증이나 별도의 정책 결정 서비스가 아니라, 하나 또는 여러 언어에 걸쳐 자신의 애플리케이션 코드 안에서 세밀하고 모델 기반의 접근 제어가 필요한 개발자에게 적합합니다."
+    },
+    "es": {
+      "description": "Biblioteca de control de acceso de código abierto que implementa los modelos de autorización ACL, RBAC y ABAC, con implementaciones listas para producción en Go, Java, Python, Node.js y más.",
+      "longDescription": "Casbin es una biblioteca de control de acceso —no un servidor independiente— que añade autorización a una aplicación aplicando políticas definidas sobre modelos estándar de control de acceso como ACL, RBAC y ABAC. Las políticas y el modelo que las define se escriben en un formato de configuración pequeño que se mantiene consistente entre las distintas implementaciones de Casbin, por lo que la misma lógica de políticas puede reutilizarse tanto si la aplicación está escrita en Go, Java, Python, Node.js, PHP, .NET, C++ o Rust.\n\nAl ser una biblioteca integrada directamente en la aplicación en lugar de un servicio de identidad aparte, Casbin gestiona la decisión de autorización en sí (si este usuario tiene permiso para realizar esta acción) y no la autenticación (quién es este usuario); habitualmente se combina con un sistema de autenticación independiente. El proyecto está alojado actualmente bajo la Apache Software Foundation.\n\nCasbin encaja en desarrolladores que necesitan control de acceso granular y basado en modelos dentro de su propio código de aplicación, en uno o varios lenguajes, en lugar de autenticación o un servicio de decisión de políticas aparte."
+    },
+    "de": {
+      "description": "Open-Source-Bibliothek für Zugriffskontrolle, die ACL-, RBAC- und ABAC-Autorisierungsmodelle implementiert, mit produktionsreifen Portierungen für Go, Java, Python, Node.js und mehr.",
+      "longDescription": "Casbin ist eine Bibliothek für Zugriffskontrolle – kein eigenständiger Server –, die einer Anwendung Autorisierung hinzufügt, indem sie Richtlinien durchsetzt, die gegen Standard-Zugriffskontrollmodelle wie ACL, RBAC und ABAC definiert sind. Richtlinien und das Modell, das sie definiert, werden in einem kompakten Konfigurationsformat geschrieben, das über Casbins Sprachimplementierungen hinweg konsistent bleibt, sodass dieselbe Richtlinienlogik wiederverwendet werden kann, egal ob eine Anwendung in Go, Java, Python, Node.js, PHP, .NET, C++ oder Rust geschrieben ist.\n\nDa es sich um eine Bibliothek handelt, die direkt in eine Anwendung eingebettet wird, statt um einen separaten Identitätsdienst, übernimmt Casbin die Autorisierungsentscheidung selbst (hat dieser Benutzer die Berechtigung, diese Aktion auszuführen), nicht die Authentifizierung (wer ist dieser Benutzer) – es wird üblicherweise mit einem separaten Authentifizierungssystem kombiniert. Das Projekt wird inzwischen unter der Apache Software Foundation gehostet.\n\nCasbin eignet sich für Entwickler, die feingranulare, modellbasierte Zugriffskontrolle direkt im eigenen Anwendungscode benötigen, über eine oder mehrere Sprachen hinweg, statt Authentifizierung oder einen separaten Policy-Decision-Dienst."
+    }
+  }
+}

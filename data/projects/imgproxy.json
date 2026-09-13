@@ -1,0 +1,46 @@
+{
+  "name": "imgproxy",
+  "slug": "imgproxy",
+  "description": "Fast, standalone server for resizing, processing, and converting images on the fly, acting as a drop-in replacement for in-app image processing code.",
+  "longDescription": "imgproxy is a standalone server for resizing, processing, and converting images, built around speed, security, and simplicity. Rather than maintaining image-processing libraries or command-line tools inside a web application, a team points image URLs at imgproxy, which processes and optimizes images on demand - so images don't need to be re-prepared every time a design changes.\n\nThe open-source edition supports common formats including JPEG, PNG, GIF, WebP, AVIF, and JPEG XL; a separate commercial imgproxy Pro product adds preview generation for video, PDF, and Photoshop files on top of the same open-source base.\n\nimgproxy is a fit for teams that need on-the-fly image resizing and optimization as infrastructure - in front of a CDN or storage bucket, for example - rather than baking image-processing logic into each application that serves images.",
+  "repository": "https://github.com/imgproxy/imgproxy",
+  "website": "https://imgproxy.net",
+  "documentation": "https://docs.imgproxy.net",
+  "categories": [
+    "media"
+  ],
+  "keywords": [
+    "image-processing",
+    "image-resizing",
+    "image-optimization",
+    "thumbnail-server"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "快速的独立服务器，用于即时调整图片大小、处理和转换格式，可直接替代应用内的图片处理代码。",
+      "longDescription": "imgproxy 是一个用于调整图片大小、处理和转换格式的独立服务器，围绕速度、安全性和简洁性构建。团队无需在 Web 应用内部维护图片处理库或命令行工具，只需将图片 URL 指向 imgproxy，它就会按需处理和优化图片——这样每次设计变更时都不需要重新准备图片。\n\n开源版本支持包括 JPEG、PNG、GIF、WebP、AVIF 和 JPEG XL 在内的常见格式；另有一个独立的商业产品 imgproxy Pro，在相同的开源基础之上增加了对视频、PDF 和 Photoshop 文件的预览生成能力。\n\nimgproxy 适合那些需要将即时图片调整和优化作为基础设施使用的团队——例如部署在 CDN 或存储桶前端——而不是把图片处理逻辑内置到每个提供图片服务的应用中。"
+    },
+    "ja": {
+      "description": "高速なスタンドアロンサーバーで、画像のリサイズ、処理、変換をオンザフライで行い、アプリ内の画像処理コードをそのまま置き換えられます。",
+      "longDescription": "imgproxy は、速度、セキュリティ、シンプルさを重視して構築された、画像のリサイズ、処理、変換のためのスタンドアロンサーバーです。Web アプリケーション内で画像処理ライブラリやコマンドラインツールを維持する代わりに、チームは画像の URL を imgproxy に向けるだけで、必要に応じて画像を処理・最適化できます。デザインが変わるたびに画像を再準備する必要もありません。\n\nオープンソース版は JPEG、PNG、GIF、WebP、AVIF、JPEG XL などの一般的な形式に対応しています。別売りの商用製品である imgproxy Pro は、同じオープンソースのベースの上に、動画、PDF、Photoshop ファイルのプレビュー生成機能を追加しています。\n\nimgproxy は、各アプリケーションに画像処理ロジックを組み込むのではなく、CDN やストレージバケットの前段などにインフラとしてオンザフライな画像リサイズ・最適化を必要とするチームに向いています。"
+    },
+    "ko": {
+      "description": "이미지를 즉석에서 리사이징, 처리, 변환하는 빠른 독립 서버로, 앱 내부의 이미지 처리 코드를 그대로 대체할 수 있습니다.",
+      "longDescription": "imgproxy는 속도, 보안, 단순함을 중심으로 구축된, 이미지 리사이징·처리·변환을 위한 독립 서버입니다. 웹 애플리케이션 내부에 이미지 처리 라이브러리나 명령줄 도구를 유지 관리하는 대신, 팀은 이미지 URL을 imgproxy로 가리키기만 하면 필요에 따라 이미지를 처리하고 최적화할 수 있습니다. 디자인이 바뀔 때마다 이미지를 다시 준비할 필요가 없습니다.\n\n오픈소스 에디션은 JPEG, PNG, GIF, WebP, AVIF, JPEG XL을 포함한 일반적인 형식을 지원합니다. 별도의 상용 제품인 imgproxy Pro는 동일한 오픈소스 기반 위에 비디오, PDF, Photoshop 파일에 대한 미리보기 생성 기능을 추가로 제공합니다.\n\nimgproxy는 이미지를 제공하는 각 애플리케이션에 이미지 처리 로직을 내장하는 대신, CDN이나 스토리지 버킷 앞단 등에서 즉석 이미지 리사이징과 최적화를 인프라로서 필요로 하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Servidor independiente y rápido para redimensionar, procesar y convertir imágenes al vuelo, como sustituto directo del código de procesamiento de imágenes dentro de la app.",
+      "longDescription": "imgproxy es un servidor independiente para redimensionar, procesar y convertir imágenes, construido en torno a la velocidad, la seguridad y la simplicidad. En lugar de mantener bibliotecas de procesamiento de imágenes o herramientas de línea de comandos dentro de una aplicación web, un equipo apunta las URLs de imágenes a imgproxy, que procesa y optimiza las imágenes bajo demanda, de modo que no hace falta volver a preparar las imágenes cada vez que cambia un diseño.\n\nLa edición de código abierto admite formatos comunes como JPEG, PNG, GIF, WebP, AVIF y JPEG XL; un producto comercial aparte, imgproxy Pro, añade generación de previsualizaciones para archivos de vídeo, PDF y Photoshop sobre la misma base de código abierto.\n\nimgproxy encaja en equipos que necesitan redimensionado y optimización de imágenes al vuelo como infraestructura —por ejemplo, delante de una CDN o un bucket de almacenamiento— en lugar de incorporar la lógica de procesamiento de imágenes en cada aplicación que sirve imágenes."
+    },
+    "de": {
+      "description": "Schneller, eigenständiger Server zum Skalieren, Verarbeiten und Konvertieren von Bildern in Echtzeit, als direkter Ersatz für Bildverarbeitungscode in der eigenen Anwendung.",
+      "longDescription": "imgproxy ist ein eigenständiger Server zum Skalieren, Verarbeiten und Konvertieren von Bildern, aufgebaut auf Geschwindigkeit, Sicherheit und Einfachheit. Statt Bildverarbeitungsbibliotheken oder Kommandozeilentools innerhalb einer Webanwendung zu pflegen, richtet ein Team Bild-URLs auf imgproxy, das Bilder bei Bedarf verarbeitet und optimiert – Bilder müssen also nicht bei jeder Designänderung neu aufbereitet werden.\n\nDie Open-Source-Edition unterstützt gängige Formate wie JPEG, PNG, GIF, WebP, AVIF und JPEG XL; ein separates kommerzielles Produkt, imgproxy Pro, fügt auf derselben Open-Source-Basis Vorschau-Generierung für Video-, PDF- und Photoshop-Dateien hinzu.\n\nimgproxy eignet sich für Teams, die On-the-fly-Bildskalierung und -optimierung als Infrastruktur benötigen – etwa vor einem CDN oder Storage-Bucket –, statt Bildverarbeitungslogik in jede bildausliefernde Anwendung einzubauen."
+    }
+  }
+}

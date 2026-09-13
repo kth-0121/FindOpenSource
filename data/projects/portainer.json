@@ -1,0 +1,46 @@
+{
+  "name": "Portainer",
+  "slug": "portainer",
+  "description": "Lightweight web UI and API for managing Docker, Swarm, Kubernetes, and ACI container environments from a single dashboard.",
+  "longDescription": "Portainer Community Edition is a service-delivery platform for containerized applications that gives you a graphical interface (and an extensive API) for managing containers, images, volumes, and networks across Docker, Docker Swarm, Kubernetes, and Azure Container Instances environments. Rather than running kubectl or docker commands directly, teams manage their orchestrator resources through Portainer's UI.\n\nIt runs as a single container that can be deployed on any cluster, as either a Linux or Windows-native container. A separate Portainer Business Edition builds on the same open-source base and adds features like role-based access control and commercial support for organizations that need them.\n\nPortainer is a fit for teams that want a GUI layer over Docker/Kubernetes container management - alongside the current catalog's CLI-first tools like Kubernetes and Terraform - for day-to-day operational visibility rather than infrastructure provisioning.",
+  "repository": "https://github.com/portainer/portainer",
+  "website": "https://www.portainer.io",
+  "documentation": "https://docs.portainer.io",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "container-management",
+    "docker-gui",
+    "kubernetes-management",
+    "devops"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "Zlib",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "轻量级 Web 界面与 API，用于在单一仪表盘中管理 Docker、Swarm、Kubernetes 和 ACI 容器环境。",
+      "longDescription": "Portainer Community Edition 是一个面向容器化应用的服务交付平台，提供图形界面（以及功能丰富的 API），用于在 Docker、Docker Swarm、Kubernetes 和 Azure Container Instances 环境中管理容器、镜像、卷和网络。团队不必直接运行 kubectl 或 docker 命令，而是通过 Portainer 的界面来管理编排资源。\n\n它作为单个容器运行，可以部署在任意集群上，既可以是 Linux 容器，也可以是 Windows 原生容器。另有一个独立的 Portainer Business Edition，在相同的开源基础之上添加了基于角色的访问控制以及商业支持等功能，供有需要的组织使用。\n\nPortainer 适合那些希望在 Docker/Kubernetes 容器管理之上使用图形界面层的团队——与目录中 Kubernetes、Terraform 等以 CLI 为主的工具形成互补，用于日常运维可视化，而非基础设施的初始搭建。"
+    },
+    "ja": {
+      "description": "Docker、Swarm、Kubernetes、ACI のコンテナ環境を1つのダッシュボードから管理できる、軽量な Web UI と API です。",
+      "longDescription": "Portainer Community Edition は、コンテナ化されたアプリケーション向けのサービス配信プラットフォームで、Docker、Docker Swarm、Kubernetes、Azure Container Instances 環境全体にわたってコンテナ、イメージ、ボリューム、ネットワークを管理するためのグラフィカルインターフェース(および充実した API)を提供します。kubectl や docker コマンドを直接実行する代わりに、チームは Portainer の UI を通じてオーケストレーターのリソースを管理します。\n\n単一のコンテナとして動作し、Linux コンテナまたは Windows ネイティブコンテナとしてどのクラスターにもデプロイできます。同じオープンソースのベースの上に構築された別製品の Portainer Business Edition もあり、必要な組織向けにロールベースのアクセス制御や商用サポートなどの機能を追加しています。\n\nPortainer は、カタログ内の Kubernetes や Terraform のような CLI 中心のツールと並んで、インフラのプロビジョニングというよりも日常的な運用の可視化のために、Docker/Kubernetes のコンテナ管理に GUI レイヤーを求めるチームに向いています。"
+    },
+    "ko": {
+      "description": "Docker, Swarm, Kubernetes, ACI 컨테이너 환경을 하나의 대시보드에서 관리할 수 있는 경량 웹 UI 및 API입니다.",
+      "longDescription": "Portainer Community Edition은 컨테이너화된 애플리케이션을 위한 서비스 제공 플랫폼으로, Docker, Docker Swarm, Kubernetes, Azure Container Instances 환경 전반에서 컨테이너, 이미지, 볼륨, 네트워크를 관리할 수 있는 그래픽 인터페이스(및 방대한 API)를 제공합니다. kubectl이나 docker 명령을 직접 실행하는 대신, 팀은 Portainer의 UI를 통해 오케스트레이터 리소스를 관리합니다.\n\n단일 컨테이너로 실행되며, Linux 컨테이너 또는 Windows 네이티브 컨테이너로 모든 클러스터에 배포할 수 있습니다. 동일한 오픈소스 기반 위에 구축된 별도의 Portainer Business Edition은 필요한 조직을 위해 역할 기반 접근 제어와 상용 지원 같은 기능을 추가로 제공합니다.\n\nPortainer는 카탈로그의 Kubernetes, Terraform 같은 CLI 중심 도구와 나란히, 인프라 프로비저닝보다는 일상적인 운영 가시성을 위해 Docker/Kubernetes 컨테이너 관리 위에 GUI 계층을 원하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "UI web ligera y API para gestionar entornos de contenedores Docker, Swarm, Kubernetes y ACI desde un único panel.",
+      "longDescription": "Portainer Community Edition es una plataforma de entrega de servicios para aplicaciones en contenedores que te da una interfaz gráfica (y una API extensa) para gestionar contenedores, imágenes, volúmenes y redes en entornos Docker, Docker Swarm, Kubernetes y Azure Container Instances. En lugar de ejecutar comandos kubectl o docker directamente, los equipos gestionan los recursos de su orquestador a través de la interfaz de Portainer.\n\nSe ejecuta como un único contenedor que se puede desplegar en cualquier clúster, ya sea como contenedor Linux o nativo de Windows. Una Portainer Business Edition aparte se construye sobre la misma base de código abierto y añade funciones como control de acceso basado en roles y soporte comercial para las organizaciones que las necesiten.\n\nPortainer encaja en equipos que quieren una capa de GUI sobre la gestión de contenedores Docker/Kubernetes —junto a las herramientas del catálogo actual centradas en CLI, como Kubernetes y Terraform— para visibilidad operativa diaria en lugar de aprovisionamiento de infraestructura."
+    },
+    "de": {
+      "description": "Leichtgewichtige Web-UI und API zur Verwaltung von Docker-, Swarm-, Kubernetes- und ACI-Container-Umgebungen über ein einziges Dashboard.",
+      "longDescription": "Portainer Community Edition ist eine Service-Delivery-Plattform für containerisierte Anwendungen, die dir eine grafische Oberfläche (und eine umfangreiche API) zur Verwaltung von Containern, Images, Volumes und Netzwerken über Docker-, Docker-Swarm-, Kubernetes- und Azure-Container-Instances-Umgebungen hinweg bietet. Statt kubectl- oder docker-Befehle direkt auszuführen, verwalten Teams ihre Orchestrator-Ressourcen über die UI von Portainer.\n\nEs läuft als einzelner Container, der auf jedem Cluster bereitgestellt werden kann – entweder als Linux- oder als Windows-nativer Container. Eine separate Portainer Business Edition baut auf derselben Open-Source-Basis auf und fügt Funktionen wie rollenbasierte Zugriffskontrolle und kommerziellen Support für Organisationen hinzu, die diese benötigen.\n\nPortainer eignet sich für Teams, die neben den CLI-first-Tools des aktuellen Katalogs wie Kubernetes und Terraform eine GUI-Schicht über das Docker-/Kubernetes-Container-Management wollen – für die alltägliche operative Sichtbarkeit statt für die Infrastruktur-Provisionierung."
+    }
+  }
+}

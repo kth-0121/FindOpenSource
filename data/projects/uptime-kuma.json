@@ -1,0 +1,47 @@
+{
+  "name": "Uptime Kuma",
+  "slug": "uptime-kuma",
+  "description": "Self-hosted uptime and status monitoring tool with a reactive dashboard, covering HTTP, TCP, DNS, ping, Docker containers, and more.",
+  "longDescription": "Uptime Kuma is a self-hosted monitoring tool focused specifically on uptime and status checks, rather than the broader metrics/logs/traces scope of a full observability stack. It checks services over HTTP(S) (including keyword and JSON-query matching), TCP, ping, DNS records, WebSocket, Steam game servers, and Docker containers, with configurable intervals as short as 20 seconds.\n\nIt notifies you through more than 90 supported services, including Telegram, Discord, Slack, Pushover, and email, and can generate multiple public status pages that can each be mapped to their own custom domain. Other features include certificate expiry tracking, proxy support, 2FA, and multi-language support.\n\nUptime Kuma is a fit for individuals and teams that want a simple, self-hosted way to know when a service goes down and to publish a status page, rather than a full metrics-and-dashboards platform like Prometheus and Grafana.",
+  "repository": "https://github.com/louislam/uptime-kuma",
+  "website": "https://uptime.kuma.pet",
+  "documentation": "https://github.com/louislam/uptime-kuma/wiki",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "uptime-monitoring",
+    "status-page",
+    "self-hosted-monitoring",
+    "service-monitoring",
+    "ping"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "自托管的可用性与状态监控工具，具有响应式仪表盘，支持 HTTP、TCP、DNS、Ping、Docker 容器等多种监控方式。",
+      "longDescription": "Uptime Kuma 是一个专注于可用性和状态检查的自托管监控工具，而不是像完整可观测性平台那样覆盖更广泛的指标/日志/追踪范围。它可以通过 HTTP(S)（支持关键字和 JSON 查询匹配）、TCP、Ping、DNS 记录、WebSocket、Steam 游戏服务器以及 Docker 容器等方式检查服务，检查间隔最短可设置为 20 秒。\n\n它可以通过 90 多种受支持的服务发送通知，包括 Telegram、Discord、Slack、Pushover 和邮件，并可以生成多个公开状态页面，每个都可以映射到自己的自定义域名。其他功能还包括证书到期跟踪、代理支持、双因素认证和多语言支持。\n\nUptime Kuma 适合那些希望以简单、自托管的方式了解服务是否宕机并发布状态页面的个人和团队，而不是像 Prometheus 和 Grafana 那样的完整指标与仪表盘平台。"
+    },
+    "ja": {
+      "description": "HTTP、TCP、DNS、ping、Docker コンテナなどをカバーする、リアクティブなダッシュボードを備えたセルフホスト型の稼働監視・ステータス監視ツールです。",
+      "longDescription": "Uptime Kuma は、フルスペックの可観測性スタックが扱うような広範なメトリクス/ログ/トレースではなく、稼働状況とステータスチェックに特化したセルフホスト型の監視ツールです。HTTP(S)(キーワードや JSON クエリのマッチングを含む)、TCP、ping、DNS レコード、WebSocket、Steam ゲームサーバー、Docker コンテナなどを対象にサービスをチェックでき、最短20秒間隔まで設定可能です。\n\nTelegram、Discord、Slack、Pushover、メールなど90以上の対応サービスを通じて通知を送ることができ、それぞれ独自のカスタムドメインにマッピングできる複数の公開ステータスページを生成できます。その他の機能として、証明書の有効期限トラッキング、プロキシサポート、二要素認証、多言語対応も備えています。\n\nUptime Kuma は、Prometheus や Grafana のようなフル機能のメトリクス・ダッシュボードプラットフォームではなく、サービスがダウンしたことをシンプルにセルフホストで把握し、ステータスページを公開したい個人やチームに向いています。"
+    },
+    "ko": {
+      "description": "HTTP, TCP, DNS, 핑, Docker 컨테이너 등을 아우르는 반응형 대시보드를 갖춘 셀프 호스팅 가동시간·상태 모니터링 도구입니다.",
+      "longDescription": "Uptime Kuma는 전체 관측 가능성 스택이 다루는 폭넓은 메트릭/로그/트레이스 범위가 아니라, 가동시간과 상태 확인에 구체적으로 초점을 맞춘 셀프 호스팅 모니터링 도구입니다. HTTP(S)(키워드 및 JSON 쿼리 매칭 포함), TCP, 핑, DNS 레코드, WebSocket, Steam 게임 서버, Docker 컨테이너를 통해 서비스를 확인할 수 있으며, 최소 20초 간격까지 설정할 수 있습니다.\n\nTelegram, Discord, Slack, Pushover, 이메일을 포함해 90개 이상의 지원 서비스를 통해 알림을 보낼 수 있으며, 각각 자체 커스텀 도메인에 매핑할 수 있는 여러 개의 공개 상태 페이지를 생성할 수 있습니다. 기타 기능으로는 인증서 만료 추적, 프록시 지원, 2단계 인증, 다국어 지원이 있습니다.\n\nUptime Kuma는 Prometheus나 Grafana 같은 완전한 메트릭·대시보드 플랫폼이 아니라, 서비스 다운을 간단하고 셀프 호스팅 방식으로 파악하고 상태 페이지를 게시하고 싶은 개인과 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Herramienta de monitorización de disponibilidad y estado autoalojada con un panel reactivo, que cubre HTTP, TCP, DNS, ping, contenedores Docker y más.",
+      "longDescription": "Uptime Kuma es una herramienta de monitorización autoalojada centrada específicamente en comprobaciones de disponibilidad y estado, en lugar del alcance más amplio de métricas/logs/trazas de una pila de observabilidad completa. Comprueba servicios mediante HTTP(S) (incluyendo coincidencia por palabra clave y consultas JSON), TCP, ping, registros DNS, WebSocket, servidores de juegos de Steam y contenedores Docker, con intervalos configurables de hasta 20 segundos.\n\nTe notifica a través de más de 90 servicios compatibles, incluyendo Telegram, Discord, Slack, Pushover y correo electrónico, y puede generar varias páginas de estado públicas que se pueden asociar cada una a su propio dominio personalizado. Otras funciones incluyen seguimiento de caducidad de certificados, soporte de proxy, 2FA y soporte multilingüe.\n\nUptime Kuma encaja en personas y equipos que quieren una forma sencilla y autoalojada de saber cuándo un servicio deja de funcionar y publicar una página de estado, en lugar de una plataforma completa de métricas y dashboards como Prometheus y Grafana."
+    },
+    "de": {
+      "description": "Selbst gehostetes Tool zur Verfügbarkeits- und Statusüberwachung mit reaktivem Dashboard, das HTTP, TCP, DNS, Ping, Docker-Container und mehr abdeckt.",
+      "longDescription": "Uptime Kuma ist ein selbst gehostetes Monitoring-Tool, das sich speziell auf Verfügbarkeits- und Statusprüfungen konzentriert, statt auf den breiteren Umfang von Metriken/Logs/Traces eines vollständigen Observability-Stacks. Es prüft Dienste über HTTP(S) (einschließlich Keyword- und JSON-Query-Abgleich), TCP, Ping, DNS-Einträge, WebSocket, Steam-Gameserver und Docker-Container, mit konfigurierbaren Intervallen ab 20 Sekunden.\n\nEs benachrichtigt dich über mehr als 90 unterstützte Dienste, darunter Telegram, Discord, Slack, Pushover und E-Mail, und kann mehrere öffentliche Statusseiten erzeugen, die jeweils einer eigenen benutzerdefinierten Domain zugeordnet werden können. Weitere Funktionen sind die Überwachung des Zertifikatsablaufs, Proxy-Unterstützung, 2FA und mehrsprachige Unterstützung.\n\nUptime Kuma eignet sich für Einzelpersonen und Teams, die auf einfache, selbst gehostete Weise erfahren möchten, wenn ein Dienst ausfällt, und eine Statusseite veröffentlichen möchten, statt einer vollständigen Metrik- und Dashboard-Plattform wie Prometheus und Grafana."
+    }
+  }
+}

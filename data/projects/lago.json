@@ -1,0 +1,47 @@
+{
+  "name": "Lago",
+  "slug": "lago",
+  "description": "Open-source usage-based billing and metering infrastructure for turning product usage - API calls, compute, tokens - into pricing, invoices, and revenue.",
+  "longDescription": "Lago is open-source billing infrastructure for usage-based and subscription pricing models. It meters product usage - such as API calls, compute time, or LLM tokens - and turns that usage data into pricing calculations, credits, entitlements, invoices, and payment collection, rather than requiring a team to build metering and invoicing logic on top of a generic payments API.\n\nIt can be used directly as your own billing system (Lago Direct) or embedded to power billing for your own customers (Lago Embedded), and is used in production by companies including Mistral AI, Groq, and Synthesia for usage-based and AI-product billing specifically. The project positions itself for agentic and AI-product monetization as much as traditional SaaS subscriptions.\n\nLago is a fit for teams that need to bill based on metered usage rather than flat subscriptions, or that want an open-source alternative to hosted usage-billing platforms.",
+  "repository": "https://github.com/getlago/lago",
+  "website": "https://www.getlago.com",
+  "documentation": "https://doc.getlago.com",
+  "categories": [
+    "payments"
+  ],
+  "keywords": [
+    "billing",
+    "usage-based-billing",
+    "metering",
+    "subscription-billing",
+    "invoicing"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "开源的基于用量计费与计量基础设施，将 API 调用、计算量、Token 等产品使用量转化为定价、账单和收入。",
+      "longDescription": "Lago 是面向基于用量和订阅制定价模式的开源计费基础设施。它对产品使用量（例如 API 调用次数、计算时长或 LLM Token 用量）进行计量，并将这些用量数据转化为定价计算、信用额度、权益、账单和收款，而不需要团队在通用支付 API 之上自行构建计量和开票逻辑。\n\n它既可以直接作为你自己的计费系统使用（Lago Direct），也可以嵌入你的产品中为你的客户提供计费能力（Lago Embedded），目前已被 Mistral AI、Groq、Synthesia 等公司用于生产环境，专门处理基于用量的计费以及 AI 产品计费。该项目将自身定位为既服务于传统 SaaS 订阅，也服务于智能体和 AI 产品的变现。\n\nLago 适合那些需要基于计量用量而非固定订阅进行计费的团队，或者希望找到托管式用量计费平台的开源替代方案的团队。"
+    },
+    "ja": {
+      "description": "API 呼び出し、コンピュート、トークンなどのプロダクト利用量を、価格設定・請求・収益に変換する、オープンソースの従量課金・計測インフラです。",
+      "longDescription": "Lago は、従量課金やサブスクリプション型の価格モデル向けのオープンソース課金インフラです。API 呼び出し、コンピュート使用時間、LLM トークンといったプロダクトの利用量を計測し、その利用データを価格計算、クレジット、エンタイトルメント、請求書、支払い回収へと変換します。汎用の決済 API の上に計測や請求ロジックをチームが自前で構築する必要はありません。\n\n自社の課金システムとしてそのまま利用する(Lago Direct)か、自社顧客向けの課金を組み込む(Lago Embedded)かたちで使うことができ、Mistral AI、Groq、Synthesia などの企業が従量課金や AI プロダクト特有の課金のために本番環境で利用しています。このプロジェクトは、従来型の SaaS サブスクリプションだけでなく、エージェント型・AI プロダクトのマネタイズにも対応することを掲げています。\n\nLago は、定額サブスクリプションではなく計測済みの利用量に基づいて課金する必要があるチームや、ホスト型の従量課金プラットフォームに代わるオープンソースの選択肢を求めるチームに向いています。"
+    },
+    "ko": {
+      "description": "API 호출, 컴퓨팅, 토큰 등 제품 사용량을 가격 책정, 청구, 매출로 전환하는 오픈소스 사용량 기반 청구·계량 인프라입니다.",
+      "longDescription": "Lago는 사용량 기반 및 구독형 가격 모델을 위한 오픈소스 청구 인프라입니다. API 호출, 컴퓨팅 시간, LLM 토큰과 같은 제품 사용량을 계량하고, 이 사용량 데이터를 가격 계산, 크레딧, 권한(entitlement), 청구서, 결제 수금으로 전환합니다. 범용 결제 API 위에 계량 및 청구 로직을 팀이 직접 구축할 필요가 없습니다.\n\n자체 청구 시스템으로 직접 사용(Lago Direct)하거나, 자사 고객을 위한 청구 기능을 제품에 내장(Lago Embedded)하는 방식으로 사용할 수 있으며, Mistral AI, Groq, Synthesia 등의 기업이 사용량 기반 및 AI 제품 청구를 위해 프로덕션에서 사용하고 있습니다. 이 프로젝트는 전통적인 SaaS 구독뿐 아니라 에이전틱·AI 제품의 수익화에도 초점을 맞추고 있습니다.\n\nLago는 고정 구독료가 아니라 계량된 사용량을 기준으로 청구해야 하는 팀, 또는 호스팅형 사용량 청구 플랫폼의 오픈소스 대안을 원하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Infraestructura de código abierto para facturación y medición basada en uso, que convierte el uso del producto —llamadas a la API, cómputo, tokens— en precios, facturas e ingresos.",
+      "longDescription": "Lago es infraestructura de facturación de código abierto para modelos de precios basados en uso y por suscripción. Mide el uso del producto —como llamadas a la API, tiempo de cómputo o tokens de LLM— y convierte esos datos de uso en cálculos de precios, créditos, derechos (entitlements), facturas y cobro de pagos, evitando que un equipo tenga que construir la lógica de medición y facturación sobre una API de pagos genérica.\n\nSe puede usar directamente como tu propio sistema de facturación (Lago Direct) o integrarse para gestionar la facturación de tus propios clientes (Lago Embedded), y se usa en producción en empresas como Mistral AI, Groq y Synthesia específicamente para facturación basada en uso y de productos de IA. El proyecto se posiciona tanto para la monetización de productos agénticos y de IA como para las suscripciones SaaS tradicionales.\n\nLago encaja en equipos que necesitan facturar según el uso medido en lugar de suscripciones fijas, o que quieren una alternativa de código abierto a las plataformas de facturación por uso alojadas."
+    },
+    "de": {
+      "description": "Open-Source-Infrastruktur für nutzungsbasierte Abrechnung und Metering, die Produktnutzung – API-Aufrufe, Rechenleistung, Tokens – in Preisgestaltung, Rechnungen und Umsatz umwandelt.",
+      "longDescription": "Lago ist Open-Source-Abrechnungsinfrastruktur für nutzungsbasierte und abonnementbasierte Preismodelle. Es misst die Produktnutzung – etwa API-Aufrufe, Rechenzeit oder LLM-Tokens – und wandelt diese Nutzungsdaten in Preisberechnungen, Guthaben, Nutzungsrechte, Rechnungen und Zahlungseinzug um, statt dass ein Team Metering- und Rechnungslogik auf einer generischen Zahlungs-API selbst aufbauen muss.\n\nEs kann direkt als eigenes Abrechnungssystem genutzt (Lago Direct) oder eingebettet werden, um die Abrechnung für die eigenen Kunden zu übernehmen (Lago Embedded), und wird produktiv unter anderem von Mistral AI, Groq und Synthesia speziell für nutzungsbasierte und KI-Produkt-Abrechnung eingesetzt. Das Projekt positioniert sich sowohl für die Monetarisierung agentischer und KI-Produkte als auch für klassische SaaS-Abonnements.\n\nLago eignet sich für Teams, die nach gemessener Nutzung statt nach Pauschalabonnements abrechnen müssen, oder die eine Open-Source-Alternative zu gehosteten Plattformen für nutzungsbasierte Abrechnung suchen."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Authelia",
+  "slug": "authelia",
+  "description": "Self-hosted single sign-on and two-factor authentication portal that sits in front of your reverse proxy to protect existing web apps.",
+  "longDescription": "Authelia is an open-source authentication and authorization server that adds single sign-on and two-factor authentication to existing web applications without requiring any changes to those applications. It works as a companion to a reverse proxy (such as nginx, Traefik, or Caddy): the proxy forwards authentication decisions to Authelia, which allows, denies, or redirects each request based on configurable access-control rules.\n\nIt supports OpenID Connect 1.0 and OAuth 2.0, multiple second-factor methods (FIDO2/WebAuthn security keys, TOTP authenticator apps, and Duo push notifications), and passwordless authentication via passkeys. Access rules can be scoped by subdomain, user, group membership, request path, method, or network, with a choice of one-factor or two-factor policy per rule, and it can be installed as a standalone binary, system package, or container, with an official Helm chart for Kubernetes.\n\nAuthelia is a fit for teams and self-hosters who want to add centralized login and 2FA to a set of existing web apps sitting behind a reverse proxy, rather than modifying each application to handle authentication itself.",
+  "repository": "https://github.com/authelia/authelia",
+  "website": "https://www.authelia.com",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "sso",
+    "2fa",
+    "mfa",
+    "reverse-proxy",
+    "self-hosted",
+    "authentication",
+    "oidc",
+    "oauth"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "自托管的单点登录与双因素认证门户，部署在反向代理前端，为现有 Web 应用提供保护。",
+      "longDescription": "Authelia 是一个开源的身份验证与授权服务器，可以在不修改现有 Web 应用的情况下为其添加单点登录和双因素认证。它作为反向代理（如 nginx、Traefik 或 Caddy）的配套组件运行：代理会将身份验证决策转发给 Authelia，由 Authelia 根据可配置的访问控制规则来允许、拒绝或重定向每个请求。\n\n它支持 OpenID Connect 1.0 和 OAuth 2.0，提供多种第二因素方式（FIDO2/WebAuthn 安全密钥、TOTP 身份验证器应用，以及 Duo 推送通知），并支持通过通行密钥（passkey）实现无密码认证。访问规则可以按子域名、用户、用户组、请求路径、方法或网络进行限定，并可以针对每条规则选择单因素或双因素策略；它可以作为独立二进制文件、系统软件包或容器安装，并提供官方 Helm Chart 用于 Kubernetes 部署。\n\nAuthelia 适合那些希望为反向代理背后的一组现有 Web 应用添加集中式登录和双因素认证、而不想逐一修改每个应用自行处理身份验证的团队和自托管用户。"
+    },
+    "ja": {
+      "description": "リバースプロキシの前段に置いて既存のWebアプリを保護する、セルフホスト型のシングルサインオン・二要素認証ポータルです。",
+      "longDescription": "Authelia は、既存の Web アプリケーションを一切変更することなく、シングルサインオンと二要素認証を追加できるオープンソースの認証・認可サーバーです。リバースプロキシ(nginx、Traefik、Caddy など)のコンパニオンとして動作し、プロキシが認証判定を Authelia に転送すると、Authelia は設定可能なアクセス制御ルールに基づいて各リクエストを許可、拒否、またはリダイレクトします。\n\nOpenID Connect 1.0 と OAuth 2.0 に対応し、複数の第二要素の方式(FIDO2/WebAuthn セキュリティキー、TOTP 認証アプリ、Duo によるプッシュ通知)と、パスキーによるパスワードレス認証をサポートします。アクセスルールはサブドメイン、ユーザー、グループメンバーシップ、リクエストパス、メソッド、ネットワークの単位で指定でき、ルールごとに1要素または2要素のポリシーを選択できます。スタンドアロンバイナリ、システムパッケージ、コンテナとしてインストールでき、Kubernetes 向けの公式 Helm チャートも用意されています。\n\nAuthelia は、各アプリケーションを個別に変更して認証処理を行わせるのではなく、リバースプロキシの背後にある既存の Web アプリ群に対して一元的なログインと二要素認証を追加したいチームやセルフホストユーザーに向いています。"
+    },
+    "ko": {
+      "description": "리버스 프록시 앞단에 배치해 기존 웹 앱을 보호하는 셀프 호스팅 싱글 사인온·2단계 인증 포털입니다.",
+      "longDescription": "Authelia는 기존 웹 애플리케이션을 전혀 수정하지 않고도 싱글 사인온과 2단계 인증을 추가할 수 있는 오픈소스 인증·인가 서버입니다. nginx, Traefik, Caddy 같은 리버스 프록시의 동반 서비스로 동작하며, 프록시가 인증 판단을 Authelia에 전달하면 Authelia는 설정 가능한 접근 제어 규칙에 따라 각 요청을 허용, 거부, 또는 리디렉션합니다.\n\nOpenID Connect 1.0과 OAuth 2.0을 지원하며, 여러 2차 인증 방식(FIDO2/WebAuthn 보안 키, TOTP 인증 앱, Duo 푸시 알림)과 패스키를 통한 비밀번호 없는 인증을 지원합니다. 접근 규칙은 서브도메인, 사용자, 그룹 멤버십, 요청 경로, 메서드, 네트워크 단위로 지정할 수 있으며 규칙마다 1단계 또는 2단계 정책을 선택할 수 있습니다. 독립 실행형 바이너리, 시스템 패키지, 컨테이너로 설치할 수 있고, Kubernetes용 공식 Helm 차트도 제공됩니다.\n\nAuthelia는 각 애플리케이션을 개별적으로 수정해 인증을 처리하게 하는 대신, 리버스 프록시 뒤에 있는 기존 웹 앱들에 중앙화된 로그인과 2단계 인증을 추가하고 싶은 팀과 셀프 호스팅 사용자에게 적합합니다."
+    },
+    "es": {
+      "description": "Portal de inicio de sesión único y autenticación de dos factores autoalojado que se sitúa delante de tu reverse proxy para proteger apps web existentes.",
+      "longDescription": "Authelia es un servidor de autenticación y autorización de código abierto que añade inicio de sesión único y autenticación de dos factores a aplicaciones web existentes sin requerir ningún cambio en dichas aplicaciones. Funciona como complemento de un reverse proxy (como nginx, Traefik o Caddy): el proxy reenvía las decisiones de autenticación a Authelia, que permite, deniega o redirige cada solicitud según reglas de control de acceso configurables.\n\nEs compatible con OpenID Connect 1.0 y OAuth 2.0, múltiples métodos de segundo factor (llaves de seguridad FIDO2/WebAuthn, apps autenticadoras TOTP y notificaciones push de Duo), y autenticación sin contraseña mediante passkeys. Las reglas de acceso se pueden delimitar por subdominio, usuario, pertenencia a grupo, ruta de la solicitud, método o red, con la opción de elegir una política de uno o dos factores por regla, y se puede instalar como binario independiente, paquete del sistema o contenedor, con un Helm Chart oficial para Kubernetes.\n\nAuthelia encaja en equipos y usuarios que se autoalojan y quieren añadir inicio de sesión centralizado y 2FA a un conjunto de apps web existentes detrás de un reverse proxy, en lugar de modificar cada aplicación para que gestione la autenticación por sí misma."
+    },
+    "de": {
+      "description": "Selbst gehostetes Single-Sign-on- und Zwei-Faktor-Authentifizierungsportal, das deinem Reverse Proxy vorgeschaltet wird, um bestehende Webanwendungen zu schützen.",
+      "longDescription": "Authelia ist ein Open-Source-Server für Authentifizierung und Autorisierung, der bestehenden Webanwendungen Single Sign-on und Zwei-Faktor-Authentifizierung hinzufügt, ohne dass diese Anwendungen selbst geändert werden müssen. Er arbeitet als Begleiter eines Reverse Proxys (z. B. nginx, Traefik oder Caddy): Der Proxy leitet Authentifizierungsentscheidungen an Authelia weiter, das jede Anfrage anhand konfigurierbarer Zugriffsregeln erlaubt, ablehnt oder umleitet.\n\nEs unterstützt OpenID Connect 1.0 und OAuth 2.0, mehrere Zwei-Faktor-Methoden (FIDO2/WebAuthn-Sicherheitsschlüssel, TOTP-Authenticator-Apps und Duo-Push-Benachrichtigungen) sowie passwortlose Authentifizierung über Passkeys. Zugriffsregeln lassen sich nach Subdomain, Benutzer, Gruppenzugehörigkeit, Anfragepfad, Methode oder Netzwerk eingrenzen, mit wählbarer Ein- oder Zwei-Faktor-Richtlinie pro Regel, und die Installation ist als eigenständige Binärdatei, Systempaket oder Container möglich, inklusive offiziellem Helm-Chart für Kubernetes.\n\nAuthelia eignet sich für Teams und Self-Hoster, die einer Reihe bestehender Webanwendungen hinter einem Reverse Proxy zentrales Login und 2FA hinzufügen möchten, statt jede Anwendung einzeln für die Authentifizierung anzupassen."
+    }
+  }
+}

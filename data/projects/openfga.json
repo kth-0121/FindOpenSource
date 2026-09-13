@@ -1,0 +1,47 @@
+{
+  "name": "OpenFGA",
+  "slug": "openfga",
+  "description": "Relationship-based authorization engine inspired by Google Zanzibar, for modeling and enforcing fine-grained access control as a standalone service.",
+  "longDescription": "OpenFGA is a high-performance authorization and permission engine inspired by Google's Zanzibar paper on relationship-based access control. Rather than embedding authorization logic in application code, OpenFGA runs as a standalone service that applications query over HTTP or gRPC APIs to check whether a given user has permission to perform a given action on a given resource, based on a relationship model you define.\n\nIt supports multiple storage backends (in-memory, PostgreSQL, MySQL, and SQLite in beta), ships official SDKs for Java, Node.js, Go, Python, and .NET, and includes a CLI, a Terraform provider for configuring servers as code, and a browser-based Playground for modeling and testing authorization rules. It can also be embedded directly as a Go library rather than run as a separate service. OpenFGA is used in production by companies including Auth0, Grafana Labs, Canonical, and Docker.\n\nIt's a fit for teams that need fine-grained, relationship-based authorization (for example, nested groups, shared documents, or org-level permissions) as a queryable service, rather than authentication or a simpler role-based access-control library.",
+  "repository": "https://github.com/openfga/openfga",
+  "website": "https://openfga.dev",
+  "documentation": "https://openfga.dev/docs",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "authorization",
+    "fine-grained-access",
+    "zanzibar",
+    "permissions",
+    "access-control"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "受 Google Zanzibar 启发的关系型授权引擎，以独立服务的形式对细粒度访问控制进行建模和执行。",
+      "longDescription": "OpenFGA 是一个高性能授权与权限引擎，其设计灵感来自 Google 关于关系型访问控制的 Zanzibar 论文。它不是将授权逻辑嵌入应用代码，而是以独立服务的形式运行，应用通过 HTTP 或 gRPC API 向其查询，基于你定义的关系模型来判断某个用户是否有权限对某个资源执行某项操作。\n\n它支持多种存储后端（内存、PostgreSQL、MySQL，以及处于测试阶段的 SQLite），提供 Java、Node.js、Go、Python 和 .NET 的官方 SDK，并包含一个 CLI、一个用于以代码方式配置服务器的 Terraform provider，以及一个基于浏览器的 Playground，用于建模和测试授权规则。它也可以直接作为 Go 库嵌入使用，而不是作为独立服务运行。OpenFGA 已被 Auth0、Grafana Labs、Canonical、Docker 等公司应用于生产环境。\n\n它适合那些需要以可查询服务的形式实现细粒度、基于关系的授权（例如嵌套群组、共享文档或组织级权限）的团队，而不是寻找身份验证或更简单的基于角色的访问控制库。"
+    },
+    "ja": {
+      "description": "Google Zanzibar にインスパイアされたリレーションシップベースの認可エンジンで、きめ細かなアクセス制御を独立したサービスとしてモデル化・実行できます。",
+      "longDescription": "OpenFGA は、リレーションシップベースのアクセス制御に関する Google の Zanzibar 論文にインスパイアされた、高性能な認可・権限エンジンです。認可ロジックをアプリケーションコードに組み込むのではなく、OpenFGA は独立したサービスとして動作し、アプリケーションは HTTP または gRPC API 経由でクエリを送り、定義したリレーションシップモデルに基づいて、あるユーザーがあるリソースに対してある操作を行う権限を持つかどうかを確認します。\n\n複数のストレージバックエンド(インメモリ、PostgreSQL、MySQL、ベータ版の SQLite)をサポートし、Java、Node.js、Go、Python、.NET 向けの公式 SDK を提供するほか、CLI、サーバーをコードとして設定するための Terraform プロバイダー、ブラウザベースで認可ルールをモデル化・テストできる Playground も含まれています。独立したサービスとして実行する代わりに、Go ライブラリとして直接組み込むこともできます。OpenFGA は Auth0、Grafana Labs、Canonical、Docker などの企業で本番環境において利用されています。\n\n認証やよりシンプルなロールベースのアクセス制御ライブラリではなく、きめ細かでリレーションシップベースの認可(例えば、ネストしたグループ、共有ドキュメント、組織レベルの権限など)をクエリ可能なサービスとして必要とするチームに向いています。"
+    },
+    "ko": {
+      "description": "Google Zanzibar에서 영감을 받은 관계 기반 인가 엔진으로, 세밀한 접근 제어를 독립 서비스 형태로 모델링하고 적용합니다.",
+      "longDescription": "OpenFGA는 관계 기반 접근 제어를 다룬 Google의 Zanzibar 논문에서 영감을 받은 고성능 인가·권한 엔진입니다. 인가 로직을 애플리케이션 코드에 내장하는 대신, OpenFGA는 독립 서비스로 실행되며, 애플리케이션은 HTTP 또는 gRPC API를 통해 쿼리를 보내 여러분이 정의한 관계 모델을 기반으로 특정 사용자가 특정 리소스에 대해 특정 작업을 수행할 권한이 있는지 확인합니다.\n\n여러 스토리지 백엔드(인메모리, PostgreSQL, MySQL, 베타 단계의 SQLite)를 지원하며, Java, Node.js, Go, Python, .NET용 공식 SDK를 제공하고, CLI, 서버를 코드로 구성할 수 있는 Terraform 프로바이더, 브라우저 기반으로 인가 규칙을 모델링하고 테스트할 수 있는 Playground도 포함되어 있습니다. 별도 서비스로 실행하는 대신 Go 라이브러리로 직접 임베드할 수도 있습니다. OpenFGA는 Auth0, Grafana Labs, Canonical, Docker 등의 기업에서 프로덕션에 사용되고 있습니다.\n\n인증이나 더 단순한 역할 기반 접근 제어 라이브러리가 아니라, 중첩된 그룹, 공유 문서, 조직 단위 권한처럼 세밀하고 관계 기반적인 인가를 쿼리 가능한 서비스로 필요로 하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Motor de autorización basado en relaciones inspirado en Google Zanzibar, para modelar y aplicar control de acceso granular como servicio independiente.",
+      "longDescription": "OpenFGA es un motor de autorización y permisos de alto rendimiento inspirado en el paper Zanzibar de Google sobre control de acceso basado en relaciones. En lugar de incrustar la lógica de autorización en el código de la aplicación, OpenFGA se ejecuta como un servicio independiente al que las aplicaciones consultan mediante APIs HTTP o gRPC para comprobar si un usuario determinado tiene permiso para realizar una acción determinada sobre un recurso determinado, según el modelo de relaciones que definas.\n\nSoporta múltiples backends de almacenamiento (en memoria, PostgreSQL, MySQL y SQLite en beta), incluye SDKs oficiales para Java, Node.js, Go, Python y .NET, y ofrece una CLI, un proveedor de Terraform para configurar servidores como código, y un Playground basado en navegador para modelar y probar reglas de autorización. También se puede incrustar directamente como biblioteca de Go en lugar de ejecutarse como servicio independiente. OpenFGA se usa en producción en empresas como Auth0, Grafana Labs, Canonical y Docker.\n\nEncaja en equipos que necesitan autorización granular y basada en relaciones (por ejemplo, grupos anidados, documentos compartidos o permisos a nivel de organización) como servicio consultable, en lugar de autenticación o una biblioteca más simple de control de acceso basado en roles."
+    },
+    "de": {
+      "description": "Beziehungsbasierte Autorisierungs-Engine, inspiriert von Google Zanzibar, zum Modellieren und Durchsetzen feingranularer Zugriffskontrolle als eigenständiger Dienst.",
+      "longDescription": "OpenFGA ist eine leistungsstarke Autorisierungs- und Berechtigungs-Engine, inspiriert vom Zanzibar-Paper von Google zu beziehungsbasierter Zugriffskontrolle. Statt Autorisierungslogik in den Anwendungscode einzubetten, läuft OpenFGA als eigenständiger Dienst, den Anwendungen über HTTP- oder gRPC-APIs abfragen, um zu prüfen, ob ein bestimmter Benutzer die Berechtigung hat, eine bestimmte Aktion an einer bestimmten Ressource auszuführen – basierend auf einem von dir definierten Beziehungsmodell.\n\nEs unterstützt mehrere Storage-Backends (In-Memory, PostgreSQL, MySQL und SQLite in Beta), liefert offizielle SDKs für Java, Node.js, Go, Python und .NET und enthält eine CLI, einen Terraform-Provider zur Konfiguration von Servern als Code sowie einen browserbasierten Playground zum Modellieren und Testen von Autorisierungsregeln. Es lässt sich auch direkt als Go-Bibliothek einbetten, statt als separater Dienst zu laufen. OpenFGA wird produktiv unter anderem bei Auth0, Grafana Labs, Canonical und Docker eingesetzt.\n\nEs eignet sich für Teams, die feingranulare, beziehungsbasierte Autorisierung (etwa verschachtelte Gruppen, geteilte Dokumente oder Berechtigungen auf Organisationsebene) als abfragbaren Dienst benötigen, statt Authentifizierung oder eine einfachere rollenbasierte Zugriffskontroll-Bibliothek."
+    }
+  }
+}

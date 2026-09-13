@@ -1,0 +1,49 @@
+{
+  "name": "Zitadel",
+  "slug": "zitadel",
+  "description": "Cloud-native identity and access management platform with multi-tenancy, SSO, MFA, and OIDC/SAML support, usable self-hosted or as a managed service.",
+  "longDescription": "ZITADEL is an open-source identity and access management platform built around a strict multi-tenant hierarchy - Identity System, Organizations, and Projects - with isolated data and policy scoping at each level. It provides single sign-on, multi-factor authentication, passkeys, OIDC, SAML, and SCIM out of the box, and every resource and action is available through gRPC, connectRPC, and REST/HTTP APIs.\n\nIts architecture writes every mutation as an immutable event, giving a comprehensive, API-accessible audit trail rather than a set of selectively logged actions. ZITADEL Cloud and self-hosted ZITADEL run the same codebase, and the project is designed for zero-downtime updates and horizontal scalability without relying on external session stores.\n\nZITADEL fits teams building multi-tenant SaaS or B2B platforms that need native support for organizations and instance-level isolation, rather than bolting multi-tenancy onto a single-tenant identity system.",
+  "repository": "https://github.com/zitadel/zitadel",
+  "website": "https://zitadel.com",
+  "documentation": "https://zitadel.com/docs/",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "identity",
+    "iam",
+    "multi-tenancy",
+    "oidc",
+    "saml",
+    "sso",
+    "authentication"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-09-13",
+  "translations": {
+    "zh-CN": {
+      "description": "云原生身份与访问管理平台，支持多租户、单点登录、多因素认证以及 OIDC/SAML，既可自托管也可作为托管服务使用。",
+      "longDescription": "ZITADEL 是一个开源的身份与访问管理平台，围绕严格的多租户层级结构（身份系统、组织、项目）构建，每一层级都具有隔离的数据和策略范围。它开箱即用地提供单点登录、多因素认证、通行密钥（passkey）、OIDC、SAML 和 SCIM，所有资源和操作都可以通过 gRPC、connectRPC 以及 REST/HTTP API 访问。\n\n其架构将每一次数据变更都记录为不可变事件，从而提供全面的、可通过 API 访问的审计追踪，而不是仅记录部分选定操作。ZITADEL Cloud 和自托管版本的 ZITADEL 运行相同的代码库，该项目在设计上支持零停机更新和水平扩展，且不依赖外部会话存储。\n\nZITADEL 适合那些正在构建多租户 SaaS 或 B2B 平台、需要原生支持组织结构和实例级隔离的团队，而不是在单租户身份系统上强行叠加多租户能力。"
+    },
+    "ja": {
+      "description": "マルチテナンシー、SSO、MFA、OIDC/SAML に対応したクラウドネイティブな ID・アクセス管理プラットフォームで、セルフホストとマネージドサービスのどちらでも利用できます。",
+      "longDescription": "ZITADEL は、アイデンティティシステム、組織、プロジェクトという厳格なマルチテナント階層を中心に構築されたオープンソースの ID・アクセス管理プラットフォームで、各階層でデータとポリシーが分離されています。シングルサインオン、多要素認証、パスキー、OIDC、SAML、SCIM を標準で提供し、すべてのリソースとアクションは gRPC、connectRPC、REST/HTTP API を通じて利用できます。\n\nそのアーキテクチャは、すべての変更を不変のイベントとして記録するため、一部の操作だけを選択的にログするのではなく、包括的で API からアクセス可能な監査証跡を実現します。ZITADEL Cloud とセルフホスト版の ZITADEL は同じコードベースで動作し、外部のセッションストアに依存せずゼロダウンタイムでの更新と水平スケーラビリティを実現するよう設計されています。\n\nZITADEL は、単一テナント向けの ID システムにマルチテナンシーを後付けするのではなく、組織単位とインスタンス単位の分離をネイティブにサポートする必要がある、マルチテナント SaaS や B2B プラットフォームを構築するチームに向いています。"
+    },
+    "ko": {
+      "description": "멀티테넌시, SSO, MFA, OIDC/SAML을 지원하는 클라우드 네이티브 아이덴티티·접근 관리 플랫폼으로, 셀프 호스팅과 관리형 서비스 모두 사용할 수 있습니다.",
+      "longDescription": "ZITADEL은 아이덴티티 시스템, 조직, 프로젝트라는 엄격한 멀티테넌트 계층 구조를 중심으로 구축된 오픈소스 아이덴티티·접근 관리 플랫폼으로, 각 계층마다 격리된 데이터와 정책 범위를 갖습니다. 싱글 사인온, 다단계 인증, 패스키, OIDC, SAML, SCIM을 기본으로 제공하며, 모든 리소스와 작업은 gRPC, connectRPC, REST/HTTP API를 통해 이용할 수 있습니다.\n\n아키텍처는 모든 변경 사항을 불변 이벤트로 기록하므로, 선택적으로 로깅된 일부 작업이 아니라 API로 접근 가능한 포괄적인 감사 추적을 제공합니다. ZITADEL Cloud와 셀프 호스팅 ZITADEL은 동일한 코드베이스로 동작하며, 외부 세션 저장소에 의존하지 않고 무중단 업데이트와 수평 확장이 가능하도록 설계되었습니다.\n\nZITADEL은 단일 테넌트용 아이덴티티 시스템에 멀티테넌시를 덧붙이는 대신, 조직과 인스턴스 단위 격리를 네이티브로 지원해야 하는 멀티테넌트 SaaS나 B2B 플랫폼을 구축하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Plataforma cloud-native de gestión de identidad y acceso con multi-tenancy, SSO, MFA y soporte OIDC/SAML, usable autoalojada o como servicio gestionado.",
+      "longDescription": "ZITADEL es una plataforma de código abierto de gestión de identidad y acceso construida en torno a una jerarquía multi-tenant estricta —Sistema de Identidad, Organizaciones y Proyectos—, con datos y alcance de políticas aislados en cada nivel. Ofrece inicio de sesión único, autenticación multifactor, passkeys, OIDC, SAML y SCIM de serie, y todos los recursos y acciones están disponibles a través de APIs gRPC, connectRPC y REST/HTTP.\n\nSu arquitectura registra cada mutación como un evento inmutable, lo que ofrece un rastro de auditoría completo y accesible por API, en lugar de un conjunto de acciones registradas de forma selectiva. ZITADEL Cloud y ZITADEL autoalojado ejecutan la misma base de código, y el proyecto está diseñado para actualizaciones sin tiempo de inactividad y escalabilidad horizontal sin depender de almacenes de sesión externos.\n\nZITADEL encaja en equipos que construyen plataformas SaaS o B2B multi-tenant que necesitan soporte nativo para organizaciones y aislamiento a nivel de instancia, en lugar de añadir multi-tenancy a un sistema de identidad de un solo tenant."
+    },
+    "de": {
+      "description": "Cloud-native Identity- und Access-Management-Plattform mit Multi-Tenancy, SSO, MFA und OIDC-/SAML-Unterstützung, nutzbar selbst gehostet oder als verwalteter Dienst.",
+      "longDescription": "ZITADEL ist eine Open-Source-Plattform für Identity- und Access-Management, die um eine strikte Multi-Tenant-Hierarchie – Identity System, Organisationen und Projekte – herum aufgebaut ist, mit isolierten Daten und Richtlinien-Geltungsbereichen auf jeder Ebene. Sie bietet Single Sign-on, Multi-Faktor-Authentifizierung, Passkeys, OIDC, SAML und SCIM von Haus aus, und jede Ressource und Aktion ist über gRPC-, connectRPC- und REST-/HTTP-APIs verfügbar.\n\nDie Architektur schreibt jede Änderung als unveränderliches Event, was einen umfassenden, per API zugänglichen Audit-Trail ermöglicht statt einer Reihe selektiv protokollierter Aktionen. ZITADEL Cloud und selbst gehostetes ZITADEL laufen auf derselben Codebasis, und das Projekt ist auf unterbrechungsfreie Updates und horizontale Skalierbarkeit ausgelegt, ohne auf externe Session-Speicher angewiesen zu sein.\n\nZITADEL eignet sich für Teams, die Multi-Tenant-SaaS- oder B2B-Plattformen bauen und native Unterstützung für Organisationen und Instanz-Isolation benötigen, statt Multi-Tenancy nachträglich an ein Single-Tenant-Identitätssystem anzuflanschen."
+    }
+  }
+}
