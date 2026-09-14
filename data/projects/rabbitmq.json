@@ -1,0 +1,47 @@
+{
+  "name": "RabbitMQ",
+  "slug": "rabbitmq",
+  "description": "Mature, widely deployed message broker for decoupling services with reliable queues, routing, and pub/sub messaging across AMQP, MQTT, and STOMP.",
+  "longDescription": "RabbitMQ is a general-purpose message broker that lets applications communicate asynchronously by publishing messages to queues and exchanges instead of calling each other directly. It implements multiple messaging protocols - AMQP 0-9-1, AMQP 1.0, MQTT, and STOMP - so producers and consumers written in different languages and frameworks can exchange messages through the same broker.\n\nIts exchange-and-binding routing model supports common messaging patterns out of the box: simple work queues for distributing background jobs across workers, publish/subscribe fan-out to multiple consumers, and topic-based routing for more selective delivery. RabbitMQ clusters for high availability, and its management UI and CLI tools make queue depth, consumer counts, and message flow easy to inspect in production.\n\nRabbitMQ is a fit for teams that need a traditional, battle-tested task queue or message broker to decouple services and smooth out load - offloading slow work to background consumers, for example - rather than a distributed log built for high-throughput event streaming and replay, which is closer to what Apache Kafka (also in this catalog) is designed for.",
+  "repository": "https://github.com/rabbitmq/rabbitmq-server",
+  "website": "https://www.rabbitmq.com/",
+  "documentation": "https://www.rabbitmq.com/docs",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "message-queue",
+    "message-broker",
+    "pubsub",
+    "amqp",
+    "task-queue"
+  ],
+  "languages": [
+    "Erlang"
+  ],
+  "license": "MPL-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "成熟且被广泛部署的消息代理，通过可靠的队列、路由和发布/订阅消息机制解耦服务，支持 AMQP、MQTT 和 STOMP。",
+      "longDescription": "RabbitMQ 是一个通用消息代理，让应用程序可以通过向队列和交换机发布消息、而不是直接相互调用来进行异步通信。它实现了多种消息协议——AMQP 0-9-1、AMQP 1.0、MQTT 和 STOMP——因此使用不同语言和框架编写的生产者与消费者都可以通过同一个代理交换消息。\n\n它基于交换机与绑定的路由模型，开箱即用地支持常见的消息模式：用于在多个工作进程之间分发后台任务的简单工作队列、面向多个消费者的发布/订阅扇出，以及用于更精细投递的基于主题的路由。RabbitMQ 支持集群以实现高可用，其管理界面和命令行工具也让队列深度、消费者数量和消息流在生产环境中易于查看。\n\nRabbitMQ 适合那些需要传统的、经过实战检验的任务队列或消息代理来解耦服务、平滑负载（例如将耗时任务转交给后台消费者处理）的团队，而不是像目录中的 Apache Kafka 那样，为高吞吐事件流和回放而构建的分布式日志系统。"
+    },
+    "ja": {
+      "description": "AMQP、MQTT、STOMP に対応し、信頼性の高いキューとルーティング、Pub/Sub メッセージングでサービスを疎結合にする、成熟した広く導入されているメッセージブローカーです。",
+      "longDescription": "RabbitMQ は、アプリケーションが直接互いを呼び出す代わりに、キューやエクスチェンジにメッセージを発行することで非同期に通信できるようにする汎用メッセージブローカーです。AMQP 0-9-1、AMQP 1.0、MQTT、STOMP という複数のメッセージングプロトコルを実装しているため、異なる言語やフレームワークで書かれたプロデューサーとコンシューマーが同じブローカーを介してメッセージをやり取りできます。\n\nエクスチェンジとバインディングによるルーティングモデルは、一般的なメッセージングパターンを標準でサポートします。ワーカー間でバックグラウンドジョブを分散させるシンプルなワークキュー、複数のコンシューマーへのファンアウトを行う Pub/Sub、より選択的な配信のためのトピックベースのルーティングなどです。RabbitMQ は高可用性のためにクラスタを組むことができ、管理 UI と CLI ツールによって、キューの深さ、コンシューマー数、メッセージの流れを本番環境で簡単に確認できます。\n\nRabbitMQ は、サービスを疎結合にして負荷を平準化する――例えば時間のかかる処理をバックグラウンドのコンシューマーに任せる――ための、従来型で実績のあるタスクキューやメッセージブローカーを必要とするチームに向いています。高スループットなイベントストリーミングとリプレイのために構築された分散ログを求める場合は、カタログ内の Apache Kafka の方が近い選択肢になります。"
+    },
+    "ko": {
+      "description": "AMQP, MQTT, STOMP를 지원하며 신뢰할 수 있는 큐, 라우팅, 발행/구독 메시징으로 서비스를 분리하는 성숙하고 널리 사용되는 메시지 브로커입니다.",
+      "longDescription": "RabbitMQ는 애플리케이션이 서로 직접 호출하는 대신 큐와 익스체인지에 메시지를 발행함으로써 비동기적으로 통신할 수 있게 해주는 범용 메시지 브로커입니다. AMQP 0-9-1, AMQP 1.0, MQTT, STOMP 등 여러 메시징 프로토콜을 구현하고 있어, 서로 다른 언어와 프레임워크로 작성된 프로듀서와 컨슈머가 동일한 브로커를 통해 메시지를 주고받을 수 있습니다.\n\n익스체인지와 바인딩 기반 라우팅 모델은 일반적인 메시징 패턴을 기본으로 지원합니다. 워커들 사이에 백그라운드 작업을 분배하는 단순한 워크 큐, 여러 컨슈머에게 팬아웃하는 발행/구독, 더 선택적인 전달을 위한 토픽 기반 라우팅 등이 그것입니다. RabbitMQ는 고가용성을 위해 클러스터를 구성할 수 있으며, 관리 UI와 CLI 도구를 통해 프로덕션 환경에서 큐 길이, 컨슈머 수, 메시지 흐름을 쉽게 확인할 수 있습니다.\n\nRabbitMQ는 느린 작업을 백그라운드 컨슈머에 넘기는 식으로 서비스를 분리하고 부하를 완화할, 전통적이고 검증된 작업 큐 또는 메시지 브로커가 필요한 팀에 적합합니다. 반면 대용량 이벤트 스트리밍과 리플레이를 위해 만들어진 분산 로그가 필요하다면, 카탈로그에 함께 있는 Apache Kafka가 더 가까운 선택입니다."
+    },
+    "es": {
+      "description": "Bróker de mensajería maduro y ampliamente utilizado para desacoplar servicios con colas fiables, enrutamiento y mensajería pub/sub sobre AMQP, MQTT y STOMP.",
+      "longDescription": "RabbitMQ es un bróker de mensajería de propósito general que permite a las aplicaciones comunicarse de forma asíncrona publicando mensajes en colas e intercambios en lugar de llamarse directamente entre sí. Implementa varios protocolos de mensajería —AMQP 0-9-1, AMQP 1.0, MQTT y STOMP— de modo que productores y consumidores escritos en distintos lenguajes y frameworks pueden intercambiar mensajes a través del mismo bróker.\n\nSu modelo de enrutamiento basado en intercambios y bindings admite de serie los patrones de mensajería habituales: colas de trabajo sencillas para repartir tareas en segundo plano entre workers, difusión publicación/suscripción hacia múltiples consumidores, y enrutamiento basado en temas para una entrega más selectiva. RabbitMQ puede agruparse en clúster para alta disponibilidad, y su interfaz de gestión y herramientas de línea de comandos facilitan inspeccionar en producción la profundidad de las colas, el número de consumidores y el flujo de mensajes.\n\nRabbitMQ encaja en equipos que necesitan una cola de tareas o un bróker de mensajería tradicional y probado en producción para desacoplar servicios y suavizar la carga —por ejemplo, delegando trabajo lento a consumidores en segundo plano—, en lugar de un log distribuido construido para streaming de eventos de alto rendimiento y repetición, que es más cercano a lo que ofrece Apache Kafka (también en este catálogo)."
+    },
+    "de": {
+      "description": "Ausgereifter, weit verbreiteter Message-Broker zum Entkoppeln von Diensten mit zuverlässigen Warteschlangen, Routing und Pub/Sub-Messaging über AMQP, MQTT und STOMP.",
+      "longDescription": "RabbitMQ ist ein universeller Message-Broker, der es Anwendungen ermöglicht, asynchron zu kommunizieren, indem sie Nachrichten an Queues und Exchanges statt direkt aneinander senden. Er implementiert mehrere Messaging-Protokolle – AMQP 0-9-1, AMQP 1.0, MQTT und STOMP –, sodass Producer und Consumer, die in unterschiedlichen Sprachen und Frameworks geschrieben sind, über denselben Broker Nachrichten austauschen können.\n\nSein Routing-Modell aus Exchanges und Bindings unterstützt gängige Messaging-Muster von Haus aus: einfache Work-Queues zum Verteilen von Hintergrundaufgaben auf mehrere Worker, Publish/Subscribe-Fan-out an mehrere Consumer sowie themenbasiertes Routing für selektivere Zustellung. RabbitMQ lässt sich für Hochverfügbarkeit clustern, und die Management-Oberfläche sowie CLI-Tools machen Queue-Tiefe, Consumer-Anzahl und Nachrichtenfluss im Produktivbetrieb leicht einsehbar.\n\nRabbitMQ eignet sich für Teams, die eine klassische, bewährte Task-Queue oder einen Message-Broker benötigen, um Dienste zu entkoppeln und Last abzufedern – etwa indem langsame Arbeit an Hintergrund-Consumer ausgelagert wird –, statt eines verteilten Logs für hochdurchsatzfähiges Event-Streaming mit Replay, wofür eher Apache Kafka (ebenfalls in diesem Katalog) konzipiert ist."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "vLLM",
+  "slug": "vllm",
+  "description": "High-throughput, memory-efficient inference and serving engine for large language models, built for running LLMs in production at scale rather than on a single local machine.",
+  "longDescription": "vLLM is a library for fast LLM inference and serving, originally developed at UC Berkeley's Sky Computing Lab and now maintained by a large open-source community. Its core contribution is PagedAttention, a memory-management technique for the attention mechanism's key-value cache that lets it serve far more concurrent requests on the same GPU hardware than naive serving approaches, combined with continuous batching so incoming requests are processed efficiently as they arrive rather than waiting for a full batch.\n\nIt exposes an OpenAI-compatible API server, supports a wide range of open-weight models from Hugging Face, and includes quantization and speculative decoding options for further throughput and latency tuning.\n\nvLLM is a fit for teams deploying LLMs as a production service that needs to handle many concurrent users efficiently - a different tier than Ollama (also in this catalog), which is built for running a model locally for a single user rather than high-throughput multi-request serving.",
+  "repository": "https://github.com/vllm-project/vllm",
+  "website": "https://vllm.ai",
+  "documentation": "https://docs.vllm.ai/en/latest/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "llm-inference",
+    "model-serving",
+    "llm-serving",
+    "gpu-inference"
+  ],
+  "languages": [
+    "Python",
+    "CUDA"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "高吞吐、内存高效的大语言模型推理与服务引擎，专为大规模生产环境中运行 LLM 而设计，而非仅用于单机本地运行。",
+      "longDescription": "vLLM 是一个用于快速 LLM 推理与服务的库，最初由加州大学伯克利分校 Sky Computing Lab 开发，现由庞大的开源社区维护。它的核心贡献是 PagedAttention——一种针对注意力机制键值缓存的内存管理技术，相比朴素的服务方式，能在相同的 GPU 硬件上支持多得多的并发请求；再结合连续批处理（continuous batching），使新到达的请求能够高效处理，而不必等待凑够一整批。\n\n它对外暴露与 OpenAI 兼容的 API 服务，支持来自 Hugging Face 的广泛开放权重模型，并提供量化和推测解码（speculative decoding）等选项，用于进一步调优吞吐量和延迟。\n\nvLLM 适合那些将 LLM 部署为生产服务、需要高效处理大量并发用户的团队——这与目录中的 Ollama 属于不同层级：Ollama 是为单一用户在本地运行模型而构建的，而不是面向高吞吐、多请求并发的服务场景。"
+    },
+    "ja": {
+      "description": "大規模言語モデル向けの高スループットでメモリ効率に優れた推論・サービングエンジンで、単一のローカルマシンではなく、本番環境で大規模に LLM を運用するために作られています。",
+      "longDescription": "vLLM は、高速な LLM 推論・サービングのためのライブラリで、もともと UC バークレーの Sky Computing Lab で開発され、現在は大規模なオープンソースコミュニティによってメンテナンスされています。その中核となる貢献は PagedAttention です。これはアテンション機構のキー・バリューキャッシュに対するメモリ管理手法で、素朴なサービング手法と比べて、同じ GPU ハードウェア上ではるかに多くの同時リクエストを処理できるようにします。さらに継続的バッチ処理(continuous batching)と組み合わせることで、バッチが埋まるのを待つのではなく、到着したリクエストを効率的に処理します。\n\nOpenAI 互換の API サーバーを公開しており、Hugging Face の幅広いオープンウェイトモデルに対応しているほか、量子化や投機的デコーディングといったオプションにより、スループットとレイテンシをさらにチューニングできます。\n\nvLLM は、LLM を本番サービスとしてデプロイし、多数の同時ユーザーを効率的に処理する必要があるチームに向いています。カタログ内の Ollama とは異なる層に位置します。Ollama は高スループットなマルチリクエストサービングではなく、単一ユーザー向けにローカルでモデルを実行するために作られています。"
+    },
+    "ko": {
+      "description": "대규모 언어 모델을 위한 고처리량·메모리 효율적인 추론·서빙 엔진으로, 단일 로컬 머신이 아니라 프로덕션 환경에서 대규모로 LLM을 운영하기 위해 만들어졌습니다.",
+      "longDescription": "vLLM은 빠른 LLM 추론과 서빙을 위한 라이브러리로, 원래 UC 버클리의 Sky Computing Lab에서 개발되었으며 지금은 대규모 오픈소스 커뮤니티가 유지 관리하고 있습니다. 핵심 기여는 PagedAttention으로, 어텐션 메커니즘의 키-값 캐시에 대한 메모리 관리 기법인데, 단순한 서빙 방식에 비해 동일한 GPU 하드웨어에서 훨씬 더 많은 동시 요청을 처리할 수 있게 해줍니다. 여기에 연속 배치 처리(continuous batching)를 결합해, 배치가 다 찰 때까지 기다리지 않고 들어오는 요청을 효율적으로 처리합니다.\n\nOpenAI 호환 API 서버를 제공하며, Hugging Face의 다양한 오픈 웨이트 모델을 지원하고, 처리량과 지연 시간을 더 다듬을 수 있는 양자화 및 추측 디코딩(speculative decoding) 옵션도 포함합니다.\n\nvLLM은 LLM을 프로덕션 서비스로 배포하면서 많은 동시 사용자를 효율적으로 처리해야 하는 팀에 적합합니다. 카탈로그에 있는 Ollama와는 다른 계층으로, Ollama는 고처리량 다중 요청 서빙이 아니라 단일 사용자를 위해 로컬에서 모델을 실행하도록 만들어졌습니다."
+    },
+    "es": {
+      "description": "Motor de inferencia y servicio de alto rendimiento y eficiente en memoria para modelos de lenguaje grandes, pensado para ejecutar LLMs en producción a gran escala y no solo en una máquina local.",
+      "longDescription": "vLLM es una biblioteca para inferencia y servicio rápido de LLMs, desarrollada originalmente en el Sky Computing Lab de UC Berkeley y mantenida ahora por una gran comunidad de código abierto. Su aportación principal es PagedAttention, una técnica de gestión de memoria para la caché de clave-valor del mecanismo de atención que permite atender muchas más peticiones concurrentes en el mismo hardware de GPU que los enfoques de servicio ingenuos, combinada con batching continuo para que las peticiones entrantes se procesen de forma eficiente a medida que llegan, en lugar de esperar a completar un lote.\n\nExpone un servidor de API compatible con OpenAI, admite una amplia variedad de modelos de pesos abiertos de Hugging Face, e incluye opciones de cuantización y decodificación especulativa para ajustar aún más el rendimiento y la latencia.\n\nvLLM encaja en equipos que despliegan LLMs como servicio en producción y necesitan atender a muchos usuarios concurrentes de forma eficiente, un nivel distinto al de Ollama (también en este catálogo), que está pensado para ejecutar un modelo localmente para un solo usuario en lugar de servir múltiples peticiones con alto rendimiento."
+    },
+    "de": {
+      "description": "Durchsatzstarke, speichereffiziente Inferenz- und Serving-Engine für große Sprachmodelle, gebaut für den Betrieb von LLMs im großen Maßstab in Produktion statt nur auf einer einzelnen lokalen Maschine.",
+      "longDescription": "vLLM ist eine Bibliothek für schnelle LLM-Inferenz und -Serving, ursprünglich am Sky Computing Lab der UC Berkeley entwickelt und heute von einer großen Open-Source-Community gepflegt. Der zentrale Beitrag ist PagedAttention, eine Speicherverwaltungstechnik für den Key-Value-Cache des Attention-Mechanismus, die es ermöglicht, auf derselben GPU-Hardware weitaus mehr gleichzeitige Anfragen zu bedienen als naive Serving-Ansätze – kombiniert mit kontinuierlichem Batching, sodass eingehende Anfragen effizient verarbeitet werden, sobald sie eintreffen, statt auf einen vollen Batch zu warten.\n\nEs stellt einen OpenAI-kompatiblen API-Server bereit, unterstützt eine breite Palette offener Modelle von Hugging Face und bietet Quantisierung sowie spekulatives Decoding zur weiteren Optimierung von Durchsatz und Latenz.\n\nvLLM eignet sich für Teams, die LLMs als Produktionsdienst bereitstellen und viele gleichzeitige Nutzer effizient bedienen müssen – eine andere Ebene als Ollama (ebenfalls in diesem Katalog), das für den lokalen Betrieb eines Modells für einen einzelnen Nutzer gebaut ist und nicht für durchsatzstarkes Multi-Request-Serving."
+    }
+  }
+}

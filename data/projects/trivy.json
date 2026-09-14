@@ -1,0 +1,47 @@
+{
+  "name": "Trivy",
+  "slug": "trivy",
+  "description": "All-in-one security scanner for finding vulnerabilities, misconfigurations, exposed secrets, and license issues across container images, filesystems, repositories, and Kubernetes.",
+  "longDescription": "Trivy is a comprehensive security scanner from Aqua Security that checks a wide range of targets - container images, filesystems, remote Git repositories, virtual machine images, and running Kubernetes clusters - for security issues in one tool instead of separate scanners for each concern. Its scanners cover known vulnerabilities (CVEs) in OS packages and application dependencies, infrastructure-as-code misconfigurations, hardcoded secrets, and software license issues, and it can generate a software bill of materials (SBOM) for a scanned target.\n\nIt's commonly run as a CLI locally, as a container image, or wired into CI pipelines as a security gate that fails a build when it finds a vulnerability above a chosen severity threshold, and its broad language and platform coverage means most stacks are supported without extra plugins.\n\nTrivy is a fit for teams that want a single, fast scanner covering vulnerabilities, misconfigurations, and secrets across their whole software supply chain - complementing Open Policy Agent (also in this catalog), which enforces policy going forward, while Trivy finds what's already wrong in existing images, code, and infrastructure.",
+  "repository": "https://github.com/aquasecurity/trivy",
+  "website": "https://trivy.dev",
+  "documentation": "https://trivy.dev/latest/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "vulnerability-scanning",
+    "security-scanning",
+    "container-scanning",
+    "sbom",
+    "iac-scanning"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "一体化安全扫描器，可在容器镜像、文件系统、代码仓库和 Kubernetes 中查找漏洞、错误配置、泄露的密钥以及许可证问题。",
+      "longDescription": "Trivy 是 Aqua Security 推出的综合性安全扫描器，能够对众多目标——容器镜像、文件系统、远程 Git 仓库、虚拟机镜像以及正在运行的 Kubernetes 集群——进行安全检查，用一个工具取代针对每类问题分别使用不同扫描器的做法。它的扫描能力涵盖操作系统软件包和应用依赖中的已知漏洞（CVE）、基础设施即代码的错误配置、硬编码密钥，以及软件许可证问题，还可以为扫描目标生成软件物料清单（SBOM）。\n\n它通常作为本地 CLI 工具运行，也可以作为容器镜像使用，或接入 CI 流水线，当发现的漏洞严重程度超过设定阈值时使构建失败，充当安全门禁；其广泛的语言和平台覆盖意味着大多数技术栈无需额外插件即可获得支持。\n\nTrivy 适合那些希望用单一、快速的扫描器覆盖整个软件供应链中漏洞、错误配置和密钥问题的团队——与目录中的 Open Policy Agent 形成互补：OPA 负责对未来的行为强制执行策略，而 Trivy 则负责发现现有镜像、代码和基础设施中已经存在的问题。"
+    },
+    "ja": {
+      "description": "コンテナイメージ、ファイルシステム、リポジトリ、Kubernetes にまたがって、脆弱性・設定ミス・漏えいしたシークレット・ライセンス上の問題を見つけるオールインワンのセキュリティスキャナーです。",
+      "longDescription": "Trivy は Aqua Security が提供する包括的なセキュリティスキャナーで、コンテナイメージ、ファイルシステム、リモートの Git リポジトリ、仮想マシンイメージ、稼働中の Kubernetes クラスタといった幅広い対象について、懸念事項ごとに別々のスキャナーを使うのではなく、1つのツールでセキュリティ上の問題をチェックできます。そのスキャナーは、OS パッケージやアプリケーション依存関係の既知の脆弱性（CVE）、Infrastructure as Code の設定ミス、ハードコードされたシークレット、ソフトウェアライセンスの問題をカバーしており、スキャン対象のソフトウェア部品表（SBOM）を生成することもできます。\n\nローカルで CLI として実行したり、コンテナイメージとして使ったり、選択した重大度のしきい値を超える脆弱性が見つかった場合にビルドを失敗させるセキュリティゲートとして CI パイプラインに組み込んだりするのが一般的な使い方で、幅広い言語・プラットフォームに対応しているため、追加のプラグインなしでほとんどのスタックをサポートします。\n\nTrivy は、ソフトウェアサプライチェーン全体にわたる脆弱性・設定ミス・シークレットを、単一の高速なスキャナーでカバーしたいチームに向いています。(同じくカタログにある) Open Policy Agent を補完する存在で、OPA が今後の挙動に対してポリシーを強制するのに対し、Trivy は既存のイメージ・コード・インフラの中にすでに存在する問題を見つけ出します。"
+    },
+    "ko": {
+      "description": "컨테이너 이미지, 파일시스템, 저장소, Kubernetes 전반에서 취약점, 잘못된 설정, 노출된 시크릿, 라이선스 문제를 찾아내는 올인원 보안 스캐너입니다.",
+      "longDescription": "Trivy는 Aqua Security가 만든 종합 보안 스캐너로, 컨테이너 이미지, 파일시스템, 원격 Git 저장소, 가상 머신 이미지, 실행 중인 Kubernetes 클러스터 등 다양한 대상을 각 항목별로 서로 다른 스캐너를 쓰는 대신 하나의 도구로 점검할 수 있게 해줍니다. 스캐너는 OS 패키지와 애플리케이션 의존성의 알려진 취약점(CVE), 인프라 코드(IaC)의 잘못된 설정, 하드코딩된 시크릿, 소프트웨어 라이선스 문제를 다루며, 스캔 대상에 대한 소프트웨어 명세서(SBOM)도 생성할 수 있습니다.\n\n로컬에서 CLI로 실행하거나 컨테이너 이미지로 사용하는 것은 물론, 선택한 심각도 기준을 넘는 취약점이 발견되면 빌드를 실패시키는 보안 게이트로 CI 파이프라인에 연결하는 경우가 많으며, 폭넓은 언어·플랫폼 지원 덕분에 대부분의 스택을 별도 플러그인 없이 지원합니다.\n\nTrivy는 소프트웨어 공급망 전체에 걸친 취약점, 잘못된 설정, 시크릿을 빠르고 단일한 스캐너로 커버하고 싶은 팀에 적합합니다. (역시 카탈로그에 있는) Open Policy Agent를 보완하는 관계로, OPA가 앞으로의 동작에 대해 정책을 강제한다면 Trivy는 기존 이미지, 코드, 인프라에 이미 존재하는 문제를 찾아냅니다."
+    },
+    "es": {
+      "description": "Escáner de seguridad todo en uno para encontrar vulnerabilidades, configuraciones incorrectas, secretos expuestos y problemas de licencias en imágenes de contenedores, sistemas de archivos, repositorios y Kubernetes.",
+      "longDescription": "Trivy es un escáner de seguridad integral de Aqua Security que revisa una amplia variedad de objetivos —imágenes de contenedores, sistemas de archivos, repositorios Git remotos, imágenes de máquinas virtuales y clústeres de Kubernetes en ejecución— en busca de problemas de seguridad con una sola herramienta, en lugar de usar escáneres distintos para cada aspecto. Sus escáneres cubren vulnerabilidades conocidas (CVE) en paquetes del sistema operativo y dependencias de aplicaciones, configuraciones incorrectas de infraestructura como código, secretos incrustados en el código y problemas de licencias de software, y puede generar una lista de materiales de software (SBOM) para el objetivo analizado.\n\nSuele ejecutarse como CLI en local, como imagen de contenedor, o integrarse en pipelines de CI como una puerta de seguridad que hace fallar la build cuando encuentra una vulnerabilidad por encima de un umbral de severidad elegido; su amplia cobertura de lenguajes y plataformas hace que la mayoría de los stacks estén soportados sin plugins adicionales.\n\nTrivy encaja en equipos que quieren un único escáner rápido que cubra vulnerabilidades, configuraciones incorrectas y secretos en toda su cadena de suministro de software, complementando a Open Policy Agent (también en este catálogo), que aplica políticas de cara al futuro, mientras que Trivy encuentra lo que ya está mal en las imágenes, el código y la infraestructura existentes."
+    },
+    "de": {
+      "description": "All-in-one-Sicherheitsscanner zum Auffinden von Schwachstellen, Fehlkonfigurationen, offengelegten Geheimnissen und Lizenzproblemen in Container-Images, Dateisystemen, Repositories und Kubernetes.",
+      "longDescription": "Trivy ist ein umfassender Sicherheitsscanner von Aqua Security, der eine breite Palette von Zielen prüft – Container-Images, Dateisysteme, entfernte Git-Repositories, VM-Images und laufende Kubernetes-Cluster – und dabei Sicherheitsprobleme mit einem einzigen Tool statt separaten Scannern für jeden Bereich findet. Seine Scanner decken bekannte Schwachstellen (CVEs) in Betriebssystempaketen und Anwendungsabhängigkeiten, Infrastructure-as-Code-Fehlkonfigurationen, fest codierte Geheimnisse und Softwarelizenzprobleme ab und können eine Software Bill of Materials (SBOM) für ein gescanntes Ziel erzeugen.\n\nEs wird häufig lokal als CLI, als Container-Image oder in CI-Pipelines als Sicherheits-Gate eingesetzt, das einen Build fehlschlagen lässt, wenn eine Schwachstelle oberhalb eines gewählten Schweregrads gefunden wird; die breite Sprach- und Plattformabdeckung bedeutet, dass die meisten Stacks ohne zusätzliche Plugins unterstützt werden.\n\nTrivy eignet sich für Teams, die einen einzigen, schnellen Scanner für Schwachstellen, Fehlkonfigurationen und Geheimnisse über ihre gesamte Software-Lieferkette hinweg wollen – als Ergänzung zu Open Policy Agent (ebenfalls in diesem Katalog), das Richtlinien für die Zukunft durchsetzt, während Trivy findet, was in bestehenden Images, Code und Infrastruktur bereits falsch ist."
+    }
+  }
+}
