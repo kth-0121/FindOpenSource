@@ -5,6 +5,7 @@ export interface Dictionary {
     categories: string;
     contribute: string;
     github: string;
+    support: string;
   };
   languageSwitcher: {
     label: string;
@@ -14,6 +15,7 @@ export interface Dictionary {
     about: string;
     contribute: string;
     github: string;
+    support: string;
   };
   home: {
     heroTitleLine1: string;
@@ -26,6 +28,9 @@ export interface Dictionary {
     viewAll: string;
     popularOpenSource: string;
     recentlyAdded: string;
+    supportHeading: string;
+    supportBody: string;
+    supportCta: string;
   };
   search: {
     inputLabel: string;
@@ -80,6 +85,10 @@ export interface Dictionary {
     contributingBody: string;
     contributingLinkText: string;
     contributingLinkSuffix: string;
+    supportHeading: string;
+    supportBody: string;
+    supportCta: string;
+    supportBodySuffix: string;
   };
   contribute: {
     title: string;
@@ -95,5 +104,17 @@ export interface Dictionary {
     title: string;
     description: string;
     backHome: string;
+  };
+  support: {
+    title: string;
+    metaDescription: string;
+    intro: string;
+    whyHeading: string;
+    whyIntro: string;
+    whyItems: string[];
+    howHeading: string;
+    howBody: string;
+    ctaLabel: string;
+    ctaAriaLabel: string;
   };
 }

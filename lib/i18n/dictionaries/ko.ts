@@ -7,6 +7,7 @@ const dictionary: Dictionary = {
     categories: "카테고리",
     contribute: "기여하기",
     github: "GitHub",
+    support: "후원",
   },
   languageSwitcher: {
     label: "언어 선택",
@@ -16,6 +17,7 @@ const dictionary: Dictionary = {
     about: "소개",
     contribute: "기여하기",
     github: "GitHub",
+    support: "FindOpenSource 후원하기",
   },
   home: {
     heroTitleLine1: "프로젝트에 꼭 맞는",
@@ -28,6 +30,9 @@ const dictionary: Dictionary = {
     viewAll: "전체 보기",
     popularOpenSource: "인기 오픈소스",
     recentlyAdded: "최근 추가된 프로젝트",
+    supportHeading: "FindOpenSource가 도움이 되셨나요?",
+    supportBody: "더 많은 오픈소스 프로젝트를 발견할 수 있도록 GitHub Sponsors로 FindOpenSource를 후원해주세요.",
+    supportCta: "FindOpenSource 후원하기",
   },
   search: {
     inputLabel: "오픈소스 프로젝트 검색",
@@ -166,6 +171,10 @@ const dictionary: Dictionary = {
     contributingBody: "누구나 Pull Request를 통해 프로젝트를 추가할 수 있습니다. ",
     contributingLinkText: "기여 가이드 보기",
     contributingLinkSuffix: "에서 시작해보세요.",
+    supportHeading: "FindOpenSource 후원",
+    supportBody: "FindOpenSource는 앞으로도 계속 무료로 제공됩니다. 원하는 프로젝트를 찾는 데 도움이 되셨다면 ",
+    supportCta: "GitHub Sponsors",
+    supportBodySuffix: "에서 운영을 지원하실 수 있습니다.",
   },
   contribute: {
     title: "프로젝트 기여하기",
@@ -203,6 +212,28 @@ const dictionary: Dictionary = {
     title: "페이지를 찾을 수 없습니다",
     description: "찾으시는 페이지가 존재하지 않거나 이동되었을 수 있습니다.",
     backHome: "홈으로 돌아가기",
+  },
+  support: {
+    title: "FindOpenSource 후원하기",
+    metaDescription:
+      "GitHub Sponsors를 통해 FindOpenSource를 후원하고, 프로젝트 큐레이션과 검색 개선, 다국어 콘텐츠 제작을 지속할 수 있도록 도와주세요.",
+    intro:
+      "FindOpenSource는 개발자가 프로젝트 이름이 아니라 해결하려는 문제를 기준으로 오픈소스 프로젝트를 찾을 수 있도록 돕습니다. 로그인도, 광고도 없는 무료 커뮤니티 큐레이션 디렉터리입니다.",
+    whyHeading: "후원이 도움이 되는 이유",
+    whyIntro: "후원금은 FindOpenSource를 운영하는 다음과 같은 활동에 사용됩니다:",
+    whyItems: [
+      "프로젝트 데이터를 정확하고 최신 상태로 유지",
+      "새로운 오픈소스 프로젝트를 카탈로그에 추가",
+      "여러 언어에 걸친 검색 taxonomy 개선",
+      "다국어 콘텐츠 확장 및 다듬기",
+      "사이트 일반 유지보수",
+      "성능 및 SEO 개선",
+    ],
+    howHeading: "후원 방법",
+    howBody:
+      "FindOpenSource는 자체적으로 결제를 처리하지 않습니다. 후원은 GitHub의 공식 후원 플랫폼인 GitHub Sponsors를 통해 이루어지며, 아래 버튼을 누르면 GitHub Sponsors 페이지로 이동합니다.",
+    ctaLabel: "GitHub Sponsors에서 후원하기",
+    ctaAriaLabel: "GitHub Sponsors에서 FindOpenSource 후원하기 (새 탭에서 열림)",
   },
 };
 

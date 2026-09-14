@@ -7,6 +7,7 @@ const dictionary: Dictionary = {
     categories: "Categorías",
     contribute: "Contribuir",
     github: "GitHub",
+    support: "Apoyar",
   },
   languageSwitcher: {
     label: "Seleccionar idioma",
@@ -16,6 +17,7 @@ const dictionary: Dictionary = {
     about: "Acerca de",
     contribute: "Contribuir",
     github: "GitHub",
+    support: "Apoya FindOpenSource",
   },
   home: {
     heroTitleLine1: "Encuentra el open source",
@@ -28,6 +30,9 @@ const dictionary: Dictionary = {
     viewAll: "Ver todas",
     popularOpenSource: "Open source popular",
     recentlyAdded: "Añadidos recientemente",
+    supportHeading: "¿Te ha resultado útil FindOpenSource?",
+    supportBody: "Apoya el proyecto en GitHub Sponsors y ayúdanos a seguir mejorando el descubrimiento de open source.",
+    supportCta: "Apoyar FindOpenSource",
   },
   search: {
     inputLabel: "Buscar proyectos open source",
@@ -166,6 +171,11 @@ const dictionary: Dictionary = {
     contributingBody: "Cualquiera puede añadir un proyecto abriendo un pull request. ",
     contributingLinkText: "Consulta la guía de contribución",
     contributingLinkSuffix: " para empezar.",
+    supportHeading: "Apoyar FindOpenSource",
+    supportBody:
+      "FindOpenSource es y seguirá siendo gratuito. Si te ayudó a encontrar el proyecto adecuado, puedes apoyar su mantenimiento en ",
+    supportCta: "GitHub Sponsors",
+    supportBodySuffix: ".",
   },
   contribute: {
     title: "Contribuye con un proyecto",
@@ -204,6 +214,28 @@ const dictionary: Dictionary = {
     title: "Página no encontrada",
     description: "La página que buscas no existe o puede haberse movido.",
     backHome: "Volver al inicio",
+  },
+  support: {
+    title: "Apoya FindOpenSource",
+    metaDescription:
+      "Apoya FindOpenSource en GitHub Sponsors y ayuda a financiar la curación continua de proyectos, las mejoras de búsqueda y el contenido multilingüe.",
+    intro:
+      "FindOpenSource ayuda a los desarrolladores a encontrar proyectos open source por el problema que resuelven, no solo por su nombre. Es un directorio gratuito y mantenido por la comunidad, sin inicio de sesión ni anuncios que estorben.",
+    whyHeading: "Por qué ayuda tu apoyo",
+    whyIntro: "Tu apoyo se destina al trabajo continuo de mantener FindOpenSource, incluyendo:",
+    whyItems: [
+      "Mantener los datos de los proyectos precisos y actualizados",
+      "Añadir nuevos proyectos open source al catálogo",
+      "Mejorar la taxonomía de búsqueda en distintos idiomas",
+      "Ampliar y pulir el contenido multilingüe",
+      "El mantenimiento general del sitio",
+      "Mejoras de rendimiento y SEO",
+    ],
+    howHeading: "Cómo apoyar",
+    howBody:
+      "FindOpenSource no procesa pagos directamente. El apoyo al proyecto se realiza a través de GitHub Sponsors, la plataforma oficial de patrocinio de GitHub — el botón de abajo te lleva a la página de GitHub Sponsors.",
+    ctaLabel: "Apoyar en GitHub Sponsors",
+    ctaAriaLabel: "Apoyar FindOpenSource en GitHub Sponsors (se abre en una pestaña nueva)",
   },
 };
 
