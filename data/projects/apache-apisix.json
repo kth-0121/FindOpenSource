@@ -1,0 +1,46 @@
+{
+  "name": "Apache APISIX",
+  "slug": "apache-apisix",
+  "description": "Dynamic, high-performance API gateway built on NGINX and etcd, adding hot-reloaded plugins, canary releases, and AI-traffic routing on top of traditional gateway features.",
+  "longDescription": "Apache APISIX is a cloud-native API gateway built on NGINX for the data plane and etcd for dynamic configuration storage, under Apache Software Foundation governance. Unlike gateways that require a reload to pick up configuration changes, APISIX's etcd-backed design lets routes, upstreams, and plugins update dynamically without restarting or dropping traffic.\n\nIt handles the usual API gateway responsibilities - load balancing, authentication, rate limiting, circuit breaking, canary releases - for both traditional north-south traffic and east-west traffic between services, can run as a Kubernetes ingress controller, and has added AI Gateway capabilities for routing and managing traffic to LLM providers.\n\nAPISIX is a fit for teams evaluating API gateways who want an Apache-governed, etcd-based alternative with dynamic configuration, complementing the Kong entry already in this catalog - both solve the same core problem with different architectures and governance models, and teams commonly compare the two directly.",
+  "repository": "https://github.com/apache/apisix",
+  "website": "https://apisix.apache.org/",
+  "documentation": "https://apisix.apache.org/docs/apisix/getting-started/",
+  "categories": [
+    "api"
+  ],
+  "keywords": [
+    "api-gateway",
+    "reverse-proxy",
+    "microservices",
+    "dynamic-routing"
+  ],
+  "languages": [
+    "Lua"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "基于 NGINX 和 etcd 构建的动态高性能 API 网关，在传统网关功能之上增加了热加载插件、灰度发布和 AI 流量路由能力。",
+      "longDescription": "Apache APISIX 是一个云原生 API 网关，数据平面基于 NGINX 构建，动态配置存储基于 etcd，由 Apache Software Foundation 治理。与那些需要重新加载才能应用配置变更的网关不同，APISIX 基于 etcd 的设计让路由、上游服务和插件可以动态更新，无需重启或中断流量。\n\n它承担着 API 网关的常见职责——负载均衡、身份验证、限流、熔断、灰度发布——既能处理传统的南北向流量，也能处理服务之间的东西向流量；它还可以作为 Kubernetes Ingress 控制器运行，并新增了 AI 网关能力，用于路由和管理发往大语言模型服务商的流量。\n\nAPISIX 适合那些正在评估 API 网关、希望采用由 Apache 治理、基于 etcd 动态配置的替代方案的团队，与目录中已有的 Kong 形成互补——二者以不同的架构和治理模式解决同一个核心问题，团队通常会将两者直接放在一起比较。"
+    },
+    "ja": {
+      "description": "NGINX と etcd を基盤に構築された動的で高性能な API ゲートウェイで、従来のゲートウェイ機能に加えて、ホットリロード可能なプラグイン、カナリアリリース、AI トラフィックのルーティングを備えています。",
+      "longDescription": "Apache APISIX は、データプレーンに NGINX、動的な設定ストレージに etcd を用いて構築された、Apache Software Foundation のガバナンスのもとにあるクラウドネイティブな API ゲートウェイです。設定変更を反映するためにリロードが必要なゲートウェイとは異なり、APISIX の etcd を基盤とした設計により、ルート、アップストリーム、プラグインを再起動やトラフィックの断絶なしに動的に更新できます。\n\n負荷分散、認証、レート制限、サーキットブレーカー、カナリアリリースといった一般的な API ゲートウェイの責務を、従来の南北トラフィックとサービス間の東西トラフィックの両方に対して担い、Kubernetes の Ingress コントローラーとしても動作できます。さらに、LLM プロバイダーへのトラフィックをルーティング・管理するための AI ゲートウェイ機能も追加されています。\n\nAPISIX は、API ゲートウェイを検討していて、Apache によってガバナンスされ、etcd ベースの動的設定を備えた選択肢を求めるチームに向いています。カタログに既にある Kong を補完する存在で、両者は異なるアーキテクチャとガバナンスモデルで同じ中核的な課題を解決しており、両者を直接比較検討するチームも少なくありません。"
+    },
+    "ko": {
+      "description": "NGINX와 etcd 위에 구축된 동적이고 고성능인 API 게이트웨이로, 전통적인 게이트웨이 기능 위에 핫 리로드 플러그인, 카나리 배포, AI 트래픽 라우팅을 더했습니다.",
+      "longDescription": "Apache APISIX는 데이터 플레인은 NGINX, 동적 설정 저장소는 etcd를 기반으로 구축된 클라우드 네이티브 API 게이트웨이로, Apache Software Foundation의 거버넌스 아래 있습니다. 설정 변경을 적용하려면 리로드가 필요한 게이트웨이와 달리, APISIX는 etcd 기반 설계 덕분에 라우트, 업스트림, 플러그인을 재시작이나 트래픽 중단 없이 동적으로 업데이트할 수 있습니다.\n\n로드 밸런싱, 인증, 레이트 리미팅, 서킷 브레이킹, 카나리 배포 같은 일반적인 API 게이트웨이 역할을 전통적인 남북 트래픽과 서비스 간 동서 트래픽 모두에 대해 수행하며, Kubernetes 인그레스 컨트롤러로도 실행할 수 있고, LLM 제공자로 향하는 트래픽을 라우팅하고 관리하는 AI 게이트웨이 기능도 추가되었습니다.\n\nAPISIX는 API 게이트웨이를 검토 중이며 Apache가 거버넌스하고 etcd 기반 동적 설정을 갖춘 대안을 원하는 팀에 적합합니다. 카탈로그에 이미 있는 Kong을 보완하는 관계로, 둘은 서로 다른 아키텍처와 거버넌스 모델로 같은 핵심 문제를 해결하며, 팀들은 흔히 이 둘을 직접 비교합니다."
+    },
+    "es": {
+      "description": "API gateway dinámico y de alto rendimiento construido sobre NGINX y etcd, que añade plugins con recarga en caliente, lanzamientos canary y enrutamiento de tráfico de IA sobre las funciones tradicionales de un gateway.",
+      "longDescription": "Apache APISIX es un API gateway nativo de la nube construido sobre NGINX para el plano de datos y etcd para el almacenamiento de configuración dinámica, bajo la gobernanza de la Apache Software Foundation. A diferencia de los gateways que necesitan una recarga para aplicar cambios de configuración, el diseño de APISIX basado en etcd permite actualizar rutas, upstreams y plugins de forma dinámica sin reiniciar ni interrumpir el tráfico.\n\nSe encarga de las responsabilidades habituales de un API gateway —balanceo de carga, autenticación, limitación de tasa, circuit breaking, lanzamientos canary— tanto para el tráfico norte-sur tradicional como para el tráfico este-oeste entre servicios, puede ejecutarse como controlador de ingress de Kubernetes, y ha añadido capacidades de AI Gateway para enrutar y gestionar el tráfico hacia proveedores de LLM.\n\nAPISIX encaja en equipos que están evaluando API gateways y quieren una alternativa gobernada por Apache y basada en etcd con configuración dinámica, complementando la entrada de Kong ya presente en este catálogo: ambos resuelven el mismo problema central con arquitecturas y modelos de gobernanza distintos, y los equipos suelen compararlos directamente."
+    },
+    "de": {
+      "description": "Dynamisches, hochperformantes API-Gateway auf Basis von NGINX und etcd, das Hot-Reload-fähige Plugins, Canary-Releases und KI-Traffic-Routing zu den klassischen Gateway-Funktionen hinzufügt.",
+      "longDescription": "Apache APISIX ist ein Cloud-natives API-Gateway, das für die Datenebene auf NGINX und für die dynamische Konfigurationsspeicherung auf etcd aufbaut, unter der Governance der Apache Software Foundation. Anders als Gateways, die zum Übernehmen von Konfigurationsänderungen einen Reload benötigen, erlaubt das etcd-gestützte Design von APISIX, Routen, Upstreams und Plugins dynamisch zu aktualisieren, ohne neu zu starten oder Traffic zu verlieren.\n\nEs übernimmt die üblichen Aufgaben eines API-Gateways – Lastverteilung, Authentifizierung, Rate Limiting, Circuit Breaking, Canary-Releases – sowohl für klassischen Nord-Süd-Traffic als auch für Ost-West-Traffic zwischen Diensten, kann als Kubernetes-Ingress-Controller laufen und hat AI-Gateway-Funktionen zum Routen und Verwalten von Traffic zu LLM-Anbietern erhalten.\n\nAPISIX eignet sich für Teams, die API-Gateways evaluieren und eine von Apache verwaltete, etcd-basierte Alternative mit dynamischer Konfiguration wollen – als Ergänzung zu dem bereits in diesem Katalog vorhandenen Kong-Eintrag: Beide lösen dasselbe Kernproblem mit unterschiedlichen Architekturen und Governance-Modellen, und Teams vergleichen die beiden häufig direkt miteinander."
+    }
+  }
+}

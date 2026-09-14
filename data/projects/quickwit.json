@@ -1,0 +1,46 @@
+{
+  "name": "Quickwit",
+  "slug": "quickwit",
+  "description": "Cloud-native search engine purpose-built for observability data, indexing logs and traces directly on object storage for cost-efficient search at scale.",
+  "longDescription": "Quickwit is an open-source search engine built specifically for observability use cases - searching logs and distributed traces - rather than general-purpose application search. Its defining design choice is indexing and querying data directly on object storage like S3 instead of requiring data to live on attached disks, which lets storage and compute scale independently and keeps the cost of retaining large volumes of log data far lower than disk-backed search systems.\n\nIt's commonly deployed as the search backend behind log management and distributed tracing tools, and is designed to be fast to query even over data sitting entirely in object storage, an architecture built around the reality that most log data is written once and queried rarely.\n\nQuickwit is a fit for teams with large volumes of log or trace data who want full-text search without the operational cost of keeping it all on disk, a more specialized tool than the general-purpose Elasticsearch, OpenSearch, or Meilisearch entries already in this catalog, which are built for application and website search rather than observability data specifically.",
+  "repository": "https://github.com/quickwit-oss/quickwit",
+  "website": "https://quickwit.io/",
+  "documentation": "https://quickwit.io/docs",
+  "categories": [
+    "search"
+  ],
+  "keywords": [
+    "search-engine",
+    "log-search",
+    "observability",
+    "distributed-tracing"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "专为可观测性数据打造的云原生搜索引擎，直接在对象存储上对日志和链路追踪数据建立索引，实现具有成本效益的大规模搜索。",
+      "longDescription": "Quickwit 是一个开源搜索引擎，专为可观测性场景——搜索日志和分布式链路追踪数据——而构建，而非通用的应用搜索。它最核心的设计选择是直接在对象存储（如 S3）上对数据进行索引和查询，而不要求数据必须存放在挂载磁盘上，这使得存储和计算可以独立扩展，并让保留海量日志数据的成本远低于依赖磁盘的搜索系统。\n\n它通常被部署为日志管理和分布式链路追踪工具背后的搜索后端，即便数据完全存放在对象存储中，也被设计为能够快速查询——这一架构正是围绕“大多数日志数据只写入一次、极少被查询”这一现实而构建的。\n\nQuickwit 适合那些拥有海量日志或链路追踪数据、希望获得全文搜索能力、又不想承担将全部数据保留在磁盘上所带来运维成本的团队；相比目录中已有的通用型 Elasticsearch、OpenSearch 或 Meilisearch，它是一个更专精的工具——后者是为应用和网站搜索而构建，而非专门针对可观测性数据。"
+    },
+    "ja": {
+      "description": "オブザーバビリティデータ向けに特化して作られたクラウドネイティブな検索エンジンで、ログとトレースをオブジェクトストレージ上に直接インデックス化し、コスト効率の良い大規模検索を実現します。",
+      "longDescription": "Quickwit は、汎用的なアプリケーション検索ではなく、ログや分散トレースの検索といったオブザーバビリティのユースケース専用に構築されたオープンソースの検索エンジンです。その中核となる設計上の選択は、データを接続ディスク上に置くことを要求するのではなく、S3 のようなオブジェクトストレージ上で直接インデックス化・クエリを行うことであり、これによりストレージとコンピュートを独立してスケールさせられ、大量のログデータを保持するコストをディスクベースの検索システムよりもはるかに低く抑えられます。\n\nログ管理や分散トレーシングツールの背後にある検索バックエンドとしてよくデプロイされ、データが完全にオブジェクトストレージ上にある場合でも高速にクエリできるよう設計されています。このアーキテクチャは、ほとんどのログデータが一度だけ書き込まれ、めったにクエリされないという現実を前提に構築されています。\n\nQuickwit は、大量のログやトレースデータを抱えており、全データをディスク上に保持する運用コストをかけずに全文検索を実現したいチームに向いています。カタログに既にある汎用的な Elasticsearch、OpenSearch、Meilisearch よりも特化したツールであり、それらはオブザーバビリティデータ専用ではなく、アプリケーションやウェブサイトの検索のために構築されています。"
+    },
+    "ko": {
+      "description": "관측 가능성 데이터를 위해 전용으로 만들어진 클라우드 네이티브 검색 엔진으로, 로그와 트레이스를 오브젝트 스토리지 위에 직접 색인화해 비용 효율적인 대규모 검색을 제공합니다.",
+      "longDescription": "Quickwit은 범용 애플리케이션 검색이 아니라 로그와 분산 트레이스를 검색하는 관측 가능성 用途에 특화되어 만들어진 오픈소스 검색 엔진입니다. 핵심 설계 선택은 데이터를 연결된 디스크에 두도록 요구하는 대신 S3 같은 오브젝트 스토리지 위에서 직접 색인화하고 쿼리하는 것으로, 이를 통해 스토리지와 컴퓨트를 독립적으로 확장할 수 있고 대량의 로그 데이터를 보관하는 비용을 디스크 기반 검색 시스템보다 훨씬 낮게 유지할 수 있습니다.\n\n로그 관리와 분산 트레이싱 도구 뒤에서 검색 백엔드로 흔히 배포되며, 데이터가 전부 오브젝트 스토리지에 있어도 빠르게 쿼리할 수 있도록 설계되었습니다. 이 아키텍처는 대부분의 로그 데이터가 한 번만 기록되고 거의 조회되지 않는다는 현실을 바탕으로 만들어졌습니다.\n\nQuickwit은 대량의 로그나 트레이스 데이터를 보유하고 있으며 전부 디스크에 보관하는 운영 비용 없이 전문 검색을 원하는 팀에 적합합니다. 카탈로그에 이미 있는 범용 Elasticsearch, OpenSearch, Meilisearch보다 더 특화된 도구로, 그것들은 관측 가능성 데이터 전용이 아니라 애플리케이션과 웹사이트 검색을 위해 만들어졌습니다."
+    },
+    "es": {
+      "description": "Motor de búsqueda nativo de la nube diseñado específicamente para datos de observabilidad, que indexa logs y trazas directamente en almacenamiento de objetos para una búsqueda rentable a gran escala.",
+      "longDescription": "Quickwit es un motor de búsqueda de código abierto construido específicamente para casos de uso de observabilidad —buscar logs y trazas distribuidas— en lugar de búsqueda de aplicaciones de propósito general. Su decisión de diseño definitoria es indexar y consultar datos directamente en almacenamiento de objetos como S3 en lugar de exigir que los datos residan en discos conectados, lo que permite escalar almacenamiento y cómputo de forma independiente y mantiene el coste de retener grandes volúmenes de datos de log muy por debajo del de los sistemas de búsqueda basados en disco.\n\nSuele desplegarse como el backend de búsqueda detrás de herramientas de gestión de logs y tracing distribuido, y está diseñado para ser rápido incluso al consultar datos que residen enteramente en almacenamiento de objetos, una arquitectura construida en torno a la realidad de que la mayoría de los datos de log se escriben una vez y rara vez se consultan.\n\nQuickwit encaja en equipos con grandes volúmenes de datos de log o trazas que quieren búsqueda de texto completo sin el coste operativo de mantenerlo todo en disco, una herramienta más especializada que las entradas de propósito general Elasticsearch, OpenSearch o Meilisearch ya presentes en este catálogo, construidas para búsqueda de aplicaciones y sitios web en lugar de datos de observabilidad específicamente."
+    },
+    "de": {
+      "description": "Cloud-native Suchmaschine, speziell für Observability-Daten gebaut, die Logs und Traces direkt auf Objektspeicher indexiert für kosteneffiziente Suche im großen Maßstab.",
+      "longDescription": "Quickwit ist eine quelloffene Suchmaschine, die speziell für Observability-Anwendungsfälle gebaut wurde – die Suche in Logs und verteilten Traces – statt für allgemeine Anwendungssuche. Die prägende Designentscheidung ist, Daten direkt auf Objektspeicher wie S3 zu indexieren und abzufragen, statt zu verlangen, dass Daten auf angeschlossenen Festplatten liegen, wodurch sich Storage und Compute unabhängig skalieren lassen und die Kosten für das Vorhalten großer Mengen an Log-Daten weit unter denen festplattenbasierter Suchsysteme bleiben.\n\nEs wird häufig als Such-Backend hinter Log-Management- und Distributed-Tracing-Tools eingesetzt und ist darauf ausgelegt, auch bei Daten, die vollständig im Objektspeicher liegen, schnell abfragbar zu sein – eine Architektur, die auf der Realität aufbaut, dass die meisten Log-Daten einmal geschrieben und selten abgefragt werden.\n\nQuickwit eignet sich für Teams mit großen Mengen an Log- oder Trace-Daten, die Volltextsuche ohne den Betriebsaufwand wollen, alles auf Festplatte vorzuhalten – ein spezialisierteres Tool als die bereits in diesem Katalog vorhandenen Allzweck-Einträge Elasticsearch, OpenSearch oder Meilisearch, die für Anwendungs- und Website-Suche statt speziell für Observability-Daten gebaut sind."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Argo Workflows",
+  "slug": "argo-workflows",
+  "description": "Kubernetes-native workflow engine that runs each step of a pipeline as a container, orchestrating parallel jobs and multi-step DAGs directly on a cluster.",
+  "longDescription": "Argo Workflows is an open-source, CNCF graduated workflow engine for orchestrating jobs on Kubernetes, implemented entirely as Kubernetes Custom Resource Definitions rather than a separate system bolted on top of a cluster. A workflow is defined as a sequence of steps or a directed acyclic graph (DAG) of tasks, where each step runs as its own container - so anything that can run in a container, from a training job to a data transform, becomes a workflow step without extra glue code.\n\nIt's commonly used for machine learning pipelines, batch and data processing, infrastructure automation, and CI/CD, taking advantage of Kubernetes' own scheduling and scaling to run many parallel steps across a cluster rather than a single worker.\n\nArgo Workflows is a fit for teams already running Kubernetes who want to orchestrate container-based pipelines using the cluster they already operate, a different niche than Temporal (also in this catalog), whose workflows are general-purpose functions in a language SDK rather than Kubernetes-native container steps.",
+  "repository": "https://github.com/argoproj/argo-workflows",
+  "website": "https://argoproj.github.io/workflows/",
+  "documentation": "https://argo-workflows.readthedocs.io/en/latest/",
+  "categories": [
+    "automation"
+  ],
+  "keywords": [
+    "workflow-orchestration",
+    "kubernetes-native",
+    "dag",
+    "pipeline-orchestration"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes 原生工作流引擎，将流水线的每个步骤作为一个容器运行，直接在集群上编排并行任务和多步骤 DAG。",
+      "longDescription": "Argo Workflows 是一个开源的、已从 CNCF 毕业的工作流引擎，用于在 Kubernetes 上编排作业，完全以 Kubernetes 自定义资源（CRD）的形式实现，而不是在集群之上附加一个独立系统。一个工作流可以定义为一系列步骤，或一张任务的有向无环图（DAG），其中每个步骤都作为独立容器运行——因此任何能在容器中运行的东西，无论是训练任务还是数据转换，都可以直接成为工作流的一个步骤，而无需额外的胶水代码。\n\n它常被用于机器学习流水线、批处理与数据处理、基础设施自动化以及 CI/CD，充分利用 Kubernetes 自身的调度和扩缩容能力，在整个集群中并行运行大量步骤，而不局限于单个工作节点。\n\nArgo Workflows 适合那些已经在运行 Kubernetes、希望利用现有集群来编排基于容器的流水线的团队，这与目录中的 Temporal 是不同的细分方向——Temporal 的工作流是语言 SDK 中的通用函数，而不是 Kubernetes 原生的容器步骤。"
+    },
+    "ja": {
+      "description": "パイプラインの各ステップをコンテナとして実行する Kubernetes ネイティブなワークフローエンジンで、並列ジョブや複数ステップの DAG をクラスタ上で直接オーケストレーションします。",
+      "longDescription": "Argo Workflows は、Kubernetes 上でジョブをオーケストレーションするための、オープンソースかつ CNCF を卒業したワークフローエンジンで、クラスタの上に付け足す別システムとしてではなく、完全に Kubernetes のカスタムリソース定義(CRD)として実装されています。ワークフローは一連のステップ、あるいはタスクの有向非巡回グラフ(DAG)として定義され、各ステップはそれぞれ独自のコンテナとして実行されます。そのため、学習ジョブからデータ変換まで、コンテナで実行できるものであれば何でも、余計な接着コードなしにワークフローのステップになります。\n\n機械学習パイプライン、バッチ・データ処理、インフラ自動化、CI/CD でよく使われており、Kubernetes 自身のスケジューリングとスケーリングを活用して、単一のワーカーではなくクラスタ全体で多数のステップを並列実行できます。\n\nArgo Workflows は、すでに Kubernetes を運用していて、既存のクラスタを使ってコンテナベースのパイプラインをオーケストレーションしたいチームに向いています。カタログ内の Temporal とは異なるニッチで、Temporal のワークフローは Kubernetes ネイティブなコンテナステップではなく、言語 SDK 内の汎用的な関数です。"
+    },
+    "ko": {
+      "description": "파이프라인의 각 단계를 컨테이너로 실행하는 Kubernetes 네이티브 워크플로 엔진으로, 병렬 작업과 다단계 DAG를 클러스터 위에서 직접 오케스트레이션합니다.",
+      "longDescription": "Argo Workflows는 Kubernetes에서 작업을 오케스트레이션하기 위한 오픈소스이자 CNCF 졸업 워크플로 엔진으로, 클러스터 위에 덧붙인 별도 시스템이 아니라 전적으로 Kubernetes 커스텀 리소스 정의(CRD)로 구현되어 있습니다. 워크플로는 일련의 단계 또는 작업의 유향 비순환 그래프(DAG)로 정의되며, 각 단계는 각자 독립된 컨테이너로 실행됩니다. 따라서 학습 작업이든 데이터 변환이든 컨테이너에서 실행할 수 있는 것이라면 무엇이든 별도의 접착 코드 없이 워크플로 단계가 될 수 있습니다.\n\n머신러닝 파이프라인, 배치·데이터 처리, 인프라 자동화, CI/CD에 흔히 사용되며, Kubernetes 자체의 스케줄링과 확장 기능을 활용해 단일 워커가 아니라 클러스터 전반에서 많은 단계를 병렬로 실행할 수 있습니다.\n\nArgo Workflows는 이미 Kubernetes를 운영 중이며 기존에 쓰던 클러스터로 컨테이너 기반 파이프라인을 오케스트레이션하고 싶은 팀에 적합합니다. 카탈로그에 있는 Temporal과는 다른 영역으로, Temporal의 워크플로는 Kubernetes 네이티브 컨테이너 단계가 아니라 언어 SDK 안의 범용 함수입니다."
+    },
+    "es": {
+      "description": "Motor de workflows nativo de Kubernetes que ejecuta cada paso de un pipeline como un contenedor, orquestando trabajos en paralelo y DAGs de varios pasos directamente en un clúster.",
+      "longDescription": "Argo Workflows es un motor de workflows de código abierto, graduado por la CNCF, para orquestar trabajos en Kubernetes, implementado íntegramente como Custom Resource Definitions de Kubernetes en lugar de como un sistema aparte añadido sobre un clúster. Un workflow se define como una secuencia de pasos o un grafo acíclico dirigido (DAG) de tareas, donde cada paso se ejecuta como su propio contenedor, de modo que cualquier cosa que pueda ejecutarse en un contenedor, desde un trabajo de entrenamiento hasta una transformación de datos, se convierte en un paso del workflow sin código de pegamento adicional.\n\nSe usa habitualmente para pipelines de machine learning, procesamiento por lotes y de datos, automatización de infraestructura y CI/CD, aprovechando la propia planificación y escalado de Kubernetes para ejecutar muchos pasos en paralelo en todo un clúster en lugar de en un único worker.\n\nArgo Workflows encaja en equipos que ya ejecutan Kubernetes y quieren orquestar pipelines basados en contenedores usando el clúster que ya operan, un nicho distinto al de Temporal (también en este catálogo), cuyos workflows son funciones de propósito general en un SDK de lenguaje en lugar de pasos de contenedor nativos de Kubernetes."
+    },
+    "de": {
+      "description": "Kubernetes-natives Workflow-Engine, die jeden Schritt einer Pipeline als Container ausführt und parallele Jobs sowie mehrstufige DAGs direkt auf einem Cluster orchestriert.",
+      "longDescription": "Argo Workflows ist eine quelloffene, von der CNCF graduierte Workflow-Engine zur Orchestrierung von Jobs auf Kubernetes, die vollständig als Kubernetes-Custom-Resource-Definitions implementiert ist, statt als separates System, das auf einen Cluster aufgesetzt wird. Ein Workflow wird als Abfolge von Schritten oder als gerichteter azyklischer Graph (DAG) von Tasks definiert, wobei jeder Schritt in seinem eigenen Container läuft – sodass alles, was in einem Container laufen kann, von einem Trainingsjob bis zu einer Datentransformation, ohne zusätzlichen Klebecode zu einem Workflow-Schritt wird.\n\nEs wird häufig für Machine-Learning-Pipelines, Batch- und Datenverarbeitung, Infrastrukturautomatisierung und CI/CD eingesetzt und nutzt dabei Kubernetes' eigene Scheduling- und Skalierungsfähigkeiten, um viele parallele Schritte über einen Cluster statt nur einen einzelnen Worker laufen zu lassen.\n\nArgo Workflows eignet sich für Teams, die bereits Kubernetes betreiben und containerbasierte Pipelines mit dem bereits genutzten Cluster orchestrieren möchten – eine andere Nische als Temporal (ebenfalls in diesem Katalog), dessen Workflows allgemeine Funktionen in einem Sprach-SDK statt Kubernetes-nativer Container-Schritte sind."
+    }
+  }
+}

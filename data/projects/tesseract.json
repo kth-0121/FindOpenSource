@@ -1,0 +1,46 @@
+{
+  "name": "Tesseract",
+  "slug": "tesseract",
+  "description": "Open-source OCR engine that extracts text from scanned documents and images, supporting more than 100 languages out of the box.",
+  "longDescription": "Tesseract is an open-source optical character recognition (OCR) engine, originally developed at HP and now maintained by Google along with a community of contributors. It ships as a command-line program and a library, libtesseract, and supports both a newer LSTM neural-network-based recognition engine (the default since Tesseract 4) and the legacy pattern-matching engine from Tesseract 3 for compatibility.\n\nIt reads common image formats like PNG, JPEG, and TIFF, recognizes text in more than 100 languages out of the box using Unicode/UTF-8 support, and can output plain text, searchable PDF, hOCR, TSV, and other structured formats - though as with any OCR engine, result quality depends significantly on input image quality.\n\nTesseract is a fit for teams that need to extract text from scanned documents, photographed forms, or images as part of a data pipeline - digitizing paperwork, indexing scanned archives, or feeding text into an LLM/RAG pipeline - complementing PDF.js (also in this catalog), which renders and parses PDFs that already contain a text layer, rather than recognizing text from pixels.",
+  "repository": "https://github.com/tesseract-ocr/tesseract",
+  "website": "https://tesseract-ocr.github.io/",
+  "documentation": "https://tesseract-ocr.github.io/tessdoc/",
+  "categories": [
+    "media"
+  ],
+  "keywords": [
+    "ocr",
+    "text-extraction",
+    "document-processing",
+    "image-to-text"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "开源 OCR 引擎，可从扫描文档和图片中提取文字，开箱即支持 100 多种语言。",
+      "longDescription": "Tesseract 是一个开源的光学字符识别（OCR）引擎，最初由 HP 开发，如今由 Google 与社区贡献者共同维护。它以命令行程序和库（libtesseract）两种形式发布，既支持较新的、基于 LSTM 神经网络的识别引擎（自 Tesseract 4 起为默认引擎），也为兼容性保留了 Tesseract 3 中基于模式匹配的旧引擎。\n\n它支持 PNG、JPEG、TIFF 等常见图片格式，凭借对 Unicode/UTF-8 的支持，开箱即可识别 100 多种语言的文字，并能输出纯文本、可搜索 PDF、hOCR、TSV 等多种结构化格式——不过与任何 OCR 引擎一样，识别结果的质量在很大程度上取决于输入图片的质量。\n\nTesseract 适合那些需要从扫描文档、拍摄的表单或图片中提取文字、并将其纳入数据管道的团队——例如纸质文档数字化、为扫描档案建立索引，或将文字输入 LLM/RAG 管道；它与目录中的 PDF.js 形成互补：PDF.js 渲染和解析的是已经包含文本层的 PDF，而不是从像素中识别文字。"
+    },
+    "ja": {
+      "description": "スキャンされた文書や画像からテキストを抽出するオープンソースの OCR エンジンで、100を超える言語を標準でサポートしています。",
+      "longDescription": "Tesseract は、もともと HP で開発され、現在は Google とコミュニティのコントリビューターによってメンテナンスされているオープンソースの光学文字認識(OCR)エンジンです。コマンドラインプログラムとライブラリ(libtesseract)の両方として提供されており、新しい LSTM ニューラルネットワークベースの認識エンジン(Tesseract 4 以降のデフォルト)と、互換性のために残された Tesseract 3 のパターンマッチングベースのレガシーエンジンの両方をサポートしています。\n\nPNG、JPEG、TIFF などの一般的な画像形式を読み込み、Unicode/UTF-8 サポートにより標準で100を超える言語のテキストを認識でき、プレーンテキスト、検索可能な PDF、hOCR、TSV などの構造化形式で出力できます。ただし、どの OCR エンジンでも同様ですが、認識結果の品質は入力画像の品質に大きく左右されます。\n\nTesseract は、スキャンされた文書、撮影されたフォーム、画像からテキストを抽出してデータパイプラインに組み込む必要があるチームに向いています。紙の書類のデジタル化、スキャンされたアーカイブのインデックス作成、LLM や RAG パイプラインへのテキスト供給などが例です。(カタログにもある) PDF.js を補完する存在で、PDF.js はすでにテキストレイヤーを含む PDF をレンダリング・解析するものであり、ピクセルからテキストを認識するものではありません。"
+    },
+    "ko": {
+      "description": "스캔한 문서와 이미지에서 텍스트를 추출하는 오픈소스 OCR 엔진으로, 100개 이상의 언어를 기본으로 지원합니다.",
+      "longDescription": "Tesseract는 원래 HP에서 개발되었고 지금은 Google과 커뮤니티 컨트리뷰터들이 함께 유지 관리하는 오픈소스 광학 문자 인식(OCR) 엔진입니다. 커맨드라인 프로그램과 라이브러리(libtesseract) 형태로 모두 제공되며, 더 새로운 LSTM 신경망 기반 인식 엔진(Tesseract 4부터 기본값)과, 호환성을 위해 남아 있는 Tesseract 3의 패턴 매칭 기반 레거시 엔진을 모두 지원합니다.\n\nPNG, JPEG, TIFF 같은 일반적인 이미지 형식을 읽을 수 있고, 유니코드/UTF-8 지원 덕분에 100개 이상의 언어 텍스트를 기본으로 인식할 수 있으며, 일반 텍스트, 검색 가능한 PDF, hOCR, TSV 등 다양한 구조화 형식으로 출력할 수 있습니다. 다만 다른 OCR 엔진과 마찬가지로 인식 결과의 품질은 입력 이미지의 품질에 크게 좌우됩니다.\n\nTesseract는 스캔한 문서, 촬영한 양식, 이미지에서 텍스트를 추출해 데이터 파이프라인에 포함시켜야 하는 팀에 적합합니다. 종이 문서 디지털화, 스캔 자료 색인화, LLM·RAG 파이프라인에 텍스트를 공급하는 용도 등이 그 예입니다. (카탈로그에 있는) PDF.js를 보완하는 관계로, PDF.js는 이미 텍스트 레이어를 포함한 PDF를 렌더링·파싱하는 도구이지 픽셀에서 텍스트를 인식하는 도구가 아닙니다."
+    },
+    "es": {
+      "description": "Motor OCR de código abierto que extrae texto de documentos escaneados e imágenes, con soporte de más de 100 idiomas de serie.",
+      "longDescription": "Tesseract es un motor de reconocimiento óptico de caracteres (OCR) de código abierto, desarrollado originalmente en HP y mantenido ahora por Google junto con una comunidad de colaboradores. Se distribuye como un programa de línea de comandos y una biblioteca, libtesseract, y admite tanto un motor de reconocimiento más nuevo basado en redes neuronales LSTM (el predeterminado desde Tesseract 4) como el motor heredado basado en coincidencia de patrones de Tesseract 3 por compatibilidad.\n\nLee formatos de imagen comunes como PNG, JPEG y TIFF, reconoce texto en más de 100 idiomas de serie gracias al soporte de Unicode/UTF-8, y puede generar texto plano, PDF con capacidad de búsqueda, hOCR, TSV y otros formatos estructurados; aunque, como con cualquier motor OCR, la calidad del resultado depende en gran medida de la calidad de la imagen de entrada.\n\nTesseract encaja en equipos que necesitan extraer texto de documentos escaneados, formularios fotografiados o imágenes como parte de un pipeline de datos —digitalizar papeleo, indexar archivos escaneados o alimentar texto a un pipeline de LLM/RAG—, complementando a PDF.js (también en este catálogo), que renderiza y analiza PDFs que ya contienen una capa de texto, en lugar de reconocer texto a partir de píxeles."
+    },
+    "de": {
+      "description": "Quelloffene OCR-Engine, die Text aus gescannten Dokumenten und Bildern extrahiert und dabei mehr als 100 Sprachen von Haus aus unterstützt.",
+      "longDescription": "Tesseract ist eine quelloffene Optical-Character-Recognition(OCR)-Engine, ursprünglich bei HP entwickelt und heute von Google zusammen mit einer Community von Contributors gepflegt. Sie wird als Kommandozeilenprogramm und als Bibliothek libtesseract ausgeliefert und unterstützt sowohl eine neuere, auf LSTM-Neuronalen-Netzen basierende Erkennungs-Engine (Standard seit Tesseract 4) als auch die alte, musterbasierte Engine aus Tesseract 3 für Kompatibilität.\n\nSie liest gängige Bildformate wie PNG, JPEG und TIFF, erkennt dank Unicode/UTF-8-Unterstützung Text in mehr als 100 Sprachen von Haus aus und kann Klartext, durchsuchbares PDF, hOCR, TSV und weitere strukturierte Formate ausgeben – wobei wie bei jeder OCR-Engine die Ergebnisqualität stark von der Qualität des Eingabebilds abhängt.\n\nTesseract eignet sich für Teams, die Text aus gescannten Dokumenten, fotografierten Formularen oder Bildern als Teil einer Datenpipeline extrahieren müssen – etwa zur Digitalisierung von Papierdokumenten, zur Indexierung gescannter Archive oder um Text in eine LLM-/RAG-Pipeline einzuspeisen –, als Ergänzung zu PDF.js (ebenfalls in diesem Katalog), das PDFs rendert und parst, die bereits eine Textebene enthalten, statt Text aus Pixeln zu erkennen."
+    }
+  }
+}

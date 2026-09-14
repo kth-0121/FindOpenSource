@@ -556,4 +556,28 @@ export const keywordTaxonomy: KeywordTaxonomyEntry[] = [
     },
     related: ["ai-agents", "multi-agent", "agent-orchestration", "llm-agents"],
   },
+  {
+    canonical: "ocr",
+    synonyms: {
+      en: ["ocr", "optical character recognition", "text extraction", "image to text"],
+      "zh-CN": ["OCR", "光学字符识别", "文字识别", "图片转文字"],
+      ja: ["OCR", "光学文字認識", "文字認識", "画像からテキスト"],
+      ko: ["OCR", "광학 문자 인식", "문자 인식", "이미지 텍스트 추출"],
+      es: ["ocr", "reconocimiento óptico de caracteres", "extracción de texto"],
+      de: ["ocr", "optische zeichenerkennung", "texterkennung"],
+    },
+    related: ["ocr", "text-extraction", "document-processing", "image-to-text"],
+  },
+  {
+    canonical: "cloud-development-environment",
+    synonyms: {
+      en: ["cloud development environment", "remote development", "cde", "dev environment"],
+      "zh-CN": ["云开发环境", "远程开发环境", "开发环境"],
+      ja: ["クラウド開発環境", "リモート開発環境"],
+      ko: ["클라우드 개발 환경", "원격 개발 환경"],
+      es: ["entorno de desarrollo en la nube", "desarrollo remoto"],
+      de: ["cloud-entwicklungsumgebung", "remote-entwicklung"],
+    },
+    related: ["cloud-development-environment", "remote-development", "dev-environments", "workspace-provisioning"],
+  },
 ];
