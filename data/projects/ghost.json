@@ -24,18 +24,23 @@
   "dateAdded": "2026-07-08",
   "translations": {
     "zh-CN": {
+      "description": "面向博客、通讯和在线出版物的开源发布与会员平台。",
       "longDescription": "Ghost 是一个基于 Node.js 的无头内容平台，专注于专业出版场景——博客、通讯（newsletter）和会员/订阅站点，而不是作为通用型 CMS。内容通过 Ghost 的管理界面进行管理，并通过其 Content API 交付给你自己的前端（主题或自定义站点）。\n\n你可以使用官方的 `ghost-cli` 工具自行托管，它既能处理本地开发安装，也能处理生产服务器的完整安装（包括通过 Let's Encrypt 自动配置 SSL）。另外，Ghost(Pro) 是官方托管服务，几分钟内即可上线站点，并包含 CDN、备份和维护；其收入用于资助维护该开源项目的非营利组织 Ghost Foundation。\n\n它适合那些希望使用专门的出版与会员平台、而不是勉强用通用 CMS 来实现同样目的的出版商、写作者和小型团队。"
     },
     "ja": {
+      "description": "ブログ、ニュースレター、オンライン出版物向けの、オープンソースの配信・会員制プラットフォームです。",
       "longDescription": "Ghost は、汎用的な CMS というより、ブログ、ニュースレター、メンバーシップ/購読サイトといった本格的なパブリッシングに特化した、Node.js ベースのヘッドレスコンテンツプラットフォームです。コンテンツは Ghost の管理画面で管理し、Content API を通じて自前のフロントエンド(テーマまたはカスタムサイト)に配信します。\n\n公式の `ghost-cli` ツールを使ってセルフホストでき、開発用のローカルインストールから、Let's Encrypt によるSSLの自動設定を含む本番サーバーへのフルインストールまで対応しています。代わりに Ghost(Pro) を使えば、CDN、バックアップ、メンテナンスが含まれた公式マネージドホスティングサービスで数分でサイトを立ち上げられます。その収益は、このオープンソースプロジェクトを維持する非営利団体 Ghost Foundation の資金源になっています。\n\n汎用 CMS を無理に転用するのではなく、パブリッシングとメンバーシップに特化した専用プラットフォームを求めるパブリッシャー、ライター、小規模チームに向いています。"
     },
     "ko": {
+      "description": "블로그, 뉴스레터, 온라인 출판물을 위한 오픈소스 퍼블리싱·멤버십 플랫폼입니다.",
       "longDescription": "Ghost는 범용 CMS라기보다는 블로그, 뉴스레터, 멤버십·구독 사이트 같은 전문 퍼블리싱에 초점을 맞춘, Node.js 기반의 헤드리스 콘텐츠 플랫폼입니다. 콘텐츠는 Ghost의 관리자 인터페이스에서 관리되며, Content API를 통해 여러분이 만든 프런트엔드(테마 또는 커스텀 사이트)로 전달됩니다.\n\n공식 `ghost-cli` 도구를 사용해 셀프 호스팅할 수 있으며, 이 도구는 개발용 로컬 설치부터 Let's Encrypt를 통한 자동 SSL을 포함한 서버 프로덕션 설치까지 처리해 줍니다. 그 대안으로 Ghost(Pro)는 CDN, 백업, 유지 관리가 포함된 공식 매니지드 호스팅 서비스로, 몇 분 만에 사이트를 시작할 수 있습니다. 이 서비스의 수익은 오픈소스 프로젝트를 관리하는 비영리 단체인 Ghost Foundation의 재원이 됩니다.\n\n범용 CMS를 억지로 맞춰 쓰기보다 퍼블리싱과 멤버십에 특화된 전용 플랫폼을 원하는 퍼블리셔, 작가, 소규모 팀에 적합합니다."
     },
     "es": {
+      "description": "Plataforma de código abierto para publicación y membresías, pensada para blogs, newsletters y publicaciones online.",
       "longDescription": "Ghost es una plataforma de contenidos headless basada en Node.js, centrada en la publicación profesional —blogs, newsletters y sitios de membresía/suscripción— más que en ser un CMS de propósito general. El contenido se gestiona a través del panel de administración de Ghost y se entrega a tu propio frontend (temas o un sitio personalizado) mediante su Content API.\n\nPuedes autoalojarlo con la herramienta oficial `ghost-cli`, que gestiona tanto instalaciones locales para desarrollo como instalaciones completas en producción en un servidor, incluyendo SSL automático vía Let's Encrypt. Como alternativa, Ghost(Pro) es un servicio de hosting gestionado oficial que permite lanzar un sitio en un par de minutos, con CDN, copias de seguridad y mantenimiento incluidos; sus ingresos financian la fundación sin ánimo de lucro Ghost Foundation, que mantiene el proyecto open source.\n\nEs adecuado para editores, escritores y equipos pequeños que quieren una plataforma dedicada a publicación y membresías, en lugar de adaptar un CMS genérico para ese fin."
     },
     "de": {
+      "description": "Quelloffene Publishing- und Mitgliedschaftsplattform für Blogs, Newsletter und Online-Publikationen.",
       "longDescription": "Ghost ist eine headless Content-Plattform auf Node.js-Basis, die auf professionelles Publizieren ausgerichtet ist – Blogs, Newsletter und Mitglieder-/Abo-Seiten – statt ein allgemeines CMS zu sein. Inhalte werden über die Ghost-Admin-Oberfläche verwaltet und über die Content API an dein eigenes Frontend (Themes oder eine eigene Seite) ausgeliefert.\n\nDu kannst es mit dem offiziellen Tool `ghost-cli` selbst hosten, das sowohl lokale Installationen für die Entwicklung als auch vollständige Produktionsinstallationen auf einem Server übernimmt – inklusive automatischem SSL via Let's Encrypt. Alternativ ist Ghost(Pro) ein offizieller verwalteter Hosting-Dienst, mit dem sich eine Seite innerhalb weniger Minuten starten lässt, inklusive CDN, Backups und Wartung; die Einnahmen daraus finanzieren die gemeinnützige Ghost Foundation, die das Open-Source-Projekt pflegt.\n\nEs eignet sich für Publisher, Autor:innen und kleine Teams, die eine dedizierte Plattform für Publishing und Mitgliedschaften wollen, statt ein allgemeines CMS dafür zurechtzubiegen."
     }
   }

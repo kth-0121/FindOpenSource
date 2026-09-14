@@ -23,18 +23,23 @@
   "dateAdded": "2026-05-13",
   "translations": {
     "zh-CN": {
+      "description": "一套可直接复制粘贴使用的无障碍 React 组件集合，基于 Radix UI 和 Tailwind CSS 构建。",
       "longDescription": "shadcn/ui 提供了一套基于 React 和 Tailwind CSS 构建的、可访问且可定制的 UI 组件。它不是以典型 npm 包的形式分发、让你以不透明依赖的方式导入使用，而是将自身定位为“开放代码”（open code），意在作为起点使用：你把组件源码直接带入自己的项目，并在此基础上直接进行定制、扩展和构建，相当于用 shadcn/ui 来打造属于你自己的组件库，而不是依赖一个外部组件库。\n\n它采用 MIT 许可证，并在 ui.shadcn.com 上提供文档，详细介绍了可用组件及其使用模式。\n\n它适合那些希望从一开始就完全拥有并掌控自己组件代码和样式的团队，而不是在传统的、以依赖方式安装的组件库的约束或主题系统中做变通。"
     },
     "ja": {
+      "description": "Radix UI と Tailwind CSS で構築された、コピー&ペーストで使えるアクセシブルな React コンポーネント集です。",
       "longDescription": "shadcn/ui は、React と Tailwind CSS で構築された、アクセシブルでカスタマイズ可能な UI コンポーネント一式を提供します。不透明な依存関係としてインポートする典型的な npm パッケージとして配布するのではなく、このプロジェクトは自らを「オープンコード」と位置づけ、出発点として使われることを意図しています。コンポーネントのソースを自分のプロジェクトに直接持ち込み、その場でカスタマイズ・拡張・構築していくことで、外部のコンポーネントライブラリに依存するのではなく、実質的に shadcn/ui を使って自分自身のコンポーネントライブラリを作り上げることになります。\n\nMIT ライセンスで、ui.shadcn.com にドキュメントがあり、利用可能なコンポーネントや使用パターンが詳しく解説されています。\n\n従来の、依存関係としてインストールするタイプのコンポーネントライブラリの制約やテーマシステムを回避するのではなく、初日からコンポーネントのコードとスタイリングを完全に所有し、コントロールしたいチームに向いています。"
     },
     "ko": {
+      "description": "Radix UI와 Tailwind CSS로 만들어진, 복사해서 바로 쓸 수 있는 접근성 높은 React 컴포넌트 모음입니다.",
       "longDescription": "shadcn/ui는 React와 Tailwind CSS로 구축된 접근성 있고 커스터마이징 가능한 UI 컴포넌트 세트를 제공합니다. 불투명한 의존성으로 불러와 사용하는 일반적인 npm 패키지 형태로 배포하는 대신, 이 프로젝트는 스스로를 \"오픈 코드\"로 규정하며, 출발점으로 사용되는 것을 의도합니다. 컴포넌트 소스를 자신의 프로젝트로 직접 가져와 그 위에서 바로 커스터마이징, 확장, 구축을 진행하며, 이는 외부 컴포넌트 라이브러리에 의존하는 대신 shadcn/ui를 사용해 사실상 자기 자신만의 컴포넌트 라이브러리를 만드는 것과 같습니다.\n\nMIT 라이선스이며 ui.shadcn.com에 문서화되어 있고, 사용 가능한 컴포넌트와 사용 패턴이 자세히 다뤄져 있습니다.\n\n의존성으로 설치하는 전통적인 컴포넌트 라이브러리의 제약이나 테마 시스템을 우회하는 대신, 처음부터 컴포넌트 코드와 스타일링을 완전히 소유하고 통제하고 싶은 팀에 적합합니다."
     },
     "es": {
+      "description": "Colección de componentes React accesibles para copiar y pegar, construidos con Radix UI y Tailwind CSS.",
       "longDescription": "shadcn/ui ofrece un conjunto de componentes de UI accesibles y personalizables, construidos con React y Tailwind CSS. En lugar de distribuirse como un paquete npm típico que importas como una dependencia opaca, el proyecto se describe a sí mismo como \"código abierto para usar\" (open code), pensado como punto de partida: traes el código fuente del componente a tu propio proyecto y lo personalizas, amplías y construyes directamente sobre él, usando en la práctica shadcn/ui para construir tu propia biblioteca de componentes en lugar de depender de una externa.\n\nTiene licencia MIT y está documentado en ui.shadcn.com, donde se detallan los componentes disponibles y los patrones de uso.\n\nEncaja en equipos que quieren tener plena propiedad y control sobre el código y el estilo de sus componentes desde el primer día, en lugar de lidiar con las limitaciones o el sistema de theming de una biblioteca de componentes tradicional que se instala como dependencia."
     },
     "de": {
+      "description": "Sammlung von zugänglichen React-Komponenten zum Kopieren und Einfügen, gebaut mit Radix UI und Tailwind CSS.",
       "longDescription": "shadcn/ui bietet eine Reihe barrierefreier, anpassbarer UI-Komponenten, gebaut mit React und Tailwind CSS. Statt sie als typisches npm-Paket zu verteilen, das man als undurchsichtige Abhängigkeit importiert, beschreibt sich das Projekt selbst als „Open Code“, gedacht als Ausgangspunkt: Man bringt den Komponenten-Quellcode direkt in das eigene Projekt und passt ihn dort an, erweitert und baut direkt darauf auf – man nutzt shadcn/ui im Grunde, um eine eigene Komponentenbibliothek zu bauen, statt von einer externen abhängig zu sein.\n\nEs ist MIT-lizenziert und unter ui.shadcn.com dokumentiert, wo die verfügbaren Komponenten und Nutzungsmuster ausführlich beschrieben werden.\n\nEs eignet sich für Teams, die von Anfang an volle Eigentümerschaft und Kontrolle über ihren Komponenten-Code und ihr Styling haben möchten, statt sich mit den Einschränkungen oder dem Theming-System einer traditionellen, als Abhängigkeit installierten Komponentenbibliothek herumzuschlagen."
     }
   }

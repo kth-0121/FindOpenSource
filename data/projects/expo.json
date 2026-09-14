@@ -24,18 +24,23 @@
   "dateAdded": "2025-11-26",
   "translations": {
     "zh-CN": {
+      "description": "用于基于 React Native 构建跨平台原生应用的开源平台与工具链。",
       "longDescription": "Expo 是一个开源平台，可以让你用同一套 React/JavaScript 代码库构建面向 Android、iOS 和 Web 的通用原生应用。该仓库包含核心的开源组成部分：Expo SDK（一套精选的原生设备 API 库）、用于编写自定义原生模块的 Modules API、可在真机上快速预览项目的 Expo Go 应用、CLI，以及用于基于文件的导航的 Expo Router。\n\nExpo Application Services（EAS）是构建在这些开源工具之上的独立托管平台，为不想自行维护原生构建基础设施的团队处理应用的构建、提交和更新——它是可选的，使用开源 SDK 和 CLI 并不需要它。\n\nExpo 非常适合希望用一套 React 代码库同时面向 iOS、Android 和 Web，而无需在日常应用开发中手动配置原生 Xcode/Android Studio 项目的团队。"
     },
     "ja": {
+      "description": "React Native でユニバーサルなネイティブアプリを構築するための、オープンソースのプラットフォーム兼ツールチェーンです。",
       "longDescription": "Expo は、単一の React・JavaScript コードベースから Android、iOS、Web 向けのユニバーサルなネイティブアプリを構築できるオープンソースプラットフォームです。このリポジトリには中核となるオープンソース部分が含まれています: ネイティブデバイス API 向けに厳選されたライブラリ群である Expo SDK、カスタムネイティブモジュールを作成するための Modules API、実機でプロジェクトを素早くプレビューできる Expo Go アプリ、CLI、ファイルベースナビゲーションのための Expo Router です。\n\nExpo Application Services(EAS)は、これらのオープンソースツールの上に構築された別のホスティングプラットフォームで、自前のネイティブビルドインフラを管理したくないチームのために、ビルド・提出・アップデートを代行します。これはオプションであり、オープンソースの SDK や CLI を使うために必須ではありません。\n\n日々のアプリ開発でネイティブの Xcode/Android Studio プロジェクトを手動で設定することなく、1つの React コードベースから iOS、Android、Web をターゲットにしたいチームに向いています。"
     },
     "ko": {
+      "description": "React Native로 범용 네이티브 앱을 만들기 위한 오픈소스 플랫폼 및 툴체인입니다.",
       "longDescription": "Expo는 하나의 React·JavaScript 코드베이스로 Android, iOS, 웹용 유니버설 네이티브 앱을 만들 수 있는 오픈소스 플랫폼입니다. 이 저장소에는 핵심 오픈소스 구성 요소가 담겨 있습니다: 네이티브 기기 API를 위한 엄선된 라이브러리 모음인 Expo SDK, 커스텀 네이티브 모듈을 작성하기 위한 Modules API, 실제 기기에서 프로젝트를 빠르게 미리 볼 수 있는 Expo Go 앱, CLI, 파일 기반 내비게이션을 위한 Expo Router가 포함됩니다.\n\nExpo Application Services(EAS)는 이러한 오픈소스 도구 위에 구축된 별도의 호스팅 플랫폼으로, 자체 네이티브 빌드 인프라를 관리하고 싶지 않은 팀을 위해 앱 빌드, 제출, 업데이트를 대신 처리해 줍니다. 이는 선택 사항이며, 오픈소스 SDK와 CLI를 사용하는 데 반드시 필요하지는 않습니다.\n\n일상적인 앱 개발에서 네이티브 Xcode/Android Studio 프로젝트를 직접 설정하지 않고도 하나의 React 코드베이스로 iOS, Android, 웹을 모두 대상으로 하고 싶은 팀에 적합합니다."
     },
     "es": {
+      "description": "Plataforma y conjunto de herramientas de código abierto para crear apps nativas universales con React Native.",
       "longDescription": "Expo es una plataforma de código abierto para construir aplicaciones nativas universales para Android, iOS y web a partir de una única base de código en React y JavaScript. Este repositorio contiene las piezas open source principales: el Expo SDK (un conjunto seleccionado de librerías para APIs nativas del dispositivo), una Modules API para escribir módulos nativos personalizados, la app Expo Go para previsualizar rápidamente proyectos en un dispositivo real, una CLI y Expo Router para la navegación basada en archivos.\n\nExpo Application Services (EAS) es una plataforma alojada aparte, construida sobre estas herramientas open source, que se encarga de compilar, enviar y actualizar apps para equipos que no quieren gestionar su propia infraestructura de compilación nativa; es opcional, no necesaria para usar el SDK y la CLI de código abierto.\n\nEs una buena opción para equipos que quieren dirigirse a iOS, Android y web desde una sola base de código en React sin configurar a mano proyectos nativos de Xcode/Android Studio en el desarrollo diario de la app."
     },
     "de": {
+      "description": "Quelloffene Plattform und Toolchain zum Erstellen universeller nativer Apps mit React Native.",
       "longDescription": "Expo ist eine Open-Source-Plattform zum Erstellen universeller nativer Apps für Android, iOS und das Web aus einer einzigen React- und JavaScript-Codebasis. Dieses Repository enthält die zentralen Open-Source-Bestandteile: das Expo SDK (eine kuratierte Sammlung von Bibliotheken für native Geräte-APIs), eine Modules API zum Schreiben eigener nativer Module, die Expo-Go-App zum schnellen Vorschauen von Projekten auf einem echten Gerät, eine CLI sowie Expo Router für dateibasiertes Routing.\n\nExpo Application Services (EAS) ist eine separate, gehostete Plattform, die auf diesen Open-Source-Tools aufbaut und Build, Einreichung und Updates für Teams übernimmt, die keine eigene native Build-Infrastruktur betreiben möchten – sie ist optional und nicht erforderlich, um das Open-Source-SDK und die CLI zu nutzen.\n\nExpo eignet sich gut für Teams, die iOS, Android und das Web aus einer einzigen React-Codebasis heraus adressieren möchten, ohne für die alltägliche App-Entwicklung native Xcode-/Android-Studio-Projekte von Hand konfigurieren zu müssen."
     }
   }

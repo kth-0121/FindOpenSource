@@ -28,18 +28,23 @@
   "dateAdded": "2026-08-22",
   "translations": {
     "zh-CN": {
+      "description": "通过 Data Connectors，为 PostgreSQL 及其他数据库即时生成 GraphQL 和 REST API。",
       "longDescription": "Hasura 是一个开源引擎，可在你的数据之上暴露一个统一、可组合的 GraphQL（及 REST）API，而无需为每张表或每个查询手动编写 API 端点。当前的主要版本 Hasura DDN（v3）通过 Data Connector 连接多种数据源——PostgreSQL 及兼容数据库、MongoDB、ClickHouse 和 Microsoft SQL Server，并允许通过 TypeScript、Python 或 Go 编写的连接器 SDK 添加自定义业务逻辑。此前的稳定版本 Hasura V2 是最初主要围绕 PostgreSQL 构建的 GraphQL Engine，目前仍在同一仓库中持续积极维护。\n\nHasura 适合那些不想手动搭建数据访问 API 层、而是希望直接在现有数据库之上获得即时、安全的 GraphQL/REST 接口的团队，并可以在生成的 API 不够用时通过自定义逻辑进行扩展。"
     },
     "ja": {
+      "description": "Data Connectors を介して、PostgreSQL などのデータベース上に即座に GraphQL・REST API を生成します。",
       "longDescription": "Hasura は、テーブルやクエリごとに API エンドポイントを手作業で書く代わりに、データ全体に対して単一の組み合わせ可能な GraphQL(および REST)API を公開するオープンソースのエンジンです。現行のメジャーバージョンである Hasura DDN(v3)は、Data Connector を通じて PostgreSQL とその互換データベース、MongoDB、ClickHouse、Microsoft SQL Server といった複数のソースに接続でき、TypeScript、Python、Go のコネクター SDK でカスタムのビジネスロジックを追加できます。以前の安定版系列である Hasura V2 は、主に PostgreSQL を中心に構築されたオリジナルの GraphQL Engine で、同じリポジトリ内で引き続き活発にメンテナンスされています。\n\nHasura は、データアクセス用の API レイヤーを自前で構築する代わりに、既存のデータベース上にすぐ使える安全な GraphQL/REST エンドポイントを手に入れたいチームに向いており、自動生成された API だけでは足りない部分をカスタムロジックで拡張するという選択肢も用意されています。"
     },
     "ko": {
+      "description": "Data Connectors를 통해 PostgreSQL 및 기타 데이터베이스 위에 즉시 GraphQL과 REST API를 생성합니다.",
       "longDescription": "Hasura는 테이블이나 쿼리마다 API 엔드포인트를 직접 작성할 필요 없이, 여러분의 데이터 위에 하나의 조합 가능한 GraphQL(및 REST) API를 노출해 주는 오픈소스 엔진입니다. 현재 주요 버전인 Hasura DDN(v3)은 Data Connector를 통해 PostgreSQL 및 호환 데이터베이스, MongoDB, ClickHouse, Microsoft SQL Server 등 여러 데이터 소스에 연결하며, TypeScript, Python, Go 커넥터 SDK를 통해 커스텀 비즈니스 로직을 추가할 수 있습니다. 이전 안정 버전 라인인 Hasura V2는 주로 PostgreSQL을 중심으로 만들어진 원래의 GraphQL Engine이며, 같은 저장소에서 계속 활발히 유지 관리되고 있습니다.\n\nHasura는 데이터 접근용 API 레이어를 직접 만드는 대신, 기존 데이터베이스 위에 즉시 사용 가능한 안전한 GraphQL/REST 엔드포인트를 얻고 싶은 팀에 적합하며, 자동 생성된 API로 부족한 부분은 커스텀 로직으로 확장할 수 있는 옵션도 제공합니다."
     },
     "es": {
+      "description": "APIs GraphQL y REST instantáneas sobre PostgreSQL y otras bases de datos, mediante Data Connectors.",
       "longDescription": "Hasura es un motor de código abierto que expone una única API de GraphQL (y REST) componible sobre tus datos, en lugar de obligarte a escribir a mano los endpoints de la API para cada tabla o consulta. La versión principal actual, Hasura DDN (v3), se conecta a múltiples fuentes —PostgreSQL y bases de datos compatibles, MongoDB, ClickHouse y Microsoft SQL Server— a través de Data Connectors, y permite añadir lógica de negocio personalizada mediante SDKs de conector en TypeScript, Python o Go. La línea estable anterior, Hasura V2, es el GraphQL Engine original construido principalmente alrededor de PostgreSQL y sigue manteniéndose activamente en este mismo repositorio.\n\nHasura encaja en equipos que quieren evitar construir a mano una capa de API de acceso a datos y en su lugar obtener endpoints GraphQL/REST instantáneos y seguros directamente sobre sus bases de datos existentes, con la opción de extenderlos con lógica personalizada cuando la API generada no sea suficiente."
     },
     "de": {
+      "description": "Sofortige GraphQL- und REST-APIs auf PostgreSQL und anderen Datenbanken, über Data Connectors.",
       "longDescription": "Hasura ist eine Open-Source-Engine, die eine einzige, komponierbare GraphQL- (und REST-)API über deine Daten bereitstellt, statt dass du für jede Tabelle oder Abfrage manuell API-Endpunkte schreiben musst. Die aktuelle Hauptversion, Hasura DDN (v3), verbindet sich über Data Connectors mit mehreren Quellen – PostgreSQL und kompatible Datenbanken, MongoDB, ClickHouse und Microsoft SQL Server – und erlaubt es, über Connector-SDKs in TypeScript, Python oder Go eigene Geschäftslogik hinzuzufügen. Die vorherige stabile Linie, Hasura V2, ist die ursprüngliche, primär um PostgreSQL herum gebaute GraphQL Engine und wird im selben Repository weiterhin aktiv gepflegt.\n\nHasura eignet sich für Teams, die keine eigene Datenzugriffs-API-Schicht von Hand bauen möchten und stattdessen sofort einsatzbereite, sichere GraphQL-/REST-Endpunkte direkt über ihren bestehenden Datenbanken haben wollen – mit der Möglichkeit, dort, wo die generierte API nicht ausreicht, eigene Logik zu ergänzen."
     }
   }

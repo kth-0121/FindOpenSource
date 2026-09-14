@@ -23,18 +23,23 @@
   "dateAdded": "2025-12-24",
   "translations": {
     "zh-CN": {
+      "description": "自由软件媒体系统，让你完全掌控自己媒体内容的管理与流媒体播放。",
       "longDescription": "Jellyfin 是一个免费的开源媒体服务器，可以将你自己的媒体库——电影、电视剧、音乐等——从你自己掌控的服务器串流到其他设备上的应用，没有订阅费、高级套餐或隐藏限制。它最初是从 Emby 的 3.5.2 版本分叉而来，并为了更广泛的跨平台支持而基于 .NET 重写，如今被定位为 Emby、Plex 等专有方案的免费替代品。\n\n该仓库具体是 Jellyfin 的后端服务器；Web 客户端、移动/电视应用以及内置的 ffmpeg 构建版本都在 Jellyfin GitHub 组织下的独立仓库中。服务器负责托管你的媒体内容、处理转码和元数据，并为连接到它的 Web 客户端（或其他官方/社区客户端）提供服务。\n\nJellyfin 适合任何希望在没有专有许可或核心功能订阅费的情况下，自行搭建类似 Plex/Emby 风格媒体服务器的人。"
     },
     "ja": {
+      "description": "自分のメディアの管理とストリーミングを自分でコントロールできる、フリーソフトウェアのメディアシステムです。",
       "longDescription": "Jellyfin は、映画・テレビ番組・音楽などの自分のメディアライブラリを、自分が管理するサーバーから他のデバイス上のアプリへストリーミングできる、無料のオープンソースメディアサーバーです。サブスクリプションもプレミアムプランも隠れた制限もありません。もともとは Emby の 3.5.2 リリースからフォークされ、より幅広いクロスプラットフォーム対応のために .NET で書き直されたもので、現在では Emby や Plex のような独自ソフトウェアに対する無料の代替として位置づけられています。\n\nこのリポジトリは具体的には Jellyfin のバックエンドサーバーであり、Web クライアント、モバイル/TV アプリ、同梱の ffmpeg ビルドは Jellyfin の GitHub 組織配下の別リポジトリにあります。サーバーはメディアをホストし、トランスコードとメタデータ処理を担当し、接続してくる Web クライアント(またはその他の公式・コミュニティクライアント)にサービスを提供します。\n\nJellyfin は、独自ライセンスやコア機能のためのサブスクリプションなしに、Plex や Emby のようなメディアサーバーをセルフホストしたい人に向いています。"
     },
     "ko": {
+      "description": "미디어 관리와 스트리밍을 직접 통제할 수 있게 해주는 자유 소프트웨어 미디어 시스템입니다.",
       "longDescription": "Jellyfin은 여러분이 직접 관리하는 서버에서 영화, TV, 음악 등 개인 미디어 라이브러리를 다른 기기의 앱으로 스트리밍할 수 있는 무료 오픈소스 미디어 서버로, 구독료나 프리미엄 등급, 숨겨진 제약이 없습니다. 원래 Emby 3.5.2 릴리스에서 포크되어 더 폭넓은 크로스 플랫폼 지원을 위해 .NET으로 다시 작성되었으며, 오늘날에는 Emby나 Plex 같은 상용 옵션의 무료 대안으로 자리 잡고 있습니다.\n\n이 저장소는 구체적으로 Jellyfin 백엔드 서버이며, 웹 클라이언트, 모바일/TV 앱, 번들된 ffmpeg 빌드는 Jellyfin GitHub 조직 아래의 별도 저장소에 있습니다. 서버는 미디어를 호스팅하고 트랜스코딩과 메타데이터를 처리하며, 연결된 웹 클라이언트(또는 기타 공식·커뮤니티 클라이언트)에 서비스를 제공합니다.\n\nJellyfin은 독점 라이선스나 핵심 기능에 대한 구독료 없이 Plex/Emby 스타일의 미디어 서버를 셀프 호스팅하고 싶은 모든 사람에게 적합합니다."
     },
     "es": {
+      "description": "Sistema multimedia de software libre que te da el control total sobre la gestión y el streaming de tu contenido.",
       "longDescription": "Jellyfin es un servidor multimedia gratuito y de código abierto que transmite tu propia biblioteca de medios —películas, series, música y más— desde un servidor que tú controlas a apps en otros dispositivos, sin suscripciones, planes premium ni restricciones ocultas. Originalmente se creó como un fork de Emby (en la versión 3.5.2) y se reescribió sobre .NET para lograr un soporte multiplataforma más amplio, y hoy se posiciona como una alternativa gratuita a opciones propietarias como Emby o Plex.\n\nEste repositorio corresponde específicamente al servidor backend de Jellyfin; el cliente web, las apps móviles/TV y la compilación de ffmpeg incluida viven en repositorios independientes dentro de la organización de GitHub de Jellyfin. El servidor aloja tus medios, gestiona la transcodificación y los metadatos, y sirve al cliente web (u otros clientes oficiales o de la comunidad) que se conectan a él.\n\nJellyfin es una buena opción para cualquiera que quiera autoalojar un servidor multimedia al estilo Plex/Emby sin licencias propietarias ni suscripción para las funciones principales."
     },
     "de": {
+      "description": "Freie Mediensystem-Software, mit der du die volle Kontrolle über die Verwaltung und das Streaming deiner Medien hast.",
       "longDescription": "Jellyfin ist ein kostenloser, quelloffener Medienserver, der deine eigene Mediathek – Filme, Serien, Musik und mehr – von einem Server, den du selbst kontrollierst, an Apps auf anderen Geräten streamt, ganz ohne Abos, Premium-Stufen oder versteckte Einschränkungen. Es entstand ursprünglich als Fork von Emby (auf Basis von Version 3.5.2) und wurde für breitere Plattformunterstützung auf .NET umgeschrieben; heute versteht es sich als kostenlose Alternative zu proprietären Optionen wie Emby und Plex.\n\nDieses Repository ist konkret der Jellyfin-Backend-Server; der Webclient, die Mobil-/TV-Apps und der mitgelieferte ffmpeg-Build liegen in eigenen Repositories innerhalb der Jellyfin-GitHub-Organisation. Der Server hostet deine Medien, kümmert sich um Transkodierung und Metadaten und bedient den Webclient (oder andere offizielle bzw. Community-Clients), die sich mit ihm verbinden.\n\nJellyfin eignet sich für alle, die einen Medienserver im Stil von Plex/Emby selbst hosten möchten, ohne proprietäre Lizenzierung oder ein Abo für die Kernfunktionen."
     }
   }
