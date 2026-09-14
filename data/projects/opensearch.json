@@ -1,0 +1,46 @@
+{
+  "name": "OpenSearch",
+  "slug": "opensearch",
+  "description": "Apache-2.0 licensed distributed search and analytics engine, forked from Elasticsearch to guarantee a fully open-source alternative for full-text search and log analytics.",
+  "longDescription": "OpenSearch is an open-source, distributed search and analytics engine that indexes documents for fast full-text search, aggregations, and analytics at scale. It originated as a fork of Elasticsearch and Kibana after Elastic moved those projects off an OSI-approved license, and remains under the Apache-2.0 license, maintained by the OpenSearch Software Foundation with backing from AWS and other companies.\n\nIt's commonly used for application and website search, log and observability analytics as a backend for structured log data, and security analytics, with OpenSearch Dashboards providing visualization on top - largely API-compatible with the Elasticsearch ecosystem it descended from, which eases migration for teams already using similar tooling.\n\nOpenSearch is a fit for teams that want Elasticsearch-style full-text search and analytics under a license that stays open-source going forward, and is a direct, Apache-2.0 alternative to the Elasticsearch entry already in this catalog for teams for whom that license distinction matters.",
+  "repository": "https://github.com/opensearch-project/OpenSearch",
+  "website": "https://opensearch.org",
+  "documentation": "https://docs.opensearch.org/",
+  "categories": [
+    "search"
+  ],
+  "keywords": [
+    "search-engine",
+    "full-text-search",
+    "log-analytics",
+    "elasticsearch-alternative"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "采用 Apache-2.0 许可的分布式搜索与分析引擎，由 Elasticsearch 分叉而来，旨在为全文搜索和日志分析提供一个完全开源的替代方案。",
+      "longDescription": "OpenSearch 是一个开源的分布式搜索与分析引擎，能够对文档建立索引，以实现大规模的快速全文搜索、聚合和分析。它起源于 Elastic 将 Elasticsearch 和 Kibana 迁离 OSI 认可许可证之后的一次分叉，如今仍采用 Apache-2.0 许可，由 OpenSearch Software Foundation 维护，并得到 AWS 等公司的支持。\n\n它常被用于应用和网站搜索、作为结构化日志数据后端的日志与可观测性分析，以及安全分析，并配有 OpenSearch Dashboards 用于在其之上进行可视化——它在很大程度上与其衍生自的 Elasticsearch 生态系统保持 API 兼容，这为已经在使用类似工具的团队降低了迁移成本。\n\nOpenSearch 适合那些希望获得 Elasticsearch 式全文搜索与分析能力、同时要求许可证在未来始终保持开源的团队，对于在意这一许可证差异的团队而言，它是目录中已有的 Elasticsearch 条目的一个直接的、采用 Apache-2.0 许可的替代方案。"
+    },
+    "ja": {
+      "description": "Elasticsearch からフォークされた、全文検索とログ分析のための完全にオープンソースな選択肢を保証する、Apache-2.0 ライセンスの分散検索・分析エンジンです。",
+      "longDescription": "OpenSearch は、大規模な高速全文検索・集計・分析のためにドキュメントをインデックス化する、オープンソースの分散検索・分析エンジンです。Elastic が Elasticsearch と Kibana を OSI 承認ライセンスから移行させた後にフォークされたのがはじまりで、現在も Apache-2.0 ライセンスのもと、AWS をはじめとする複数の企業の支援を受けながら OpenSearch Software Foundation によってメンテナンスされています。\n\nアプリケーションやウェブサイトの検索、構造化ログデータのバックエンドとしてのログ・オブザーバビリティ分析、セキュリティ分析などによく使われており、その上で可視化を行う OpenSearch Dashboards も提供されています。派生元である Elasticsearch エコシステムとおおむね API 互換性があるため、すでに類似のツールを使っているチームにとって移行がしやすくなっています。\n\nOpenSearch は、Elasticsearch スタイルの全文検索・分析機能を、今後もオープンソースであり続けるライセンスのもとで使いたいチームに向いています。そのライセンスの違いを重視するチームにとっては、カタログに既にある Elasticsearch の直接的な、Apache-2.0 ライセンスの代替となります。"
+    },
+    "ko": {
+      "description": "Elasticsearch에서 포크되어 전문 검색과 로그 분석을 위한 완전한 오픈소스 대안을 보장하는, Apache-2.0 라이선스의 분산 검색·분석 엔진입니다.",
+      "longDescription": "OpenSearch는 문서를 색인화해 대규모의 빠른 전문 검색, 집계, 분석을 제공하는 오픈소스 분산 검색·분석 엔진입니다. Elastic이 Elasticsearch와 Kibana를 OSI 승인 라이선스에서 벗어나게 한 이후 포크되어 시작되었으며, 지금도 Apache-2.0 라이선스를 유지하면서 AWS를 비롯한 여러 기업의 지원을 받아 OpenSearch Software Foundation이 관리하고 있습니다.\n\n애플리케이션·웹사이트 검색, 구조화된 로그 데이터를 위한 백엔드로서의 로그·관측 가능성 분석, 보안 분석 등에 흔히 사용되며, 그 위에서 시각화를 담당하는 OpenSearch Dashboards도 함께 제공됩니다. 파생된 원본인 Elasticsearch 생태계와 대체로 API 호환성을 유지하고 있어, 이미 비슷한 도구를 쓰고 있는 팀의 마이그레이션 부담을 줄여줍니다.\n\nOpenSearch는 Elasticsearch 스타일의 전문 검색·분석 기능을, 앞으로도 계속 오픈소스로 남을 라이선스 아래에서 쓰고 싶은 팀에 적합합니다. 이러한 라이선스 차이가 중요한 팀에게는, 카탈로그에 이미 있는 Elasticsearch의 직접적인 Apache-2.0 대안이 됩니다."
+    },
+    "es": {
+      "description": "Motor distribuido de búsqueda y analítica con licencia Apache-2.0, bifurcado de Elasticsearch para garantizar una alternativa totalmente de código abierto para la búsqueda de texto completo y la analítica de logs.",
+      "longDescription": "OpenSearch es un motor de búsqueda y analítica distribuido de código abierto que indexa documentos para ofrecer búsqueda de texto completo, agregaciones y analítica rápida a gran escala. Se originó como un fork de Elasticsearch y Kibana después de que Elastic moviera esos proyectos fuera de una licencia aprobada por la OSI, y sigue bajo la licencia Apache-2.0, mantenido por la OpenSearch Software Foundation con el respaldo de AWS y otras empresas.\n\nSe usa habitualmente para la búsqueda en aplicaciones y sitios web, la analítica de logs y observabilidad como backend de datos de log estructurados, y la analítica de seguridad, con OpenSearch Dashboards ofreciendo visualización por encima; es en gran medida compatible a nivel de API con el ecosistema de Elasticsearch del que desciende, lo que facilita la migración a equipos que ya usan herramientas similares.\n\nOpenSearch encaja en equipos que quieren búsqueda y analítica de texto completo al estilo Elasticsearch bajo una licencia que se mantenga de código abierto en el futuro, y es una alternativa directa, con licencia Apache-2.0, a la entrada de Elasticsearch ya presente en este catálogo para los equipos a quienes esa distinción de licencia les importa."
+    },
+    "de": {
+      "description": "Verteilte Such- und Analytics-Engine unter Apache-2.0-Lizenz, ein Fork von Elasticsearch, um eine vollständig quelloffene Alternative für Volltextsuche und Log-Analytik zu garantieren.",
+      "longDescription": "OpenSearch ist eine quelloffene, verteilte Such- und Analytics-Engine, die Dokumente für schnelle Volltextsuche, Aggregationen und Analytik im großen Maßstab indexiert. Es entstand als Fork von Elasticsearch und Kibana, nachdem Elastic diese Projekte von einer OSI-anerkannten Lizenz weggeführt hatte, und steht weiterhin unter der Apache-2.0-Lizenz, gepflegt von der OpenSearch Software Foundation mit Unterstützung von AWS und anderen Unternehmen.\n\nEs wird häufig für Anwendungs- und Website-Suche, Log- und Observability-Analytik als Backend für strukturierte Log-Daten sowie Sicherheitsanalytik eingesetzt, mit OpenSearch Dashboards zur Visualisierung obendrauf – weitgehend API-kompatibel mit dem Elasticsearch-Ökosystem, aus dem es hervorgegangen ist, was die Migration für Teams erleichtert, die bereits ähnliche Tools nutzen.\n\nOpenSearch eignet sich für Teams, die Elasticsearch-artige Volltextsuche und Analytik unter einer Lizenz wollen, die auch künftig quelloffen bleibt, und ist eine direkte Apache-2.0-Alternative zum bereits in diesem Katalog vorhandenen Elasticsearch-Eintrag für Teams, denen dieser Lizenzunterschied wichtig ist."
+    }
+  }
+}

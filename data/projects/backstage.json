@@ -1,0 +1,46 @@
+{
+  "name": "Backstage",
+  "slug": "backstage",
+  "description": "Open framework for building an internal developer portal, unifying a company's services, infrastructure, and documentation behind one searchable software catalog.",
+  "longDescription": "Backstage is an open-source framework, originally built at Spotify and now a CNCF incubating project, for building an internal developer portal. Its centralized Software Catalog tracks every service, library, data pipeline, website, and ML model an organization owns, replacing scattered wikis and tribal knowledge about what exists and who owns it with a single, structured source of truth.\n\nOn top of the catalog, Backstage provides Software Templates for scaffolding new projects to an organization's standards, and TechDocs for keeping technical documentation next to the code it describes and rendering it in the portal - and because it's a framework rather than a finished product, teams build their own plugins and customize it to their internal tooling.\n\nBackstage is a fit for platform engineering teams at organizations with enough services that 'what exists and who owns it' has become a real problem, giving developers one place to discover, understand, and scaffold software rather than hunting across repos, wikis, and Slack threads.",
+  "repository": "https://github.com/backstage/backstage",
+  "website": "https://backstage.io/",
+  "documentation": "https://backstage.io/docs",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "developer-portal",
+    "service-catalog",
+    "platform-engineering",
+    "internal-tooling"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "用于构建内部开发者门户的开放框架，将公司的服务、基础设施和文档统一到一个可搜索的软件目录中。",
+      "longDescription": "Backstage 是一个开源框架，最初由 Spotify 构建，现已成为 CNCF 的孵化项目，用于构建内部开发者门户。它的核心是一个集中式的 Software Catalog，用于追踪组织拥有的每一个服务、库、数据管道、网站和机器学习模型，用一个统一、结构化的事实来源，取代分散的 wiki 和口口相传、关于“存在什么、归谁所有”的隐性知识。\n\n在目录之上，Backstage 提供 Software Templates，用于按照组织标准快速搭建新项目脚手架，以及 TechDocs，用于将技术文档与其描述的代码放在一起维护并在门户中渲染展示——由于它是一个框架而非一个成品，各团队可以构建自己的插件，并将其定制成适合自身内部工具体系的形态。\n\nBackstage 适合那些服务数量已经多到让“存在什么、归谁所有”成为真实痛点的组织中的平台工程团队，为开发者提供一个统一的入口，用来发现、理解和搭建软件，而不必在各个代码仓库、wiki 和 Slack 消息中反复搜寻。"
+    },
+    "ja": {
+      "description": "会社のサービス、インフラ、ドキュメントを1つの検索可能なソフトウェアカタログに統合し、社内向け開発者ポータルを構築するためのオープンなフレームワークです。",
+      "longDescription": "Backstage は、もともと Spotify で構築され、現在は CNCF のインキュベーティングプロジェクトとなっている、社内開発者ポータルを構築するためのオープンソースフレームワークです。中心となる Software Catalog は、組織が保有するあらゆるサービス、ライブラリ、データパイプライン、ウェブサイト、機械学習モデルを追跡し、「何が存在し、誰が所有しているか」についての散在した wiki や暗黙知を、単一の構造化された信頼できる情報源に置き換えます。\n\nカタログの上には、組織の標準に沿って新しいプロジェクトの雛形を作成できる Software Templates と、技術ドキュメントをそれが説明するコードのそばに置きつつポータル上でレンダリングできる TechDocs が用意されています。完成品ではなくフレームワークであるため、各チームは独自のプラグインを構築し、自社の内部ツール体系に合わせてカスタマイズできます。\n\nBackstage は、サービスの数が増え「何が存在し、誰が所有しているか」が実際の課題になっている組織のプラットフォームエンジニアリングチームに向いています。開発者はリポジトリや wiki、Slack のスレッドを渡り歩くのではなく、ソフトウェアを発見・理解し、雛形を作成するための単一の場所を得られます。"
+    },
+    "ko": {
+      "description": "회사의 서비스, 인프라, 문서를 검색 가능한 하나의 소프트웨어 카탈로그로 통합해 내부 개발자 포털을 구축하는 오픈 프레임워크입니다.",
+      "longDescription": "Backstage는 원래 Spotify에서 만들어졌고 지금은 CNCF 인큐베이팅 프로젝트가 된, 내부 개발자 포털을 구축하기 위한 오픈소스 프레임워크입니다. 중심이 되는 Software Catalog는 조직이 보유한 모든 서비스, 라이브러리, 데이터 파이프라인, 웹사이트, ML 모델을 추적해, \"무엇이 존재하고 누가 소유하는지\"에 대해 흩어져 있던 위키와 구전 지식을 하나의 구조화된 단일 진실 공급원으로 대체합니다.\n\n카탈로그 위에서 Backstage는 조직의 표준에 맞춰 새 프로젝트의 뼈대를 빠르게 생성하는 Software Templates와, 기술 문서를 그것이 설명하는 코드 옆에 두고 포털에서 렌더링할 수 있게 해주는 TechDocs를 제공합니다. 완성된 제품이 아니라 프레임워크이기 때문에, 각 팀은 자체 플러그인을 만들고 자사 내부 도구 체계에 맞게 커스터마이징합니다.\n\nBackstage는 서비스 수가 많아져 \"무엇이 존재하고 누가 소유하는지\"가 실제 문제가 된 조직의 플랫폼 엔지니어링 팀에 적합합니다. 개발자들이 여러 저장소, 위키, Slack 스레드를 뒤지는 대신 소프트웨어를 발견하고 이해하고 뼈대를 생성할 수 있는 하나의 장소를 제공합니다."
+    },
+    "es": {
+      "description": "Framework abierto para construir un portal interno de desarrolladores, unificando los servicios, la infraestructura y la documentación de una empresa en un único catálogo de software buscable.",
+      "longDescription": "Backstage es un framework de código abierto, creado originalmente en Spotify y ahora un proyecto en incubación de la CNCF, para construir un portal interno de desarrolladores. Su Software Catalog centralizado registra cada servicio, biblioteca, pipeline de datos, sitio web y modelo de ML que posee una organización, sustituyendo wikis dispersas y el conocimiento tribal sobre qué existe y quién es su dueño por una única fuente de verdad estructurada.\n\nSobre el catálogo, Backstage ofrece Software Templates para crear nuevos proyectos siguiendo los estándares de la organización, y TechDocs para mantener la documentación técnica junto al código que describe y renderizarla en el portal; y como es un framework y no un producto terminado, los equipos construyen sus propios plugins y lo personalizan según su tooling interno.\n\nBackstage encaja en equipos de plataforma de organizaciones con suficientes servicios como para que 'qué existe y quién es su dueño' se haya convertido en un problema real, dando a los desarrolladores un único lugar para descubrir, entender y crear software en lugar de buscar por repos, wikis e hilos de Slack."
+    },
+    "de": {
+      "description": "Offenes Framework zum Aufbau eines internen Entwicklerportals, das die Dienste, Infrastruktur und Dokumentation eines Unternehmens in einem durchsuchbaren Software-Katalog vereint.",
+      "longDescription": "Backstage ist ein quelloffenes Framework, ursprünglich bei Spotify entwickelt und heute ein CNCF-Incubating-Projekt, zum Aufbau eines internen Entwicklerportals. Sein zentraler Software Catalog erfasst jeden Dienst, jede Bibliothek, Datenpipeline, Website und jedes ML-Modell, das eine Organisation besitzt, und ersetzt verstreute Wikis und Stammeswissen darüber, was existiert und wem es gehört, durch eine einzige, strukturierte Quelle der Wahrheit.\n\nAuf dem Katalog aufbauend bietet Backstage Software Templates zum Aufsetzen neuer Projekte nach den Standards einer Organisation sowie TechDocs, um technische Dokumentation nahe am beschriebenen Code zu halten und im Portal darzustellen – und da es ein Framework statt eines fertigen Produkts ist, bauen Teams eigene Plugins und passen es an ihr internes Tooling an.\n\nBackstage eignet sich für Platform-Engineering-Teams in Organisationen mit so vielen Diensten, dass „was existiert und wem gehört es“ zu einem echten Problem geworden ist, und gibt Entwicklern einen zentralen Ort, um Software zu entdecken, zu verstehen und aufzusetzen, statt durch Repos, Wikis und Slack-Threads zu suchen."
+    }
+  }
+}

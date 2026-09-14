@@ -1,0 +1,46 @@
+{
+  "name": "ClickHouse",
+  "slug": "clickhouse",
+  "description": "Column-oriented database built for real-time analytical queries over massive datasets, generating aggregated reports in milliseconds rather than seconds or minutes.",
+  "longDescription": "ClickHouse is an open-source, column-oriented database management system built specifically for online analytical processing (OLAP) - queries that scan and aggregate large volumes of data, like counting events, computing averages, or building dashboards - rather than the row-by-row transactional workloads a general-purpose relational database is optimized for. Its columnar storage and vectorized query execution let it scan billions of rows and return aggregated results in real time.\n\nIt's commonly used as the query engine behind real-time analytics dashboards, product and business intelligence tools, observability and log analytics platforms, and large-scale event or clickstream analysis, and can ingest data continuously from sources like Apache Kafka (also in this catalog) for streaming analytics use cases.\n\nClickHouse is a fit for teams whose workload is fundamentally analytical - aggregating and reporting over large, mostly-append-only datasets - rather than transactional, where a row-oriented database like the PostgreSQL or MongoDB entries in this catalog would be a better fit.",
+  "repository": "https://github.com/ClickHouse/ClickHouse",
+  "website": "https://clickhouse.com",
+  "documentation": "https://clickhouse.com/docs",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "olap",
+    "real-time-analytics",
+    "columnar-database",
+    "analytical-database"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向海量数据集实时分析查询而构建的列式数据库，能够在毫秒级而非秒级或分钟级生成聚合报表。",
+      "longDescription": "ClickHouse 是一个开源的列式数据库管理系统，专为联机分析处理（OLAP）而构建——即扫描并聚合大量数据的查询，例如统计事件数量、计算平均值或构建仪表盘，而不是通用关系型数据库所擅长优化的逐行事务型工作负载。其列式存储和向量化查询执行方式，使它能够扫描数十亿行数据并实时返回聚合结果。\n\n它通常被用作实时分析仪表盘、产品与商业智能工具、可观测性与日志分析平台，以及大规模事件或点击流分析背后的查询引擎，并且可以持续从 Apache Kafka（同样收录于本目录）等数据源摄取数据，用于流式分析场景。\n\nClickHouse 适合那些工作负载本质上属于分析型——即对庞大的、以追加写入为主的数据集进行聚合和报表统计——而非事务型的团队；对于事务型场景，目录中的 PostgreSQL 或 MongoDB 等行式数据库会是更合适的选择。"
+    },
+    "ja": {
+      "description": "大量のデータセットに対するリアルタイムな分析クエリのために構築された列指向データベースで、集計レポートを秒単位や分単位ではなくミリ秒単位で生成します。",
+      "longDescription": "ClickHouse は、オンライン分析処理(OLAP)、すなわちイベント数のカウントや平均の計算、ダッシュボードの構築といった、大量のデータをスキャンして集計するクエリ専用に構築された、オープンソースの列指向データベース管理システムです。汎用のリレーショナルデータベースが最適化されている行単位のトランザクション処理型ワークロードとは異なります。列指向ストレージとベクトル化されたクエリ実行により、数十億行をスキャンし、集計結果をリアルタイムで返すことができます。\n\nリアルタイム分析ダッシュボード、プロダクト・ビジネスインテリジェンスツール、オブザーバビリティ・ログ分析プラットフォーム、大規模なイベントやクリックストリーム分析の背後にあるクエリエンジンとしてよく使われており、(カタログにもある)Apache Kafka のようなソースから継続的にデータを取り込み、ストリーミング分析のユースケースに対応することもできます。\n\nClickHouse は、大規模で主に追記型のデータセットに対する集計とレポーティングという、本質的に分析的なワークロードを持つチームに向いています。トランザクション処理が中心の場合は、カタログ内の PostgreSQL や MongoDB のような行指向データベースの方が適しています。"
+    },
+    "ko": {
+      "description": "대규모 데이터셋에 대한 실시간 분석 쿼리를 위해 만들어진 컬럼형 데이터베이스로, 집계 리포트를 초 단위나 분 단위가 아니라 밀리초 단위로 생성합니다.",
+      "longDescription": "ClickHouse는 온라인 분석 처리(OLAP), 즉 이벤트 개수를 세거나 평균을 계산하거나 대시보드를 구축하는 등 대량의 데이터를 스캔하고 집계하는 쿼리를 위해 특별히 만들어진 오픈소스 컬럼형 데이터베이스 관리 시스템입니다. 범용 관계형 데이터베이스가 최적화된 행 단위 트랜잭션 워크로드와는 다릅니다. 컬럼형 저장 방식과 벡터화된 쿼리 실행 덕분에 수십억 행을 스캔하고 집계 결과를 실시간으로 반환할 수 있습니다.\n\n실시간 분석 대시보드, 제품·비즈니스 인텔리전스 도구, 관측 가능성·로그 분석 플랫폼, 대규모 이벤트 또는 클릭스트림 분석의 배후 쿼리 엔진으로 흔히 사용되며, (카탈로그에 있는) Apache Kafka 같은 소스로부터 데이터를 지속적으로 수집해 스트리밍 분석 용도로도 쓸 수 있습니다.\n\nClickHouse는 대규모의, 대부분 추가 전용(append-only)인 데이터셋에 대한 집계와 리포팅처럼 워크로드가 본질적으로 분석적인 팀에 적합하며, 트랜잭션 중심 워크로드라면 카탈로그에 있는 PostgreSQL이나 MongoDB 같은 행 지향 데이터베이스가 더 적합합니다."
+    },
+    "es": {
+      "description": "Base de datos orientada a columnas construida para consultas analíticas en tiempo real sobre conjuntos de datos masivos, generando informes agregados en milisegundos y no en segundos o minutos.",
+      "longDescription": "ClickHouse es un sistema de gestión de bases de datos orientado a columnas y de código abierto, construido específicamente para el procesamiento analítico en línea (OLAP) —consultas que escanean y agregan grandes volúmenes de datos, como contar eventos, calcular promedios o construir dashboards— en lugar de las cargas de trabajo transaccionales fila a fila para las que está optimizada una base de datos relacional de propósito general. Su almacenamiento columnar y su ejecución de consultas vectorizada le permiten escanear miles de millones de filas y devolver resultados agregados en tiempo real.\n\nSe usa habitualmente como motor de consultas detrás de dashboards de analítica en tiempo real, herramientas de business intelligence y de producto, plataformas de observabilidad y analítica de logs, y análisis a gran escala de eventos o clickstream, y puede ingerir datos de forma continua desde fuentes como Apache Kafka (también en este catálogo) para casos de uso de analítica en streaming.\n\nClickHouse encaja en equipos cuya carga de trabajo es fundamentalmente analítica —agregar e informar sobre grandes conjuntos de datos mayormente de solo anexado— en lugar de transaccional, donde una base de datos orientada a filas como PostgreSQL o MongoDB (también en este catálogo) sería más adecuada."
+    },
+    "de": {
+      "description": "Spaltenorientierte Datenbank für Echtzeit-Analyseabfragen über riesige Datensätze, die aggregierte Berichte in Millisekunden statt Sekunden oder Minuten erzeugt.",
+      "longDescription": "ClickHouse ist ein quelloffenes, spaltenorientiertes Datenbankmanagementsystem, das speziell für Online Analytical Processing (OLAP) gebaut ist – Abfragen, die große Datenmengen scannen und aggregieren, etwa das Zählen von Events, das Berechnen von Durchschnitten oder den Aufbau von Dashboards –, statt für die zeilenweisen transaktionalen Workloads, für die eine allgemeine relationale Datenbank optimiert ist. Sein spaltenorientierter Speicher und die vektorisierte Abfrageausführung erlauben es, Milliarden von Zeilen zu scannen und aggregierte Ergebnisse in Echtzeit zurückzugeben.\n\nEs wird häufig als Query-Engine hinter Echtzeit-Analytics-Dashboards, Produkt- und Business-Intelligence-Tools, Observability- und Log-Analytics-Plattformen sowie großangelegter Event- oder Clickstream-Analyse eingesetzt und kann kontinuierlich Daten aus Quellen wie Apache Kafka (ebenfalls in diesem Katalog) für Streaming-Analytics-Anwendungsfälle aufnehmen.\n\nClickHouse eignet sich für Teams, deren Workload grundlegend analytisch ist – Aggregation und Reporting über große, überwiegend nur anhängende Datensätze – statt transaktional, wofür eine zeilenorientierte Datenbank wie PostgreSQL oder MongoDB (ebenfalls in diesem Katalog) besser geeignet wäre."
+    }
+  }
+}
