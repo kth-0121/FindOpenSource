@@ -7,6 +7,7 @@ const dictionary: Dictionary = {
     categories: "Categories",
     contribute: "Contribute",
     github: "GitHub",
+    support: "Support",
   },
   languageSwitcher: {
     label: "Select language",
@@ -16,6 +17,7 @@ const dictionary: Dictionary = {
     about: "About",
     contribute: "Contribute",
     github: "GitHub",
+    support: "Support FindOpenSource",
   },
   home: {
     heroTitleLine1: "Find the right open source",
@@ -28,6 +30,9 @@ const dictionary: Dictionary = {
     viewAll: "View all",
     popularOpenSource: "Popular Open Source",
     recentlyAdded: "Recently Added",
+    supportHeading: "Found FindOpenSource useful?",
+    supportBody: "Support the project on GitHub Sponsors and help us keep improving open-source discovery.",
+    supportCta: "Support FindOpenSource",
   },
   search: {
     inputLabel: "Search open source projects",
@@ -166,6 +171,11 @@ const dictionary: Dictionary = {
     contributingBody: "Anyone can add a project by opening a pull request. ",
     contributingLinkText: "See the contribution guide",
     contributingLinkSuffix: " to get started.",
+    supportHeading: "Supporting FindOpenSource",
+    supportBody:
+      "FindOpenSource is free to use and always will be. If it helped you find the right project, you can support its upkeep on ",
+    supportCta: "GitHub Sponsors",
+    supportBodySuffix: ".",
   },
   contribute: {
     title: "Contribute a project",
@@ -203,6 +213,28 @@ const dictionary: Dictionary = {
     title: "Page not found",
     description: "The page you're looking for doesn't exist or may have been moved.",
     backHome: "Back to home",
+  },
+  support: {
+    title: "Support FindOpenSource",
+    metaDescription:
+      "Support FindOpenSource on GitHub Sponsors and help fund ongoing project curation, search improvements and multilingual content.",
+    intro:
+      "FindOpenSource helps developers find open source projects by the problem they solve, not just by name. It's a free, community-curated directory with no login and no ads getting in the way.",
+    whyHeading: "Why support helps",
+    whyIntro: "Your support goes toward the ongoing work of running FindOpenSource, including:",
+    whyItems: [
+      "Keeping project data accurate and up to date",
+      "Adding new open source projects to the catalog",
+      "Improving the search taxonomy across languages",
+      "Expanding and refining multilingual content",
+      "General site maintenance",
+      "Performance and SEO improvements",
+    ],
+    howHeading: "How to support",
+    howBody:
+      "FindOpenSource doesn't process payments itself. Supporting the project happens through GitHub Sponsors, GitHub's official sponsorship platform — the button below takes you to the GitHub Sponsors page.",
+    ctaLabel: "Support on GitHub Sponsors",
+    ctaAriaLabel: "Support FindOpenSource on GitHub Sponsors (opens in a new tab)",
   },
 };
 

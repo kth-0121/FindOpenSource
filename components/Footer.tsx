@@ -1,9 +1,13 @@
 import Link from "next/link";
 import { siteConfig } from "@/lib/site";
+import { getSupportUrl } from "@/lib/support";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
+import { SupportLink } from "@/components/SupportLink";
 
 export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
+  const supportUrl = getSupportUrl();
+
   return (
     <footer className="border-t border-border">
       <div className="mx-auto flex max-w-5xl flex-col gap-4 px-4 py-8 text-sm text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:px-6">
@@ -25,6 +29,11 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           >
             {dict.footer.github}
           </a>
+          {supportUrl && (
+            <SupportLink href={supportUrl} ariaLabel={dict.support.ctaAriaLabel} className="hover:text-foreground">
+              {dict.footer.support}
+            </SupportLink>
+          )}
         </nav>
       </div>
     </footer>

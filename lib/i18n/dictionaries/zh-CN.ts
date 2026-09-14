@@ -7,6 +7,7 @@ const dictionary: Dictionary = {
     categories: "分类",
     contribute: "贡献",
     github: "GitHub",
+    support: "赞助",
   },
   languageSwitcher: {
     label: "选择语言",
@@ -16,6 +17,7 @@ const dictionary: Dictionary = {
     about: "关于",
     contribute: "贡献",
     github: "GitHub",
+    support: "赞助 FindOpenSource",
   },
   home: {
     heroTitleLine1: "找到适合你项目的",
@@ -28,6 +30,9 @@ const dictionary: Dictionary = {
     viewAll: "查看全部",
     popularOpenSource: "热门开源项目",
     recentlyAdded: "最近添加",
+    supportHeading: "FindOpenSource 对你有帮助吗？",
+    supportBody: "通过 GitHub Sponsors 赞助 FindOpenSource，帮助我们持续改进开源项目的发现体验。",
+    supportCta: "赞助 FindOpenSource",
   },
   search: {
     inputLabel: "搜索开源项目",
@@ -165,6 +170,10 @@ const dictionary: Dictionary = {
     contributingBody: "任何人都可以通过提交 Pull Request 来添加项目。",
     contributingLinkText: "查看贡献指南",
     contributingLinkSuffix: "开始吧。",
+    supportHeading: "赞助 FindOpenSource",
+    supportBody: "FindOpenSource 免费使用，并将持续保持免费。如果它帮你找到了合适的项目，你可以通过 ",
+    supportCta: "GitHub Sponsors",
+    supportBodySuffix: " 支持它的运营。",
   },
   contribute: {
     title: "贡献一个项目",
@@ -202,6 +211,27 @@ const dictionary: Dictionary = {
     title: "页面未找到",
     description: "你要查找的页面不存在，或可能已被移动。",
     backHome: "返回首页",
+  },
+  support: {
+    title: "赞助 FindOpenSource",
+    metaDescription: "通过 GitHub Sponsors 赞助 FindOpenSource，帮助支持项目数据维护、搜索改进和多语言内容制作。",
+    intro:
+      "FindOpenSource 帮助开发者按照要解决的问题、而不仅仅是按名称来查找开源项目。它是一个免费的、由社区维护的目录，没有登录，也没有广告打扰。",
+    whyHeading: "赞助能带来什么帮助",
+    whyIntro: "你的赞助将用于支持 FindOpenSource 的日常运营，包括：",
+    whyItems: [
+      "保持项目数据的准确与更新",
+      "向目录中添加新的开源项目",
+      "改进跨语言的搜索 taxonomy",
+      "扩充和完善多语言内容",
+      "网站的日常维护",
+      "性能与 SEO 优化",
+    ],
+    howHeading: "如何赞助",
+    howBody:
+      "FindOpenSource 本身不处理支付。赞助通过 GitHub 官方的赞助平台 GitHub Sponsors 完成——点击下方按钮即可前往 GitHub Sponsors 页面。",
+    ctaLabel: "在 GitHub Sponsors 上赞助",
+    ctaAriaLabel: "在 GitHub Sponsors 上赞助 FindOpenSource（在新标签页中打开）",
   },
 };
 

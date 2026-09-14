@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { SupportLink } from "@/components/SupportLink";
+import { getSupportUrl } from "@/lib/support";
 import { isLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { buildAlternates } from "@/lib/i18n/metadata";
@@ -26,6 +28,7 @@ export default async function AboutPage({ params }: AboutPageProps) {
   if (!isLocale(localeParam)) notFound();
   const locale: Locale = localeParam;
   const dict = getDictionary(locale);
+  const supportUrl = getSupportUrl();
 
   return (
     <div className="mx-auto max-w-2xl px-4 py-12 sm:px-6">
@@ -46,6 +49,18 @@ export default async function AboutPage({ params }: AboutPageProps) {
           </Link>
           {dict.about.contributingLinkSuffix}
         </p>
+        {supportUrl && (
+          <>
+            <h2 className="text-xl font-semibold tracking-tight">{dict.about.supportHeading}</h2>
+            <p>
+              {dict.about.supportBody}
+              <SupportLink href={supportUrl} ariaLabel={dict.support.ctaAriaLabel} className="text-accent hover:underline">
+                {dict.about.supportCta}
+              </SupportLink>
+              {dict.about.supportBodySuffix}
+            </p>
+          </>
+        )}
       </div>
     </div>
   );

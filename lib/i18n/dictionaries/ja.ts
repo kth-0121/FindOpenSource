@@ -7,6 +7,7 @@ const dictionary: Dictionary = {
     categories: "カテゴリ",
     contribute: "コントリビュート",
     github: "GitHub",
+    support: "サポート",
   },
   languageSwitcher: {
     label: "言語を選択",
@@ -16,6 +17,7 @@ const dictionary: Dictionary = {
     about: "概要",
     contribute: "コントリビュート",
     github: "GitHub",
+    support: "FindOpenSource をサポート",
   },
   home: {
     heroTitleLine1: "プロジェクトに最適な",
@@ -28,6 +30,9 @@ const dictionary: Dictionary = {
     viewAll: "すべて見る",
     popularOpenSource: "人気のオープンソース",
     recentlyAdded: "最近追加されたプロジェクト",
+    supportHeading: "FindOpenSource は役に立ちましたか?",
+    supportBody: "GitHub Sponsors で FindOpenSource をサポートして、オープンソース発見の改善を後押ししてください。",
+    supportCta: "FindOpenSource をサポート",
   },
   search: {
     inputLabel: "オープンソースプロジェクトを検索",
@@ -166,6 +171,10 @@ const dictionary: Dictionary = {
     contributingBody: "誰でも Pull Request を送ることでプロジェクトを追加できます。",
     contributingLinkText: "コントリビューションガイドを見る",
     contributingLinkSuffix: "から始めましょう。",
+    supportHeading: "FindOpenSource をサポートする",
+    supportBody: "FindOpenSource は今後も無料で利用できます。ちょうどいいプロジェクトを見つける助けになったなら、",
+    supportCta: "GitHub Sponsors",
+    supportBodySuffix: " で運営をサポートできます。",
   },
   contribute: {
     title: "プロジェクトをコントリビュートする",
@@ -203,6 +212,28 @@ const dictionary: Dictionary = {
     title: "ページが見つかりません",
     description: "お探しのページは存在しないか、移動した可能性があります。",
     backHome: "ホームに戻る",
+  },
+  support: {
+    title: "FindOpenSource をサポート",
+    metaDescription:
+      "GitHub Sponsors で FindOpenSource をサポートし、プロジェクトのキュレーションや検索の改善、多言語コンテンツの制作を継続できるよう支援してください。",
+    intro:
+      "FindOpenSource は、開発者が名前ではなく解決したい課題からオープンソースプロジェクトを見つけられるようにするツールです。ログインも広告もない、無料のコミュニティキュレーション・ディレクトリです。",
+    whyHeading: "サポートが役立つ理由",
+    whyIntro: "いただいたサポートは、FindOpenSource を運営する以下のような活動に使われます:",
+    whyItems: [
+      "プロジェクトデータを正確かつ最新の状態に保つこと",
+      "カタログに新しいオープンソースプロジェクトを追加すること",
+      "複数言語にまたがる検索タクソノミーの改善",
+      "多言語コンテンツの拡充と磨き上げ",
+      "サイト全般のメンテナンス",
+      "パフォーマンスと SEO の改善",
+    ],
+    howHeading: "サポートの方法",
+    howBody:
+      "FindOpenSource 自体は決済を処理しません。サポートは GitHub の公式スポンサーシッププラットフォームである GitHub Sponsors を通じて行われます。下のボタンから GitHub Sponsors のページに移動できます。",
+    ctaLabel: "GitHub Sponsors でサポートする",
+    ctaAriaLabel: "GitHub Sponsors で FindOpenSource をサポートする(新しいタブで開きます)",
   },
 };
 

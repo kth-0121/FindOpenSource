@@ -6,7 +6,9 @@ import { CategoryCard } from "@/components/CategoryCard";
 import { ProjectCard } from "@/components/ProjectCard";
 import { KeywordBadge } from "@/components/KeywordBadge";
 import { AdSlot } from "@/components/AdSlot";
+import { SupportLink } from "@/components/SupportLink";
 import { getCategoriesWithCounts, getFeaturedProjects, getRecentProjects } from "@/lib/projects";
+import { getSupportUrl } from "@/lib/support";
 import { isLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { buildAlternates } from "@/lib/i18n/metadata";
@@ -30,6 +32,7 @@ export default async function HomePage({ params }: HomePageProps) {
   const categories = getCategoriesWithCounts();
   const featuredProjects = getFeaturedProjects(locale, 8);
   const recentProjects = getRecentProjects(locale, 6);
+  const supportUrl = getSupportUrl();
 
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
@@ -106,6 +109,20 @@ export default async function HomePage({ params }: HomePageProps) {
           ))}
         </ul>
       </section>
+
+      {supportUrl && (
+        <section className="mt-24 rounded-lg border border-border px-6 py-10 text-center">
+          <h2 className="text-lg font-semibold tracking-tight">{dict.home.supportHeading}</h2>
+          <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">{dict.home.supportBody}</p>
+          <SupportLink
+            href={supportUrl}
+            ariaLabel={dict.support.ctaAriaLabel}
+            className="mt-6 inline-block rounded-full bg-accent px-4 py-2 text-sm font-medium text-accent-foreground hover:opacity-90"
+          >
+            {dict.home.supportCta}
+          </SupportLink>
+        </section>
+      )}
     </div>
   );
 }

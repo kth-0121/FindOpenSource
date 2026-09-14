@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const categories = getAllCategories();
   const now = new Date();
 
-  const staticEntries = ["", "/projects", "/categories", "/about", "/contribute"].flatMap((path) =>
+  const staticEntries = ["", "/projects", "/categories", "/about", "/contribute", "/support"].flatMap((path) =>
     entriesForPath(path, now),
   );
 
