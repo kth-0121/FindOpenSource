@@ -1,0 +1,47 @@
+{
+  "name": "Coder",
+  "slug": "coder",
+  "description": "Self-hosted platform for provisioning cloud development environments on your own infrastructure, giving every developer a consistent, disposable remote workspace.",
+  "longDescription": "Coder is a self-hosted platform for cloud development environments (CDEs) - full development workspaces that run on infrastructure a team controls rather than an individual's laptop. Workspaces are defined as Terraform, so a workspace can provision exactly the compute, network access, and tooling a team standardizes on, connect to a developer's editor of choice through a secure WireGuard tunnel, and shut down automatically when idle to control cost.\n\nBecause workspaces are provisioned from a shared template rather than set up by hand, every developer gets a consistent, reproducible environment instead of a personally-drifted local machine, and workspaces can be recreated or thrown away freely since none of a developer's actual work lives only on the workspace's underlying infrastructure.\n\nCoder is a fit for teams that want cloud development environments running on their own infrastructure rather than a vendor's cloud, standardizing onboarding and tooling without giving up control over where code and compute actually run - complementing Gitea and Portainer (also in this catalog) rather than replacing them, since Coder provisions the development workspace itself, not the code host or the container runtime beneath it.",
+  "repository": "https://github.com/coder/coder",
+  "website": "https://coder.com",
+  "documentation": "https://coder.com/docs",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "cloud-development-environment",
+    "remote-development",
+    "dev-environments",
+    "workspace-provisioning"
+  ],
+  "languages": [
+    "Go",
+    "TypeScript"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "用于在自有基础设施上按需创建云开发环境的自托管平台，为每位开发者提供一致的、可随时丢弃的远程工作区。",
+      "longDescription": "Coder 是一个用于云开发环境（CDE）的自托管平台——完整的开发工作区运行在团队自己掌控的基础设施上，而不是某个人的笔记本电脑上。工作区以 Terraform 定义，因此一个工作区可以精确地按照团队的标准配置计算资源、网络访问权限和工具链，通过安全的 WireGuard 隧道连接到开发者选用的编辑器，并在空闲时自动关闭以控制成本。\n\n由于工作区是从共享模板创建，而不是手动搭建，每位开发者都能获得一致、可复现的环境，而不是一台逐渐“个人化偏移”的本地机器；工作区也可以随意重建或销毁，因为开发者的实际工作成果不会只存在于工作区所在的底层基础设施中。\n\nCoder 适合那些希望在自有基础设施上运行云开发环境、而不是依赖某个厂商云服务的团队，在不放弃对代码和计算资源实际运行位置控制权的前提下，统一新人入职流程和工具链——它与目录中的 Gitea、Portainer 是互补关系而非替代关系，因为 Coder 提供的是开发工作区本身，而不是代码托管服务或底层的容器运行时。"
+    },
+    "ja": {
+      "description": "自社インフラ上でクラウド開発環境をプロビジョニングするセルフホスト型プラットフォームで、すべての開発者に一貫した、使い捨て可能なリモートワークスペースを提供します。",
+      "longDescription": "Coder は、クラウド開発環境(CDE)向けのセルフホスト型プラットフォームです。フルスペックの開発ワークスペースが、個人のノート PC ではなく、チームが管理するインフラ上で動作します。ワークスペースは Terraform として定義されるため、チームが標準とするコンピュートリソース、ネットワークアクセス、ツール類をそのままプロビジョニングでき、安全な WireGuard トンネル経由で開発者が選んだエディタに接続でき、アイドル状態になると自動的にシャットダウンしてコストを抑えられます。\n\nワークスペースは手動でセットアップするのではなく共有テンプレートからプロビジョニングされるため、各開発者は個人的に変化してしまったローカルマシンではなく、一貫性のある再現可能な環境を得られます。また、開発者の実際の作業成果がワークスペースの基盤インフラだけに存在するわけではないため、ワークスペースは自由に再作成したり破棄したりできます。\n\nCoder は、ベンダーのクラウドではなく自社インフラ上でクラウド開発環境を動かしたいチームに向いており、コードとコンピュートが実際にどこで動くかの制御を手放すことなく、オンボーディングとツール類を標準化できます。カタログにある Gitea や Portainer を置き換えるのではなく補完する存在です。Coder が提供するのは開発ワークスペースそのものであり、コードホスティングやその下にあるコンテナランタイムではないためです。"
+    },
+    "ko": {
+      "description": "자체 인프라에서 클라우드 개발 환경을 프로비저닝하는 셀프 호스팅 플랫폼으로, 모든 개발자에게 일관되고 언제든 폐기 가능한 원격 워크스페이스를 제공합니다.",
+      "longDescription": "Coder는 클라우드 개발 환경(CDE)을 위한 셀프 호스팅 플랫폼입니다. 완전한 개발 워크스페이스가 개인 노트북이 아니라 팀이 관리하는 인프라에서 실행됩니다. 워크스페이스는 Terraform으로 정의되므로, 팀이 표준화한 컴퓨트, 네트워크 접근, 도구를 그대로 프로비저닝할 수 있고, 안전한 WireGuard 터널을 통해 개발자가 선택한 에디터에 연결되며, 유휴 상태일 때 자동으로 종료되어 비용을 관리할 수 있습니다.\n\n워크스페이스는 수작업으로 설정하는 대신 공유 템플릿으로부터 프로비저닝되기 때문에, 모든 개발자가 개인적으로 변형된 로컬 머신 대신 일관되고 재현 가능한 환경을 얻습니다. 또한 개발자의 실제 작업 결과물이 워크스페이스의 하부 인프라에만 존재하는 것이 아니므로, 워크스페이스를 자유롭게 다시 만들거나 폐기할 수 있습니다.\n\nCoder는 벤더의 클라우드가 아니라 자체 인프라에서 클라우드 개발 환경을 운영하고 싶은 팀에 적합하며, 코드와 컴퓨트가 실제로 어디서 실행되는지에 대한 통제권을 포기하지 않으면서 온보딩과 도구 체계를 표준화할 수 있습니다. 카탈로그에 있는 Gitea, Portainer를 대체하는 것이 아니라 보완하는 관계로, Coder는 개발 워크스페이스 자체를 제공할 뿐 코드 호스팅이나 그 아래의 컨테이너 런타임을 제공하지는 않습니다."
+    },
+    "es": {
+      "description": "Plataforma autoalojada para aprovisionar entornos de desarrollo en la nube sobre tu propia infraestructura, dando a cada desarrollador un espacio de trabajo remoto consistente y desechable.",
+      "longDescription": "Coder es una plataforma autoalojada para entornos de desarrollo en la nube (CDE): espacios de trabajo de desarrollo completos que se ejecutan sobre infraestructura controlada por el equipo en lugar del portátil de una persona. Los espacios de trabajo se definen como Terraform, de modo que un espacio de trabajo puede aprovisionar exactamente el cómputo, el acceso de red y las herramientas que el equipo estandariza, conectarse al editor que prefiera el desarrollador a través de un túnel WireGuard seguro, y apagarse automáticamente cuando está inactivo para controlar el coste.\n\nComo los espacios de trabajo se aprovisionan a partir de una plantilla compartida en lugar de configurarse a mano, cada desarrollador obtiene un entorno consistente y reproducible en lugar de una máquina local que ha ido derivando de forma personal, y los espacios de trabajo pueden recrearse o desecharse libremente, ya que el trabajo real de un desarrollador no reside únicamente en la infraestructura subyacente del espacio de trabajo.\n\nCoder encaja en equipos que quieren entornos de desarrollo en la nube ejecutándose sobre su propia infraestructura en lugar de la nube de un proveedor, estandarizando la incorporación y las herramientas sin renunciar al control sobre dónde se ejecutan realmente el código y el cómputo, complementando a Gitea y Portainer (también en este catálogo) en lugar de sustituirlos, ya que Coder aprovisiona el espacio de trabajo de desarrollo en sí, no el alojamiento del código ni el runtime de contenedores subyacente."
+    },
+    "de": {
+      "description": "Selbst gehostete Plattform zum Bereitstellen von Cloud-Entwicklungsumgebungen auf eigener Infrastruktur, die jedem Entwickler einen konsistenten, wegwerfbaren Remote-Workspace gibt.",
+      "longDescription": "Coder ist eine selbst gehostete Plattform für Cloud-Entwicklungsumgebungen (CDEs) – vollständige Entwicklungs-Workspaces, die auf von einem Team kontrollierter Infrastruktur statt auf dem Laptop einer Einzelperson laufen. Workspaces werden als Terraform definiert, sodass ein Workspace genau die Rechenleistung, den Netzwerkzugriff und das Tooling bereitstellen kann, auf die sich ein Team standardisiert hat, sich über einen sicheren WireGuard-Tunnel mit dem bevorzugten Editor eines Entwicklers verbindet und sich bei Inaktivität automatisch herunterfährt, um Kosten zu kontrollieren.\n\nDa Workspaces aus einer gemeinsamen Vorlage statt von Hand eingerichtet werden, erhält jeder Entwickler eine konsistente, reproduzierbare Umgebung statt einer persönlich abgedrifteten lokalen Maschine, und Workspaces lassen sich beliebig neu erstellen oder verwerfen, da die tatsächliche Arbeit eines Entwicklers nicht ausschließlich auf der zugrunde liegenden Infrastruktur des Workspace liegt.\n\nCoder eignet sich für Teams, die Cloud-Entwicklungsumgebungen auf eigener Infrastruktur statt der Cloud eines Anbieters betreiben möchten, um Onboarding und Tooling zu standardisieren, ohne die Kontrolle darüber aufzugeben, wo Code und Rechenleistung tatsächlich laufen – als Ergänzung zu Gitea und Portainer (ebenfalls in diesem Katalog) statt als Ersatz, da Coder den Entwicklungs-Workspace selbst bereitstellt, nicht den Code-Host oder die darunterliegende Container-Runtime."
+    }
+  }
+}

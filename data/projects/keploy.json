@@ -1,0 +1,46 @@
+{
+  "name": "Keploy",
+  "slug": "keploy",
+  "description": "Developer-centric API testing tool that records real API and database traffic with eBPF and turns it into test cases and data mocks automatically, with no code changes.",
+  "longDescription": "Keploy is an open-source API and integration testing tool that generates tests from real traffic instead of requiring a developer to hand-write them. It uses eBPF to capture API calls, database queries, and streaming events at the network layer while an application runs normally - meaning no SDK to install and no code changes - then turns that captured traffic into replayable test cases and data mocks.\n\nBecause it replays recorded, realistic traffic rather than synthetic requests a developer imagined, it's well suited to catching regressions in complex, distributed request flows without hand-maintaining a large suite of API test fixtures, and it's language-agnostic since capture happens at the network layer rather than inside application code.\n\nKeploy is a fit for teams that want API and integration test coverage generated from actual usage rather than written from scratch, complementing Cypress and Playwright (also in this catalog), which test browser-based user flows rather than backend API and integration behavior.",
+  "repository": "https://github.com/keploy/keploy",
+  "website": "https://keploy.io",
+  "documentation": "https://keploy.io/docs/keploy-explained/introduction/",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "api-testing",
+    "integration-testing",
+    "test-generation",
+    "mocking"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "以开发者为中心的 API 测试工具，通过 eBPF 记录真实的 API 和数据库流量，并自动将其转换为测试用例和数据 Mock，无需修改代码。",
+      "longDescription": "Keploy 是一个开源的 API 与集成测试工具，能够从真实流量中生成测试，而不需要开发者手动编写。它使用 eBPF 在网络层捕获 API 调用、数据库查询和流式事件，且捕获过程中应用正常运行——这意味着无需安装任何 SDK，也无需修改代码——随后将捕获到的流量转换为可回放的测试用例和数据 Mock。\n\n由于它回放的是真实录制的流量，而不是开发者臆想出来的合成请求，因此非常适合在复杂的分布式请求流程中捕捉回归问题，而无需手动维护一大套 API 测试夹具；同时由于捕获发生在网络层而非应用代码内部，它天然与语言无关。\n\nKeploy 适合那些希望基于真实使用情况自动生成 API 和集成测试覆盖、而不是从零手写测试的团队，与目录中的 Cypress、Playwright 形成互补——后两者测试的是基于浏览器的用户流程，而不是后端 API 和集成行为。"
+    },
+    "ja": {
+      "description": "eBPF を使って実際の API・データベーストラフィックを記録し、コード変更なしで自動的にテストケースとデータモックに変換する、開発者中心の API テストツールです。",
+      "longDescription": "Keploy は、開発者が手動でテストを書く代わりに、実際のトラフィックからテストを生成するオープンソースの API・統合テストツールです。アプリケーションが通常どおり動作している間に、eBPF を使ってネットワーク層で API 呼び出し、データベースクエリ、ストリーミングイベントをキャプチャします。つまり SDK のインストールもコード変更も不要です。そしてキャプチャしたトラフィックを、再生可能なテストケースとデータモックに変換します。\n\n開発者が想像した合成リクエストではなく、記録された現実的なトラフィックを再生するため、大量の API テストフィクスチャを手動でメンテナンスすることなく、複雑で分散したリクエストフローにおけるリグレッションを捉えるのに適しています。またキャプチャがアプリケーションコードの内部ではなくネットワーク層で行われるため、言語に依存しません。\n\nKeploy は、ゼロから書くのではなく、実際の利用状況から生成された API・統合テストのカバレッジを求めるチームに向いています。カタログ内の Cypress や Playwright を補完する存在で、それらはバックエンドの API や統合の挙動ではなく、ブラウザベースのユーザーフローをテストするものです。"
+    },
+    "ko": {
+      "description": "eBPF로 실제 API와 데이터베이스 트래픽을 기록해 코드 변경 없이 자동으로 테스트 케이스와 데이터 목으로 변환해주는 개발자 중심 API 테스트 도구입니다.",
+      "longDescription": "Keploy는 개발자가 직접 손으로 작성하는 대신 실제 트래픽으로부터 테스트를 생성하는 오픈소스 API·통합 테스트 도구입니다. 애플리케이션이 평소대로 실행되는 동안 eBPF를 사용해 네트워크 계층에서 API 호출, 데이터베이스 쿼리, 스트리밍 이벤트를 캡처합니다. 즉 SDK를 설치하거나 코드를 변경할 필요가 없습니다. 그런 다음 캡처한 트래픽을 재생 가능한 테스트 케이스와 데이터 목으로 변환합니다.\n\n개발자가 상상해서 만든 합성 요청이 아니라 기록된 실제 트래픽을 재생하기 때문에, 방대한 API 테스트 픽스처를 수작업으로 유지 관리하지 않고도 복잡하고 분산된 요청 흐름에서 회귀를 잡아내는 데 적합합니다. 또한 캡처가 애플리케이션 코드 내부가 아니라 네트워크 계층에서 이루어지므로 언어에 구애받지 않습니다.\n\nKeploy는 처음부터 직접 작성하는 대신 실제 사용 패턴으로부터 생성된 API·통합 테스트 커버리지를 원하는 팀에 적합합니다. 카탈로그에 있는 Cypress, Playwright를 보완하는 관계로, 이 도구들은 백엔드 API·통합 동작이 아니라 브라우저 기반 사용자 흐름을 테스트합니다."
+    },
+    "es": {
+      "description": "Herramienta de pruebas de API centrada en el desarrollador que graba tráfico real de API y bases de datos con eBPF y lo convierte automáticamente en casos de prueba y mocks de datos, sin cambios en el código.",
+      "longDescription": "Keploy es una herramienta de pruebas de API e integración de código abierto que genera tests a partir de tráfico real en lugar de requerir que un desarrollador los escriba a mano. Usa eBPF para capturar llamadas a la API, consultas a bases de datos y eventos de streaming en la capa de red mientras la aplicación funciona con normalidad, lo que significa que no hay que instalar ningún SDK ni modificar código, y luego convierte ese tráfico capturado en casos de prueba reproducibles y mocks de datos.\n\nComo reproduce tráfico realista grabado en lugar de peticiones sintéticas imaginadas por un desarrollador, es adecuada para detectar regresiones en flujos de peticiones complejos y distribuidos sin mantener a mano una gran suite de fixtures de pruebas de API, y es independiente del lenguaje, ya que la captura ocurre en la capa de red y no dentro del código de la aplicación.\n\nKeploy encaja en equipos que quieren cobertura de pruebas de API e integración generada a partir del uso real en lugar de escrita desde cero, complementando a Cypress y Playwright (también en este catálogo), que prueban flujos de usuario en el navegador en lugar del comportamiento de la API e integración del backend."
+    },
+    "de": {
+      "description": "Entwicklerorientiertes API-Testtool, das echten API- und Datenbank-Traffic per eBPF aufzeichnet und automatisch in Testfälle und Daten-Mocks umwandelt – ohne Codeänderungen.",
+      "longDescription": "Keploy ist ein quelloffenes API- und Integrationstest-Tool, das Tests aus echtem Traffic generiert, statt dass ein Entwickler sie von Hand schreiben muss. Es nutzt eBPF, um API-Aufrufe, Datenbankabfragen und Streaming-Events auf Netzwerkebene zu erfassen, während eine Anwendung normal läuft – das bedeutet kein zu installierendes SDK und keine Codeänderungen – und wandelt den erfassten Traffic dann in wiedergebbare Testfälle und Daten-Mocks um.\n\nDa es aufgezeichneten, realistischen Traffic statt von einem Entwickler ausgedachter synthetischer Anfragen wiedergibt, eignet es sich gut, um Regressionen in komplexen, verteilten Request-Abläufen zu erkennen, ohne eine große Sammlung von API-Test-Fixtures von Hand zu pflegen, und ist sprachunabhängig, da die Erfassung auf Netzwerkebene statt innerhalb des Anwendungscodes stattfindet.\n\nKeploy eignet sich für Teams, die API- und Integrationstestabdeckung aus tatsächlicher Nutzung statt von Grund auf geschrieben haben möchten – als Ergänzung zu Cypress und Playwright (ebenfalls in diesem Katalog), die browserbasierte Nutzerabläufe statt Backend-API- und Integrationsverhalten testen."
+    }
+  }
+}
