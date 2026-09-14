@@ -1,0 +1,46 @@
+{
+  "name": "Jaeger",
+  "slug": "jaeger",
+  "description": "CNCF distributed tracing platform for visualizing request flows across microservices, pinpointing exactly which service or call is responsible for latency or errors.",
+  "longDescription": "Jaeger is a distributed tracing system originally built at Uber and now a CNCF graduated project. It collects, stores, and visualizes traces - the end-to-end path a single request takes as it moves through many microservices - so a developer can see which specific service call added the most latency or where an error was actually thrown, instead of guessing from logs and metrics scattered across several services.\n\nJaeger v2 rebuilt the project on top of the OpenTelemetry Collector (also in this catalog), so it natively receives OTLP trace data and can be run as an all-in-one binary with UI, collector, and query components for local use, or scaled out with separate storage for production.\n\nJaeger is a fit for teams running microservices who need to debug cross-service latency and failures directly, complementing metrics-focused tools like Prometheus and Grafana (also in this catalog) - those surface that something is slow or failing, while Jaeger shows exactly where in the request path it happened.",
+  "repository": "https://github.com/jaegertracing/jaeger",
+  "website": "https://www.jaegertracing.io/",
+  "documentation": "https://www.jaegertracing.io/docs/latest/",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "distributed-tracing",
+    "tracing",
+    "microservices",
+    "observability"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "CNCF 分布式链路追踪平台，用于可视化微服务之间的请求流转，精确定位到底是哪个服务或调用导致了延迟或错误。",
+      "longDescription": "Jaeger 是一个最初诞生于 Uber、如今已从 CNCF 毕业的分布式链路追踪系统。它对链路（trace）——即一次请求在流经众多微服务时所经历的端到端路径——进行采集、存储和可视化展示，使开发者能够看清究竟是哪一次具体的服务调用增加了最多延迟、错误究竟发生在何处，而不必从分散在多个服务中的日志和指标里去猜测。\n\nJaeger v2 在 OpenTelemetry Collector（同样收录于本目录）之上重新构建，因此可以原生接收 OTLP 格式的链路数据，既可以作为集成了 UI、Collector 和查询组件的一体化二进制程序用于本地使用，也可以在生产环境中配合独立存储进行横向扩展。\n\nJaeger 适合那些运行微服务、需要直接排查跨服务延迟与故障的团队，与目录中侧重指标的 Prometheus、Grafana 等工具形成互补——那些工具能告诉你某处变慢了或出错了，而 Jaeger 则能准确展示这一切究竟发生在请求路径的哪个环节。"
+    },
+    "ja": {
+      "description": "マイクロサービス間のリクエストフローを可視化し、レイテンシやエラーの原因となっているサービスや呼び出しを正確に特定する、CNCF の分散トレーシングプラットフォームです。",
+      "longDescription": "Jaeger は、もともと Uber で構築され、現在は CNCF を卒業したプロジェクトとなっている分散トレーシングシステムです。1つのリクエストが多数のマイクロサービスを経由する際にたどるエンドツーエンドの経路であるトレースを収集・保存・可視化するため、開発者は複数のサービスに散らばったログやメトリクスから推測する代わりに、どのサービス呼び出しが最もレイテンシを増やしたのか、実際にどこでエラーが発生したのかを正確に把握できます。\n\nJaeger v2 では、(同じくカタログにある) OpenTelemetry Collector の上にプロジェクトが再構築されたため、OTLP 形式のトレースデータをネイティブに受信でき、UI・Collector・クエリのコンポーネントを含むオールインワンのバイナリとしてローカルで実行することも、本番環境向けに別ストレージを使ってスケールアウトすることもできます。\n\nJaeger は、マイクロサービスを運用していて、サービス間のレイテンシや障害を直接デバッグする必要があるチームに向いています。(同じくカタログにある) Prometheus や Grafana のようなメトリクス中心のツールを補完する存在であり、それらが「何かが遅い、あるいは失敗している」ことを示すのに対し、Jaeger はそれがリクエスト経路のどこで起きたのかを正確に示します。"
+    },
+    "ko": {
+      "description": "마이크로서비스 전반의 요청 흐름을 시각화해 지연이나 오류의 원인이 되는 서비스나 호출을 정확히 짚어내는 CNCF 분산 추적 플랫폼입니다.",
+      "longDescription": "Jaeger는 원래 Uber에서 만들어졌고 지금은 CNCF 졸업 프로젝트가 된 분산 추적 시스템입니다. 하나의 요청이 수많은 마이크로서비스를 거치며 지나가는 엔드투엔드 경로인 트레이스를 수집·저장·시각화하므로, 개발자는 여러 서비스에 흩어진 로그와 메트릭으로부터 추측하는 대신 어떤 서비스 호출이 가장 많은 지연을 더했는지, 오류가 실제로 어디서 발생했는지를 정확히 볼 수 있습니다.\n\nJaeger v2는 (역시 카탈로그에 있는) OpenTelemetry Collector 위에서 프로젝트를 재구축했기 때문에 OTLP 트레이스 데이터를 네이티브로 수신할 수 있으며, UI·컬렉터·쿼리 컴포넌트가 하나로 합쳐진 올인원 바이너리로 로컬에서 실행하거나, 프로덕션 환경에서는 별도 스토리지로 확장해 사용할 수도 있습니다.\n\nJaeger는 마이크로서비스를 운영하며 서비스 간 지연과 장애를 직접 디버깅해야 하는 팀에 적합하며, (역시 카탈로그에 있는) Prometheus나 Grafana 같은 메트릭 중심 도구를 보완합니다. 그런 도구들은 무언가 느리거나 실패하고 있다는 사실을 알려주는 반면, Jaeger는 그것이 요청 경로의 정확히 어디서 일어났는지를 보여줍니다."
+    },
+    "es": {
+      "description": "Plataforma de tracing distribuido de la CNCF para visualizar el flujo de peticiones entre microservicios, señalando exactamente qué servicio o llamada es responsable de la latencia o los errores.",
+      "longDescription": "Jaeger es un sistema de tracing distribuido creado originalmente en Uber y ahora un proyecto graduado de la CNCF. Recopila, almacena y visualiza trazas —el recorrido de extremo a extremo que sigue una única petición al atravesar numerosos microservicios—, de modo que un desarrollador puede ver qué llamada de servicio concreta añadió más latencia o dónde se produjo realmente un error, en lugar de tener que adivinarlo a partir de logs y métricas dispersos en varios servicios.\n\nJaeger v2 reconstruyó el proyecto sobre OpenTelemetry Collector (también en este catálogo), por lo que recibe de forma nativa datos de traza OTLP y puede ejecutarse como un binario todo en uno con componentes de UI, collector y consulta para uso local, o escalarse con almacenamiento independiente para producción.\n\nJaeger encaja en equipos que ejecutan microservicios y necesitan depurar directamente la latencia y los fallos entre servicios, complementando herramientas centradas en métricas como Prometheus y Grafana (también en este catálogo): esas herramientas muestran que algo va lento o falla, mientras que Jaeger muestra exactamente en qué punto del recorrido de la petición ocurrió."
+    },
+    "de": {
+      "description": "CNCF-Plattform für verteiltes Tracing zur Visualisierung von Anfrageflüssen über Microservices hinweg, die genau zeigt, welcher Dienst oder Aufruf für Latenz oder Fehler verantwortlich ist.",
+      "longDescription": "Jaeger ist ein verteiltes Tracing-System, das ursprünglich bei Uber entwickelt wurde und heute ein von der CNCF graduiertes Projekt ist. Es sammelt, speichert und visualisiert Traces – den End-zu-Ende-Pfad, den eine einzelne Anfrage beim Durchlaufen vieler Microservices nimmt –, sodass ein Entwickler sehen kann, welcher konkrete Service-Aufruf die meiste Latenz hinzugefügt hat oder wo tatsächlich ein Fehler geworfen wurde, statt aus über mehrere Dienste verstreuten Logs und Metriken zu raten.\n\nJaeger v2 wurde auf Basis des OpenTelemetry Collectors (ebenfalls in diesem Katalog) neu aufgebaut und empfängt daher nativ OTLP-Tracedaten; es kann als All-in-one-Binary mit UI-, Collector- und Query-Komponenten für die lokale Nutzung laufen oder für den Produktivbetrieb mit separatem Storage skaliert werden.\n\nJaeger eignet sich für Teams, die Microservices betreiben und dienstübergreifende Latenz und Fehler direkt debuggen müssen – als Ergänzung zu metrikfokussierten Tools wie Prometheus und Grafana (ebenfalls in diesem Katalog): Diese zeigen, dass etwas langsam ist oder fehlschlägt, während Jaeger genau zeigt, wo im Anfragepfad es passiert ist."
+    }
+  }
+}

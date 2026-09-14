@@ -1,0 +1,48 @@
+{
+  "name": "Apache Kafka",
+  "slug": "apache-kafka",
+  "description": "Distributed event streaming platform that stores data as a durable, replayable log, built for high-throughput real-time pipelines rather than traditional point-to-point queuing.",
+  "longDescription": "Apache Kafka is a distributed event streaming platform used to publish, store, and process continuous streams of events at scale. Unlike a traditional message broker, Kafka retains events in an ordered, append-only log for a configurable retention period, so multiple independent consumers can read - and re-read - the same stream of events at their own pace without competing for the same message.\n\nThis log-based model makes Kafka well suited to event sourcing, real-time analytics pipelines, and connecting many producers and consumers around a shared, replayable source of truth, with Kafka Streams and ksqlDB available for processing data directly within the pipeline. Kafka is designed to run as a distributed cluster and is built to sustain very high write and read throughput.\n\nKafka is a fit for teams building event-driven architectures or real-time data pipelines that need durability and replay, complementing rather than duplicating RabbitMQ (also in this catalog), whose queue-and-routing model is better suited to traditional background-job and task-queue workloads.",
+  "repository": "https://github.com/apache/kafka",
+  "website": "https://kafka.apache.org/",
+  "documentation": "https://kafka.apache.org/documentation/",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "event-streaming",
+    "message-queue",
+    "stream-processing",
+    "distributed-log",
+    "kafka"
+  ],
+  "languages": [
+    "Java",
+    "Scala"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "将数据存储为可持久回放日志的分布式事件流平台，专为高吞吐实时数据管道而构建，而非传统的点对点队列。",
+      "longDescription": "Apache Kafka 是一个分布式事件流平台，用于大规模发布、存储和处理持续不断的事件流。与传统消息代理不同，Kafka 会在可配置的保留期内，将事件保存在一个有序的、只追加写入的日志中，因此多个相互独立的消费者可以按各自的节奏读取——乃至重新读取——同一条事件流，而不会争抢同一条消息。\n\n这种基于日志的模型使 Kafka 非常适合事件溯源、实时分析管道，以及围绕一个可共享、可回放的事实来源连接大量生产者和消费者；同时还提供 Kafka Streams 和 ksqlDB，可直接在管道内处理数据。Kafka 被设计为以分布式集群方式运行，能够承受非常高的读写吞吐量。\n\nKafka 适合那些正在构建事件驱动架构或需要持久性与回放能力的实时数据管道的团队，与目录中的 RabbitMQ 形成互补而非重复——RabbitMQ 的队列与路由模型更适合传统的后台任务和任务队列场景。"
+    },
+    "ja": {
+      "description": "データを永続的で再生可能なログとして保存する分散イベントストリーミングプラットフォームで、従来の1対1のキューイングではなく高スループットなリアルタイムパイプライン向けに構築されています。",
+      "longDescription": "Apache Kafka は、継続的なイベントストリームを大規模に発行・保存・処理するための分散イベントストリーミングプラットフォームです。従来のメッセージブローカーとは異なり、Kafka は設定可能な保持期間の間、イベントを追記専用の順序付きログに保持するため、複数の独立したコンシューマーが同じメッセージを奪い合うことなく、それぞれ自分のペースで同じイベントストリームを読み――そして読み直す――ことができます。\n\nこのログベースのモデルにより、Kafka はイベントソーシング、リアルタイム分析パイプライン、そして共有可能で再生可能な唯一の情報源を中心に多数のプロデューサーとコンシューマーを接続する用途に適しており、パイプライン内でデータを直接処理するための Kafka Streams や ksqlDB も利用できます。Kafka は分散クラスタとして稼働するよう設計されており、非常に高い書き込み・読み取りスループットを維持できるよう構築されています。\n\nKafka は、永続性とリプレイを必要とするイベント駆動アーキテクチャやリアルタイムデータパイプラインを構築するチームに向いており、カタログ内の RabbitMQ を置き換えるのではなく補完する関係にあります。RabbitMQ のキューとルーティングのモデルは、従来型のバックグラウンドジョブやタスクキューのワークロードによりよく適しています。"
+    },
+    "ko": {
+      "description": "데이터를 영구적이고 재생 가능한 로그로 저장하는 분산 이벤트 스트리밍 플랫폼으로, 전통적인 1:1 큐잉이 아니라 고처리량 실시간 파이프라인을 위해 만들어졌습니다.",
+      "longDescription": "Apache Kafka는 지속적인 이벤트 스트림을 대규모로 발행, 저장, 처리하기 위한 분산 이벤트 스트리밍 플랫폼입니다. 전통적인 메시지 브로커와 달리 Kafka는 설정 가능한 보존 기간 동안 이벤트를 순서가 있는 추가 전용(append-only) 로그에 보관하므로, 여러 독립적인 컨슈머가 같은 메시지를 두고 경쟁하지 않고도 각자의 속도로 같은 이벤트 스트림을 읽고—또 다시 읽을— 수 있습니다.\n\n이러한 로그 기반 모델 덕분에 Kafka는 이벤트 소싱, 실시간 분석 파이프라인, 그리고 공유되고 재생 가능한 단일 진실 공급원(source of truth)을 중심으로 다수의 프로듀서와 컨슈머를 연결하는 데 적합하며, 파이프라인 내에서 직접 데이터를 처리할 수 있는 Kafka Streams와 ksqlDB도 제공됩니다. Kafka는 분산 클러스터로 동작하도록 설계되었으며 매우 높은 읽기·쓰기 처리량을 견디도록 만들어졌습니다.\n\nKafka는 지속성과 리플레이가 필요한 이벤트 기반 아키텍처나 실시간 데이터 파이프라인을 구축하는 팀에 적합하며, 카탈로그에 함께 있는 RabbitMQ를 대체하기보다는 보완합니다. RabbitMQ의 큐와 라우팅 모델은 전통적인 백그라운드 작업이나 작업 큐 워크로드에 더 적합합니다."
+    },
+    "es": {
+      "description": "Plataforma distribuida de streaming de eventos que almacena los datos como un log duradero y reproducible, pensada para pipelines de alto rendimiento en tiempo real y no para colas punto a punto tradicionales.",
+      "longDescription": "Apache Kafka es una plataforma distribuida de streaming de eventos usada para publicar, almacenar y procesar flujos continuos de eventos a gran escala. A diferencia de un bróker de mensajería tradicional, Kafka conserva los eventos en un log ordenado y de solo anexado durante un periodo de retención configurable, de modo que varios consumidores independientes pueden leer —y volver a leer— el mismo flujo de eventos a su propio ritmo sin competir por el mismo mensaje.\n\nEste modelo basado en logs hace que Kafka encaje bien en event sourcing, pipelines de analítica en tiempo real, y en conectar a muchos productores y consumidores alrededor de una fuente de verdad compartida y reproducible, con Kafka Streams y ksqlDB disponibles para procesar datos directamente dentro del pipeline. Kafka está diseñado para ejecutarse como un clúster distribuido y construido para sostener un rendimiento de lectura y escritura muy alto.\n\nKafka encaja en equipos que construyen arquitecturas orientadas a eventos o pipelines de datos en tiempo real que necesitan durabilidad y reproducción, complementando en lugar de duplicar a RabbitMQ (también en este catálogo), cuyo modelo de colas y enrutamiento se adapta mejor a cargas de trabajo tradicionales de tareas en segundo plano y colas de tareas."
+    },
+    "de": {
+      "description": "Verteilte Event-Streaming-Plattform, die Daten als dauerhaftes, wiederabspielbares Log speichert – gebaut für durchsatzstarke Echtzeit-Pipelines statt klassisches Punkt-zu-Punkt-Queuing.",
+      "longDescription": "Apache Kafka ist eine verteilte Event-Streaming-Plattform zum Veröffentlichen, Speichern und Verarbeiten kontinuierlicher Event-Ströme in großem Maßstab. Anders als ein klassischer Message-Broker behält Kafka Events für eine konfigurierbare Aufbewahrungsdauer in einem geordneten, nur anhängenden Log, sodass mehrere unabhängige Consumer denselben Event-Strom in ihrem eigenen Tempo lesen – und erneut lesen – können, ohne um dieselbe Nachricht zu konkurrieren.\n\nDieses log-basierte Modell macht Kafka gut geeignet für Event Sourcing, Echtzeit-Analyse-Pipelines und das Verbinden vieler Producer und Consumer um eine gemeinsame, wiederabspielbare Quelle der Wahrheit, wobei Kafka Streams und ksqlDB zur direkten Datenverarbeitung innerhalb der Pipeline zur Verfügung stehen. Kafka ist für den Betrieb als verteiltes Cluster ausgelegt und darauf gebaut, sehr hohen Schreib- und Lesedurchsatz zu bewältigen.\n\nKafka eignet sich für Teams, die ereignisgesteuerte Architekturen oder Echtzeit-Datenpipelines mit Bedarf an Dauerhaftigkeit und Replay bauen – als Ergänzung, nicht als Duplikat zu RabbitMQ (ebenfalls in diesem Katalog), dessen Queue-und-Routing-Modell besser zu klassischen Hintergrundaufgaben- und Task-Queue-Workloads passt."
+    }
+  }
+}

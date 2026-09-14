@@ -1,0 +1,48 @@
+{
+  "name": "Open Policy Agent (OPA)",
+  "slug": "open-policy-agent",
+  "description": "General-purpose, CNCF-graduated policy engine for enforcing authorization, compliance, and configuration rules as code across microservices, APIs, Kubernetes, and CI pipelines.",
+  "longDescription": "Open Policy Agent (OPA) is a general-purpose policy engine that decouples policy decisions from application code. Policies are written in Rego, a declarative query language purpose-built for expressing rules over structured data, and OPA evaluates those policies against a request or resource to return an allow/deny decision (or richer structured output) that the calling service then enforces.\n\nBecause OPA is a standalone engine rather than a library embedded in one application, it's commonly deployed as a sidecar, a Kubernetes admission controller that rejects non-compliant resources before they're created, or a policy check inside CI pipelines - one policy language reused across very different enforcement points instead of reimplementing rules per system.\n\nOPA is a fit for platform and security teams that need policy enforced consistently across many services and layers of the stack. It's a different layer than Casbin or OpenFGA (also in this catalog): those are authorization libraries an application embeds directly to check permissions in its own code, while OPA is typically run as shared infrastructure that many different systems - application code among them - can query.",
+  "repository": "https://github.com/open-policy-agent/opa",
+  "website": "https://www.openpolicyagent.org/",
+  "documentation": "https://www.openpolicyagent.org/docs",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "policy-as-code",
+    "policy-engine",
+    "authorization-policy",
+    "rego",
+    "admission-control"
+  ],
+  "languages": [
+    "Go",
+    "Rego"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "通用的、CNCF 毕业的策略引擎，用于跨微服务、API、Kubernetes 和 CI 流水线，以代码形式统一执行授权、合规和配置规则。",
+      "longDescription": "Open Policy Agent（OPA）是一个通用策略引擎，将策略决策与应用代码解耦。策略使用 Rego 编写——这是一种专为在结构化数据上表达规则而设计的声明式查询语言；OPA 会根据这些策略对某个请求或资源进行评估，返回一个允许/拒绝的决策（或更丰富的结构化输出），再由调用方服务负责执行。\n\n由于 OPA 是一个独立的引擎，而不是嵌入到某个应用中的库，它通常被部署为 sidecar、用于在资源创建前拒绝不合规资源的 Kubernetes 准入控制器，或是 CI 流水线中的策略检查环节——同一套策略语言可以在非常不同的执行点被复用，而不必针对每个系统重新实现规则。\n\nOPA 适合那些需要在众多服务和技术栈层级中一致地执行策略的平台和安全团队。它与目录中的 Casbin 或 OpenFGA 处于不同层级：后者是应用直接嵌入、用于在自身代码中检查权限的授权库，而 OPA 通常作为共享基础设施运行，供包括应用代码在内的许多不同系统查询使用。"
+    },
+    "ja": {
+      "description": "マイクロサービス、API、Kubernetes、CI パイプラインにまたがって、認可・コンプライアンス・設定ルールをコードとして統一的に適用する、CNCF を卒業した汎用ポリシーエンジンです。",
+      "longDescription": "Open Policy Agent（OPA）は、ポリシーの判断をアプリケーションコードから切り離す汎用ポリシーエンジンです。ポリシーは、構造化データに対するルールを表現するために作られた宣言的なクエリ言語である Rego で記述され、OPA はそれらのポリシーをリクエストやリソースに照らして評価し、許可/拒否の判断(あるいはより豊富な構造化された出力)を返し、それを呼び出し元のサービスが実施します。\n\nOPA は1つのアプリケーションに組み込まれるライブラリではなく独立したエンジンであるため、サイドカーとして、あるいは非準拠のリソースが作成される前に拒否する Kubernetes のアドミッションコントローラーとして、または CI パイプライン内のポリシーチェックとしてデプロイされるのが一般的です。システムごとにルールを再実装するのではなく、まったく異なる適用ポイントで同じポリシー言語を再利用できます。\n\nOPA は、多数のサービスやスタックのレイヤーにまたがって一貫してポリシーを適用する必要がある、プラットフォームチームやセキュリティチームに向いています。カタログ内の Casbin や OpenFGA とはレイヤーが異なります。それらはアプリケーションが自身のコード内で権限をチェックするために直接組み込む認可ライブラリであるのに対し、OPA はアプリケーションコードを含む多数の異なるシステムが問い合わせる、共有インフラとして稼働するのが一般的です。"
+    },
+    "ko": {
+      "description": "마이크로서비스, API, Kubernetes, CI 파이프라인 전반에서 인가·컴플라이언스·설정 규칙을 코드로 일관되게 적용하는 범용 CNCF 졸업 정책 엔진입니다.",
+      "longDescription": "Open Policy Agent(OPA)는 정책 결정을 애플리케이션 코드에서 분리해주는 범용 정책 엔진입니다. 정책은 구조화된 데이터에 대한 규칙을 표현하기 위해 만들어진 선언형 쿼리 언어인 Rego로 작성되며, OPA는 요청이나 리소스에 대해 이 정책을 평가해 허용/거부 결정(또는 더 풍부한 구조화된 출력)을 반환하고, 이를 호출한 서비스가 실제로 적용합니다.\n\nOPA는 하나의 애플리케이션에 내장되는 라이브러리가 아니라 독립적인 엔진이기 때문에, 사이드카로 배포되거나, 리소스가 생성되기 전에 규정을 위반하는 리소스를 거부하는 Kubernetes 어드미션 컨트롤러로, 혹은 CI 파이프라인 내부의 정책 검사로 배포되는 경우가 많습니다. 시스템마다 규칙을 다시 구현하는 대신 매우 다른 적용 지점에서 동일한 정책 언어를 재사용할 수 있습니다.\n\nOPA는 여러 서비스와 스택 계층에 걸쳐 정책을 일관되게 적용해야 하는 플랫폼·보안 팀에 적합합니다. 카탈로그에 있는 Casbin이나 OpenFGA와는 다른 계층입니다. 그것들은 애플리케이션이 자체 코드 안에서 권한을 확인하기 위해 직접 내장하는 인가 라이브러리인 반면, OPA는 애플리케이션 코드를 포함한 여러 다른 시스템이 질의할 수 있는 공유 인프라로 실행되는 것이 일반적입니다."
+    },
+    "es": {
+      "description": "Motor de políticas de propósito general, graduado por la CNCF, para aplicar como código reglas de autorización, cumplimiento y configuración en microservicios, APIs, Kubernetes y pipelines de CI.",
+      "longDescription": "Open Policy Agent (OPA) es un motor de políticas de propósito general que separa las decisiones de política del código de la aplicación. Las políticas se escriben en Rego, un lenguaje de consulta declarativo diseñado específicamente para expresar reglas sobre datos estructurados, y OPA evalúa esas políticas frente a una petición o recurso para devolver una decisión de permitir/denegar (o una salida estructurada más rica) que el servicio que la invoca aplica después.\n\nComo OPA es un motor independiente y no una librería incrustada en una sola aplicación, se suele desplegar como sidecar, como controlador de admisión de Kubernetes que rechaza recursos no conformes antes de crearse, o como comprobación de política dentro de pipelines de CI: un mismo lenguaje de políticas reutilizado en puntos de aplicación muy distintos en lugar de reimplementar reglas por sistema.\n\nOPA encaja en equipos de plataforma y seguridad que necesitan aplicar políticas de forma consistente en muchos servicios y capas del stack. Es una capa distinta a Casbin u OpenFGA (también en este catálogo): esas son librerías de autorización que una aplicación incrusta directamente para comprobar permisos en su propio código, mientras que OPA se ejecuta habitualmente como infraestructura compartida que muchos sistemas distintos —el código de aplicación entre ellos— pueden consultar."
+    },
+    "de": {
+      "description": "Allzweck-Policy-Engine, von der CNCF graduiert, zur Durchsetzung von Autorisierungs-, Compliance- und Konfigurationsregeln als Code über Microservices, APIs, Kubernetes und CI-Pipelines hinweg.",
+      "longDescription": "Open Policy Agent (OPA) ist eine Allzweck-Policy-Engine, die Richtlinienentscheidungen vom Anwendungscode entkoppelt. Richtlinien werden in Rego geschrieben, einer deklarativen Abfragesprache, die eigens dafür entwickelt wurde, Regeln über strukturierte Daten auszudrücken; OPA wertet diese Richtlinien gegen eine Anfrage oder Ressource aus und liefert eine Erlauben/Verweigern-Entscheidung (oder eine reichhaltigere strukturierte Ausgabe), die der aufrufende Dienst dann durchsetzt.\n\nDa OPA eine eigenständige Engine ist und keine in eine einzelne Anwendung eingebettete Bibliothek, wird es üblicherweise als Sidecar, als Kubernetes-Admission-Controller, der nicht konforme Ressourcen vor ihrer Erstellung ablehnt, oder als Richtlinienprüfung innerhalb von CI-Pipelines eingesetzt – eine Richtliniensprache, die an sehr unterschiedlichen Durchsetzungspunkten wiederverwendet wird, statt Regeln pro System neu zu implementieren.\n\nOPA eignet sich für Platform- und Security-Teams, die Richtlinien konsistent über viele Dienste und Schichten des Stacks hinweg durchsetzen müssen. Es ist eine andere Ebene als Casbin oder OpenFGA (ebenfalls in diesem Katalog): Das sind Autorisierungsbibliotheken, die eine Anwendung direkt einbettet, um Berechtigungen im eigenen Code zu prüfen, während OPA typischerweise als gemeinsam genutzte Infrastruktur läuft, die viele verschiedene Systeme – darunter auch Anwendungscode – abfragen können."
+    }
+  }
+}

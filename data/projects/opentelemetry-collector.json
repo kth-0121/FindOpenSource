@@ -1,0 +1,47 @@
+{
+  "name": "OpenTelemetry Collector",
+  "slug": "opentelemetry-collector",
+  "description": "Vendor-neutral pipeline for collecting, processing, and exporting traces, metrics, and logs from applications to any observability backend.",
+  "longDescription": "The OpenTelemetry Collector is the deployable component of OpenTelemetry, the CNCF-graduated standard for application telemetry. It receives traces, metrics, and logs from instrumented applications over open protocols like OTLP, can batch, filter, and transform that data in flight, and exports it to one or more backends - so a team can switch or add observability backends by changing collector configuration rather than re-instrumenting every service.\n\nIt runs as an agent alongside an application or as a standalone gateway collecting from many services at once, and ships with a large ecosystem of receivers and exporters for popular tools, including Jaeger and Prometheus-compatible systems already in this catalog.\n\nThe Collector is a fit for teams that want to instrument once with an open, vendor-neutral standard and decide - or change - where that telemetry data ends up later, rather than instrumenting directly against one proprietary agent.",
+  "repository": "https://github.com/open-telemetry/opentelemetry-collector",
+  "website": "https://opentelemetry.io",
+  "documentation": "https://opentelemetry.io/docs/collector/",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "telemetry",
+    "distributed-tracing",
+    "observability",
+    "opentelemetry",
+    "metrics"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "与厂商无关的遥测管道，用于从应用中采集、处理并导出链路追踪、指标和日志数据到任意可观测性后端。",
+      "longDescription": "OpenTelemetry Collector 是 OpenTelemetry 的可部署组件，而 OpenTelemetry 是经 CNCF 毕业认证的应用遥测标准。它通过 OTLP 等开放协议接收来自已埋点应用的链路追踪、指标和日志数据，可以在数据流转过程中进行批处理、过滤和转换，并将其导出到一个或多个后端——因此团队只需修改 Collector 配置即可切换或新增可观测性后端，而无需为每个服务重新埋点。\n\n它既可以作为随应用一起运行的代理（agent），也可以作为独立网关一次性从多个服务采集数据，并内置了一个庞大的生态系统，提供面向众多主流工具的接收器和导出器，其中包括目录中已有的 Jaeger 以及兼容 Prometheus 的系统。\n\nOpenTelemetry Collector 适合那些希望采用开放、厂商无关的标准进行一次性埋点，并在之后再决定——或随时更改——这些遥测数据最终流向何处的团队，而不是直接针对某个专有代理进行埋点。"
+    },
+    "ja": {
+      "description": "アプリケーションからトレース・メトリクス・ログを収集し、加工して、任意のオブザーバビリティバックエンドへエクスポートする、ベンダーニュートラルなパイプラインです。",
+      "longDescription": "OpenTelemetry Collector は、CNCF を卒業したアプリケーションテレメトリの標準である OpenTelemetry のデプロイ可能なコンポーネントです。OTLP などのオープンプロトコルを通じて、計装済みアプリケーションからトレース・メトリクス・ログを受信し、そのデータを転送中にバッチ処理・フィルタリング・変換し、1つ以上のバックエンドへエクスポートできます。そのため、各サービスを再計装することなく、Collector の設定を変更するだけでオブザーバビリティバックエンドを切り替えたり追加したりできます。\n\nアプリケーションと並んで動作するエージェントとしても、多数のサービスから一括して収集するスタンドアロンのゲートウェイとしても稼働でき、カタログにすでにある Jaeger や Prometheus 互換システムを含む、主要ツール向けの多数のレシーバーとエクスポーターからなる大きなエコシステムが付属しています。\n\nCollector は、オープンでベンダーニュートラルな標準で一度だけ計装しておき、そのテレメトリデータの最終的な行き先を後から決めたり変更したりしたいチームに向いています。特定の専有エージェントに直接計装するのとは対照的なアプローチです。"
+    },
+    "ko": {
+      "description": "애플리케이션에서 트레이스, 메트릭, 로그를 수집·가공해 어떤 관측 가능성(observability) 백엔드로든 내보낼 수 있는 벤더 중립적인 텔레메트리 파이프라인입니다.",
+      "longDescription": "OpenTelemetry Collector는 CNCF 졸업 프로젝트인 애플리케이션 텔레메트리 표준 OpenTelemetry의 배포 가능한 컴포넌트입니다. OTLP 같은 개방형 프로토콜을 통해 계측된 애플리케이션으로부터 트레이스, 메트릭, 로그를 수신하고, 전달 과정에서 이 데이터를 배치 처리·필터링·변환할 수 있으며, 하나 이상의 백엔드로 내보낼 수 있습니다. 따라서 팀은 각 서비스를 다시 계측할 필요 없이 Collector 설정만 바꿔서 관측 가능성 백엔드를 교체하거나 추가할 수 있습니다.\n\n애플리케이션과 나란히 실행되는 에이전트로도, 여러 서비스로부터 한 번에 수집하는 독립형 게이트웨이로도 동작할 수 있으며, 카탈로그에 이미 있는 Jaeger와 Prometheus 호환 시스템을 포함해 주요 도구를 위한 방대한 수신기(receiver)·내보내기(exporter) 생태계를 함께 제공합니다.\n\nCollector는 개방형이고 벤더 중립적인 표준으로 한 번만 계측해 두고, 이 텔레메트리 데이터가 최종적으로 어디로 갈지는 나중에 결정하거나 바꾸고 싶은 팀에 적합합니다. 특정 독점 에이전트에 직접 계측하는 방식과는 대조적입니다."
+    },
+    "es": {
+      "description": "Pipeline neutral respecto al proveedor para recopilar, procesar y exportar trazas, métricas y logs de aplicaciones hacia cualquier backend de observabilidad.",
+      "longDescription": "OpenTelemetry Collector es el componente desplegable de OpenTelemetry, el estándar de telemetría de aplicaciones graduado por la CNCF. Recibe trazas, métricas y logs de aplicaciones instrumentadas a través de protocolos abiertos como OTLP, puede agrupar, filtrar y transformar esos datos en tránsito, y los exporta a uno o varios backends, de modo que un equipo puede cambiar o añadir backends de observabilidad modificando la configuración del collector en lugar de reinstrumentar cada servicio.\n\nSe ejecuta como un agente junto a una aplicación o como una puerta de enlace independiente que recopila datos de muchos servicios a la vez, e incluye un amplio ecosistema de receivers y exporters para herramientas populares, entre ellas Jaeger y sistemas compatibles con Prometheus ya presentes en este catálogo.\n\nEl Collector encaja en equipos que quieren instrumentar una sola vez con un estándar abierto y neutral respecto al proveedor, y decidir —o cambiar— más adelante a dónde va a parar esa telemetría, en lugar de instrumentar directamente contra un agente propietario concreto."
+    },
+    "de": {
+      "description": "Anbieterneutrale Pipeline zum Sammeln, Verarbeiten und Exportieren von Traces, Metriken und Logs aus Anwendungen in ein beliebiges Observability-Backend.",
+      "longDescription": "Der OpenTelemetry Collector ist die einsetzbare Komponente von OpenTelemetry, dem von der CNCF graduierten Standard für Anwendungstelemetrie. Er empfängt Traces, Metriken und Logs von instrumentierten Anwendungen über offene Protokolle wie OTLP, kann diese Daten im Transit bündeln, filtern und transformieren und exportiert sie an ein oder mehrere Backends – sodass ein Team Observability-Backends durch Ändern der Collector-Konfiguration wechseln oder hinzufügen kann, statt jeden Dienst neu zu instrumentieren.\n\nEr läuft als Agent neben einer Anwendung oder als eigenständiges Gateway, das gleichzeitig von vielen Diensten sammelt, und bringt ein großes Ökosystem an Receivern und Exportern für gängige Tools mit, darunter Jaeger und Prometheus-kompatible Systeme, die bereits in diesem Katalog enthalten sind.\n\nDer Collector eignet sich für Teams, die einmal mit einem offenen, anbieterneutralen Standard instrumentieren und später entscheiden – oder ändern – möchten, wo diese Telemetriedaten landen, statt direkt gegen einen einzelnen proprietären Agenten zu instrumentieren."
+    }
+  }
+}
