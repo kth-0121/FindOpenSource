@@ -23,18 +23,23 @@
   "dateAdded": "2025-12-31",
   "translations": {
     "zh-CN": {
+      "description": "基于 Web 标准的通用平台，用于在浏览器中解析和渲染 PDF。",
       "longDescription": "PDF.js 是一个完全基于 Web 技术（HTML5/JavaScript）构建的 PDF 查看器及解析/渲染库，而不是原生插件。它由社区驱动并获得 Mozilla 的支持，其目标是成为一个基于 Web 标准的通用平台，用于在浏览器中解析和渲染 PDF 文件。\n\n它从 Firefox 19 版本起被直接内置为默认的 PDF 查看器，Chrome 上也提供官方风格的扩展；你也可以将该查看器或库嵌入自己的 Web 应用，或基于源码构建自己的浏览器扩展。\n\nPDF.js 适合那些需要在网页或浏览器扩展中渲染或查看 PDF 文档、又不想依赖原生/插件式 PDF 查看器或专有渲染引擎的 Web 开发者。"
     },
     "ja": {
+      "description": "ブラウザ内で PDF を解析・レンダリングするための、Web 標準に基づいた汎用プラットフォームです。",
       "longDescription": "PDF.js は、ネイティブプラグインではなく、完全に Web 技術(HTML5/JavaScript)で構築された PDF ビューア兼パース/レンダリングライブラリです。コミュニティ主導で開発され、Mozilla によってサポートされており、ブラウザ内で PDF ファイルをパース・レンダリングするための、Web 標準に基づく汎用プラットフォームであることを目標として掲げています。\n\nFirefox(バージョン19以降)にはデフォルトの PDF ビューアとして直接組み込まれており、Chrome 向けには公式相当の拡張機能も提供されています。また、ビューアやライブラリを自分の Web アプリに埋め込んだり、ソースから独自のブラウザ拡張機能をビルドしたりすることもできます。\n\nPDF.js は、ネイティブ/プラグイン型の PDF ビューアや独自のレンダリングエンジンに頼らずに、Web ページやブラウザ拡張機能内で PDF ドキュメントをレンダリングまたは検査する必要がある Web 開発者に向いています。"
     },
     "ko": {
+      "description": "브라우저에서 PDF를 파싱하고 렌더링하는 웹 표준 기반 범용 플랫폼입니다.",
       "longDescription": "PDF.js는 네이티브 플러그인이 아니라 완전히 웹 기술(HTML5/JavaScript)로 구축된 PDF 뷰어 및 파싱/렌더링 라이브러리입니다. 커뮤니티 주도로 개발되며 Mozilla의 지원을 받고 있고, 브라우저에서 PDF 파일을 파싱하고 렌더링하기 위한 웹 표준 기반의 범용 플랫폼이 되는 것을 목표로 합니다.\n\nFirefox(버전 19 이상)에는 기본 PDF 뷰어로 직접 내장되어 있으며, Chrome용으로도 공식에 준하는 확장 프로그램이 제공됩니다. 뷰어나 라이브러리를 자신의 웹 앱에 임베드하거나, 소스를 기반으로 자체 브라우저 확장 프로그램을 만들 수도 있습니다.\n\nPDF.js는 네이티브/플러그인 기반 PDF 뷰어나 독점 렌더링 엔진에 의존하지 않고 웹 페이지나 브라우저 확장 프로그램 안에서 PDF 문서를 렌더링하거나 검사해야 하는 웹 개발자에게 적합합니다."
     },
     "es": {
+      "description": "Plataforma de propósito general basada en estándares web para analizar y renderizar PDFs en el navegador.",
       "longDescription": "PDF.js es un visor de PDF y una biblioteca de análisis/renderizado construida completamente con tecnologías web (HTML5/JavaScript) en lugar de un plugin nativo. Está impulsado por la comunidad y respaldado por Mozilla, y su objetivo declarado es ser una plataforma de propósito general, basada en estándares web, para analizar y renderizar archivos PDF en el navegador.\n\nEstá integrado directamente en Firefox (desde la versión 19) como visor de PDF predeterminado, y hay disponible una extensión de estilo oficial para Chrome; también puedes incrustar el visor o la biblioteca en tu propia aplicación web, o construir tu propia extensión de navegador a partir del código fuente.\n\nPDF.js encaja en desarrolladores web que necesitan renderizar o inspeccionar documentos PDF dentro de una página web o una extensión de navegador sin depender de un visor de PDF nativo o basado en plugins, ni de un motor de renderizado propietario."
     },
     "de": {
+      "description": "Allzweck-Plattform auf Basis von Webstandards zum Parsen und Rendern von PDFs im Browser.",
       "longDescription": "PDF.js ist ein PDF-Viewer sowie eine Parsing-/Rendering-Bibliothek, die vollständig mit Webtechnologien (HTML5/JavaScript) statt als natives Plugin gebaut ist. Sie wird von der Community vorangetrieben und von Mozilla unterstützt, mit dem erklärten Ziel, eine universelle, auf Webstandards basierende Plattform zum Parsen und Rendern von PDF-Dateien im Browser zu sein.\n\nSie ist ab Version 19 direkt in Firefox als Standard-PDF-Viewer eingebaut, und für Chrome gibt es eine offiziell anmutende Erweiterung; du kannst den Viewer oder die Bibliothek auch in deine eigene Webanwendung einbetten oder aus dem Quellcode eine eigene Browsererweiterung bauen.\n\nPDF.js eignet sich für Webentwickler, die PDF-Dokumente innerhalb einer Webseite oder Browsererweiterung rendern oder untersuchen müssen, ohne auf einen nativen/plugin-basierten PDF-Viewer oder eine proprietäre Rendering-Engine angewiesen zu sein."
     }
   }

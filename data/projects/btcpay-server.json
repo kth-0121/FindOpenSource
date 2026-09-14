@@ -23,18 +23,23 @@
   "dateAdded": "2026-01-07",
   "translations": {
     "zh-CN": {
+      "description": "自托管的开源加密货币支付处理器，无手续费、无中间商。",
       "longDescription": "BTCPay Server 是一个自托管、非托管式（non-custodial）的比特币支付处理系统：商户无需支付手续费、无需经过中间人、也无需要求客户完成 KYC，即可直接接受点对点的比特币付款。由于是自托管的，运营者可以完全掌控私钥，也可以将该服务提供给其他个人或企业使用（多租户）。\n\n除基本的发票功能外，它还支持闪电网络（LND、Core Lightning、Eclair）以实现快速、低手续费的支付，为底层钱包提供 SegWit 和硬件钱包集成，并可选启用 Tor 以增强隐私保护。内置的“应用”除了发票和付款请求管理外，还涵盖收银台（POS）界面、众筹页面和捐赠按钮等常见店面需求。\n\n核心项目仅支持比特币；由社区单独维护的分支版本则支持其他加密货币。它非常适合希望直接接受比特币、而不依赖托管式支付处理商的商户、开发者或社区。"
     },
     "ja": {
+      "description": "セルフホスト型のオープンソース暗号資産決済プロセッサーで、手数料も仲介者もありません。",
       "longDescription": "BTCPay Server は、セルフホスト型かつノンカストディアル(非管理型)のビットコイン決済プロセッサーです。加盟店は処理手数料を払ったり、仲介業者を挟んだり、顧客に KYC を求めたりすることなく、直接的な P2P ビットコイン決済を受け取ることができます。セルフホストであるため、運営者は秘密鍵を完全に自分で管理でき、他の個人や事業者にこのサービスを提供することもできます(マルチテナント)。\n\n基本的な請求書機能に加えて、高速かつ低手数料の決済のためのライトニングネットワーク対応(LND、Core Lightning、Eclair)、ウォレット側の SegWit およびハードウェアウォレット連携、プライバシー強化のためのオプションの Tor サポートを備えています。組み込みの「アプリ」は、請求書や支払いリクエストの管理に加えて、POS(店頭決済)画面、クラウドファンディングページ、寄付ボタンといった一般的なストアフロント機能もカバーします。\n\nコアプロジェクトはビットコイン専用のビルドであり、他の暗号資産への対応はコミュニティが別途メンテナンスするフォークで提供されています。カストディアル型の決済プロセッサーに頼らず直接ビットコインを受け取りたい店舗、開発者、コミュニティに向いています。"
     },
     "ko": {
+      "description": "수수료도 중개자도 없는, 셀프 호스팅 오픈소스 암호화폐 결제 프로세서입니다.",
       "longDescription": "BTCPay Server는 셀프 호스팅되는 비수탁형(non-custodial) 비트코인 결제 프로세서입니다. 가맹점이 결제 수수료를 내거나 중개자를 거치거나 고객에게 KYC를 요구하지 않고도 직접적인 P2P 비트코인 결제를 받을 수 있게 해줍니다. 셀프 호스팅이기 때문에 운영자가 개인 키를 완전히 직접 통제하며, 다른 사람이나 업체에도 이 서비스를 제공할 수 있습니다(멀티테넌트).\n\n기본적인 인보이스 기능 외에도 빠르고 저렴한 결제를 위한 라이트닝 네트워크 지원(LND, Core Lightning, Eclair), 지갑을 위한 SegWit 및 하드웨어 지갑 연동, 프라이버시 강화를 위한 선택적 Tor 지원을 포함합니다. 내장된 \"앱\"들은 인보이스·결제 요청 관리에 더해 포스(POS) 화면, 크라우드펀딩 페이지, 후원 버튼 같은 일반적인 스토어프론트 요구사항도 다룹니다.\n\n핵심 프로젝트는 비트코인 전용 빌드이며, 커뮤니티가 별도로 유지 관리하는 포크에서 다른 암호화폐를 지원합니다. 수탁형 결제 프로세서에 의존하지 않고 비트코인을 직접 받고 싶은 가맹점, 개발자, 커뮤니티에 적합합니다."
     },
     "es": {
+      "description": "Procesador de pagos con criptomonedas de código abierto y autoalojado, sin comisiones ni intermediarios.",
       "longDescription": "BTCPay Server es un procesador de pagos en Bitcoin autoalojado y no custodial: permite a un comerciante aceptar pagos directos y entre pares (peer-to-peer) en Bitcoin sin pagar comisiones de procesamiento, sin pasar por un intermediario y sin exigir KYC a los clientes. Al ser autoalojado, el operador mantiene el control total de las claves privadas y también puede ofrecer el servicio a otras personas o negocios (multiinquilino).\n\nAdemás de la facturación básica, incluye soporte para Lightning Network (LND, Core Lightning, Eclair) para pagos rápidos y con comisiones bajas, integración con SegWit y monederos hardware para la wallet subyacente, y soporte opcional de Tor para mayor privacidad. Las \"Apps\" integradas cubren necesidades habituales de una tienda, como una interfaz de punto de venta, páginas de crowdfunding y botones de donación, además de la gestión de facturas y solicitudes de pago.\n\nEl proyecto principal es una compilación exclusiva para Bitcoin; un fork mantenido por la comunidad añade soporte para otras criptomonedas. Es una buena opción para comercios, desarrolladores o comunidades que quieren aceptar Bitcoin directamente sin depender de un procesador de pagos custodial."
     },
     "de": {
+      "description": "Selbst gehosteter, quelloffener Kryptowährungs-Zahlungsprozessor ohne Gebühren und ohne Mittelsmann.",
       "longDescription": "BTCPay Server ist ein selbst gehosteter, nicht-verwahrender (non-custodial) Bitcoin-Zahlungsprozessor: Er ermöglicht es Händlern, direkte Peer-to-Peer-Bitcoin-Zahlungen anzunehmen, ohne Bearbeitungsgebühren zu zahlen, einen Mittelsmann einzuschalten oder von Kunden eine KYC-Prüfung zu verlangen. Da es sich selbst hosten lässt, behält der Betreiber die volle Kontrolle über die privaten Schlüssel und kann den Dienst auch anderen Personen oder Unternehmen anbieten (Multi-Tenant).\n\nÜber die einfache Rechnungsstellung hinaus bietet es Lightning-Network-Unterstützung (LND, Core Lightning, Eclair) für schnelle, gebührengünstige Zahlungen, SegWit- und Hardware-Wallet-Integration für die zugrunde liegende Wallet sowie optionale Tor-Unterstützung für zusätzliche Privatsphäre. Integrierte „Apps“ decken neben der Verwaltung von Rechnungen und Zahlungsanfragen auch typische Storefront-Anforderungen ab, etwa eine Kassenoberfläche (Point of Sale), Crowdfunding-Seiten und Spenden-Buttons.\n\nDas Kernprojekt ist ein reiner Bitcoin-Build; ein separater, von der Community gepflegter Fork fügt Unterstützung für weitere Kryptowährungen hinzu. Es eignet sich gut für Händler, Entwickler oder Communities, die Bitcoin direkt annehmen möchten, ohne sich auf einen verwahrenden Zahlungsprozessor zu verlassen."
     }
   }

@@ -23,18 +23,23 @@
   "dateAdded": "2026-03-18",
   "translations": {
     "zh-CN": {
+      "description": "用于自动化部署、扩缩容和管理容器化应用的开源系统。",
       "longDescription": "Kubernetes（K8s）是一个开源系统，用于在多台主机组成的集群中部署、扩展和维护容器化应用。它不是在单台机器上运行容器，而是跨整个集群对容器进行调度和管理，处理诸如重启失败容器、扩展运行实例数量以及滚动更新等任务。\n\n其设计借鉴了 Google 内部十多年来使用名为 Borg 的内部系统大规模运行生产工作负载的经验，并结合了 Kubernetes 成为独立开源项目以来更广泛社区贡献的实践。它由 Cloud Native Computing Foundation（CNCF）托管。\n\nKubernetes 适合那些运行容器化、微服务风格应用、需要在多台机器上实现自动化部署、扩展和故障恢复的团队，而不是逐台主机手动管理容器。"
     },
     "ja": {
+      "description": "コンテナ化されたアプリケーションのデプロイ、スケーリング、管理を自動化する、オープンソースのシステムです。",
       "longDescription": "Kubernetes(K8s)は、複数のホストからなるクラスター全体でコンテナ化されたアプリケーションをデプロイ、スケーリング、維持するためのオープンソースシステムです。単一のマシン上でコンテナを実行するのではなく、クラスター全体にわたってコンテナをスケジューリング・管理し、失敗したコンテナの再起動、実行インスタンス数のスケーリング、更新のロールアウトといったタスクを処理します。\n\nその設計は、Google が Borg と呼ばれる社内システムを使って本番ワークロードを大規模に運用してきた10年以上の社内経験と、Kubernetes が独立したオープンソースプロジェクトになって以降、より広いコミュニティが持ち寄ってきたプラクティスを組み合わせたものです。Kubernetes は Cloud Native Computing Foundation(CNCF)によってホストされています。\n\nKubernetes は、多数のマシンにまたがる自動化されたデプロイ、スケーリング、復旧を必要とする、コンテナ化・マイクロサービス型のアプリケーションを運用するチームに向いており、ホストごとに手作業でコンテナを管理する必要がありません。"
     },
     "ko": {
+      "description": "컨테이너화된 애플리케이션의 배포, 확장, 관리를 자동화하는 오픈소스 시스템입니다.",
       "longDescription": "Kubernetes(K8s)는 여러 대의 호스트로 구성된 클러스터 전체에서 컨테이너화된 애플리케이션을 배포, 확장, 유지 관리하기 위한 오픈소스 시스템입니다. 단일 머신에서 컨테이너를 실행하는 대신, 클러스터 전체에 걸쳐 컨테이너를 스케줄링하고 관리하며, 실패한 컨테이너 재시작, 실행 중인 인스턴스 수 확장, 업데이트 롤아웃 같은 작업을 처리합니다.\n\n이 설계는 Google이 Borg라는 내부 시스템으로 프로덕션 워크로드를 대규모로 운영해 온 10년 이상의 내부 경험과, Kubernetes가 독립된 오픈소스 프로젝트가 된 이후 더 넓은 커뮤니티가 기여해 온 관행을 결합한 것입니다. Kubernetes는 Cloud Native Computing Foundation(CNCF)에서 호스팅합니다.\n\nKubernetes는 여러 대의 머신에 걸쳐 자동화된 배포, 확장, 복구가 필요한 컨테이너화·마이크로서비스 스타일 애플리케이션을 운영하는 팀에 적합하며, 호스트마다 수작업으로 컨테이너를 관리할 필요가 없습니다."
     },
     "es": {
+      "description": "Sistema de código abierto para automatizar el despliegue, el escalado y la gestión de aplicaciones en contenedores.",
       "longDescription": "Kubernetes (K8s) es un sistema de código abierto para desplegar, escalar y mantener aplicaciones en contenedores a lo largo de un clúster de múltiples hosts. En lugar de ejecutar contenedores en una sola máquina, los programa y gestiona en todo el clúster, encargándose de tareas como reiniciar contenedores fallidos, escalar el número de instancias en ejecución y desplegar actualizaciones de forma progresiva.\n\nSu diseño se basa en más de una década de experiencia interna de Google ejecutando cargas de trabajo de producción a gran escala con un sistema interno llamado Borg, combinada con las prácticas aportadas por la comunidad más amplia desde que Kubernetes se convirtió en un proyecto de código abierto independiente. Está alojado por la Cloud Native Computing Foundation (CNCF).\n\nKubernetes encaja en equipos que ejecutan aplicaciones en contenedores al estilo microservicios y necesitan despliegue, escalado y recuperación automatizados en muchas máquinas, en lugar de gestionar contenedores host por host de forma manual."
     },
     "de": {
+      "description": "Quelloffenes System zur Automatisierung von Deployment, Skalierung und Verwaltung containerisierter Anwendungen.",
       "longDescription": "Kubernetes (K8s) ist ein Open-Source-System zum Bereitstellen, Skalieren und Verwalten containerisierter Anwendungen über einen Cluster aus mehreren Hosts hinweg. Statt Container auf einer einzelnen Maschine auszuführen, plant und verwaltet es sie über den gesamten Cluster hinweg und übernimmt Aufgaben wie das Neustarten fehlgeschlagener Container, das Skalieren der Anzahl laufender Instanzen und das Ausrollen von Updates.\n\nSein Design baut auf mehr als einem Jahrzehnt interner Erfahrung von Google im großskaligen Betrieb von Produktions-Workloads mit einem internen System namens Borg auf, kombiniert mit Praktiken, die die breitere Community beigetragen hat, seit Kubernetes ein eigenständiges Open-Source-Projekt wurde. Es wird von der Cloud Native Computing Foundation (CNCF) gehostet.\n\nKubernetes eignet sich für Teams, die containerisierte, microservice-artige Anwendungen betreiben und automatisiertes Deployment, Skalierung und Wiederherstellung über viele Maschinen hinweg benötigen, statt Container Host für Host manuell zu verwalten."
     }
   }

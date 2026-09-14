@@ -22,18 +22,23 @@
   "dateAdded": "2026-01-14",
   "translations": {
     "zh-CN": {
+      "description": "开源无头电商平台，用于构建快速、可定制的前台店铺和后端系统。",
       "longDescription": "Medusa 是一个以可定制框架和一整套商务模块为核心构建的商务平台，团队可以据此组装出定制化的商务应用，而无需从零重新实现核心商务逻辑。它的定位不仅限于常见的在线商店：相同的模块也可以支持 B2B 或直销（D2C）商店、市场平台、分销商平台以及零售终端（POS）系统。\n\n核心商务模块是开源的（MIT 许可），并发布在 npm 上；另有一个独立的企业版（Enterprise Edition），通过与 Medusa 开发方签订商业协议提供基于 RBAC 的功能，遵循开源核心（open-core）模式。在托管方面，团队既可以自托管，也可以使用托管式的 Medusa Cloud 来完成部署、扩展和维护。\n\nMedusa 适合那些需要比典型托管电商平台更高定制化程度的商务逻辑、又不想完全自行搭建这套基础设施的团队。"
     },
     "ja": {
+      "description": "高速でカスタマイズ可能なストアフロントとバックエンドを構築できる、オープンソースのヘッドレスコマースプラットフォームです。",
       "longDescription": "Medusa は、カスタマイズ可能なフレームワークと一連のコマースモジュールを中心に構築されたコマースプラットフォームで、チームはコアとなるコマースロジックをゼロから作り直すことなく、独自のコマースアプリケーションを組み立てられます。一般的な店舗フロント以上の用途を想定しており、同じモジュールで B2B や D2C(直販)ストア、マーケットプレイス、販売代理店向けプラットフォーム、POS システムにも対応できます。\n\nコアとなるコマースモジュールはオープンソース(MIT ライセンス)で、npm 上で公開されています。別途、Medusa の開発元との商用契約のもとで RBAC ベースの機能を追加するエンタープライズエディションがあり、オープンコアモデルに従っています。ホスティングについては、セルフホストするか、デプロイ・スケーリング・保守をカバーするマネージド版の Medusa Cloud を利用できます。\n\nMedusa は、一般的なホスト型 EC プラットフォームが許す以上にカスタマイズ可能なコマースロジックを必要としながら、その基盤を完全に自社だけで構築したくないチームに向いています。"
     },
     "ko": {
+      "description": "빠르고 커스터마이징 가능한 스토어프론트와 백엔드를 구축하는 오픈소스 헤드리스 커머스 플랫폼입니다.",
       "longDescription": "Medusa는 커스터마이징 가능한 프레임워크와 일련의 커머스 모듈을 중심으로 구축된 커머스 플랫폼으로, 팀은 핵심 커머스 로직을 처음부터 다시 구현하지 않고도 맞춤형 커머스 애플리케이션을 조립할 수 있습니다. 일반적인 스토어프론트 이상을 지향하며, 동일한 모듈로 B2B나 D2C(직접 판매) 스토어, 마켓플레이스, 유통업체 플랫폼, POS 시스템까지 지원할 수 있습니다.\n\n핵심 커머스 모듈은 오픈소스(MIT 라이선스)이며 npm에 공개되어 있습니다. 별도의 엔터프라이즈 에디션은 Medusa 제작사와의 상용 계약을 통해 RBAC 기반 기능을 추가로 제공하며, 오픈코어 모델을 따릅니다. 호스팅 측면에서는 셀프 호스팅하거나, 배포·확장·유지보수를 담당하는 관리형 Medusa Cloud를 사용할 수 있습니다.\n\nMedusa는 일반적인 호스팅형 이커머스 플랫폼이 허용하는 것보다 더 커스터마이징 가능한 커머스 로직이 필요하면서도, 그 기반을 처음부터 전부 직접 구축하고 싶지는 않은 팀에 적합합니다."
     },
     "es": {
+      "description": "Plataforma de comercio headless de código abierto para construir storefronts y backends rápidos y personalizables.",
       "longDescription": "Medusa es una plataforma de comercio construida en torno a un framework personalizable y un conjunto de módulos de comercio, de modo que los equipos puedan ensamblar una aplicación de comercio a medida sin reimplementar la lógica de comercio principal desde cero. Está pensada para más que las tiendas típicas: los mismos módulos pueden dar soporte a tiendas B2B o directas al consumidor, marketplaces, plataformas de distribuidores y sistemas de punto de venta.\n\nLos módulos de comercio principales son de código abierto (licencia MIT) y se publican en npm; una Enterprise Edition aparte añade funciones basadas en RBAC bajo un acuerdo comercial con el creador de Medusa, siguiendo un modelo open-core. En cuanto al alojamiento, los equipos pueden autoalojarse o usar Medusa Cloud, el servicio gestionado, para el despliegue, el escalado y el mantenimiento.\n\nMedusa encaja en equipos que necesitan una lógica de comercio más personalizable de lo que permite una plataforma de comercio electrónico alojada típica, sin tener que construir esa base por completo internamente."
     },
     "de": {
+      "description": "Quelloffene Headless-Commerce-Plattform zum Bau schneller, anpassbarer Storefronts und Backends.",
       "longDescription": "Medusa ist eine Commerce-Plattform, die um ein anpassbares Framework und eine Reihe von Commerce-Modulen herum aufgebaut ist, sodass Teams eine individuelle Commerce-Anwendung zusammenstellen können, ohne die Kern-Commerce-Logik von Grund auf neu zu implementieren. Sie ist für mehr als typische Onlineshops gedacht: Dieselben Module können B2B- oder Direct-to-Consumer-Shops, Marktplätze, Vertriebsplattformen und Kassensysteme (POS) unterstützen.\n\nDie zentralen Commerce-Module sind Open Source (MIT-lizenziert) und auf npm veröffentlicht; eine separate Enterprise Edition fügt im Rahmen einer kommerziellen Vereinbarung mit dem Hersteller von Medusa RBAC-basierte Funktionen hinzu und folgt damit einem Open-Core-Modell. Beim Hosting können Teams entweder selbst hosten oder das verwaltete Medusa Cloud für Deployment, Skalierung und Wartung nutzen.\n\nMedusa eignet sich für Teams, die eine stärker anpassbare Commerce-Logik benötigen, als eine typische gehostete E-Commerce-Plattform erlaubt, ohne dieses Fundament vollständig selbst aufbauen zu müssen."
     }
   }

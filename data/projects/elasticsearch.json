@@ -23,18 +23,23 @@
   "dateAdded": "2026-02-11",
   "translations": {
     "zh-CN": {
+      "description": "面向文本、数值、地理空间等各类数据的分布式搜索与分析引擎。",
       "longDescription": "Elasticsearch 是一个分布式搜索与分析引擎兼数据存储，专为近乎实时地搜索和分析超大规模数据集而设计。除了传统的全文搜索之外，它还可作为向量数据库使用，支持面向生成式 AI 应用的向量搜索和检索增强生成（RAG）模式。\n\n它常被用于全文搜索、应用与基础设施日志、指标、应用性能监控（APM）以及安全日志分析——包括 Kibana 可视化在内的整个 Elastic Stack 都基于同一个引擎构建。你可以通过 Docker 或下载的发行版自行运维集群，也可以在 Elastic Cloud 上使用托管部署。\n\nElasticsearch 适合需要在一个系统中（而不是多个专用工具中）对大规模、非结构化或半结构化数据集进行索引和查询的团队，应用场景涵盖从搜索驱动的产品功能到可观测性和安全等多个领域。"
     },
     "ja": {
+      "description": "テキスト、数値、地理空間データなど、あらゆる種類のデータに対応する分散型検索・分析エンジンです。",
       "longDescription": "Elasticsearch は、非常に大規模なデータセットをほぼリアルタイムで検索・分析できるよう作られた、分散型の検索・分析エンジン兼データストアです。従来型の全文検索だけでなく、ベクトルデータベースとしても機能し、生成 AI アプリケーション向けのベクトル検索や検索拡張生成(RAG)パターンにも対応しています。\n\n全文検索、アプリケーション/インフラのログ、メトリクス、アプリケーションパフォーマンス監視(APM)、セキュリティログ分析などによく使われており、同じエンジンが可視化ツールの Kibana を含む Elastic Stack 全体の基盤にもなっています。Docker やダウンロードしたディストリビューションを使って自前でクラスターを運用することも、Elastic Cloud 上でマネージドに運用することも可能です。\n\nElasticsearch は、検索駆動のプロダクト機能からオブザーバビリティ、セキュリティ用途まで、大規模で非構造化・半構造化なデータセットを、複数の専用ツールに分けるのではなく1つのシステムでインデックス化・検索したいチームに向いています。"
     },
     "ko": {
+      "description": "텍스트, 숫자, 지리 공간 데이터 등 모든 유형의 데이터를 위한 분산 검색·분석 엔진입니다.",
       "longDescription": "Elasticsearch는 매우 큰 데이터셋을 거의 실시간으로 검색하고 분석할 수 있도록 만들어진 분산 검색·분석 엔진이자 데이터 스토어입니다. 전통적인 전문 검색(full-text search)뿐 아니라 벡터 데이터베이스로도 동작하여, 생성형 AI 애플리케이션을 위한 벡터 검색과 검색 증강 생성(RAG) 패턴도 지원합니다.\n\n전문 검색, 애플리케이션·인프라 로그, 메트릭, 애플리케이션 성능 모니터링(APM), 보안 로그 분석 등에 널리 사용되며, 같은 엔진이 시각화 도구인 Kibana를 포함한 더 넓은 Elastic Stack의 기반이 됩니다. Docker나 다운로드한 배포판을 이용해 직접 관리하는 클러스터로 운영하거나, Elastic Cloud에서 매니지드 형태로 운영할 수 있습니다.\n\nElasticsearch는 검색 기반 제품 기능부터 옵저버빌리티, 보안 사용 사례에 이르기까지, 대규모의 비정형·반정형 데이터셋을 여러 개의 전문 도구가 아닌 하나의 시스템에서 색인하고 조회해야 하는 팀에 적합합니다."
     },
     "es": {
+      "description": "Motor distribuido de búsqueda y analítica para todo tipo de datos, incluidos texto, numéricos y geoespaciales.",
       "longDescription": "Elasticsearch es un motor distribuido de búsqueda y análisis y también un almacén de datos, diseñado para buscar y analizar conjuntos de datos muy grandes casi en tiempo real. Además de la búsqueda de texto completo clásica, también funciona como base de datos vectorial, con soporte para búsqueda vectorial y patrones de generación aumentada por recuperación (RAG) en aplicaciones de IA generativa.\n\nSe usa habitualmente para búsqueda de texto completo, logs de aplicaciones e infraestructura, métricas, monitorización del rendimiento de aplicaciones (APM) y análisis de logs de seguridad; el mismo motor es la base del resto del Elastic Stack (incluyendo Kibana para visualización). Puede ejecutarse como un clúster autogestionado (mediante Docker o una distribución descargada) o como un despliegue gestionado en Elastic Cloud.\n\nElasticsearch encaja en equipos que necesitan indexar y consultar conjuntos de datos grandes, no estructurados o semiestructurados —desde funciones de producto basadas en búsqueda hasta casos de uso de observabilidad y seguridad— en un solo sistema en lugar de en herramientas especializadas por separado."
     },
     "de": {
+      "description": "Verteilte Such- und Analytics-Engine für alle Datentypen, einschließlich Text, numerischer und geografischer Daten.",
       "longDescription": "Elasticsearch ist eine verteilte Such- und Analyse-Engine sowie ein Datenspeicher, der darauf ausgelegt ist, sehr große Datensätze nahezu in Echtzeit zu durchsuchen und zu analysieren. Über die klassische Volltextsuche hinaus fungiert es auch als Vektordatenbank und unterstützt Vektorsuche sowie Retrieval-Augmented-Generation-Muster (RAG) für generative KI-Anwendungen.\n\nEs wird häufig für Volltextsuche, Anwendungs- und Infrastruktur-Logs, Metriken, Application Performance Monitoring (APM) und die Analyse von Sicherheitslogs eingesetzt – dieselbe Engine bildet auch die Grundlage des breiteren Elastic Stack (einschließlich Kibana zur Visualisierung). Es kann als selbstverwalteter Cluster (über Docker oder eine heruntergeladene Distribution) oder als verwaltetes Deployment in der Elastic Cloud betrieben werden.\n\nElasticsearch eignet sich für Teams, die große, unstrukturierte oder halbstrukturierte Datensätze – von suchgetriebenen Produktfunktionen bis hin zu Observability- und Security-Anwendungsfällen – in einem einzigen System statt in mehreren spezialisierten Tools indexieren und abfragen müssen."
     }
   }

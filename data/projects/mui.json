@@ -24,18 +24,23 @@
   "dateAdded": "2026-05-06",
   "translations": {
     "zh-CN": {
+      "description": "全面的 React UI 组件库，实现了 Google 的 Material Design 设计规范。",
       "longDescription": "Material UI（来自 MUI 组织的 `@mui/material` 软件包）是一个实现 Google Material Design 设计体系的 React 组件库，它是独立实现的，而不是对 Google 自身代码的封装。该项目已经过十多年的开发，得到了庞大开源社区的贡献，其核心组件集可以通过 MUI X 进行扩展——这是一套面向高级场景的更复杂组件（数据网格、日期选择器、图表）。\n\n它适合那些希望使用一套成熟、开箱即用、遵循 Material Design 规范的无障碍 UI 组件、而不想从零构建设计系统组件的 React 团队。"
     },
     "ja": {
+      "description": "Google の Material Design を実装した、包括的な React UI コンポーネントライブラリです。",
       "longDescription": "Material UI(MUI 組織による `@mui/material` パッケージ)は、Google の Material Design システムを実装した React コンポーネントライブラリであり、Google 自身のコードをラップしたものではなく独立した実装です。10年以上にわたって開発が続けられ、大規模なオープンソースコミュニティからの貢献を受けてきました。そのコアとなるコンポーネント群は、より高度なユースケース向けのデータグリッド、日付選択、チャートなどの複雑なコンポーネント一式である MUI X によって拡張できます。\n\nデザインシステムのコンポーネントをゼロから構築するのではなく、Material Design の規約に従った、成熟した既製のアクセシブルな UI コンポーネント群を求める React チームに向いています。"
     },
     "ko": {
+      "description": "Google의 Material Design을 구현한 포괄적인 React UI 컴포넌트 라이브러리입니다.",
       "longDescription": "Material UI(MUI 조직이 제공하는 `@mui/material` 패키지)는 Google의 Material Design 시스템을 구현한 React 컴포넌트 라이브러리로, Google 자체 코드를 감싼 래퍼가 아니라 독립적으로 구현된 것입니다. 10년 넘게 개발되어 왔으며 대규모 오픈소스 커뮤니티의 기여를 받아왔고, 핵심 컴포넌트 세트는 고급 사용 사례를 위한 더 복잡한 컴포넌트 모음인 MUI X(데이터 그리드, 날짜 선택기, 차트)로 확장할 수 있습니다.\n\n디자인 시스템의 컴포넌트를 처음부터 직접 만드는 대신, Material Design 규칙을 따르는 성숙하고 바로 사용할 수 있는 접근성 있는 UI 컴포넌트 세트를 원하는 React 팀에 적합합니다."
     },
     "es": {
+      "description": "Biblioteca completa de componentes de UI para React que implementa el Material Design de Google.",
       "longDescription": "Material UI (el paquete `@mui/material`, de la organización MUI) es una biblioteca de componentes React que implementa el sistema Material Design de Google como una implementación independiente, no como un envoltorio sobre el código propio de Google. Se ha desarrollado durante más de una década con contribuciones de una gran comunidad de código abierto, y su conjunto principal de componentes se puede ampliar con MUI X, un conjunto aparte de componentes más complejos (tablas de datos, selectores de fecha, gráficos) para casos de uso avanzados.\n\nEncaja en equipos de React que quieren un conjunto maduro y ya construido de componentes de UI accesibles que siguen las convenciones de Material Design, en lugar de construir los componentes de un sistema de diseño desde cero."
     },
     "de": {
+      "description": "Umfassende Bibliothek von React-UI-Komponenten, die Googles Material Design umsetzt.",
       "longDescription": "Material UI (das Paket `@mui/material` der MUI-Organisation) ist eine React-Komponentenbibliothek, die Googles Material-Design-System als eigenständige Implementierung umsetzt – nicht als Wrapper um Googles eigenen Code. Sie wird seit über einem Jahrzehnt mit Beiträgen einer großen Open-Source-Community weiterentwickelt, und ihr Kernset an Komponenten lässt sich mit MUI X erweitern, einer separaten Suite komplexerer Komponenten (Datengrids, Datumsauswahl, Diagramme) für fortgeschrittene Anwendungsfälle.\n\nSie eignet sich für React-Teams, die ein ausgereiftes, fertiges Set an barrierefreien UI-Komponenten nach den Konventionen von Material Design wollen, statt die Komponenten eines Designsystems von Grund auf selbst zu bauen."
     }
   }

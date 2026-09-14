@@ -23,18 +23,23 @@
   "dateAdded": "2026-06-03",
   "translations": {
     "zh-CN": {
+      "description": "轻量级自托管 Git 服务，内置问题跟踪、拉取请求和 CI 集成。",
       "longDescription": "Gitea 是一个使用 Go 编写的自托管、一体化软件开发平台：将 Git 仓库托管、代码审查、问题跟踪、项目看板、Wiki、软件包仓库以及 CI/CD（与 GitHub Actions 工作流兼容的 Gitea Actions）整合在一个应用中。由于使用 Go 编写，单个二进制文件即可在 Linux、macOS、BSD 和 Windows 上运行，并支持 x86、amd64、ARM、RISC-V64 和 PowerPC 等多种架构。\n\n大多数团队会自行托管，例如通过官方 Docker 镜像；但如果你不想自己运维实例，Gitea 也提供托管选项（Gitea Cloud）以及 gitea.com 上有仓库数量限制的免费账户。\n\nGitea 面向那些希望为源代码管理及周边开发流程使用一个轻量级、可自托管的 GitHub/GitLab 替代方案的团队和个人，尤其适合在意资源占用或希望完全掌控托管环境的场景。"
     },
     "ja": {
+      "description": "軽量なセルフホスト型 Git サービスで、課題管理、プルリクエスト、CI 連携を備えています。",
       "longDescription": "Gitea は、Go で書かれたセルフホスト型のオールインワンソフトウェア開発プラットフォームで、Git リポジトリのホスティング、コードレビュー、課題管理、プロジェクトのカンバンボード、Wiki、パッケージレジストリ、そして CI/CD(GitHub Actions のワークフローと互換性のある Gitea Actions)を1つのアプリケーションにまとめています。Go で書かれているため、単一のバイナリが Linux、macOS、BSD、Windows 上で x86、amd64、ARM、RISC-V64、PowerPC といった複数のアーキテクチャにわたって動作します。\n\n多くのチームは公式の Docker イメージなどを使ってセルフホストしていますが、自前でインスタンスを運用したくない場合のために、Gitea 自身もホスティングオプション(Gitea Cloud)や gitea.com での無料(リポジトリ数制限あり)アカウントを提供しています。\n\nGitea は、ソースコード管理とその周辺の開発ワークフローについて、軽量でセルフホスト可能な GitHub/GitLab の代替を求めるチームや個人、特にリソース使用量やホスティング環境の完全な管理が重要な場面に向いています。"
     },
     "ko": {
+      "description": "이슈 트래킹, 풀 리퀘스트, CI 연동을 갖춘 경량 셀프 호스팅 Git 서비스입니다.",
       "longDescription": "Gitea는 Go로 작성된 셀프 호스팅 올인원 소프트웨어 개발 플랫폼으로, Git 저장소 호스팅, 코드 리뷰, 이슈 트래킹, 프로젝트 칸반 보드, 위키, 패키지 레지스트리, 그리고 CI/CD(GitHub Actions 워크플로와 호환되는 Gitea Actions)를 하나의 애플리케이션에 담고 있습니다. Go로 작성되었기 때문에 단일 바이너리가 Linux, macOS, BSD, Windows에서 x86, amd64, ARM, RISC-V64, PowerPC 아키텍처를 아우르며 실행됩니다.\n\n대부분의 팀은 예를 들어 공식 Docker 이미지를 통해 이를 셀프 호스팅하지만, 직접 인스턴스를 운영하고 싶지 않다면 Gitea도 호스팅 옵션(Gitea Cloud)과 gitea.com의 무료(저장소 개수 제한) 계정을 제공합니다.\n\nGitea는 소스 관리와 그 주변 개발 워크플로에 대해 가볍고 셀프 호스팅 가능한 GitHub/GitLab 대안을 원하는 팀과 개인, 특히 리소스 사용량이나 호스팅 환경에 대한 완전한 통제가 중요한 경우를 대상으로 합니다."
     },
     "es": {
+      "description": "Servicio Git ligero y autoalojado con seguimiento de incidencias, pull requests e integración de CI.",
       "longDescription": "Gitea es una plataforma de desarrollo de software todo en uno, autoalojada y escrita en Go: alojamiento de repositorios Git, revisión de código, seguimiento de incidencias, un tablero kanban de proyecto, una wiki, un registro de paquetes y CI/CD (Gitea Actions, compatible con flujos de trabajo de GitHub Actions), todo en una sola aplicación. Al estar escrito en Go, un único binario se ejecuta en Linux, macOS, BSD y Windows, en arquitecturas x86, amd64, ARM, RISC-V64 y PowerPC.\n\nLa mayoría de los equipos lo autoalojan, por ejemplo mediante la imagen oficial de Docker, pero Gitea también ofrece una opción alojada (Gitea Cloud) y una cuenta gratuita con repositorios limitados en gitea.com si prefieres no gestionar tu propia instancia.\n\nGitea está pensado para equipos y personas que quieren una alternativa ligera y autoalojable a GitHub/GitLab para el control de código fuente y el flujo de trabajo de desarrollo que lo rodea, especialmente cuando importa el consumo de recursos o el control total sobre el entorno de hosting."
     },
     "de": {
+      "description": "Leichtgewichtiger, selbst gehosteter Git-Dienst mit Issue-Tracking, Pull Requests und CI-Integration.",
       "longDescription": "Gitea ist eine selbst gehostete All-in-One-Plattform für die Softwareentwicklung, geschrieben in Go: Git-Repository-Hosting, Code-Review, Issue-Tracking, ein Kanban-Board für Projekte, ein Wiki, eine Paketregistry und CI/CD (Gitea Actions, kompatibel mit GitHub-Actions-Workflows) in einer einzigen Anwendung. Da es in Go geschrieben ist, läuft eine einzige Binärdatei unter Linux, macOS, BSD und Windows auf x86, amd64, ARM, RISC-V64 und PowerPC.\n\nDie meisten Teams hosten es selbst, etwa über das offizielle Docker-Image, aber Gitea bietet auch eine gehostete Option (Gitea Cloud) sowie ein kostenloses Konto mit begrenzter Repository-Anzahl auf gitea.com, falls du keine eigene Instanz betreiben möchtest.\n\nGitea richtet sich an Teams und Einzelpersonen, die für Versionsverwaltung und den umgebenden Entwicklungsworkflow eine leichtgewichtige, selbst hostbare Alternative zu GitHub/GitLab suchen – besonders dort, wo Ressourcenverbrauch oder die volle Kontrolle über die Hosting-Umgebung wichtig sind."
     }
   }

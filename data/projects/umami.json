@@ -23,18 +23,23 @@
   "dateAdded": "2026-04-22",
   "translations": {
     "zh-CN": {
+      "description": "简单快速、注重隐私的网站分析工具，可自行托管。",
       "longDescription": "Umami 是一个以隐私优先为理念的网站分析平台，可以在一个仪表盘中查看流量、营销活动、用户行为、转化和收入，不使用 Cookie，也没有主流分析工具那种持续性追踪。它既可以自托管，也可以作为托管云服务使用。\n\n从源码自托管需要 Node.js 18.18+ 和 PostgreSQL 数据库（12.14+）；构建步骤会设置数据库模式，并在首次运行时创建默认管理员账号。可以通过配置加密密钥来启用双因素认证。\n\nUmami 适合那些希望获得简单直接、尊重隐私的网站分析——既可以在自己的 Node.js/Postgres 技术栈上自行运行，也可以作为托管服务使用——以此替代基于 Cookie 的分析平台的团队和个人。"
     },
     "ja": {
+      "description": "シンプルで高速、プライバシー重視の、セルフホスト可能なウェブ解析代替ツールです。",
       "longDescription": "Umami は、トラフィック、キャンペーン、ユーザー行動、コンバージョン、収益を1つのダッシュボードでカバーする、プライバシーを最優先したウェブ解析プラットフォームで、Cookie も、主流の解析ツールに見られるような永続的なトラッキングも使用しません。セルフホストとして、またはマネージドクラウドサービスとして利用できます。\n\nソースからセルフホストするには Node.js 18.18 以降と PostgreSQL データベース(12.14 以降)が必要です。ビルドステップでデータベーススキーマがセットアップされ、初回起動時にデフォルトの管理者ログインが作成されます。暗号化キーを設定することで二要素認証を有効にできます。\n\nUmami は、Cookie ベースの解析プラットフォームに代わる選択肢として、自分たちの Node.js/Postgres スタック上で自前で運用するか、ホスト型サービスとして利用するかを選べる、シンプルでプライバシーに配慮したサイト解析を求めるチームや個人に向いています。"
     },
     "ko": {
+      "description": "간단하고 빠르며 개인정보를 중시하는, 직접 호스팅할 수 있는 웹 분석 대안입니다.",
       "longDescription": "Umami는 트래픽, 캠페인, 사용자 행동, 전환, 매출을 하나의 대시보드에서 다루는 프라이버시 우선 웹 분석 플랫폼으로, 쿠키나 주류 분석 도구에서 흔히 볼 수 있는 지속적인 추적을 사용하지 않습니다. 셀프 호스팅하거나 관리형 클라우드 서비스로 이용할 수 있습니다.\n\n소스에서 셀프 호스팅하려면 Node.js 18.18 이상과 PostgreSQL 데이터베이스(12.14 이상)가 필요합니다. 빌드 단계에서 데이터베이스 스키마를 설정하고, 첫 실행 시 기본 관리자 로그인을 생성합니다. 암호화 키를 설정하면 이중 인증을 활성화할 수 있습니다.\n\nUmami는 쿠키 기반 분석 플랫폼의 대안으로, 직접 소유한 Node.js/Postgres 스택에서 운영하거나 호스팅 서비스로 이용할 수 있는, 간단하고 프라이버시를 존중하는 사이트 분석을 원하는 팀과 개인에게 적합합니다."
     },
     "es": {
+      "description": "Alternativa de analítica web simple, rápida y centrada en la privacidad que puedes autoalojar.",
       "longDescription": "Umami es una plataforma de analítica web centrada en la privacidad que cubre tráfico, campañas, comportamiento de usuarios, conversiones e ingresos en un único panel, sin cookies ni el tipo de seguimiento persistente asociado a las herramientas de analítica convencionales. Está disponible autoalojada o como servicio gestionado en la nube.\n\nAutoalojarla desde el código fuente requiere Node.js 18.18+ y una base de datos PostgreSQL (12.14+); el paso de compilación configura el esquema de la base de datos y crea un inicio de sesión de administrador predeterminado en la primera ejecución. La autenticación de dos factores se puede habilitar configurando una clave de cifrado.\n\nUmami encaja en equipos e individuos que quieren una analítica de sitio sencilla y respetuosa con la privacidad, que pueden ejecutar ellos mismos en su propia pila Node.js/Postgres o usar como servicio alojado, como alternativa a las plataformas de analítica basadas en cookies."
     },
     "de": {
+      "description": "Einfache, schnelle, datenschutzorientierte Webanalyse-Alternative, die du selbst hosten kannst.",
       "longDescription": "Umami ist eine datenschutzorientierte Webanalyse-Plattform, die Traffic, Kampagnen, Nutzerverhalten, Conversions und Umsatz in einem einzigen Dashboard abdeckt, ganz ohne Cookies oder die Art von dauerhaftem Tracking, wie sie bei gängigen Analysetools üblich ist. Es ist selbst hostbar oder als verwalteter Cloud-Dienst verfügbar.\n\nSelbst-Hosting aus dem Quellcode erfordert Node.js 18.18+ und eine PostgreSQL-Datenbank (12.14+); der Build-Schritt richtet das Datenbankschema ein und legt beim ersten Start einen Standard-Admin-Login an. Zwei-Faktor-Authentifizierung lässt sich durch das Konfigurieren eines Verschlüsselungsschlüssels aktivieren.\n\nUmami eignet sich für Teams und Einzelpersonen, die eine unkomplizierte, datenschutzfreundliche Website-Analyse wollen, die sie entweder selbst auf ihrem eigenen Node.js/Postgres-Stack betreiben oder als gehosteten Dienst nutzen können – als Alternative zu Cookie-basierten Analyseplattformen."
     }
   }
