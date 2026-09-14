@@ -1,0 +1,46 @@
+{
+  "name": "Chaos Mesh",
+  "slug": "chaos-mesh",
+  "description": "Cloud-native chaos engineering platform for Kubernetes that injects controlled faults - pod, network, I/O, and more - to test how a system actually behaves under failure.",
+  "longDescription": "Chaos Mesh is an open-source chaos engineering platform for Kubernetes, now a CNCF incubating project. Rather than waiting for production incidents to reveal how a system handles failure, it lets a team define fault-injection experiments as Kubernetes custom resources - killing pods, injecting network latency or packet loss, corrupting I/O, or simulating cloud-provider outages - and observe how the system actually responds.\n\nExperiments can run once or on a recurring Schedule, be composed into multi-step Workflows, and are paired with StatusCheck resources so an experiment can automatically verify whether the system stayed healthy, with a web dashboard for creating and inspecting runs across a cluster.\n\nChaos Mesh is a fit for teams running production Kubernetes workloads who want to validate resilience and failure handling deliberately, rather than discovering gaps in retry logic, timeouts, or failover during a real outage.",
+  "repository": "https://github.com/chaos-mesh/chaos-mesh",
+  "website": "https://chaos-mesh.org/",
+  "documentation": "https://chaos-mesh.org/docs/",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "chaos-engineering",
+    "fault-injection",
+    "resilience-testing",
+    "kubernetes-testing"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Kubernetes 的云原生混沌工程平台，通过注入 Pod、网络、I/O 等多种可控故障，验证系统在真实故障下的实际表现。",
+      "longDescription": "Chaos Mesh 是一个开源的 Kubernetes 混沌工程平台，目前是 CNCF 的孵化项目。它不必等到生产环境事故发生才暴露系统在故障下的表现，而是让团队将故障注入实验定义为 Kubernetes 自定义资源——杀死 Pod、注入网络延迟或丢包、破坏 I/O，或模拟云厂商级别的中断——并观察系统的真实反应。\n\n实验既可以只运行一次，也可以按 Schedule 定期重复运行，还可以组合成多步骤的 Workflow，并与 StatusCheck 资源配合，使实验能够自动验证系统在过程中是否保持健康；同时提供网页仪表盘，用于在整个集群范围内创建和查看实验运行情况。\n\nChaos Mesh 适合那些运行生产级 Kubernetes 负载、希望主动验证系统韧性和故障处理能力的团队，而不是等到真实故障发生时才发现重试逻辑、超时设置或故障转移中存在的漏洞。"
+    },
+    "ja": {
+      "description": "Pod、ネットワーク、I/O など様々な制御された障害を注入し、システムが実際に障害時にどう振る舞うかを検証する、Kubernetes 向けのクラウドネイティブなカオスエンジニアリングプラットフォームです。",
+      "longDescription": "Chaos Mesh は、Kubernetes 向けのオープンソースのカオスエンジニアリングプラットフォームで、現在は CNCF のインキュベーティングプロジェクトです。本番環境のインシデントが発生してからシステムが障害にどう対応するかを知るのではなく、チームは障害注入実験を Kubernetes のカスタムリソースとして定義できます。Pod の強制終了、ネットワークの遅延やパケットロスの注入、I/O の破損、クラウドプロバイダー障害のシミュレーションなどを行い、システムが実際にどう反応するかを観察できます。\n\n実験は一度きりの実行にも、Schedule による定期実行にもでき、複数ステップの Workflow として組み合わせることもできます。StatusCheck リソースと組み合わせることで、実験中にシステムが健全な状態を保てたかどうかを自動的に検証でき、クラスタ全体にわたる実験の作成と確認のための Web ダッシュボードも用意されています。\n\nChaos Mesh は、本番環境で Kubernetes ワークロードを運用しており、レジリエンスと障害対応を意図的に検証したいチームに向いています。実際の障害発生時になってリトライロジックやタイムアウト、フェイルオーバーの不備に気づくのではなく、事前にそれを検証できます。"
+    },
+    "ko": {
+      "description": "Pod, 네트워크, I/O 등 다양한 제어된 장애를 주입해 시스템이 실제 장애 상황에서 어떻게 동작하는지 검증하는, Kubernetes를 위한 클라우드 네이티브 카오스 엔지니어링 플랫폼입니다.",
+      "longDescription": "Chaos Mesh는 Kubernetes를 위한 오픈소스 카오스 엔지니어링 플랫폼으로, 현재 CNCF 인큐베이팅 프로젝트입니다. 프로덕션 장애가 발생해야 시스템이 장애에 어떻게 대응하는지 드러나기를 기다리는 대신, 팀이 장애 주입 실험을 Kubernetes 커스텀 리소스로 정의할 수 있게 해줍니다. Pod를 강제 종료하거나, 네트워크 지연·패킷 손실을 주입하거나, I/O를 손상시키거나, 클라우드 제공자 장애를 시뮬레이션하고 시스템이 실제로 어떻게 반응하는지 관찰할 수 있습니다.\n\n실험은 한 번만 실행하거나 Schedule로 반복 실행할 수 있고, 여러 단계로 구성된 Workflow로 조합할 수도 있으며, StatusCheck 리소스와 결합해 실험 중 시스템이 정상 상태를 유지했는지 자동으로 검증할 수 있습니다. 클러스터 전반에 걸쳐 실행을 생성하고 확인할 수 있는 웹 대시보드도 제공됩니다.\n\nChaos Mesh는 프로덕션 Kubernetes 워크로드를 운영하며 복원력과 장애 대응을 의도적으로 검증하고 싶은 팀에 적합합니다. 실제 장애가 발생했을 때 재시도 로직, 타임아웃, 페일오버의 허점을 뒤늦게 발견하는 대신 미리 검증할 수 있습니다."
+    },
+    "es": {
+      "description": "Plataforma de ingeniería del caos nativa de la nube para Kubernetes que inyecta fallos controlados —en pods, red, I/O y más— para comprobar cómo se comporta realmente un sistema ante un fallo.",
+      "longDescription": "Chaos Mesh es una plataforma de ingeniería del caos de código abierto para Kubernetes, ahora un proyecto en incubación de la CNCF. En lugar de esperar a que un incidente en producción revele cómo gestiona los fallos un sistema, permite a un equipo definir experimentos de inyección de fallos como recursos personalizados de Kubernetes —matar pods, inyectar latencia o pérdida de paquetes en la red, corromper I/O o simular caídas de un proveedor cloud— y observar cómo responde realmente el sistema.\n\nLos experimentos pueden ejecutarse una vez o de forma recurrente mediante un Schedule, componerse en Workflows de varios pasos, y combinarse con recursos StatusCheck para que un experimento verifique automáticamente si el sistema se mantuvo saludable, con un panel web para crear e inspeccionar ejecuciones en todo el clúster.\n\nChaos Mesh encaja en equipos que ejecutan cargas de trabajo de Kubernetes en producción y quieren validar deliberadamente la resiliencia y el manejo de fallos, en lugar de descubrir carencias en la lógica de reintentos, los timeouts o el failover durante una caída real."
+    },
+    "de": {
+      "description": "Cloud-native Chaos-Engineering-Plattform für Kubernetes, die kontrollierte Fehler injiziert – Pod, Netzwerk, I/O und mehr –, um zu testen, wie sich ein System bei Ausfällen tatsächlich verhält.",
+      "longDescription": "Chaos Mesh ist eine quelloffene Chaos-Engineering-Plattform für Kubernetes und mittlerweile ein CNCF-Incubating-Projekt. Statt auf Produktionsvorfälle zu warten, die offenbaren, wie ein System mit Fehlern umgeht, lässt es ein Team Fehlerinjektions-Experimente als Kubernetes-Custom-Resources definieren – Pods beenden, Netzwerklatenz oder Paketverlust injizieren, I/O beschädigen oder Cloud-Anbieter-Ausfälle simulieren – und beobachten, wie das System tatsächlich reagiert.\n\nExperimente können einmalig oder über einen wiederkehrenden Schedule laufen, zu mehrstufigen Workflows zusammengesetzt werden und mit StatusCheck-Ressourcen gepaart werden, sodass ein Experiment automatisch prüfen kann, ob das System gesund geblieben ist – dazu ein Web-Dashboard zum Erstellen und Einsehen von Läufen über den gesamten Cluster hinweg.\n\nChaos Mesh eignet sich für Teams, die Kubernetes-Workloads in Produktion betreiben und Resilienz sowie Fehlerbehandlung gezielt validieren wollen, statt Lücken in Retry-Logik, Timeouts oder Failover erst während eines echten Ausfalls zu entdecken."
+    }
+  }
+}

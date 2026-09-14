@@ -1,0 +1,46 @@
+{
+  "name": "CrewAI",
+  "slug": "crewai",
+  "description": "Multi-agent orchestration framework for building teams of collaborating, role-based AI agents that work together autonomously to complete complex tasks.",
+  "longDescription": "CrewAI is an open-source Python framework for orchestrating multiple AI agents that collaborate rather than operating a single model in isolation. Its Crews abstraction lets a developer assign each agent a role, goal, and backstory - a researcher, a writer, a reviewer - so agents can delegate subtasks to each other and combine their outputs autonomously, while its Flows abstraction provides precise, event-driven control for combining single LLM calls, deterministic steps, and Crews into one pipeline when full autonomy isn't what a task needs.\n\nIt's built independently from other agent frameworks rather than as a layer on top of them, aiming for a lighter-weight, more direct API for defining agent roles and task delegation.\n\nCrewAI is a fit for developers building applications where a task benefits from being broken across specialized, collaborating agents - research-and-write pipelines, multi-step analysis, or automation that mixes autonomous reasoning with deterministic steps - a different layer than LangChain (also in this catalog), which provides general building blocks for LLM applications (chains, retrieval, tool use) rather than a dedicated multi-agent orchestration model.",
+  "repository": "https://github.com/crewAIInc/crewAI",
+  "website": "https://www.crewai.com/",
+  "documentation": "https://docs.crewai.com",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "ai-agents",
+    "multi-agent",
+    "agent-orchestration",
+    "llm-agents"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "多智能体编排框架，用于构建一组基于角色、相互协作的 AI 智能体，使其能够自主协同完成复杂任务。",
+      "longDescription": "CrewAI 是一个开源的 Python 框架，用于编排多个相互协作的 AI 智能体，而不是让单个模型孤立运行。它的 Crews 抽象允许开发者为每个智能体分配角色、目标和背景设定——例如研究员、撰写者、审阅者——使智能体之间可以相互委派子任务，并自主整合各自的输出；而它的 Flows 抽象则提供精确的、事件驱动的控制能力，可以将单次 LLM 调用、确定性步骤和 Crews 组合进同一条流水线，适用于任务并不需要完全自主性的场景。\n\n它是独立构建的，而不是搭建在其他智能体框架之上的一层，目标是为定义智能体角色和任务委派提供一套更轻量、更直接的 API。\n\nCrewAI 适合那些正在构建这样应用的开发者：任务可以拆分给多个专职、协作的智能体来完成会更有效——例如“研究并撰写”流水线、多步骤分析，或是混合自主推理与确定性步骤的自动化流程。它与目录中的 LangChain 处于不同层级：LangChain 为 LLM 应用提供通用构建模块（链、检索、工具调用），而不是一个专门的多智能体编排模型。"
+    },
+    "ja": {
+      "description": "役割ベースで協調して動く AI エージェントのチームを構築し、複雑なタスクを自律的に協力して完了させるためのマルチエージェントオーケストレーションフレームワークです。",
+      "longDescription": "CrewAI は、単一のモデルを単独で動かすのではなく、協調動作する複数の AI エージェントをオーケストレーションするためのオープンソースの Python フレームワークです。Crews という抽象化により、開発者は各エージェントに役割・目標・背景設定(リサーチャー、ライター、レビュアーなど)を割り当てることができ、エージェント同士がサブタスクを互いに委任し合い、自律的に成果を組み合わせられます。一方 Flows という抽象化は、完全な自律性が必要ないタスクにおいて、単発の LLM 呼び出し、決定論的なステップ、Crews を1つのパイプラインに組み合わせるための、精密でイベント駆動な制御を提供します。\n\n他のエージェントフレームワークの上に構築されたレイヤーではなく、独立して構築されており、エージェントの役割定義とタスク委任のための、より軽量で直接的な API を目指しています。\n\nCrewAI は、専門化された協調エージェントにタスクを分割することで恩恵を受けるアプリケーション——リサーチ&ライティングのパイプライン、複数ステップの分析、自律的な推論と決定論的なステップを組み合わせた自動化など——を構築する開発者に向いています。カタログ内の LangChain とは異なるレイヤーで、LangChain は専用のマルチエージェントオーケストレーションモデルではなく、LLM アプリケーション向けの汎用的な構成要素(チェーン、検索、ツール利用)を提供するものです。"
+    },
+    "ko": {
+      "description": "역할 기반으로 협업하는 AI 에이전트 팀을 구축해 복잡한 작업을 자율적으로 함께 완수하게 하는 멀티 에이전트 오케스트레이션 프레임워크입니다.",
+      "longDescription": "CrewAI는 단일 모델을 독립적으로 운영하는 대신 서로 협업하는 여러 AI 에이전트를 오케스트레이션하기 위한 오픈소스 Python 프레임워크입니다. Crews라는 추상화를 통해 개발자는 각 에이전트에 역할, 목표, 배경 설정(리서처, 작가, 검토자 등)을 부여할 수 있어 에이전트들이 서로 하위 작업을 위임하고 결과물을 자율적으로 결합할 수 있습니다. 한편 Flows 추상화는 완전한 자율성이 필요하지 않은 작업에서 단일 LLM 호출, 결정론적 단계, Crews를 하나의 파이프라인으로 결합하는 정밀하고 이벤트 기반의 제어를 제공합니다.\n\n다른 에이전트 프레임워크 위에 얹힌 레이어가 아니라 독립적으로 구축되었으며, 에이전트 역할 정의와 작업 위임을 위한 더 가볍고 직접적인 API를 지향합니다.\n\nCrewAI는 전문화된 협업 에이전트로 작업을 나누는 것이 유리한 애플리케이션을 만드는 개발자에게 적합합니다. 리서치·작성 파이프라인, 다단계 분석, 또는 자율적 추론과 결정론적 단계를 혼합한 자동화 등이 그 예입니다. 카탈로그에 있는 LangChain과는 다른 계층으로, LangChain은 전용 멀티 에이전트 오케스트레이션 모델이 아니라 LLM 애플리케이션을 위한 범용 구성 요소(체인, 검색, 도구 사용)를 제공합니다."
+    },
+    "es": {
+      "description": "Framework de orquestación multiagente para construir equipos de agentes de IA colaborativos y basados en roles que trabajan juntos de forma autónoma para completar tareas complejas.",
+      "longDescription": "CrewAI es un framework de Python de código abierto para orquestar múltiples agentes de IA que colaboran entre sí en lugar de operar un único modelo de forma aislada. Su abstracción Crews permite a un desarrollador asignar a cada agente un rol, un objetivo y un contexto —un investigador, un redactor, un revisor—, de modo que los agentes pueden delegarse subtareas entre sí y combinar sus resultados de forma autónoma, mientras que su abstracción Flows ofrece un control preciso y orientado a eventos para combinar llamadas individuales a LLM, pasos deterministas y Crews en un único pipeline cuando una tarea no necesita autonomía total.\n\nEstá construido de forma independiente de otros frameworks de agentes, en lugar de como una capa sobre ellos, buscando una API más ligera y directa para definir roles de agentes y delegación de tareas.\n\nCrewAI encaja en desarrolladores que construyen aplicaciones donde una tarea se beneficia de dividirse entre agentes especializados y colaborativos —pipelines de investigación y redacción, análisis en varios pasos, o automatizaciones que combinan razonamiento autónomo con pasos deterministas—, una capa distinta a LangChain (también en este catálogo), que ofrece componentes generales para aplicaciones LLM (chains, recuperación, uso de herramientas) en lugar de un modelo dedicado de orquestación multiagente."
+    },
+    "de": {
+      "description": "Multi-Agent-Orchestrierungs-Framework zum Aufbau von Teams kollaborierender, rollenbasierter KI-Agenten, die autonom zusammenarbeiten, um komplexe Aufgaben zu erledigen.",
+      "longDescription": "CrewAI ist ein quelloffenes Python-Framework zur Orchestrierung mehrerer KI-Agenten, die zusammenarbeiten, statt ein einzelnes Modell isoliert zu betreiben. Seine Crews-Abstraktion lässt einen Entwickler jedem Agenten eine Rolle, ein Ziel und eine Hintergrundgeschichte zuweisen – ein Rechercheur, ein Autor, ein Prüfer –, sodass Agenten sich gegenseitig Teilaufgaben delegieren und ihre Ergebnisse autonom kombinieren können, während seine Flows-Abstraktion präzise, ereignisgesteuerte Kontrolle bietet, um einzelne LLM-Aufrufe, deterministische Schritte und Crews in einer Pipeline zu kombinieren, wenn eine Aufgabe keine volle Autonomie erfordert.\n\nEs wurde unabhängig von anderen Agenten-Frameworks entwickelt statt als Schicht darüber, mit dem Ziel einer leichtgewichtigeren, direkteren API zur Definition von Agentenrollen und Aufgabendelegation.\n\nCrewAI eignet sich für Entwickler, die Anwendungen bauen, bei denen eine Aufgabe davon profitiert, auf spezialisierte, kollaborierende Agenten aufgeteilt zu werden – Recherche-und-Schreib-Pipelines, mehrstufige Analysen oder Automatisierung, die autonomes Schlussfolgern mit deterministischen Schritten mischt –, eine andere Ebene als LangChain (ebenfalls in diesem Katalog), das allgemeine Bausteine für LLM-Anwendungen (Chains, Retrieval, Tool-Nutzung) bietet statt eines dedizierten Multi-Agent-Orchestrierungsmodells."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Velero",
+  "slug": "velero",
+  "description": "Backup, restore, and migration tool for Kubernetes clusters, protecting both cluster resources and persistent volume data against loss or letting you move workloads between clusters.",
+  "longDescription": "Velero (formerly Heptio Ark) backs up and restores Kubernetes cluster resources and their persistent volume data, running as a server component inside the cluster alongside a command-line client used locally. A backup captures the Kubernetes objects that make up an application - deployments, services, config, and more - along with snapshots of the persistent volumes they use, so both can be restored together after data loss, an accidental deletion, or a cluster failure.\n\nBeyond disaster recovery, the same backup-and-restore mechanism supports migrating workloads to a new cluster or replicating a production cluster's state into staging or development environments, and it works with a range of public cloud providers as well as on-premises storage.\n\nVelero is a fit for teams running production Kubernetes who need a tested way to recover from cluster loss or move workloads between clusters, a different concern than the object-storage systems already in this catalog like MinIO or SeaweedFS - those store application data, while Velero protects the cluster and its state on top of whatever storage a team already runs.",
+  "repository": "https://github.com/velero-io/velero",
+  "website": "https://velero.io",
+  "documentation": "https://velero.io/docs/",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "kubernetes-backup",
+    "disaster-recovery",
+    "cluster-migration",
+    "persistent-volume-backup"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Kubernetes 集群的备份、恢复和迁移工具，既能保护集群资源和持久卷数据免于丢失，也能帮助你在集群之间迁移工作负载。",
+      "longDescription": "Velero（前身为 Heptio Ark）用于备份和恢复 Kubernetes 集群资源及其持久卷数据，它作为服务端组件运行在集群内部，并配有一个在本地使用的命令行客户端。一次备份会捕获构成某个应用的 Kubernetes 对象——Deployment、Service、配置等——同时对其使用的持久卷进行快照，因此在数据丢失、误删除或集群故障后，二者可以一并恢复。\n\n除了灾难恢复之外，同样的备份与恢复机制还支持将工作负载迁移到新集群，或将生产集群的状态复制到预发布或开发环境；它还能配合多种公有云厂商以及本地部署的存储使用。\n\nVelero 适合那些运行生产级 Kubernetes、需要一套经过验证的方式来从集群丢失中恢复、或在集群之间迁移工作负载的团队，这与目录中已有的 MinIO 或 SeaweedFS 等对象存储系统所关注的问题不同——后者存储的是应用数据，而 Velero 则是在团队已经使用的任何存储之上，保护集群本身及其状态。"
+    },
+    "ja": {
+      "description": "Kubernetes クラスタ向けのバックアップ・復元・移行ツールで、クラスタリソースと永続ボリュームデータの両方を損失から守り、あるいはワークロードをクラスタ間で移動できます。",
+      "longDescription": "Velero(旧 Heptio Ark)は、Kubernetes のクラスタリソースとその永続ボリュームデータをバックアップ・復元するツールで、クラスタ内部で動作するサーバーコンポーネントと、ローカルで使うコマンドラインクライアントで構成されます。バックアップは、あるアプリケーションを構成する Kubernetes オブジェクト(Deployment、Service、設定など)を、それらが使用する永続ボリュームのスナップショットとともに取得するため、データ損失、誤削除、クラスタ障害の後に両方をまとめて復元できます。\n\n災害復旧にとどまらず、同じバックアップ・復元の仕組みを使って、ワークロードを新しいクラスタへ移行したり、本番クラスタの状態をステージングや開発環境へ複製したりでき、複数のパブリッククラウドプロバイダーやオンプレミスのストレージにも対応しています。\n\nVelero は、本番環境で Kubernetes を運用しており、クラスタ損失からの検証済みの復旧手段や、クラスタ間でのワークロード移行手段が必要なチームに向いています。これはカタログに既にある MinIO や SeaweedFS のようなオブジェクトストレージシステムとは異なる関心事です。それらはアプリケーションデータを保存するものですが、Velero はチームが既に使っているどのストレージの上でも、クラスタとその状態そのものを保護します。"
+    },
+    "ko": {
+      "description": "Kubernetes 클러스터를 위한 백업·복원·마이그레이션 도구로, 클러스터 리소스와 퍼시스턴트 볼륨 데이터를 손실로부터 보호하거나 클러스터 간에 워크로드를 옮길 수 있게 해줍니다.",
+      "longDescription": "Velero(구 Heptio Ark)는 Kubernetes 클러스터 리소스와 그 퍼시스턴트 볼륨 데이터를 백업하고 복원하는 도구로, 클러스터 내부에서 동작하는 서버 컴포넌트와 로컬에서 사용하는 커맨드라인 클라이언트로 구성됩니다. 백업은 어떤 애플리케이션을 구성하는 Kubernetes 오브젝트(Deployment, Service, 설정 등)를 그것이 사용하는 퍼시스턴트 볼륨의 스냅샷과 함께 담아내므로, 데이터 손실이나 실수로 인한 삭제, 클러스터 장애 이후 둘을 함께 복원할 수 있습니다.\n\n재해 복구를 넘어, 동일한 백업·복원 메커니즘으로 워크로드를 새 클러스터로 마이그레이션하거나 프로덕션 클러스터의 상태를 스테이징·개발 환경으로 복제할 수 있으며, 다양한 퍼블릭 클라우드 제공자는 물론 온프레미스 스토리지와도 함께 동작합니다.\n\nVelero는 프로덕션 Kubernetes를 운영하며 클러스터 손실로부터 복구하거나 클러스터 간에 워크로드를 옮길 검증된 방법이 필요한 팀에 적합합니다. 이는 카탈로그에 이미 있는 MinIO나 SeaweedFS 같은 오브젝트 스토리지 시스템과는 다른 관심사입니다. 그것들은 애플리케이션 데이터를 저장하는 반면, Velero는 팀이 이미 사용 중인 어떤 스토리지 위에서든 클러스터 자체와 그 상태를 보호합니다."
+    },
+    "es": {
+      "description": "Herramienta de copia de seguridad, restauración y migración para clústeres de Kubernetes, que protege tanto los recursos del clúster como los datos de volúmenes persistentes ante pérdidas, o te permite mover cargas de trabajo entre clústeres.",
+      "longDescription": "Velero (antes Heptio Ark) hace copias de seguridad y restaura recursos de clústeres de Kubernetes y sus datos de volúmenes persistentes, ejecutándose como un componente servidor dentro del clúster junto a un cliente de línea de comandos que se usa localmente. Una copia de seguridad captura los objetos de Kubernetes que forman una aplicación —deployments, services, configuración y más— junto con snapshots de los volúmenes persistentes que usan, de modo que ambos pueden restaurarse juntos tras una pérdida de datos, un borrado accidental o un fallo del clúster.\n\nMás allá de la recuperación ante desastres, el mismo mecanismo de copia de seguridad y restauración permite migrar cargas de trabajo a un nuevo clúster o replicar el estado de un clúster de producción en entornos de staging o desarrollo, y funciona con varios proveedores de nube pública además de almacenamiento on-premise.\n\nVelero encaja en equipos que ejecutan Kubernetes en producción y necesitan una forma probada de recuperarse de la pérdida de un clúster o mover cargas de trabajo entre clústeres, una preocupación distinta a la de los sistemas de almacenamiento de objetos ya presentes en este catálogo como MinIO o SeaweedFS: esos almacenan los datos de la aplicación, mientras que Velero protege el clúster y su estado por encima de cualquier almacenamiento que un equipo ya use."
+    },
+    "de": {
+      "description": "Backup-, Wiederherstellungs- und Migrationstool für Kubernetes-Cluster, das sowohl Cluster-Ressourcen als auch Persistent-Volume-Daten vor Verlust schützt oder das Verschieben von Workloads zwischen Clustern ermöglicht.",
+      "longDescription": "Velero (früher Heptio Ark) sichert und stellt Kubernetes-Cluster-Ressourcen und deren Persistent-Volume-Daten wieder her und läuft als Server-Komponente innerhalb des Clusters neben einem lokal genutzten Kommandozeilen-Client. Ein Backup erfasst die Kubernetes-Objekte, aus denen eine Anwendung besteht – Deployments, Services, Konfiguration und mehr – zusammen mit Snapshots der verwendeten Persistent Volumes, sodass beides nach Datenverlust, versehentlichem Löschen oder einem Cluster-Ausfall gemeinsam wiederhergestellt werden kann.\n\nÜber die Notfallwiederherstellung hinaus unterstützt derselbe Backup-und-Restore-Mechanismus die Migration von Workloads auf einen neuen Cluster oder das Replizieren des Zustands eines Produktions-Clusters in Staging- oder Entwicklungsumgebungen, und funktioniert mit einer Reihe von Public-Cloud-Anbietern sowie On-Premises-Storage.\n\nVelero eignet sich für Teams, die Kubernetes in Produktion betreiben und einen erprobten Weg brauchen, um sich von Cluster-Verlust zu erholen oder Workloads zwischen Clustern zu verschieben – ein anderes Anliegen als die bereits in diesem Katalog vorhandenen Objektspeichersysteme wie MinIO oder SeaweedFS: Diese speichern Anwendungsdaten, während Velero den Cluster und seinen Zustand oberhalb jeglichen bereits genutzten Storages schützt."
+    }
+  }
+}
