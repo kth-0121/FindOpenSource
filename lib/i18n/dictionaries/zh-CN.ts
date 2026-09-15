@@ -18,6 +18,9 @@ const dictionary: Dictionary = {
     contribute: "贡献",
     github: "GitHub",
     support: "赞助 FindOpenSource",
+    privacy: "隐私政策",
+    terms: "服务条款",
+    contact: "联系我们",
   },
   home: {
     heroTitleLine1: "找到适合你项目的",
@@ -232,6 +235,208 @@ const dictionary: Dictionary = {
       "FindOpenSource 本身不处理支付。赞助通过 GitHub 官方的赞助平台 GitHub Sponsors 完成——点击下方按钮即可前往 GitHub Sponsors 页面。",
     ctaLabel: "在 GitHub Sponsors 上赞助",
     ctaAriaLabel: "在 GitHub Sponsors 上赞助 FindOpenSource（在新标签页中打开）",
+  },
+  privacy: {
+    title: "隐私政策",
+    metaDescription: "了解 FindOpenSource 如何处理信息、Cookie、第三方服务和外部链接。",
+    lastUpdated: "最后更新：2026 年 9 月 15 日",
+    sections: [
+      {
+        heading: "简介",
+        paragraphs: [
+          "FindOpenSource（以下简称「FindOpenSource」或「我们」）是一个免费的、由社区维护的目录，帮助你按照要解决的问题来发现开源项目。本隐私政策说明了你在使用本网站时会涉及哪些信息，以及这些信息将如何被处理。",
+          "FindOpenSource 本身就是一个开源项目，包括本政策在内的完整代码库都公开发布在 GitHub 上。",
+        ],
+      },
+      {
+        heading: "我们收集的信息",
+        paragraphs: [
+          "使用 FindOpenSource 不需要账户、登录或注册。我们也没有运行数据库或后端服务——整个网站由静态文件构建而成。",
+          "我们不会在网站的任何地方要求你提交姓名、电子邮件地址或支付信息等个人信息。",
+        ],
+      },
+      {
+        heading: "我们如何使用信息",
+        paragraphs: [
+          "由于 FindOpenSource 不通过网站本身收集个人信息，因此不存在我们会使用、出售或共享的用户提交数据。",
+        ],
+      },
+      {
+        heading: "搜索查询与使用信息",
+        paragraphs: [
+          "当你在 FindOpenSource 上搜索时，你输入的关键词会作为 URL 参数传递（例如 /search?q=database），并在页面渲染时与网站本地的项目目录进行匹配。FindOpenSource 不会将你的搜索查询记录、存储或分析到任何数据库中。",
+          "与几乎所有网站一样，底层托管基础设施可能会出于安全和运维目的自动记录基本的技术请求信息（例如 IP 地址、浏览器类型和请求时间戳）。这是标准的 Web 服务器行为，并非 FindOpenSource 的应用代码单独收集或处理的内容。",
+        ],
+      },
+      {
+        heading: "Cookie 及类似技术",
+        paragraphs: [
+          "FindOpenSource 目前不会设置自己的 Cookie，也不使用 localStorage 或 sessionStorage 来追踪或识别访问者。",
+          "如果这种情况在未来发生变化——例如引入广告——我们会更新本节内容，具体说明所使用的技术及其原因。",
+        ],
+      },
+      {
+        heading: "第三方服务",
+        paragraphs: [
+          "本网站链接到第三方服务，包括用于项目源代码、Issue 和 Pull Request 的 GitHub，以及（在配置的情况下）用于赞助链接的 GitHub Sponsors。这些服务有各自的隐私政策，你与它们的交互受这些政策约束，而非本政策。",
+          "本网站托管在第三方托管平台提供的基础设施上，该平台在向你传送网站内容的过程中可能会处理标准的技术请求数据。",
+        ],
+      },
+      {
+        heading: "外部链接",
+        paragraphs: [
+          "项目页面链接到 GitHub 仓库、官方项目网站和文档等外部资源。这些资源由各自的开源项目或组织运营，而非由 FindOpenSource 运营。我们不对外部网站的内容或隐私实践负责，并建议你直接查阅这些网站自己的政策。",
+        ],
+      },
+      {
+        heading: "开源项目信息",
+        paragraphs: [
+          "FindOpenSource 上展示的项目名称、描述、仓库链接等信息，来源于各开源项目公开可获取的信息，并由社区通过 GitHub Pull Request 进行整理维护。这些信息是关于项目本身的，而不是关于作为访问者的你的。",
+        ],
+      },
+      {
+        heading: "数据保留",
+        paragraphs: [
+          "由于 FindOpenSource 不通过网站收集个人信息，因此没有需要说明的用户数据保留期限。托管基础设施生成的任何技术日志，将按照该服务提供商自身的做法保留，不在 FindOpenSource 的控制范围内。",
+        ],
+      },
+      {
+        heading: "数据安全",
+        paragraphs: [
+          "FindOpenSource 是一个没有数据库、没有用户账户、也没有任何收集个人数据表单的静态网站，这样的设计本身就限制了访问者信息暴露的可能性。",
+        ],
+      },
+      {
+        heading: "你的隐私权利",
+        paragraphs: [
+          "根据你所在的地区，你可能根据适用的数据保护法律享有一定权利，例如了解你的哪些信息被收集，或要求删除这些信息。由于 FindOpenSource 不会主动通过网站本身收集个人信息，通常并不存在可供此类请求处理的个人数据。如果你有隐私方面的问题或疑虑，可以通过联系我们页面与我们取得联系。",
+        ],
+      },
+      {
+        heading: "国际用户",
+        paragraphs: [
+          "FindOpenSource 提供英语、简体中文、日语、韩语、西班牙语和德语版本，来自许多国家的用户都会访问本站。本政策旨在概述我们的一般做法，并不能替代针对你所在司法辖区的法律意见，FindOpenSource 也不声称已通过任何特定数据保护框架的认证。",
+        ],
+      },
+      {
+        heading: "儿童隐私",
+        paragraphs: [
+          "FindOpenSource 并非面向儿童，我们不会有意收集儿童的个人信息。如果你认为有儿童通过本网站提交了个人信息，请与我们联系，我们会妥善处理。",
+        ],
+      },
+      {
+        heading: "本隐私政策的变更",
+        paragraphs: [
+          "随着网站的发展，我们可能会更新本政策。FindOpenSource 未来可能会使用 Google AdSense 等广告服务。如果引入广告，我们会在广告上线前更新本政策，说明相关的 Cookie、标识符、数据处理方式和用户可选项。本页顶部的「最后更新」日期反映了最近一次修订的时间。",
+        ],
+      },
+      {
+        heading: "联系我们",
+        paragraphs: [
+          "有关本隐私政策的问题，可以通过我们的联系我们页面发送给我们，该页面说明了如何通过 GitHub 与我们取得联系。",
+        ],
+      },
+    ],
+  },
+  terms: {
+    title: "服务条款",
+    metaDescription: "使用 FindOpenSource 开源目录时适用的条款。",
+    lastUpdated: "最后更新：2026 年 9 月 15 日",
+    sections: [
+      {
+        heading: "条款的接受",
+        paragraphs: ["使用 FindOpenSource 即表示你同意本服务条款。如果你不同意，请不要使用本网站。"],
+      },
+      {
+        heading: "关于 FindOpenSource",
+        paragraphs: [
+          "FindOpenSource 是一个免费的、由社区维护的目录及搜索工具，帮助你按照功能或要解决的问题来发现开源项目。这是一个没有用户账户、没有登录、也没有后端数据库的静态网站。",
+        ],
+      },
+      {
+        heading: "目录与项目信息",
+        paragraphs: [
+          "FindOpenSource 上的项目条目——包括名称、描述、分类、关键词和链接——由社区整理维护，并通过 GitHub Pull Request 进行审核。尽管我们力求准确，但这些信息仍可能不完整、过时或存在错误。在依赖这些信息之前，请务必通过项目自身的仓库和官方文档进行核实。",
+        ],
+      },
+      {
+        heading: "外部网站与第三方内容",
+        paragraphs: [
+          "FindOpenSource 链接到外部网站，包括由各自维护者或组织独立运营的 GitHub 仓库、官方项目网站和文档。我们不控制、不认可，也不对任何外部网站的内容、可用性或做法负责。",
+        ],
+      },
+      {
+        heading: "开源许可证",
+        paragraphs: [
+          "FindOpenSource 不拥有目录中列出的开源项目，也不对其进行许可或授予任何权利。每个项目均由其各自的作者或组织按照该条目中所示的许可证进行拥有和许可。在使用任何列出的项目之前，请查阅其实际许可证和官方仓库，以确认适用的条款。",
+        ],
+      },
+      {
+        heading: "准确性与可用性",
+        paragraphs: [
+          "FindOpenSource 按「现状」和「现有」基础提供。我们不保证本网站或其中包含的任何项目信息将是完整、准确、不中断或无错误的。",
+        ],
+      },
+      {
+        heading: "用户贡献",
+        paragraphs: [
+          "任何人都可以按照贡献页面所述，在 GitHub 上提交 Pull Request 或 Issue，为项目目录提出新增或修正建议。贡献在合并之前会由维护者进行审核，我们不保证任何特定贡献一定会被采纳，也不保证会在特定时间内被采纳。",
+        ],
+      },
+      {
+        heading: "知识产权",
+        paragraphs: [
+          "FindOpenSource 的代码库和网站基于 MIT 许可证开源，可在 GitHub 上查阅。目录中提及的项目名称、标志、商标和软件归各自所有者所有，仅用于标识目的；某个项目被列入目录，并不意味着其所有者对本站的认可或与本站存在关联。",
+        ],
+      },
+      {
+        heading: "禁止行为",
+        paragraphs: [
+          "你同意不滥用 FindOpenSource，例如不得试图干扰网站运行、以降低其他用户服务质量的方式抓取网站内容，或将网站用于传播非法或有害内容。",
+        ],
+      },
+      {
+        heading: "免责声明",
+        paragraphs: [
+          "对于本网站及其链接的开源项目，FindOpenSource 不作任何明示或暗示的保证，包括适销性、特定用途适用性或不侵权的保证。",
+        ],
+      },
+      {
+        heading: "责任限制",
+        paragraphs: [
+          "在法律允许的最大范围内，FindOpenSource 及其贡献者对因你使用本网站、依赖本网站信息，以及本网站所链接的任何第三方项目或网站相关问题而产生的任何损害概不负责。",
+        ],
+      },
+      {
+        heading: "条款的变更",
+        paragraphs: [
+          "随着网站的发展，我们可能会更新本服务条款。本页顶部的「最后更新」日期反映了最近一次修订的时间。变更生效后你继续使用本网站，即表示你接受更新后的条款。",
+        ],
+      },
+      {
+        heading: "联系我们",
+        paragraphs: ["有关本服务条款的问题，可以通过我们的联系我们页面发送给我们。"],
+      },
+    ],
+  },
+  contact: {
+    title: "联系我们",
+    metaDescription: "如何就项目信息更正、许可问题或一般反馈联系 FindOpenSource。",
+    intro:
+      "FindOpenSource 是一个由社区维护的项目，没有专门的支持团队，但我们非常希望听到你的声音。联系我们最好的方式是通过 GitHub。",
+    reasonsHeading: "以下情况欢迎与我们联系",
+    reasons: [
+      "某个项目的信息已过时、不正确或缺失",
+      "发现链接失效",
+      "对某个已列出项目的许可证或所有权存在疑虑",
+      "希望更新或删除某个项目条目",
+      "对如何为目录做出贡献有疑问",
+      "隐私相关问题",
+      "对网站的一般反馈意见",
+    ],
+    howHeading: "如何联系我们",
+    howBody: "联系 FindOpenSource 最快捷的方式是在 GitHub 上提交一个 Issue，这会直接送达维护本项目的人员。",
+    ctaLabel: "在 GitHub 上提交 Issue",
   },
 };
 

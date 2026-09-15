@@ -18,6 +18,9 @@ const dictionary: Dictionary = {
     contribute: "Mitmachen",
     github: "GitHub",
     support: "FindOpenSource unterstützen",
+    privacy: "Datenschutz",
+    terms: "Nutzungsbedingungen",
+    contact: "Kontakt",
   },
   home: {
     heroTitleLine1: "Finde die passende Open-Source-",
@@ -235,6 +238,208 @@ const dictionary: Dictionary = {
       "FindOpenSource wickelt Zahlungen nicht selbst ab. Die Unterstützung des Projekts erfolgt über GitHub Sponsors, die offizielle Sponsoring-Plattform von GitHub – der Button unten führt dich zur GitHub-Sponsors-Seite.",
     ctaLabel: "Auf GitHub Sponsors unterstützen",
     ctaAriaLabel: "FindOpenSource auf GitHub Sponsors unterstützen (öffnet in einem neuen Tab)",
+  },
+  privacy: {
+    title: "Datenschutzerklärung",
+    metaDescription: "Wie FindOpenSource mit Informationen, Cookies, Diensten Dritter und externen Links umgeht.",
+    lastUpdated: "Zuletzt aktualisiert: 15. September 2026",
+    sections: [
+      {
+        heading: "Einleitung",
+        paragraphs: [
+          "FindOpenSource (FindOpenSource, wir) ist ein kostenloses, von der Community gepflegtes Verzeichnis, das dir hilft, Open-Source-Projekte anhand des Problems zu finden, das sie lösen. Diese Datenschutzerklärung erläutert, welche Informationen bei der Nutzung dieser Website eine Rolle spielen und wie damit umgegangen wird.",
+          "FindOpenSource ist selbst ein Open-Source-Projekt. Der gesamte Code, einschließlich dieser Erklärung, ist öffentlich auf GitHub verfügbar.",
+        ],
+      },
+      {
+        heading: "Informationen, die wir erheben",
+        paragraphs: [
+          "Für die Nutzung von FindOpenSource ist kein Konto, kein Login und keine Registrierung erforderlich. Wir betreiben auch keine Datenbank oder einen Backend-Dienst — die gesamte Website besteht aus statischen Dateien.",
+          "Wir bitten dich an keiner Stelle der Website darum, personenbezogene Daten wie Namen, E-Mail-Adressen oder Zahlungsinformationen anzugeben.",
+        ],
+      },
+      {
+        heading: "Wie wir Informationen verwenden",
+        paragraphs: [
+          "Da FindOpenSource über die Website selbst keine personenbezogenen Daten erhebt, gibt es keine von Nutzern übermittelten Daten, die wir verwenden, verkaufen oder weitergeben könnten.",
+        ],
+      },
+      {
+        heading: "Suchanfragen und Nutzungsinformationen",
+        paragraphs: [
+          "Wenn du auf FindOpenSource suchst, wird deine Suchanfrage als URL-Parameter übergeben (zum Beispiel /search?q=database) und beim Rendern der Seite mit dem lokalen Projektkatalog der Website abgeglichen. FindOpenSource protokolliert, speichert oder analysiert deine Suchanfragen nicht in einer Datenbank.",
+          "Wie praktisch jede Website kann die zugrunde liegende Hosting-Infrastruktur automatisch grundlegende technische Anfrageinformationen (wie IP-Adresse, Browsertyp und Zeitstempel der Anfrage) aus Sicherheits- und Betriebsgründen erfassen. Dies ist ein Standardverhalten von Webservern und wird nicht separat vom Anwendungscode von FindOpenSource erhoben oder verarbeitet.",
+        ],
+      },
+      {
+        heading: "Cookies und ähnliche Technologien",
+        paragraphs: [
+          "FindOpenSource setzt derzeit keine eigenen Cookies und verwendet weder localStorage noch sessionStorage, um Besucher zu verfolgen oder zu identifizieren.",
+          "Sollte sich dies in Zukunft ändern — etwa durch die Einführung von Werbung —, wird dieser Abschnitt aktualisiert, um genau zu beschreiben, was verwendet wird und warum.",
+        ],
+      },
+      {
+        heading: "Dienste Dritter",
+        paragraphs: [
+          "Diese Website verlinkt auf Dienste Dritter, darunter GitHub (für den Quellcode des Projekts, Issues und Pull Requests) und GitHub Sponsors (für den optionalen Support-Link, sofern konfiguriert). Diese Dienste haben eigene Datenschutzerklärungen, und deine Interaktionen mit ihnen unterliegen deren Richtlinien, nicht dieser hier.",
+          "Die Website wird auf der Infrastruktur eines Drittanbieters für Hosting betrieben, der im Rahmen der Bereitstellung der Website standardmäßige technische Anfragedaten verarbeiten kann.",
+        ],
+      },
+      {
+        heading: "Externe Links",
+        paragraphs: [
+          "Projektseiten verlinken auf externe Ressourcen wie GitHub-Repositories, offizielle Projektwebsites und Dokumentationen. Diese werden von den jeweiligen Open-Source-Projekten oder Organisationen betrieben, nicht von FindOpenSource. Wir sind nicht verantwortlich für die Inhalte oder Datenschutzpraktiken externer Websites und empfehlen dir, deren Richtlinien direkt zu prüfen.",
+        ],
+      },
+      {
+        heading: "Informationen zu Open-Source-Projekten",
+        paragraphs: [
+          "Die auf FindOpenSource angezeigten Projektnamen, Beschreibungen, Repository-Links und weiteren Details stammen aus öffentlich verfügbaren Informationen über das jeweilige Open-Source-Projekt und werden von der Community über GitHub Pull Requests gepflegt. Diese Informationen betreffen die Projekte selbst, nicht dich als Besucher.",
+        ],
+      },
+      {
+        heading: "Datenspeicherung",
+        paragraphs: [
+          "Da FindOpenSource über die Website keine personenbezogenen Daten erhebt, gibt es keinen Aufbewahrungszeitraum für Nutzerdaten zu beschreiben. Technische Protokolle, die von der Hosting-Infrastruktur erzeugt werden, werden gemäß den eigenen Praktiken des jeweiligen Anbieters aufbewahrt, außerhalb der Kontrolle von FindOpenSource.",
+        ],
+      },
+      {
+        heading: "Datensicherheit",
+        paragraphs: [
+          "FindOpenSource ist eine statische Website ohne Datenbank, ohne Nutzerkonten und ohne Formulare, die personenbezogene Daten erfassen — dieses Design begrenzt von vornherein, welche Besucherinformationen überhaupt offengelegt werden könnten.",
+        ],
+      },
+      {
+        heading: "Deine Datenschutzrechte",
+        paragraphs: [
+          "Je nachdem, wo du lebst, kannst du nach geltendem Datenschutzrecht Rechte haben, etwa das Recht zu erfahren, welche Informationen über dich erhoben werden, oder deren Löschung zu verlangen. Da FindOpenSource über die Website selbst wissentlich keine personenbezogenen Daten erhebt, liegen für eine solche Anfrage in der Regel keine personenbezogenen Daten vor. Bei Fragen oder Bedenken zum Datenschutz kannst du uns über die Kontaktseite erreichen.",
+        ],
+      },
+      {
+        heading: "Internationale Nutzer",
+        paragraphs: [
+          "FindOpenSource ist auf Englisch, vereinfachtem Chinesisch, Japanisch, Koreanisch, Spanisch und Deutsch verfügbar und wird von Nutzern aus vielen Ländern besucht. Diese Erklärung beschreibt unsere Praktiken allgemein; sie ersetzt keine Rechtsberatung zu deiner spezifischen Rechtsordnung, und FindOpenSource behauptet keine Zertifizierung nach einem bestimmten Datenschutzrahmen.",
+        ],
+      },
+      {
+        heading: "Datenschutz von Kindern",
+        paragraphs: [
+          "FindOpenSource richtet sich nicht an Kinder, und wir erheben wissentlich keine personenbezogenen Daten von Kindern. Solltest du glauben, dass ein Kind über diese Website personenbezogene Daten übermittelt hat, kontaktiere uns bitte, damit wir dies klären können.",
+        ],
+      },
+      {
+        heading: "Änderungen dieser Datenschutzerklärung",
+        paragraphs: [
+          "Wir können diese Erklärung im Zuge der Weiterentwicklung der Website aktualisieren. FindOpenSource könnte künftig Werbedienste wie Google AdSense nutzen. Sollte Werbung eingeführt werden, wird diese Erklärung vor dem Start aktualisiert, um die relevanten Cookies, Kennungen, Datenverarbeitungen und Wahlmöglichkeiten der Nutzer zu beschreiben. Das Datum „Zuletzt aktualisiert“ oben auf dieser Seite gibt die letzte Überarbeitung an.",
+        ],
+      },
+      {
+        heading: "Kontakt",
+        paragraphs: [
+          "Fragen zu dieser Datenschutzerklärung kannst du über unsere Kontaktseite senden, die erklärt, wie du uns über GitHub erreichen kannst.",
+        ],
+      },
+    ],
+  },
+  terms: {
+    title: "Nutzungsbedingungen",
+    metaDescription: "Die Bedingungen, die für die Nutzung des Open-Source-Verzeichnisses von FindOpenSource gelten.",
+    lastUpdated: "Zuletzt aktualisiert: 15. September 2026",
+    sections: [
+      {
+        heading: "Annahme der Bedingungen",
+        paragraphs: ["Durch die Nutzung von FindOpenSource stimmst du diesen Nutzungsbedingungen zu. Wenn du nicht einverstanden bist, nutze die Website bitte nicht."],
+      },
+      {
+        heading: "Über FindOpenSource",
+        paragraphs: [
+          "FindOpenSource ist ein kostenloses, von der Community gepflegtes Verzeichnis und Suchwerkzeug, um Open-Source-Projekte anhand der Funktion oder des Problems zu finden, das sie lösen. Es handelt sich um eine statische Website ohne Nutzerkonten, ohne Login und ohne Backend-Datenbank.",
+        ],
+      },
+      {
+        heading: "Verzeichnis- und Projektinformationen",
+        paragraphs: [
+          "Projekteinträge auf FindOpenSource — einschließlich Namen, Beschreibungen, Kategorien, Schlagwörtern und Links — werden von der Community gepflegt und über GitHub Pull Requests geprüft. Wir bemühen uns um Genauigkeit, dennoch können diese Informationen unvollständig, veraltet sein oder Fehler enthalten. Überprüfe Details stets im Repository des jeweiligen Projekts und in dessen offizieller Dokumentation, bevor du dich darauf verlässt.",
+        ],
+      },
+      {
+        heading: "Externe Websites und Inhalte Dritter",
+        paragraphs: [
+          "FindOpenSource verlinkt auf externe Websites, darunter GitHub-Repositories, offizielle Projektseiten und Dokumentationen, die unabhängig von den jeweiligen Maintainern oder Organisationen betrieben werden. Wir kontrollieren, befürworten oder verantworten weder Inhalt, Verfügbarkeit noch Praktiken externer Websites.",
+        ],
+      },
+      {
+        heading: "Open-Source-Lizenzen",
+        paragraphs: [
+          "FindOpenSource besitzt, lizenziert oder gewährt keinerlei Rechte an den im Verzeichnis aufgeführten Open-Source-Projekten. Jedes Projekt gehört den jeweiligen Autoren oder Organisationen und ist unter der auf seinem Eintrag angezeigten Lizenz lizenziert. Prüfe vor der Nutzung eines gelisteten Projekts dessen tatsächliche Lizenz und offizielles Repository, um die geltenden Bedingungen zu bestätigen.",
+        ],
+      },
+      {
+        heading: "Genauigkeit und Verfügbarkeit",
+        paragraphs: [
+          "FindOpenSource wird ohne jegliche Gewähr (wie besehen und nach Verfügbarkeit) bereitgestellt. Wir garantieren nicht, dass die Website oder darin enthaltene Projektinformationen vollständig, korrekt, unterbrechungsfrei oder fehlerfrei sind.",
+        ],
+      },
+      {
+        heading: "Beiträge von Nutzern",
+        paragraphs: [
+          "Jeder kann Ergänzungen oder Korrekturen zum Projektkatalog vorschlagen, indem er auf GitHub einen Pull Request oder ein Issue eröffnet, wie auf der Mitmachen-Seite beschrieben. Beiträge werden vor dem Merge von Maintainern geprüft, und wir garantieren nicht, dass ein bestimmter Beitrag angenommen wird oder innerhalb eines bestimmten Zeitraums angenommen wird.",
+        ],
+      },
+      {
+        heading: "Geistiges Eigentum",
+        paragraphs: [
+          "Der Code und die Website von FindOpenSource sind unter der MIT-Lizenz quelloffen und auf GitHub verfügbar. Im Verzeichnis genannte Projektnamen, Logos, Marken und Software gehören ihren jeweiligen Eigentümern und werden ausschließlich zu Identifikationszwecken verwendet; die Aufnahme eines Projekts impliziert keine Empfehlung durch oder Verbindung zu dessen Eigentümern.",
+        ],
+      },
+      {
+        heading: "Verbotene Nutzung",
+        paragraphs: [
+          "Du verpflichtest dich, FindOpenSource nicht zu missbrauchen — zum Beispiel durch den Versuch, die Website zu stören, sie auf eine Weise auszulesen, die den Dienst für andere beeinträchtigt, oder sie zur Verbreitung rechtswidriger oder schädlicher Inhalte zu nutzen.",
+        ],
+      },
+      {
+        heading: "Haftungsausschluss",
+        paragraphs: [
+          "FindOpenSource gibt keine ausdrücklichen oder stillschweigenden Zusicherungen über die Website oder die verlinkten Open-Source-Projekte ab, einschließlich jeglicher Zusicherung der Marktgängigkeit, Eignung für einen bestimmten Zweck oder Nichtverletzung von Rechten.",
+        ],
+      },
+      {
+        heading: "Haftungsbeschränkung",
+        paragraphs: [
+          "Im gesetzlich zulässigen Umfang haften FindOpenSource und seine Mitwirkenden nicht für Schäden, die aus der Nutzung der Website oder dem Vertrauen auf darauf gefundene Informationen entstehen, einschließlich Problemen mit verlinkten Projekten oder Websites Dritter.",
+        ],
+      },
+      {
+        heading: "Änderungen dieser Bedingungen",
+        paragraphs: [
+          "Wir können diese Nutzungsbedingungen im Zuge der Weiterentwicklung der Website aktualisieren. Das Datum „Zuletzt aktualisiert“ oben auf dieser Seite gibt die letzte Überarbeitung an. Die fortgesetzte Nutzung der Website nach Inkrafttreten von Änderungen gilt als Zustimmung zu den aktualisierten Bedingungen.",
+        ],
+      },
+      {
+        heading: "Kontakt",
+        paragraphs: ["Fragen zu diesen Nutzungsbedingungen kannst du über unsere Kontaktseite senden."],
+      },
+    ],
+  },
+  contact: {
+    title: "Kontakt",
+    metaDescription: "So erreichst du FindOpenSource bei Korrekturen, Lizenzfragen oder allgemeinem Feedback.",
+    intro:
+      "FindOpenSource ist ein von der Community gepflegtes Projekt ohne eigenes Support-Team, aber wir freuen uns, von dir zu hören. Der beste Weg, uns zu erreichen, ist über GitHub.",
+    reasonsHeading: "Gute Gründe, uns zu kontaktieren",
+    reasons: [
+      "Die Informationen zu einem Projekt sind veraltet, falsch oder fehlen",
+      "Ein Link ist defekt",
+      "Bedenken zu Lizenz oder Eigentümerschaft eines gelisteten Projekts",
+      "Eine Bitte, einen Projekteintrag zu aktualisieren oder zu entfernen",
+      "Eine Frage zum Mitmachen im Verzeichnis",
+      "Eine Frage zum Datenschutz",
+      "Allgemeines Feedback zur Website",
+    ],
+    howHeading: "So erreichst du uns",
+    howBody: "Der schnellste Weg, FindOpenSource zu erreichen, ist ein Issue auf GitHub zu eröffnen. Es geht direkt an die Personen, die das Projekt pflegen.",
+    ctaLabel: "Issue auf GitHub eröffnen",
   },
 };
 

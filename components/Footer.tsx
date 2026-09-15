@@ -21,6 +21,15 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           <Link href={`/${locale}/contribute`} className="hover:text-foreground">
             {dict.footer.contribute}
           </Link>
+          <Link href={`/${locale}/privacy`} className="hover:text-foreground">
+            {dict.footer.privacy}
+          </Link>
+          <Link href={`/${locale}/terms`} className="hover:text-foreground">
+            {dict.footer.terms}
+          </Link>
+          <Link href={`/${locale}/contact`} className="hover:text-foreground">
+            {dict.footer.contact}
+          </Link>
           <a
             href={siteConfig.githubUrl}
             target="_blank"
