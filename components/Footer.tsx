@@ -14,32 +14,36 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         <p>
           &copy; {new Date().getFullYear()} {siteConfig.name}. {dict.footer.tagline}
         </p>
-        <nav aria-label="Footer" className="flex items-center gap-4">
-          <Link href={`/${locale}/about`} className="hover:text-foreground">
+        <nav aria-label="Footer" className="flex flex-wrap items-center gap-x-4 gap-y-2">
+          <Link href={`/${locale}/about`} className="whitespace-nowrap hover:text-foreground">
             {dict.footer.about}
           </Link>
-          <Link href={`/${locale}/contribute`} className="hover:text-foreground">
+          <Link href={`/${locale}/contribute`} className="whitespace-nowrap hover:text-foreground">
             {dict.footer.contribute}
           </Link>
-          <Link href={`/${locale}/privacy`} className="hover:text-foreground">
+          <Link href={`/${locale}/privacy`} className="whitespace-nowrap hover:text-foreground">
             {dict.footer.privacy}
           </Link>
-          <Link href={`/${locale}/terms`} className="hover:text-foreground">
+          <Link href={`/${locale}/terms`} className="whitespace-nowrap hover:text-foreground">
             {dict.footer.terms}
           </Link>
-          <Link href={`/${locale}/contact`} className="hover:text-foreground">
+          <Link href={`/${locale}/contact`} className="whitespace-nowrap hover:text-foreground">
             {dict.footer.contact}
           </Link>
           <a
             href={siteConfig.githubUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-foreground"
+            className="whitespace-nowrap hover:text-foreground"
           >
             {dict.footer.github}
           </a>
           {supportUrl && (
-            <SupportLink href={supportUrl} ariaLabel={dict.support.ctaAriaLabel} className="hover:text-foreground">
+            <SupportLink
+              href={supportUrl}
+              ariaLabel={dict.support.ctaAriaLabel}
+              className="whitespace-nowrap hover:text-foreground"
+            >
               {dict.footer.support}
             </SupportLink>
           )}
