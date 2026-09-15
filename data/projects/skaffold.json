@@ -1,0 +1,46 @@
+{
+  "name": "Skaffold",
+  "slug": "skaffold",
+  "description": "Local Kubernetes development tool that automates the build-push-deploy loop so code changes are reflected in a cluster automatically.",
+  "longDescription": "Skaffold watches your source code, automatically rebuilds container images when files change, pushes them to a registry, and redeploys to a Kubernetes cluster - continuously, without a developer manually re-running each step. It supports many build and deployment tools rather than locking a team into one specific toolchain.\n\nSkaffold is a fit for developers building applications that run on Kubernetes who want a fast local iteration loop, complementing Coder (also in this catalog), which provisions remote development environments rather than automating the local build-deploy cycle.",
+  "repository": "https://github.com/GoogleContainerTools/skaffold",
+  "website": "https://skaffold.dev",
+  "documentation": "https://skaffold.dev/docs/",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "kubernetes-development",
+    "build-automation",
+    "local-development",
+    "ci-cd"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "本地 Kubernetes 开发工具，自动化构建-推送-部署循环，使代码更改自动反映到集群中。",
+      "longDescription": "Skaffold 会监视你的源代码，在文件发生变化时自动重新构建容器镜像，将其推送到镜像仓库，并重新部署到 Kubernetes 集群——持续进行，无需开发者手动重复执行每一步。它支持多种构建和部署工具，而不会将团队锁定在某一特定工具链中。\n\nSkaffold 适合那些构建运行在 Kubernetes 上的应用、希望获得快速本地迭代循环的开发者，与目录中的 Coder 形成互补——Coder 提供的是远程开发环境，而不是自动化本地构建-部署循环。"
+    },
+    "ja": {
+      "description": "コードの変更をクラスタに自動的に反映させる、ビルド・プッシュ・デプロイのループを自動化する、ローカル Kubernetes 開発ツールです。",
+      "longDescription": "Skaffold はソースコードを監視し、ファイルが変更されると自動的にコンテナイメージを再ビルドし、レジストリにプッシュし、Kubernetes クラスタに再デプロイします——開発者が各ステップを手動で再実行する必要はなく、継続的に行われます。特定のツールチェーンにチームを縛りつけるのではなく、多数のビルド・デプロイツールをサポートします。\n\nSkaffold は、Kubernetes 上で動作するアプリケーションを構築していて、高速なローカルの反復ループを求める開発者に向いています。(カタログにもある) Coder を補完する存在で、Coder はローカルのビルド・デプロイサイクルを自動化するのではなく、リモートの開発環境をプロビジョニングします。"
+    },
+    "ko": {
+      "description": "코드 변경 사항이 클러스터에 자동으로 반영되도록 빌드-푸시-배포 루프를 자동화하는 로컬 Kubernetes 개발 도구입니다.",
+      "longDescription": "Skaffold는 소스 코드를 감시하다가 파일이 변경되면 자동으로 컨테이너 이미지를 다시 빌드하고 레지스트리에 푸시하며 Kubernetes 클러스터에 다시 배포합니다 — 개발자가 각 단계를 수동으로 다시 실행할 필요 없이 지속적으로요. 특정 툴체인에 팀을 묶어두는 대신 다양한 빌드·배포 도구를 지원합니다.\n\nSkaffold는 Kubernetes에서 실행되는 애플리케이션을 만들며 빠른 로컬 반복 루프를 원하는 개발자에게 적합합니다. (카탈로그에 있는) Coder를 보완하는 관계로, Coder는 로컬 빌드-배포 주기를 자동화하기보다 원격 개발 환경을 프로비저닝합니다."
+    },
+    "es": {
+      "description": "Herramienta de desarrollo local para Kubernetes que automatiza el ciclo de build-push-deploy para que los cambios de código se reflejen automáticamente en un clúster.",
+      "longDescription": "Skaffold vigila tu código fuente, reconstruye automáticamente las imágenes de contenedor cuando cambian los archivos, las sube a un registro y las redespliega en un clúster de Kubernetes, de forma continua, sin que un desarrollador tenga que volver a ejecutar manualmente cada paso. Admite muchas herramientas de build y despliegue en lugar de atar a un equipo a una única cadena de herramientas.\n\nSkaffold encaja en desarrolladores que construyen aplicaciones que corren en Kubernetes y quieren un ciclo de iteración local rápido, complementando a Coder (también en este catálogo), que aprovisiona entornos de desarrollo remotos en lugar de automatizar el ciclo local de build y despliegue."
+    },
+    "de": {
+      "description": "Lokales Kubernetes-Entwicklungstool, das den Build-Push-Deploy-Kreislauf automatisiert, sodass Codeänderungen automatisch in einem Cluster reflektiert werden.",
+      "longDescription": "Skaffold beobachtet deinen Quellcode, baut Container-Images automatisch neu, wenn sich Dateien ändern, pusht sie in eine Registry und deployt sie erneut in einen Kubernetes-Cluster – kontinuierlich, ohne dass ein Entwickler jeden Schritt manuell erneut ausführen muss. Es unterstützt viele Build- und Deployment-Tools, statt ein Team an eine bestimmte Toolchain zu binden.\n\nSkaffold eignet sich für Entwickler, die Anwendungen bauen, die auf Kubernetes laufen, und einen schnellen lokalen Iterationskreislauf wollen – als Ergänzung zu Coder (ebenfalls in diesem Katalog), das entfernte Entwicklungsumgebungen bereitstellt, statt den lokalen Build-Deploy-Zyklus zu automatisieren."
+    }
+  }
+}

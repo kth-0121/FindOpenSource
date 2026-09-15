@@ -1,0 +1,46 @@
+{
+  "name": "Harbor",
+  "slug": "harbor",
+  "description": "Self-hosted, CNCF-graduated container registry with built-in vulnerability scanning, image signing, and access control.",
+  "longDescription": "Harbor stores and serves container images (and other OCI artifacts) the same way a public registry like Docker Hub does, but self-hosted within your own infrastructure, with role-based access control, automated vulnerability scanning of stored images, and replication between multiple Harbor instances. It's a CNCF graduated project widely used as an enterprise-grade private registry.\n\nHarbor is a fit for teams that need a private, self-hosted container registry with built-in security scanning rather than relying on a third-party registry, complementing Trivy (also in this catalog), one of the scanners Harbor can use internally.",
+  "repository": "https://github.com/goharbor/harbor",
+  "website": "https://goharbor.io",
+  "documentation": "https://goharbor.io/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "container-registry",
+    "image-scanning",
+    "oci-artifacts",
+    "access-control"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "自托管的、已从 CNCF 毕业的容器镜像仓库，内置漏洞扫描、镜像签名和访问控制功能。",
+      "longDescription": "Harbor 以与 Docker Hub 等公共镜像仓库相同的方式存储和分发容器镜像（以及其他 OCI 制品），但可自托管在你自己的基础设施中，具备基于角色的访问控制、存储镜像的自动漏洞扫描，以及多个 Harbor 实例之间的复制能力。它是一个 CNCF 毕业项目，被广泛用作企业级私有镜像仓库。\n\nHarbor 适合那些需要私有、自托管的容器镜像仓库、并内置安全扫描能力、而不是依赖第三方镜像仓库的团队，与目录中的 Trivy 形成互补——Trivy 正是 Harbor 内部可以使用的扫描工具之一。"
+    },
+    "ja": {
+      "description": "脆弱性スキャン、イメージ署名、アクセス制御を標準搭載した、セルフホスト型の CNCF 卒業済みコンテナレジストリです。",
+      "longDescription": "Harbor は、Docker Hub のような公開レジストリと同じ方法でコンテナイメージ(および他の OCI アーティファクト)を保存・提供しますが、自分自身のインフラ内でセルフホストでき、ロールベースのアクセス制御、保存されたイメージの自動脆弱性スキャン、複数の Harbor インスタンス間のレプリケーションを備えています。CNCF を卒業したプロジェクトで、エンタープライズグレードのプライベートレジストリとして広く使われています。\n\nHarbor は、サードパーティのレジストリに頼るのではなく、セキュリティスキャンを標準搭載したプライベートでセルフホスト型のコンテナレジストリを必要とするチームに向いています。(カタログにもある) Trivy を補完する存在で、Trivy は Harbor が内部で使用できるスキャナーの1つです。"
+    },
+    "ko": {
+      "description": "취약점 스캔, 이미지 서명, 접근 제어를 기본 제공하는, 셀프 호스팅 가능한 CNCF 졸업 컨테이너 레지스트리입니다.",
+      "longDescription": "Harbor는 Docker Hub 같은 공개 레지스트리와 동일한 방식으로 컨테이너 이미지(및 기타 OCI 아티팩트)를 저장하고 제공하지만, 자체 인프라 안에서 셀프 호스팅할 수 있으며 역할 기반 접근 제어, 저장된 이미지의 자동 취약점 스캔, 여러 Harbor 인스턴스 간 복제 기능을 갖추고 있습니다. 엔터프라이즈급 프라이빗 레지스트리로 널리 사용되는 CNCF 졸업 프로젝트입니다.\n\nHarbor는 서드파티 레지스트리에 의존하는 대신 보안 스캔이 내장된 프라이빗 셀프 호스팅 컨테이너 레지스트리가 필요한 팀에 적합하며, (카탈로그에 있는) Trivy를 보완합니다 — Trivy는 Harbor가 내부적으로 사용할 수 있는 스캐너 중 하나입니다."
+    },
+    "es": {
+      "description": "Registro de contenedores autoalojado y graduado por la CNCF, con escaneo de vulnerabilidades, firma de imágenes y control de acceso integrados.",
+      "longDescription": "Harbor almacena y sirve imágenes de contenedores (y otros artefactos OCI) del mismo modo que lo hace un registro público como Docker Hub, pero autoalojado dentro de tu propia infraestructura, con control de acceso basado en roles, escaneo automático de vulnerabilidades de las imágenes almacenadas y replicación entre varias instancias de Harbor. Es un proyecto graduado de la CNCF ampliamente usado como registro privado de nivel empresarial.\n\nHarbor encaja en equipos que necesitan un registro de contenedores privado y autoalojado con escaneo de seguridad integrado en lugar de depender de un registro de terceros, complementando a Trivy (también en este catálogo), uno de los escáneres que Harbor puede usar internamente."
+    },
+    "de": {
+      "description": "Selbst gehostete, von der CNCF graduierte Container-Registry mit integriertem Schwachstellenscanning, Image-Signierung und Zugriffskontrolle.",
+      "longDescription": "Harbor speichert und liefert Container-Images (und andere OCI-Artefakte) auf dieselbe Weise wie eine öffentliche Registry wie Docker Hub, aber selbst gehostet innerhalb der eigenen Infrastruktur, mit rollenbasierter Zugriffskontrolle, automatisiertem Schwachstellenscanning gespeicherter Images und Replikation zwischen mehreren Harbor-Instanzen. Es ist ein von der CNCF graduiertes Projekt, das breit als Enterprise-Grade-Private-Registry eingesetzt wird.\n\nHarbor eignet sich für Teams, die eine private, selbst gehostete Container-Registry mit integriertem Sicherheitsscanning statt einer Registry eines Drittanbieters benötigen – als Ergänzung zu Trivy (ebenfalls in diesem Katalog), einem der Scanner, die Harbor intern nutzen kann."
+    }
+  }
+}

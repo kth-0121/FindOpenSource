@@ -1,0 +1,46 @@
+{
+  "name": "Crossplane",
+  "slug": "crossplane",
+  "description": "Kubernetes-native control plane that lets you provision and manage cloud infrastructure - databases, networks, storage - using Kubernetes APIs.",
+  "longDescription": "Crossplane extends the Kubernetes API to represent cloud infrastructure - a managed database, a load balancer, a storage bucket - as Kubernetes resources, so a team can provision and manage real cloud infrastructure using the same `kubectl apply` workflow and RBAC model they already use for applications. It composes infrastructure into reusable, higher-level abstractions for platform teams to offer to developers.\n\nCrossplane is a fit for platform teams building an internal developer platform who want infrastructure provisioning to go through Kubernetes APIs, a different approach than Terraform or OpenTofu (also in this catalog), which use a separate CLI and state model outside Kubernetes.",
+  "repository": "https://github.com/crossplane/crossplane",
+  "website": "https://www.crossplane.io",
+  "documentation": "https://docs.crossplane.io",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "infrastructure-as-code",
+    "kubernetes-native",
+    "control-plane",
+    "cloud-provisioning"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes 原生控制平面，让你可以使用 Kubernetes API 配置和管理云基础设施——数据库、网络、存储。",
+      "longDescription": "Crossplane 扩展了 Kubernetes API，将云基础设施——托管数据库、负载均衡器、存储桶——表示为 Kubernetes 资源，使团队能够使用管理应用时已经在用的同一套 `kubectl apply` 工作流和 RBAC 模型，来配置和管理真实的云基础设施。它将基础设施组合成可复用的高层抽象，供平台团队提供给开发者使用。\n\nCrossplane 适合那些正在构建内部开发者平台、希望基础设施配置能够通过 Kubernetes API 进行的平台团队，这与目录中的 Terraform 或 OpenTofu 采用不同的方式——后者使用独立于 Kubernetes 之外的 CLI 和状态模型。"
+    },
+    "ja": {
+      "description": "データベース、ネットワーク、ストレージといったクラウドインフラを、Kubernetes API を使ってプロビジョニング・管理できる、Kubernetes ネイティブなコントロールプレーンです。",
+      "longDescription": "Crossplane は Kubernetes API を拡張し、マネージドデータベース、ロードバランサー、ストレージバケットといったクラウドインフラを Kubernetes リソースとして表現します。そのため、チームはアプリケーション向けにすでに使っているのと同じ `kubectl apply` ワークフローと RBAC モデルを使って、実際のクラウドインフラをプロビジョニング・管理できます。インフラを再利用可能でより高レベルな抽象として組み合わせ、プラットフォームチームが開発者に提供できるようにします。\n\nCrossplane は、社内向け開発者プラットフォームを構築していて、インフラのプロビジョニングを Kubernetes API 経由で行いたいプラットフォームチームに向いています。(カタログにもある) Terraform や OpenTofu とは異なるアプローチで、それらは Kubernetes の外部で別個の CLI とステートモデルを使用します。"
+    },
+    "ko": {
+      "description": "데이터베이스, 네트워크, 스토리지 같은 클라우드 인프라를 Kubernetes API로 프로비저닝하고 관리할 수 있게 해주는 Kubernetes 네이티브 컨트롤 플레인입니다.",
+      "longDescription": "Crossplane은 Kubernetes API를 확장하여 관리형 데이터베이스, 로드 밸런서, 스토리지 버킷 같은 클라우드 인프라를 Kubernetes 리소스로 표현하므로, 팀은 애플리케이션에 이미 사용하는 동일한 `kubectl apply` 워크플로와 RBAC 모델을 사용해 실제 클라우드 인프라를 프로비저닝하고 관리할 수 있습니다. 인프라를 재사용 가능한 상위 수준 추상화로 구성해 플랫폼 팀이 개발자에게 제공할 수 있게 합니다.\n\nCrossplane은 내부 개발자 플랫폼을 구축하며 인프라 프로비저닝이 Kubernetes API를 통해 이루어지길 원하는 플랫폼 팀에 적합하며, (카탈로그에 있는) Terraform이나 OpenTofu와는 다른 접근 방식입니다 — 그것들은 Kubernetes 외부에서 별도의 CLI와 상태 모델을 사용합니다."
+    },
+    "es": {
+      "description": "Plano de control nativo de Kubernetes que te permite aprovisionar y gestionar infraestructura cloud —bases de datos, redes, almacenamiento— usando APIs de Kubernetes.",
+      "longDescription": "Crossplane amplía la API de Kubernetes para representar infraestructura cloud —una base de datos gestionada, un balanceador de carga, un bucket de almacenamiento— como recursos de Kubernetes, de modo que un equipo puede aprovisionar y gestionar infraestructura cloud real usando el mismo flujo de `kubectl apply` y el modelo RBAC que ya usa para las aplicaciones. Compone la infraestructura en abstracciones reutilizables de más alto nivel para que los equipos de plataforma las ofrezcan a los desarrolladores.\n\nCrossplane encaja en equipos de plataforma que construyen una plataforma interna para desarrolladores y quieren que el aprovisionamiento de infraestructura pase por las APIs de Kubernetes, un enfoque distinto al de Terraform u OpenTofu (también en este catálogo), que usan una CLI y un modelo de estado separados fuera de Kubernetes."
+    },
+    "de": {
+      "description": "Kubernetes-native Control Plane, mit der du Cloud-Infrastruktur – Datenbanken, Netzwerke, Speicher – über Kubernetes-APIs bereitstellen und verwalten kannst.",
+      "longDescription": "Crossplane erweitert die Kubernetes-API, um Cloud-Infrastruktur – eine verwaltete Datenbank, einen Load Balancer, einen Storage Bucket – als Kubernetes-Ressourcen darzustellen, sodass ein Team echte Cloud-Infrastruktur über denselben `kubectl apply`-Workflow und dasselbe RBAC-Modell bereitstellen und verwalten kann, das es bereits für Anwendungen nutzt. Es setzt Infrastruktur zu wiederverwendbaren, höherstufigen Abstraktionen zusammen, die Platform-Teams Entwicklern anbieten können.\n\nCrossplane eignet sich für Platform-Teams, die eine interne Entwicklerplattform bauen und wollen, dass Infrastruktur-Provisionierung über Kubernetes-APIs läuft – ein anderer Ansatz als Terraform oder OpenTofu (ebenfalls in diesem Katalog), die eine separate CLI und ein Statemodell außerhalb von Kubernetes nutzen."
+    }
+  }
+}

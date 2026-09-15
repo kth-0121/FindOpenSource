@@ -1,0 +1,46 @@
+{
+  "name": "kube-linter",
+  "slug": "kube-linter",
+  "description": "Static analysis tool that scans Kubernetes YAML manifests and Helm charts for misconfigurations before they're ever deployed.",
+  "longDescription": "kube-linter checks Kubernetes manifests against a set of best-practice rules - missing resource limits, containers running as root, missing health checks, and more - directly in a CI pipeline or locally, catching configuration mistakes before a resource is ever applied to a cluster. It's built to plug into existing CI workflows with minimal setup.\n\nkube-linter is a fit for teams that want to catch Kubernetes misconfigurations at review time rather than in production, a pre-deployment complement to Kubescape and kube-bench (also in this catalog), which assess clusters that are already running.",
+  "repository": "https://github.com/stackrox/kube-linter",
+  "website": "https://docs.kubelinter.io",
+  "documentation": "https://docs.kubelinter.io/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "static-analysis",
+    "kubernetes-linting",
+    "ci-cd",
+    "misconfiguration-detection"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "静态分析工具，在部署之前扫描 Kubernetes YAML 清单和 Helm Chart 中的错误配置。",
+      "longDescription": "kube-linter 直接在 CI 流水线中或本地环境中，依据一套最佳实践规则——缺少资源限制、容器以 root 身份运行、缺少健康检查等——检查 Kubernetes 清单文件，在资源被应用到集群之前就捕获配置错误。它的设计目标是以最少的配置接入现有的 CI 工作流。\n\nkube-linter 适合那些希望在评审阶段而非生产环境中发现 Kubernetes 配置错误的团队，是目录中 Kubescape 和 kube-bench 的部署前补充——后两者评估的是已经在运行的集群。"
+    },
+    "ja": {
+      "description": "Kubernetes の YAML マニフェストと Helm Chart をデプロイ前にスキャンし、設定ミスを検出する静的解析ツールです。",
+      "longDescription": "kube-linter は、リソース制限の欠如、root でのコンテナ実行、ヘルスチェックの欠如といったベストプラクティスのルールに照らして、CI パイプライン内やローカルで直接 Kubernetes のマニフェストをチェックし、リソースがクラスタに適用される前に設定ミスを捕捉します。最小限のセットアップで既存の CI ワークフローに組み込めるよう作られています。\n\nkube-linter は、本番環境ではなくレビュー時点で Kubernetes の設定ミスを捕捉したいチームに向いています。すでに稼働しているクラスタを評価する(カタログにもある) Kubescape や kube-bench を補完する、デプロイ前のツールです。"
+    },
+    "ko": {
+      "description": "배포되기 전에 Kubernetes YAML 매니페스트와 Helm 차트에서 잘못된 설정을 스캔하는 정적 분석 도구입니다.",
+      "longDescription": "kube-linter는 리소스 제한 누락, root로 실행되는 컨테이너, 헬스 체크 누락 등 모범 사례 규칙에 따라 CI 파이프라인이나 로컬에서 직접 Kubernetes 매니페스트를 검사하여, 리소스가 클러스터에 적용되기 전에 설정 실수를 잡아냅니다. 최소한의 설정으로 기존 CI 워크플로에 통합되도록 만들어졌습니다.\n\nkube-linter는 프로덕션이 아니라 리뷰 시점에 Kubernetes 설정 오류를 잡고 싶은 팀에 적합하며, 이미 실행 중인 클러스터를 평가하는 (카탈로그에 있는) Kubescape, kube-bench를 보완하는 배포 전 도구입니다."
+    },
+    "es": {
+      "description": "Herramienta de análisis estático que escanea manifiestos YAML de Kubernetes y charts de Helm en busca de configuraciones incorrectas antes de que lleguen a desplegarse.",
+      "longDescription": "kube-linter comprueba los manifiestos de Kubernetes frente a un conjunto de reglas de buenas prácticas —falta de límites de recursos, contenedores ejecutándose como root, falta de health checks y más— directamente en un pipeline de CI o en local, detectando errores de configuración antes de que un recurso se aplique jamás a un clúster. Está construido para integrarse en flujos de CI existentes con una configuración mínima.\n\nkube-linter encaja en equipos que quieren detectar configuraciones incorrectas de Kubernetes en el momento de la revisión en lugar de en producción, un complemento previo al despliegue de Kubescape y kube-bench (también en este catálogo), que evalúan clústeres que ya están en ejecución."
+    },
+    "de": {
+      "description": "Statisches Analysetool, das Kubernetes-YAML-Manifeste und Helm-Charts auf Fehlkonfigurationen scannt, bevor sie überhaupt deployt werden.",
+      "longDescription": "kube-linter prüft Kubernetes-Manifeste gegen eine Reihe von Best-Practice-Regeln – fehlende Ressourcenlimits, als Root laufende Container, fehlende Health-Checks und mehr – direkt in einer CI-Pipeline oder lokal und findet so Konfigurationsfehler, bevor eine Ressource jemals auf einen Cluster angewendet wird. Es ist darauf ausgelegt, mit minimalem Setup in bestehende CI-Workflows eingebunden zu werden.\n\nkube-linter eignet sich für Teams, die Kubernetes-Fehlkonfigurationen zum Zeitpunkt der Überprüfung statt in Produktion finden wollen – eine Vor-Deployment-Ergänzung zu Kubescape und kube-bench (ebenfalls in diesem Katalog), die bereits laufende Cluster bewerten."
+    }
+  }
+}

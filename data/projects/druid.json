@@ -1,0 +1,46 @@
+{
+  "name": "Druid",
+  "slug": "druid",
+  "description": "Real-time analytics database built for sub-second queries over continuously streaming and historical event data at scale.",
+  "longDescription": "Apache Druid ingests data continuously from streaming sources (like Kafka) as well as batch sources, and is architected specifically for fast aggregation queries - counts, sums, percentiles - over that data even as new events keep arriving. It's commonly used to power real-time dashboards and user-facing analytics.\n\nDruid is a fit for teams building real-time analytics dashboards or user-facing metrics on continuously streaming data, complementing ClickHouse (also in this catalog) - both are OLAP engines, but Druid's architecture is specifically optimized around real-time streaming ingestion.",
+  "repository": "https://github.com/apache/druid",
+  "website": "https://druid.apache.org",
+  "documentation": "https://druid.apache.org/docs/latest/design/",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "real-time-analytics",
+    "olap",
+    "stream-ingestion",
+    "time-series"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "实时分析数据库，专为在持续流入的海量流数据和历史事件数据上实现亚秒级查询而构建。",
+      "longDescription": "Apache Druid 持续从流式数据源（如 Kafka）以及批量数据源摄取数据，其架构专门针对快速聚合查询——计数、求和、百分位数——进行了优化，即使新事件不断涌入也能保持高效查询。它常被用于支撑实时仪表盘和面向用户的分析功能。\n\nDruid 适合那些在持续流入的数据上构建实时分析仪表盘或面向用户指标的团队，与目录中的 ClickHouse 形成互补——两者都是 OLAP 引擎，但 Druid 的架构专门针对实时流式数据摄取进行了优化。"
+    },
+    "ja": {
+      "description": "継続的にストリーミングされる、および過去のイベントデータに対して、サブ秒単位のクエリを大規模に実行するために構築された、リアルタイム分析データベースです。",
+      "longDescription": "Apache Druid は、(Kafka のような) ストリーミングソースとバッチソースの両方から継続的にデータを取り込み、新しいイベントが到着し続けている状況でも、カウント・合計・パーセンタイルといった高速な集計クエリを実行できるよう特化して設計されています。リアルタイムダッシュボードやユーザー向け分析機能を支えるためによく使われます。\n\nDruid は、継続的にストリーミングされるデータに基づいてリアルタイム分析ダッシュボードやユーザー向けメトリクスを構築するチームに向いています。(カタログにもある) ClickHouse を補完する存在で、両者とも OLAP エンジンですが、Druid のアーキテクチャは特にリアルタイムのストリーミング取り込みに最適化されています。"
+    },
+    "ko": {
+      "description": "지속적으로 유입되는 스트리밍 데이터와 과거 이벤트 데이터에 대해 대규모로 1초 미만의 쿼리를 수행하도록 만들어진 실시간 분석 데이터베이스입니다.",
+      "longDescription": "Apache Druid는 (Kafka 같은) 스트리밍 소스와 배치 소스 모두로부터 지속적으로 데이터를 수집하며, 새 이벤트가 계속 들어오는 중에도 카운트, 합계, 백분위수 같은 빠른 집계 쿼리를 수행하도록 특별히 설계되었습니다. 실시간 대시보드와 사용자 대상 분석 기능을 지원하는 데 흔히 사용됩니다.\n\nDruid는 지속적으로 유입되는 데이터를 기반으로 실시간 분석 대시보드나 사용자 대상 지표를 구축하는 팀에 적합하며, (카탈로그에 있는) ClickHouse를 보완합니다 — 둘 다 OLAP 엔진이지만 Druid의 아키텍처는 실시간 스트리밍 수집을 중심으로 특별히 최적화되어 있습니다."
+    },
+    "es": {
+      "description": "Base de datos de analítica en tiempo real construida para consultas de menos de un segundo sobre datos de eventos históricos y en streaming continuo a gran escala.",
+      "longDescription": "Apache Druid ingiere datos de forma continua tanto desde fuentes de streaming (como Kafka) como desde fuentes por lotes, y está diseñada específicamente para consultas de agregación rápidas —conteos, sumas, percentiles— sobre esos datos incluso mientras siguen llegando nuevos eventos. Se usa habitualmente para impulsar dashboards en tiempo real y analítica orientada al usuario final.\n\nDruid encaja en equipos que construyen dashboards de analítica en tiempo real o métricas orientadas al usuario sobre datos en streaming continuo, complementando a ClickHouse (también en este catálogo): ambos son motores OLAP, pero la arquitectura de Druid está optimizada específicamente en torno a la ingesta de streaming en tiempo real."
+    },
+    "de": {
+      "description": "Echtzeit-Analytics-Datenbank für Abfragen unter einer Sekunde über kontinuierlich streamende und historische Ereignisdaten im großen Maßstab.",
+      "longDescription": "Apache Druid nimmt Daten kontinuierlich sowohl aus Streaming-Quellen (wie Kafka) als auch aus Batch-Quellen auf und ist speziell für schnelle Aggregationsabfragen – Zählungen, Summen, Perzentile – über diese Daten konzipiert, selbst während laufend neue Ereignisse eintreffen. Es wird häufig eingesetzt, um Echtzeit-Dashboards und nutzerseitige Analytics anzutreiben.\n\nDruid eignet sich für Teams, die Echtzeit-Analytics-Dashboards oder nutzerseitige Metriken auf kontinuierlich streamenden Daten bauen – als Ergänzung zu ClickHouse (ebenfalls in diesem Katalog): Beide sind OLAP-Engines, aber Druids Architektur ist speziell auf Echtzeit-Streaming-Ingestion optimiert."
+    }
+  }
+}

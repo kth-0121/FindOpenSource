@@ -1,0 +1,47 @@
+{
+  "name": "Pixie",
+  "slug": "pixie",
+  "description": "eBPF-based observability platform that gives instant visibility into Kubernetes applications without any code changes or manual instrumentation.",
+  "longDescription": "Pixie uses eBPF to automatically capture telemetry - HTTP/gRPC requests, database queries, network connections, resource usage - straight from the Linux kernel, so a team gets deep application observability without adding a single tracing library or agent to their code. Data stays in-cluster by default rather than being shipped externally.\n\nPixie is a fit for teams that want to debug a Kubernetes application right now without having pre-instrumented it, a fundamentally different approach from OpenTelemetry Collector's instrumentation-based model (also in this catalog).",
+  "repository": "https://github.com/pixie-io/pixie",
+  "website": "https://px.dev",
+  "documentation": "https://docs.px.dev",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "ebpf",
+    "kubernetes-observability",
+    "auto-instrumentation",
+    "application-monitoring"
+  ],
+  "languages": [
+    "C++",
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "基于 eBPF 的可观测性平台，无需任何代码修改或手动埋点即可即时洞察 Kubernetes 应用。",
+      "longDescription": "Pixie 使用 eBPF 直接从 Linux 内核自动捕获遥测数据——HTTP/gRPC 请求、数据库查询、网络连接、资源使用情况——因此团队无需在代码中添加任何链路追踪库或代理，即可获得深入的应用可观测性。默认情况下数据保留在集群内，而不会被发送到外部。\n\nPixie 适合那些希望立即调试某个尚未预先埋点的 Kubernetes 应用的团队，这与目录中基于埋点的 OpenTelemetry Collector 模型有着根本不同的方式。"
+    },
+    "ja": {
+      "description": "コード変更や手動での計装を一切行わずに、Kubernetes アプリケーションへの即座の可視性をもたらす、eBPF ベースのオブザーバビリティプラットフォームです。",
+      "longDescription": "Pixie は eBPF を使って、HTTP/gRPC リクエスト、データベースクエリ、ネットワーク接続、リソース使用状況といったテレメトリを Linux カーネルから直接自動的にキャプチャするため、コードにトレーシングライブラリやエージェントを1つも追加することなく、深いアプリケーションオブザーバビリティが得られます。データはデフォルトでクラスタ内に留まり、外部へ送信されません。\n\nPixie は、事前に計装していない Kubernetes アプリケーションを今すぐデバッグしたいチームに向いています。(カタログにもある) OpenTelemetry Collector の計装ベースのモデルとは根本的に異なるアプローチです。"
+    },
+    "ko": {
+      "description": "코드 변경이나 수동 계측 없이 Kubernetes 애플리케이션에 대한 즉각적인 가시성을 제공하는 eBPF 기반 관측 가능성 플랫폼입니다.",
+      "longDescription": "Pixie는 eBPF를 사용해 HTTP/gRPC 요청, 데이터베이스 쿼리, 네트워크 연결, 리소스 사용량 같은 텔레메트리를 Linux 커널에서 직접 자동으로 캡처하므로, 팀은 코드에 트레이싱 라이브러리나 에이전트를 하나도 추가하지 않고도 깊이 있는 애플리케이션 관측 가능성을 얻을 수 있습니다. 데이터는 기본적으로 외부로 전송되지 않고 클러스터 내부에 머무릅니다.\n\nPixie는 사전에 계측되지 않은 Kubernetes 애플리케이션을 지금 당장 디버깅하고 싶은 팀에 적합합니다. (카탈로그에 있는) OpenTelemetry Collector의 계측 기반 모델과는 근본적으로 다른 접근 방식입니다."
+    },
+    "es": {
+      "description": "Plataforma de observabilidad basada en eBPF que ofrece visibilidad instantánea de aplicaciones Kubernetes sin cambios de código ni instrumentación manual.",
+      "longDescription": "Pixie usa eBPF para capturar automáticamente telemetría —peticiones HTTP/gRPC, consultas a bases de datos, conexiones de red, uso de recursos— directamente desde el kernel de Linux, de modo que un equipo obtiene observabilidad profunda de la aplicación sin añadir ni una sola librería de tracing o agente a su código. Los datos permanecen dentro del clúster por defecto en lugar de enviarse fuera.\n\nPixie encaja en equipos que quieren depurar una aplicación Kubernetes ahora mismo sin haberla instrumentado previamente, un enfoque fundamentalmente distinto al modelo basado en instrumentación de OpenTelemetry Collector (también en este catálogo)."
+    },
+    "de": {
+      "description": "eBPF-basierte Observability-Plattform, die sofortige Einblicke in Kubernetes-Anwendungen ohne Codeänderungen oder manuelle Instrumentierung bietet.",
+      "longDescription": "Pixie nutzt eBPF, um Telemetrie – HTTP/gRPC-Anfragen, Datenbankabfragen, Netzwerkverbindungen, Ressourcennutzung – direkt aus dem Linux-Kernel automatisch zu erfassen, sodass ein Team tiefe Anwendungs-Observability erhält, ohne eine einzige Tracing-Bibliothek oder einen Agenten zum Code hinzuzufügen. Daten bleiben standardmäßig im Cluster, statt extern versendet zu werden.\n\nPixie eignet sich für Teams, die eine Kubernetes-Anwendung sofort debuggen wollen, ohne sie vorher instrumentiert zu haben – ein grundlegend anderer Ansatz als das instrumentierungsbasierte Modell des OpenTelemetry Collectors (ebenfalls in diesem Katalog)."
+    }
+  }
+}

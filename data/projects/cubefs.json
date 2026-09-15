@@ -1,0 +1,46 @@
+{
+  "name": "CubeFS",
+  "slug": "cubefs",
+  "description": "Distributed filesystem and object storage system built for cloud-native, large-scale data-intensive applications.",
+  "longDescription": "CubeFS provides both file and object storage interfaces over a distributed, horizontally scalable cluster, originally built at JD.com to handle large-scale data workloads including big data analytics, AI training data, and container-native storage. It's a CNCF-hosted project with multi-tenancy and multi-zone deployment support.\n\nCubeFS is a fit for teams running large-scale data-intensive workloads - big data, AI training data pipelines - who need distributed file and object storage together, an alternative in the same space as Ceph and JuiceFS already in this catalog with a different architectural origin.",
+  "repository": "https://github.com/cubefs/cubefs",
+  "website": "https://cubefs.io",
+  "documentation": "https://cubefs.io/docs/master/overview/introduction.html",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "distributed-filesystem",
+    "object-storage",
+    "big-data",
+    "cloud-native-storage"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向云原生、大规模数据密集型应用打造的分布式文件系统与对象存储系统。",
+      "longDescription": "CubeFS 在一个分布式、可水平扩展的集群之上同时提供文件和对象存储接口，最初由京东构建，用于处理大数据分析、AI 训练数据和容器原生存储等大规模数据工作负载。它是一个 CNCF 托管项目，支持多租户和多可用区部署。\n\nCubeFS 适合那些运行大规模数据密集型工作负载（大数据、AI 训练数据流水线）、需要同时具备分布式文件和对象存储能力的团队，是目录中 Ceph 和 JuiceFS 所在领域的一个架构起源不同的替代方案。"
+    },
+    "ja": {
+      "description": "クラウドネイティブで大規模なデータ集約型アプリケーション向けに構築された、分散ファイルシステム兼オブジェクトストレージシステムです。",
+      "longDescription": "CubeFS は、分散型で水平方向にスケール可能なクラスタ上でファイルストレージとオブジェクトストレージの両方のインターフェースを提供し、もともとは JD.com がビッグデータ分析、AI 学習データ、コンテナネイティブストレージなどの大規模データワークロードを処理するために構築したものです。CNCF がホストするプロジェクトで、マルチテナンシーとマルチゾーン展開に対応しています。\n\nCubeFS は、ビッグデータや AI 学習データパイプラインなど、大規模なデータ集約型ワークロードを実行し、分散ファイルストレージとオブジェクトストレージを合わせて必要とするチームに向いています。カタログに既にある Ceph や JuiceFS と同じ領域で、異なるアーキテクチャ上の起源を持つ代替手段です。"
+    },
+    "ko": {
+      "description": "클라우드 네이티브, 대규모 데이터 집약적 애플리케이션을 위해 만들어진 분산 파일시스템 겸 오브젝트 스토리지 시스템입니다.",
+      "longDescription": "CubeFS는 분산형이며 수평 확장 가능한 클러스터에서 파일과 오브젝트 스토리지 인터페이스를 모두 제공하며, 원래 JD.com에서 빅데이터 분석, AI 학습 데이터, 컨테이너 네이티브 스토리지 등 대규모 데이터 워크로드를 처리하기 위해 만들어졌습니다. 멀티 테넌시와 멀티 존 배포를 지원하는 CNCF 호스팅 프로젝트입니다.\n\nCubeFS는 빅데이터, AI 학습 데이터 파이프라인 같은 대규모 데이터 집약적 워크로드를 운영하며 분산 파일·오브젝트 스토리지를 함께 필요로 하는 팀에 적합하며, 카탈로그에 이미 있는 Ceph, JuiceFS와 같은 영역이지만 아키텍처 기원이 다른 대안입니다."
+    },
+    "es": {
+      "description": "Sistema de archivos distribuido y de almacenamiento de objetos construido para aplicaciones cloud-native de datos intensivos a gran escala.",
+      "longDescription": "CubeFS ofrece interfaces tanto de archivos como de almacenamiento de objetos sobre un clúster distribuido y horizontalmente escalable, construido originalmente en JD.com para manejar cargas de trabajo de datos a gran escala, incluyendo analítica de big data, datos de entrenamiento de IA y almacenamiento nativo de contenedores. Es un proyecto alojado por la CNCF con soporte para multi-tenencia y despliegue multi-zona.\n\nCubeFS encaja en equipos que ejecutan cargas de trabajo de datos intensivos a gran escala —big data, pipelines de datos de entrenamiento de IA— que necesitan almacenamiento distribuido de archivos y objetos juntos, una alternativa en el mismo espacio que Ceph y JuiceFS ya presentes en este catálogo, con un origen arquitectónico distinto."
+    },
+    "de": {
+      "description": "Verteiltes Dateisystem und Objektspeichersystem für Cloud-native, datenintensive Anwendungen im großen Maßstab.",
+      "longDescription": "CubeFS bietet sowohl Datei- als auch Objektspeicherschnittstellen über einen verteilten, horizontal skalierbaren Cluster, ursprünglich bei JD.com gebaut, um datenintensive Workloads im großen Maßstab zu bewältigen – darunter Big-Data-Analytics, KI-Trainingsdaten und Container-native Speicherung. Es ist ein von der CNCF gehostetes Projekt mit Unterstützung für Multi-Tenancy und Multi-Zone-Deployment.\n\nCubeFS eignet sich für Teams, die groß angelegte, datenintensive Workloads betreiben – Big Data, KI-Trainingsdaten-Pipelines – und verteilten Datei- und Objektspeicher zusammen benötigen, eine Alternative im selben Bereich wie Ceph und JuiceFS, die bereits in diesem Katalog sind, mit einem anderen architektonischen Ursprung."
+    }
+  }
+}

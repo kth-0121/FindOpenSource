@@ -1,0 +1,45 @@
+{
+  "name": "Helm",
+  "slug": "helm",
+  "description": "The standard package manager for Kubernetes, letting you define, install, and upgrade even complex applications as versioned, reusable charts.",
+  "longDescription": "Helm packages a Kubernetes application's manifests, configuration, and dependencies into a single versioned \"chart\" that can be installed, upgraded, or rolled back with one command, instead of manually applying dozens of individual YAML files. A large public chart repository means most common software already has a ready-to-install Helm chart.\n\nHelm is a fit for anyone deploying applications to Kubernetes who wants versioned, repeatable, parameterized installs rather than hand-managing raw manifests - it's the de facto standard packaging format that most other Kubernetes tools in this catalog, like Kong or Grafana, ship an official chart for.",
+  "repository": "https://github.com/helm/helm",
+  "website": "https://helm.sh",
+  "documentation": "https://helm.sh/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "kubernetes-package-manager",
+    "helm-charts",
+    "kubernetes-deployment"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes 的标准包管理器，让你能够以版本化、可复用的 Chart 形式定义、安装和升级复杂应用。",
+      "longDescription": "Helm 将 Kubernetes 应用的清单文件、配置和依赖项打包成一个版本化的“Chart”，一条命令即可完成安装、升级或回滚，而不必手动应用数十个独立的 YAML 文件。庞大的公共 Chart 仓库意味着大多数常见软件都已经有可直接安装的 Helm Chart。\n\nHelm 适合任何希望以版本化、可重复、可参数化的方式部署 Kubernetes 应用、而不是手动管理原始清单文件的人——它是事实上的标准打包格式，目录中大多数其他 Kubernetes 工具（如 Kong、Grafana）都提供官方 Chart。"
+    },
+    "ja": {
+      "description": "複雑なアプリケーションであっても、バージョン管理された再利用可能な Chart として定義・インストール・アップグレードできる、Kubernetes 標準のパッケージマネージャーです。",
+      "longDescription": "Helm は、Kubernetes アプリケーションのマニフェスト、設定、依存関係を、1つのバージョン管理された「Chart」にパッケージ化し、数十個の個別 YAML ファイルを手動で適用する代わりに、1つのコマンドでインストール・アップグレード・ロールバックできるようにします。大規模な公開 Chart リポジトリのおかげで、ほとんどの一般的なソフトウェアには、すでにすぐインストールできる Helm Chart が用意されています。\n\nHelm は、生のマニフェストを手作業で管理するのではなく、バージョン管理された繰り返し可能でパラメータ化されたインストールを求める、Kubernetes にアプリケーションをデプロイするすべての人に向いています。カタログ内の Kong や Grafana など、他の多くの Kubernetes ツールが公式 Chart を提供する、事実上の標準パッケージフォーマットです。"
+    },
+    "ko": {
+      "description": "복잡한 애플리케이션도 버전 관리되는 재사용 가능한 차트로 정의, 설치, 업그레이드할 수 있게 해주는 Kubernetes 표준 패키지 매니저입니다.",
+      "longDescription": "Helm은 Kubernetes 애플리케이션의 매니페스트, 설정, 의존성을 버전 관리되는 하나의 \"차트\"로 패키징하여, 수십 개의 개별 YAML 파일을 수동으로 적용하는 대신 명령 하나로 설치, 업그레이드, 롤백할 수 있게 해줍니다. 방대한 공개 차트 저장소 덕분에 대부분의 일반적인 소프트웨어는 이미 바로 설치 가능한 Helm 차트를 갖추고 있습니다.\n\nHelm은 원시 매니페스트를 수작업으로 관리하는 대신 버전 관리되고 반복 가능하며 파라미터화된 설치를 원하는, Kubernetes에 애플리케이션을 배포하는 모든 사람에게 적합합니다. 카탈로그에 있는 Kong, Grafana 등 대부분의 다른 Kubernetes 도구가 공식 차트를 제공하는, 사실상의 표준 패키징 포맷입니다."
+    },
+    "es": {
+      "description": "El gestor de paquetes estándar para Kubernetes, que te permite definir, instalar y actualizar incluso aplicaciones complejas como charts versionados y reutilizables.",
+      "longDescription": "Helm empaqueta los manifiestos, la configuración y las dependencias de una aplicación de Kubernetes en un único \"chart\" versionado que se puede instalar, actualizar o revertir con un solo comando, en lugar de aplicar manualmente docenas de archivos YAML individuales. Un gran repositorio público de charts significa que la mayoría del software común ya tiene un chart de Helm listo para instalar.\n\nHelm encaja en cualquiera que despliegue aplicaciones en Kubernetes y quiera instalaciones versionadas, repetibles y parametrizadas en lugar de gestionar manifiestos en bruto a mano; es el formato de empaquetado estándar de facto para el que la mayoría de las otras herramientas de Kubernetes de este catálogo, como Kong o Grafana, publican un chart oficial."
+    },
+    "de": {
+      "description": "Der Standard-Paketmanager für Kubernetes, mit dem du selbst komplexe Anwendungen als versionierte, wiederverwendbare Charts definieren, installieren und aktualisieren kannst.",
+      "longDescription": "Helm verpackt die Manifeste, Konfiguration und Abhängigkeiten einer Kubernetes-Anwendung in ein einziges versioniertes „Chart“, das mit einem Befehl installiert, aktualisiert oder zurückgerollt werden kann, statt Dutzende einzelner YAML-Dateien manuell anzuwenden. Ein großes öffentliches Chart-Repository bedeutet, dass für die meiste gängige Software bereits ein installationsbereites Helm-Chart existiert.\n\nHelm eignet sich für alle, die Anwendungen auf Kubernetes bereitstellen und versionierte, wiederholbare, parametrisierte Installationen statt manueller Verwaltung roher Manifeste wollen – es ist das de-facto-Standard-Paketformat, für das die meisten anderen Kubernetes-Tools in diesem Katalog, wie Kong oder Grafana, ein offizielles Chart bereitstellen."
+    }
+  }
+}

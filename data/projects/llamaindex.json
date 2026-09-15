@@ -1,0 +1,46 @@
+{
+  "name": "LlamaIndex",
+  "slug": "llamaindex",
+  "description": "Data framework for connecting large language models to your own data - documents, databases, APIs - for retrieval-augmented applications.",
+  "longDescription": "LlamaIndex focuses on the data side of LLM applications: ingesting documents and structured data, indexing it for efficient retrieval, and connecting that index to an LLM so it can answer questions grounded in your own data rather than only its training data. It supports a wide range of data connectors and indexing strategies out of the box.\n\nLlamaIndex is a fit for teams building applications where getting an LLM to reason over private or domain-specific data is the core problem, complementing LangChain (also in this catalog) - the two are commonly used together, with LlamaIndex handling data ingestion and retrieval and LangChain handling broader application orchestration.",
+  "repository": "https://github.com/run-llama/llama_index",
+  "website": "https://www.llamaindex.ai",
+  "documentation": "https://docs.llamaindex.ai",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "rag",
+    "data-framework",
+    "llm-framework",
+    "retrieval"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "数据框架，用于将大语言模型连接到你自己的数据——文档、数据库、API——以构建检索增强应用。",
+      "longDescription": "LlamaIndex 专注于大语言模型应用中的数据部分：摄取文档和结构化数据，为高效检索建立索引，并将该索引与大语言模型连接，使其能够基于你自己的数据（而不仅仅是训练数据）来回答问题。它开箱即用地支持广泛的数据连接器和索引策略。\n\nLlamaIndex 适合那些需要让大语言模型基于私有或特定领域数据进行推理的团队，与目录中的 LangChain 形成互补——两者常被一起使用，LlamaIndex 负责数据摄取和检索，LangChain 负责更广泛的应用编排。"
+    },
+    "ja": {
+      "description": "検索拡張アプリケーションのために、大規模言語モデルを自分自身のデータ——ドキュメント、データベース、API——に接続するためのデータフレームワークです。",
+      "longDescription": "LlamaIndex は、LLM アプリケーションのデータ側に焦点を当てています。ドキュメントや構造化データを取り込み、効率的な検索のためにインデックス化し、そのインデックスを LLM に接続することで、学習データだけでなく自分自身のデータに基づいた質問応答ができるようにします。幅広いデータコネクタとインデックス戦略を標準でサポートしています。\n\nLlamaIndex は、プライベートまたはドメイン固有のデータに対して LLM に推論させることが中心的な課題となるアプリケーションを構築するチームに向いています。(カタログにもある) LangChain を補完する存在で、両者は一緒に使われることが多く、LlamaIndex がデータの取り込みと検索を、LangChain がより広範なアプリケーションオーケストレーションを担当します。"
+    },
+    "ko": {
+      "description": "대규모 언어 모델을 문서, 데이터베이스, API 같은 자신의 데이터에 연결해 검색 증강 애플리케이션을 만드는 데이터 프레임워크입니다.",
+      "longDescription": "LlamaIndex는 LLM 애플리케이션의 데이터 측면에 초점을 맞춥니다: 문서와 구조화된 데이터를 수집하고, 효율적인 검색을 위해 색인화하며, 그 색인을 LLM에 연결하여 학습 데이터뿐 아니라 자신의 데이터에 근거해 질문에 답할 수 있게 합니다. 다양한 데이터 커넥터와 색인 전략을 기본으로 지원합니다.\n\nLlamaIndex는 비공개 또는 도메인 특화 데이터에 대해 LLM이 추론하도록 하는 것이 핵심 과제인 애플리케이션을 구축하는 팀에 적합하며, (카탈로그에 있는) LangChain을 보완합니다 — 둘은 흔히 함께 사용되며, LlamaIndex가 데이터 수집과 검색을, LangChain이 더 넓은 애플리케이션 오케스트레이션을 담당합니다."
+    },
+    "es": {
+      "description": "Framework de datos para conectar grandes modelos de lenguaje con tus propios datos —documentos, bases de datos, APIs— para aplicaciones de generación aumentada por recuperación.",
+      "longDescription": "LlamaIndex se centra en el lado de datos de las aplicaciones LLM: ingerir documentos y datos estructurados, indexarlos para una recuperación eficiente y conectar ese índice a un LLM para que pueda responder preguntas basándose en tus propios datos y no solo en sus datos de entrenamiento. Admite una amplia gama de conectores de datos y estrategias de indexación de fábrica.\n\nLlamaIndex encaja en equipos que construyen aplicaciones donde hacer que un LLM razone sobre datos privados o específicos de un dominio es el problema central, complementando a LangChain (también en este catálogo): ambos se usan habitualmente juntos, con LlamaIndex gestionando la ingesta y recuperación de datos y LangChain la orquestación más amplia de la aplicación."
+    },
+    "de": {
+      "description": "Daten-Framework zum Verbinden großer Sprachmodelle mit deinen eigenen Daten – Dokumenten, Datenbanken, APIs – für Retrieval-Augmented-Anwendungen.",
+      "longDescription": "LlamaIndex konzentriert sich auf die Datenseite von LLM-Anwendungen: Dokumente und strukturierte Daten aufnehmen, sie für effizienten Abruf indexieren und diesen Index mit einem LLM verbinden, damit es Fragen beantworten kann, die in deinen eigenen Daten verankert sind, statt nur in seinen Trainingsdaten. Es unterstützt von Haus aus eine breite Palette an Datenkonnektoren und Indexierungsstrategien.\n\nLlamaIndex eignet sich für Teams, die Anwendungen bauen, bei denen es das Kernproblem ist, ein LLM über private oder domänenspezifische Daten schlussfolgern zu lassen – als Ergänzung zu LangChain (ebenfalls in diesem Katalog): Beide werden häufig zusammen genutzt, wobei LlamaIndex Datenaufnahme und -abruf übernimmt und LangChain die breitere Anwendungsorchestrierung."
+    }
+  }
+}

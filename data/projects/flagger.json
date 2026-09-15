@@ -1,0 +1,46 @@
+{
+  "name": "Flagger",
+  "slug": "flagger",
+  "description": "Progressive delivery operator that automates canary, blue-green, and A/B deployments for Kubernetes with automatic rollback on failure.",
+  "longDescription": "Flagger gradually shifts traffic to a new version of a service while continuously checking metrics - error rate, latency, custom business metrics - and automatically rolls back if those metrics degrade, removing the manual babysitting typically required for canary releases. It integrates with service meshes like Istio and Linkerd (also in this catalog) or ingress controllers to control traffic splitting.\n\nFlagger is a fit for teams that want automated, metrics-driven progressive delivery rather than manually watching a canary rollout, commonly paired with Flux (also in this catalog), from the same project family.",
+  "repository": "https://github.com/fluxcd/flagger",
+  "website": "https://docs.flagger.app",
+  "documentation": "https://docs.flagger.app/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "progressive-delivery",
+    "canary-deployment",
+    "gitops",
+    "automated-rollback"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "渐进式交付 Operator，为 Kubernetes 自动化金丝雀、蓝绿和 A/B 部署，并在失败时自动回滚。",
+      "longDescription": "Flagger 会逐步将流量切换到服务的新版本，同时持续检查错误率、延迟、自定义业务指标等指标，一旦这些指标恶化就自动回滚，省去了金丝雀发布通常需要的人工值守。它与 Istio、Linkerd（均收录于本目录）等服务网格或 Ingress 控制器集成，以控制流量拆分。\n\nFlagger 适合那些希望获得自动化、以指标驱动的渐进式交付、而不是人工盯着金丝雀发布过程的团队，通常与同属一个项目家族的目录中的 Flux 搭配使用。"
+    },
+    "ja": {
+      "description": "エラー率、レイテンシなどのメトリクスを継続的にチェックしながら、Kubernetes 向けにカナリア・ブルーグリーン・A/B デプロイを自動化し、失敗時には自動的にロールバックする、プログレッシブデリバリーオペレーターです。",
+      "longDescription": "Flagger は、エラー率、レイテンシ、カスタムのビジネスメトリクスといった指標を継続的にチェックしながら、サービスの新バージョンへトラフィックを段階的に切り替え、それらの指標が悪化した場合は自動的にロールバックします。これにより、カナリアリリースに通常必要とされる手動での見守りが不要になります。(カタログにもある) Istio や Linkerd のようなサービスメッシュや Ingress コントローラーと統合し、トラフィック分割を制御します。\n\nFlagger は、カナリアロールアウトを手動で見守るのではなく、自動化された指標駆動のプログレッシブデリバリーを求めるチームに向いています。同じプロジェクトファミリーに属する(カタログにもある) Flux とよく組み合わせて使われます。"
+    },
+    "ko": {
+      "description": "오류율, 지연 시간 등의 지표를 지속적으로 확인하면서 Kubernetes를 위한 카나리, 블루-그린, A/B 배포를 자동화하고 실패 시 자동으로 롤백하는 점진적 배포 오퍼레이터입니다.",
+      "longDescription": "Flagger는 오류율, 지연 시간, 커스텀 비즈니스 지표 같은 메트릭을 지속적으로 확인하면서 서비스의 새 버전으로 트래픽을 점진적으로 전환하고, 이러한 지표가 악화되면 자동으로 롤백하여 카나리 릴리스에 보통 필요한 수동 감시를 없애줍니다. (카탈로그에 있는) Istio, Linkerd 같은 서비스 메시나 인그레스 컨트롤러와 통합해 트래픽 분할을 제어합니다.\n\nFlagger는 카나리 롤아웃을 수동으로 지켜보는 대신 자동화되고 지표 기반인 점진적 배포를 원하는 팀에 적합하며, 같은 프로젝트 계열인 (카탈로그에 있는) Flux와 흔히 짝을 이룹니다."
+    },
+    "es": {
+      "description": "Operador de entrega progresiva que automatiza despliegues canary, blue-green y A/B para Kubernetes con reversión automática ante fallos.",
+      "longDescription": "Flagger desplaza gradualmente el tráfico hacia una nueva versión de un servicio mientras comprueba continuamente métricas —tasa de errores, latencia, métricas de negocio personalizadas— y revierte automáticamente si esas métricas empeoran, eliminando la vigilancia manual que suelen requerir los releases canary. Se integra con service mesh como Istio y Linkerd (también en este catálogo) o con controladores de ingress para controlar la división del tráfico.\n\nFlagger encaja en equipos que quieren entrega progresiva automatizada y basada en métricas en lugar de vigilar manualmente un despliegue canary, habitualmente emparejado con Flux (también en este catálogo), de la misma familia de proyectos."
+    },
+    "de": {
+      "description": "Progressive-Delivery-Operator, der Canary-, Blue-Green- und A/B-Deployments für Kubernetes mit automatischem Rollback bei Fehlern automatisiert.",
+      "longDescription": "Flagger verlagert Traffic schrittweise auf eine neue Version eines Dienstes, während es kontinuierlich Metriken prüft – Fehlerrate, Latenz, benutzerdefinierte Geschäftsmetriken – und rollt automatisch zurück, wenn sich diese Metriken verschlechtern, wodurch die für Canary-Releases sonst übliche manuelle Überwachung entfällt. Es integriert sich mit Service Meshes wie Istio und Linkerd (ebenfalls in diesem Katalog) oder Ingress-Controllern, um Traffic-Splitting zu steuern.\n\nFlagger eignet sich für Teams, die automatisierte, metrikgesteuerte progressive Delivery statt manueller Beobachtung eines Canary-Rollouts wollen – häufig gepaart mit Flux (ebenfalls in diesem Katalog) aus derselben Projektfamilie."
+    }
+  }
+}

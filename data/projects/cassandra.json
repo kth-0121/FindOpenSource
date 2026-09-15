@@ -1,0 +1,46 @@
+{
+  "name": "Cassandra",
+  "slug": "cassandra",
+  "description": "Distributed wide-column NoSQL database designed for massive scale and zero single point of failure across multiple data centers.",
+  "longDescription": "Apache Cassandra stores data in a wide-column model across a cluster with no single master node, so writes and reads keep working even if entire data centers go offline. It's built for very high write throughput and linear scalability by adding more nodes.\n\nCassandra is a fit for teams building applications that need to stay available across multiple regions with no single point of failure - messaging, IoT, time-series at scale - a distinct data model and consistency model from the document-oriented MongoDB or relational PostgreSQL already in this catalog.",
+  "repository": "https://github.com/apache/cassandra",
+  "website": "https://cassandra.apache.org",
+  "documentation": "https://cassandra.apache.org/doc/latest/",
+  "categories": [
+    "database"
+  ],
+  "keywords": [
+    "wide-column-database",
+    "nosql",
+    "distributed-database",
+    "high-availability"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "分布式宽列 NoSQL 数据库，专为超大规模、跨多个数据中心无单点故障而设计。",
+      "longDescription": "Apache Cassandra 以宽列模型在集群中存储数据，没有单一主节点，因此即使整个数据中心离线，读写操作仍能继续正常工作。它通过增加节点实现极高的写入吞吐量和线性可扩展性。\n\nCassandra 适合那些需要跨多个区域保持可用、无单点故障的应用场景——消息传递、物联网、大规模时序数据——的团队，其数据模型和一致性模型与目录中面向文档的 MongoDB 或关系型的 PostgreSQL 截然不同。"
+    },
+    "ja": {
+      "description": "複数のデータセンターにまたがり、単一障害点を排除した超大規模向けに設計された、分散型ワイドカラム NoSQL データベースです。",
+      "longDescription": "Apache Cassandra は、単一のマスターノードを持たないクラスタ全体にワイドカラムモデルでデータを保存するため、データセンター全体がオフラインになっても読み書きが継続して機能します。ノードを追加することで、非常に高い書き込みスループットと線形なスケーラビリティを実現するよう構築されています。\n\nCassandra は、単一障害点なしに複数リージョンにまたがって可用性を保つ必要があるアプリケーション——メッセージング、IoT、大規模な時系列データ——を構築するチームに向いています。カタログに既にあるドキュメント指向の MongoDB やリレーショナルな PostgreSQL とは異なるデータモデル・一貫性モデルです。"
+    },
+    "ko": {
+      "description": "여러 데이터센터에 걸쳐 단일 장애점 없이 대규모로 확장하도록 설계된 분산 와이드 컬럼 NoSQL 데이터베이스입니다.",
+      "longDescription": "Apache Cassandra는 단일 마스터 노드 없이 클러스터 전체에 와이드 컬럼 모델로 데이터를 저장하므로, 데이터센터 전체가 오프라인이 되어도 읽기·쓰기가 계속 동작합니다. 노드를 추가하는 방식으로 매우 높은 쓰기 처리량과 선형적인 확장성을 갖도록 만들어졌습니다.\n\nCassandra는 단일 장애점 없이 여러 리전에 걸쳐 가용성을 유지해야 하는 애플리케이션——메시징, IoT, 대규모 시계열 데이터——을 구축하는 팀에 적합합니다. 카탈로그에 이미 있는 문서 지향 MongoDB나 관계형 PostgreSQL과는 뚜렷이 다른 데이터·일관성 모델입니다."
+    },
+    "es": {
+      "description": "Base de datos NoSQL de columnas anchas y distribuida, diseñada para escala masiva y cero puntos únicos de fallo entre múltiples centros de datos.",
+      "longDescription": "Apache Cassandra almacena datos en un modelo de columnas anchas a través de un clúster sin un único nodo maestro, de modo que las lecturas y escrituras siguen funcionando incluso si centros de datos enteros quedan fuera de línea. Está construida para un rendimiento de escritura muy alto y escalabilidad lineal añadiendo más nodos.\n\nCassandra encaja en equipos que construyen aplicaciones que necesitan mantenerse disponibles en múltiples regiones sin un único punto de fallo —mensajería, IoT, series temporales a gran escala—, un modelo de datos y de consistencia distinto al de MongoDB (orientado a documentos) o PostgreSQL (relacional), ya presentes en este catálogo."
+    },
+    "de": {
+      "description": "Verteilte Wide-Column-NoSQL-Datenbank für massiven Maßstab und keinen einzelnen Ausfallpunkt über mehrere Rechenzentren hinweg.",
+      "longDescription": "Apache Cassandra speichert Daten in einem Wide-Column-Modell über einen Cluster ohne einzelnen Master-Knoten, sodass Schreib- und Lesevorgänge weiterhin funktionieren, selbst wenn ganze Rechenzentren ausfallen. Es ist für sehr hohen Schreibdurchsatz und lineare Skalierbarkeit durch Hinzufügen weiterer Knoten gebaut.\n\nCassandra eignet sich für Teams, die Anwendungen bauen, die über mehrere Regionen hinweg ohne einzelnen Ausfallpunkt verfügbar bleiben müssen – Messaging, IoT, Zeitreihen im großen Maßstab – ein anderes Daten- und Konsistenzmodell als das dokumentenorientierte MongoDB oder das relationale PostgreSQL, die bereits in diesem Katalog sind."
+    }
+  }
+}

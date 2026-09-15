@@ -1,0 +1,46 @@
+{
+  "name": "Podman",
+  "slug": "podman",
+  "description": "Daemonless container engine that runs, builds, and manages containers as a drop-in Docker alternative, without a background root service.",
+  "longDescription": "Podman runs OCI containers using the same commands as Docker in most cases, but without a persistent background daemon and with better support for running containers as a non-root user by default - a different security and architecture model than Docker's client-server design. It can also generate Kubernetes YAML directly from running containers.\n\nPodman is a fit for teams that want Docker-compatible container tooling with a smaller attack surface and no root daemon, complementing container-registry and orchestration tools already in this catalog like Portainer and Kubernetes.",
+  "repository": "https://github.com/containers/podman",
+  "website": "https://podman.io",
+  "documentation": "https://docs.podman.io",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "container-engine",
+    "docker-alternative",
+    "daemonless",
+    "oci-containers"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "无守护进程的容器引擎，可作为 Docker 的直接替代品来运行、构建和管理容器，无需后台 root 服务。",
+      "longDescription": "Podman 在大多数情况下使用与 Docker 相同的命令来运行 OCI 容器，但不依赖常驻的后台守护进程，并且默认对以非 root 用户运行容器提供更好的支持——这与 Docker 的客户端-服务器架构在安全和架构模型上有所不同。它还可以直接从正在运行的容器生成 Kubernetes YAML。\n\nPodman 适合那些希望获得兼容 Docker 的容器工具、同时拥有更小攻击面且无需 root 守护进程的团队，与目录中已有的 Portainer 和 Kubernetes 等容器注册表和编排工具形成互补。"
+    },
+    "ja": {
+      "description": "バックグラウンドの root サービスを持たない、Docker の代替となるデーモンレスなコンテナエンジンで、コンテナの実行・ビルド・管理を行います。",
+      "longDescription": "Podman はほとんどの場合 Docker と同じコマンドを使って OCI コンテナを実行しますが、常駐するバックグラウンドデーモンを持たず、デフォルトで非 root ユーザーとしてコンテナを実行することへのサポートも優れています。これは Docker のクライアント・サーバー設計とは異なるセキュリティ・アーキテクチャモデルです。実行中のコンテナから直接 Kubernetes の YAML を生成することもできます。\n\nPodman は、攻撃対象領域が小さく root デーモンを持たない、Docker 互換のコンテナツールを求めるチームに向いています。カタログに既にある Portainer や Kubernetes のようなコンテナレジストリ・オーケストレーションツールを補完する存在です。"
+    },
+    "ko": {
+      "description": "백그라운드 root 서비스 없이 컨테이너를 실행, 빌드, 관리하는, Docker를 대체할 수 있는 데몬리스 컨테이너 엔진입니다.",
+      "longDescription": "Podman은 대부분의 경우 Docker와 동일한 명령어로 OCI 컨테이너를 실행하지만, 상주하는 백그라운드 데몬이 없고 기본적으로 비-root 사용자로 컨테이너를 실행하는 것을 더 잘 지원합니다 — 이는 Docker의 클라이언트-서버 설계와는 다른 보안·아키텍처 모델입니다. 실행 중인 컨테이너로부터 직접 Kubernetes YAML을 생성할 수도 있습니다.\n\nPodman은 공격 표면이 더 작고 root 데몬이 없는 Docker 호환 컨테이너 도구를 원하는 팀에 적합하며, 카탈로그에 이미 있는 Portainer, Kubernetes 같은 컨테이너 레지스트리·오케스트레이션 도구를 보완합니다."
+    },
+    "es": {
+      "description": "Motor de contenedores sin demonio que ejecuta, construye y gestiona contenedores como alternativa directa a Docker, sin un servicio root en segundo plano.",
+      "longDescription": "Podman ejecuta contenedores OCI usando en la mayoría de los casos los mismos comandos que Docker, pero sin un demonio persistente en segundo plano y con mejor soporte para ejecutar contenedores como usuario no root por defecto, un modelo de seguridad y arquitectura distinto al diseño cliente-servidor de Docker. También puede generar YAML de Kubernetes directamente a partir de contenedores en ejecución.\n\nPodman encaja en equipos que quieren herramientas de contenedores compatibles con Docker con una superficie de ataque menor y sin demonio root, complementando herramientas de registro de contenedores y orquestación ya presentes en este catálogo como Portainer y Kubernetes."
+    },
+    "de": {
+      "description": "Daemonloser Container-Engine, der Container als direkter Docker-Ersatz ausführt, baut und verwaltet, ohne einen Root-Hintergrunddienst.",
+      "longDescription": "Podman führt OCI-Container in den meisten Fällen mit denselben Befehlen wie Docker aus, jedoch ohne einen dauerhaften Hintergrunddaemon und mit besserer Unterstützung für die Ausführung von Containern standardmäßig als Nicht-Root-Nutzer – ein anderes Sicherheits- und Architekturmodell als Dockers Client-Server-Design. Es kann auch direkt aus laufenden Containern Kubernetes-YAML generieren.\n\nPodman eignet sich für Teams, die Docker-kompatibles Container-Tooling mit kleinerer Angriffsfläche und ohne Root-Daemon wollen – als Ergänzung zu Container-Registry- und Orchestrierungstools, die bereits in diesem Katalog sind, wie Portainer und Kubernetes."
+    }
+  }
+}

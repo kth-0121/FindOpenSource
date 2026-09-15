@@ -1,0 +1,46 @@
+{
+  "name": "Envoy",
+  "slug": "envoy",
+  "description": "High-performance proxy built for cloud-native applications, serving as the foundational data plane for many modern service meshes and API gateways.",
+  "longDescription": "Envoy is a proxy designed specifically for microservices architectures, handling load balancing, service discovery, retries, circuit breaking, and detailed observability at the network layer - originally built at Lyft and now one of the most widely deployed pieces of cloud-native infrastructure. Rather than being used directly by most developers, it typically runs underneath higher-level tools.\n\nEnvoy is a fit for platform teams building custom networking infrastructure, and it's worth knowing about even for teams that don't configure it directly, since it powers the data plane of Istio and several API gateways already in this catalog.",
+  "repository": "https://github.com/envoyproxy/envoy",
+  "website": "https://www.envoyproxy.io",
+  "documentation": "https://www.envoyproxy.io/docs",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "proxy",
+    "service-mesh",
+    "load-balancing",
+    "cloud-native-networking"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "为云原生应用打造的高性能代理，是众多现代服务网格和 API 网关的基础数据平面。",
+      "longDescription": "Envoy 是专为微服务架构设计的代理，在网络层处理负载均衡、服务发现、重试、熔断和详细的可观测性——最初由 Lyft 构建，如今已成为部署最广泛的云原生基础设施组件之一。它通常不由大多数开发者直接使用，而是运行在更高层工具的底层。\n\nEnvoy 适合那些正在构建自定义网络基础设施的平台团队，即使是不直接配置它的团队也值得了解它，因为它驱动着目录中 Istio 以及若干 API 网关的数据平面。"
+    },
+    "ja": {
+      "description": "クラウドネイティブアプリケーション向けに構築された高性能プロキシで、多くの現代的なサービスメッシュや API ゲートウェイの基盤となるデータプレーンとして機能します。",
+      "longDescription": "Envoy はマイクロサービスアーキテクチャ向けに特別に設計されたプロキシで、ネットワーク層でロードバランシング、サービスディスカバリ、リトライ、サーキットブレーカー、詳細なオブザーバビリティを扱います。もともと Lyft で構築され、現在ではクラウドネイティブインフラの中でも最も広く展開されているものの1つとなっています。ほとんどの開発者が直接使うというよりは、通常はより高レベルなツールの裏側で動作します。\n\nEnvoy は、カスタムのネットワーキングインフラを構築しているプラットフォームチームに向いています。直接設定しないチームにとっても知っておく価値があります。なぜなら、カタログにある Istio やいくつかの API ゲートウェイのデータプレーンを支えているからです。"
+    },
+    "ko": {
+      "description": "클라우드 네이티브 애플리케이션을 위해 만들어진 고성능 프록시로, 많은 현대적 서비스 메시와 API 게이트웨이의 기반 데이터 플레인 역할을 합니다.",
+      "longDescription": "Envoy는 마이크로서비스 아키텍처를 위해 특별히 설계된 프록시로, 네트워크 계층에서 로드 밸런싱, 서비스 디스커버리, 재시도, 서킷 브레이킹, 상세한 관측 가능성을 처리합니다 — 원래 Lyft에서 만들어졌으며 지금은 가장 널리 배포된 클라우드 네이티브 인프라 구성 요소 중 하나입니다. 대부분의 개발자가 직접 사용하기보다는 보통 상위 도구들 아래에서 동작합니다.\n\nEnvoy는 커스텀 네트워킹 인프라를 구축하는 플랫폼 팀에 적합하며, 직접 설정하지 않는 팀도 알아둘 가치가 있습니다. 카탈로그에 있는 Istio와 여러 API 게이트웨이의 데이터 플레인을 구동하기 때문입니다."
+    },
+    "es": {
+      "description": "Proxy de alto rendimiento construido para aplicaciones cloud-native, que actúa como plano de datos fundamental para muchos service mesh y API gateways modernos.",
+      "longDescription": "Envoy es un proxy diseñado específicamente para arquitecturas de microservicios, que gestiona balanceo de carga, descubrimiento de servicios, reintentos, circuit breaking y observabilidad detallada en la capa de red; construido originalmente en Lyft y hoy una de las piezas de infraestructura cloud-native más desplegadas. En lugar de ser usado directamente por la mayoría de los desarrolladores, normalmente se ejecuta por debajo de herramientas de más alto nivel.\n\nEnvoy encaja en equipos de plataforma que construyen infraestructura de red personalizada, y merece la pena conocerlo incluso para equipos que no lo configuran directamente, ya que impulsa el plano de datos de Istio y varios API gateways ya presentes en este catálogo."
+    },
+    "de": {
+      "description": "Hochperformanter Proxy für Cloud-native Anwendungen, der als grundlegende Datenebene für viele moderne Service Meshes und API-Gateways dient.",
+      "longDescription": "Envoy ist ein Proxy, der speziell für Microservices-Architekturen entwickelt wurde und Lastverteilung, Service Discovery, Wiederholungsversuche, Circuit Breaking und detaillierte Observability auf Netzwerkebene übernimmt – ursprünglich bei Lyft gebaut und heute eine der am weitesten verbreiteten Komponenten Cloud-nativer Infrastruktur. Statt direkt von den meisten Entwicklern genutzt zu werden, läuft es typischerweise unter höherstufigen Tools.\n\nEnvoy eignet sich für Platform-Teams, die eigene Netzwerkinfrastruktur bauen, und ist auch für Teams wissenswert, die es nicht direkt konfigurieren, da es die Datenebene von Istio und mehreren API-Gateways antreibt, die bereits in diesem Katalog sind."
+    }
+  }
+}

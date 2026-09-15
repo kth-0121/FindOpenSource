@@ -1,0 +1,46 @@
+{
+  "name": "JuiceFS",
+  "slug": "juicefs",
+  "description": "Distributed POSIX filesystem that stores data on object storage like S3, combining familiar filesystem semantics with cloud-scale storage.",
+  "longDescription": "JuiceFS presents a standard POSIX filesystem interface - so existing applications can read and write to it like any local disk - while actually storing the data in an object storage backend such as S3, MinIO, or similar, with metadata kept separately for fast access. This lets teams get filesystem semantics on top of cheap, durable object storage.\n\nJuiceFS is a fit for teams that need POSIX filesystem compatibility for tools or workloads that can't talk to object storage APIs directly, a different access pattern than MinIO or SeaweedFS's native object-storage interfaces already in this catalog.",
+  "repository": "https://github.com/juicedata/juicefs",
+  "website": "https://juicefs.com",
+  "documentation": "https://juicefs.com/docs/community/introduction",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "distributed-filesystem",
+    "object-storage",
+    "posix",
+    "cloud-storage"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "分布式 POSIX 文件系统，将数据存储在 S3 等对象存储上，兼具熟悉的文件系统语义和云规模存储能力。",
+      "longDescription": "JuiceFS 提供标准的 POSIX 文件系统接口——因此现有应用可以像访问任意本地磁盘一样对其进行读写——而实际数据则存储在 S3、MinIO 等对象存储后端中，元数据单独保存以实现快速访问。这让团队能够在廉价、持久的对象存储之上获得文件系统语义。\n\nJuiceFS 适合那些需要为无法直接对接对象存储 API 的工具或工作负载提供 POSIX 文件系统兼容性的团队，这与目录中 MinIO 或 SeaweedFS 原生的对象存储接口访问模式不同。"
+    },
+    "ja": {
+      "description": "S3 のようなオブジェクトストレージにデータを保存し、馴染みのあるファイルシステムのセマンティクスとクラウド規模のストレージを組み合わせた、分散型 POSIX ファイルシステムです。",
+      "longDescription": "JuiceFS は標準的な POSIX ファイルシステムインターフェースを提供するため、既存のアプリケーションはローカルディスクと同じように読み書きできますが、実際のデータは S3 や MinIO などのオブジェクトストレージバックエンドに保存され、メタデータは高速アクセスのために別途保持されます。これにより、安価で耐久性の高いオブジェクトストレージの上に、ファイルシステムのセマンティクスを実現できます。\n\nJuiceFS は、オブジェクトストレージ API を直接扱えないツールやワークロードのために POSIX ファイルシステム互換性を必要とするチームに向いています。カタログに既にある MinIO や SeaweedFS のネイティブなオブジェクトストレージインターフェースとは異なるアクセスパターンです。"
+    },
+    "ko": {
+      "description": "S3 같은 오브젝트 스토리지에 데이터를 저장하면서 익숙한 파일시스템 의미론과 클라우드 규모 스토리지를 결합한 분산 POSIX 파일시스템입니다.",
+      "longDescription": "JuiceFS는 표준 POSIX 파일시스템 인터페이스를 제공해 기존 애플리케이션이 로컬 디스크처럼 읽고 쓸 수 있게 하면서, 실제 데이터는 S3, MinIO 등 오브젝트 스토리지 백엔드에 저장하고 메타데이터는 빠른 접근을 위해 별도로 보관합니다. 이를 통해 저렴하고 내구성 있는 오브젝트 스토리지 위에서 파일시스템 의미론을 얻을 수 있습니다.\n\nJuiceFS는 오브젝트 스토리지 API를 직접 다룰 수 없는 도구나 워크로드를 위해 POSIX 파일시스템 호환성이 필요한 팀에 적합합니다. 카탈로그에 이미 있는 MinIO나 SeaweedFS의 네이티브 오브젝트 스토리지 인터페이스와는 다른 접근 방식입니다."
+    },
+    "es": {
+      "description": "Sistema de archivos POSIX distribuido que almacena los datos en almacenamiento de objetos como S3, combinando la semántica habitual de un sistema de archivos con almacenamiento a escala cloud.",
+      "longDescription": "JuiceFS presenta una interfaz de sistema de archivos POSIX estándar —de modo que las aplicaciones existentes pueden leer y escribir en él como en cualquier disco local— mientras que en realidad almacena los datos en un backend de almacenamiento de objetos como S3, MinIO o similar, manteniendo los metadatos por separado para un acceso rápido. Esto permite a los equipos obtener semántica de sistema de archivos sobre almacenamiento de objetos barato y duradero.\n\nJuiceFS encaja en equipos que necesitan compatibilidad con sistemas de archivos POSIX para herramientas o cargas de trabajo que no pueden hablar directamente con APIs de almacenamiento de objetos, un patrón de acceso distinto al de las interfaces nativas de almacenamiento de objetos de MinIO o SeaweedFS ya presentes en este catálogo."
+    },
+    "de": {
+      "description": "Verteiltes POSIX-Dateisystem, das Daten auf Objektspeicher wie S3 ablegt und vertraute Dateisystem-Semantik mit Cloud-Storage im großen Maßstab verbindet.",
+      "longDescription": "JuiceFS bietet eine standardmäßige POSIX-Dateisystemschnittstelle – sodass bestehende Anwendungen wie auf jeder lokalen Festplatte lesen und schreiben können –, während die Daten tatsächlich in einem Objektspeicher-Backend wie S3, MinIO oder Ähnlichem gespeichert werden, mit separat gehaltenen Metadaten für schnellen Zugriff. So erhalten Teams Dateisystem-Semantik über billigem, dauerhaftem Objektspeicher.\n\nJuiceFS eignet sich für Teams, die POSIX-Dateisystemkompatibilität für Tools oder Workloads benötigen, die nicht direkt mit Objektspeicher-APIs sprechen können – ein anderes Zugriffsmuster als die nativen Objektspeicher-Schnittstellen von MinIO oder SeaweedFS, die bereits in diesem Katalog sind."
+    }
+  }
+}

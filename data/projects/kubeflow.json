@@ -1,0 +1,47 @@
+{
+  "name": "Kubeflow",
+  "slug": "kubeflow",
+  "description": "Machine learning platform for Kubernetes that bundles pipelines, model training, hyperparameter tuning, and serving into one toolkit.",
+  "longDescription": "Kubeflow packages together the pieces a data science team needs to run ML workflows on Kubernetes - pipeline orchestration, distributed training jobs, hyperparameter tuning, model serving, and notebook environments - so a platform team doesn't have to assemble and integrate each piece separately. It's built specifically to bring ML workloads into the same Kubernetes infrastructure a team already operates.\n\nKubeflow is a fit for platform teams standardizing ML infrastructure on Kubernetes, a broader end-to-end MLOps platform than more focused tools like MLflow (also in this catalog), which handles experiment tracking and model management specifically.",
+  "repository": "https://github.com/kubeflow/kubeflow",
+  "website": "https://www.kubeflow.org",
+  "documentation": "https://www.kubeflow.org/docs/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "mlops",
+    "kubernetes-native",
+    "ml-pipelines",
+    "hyperparameter-tuning"
+  ],
+  "languages": [
+    "Python",
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Kubernetes 的机器学习平台，将流水线、模型训练、超参数调优和服务功能整合为一套工具包。",
+      "longDescription": "Kubeflow 将数据科学团队在 Kubernetes 上运行机器学习工作流所需的各个组件打包在一起——流水线编排、分布式训练任务、超参数调优、模型服务和 Notebook 环境——使平台团队无需分别组装和集成每一个组件。它专为将机器学习工作负载引入团队已经在运行的同一套 Kubernetes 基础设施而构建。\n\nKubeflow 适合那些正在 Kubernetes 上统一机器学习基础设施的平台团队，相比目录中专注于实验跟踪和模型管理的 MLflow 等更聚焦的工具，它是一个覆盖范围更广的端到端 MLOps 平台。"
+    },
+    "ja": {
+      "description": "パイプライン、モデルトレーニング、ハイパーパラメータチューニング、サービングを1つのツールキットにまとめた、Kubernetes 向けの機械学習プラットフォームです。",
+      "longDescription": "Kubeflow は、データサイエンスチームが Kubernetes 上で ML ワークフローを実行するために必要な要素——パイプラインオーケストレーション、分散トレーニングジョブ、ハイパーパラメータチューニング、モデルサービング、ノートブック環境——をひとまとめにパッケージ化し、プラットフォームチームが各要素を個別に組み立てて統合する必要をなくします。チームがすでに運用している同じ Kubernetes インフラに、ML ワークロードを持ち込むことを特に目的として構築されています。\n\nKubeflow は、Kubernetes 上で ML インフラを標準化するプラットフォームチームに向いています。実験管理とモデル管理に特化した(カタログにもある) MLflow のようなより焦点を絞ったツールよりも、より広範なエンドツーエンドの MLOps プラットフォームです。"
+    },
+    "ko": {
+      "description": "파이프라인, 모델 학습, 하이퍼파라미터 튜닝, 서빙을 하나의 툴킷으로 묶은 Kubernetes용 머신러닝 플랫폼입니다.",
+      "longDescription": "Kubeflow는 데이터 과학 팀이 Kubernetes에서 ML 워크플로를 실행하는 데 필요한 요소들——파이프라인 오케스트레이션, 분산 학습 작업, 하이퍼파라미터 튜닝, 모델 서빙, 노트북 환경——을 함께 패키징하여, 플랫폼 팀이 각 요소를 따로 조립하고 통합할 필요가 없게 해줍니다. 팀이 이미 운영 중인 동일한 Kubernetes 인프라로 ML 워크로드를 가져오는 것을 특별히 목표로 만들어졌습니다.\n\nKubeflow는 Kubernetes에서 ML 인프라를 표준화하는 플랫폼 팀에 적합하며, 실험 추적과 모델 관리를 전문적으로 다루는 (카탈로그에 있는) MLflow 같은 더 집중된 도구보다 더 폭넓은 엔드투엔드 MLOps 플랫폼입니다."
+    },
+    "es": {
+      "description": "Plataforma de machine learning para Kubernetes que agrupa pipelines, entrenamiento de modelos, ajuste de hiperparámetros y servicio en un solo kit de herramientas.",
+      "longDescription": "Kubeflow empaqueta juntas las piezas que un equipo de ciencia de datos necesita para ejecutar workflows de ML en Kubernetes —orquestación de pipelines, jobs de entrenamiento distribuido, ajuste de hiperparámetros, servicio de modelos y entornos de notebook— para que un equipo de plataforma no tenga que ensamblar e integrar cada pieza por separado. Está construido específicamente para llevar las cargas de trabajo de ML a la misma infraestructura de Kubernetes que un equipo ya opera.\n\nKubeflow encaja en equipos de plataforma que estandarizan la infraestructura de ML en Kubernetes, una plataforma MLOps de extremo a extremo más amplia que herramientas más enfocadas como MLflow (también en este catálogo), que gestiona específicamente el seguimiento de experimentos y la gestión de modelos."
+    },
+    "de": {
+      "description": "Machine-Learning-Plattform für Kubernetes, die Pipelines, Modelltraining, Hyperparameter-Tuning und Serving in einem Toolkit bündelt.",
+      "longDescription": "Kubeflow bündelt die Teile, die ein Data-Science-Team benötigt, um ML-Workflows auf Kubernetes auszuführen – Pipeline-Orchestrierung, verteilte Trainingsjobs, Hyperparameter-Tuning, Modell-Serving und Notebook-Umgebungen –, sodass ein Platform-Team nicht jedes Teil separat zusammenbauen und integrieren muss. Es ist speziell dafür gebaut, ML-Workloads in dieselbe Kubernetes-Infrastruktur zu bringen, die ein Team bereits betreibt.\n\nKubeflow eignet sich für Platform-Teams, die ML-Infrastruktur auf Kubernetes standardisieren – eine breitere End-to-End-MLOps-Plattform als fokussiertere Tools wie MLflow (ebenfalls in diesem Katalog), das speziell Experiment-Tracking und Modellverwaltung übernimmt."
+    }
+  }
+}

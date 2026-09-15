@@ -1,0 +1,45 @@
+{
+  "name": "SGLang",
+  "slug": "sglang",
+  "description": "Fast serving framework for large language models and vision-language models, with a structured generation language for complex LLM programs.",
+  "longDescription": "SGLang combines a high-performance inference backend with a frontend language for expressing complex LLM interactions - multi-step reasoning, structured output, tool calls - as a single program the runtime can optimize as a whole, rather than as a series of separate API calls. It targets both raw serving throughput and expressiveness for complex agent-style workloads.\n\nSGLang is a fit for teams that need high-throughput LLM serving combined with structured, multi-step generation patterns, a performance-focused alternative to vLLM (also in this catalog) that teams commonly benchmark against each other.",
+  "repository": "https://github.com/sgl-project/sglang",
+  "website": "https://docs.sglang.ai",
+  "documentation": "https://docs.sglang.ai",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "llm-inference",
+    "model-serving",
+    "structured-generation"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向大语言模型和视觉语言模型的高速服务框架，配有用于编写复杂大语言模型程序的结构化生成语言。",
+      "longDescription": "SGLang 将高性能推理后端与一种前端语言结合起来，用于将复杂的大语言模型交互——多步推理、结构化输出、工具调用——表达为一个整体程序，供运行时统一优化，而不是一系列独立的 API 调用。它同时面向原始服务吞吐量和复杂智能体类工作负载的表达能力。\n\nSGLang 适合那些需要将高吞吐量大语言模型服务与结构化、多步生成模式相结合的团队，是目录中 vLLM 的一个性能导向的替代方案，团队通常会将两者进行基准对比。"
+    },
+    "ja": {
+      "description": "大規模言語モデルやビジョン言語モデル向けの高速サービングフレームワークで、複雑な LLM プログラムのための構造化された生成言語を備えています。",
+      "longDescription": "SGLang は、高性能な推論バックエンドと、複雑な LLM のやり取り——多段階の推論、構造化出力、ツール呼び出し——を、個別の API 呼び出しの連続としてではなく、ランタイムが全体として最適化できる単一のプログラムとして表現するためのフロントエンド言語を組み合わせています。生のサービングスループットと、複雑なエージェント型ワークロードのための表現力の両方を対象としています。\n\nSGLang は、構造化された多段階の生成パターンと組み合わせた高スループットな LLM サービングを必要とするチームに向いています。カタログにある vLLM のパフォーマンス重視の代替手段で、チームは両者をよくベンチマーク比較します。"
+    },
+    "ko": {
+      "description": "복잡한 LLM 프로그램을 위한 구조화된 생성 언어를 갖춘, 대규모 언어 모델과 비전-언어 모델을 위한 빠른 서빙 프레임워크입니다.",
+      "longDescription": "SGLang은 고성능 추론 백엔드와, 다단계 추론·구조화된 출력·도구 호출 같은 복잡한 LLM 상호작용을 개별 API 호출의 연속이 아니라 런타임이 전체적으로 최적화할 수 있는 하나의 프로그램으로 표현하는 프런트엔드 언어를 결합합니다. 순수 서빙 처리량과 복잡한 에이전트형 워크로드를 위한 표현력을 모두 목표로 합니다.\n\nSGLang은 구조화되고 다단계인 생성 패턴과 결합된 고처리량 LLM 서빙이 필요한 팀에 적합하며, 카탈로그에 있는 vLLM의 성능 중심 대안으로 팀들이 흔히 서로 벤치마킹합니다."
+    },
+    "es": {
+      "description": "Framework de servicio rápido para grandes modelos de lenguaje y modelos de visión-lenguaje, con un lenguaje de generación estructurada para programas LLM complejos.",
+      "longDescription": "SGLang combina un backend de inferencia de alto rendimiento con un lenguaje frontend para expresar interacciones LLM complejas —razonamiento en varios pasos, salida estructurada, llamadas a herramientas— como un único programa que el runtime puede optimizar en su conjunto, en lugar de como una serie de llamadas API independientes. Apunta tanto al throughput de servicio puro como a la expresividad para cargas de trabajo complejas de tipo agente.\n\nSGLang encaja en equipos que necesitan servicio de LLM de alto rendimiento combinado con patrones de generación estructurada y multietapa, una alternativa centrada en el rendimiento a vLLM (también en este catálogo) que los equipos suelen comparar entre sí."
+    },
+    "de": {
+      "description": "Schnelles Serving-Framework für große Sprachmodelle und Vision-Language-Modelle mit einer strukturierten Generierungssprache für komplexe LLM-Programme.",
+      "longDescription": "SGLang kombiniert ein hochperformantes Inferenz-Backend mit einer Frontend-Sprache zum Ausdrücken komplexer LLM-Interaktionen – mehrstufiges Schlussfolgern, strukturierte Ausgabe, Tool-Aufrufe – als ein einziges Programm, das die Laufzeitumgebung als Ganzes optimieren kann, statt als Reihe separater API-Aufrufe. Es zielt sowohl auf rohen Serving-Durchsatz als auch auf Ausdruckskraft für komplexe agentenartige Workloads.\n\nSGLang eignet sich für Teams, die hochdurchsatzfähiges LLM-Serving kombiniert mit strukturierten, mehrstufigen Generierungsmustern benötigen – eine performance-fokussierte Alternative zu vLLM (ebenfalls in diesem Katalog), die Teams häufig gegeneinander benchmarken."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Semantic Kernel",
+  "slug": "semantic-kernel",
+  "description": "Microsoft's open-source SDK for integrating large language models into applications, with support for plugins, memory, and planning.",
+  "longDescription": "Semantic Kernel lets developers combine LLM prompts with native code functions as interchangeable \"plugins,\" giving an LLM the ability to call real application logic, and provides memory and planning abstractions for building more autonomous, multi-step AI features. It's designed to integrate naturally into existing .NET, Python, or Java codebases rather than requiring a rewrite.\n\nSemantic Kernel is a fit for teams already working in the Microsoft ecosystem (.NET in particular) who want an LLM orchestration SDK that feels native to that environment, an alternative to LangChain (also in this catalog) with first-class multi-language support including strong .NET integration.",
+  "repository": "https://github.com/microsoft/semantic-kernel",
+  "website": "https://learn.microsoft.com/en-us/semantic-kernel/",
+  "documentation": "https://learn.microsoft.com/en-us/semantic-kernel/overview/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "llm-framework",
+    "agent-framework",
+    "dotnet"
+  ],
+  "languages": [
+    "C#",
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "微软推出的开源 SDK，用于将大语言模型集成到应用中，支持插件、记忆和规划能力。",
+      "longDescription": "Semantic Kernel 让开发者能够将大语言模型提示与原生代码函数以可互换的“插件”形式结合，使大语言模型能够调用真实的应用逻辑，并提供记忆和规划抽象，用于构建更自主、多步骤的 AI 功能。它旨在自然地融入现有的 .NET、Python 或 Java 代码库，而不需要重写。\n\nSemantic Kernel 适合那些已经在微软生态系统（尤其是 .NET）中工作、希望获得一个贴合该环境的大语言模型编排 SDK 的团队，是目录中 LangChain 的一个替代方案，拥有一流的多语言支持，包括强大的 .NET 集成。"
+    },
+    "ja": {
+      "description": "アプリケーションに大規模言語モデルを組み込むための Microsoft のオープンソース SDK で、プラグイン、メモリ、プランニングをサポートします。",
+      "longDescription": "Semantic Kernel は、開発者が LLM のプロンプトをネイティブコードの関数と、交換可能な「プラグイン」として組み合わせられるようにし、LLM が実際のアプリケーションロジックを呼び出せるようにするとともに、より自律的で多段階の AI 機能を構築するためのメモリとプランニングの抽象化を提供します。書き直しを必要とせず、既存の .NET、Python、Java のコードベースに自然に統合できるよう設計されています。\n\nSemantic Kernel は、すでに Microsoft エコシステム(特に .NET)で作業していて、その環境にネイティブに感じられる LLM オーケストレーション SDK を求めるチームに向いています。(カタログにもある) LangChain の代替手段で、強力な .NET 統合を含む一流のマルチ言語サポートを備えています。"
+    },
+    "ko": {
+      "description": "플러그인, 메모리, 계획 기능을 지원하며 대규모 언어 모델을 애플리케이션에 통합하기 위한 Microsoft의 오픈소스 SDK입니다.",
+      "longDescription": "Semantic Kernel은 개발자가 LLM 프롬프트를 상호 교환 가능한 \"플러그인\"으로 네이티브 코드 함수와 결합할 수 있게 해주어, LLM이 실제 애플리케이션 로직을 호출할 수 있게 하고, 더 자율적이고 다단계인 AI 기능을 구축하기 위한 메모리·계획 추상화를 제공합니다. 다시 작성할 필요 없이 기존 .NET, Python, Java 코드베이스에 자연스럽게 통합되도록 설계되었습니다.\n\nSemantic Kernel은 이미 Microsoft 생태계(특히 .NET)에서 작업 중이며 그 환경에 네이티브하게 느껴지는 LLM 오케스트레이션 SDK를 원하는 팀에 적합하며, 강력한 .NET 통합을 포함한 일류 다중 언어 지원을 갖춘 (카탈로그에 있는) LangChain의 대안입니다."
+    },
+    "es": {
+      "description": "SDK de código abierto de Microsoft para integrar grandes modelos de lenguaje en aplicaciones, con soporte para plugins, memoria y planificación.",
+      "longDescription": "Semantic Kernel permite a los desarrolladores combinar prompts de LLM con funciones de código nativo como \"plugins\" intercambiables, dando a un LLM la capacidad de llamar a lógica de aplicación real, y proporciona abstracciones de memoria y planificación para construir funciones de IA más autónomas y de varios pasos. Está diseñado para integrarse de forma natural en bases de código .NET, Python o Java existentes en lugar de requerir una reescritura.\n\nSemantic Kernel encaja en equipos que ya trabajan en el ecosistema de Microsoft (especialmente .NET) y quieren un SDK de orquestación de LLM que se sienta nativo en ese entorno, una alternativa a LangChain (también en este catálogo) con soporte multilenguaje de primera clase, incluida una fuerte integración con .NET."
+    },
+    "de": {
+      "description": "Microsofts Open-Source-SDK zur Integration großer Sprachmodelle in Anwendungen, mit Unterstützung für Plugins, Speicher und Planung.",
+      "longDescription": "Semantic Kernel lässt Entwickler LLM-Prompts mit nativen Codefunktionen als austauschbare „Plugins“ kombinieren, wodurch ein LLM echte Anwendungslogik aufrufen kann, und bietet Speicher- und Planungsabstraktionen zum Bau autonomerer, mehrstufiger KI-Funktionen. Es ist darauf ausgelegt, sich natürlich in bestehende .NET-, Python- oder Java-Codebasen zu integrieren, statt eine Neuentwicklung zu erfordern.\n\nSemantic Kernel eignet sich für Teams, die bereits im Microsoft-Ökosystem (insbesondere .NET) arbeiten und ein LLM-Orchestrierungs-SDK wollen, das sich in dieser Umgebung nativ anfühlt – eine Alternative zu LangChain (ebenfalls in diesem Katalog) mit erstklassiger Mehrsprachenunterstützung einschließlich starker .NET-Integration."
+    }
+  }
+}

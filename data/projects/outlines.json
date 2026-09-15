@@ -1,0 +1,45 @@
+{
+  "name": "Outlines",
+  "slug": "outlines",
+  "description": "Library for constraining LLM output to a specific structure - JSON schema, regex, grammar - guaranteeing valid, parseable results.",
+  "longDescription": "Outlines controls what tokens an LLM is allowed to generate at each step, guaranteeing the final output matches a JSON schema, regular expression, or context-free grammar exactly, rather than hoping a model follows formatting instructions in a prompt. This eliminates a common class of LLM application bugs caused by malformed or unparseable model output.\n\nOutlines is a fit for teams that need guaranteed-valid structured output from an LLM - populating a database record, calling a function with the right argument types - a different technical approach (constrained generation at the token level) than Instructor (also in this catalog), which achieves structured output through function-calling APIs instead.",
+  "repository": "https://github.com/dottxt-ai/outlines",
+  "website": "https://dottxt-ai.github.io/outlines/",
+  "documentation": "https://dottxt-ai.github.io/outlines/latest/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "structured-output",
+    "llm-generation",
+    "json-schema"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "用于将大语言模型输出约束为特定结构（JSON schema、正则表达式、文法）的库，保证结果有效且可解析。",
+      "longDescription": "Outlines 控制大语言模型在每一步允许生成的词元（token），从而保证最终输出严格符合 JSON schema、正则表达式或上下文无关文法，而不是寄希望于模型遵循提示词中的格式说明。这消除了一类常见的、由格式错误或无法解析的模型输出所导致的大语言模型应用缺陷。\n\nOutlines 适合那些需要从大语言模型获得保证有效的结构化输出（如填充数据库记录、以正确参数类型调用函数）的团队，采用了与目录中 Instructor 不同的技术路径（在词元层面进行约束生成），而 Instructor 是通过函数调用 API 来实现结构化输出的。"
+    },
+    "ja": {
+      "description": "LLM の出力を JSON スキーマ、正規表現、文法といった特定の構造に制約し、有効でパース可能な結果を保証するライブラリです。",
+      "longDescription": "Outlines は、LLM が各ステップで生成できるトークンを制御し、モデルがプロンプト内のフォーマット指示に従うことを期待するのではなく、最終的な出力が JSON スキーマ、正規表現、文脈自由文法に正確に一致することを保証します。これにより、不正な形式やパース不可能なモデル出力に起因する、よくある一連の LLM アプリケーションのバグを排除できます。\n\nOutlines は、データベースレコードへの値の投入や、正しい引数の型での関数呼び出しなど、LLM から保証された有効な構造化出力を必要とするチームに向いています。(カタログにもある) Instructor とは異なる技術的アプローチ(トークンレベルでの制約付き生成)を取っており、Instructor は代わりに function calling API を通じて構造化出力を実現しています。"
+    },
+    "ko": {
+      "description": "LLM 출력을 JSON 스키마, 정규식, 문법 같은 특정 구조로 제약하여 유효하고 파싱 가능한 결과를 보장하는 라이브러리입니다.",
+      "longDescription": "Outlines는 LLM이 각 단계에서 생성할 수 있는 토큰을 제어하여, 모델이 프롬프트의 형식 지시를 따르기를 바라는 대신 최종 출력이 JSON 스키마, 정규식, 문맥 자유 문법과 정확히 일치하도록 보장합니다. 이는 형식이 잘못되었거나 파싱할 수 없는 모델 출력으로 인한 흔한 부류의 LLM 애플리케이션 버그를 없애줍니다.\n\nOutlines는 데이터베이스 레코드 채우기, 올바른 인자 타입으로 함수 호출하기 등 LLM로부터 보장된 유효한 구조화 출력이 필요한 팀에 적합하며, (카탈로그에 있는) Instructor와는 다른 기술적 접근(토큰 수준의 제약된 생성)을 취합니다 — Instructor는 대신 함수 호출 API를 통해 구조화된 출력을 달성합니다."
+    },
+    "es": {
+      "description": "Biblioteca para restringir la salida de un LLM a una estructura específica —esquema JSON, regex, gramática—, garantizando resultados válidos y analizables.",
+      "longDescription": "Outlines controla qué tokens puede generar un LLM en cada paso, garantizando que la salida final coincide exactamente con un esquema JSON, una expresión regular o una gramática libre de contexto, en lugar de esperar que un modelo siga las instrucciones de formato de un prompt. Esto elimina una clase común de errores en aplicaciones LLM causados por salidas de modelo mal formadas o no analizables.\n\nOutlines encaja en equipos que necesitan una salida estructurada garantizadamente válida de un LLM —rellenar un registro de base de datos, llamar a una función con los tipos de argumento correctos—, un enfoque técnico distinto (generación restringida a nivel de token) al de Instructor (también en este catálogo), que logra la salida estructurada mediante APIs de function calling."
+    },
+    "de": {
+      "description": "Bibliothek zum Einschränken von LLM-Ausgaben auf eine bestimmte Struktur – JSON-Schema, Regex, Grammatik – und garantiert gültige, parsbare Ergebnisse.",
+      "longDescription": "Outlines steuert, welche Tokens ein LLM bei jedem Schritt generieren darf, und garantiert, dass die endgültige Ausgabe exakt einem JSON-Schema, einem regulären Ausdruck oder einer kontextfreien Grammatik entspricht, statt zu hoffen, dass ein Modell Formatierungsanweisungen in einem Prompt befolgt. Das eliminiert eine häufige Klasse von LLM-Anwendungsfehlern, die durch fehlerhafte oder nicht parsbare Modellausgaben verursacht werden.\n\nOutlines eignet sich für Teams, die garantiert gültige strukturierte Ausgaben von einem LLM benötigen – etwa das Befüllen eines Datenbankeintrags, den Aufruf einer Funktion mit den richtigen Argumenttypen – ein anderer technischer Ansatz (eingeschränkte Generierung auf Token-Ebene) als Instructor (ebenfalls in diesem Katalog), das strukturierte Ausgabe stattdessen über Function-Calling-APIs erreicht."
+    }
+  }
+}

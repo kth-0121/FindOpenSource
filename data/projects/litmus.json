@@ -1,0 +1,46 @@
+{
+  "name": "Litmus",
+  "slug": "litmus",
+  "description": "CNCF chaos engineering platform for Kubernetes that runs fault-injection experiments to validate how applications recover from failure.",
+  "longDescription": "Litmus provides a library of pre-built chaos experiments - pod failures, network delays, resource exhaustion, and more - defined as Kubernetes custom resources, along with a ChaosCenter dashboard for scheduling and observing experiment runs across clusters. It's a CNCF graduated project with a large community-contributed experiment hub.\n\nLitmus is a fit for teams that want a mature, CNCF-graduated chaos engineering tool with a large pre-built experiment library, a genuine alternative to Chaos Mesh (also in this catalog) - teams commonly evaluate both before picking one.",
+  "repository": "https://github.com/litmuschaos/litmus",
+  "website": "https://litmuschaos.io",
+  "documentation": "https://docs.litmuschaos.io",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "chaos-engineering",
+    "fault-injection",
+    "resilience-testing",
+    "kubernetes-testing"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Kubernetes 的 CNCF 混沌工程平台，通过故障注入实验验证应用在故障发生后的恢复能力。",
+      "longDescription": "Litmus 提供一个由预置混沌实验组成的库——Pod 故障、网络延迟、资源耗尽等——以 Kubernetes 自定义资源的形式定义，并配有 ChaosCenter 仪表盘，用于在多个集群间调度和观察实验运行情况。它是一个 CNCF 毕业项目，拥有庞大的社区贡献实验库。\n\nLitmus 适合那些希望使用成熟的、已从 CNCF 毕业、并拥有庞大预置实验库的混沌工程工具的团队，是目录中 Chaos Mesh 的真正替代方案——团队通常会在两者之间进行评估后再做选择。"
+    },
+    "ja": {
+      "description": "アプリケーションが障害からどう回復するかを検証するため、フォルトインジェクション実験を実行する、Kubernetes 向けの CNCF カオスエンジニアリングプラットフォームです。",
+      "longDescription": "Litmus は、Pod の障害、ネットワーク遅延、リソース枯渇などをあらかじめ用意されたカオス実験ライブラリとして Kubernetes カスタムリソースの形で提供し、複数クラスタにわたる実験の実行をスケジュール・観察できる ChaosCenter ダッシュボードも備えています。CNCF を卒業したプロジェクトで、コミュニティが貢献した大規模な実験ハブを持っています。\n\nLitmus は、成熟した CNCF 卒業済みのカオスエンジニアリングツールで、あらかじめ用意された大規模な実験ライブラリを求めるチームに向いています。カタログ内の Chaos Mesh の正当な代替であり、チームは通常両方を評価してから選択します。"
+    },
+    "ko": {
+      "description": "애플리케이션이 장애에서 어떻게 복구되는지 검증하기 위해 장애 주입 실험을 실행하는, Kubernetes를 위한 CNCF 카오스 엔지니어링 플랫폼입니다.",
+      "longDescription": "Litmus는 Pod 장애, 네트워크 지연, 리소스 고갈 등 미리 만들어진 카오스 실험 라이브러리를 Kubernetes 커스텀 리소스 형태로 제공하며, 여러 클러스터에 걸친 실험 실행을 예약하고 관찰할 수 있는 ChaosCenter 대시보드도 갖추고 있습니다. CNCF 졸업 프로젝트로, 커뮤니티가 기여한 대규모 실험 허브를 보유하고 있습니다.\n\nLitmus는 성숙하고 CNCF를 졸업했으며 미리 만들어진 대규모 실험 라이브러리를 갖춘 카오스 엔지니어링 도구를 원하는 팀에 적합합니다. 카탈로그에 있는 Chaos Mesh의 진정한 대안으로, 팀들은 흔히 둘 다 평가해본 후 하나를 선택합니다."
+    },
+    "es": {
+      "description": "Plataforma de ingeniería del caos de la CNCF para Kubernetes que ejecuta experimentos de inyección de fallos para validar cómo se recuperan las aplicaciones ante un fallo.",
+      "longDescription": "Litmus ofrece una biblioteca de experimentos de caos predefinidos —fallos de pods, retrasos de red, agotamiento de recursos y más— definidos como recursos personalizados de Kubernetes, junto con un panel ChaosCenter para programar y observar ejecuciones de experimentos en varios clústeres. Es un proyecto graduado de la CNCF con un gran hub de experimentos aportado por la comunidad.\n\nLitmus encaja en equipos que quieren una herramienta de ingeniería del caos madura y graduada por la CNCF con una gran biblioteca de experimentos predefinidos, una alternativa genuina a Chaos Mesh (también en este catálogo); los equipos suelen evaluar ambas antes de elegir una."
+    },
+    "de": {
+      "description": "CNCF-Chaos-Engineering-Plattform für Kubernetes, die Fehlerinjektions-Experimente ausführt, um zu prüfen, wie sich Anwendungen von Ausfällen erholen.",
+      "longDescription": "Litmus bietet eine Bibliothek vorgefertigter Chaos-Experimente – Pod-Ausfälle, Netzwerkverzögerungen, Ressourcenerschöpfung und mehr – definiert als Kubernetes-Custom-Resources, zusammen mit einem ChaosCenter-Dashboard zum Planen und Beobachten von Experimentläufen über Cluster hinweg. Es ist ein von der CNCF graduiertes Projekt mit einem großen, von der Community beigetragenen Experiment-Hub.\n\nLitmus eignet sich für Teams, die ein ausgereiftes, CNCF-graduiertes Chaos-Engineering-Tool mit einer großen vorgefertigten Experimentbibliothek wollen – eine echte Alternative zu Chaos Mesh (ebenfalls in diesem Katalog); Teams evaluieren häufig beide, bevor sie sich entscheiden."
+    }
+  }
+}

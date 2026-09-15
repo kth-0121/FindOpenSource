@@ -1,0 +1,47 @@
+{
+  "name": "Zabbix",
+  "slug": "zabbix",
+  "description": "Enterprise-grade infrastructure and network monitoring platform with built-in alerting, auto-discovery, and long-term data storage.",
+  "longDescription": "Zabbix monitors servers, network devices, applications, and services, combining data collection, threshold-based alerting, auto-discovery, and long-term historical storage in a single self-contained platform rather than requiring several tools wired together. It predates the cloud-native monitoring stack and remains widely used for traditional infrastructure and network monitoring.\n\nZabbix is a fit for teams monitoring classic infrastructure - network devices, on-premises servers, mixed environments - who want an all-in-one platform, a different audience than the cloud-native, Kubernetes-first Prometheus and Grafana already in this catalog.",
+  "repository": "https://github.com/zabbix/zabbix",
+  "website": "https://www.zabbix.com",
+  "documentation": "https://www.zabbix.com/documentation/current/en/manual",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "infrastructure-monitoring",
+    "network-monitoring",
+    "alerting",
+    "auto-discovery"
+  ],
+  "languages": [
+    "C",
+    "PHP"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "企业级基础设施与网络监控平台，内置告警、自动发现和长期数据存储功能。",
+      "longDescription": "Zabbix 对服务器、网络设备、应用和服务进行监控，将数据采集、基于阈值的告警、自动发现和长期历史数据存储整合到一个自成一体的平台中，而不需要拼接多种工具。它早于云原生监控技术栈出现，如今仍被广泛用于传统基础设施和网络监控。\n\nZabbix 适合那些监控传统基础设施——网络设备、本地部署服务器、混合环境——并希望使用一体化平台的团队，这与目录中已有的、以云原生和 Kubernetes 为先的 Prometheus 和 Grafana 面向的受众不同。"
+    },
+    "ja": {
+      "description": "アラート、自動検出、長期データ保存を標準搭載した、エンタープライズ向けのインフラ・ネットワーク監視プラットフォームです。",
+      "longDescription": "Zabbix はサーバー、ネットワーク機器、アプリケーション、サービスを監視し、データ収集、しきい値ベースのアラート、自動検出、長期的な履歴データ保存を、複数のツールを組み合わせる必要のない単一の自己完結型プラットフォームに統合しています。クラウドネイティブな監視スタックより以前から存在し、今なお従来型のインフラ・ネットワーク監視に広く使われています。\n\nZabbix は、ネットワーク機器、オンプレミスサーバー、混在環境といった従来型のインフラを監視し、オールインワンのプラットフォームを求めるチームに向いています。カタログに既にある、クラウドネイティブで Kubernetes を主眼とした Prometheus や Grafana とは異なる対象層です。"
+    },
+    "ko": {
+      "description": "알림, 자동 발견, 장기 데이터 저장을 기본 제공하는 엔터프라이즈급 인프라·네트워크 모니터링 플랫폼입니다.",
+      "longDescription": "Zabbix는 서버, 네트워크 장비, 애플리케이션, 서비스를 모니터링하며, 데이터 수집, 임계값 기반 알림, 자동 발견, 장기 이력 데이터 저장을 여러 도구를 엮을 필요 없이 하나의 자체 완결형 플랫폼으로 통합합니다. 클라우드 네이티브 모니터링 스택보다 앞서 등장했으며, 지금도 전통적인 인프라·네트워크 모니터링에 널리 사용됩니다.\n\nZabbix는 네트워크 장비, 온프레미스 서버, 혼합 환경 같은 전통적인 인프라를 모니터링하며 올인원 플랫폼을 원하는 팀에 적합합니다. 카탈로그에 이미 있는, 클라우드 네이티브·Kubernetes 중심인 Prometheus, Grafana와는 다른 대상층입니다."
+    },
+    "es": {
+      "description": "Plataforma de monitorización de infraestructura y red de nivel empresarial con alertas, autodescubrimiento y almacenamiento de datos a largo plazo integrados.",
+      "longDescription": "Zabbix monitoriza servidores, dispositivos de red, aplicaciones y servicios, combinando recolección de datos, alertas basadas en umbrales, autodescubrimiento y almacenamiento histórico a largo plazo en una única plataforma autocontenida, en lugar de requerir varias herramientas conectadas entre sí. Es anterior a la pila de monitorización cloud-native y sigue siendo muy usado para monitorización tradicional de infraestructura y red.\n\nZabbix encaja en equipos que monitorizan infraestructura clásica —dispositivos de red, servidores on-premises, entornos mixtos— y quieren una plataforma todo en uno, un público distinto al de Prometheus y Grafana, cloud-native y centrados en Kubernetes, ya presentes en este catálogo."
+    },
+    "de": {
+      "description": "Infrastruktur- und Netzwerküberwachungsplattform für Unternehmen mit integrierten Alarmen, Auto-Discovery und Langzeit-Datenspeicherung.",
+      "longDescription": "Zabbix überwacht Server, Netzwerkgeräte, Anwendungen und Dienste und vereint Datensammlung, schwellenwertbasierte Alarmierung, Auto-Discovery und langfristige historische Speicherung in einer einzigen in sich geschlossenen Plattform, statt mehrere Tools zu verdrahten. Es existierte bereits vor dem Cloud-nativen Monitoring-Stack und wird weiterhin breit für klassisches Infrastruktur- und Netzwerkmonitoring eingesetzt.\n\nZabbix eignet sich für Teams, die klassische Infrastruktur überwachen – Netzwerkgeräte, On-Premises-Server, gemischte Umgebungen – und eine All-in-one-Plattform wollen, eine andere Zielgruppe als die Cloud-nativen, Kubernetes-first ausgerichteten Prometheus und Grafana, die bereits in diesem Katalog sind."
+    }
+  }
+}

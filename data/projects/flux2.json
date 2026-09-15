@@ -1,0 +1,45 @@
+{
+  "name": "Flux",
+  "slug": "flux2",
+  "description": "GitOps continuous delivery tool for Kubernetes that keeps a cluster's state synchronized with a git repository, a genuine alternative to Argo CD.",
+  "longDescription": "Flux watches a git repository and automatically applies any changes to a Kubernetes cluster, keeping deployed state in sync with what's committed - the same core GitOps pattern as Argo CD (also in this catalog), built with a more modular, Kubernetes-controller-native architecture. It's a CNCF graduated project maintained with strong ties to the broader GitOps Working Group.\n\nFlux is a fit for teams evaluating GitOps tools who want a lighter-weight, more Kubernetes-native alternative to Argo CD - teams commonly compare both before choosing one for their deployment pipeline.",
+  "repository": "https://github.com/fluxcd/flux2",
+  "website": "https://fluxcd.io",
+  "documentation": "https://fluxcd.io/flux/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "gitops",
+    "continuous-delivery",
+    "kubernetes-controller"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Kubernetes 的 GitOps 持续交付工具，使集群状态与 Git 仓库保持同步，是 Argo CD 的真正替代方案。",
+      "longDescription": "Flux 监控 Git 仓库，并自动将任何变更应用到 Kubernetes 集群，使部署状态与已提交的内容保持同步——与目录中的 Argo CD 采用相同的核心 GitOps 模式，但架构更加模块化，更贴近 Kubernetes 控制器原生的设计。它是一个 CNCF 毕业项目，与更广泛的 GitOps 工作组保持着密切联系。\n\nFlux 适合那些正在评估 GitOps 工具、希望获得比 Argo CD 更轻量、更贴近 Kubernetes 原生方式的团队——团队通常会将两者进行对比后，再为其部署流水线选定其中之一。"
+    },
+    "ja": {
+      "description": "クラスタの状態を Git リポジトリと同期させ続ける、Kubernetes 向けの GitOps 継続的デリバリーツールで、Argo CD の正当な代替手段です。",
+      "longDescription": "Flux は Git リポジトリを監視し、変更があれば自動的に Kubernetes クラスタに適用し、デプロイされた状態をコミット内容と同期させ続けます。(カタログにもある) Argo CD と同じ中核的な GitOps パターンですが、よりモジュール化された、Kubernetes コントローラーにネイティブなアーキテクチャで構築されています。CNCF を卒業したプロジェクトで、より広い GitOps ワーキンググループと強いつながりを持って開発が続けられています。\n\nFlux は、GitOps ツールを検討していて、Argo CD よりも軽量で Kubernetes によりネイティブな代替手段を求めるチームに向いています。チームは通常、デプロイパイプライン向けにどちらか1つを選ぶ前に、両方を比較検討します。"
+    },
+    "ko": {
+      "description": "클러스터 상태를 Git 저장소와 동기화된 상태로 유지하는 Kubernetes용 GitOps 지속적 배포 도구로, Argo CD의 진정한 대안입니다.",
+      "longDescription": "Flux는 Git 저장소를 감시하다가 변경 사항을 자동으로 Kubernetes 클러스터에 적용하여, 배포된 상태를 커밋된 내용과 동기화된 상태로 유지합니다 — (카탈로그에 있는) Argo CD와 동일한 핵심 GitOps 패턴이지만, 더 모듈화되고 Kubernetes 컨트롤러에 더 네이티브한 아키텍처로 만들어졌습니다. 더 넓은 GitOps 워킹 그룹과 긴밀한 관계 속에 유지되는 CNCF 졸업 프로젝트입니다.\n\nFlux는 GitOps 도구를 검토 중이며 Argo CD보다 더 가볍고 Kubernetes에 더 네이티브한 대안을 원하는 팀에 적합합니다 — 팀들은 배포 파이프라인을 위해 하나를 선택하기 전에 흔히 둘 다 비교해봅니다."
+    },
+    "es": {
+      "description": "Herramienta de entrega continua GitOps para Kubernetes que mantiene el estado de un clúster sincronizado con un repositorio git, una alternativa genuina a Argo CD.",
+      "longDescription": "Flux vigila un repositorio git y aplica automáticamente cualquier cambio a un clúster de Kubernetes, manteniendo el estado desplegado sincronizado con lo comprometido: el mismo patrón GitOps central que Argo CD (también en este catálogo), construido con una arquitectura más modular y nativa de los controladores de Kubernetes. Es un proyecto graduado de la CNCF mantenido con fuertes vínculos con el Grupo de Trabajo de GitOps más amplio.\n\nFlux encaja en equipos que evalúan herramientas GitOps y quieren una alternativa más ligera y nativa de Kubernetes a Argo CD; los equipos suelen comparar ambas antes de elegir una para su pipeline de despliegue."
+    },
+    "de": {
+      "description": "GitOps-Continuous-Delivery-Tool für Kubernetes, das den Zustand eines Clusters mit einem Git-Repository synchron hält – eine echte Alternative zu Argo CD.",
+      "longDescription": "Flux beobachtet ein Git-Repository und wendet Änderungen automatisch auf einen Kubernetes-Cluster an, wodurch der deployte Zustand mit dem Committeten synchron bleibt – dasselbe grundlegende GitOps-Muster wie Argo CD (ebenfalls in diesem Katalog), gebaut mit einer modulareren, Kubernetes-Controller-nativeren Architektur. Es ist ein von der CNCF graduiertes Projekt mit engen Verbindungen zur breiteren GitOps Working Group.\n\nFlux eignet sich für Teams, die GitOps-Tools evaluieren und eine leichtgewichtigere, Kubernetes-nativere Alternative zu Argo CD wollen – Teams vergleichen häufig beide, bevor sie eines für ihre Deployment-Pipeline wählen."
+    }
+  }
+}

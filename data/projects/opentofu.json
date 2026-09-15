@@ -1,0 +1,45 @@
+{
+  "name": "OpenTofu",
+  "slug": "opentofu",
+  "description": "Community-driven, open-source fork of Terraform, created after HashiCorp moved Terraform to a non-open-source license in 2023.",
+  "longDescription": "OpenTofu is a drop-in replacement for Terraform - same HCL configuration language, same provider ecosystem, same state management model - maintained as a Linux Foundation project under the MPL-2.0 license after HashiCorp relicensed Terraform away from its original open license. It aims to stay compatible with the Terraform ecosystem while guaranteeing the tool itself remains open source.\n\nOpenTofu is a fit for teams that want infrastructure-as-code tooling under a license that stays open-source, a directly relevant alternative for anyone evaluating the existing Terraform entry in this catalog against its current licensing terms.",
+  "repository": "https://github.com/opentofu/opentofu",
+  "website": "https://opentofu.org",
+  "documentation": "https://opentofu.org/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "infrastructure-as-code",
+    "terraform-alternative",
+    "iac"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "MPL-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "社区驱动的开源 Terraform 分支，诞生于 2023 年 HashiCorp 将 Terraform 改为非开源许可证之后。",
+      "longDescription": "OpenTofu 是 Terraform 的直接替代品——相同的 HCL 配置语言、相同的 Provider 生态系统、相同的状态管理模型——在 HashiCorp 将 Terraform 的许可证从最初的开源许可证变更后，作为 Linux 基金会旗下的项目在 MPL-2.0 许可证下继续维护。它致力于与 Terraform 生态系统保持兼容，同时保证工具本身始终保持开源。\n\nOpenTofu 适合那些希望在保持开源许可证的基础设施即代码工具上进行开发的团队，对于正在评估目录中现有 Terraform 条目及其当前许可条款的用户而言，是一个直接相关的替代方案。"
+    },
+    "ja": {
+      "description": "HashiCorp が 2023 年に Terraform を非オープンソースライセンスへ移行させたことを受けて作られた、コミュニティ主導のオープンソース Terraform フォークです。",
+      "longDescription": "OpenTofu は Terraform の直接的な代替品です——同じ HCL 設定言語、同じプロバイダーエコシステム、同じステート管理モデル——で、HashiCorp が Terraform を元のオープンライセンスから移行させた後、Linux Foundation のプロジェクトとして MPL-2.0 ライセンスのもとで維持されています。Terraform エコシステムとの互換性を保ちつつ、ツール自体がオープンソースであり続けることを保証することを目指しています。\n\nOpenTofu は、オープンソースであり続けるライセンスのもとで Infrastructure as Code ツールを求めるチームに向いています。カタログの既存の Terraform エントリを、その現在のライセンス条件と照らして検討している人にとって、直接的に関連する代替手段です。"
+    },
+    "ko": {
+      "description": "2023년 HashiCorp가 Terraform을 비오픈소스 라이선스로 전환한 이후 만들어진, 커뮤니티 주도 오픈소스 Terraform 포크입니다.",
+      "longDescription": "OpenTofu는 Terraform의 직접적인 대체제입니다 — 동일한 HCL 설정 언어, 동일한 프로바이더 생태계, 동일한 상태 관리 모델 — HashiCorp가 Terraform을 원래의 오픈 라이선스에서 재라이선스한 이후, Linux Foundation 프로젝트로서 MPL-2.0 라이선스 아래 유지되고 있습니다. Terraform 생태계와의 호환성을 유지하면서도 도구 자체는 오픈소스로 남도록 보장하는 것을 목표로 합니다.\n\nOpenTofu는 오픈소스로 남는 라이선스 아래에서 인프라 as 코드 도구를 원하는 팀에 적합하며, 카탈로그의 기존 Terraform 항목을 현재 라이선스 조건과 비교해 검토하는 사람에게 직접적으로 관련된 대안입니다."
+    },
+    "es": {
+      "description": "Fork de código abierto de Terraform impulsado por la comunidad, creado después de que HashiCorp moviera Terraform a una licencia no abierta en 2023.",
+      "longDescription": "OpenTofu es un reemplazo directo de Terraform —mismo lenguaje de configuración HCL, mismo ecosistema de providers, mismo modelo de gestión de estado— mantenido como proyecto de la Linux Foundation bajo la licencia MPL-2.0 después de que HashiCorp recambiara la licencia de Terraform alejándola de su licencia abierta original. Su objetivo es mantenerse compatible con el ecosistema de Terraform garantizando a la vez que la propia herramienta siga siendo de código abierto.\n\nOpenTofu encaja en equipos que quieren herramientas de infraestructura como código bajo una licencia que se mantenga de código abierto, una alternativa directamente relevante para quien esté evaluando la entrada de Terraform ya existente en este catálogo frente a sus términos de licencia actuales."
+    },
+    "de": {
+      "description": "Community-getriebener, quelloffener Fork von Terraform, entstanden nachdem HashiCorp Terraform 2023 auf eine nicht offene Lizenz umgestellt hat.",
+      "longDescription": "OpenTofu ist ein direkter Ersatz für Terraform – gleiche HCL-Konfigurationssprache, gleiches Provider-Ökosystem, gleiches State-Management-Modell – gepflegt als Linux-Foundation-Projekt unter der MPL-2.0-Lizenz, nachdem HashiCorp Terraform von seiner ursprünglich offenen Lizenz weg neu lizenziert hat. Es strebt an, mit dem Terraform-Ökosystem kompatibel zu bleiben und gleichzeitig zu garantieren, dass das Tool selbst quelloffen bleibt.\n\nOpenTofu eignet sich für Teams, die Infrastructure-as-Code-Tooling unter einer Lizenz wollen, die quelloffen bleibt – eine direkt relevante Alternative für alle, die den bestehenden Terraform-Eintrag in diesem Katalog gegen dessen aktuelle Lizenzbedingungen abwägen."
+    }
+  }
+}

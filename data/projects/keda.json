@@ -1,0 +1,45 @@
+{
+  "name": "KEDA",
+  "slug": "keda",
+  "description": "Kubernetes event-driven autoscaler that scales workloads based on the number of events needing processing, including scaling to zero.",
+  "longDescription": "KEDA extends Kubernetes' native autoscaling to react to external event sources - queue depth, stream lag, custom metrics - rather than just CPU and memory usage, and can scale a workload all the way down to zero when there's no work to do, saving resources during idle periods. It supports dozens of event source integrations out of the box.\n\nKEDA is a fit for teams running event-driven workloads on Kubernetes - processing messages from Kafka, RabbitMQ, or NATS (also in this catalog), for example - who want autoscaling that reacts to actual workload demand rather than proxy metrics like CPU.",
+  "repository": "https://github.com/kedacore/keda",
+  "website": "https://keda.sh",
+  "documentation": "https://keda.sh/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "autoscaling",
+    "event-driven",
+    "kubernetes-scaling"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes 事件驱动自动扩缩容器，根据待处理事件的数量扩缩工作负载，支持缩容到零。",
+      "longDescription": "KEDA 扩展了 Kubernetes 原生的自动扩缩容能力，使其能够响应外部事件源——队列深度、流处理延迟、自定义指标——而不仅仅是 CPU 和内存使用率，并且可以在没有任务时将工作负载一直缩容到零，从而在空闲期间节省资源。它开箱即用地支持数十种事件源集成。\n\nKEDA 适合那些在 Kubernetes 上运行事件驱动工作负载的团队——例如处理来自目录中 Kafka、RabbitMQ 或 NATS 的消息——他们希望自动扩缩容能够响应实际的工作负载需求，而不是 CPU 等间接指标。"
+    },
+    "ja": {
+      "description": "処理が必要なイベント数に基づいてワークロードをスケールする、ゼロへのスケーリングも可能な Kubernetes イベント駆動オートスケーラーです。",
+      "longDescription": "KEDA は、Kubernetes のネイティブなオートスケーリングを拡張し、CPU やメモリ使用率だけでなく、キューの深さ、ストリームの遅延、カスタムメトリクスといった外部のイベントソースに反応できるようにします。処理すべき作業がないときはワークロードをゼロまでスケールダウンでき、アイドル期間中のリソースを節約できます。数十種類のイベントソース連携を標準でサポートしています。\n\nKEDA は、Kubernetes 上でイベント駆動のワークロードを運用しているチーム——例えば、(カタログにもある) Kafka、RabbitMQ、NATS からのメッセージを処理する場合——に向いており、CPU のような代理指標ではなく、実際のワークロード需要に反応するオートスケーリングを求めています。"
+    },
+    "ko": {
+      "description": "처리해야 할 이벤트 수를 기준으로 워크로드를 확장하는 Kubernetes 이벤트 기반 오토스케일러로, 0으로 축소하는 것도 포함됩니다.",
+      "longDescription": "KEDA는 Kubernetes의 네이티브 오토스케일링을 확장하여 CPU와 메모리 사용량뿐 아니라 큐 깊이, 스트림 지연, 커스텀 메트릭 같은 외부 이벤트 소스에 반응할 수 있게 해주며, 처리할 작업이 없을 때는 워크로드를 완전히 0까지 축소해 유휴 기간 동안 리소스를 절약할 수 있습니다. 수십 개의 이벤트 소스 통합을 기본으로 지원합니다.\n\nKEDA는 Kubernetes에서 이벤트 기반 워크로드를 운영하는 팀——예를 들어 (카탈로그에 있는) Kafka, RabbitMQ, NATS로부터 메시지를 처리하는 경우——에 적합하며, CPU 같은 간접 지표가 아니라 실제 워크로드 수요에 반응하는 오토스케일링을 원합니다."
+    },
+    "es": {
+      "description": "Autoescalador de Kubernetes orientado a eventos que escala cargas de trabajo según el número de eventos por procesar, incluido el escalado a cero.",
+      "longDescription": "KEDA amplía el autoescalado nativo de Kubernetes para reaccionar a fuentes de eventos externas —profundidad de cola, retraso de streams, métricas personalizadas— en lugar de solo el uso de CPU y memoria, y puede reducir una carga de trabajo hasta cero cuando no hay trabajo que hacer, ahorrando recursos durante los periodos de inactividad. Admite decenas de integraciones de fuentes de eventos de fábrica.\n\nKEDA encaja en equipos que ejecutan cargas de trabajo orientadas a eventos en Kubernetes —por ejemplo, procesando mensajes de Kafka, RabbitMQ o NATS (también en este catálogo)— y quieren un autoescalado que reaccione a la demanda real de la carga de trabajo en lugar de a métricas indirectas como la CPU."
+    },
+    "de": {
+      "description": "Ereignisgesteuerter Kubernetes-Autoscaler, der Workloads anhand der Anzahl zu verarbeitender Ereignisse skaliert, einschließlich Skalierung auf null.",
+      "longDescription": "KEDA erweitert Kubernetes' natives Autoscaling, um auf externe Event-Quellen zu reagieren – Queue-Tiefe, Stream-Verzögerung, benutzerdefinierte Metriken – statt nur auf CPU- und Speichernutzung, und kann einen Workload bis auf null herunterskalieren, wenn keine Arbeit anfällt, was Ressourcen in Leerlaufzeiten spart. Es unterstützt Dutzende von Event-Quellen-Integrationen von Haus aus.\n\nKEDA eignet sich für Teams, die ereignisgesteuerte Workloads auf Kubernetes betreiben – etwa die Verarbeitung von Nachrichten aus Kafka, RabbitMQ oder NATS (ebenfalls in diesem Katalog) – und Autoscaling wollen, das auf tatsächliche Workload-Nachfrage statt Proxy-Metriken wie CPU reagiert."
+    }
+  }
+}

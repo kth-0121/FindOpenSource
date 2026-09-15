@@ -1,0 +1,46 @@
+{
+  "name": "FFmpeg",
+  "slug": "ffmpeg",
+  "description": "The industry-standard toolkit for recording, converting, and streaming audio and video in virtually any format.",
+  "longDescription": "FFmpeg is a command-line tool and set of libraries that can decode, encode, transcode, mux, demux, stream, filter, and play nearly every audio and video format in existence, and it quietly powers the media handling inside a huge share of the internet's video infrastructure, browsers, and media tools. Its licensing is nuanced: the core is LGPL, while enabling certain optional codecs shifts a given build to GPL.\n\nFFmpeg is a fit for any team that needs to process, convert, or stream media programmatically, complementing Video.js and Jellyfin (also in this catalog) - those play and manage media, while FFmpeg does the underlying encoding and transcoding work.",
+  "repository": "https://github.com/FFmpeg/FFmpeg",
+  "website": "https://ffmpeg.org",
+  "documentation": "https://ffmpeg.org/documentation.html",
+  "categories": [
+    "media"
+  ],
+  "keywords": [
+    "video-processing",
+    "audio-processing",
+    "transcoding",
+    "media-toolkit"
+  ],
+  "languages": [
+    "C"
+  ],
+  "license": "LGPL-2.1",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "行业标准工具包，用于录制、转换和流式传输几乎任意格式的音视频。",
+      "longDescription": "FFmpeg 是一套命令行工具和函数库，几乎可以解码、编码、转码、封装、解封装、流式传输、滤镜处理和播放现存的所有音视频格式，它默默支撑着互联网上很大一部分视频基础设施、浏览器和媒体工具的底层媒体处理能力。其许可证情况较为微妙：核心部分为 LGPL，而启用某些可选编解码器则会使该构建版本变为 GPL。\n\nFFmpeg 适合任何需要以编程方式处理、转换或流式传输媒体的团队，与目录中的 Video.js 和 Jellyfin 形成互补——后两者负责播放和管理媒体，而 FFmpeg 承担底层的编码和转码工作。"
+    },
+    "ja": {
+      "description": "ほぼあらゆるフォーマットの音声・動画を録画・変換・ストリーミングするための、業界標準のツールキットです。",
+      "longDescription": "FFmpeg は、現存するほぼすべての音声・動画フォーマットをデコード、エンコード、トランスコード、多重化、逆多重化、ストリーミング、フィルタリング、再生できるコマンドラインツール兼ライブラリ群で、インターネット上の動画インフラ、ブラウザ、メディアツールの多くを、目立たない形で支えています。そのライセンスは微妙で、コア部分は LGPL ですが、特定のオプションコーデックを有効にすると、そのビルドは GPL になります。\n\nFFmpeg は、メディアをプログラムで処理・変換・ストリーミングする必要があるあらゆるチームに向いています。(カタログにもある) Video.js や Jellyfin を補完する存在で、それらがメディアの再生・管理を行うのに対し、FFmpeg はその裏側のエンコード・トランスコード処理を担います。"
+    },
+    "ko": {
+      "description": "거의 모든 형식의 오디오와 비디오를 녹화, 변환, 스트리밍하는 업계 표준 툴킷입니다.",
+      "longDescription": "FFmpeg는 존재하는 거의 모든 오디오·비디오 형식을 디코딩, 인코딩, 트랜스코딩, 멀티플렉싱, 디멀티플렉싱, 스트리밍, 필터링, 재생할 수 있는 커맨드라인 도구이자 라이브러리 모음으로, 인터넷 비디오 인프라, 브라우저, 미디어 도구의 상당 부분에서 눈에 띄지 않게 미디어 처리를 담당하고 있습니다. 라이선스는 미묘한데, 코어는 LGPL이지만 특정 선택적 코덱을 활성화하면 해당 빌드는 GPL로 바뀝니다.\n\nFFmpeg는 프로그래밍 방식으로 미디어를 처리, 변환, 스트리밍해야 하는 모든 팀에 적합하며, (카탈로그에 있는) Video.js와 Jellyfin을 보완합니다 — 그것들은 미디어를 재생·관리하고, FFmpeg는 그 기반이 되는 인코딩·트랜스코딩 작업을 수행합니다."
+    },
+    "es": {
+      "description": "El kit de herramientas estándar de la industria para grabar, convertir y transmitir audio y vídeo en prácticamente cualquier formato.",
+      "longDescription": "FFmpeg es una herramienta de línea de comandos y un conjunto de bibliotecas que puede decodificar, codificar, transcodificar, multiplexar, demultiplexar, transmitir, filtrar y reproducir casi cualquier formato de audio y vídeo existente, y sostiene silenciosamente el manejo de medios de gran parte de la infraestructura de vídeo, navegadores y herramientas multimedia de internet. Su licencia es matizada: el núcleo es LGPL, mientras que habilitar ciertos códecs opcionales convierte una build determinada en GPL.\n\nFFmpeg encaja en cualquier equipo que necesite procesar, convertir o transmitir medios de forma programática, complementando a Video.js y Jellyfin (también en este catálogo): estos reproducen y gestionan medios, mientras que FFmpeg realiza el trabajo subyacente de codificación y transcodificación."
+    },
+    "de": {
+      "description": "Das Branchenstandard-Toolkit zum Aufnehmen, Konvertieren und Streamen von Audio und Video in praktisch jedem Format.",
+      "longDescription": "FFmpeg ist ein Kommandozeilentool und eine Sammlung von Bibliotheken, die nahezu jedes existierende Audio- und Videoformat dekodieren, kodieren, transkodieren, muxen, demuxen, streamen, filtern und abspielen können, und es treibt still und leise die Medienverarbeitung in einem riesigen Teil der Video-Infrastruktur, Browser und Medien-Tools des Internets an. Seine Lizenzierung ist nuanciert: Der Kern ist LGPL, während das Aktivieren bestimmter optionaler Codecs einen gegebenen Build zu GPL macht.\n\nFFmpeg eignet sich für jedes Team, das Medien programmatisch verarbeiten, konvertieren oder streamen muss – als Ergänzung zu Video.js und Jellyfin (ebenfalls in diesem Katalog): Diese spielen und verwalten Medien, während FFmpeg die zugrunde liegende Kodierungs- und Transkodierungsarbeit übernimmt."
+    }
+  }
+}

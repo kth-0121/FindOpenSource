@@ -1,0 +1,45 @@
+{
+  "name": "NeMo Guardrails",
+  "slug": "nemo-guardrails",
+  "description": "Toolkit for adding programmable safety and behavioral guardrails to LLM-powered conversational applications.",
+  "longDescription": "NeMo Guardrails lets a team define rules for what an LLM-powered application should and shouldn't do - staying on topic, avoiding certain content, following a specific conversation flow - using a dedicated modeling language, and enforces those rules around the underlying LLM regardless of which model is used. This adds a layer of predictability on top of an inherently unpredictable model.\n\nNeMo Guardrails is a fit for teams deploying LLM applications that need reliable behavioral boundaries, complementing general LLM frameworks like LangChain and Haystack (also in this catalog) by adding a safety and control layer around whatever model or pipeline those frameworks orchestrate.",
+  "repository": "https://github.com/NVIDIA-NeMo/Guardrails",
+  "website": "https://github.com/NVIDIA-NeMo/Guardrails",
+  "documentation": "https://github.com/NVIDIA-NeMo/Guardrails#readme",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "llm-safety",
+    "guardrails",
+    "conversational-ai"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "工具包，用于为基于大语言模型的对话应用添加可编程的安全与行为护栏。",
+      "longDescription": "NeMo Guardrails 让团队能够使用专用建模语言，为基于大语言模型的应用定义应做和不应做的事情——保持话题聚焦、避免特定内容、遵循特定对话流程——并围绕底层大语言模型强制执行这些规则，无论使用的是哪种模型。这为本质上不可预测的模型增添了一层可预测性。\n\nNeMo Guardrails 适合那些部署大语言模型应用、需要可靠行为边界的团队，通过在这些框架所编排的任意模型或流水线周围增加一层安全与控制机制，与目录中的 LangChain、Haystack 等通用大语言模型框架形成互补。"
+    },
+    "ja": {
+      "description": "LLM を活用した対話型アプリケーションに、プログラム可能な安全性と行動面のガードレールを追加するためのツールキットです。",
+      "longDescription": "NeMo Guardrails は、専用のモデリング言語を使って、LLM を活用したアプリケーションが何をすべきで何をすべきでないか——話題を逸らさない、特定のコンテンツを避ける、特定の会話フローに従う——というルールをチームが定義できるようにし、どのモデルが使われていても、その基盤となる LLM の周りでそれらのルールを適用します。これにより、本質的に予測不可能なモデルの上に予測可能性のレイヤーが加わります。\n\nNeMo Guardrails は、信頼できる行動面の境界を必要とする LLM アプリケーションをデプロイするチームに向いています。(カタログにもある) LangChain や Haystack のような汎用 LLM フレームワークを補完する存在で、それらのフレームワークがオーケストレーションするモデルやパイプラインの周りに、安全性と制御のレイヤーを追加します。"
+    },
+    "ko": {
+      "description": "LLM 기반 대화형 애플리케이션에 프로그래밍 가능한 안전·행동 가드레일을 추가하는 툴킷입니다.",
+      "longDescription": "NeMo Guardrails는 전용 모델링 언어를 사용해 LLM 기반 애플리케이션이 해야 할 일과 하지 말아야 할 일——주제 유지, 특정 콘텐츠 회피, 특정 대화 흐름 준수——에 대한 규칙을 팀이 정의할 수 있게 해주며, 어떤 모델이 사용되든 그 기반 LLM 주변에서 이러한 규칙을 적용합니다. 본질적으로 예측 불가능한 모델 위에 예측 가능성이라는 층을 더해줍니다.\n\nNeMo Guardrails는 신뢰할 수 있는 행동 경계가 필요한 LLM 애플리케이션을 배포하는 팀에 적합하며, (카탈로그에 있는) LangChain, Haystack 같은 범용 LLM 프레임워크를 보완합니다 — 이런 프레임워크가 오케스트레이션하는 모델이나 파이프라인 주변에 안전·제어 계층을 추가합니다."
+    },
+    "es": {
+      "description": "Kit de herramientas para añadir barreras de seguridad y de comportamiento programables a aplicaciones conversacionales impulsadas por LLM.",
+      "longDescription": "NeMo Guardrails permite a un equipo definir reglas sobre lo que una aplicación impulsada por LLM debe y no debe hacer —mantenerse en el tema, evitar cierto contenido, seguir un flujo de conversación específico— usando un lenguaje de modelado dedicado, y hace cumplir esas reglas en torno al LLM subyacente sin importar qué modelo se use. Esto añade una capa de previsibilidad sobre un modelo inherentemente impredecible.\n\nNeMo Guardrails encaja en equipos que despliegan aplicaciones LLM que necesitan límites de comportamiento fiables, complementando frameworks LLM generales como LangChain y Haystack (también en este catálogo) al añadir una capa de seguridad y control alrededor de cualquier modelo o pipeline que esos frameworks orquesten."
+    },
+    "de": {
+      "description": "Toolkit zum Hinzufügen programmierbarer Sicherheits- und Verhaltens-Guardrails zu LLM-gestützten Konversationsanwendungen.",
+      "longDescription": "NeMo Guardrails lässt ein Team mithilfe einer dedizierten Modellierungssprache Regeln definieren, was eine LLM-gestützte Anwendung tun und nicht tun soll – beim Thema bleiben, bestimmte Inhalte vermeiden, einem bestimmten Gesprächsablauf folgen – und setzt diese Regeln rund um das zugrunde liegende LLM durch, unabhängig davon, welches Modell verwendet wird. Das fügt einem von Natur aus unvorhersehbaren Modell eine Schicht Vorhersagbarkeit hinzu.\n\nNeMo Guardrails eignet sich für Teams, die LLM-Anwendungen mit verlässlichen Verhaltensgrenzen deployen, und ergänzt allgemeine LLM-Frameworks wie LangChain und Haystack (ebenfalls in diesem Katalog) durch eine Sicherheits- und Kontrollschicht um jedes Modell oder jede Pipeline, die diese Frameworks orchestrieren."
+    }
+  }
+}

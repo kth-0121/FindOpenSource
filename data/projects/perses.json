@@ -1,0 +1,47 @@
+{
+  "name": "Perses",
+  "slug": "perses",
+  "description": "CNCF dashboarding tool for visualizing observability data, built around portable, version-controllable dashboard definitions.",
+  "longDescription": "Perses provides dashboards for metrics and other observability data with a focus on dashboards-as-code - definitions that are portable between tools, easy to store in git, and generate programmatically, rather than being locked into one vendor's proprietary dashboard format. It aims to become a CNCF standard for dashboard definitions.\n\nPerses is a fit for teams that want version-controlled, portable dashboard definitions rather than manually built dashboards, an emerging alternative to Grafana (also in this catalog) for teams prioritizing dashboards-as-code.",
+  "repository": "https://github.com/perses/perses",
+  "website": "https://perses.dev",
+  "documentation": "https://perses.dev/perses/docs/",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "dashboards",
+    "dashboards-as-code",
+    "observability",
+    "data-visualization"
+  ],
+  "languages": [
+    "Go",
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "CNCF 仪表盘工具，用于可视化可观测性数据，围绕可移植、可版本控制的仪表盘定义构建。",
+      "longDescription": "Perses 为指标和其他可观测性数据提供仪表盘展示能力，重点在于“仪表盘即代码”——其定义可在不同工具间移植、易于存入 Git、并可通过程序生成，而不是被锁定在某个厂商的专有仪表盘格式中。它的目标是成为 CNCF 仪表盘定义的标准。\n\nPerses 适合那些希望使用可版本控制、可移植的仪表盘定义、而非手动搭建仪表盘的团队，是目录中 Grafana 的一个新兴替代方案，面向优先考虑“仪表盘即代码”的团队。"
+    },
+    "ja": {
+      "description": "ポータブルでバージョン管理可能なダッシュボード定義を中心に構築された、オブザーバビリティデータ可視化のための CNCF ダッシュボードツールです。",
+      "longDescription": "Perses は、メトリクスやその他のオブザーバビリティデータ向けのダッシュボードを提供し、特定ベンダーの専有ダッシュボードフォーマットに縛られるのではなく、ツール間で移植可能で git への保存が容易、プログラムによる生成も可能な「ダッシュボード・アズ・コード」に重点を置いています。ダッシュボード定義の CNCF 標準となることを目指しています。\n\nPerses は、手作業で構築したダッシュボードではなく、バージョン管理されたポータブルなダッシュボード定義を求めるチームに向いており、「ダッシュボード・アズ・コード」を優先するチーム向けの、(カタログにもある) Grafana の新興の代替ツールです。"
+    },
+    "ko": {
+      "description": "이식 가능하고 버전 관리할 수 있는 대시보드 정의를 중심으로 만들어진, 관측 가능성 데이터 시각화를 위한 CNCF 대시보드 도구입니다.",
+      "longDescription": "Perses는 메트릭 및 기타 관측 가능성 데이터를 위한 대시보드를 제공하며, 특정 벤더의 독점 대시보드 포맷에 갇히는 대신 도구 간에 이식 가능하고 git에 저장하기 쉬우며 프로그램적으로 생성할 수 있는 \"코드로서의 대시보드\"에 초점을 맞춥니다. 대시보드 정의를 위한 CNCF 표준이 되는 것을 목표로 합니다.\n\nPerses는 수작업으로 만든 대시보드 대신 버전 관리되는 이식 가능한 대시보드 정의를 원하는 팀에 적합하며, \"코드로서의 대시보드\"를 우선시하는 팀을 위한, (카탈로그에 있는) Grafana의 새로운 대안입니다."
+    },
+    "es": {
+      "description": "Herramienta de dashboards de la CNCF para visualizar datos de observabilidad, construida en torno a definiciones de dashboard portables y versionables.",
+      "longDescription": "Perses ofrece dashboards para métricas y otros datos de observabilidad con un enfoque en \"dashboards como código\": definiciones portables entre herramientas, fáciles de guardar en git y generar programáticamente, en lugar de quedar atadas al formato propietario de dashboard de un proveedor. Su objetivo es convertirse en un estándar de la CNCF para definiciones de dashboards.\n\nPerses encaja en equipos que quieren definiciones de dashboard versionadas y portables en lugar de dashboards construidos manualmente, una alternativa emergente a Grafana (también en este catálogo) para equipos que priorizan los dashboards como código."
+    },
+    "de": {
+      "description": "CNCF-Dashboarding-Tool zur Visualisierung von Observability-Daten, aufgebaut um portable, versionierbare Dashboard-Definitionen.",
+      "longDescription": "Perses bietet Dashboards für Metriken und andere Observability-Daten mit Fokus auf Dashboards-as-Code – Definitionen, die zwischen Tools portabel sind, leicht in git gespeichert und programmatisch generiert werden können, statt an das proprietäre Dashboard-Format eines Anbieters gebunden zu sein. Es strebt an, ein CNCF-Standard für Dashboard-Definitionen zu werden.\n\nPerses eignet sich für Teams, die versionierte, portable Dashboard-Definitionen statt manuell gebauter Dashboards wollen – eine aufstrebende Alternative zu Grafana (ebenfalls in diesem Katalog) für Teams, die Dashboards-as-Code priorisieren."
+    }
+  }
+}

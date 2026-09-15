@@ -1,0 +1,46 @@
+{
+  "name": "Trino",
+  "slug": "trino",
+  "description": "Distributed SQL query engine that lets you run federated queries across multiple data sources - databases, data lakes, and more - from one place.",
+  "longDescription": "Trino runs SQL queries that can join and aggregate data across many different underlying systems - PostgreSQL, object storage data lakes, Kafka, and dozens of other connectors - without first copying all that data into one warehouse. It separates the query engine from where the data actually lives.\n\nTrino is a fit for teams that need to query across multiple existing data sources without a large data-migration project, a different role than the OLAP databases (like ClickHouse, also in this catalog) that store the data themselves rather than querying it in place.",
+  "repository": "https://github.com/trinodb/trino",
+  "website": "https://trino.io",
+  "documentation": "https://trino.io/docs/current/",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "federated-query",
+    "sql-engine",
+    "data-lake",
+    "distributed-query"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "分布式 SQL 查询引擎，让你可以从一处对多种数据源——数据库、数据湖等——运行联合查询。",
+      "longDescription": "Trino 可以运行跨多种不同底层系统——PostgreSQL、对象存储数据湖、Kafka，以及数十种其他连接器——联合、聚合数据的 SQL 查询，而无需先将所有数据复制到统一的数据仓库中。它将查询引擎与数据的实际存放位置分离开来。\n\nTrino 适合那些需要跨多个现有数据源进行查询、又不想启动大型数据迁移项目的团队，与目录中 ClickHouse 等自身存储数据（而非就地查询）的 OLAP 数据库扮演着不同的角色。"
+    },
+    "ja": {
+      "description": "PostgreSQL、データレイク、その他多くのデータソースにまたがる連合クエリを一箇所から実行できる、分散型 SQL クエリエンジンです。",
+      "longDescription": "Trino は、PostgreSQL、オブジェクトストレージのデータレイク、Kafka など数十種類のコネクタを含む、さまざまな異なる基盤システムにまたがってデータを結合・集計する SQL クエリを、すべてのデータを1つのウェアハウスにコピーすることなく実行できます。クエリエンジンを、データが実際に存在する場所から切り離します。\n\nTrino は、大規模なデータ移行プロジェクトを行うことなく、既存の複数のデータソースにまたがってクエリする必要があるチームに向いています。カタログにある ClickHouse のような、その場でクエリするのではなくデータ自体を保存する OLAP データベースとは異なる役割です。"
+    },
+    "ko": {
+      "description": "여러 데이터 소스——데이터베이스, 데이터 레이크 등——에 걸쳐 한 곳에서 연합 쿼리를 실행할 수 있게 해주는 분산 SQL 쿼리 엔진입니다.",
+      "longDescription": "Trino는 PostgreSQL, 오브젝트 스토리지 데이터 레이크, Kafka를 비롯한 수십 개의 커넥터 등 다양한 기반 시스템에 걸쳐 데이터를 조인하고 집계하는 SQL 쿼리를, 모든 데이터를 하나의 웨어하우스로 먼저 복사하지 않고도 실행할 수 있게 해줍니다. 쿼리 엔진을 데이터가 실제로 있는 위치와 분리합니다.\n\nTrino는 대규모 데이터 마이그레이션 프로젝트 없이 여러 기존 데이터 소스에 걸쳐 쿼리해야 하는 팀에 적합하며, 카탈로그에 있는 ClickHouse 같은, 데이터를 제자리에서 쿼리하기보다 직접 저장하는 OLAP 데이터베이스와는 다른 역할을 합니다."
+    },
+    "es": {
+      "description": "Motor de consultas SQL distribuido que te permite ejecutar consultas federadas entre múltiples fuentes de datos —bases de datos, data lakes y más— desde un solo lugar.",
+      "longDescription": "Trino ejecuta consultas SQL que pueden unir y agregar datos a través de muchos sistemas subyacentes distintos —PostgreSQL, data lakes de almacenamiento de objetos, Kafka y docenas de otros conectores— sin copiar antes todos esos datos a un único almacén. Separa el motor de consultas de dónde residen realmente los datos.\n\nTrino encaja en equipos que necesitan consultar múltiples fuentes de datos existentes sin un gran proyecto de migración de datos, un rol distinto al de las bases de datos OLAP (como ClickHouse, también en este catálogo), que almacenan los datos en sí en lugar de consultarlos in situ."
+    },
+    "de": {
+      "description": "Verteilte SQL-Abfrage-Engine, mit der du föderierte Abfragen über mehrere Datenquellen – Datenbanken, Data Lakes und mehr – von einem Ort aus ausführen kannst.",
+      "longDescription": "Trino führt SQL-Abfragen aus, die Daten über viele verschiedene zugrunde liegende Systeme hinweg verbinden und aggregieren können – PostgreSQL, Objektspeicher-Data-Lakes, Kafka und Dutzende weitere Connectoren –, ohne zuerst all diese Daten in ein einziges Warehouse zu kopieren. Es trennt die Abfrage-Engine davon, wo die Daten tatsächlich liegen.\n\nTrino eignet sich für Teams, die über mehrere bestehende Datenquellen hinweg abfragen müssen, ohne ein großes Datenmigrationsprojekt – eine andere Rolle als die OLAP-Datenbanken (wie ClickHouse, ebenfalls in diesem Katalog), die die Daten selbst speichern, statt sie an Ort und Stelle abzufragen."
+    }
+  }
+}

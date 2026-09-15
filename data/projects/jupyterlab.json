@@ -1,0 +1,47 @@
+{
+  "name": "JupyterLab",
+  "slug": "jupyterlab",
+  "description": "The standard web-based interactive computing environment for notebooks, code, and data, widely used across data science and research.",
+  "longDescription": "JupyterLab is the interface most people mean when they say \"Jupyter notebook\" - a browser-based environment for writing and running code interactively alongside text, visualizations, and output, supporting dozens of programming languages through its kernel architecture (most commonly Python via IPython). It's become the default tool for exploratory data analysis, teaching, and reproducible research.\n\nJupyterLab is a fit for anyone doing exploratory data work, prototyping ML models, or writing reproducible, documented analysis - a foundational tool of the data science workflow that sits alongside frameworks like PyTorch and TensorFlow (also in this catalog) rather than replacing them.",
+  "repository": "https://github.com/jupyterlab/jupyterlab",
+  "website": "https://jupyter.org",
+  "documentation": "https://jupyterlab.readthedocs.io",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "notebooks",
+    "interactive-computing",
+    "data-science",
+    "research"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "license": "BSD-3-Clause",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "标准的基于 Web 的交互式计算环境，用于笔记本、代码和数据，广泛应用于数据科学和研究领域。",
+      "longDescription": "JupyterLab 是大多数人所说的“Jupyter notebook”所指的界面——一个基于浏览器的环境，可将代码与文本、可视化图表和输出结果交互式地结合编写和运行，通过其内核架构支持数十种编程语言（最常见的是通过 IPython 支持 Python）。它已成为探索性数据分析、教学和可复现研究的默认工具。\n\nJupyterLab 适合任何从事探索性数据工作、原型开发机器学习模型、或撰写可复现、有文档记录的分析报告的人——它是数据科学工作流中的一个基础工具，与目录中的 PyTorch、TensorFlow 等框架并列存在，而非取代它们。"
+    },
+    "ja": {
+      "description": "多くの人が「Jupyter notebook」と呼ぶときに指す、ノートブック・コード・データのための標準的な Web ベースのインタラクティブなコンピューティング環境で、データサイエンスや研究の分野で広く使われています。",
+      "longDescription": "JupyterLab は、多くの人が「Jupyter notebook」と言うときに指しているインターフェースです。ブラウザ上でコードをテキスト、可視化、出力とともにインタラクティブに書いて実行できる環境で、そのカーネルアーキテクチャを通じて数十のプログラミング言語(最も一般的なのは IPython 経由の Python)をサポートします。探索的データ分析、教育、再現可能な研究のためのデフォルトツールとなっています。\n\nJupyterLab は、探索的なデータ作業、ML モデルのプロトタイピング、再現可能でドキュメント化された分析の記述を行う誰にでも向いています。(カタログにもある) PyTorch や TensorFlow のようなフレームワークを置き換えるのではなく、それらと並ぶ、データサイエンスワークフローの基礎的なツールです。"
+    },
+    "ko": {
+      "description": "노트북, 코드, 데이터를 위한 표준 웹 기반 대화형 컴퓨팅 환경으로, 데이터 과학과 연구 전반에서 널리 사용됩니다.",
+      "longDescription": "JupyterLab은 대부분의 사람들이 \"Jupyter notebook\"이라고 할 때 가리키는 인터페이스입니다 — 텍스트, 시각화, 출력과 함께 코드를 대화형으로 작성하고 실행하는 브라우저 기반 환경으로, 커널 아키텍처를 통해 수십 개의 프로그래밍 언어(가장 흔하게는 IPython을 통한 Python)를 지원합니다. 탐색적 데이터 분석, 교육, 재현 가능한 연구를 위한 기본 도구가 되었습니다.\n\nJupyterLab은 탐색적 데이터 작업, ML 모델 프로토타이핑, 재현 가능하고 문서화된 분석 작성을 하는 누구에게나 적합합니다 — (카탈로그에 있는) PyTorch, TensorFlow 같은 프레임워크를 대체하는 것이 아니라 그것들과 나란히 존재하는 데이터 과학 워크플로의 기초 도구입니다."
+    },
+    "es": {
+      "description": "El entorno de computación interactiva estándar basado en web para notebooks, código y datos, muy usado en ciencia de datos e investigación.",
+      "longDescription": "JupyterLab es la interfaz a la que la mayoría de la gente se refiere al decir \"Jupyter notebook\": un entorno basado en navegador para escribir y ejecutar código de forma interactiva junto a texto, visualizaciones y salidas, compatible con decenas de lenguajes de programación a través de su arquitectura de kernels (más habitualmente Python vía IPython). Se ha convertido en la herramienta por defecto para el análisis exploratorio de datos, la enseñanza y la investigación reproducible.\n\nJupyterLab encaja en cualquiera que haga trabajo exploratorio de datos, prototipe modelos de ML o escriba análisis reproducibles y documentados: una herramienta fundamental del flujo de trabajo de ciencia de datos que convive junto a frameworks como PyTorch y TensorFlow (también en este catálogo) en lugar de sustituirlos."
+    },
+    "de": {
+      "description": "Die Standard-webbasierte interaktive Computing-Umgebung für Notebooks, Code und Daten, weit verbreitet in Data Science und Forschung.",
+      "longDescription": "JupyterLab ist die Oberfläche, die die meisten Leute meinen, wenn sie „Jupyter Notebook“ sagen – eine browserbasierte Umgebung zum interaktiven Schreiben und Ausführen von Code neben Text, Visualisierungen und Ausgaben, die über ihre Kernel-Architektur Dutzende von Programmiersprachen unterstützt (meist Python via IPython). Es ist zum Standardwerkzeug für explorative Datenanalyse, Lehre und reproduzierbare Forschung geworden.\n\nJupyterLab eignet sich für alle, die explorative Datenarbeit machen, ML-Modelle prototypisieren oder reproduzierbare, dokumentierte Analysen schreiben – ein grundlegendes Werkzeug des Data-Science-Workflows, das neben Frameworks wie PyTorch und TensorFlow (ebenfalls in diesem Katalog) steht, statt sie zu ersetzen."
+    }
+  }
+}

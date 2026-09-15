@@ -1,0 +1,47 @@
+{
+  "name": "Prefect",
+  "slug": "prefect",
+  "description": "Python-native workflow orchestration platform for building, scheduling, and monitoring data pipelines with ordinary Python code.",
+  "longDescription": "Prefect lets developers define workflows as plain Python functions decorated as tasks and flows, rather than learning a separate DSL or YAML format. It handles scheduling, retries, caching, and failure handling automatically, and its UI gives visibility into every run without extra instrumentation code.\n\nPrefect is a fit for data and platform teams building ETL, ML, or data-pipeline workflows in Python who want orchestration that stays close to regular code - a different niche than Temporal or Argo Workflows (also in this catalog), which are aimed at general-purpose distributed application workflows rather than data-pipeline-specific scheduling.",
+  "repository": "https://github.com/PrefectHQ/prefect",
+  "website": "https://www.prefect.io",
+  "documentation": "https://docs.prefect.io",
+  "categories": [
+    "automation"
+  ],
+  "keywords": [
+    "workflow-orchestration",
+    "data-pipeline",
+    "python",
+    "dag",
+    "etl"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "以 Python 为核心的工作流编排平台，用普通 Python 代码构建、调度和监控数据管道。",
+      "longDescription": "Prefect 让开发者用被装饰为任务（task）和流程（flow）的普通 Python 函数来定义工作流，而不必学习单独的 DSL 或 YAML 格式。它自动处理调度、重试、缓存和故障处理，其 UI 无需额外埋点代码即可查看每次运行的详情。\n\nPrefect 适合用 Python 构建 ETL、机器学习或数据管道工作流、并希望编排方式贴近普通代码的数据和平台团队——这与目录中的 Temporal 或 Argo Workflows 是不同的细分领域，后两者面向通用分布式应用工作流，而非专门针对数据管道的调度。"
+    },
+    "ja": {
+      "description": "通常の Python コードでデータパイプラインを構築・スケジュール・監視できる、Python ネイティブのワークフローオーケストレーションプラットフォームです。",
+      "longDescription": "Prefect は、別の DSL や YAML 形式を学ぶ代わりに、タスクとフローとしてデコレートされた通常の Python 関数としてワークフローを定義できるようにします。スケジューリング、リトライ、キャッシュ、失敗処理を自動的に扱い、その UI は追加の計装コードなしにすべての実行を可視化します。\n\nPrefect は、Python で ETL・機械学習・データパイプラインのワークフローを構築し、通常のコードに近いオーケストレーションを求めるデータ・プラットフォームチームに向いています。カタログ内の Temporal や Argo Workflows とは異なるニッチで、それらはデータパイプライン特化のスケジューリングではなく、汎用的な分散アプリケーションワークフローを対象としています。"
+    },
+    "ko": {
+      "description": "일반 Python 코드로 데이터 파이프라인을 구축, 스케줄링, 모니터링하는 Python 네이티브 워크플로 오케스트레이션 플랫폼입니다.",
+      "longDescription": "Prefect는 별도의 DSL이나 YAML 형식을 배우는 대신, task와 flow로 데코레이트된 일반 Python 함수로 워크플로를 정의할 수 있게 해줍니다. 스케줄링, 재시도, 캐싱, 실패 처리를 자동으로 처리하며, UI는 추가 계측 코드 없이도 모든 실행을 볼 수 있게 해줍니다.\n\nPrefect는 Python으로 ETL, ML, 데이터 파이프라인 워크플로를 구축하며 일반 코드에 가까운 오케스트레이션을 원하는 데이터·플랫폼 팀에 적합합니다. 카탈로그에 있는 Temporal이나 Argo Workflows와는 다른 영역으로, 그것들은 데이터 파이프라인 전용 스케줄링이 아니라 범용 분산 애플리케이션 워크플로를 대상으로 합니다."
+    },
+    "es": {
+      "description": "Plataforma de orquestación de workflows nativa de Python para construir, programar y monitorizar pipelines de datos con código Python normal.",
+      "longDescription": "Prefect permite a los desarrolladores definir workflows como funciones Python normales decoradas como tasks y flows, en lugar de aprender un DSL o formato YAML aparte. Gestiona automáticamente la programación, los reintentos, la caché y el manejo de fallos, y su UI ofrece visibilidad de cada ejecución sin código de instrumentación adicional.\n\nPrefect encaja en equipos de datos y plataforma que construyen workflows de ETL, ML o pipelines de datos en Python y quieren una orquestación cercana al código normal, un nicho distinto al de Temporal o Argo Workflows (también en este catálogo), orientados a workflows de aplicaciones distribuidas de propósito general en lugar de programación específica de pipelines de datos."
+    },
+    "de": {
+      "description": "Python-native Workflow-Orchestrierungsplattform zum Erstellen, Planen und Überwachen von Datenpipelines mit gewöhnlichem Python-Code.",
+      "longDescription": "Prefect lässt Entwickler Workflows als gewöhnliche, mit Task und Flow dekorierte Python-Funktionen definieren, statt eine separate DSL oder ein YAML-Format zu lernen. Es übernimmt automatisch Scheduling, Wiederholungsversuche, Caching und Fehlerbehandlung, und seine UI bietet Einblick in jeden Lauf ohne zusätzlichen Instrumentierungscode.\n\nPrefect eignet sich für Daten- und Plattformteams, die ETL-, ML- oder Datenpipeline-Workflows in Python bauen und eine nah am gewöhnlichen Code bleibende Orchestrierung wollen – eine andere Nische als Temporal oder Argo Workflows (ebenfalls in diesem Katalog), die auf allgemeine verteilte Anwendungs-Workflows statt datenpipeline-spezifisches Scheduling zielen."
+    }
+  }
+}

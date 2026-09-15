@@ -1,0 +1,46 @@
+{
+  "name": "Fluentd",
+  "slug": "fluentd",
+  "description": "CNCF-graduated log collector that unifies data collection from many sources into a single, structured logging layer.",
+  "longDescription": "Fluentd collects logs from a huge range of sources - application logs, system logs, cloud services - and routes them, in a unified structured format, to one or more destinations like Elasticsearch, object storage, or a log-analytics backend. Its plugin ecosystem covers most common inputs and outputs without custom glue code.\n\nFluentd is a fit for teams that need a dedicated log-collection and forwarding layer in front of a storage or analytics backend, complementing Grafana Loki (also in this catalog), which handles log storage and querying rather than the collection layer itself.",
+  "repository": "https://github.com/fluent/fluentd",
+  "website": "https://www.fluentd.org",
+  "documentation": "https://docs.fluentd.org",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "log-collection",
+    "logging",
+    "log-aggregation",
+    "observability"
+  ],
+  "languages": [
+    "Ruby"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "已从 CNCF 毕业的日志采集器，将来自众多来源的数据统一收集到单一的结构化日志层中。",
+      "longDescription": "Fluentd 从海量来源——应用日志、系统日志、云服务——采集日志，并以统一的结构化格式将其路由到 Elasticsearch、对象存储或日志分析后端等一个或多个目的地。其插件生态系统覆盖了大多数常见的输入和输出，无需自定义胶水代码。\n\nFluentd 适合那些需要在存储或分析后端之前设置专门的日志采集与转发层的团队，与目录中的 Grafana Loki 形成互补——Loki 负责日志存储和查询，而不是采集层本身。"
+    },
+    "ja": {
+      "description": "多数のソースからのデータ収集を、単一の構造化されたロギング層に統合する、CNCF を卒業したログコレクターです。",
+      "longDescription": "Fluentd は、アプリケーションログ、システムログ、クラウドサービスなど膨大な種類のソースからログを収集し、統一された構造化フォーマットで Elasticsearch、オブジェクトストレージ、ログ分析バックエンドなどの1つ以上の宛先へルーティングします。そのプラグインエコシステムは、カスタムの接着コードなしにほとんどの一般的な入出力をカバーします。\n\nFluentd は、ストレージや分析バックエンドの前段に専用のログ収集・転送層を必要とするチームに向いています。(カタログにもある) Grafana Loki を補完する存在で、Loki は収集層そのものではなく、ログの保存とクエリを担当します。"
+    },
+    "ko": {
+      "description": "여러 소스로부터의 데이터 수집을 하나의 구조화된 로깅 계층으로 통합하는 CNCF 졸업 로그 수집기입니다.",
+      "longDescription": "Fluentd는 애플리케이션 로그, 시스템 로그, 클라우드 서비스 등 방대한 종류의 소스로부터 로그를 수집해, 통일된 구조화 포맷으로 Elasticsearch, 오브젝트 스토리지, 로그 분석 백엔드 등 하나 이상의 목적지로 라우팅합니다. 플러그인 생태계가 대부분의 일반적인 입출력을 커스텀 글루 코드 없이 커버합니다.\n\nFluentd는 스토리지나 분석 백엔드 앞단에 전용 로그 수집·전달 계층이 필요한 팀에 적합합니다. (카탈로그에 있는) Grafana Loki를 보완하는 관계로, Loki는 수집 계층 자체가 아니라 로그 저장과 쿼리를 담당합니다."
+    },
+    "es": {
+      "description": "Recolector de logs graduado por la CNCF que unifica la recolección de datos de muchas fuentes en una única capa de logging estructurada.",
+      "longDescription": "Fluentd recolecta logs de una enorme variedad de fuentes —logs de aplicación, logs de sistema, servicios cloud— y los enruta, en un formato estructurado unificado, a uno o más destinos como Elasticsearch, almacenamiento de objetos o un backend de analítica de logs. Su ecosistema de plugins cubre la mayoría de entradas y salidas comunes sin código de pegamento personalizado.\n\nFluentd encaja en equipos que necesitan una capa dedicada de recolección y reenvío de logs delante de un backend de almacenamiento o analítica, complementando a Grafana Loki (también en este catálogo), que gestiona el almacenamiento y consulta de logs en lugar de la propia capa de recolección."
+    },
+    "de": {
+      "description": "Von der CNCF graduierter Log-Collector, der die Datensammlung aus vielen Quellen in einer einzigen, strukturierten Logging-Schicht vereint.",
+      "longDescription": "Fluentd sammelt Logs aus einer riesigen Bandbreite von Quellen – Anwendungslogs, Systemlogs, Cloud-Dienste – und leitet sie in einem einheitlichen, strukturierten Format an ein oder mehrere Ziele wie Elasticsearch, Objektspeicher oder ein Log-Analytics-Backend weiter. Sein Plugin-Ökosystem deckt die meisten gängigen Ein- und Ausgaben ohne benutzerdefinierten Klebecode ab.\n\nFluentd eignet sich für Teams, die eine dedizierte Log-Sammel- und Weiterleitungsschicht vor einem Storage- oder Analytics-Backend benötigen – als Ergänzung zu Grafana Loki (ebenfalls in diesem Katalog), das die Log-Speicherung und -Abfrage übernimmt statt die Sammelschicht selbst."
+    }
+  }
+}

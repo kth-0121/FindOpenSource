@@ -1,0 +1,45 @@
+{
+  "name": "Sonobuoy",
+  "slug": "sonobuoy",
+  "description": "Kubernetes conformance testing tool that diagnostically checks whether a cluster is configured correctly and behaves per the Kubernetes spec.",
+  "longDescription": "Sonobuoy runs a set of diagnostic and conformance tests against a Kubernetes cluster - including the official Kubernetes conformance test suite - to verify the cluster is properly configured and compatible with upstream Kubernetes behavior. It packages results for easy review rather than requiring manual test-suite setup.\n\nSonobuoy is a fit for platform teams validating a new cluster, a custom Kubernetes distribution, or a managed-Kubernetes offering against the official conformance standard, a narrower and more specialized intent than the general Kubernetes entry already in this catalog.",
+  "repository": "https://github.com/vmware-tanzu/sonobuoy",
+  "website": "https://sonobuoy.io",
+  "documentation": "https://sonobuoy.io/docs/latest/",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "kubernetes-conformance",
+    "cluster-validation",
+    "diagnostic-testing"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes 一致性测试工具，用于诊断性地检查集群配置是否正确、行为是否符合 Kubernetes 规范。",
+      "longDescription": "Sonobuoy 会对 Kubernetes 集群运行一系列诊断和一致性测试——包括官方的 Kubernetes 一致性测试套件——以验证集群配置是否正确，以及是否与上游 Kubernetes 的行为兼容。它将结果打包便于查看，而不需要手动搭建测试套件。\n\nSonobuoy 适合那些需要依据官方一致性标准验证新集群、自定义 Kubernetes 发行版或托管 Kubernetes 服务的平台团队，这是一个比目录中已有的通用 Kubernetes 条目更狭窄、更专业化的需求。"
+    },
+    "ja": {
+      "description": "クラスタが正しく設定され、Kubernetes の仕様どおりに動作しているかを診断的にチェックする、Kubernetes 準拠テストツールです。",
+      "longDescription": "Sonobuoy は、公式の Kubernetes Conformance テストスイートを含む、一連の診断・準拠テストを Kubernetes クラスタに対して実行し、クラスタが正しく設定され、アップストリームの Kubernetes の挙動と互換性があることを検証します。手動でテストスイートをセットアップする必要はなく、レビューしやすい形で結果をまとめてくれます。\n\nSonobuoy は、新しいクラスタ、カスタムの Kubernetes ディストリビューション、あるいはマネージド Kubernetes サービスを、公式の準拠基準に照らして検証するプラットフォームチームに向いています。カタログに既にある汎用的な Kubernetes エントリよりも、より狭く専門的な目的です。"
+    },
+    "ko": {
+      "description": "클러스터가 올바르게 설정되었고 Kubernetes 사양대로 동작하는지 진단적으로 확인하는 Kubernetes 준수(conformance) 테스트 도구입니다.",
+      "longDescription": "Sonobuoy는 공식 Kubernetes conformance 테스트 스위트를 포함한 일련의 진단·준수 테스트를 Kubernetes 클러스터에 대해 실행하여, 클러스터가 올바르게 설정되었고 업스트림 Kubernetes 동작과 호환되는지 검증합니다. 수동으로 테스트 스위트를 설정할 필요 없이 검토하기 쉽게 결과를 패키징해줍니다.\n\nSonobuoy는 새 클러스터, 커스텀 Kubernetes 배포판, 또는 매니지드 Kubernetes 서비스를 공식 준수 표준에 따라 검증해야 하는 플랫폼 팀에 적합합니다. 카탈로그에 이미 있는 범용 Kubernetes 항목보다 더 좁고 전문화된 목적입니다."
+    },
+    "es": {
+      "description": "Herramienta de pruebas de conformidad de Kubernetes que comprueba de forma diagnóstica si un clúster está configurado correctamente y se comporta según la especificación de Kubernetes.",
+      "longDescription": "Sonobuoy ejecuta un conjunto de pruebas de diagnóstico y conformidad contra un clúster de Kubernetes —incluida la suite oficial de pruebas de conformidad de Kubernetes— para verificar que el clúster está correctamente configurado y es compatible con el comportamiento upstream de Kubernetes. Empaqueta los resultados para facilitar su revisión en lugar de requerir una configuración manual de la suite de pruebas.\n\nSonobuoy encaja en equipos de plataforma que validan un nuevo clúster, una distribución personalizada de Kubernetes o una oferta de Kubernetes gestionado frente al estándar oficial de conformidad, una intención más concreta y especializada que la entrada general de Kubernetes ya presente en este catálogo."
+    },
+    "de": {
+      "description": "Kubernetes-Konformitätstest-Tool, das diagnostisch prüft, ob ein Cluster korrekt konfiguriert ist und sich gemäß der Kubernetes-Spezifikation verhält.",
+      "longDescription": "Sonobuoy führt eine Reihe von Diagnose- und Konformitätstests gegen einen Kubernetes-Cluster aus – einschließlich der offiziellen Kubernetes-Konformitäts-Testsuite –, um zu prüfen, ob der Cluster korrekt konfiguriert und mit dem Upstream-Kubernetes-Verhalten kompatibel ist. Es verpackt Ergebnisse zur leichten Überprüfung, statt ein manuelles Testsuite-Setup zu erfordern.\n\nSonobuoy eignet sich für Platform-Teams, die einen neuen Cluster, eine benutzerdefinierte Kubernetes-Distribution oder ein Managed-Kubernetes-Angebot gegen den offiziellen Konformitätsstandard validieren – ein engeres, spezialisierteres Anliegen als der bereits im Katalog vorhandene allgemeine Kubernetes-Eintrag."
+    }
+  }
+}

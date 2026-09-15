@@ -1,0 +1,46 @@
+{
+  "name": "Caddy",
+  "slug": "caddy",
+  "description": "Modern web server and reverse proxy with automatic HTTPS by default, built for simplicity compared to traditional web server configuration.",
+  "longDescription": "Caddy obtains and renews TLS certificates automatically out of the box, using a simple, readable configuration format instead of the more verbose syntax of older web servers - so serving HTTPS correctly requires no manual certificate setup at all. It handles reverse proxying, static file serving, and load balancing with sensible defaults.\n\nCaddy is a fit for teams that want a straightforward, developer-friendly web server or reverse proxy with automatic HTTPS, a lighter-weight, simpler-to-configure alternative to Traefik or NGINX (also in this catalog) for teams that don't need Kubernetes-native service discovery.",
+  "repository": "https://github.com/caddyserver/caddy",
+  "website": "https://caddyserver.com",
+  "documentation": "https://caddyserver.com/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "web-server",
+    "reverse-proxy",
+    "automatic-https",
+    "load-balancing"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "现代化的 Web 服务器与反向代理，默认自动启用 HTTPS，相较于传统 Web 服务器配置，构建理念更加简洁。",
+      "longDescription": "Caddy 开箱即用地自动获取和续订 TLS 证书，使用简洁、易读的配置格式，而不是旧式 Web 服务器那种更繁琐的语法——因此正确提供 HTTPS 服务完全不需要手动配置证书。它以合理的默认设置处理反向代理、静态文件服务和负载均衡。\n\nCaddy 适合那些希望获得简单易用、对开发者友好、自动支持 HTTPS 的 Web 服务器或反向代理的团队，对于不需要 Kubernetes 原生服务发现的团队而言，是目录中 Traefik 或 NGINX 的一个更轻量、配置更简单的替代方案。"
+    },
+    "ja": {
+      "description": "従来の Web サーバー設定に比べてシンプルさを重視して作られた、デフォルトで自動 HTTPS 対応のモダンな Web サーバー兼リバースプロキシです。",
+      "longDescription": "Caddy は、古い Web サーバーのより冗長な構文の代わりに、シンプルで読みやすい設定フォーマットを使って、標準で TLS 証明書を自動的に取得・更新します。そのため、正しく HTTPS を提供するために手動での証明書設定は一切不要です。リバースプロキシ、静的ファイル配信、ロードバランシングを、適切なデフォルト設定で処理します。\n\nCaddy は、自動 HTTPS 対応のシンプルで開発者に優しい Web サーバーやリバースプロキシを求めるチームに向いています。Kubernetes ネイティブなサービスディスカバリを必要としないチームにとって、カタログにある Traefik や NGINX よりも軽量で設定がシンプルな代替手段です。"
+    },
+    "ko": {
+      "description": "기본적으로 자동 HTTPS를 지원하는 현대적인 웹 서버·리버스 프록시로, 전통적인 웹 서버 설정에 비해 단순함을 중시해 만들어졌습니다.",
+      "longDescription": "Caddy는 구형 웹 서버의 더 장황한 문법 대신 단순하고 읽기 쉬운 설정 형식을 사용해, 별도 설정 없이도 TLS 인증서를 자동으로 발급받고 갱신합니다 — 그래서 HTTPS를 올바르게 제공하는 데 수동 인증서 설정이 전혀 필요 없습니다. 합리적인 기본값으로 리버스 프록시, 정적 파일 제공, 로드 밸런싱을 처리합니다.\n\nCaddy는 자동 HTTPS를 지원하는 간단하고 개발자 친화적인 웹 서버나 리버스 프록시를 원하는 팀에 적합하며, Kubernetes 네이티브 서비스 디스커버리가 필요 없는 팀에게는 카탈로그에 있는 Traefik이나 NGINX보다 더 가볍고 설정이 간단한 대안입니다."
+    },
+    "es": {
+      "description": "Servidor web y proxy inverso moderno con HTTPS automático por defecto, construido para ser simple frente a la configuración tradicional de servidores web.",
+      "longDescription": "Caddy obtiene y renueva certificados TLS automáticamente de fábrica, usando un formato de configuración simple y legible en lugar de la sintaxis más verbosa de los servidores web más antiguos, de modo que servir HTTPS correctamente no requiere ninguna configuración manual de certificados. Gestiona el proxy inverso, el servicio de archivos estáticos y el balanceo de carga con valores por defecto sensatos.\n\nCaddy encaja en equipos que quieren un servidor web o proxy inverso sencillo y amigable para desarrolladores con HTTPS automático, una alternativa más ligera y fácil de configurar a Traefik o NGINX (también en este catálogo) para equipos que no necesitan descubrimiento de servicios nativo de Kubernetes."
+    },
+    "de": {
+      "description": "Moderner Webserver und Reverse Proxy mit standardmäßig automatischem HTTPS, gebaut für Einfachheit im Vergleich zur klassischen Webserver-Konfiguration.",
+      "longDescription": "Caddy beschafft und erneuert TLS-Zertifikate automatisch von Haus aus, mit einem einfachen, lesbaren Konfigurationsformat statt der ausführlicheren Syntax älterer Webserver – HTTPS korrekt bereitzustellen erfordert also überhaupt keine manuelle Zertifikatseinrichtung. Es handhabt Reverse-Proxying, das Ausliefern statischer Dateien und Lastverteilung mit sinnvollen Standardeinstellungen.\n\nCaddy eignet sich für Teams, die einen unkomplizierten, entwicklerfreundlichen Webserver oder Reverse Proxy mit automatischem HTTPS wollen – eine leichtgewichtigere, einfacher zu konfigurierende Alternative zu Traefik oder NGINX (ebenfalls in diesem Katalog) für Teams, die keine Kubernetes-native Service Discovery benötigen."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "CAMEL",
+  "slug": "camel-ai",
+  "description": "Open-source framework for research and building systems of multiple communicating, role-playing AI agents that collaborate autonomously.",
+  "longDescription": "CAMEL (Communicative Agents for \"Mind\" Exploration) provides infrastructure for creating multiple AI agents that take on defined roles and communicate with each other to complete tasks or simulate scenarios, with roots in academic research on multi-agent behavior. It's used both for building practical multi-agent applications and for studying how LLM-based agents interact at scale.\n\nCAMEL is a fit for teams and researchers exploring multi-agent systems and emergent agent behavior, a research-oriented alternative to CrewAI (also in this catalog) - both address multi-agent orchestration, with CAMEL leaning more toward experimentation and studying agent interaction patterns.",
+  "repository": "https://github.com/camel-ai/camel",
+  "website": "https://www.camel-ai.org",
+  "documentation": "https://docs.camel-ai.org",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "multi-agent",
+    "ai-agents",
+    "agent-research"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "开源框架，用于研究和构建多个可通信、可扮演角色、能自主协作的 AI 智能体系统。",
+      "longDescription": "CAMEL（Communicative Agents for “Mind” Exploration）提供了构建多个 AI 智能体的基础设施，这些智能体承担既定角色并相互通信以完成任务或模拟场景，其根源来自多智能体行为的学术研究。它既用于构建实用的多智能体应用，也用于研究基于大语言模型的智能体在大规模场景下如何交互。\n\nCAMEL 适合那些正在探索多智能体系统和涌现型智能体行为的团队和研究者，是目录中 CrewAI 的一个更偏研究导向的替代方案——两者都致力于多智能体编排，但 CAMEL 更偏向实验性研究，专注于研究智能体交互模式。"
+    },
+    "ja": {
+      "description": "自律的に協調する、複数のコミュニケーションを行うロールプレイング AI エージェントのシステムを研究・構築するための、オープンソースフレームワークです。",
+      "longDescription": "CAMEL(Communicative Agents for \"Mind\" Exploration)は、定義された役割を担い、タスクの完了やシナリオのシミュレーションのために互いにコミュニケーションを取る複数の AI エージェントを作成するための基盤を提供し、マルチエージェントの振る舞いに関する学術研究にルーツを持っています。実用的なマルチエージェントアプリケーションの構築と、LLM ベースのエージェントが大規模にどう相互作用するかの研究の両方に使われています。\n\nCAMEL は、マルチエージェントシステムや創発的なエージェントの振る舞いを探求するチームや研究者に向いています。(カタログにもある) CrewAI の研究志向の代替手段で、両者ともマルチエージェントオーケストレーションを扱いますが、CAMEL はより実験や、エージェントの相互作用パターンの研究に寄っています。"
+    },
+    "ko": {
+      "description": "자율적으로 협업하는, 여러 개의 소통하는 역할극 AI 에이전트 시스템을 연구하고 구축하기 위한 오픈소스 프레임워크입니다.",
+      "longDescription": "CAMEL(Communicative Agents for \"Mind\" Exploration)은 정의된 역할을 맡고 작업을 완수하거나 시나리오를 시뮬레이션하기 위해 서로 소통하는 여러 AI 에이전트를 만드는 인프라를 제공하며, 멀티 에이전트 행동에 대한 학술 연구에 뿌리를 두고 있습니다. 실용적인 멀티 에이전트 애플리케이션 구축과 LLM 기반 에이전트가 대규모로 어떻게 상호작용하는지 연구하는 데 모두 사용됩니다.\n\nCAMEL은 멀티 에이전트 시스템과 창발적 에이전트 행동을 탐구하는 팀과 연구자에게 적합하며, (카탈로그에 있는) CrewAI의 연구 지향적 대안입니다 — 둘 다 멀티 에이전트 오케스트레이션을 다루지만, CAMEL은 실험과 에이전트 상호작용 패턴 연구에 더 치우쳐 있습니다."
+    },
+    "es": {
+      "description": "Framework de código abierto para investigar y construir sistemas de múltiples agentes de IA que se comunican, interpretan roles y colaboran de forma autónoma.",
+      "longDescription": "CAMEL (Communicative Agents for \"Mind\" Exploration) ofrece infraestructura para crear múltiples agentes de IA que asumen roles definidos y se comunican entre sí para completar tareas o simular escenarios, con raíces en la investigación académica sobre el comportamiento multiagente. Se usa tanto para construir aplicaciones multiagente prácticas como para estudiar cómo interactúan a gran escala los agentes basados en LLM.\n\nCAMEL encaja en equipos e investigadores que exploran sistemas multiagente y comportamiento emergente de agentes, una alternativa orientada a la investigación frente a CrewAI (también en este catálogo): ambos abordan la orquestación multiagente, con CAMEL inclinándose más hacia la experimentación y el estudio de patrones de interacción entre agentes."
+    },
+    "de": {
+      "description": "Open-Source-Framework für Forschung und den Bau von Systemen mehrerer kommunizierender, rollenspielender KI-Agenten, die autonom zusammenarbeiten.",
+      "longDescription": "CAMEL (Communicative Agents for „Mind“ Exploration) bietet Infrastruktur zum Erstellen mehrerer KI-Agenten, die definierte Rollen übernehmen und miteinander kommunizieren, um Aufgaben zu erledigen oder Szenarien zu simulieren, mit Wurzeln in der akademischen Forschung zu Multi-Agenten-Verhalten. Es wird sowohl zum Bau praktischer Multi-Agenten-Anwendungen als auch zum Erforschen genutzt, wie LLM-basierte Agenten im großen Maßstab interagieren.\n\nCAMEL eignet sich für Teams und Forscher, die Multi-Agenten-Systeme und emergentes Agentenverhalten erforschen – eine forschungsorientierte Alternative zu CrewAI (ebenfalls in diesem Katalog): Beide adressieren Multi-Agenten-Orchestrierung, wobei CAMEL eher zu Experimenten und dem Studium von Agenten-Interaktionsmustern tendiert."
+    }
+  }
+}

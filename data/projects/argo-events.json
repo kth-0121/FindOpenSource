@@ -1,0 +1,46 @@
+{
+  "name": "Argo Events",
+  "slug": "argo-events",
+  "description": "Event-driven automation framework for Kubernetes that triggers workflows, functions, or other actions in response to events from any source.",
+  "longDescription": "Argo Events connects a wide range of event sources - webhooks, message queues, cron schedules, cloud events - to triggers that can start an Argo Workflow, invoke a serverless function, or run any other Kubernetes-native action. It runs as Kubernetes custom resources alongside the rest of the Argo project.\n\nArgo Events is a fit for teams already using Argo Workflows (also in this catalog) who need an event-driven trigger layer in front of it, completing the \"event happens, workflow runs\" pattern natively on Kubernetes.",
+  "repository": "https://github.com/argoproj/argo-events",
+  "website": "https://argoproj.github.io/argo-events/",
+  "documentation": "https://argoproj.github.io/argo-events/quick_start/",
+  "categories": [
+    "automation"
+  ],
+  "keywords": [
+    "event-driven-automation",
+    "kubernetes-native",
+    "workflow-trigger",
+    "cloudevents"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Kubernetes 的事件驱动自动化框架，能够根据来自任意来源的事件触发工作流、函数或其他操作。",
+      "longDescription": "Argo Events 将 Webhook、消息队列、定时任务、云事件等众多事件源，与可以启动 Argo Workflow、调用无服务器函数或执行任何其他 Kubernetes 原生操作的触发器连接起来。它以 Kubernetes 自定义资源的形式运行，与 Argo 项目的其他部分协同工作。\n\nArgo Events 适合那些已经在使用 Argo Workflows（同样收录于本目录）、需要在其前面添加事件驱动触发层的团队，从而在 Kubernetes 上原生完成“事件发生，工作流运行”这一模式。"
+    },
+    "ja": {
+      "description": "あらゆるソースからのイベントに応じて、ワークフロー、関数、その他のアクションをトリガーする、Kubernetes 向けのイベント駆動自動化フレームワークです。",
+      "longDescription": "Argo Events は、Webhook、メッセージキュー、cron スケジュール、CloudEvents といった幅広いイベントソースを、Argo Workflow の起動やサーバーレス関数の呼び出し、その他の Kubernetes ネイティブなアクションの実行が可能なトリガーに接続します。Argo プロジェクトの他の部分と並んで、Kubernetes のカスタムリソースとして動作します。\n\nArgo Events は、(同じくカタログにある) Argo Workflows をすでに使用していて、その前段にイベント駆動のトリガー層を必要とするチームに向いており、「イベントが発生し、ワークフローが実行される」というパターンを Kubernetes 上でネイティブに完成させます。"
+    },
+    "ko": {
+      "description": "어떤 소스에서 온 이벤트든 반응해 워크플로, 함수, 기타 작업을 트리거하는, Kubernetes를 위한 이벤트 기반 자동화 프레임워크입니다.",
+      "longDescription": "Argo Events는 웹훅, 메시지 큐, cron 스케줄, CloudEvents 등 다양한 이벤트 소스를 Argo Workflow를 시작하거나 서버리스 함수를 호출하거나 기타 Kubernetes 네이티브 작업을 실행할 수 있는 트리거에 연결합니다. Argo 프로젝트의 다른 부분과 함께 Kubernetes 커스텀 리소스로 동작합니다.\n\nArgo Events는 (카탈로그에 있는) Argo Workflows를 이미 사용 중이며 그 앞단에 이벤트 기반 트리거 계층이 필요한 팀에 적합하며, \"이벤트가 발생하면 워크플로가 실행된다\"는 패턴을 Kubernetes에서 네이티브하게 완성합니다."
+    },
+    "es": {
+      "description": "Framework de automatización orientado a eventos para Kubernetes que dispara workflows, funciones u otras acciones en respuesta a eventos de cualquier origen.",
+      "longDescription": "Argo Events conecta una amplia gama de fuentes de eventos —webhooks, colas de mensajes, programaciones cron, CloudEvents— con disparadores que pueden iniciar un Argo Workflow, invocar una función serverless o ejecutar cualquier otra acción nativa de Kubernetes. Se ejecuta como recursos personalizados de Kubernetes junto al resto del proyecto Argo.\n\nArgo Events encaja en equipos que ya usan Argo Workflows (también en este catálogo) y necesitan una capa de disparo orientada a eventos delante de él, completando el patrón \"ocurre un evento, se ejecuta un workflow\" de forma nativa en Kubernetes."
+    },
+    "de": {
+      "description": "Ereignisgesteuertes Automatisierungs-Framework für Kubernetes, das Workflows, Funktionen oder andere Aktionen als Reaktion auf Ereignisse aus beliebigen Quellen auslöst.",
+      "longDescription": "Argo Events verbindet eine breite Palette von Event-Quellen – Webhooks, Message-Queues, Cron-Zeitpläne, CloudEvents – mit Triggern, die einen Argo Workflow starten, eine Serverless-Funktion aufrufen oder jede andere Kubernetes-native Aktion ausführen können. Es läuft als Kubernetes-Custom-Resources neben dem Rest des Argo-Projekts.\n\nArgo Events eignet sich für Teams, die bereits Argo Workflows (ebenfalls in diesem Katalog) nutzen und eine ereignisgesteuerte Trigger-Schicht davor benötigen, um das Muster „Ereignis passiert, Workflow läuft“ nativ auf Kubernetes zu vervollständigen."
+    }
+  }
+}

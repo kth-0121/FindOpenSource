@@ -1,0 +1,46 @@
+{
+  "name": "SeaTunnel",
+  "slug": "seatunnel",
+  "description": "Distributed data integration platform for moving and transforming data between databases, data lakes, and messaging systems at scale.",
+  "longDescription": "Apache SeaTunnel connects to a very wide range of data sources and destinations - databases, data warehouses, object storage, message queues - through pre-built connectors, letting a team define data synchronization and transformation pipelines without writing custom integration code for each system pair. It supports both batch and streaming data movement.\n\nSeaTunnel is a fit for data engineering teams that need to move and transform data between many different systems, complementing Flink and Spark (also in this catalog), which process data once it's already flowing, by handling the initial connect-and-move step between heterogeneous systems.",
+  "repository": "https://github.com/apache/seatunnel",
+  "website": "https://seatunnel.apache.org",
+  "documentation": "https://seatunnel.apache.org/docs/",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "data-integration",
+    "etl",
+    "data-pipeline",
+    "data-synchronization"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "分布式数据集成平台，用于在数据库、数据湖和消息系统之间大规模迁移和转换数据。",
+      "longDescription": "Apache SeaTunnel 通过预置连接器，连接极其广泛的数据源和目标——数据库、数据仓库、对象存储、消息队列——让团队无需为每一对系统编写自定义集成代码，即可定义数据同步和转换流水线。它同时支持批量和流式数据迁移。\n\nSeaTunnel 适合那些需要在众多不同系统之间迁移和转换数据的数据工程团队，与目录中的 Flink 和 Spark 形成互补——后两者处理的是已经流动起来的数据，而 SeaTunnel 负责异构系统之间最初的连接与迁移这一步。"
+    },
+    "ja": {
+      "description": "データベース、データレイク、メッセージングシステム間で大規模にデータを移動・変換するための、分散型データ統合プラットフォームです。",
+      "longDescription": "Apache SeaTunnel は、データベース、データウェアハウス、オブジェクトストレージ、メッセージキューといった非常に幅広いデータソース・宛先に、あらかじめ用意されたコネクタを通じて接続し、各システムペアごとにカスタムの統合コードを書くことなく、データ同期・変換パイプラインを定義できるようにします。バッチとストリーミングの両方のデータ移動に対応しています。\n\nSeaTunnel は、多数の異なるシステム間でデータを移動・変換する必要があるデータエンジニアリングチームに向いています。(カタログにもある) Flink や Spark を補完する存在で、それらはすでに流れているデータを処理するのに対し、SeaTunnel は異種システム間の最初の接続・移動のステップを担います。"
+    },
+    "ko": {
+      "description": "데이터베이스, 데이터 레이크, 메시징 시스템 간에 대규모로 데이터를 이동하고 변환하는 분산 데이터 통합 플랫폼입니다.",
+      "longDescription": "Apache SeaTunnel은 데이터베이스, 데이터 웨어하우스, 오브젝트 스토리지, 메시지 큐 등 매우 다양한 데이터 소스와 목적지에 미리 만들어진 커넥터를 통해 연결하여, 팀이 시스템 쌍마다 커스텀 통합 코드를 작성하지 않고도 데이터 동기화·변환 파이프라인을 정의할 수 있게 해줍니다. 배치와 스트리밍 데이터 이동을 모두 지원합니다.\n\nSeaTunnel은 여러 다른 시스템 간에 데이터를 이동하고 변환해야 하는 데이터 엔지니어링 팀에 적합하며, (카탈로그에 있는) Flink와 Spark를 보완합니다 — 그것들은 이미 흐르고 있는 데이터를 처리하는 반면, SeaTunnel은 이기종 시스템 간의 최초 연결·이동 단계를 담당합니다."
+    },
+    "es": {
+      "description": "Plataforma de integración de datos distribuida para mover y transformar datos entre bases de datos, data lakes y sistemas de mensajería a gran escala.",
+      "longDescription": "Apache SeaTunnel se conecta a una amplísima variedad de fuentes y destinos de datos —bases de datos, almacenes de datos, almacenamiento de objetos, colas de mensajes— mediante conectores preconstruidos, permitiendo a un equipo definir pipelines de sincronización y transformación de datos sin escribir código de integración a medida para cada par de sistemas. Admite movimiento de datos tanto por lotes como en streaming.\n\nSeaTunnel encaja en equipos de ingeniería de datos que necesitan mover y transformar datos entre muchos sistemas distintos, complementando a Flink y Spark (también en este catálogo), que procesan los datos una vez ya están fluyendo, al encargarse del paso inicial de conexión y movimiento entre sistemas heterogéneos."
+    },
+    "de": {
+      "description": "Verteilte Datenintegrationsplattform zum Verschieben und Transformieren von Daten zwischen Datenbanken, Data Lakes und Messaging-Systemen im großen Maßstab.",
+      "longDescription": "Apache SeaTunnel verbindet sich über vorgefertigte Konnektoren mit einer sehr breiten Palette von Datenquellen und -zielen – Datenbanken, Data Warehouses, Objektspeicher, Message-Queues – und lässt ein Team Datensynchronisations- und -transformationspipelines definieren, ohne für jedes Systempaar benutzerdefinierten Integrationscode zu schreiben. Es unterstützt sowohl Batch- als auch Streaming-Datenbewegung.\n\nSeaTunnel eignet sich für Data-Engineering-Teams, die Daten zwischen vielen verschiedenen Systemen verschieben und transformieren müssen – als Ergänzung zu Flink und Spark (ebenfalls in diesem Katalog), die Daten verarbeiten, sobald sie bereits fließen, indem es den anfänglichen Verbindungs- und Verschiebungsschritt zwischen heterogenen Systemen übernimmt."
+    }
+  }
+}

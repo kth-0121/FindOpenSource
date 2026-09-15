@@ -1,0 +1,45 @@
+{
+  "name": "Graphite",
+  "slug": "graphite",
+  "description": "Time-series metrics storage and graphing system that has been a foundational building block of monitoring stacks for over a decade.",
+  "longDescription": "Graphite stores numeric time-series data and renders it as graphs through a simple, well-established storage format and query API that many other monitoring tools - including Grafana - were originally built to consume. It focuses purely on storing and rendering time series rather than collection or alerting.\n\nGraphite is a fit for teams maintaining older monitoring stacks built around it, or who want a simple, proven metrics store, distinct from Prometheus's pull-based, label-oriented model already in this catalog.",
+  "repository": "https://github.com/graphite-project/graphite-web",
+  "website": "https://graphiteapp.org",
+  "documentation": "https://graphite.readthedocs.io",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "time-series-database",
+    "metrics-storage",
+    "graphing"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "时序指标存储与绘图系统，十多年来一直是众多监控技术栈的基础构建模块。",
+      "longDescription": "Graphite 存储数值型时序数据，并通过一套简单、成熟的存储格式和查询 API 将其渲染为图表——包括 Grafana 在内的许多其他监控工具最初都是围绕这套接口构建的。它专注于存储和渲染时序数据本身，而不涉及采集或告警。\n\nGraphite 适合那些维护着围绕它构建的旧监控技术栈、或希望使用简单且久经验证的指标存储系统的团队，这与目录中基于拉取模式、以标签为核心的 Prometheus 模型不同。"
+    },
+    "ja": {
+      "description": "10年以上にわたり監視スタックの基礎的な構成要素であり続けている、時系列メトリクスストレージ・グラフ化システムです。",
+      "longDescription": "Graphite は数値の時系列データを保存し、Grafana を含む他の多くの監視ツールが元々消費するために作られた、シンプルで実績のあるストレージフォーマットとクエリ API を通じてグラフとして描画します。収集やアラートではなく、時系列の保存と描画に純粋に特化しています。\n\nGraphite は、それを中心に構築された古い監視スタックを維持しているチームや、シンプルで実績のあるメトリクスストアを求めるチームに向いており、カタログに既にあるプル型でラベル指向の Prometheus のモデルとは異なります。"
+    },
+    "ko": {
+      "description": "10년 넘게 모니터링 스택의 기초 구성 요소였던 시계열 메트릭 저장·그래프 시스템입니다.",
+      "longDescription": "Graphite는 숫자 시계열 데이터를 저장하고, 단순하고 오래 검증된 저장 형식과 쿼리 API를 통해 그래프로 렌더링합니다 — Grafana를 포함한 다른 많은 모니터링 도구가 원래 이를 소비하도록 만들어졌습니다. 수집이나 알림이 아니라 시계열의 저장과 렌더링에만 순수하게 집중합니다.\n\nGraphite는 이를 중심으로 구축된 오래된 모니터링 스택을 유지 관리하거나, 단순하고 검증된 메트릭 저장소를 원하는 팀에 적합하며, 카탈로그에 이미 있는 풀 기반이고 레이블 지향적인 Prometheus의 모델과는 구별됩니다."
+    },
+    "es": {
+      "description": "Sistema de almacenamiento y graficado de métricas de series temporales que lleva más de una década siendo un componente fundamental de las pilas de monitorización.",
+      "longDescription": "Graphite almacena datos numéricos de series temporales y los representa como gráficos mediante un formato de almacenamiento y una API de consulta sencillos y consolidados, que muchas otras herramientas de monitorización —incluida Grafana— se construyeron originalmente para consumir. Se centra exclusivamente en almacenar y representar series temporales, no en la recolección ni las alertas.\n\nGraphite encaja en equipos que mantienen pilas de monitorización más antiguas construidas en torno a él, o que quieren un almacén de métricas simple y probado, distinto del modelo basado en sondeo y orientado a etiquetas de Prometheus ya presente en este catálogo."
+    },
+    "de": {
+      "description": "Zeitreihen-Metrikspeicher- und Graphing-System, das seit über einem Jahrzehnt ein grundlegender Baustein von Monitoring-Stacks ist.",
+      "longDescription": "Graphite speichert numerische Zeitreihendaten und stellt sie als Graphen über ein einfaches, etabliertes Speicherformat und eine Abfrage-API dar, für deren Konsum viele andere Monitoring-Tools – darunter Grafana – ursprünglich gebaut wurden. Es konzentriert sich rein auf das Speichern und Darstellen von Zeitreihen statt auf Sammlung oder Alarmierung.\n\nGraphite eignet sich für Teams, die ältere, darauf aufgebaute Monitoring-Stacks pflegen, oder die einen einfachen, bewährten Metrikspeicher wollen – anders als das Pull-basierte, label-orientierte Modell von Prometheus, das bereits in diesem Katalog ist."
+    }
+  }
+}

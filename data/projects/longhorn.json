@@ -1,0 +1,46 @@
+{
+  "name": "Longhorn",
+  "slug": "longhorn",
+  "description": "Lightweight, distributed block storage for Kubernetes, designed to be simple to deploy and operate compared to heavier storage systems.",
+  "longDescription": "Longhorn provides persistent block storage volumes for Kubernetes workloads with built-in snapshotting, backup, and disaster recovery, aiming for a much simpler operational footprint than Ceph while still being distributed and highly available. It's a CNCF graduated project popular in edge and homelab Kubernetes deployments as well as production clusters.\n\nLonghorn is a fit for teams that want distributed block storage for Kubernetes without Ceph's operational complexity, a lighter-weight alternative to Rook and Ceph already in this catalog for teams that don't need Ceph's full feature set.",
+  "repository": "https://github.com/longhorn/longhorn",
+  "website": "https://longhorn.io",
+  "documentation": "https://longhorn.io/docs/",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "block-storage",
+    "kubernetes-storage",
+    "distributed-storage",
+    "backup"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Kubernetes 的轻量级分布式块存储，相较于更重的存储系统，设计上更易于部署和运维。",
+      "longDescription": "Longhorn 为 Kubernetes 工作负载提供持久化块存储卷，内置快照、备份和灾难恢复功能，目标是在保持分布式和高可用的同时，实现比 Ceph 简单得多的运维负担。它是一个 CNCF 毕业项目，在边缘和家庭实验室 Kubernetes 部署以及生产集群中都很受欢迎。\n\nLonghorn 适合那些希望为 Kubernetes 获得分布式块存储、又不想承担 Ceph 运维复杂性的团队，对于不需要 Ceph 完整功能集的团队而言，它是目录中 Rook 和 Ceph 的一个更轻量的替代方案。"
+    },
+    "ja": {
+      "description": "より重いストレージシステムに比べ、デプロイと運用がシンプルであることを目指して設計された、Kubernetes 向けの軽量な分散ブロックストレージです。",
+      "longDescription": "Longhorn は、Kubernetes ワークロード向けに永続的なブロックストレージボリュームを提供し、スナップショット、バックアップ、災害復旧機能を標準搭載しています。分散型で高可用性を保ちながらも、Ceph よりもはるかにシンプルな運用負担を目指しています。CNCF を卒業したプロジェクトで、エッジやホームラボの Kubernetes 展開はもちろん、本番クラスタでも人気があります。\n\nLonghorn は、Ceph の運用上の複雑さを伴わずに Kubernetes 向けの分散ブロックストレージを求めるチームに向いています。Ceph のフル機能を必要としないチームにとって、カタログに既にある Rook や Ceph よりも軽量な代替手段です。"
+    },
+    "ko": {
+      "description": "더 무거운 스토리지 시스템에 비해 배포와 운영이 간단하도록 설계된, Kubernetes를 위한 경량 분산 블록 스토리지입니다.",
+      "longDescription": "Longhorn은 Kubernetes 워크로드를 위한 영구 블록 스토리지 볼륨을 제공하며, 스냅샷, 백업, 재해 복구가 기본 내장되어 있어 분산형이면서 고가용성을 유지하면서도 Ceph보다 훨씬 단순한 운영 부담을 목표로 합니다. CNCF 졸업 프로젝트로, 엣지와 홈랩 Kubernetes 배포는 물론 프로덕션 클러스터에서도 인기가 있습니다.\n\nLonghorn은 Ceph의 운영 복잡성 없이 Kubernetes용 분산 블록 스토리지를 원하는 팀에 적합하며, Ceph의 전체 기능 세트가 필요 없는 팀에게 카탈로그에 있는 Rook, Ceph보다 더 가벼운 대안입니다."
+    },
+    "es": {
+      "description": "Almacenamiento de bloques distribuido y ligero para Kubernetes, diseñado para ser sencillo de desplegar y operar en comparación con sistemas de almacenamiento más pesados.",
+      "longDescription": "Longhorn ofrece volúmenes de almacenamiento de bloques persistentes para cargas de trabajo de Kubernetes con snapshots, copias de seguridad y recuperación ante desastres integrados, buscando una huella operativa mucho más simple que Ceph, sin dejar de ser distribuido y de alta disponibilidad. Es un proyecto graduado de la CNCF popular tanto en despliegues de Kubernetes en el edge y en homelabs como en clústeres de producción.\n\nLonghorn encaja en equipos que quieren almacenamiento de bloques distribuido para Kubernetes sin la complejidad operativa de Ceph, una alternativa más ligera a Rook y Ceph ya presentes en este catálogo para equipos que no necesitan el conjunto completo de funciones de Ceph."
+    },
+    "de": {
+      "description": "Leichtgewichtiger, verteilter Blockspeicher für Kubernetes, der im Vergleich zu schwereren Speichersystemen einfach bereitzustellen und zu betreiben sein soll.",
+      "longDescription": "Longhorn stellt persistente Block-Storage-Volumes für Kubernetes-Workloads mit eingebautem Snapshotting, Backup und Disaster Recovery bereit und strebt einen deutlich einfacheren operativen Aufwand als Ceph an, während es dennoch verteilt und hochverfügbar bleibt. Es ist ein von der CNCF graduiertes Projekt, beliebt sowohl in Edge- und Homelab-Kubernetes-Deployments als auch in Produktionsclustern.\n\nLonghorn eignet sich für Teams, die verteilten Blockspeicher für Kubernetes ohne Cephs operative Komplexität wollen – eine leichtgewichtigere Alternative zu Rook und Ceph, die bereits in diesem Katalog sind, für Teams, die nicht den vollen Funktionsumfang von Ceph benötigen."
+    }
+  }
+}

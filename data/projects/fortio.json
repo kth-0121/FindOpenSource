@@ -1,0 +1,46 @@
+{
+  "name": "Fortio",
+  "slug": "fortio",
+  "description": "Load testing and network measurement tool built for microservices, reporting detailed latency percentiles under sustained load.",
+  "longDescription": "Fortio was built at Google/Istio to load-test microservices and measure how latency behaves under high concurrent load, reporting detailed percentile breakdowns rather than just averages. It supports HTTP and gRPC, runs as a CLI or library, and includes a small built-in UI for visualizing results.\n\nFortio is a fit for teams working with gRPC or service-mesh-based microservices who need precise latency-under-load measurements, complementing k6 (also in this catalog), which is more focused on general-purpose scripted load testing scenarios.",
+  "repository": "https://github.com/fortio/fortio",
+  "website": "https://fortio.org",
+  "documentation": "https://github.com/fortio/fortio#readme",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "load-testing",
+    "grpc-testing",
+    "latency-measurement",
+    "performance-testing"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向微服务构建的负载测试与网络测量工具，可在持续负载下报告详细的延迟百分位数据。",
+      "longDescription": "Fortio 由 Google/Istio 团队构建，用于对微服务进行负载测试，并测量高并发负载下的延迟表现，提供详细的百分位数分布，而不仅仅是平均值。它支持 HTTP 和 gRPC，可作为命令行工具或库运行，并内置一个小型 UI 用于可视化结果。\n\nFortio 适合使用 gRPC 或基于服务网格的微服务、需要精确的负载下延迟测量的团队，与目录中的 k6 形成互补——k6 更侧重于通用的脚本化负载测试场景。"
+    },
+    "ja": {
+      "description": "マイクロサービス向けに作られた負荷テスト・ネットワーク計測ツールで、持続的な負荷のもとで詳細なレイテンシのパーセンタイルを報告します。",
+      "longDescription": "Fortio は Google/Istio によって、マイクロサービスを負荷テストし、高い同時実行負荷のもとでレイテンシがどう振る舞うかを、平均値だけでなく詳細なパーセンタイル分布として報告するために作られました。HTTP と gRPC に対応し、CLI またはライブラリとして動作し、結果を可視化する小さな組み込み UI も備えています。\n\nFortio は、gRPC やサービスメッシュベースのマイクロサービスを扱っていて、負荷下での正確なレイテンシ計測を必要とするチームに向いています。カタログ内の k6 を補完する存在で、k6 はより汎用的なスクリプトベースの負荷テストシナリオに重点を置いています。"
+    },
+    "ko": {
+      "description": "마이크로서비스를 위해 만들어진 부하 테스트·네트워크 측정 도구로, 지속적인 부하 상태에서 상세한 지연 시간 백분위수를 보고합니다.",
+      "longDescription": "Fortio는 Google/Istio에서 마이크로서비스를 부하 테스트하고 높은 동시 부하 상태에서 지연 시간이 어떻게 동작하는지 측정하기 위해 만들어졌으며, 단순 평균이 아니라 상세한 백분위수 분포를 보고합니다. HTTP와 gRPC를 지원하며 CLI나 라이브러리로 실행할 수 있고, 결과를 시각화하는 작은 내장 UI도 포함합니다.\n\nFortio는 gRPC나 서비스 메시 기반 마이크로서비스를 다루며 부하 상태에서 정확한 지연 시간 측정이 필요한 팀에 적합합니다. 카탈로그에 있는 k6를 보완하는 관계로, k6는 더 범용적인 스크립트 기반 부하 테스트 시나리오에 중점을 둡니다."
+    },
+    "es": {
+      "description": "Herramienta de pruebas de carga y medición de red construida para microservicios, que informa percentiles detallados de latencia bajo carga sostenida.",
+      "longDescription": "Fortio se construyó en Google/Istio para probar la carga de microservicios y medir cómo se comporta la latencia bajo alta concurrencia, informando desgloses detallados por percentiles en lugar de solo promedios. Admite HTTP y gRPC, se ejecuta como CLI o biblioteca, e incluye una pequeña UI integrada para visualizar resultados.\n\nFortio encaja en equipos que trabajan con gRPC o microservicios basados en service mesh que necesitan mediciones precisas de latencia bajo carga, complementando a k6 (también en este catálogo), más centrado en escenarios de pruebas de carga scriptadas de propósito general."
+    },
+    "de": {
+      "description": "Last- und Netzwerkmesstool für Microservices, das detaillierte Latenz-Perzentile unter anhaltender Last meldet.",
+      "longDescription": "Fortio wurde bei Google/Istio gebaut, um Microservices lastzutesten und zu messen, wie sich die Latenz unter hoher gleichzeitiger Last verhält, wobei es detaillierte Perzentil-Aufschlüsselungen statt nur Durchschnittswerte meldet. Es unterstützt HTTP und gRPC, läuft als CLI oder Bibliothek und enthält eine kleine eingebaute UI zur Visualisierung von Ergebnissen.\n\nFortio eignet sich für Teams, die mit gRPC oder Service-Mesh-basierten Microservices arbeiten und präzise Latenzmessungen unter Last benötigen – als Ergänzung zu k6 (ebenfalls in diesem Katalog), das stärker auf allgemeine, skriptbasierte Lasttest-Szenarien fokussiert ist."
+    }
+  }
+}

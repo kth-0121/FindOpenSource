@@ -1,0 +1,45 @@
+{
+  "name": "Flink",
+  "slug": "flink",
+  "description": "Distributed stream processing engine for computing over continuous, unbounded data streams with exactly-once correctness guarantees.",
+  "longDescription": "Apache Flink processes data as continuous streams rather than fixed batches, computing aggregations, joins, and pattern detection over events as they arrive with low latency and exactly-once processing guarantees even after failures. It also supports batch processing as a special case of streaming.\n\nFlink is a fit for teams building real-time data pipelines, fraud detection, or event-driven analytics that need to process data as it arrives rather than in scheduled batches, commonly paired with Apache Kafka (also in this catalog) as the event source.",
+  "repository": "https://github.com/apache/flink",
+  "website": "https://flink.apache.org",
+  "documentation": "https://nightlies.apache.org/flink/flink-docs-stable/",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "stream-processing",
+    "real-time-analytics",
+    "event-processing"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "分布式流处理引擎，以精确一次的正确性保证，对持续、无界的数据流进行计算。",
+      "longDescription": "Apache Flink 将数据作为持续的流而非固定批次来处理，能在事件到达时以低延迟计算聚合、连接和模式检测，即使发生故障也能保证精确一次的处理语义。它还支持将批处理作为流处理的一种特殊情况来实现。\n\nFlink 适合那些构建实时数据管道、欺诈检测或事件驱动分析、需要在数据到达时立即处理而非按计划批量处理的团队，通常与目录中的 Apache Kafka 搭配作为事件来源。"
+    },
+    "ja": {
+      "description": "継続的で無限のデータストリームに対して、Exactly-once の正確性保証のもとで計算を行う、分散型ストリーム処理エンジンです。",
+      "longDescription": "Apache Flink は、固定バッチではなく継続的なストリームとしてデータを処理し、イベントが到着した時点で低レイテンシかつ Exactly-once の処理保証(障害後も含む)のもとで集計、結合、パターン検出を計算します。バッチ処理もストリーミングの特殊なケースとしてサポートしています。\n\nFlink は、スケジュールされたバッチではなく、データが到着した時点で処理する必要があるリアルタイムデータパイプライン、不正検知、イベント駆動の分析を構築するチームに向いています。(カタログにもある) Apache Kafka とイベントソースとして組み合わせて使われることが一般的です。"
+    },
+    "ko": {
+      "description": "지속적이고 무한한 데이터 스트림에 대해 정확히 한 번(exactly-once) 처리를 보장하며 연산하는 분산 스트림 처리 엔진입니다.",
+      "longDescription": "Apache Flink는 고정된 배치가 아니라 지속적인 스트림으로 데이터를 처리하며, 이벤트가 도착하는 즉시 낮은 지연 시간과 장애 후에도 유지되는 정확히 한 번의 처리 보장 아래 집계, 조인, 패턴 감지를 수행합니다. 배치 처리도 스트리밍의 특수한 경우로 지원합니다.\n\nFlink는 예약된 배치가 아니라 데이터가 도착하는 즉시 처리해야 하는 실시간 데이터 파이프라인, 사기 탐지, 이벤트 기반 분석을 구축하는 팀에 적합하며, (카탈로그에 있는) Apache Kafka와 이벤트 소스로 흔히 짝을 이룹니다."
+    },
+    "es": {
+      "description": "Motor de procesamiento de streams distribuido para calcular sobre flujos de datos continuos e ilimitados con garantías de exactitud exactly-once.",
+      "longDescription": "Apache Flink procesa los datos como streams continuos en lugar de lotes fijos, calculando agregaciones, joins y detección de patrones sobre los eventos a medida que llegan, con baja latencia y garantías de procesamiento exactly-once incluso tras fallos. También admite el procesamiento por lotes como un caso especial de streaming.\n\nFlink encaja en equipos que construyen pipelines de datos en tiempo real, detección de fraude o analítica orientada a eventos que necesitan procesar los datos según llegan en lugar de en lotes programados, habitualmente emparejado con Apache Kafka (también en este catálogo) como fuente de eventos."
+    },
+    "de": {
+      "description": "Verteilte Stream-Processing-Engine zur Berechnung über kontinuierliche, unbegrenzte Datenströme mit Exactly-once-Korrektheitsgarantien.",
+      "longDescription": "Apache Flink verarbeitet Daten als kontinuierliche Ströme statt fester Batches und berechnet Aggregationen, Joins und Mustererkennung über Ereignisse, sobald sie eintreffen, mit niedriger Latenz und Exactly-once-Verarbeitungsgarantien auch nach Ausfällen. Es unterstützt auch Batch-Verarbeitung als Spezialfall des Streamings.\n\nFlink eignet sich für Teams, die Echtzeit-Datenpipelines, Betrugserkennung oder ereignisgesteuerte Analytics bauen und Daten verarbeiten müssen, sobald sie eintreffen, statt in geplanten Batches – häufig gepaart mit Apache Kafka (ebenfalls in diesem Katalog) als Ereignisquelle."
+    }
+  }
+}

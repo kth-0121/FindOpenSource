@@ -1,0 +1,46 @@
+{
+  "name": "StackStorm",
+  "slug": "stackstorm",
+  "description": "Event-driven automation platform that triggers actions and workflows automatically in response to events across your infrastructure.",
+  "longDescription": "StackStorm connects event sources - monitoring alerts, webhooks, sensors, schedules - to automated actions and workflows, acting as a programmable \"if this happens, do that\" layer for IT operations. Its rule engine lets teams codify remediation and operational runbooks so routine incidents are handled automatically instead of manually.\n\nStackStorm is a fit for operations teams that want to automate reactive, event-triggered tasks - auto-remediation, alert-driven runbooks, ChatOps - a different niche from Temporal or Argo Workflows (also in this catalog), which orchestrate explicitly-invoked application workflows rather than reacting to external events.",
+  "repository": "https://github.com/StackStorm/st2",
+  "website": "https://stackstorm.com",
+  "documentation": "https://docs.stackstorm.com",
+  "categories": [
+    "automation"
+  ],
+  "keywords": [
+    "event-driven-automation",
+    "itops",
+    "runbook-automation",
+    "chatops"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "事件驱动的自动化平台，能够根据基础设施中发生的事件自动触发操作和工作流。",
+      "longDescription": "StackStorm 将监控告警、Webhook、传感器、定时任务等事件源与自动化操作和工作流连接起来，充当 IT 运维中可编程的“如果发生……就执行……”层。其规则引擎让团队可以将修复措施和运维手册代码化，使常规事件能够自动处理而不必人工介入。\n\nStackStorm 适合那些希望自动化响应式、事件触发型任务（自动修复、告警驱动的运维手册、ChatOps）的运维团队，这与目录中的 Temporal 或 Argo Workflows 是不同的细分领域——后两者编排的是显式调用的应用工作流，而不是对外部事件做出反应。"
+    },
+    "ja": {
+      "description": "インフラ全体で発生するイベントに応じて、アクションやワークフローを自動的にトリガーするイベント駆動の自動化プラットフォームです。",
+      "longDescription": "StackStorm は、監視アラート、Webhook、センサー、スケジュールといったイベントソースを自動化されたアクションやワークフローに接続し、IT オペレーション向けのプログラム可能な「これが起きたら、あれをする」レイヤーとして機能します。ルールエンジンにより、チームは修復対応や運用ランブックをコード化でき、日常的なインシデントを手作業ではなく自動で処理できます。\n\nStackStorm は、自動修復、アラート駆動のランブック、ChatOps といった反応的でイベントトリガー型のタスクを自動化したい運用チームに向いています。カタログ内の Temporal や Argo Workflows とは異なるニッチで、それらは外部イベントへの反応ではなく、明示的に呼び出されるアプリケーションワークフローをオーケストレーションします。"
+    },
+    "ko": {
+      "description": "인프라 전반에서 발생하는 이벤트에 반응해 작업과 워크플로를 자동으로 트리거하는 이벤트 기반 자동화 플랫폼입니다.",
+      "longDescription": "StackStorm은 모니터링 알림, 웹훅, 센서, 스케줄 같은 이벤트 소스를 자동화된 작업과 워크플로에 연결해, IT 운영을 위한 프로그래밍 가능한 \"이런 일이 생기면 이렇게 하라\" 계층 역할을 합니다. 규칙 엔진 덕분에 팀은 복구 조치와 운영 런북을 코드화할 수 있어, 일상적인 인시던트를 수동이 아니라 자동으로 처리할 수 있습니다.\n\nStackStorm은 자동 복구, 알림 기반 런북, ChatOps 같은 반응형·이벤트 트리거형 작업을 자동화하고 싶은 운영 팀에 적합합니다. 카탈로그에 있는 Temporal이나 Argo Workflows와는 다른 영역으로, 그것들은 외부 이벤트에 반응하는 것이 아니라 명시적으로 호출되는 애플리케이션 워크플로를 오케스트레이션합니다."
+    },
+    "es": {
+      "description": "Plataforma de automatización orientada a eventos que dispara acciones y workflows automáticamente en respuesta a eventos de tu infraestructura.",
+      "longDescription": "StackStorm conecta fuentes de eventos —alertas de monitorización, webhooks, sensores, programaciones— con acciones y workflows automatizados, actuando como una capa programable de \"si pasa esto, haz aquello\" para operaciones de TI. Su motor de reglas permite a los equipos codificar remediaciones y runbooks operativos para que los incidentes rutinarios se gestionen automáticamente en lugar de manualmente.\n\nStackStorm encaja en equipos de operaciones que quieren automatizar tareas reactivas disparadas por eventos —auto-remediación, runbooks basados en alertas, ChatOps—, un nicho distinto al de Temporal o Argo Workflows (también en este catálogo), que orquestan workflows de aplicación invocados explícitamente en lugar de reaccionar a eventos externos."
+    },
+    "de": {
+      "description": "Ereignisgesteuerte Automatisierungsplattform, die Aktionen und Workflows automatisch als Reaktion auf Ereignisse in deiner Infrastruktur auslöst.",
+      "longDescription": "StackStorm verbindet Event-Quellen – Monitoring-Alarme, Webhooks, Sensoren, Zeitpläne – mit automatisierten Aktionen und Workflows und fungiert als programmierbare „Wenn das passiert, tu das“-Schicht für den IT-Betrieb. Seine Regel-Engine lässt Teams Abhilfemaßnahmen und Betriebs-Runbooks codifizieren, sodass Routine-Vorfälle automatisch statt manuell behandelt werden.\n\nStackStorm eignet sich für Betriebsteams, die reaktive, ereignisgetriggerte Aufgaben automatisieren wollen – Auto-Remediation, alarmgesteuerte Runbooks, ChatOps – eine andere Nische als Temporal oder Argo Workflows (ebenfalls in diesem Katalog), die explizit aufgerufene Anwendungs-Workflows orchestrieren, statt auf externe Ereignisse zu reagieren."
+    }
+  }
+}

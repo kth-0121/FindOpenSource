@@ -1,0 +1,47 @@
+{
+  "name": "InfluxDB",
+  "slug": "influxdb",
+  "description": "Purpose-built time-series database for metrics, events, and real-time analytics at high write volumes.",
+  "longDescription": "InfluxDB is a database designed specifically for time-stamped data - metrics, sensor readings, application events - optimized for very high write throughput and time-range queries, with its own query language built around time-series operations. It's used both as a monitoring backend and directly by applications that generate time-series data.\n\nInfluxDB is a fit for teams that need a general-purpose time-series database rather than one purpose-built exclusively for Prometheus-style metrics, and for IoT, sensor, or analytics use cases beyond infrastructure monitoring.",
+  "repository": "https://github.com/influxdata/influxdb",
+  "website": "https://www.influxdata.com",
+  "documentation": "https://docs.influxdata.com",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "time-series-database",
+    "metrics",
+    "iot",
+    "real-time-analytics"
+  ],
+  "languages": [
+    "Go",
+    "Rust"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "专为高写入量下的指标、事件和实时分析而设计的时序数据库。",
+      "longDescription": "InfluxDB 是一个专门为带时间戳的数据——指标、传感器读数、应用事件——设计的数据库，针对极高的写入吞吐量和时间范围查询进行了优化，并拥有一套围绕时序操作构建的专属查询语言。它既可作为监控后端使用，也可被直接生成时序数据的应用所使用。\n\nInfluxDB 适合那些需要通用时序数据库、而非专为 Prometheus 风格指标打造的数据库的团队，也适用于物联网、传感器或超出基础设施监控范畴的分析场景。"
+    },
+    "ja": {
+      "description": "高い書き込み量のもとで、メトリクス、イベント、リアルタイム分析のために特化して構築された時系列データベースです。",
+      "longDescription": "InfluxDB は、メトリクス、センサーの読み取り値、アプリケーションイベントといったタイムスタンプ付きデータ専用に設計されたデータベースで、非常に高い書き込みスループットと時間範囲クエリに最適化されており、時系列操作を中心に構築された独自のクエリ言語を備えています。監視バックエンドとしても、時系列データを生成するアプリケーションから直接利用される形でも使われます。\n\nInfluxDB は、Prometheus スタイルのメトリクス専用ではなく、汎用的な時系列データベースを必要とするチームや、インフラ監視の枠を超えた IoT・センサー・分析のユースケースに向いています。"
+    },
+    "ko": {
+      "description": "높은 쓰기 처리량에서 메트릭, 이벤트, 실시간 분석을 위해 전용으로 만들어진 시계열 데이터베이스입니다.",
+      "longDescription": "InfluxDB는 메트릭, 센서 데이터, 애플리케이션 이벤트 같은 타임스탬프가 찍힌 데이터를 위해 전용으로 설계된 데이터베이스로, 매우 높은 쓰기 처리량과 시간 범위 쿼리에 최적화되어 있으며 시계열 연산을 중심으로 만들어진 자체 쿼리 언어를 갖추고 있습니다. 모니터링 백엔드로도, 시계열 데이터를 생성하는 애플리케이션이 직접 사용하는 용도로도 쓰입니다.\n\nInfluxDB는 Prometheus 스타일 메트릭 전용이 아니라 범용 시계열 데이터베이스가 필요한 팀, 그리고 인프라 모니터링을 넘어선 IoT, 센서, 분석 사용 사례에 적합합니다."
+    },
+    "es": {
+      "description": "Base de datos de series temporales construida específicamente para métricas, eventos y analítica en tiempo real con altos volúmenes de escritura.",
+      "longDescription": "InfluxDB es una base de datos diseñada específicamente para datos con marca de tiempo —métricas, lecturas de sensores, eventos de aplicación—, optimizada para un rendimiento de escritura muy alto y consultas por rango temporal, con su propio lenguaje de consulta construido en torno a operaciones de series temporales. Se usa tanto como backend de monitorización como directamente por aplicaciones que generan datos de series temporales.\n\nInfluxDB encaja en equipos que necesitan una base de datos de series temporales de propósito general en lugar de una construida exclusivamente para métricas al estilo Prometheus, y para casos de uso de IoT, sensores o analítica más allá de la monitorización de infraestructura."
+    },
+    "de": {
+      "description": "Speziell für Metriken, Events und Echtzeitanalysen bei hohem Schreibvolumen entwickelte Zeitreihendatenbank.",
+      "longDescription": "InfluxDB ist eine Datenbank, die speziell für zeitgestempelte Daten entwickelt wurde – Metriken, Sensormesswerte, Anwendungsereignisse –, optimiert für sehr hohen Schreibdurchsatz und Zeitbereichsabfragen, mit einer eigenen, um Zeitreihenoperationen herum gebauten Abfragesprache. Sie wird sowohl als Monitoring-Backend als auch direkt von Anwendungen genutzt, die Zeitreihendaten erzeugen.\n\nInfluxDB eignet sich für Teams, die eine allgemeine Zeitreihendatenbank statt einer ausschließlich für Prometheus-artige Metriken gebauten benötigen, sowie für IoT-, Sensor- oder Analytics-Anwendungsfälle jenseits der Infrastrukturüberwachung."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Docling",
+  "slug": "docling",
+  "description": "Document parsing library that converts PDFs, Word docs, and other formats into clean, structured data ready for LLM and RAG pipelines.",
+  "longDescription": "Docling parses complex document formats - PDFs with tables and figures, Word documents, PowerPoint files, and more - into structured representations (like Markdown or JSON) that preserve layout information an LLM can actually use, rather than the garbled plain text a naive PDF-to-text conversion produces. It's built specifically with RAG and LLM ingestion pipelines in mind.\n\nDocling is a fit for teams feeding documents into an LLM or RAG pipeline who need accurate structure preservation, complementing Tesseract (also in this catalog) - Tesseract recognizes text from raw pixels, while Docling focuses on understanding a document's structure and layout.",
+  "repository": "https://github.com/docling-project/docling",
+  "website": "https://docling-project.github.io/docling/",
+  "documentation": "https://docling-project.github.io/docling/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "document-parsing",
+    "rag",
+    "pdf-processing",
+    "data-extraction"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "文档解析库，将 PDF、Word 文档等格式转换为适用于 LLM 和 RAG 流水线的干净结构化数据。",
+      "longDescription": "Docling 能解析复杂的文档格式——带表格和图片的 PDF、Word 文档、PowerPoint 文件等——转换为保留版式信息、可供大语言模型实际使用的结构化表示（如 Markdown 或 JSON），而不是简单的 PDF 转文本所产生的杂乱纯文本。它是专门为 RAG 和大语言模型数据摄取流水线而构建的。\n\nDocling 适合那些需要将文档输入大语言模型或 RAG 流水线、并要求精确保留结构的团队，与目录中的 Tesseract 形成互补——Tesseract 从原始像素中识别文字，而 Docling 专注于理解文档的结构和版式。"
+    },
+    "ja": {
+      "description": "PDF、Word ドキュメントなどのフォーマットを、LLM や RAG パイプライン向けにきれいで構造化されたデータへ変換する、ドキュメント解析ライブラリです。",
+      "longDescription": "Docling は、表や図を含む PDF、Word 文書、PowerPoint ファイルなど、複雑なドキュメントフォーマットを、単純な PDF からテキストへの変換で生じる文字化けしたプレーンテキストではなく、LLM が実際に活用できるレイアウト情報を保持した構造化された表現(Markdown や JSON など)に解析します。RAG や LLM の取り込みパイプラインを特に念頭に置いて構築されています。\n\nDocling は、正確な構造の保持を必要とする、LLM や RAG パイプラインにドキュメントを取り込むチームに向いています。(カタログにもある) Tesseract を補完する存在で、Tesseract が生のピクセルからテキストを認識するのに対し、Docling はドキュメントの構造とレイアウトを理解することに重点を置いています。"
+    },
+    "ko": {
+      "description": "PDF, Word 문서 등의 형식을 LLM과 RAG 파이프라인에 바로 사용할 수 있는 깔끔하고 구조화된 데이터로 변환하는 문서 파싱 라이브러리입니다.",
+      "longDescription": "Docling은 표와 그림이 있는 PDF, Word 문서, PowerPoint 파일 등 복잡한 문서 형식을, 단순한 PDF-텍스트 변환이 만들어내는 깨진 일반 텍스트가 아니라 LLM이 실제로 활용할 수 있는 레이아웃 정보를 보존한 구조화된 표현(Markdown이나 JSON 등)으로 파싱합니다. RAG와 LLM 수집 파이프라인을 염두에 두고 특별히 만들어졌습니다.\n\nDocling은 정확한 구조 보존이 필요한, 문서를 LLM이나 RAG 파이프라인에 공급하는 팀에 적합하며, (카탈로그에 있는) Tesseract를 보완합니다 — Tesseract는 원시 픽셀에서 텍스트를 인식하는 반면, Docling은 문서의 구조와 레이아웃을 이해하는 데 초점을 맞춥니다."
+    },
+    "es": {
+      "description": "Biblioteca de análisis de documentos que convierte PDFs, documentos de Word y otros formatos en datos limpios y estructurados listos para pipelines de LLM y RAG.",
+      "longDescription": "Docling analiza formatos de documento complejos —PDFs con tablas y figuras, documentos de Word, archivos de PowerPoint y más— y los convierte en representaciones estructuradas (como Markdown o JSON) que conservan la información de maquetación que un LLM puede realmente usar, en lugar del texto plano y confuso que produce una conversión ingenua de PDF a texto. Está construido pensando específicamente en pipelines de RAG e ingesta de LLM.\n\nDocling encaja en equipos que alimentan documentos a un LLM o pipeline de RAG y necesitan una conservación precisa de la estructura, complementando a Tesseract (también en este catálogo): Tesseract reconoce texto a partir de píxeles en bruto, mientras que Docling se centra en comprender la estructura y maquetación de un documento."
+    },
+    "de": {
+      "description": "Dokumentenparsing-Bibliothek, die PDFs, Word-Dokumente und andere Formate in saubere, strukturierte Daten für LLM- und RAG-Pipelines umwandelt.",
+      "longDescription": "Docling parst komplexe Dokumentformate – PDFs mit Tabellen und Abbildungen, Word-Dokumente, PowerPoint-Dateien und mehr – in strukturierte Darstellungen (wie Markdown oder JSON), die Layout-Informationen bewahren, die ein LLM tatsächlich nutzen kann, statt des verstümmelten Klartexts, den eine naive PDF-zu-Text-Konvertierung erzeugt. Es ist speziell mit Blick auf RAG- und LLM-Ingestion-Pipelines gebaut.\n\nDocling eignet sich für Teams, die Dokumente in eine LLM- oder RAG-Pipeline einspeisen und eine genaue Strukturerhaltung benötigen – als Ergänzung zu Tesseract (ebenfalls in diesem Katalog): Tesseract erkennt Text aus rohen Pixeln, während sich Docling auf das Verstehen der Struktur und des Layouts eines Dokuments konzentriert."
+    }
+  }
+}

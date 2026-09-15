@@ -1,0 +1,46 @@
+{
+  "name": "sigstore",
+  "slug": "sigstore",
+  "description": "Software supply chain security toolkit for signing, verifying, and recording the provenance of software artifacts, container images, and releases.",
+  "longDescription": "sigstore (most commonly used through its cosign tool) lets developers sign software artifacts - container images, binaries, release files - and lets anyone else verify those signatures came from the expected source, using short-lived certificates instead of long-term keys a team has to manage and protect. Signing events are recorded in a public, tamper-resistant transparency log.\n\nsigstore is a fit for teams that want to verify the authenticity and integrity of software they build, publish, or consume - a supply-chain security concern distinct from Trivy's vulnerability scanning or Falco's runtime detection (also in this catalog), focused specifically on provenance and signing.",
+  "repository": "https://github.com/sigstore/cosign",
+  "website": "https://www.sigstore.dev",
+  "documentation": "https://docs.sigstore.dev",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "supply-chain-security",
+    "artifact-signing",
+    "provenance",
+    "container-signing"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "软件供应链安全工具包，用于对软件制品、容器镜像和发行版本进行签名、验证和溯源记录。",
+      "longDescription": "sigstore（最常通过其 cosign 工具使用）让开发者可以为软件制品——容器镜像、二进制文件、发行文件——签名，并让任何其他人都能验证这些签名确实来自预期来源，使用的是短期证书，而不是团队需要管理和保护的长期密钥。签名事件被记录在一个公开的、防篡改的透明日志中。\n\nsigstore 适合那些希望验证自己构建、发布或使用的软件的真实性和完整性的团队——这是一个与目录中 Trivy 的漏洞扫描或 Falco 的运行时检测不同的供应链安全议题，专门聚焦于溯源和签名。"
+    },
+    "ja": {
+      "description": "ソフトウェアの成果物、コンテナイメージ、リリースの署名・検証・来歴記録のための、ソフトウェアサプライチェーンセキュリティツールキットです。",
+      "longDescription": "sigstore(最も一般的には cosign ツールを通じて使われます)は、開発者がコンテナイメージ、バイナリ、リリースファイルといったソフトウェア成果物に署名できるようにし、他の誰もがその署名が想定された発行元から来たものであることを検証できるようにします。チームが管理・保護しなければならない長期的な鍵の代わりに、短命な証明書を使用します。署名イベントは、公開された改ざん耐性のある透明性ログに記録されます。\n\nsigstore は、自分たちがビルド・公開・利用するソフトウェアの真正性と完全性を検証したいチームに向いています。これは(カタログにもある) Trivy の脆弱性スキャンや Falco のランタイム検知とは異なるサプライチェーンセキュリティの課題で、来歴と署名に特化しています。"
+    },
+    "ko": {
+      "description": "소프트웨어 아티팩트, 컨테이너 이미지, 릴리스의 서명, 검증, 출처 기록을 위한 소프트웨어 공급망 보안 툴킷입니다.",
+      "longDescription": "sigstore(가장 흔하게는 cosign 도구를 통해 사용됨)는 개발자가 컨테이너 이미지, 바이너리, 릴리스 파일 같은 소프트웨어 아티팩트에 서명할 수 있게 해주고, 다른 누구든 그 서명이 예상된 출처에서 왔는지 검증할 수 있게 해줍니다. 팀이 관리하고 보호해야 하는 장기 키 대신 수명이 짧은 인증서를 사용합니다. 서명 이벤트는 공개되고 변조 방지된 투명성 로그에 기록됩니다.\n\nsigstore는 자신이 빌드, 배포, 소비하는 소프트웨어의 진위성과 무결성을 검증하고 싶은 팀에 적합합니다 — (카탈로그에 있는) Trivy의 취약점 스캔이나 Falco의 런타임 탐지와는 구별되는 공급망 보안 사안으로, 출처와 서명에 특화되어 있습니다."
+    },
+    "es": {
+      "description": "Kit de herramientas de seguridad de la cadena de suministro de software para firmar, verificar y registrar la procedencia de artefactos de software, imágenes de contenedor y releases.",
+      "longDescription": "sigstore (usado habitualmente a través de su herramienta cosign) permite a los desarrolladores firmar artefactos de software —imágenes de contenedor, binarios, archivos de release— y permite a cualquier otra persona verificar que esas firmas proceden de la fuente esperada, usando certificados de vida corta en lugar de claves a largo plazo que un equipo tiene que gestionar y proteger. Los eventos de firma se registran en un log de transparencia público y resistente a manipulaciones.\n\nsigstore encaja en equipos que quieren verificar la autenticidad e integridad del software que construyen, publican o consumen: una preocupación de seguridad de la cadena de suministro distinta del escaneo de vulnerabilidades de Trivy o la detección en tiempo de ejecución de Falco (también en este catálogo), centrada específicamente en la procedencia y la firma."
+    },
+    "de": {
+      "description": "Toolkit für Software-Supply-Chain-Sicherheit zum Signieren, Verifizieren und Aufzeichnen der Herkunft von Software-Artefakten, Container-Images und Releases.",
+      "longDescription": "sigstore (meist über sein Tool cosign genutzt) lässt Entwickler Software-Artefakte – Container-Images, Binärdateien, Release-Dateien – signieren und lässt jeden anderen verifizieren, dass diese Signaturen von der erwarteten Quelle stammen, wobei kurzlebige Zertifikate statt langfristiger Schlüssel verwendet werden, die ein Team verwalten und schützen muss. Signierereignisse werden in einem öffentlichen, manipulationssicheren Transparenzprotokoll erfasst.\n\nsigstore eignet sich für Teams, die die Authentizität und Integrität von Software überprüfen wollen, die sie bauen, veröffentlichen oder konsumieren – ein Supply-Chain-Sicherheitsanliegen, das sich von Trivys Schwachstellenscanning oder Falcos Runtime-Erkennung (ebenfalls in diesem Katalog) unterscheidet und sich speziell auf Herkunft und Signierung konzentriert."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "KServe",
+  "slug": "kserve",
+  "description": "Kubernetes-native platform for serving machine learning models at scale, standardizing model deployment across frameworks.",
+  "longDescription": "KServe provides a standard Kubernetes custom resource for deploying trained models - from scikit-learn, PyTorch, TensorFlow, and others already in this catalog - with built-in autoscaling (including scale-to-zero), canary rollouts, and a consistent inference API regardless of which framework trained the model. It's a CNCF project built specifically for general-purpose ML model serving rather than LLMs specifically.\n\nKServe is a fit for platform teams standardizing how models get deployed across many data science teams and frameworks, a broader-scope serving platform than vLLM or SGLang (also in this catalog), which focus specifically on LLM inference.",
+  "repository": "https://github.com/kserve/kserve",
+  "website": "https://kserve.github.io/website/",
+  "documentation": "https://kserve.github.io/website/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "model-serving",
+    "kubernetes-native",
+    "mlops"
+  ],
+  "languages": [
+    "Python",
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes 原生的大规模机器学习模型服务平台，统一跨框架的模型部署方式。",
+      "longDescription": "KServe 提供一个标准的 Kubernetes 自定义资源，用于部署来自 scikit-learn、PyTorch、TensorFlow 等（均收录于本目录）的训练模型，内置自动扩缩容（包括缩容到零）、金丝雀发布，以及无论使用哪种框架训练模型都保持一致的推理 API。它是一个 CNCF 项目，专为通用机器学习模型服务而构建，而非专门针对大语言模型。\n\nKServe 适合那些需要在众多数据科学团队和框架之间统一模型部署方式的平台团队，相比目录中专注于大语言模型推理的 vLLM 或 SGLang，它是一个覆盖范围更广的服务平台。"
+    },
+    "ja": {
+      "description": "機械学習モデルを大規模にサービングするための Kubernetes ネイティブなプラットフォームで、フレームワークをまたいでモデルのデプロイを標準化します。",
+      "longDescription": "KServe は、(カタログにもある) scikit-learn、PyTorch、TensorFlow などから学習済みモデルをデプロイするための標準的な Kubernetes カスタムリソースを提供し、オートスケーリング(ゼロへのスケーリングを含む)、カナリアロールアウト、そしてどのフレームワークでモデルを学習したかに関わらず一貫した推論 API を標準搭載しています。LLM 専用ではなく、汎用的な ML モデルサービング向けに特化して構築された CNCF プロジェクトです。\n\nKServe は、多数のデータサイエンスチームやフレームワークにまたがってモデルのデプロイ方法を標準化するプラットフォームチームに向いています。LLM 推論に特化した(カタログにもある) vLLM や SGLang よりも、より広いスコープを持つサービングプラットフォームです。"
+    },
+    "ko": {
+      "description": "대규모로 머신러닝 모델을 서빙하기 위한 Kubernetes 네이티브 플랫폼으로, 프레임워크 전반에 걸쳐 모델 배포를 표준화합니다.",
+      "longDescription": "KServe는 (카탈로그에 있는) scikit-learn, PyTorch, TensorFlow 등으로 학습된 모델을 배포하기 위한 표준 Kubernetes 커스텀 리소스를 제공하며, 오토스케일링(0으로 축소 포함), 카나리 롤아웃, 그리고 어떤 프레임워크로 모델을 학습했든 일관된 추론 API를 기본 제공합니다. LLM 전용이 아니라 범용 ML 모델 서빙을 위해 특별히 만들어진 CNCF 프로젝트입니다.\n\nKServe는 여러 데이터 과학 팀과 프레임워크에 걸쳐 모델이 배포되는 방식을 표준화하는 플랫폼 팀에 적합하며, LLM 추론에 특화된 (카탈로그에 있는) vLLM이나 SGLang보다 더 넓은 범위의 서빙 플랫폼입니다."
+    },
+    "es": {
+      "description": "Plataforma nativa de Kubernetes para servir modelos de machine learning a gran escala, estandarizando el despliegue de modelos entre frameworks.",
+      "longDescription": "KServe ofrece un recurso personalizado estándar de Kubernetes para desplegar modelos entrenados —de scikit-learn, PyTorch, TensorFlow y otros ya presentes en este catálogo— con autoescalado integrado (incluido el escalado a cero), despliegues canary y una API de inferencia consistente sin importar qué framework entrenó el modelo. Es un proyecto de la CNCF construido específicamente para servir modelos de ML de propósito general en lugar de LLMs específicamente.\n\nKServe encaja en equipos de plataforma que estandarizan cómo se despliegan los modelos entre muchos equipos y frameworks de ciencia de datos, una plataforma de servicio de alcance más amplio que vLLM o SGLang (también en este catálogo), centrados específicamente en la inferencia de LLM."
+    },
+    "de": {
+      "description": "Kubernetes-native Plattform zum Servieren von Machine-Learning-Modellen im großen Maßstab, die das Modell-Deployment über Frameworks hinweg standardisiert.",
+      "longDescription": "KServe bietet eine standardisierte Kubernetes-Custom-Resource zum Deployen trainierter Modelle – von scikit-learn, PyTorch, TensorFlow und anderen, bereits in diesem Katalog – mit integriertem Autoscaling (einschließlich Skalierung auf null), Canary-Rollouts und einer konsistenten Inferenz-API, unabhängig davon, welches Framework das Modell trainiert hat. Es ist ein CNCF-Projekt, das speziell für allgemeines ML-Modell-Serving statt speziell für LLMs gebaut ist.\n\nKServe eignet sich für Platform-Teams, die standardisieren, wie Modelle über viele Data-Science-Teams und Frameworks hinweg deployt werden – eine breiter angelegte Serving-Plattform als vLLM oder SGLang (ebenfalls in diesem Katalog), die sich speziell auf LLM-Inferenz konzentrieren."
+    }
+  }
+}

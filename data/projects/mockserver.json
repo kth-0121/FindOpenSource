@@ -1,0 +1,46 @@
+{
+  "name": "MockServer",
+  "slug": "mockserver",
+  "description": "HTTP(S) mock server and proxy for testing that lets you simulate API responses, inspect live traffic, and inject failures.",
+  "longDescription": "MockServer intercepts and responds to HTTP(S) requests with configured mock responses, so a team can test against dependencies that don't exist yet, are unreliable, or are hard to reproduce error conditions with - including injecting timeouts, malformed responses, or specific failure codes on demand. It can also run as a proxy to record and modify live traffic.\n\nMockServer is a fit for teams writing integration tests that depend on external APIs, complementing Hoppscotch (also in this catalog), which is built for manually exploring and calling APIs rather than mocking them for automated tests.",
+  "repository": "https://github.com/mock-server/mockserver",
+  "website": "https://www.mock-server.com",
+  "documentation": "https://www.mock-server.com/mock_server/getting_started.html",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "api-mocking",
+    "http-mock",
+    "integration-testing",
+    "test-doubles"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "用于测试的 HTTP(S) 模拟服务器与代理，可以模拟 API 响应、检查实时流量并注入故障。",
+      "longDescription": "MockServer 拦截 HTTP(S) 请求并以预先配置的模拟响应进行回应，使团队能够针对尚不存在、不可靠、或难以复现错误状态的依赖项进行测试——包括按需注入超时、格式错误的响应或特定的失败状态码。它也可以作为代理运行，用于记录和修改实时流量。\n\nMockServer 适合那些编写依赖外部 API 的集成测试的团队，与目录中的 Hoppscotch 形成互补——Hoppscotch 是为手动探索和调用 API 而构建的，而不是为自动化测试提供 Mock 服务。"
+    },
+    "ja": {
+      "description": "API レスポンスをシミュレートし、実際のトラフィックを検査し、障害を注入できる、テスト用の HTTP(S) モックサーバー兼プロキシです。",
+      "longDescription": "MockServer は HTTP(S) リクエストをインターセプトし、設定済みのモックレスポンスで応答するため、まだ存在しない、信頼性が低い、あるいはエラー状態を再現しにくい依存先に対してもテストできます。タイムアウト、不正な形式のレスポンス、特定の失敗コードをオンデマンドで注入することも含みます。プロキシとして動作させ、実際のトラフィックを記録・変更することもできます。\n\nMockServer は、外部 API に依存する統合テストを書くチームに向いています。カタログ内の Hoppscotch を補完する存在で、Hoppscotch は自動テスト用にモックするためではなく、API を手動で探索・呼び出すために作られています。"
+    },
+    "ko": {
+      "description": "API 응답을 시뮬레이션하고 실시간 트래픽을 검사하며 장애를 주입할 수 있는, 테스트용 HTTP(S) 목 서버 겸 프록시입니다.",
+      "longDescription": "MockServer는 HTTP(S) 요청을 가로채 설정된 목 응답으로 답하므로, 팀은 아직 존재하지 않거나 신뢰할 수 없거나 오류 상황을 재현하기 어려운 의존성을 대상으로도 테스트할 수 있습니다. 타임아웃, 형식이 잘못된 응답, 특정 실패 코드를 필요에 따라 주입하는 것도 포함됩니다. 프록시로 실행해 실시간 트래픽을 기록하고 수정할 수도 있습니다.\n\nMockServer는 외부 API에 의존하는 통합 테스트를 작성하는 팀에 적합합니다. 카탈로그에 있는 Hoppscotch를 보완하는 관계로, Hoppscotch는 자동화된 테스트를 위해 목을 만드는 것이 아니라 API를 수동으로 탐색하고 호출하기 위해 만들어졌습니다."
+    },
+    "es": {
+      "description": "Servidor mock y proxy HTTP(S) para pruebas que te permite simular respuestas de API, inspeccionar tráfico en vivo e inyectar fallos.",
+      "longDescription": "MockServer intercepta peticiones HTTP(S) y responde con respuestas mock configuradas, de modo que un equipo puede probar contra dependencias que aún no existen, son poco fiables o cuyas condiciones de error son difíciles de reproducir, incluyendo la inyección de timeouts, respuestas malformadas o códigos de fallo específicos bajo demanda. También puede ejecutarse como proxy para grabar y modificar tráfico en vivo.\n\nMockServer encaja en equipos que escriben pruebas de integración que dependen de APIs externas, complementando a Hoppscotch (también en este catálogo), construido para explorar y llamar APIs manualmente en lugar de simularlas para pruebas automatizadas."
+    },
+    "de": {
+      "description": "HTTP(S)-Mock-Server und -Proxy für Tests, mit dem du API-Antworten simulieren, Live-Traffic untersuchen und Fehler injizieren kannst.",
+      "longDescription": "MockServer fängt HTTP(S)-Anfragen ab und beantwortet sie mit konfigurierten Mock-Antworten, sodass ein Team gegen Abhängigkeiten testen kann, die noch nicht existieren, unzuverlässig sind oder deren Fehlerbedingungen schwer zu reproduzieren sind – einschließlich des gezielten Injizierens von Timeouts, fehlerhaften Antworten oder bestimmten Fehlercodes. Es kann auch als Proxy laufen, um Live-Traffic aufzuzeichnen und zu verändern.\n\nMockServer eignet sich für Teams, die Integrationstests schreiben, die von externen APIs abhängen – als Ergänzung zu Hoppscotch (ebenfalls in diesem Katalog), das zum manuellen Erkunden und Aufrufen von APIs gebaut ist, statt sie für automatisierte Tests zu mocken."
+    }
+  }
+}
