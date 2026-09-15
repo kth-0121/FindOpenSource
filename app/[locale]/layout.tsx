@@ -72,6 +72,11 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
       dir={localeMeta[locale].dir}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6877877928941536"
+        crossOrigin="anonymous"
+      />
       <body className="flex min-h-full flex-col">
         <a
           href="#main-content"
