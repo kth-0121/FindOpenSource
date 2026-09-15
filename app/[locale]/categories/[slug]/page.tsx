@@ -37,6 +37,11 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
       locale: ogLocale(locale),
       alternateLocale: ogAlternateLocales(locale),
     },
+    twitter: {
+      card: "summary_large_image",
+      title: localized.name,
+      description: localized.description,
+    },
   };
 }
 

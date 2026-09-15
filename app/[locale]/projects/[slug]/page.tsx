@@ -40,6 +40,11 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
       locale: ogLocale(locale),
       alternateLocale: ogAlternateLocales(locale),
     },
+    twitter: {
+      card: "summary_large_image",
+      title: project.name,
+      description: project.description,
+    },
   };
 }
 
