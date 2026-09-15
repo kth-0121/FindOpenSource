@@ -3,7 +3,7 @@
 Discover open source projects by feature, technology and category — in English, Simplified
 Chinese, Japanese, Korean, Spanish and German.
 
-**[findopensource.com](https://findopensource.com)**
+**[findoss.dev](https://findoss.dev)**
 
 ## What is FindOpenSource?
 
