@@ -16,8 +16,14 @@ export async function generateMetadata({ params }: ProjectsPageProps): Promise<M
   if (!isLocale(localeParam)) return {};
   const locale: Locale = localeParam;
   const dict = getDictionary(locale);
+  const projectCount = getAllProjects(locale).length;
+  const description = formatCount(projectCount, {
+    one: dict.projectsPage.descriptionOne,
+    other: dict.projectsPage.descriptionOther,
+  });
   return {
     title: dict.projectsPage.title,
+    description,
     alternates: buildAlternates(locale, "/projects"),
   };
 }

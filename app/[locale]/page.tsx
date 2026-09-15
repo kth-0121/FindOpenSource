@@ -9,6 +9,7 @@ import { AdSlot } from "@/components/AdSlot";
 import { SupportLink } from "@/components/SupportLink";
 import { getCategoriesWithCounts, getFeaturedProjects, getRecentProjects } from "@/lib/projects";
 import { getSupportUrl } from "@/lib/support";
+import { siteConfig } from "@/lib/site";
 import { isLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { buildAlternates } from "@/lib/i18n/metadata";
@@ -34,8 +35,24 @@ export default async function HomePage({ params }: HomePageProps) {
   const recentProjects = getRecentProjects(locale, 6);
   const supportUrl = getSupportUrl();
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: siteConfig.name,
+    url: `${siteConfig.url}/${locale}`,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${siteConfig.url}/${locale}/search?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <section className="flex flex-col items-center gap-6 text-center">
         <h1 className="max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl">
           {dict.home.heroTitleLine1}
