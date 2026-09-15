@@ -1,0 +1,45 @@
+{
+  "name": "Instructor",
+  "slug": "instructor",
+  "description": "Library for getting reliable, structured data output from LLMs using function-calling APIs and Pydantic models for validation.",
+  "longDescription": "Instructor wraps an LLM's native function-calling or tool-use capability so a developer can request a response that matches a Pydantic model, and automatically retries the request if the model's output doesn't validate against that schema - turning unreliable free-text LLM output into dependable structured data. It supports OpenAI, Anthropic, and many other model providers through one consistent interface.\n\nInstructor is a fit for teams that need structured data extraction from LLMs, achieving that through function-calling APIs and retry logic - a different technical approach than Outlines (also in this catalog), which constrains generation at the token level instead.",
+  "repository": "https://github.com/567-labs/instructor",
+  "website": "https://python.useinstructor.com",
+  "documentation": "https://python.useinstructor.com/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "structured-output",
+    "llm-framework",
+    "data-extraction"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "库，通过函数调用 API 和 Pydantic 模型校验，从大语言模型获取可靠的结构化数据输出。",
+      "longDescription": "Instructor 封装了大语言模型原生的函数调用/工具使用能力，使开发者能够请求与某个 Pydantic 模型匹配的响应，并在模型输出未通过该 schema 校验时自动重试请求——将不可靠的自由文本大语言模型输出，转变为可靠的结构化数据。它通过统一的接口支持 OpenAI、Anthropic 等众多模型提供商。\n\nInstructor 适合那些需要从大语言模型中提取结构化数据的团队，其实现方式是函数调用 API 加重试逻辑——这与目录中的 Outlines 采用不同的技术路径，后者是在词元层面进行约束生成。"
+    },
+    "ja": {
+      "description": "検証のための function calling API と Pydantic モデルを使って、LLM から信頼できる構造化データ出力を得るためのライブラリです。",
+      "longDescription": "Instructor は、LLM のネイティブな function calling やツール利用機能をラップし、開発者が Pydantic モデルに一致するレスポンスをリクエストできるようにし、モデルの出力がそのスキーマに対して検証に失敗した場合はリクエストを自動的にリトライします。これにより、信頼性の低い自由形式のテキスト出力を、信頼できる構造化データへと変えます。OpenAI、Anthropic をはじめとする多数のモデルプロバイダーを、一貫したインターフェースを通じてサポートします。\n\nInstructor は、LLM から構造化データを抽出する必要があるチームに向いており、function calling API とリトライロジックを通じてそれを実現しています。(カタログにもある) Outlines とは異なる技術的アプローチで、Outlines はトークンレベルでの制約付き生成を行います。"
+    },
+    "ko": {
+      "description": "검증을 위한 함수 호출 API와 Pydantic 모델을 사용해 LLM으로부터 신뢰할 수 있는 구조화된 데이터 출력을 얻는 라이브러리입니다.",
+      "longDescription": "Instructor는 LLM의 네이티브 함수 호출·도구 사용 기능을 감싸서 개발자가 Pydantic 모델과 일치하는 응답을 요청할 수 있게 하고, 모델의 출력이 해당 스키마에 대해 검증되지 않으면 요청을 자동으로 재시도합니다 — 신뢰할 수 없는 자유 텍스트 LLM 출력을 신뢰할 수 있는 구조화된 데이터로 바꿔줍니다. OpenAI, Anthropic을 비롯한 다양한 모델 제공자를 하나의 일관된 인터페이스로 지원합니다.\n\nInstructor는 LLM으로부터 구조화된 데이터 추출이 필요한 팀에 적합하며, 함수 호출 API와 재시도 로직을 통해 이를 달성합니다 — 토큰 수준에서 생성을 제약하는 (카탈로그에 있는) Outlines와는 다른 기술적 접근입니다."
+    },
+    "es": {
+      "description": "Biblioteca para obtener salidas de datos estructurados y fiables de LLMs usando APIs de function calling y modelos Pydantic para la validación.",
+      "longDescription": "Instructor envuelve la capacidad nativa de function calling o uso de herramientas de un LLM para que un desarrollador pueda solicitar una respuesta que coincida con un modelo Pydantic, y reintenta automáticamente la solicitud si la salida del modelo no valida contra ese esquema, convirtiendo una salida de LLM en texto libre poco fiable en datos estructurados en los que se puede confiar. Admite OpenAI, Anthropic y muchos otros proveedores de modelos a través de una interfaz consistente.\n\nInstructor encaja en equipos que necesitan extracción de datos estructurados de LLMs, logrando esto mediante APIs de function calling y lógica de reintento, un enfoque técnico distinto al de Outlines (también en este catálogo), que en su lugar restringe la generación a nivel de token."
+    },
+    "de": {
+      "description": "Bibliothek, um zuverlässige, strukturierte Datenausgaben von LLMs mittels Function-Calling-APIs und Pydantic-Modellen zur Validierung zu erhalten.",
+      "longDescription": "Instructor umhüllt die native Function-Calling- oder Tool-Use-Fähigkeit eines LLM, sodass ein Entwickler eine Antwort anfordern kann, die einem Pydantic-Modell entspricht, und wiederholt die Anfrage automatisch, wenn die Ausgabe des Modells nicht gegen dieses Schema validiert – wodurch unzuverlässige LLM-Freitextausgabe in verlässliche strukturierte Daten verwandelt wird. Es unterstützt OpenAI, Anthropic und viele andere Modellanbieter über eine konsistente Schnittstelle.\n\nInstructor eignet sich für Teams, die strukturierte Datenextraktion aus LLMs benötigen, und erreicht dies über Function-Calling-APIs und Retry-Logik – ein anderer technischer Ansatz als Outlines (ebenfalls in diesem Katalog), das die Generierung stattdessen auf Token-Ebene einschränkt."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Strimzi",
+  "slug": "strimzi",
+  "description": "Kubernetes operator that automates running Apache Kafka clusters, handling deployment, configuration, and lifecycle management.",
+  "longDescription": "Strimzi packages Apache Kafka (also in this catalog) and its surrounding components as Kubernetes custom resources and operators, automating cluster provisioning, topic and user management, upgrades, and scaling that would otherwise require manual Kafka administration expertise. A team manages Kafka the same way they manage any other Kubernetes workload.\n\nStrimzi is a fit for teams that want to run Kafka on Kubernetes without operating it by hand, a Kubernetes-operator layer on top of Kafka itself rather than a replacement for it.",
+  "repository": "https://github.com/strimzi/strimzi-kafka-operator",
+  "website": "https://strimzi.io",
+  "documentation": "https://strimzi.io/docs/operators/latest/overview",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "kafka",
+    "kubernetes-operator",
+    "messaging-infrastructure"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes Operator，自动化运行 Apache Kafka 集群，处理部署、配置和生命周期管理。",
+      "longDescription": "Strimzi 将 Apache Kafka（同样收录于本目录）及其周边组件打包为 Kubernetes 自定义资源和 Operator，自动完成集群配置、主题和用户管理、升级和扩缩容——这些原本需要人工的 Kafka 管理专业知识。团队可以像管理其他任何 Kubernetes 工作负载一样管理 Kafka。\n\nStrimzi 适合那些希望在 Kubernetes 上运行 Kafka、又不想手动运维的团队，它是构建在 Kafka 本身之上的 Kubernetes Operator 层，而非对 Kafka 的替代。"
+    },
+    "ja": {
+      "description": "Apache Kafka クラスタの運用を自動化する Kubernetes Operator で、デプロイ、設定、ライフサイクル管理を扱います。",
+      "longDescription": "Strimzi は、(カタログにもある) Apache Kafka とその周辺コンポーネントを Kubernetes カスタムリソースと Operator としてパッケージ化し、本来であれば手動での Kafka 管理スキルを必要とするクラスタのプロビジョニング、トピック・ユーザー管理、アップグレード、スケーリングを自動化します。チームは他の Kubernetes ワークロードと同じ方法で Kafka を管理できます。\n\nStrimzi は、手作業で運用することなく Kubernetes 上で Kafka を動かしたいチームに向いています。Kafka そのものを置き換えるのではなく、その上に位置する Kubernetes Operator レイヤーです。"
+    },
+    "ko": {
+      "description": "Apache Kafka 클러스터 운영을 자동화하는 Kubernetes 오퍼레이터로, 배포, 설정, 라이프사이클 관리를 처리합니다.",
+      "longDescription": "Strimzi는 (카탈로그에 있는) Apache Kafka와 그 주변 구성 요소를 Kubernetes 커스텀 리소스와 오퍼레이터로 패키징하여, 그렇지 않았다면 수동 Kafka 관리 전문성이 필요했을 클러스터 프로비저닝, 토픽·사용자 관리, 업그레이드, 확장을 자동화합니다. 팀은 다른 Kubernetes 워크로드를 관리하는 것과 같은 방식으로 Kafka를 관리합니다.\n\nStrimzi는 수작업으로 운영하지 않고 Kubernetes에서 Kafka를 실행하고 싶은 팀에 적합하며, Kafka 자체를 대체하는 것이 아니라 그 위에 얹힌 Kubernetes 오퍼레이터 계층입니다."
+    },
+    "es": {
+      "description": "Operador de Kubernetes que automatiza la ejecución de clústeres de Apache Kafka, gestionando despliegue, configuración y ciclo de vida.",
+      "longDescription": "Strimzi empaqueta Apache Kafka (también en este catálogo) y sus componentes asociados como recursos personalizados y operadores de Kubernetes, automatizando el aprovisionamiento de clústeres, la gestión de topics y usuarios, las actualizaciones y el escalado que de otro modo requerirían experiencia manual en administración de Kafka. Un equipo gestiona Kafka de la misma forma que gestiona cualquier otra carga de trabajo de Kubernetes.\n\nStrimzi encaja en equipos que quieren ejecutar Kafka en Kubernetes sin operarlo manualmente, una capa de operador de Kubernetes sobre el propio Kafka en lugar de un reemplazo de este."
+    },
+    "de": {
+      "description": "Kubernetes-Operator, der den Betrieb von Apache-Kafka-Clustern automatisiert und Deployment, Konfiguration und Lebenszyklusverwaltung übernimmt.",
+      "longDescription": "Strimzi verpackt Apache Kafka (ebenfalls in diesem Katalog) und seine umgebenden Komponenten als Kubernetes-Custom-Resources und -Operatoren und automatisiert Cluster-Provisionierung, Topic- und Benutzerverwaltung, Upgrades und Skalierung, die sonst manuelle Kafka-Administrationskenntnisse erfordern würden. Ein Team verwaltet Kafka genauso wie jeden anderen Kubernetes-Workload.\n\nStrimzi eignet sich für Teams, die Kafka auf Kubernetes betreiben wollen, ohne es von Hand zu administrieren – eine Kubernetes-Operator-Schicht über Kafka selbst statt ein Ersatz dafür."
+    }
+  }
+}

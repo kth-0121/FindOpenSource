@@ -1,0 +1,48 @@
+{
+  "name": "gRPC",
+  "slug": "grpc",
+  "description": "High-performance, open-source RPC framework that lets services call each other's functions directly across languages and networks.",
+  "longDescription": "gRPC lets a service expose functions that other services can call as if they were local method calls, using Protocol Buffers for compact, strongly typed message definitions and HTTP/2 for efficient, multiplexed transport. It generates client and server code in dozens of languages from one shared service definition.\n\ngRPC is a fit for teams building microservices that need efficient, strongly typed service-to-service communication, a different pattern than the REST/GraphQL APIs that Directus, Hasura, and PostgREST (also in this catalog) expose - gRPC is commonly used for internal service-to-service calls rather than public-facing APIs.",
+  "repository": "https://github.com/grpc/grpc",
+  "website": "https://grpc.io",
+  "documentation": "https://grpc.io/docs/",
+  "categories": [
+    "api"
+  ],
+  "keywords": [
+    "rpc",
+    "protocol-buffers",
+    "microservices",
+    "api-framework"
+  ],
+  "languages": [
+    "C++",
+    "Go",
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "高性能开源 RPC 框架，让服务之间可以跨语言、跨网络直接调用彼此的函数。",
+      "longDescription": "gRPC 让一个服务可以暴露函数，供其他服务像调用本地方法一样直接调用，使用 Protocol Buffers 定义紧凑、强类型的消息格式，并通过 HTTP/2 实现高效的多路复用传输。它可以根据一份共享的服务定义，生成数十种语言的客户端和服务端代码。\n\ngRPC 适合那些需要高效、强类型服务间通信的微服务开发团队，这与目录中 Directus、Hasura 和 PostgREST 所暴露的 REST/GraphQL API 属于不同模式——gRPC 通常用于内部服务间调用，而非面向公众的 API。"
+    },
+    "ja": {
+      "description": "サービス同士が言語やネットワークをまたいで直接関数を呼び出し合える、高性能なオープンソースの RPC フレームワークです。",
+      "longDescription": "gRPC は、あるサービスが公開した関数を、あたかもローカルのメソッド呼び出しであるかのように他のサービスから呼び出せるようにします。コンパクトで強い型付けを持つメッセージ定義には Protocol Buffers を、効率的で多重化された転送には HTTP/2 を使用します。1つの共有サービス定義から、数十の言語向けのクライアント・サーバーコードを生成します。\n\ngRPC は、効率的で強く型付けされたサービス間通信を必要とするマイクロサービスを構築するチームに向いています。カタログ内の Directus、Hasura、PostgREST が公開する REST/GraphQL API とは異なるパターンで、gRPC は公開向け API ではなく、内部のサービス間呼び出しによく使われます。"
+    },
+    "ko": {
+      "description": "언어와 네트워크를 넘나들며 서비스끼리 서로의 함수를 직접 호출할 수 있게 해주는 고성능 오픈소스 RPC 프레임워크입니다.",
+      "longDescription": "gRPC는 한 서비스가 공개한 함수를 다른 서비스가 마치 로컬 메서드 호출처럼 부를 수 있게 해주며, 간결하고 강타입인 메시지 정의를 위해 Protocol Buffers를, 효율적이고 멀티플렉싱된 전송을 위해 HTTP/2를 사용합니다. 하나의 공유 서비스 정의로부터 수십 개 언어의 클라이언트·서버 코드를 생성합니다.\n\ngRPC는 효율적이고 강타입인 서비스 간 통신이 필요한 마이크로서비스를 구축하는 팀에 적합하며, 카탈로그에 있는 Directus, Hasura, PostgREST가 노출하는 REST/GraphQL API와는 다른 패턴입니다 — gRPC는 공개 API보다는 내부 서비스 간 호출에 흔히 사용됩니다."
+    },
+    "es": {
+      "description": "Framework RPC de código abierto y alto rendimiento que permite a los servicios llamar directamente a las funciones de otros a través de lenguajes y redes.",
+      "longDescription": "gRPC permite que un servicio exponga funciones que otros servicios pueden llamar como si fueran llamadas a métodos locales, usando Protocol Buffers para definiciones de mensajes compactas y fuertemente tipadas, y HTTP/2 para un transporte eficiente y multiplexado. Genera código cliente y servidor en decenas de lenguajes a partir de una única definición de servicio compartida.\n\ngRPC encaja en equipos que construyen microservicios y necesitan comunicación servicio a servicio eficiente y fuertemente tipada, un patrón distinto al de las APIs REST/GraphQL que exponen Directus, Hasura y PostgREST (también en este catálogo); gRPC se usa habitualmente para llamadas internas entre servicios en lugar de APIs de cara al público."
+    },
+    "de": {
+      "description": "Hochperformantes Open-Source-RPC-Framework, mit dem Dienste gegenseitig Funktionen über Sprachen und Netzwerke hinweg direkt aufrufen können.",
+      "longDescription": "gRPC lässt einen Dienst Funktionen bereitstellen, die andere Dienste aufrufen können, als wären es lokale Methodenaufrufe, wobei Protocol Buffers für kompakte, stark typisierte Nachrichtendefinitionen und HTTP/2 für effizienten, multiplexierten Transport genutzt werden. Es generiert Client- und Server-Code in Dutzenden von Sprachen aus einer gemeinsamen Dienstdefinition.\n\ngRPC eignet sich für Teams, die Microservices bauen, die effiziente, stark typisierte Dienst-zu-Dienst-Kommunikation benötigen – ein anderes Muster als die REST/GraphQL-APIs, die Directus, Hasura und PostgREST (ebenfalls in diesem Katalog) bereitstellen; gRPC wird meist für interne Dienst-zu-Dienst-Aufrufe statt öffentliche APIs genutzt."
+    }
+  }
+}

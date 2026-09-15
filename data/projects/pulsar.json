@@ -1,0 +1,46 @@
+{
+  "name": "Pulsar",
+  "slug": "pulsar",
+  "description": "Distributed messaging and streaming platform that unifies traditional queuing and event streaming with built-in multi-tenancy.",
+  "longDescription": "Apache Pulsar combines the publish/subscribe queuing model (like RabbitMQ) with durable, replayable event streaming (like Kafka) in one system, and separates its compute and storage layers so each can scale independently. Built-in multi-tenancy lets many teams safely share one Pulsar cluster with isolated namespaces.\n\nPulsar is a fit for teams that want both traditional queuing and event-streaming semantics from one platform rather than running RabbitMQ and Kafka (also in this catalog) side by side, or that specifically need strong multi-tenant isolation on shared messaging infrastructure.",
+  "repository": "https://github.com/apache/pulsar",
+  "website": "https://pulsar.apache.org",
+  "documentation": "https://pulsar.apache.org/docs/next/",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "messaging",
+    "event-streaming",
+    "multi-tenancy",
+    "distributed-messaging"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "分布式消息与流处理平台，将传统队列与事件流统一在一起，并内置多租户支持。",
+      "longDescription": "Apache Pulsar 将发布/订阅队列模式（类似 RabbitMQ）与持久化、可回放的事件流（类似 Kafka）整合到同一个系统中，并将其计算层和存储层分离，使二者可以独立扩展。内置的多租户功能让多个团队可以安全地共享同一个 Pulsar 集群，各自拥有隔离的命名空间。\n\nPulsar 适合那些希望从单一平台同时获得传统队列和事件流语义、而不是并行运行目录中 RabbitMQ 和 Kafka 的团队，或者特别需要在共享消息基础设施上实现强多租户隔离的团队。"
+    },
+    "ja": {
+      "description": "従来のキューイングとイベントストリーミングを統合し、マルチテナンシーを標準搭載した、分散型メッセージング・ストリーミングプラットフォームです。",
+      "longDescription": "Apache Pulsar は、(RabbitMQ のような) Pub/Sub キューイングモデルと、(Kafka のような) 永続的で再生可能なイベントストリーミングを1つのシステムに統合し、コンピュートとストレージのレイヤーを分離することでそれぞれ独立してスケールできるようにしています。標準搭載のマルチテナンシーにより、多くのチームが分離された名前空間で1つの Pulsar クラスタを安全に共有できます。\n\nPulsar は、(カタログにもある) RabbitMQ と Kafka を並行して運用するのではなく、従来のキューイングとイベントストリーミングの両方のセマンティクスを1つのプラットフォームから求めるチーム、あるいは共有メッセージングインフラ上で強力なマルチテナント分離を特に必要とするチームに向いています。"
+    },
+    "ko": {
+      "description": "전통적인 큐잉과 이벤트 스트리밍을 통합하고 멀티 테넌시를 기본 제공하는 분산 메시징·스트리밍 플랫폼입니다.",
+      "longDescription": "Apache Pulsar는 (RabbitMQ 같은) 발행/구독 큐잉 모델과 (Kafka 같은) 영구적이고 재생 가능한 이벤트 스트리밍을 하나의 시스템으로 결합하며, 컴퓨트와 스토리지 계층을 분리해 각각 독립적으로 확장할 수 있게 합니다. 기본 제공되는 멀티 테넌시 덕분에 여러 팀이 격리된 네임스페이스로 하나의 Pulsar 클러스터를 안전하게 공유할 수 있습니다.\n\nPulsar는 (카탈로그에 있는) RabbitMQ와 Kafka를 나란히 운영하는 대신 하나의 플랫폼에서 전통적인 큐잉과 이벤트 스트리밍 의미론을 모두 원하는 팀, 또는 공유 메시징 인프라에서 강력한 멀티 테넌트 격리가 특히 필요한 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Plataforma de mensajería y streaming distribuida que unifica la cola tradicional y el streaming de eventos con multi-tenencia integrada.",
+      "longDescription": "Apache Pulsar combina el modelo de colas publicación/suscripción (como RabbitMQ) con streaming de eventos duradero y reproducible (como Kafka) en un solo sistema, y separa sus capas de cómputo y almacenamiento para que cada una pueda escalar de forma independiente. La multi-tenencia integrada permite que muchos equipos compartan de forma segura un mismo clúster de Pulsar con espacios de nombres aislados.\n\nPulsar encaja en equipos que quieren tanto semántica de colas tradicional como de streaming de eventos desde una sola plataforma, en lugar de ejecutar RabbitMQ y Kafka (también en este catálogo) en paralelo, o que necesitan específicamente un fuerte aislamiento multi-tenant en infraestructura de mensajería compartida."
+    },
+    "de": {
+      "description": "Verteilte Messaging- und Streaming-Plattform, die klassisches Queuing und Event-Streaming mit integrierter Multi-Tenancy vereint.",
+      "longDescription": "Apache Pulsar kombiniert das Publish/Subscribe-Queuing-Modell (wie RabbitMQ) mit dauerhaftem, wiederabspielbarem Event-Streaming (wie Kafka) in einem System und trennt seine Compute- und Speicherschichten, sodass jede unabhängig skalieren kann. Integrierte Multi-Tenancy lässt viele Teams sicher einen Pulsar-Cluster mit isolierten Namespaces teilen.\n\nPulsar eignet sich für Teams, die sowohl klassische Queuing- als auch Event-Streaming-Semantik von einer Plattform wollen, statt RabbitMQ und Kafka (ebenfalls in diesem Katalog) nebeneinander zu betreiben, oder die speziell starke Mandantenisolierung auf gemeinsam genutzter Messaging-Infrastruktur benötigen."
+    }
+  }
+}

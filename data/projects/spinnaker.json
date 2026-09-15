@@ -1,0 +1,46 @@
+{
+  "name": "Spinnaker",
+  "slug": "spinnaker",
+  "description": "Multi-cloud continuous delivery platform originally built at Netflix for deploying applications reliably across many cloud providers and regions.",
+  "longDescription": "Spinnaker manages deployment pipelines across multiple cloud providers and regions from one platform, with built-in support for canary analysis, automated rollback, and complex multi-stage release strategies that larger organizations often need. It was built at Netflix to manage deployments at very large scale and later open-sourced.\n\nSpinnaker is a fit for larger organizations deploying across multiple cloud providers or many regions who need sophisticated release orchestration, a heavier-weight platform than the more focused Argo CD or Flux (also in this catalog) for teams whose deployment needs go beyond a single Kubernetes cluster.",
+  "repository": "https://github.com/spinnaker/spinnaker",
+  "website": "https://spinnaker.io",
+  "documentation": "https://spinnaker.io/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "continuous-delivery",
+    "multi-cloud",
+    "deployment-pipeline",
+    "canary-release"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "多云持续交付平台，最初由 Netflix 构建，用于跨众多云厂商和地区可靠地部署应用。",
+      "longDescription": "Spinnaker 从单一平台管理跨多个云厂商和地区的部署流水线，内置支持金丝雀分析、自动回滚，以及大型组织通常需要的复杂多阶段发布策略。它最初由 Netflix 构建，用于管理超大规模的部署，后来开源。\n\nSpinnaker 适合那些跨多个云厂商或众多地区进行部署、需要复杂发布编排能力的大型组织，对于部署需求超出单一 Kubernetes 集群的团队而言，它是比目录中更专注的 Argo CD 或 Flux 更重量级的平台。"
+    },
+    "ja": {
+      "description": "もともと Netflix で構築された、多数のクラウドプロバイダーやリージョンにまたがってアプリケーションを確実にデプロイするための、マルチクラウド継続的デリバリープラットフォームです。",
+      "longDescription": "Spinnaker は、1つのプラットフォームから複数のクラウドプロバイダーやリージョンにまたがるデプロイパイプラインを管理し、カナリア分析、自動ロールバック、そして大規模な組織がしばしば必要とする複雑な多段階のリリース戦略を標準サポートします。もともと Netflix で非常に大規模なデプロイを管理するために構築され、後にオープンソース化されました。\n\nSpinnaker は、複数のクラウドプロバイダーや多数のリージョンにまたがってデプロイを行い、高度なリリースオーケストレーションを必要とする大規模組織に向いています。デプロイのニーズが単一の Kubernetes クラスタを超える範囲に及ぶチームにとって、カタログにあるより絞り込まれた Argo CD や Flux よりも重量級のプラットフォームです。"
+    },
+    "ko": {
+      "description": "원래 Netflix에서 여러 클라우드 제공업체와 리전에 걸쳐 애플리케이션을 안정적으로 배포하기 위해 만들어진 멀티 클라우드 지속적 배포 플랫폼입니다.",
+      "longDescription": "Spinnaker는 하나의 플랫폼에서 여러 클라우드 제공업체와 리전에 걸친 배포 파이프라인을 관리하며, 카나리 분석, 자동 롤백, 그리고 대규모 조직이 흔히 필요로 하는 복잡한 다단계 릴리스 전략을 기본 지원합니다. 매우 대규모의 배포를 관리하기 위해 Netflix에서 만들어졌고 이후 오픈소스로 공개되었습니다.\n\nSpinnaker는 여러 클라우드 제공업체나 다수의 리전에 걸쳐 배포하며 정교한 릴리스 오케스트레이션이 필요한 대규모 조직에 적합하며, 배포 요구가 단일 Kubernetes 클러스터를 넘어서는 팀에게는 카탈로그에 있는 더 집중된 Argo CD나 Flux보다 더 무거운 플랫폼입니다."
+    },
+    "es": {
+      "description": "Plataforma de entrega continua multi-cloud, construida originalmente en Netflix para desplegar aplicaciones de forma fiable entre muchos proveedores de nube y regiones.",
+      "longDescription": "Spinnaker gestiona pipelines de despliegue en múltiples proveedores de nube y regiones desde una sola plataforma, con soporte integrado para análisis canary, reversión automatizada y estrategias de release complejas y multietapa que las organizaciones más grandes suelen necesitar. Se construyó en Netflix para gestionar despliegues a muy gran escala y más tarde se hizo de código abierto.\n\nSpinnaker encaja en organizaciones grandes que despliegan en múltiples proveedores de nube o muchas regiones y necesitan una orquestación de releases sofisticada, una plataforma más pesada que las más enfocadas Argo CD o Flux (también en este catálogo) para equipos cuyas necesidades de despliegue van más allá de un único clúster de Kubernetes."
+    },
+    "de": {
+      "description": "Multi-Cloud-Continuous-Delivery-Plattform, ursprünglich bei Netflix gebaut, um Anwendungen zuverlässig über viele Cloud-Anbieter und Regionen hinweg bereitzustellen.",
+      "longDescription": "Spinnaker verwaltet Deployment-Pipelines über mehrere Cloud-Anbieter und Regionen hinweg von einer Plattform aus, mit integrierter Unterstützung für Canary-Analyse, automatisiertes Rollback und komplexe mehrstufige Release-Strategien, die größere Organisationen oft benötigen. Es wurde bei Netflix gebaut, um Deployments in sehr großem Maßstab zu verwalten, und später quelloffen gemacht.\n\nSpinnaker eignet sich für größere Organisationen, die über mehrere Cloud-Anbieter oder viele Regionen hinweg deployen und ausgefeilte Release-Orchestrierung benötigen – eine schwergewichtigere Plattform als die fokussierteren Argo CD oder Flux (ebenfalls in diesem Katalog) für Teams, deren Deployment-Bedarf über einen einzelnen Kubernetes-Cluster hinausgeht."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Cilium",
+  "slug": "cilium",
+  "description": "eBPF-based networking, security, and observability platform for Kubernetes that replaces traditional networking components with kernel-level performance.",
+  "longDescription": "Cilium uses eBPF - a Linux kernel technology - to implement Kubernetes networking, network policy enforcement, load balancing, and observability directly in the kernel, avoiding the performance overhead of traditional iptables-based networking. It's a CNCF graduated project that's become one of the most widely adopted Kubernetes CNI (networking) plugins.\n\nCilium is a fit for platform teams that want high-performance networking, fine-grained network security policy, and deep network observability for Kubernetes, complementing Istio (also in this catalog) - Cilium can operate at the networking layer alone or provide service-mesh capabilities without a sidecar proxy.",
+  "repository": "https://github.com/cilium/cilium",
+  "website": "https://cilium.io",
+  "documentation": "https://docs.cilium.io",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "ebpf",
+    "kubernetes-networking",
+    "network-security",
+    "cni"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "基于 eBPF 的 Kubernetes 网络、安全与可观测性平台，以内核级性能取代传统网络组件。",
+      "longDescription": "Cilium 使用 eBPF——一项 Linux 内核技术——直接在内核中实现 Kubernetes 网络、网络策略执行、负载均衡和可观测性，避免了传统基于 iptables 的网络方案所带来的性能开销。它是一个 CNCF 毕业项目，已成为应用最广泛的 Kubernetes CNI（网络）插件之一。\n\nCilium 适合那些希望为 Kubernetes 获得高性能网络、精细的网络安全策略和深度网络可观测性的平台团队，与目录中的 Istio 形成互补——Cilium 既可以只在网络层独立运行，也可以在不使用 Sidecar 代理的情况下提供服务网格能力。"
+    },
+    "ja": {
+      "description": "従来のネットワーキングコンポーネントを、カーネルレベルのパフォーマンスで置き換える、eBPF ベースの Kubernetes ネットワーキング・セキュリティ・オブザーバビリティプラットフォームです。",
+      "longDescription": "Cilium は Linux カーネルの技術である eBPF を使って、Kubernetes のネットワーキング、ネットワークポリシーの適用、ロードバランシング、オブザーバビリティをカーネル内で直接実装し、従来の iptables ベースのネットワーキングにあったパフォーマンスオーバーヘッドを回避します。CNCF を卒業したプロジェクトで、最も広く採用されている Kubernetes CNI(ネットワーキング)プラグインの1つとなっています。\n\nCilium は、Kubernetes 向けに高性能なネットワーキング、きめ細かなネットワークセキュリティポリシー、そして深いネットワークオブザーバビリティを求めるプラットフォームチームに向いています。(カタログにもある) Istio を補完する存在で、Cilium はネットワーキング層だけで動作することも、サイドカープロキシなしでサービスメッシュ機能を提供することもできます。"
+    },
+    "ko": {
+      "description": "전통적인 네트워킹 구성 요소를 커널 수준 성능으로 대체하는, eBPF 기반 Kubernetes 네트워킹·보안·관측 가능성 플랫폼입니다.",
+      "longDescription": "Cilium은 Linux 커널 기술인 eBPF를 사용해 Kubernetes 네트워킹, 네트워크 정책 적용, 로드 밸런싱, 관측 가능성을 커널 내에서 직접 구현하여, 전통적인 iptables 기반 네트워킹의 성능 오버헤드를 피합니다. CNCF 졸업 프로젝트로, 가장 널리 채택된 Kubernetes CNI(네트워킹) 플러그인 중 하나가 되었습니다.\n\nCilium은 Kubernetes를 위한 고성능 네트워킹, 세밀한 네트워크 보안 정책, 깊이 있는 네트워크 관측 가능성을 원하는 플랫폼 팀에 적합하며, (카탈로그에 있는) Istio를 보완합니다 — Cilium은 네트워킹 계층만 독립적으로 동작하거나 사이드카 프록시 없이 서비스 메시 기능을 제공할 수 있습니다."
+    },
+    "es": {
+      "description": "Plataforma de red, seguridad y observabilidad basada en eBPF para Kubernetes que sustituye los componentes de red tradicionales con rendimiento a nivel de kernel.",
+      "longDescription": "Cilium usa eBPF —una tecnología del kernel de Linux— para implementar la red de Kubernetes, la aplicación de políticas de red, el balanceo de carga y la observabilidad directamente en el kernel, evitando la sobrecarga de rendimiento de las redes tradicionales basadas en iptables. Es un proyecto graduado de la CNCF que se ha convertido en uno de los plugins de red (CNI) para Kubernetes más adoptados.\n\nCilium encaja en equipos de plataforma que quieren redes de alto rendimiento, políticas de seguridad de red granulares y observabilidad de red profunda para Kubernetes, complementando a Istio (también en este catálogo): Cilium puede operar solo en la capa de red o proporcionar capacidades de service mesh sin un proxy sidecar."
+    },
+    "de": {
+      "description": "eBPF-basierte Netzwerk-, Sicherheits- und Observability-Plattform für Kubernetes, die klassische Netzwerkkomponenten durch Performance auf Kernel-Ebene ersetzt.",
+      "longDescription": "Cilium nutzt eBPF – eine Linux-Kernel-Technologie –, um Kubernetes-Netzwerk, Netzwerkrichtliniendurchsetzung, Lastverteilung und Observability direkt im Kernel zu implementieren und vermeidet so den Performance-Overhead klassischer iptables-basierter Netzwerke. Es ist ein von der CNCF graduiertes Projekt, das zu einem der am weitesten verbreiteten Kubernetes-CNI-(Netzwerk-)Plugins geworden ist.\n\nCilium eignet sich für Platform-Teams, die hochperformantes Networking, feingranulare Netzwerksicherheitsrichtlinien und tiefe Netzwerk-Observability für Kubernetes wollen – als Ergänzung zu Istio (ebenfalls in diesem Katalog): Cilium kann allein auf der Netzwerkebene arbeiten oder Service-Mesh-Fähigkeiten ohne Sidecar-Proxy bereitstellen."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "CloudEvents",
+  "slug": "cloudevents",
+  "description": "CNCF specification and SDK collection for describing event data in a common, vendor-neutral format across systems and platforms.",
+  "longDescription": "CloudEvents defines a standard envelope format for event data - what happened, when, from what source - so different systems, message brokers, and cloud providers can exchange event data without each one inventing its own incompatible format. It ships as a spec plus SDKs in many languages rather than as a running service.\n\nCloudEvents is a fit for teams building event-driven architectures across multiple tools or vendors who want events to be interoperable rather than tied to one specific messaging system's format, complementing NATS, Kafka, and RabbitMQ (also in this catalog), which can all carry CloudEvents-formatted payloads.",
+  "repository": "https://github.com/cloudevents/spec",
+  "website": "https://cloudevents.io",
+  "documentation": "https://github.com/cloudevents/spec/blob/main/README.md",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "event-driven-architecture",
+    "event-format",
+    "specification",
+    "interoperability"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "CNCF 规范与 SDK 集合，用于在各系统和平台之间以统一的、厂商无关的格式描述事件数据。",
+      "longDescription": "CloudEvents 定义了一套标准的事件数据信封格式——发生了什么、何时发生、来自哪个来源——使不同的系统、消息代理和云厂商能够交换事件数据，而不必各自发明互不兼容的格式。它以规范加多语言 SDK 的形式发布，而不是作为一项运行中的服务。\n\nCloudEvents 适合那些跨多种工具或厂商构建事件驱动架构、希望事件具备互操作性而非绑定于某一特定消息系统格式的团队，与目录中的 NATS、Kafka 和 RabbitMQ 形成互补——它们都可以承载 CloudEvents 格式的负载。"
+    },
+    "ja": {
+      "description": "システムやプラットフォームをまたいで、イベントデータを共通のベンダーニュートラルなフォーマットで記述するための、CNCF の仕様と SDK 集です。",
+      "longDescription": "CloudEvents は、何が・いつ・どのソースから発生したかというイベントデータの標準的なエンベロープフォーマットを定義し、異なるシステム、メッセージブローカー、クラウドプロバイダーが、それぞれ独自の非互換なフォーマットを発明することなくイベントデータを交換できるようにします。稼働中のサービスとしてではなく、仕様と多言語の SDK として提供されます。\n\nCloudEvents は、複数のツールやベンダーにまたがってイベント駆動アーキテクチャを構築していて、イベントを特定のメッセージングシステムのフォーマットに縛られるのではなく相互運用可能にしたいチームに向いています。カタログにある NATS、Kafka、RabbitMQ を補完する存在で、それらはすべて CloudEvents 形式のペイロードを運ぶことができます。"
+    },
+    "ko": {
+      "description": "시스템과 플랫폼 전반에서 이벤트 데이터를 공통적이고 벤더 중립적인 형식으로 기술하기 위한 CNCF 사양·SDK 모음입니다.",
+      "longDescription": "CloudEvents는 무슨 일이 언제 어떤 소스에서 발생했는지에 대한 표준 이벤트 데이터 봉투 형식을 정의하여, 서로 다른 시스템, 메시지 브로커, 클라우드 제공업체가 각자 호환되지 않는 자체 형식을 만들지 않고도 이벤트 데이터를 교환할 수 있게 해줍니다. 실행 중인 서비스가 아니라 사양과 여러 언어의 SDK 형태로 제공됩니다.\n\nCloudEvents는 여러 도구나 벤더에 걸쳐 이벤트 기반 아키텍처를 구축하며 이벤트가 특정 메시징 시스템의 형식에 묶이지 않고 상호 운용 가능하기를 원하는 팀에 적합하며, 카탈로그에 있는 NATS, Kafka, RabbitMQ를 보완합니다 — 이들 모두 CloudEvents 형식의 페이로드를 실어 나를 수 있습니다."
+    },
+    "es": {
+      "description": "Especificación de la CNCF y colección de SDKs para describir datos de eventos en un formato común y neutral respecto al proveedor entre sistemas y plataformas.",
+      "longDescription": "CloudEvents define un formato de sobre estándar para datos de eventos —qué ocurrió, cuándo, desde qué origen— para que distintos sistemas, brókeres de mensajes y proveedores cloud puedan intercambiar datos de eventos sin que cada uno invente su propio formato incompatible. Se distribuye como una especificación más SDKs en muchos lenguajes, en lugar de como un servicio en ejecución.\n\nCloudEvents encaja en equipos que construyen arquitecturas orientadas a eventos a través de múltiples herramientas o proveedores y quieren que los eventos sean interoperables en lugar de estar atados al formato de un sistema de mensajería concreto, complementando a NATS, Kafka y RabbitMQ (también en este catálogo), que pueden transportar payloads con formato CloudEvents."
+    },
+    "de": {
+      "description": "CNCF-Spezifikation und SDK-Sammlung zur Beschreibung von Ereignisdaten in einem gemeinsamen, anbieterneutralen Format über Systeme und Plattformen hinweg.",
+      "longDescription": "CloudEvents definiert ein Standard-Umschlagformat für Ereignisdaten – was passiert ist, wann, aus welcher Quelle –, sodass verschiedene Systeme, Message-Broker und Cloud-Anbieter Ereignisdaten austauschen können, ohne dass jeder sein eigenes inkompatibles Format erfindet. Es wird als Spezifikation plus SDKs in vielen Sprachen ausgeliefert, statt als laufender Dienst.\n\nCloudEvents eignet sich für Teams, die ereignisgesteuerte Architekturen über mehrere Tools oder Anbieter hinweg bauen und wollen, dass Ereignisse interoperabel sind statt an das Format eines bestimmten Messaging-Systems gebunden – als Ergänzung zu NATS, Kafka und RabbitMQ (ebenfalls in diesem Katalog), die alle CloudEvents-formatierte Payloads transportieren können."
+    }
+  }
+}

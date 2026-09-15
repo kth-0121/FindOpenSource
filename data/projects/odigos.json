@@ -1,0 +1,46 @@
+{
+  "name": "Odigos",
+  "slug": "odigos",
+  "description": "Automatic OpenTelemetry instrumentation platform that adds distributed tracing to applications without changing a single line of code.",
+  "longDescription": "Odigos automatically detects the languages and frameworks running in a Kubernetes cluster and injects OpenTelemetry instrumentation for each of them, producing traces, metrics, and logs without a developer manually adding tracing libraries to every service. It manages the ongoing complexity of keeping instrumentation up to date across many services.\n\nOdigos is a fit for teams that want distributed tracing across an existing, uninstrumented codebase without a manual instrumentation project, complementing OpenTelemetry Collector (also in this catalog), which processes the data Odigos automatically generates.",
+  "repository": "https://github.com/odigos-io/odigos",
+  "website": "https://odigos.io",
+  "documentation": "https://docs.odigos.io",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "auto-instrumentation",
+    "opentelemetry",
+    "distributed-tracing",
+    "observability"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "自动化的 OpenTelemetry 埋点平台，无需修改任何一行代码即可为应用添加分布式链路追踪。",
+      "longDescription": "Odigos 会自动检测 Kubernetes 集群中运行的语言和框架，并为每一种自动注入 OpenTelemetry 埋点，生成链路追踪、指标和日志数据，开发者无需为每个服务手动添加链路追踪库。它还负责处理在众多服务间持续保持埋点更新这一复杂工作。\n\nOdigos 适合那些希望为现有、尚未埋点的代码库添加分布式链路追踪、又不想启动手动埋点项目的团队，与目录中的 OpenTelemetry Collector 形成互补——后者处理的正是 Odigos 自动生成的数据。"
+    },
+    "ja": {
+      "description": "コードを1行も変更することなく、アプリケーションに分散トレーシングを追加する、自動 OpenTelemetry 計装プラットフォームです。",
+      "longDescription": "Odigos は、Kubernetes クラスタ内で稼働している言語やフレームワークを自動的に検出し、それぞれに OpenTelemetry の計装を注入して、開発者が各サービスに手動でトレーシングライブラリを追加することなく、トレース・メトリクス・ログを生成します。多数のサービスにわたって計装を最新の状態に保ち続けるという継続的な複雑さも管理します。\n\nOdigos は、手動での計装プロジェクトを立ち上げることなく、既存の未計装なコードベース全体に分散トレーシングを導入したいチームに向いています。(カタログにもある) OpenTelemetry Collector を補完する存在で、Collector は Odigos が自動生成するデータを処理します。"
+    },
+    "ko": {
+      "description": "코드를 단 한 줄도 바꾸지 않고 애플리케이션에 분산 추적을 추가하는 자동 OpenTelemetry 계측 플랫폼입니다.",
+      "longDescription": "Odigos는 Kubernetes 클러스터에서 실행 중인 언어와 프레임워크를 자동으로 감지하고 각각에 OpenTelemetry 계측을 주입해, 개발자가 서비스마다 수동으로 트레이싱 라이브러리를 추가하지 않아도 트레이스, 메트릭, 로그를 생성합니다. 수많은 서비스에 걸쳐 계측을 최신 상태로 유지하는 지속적인 복잡함도 관리해줍니다.\n\nOdigos는 수동 계측 프로젝트 없이 기존의 계측되지 않은 코드베이스 전반에 분산 추적을 도입하고 싶은 팀에 적합하며, (카탈로그에 있는) OpenTelemetry Collector를 보완합니다 — Collector는 Odigos가 자동 생성하는 데이터를 처리합니다."
+    },
+    "es": {
+      "description": "Plataforma de instrumentación automática de OpenTelemetry que añade tracing distribuido a las aplicaciones sin cambiar ni una línea de código.",
+      "longDescription": "Odigos detecta automáticamente los lenguajes y frameworks que se ejecutan en un clúster de Kubernetes e inyecta instrumentación de OpenTelemetry para cada uno, generando trazas, métricas y logs sin que un desarrollador tenga que añadir manualmente librerías de tracing a cada servicio. Gestiona la complejidad continua de mantener actualizada la instrumentación en muchos servicios.\n\nOdigos encaja en equipos que quieren tracing distribuido en una base de código existente y sin instrumentar, sin emprender un proyecto de instrumentación manual, complementando a OpenTelemetry Collector (también en este catálogo), que procesa los datos que Odigos genera automáticamente."
+    },
+    "de": {
+      "description": "Automatische OpenTelemetry-Instrumentierungsplattform, die verteiltes Tracing zu Anwendungen hinzufügt, ohne eine einzige Codezeile zu ändern.",
+      "longDescription": "Odigos erkennt automatisch die in einem Kubernetes-Cluster laufenden Sprachen und Frameworks und injiziert für jedes davon OpenTelemetry-Instrumentierung, wodurch Traces, Metriken und Logs entstehen, ohne dass ein Entwickler manuell Tracing-Bibliotheken zu jedem Dienst hinzufügen muss. Es verwaltet die anhaltende Komplexität, die Instrumentierung über viele Dienste hinweg aktuell zu halten.\n\nOdigos eignet sich für Teams, die verteiltes Tracing über eine bestehende, nicht instrumentierte Codebasis wollen, ohne ein manuelles Instrumentierungsprojekt zu starten – als Ergänzung zum OpenTelemetry Collector (ebenfalls in diesem Katalog), der die von Odigos automatisch erzeugten Daten verarbeitet."
+    }
+  }
+}

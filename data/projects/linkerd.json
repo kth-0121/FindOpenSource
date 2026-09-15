@@ -1,0 +1,47 @@
+{
+  "name": "Linkerd",
+  "slug": "linkerd",
+  "description": "Lightweight service mesh for Kubernetes focused on simplicity and low resource overhead, a genuine alternative to Istio.",
+  "longDescription": "Linkerd adds mutual TLS encryption, retries, load balancing, and detailed traffic metrics to a Kubernetes cluster via lightweight proxies, deliberately prioritizing operational simplicity and a small resource footprint over Istio's broader (also in this catalog) feature set. It was the original service mesh project and is a CNCF graduated project.\n\nLinkerd is a fit for teams that want core service mesh capabilities - mTLS, observability, reliability - without Istio's operational complexity, a genuine alternative that teams commonly evaluate side by side with Istio before choosing one.",
+  "repository": "https://github.com/linkerd/linkerd2",
+  "website": "https://linkerd.io",
+  "documentation": "https://linkerd.io/2/overview/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "service-mesh",
+    "mtls",
+    "kubernetes-networking",
+    "lightweight"
+  ],
+  "languages": [
+    "Go",
+    "Rust"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Kubernetes 的轻量级服务网格，专注于简洁性和低资源开销，是 Istio 的真正替代方案。",
+      "longDescription": "Linkerd 通过轻量级代理为 Kubernetes 集群添加双向 TLS 加密、重试、负载均衡和详细的流量指标，与目录中功能更全面的 Istio 相比，它刻意优先考虑运维简洁性和较小的资源占用。它是最早的服务网格项目，也是一个 CNCF 毕业项目。\n\nLinkerd 适合那些希望获得服务网格核心能力（mTLS、可观测性、可靠性）、又不想承受 Istio 运维复杂性的团队，是团队在做出选择前通常会与 Istio 并列评估的真正替代方案。"
+    },
+    "ja": {
+      "description": "シンプルさと低いリソースオーバーヘッドに重点を置いた、Kubernetes 向けの軽量なサービスメッシュで、Istio の正当な代替手段です。",
+      "longDescription": "Linkerd は、軽量なプロキシを通じて Kubernetes クラスタに相互 TLS 暗号化、リトライ、ロードバランシング、詳細なトラフィックメトリクスを追加し、(カタログにもある) より広範な機能セットを持つ Istio よりも、運用のシンプルさと小さなリソースフットプリントを意図的に優先しています。最初のサービスメッシュプロジェクトであり、CNCF を卒業したプロジェクトです。\n\nLinkerd は、Istio の運用上の複雑さを伴わずに、mTLS、オブザーバビリティ、信頼性といったサービスメッシュのコア機能を求めるチームに向いています。チームが1つを選ぶ前に、通常 Istio と並べて評価する、正当な代替手段です。"
+    },
+    "ko": {
+      "description": "단순함과 낮은 리소스 오버헤드에 초점을 맞춘 Kubernetes를 위한 경량 서비스 메시로, Istio의 진정한 대안입니다.",
+      "longDescription": "Linkerd는 경량 프록시를 통해 Kubernetes 클러스터에 상호 TLS 암호화, 재시도, 로드 밸런싱, 상세한 트래픽 지표를 추가하며, (카탈로그에 있는) 더 폭넓은 기능 세트를 가진 Istio보다 운영의 단순함과 작은 리소스 사용량을 의도적으로 우선시합니다. 최초의 서비스 메시 프로젝트였으며 CNCF 졸업 프로젝트입니다.\n\nLinkerd는 Istio의 운영 복잡성 없이 mTLS, 관측 가능성, 신뢰성 같은 서비스 메시 핵심 기능을 원하는 팀에 적합하며, 팀들이 하나를 선택하기 전에 흔히 Istio와 나란히 평가하는 진정한 대안입니다."
+    },
+    "es": {
+      "description": "Service mesh ligero para Kubernetes centrado en la simplicidad y bajo consumo de recursos, una alternativa genuina a Istio.",
+      "longDescription": "Linkerd añade cifrado TLS mutuo, reintentos, balanceo de carga y métricas de tráfico detalladas a un clúster de Kubernetes mediante proxies ligeros, priorizando deliberadamente la simplicidad operativa y una huella de recursos pequeña frente al conjunto de funciones más amplio de Istio (también en este catálogo). Fue el proyecto de service mesh original y es un proyecto graduado de la CNCF.\n\nLinkerd encaja en equipos que quieren capacidades básicas de service mesh —mTLS, observabilidad, fiabilidad— sin la complejidad operativa de Istio, una alternativa genuina que los equipos suelen evaluar junto a Istio antes de elegir una."
+    },
+    "de": {
+      "description": "Leichtgewichtiger Service Mesh für Kubernetes mit Fokus auf Einfachheit und geringen Ressourcen-Overhead – eine echte Alternative zu Istio.",
+      "longDescription": "Linkerd fügt einem Kubernetes-Cluster über leichtgewichtige Proxys gegenseitige TLS-Verschlüsselung, Wiederholungsversuche, Lastverteilung und detaillierte Traffic-Metriken hinzu und priorisiert bewusst operative Einfachheit und einen kleinen Ressourcen-Fußabdruck gegenüber dem breiteren Funktionsumfang von Istio (ebenfalls in diesem Katalog). Es war das ursprüngliche Service-Mesh-Projekt und ist ein von der CNCF graduiertes Projekt.\n\nLinkerd eignet sich für Teams, die zentrale Service-Mesh-Fähigkeiten – mTLS, Observability, Zuverlässigkeit – ohne Istios operative Komplexität wollen – eine echte Alternative, die Teams häufig Seite an Seite mit Istio evaluieren, bevor sie sich entscheiden."
+    }
+  }
+}

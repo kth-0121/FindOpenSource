@@ -1,0 +1,45 @@
+{
+  "name": "Guidance",
+  "slug": "guidance",
+  "description": "Programming paradigm and library for controlling LLM generation with interleaved prompting, control flow, and constrained output in one program.",
+  "longDescription": "Guidance lets a developer write a single program that mixes plain text prompts, control flow (loops, conditionals), and constraints on exactly what the model can generate next - regex patterns, choice lists, or structured formats - rather than making multiple separate calls to an LLM API and stitching results together in application code. This can also make generation faster by skipping tokens that are already determined by the constraints.\n\nGuidance is a fit for teams that want fine-grained, programmatic control over the generation process itself, a compared alternative to Outlines (also in this catalog) - both constrain LLM output, with Guidance emphasizing an interleaved program-and-generation authoring style.",
+  "repository": "https://github.com/guidance-ai/guidance",
+  "website": "https://github.com/guidance-ai/guidance",
+  "documentation": "https://github.com/guidance-ai/guidance#readme",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "structured-output",
+    "llm-generation",
+    "prompt-engineering"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "编程范式与库，通过在一个程序中交织提示词、控制流和约束输出，来控制大语言模型的生成过程。",
+      "longDescription": "Guidance 让开发者能够编写一个单一的程序，将纯文本提示词、控制流（循环、条件分支），以及对模型下一步究竟能生成什么内容的约束（正则表达式模式、选项列表或结构化格式）混合在一起，而不是对大语言模型 API 进行多次独立调用，再在应用代码中拼接结果。这还能通过跳过已被约束确定的词元来加快生成速度。\n\nGuidance 适合那些希望对生成过程本身进行精细化、程序化控制的团队，是目录中 Outlines 的一个可对比的替代方案——两者都对大语言模型输出进行约束，Guidance 更强调将程序与生成过程交织在一起的编写风格。"
+    },
+    "ja": {
+      "description": "1つのプログラムの中で、プロンプト、制御フロー、制約付き出力を織り交ぜて LLM の生成を制御するための、プログラミングパラダイム兼ライブラリです。",
+      "longDescription": "Guidance を使うと、開発者は、プレーンテキストのプロンプト、制御フロー(ループ、条件分岐)、そしてモデルが次に生成できる内容を正確に制約するもの(正規表現パターン、選択肢リスト、構造化フォーマット)を組み合わせた1つのプログラムを書くことができます。LLM API への複数の個別呼び出しを行い、その結果をアプリケーションコード側でつなぎ合わせる代わりにです。これにより、制約によってすでに決まっているトークンをスキップすることで、生成を高速化することもできます。\n\nGuidance は、生成プロセス自体に対してきめ細かくプログラム的な制御を求めるチームに向いています。(カタログにもある) Outlines と比較される代替手段で、両者とも LLM の出力を制約しますが、Guidance はプログラムと生成を織り交ぜた記述スタイルを重視しています。"
+    },
+    "ko": {
+      "description": "프롬프트, 제어 흐름, 제약된 출력을 하나의 프로그램 안에 엮어 LLM 생성을 제어하는 프로그래밍 패러다임이자 라이브러리입니다.",
+      "longDescription": "Guidance는 개발자가 일반 텍스트 프롬프트, 제어 흐름(루프, 조건문), 그리고 모델이 다음에 정확히 무엇을 생성할 수 있는지에 대한 제약(정규식 패턴, 선택지 목록, 구조화된 형식)을 뒤섞은 하나의 프로그램을 작성할 수 있게 해줍니다. LLM API를 여러 번 별도로 호출하고 그 결과를 애플리케이션 코드에서 엮는 대신입니다. 이는 제약으로 이미 결정된 토큰을 건너뛰어 생성 속도를 높일 수도 있습니다.\n\nGuidance는 생성 과정 자체에 대해 세밀하고 프로그래밍적인 제어를 원하는 팀에 적합하며, (카탈로그에 있는) Outlines와 비교되는 대안입니다 — 둘 다 LLM 출력을 제약하지만, Guidance는 프로그램과 생성을 엮어서 작성하는 스타일을 강조합니다."
+    },
+    "es": {
+      "description": "Paradigma de programación y biblioteca para controlar la generación de LLM entrelazando prompting, flujo de control y salida restringida en un solo programa.",
+      "longDescription": "Guidance permite a un desarrollador escribir un único programa que mezcla prompts de texto plano, flujo de control (bucles, condicionales) y restricciones sobre exactamente qué puede generar el modelo a continuación —patrones regex, listas de opciones o formatos estructurados—, en lugar de hacer varias llamadas separadas a una API de LLM y unir los resultados en el código de la aplicación. Esto también puede acelerar la generación al saltarse tokens que las restricciones ya determinan.\n\nGuidance encaja en equipos que quieren un control granular y programático sobre el propio proceso de generación, una alternativa comparable a Outlines (también en este catálogo): ambos restringen la salida del LLM, con Guidance enfatizando un estilo de autoría que entrelaza programa y generación."
+    },
+    "de": {
+      "description": "Programmierparadigma und Bibliothek zur Steuerung der LLM-Generierung mit verschachteltem Prompting, Kontrollfluss und eingeschränkter Ausgabe in einem Programm.",
+      "longDescription": "Guidance lässt einen Entwickler ein einziges Programm schreiben, das Klartext-Prompts, Kontrollfluss (Schleifen, Bedingungen) und Einschränkungen darüber, was das Modell als Nächstes genau generieren darf – Regex-Muster, Auswahllisten oder strukturierte Formate – mischt, statt mehrere separate Aufrufe an eine LLM-API zu machen und Ergebnisse im Anwendungscode zusammenzufügen. Das kann die Generierung auch beschleunigen, indem Tokens übersprungen werden, die durch die Einschränkungen bereits feststehen.\n\nGuidance eignet sich für Teams, die feingranulare, programmatische Kontrolle über den Generierungsprozess selbst wollen – eine vergleichbare Alternative zu Outlines (ebenfalls in diesem Katalog): Beide schränken LLM-Ausgaben ein, wobei Guidance einen verschachtelten Programm-und-Generierung-Autorenstil betont."
+    }
+  }
+}

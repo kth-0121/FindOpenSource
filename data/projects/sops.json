@@ -1,0 +1,46 @@
+{
+  "name": "SOPS",
+  "slug": "sops",
+  "description": "Command-line tool that encrypts individual values inside YAML, JSON, and other config files, so secrets can be safely committed to git.",
+  "longDescription": "SOPS (Secrets OPerationS) encrypts just the values in a structured file - not the whole file - so a git diff still shows which keys changed, while the actual secret values stay encrypted using a key management backend like AWS KMS, GCP KMS, or PGP. This lets a team keep secrets alongside the rest of their configuration in version control instead of storing them separately.\n\nSOPS is a fit for teams practicing GitOps who need secrets to live safely inside the same git repository as everything else, commonly paired with tools like Flux or Argo CD (also in this catalog) that sync configuration from git.",
+  "repository": "https://github.com/getsops/sops",
+  "website": "https://github.com/getsops/sops",
+  "documentation": "https://getsops.io/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "secrets-management",
+    "encryption",
+    "gitops",
+    "configuration-security"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "MPL-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "命令行工具，可加密 YAML、JSON 等配置文件中的单个值，使密钥能够安全地提交到 Git。",
+      "longDescription": "SOPS（Secrets OPerationS）仅加密结构化文件中的值——而非整个文件——因此 git diff 仍能显示哪些键发生了变化，而实际的密钥值则通过 AWS KMS、GCP KMS 或 PGP 等密钥管理后端保持加密状态。这让团队可以将密钥与其余配置一起保存在版本控制中，而不必单独存储。\n\nSOPS 适合那些实践 GitOps、需要将密钥安全地保存在与其他配置相同的 Git 仓库中的团队，通常与目录中的 Flux 或 Argo CD 等从 Git 同步配置的工具搭配使用。"
+    },
+    "ja": {
+      "description": "YAML、JSON、その他の設定ファイル内の個々の値を暗号化するコマンドラインツールで、シークレットを安全に Git にコミットできるようにします。",
+      "longDescription": "SOPS(Secrets OPerationS)は、構造化ファイル全体ではなく、その中の値だけを暗号化します。そのため git diff は依然としてどのキーが変更されたかを示す一方、実際のシークレットの値は AWS KMS、GCP KMS、PGP といった鍵管理バックエンドを使って暗号化された状態を保ちます。これにより、チームはシークレットを別々に保存するのではなく、他の設定とともにバージョン管理の中で保持できます。\n\nSOPS は、GitOps を実践していて、シークレットを他のすべてと同じ Git リポジトリ内に安全に置いておく必要のあるチームに向いており、Git から設定を同期する(カタログにもある) Flux や Argo CD のようなツールとよく組み合わせて使われます。"
+    },
+    "ko": {
+      "description": "YAML, JSON 등 설정 파일 안의 개별 값을 암호화하는 커맨드라인 도구로, 시크릿을 안전하게 Git에 커밋할 수 있게 해줍니다.",
+      "longDescription": "SOPS(Secrets OPerationS)는 구조화된 파일 전체가 아니라 값만 암호화하므로, git diff는 여전히 어떤 키가 변경되었는지 보여주는 반면, 실제 시크릿 값은 AWS KMS, GCP KMS, PGP 같은 키 관리 백엔드를 사용해 암호화된 상태로 유지됩니다. 이를 통해 팀은 시크릿을 따로 저장하는 대신 나머지 설정과 함께 버전 관리에 보관할 수 있습니다.\n\nSOPS는 GitOps를 실천하며 시크릿을 다른 모든 것과 동일한 Git 저장소 안에 안전하게 두어야 하는 팀에 적합하며, Git에서 설정을 동기화하는 (카탈로그에 있는) Flux나 Argo CD 같은 도구와 흔히 짝을 이룹니다."
+    },
+    "es": {
+      "description": "Herramienta de línea de comandos que cifra valores individuales dentro de archivos YAML, JSON y otros de configuración, para que los secretos puedan comprometerse a git de forma segura.",
+      "longDescription": "SOPS (Secrets OPerationS) cifra solo los valores de un archivo estructurado, no el archivo entero, de modo que un git diff sigue mostrando qué claves cambiaron, mientras los valores secretos reales permanecen cifrados usando un backend de gestión de claves como AWS KMS, GCP KMS o PGP. Esto permite a un equipo mantener los secretos junto al resto de su configuración en el control de versiones en lugar de almacenarlos por separado.\n\nSOPS encaja en equipos que practican GitOps y necesitan que los secretos vivan de forma segura dentro del mismo repositorio git que todo lo demás, habitualmente emparejado con herramientas como Flux o Argo CD (también en este catálogo) que sincronizan la configuración desde git."
+    },
+    "de": {
+      "description": "Kommandozeilentool, das einzelne Werte innerhalb von YAML-, JSON- und anderen Konfigurationsdateien verschlüsselt, sodass Secrets sicher in git committet werden können.",
+      "longDescription": "SOPS (Secrets OPerationS) verschlüsselt nur die Werte in einer strukturierten Datei – nicht die gesamte Datei –, sodass ein git diff weiterhin zeigt, welche Schlüssel sich geändert haben, während die tatsächlichen Secret-Werte über ein Schlüsselverwaltungs-Backend wie AWS KMS, GCP KMS oder PGP verschlüsselt bleiben. So kann ein Team Secrets zusammen mit dem Rest seiner Konfiguration in der Versionskontrolle halten, statt sie separat zu speichern.\n\nSOPS eignet sich für Teams, die GitOps praktizieren und Secrets sicher im selben Git-Repository wie alles andere benötigen – häufig gepaart mit Tools wie Flux oder Argo CD (ebenfalls in diesem Katalog), die Konfiguration aus git synchronisieren."
+    }
+  }
+}

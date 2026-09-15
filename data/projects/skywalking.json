@@ -1,0 +1,46 @@
+{
+  "name": "SkyWalking",
+  "slug": "skywalking",
+  "description": "Application performance monitoring (APM) platform providing distributed tracing, service topology, and metrics in one system.",
+  "longDescription": "Apache SkyWalking is a full APM platform that combines distributed tracing, service dependency mapping, metrics, and alerting for microservices and cloud-native applications, with auto-instrumentation agents for many languages that require no code changes. It shows not just individual traces but the overall service topology and health.\n\nSkyWalking is a fit for teams that want a broader, all-in-one APM platform rather than assembling tracing, metrics, and dashboards from separate tools - a wider scope than Jaeger's pure distributed tracing (also in this catalog).",
+  "repository": "https://github.com/apache/skywalking",
+  "website": "https://skywalking.apache.org",
+  "documentation": "https://skywalking.apache.org/docs/",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "apm",
+    "distributed-tracing",
+    "service-topology",
+    "application-monitoring"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "应用性能监控（APM）平台，将分布式链路追踪、服务拓扑和指标整合在同一系统中。",
+      "longDescription": "Apache SkyWalking 是一个完整的 APM 平台，为微服务和云原生应用整合了分布式链路追踪、服务依赖关系映射、指标和告警功能，并为多种语言提供无需修改代码的自动埋点代理。它展示的不仅是单条链路追踪，还包括整体的服务拓扑和健康状况。\n\nSkyWalking 适合那些希望使用更全面的一体化 APM 平台、而不是用多个独立工具拼凑链路追踪、指标和仪表盘的团队——其覆盖范围比目录中纯粹专注于分布式链路追踪的 Jaeger 更广。"
+    },
+    "ja": {
+      "description": "分散トレーシング、サービストポロジー、メトリクスを1つのシステムで提供する、アプリケーションパフォーマンス監視(APM)プラットフォームです。",
+      "longDescription": "Apache SkyWalking は、マイクロサービスやクラウドネイティブアプリケーション向けに分散トレーシング、サービス依存関係のマッピング、メトリクス、アラートを統合した、フル機能の APM プラットフォームです。多数の言語向けにコード変更不要な自動計装エージェントを提供します。個々のトレースだけでなく、サービス全体のトポロジーと健全性も表示します。\n\nSkyWalking は、トレーシング・メトリクス・ダッシュボードを別々のツールから組み立てるのではなく、より広範囲でオールインワンな APM プラットフォームを求めるチームに向いています。カタログ内の純粋な分散トレーシングである Jaeger よりも広いスコープです。"
+    },
+    "ko": {
+      "description": "분산 추적, 서비스 토폴로지, 메트릭을 하나의 시스템으로 제공하는 애플리케이션 성능 모니터링(APM) 플랫폼입니다.",
+      "longDescription": "Apache SkyWalking은 마이크로서비스와 클라우드 네이티브 애플리케이션을 위해 분산 추적, 서비스 의존성 매핑, 메트릭, 알림을 결합한 완전한 APM 플랫폼으로, 코드 변경이 필요 없는 자동 계측 에이전트를 여러 언어에 제공합니다. 개별 트레이스뿐 아니라 전체 서비스 토폴로지와 상태도 보여줍니다.\n\nSkyWalking은 추적, 메트릭, 대시보드를 별도 도구로 조합하는 대신 더 폭넓은 올인원 APM 플랫폼을 원하는 팀에 적합합니다. 카탈로그에 있는 순수 분산 추적 도구인 Jaeger보다 범위가 넓습니다."
+    },
+    "es": {
+      "description": "Plataforma de monitorización del rendimiento de aplicaciones (APM) que ofrece tracing distribuido, topología de servicios y métricas en un solo sistema.",
+      "longDescription": "Apache SkyWalking es una plataforma APM completa que combina tracing distribuido, mapeo de dependencias entre servicios, métricas y alertas para microservicios y aplicaciones cloud-native, con agentes de auto-instrumentación para muchos lenguajes que no requieren cambios de código. Muestra no solo trazas individuales, sino la topología y salud general del servicio.\n\nSkyWalking encaja en equipos que quieren una plataforma APM más amplia y todo en uno, en lugar de ensamblar tracing, métricas y dashboards a partir de herramientas separadas, un alcance más amplio que el tracing distribuido puro de Jaeger (también en este catálogo)."
+    },
+    "de": {
+      "description": "Application-Performance-Monitoring(APM)-Plattform, die verteiltes Tracing, Service-Topologie und Metriken in einem System bereitstellt.",
+      "longDescription": "Apache SkyWalking ist eine vollständige APM-Plattform, die verteiltes Tracing, Service-Abhängigkeits-Mapping, Metriken und Alarmierung für Microservices und Cloud-native Anwendungen kombiniert, mit Auto-Instrumentierungs-Agenten für viele Sprachen, die keine Codeänderungen erfordern. Sie zeigt nicht nur einzelne Traces, sondern die gesamte Service-Topologie und -Gesundheit.\n\nSkyWalking eignet sich für Teams, die eine breitere All-in-one-APM-Plattform wollen, statt Tracing, Metriken und Dashboards aus separaten Tools zusammenzustellen – ein weiterer Umfang als Jaegers reines verteiltes Tracing (ebenfalls in diesem Katalog)."
+    }
+  }
+}

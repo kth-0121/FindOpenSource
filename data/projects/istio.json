@@ -1,0 +1,46 @@
+{
+  "name": "Istio",
+  "slug": "istio",
+  "description": "The leading service mesh for Kubernetes, adding traffic management, security, and observability to microservices without changing application code.",
+  "longDescription": "Istio injects a proxy sidecar next to each service in a Kubernetes cluster, giving a platform team fine-grained control over traffic routing, retries, timeouts, mutual TLS encryption between services, and detailed telemetry - all without any code changes in the services themselves. It's one of the most widely adopted and feature-rich service meshes available.\n\nIstio is a fit for platform teams running many interdependent microservices on Kubernetes who need traffic control, security, and observability at the network layer, complementing Envoy (also in this catalog), the proxy that actually powers Istio's data plane.",
+  "repository": "https://github.com/istio/istio",
+  "website": "https://istio.io",
+  "documentation": "https://istio.io/latest/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "service-mesh",
+    "microservices",
+    "mtls",
+    "traffic-management"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "领先的 Kubernetes 服务网格，在不改动应用代码的情况下为微服务增加流量管理、安全性和可观测性。",
+      "longDescription": "Istio 在 Kubernetes 集群中为每个服务注入一个代理 Sidecar，使平台团队能够精细控制流量路由、重试、超时、服务间双向 TLS 加密以及详细的遥测数据——所有这一切都无需对服务本身进行任何代码更改。它是目前应用最广泛、功能最丰富的服务网格之一。\n\nIstio 适合那些在 Kubernetes 上运行大量相互依赖的微服务、需要在网络层实现流量控制、安全性和可观测性的平台团队，与目录中的 Envoy 形成互补——后者正是驱动 Istio 数据平面的代理。"
+    },
+    "ja": {
+      "description": "アプリケーションコードを変更することなく、マイクロサービスにトラフィック管理・セキュリティ・オブザーバビリティを追加する、Kubernetes 向けの主要なサービスメッシュです。",
+      "longDescription": "Istio は Kubernetes クラスタ内の各サービスの隣にプロキシサイドカーを注入し、プラットフォームチームにトラフィックルーティング、リトライ、タイムアウト、サービス間の相互 TLS 暗号化、詳細なテレメトリに対するきめ細かな制御をもたらします——しかもサービス自体のコード変更は一切不要です。利用可能なサービスメッシュの中でも、最も広く採用され、最も機能豊富なものの1つです。\n\nIstio は、Kubernetes 上で多数の相互依存するマイクロサービスを運用しており、ネットワーク層でのトラフィック制御・セキュリティ・オブザーバビリティを必要とするプラットフォームチームに向いています。(カタログにもある) Envoy を補完する存在で、Envoy は実際に Istio のデータプレーンを支えるプロキシです。"
+    },
+    "ko": {
+      "description": "애플리케이션 코드를 변경하지 않고도 마이크로서비스에 트래픽 관리, 보안, 관측 가능성을 더해주는, Kubernetes를 위한 선도적인 서비스 메시입니다.",
+      "longDescription": "Istio는 Kubernetes 클러스터 내 각 서비스 옆에 프록시 사이드카를 주입하여, 플랫폼 팀에게 트래픽 라우팅, 재시도, 타임아웃, 서비스 간 상호 TLS 암호화, 상세한 텔레메트리에 대한 세밀한 제어를 제공합니다 — 서비스 자체의 코드 변경은 전혀 필요 없습니다. 사용 가능한 서비스 메시 중 가장 널리 채택되고 기능이 풍부한 것 중 하나입니다.\n\nIstio는 Kubernetes에서 상호 의존적인 마이크로서비스를 다수 운영하며 네트워크 계층에서 트래픽 제어, 보안, 관측 가능성이 필요한 플랫폼 팀에 적합하며, (카탈로그에 있는) Envoy를 보완합니다 — Envoy는 실제로 Istio의 데이터 플레인을 구동하는 프록시입니다."
+    },
+    "es": {
+      "description": "El service mesh líder para Kubernetes, que añade gestión de tráfico, seguridad y observabilidad a los microservicios sin cambiar el código de la aplicación.",
+      "longDescription": "Istio inyecta un proxy sidecar junto a cada servicio de un clúster de Kubernetes, dando a un equipo de plataforma control granular sobre el enrutamiento de tráfico, reintentos, timeouts, cifrado TLS mutuo entre servicios y telemetría detallada, todo sin ningún cambio de código en los propios servicios. Es uno de los service mesh más adoptados y ricos en funciones disponibles.\n\nIstio encaja en equipos de plataforma que ejecutan muchos microservicios interdependientes en Kubernetes y necesitan control de tráfico, seguridad y observabilidad en la capa de red, complementando a Envoy (también en este catálogo), el proxy que realmente impulsa el plano de datos de Istio."
+    },
+    "de": {
+      "description": "Der führende Service Mesh für Kubernetes, der Microservices Traffic-Management, Sicherheit und Observability hinzufügt, ohne Anwendungscode zu ändern.",
+      "longDescription": "Istio injiziert neben jedem Dienst in einem Kubernetes-Cluster einen Proxy-Sidecar und gibt einem Platform-Team feingranulare Kontrolle über Traffic-Routing, Wiederholungsversuche, Timeouts, gegenseitige TLS-Verschlüsselung zwischen Diensten und detaillierte Telemetrie – alles ohne Codeänderungen in den Diensten selbst. Es ist einer der am weitesten verbreiteten und funktionsreichsten verfügbaren Service Meshes.\n\nIstio eignet sich für Platform-Teams, die viele voneinander abhängige Microservices auf Kubernetes betreiben und Traffic-Kontrolle, Sicherheit und Observability auf Netzwerkebene brauchen – als Ergänzung zu Envoy (ebenfalls in diesem Katalog), dem Proxy, der tatsächlich Istios Datenebene antreibt."
+    }
+  }
+}

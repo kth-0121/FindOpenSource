@@ -1,0 +1,45 @@
+{
+  "name": "Unsloth",
+  "slug": "unsloth",
+  "description": "Library for fine-tuning large language models significantly faster and with less memory than standard training approaches.",
+  "longDescription": "Unsloth optimizes the fine-tuning process for popular open-weight LLMs, claiming substantially faster training and lower memory use than standard Hugging Face training code through custom kernel optimizations, letting fine-tuning jobs that would need high-end multi-GPU setups run on more modest hardware. It supports popular open models and integrates with common fine-tuning workflows.\n\nUnsloth is a fit for teams or individuals fine-tuning open-weight LLMs on limited hardware budgets, a specialized efficiency layer that complements DeepSpeed (also in this catalog) - both address training efficiency, with Unsloth focused specifically on making fine-tuning accessible on smaller hardware.",
+  "repository": "https://github.com/unslothai/unsloth",
+  "website": "https://unsloth.ai",
+  "documentation": "https://docs.unsloth.ai",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "fine-tuning",
+    "llm-training",
+    "model-optimization"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "用于微调大语言模型的库，速度和内存效率都显著优于标准训练方式。",
+      "longDescription": "Unsloth 优化了热门开放权重大语言模型的微调流程，通过自定义内核优化，相比标准 Hugging Face 训练代码，实现更快的训练速度和更低的内存占用，使原本需要高端多 GPU 配置的微调任务也能在更普通的硬件上运行。它支持热门的开放模型，并可集成到常见的微调工作流中。\n\nUnsloth 适合那些在有限硬件预算下微调开放权重大语言模型的团队或个人，是与目录中的 DeepSpeed 形成互补的专用效率层——两者都关注训练效率，Unsloth 专注于让微调在更小的硬件上也能实现。"
+    },
+    "ja": {
+      "description": "標準的なトレーニング手法よりも大幅に高速かつ少ないメモリで、大規模言語モデルをファインチューニングするためのライブラリです。",
+      "longDescription": "Unsloth は、人気のあるオープンウェイト LLM のファインチューニングプロセスを最適化し、カスタムカーネルの最適化により、標準的な Hugging Face のトレーニングコードよりも大幅に高速で少ないメモリ使用量を実現すると謳っており、本来ハイエンドなマルチ GPU 構成が必要となるファインチューニング作業を、より控えめなハードウェアでも実行できるようにします。人気のあるオープンモデルをサポートし、一般的なファインチューニングワークフローと統合できます。\n\nUnsloth は、限られたハードウェア予算でオープンウェイト LLM をファインチューニングするチームや個人に向いています。(カタログにもある) DeepSpeed を補完する特化した効率化レイヤーで、両者ともトレーニング効率を扱いますが、Unsloth は特に小規模なハードウェアでもファインチューニングを行えるようにすることに焦点を当てています。"
+    },
+    "ko": {
+      "description": "표준 학습 방식보다 훨씬 빠르고 메모리를 적게 사용하며 대규모 언어 모델을 파인튜닝하는 라이브러리입니다.",
+      "longDescription": "Unsloth는 인기 있는 오픈 웨이트 LLM의 파인튜닝 과정을 최적화하며, 커스텀 커널 최적화를 통해 표준 Hugging Face 학습 코드보다 훨씬 빠르고 메모리 사용량이 적다고 주장합니다. 이를 통해 원래 고급 멀티 GPU 구성이 필요했을 파인튜닝 작업을 더 평범한 하드웨어에서 실행할 수 있게 해줍니다. 인기 있는 오픈 모델을 지원하며 일반적인 파인튜닝 워크플로와 통합됩니다.\n\nUnsloth는 제한된 하드웨어 예산으로 오픈 웨이트 LLM을 파인튜닝하는 팀이나 개인에게 적합하며, (카탈로그에 있는) DeepSpeed를 보완하는 특화된 효율화 계층입니다 — 둘 다 학습 효율성을 다루지만, Unsloth는 더 작은 하드웨어에서도 파인튜닝을 가능하게 하는 데 특히 초점을 맞춥니다."
+    },
+    "es": {
+      "description": "Biblioteca para hacer fine-tuning de grandes modelos de lenguaje significativamente más rápido y con menos memoria que los enfoques de entrenamiento estándar.",
+      "longDescription": "Unsloth optimiza el proceso de fine-tuning para LLMs de pesos abiertos populares, afirmando un entrenamiento sustancialmente más rápido y un menor uso de memoria que el código de entrenamiento estándar de Hugging Face mediante optimizaciones de kernel personalizadas, permitiendo que trabajos de fine-tuning que necesitarían configuraciones multi-GPU de gama alta se ejecuten en hardware más modesto. Admite modelos abiertos populares y se integra con flujos de fine-tuning habituales.\n\nUnsloth encaja en equipos o personas que hacen fine-tuning de LLMs de pesos abiertos con presupuestos de hardware limitados, una capa de eficiencia especializada que complementa a DeepSpeed (también en este catálogo): ambos abordan la eficiencia del entrenamiento, con Unsloth centrado específicamente en hacer accesible el fine-tuning en hardware más pequeño."
+    },
+    "de": {
+      "description": "Bibliothek zum deutlich schnelleren und speicherärmeren Feintunen großer Sprachmodelle im Vergleich zu Standard-Trainingsansätzen.",
+      "longDescription": "Unsloth optimiert den Feintuning-Prozess für populäre Open-Weight-LLMs und beansprucht durch benutzerdefinierte Kernel-Optimierungen wesentlich schnelleres Training und geringeren Speicherverbrauch als Standard-Hugging-Face-Trainingscode, wodurch Feintuning-Jobs, die sonst High-End-Multi-GPU-Setups bräuchten, auf bescheidenerer Hardware laufen können. Es unterstützt populäre offene Modelle und integriert sich in gängige Feintuning-Workflows.\n\nUnsloth eignet sich für Teams oder Einzelpersonen, die Open-Weight-LLMs mit begrenztem Hardware-Budget feintunen – eine spezialisierte Effizienzschicht, die DeepSpeed (ebenfalls in diesem Katalog) ergänzt: Beide adressieren Trainingseffizienz, wobei sich Unsloth speziell darauf konzentriert, Feintuning auf kleinerer Hardware zugänglich zu machen."
+    }
+  }
+}

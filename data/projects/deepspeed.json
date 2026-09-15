@@ -1,0 +1,45 @@
+{
+  "name": "DeepSpeed",
+  "slug": "deepspeed",
+  "description": "Deep learning optimization library from Microsoft for training and running very large models efficiently across multiple GPUs.",
+  "longDescription": "DeepSpeed implements memory- and communication-efficient techniques - like ZeRO optimizer state partitioning - that let teams train models far larger than would otherwise fit in available GPU memory, and speeds up training across multiple GPUs and machines. It integrates with PyTorch (also in this catalog) rather than replacing it.\n\nDeepSpeed is a fit for teams training large models that push the limits of available hardware, a specialized optimization layer on top of PyTorch rather than a general-purpose framework - most teams reach for it specifically when standard single-GPU or naive multi-GPU training isn't enough.",
+  "repository": "https://github.com/deepspeedai/DeepSpeed",
+  "website": "https://www.deepspeed.ai",
+  "documentation": "https://www.deepspeed.ai/getting-started/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "distributed-training",
+    "deep-learning",
+    "model-optimization"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "微软推出的深度学习优化库，用于在多块 GPU 上高效训练和运行超大规模模型。",
+      "longDescription": "DeepSpeed 实现了内存和通信高效的技术——如 ZeRO 优化器状态分片——让团队能够训练远超单个 GPU 显存容量的更大模型，并加速跨多块 GPU 和多台机器的训练过程。它与目录中的 PyTorch 集成使用，而非取代它。\n\nDeepSpeed 适合那些正在训练大型模型、触及现有硬件极限的团队，是构建在 PyTorch 之上的专用优化层，而非一个通用框架——大多数团队会在标准单 GPU 或朴素多 GPU 训练已无法满足需求时，专门选用它。"
+    },
+    "ja": {
+      "description": "非常に大規模なモデルを複数の GPU にまたがって効率的にトレーニング・実行するための、Microsoft 発の深層学習最適化ライブラリです。",
+      "longDescription": "DeepSpeed は、ZeRO オプティマイザー状態パーティショニングのような、メモリと通信の効率化技術を実装しており、利用可能な GPU メモリに本来収まらないほど大規模なモデルのトレーニングを可能にし、複数の GPU やマシンにまたがるトレーニングを高速化します。(カタログにもある) PyTorch を置き換えるのではなく、それと統合して動作します。\n\nDeepSpeed は、利用可能なハードウェアの限界に挑む大規模モデルをトレーニングするチームに向いています。汎用フレームワークではなく、PyTorch の上に乗る特化した最適化レイヤーで、標準的な単一 GPU やナイーブなマルチ GPU トレーニングでは不十分な場合に、多くのチームが特にこれを選びます。"
+    },
+    "ko": {
+      "description": "매우 큰 모델을 여러 GPU에 걸쳐 효율적으로 학습하고 실행하기 위한 Microsoft의 딥러닝 최적화 라이브러리입니다.",
+      "longDescription": "DeepSpeed는 ZeRO 옵티마이저 상태 파티셔닝 같은 메모리·통신 효율화 기법을 구현하여, 사용 가능한 GPU 메모리에 원래는 들어가지 않을 만큼 큰 모델을 학습할 수 있게 해주고, 여러 GPU와 머신에 걸친 학습 속도를 높여줍니다. (카탈로그에 있는) PyTorch를 대체하는 것이 아니라 그것과 통합됩니다.\n\nDeepSpeed는 사용 가능한 하드웨어의 한계를 밀어붙이는 대규모 모델을 학습하는 팀에 적합합니다. 범용 프레임워크가 아니라 PyTorch 위에 얹힌 특화된 최적화 계층으로, 대부분의 팀은 표준 단일 GPU나 단순한 멀티 GPU 학습으로는 부족할 때 특별히 이를 사용합니다."
+    },
+    "es": {
+      "description": "Biblioteca de optimización de deep learning de Microsoft para entrenar y ejecutar modelos muy grandes de forma eficiente en múltiples GPUs.",
+      "longDescription": "DeepSpeed implementa técnicas eficientes en memoria y comunicación —como el particionado del estado del optimizador ZeRO— que permiten a los equipos entrenar modelos mucho más grandes de lo que cabría normalmente en la memoria de GPU disponible, y acelera el entrenamiento en múltiples GPUs y máquinas. Se integra con PyTorch (también en este catálogo) en lugar de sustituirlo.\n\nDeepSpeed encaja en equipos que entrenan modelos grandes que llevan al límite el hardware disponible, una capa de optimización especializada sobre PyTorch en lugar de un framework de propósito general; la mayoría de los equipos recurren a él específicamente cuando el entrenamiento estándar de una sola GPU o multi-GPU básico no es suficiente."
+    },
+    "de": {
+      "description": "Deep-Learning-Optimierungsbibliothek von Microsoft zum effizienten Trainieren und Ausführen sehr großer Modelle über mehrere GPUs hinweg.",
+      "longDescription": "DeepSpeed implementiert speicher- und kommunikationseffiziente Techniken – wie ZeRO-Optimizer-State-Partitionierung –, die es Teams ermöglichen, Modelle zu trainieren, die weit größer sind, als sonst in verfügbaren GPU-Speicher passen würden, und beschleunigt das Training über mehrere GPUs und Maschinen hinweg. Es integriert sich mit PyTorch (ebenfalls in diesem Katalog), statt es zu ersetzen.\n\nDeepSpeed eignet sich für Teams, die große Modelle trainieren, die an die Grenzen verfügbarer Hardware stoßen – eine spezialisierte Optimierungsschicht über PyTorch statt eines Allzweck-Frameworks; die meisten Teams greifen speziell dann darauf zurück, wenn standardmäßiges Single-GPU- oder naives Multi-GPU-Training nicht ausreicht."
+    }
+  }
+}

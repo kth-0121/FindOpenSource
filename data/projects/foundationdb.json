@@ -1,0 +1,46 @@
+{
+  "name": "FoundationDB",
+  "slug": "foundationdb",
+  "description": "Distributed, ordered key-value store with strong ACID transaction guarantees, designed as a reliable storage substrate for other systems.",
+  "longDescription": "FoundationDB provides a simple ordered key-value data model with full ACID transactions across a distributed cluster, deliberately keeping its core small and rigorously tested so higher-level data models (document, graph, relational) can be layered on top of it. Apple uses it as critical infrastructure and open-sourced it after acquiring the company behind it.\n\nFoundationDB is a fit for teams building infrastructure or platforms that need a rock-solid, transactional distributed storage foundation to build on, a lower-level building block than the ready-to-use databases (PostgreSQL, MongoDB) already in this catalog.",
+  "repository": "https://github.com/apple/foundationdb",
+  "website": "https://www.foundationdb.org",
+  "documentation": "https://apple.github.io/foundationdb/",
+  "categories": [
+    "database"
+  ],
+  "keywords": [
+    "key-value-store",
+    "distributed-transactions",
+    "acid",
+    "distributed-database"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "分布式有序键值存储，具备强 ACID 事务保证，被设计为其他系统的可靠存储基座。",
+      "longDescription": "FoundationDB 提供了一个简单的有序键值数据模型，在分布式集群中支持完整的 ACID 事务，其核心刻意保持精简并经过严格测试，以便在其之上叠加更高层级的数据模型（文档、图、关系型）。Apple 将其用作关键基础设施，并在收购其背后的公司后将其开源。\n\nFoundationDB 适合那些正在构建基础设施或平台、需要一个坚如磐石的事务型分布式存储基座作为构建基础的团队，是比目录中现有的开箱即用数据库（PostgreSQL、MongoDB）更底层的构建模块。"
+    },
+    "ja": {
+      "description": "強力な ACID トランザクション保証を備えた、分散型の順序付きキーバリューストアで、他システムのための信頼性の高いストレージ基盤として設計されています。",
+      "longDescription": "FoundationDB は、分散クラスタ全体で完全な ACID トランザクションを備えたシンプルな順序付きキーバリューデータモデルを提供し、コア部分を意図的に小さく保ち、厳格にテストすることで、その上により高レベルなデータモデル(ドキュメント、グラフ、リレーショナル)を重ねられるようにしています。Apple はこれを重要なインフラとして利用しており、その開発元企業を買収した後にオープンソース化しました。\n\nFoundationDB は、盤石でトランザクショナルな分散ストレージ基盤を必要とするインフラやプラットフォームを構築するチームに向いています。カタログに既にあるすぐに使えるデータベース(PostgreSQL、MongoDB)よりも低レイヤーな構成要素です。"
+    },
+    "ko": {
+      "description": "강력한 ACID 트랜잭션을 보장하는 분산 정렬 키-값 저장소로, 다른 시스템을 위한 신뢰할 수 있는 스토리지 기반으로 설계되었습니다.",
+      "longDescription": "FoundationDB는 분산 클러스터 전반에 걸쳐 완전한 ACID 트랜잭션을 지원하는 단순한 정렬 키-값 데이터 모델을 제공하며, 그 위에 더 상위 수준의 데이터 모델(문서, 그래프, 관계형)을 얹을 수 있도록 코어를 의도적으로 작고 엄격하게 테스트된 상태로 유지합니다. Apple은 이를 핵심 인프라로 사용하며, 이를 만든 회사를 인수한 뒤 오픈소스로 공개했습니다.\n\nFoundationDB는 그 위에 구축할 견고한 트랜잭션형 분산 스토리지 기반이 필요한 인프라·플랫폼을 만드는 팀에 적합하며, 카탈로그에 이미 있는 즉시 사용 가능한 데이터베이스(PostgreSQL, MongoDB)보다 더 저수준의 구성 요소입니다."
+    },
+    "es": {
+      "description": "Almacén de clave-valor distribuido y ordenado con fuertes garantías de transacciones ACID, diseñado como base de almacenamiento fiable para otros sistemas.",
+      "longDescription": "FoundationDB ofrece un modelo de datos clave-valor ordenado y sencillo con transacciones ACID completas en un clúster distribuido, manteniendo deliberadamente su núcleo pequeño y rigurosamente probado para que modelos de datos de más alto nivel (documentos, grafos, relacional) puedan construirse sobre él. Apple lo usa como infraestructura crítica y lo hizo de código abierto tras adquirir la empresa que lo creó.\n\nFoundationDB encaja en equipos que construyen infraestructura o plataformas que necesitan una base de almacenamiento distribuido transaccional sólida como una roca, un componente de nivel más bajo que las bases de datos listas para usar (PostgreSQL, MongoDB) ya presentes en este catálogo."
+    },
+    "de": {
+      "description": "Verteilter, geordneter Key-Value-Store mit starken ACID-Transaktionsgarantien, konzipiert als zuverlässiges Speicherfundament für andere Systeme.",
+      "longDescription": "FoundationDB bietet ein einfaches, geordnetes Key-Value-Datenmodell mit vollständigen ACID-Transaktionen über einen verteilten Cluster hinweg und hält seinen Kern bewusst klein und rigoros getestet, sodass höherstufige Datenmodelle (Dokument, Graph, relational) darauf aufgesetzt werden können. Apple nutzt es als kritische Infrastruktur und hat es nach der Übernahme des dahinterstehenden Unternehmens quelloffen gemacht.\n\nFoundationDB eignet sich für Teams, die Infrastruktur oder Plattformen bauen und ein grundsolides, transaktionales verteiltes Speicherfundament zum Aufbauen benötigen – ein niedrigstufigerer Baustein als die gebrauchsfertigen Datenbanken (PostgreSQL, MongoDB), die bereits in diesem Katalog sind."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "OpenCV",
+  "slug": "opencv",
+  "description": "The standard open-source computer vision library, providing algorithms for image and video processing, analysis, and understanding.",
+  "longDescription": "OpenCV implements hundreds of computer vision and image processing algorithms - object detection, facial recognition, feature matching, camera calibration, video analysis - as an optimized library callable from C++, Python, Java, and other languages. It's been the foundational computer vision toolkit for both research and production systems for over two decades.\n\nOpenCV is a fit for any team building applications that need to process, analyze, or understand images and video programmatically, filling a computer-vision gap in this catalog that's currently absent from the general ML/deep-learning frameworks already there.",
+  "repository": "https://github.com/opencv/opencv",
+  "website": "https://opencv.org",
+  "documentation": "https://docs.opencv.org",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "computer-vision",
+    "image-processing",
+    "video-analysis",
+    "object-detection"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "标准的开源计算机视觉库，提供图像和视频处理、分析及理解相关的算法。",
+      "longDescription": "OpenCV 实现了数百种计算机视觉和图像处理算法——目标检测、人脸识别、特征匹配、摄像头标定、视频分析——并作为一个经过优化的库，可从 C++、Python、Java 等语言调用。二十多年来，它一直是研究和生产系统中计算机视觉的基础工具包。\n\nOpenCV 适合任何需要以编程方式处理、分析或理解图像和视频的团队，填补了目录中现有通用机器学习/深度学习框架所缺失的计算机视觉空白。"
+    },
+    "ja": {
+      "description": "画像・動画の処理、解析、理解のためのアルゴリズムを提供する、標準的なオープンソースのコンピュータビジョンライブラリです。",
+      "longDescription": "OpenCV は、物体検出、顔認識、特徴マッチング、カメラキャリブレーション、動画解析といった、数百ものコンピュータビジョン・画像処理アルゴリズムを実装しており、C++、Python、Java などの言語から呼び出せる最適化されたライブラリとして提供されています。20年以上にわたり、研究・本番システムの両方において基盤的なコンピュータビジョンツールキットであり続けています。\n\nOpenCV は、画像や動画をプログラムで処理・解析・理解する必要があるあらゆるアプリケーションを構築するチームに向いています。カタログにある一般的な ML・深層学習フレームワークには現在欠けている、コンピュータビジョンのギャップを埋めます。"
+    },
+    "ko": {
+      "description": "이미지와 비디오 처리, 분석, 이해를 위한 알고리즘을 제공하는 표준 오픈소스 컴퓨터 비전 라이브러리입니다.",
+      "longDescription": "OpenCV는 객체 검출, 얼굴 인식, 특징 매칭, 카메라 보정, 비디오 분석 등 수백 가지 컴퓨터 비전·이미지 처리 알고리즘을 구현하며, C++, Python, Java 등 여러 언어에서 호출할 수 있는 최적화된 라이브러리로 제공됩니다. 20년 넘게 연구와 프로덕션 시스템 모두에서 기초적인 컴퓨터 비전 툴킷이 되어왔습니다.\n\nOpenCV는 이미지와 비디오를 프로그래밍 방식으로 처리, 분석, 이해해야 하는 애플리케이션을 만드는 어떤 팀에게도 적합하며, 카탈로그에 이미 있는 일반적인 ML·딥러닝 프레임워크에는 현재 빠져 있는 컴퓨터 비전 공백을 채워줍니다."
+    },
+    "es": {
+      "description": "La biblioteca de visión por computador de código abierto estándar, con algoritmos para procesamiento, análisis y comprensión de imágenes y vídeo.",
+      "longDescription": "OpenCV implementa cientos de algoritmos de visión por computador y procesamiento de imágenes —detección de objetos, reconocimiento facial, emparejamiento de características, calibración de cámaras, análisis de vídeo— como una biblioteca optimizada invocable desde C++, Python, Java y otros lenguajes. Ha sido el kit de herramientas fundamental de visión por computador tanto para investigación como para sistemas en producción durante más de dos décadas.\n\nOpenCV encaja en cualquier equipo que construya aplicaciones que necesiten procesar, analizar o comprender imágenes y vídeo de forma programática, cubriendo un hueco de visión por computador en este catálogo actualmente ausente en los frameworks generales de ML/deep learning ya presentes."
+    },
+    "de": {
+      "description": "Die quelloffene Standardbibliothek für Computer Vision mit Algorithmen zur Bild- und Videoverarbeitung, -analyse und -verständnis.",
+      "longDescription": "OpenCV implementiert Hunderte von Computer-Vision- und Bildverarbeitungsalgorithmen – Objekterkennung, Gesichtserkennung, Merkmalsabgleich, Kamerakalibrierung, Videoanalyse – als optimierte Bibliothek, aufrufbar aus C++, Python, Java und anderen Sprachen. Es ist seit über zwei Jahrzehnten das grundlegende Computer-Vision-Toolkit sowohl für Forschung als auch für Produktionssysteme.\n\nOpenCV eignet sich für jedes Team, das Anwendungen baut, die Bilder und Video programmatisch verarbeiten, analysieren oder verstehen müssen – es füllt eine Computer-Vision-Lücke in diesem Katalog, die in den bereits vorhandenen allgemeinen ML-/Deep-Learning-Frameworks derzeit fehlt."
+    }
+  }
+}

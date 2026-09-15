@@ -1,0 +1,45 @@
+{
+  "name": "Promptfoo",
+  "slug": "promptfoo",
+  "description": "Open-source tool for testing and evaluating LLM prompts, comparing outputs across models and catching quality regressions before deployment.",
+  "longDescription": "Promptfoo runs a set of test cases against one or more LLM prompts or models, scoring outputs against defined criteria and showing side-by-side comparisons - so a team can catch a prompt change that degrades quality, or compare how different models perform on the same task, before shipping. It works as a CLI that fits into existing CI pipelines.\n\nPromptfoo is a fit for teams iterating on prompts or comparing LLM providers who want data-driven evaluation instead of manual eyeballing, complementing DeepEval (also in this catalog) - both cover LLM evaluation, with Promptfoo leaning toward prompt and model comparison specifically.",
+  "repository": "https://github.com/promptfoo/promptfoo",
+  "website": "https://www.promptfoo.dev",
+  "documentation": "https://www.promptfoo.dev/docs/intro/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "llm-evaluation",
+    "prompt-testing",
+    "model-comparison"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "开源工具，用于测试和评估大语言模型提示词，跨模型对比输出并在部署前发现质量回退。",
+      "longDescription": "Promptfoo 会针对一个或多个大语言模型提示词或模型运行一系列测试用例，依据预定义标准对输出进行评分，并并排展示对比结果——因此团队可以在发布前发现导致质量下降的提示词更改，或比较不同模型在同一任务上的表现。它以命令行工具的形式融入现有的 CI 流水线。\n\nPromptfoo 适合那些正在迭代提示词或比较大语言模型服务商、希望以数据驱动方式评估、而非人工凭肉眼判断的团队，与目录中的 DeepEval 形成互补——两者都涉及大语言模型评估，Promptfoo 更偏重提示词和模型的专项对比。"
+    },
+    "ja": {
+      "description": "LLM のプロンプトをテスト・評価し、モデル間で出力を比較して、デプロイ前に品質の低下を検出するオープンソースツールです。",
+      "longDescription": "Promptfoo は、1つ以上の LLM プロンプトやモデルに対して一連のテストケースを実行し、定義された基準に照らして出力を採点し、並べて比較表示します。そのため、チームは品質を低下させるプロンプトの変更を検出したり、同じタスクにおける異なるモデルの性能を比較したりしてから、出荷できます。既存の CI パイプラインに組み込める CLI として動作します。\n\nPromptfoo は、プロンプトを反復改善したり LLM プロバイダーを比較したりしていて、手動での目視確認ではなくデータドリブンな評価を求めるチームに向いています。(カタログにもある) DeepEval を補完する存在で、両者とも LLM 評価をカバーしますが、Promptfoo は特にプロンプトとモデルの比較に寄っています。"
+    },
+    "ko": {
+      "description": "LLM 프롬프트를 테스트하고 평가하는 오픈소스 도구로, 모델 간 출력을 비교하고 배포 전에 품질 저하를 잡아냅니다.",
+      "longDescription": "Promptfoo는 하나 이상의 LLM 프롬프트나 모델에 대해 일련의 테스트 케이스를 실행하여, 정의된 기준에 따라 출력을 채점하고 나란히 비교해서 보여줍니다 — 그래서 팀은 출시 전에 품질을 떨어뜨리는 프롬프트 변경을 잡아내거나 같은 작업에서 서로 다른 모델의 성능을 비교할 수 있습니다. 기존 CI 파이프라인에 들어맞는 CLI로 동작합니다.\n\nPromptfoo는 프롬프트를 반복 개선하거나 LLM 제공자를 비교하면서 수동 육안 확인 대신 데이터 기반 평가를 원하는 팀에 적합하며, (카탈로그에 있는) DeepEval을 보완합니다 — 둘 다 LLM 평가를 다루지만, Promptfoo는 특히 프롬프트와 모델 비교 쪽에 더 가깝습니다."
+    },
+    "es": {
+      "description": "Herramienta de código abierto para probar y evaluar prompts de LLM, comparando salidas entre modelos y detectando regresiones de calidad antes del despliegue.",
+      "longDescription": "Promptfoo ejecuta un conjunto de casos de prueba contra uno o varios prompts o modelos de LLM, puntuando las salidas según criterios definidos y mostrando comparaciones lado a lado, para que un equipo pueda detectar un cambio de prompt que degrade la calidad, o comparar cómo rinden distintos modelos en la misma tarea, antes de lanzar. Funciona como una CLI que encaja en pipelines de CI existentes.\n\nPromptfoo encaja en equipos que iteran sobre prompts o comparan proveedores de LLM y quieren una evaluación basada en datos en lugar de una revisión visual manual, complementando a DeepEval (también en este catálogo): ambos cubren la evaluación de LLM, con Promptfoo inclinándose específicamente hacia la comparación de prompts y modelos."
+    },
+    "de": {
+      "description": "Open-Source-Tool zum Testen und Bewerten von LLM-Prompts, das Ausgaben über Modelle hinweg vergleicht und Qualitätsregressionen vor dem Deployment erkennt.",
+      "longDescription": "Promptfoo führt eine Reihe von Testfällen gegen einen oder mehrere LLM-Prompts oder -Modelle aus, bewertet Ausgaben anhand definierter Kriterien und zeigt Seite-an-Seite-Vergleiche – sodass ein Team eine Prompt-Änderung erkennen kann, die die Qualität verschlechtert, oder vergleichen kann, wie verschiedene Modelle bei derselben Aufgabe abschneiden, bevor ausgeliefert wird. Es funktioniert als CLI, die in bestehende CI-Pipelines passt.\n\nPromptfoo eignet sich für Teams, die an Prompts iterieren oder LLM-Anbieter vergleichen und eine datengetriebene Bewertung statt manueller Sichtprüfung wollen – als Ergänzung zu DeepEval (ebenfalls in diesem Katalog): Beide decken LLM-Evaluation ab, wobei Promptfoo eher zu Prompt- und Modellvergleich speziell tendiert."
+    }
+  }
+}

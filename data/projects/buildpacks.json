@@ -1,0 +1,45 @@
+{
+  "name": "Buildpacks",
+  "slug": "buildpacks",
+  "description": "Cloud Native Buildpacks build production-ready container images directly from application source code, without writing a Dockerfile.",
+  "longDescription": "Cloud Native Buildpacks inspect an application's source code, detect the language and dependencies, and produce an optimized, reproducible container image automatically - handling base image updates and security patching across many apps at once by rebuilding with an updated buildpack rather than editing every Dockerfile by hand. The `pack` CLI is the reference tool for building with them.\n\nBuildpacks are a fit for platform teams standardizing how container images get built across many applications and teams, removing Dockerfile maintenance as a per-app responsibility.",
+  "repository": "https://github.com/buildpacks/pack",
+  "website": "https://buildpacks.io",
+  "documentation": "https://buildpacks.io/docs/",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "container-image-build",
+    "cloud-native-buildpacks",
+    "ci-cd"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Cloud Native Buildpacks 可直接从应用源代码构建可用于生产的容器镜像，无需编写 Dockerfile。",
+      "longDescription": "Cloud Native Buildpacks 会检查应用的源代码，检测所用语言和依赖项，并自动生成一个经过优化、可复现的容器镜像——通过使用更新后的 buildpack 重新构建，即可一次性处理众多应用的基础镜像更新和安全补丁，而无需手动编辑每一个 Dockerfile。`pack` 命令行工具是使用它们进行构建的参考工具。\n\nBuildpacks 适合那些希望在众多应用和团队间统一容器镜像构建方式的平台团队，将 Dockerfile 维护从每个应用各自负责的事务中解放出来。"
+    },
+    "ja": {
+      "description": "Cloud Native Buildpacks は、Dockerfile を書くことなく、アプリケーションのソースコードから直接、本番運用に適したコンテナイメージを構築します。",
+      "longDescription": "Cloud Native Buildpacks は、アプリケーションのソースコードを検査し、使用言語と依存関係を検出して、最適化された再現可能なコンテナイメージを自動的に生成します。すべての Dockerfile を手作業で編集するのではなく、更新された buildpack で再ビルドするだけで、多数のアプリにわたるベースイメージの更新やセキュリティパッチ適用を一度に処理できます。`pack` CLI は、これらを使ってビルドするためのリファレンスツールです。\n\nBuildpacks は、多数のアプリケーションやチームにまたがってコンテナイメージのビルド方法を標準化したいプラットフォームチームに向いており、Dockerfile のメンテナンスをアプリごとの個別責任から解放します。"
+    },
+    "ko": {
+      "description": "Cloud Native Buildpacks는 Dockerfile을 작성하지 않고도 애플리케이션 소스 코드에서 곧바로 프로덕션 준비가 된 컨테이너 이미지를 빌드합니다.",
+      "longDescription": "Cloud Native Buildpacks는 애플리케이션의 소스 코드를 검사해 언어와 의존성을 감지하고, 최적화되고 재현 가능한 컨테이너 이미지를 자동으로 생성합니다 — 모든 Dockerfile을 수작업으로 수정하는 대신 업데이트된 buildpack으로 다시 빌드하는 것만으로 여러 앱에 걸쳐 베이스 이미지 업데이트와 보안 패치를 한 번에 처리할 수 있습니다. `pack` CLI가 이를 사용해 빌드하는 참조 도구입니다.\n\nBuildpacks는 여러 애플리케이션과 팀에 걸쳐 컨테이너 이미지를 빌드하는 방식을 표준화하려는 플랫폼 팀에 적합하며, Dockerfile 유지 관리를 앱별 책임에서 제거해줍니다."
+    },
+    "es": {
+      "description": "Cloud Native Buildpacks construye imágenes de contenedor listas para producción directamente desde el código fuente de la aplicación, sin escribir un Dockerfile.",
+      "longDescription": "Cloud Native Buildpacks inspecciona el código fuente de una aplicación, detecta el lenguaje y las dependencias, y produce automáticamente una imagen de contenedor optimizada y reproducible, gestionando las actualizaciones de la imagen base y los parches de seguridad en muchas aplicaciones a la vez al reconstruir con un buildpack actualizado en lugar de editar cada Dockerfile a mano. La CLI `pack` es la herramienta de referencia para construir con ellos.\n\nBuildpacks encaja en equipos de plataforma que estandarizan cómo se construyen las imágenes de contenedor en muchas aplicaciones y equipos, eliminando el mantenimiento de Dockerfiles como responsabilidad de cada aplicación."
+    },
+    "de": {
+      "description": "Cloud Native Buildpacks bauen produktionsreife Container-Images direkt aus dem Quellcode der Anwendung, ohne ein Dockerfile zu schreiben.",
+      "longDescription": "Cloud Native Buildpacks untersuchen den Quellcode einer Anwendung, erkennen Sprache und Abhängigkeiten und erzeugen automatisch ein optimiertes, reproduzierbares Container-Image – dabei werden Basis-Image-Updates und Sicherheitspatches über viele Apps hinweg auf einmal gehandhabt, indem mit einem aktualisierten Buildpack neu gebaut wird, statt jedes Dockerfile von Hand zu bearbeiten. Die `pack`-CLI ist das Referenzwerkzeug zum Bauen damit.\n\nBuildpacks eignen sich für Platform-Teams, die standardisieren, wie Container-Images über viele Anwendungen und Teams hinweg gebaut werden, und die Dockerfile-Pflege als Aufgabe pro App abschaffen."
+    }
+  }
+}

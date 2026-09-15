@@ -1,0 +1,46 @@
+{
+  "name": "Thanos",
+  "slug": "thanos",
+  "description": "Extends Prometheus with long-term storage, global querying across clusters, and high availability for large-scale metrics deployments.",
+  "longDescription": "Thanos sits alongside existing Prometheus instances to add capabilities Prometheus doesn't provide alone: unlimited long-term metric retention in object storage, a single global query view across multiple Prometheus servers and clusters, and deduplication for high-availability Prometheus pairs. It's a CNCF graduated project designed to extend rather than replace Prometheus.\n\nThanos is a fit for teams already running Prometheus (also in this catalog) at multi-cluster scale who've hit its single-instance limitations, a complementary rather than competing addition to the existing monitoring stack.",
+  "repository": "https://github.com/thanos-io/thanos",
+  "website": "https://thanos.io",
+  "documentation": "https://thanos.io/tip/thanos/quick-tutorial.md/",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "prometheus-extension",
+    "long-term-storage",
+    "multi-cluster-monitoring",
+    "high-availability"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "为 Prometheus 扩展长期存储、跨集群全局查询和高可用能力，适用于大规模指标部署。",
+      "longDescription": "Thanos 与现有的 Prometheus 实例协同工作，补充了 Prometheus 本身不具备的能力：对象存储中的无限期长期指标保留、跨多个 Prometheus 服务器和集群的单一全局查询视图，以及针对高可用 Prometheus 实例对的去重功能。它是一个 CNCF 毕业项目，设计初衷是扩展而非取代 Prometheus。\n\nThanos 适合那些已经在多集群规模下运行目录中的 Prometheus、并遇到其单实例局限性的团队，是对现有监控技术栈的补充，而非竞争替代。"
+    },
+    "ja": {
+      "description": "大規模なメトリクス展開のために、長期ストレージ、クラスタ横断のグローバルクエリ、高可用性で Prometheus を拡張します。",
+      "longDescription": "Thanos は既存の Prometheus インスタンスと並んで動作し、Prometheus 単体では提供できない機能を追加します。オブジェクトストレージへの無制限の長期メトリクス保持、複数の Prometheus サーバー・クラスタにまたがる単一のグローバルクエリビュー、高可用性の Prometheus ペア向けの重複排除です。CNCF を卒業したプロジェクトで、Prometheus を置き換えるのではなく拡張するために設計されています。\n\nThanos は、(カタログにもある) Prometheus をすでにマルチクラスタ規模で運用していて、その単一インスタンスの限界に達したチームに向いており、既存の監視スタックを置き換えるのではなく補完する追加要素です。"
+    },
+    "ko": {
+      "description": "대규모 메트릭 배포를 위해 장기 저장, 클러스터 간 전역 쿼리, 고가용성으로 Prometheus를 확장합니다.",
+      "longDescription": "Thanos는 기존 Prometheus 인스턴스와 나란히 동작하면서 Prometheus 단독으로는 제공하지 못하는 기능을 추가합니다: 오브젝트 스토리지에서의 무제한 장기 메트릭 보존, 여러 Prometheus 서버·클러스터에 걸친 단일 전역 쿼리 뷰, 고가용성 Prometheus 페어를 위한 중복 제거입니다. CNCF 졸업 프로젝트로, Prometheus를 대체하는 것이 아니라 확장하도록 설계되었습니다.\n\nThanos는 (카탈로그에 있는) Prometheus를 이미 멀티 클러스터 규모로 운영 중이며 단일 인스턴스의 한계에 부딪힌 팀에 적합하며, 기존 모니터링 스택을 대체하기보다 보완하는 추가 요소입니다."
+    },
+    "es": {
+      "description": "Amplía Prometheus con almacenamiento a largo plazo, consultas globales entre clústeres y alta disponibilidad para despliegues de métricas a gran escala.",
+      "longDescription": "Thanos se sitúa junto a las instancias de Prometheus existentes para añadir capacidades que Prometheus no ofrece por sí solo: retención de métricas a largo plazo ilimitada en almacenamiento de objetos, una única vista de consulta global entre múltiples servidores y clústeres de Prometheus, y deduplicación para pares de Prometheus en alta disponibilidad. Es un proyecto graduado de la CNCF diseñado para ampliar, no sustituir, a Prometheus.\n\nThanos encaja en equipos que ya ejecutan Prometheus (también en este catálogo) a escala multi-clúster y han alcanzado sus límites de instancia única, una incorporación complementaria y no competidora a la pila de monitorización existente."
+    },
+    "de": {
+      "description": "Erweitert Prometheus um Langzeitspeicherung, globale Abfragen über Cluster hinweg und Hochverfügbarkeit für großangelegte Metrik-Deployments.",
+      "longDescription": "Thanos sitzt neben bestehenden Prometheus-Instanzen und fügt Fähigkeiten hinzu, die Prometheus allein nicht bietet: unbegrenzte Langzeit-Metrik-Aufbewahrung im Objektspeicher, eine einzige globale Abfrageansicht über mehrere Prometheus-Server und -Cluster hinweg sowie Deduplizierung für hochverfügbare Prometheus-Paare. Es ist ein von der CNCF graduiertes Projekt, das Prometheus erweitern statt ersetzen soll.\n\nThanos eignet sich für Teams, die Prometheus (ebenfalls in diesem Katalog) bereits im Multi-Cluster-Maßstab betreiben und an dessen Einzelinstanz-Grenzen gestoßen sind – eine ergänzende statt konkurrierende Erweiterung des bestehenden Monitoring-Stacks."
+    }
+  }
+}

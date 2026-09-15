@@ -1,0 +1,48 @@
+{
+  "name": "Spark",
+  "slug": "apache-spark",
+  "description": "Unified analytics engine for large-scale batch and stream data processing, one of the most widely adopted big data frameworks.",
+  "longDescription": "Apache Spark processes very large datasets across a distributed cluster of machines, supporting batch processing, streaming, SQL queries, and machine learning workloads through one unified engine and API, in multiple languages including Python, Scala, and Java. It's been the standard big-data processing framework for over a decade.\n\nSpark is a fit for teams running large-scale data transformation, ETL, or machine learning pipelines across distributed clusters, a broader and more general-purpose engine than the more specialized Flink (real-time streaming) or Trino (federated SQL) also in this catalog.",
+  "repository": "https://github.com/apache/spark",
+  "website": "https://spark.apache.org",
+  "documentation": "https://spark.apache.org/docs/latest/",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "big-data",
+    "batch-processing",
+    "stream-processing",
+    "distributed-computing"
+  ],
+  "languages": [
+    "Scala",
+    "Python",
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "统一的大数据分析引擎，用于大规模批处理和流处理，是应用最广泛的大数据框架之一。",
+      "longDescription": "Apache Spark 通过一个统一的引擎和 API（支持 Python、Scala、Java 等多种语言），跨分布式机器集群处理超大规模数据集，涵盖批处理、流处理、SQL 查询和机器学习工作负载。十多年来它一直是标准的大数据处理框架。\n\nSpark 适合那些在分布式集群上运行大规模数据转换、ETL 或机器学习流水线的团队，相比目录中更专注的 Flink（实时流处理）或 Trino（联合 SQL 查询），它是一个覆盖范围更广、更通用的引擎。"
+    },
+    "ja": {
+      "description": "大規模なバッチ・ストリームデータ処理のための統合分析エンジンで、最も広く採用されているビッグデータフレームワークの1つです。",
+      "longDescription": "Apache Spark は、分散したマシンのクラスタ全体で非常に大規模なデータセットを処理し、Python、Scala、Java など複数の言語で、バッチ処理、ストリーミング、SQL クエリ、機械学習ワークロードを1つの統合されたエンジンと API を通じてサポートします。10年以上にわたり、標準的なビッグデータ処理フレームワークであり続けています。\n\nSpark は、分散クラスタ全体で大規模なデータ変換、ETL、機械学習パイプラインを実行するチームに向いています。カタログにあるより専門特化した Flink(リアルタイムストリーミング) や Trino(連合 SQL) よりも、より幅広く汎用的なエンジンです。"
+    },
+    "ko": {
+      "description": "대규모 배치·스트림 데이터 처리를 위한 통합 분석 엔진으로, 가장 널리 채택된 빅데이터 프레임워크 중 하나입니다.",
+      "longDescription": "Apache Spark는 분산된 머신 클러스터 전반에서 매우 큰 데이터셋을 처리하며, Python, Scala, Java 등 여러 언어로 배치 처리, 스트리밍, SQL 쿼리, 머신러닝 워크로드를 하나의 통합 엔진과 API로 지원합니다. 10년 넘게 표준 빅데이터 처리 프레임워크로 자리 잡아왔습니다.\n\nSpark는 분산 클러스터 전반에서 대규모 데이터 변환, ETL, 머신러닝 파이프라인을 운영하는 팀에 적합하며, 카탈로그에 있는 더 전문화된 Flink(실시간 스트리밍)나 Trino(연합 SQL)보다 더 폭넓고 범용적인 엔진입니다."
+    },
+    "es": {
+      "description": "Motor de analítica unificado para procesamiento de datos por lotes y en streaming a gran escala, uno de los frameworks de big data más adoptados.",
+      "longDescription": "Apache Spark procesa conjuntos de datos muy grandes en un clúster distribuido de máquinas, admitiendo procesamiento por lotes, streaming, consultas SQL y cargas de trabajo de machine learning a través de un único motor y API unificados, en varios lenguajes incluidos Python, Scala y Java. Ha sido el framework estándar de procesamiento de big data durante más de una década.\n\nSpark encaja en equipos que ejecutan transformación de datos a gran escala, ETL o pipelines de machine learning en clústeres distribuidos, un motor más amplio y de propósito más general que los más especializados Flink (streaming en tiempo real) o Trino (SQL federado), también en este catálogo."
+    },
+    "de": {
+      "description": "Einheitliche Analytics-Engine für Batch- und Stream-Datenverarbeitung im großen Maßstab, eines der am weitesten verbreiteten Big-Data-Frameworks.",
+      "longDescription": "Apache Spark verarbeitet sehr große Datensätze über einen verteilten Cluster aus Maschinen und unterstützt Batch-Verarbeitung, Streaming, SQL-Abfragen und Machine-Learning-Workloads durch eine einzige einheitliche Engine und API in mehreren Sprachen, darunter Python, Scala und Java. Es ist seit über einem Jahrzehnt das Standard-Framework für Big-Data-Verarbeitung.\n\nSpark eignet sich für Teams, die großangelegte Datentransformation, ETL oder Machine-Learning-Pipelines über verteilte Cluster betreiben – eine breitere, allgemeinere Engine als die spezialisierteren Flink (Echtzeit-Streaming) oder Trino (föderiertes SQL), ebenfalls in diesem Katalog."
+    }
+  }
+}

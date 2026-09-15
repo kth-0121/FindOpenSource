@@ -1,0 +1,47 @@
+{
+  "name": "Kestra",
+  "slug": "kestra",
+  "description": "Declarative, YAML-based orchestration platform for scheduling and orchestrating data pipelines, ETL jobs, and business workflows.",
+  "longDescription": "Kestra lets teams define workflows in YAML rather than code, making pipelines easy to version, review, and generate programmatically, while still supporting embedded scripts in any language for the actual task logic. It provides built-in scheduling, event triggers, retries, and a UI for monitoring runs.\n\nKestra is a fit for teams that prefer declarative, language-agnostic workflow definitions over the Python-first approach of Prefect (also in this catalog) - useful for teams with mixed-language pipelines or who want workflows other tools can generate and edit.",
+  "repository": "https://github.com/kestra-io/kestra",
+  "website": "https://kestra.io",
+  "documentation": "https://kestra.io/docs",
+  "categories": [
+    "automation"
+  ],
+  "keywords": [
+    "workflow-orchestration",
+    "yaml",
+    "data-pipeline",
+    "etl",
+    "declarative"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "基于 YAML 的声明式编排平台，用于调度和编排数据管道、ETL 任务和业务工作流。",
+      "longDescription": "Kestra 让团队用 YAML 而不是代码来定义工作流，使流水线易于版本管理、审查，并可通过程序生成；同时仍支持在任务逻辑中嵌入任意语言的脚本。它内置调度、事件触发、重试功能，并提供用于监控运行情况的 UI。\n\nKestra 适合那些更喜欢声明式、语言无关的工作流定义、而非目录中 Prefect 那种以 Python 为先方式的团队——对于拥有多语言混合流水线、或希望工作流可以被其他工具生成和编辑的团队尤其有用。"
+    },
+    "ja": {
+      "description": "データパイプライン、ETL ジョブ、業務ワークフローのスケジューリングとオーケストレーションのための、YAML ベースの宣言的オーケストレーションプラットフォームです。",
+      "longDescription": "Kestra は、コードではなく YAML でワークフローを定義できるようにし、パイプラインのバージョン管理・レビュー・プログラムによる生成を容易にします。それでいて、実際のタスクロジックには任意の言語の埋め込みスクリプトもサポートします。組み込みのスケジューリング、イベントトリガー、リトライ、実行状況を監視する UI を備えています。\n\nKestra は、カタログ内の Prefect の Python ファーストなアプローチよりも、宣言的で言語に依存しないワークフロー定義を好むチームに向いています。混在した言語のパイプラインを持つチームや、他のツールで生成・編集できるワークフローを求めるチームに有用です。"
+    },
+    "ko": {
+      "description": "데이터 파이프라인, ETL 작업, 비즈니스 워크플로를 스케줄링하고 오케스트레이션하는 YAML 기반 선언형 오케스트레이션 플랫폼입니다.",
+      "longDescription": "Kestra는 코드 대신 YAML로 워크플로를 정의할 수 있게 해주어, 파이프라인을 버전 관리하고 검토하고 프로그램적으로 생성하기 쉽게 만들어줍니다. 그러면서도 실제 작업 로직을 위해 어떤 언어로든 임베디드 스크립트를 지원합니다. 내장 스케줄링, 이벤트 트리거, 재시도, 실행을 모니터링하는 UI를 제공합니다.\n\nKestra는 카탈로그에 있는 Prefect의 Python 우선 접근 방식보다 선언적이고 언어에 구애받지 않는 워크플로 정의를 선호하는 팀에 적합합니다. 여러 언어가 섞인 파이프라인을 가진 팀이나, 다른 도구가 생성·편집할 수 있는 워크플로를 원하는 팀에 유용합니다."
+    },
+    "es": {
+      "description": "Plataforma de orquestación declarativa basada en YAML para programar y orquestar pipelines de datos, trabajos ETL y workflows de negocio.",
+      "longDescription": "Kestra permite a los equipos definir workflows en YAML en lugar de código, lo que facilita versionar, revisar y generar pipelines de forma programática, a la vez que sigue admitiendo scripts embebidos en cualquier lenguaje para la lógica real de las tareas. Ofrece programación, disparadores por eventos, reintentos y una UI para monitorizar ejecuciones, todo incorporado.\n\nKestra encaja en equipos que prefieren definiciones de workflow declarativas e independientes del lenguaje frente al enfoque Python-first de Prefect (también en este catálogo), útil para equipos con pipelines multilenguaje o que quieren workflows que otras herramientas puedan generar y editar."
+    },
+    "de": {
+      "description": "Deklarative, YAML-basierte Orchestrierungsplattform zum Planen und Orchestrieren von Datenpipelines, ETL-Jobs und Geschäftsworkflows.",
+      "longDescription": "Kestra lässt Teams Workflows in YAML statt in Code definieren, wodurch Pipelines leicht zu versionieren, zu überprüfen und programmatisch zu generieren sind, während eingebettete Skripte in beliebigen Sprachen für die eigentliche Task-Logik weiterhin unterstützt werden. Es bietet eingebautes Scheduling, Event-Trigger, Wiederholungsversuche und eine UI zur Überwachung von Läufen.\n\nKestra eignet sich für Teams, die deklarative, sprachunabhängige Workflow-Definitionen dem Python-first-Ansatz von Prefect (ebenfalls in diesem Katalog) vorziehen – nützlich für Teams mit gemischtsprachigen Pipelines oder die Workflows wollen, die andere Tools generieren und bearbeiten können."
+    }
+  }
+}

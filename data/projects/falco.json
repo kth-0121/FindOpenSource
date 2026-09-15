@@ -1,0 +1,46 @@
+{
+  "name": "Falco",
+  "slug": "falco",
+  "description": "CNCF runtime security tool that detects unexpected or malicious behavior in containers and hosts as it happens, using kernel-level monitoring.",
+  "longDescription": "Falco watches system calls at the kernel level using eBPF and evaluates them against a rules engine to detect suspicious behavior in real time - a shell spawned inside a container, a sensitive file being read, a privilege escalation attempt - and alerts immediately rather than after the fact. It's a CNCF graduated project focused specifically on runtime threat detection.\n\nFalco is a fit for security teams that need to detect active threats and anomalous behavior while a system is running, complementing Trivy and Kyverno (also in this catalog) - those scan images and enforce policy before deployment, while Falco watches what's actually happening at runtime.",
+  "repository": "https://github.com/falcosecurity/falco",
+  "website": "https://falco.org",
+  "documentation": "https://falco.org/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "runtime-security",
+    "threat-detection",
+    "ebpf",
+    "container-security"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "CNCF 运行时安全工具，使用内核级监控实时检测容器和主机中的异常或恶意行为。",
+      "longDescription": "Falco 使用 eBPF 在内核层面监控系统调用，并将其与规则引擎进行比对，实时检测可疑行为——容器内启动了一个 shell、读取了敏感文件、尝试提权——并立即发出告警，而不是事后才发现。它是一个 CNCF 毕业项目，专注于运行时威胁检测。\n\nFalco 适合那些需要在系统运行期间检测活跃威胁和异常行为的安全团队，与目录中的 Trivy 和 Kyverno 形成互补——后两者在部署前扫描镜像并执行策略，而 Falco 则监控运行时实际发生的情况。"
+    },
+    "ja": {
+      "description": "カーネルレベルの監視を使って、コンテナやホスト内で発生する予期しない、あるいは悪意のある挙動を検知する、CNCF のランタイムセキュリティツールです。",
+      "longDescription": "Falco は eBPF を使ってカーネルレベルでシステムコールを監視し、ルールエンジンと照合して怪しい挙動をリアルタイムで検知します——コンテナ内でシェルが起動された、機密ファイルが読み取られた、権限昇格の試みがあった、などです。事後ではなく即座にアラートを発します。CNCF を卒業したプロジェクトで、特にランタイムの脅威検知に特化しています。\n\nFalco は、システムが稼働している間にアクティブな脅威や異常な挙動を検知する必要があるセキュリティチームに向いています。(カタログにもある) Trivy や Kyverno を補完する存在で、それらはデプロイ前にイメージをスキャンしポリシーを適用するのに対し、Falco はランタイムで実際に起きていることを監視します。"
+    },
+    "ko": {
+      "description": "커널 수준 모니터링을 사용해 컨테이너와 호스트에서 발생하는 예기치 않거나 악의적인 행동을 실시간으로 감지하는 CNCF 런타임 보안 도구입니다.",
+      "longDescription": "Falco는 eBPF를 사용해 커널 수준에서 시스템 호출을 관찰하고 규칙 엔진에 비추어 평가하여, 컨테이너 내부에서 셸이 실행되거나 민감한 파일이 읽히거나 권한 상승이 시도되는 등의 의심스러운 행동을 실시간으로 감지하고 사후가 아니라 즉시 경고합니다. 런타임 위협 탐지에 특화된 CNCF 졸업 프로젝트입니다.\n\nFalco는 시스템이 실행되는 동안 활성 위협과 이상 행동을 감지해야 하는 보안 팀에 적합하며, (카탈로그에 있는) Trivy, Kyverno를 보완합니다 — 그것들은 배포 전에 이미지를 스캔하고 정책을 적용하는 반면, Falco는 런타임에 실제로 일어나는 일을 관찰합니다."
+    },
+    "es": {
+      "description": "Herramienta de seguridad en tiempo de ejecución de la CNCF que detecta comportamientos inesperados o maliciosos en contenedores y hosts a medida que ocurren, usando monitorización a nivel de kernel.",
+      "longDescription": "Falco observa las llamadas al sistema a nivel de kernel usando eBPF y las evalúa contra un motor de reglas para detectar comportamientos sospechosos en tiempo real —una shell abierta dentro de un contenedor, la lectura de un archivo sensible, un intento de escalada de privilegios— y alerta de inmediato en lugar de después. Es un proyecto graduado de la CNCF centrado específicamente en la detección de amenazas en tiempo de ejecución.\n\nFalco encaja en equipos de seguridad que necesitan detectar amenazas activas y comportamientos anómalos mientras un sistema está en funcionamiento, complementando a Trivy y Kyverno (también en este catálogo): esos escanean imágenes y aplican políticas antes del despliegue, mientras que Falco observa lo que realmente ocurre en tiempo de ejecución."
+    },
+    "de": {
+      "description": "CNCF-Runtime-Sicherheitstool, das unerwartetes oder bösartiges Verhalten in Containern und Hosts erkennt, während es passiert, mittels Kernel-Level-Monitoring.",
+      "longDescription": "Falco beobachtet Systemaufrufe auf Kernel-Ebene mittels eBPF und bewertet sie gegen eine Regel-Engine, um verdächtiges Verhalten in Echtzeit zu erkennen – eine in einem Container gestartete Shell, das Lesen einer sensiblen Datei, ein Privilegieneskalationsversuch – und alarmiert sofort statt im Nachhinein. Es ist ein von der CNCF graduiertes Projekt, das sich speziell auf Runtime-Bedrohungserkennung konzentriert.\n\nFalco eignet sich für Sicherheitsteams, die aktive Bedrohungen und anomales Verhalten erkennen müssen, während ein System läuft – als Ergänzung zu Trivy und Kyverno (ebenfalls in diesem Katalog): Diese scannen Images und setzen Richtlinien vor dem Deployment durch, während Falco beobachtet, was tatsächlich zur Laufzeit geschieht."
+    }
+  }
+}

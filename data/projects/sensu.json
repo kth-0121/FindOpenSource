@@ -1,0 +1,45 @@
+{
+  "name": "Sensu",
+  "slug": "sensu",
+  "description": "Event-based monitoring and observability pipeline that gives teams full control over how monitoring events are processed and routed.",
+  "longDescription": "Sensu treats every check result and metric as an event that flows through a configurable pipeline, where a team decides exactly how each event should be filtered, transformed, and routed to alerting, ticketing, or storage systems - rather than a fixed collect-then-alert model. It supports both push and pull-based checks.\n\nSensu is a fit for teams that want fine-grained control over monitoring event processing and routing logic, a different architectural approach than the dashboard-and-query model of Grafana and Prometheus already in this catalog.",
+  "repository": "https://github.com/sensu/sensu-go",
+  "website": "https://sensu.io",
+  "documentation": "https://docs.sensu.io",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "event-monitoring",
+    "observability-pipeline",
+    "alerting"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "基于事件的监控与可观测性管道，让团队完全掌控监控事件的处理和路由方式。",
+      "longDescription": "Sensu 将每一次检查结果和指标都视为一个事件，流经可配置的管道，团队可以精确决定每个事件应如何被过滤、转换，并路由到告警、工单或存储系统——而不是采用固定的“采集后告警”模式。它同时支持推送式和拉取式检查。\n\nSensu 适合那些希望对监控事件处理和路由逻辑拥有精细控制权的团队，这与目录中已有的 Grafana 和 Prometheus 那种仪表盘加查询的架构方式不同。"
+    },
+    "ja": {
+      "description": "監視イベントがどのように処理・ルーティングされるかを、チームが完全にコントロールできる、イベントベースの監視・オブザーバビリティパイプラインです。",
+      "longDescription": "Sensu は、すべてのチェック結果とメトリクスを、設定可能なパイプラインを流れるイベントとして扱い、各イベントをどうフィルタリング・変換し、アラート・チケット・ストレージシステムへルーティングするかをチームが正確に決定できます。固定的な「収集してからアラート」というモデルではありません。プッシュ型とプル型の両方のチェックに対応しています。\n\nSensu は、監視イベントの処理とルーティングロジックをきめ細かく制御したいチームに向いています。カタログに既にある Grafana や Prometheus のダッシュボード・クエリ型モデルとは異なるアーキテクチャアプローチです。"
+    },
+    "ko": {
+      "description": "모니터링 이벤트가 어떻게 처리되고 라우팅되는지를 팀이 완전히 제어할 수 있게 해주는 이벤트 기반 모니터링·관측 가능성 파이프라인입니다.",
+      "longDescription": "Sensu는 모든 체크 결과와 메트릭을 설정 가능한 파이프라인을 통해 흐르는 이벤트로 취급하며, 팀이 각 이벤트를 어떻게 필터링·변환하고 알림·티켓팅·저장 시스템으로 라우팅할지 정확히 결정할 수 있게 해줍니다 — 고정된 \"수집 후 알림\" 모델이 아닙니다. 푸시 기반과 풀 기반 체크를 모두 지원합니다.\n\nSensu는 모니터링 이벤트 처리와 라우팅 로직을 세밀하게 제어하고 싶은 팀에 적합합니다. 카탈로그에 이미 있는 Grafana와 Prometheus의 대시보드·쿼리 모델과는 다른 아키텍처 접근 방식입니다."
+    },
+    "es": {
+      "description": "Pipeline de monitorización y observabilidad basado en eventos que da a los equipos control total sobre cómo se procesan y enrutan los eventos de monitorización.",
+      "longDescription": "Sensu trata cada resultado de comprobación y métrica como un evento que fluye a través de un pipeline configurable, donde un equipo decide exactamente cómo debe filtrarse, transformarse y enrutarse cada evento hacia sistemas de alertas, tickets o almacenamiento, en lugar de un modelo fijo de recolectar-y-luego-alertar. Admite comprobaciones tanto push como pull.\n\nSensu encaja en equipos que quieren un control granular sobre el procesamiento y enrutamiento de eventos de monitorización, un enfoque arquitectónico distinto al modelo de dashboard y consulta de Grafana y Prometheus ya presentes en este catálogo."
+    },
+    "de": {
+      "description": "Ereignisbasierte Monitoring- und Observability-Pipeline, die Teams volle Kontrolle darüber gibt, wie Monitoring-Ereignisse verarbeitet und weitergeleitet werden.",
+      "longDescription": "Sensu behandelt jedes Check-Ergebnis und jede Metrik als Ereignis, das durch eine konfigurierbare Pipeline fließt, in der ein Team genau festlegt, wie jedes Ereignis gefiltert, transformiert und an Alarmierungs-, Ticketing- oder Speichersysteme weitergeleitet werden soll – statt eines starren Sammeln-dann-Alarmieren-Modells. Es unterstützt sowohl Push- als auch Pull-basierte Checks.\n\nSensu eignet sich für Teams, die feingranulare Kontrolle über die Verarbeitung und Routing-Logik von Monitoring-Ereignissen wollen – ein anderer architektonischer Ansatz als das Dashboard-und-Abfrage-Modell von Grafana und Prometheus, die bereits in diesem Katalog sind."
+    }
+  }
+}

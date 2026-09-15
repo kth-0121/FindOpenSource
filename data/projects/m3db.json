@@ -1,0 +1,45 @@
+{
+  "name": "M3",
+  "slug": "m3db",
+  "description": "Horizontally scalable, distributed time-series database and metrics platform built at Uber for very large-scale monitoring.",
+  "longDescription": "M3 is a distributed metrics platform - storage engine, query layer, and aggregation - designed to handle the write and storage volume of monitoring thousands of services at very large scale, well beyond what a single Prometheus instance handles alone. It exposes a Prometheus-remote-write-compatible interface so existing Prometheus setups can use it as a scalable backend.\n\nM3 is a fit for large organizations whose metrics volume has outgrown a single Prometheus instance and need a purpose-built, horizontally scalable storage layer underneath their existing setup.",
+  "repository": "https://github.com/m3db/m3",
+  "website": "https://m3db.io",
+  "documentation": "https://m3db.io/docs/",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "time-series-database",
+    "metrics-platform",
+    "large-scale-monitoring"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "由 Uber 构建的水平可扩展分布式时序数据库与指标平台，面向超大规模监控场景。",
+      "longDescription": "M3 是一个分布式指标平台——包括存储引擎、查询层和聚合功能——专为处理远超单个 Prometheus 实例承载能力的超大规模（数千个服务）监控写入与存储量而设计。它暴露了与 Prometheus remote-write 兼容的接口，因此现有的 Prometheus 环境可以将其用作可扩展的后端。\n\nM3 适合那些指标数据量已超出单个 Prometheus 实例承载能力、需要在现有环境之下部署专门构建的水平可扩展存储层的大型组织。"
+    },
+    "ja": {
+      "description": "非常に大規模な監視のために Uber で構築された、水平方向にスケール可能な分散型時系列データベース・メトリクスプラットフォームです。",
+      "longDescription": "M3 は、単一の Prometheus インスタンスが単独で処理できる範囲をはるかに超える、数千のサービスを非常に大規模に監視するための書き込み・保存量を扱うために設計された、分散型メトリクスプラットフォーム(ストレージエンジン、クエリ層、集計)です。Prometheus の remote-write と互換性のあるインターフェースを公開しているため、既存の Prometheus 環境でもスケーラブルなバックエンドとして利用できます。\n\nM3 は、メトリクス量が単一の Prometheus インスタンスの限界を超えてしまい、既存のセットアップの下に専用に構築された水平スケール可能なストレージ層を必要とする大規模組織に向いています。"
+    },
+    "ko": {
+      "description": "매우 대규모 모니터링을 위해 Uber에서 만든, 수평으로 확장 가능한 분산 시계열 데이터베이스·메트릭 플랫폼입니다.",
+      "longDescription": "M3는 단일 Prometheus 인스턴스가 혼자 처리할 수 있는 범위를 훨씬 넘어서는, 수천 개 서비스를 매우 대규모로 모니터링하는 쓰기·저장 용량을 다루기 위해 설계된 분산 메트릭 플랫폼(저장 엔진, 쿼리 계층, 집계)입니다. Prometheus remote-write와 호환되는 인터페이스를 제공하므로 기존 Prometheus 환경에서도 확장 가능한 백엔드로 사용할 수 있습니다.\n\nM3는 메트릭 볼륨이 단일 Prometheus 인스턴스의 한계를 넘어서, 기존 설정 아래에 전용으로 만들어진 수평 확장 가능한 저장 계층이 필요한 대규모 조직에 적합합니다."
+    },
+    "es": {
+      "description": "Base de datos de series temporales distribuida y horizontalmente escalable, construida en Uber para monitorización a muy gran escala.",
+      "longDescription": "M3 es una plataforma de métricas distribuida —motor de almacenamiento, capa de consultas y agregación— diseñada para manejar el volumen de escritura y almacenamiento de monitorizar miles de servicios a muy gran escala, muy por encima de lo que una única instancia de Prometheus puede gestionar por sí sola. Expone una interfaz compatible con Prometheus remote-write para que las instalaciones de Prometheus existentes puedan usarla como backend escalable.\n\nM3 encaja en grandes organizaciones cuyo volumen de métricas ha superado a una única instancia de Prometheus y necesitan una capa de almacenamiento horizontalmente escalable, construida a medida, debajo de su configuración existente."
+    },
+    "de": {
+      "description": "Horizontal skalierbare, verteilte Zeitreihendatenbank und Metrikplattform, bei Uber für Monitoring in sehr großem Maßstab entwickelt.",
+      "longDescription": "M3 ist eine verteilte Metrikplattform – Speicher-Engine, Abfrageschicht und Aggregation –, die für das Schreib- und Speichervolumen der Überwachung tausender Dienste in sehr großem Maßstab ausgelegt ist, weit über das hinaus, was eine einzelne Prometheus-Instanz allein bewältigt. Sie bietet eine zu Prometheus-Remote-Write-kompatible Schnittstelle, sodass bestehende Prometheus-Setups sie als skalierbares Backend nutzen können.\n\nM3 eignet sich für große Organisationen, deren Metrikvolumen eine einzelne Prometheus-Instanz überstiegen hat und die eine speziell gebaute, horizontal skalierbare Speicherschicht unter ihrem bestehenden Setup benötigen."
+    }
+  }
+}

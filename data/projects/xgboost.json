@@ -1,0 +1,46 @@
+{
+  "name": "XGBoost",
+  "slug": "xgboost",
+  "description": "Optimized, distributed gradient boosting library widely used for structured/tabular data problems, a staple of applied machine learning.",
+  "longDescription": "XGBoost implements gradient-boosted decision trees with a strong focus on performance and scalability, and has been one of the most consistently winning algorithms in machine learning competitions for structured (tabular) data - the kind of data found in spreadsheets and databases rather than images or text. It runs efficiently on a single machine or distributed across a cluster.\n\nXGBoost is a fit for teams solving classification, regression, or ranking problems on structured data, a different tool than the deep learning frameworks (PyTorch, TensorFlow, also in this catalog) that dominate image, text, and audio tasks but are often outperformed by gradient boosting on tabular data.",
+  "repository": "https://github.com/dmlc/xgboost",
+  "website": "https://xgboost.ai",
+  "documentation": "https://xgboost.readthedocs.io",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "gradient-boosting",
+    "machine-learning",
+    "tabular-data",
+    "classification"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "优化的分布式梯度提升库，广泛用于结构化/表格数据问题，是应用机器学习的常用工具。",
+      "longDescription": "XGBoost 实现了梯度提升决策树，高度专注于性能和可扩展性，一直是结构化（表格型）数据机器学习竞赛中最稳定的获胜算法之一——这类数据常见于电子表格和数据库，而非图像或文本。它既能在单机上高效运行，也能分布式扩展到集群。\n\nXGBoost 适合那些需要在结构化数据上解决分类、回归或排序问题的团队，与目录中主导图像、文本和音频任务的深度学习框架（PyTorch、TensorFlow）不同，在表格数据上，梯度提升方法往往能超越深度学习的表现。"
+    },
+    "ja": {
+      "description": "構造化・表形式データの問題に広く使われている、最適化された分散型勾配ブースティングライブラリで、応用機械学習の定番です。",
+      "longDescription": "XGBoost は、パフォーマンスとスケーラビリティを強く重視した勾配ブースティング決定木を実装しており、構造化(表形式)データ——画像やテキストではなく、スプレッドシートやデータベースにあるようなデータ——を対象とする機械学習コンペティションにおいて、最も安定して勝ち続けているアルゴリズムの1つです。単一マシンでも、クラスタに分散させても効率的に動作します。\n\nXGBoost は、構造化データに対する分類、回帰、ランキングの問題を解くチームに向いています。画像・テキスト・音声のタスクを席巻しているものの、表形式データでは勾配ブースティングに性能で劣ることが多い、(カタログにもある) 深層学習フレームワーク(PyTorch、TensorFlow)とは異なるツールです。"
+    },
+    "ko": {
+      "description": "구조화된·표 형식 데이터 문제에 널리 사용되는 최적화된 분산 그래디언트 부스팅 라이브러리로, 응용 머신러닝의 대표적인 도구입니다.",
+      "longDescription": "XGBoost는 성능과 확장성에 강하게 집중한 그래디언트 부스팅 결정 트리를 구현하며, 이미지나 텍스트가 아니라 스프레드시트와 데이터베이스에서 볼 수 있는 구조화된(표 형식) 데이터를 다루는 머신러닝 경진대회에서 가장 꾸준히 우승해온 알고리즘 중 하나입니다. 단일 머신에서도, 클러스터에 분산해서도 효율적으로 동작합니다.\n\nXGBoost는 구조화된 데이터에서 분류, 회귀, 랭킹 문제를 푸는 팀에 적합하며, 이미지·텍스트·오디오 작업을 주도하지만 표 형식 데이터에서는 그래디언트 부스팅에 밀리는 경우가 많은 (카탈로그에 있는) 딥러닝 프레임워크(PyTorch, TensorFlow)와는 다른 도구입니다."
+    },
+    "es": {
+      "description": "Biblioteca de gradient boosting optimizada y distribuida, muy usada para problemas de datos estructurados/tabulares, un pilar del machine learning aplicado.",
+      "longDescription": "XGBoost implementa árboles de decisión con gradient boosting con un fuerte enfoque en rendimiento y escalabilidad, y ha sido uno de los algoritmos más consistentemente ganadores en competiciones de machine learning para datos estructurados (tabulares), el tipo de datos que se encuentra en hojas de cálculo y bases de datos en lugar de imágenes o texto. Se ejecuta de forma eficiente en una sola máquina o distribuido en un clúster.\n\nXGBoost encaja en equipos que resuelven problemas de clasificación, regresión o ranking sobre datos estructurados, una herramienta distinta a los frameworks de deep learning (PyTorch, TensorFlow, también en este catálogo) que dominan las tareas de imagen, texto y audio pero a menudo son superados por el gradient boosting en datos tabulares."
+    },
+    "de": {
+      "description": "Optimierte, verteilte Gradient-Boosting-Bibliothek, weit verbreitet für strukturierte/tabellarische Datenprobleme, ein Grundpfeiler des angewandten maschinellen Lernens.",
+      "longDescription": "XGBoost implementiert Gradient-Boosted-Decision-Trees mit starkem Fokus auf Performance und Skalierbarkeit und war einer der beständigsten Gewinneralgorithmen bei Machine-Learning-Wettbewerben für strukturierte (tabellarische) Daten – der Art von Daten, die in Tabellen und Datenbanken zu finden sind, statt Bildern oder Text. Es läuft effizient auf einer einzelnen Maschine oder verteilt über einen Cluster.\n\nXGBoost eignet sich für Teams, die Klassifikations-, Regressions- oder Ranking-Probleme auf strukturierten Daten lösen – ein anderes Werkzeug als die Deep-Learning-Frameworks (PyTorch, TensorFlow, ebenfalls in diesem Katalog), die Bild-, Text- und Audioaufgaben dominieren, bei tabellarischen Daten aber oft von Gradient Boosting übertroffen werden."
+    }
+  }
+}

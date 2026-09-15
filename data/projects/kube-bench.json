@@ -1,0 +1,46 @@
+{
+  "name": "kube-bench",
+  "slug": "kube-bench",
+  "description": "CIS Kubernetes Benchmark compliance checker that audits a cluster's configuration against official security best practices.",
+  "longDescription": "kube-bench runs the checks defined in the CIS Kubernetes Benchmark - a widely used, official security configuration standard - against a running cluster, reporting exactly which settings pass or fail and why. It runs as a job inside the cluster it's checking, so it tests the actual live configuration rather than static manifests.\n\nkube-bench is a fit for teams that need to demonstrate or verify Kubernetes configuration compliance against a recognized standard, a distinct, narrower intent than Trivy's broader vulnerability scanning or Kyverno's ongoing policy enforcement (also in this catalog).",
+  "repository": "https://github.com/aquasecurity/kube-bench",
+  "website": "https://github.com/aquasecurity/kube-bench",
+  "documentation": "https://aquasecurity.github.io/kube-bench/latest/",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "cis-benchmark",
+    "compliance",
+    "kubernetes-security",
+    "audit"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "CIS Kubernetes 基准合规检查工具，依据官方安全最佳实践审计集群配置。",
+      "longDescription": "kube-bench 会对正在运行的集群执行 CIS Kubernetes Benchmark（一项广泛使用的官方安全配置标准）中定义的检查项，精确报告哪些配置项通过、哪些未通过及原因。它作为一个任务运行在被检查的集群内部，因此测试的是实际运行中的配置，而非静态清单文件。\n\nkube-bench 适合那些需要依据公认标准证明或验证 Kubernetes 配置合规性的团队，这是一个比 Trivy 的通用漏洞扫描或 Kyverno 的持续策略执行（均收录于本目录）更为具体和聚焦的需求。"
+    },
+    "ja": {
+      "description": "公式のセキュリティベストプラクティスに照らしてクラスタの設定を監査する、CIS Kubernetes Benchmark 準拠チェックツールです。",
+      "longDescription": "kube-bench は、広く使われている公式のセキュリティ設定標準である CIS Kubernetes Benchmark で定義されたチェック項目を、稼働中のクラスタに対して実行し、どの設定が合格・不合格で、その理由は何かを正確に報告します。チェック対象のクラスタ内でジョブとして実行されるため、静的なマニフェストではなく実際の稼働中の設定をテストします。\n\nkube-bench は、認知された標準に照らして Kubernetes の設定コンプライアンスを証明・検証する必要のあるチームに向いています。(カタログにもある) Trivy のより広範な脆弱性スキャンや Kyverno の継続的なポリシー適用とは異なる、より絞り込まれた目的です。"
+    },
+    "ko": {
+      "description": "공식 보안 모범 사례를 기준으로 클러스터 설정을 감사하는 CIS Kubernetes Benchmark 준수 검사 도구입니다.",
+      "longDescription": "kube-bench는 널리 사용되는 공식 보안 설정 표준인 CIS Kubernetes Benchmark에 정의된 검사 항목을 실행 중인 클러스터에 대해 실행하여, 어떤 설정이 통과·실패했는지와 그 이유를 정확히 보고합니다. 검사 대상 클러스터 내부에서 작업으로 실행되므로 정적 매니페스트가 아니라 실제 운영 중인 설정을 테스트합니다.\n\nkube-bench는 인정된 표준에 따라 Kubernetes 설정 준수를 입증하거나 검증해야 하는 팀에 적합합니다. (카탈로그에 있는) Trivy의 더 폭넓은 취약점 스캔이나 Kyverno의 지속적인 정책 적용과는 구별되는, 더 좁고 구체적인 목적입니다."
+    },
+    "es": {
+      "description": "Verificador de cumplimiento del CIS Kubernetes Benchmark que audita la configuración de un clúster frente a las mejores prácticas de seguridad oficiales.",
+      "longDescription": "kube-bench ejecuta las comprobaciones definidas en el CIS Kubernetes Benchmark —un estándar de configuración de seguridad oficial y muy utilizado— contra un clúster en ejecución, informando exactamente qué configuraciones pasan o fallan y por qué. Se ejecuta como un job dentro del propio clúster que está revisando, por lo que prueba la configuración real en vivo en lugar de manifiestos estáticos.\n\nkube-bench encaja en equipos que necesitan demostrar o verificar el cumplimiento de la configuración de Kubernetes frente a un estándar reconocido, una intención distinta y más concreta que el escaneo de vulnerabilidades más amplio de Trivy o la aplicación continua de políticas de Kyverno (también en este catálogo)."
+    },
+    "de": {
+      "description": "CIS-Kubernetes-Benchmark-Compliance-Prüfer, der die Konfiguration eines Clusters gegen offizielle Sicherheits-Best-Practices prüft.",
+      "longDescription": "kube-bench führt die im CIS Kubernetes Benchmark definierten Prüfungen – einem weit verbreiteten, offiziellen Sicherheitskonfigurationsstandard – gegen einen laufenden Cluster aus und meldet genau, welche Einstellungen bestehen oder durchfallen und warum. Es läuft als Job innerhalb des geprüften Clusters und testet damit die tatsächliche Live-Konfiguration statt statischer Manifeste.\n\nkube-bench eignet sich für Teams, die die Kubernetes-Konfigurations-Compliance gegen einen anerkannten Standard nachweisen oder verifizieren müssen – ein eigenständiges, engeres Anliegen als Trivys breiteres Schwachstellenscanning oder Kyvernos fortlaufende Richtliniendurchsetzung (ebenfalls in diesem Katalog)."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Alluxio",
+  "slug": "alluxio",
+  "description": "Data orchestration layer that sits between compute engines and storage systems, caching data for faster, unified access across the two.",
+  "longDescription": "Alluxio sits between compute frameworks (like Spark or Trino) and one or more underlying storage systems (S3, HDFS, and others), presenting a unified namespace and caching frequently accessed data in memory or on fast local disks to speed up analytics workloads without moving the underlying data. It decouples compute from storage location.\n\nAlluxio is a fit for data platform teams running analytics engines against remote or slow storage who want a caching and unification layer, a distinct role from the object-storage systems (MinIO, SeaweedFS) already in this catalog - it sits in front of storage rather than being storage itself.",
+  "repository": "https://github.com/Alluxio/alluxio",
+  "website": "https://www.alluxio.io",
+  "documentation": "https://docs.alluxio.io",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "data-orchestration",
+    "caching-layer",
+    "big-data",
+    "unified-namespace"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "位于计算引擎和存储系统之间的数据编排层，通过缓存数据实现更快速、统一的访问。",
+      "longDescription": "Alluxio 位于计算框架（如 Spark 或 Trino）与一个或多个底层存储系统（S3、HDFS 等）之间，提供统一的命名空间，并将频繁访问的数据缓存在内存或高速本地磁盘中，从而在无需迁移底层数据的情况下加速分析工作负载。它将计算与存储位置解耦。\n\nAlluxio 适合那些针对远程或较慢存储运行分析引擎、需要缓存与统一层的数据平台团队，与目录中已有的对象存储系统（MinIO、SeaweedFS）角色不同——它位于存储之前，而不是存储本身。"
+    },
+    "ja": {
+      "description": "計算エンジンとストレージシステムの間に位置し、両者間の高速で統一的なアクセスのためにデータをキャッシュする、データオーケストレーション層です。",
+      "longDescription": "Alluxio は、計算フレームワーク(Spark や Trino など)と1つ以上の基盤ストレージシステム(S3、HDFS など)の間に位置し、統一された名前空間を提示するとともに、頻繁にアクセスされるデータをメモリや高速なローカルディスクにキャッシュすることで、基盤データを移動させることなく分析ワークロードを高速化します。計算とストレージの所在地を分離します。\n\nAlluxio は、リモートまたは低速なストレージに対して分析エンジンを実行し、キャッシュと統一の層を求めるデータプラットフォームチームに向いています。カタログに既にあるオブジェクトストレージシステム(MinIO、SeaweedFS)とは異なる役割で、ストレージそのものではなく、ストレージの前段に位置します。"
+    },
+    "ko": {
+      "description": "컴퓨트 엔진과 스토리지 시스템 사이에 위치해, 두 시스템 간 더 빠르고 통합된 접근을 위해 데이터를 캐싱하는 데이터 오케스트레이션 계층입니다.",
+      "longDescription": "Alluxio는 컴퓨트 프레임워크(Spark나 Trino 등)와 하나 이상의 기반 스토리지 시스템(S3, HDFS 등) 사이에 위치해, 통합된 네임스페이스를 제공하고 자주 접근되는 데이터를 메모리나 빠른 로컬 디스크에 캐싱하여 기반 데이터를 이동시키지 않고도 분석 워크로드를 가속화합니다. 컴퓨트와 스토리지 위치를 분리합니다.\n\nAlluxio는 원격이나 느린 스토리지에 대해 분석 엔진을 운영하며 캐싱·통합 계층을 원하는 데이터 플랫폼 팀에 적합합니다. 카탈로그에 이미 있는 오브젝트 스토리지 시스템(MinIO, SeaweedFS)과는 다른 역할로, 스토리지 자체가 아니라 스토리지 앞단에 위치합니다."
+    },
+    "es": {
+      "description": "Capa de orquestación de datos situada entre los motores de cómputo y los sistemas de almacenamiento, que cachea datos para un acceso más rápido y unificado entre ambos.",
+      "longDescription": "Alluxio se sitúa entre frameworks de cómputo (como Spark o Trino) y uno o varios sistemas de almacenamiento subyacentes (S3, HDFS y otros), presentando un espacio de nombres unificado y cacheando en memoria o en discos locales rápidos los datos de acceso frecuente para acelerar las cargas de trabajo analíticas sin mover los datos subyacentes. Desacopla el cómputo de la ubicación del almacenamiento.\n\nAlluxio encaja en equipos de plataforma de datos que ejecutan motores analíticos contra almacenamiento remoto o lento y quieren una capa de caché y unificación, un rol distinto al de los sistemas de almacenamiento de objetos (MinIO, SeaweedFS) ya presentes en este catálogo: se sitúa delante del almacenamiento en lugar de ser almacenamiento en sí mismo."
+    },
+    "de": {
+      "description": "Datenorchestrierungsschicht zwischen Compute-Engines und Speichersystemen, die Daten für schnelleren, einheitlichen Zugriff zwischen beiden cached.",
+      "longDescription": "Alluxio sitzt zwischen Compute-Frameworks (wie Spark oder Trino) und einem oder mehreren zugrunde liegenden Speichersystemen (S3, HDFS und andere), stellt einen einheitlichen Namensraum bereit und cached häufig genutzte Daten im Speicher oder auf schnellen lokalen Festplatten, um Analytics-Workloads zu beschleunigen, ohne die zugrunde liegenden Daten zu verschieben. Es entkoppelt Compute vom Speicherort.\n\nAlluxio eignet sich für Datenplattform-Teams, die Analytics-Engines gegen entfernten oder langsamen Speicher betreiben und eine Caching- und Vereinheitlichungsschicht wollen – eine andere Rolle als die Objektspeichersysteme (MinIO, SeaweedFS), die bereits in diesem Katalog sind: Es sitzt vor dem Speicher, statt selbst Speicher zu sein."
+    }
+  }
+}

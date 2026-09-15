@@ -1,0 +1,45 @@
+{
+  "name": "Apache RocketMQ",
+  "slug": "apache-rocketmq",
+  "description": "Distributed messaging and streaming platform built for financial-grade transactional reliability at very high throughput.",
+  "longDescription": "RocketMQ handles publish/subscribe messaging, ordered messages, and transactional messages - where a message send is tied to the outcome of a database transaction - originally built at Alibaba to handle the reliability and scale demands of e-commerce transaction processing. It's a well-established alternative in the same space as Kafka and RabbitMQ.\n\nRocketMQ is a fit for teams that specifically need transactional messaging guarantees (message delivery tied to a business transaction outcome), a capability that differentiates it from RabbitMQ and Kafka (also in this catalog) for finance- and order-processing-style workloads.",
+  "repository": "https://github.com/apache/rocketmq",
+  "website": "https://rocketmq.apache.org",
+  "documentation": "https://rocketmq.apache.org/docs/quick-start/",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "messaging",
+    "transactional-messaging",
+    "event-streaming"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "分布式消息与流处理平台，专为金融级事务可靠性和超高吞吐量而构建。",
+      "longDescription": "RocketMQ 支持发布/订阅消息、顺序消息以及事务消息——即消息发送与数据库事务的结果相绑定——最初由阿里巴巴构建，用于满足电商交易处理对可靠性和规模的高要求。它是与 Kafka、RabbitMQ 同处一个领域、已经过充分验证的替代方案。\n\nRocketMQ 适合那些特别需要事务性消息保证（消息投递与业务事务结果绑定）的团队，这一能力使其在金融和订单处理类工作负载上有别于目录中的 RabbitMQ 和 Kafka。"
+    },
+    "ja": {
+      "description": "非常に高いスループットで金融グレードのトランザクション信頼性を実現するために構築された、分散型メッセージング・ストリーミングプラットフォームです。",
+      "longDescription": "RocketMQ は、Pub/Sub メッセージング、順序付きメッセージ、そしてトランザクションメッセージ(メッセージ送信がデータベーストランザクションの結果と紐づけられるもの)を扱い、もともと Alibaba が EC 取引処理の信頼性・規模要求に対応するために構築しました。Kafka や RabbitMQ と同じ領域における、実績のある代替手段です。\n\nRocketMQ は、トランザクションメッセージングの保証(メッセージ配信がビジネストランザクションの結果と紐づく)を特に必要とするチームに向いており、金融や注文処理系のワークロードにおいて、(カタログにもある) RabbitMQ や Kafka と一線を画す機能です。"
+    },
+    "ko": {
+      "description": "매우 높은 처리량에서 금융 등급의 트랜잭션 신뢰성을 위해 만들어진 분산 메시징·스트리밍 플랫폼입니다.",
+      "longDescription": "RocketMQ는 발행/구독 메시징, 순서가 보장된 메시지, 그리고 메시지 전송이 데이터베이스 트랜잭션 결과와 연결되는 트랜잭션 메시지를 처리하며, 원래 Alibaba에서 전자상거래 트랜잭션 처리의 신뢰성·규모 요구를 다루기 위해 만들어졌습니다. Kafka, RabbitMQ와 같은 영역에서 확고히 자리 잡은 대안입니다.\n\nRocketMQ는 트랜잭션 메시징 보장(메시지 전달이 비즈니스 트랜잭션 결과와 연결됨)이 특히 필요한 팀에 적합하며, 이는 금융·주문 처리 유형의 워크로드에서 (카탈로그에 있는) RabbitMQ, Kafka와 차별화되는 능력입니다."
+    },
+    "es": {
+      "description": "Plataforma de mensajería y streaming distribuida construida para fiabilidad transaccional de nivel financiero con un rendimiento muy alto.",
+      "longDescription": "RocketMQ gestiona mensajería publicación/suscripción, mensajes ordenados y mensajes transaccionales —donde el envío de un mensaje está ligado al resultado de una transacción de base de datos—, construido originalmente en Alibaba para afrontar las exigencias de fiabilidad y escala del procesamiento de transacciones de comercio electrónico. Es una alternativa consolidada en el mismo espacio que Kafka y RabbitMQ.\n\nRocketMQ encaja en equipos que necesitan específicamente garantías de mensajería transaccional (entrega de mensajes ligada al resultado de una transacción de negocio), una capacidad que lo diferencia de RabbitMQ y Kafka (también en este catálogo) para cargas de trabajo de tipo financiero o de procesamiento de pedidos."
+    },
+    "de": {
+      "description": "Verteilte Messaging- und Streaming-Plattform für transaktionale Zuverlässigkeit auf Finanz-Niveau bei sehr hohem Durchsatz.",
+      "longDescription": "RocketMQ handhabt Publish/Subscribe-Messaging, geordnete Nachrichten und transaktionale Nachrichten – bei denen ein Nachrichtenversand an das Ergebnis einer Datenbanktransaktion gebunden ist – ursprünglich bei Alibaba gebaut, um die Zuverlässigkeits- und Skalierungsanforderungen der E-Commerce-Transaktionsverarbeitung zu bewältigen. Es ist eine etablierte Alternative im selben Bereich wie Kafka und RabbitMQ.\n\nRocketMQ eignet sich für Teams, die speziell transaktionale Messaging-Garantien benötigen (Nachrichtenzustellung gebunden an das Ergebnis einer Geschäftstransaktion) – eine Fähigkeit, die es für Finanz- und Bestellabwicklungs-Workloads von RabbitMQ und Kafka (ebenfalls in diesem Katalog) unterscheidet."
+    }
+  }
+}

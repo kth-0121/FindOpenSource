@@ -1,0 +1,46 @@
+{
+  "name": "Valkey",
+  "slug": "valkey",
+  "description": "In-memory data store and community-led fork of Redis, created after Redis's 2024 license change moved it away from an open-source license.",
+  "longDescription": "Valkey is a drop-in replacement for Redis - same protocol, same commands, same use cases as an in-memory database, cache, and message broker - maintained as an open-source project under the Linux Foundation after Redis Inc. relicensed Redis away from its original open license. It's backed by AWS, Google, and other major cloud providers.\n\nValkey is a fit for teams that want Redis's exact feature set and API under a license that stays open-source, a directly relevant alternative for anyone evaluating the existing Redis entry in this catalog against its current licensing terms.",
+  "repository": "https://github.com/valkey-io/valkey",
+  "website": "https://valkey.io",
+  "documentation": "https://valkey.io/docs/",
+  "categories": [
+    "database"
+  ],
+  "keywords": [
+    "in-memory-database",
+    "redis-alternative",
+    "cache",
+    "key-value-store"
+  ],
+  "languages": [
+    "C"
+  ],
+  "license": "BSD-3-Clause",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "内存数据存储，是 Redis 的社区主导分支，诞生于 2024 年 Redis 许可证变更、不再采用开源许可证之后。",
+      "longDescription": "Valkey 是 Redis 的直接替代品——协议相同、命令相同，作为内存数据库、缓存和消息代理的使用场景也相同——在 Redis Inc. 将 Redis 的许可证从最初的开源许可证变更后，作为 Linux 基金会旗下的开源项目继续维护。它得到了 AWS、Google 等主要云厂商的支持。\n\nValkey 适合那些希望在保持开源许可证的前提下获得 Redis 完整功能集和 API 的团队，对于正在评估目录中现有 Redis 条目及其当前许可条款的用户而言，是一个直接相关的替代方案。"
+    },
+    "ja": {
+      "description": "2024年の Redis のライセンス変更によりオープンソースライセンスから離れたことを受けて作られた、インメモリデータストア兼コミュニティ主導の Redis フォークです。",
+      "longDescription": "Valkey は Redis の直接的な代替品です——同じプロトコル、同じコマンド、インメモリデータベース・キャッシュ・メッセージブローカーとしての用途も同じ——で、Redis Inc. が Redis を元のオープンライセンスから移行させた後、Linux Foundation のもとでオープンソースプロジェクトとして維持されています。AWS、Google をはじめとする主要クラウドプロバイダーの支援を受けています。\n\nValkey は、オープンソースであり続けるライセンスのもとで Redis と全く同じ機能セットと API を求めるチームに向いています。カタログの既存の Redis エントリを、その現在のライセンス条件と照らして検討している人にとって、直接的に関連する代替手段です。"
+    },
+    "ko": {
+      "description": "2024년 Redis의 라이선스 변경으로 오픈소스 라이선스에서 벗어난 이후 만들어진, 인메모리 데이터 저장소이자 커뮤니티 주도 Redis 포크입니다.",
+      "longDescription": "Valkey는 Redis의 직접적인 대체제입니다 — 동일한 프로토콜, 동일한 명령어, 인메모리 데이터베이스·캐시·메시지 브로커로서의 용도도 동일합니다 — Redis Inc.가 Redis를 원래의 오픈 라이선스에서 재라이선스한 이후, Linux Foundation 산하 오픈소스 프로젝트로 유지되고 있습니다. AWS, Google 등 주요 클라우드 제공업체의 지원을 받습니다.\n\nValkey는 오픈소스로 남는 라이선스 아래에서 Redis와 정확히 같은 기능 세트와 API를 원하는 팀에 적합하며, 카탈로그의 기존 Redis 항목을 현재 라이선스 조건과 비교해 검토하는 사람에게 직접적으로 관련된 대안입니다."
+    },
+    "es": {
+      "description": "Almacén de datos en memoria y fork liderado por la comunidad de Redis, creado tras el cambio de licencia de Redis en 2024 que lo alejó de una licencia de código abierto.",
+      "longDescription": "Valkey es un reemplazo directo de Redis —mismo protocolo, mismos comandos, mismos casos de uso como base de datos en memoria, caché y bróker de mensajes— mantenido como proyecto de código abierto bajo la Linux Foundation después de que Redis Inc. recambiara la licencia de Redis alejándola de su licencia abierta original. Cuenta con el respaldo de AWS, Google y otros grandes proveedores de nube.\n\nValkey encaja en equipos que quieren exactamente el conjunto de funciones y la API de Redis bajo una licencia que se mantenga de código abierto, una alternativa directamente relevante para quien esté evaluando la entrada de Redis ya existente en este catálogo frente a sus términos de licencia actuales."
+    },
+    "de": {
+      "description": "In-Memory-Datenspeicher und community-geführter Fork von Redis, entstanden nach Redis' Lizenzänderung 2024, die es von einer Open-Source-Lizenz wegführte.",
+      "longDescription": "Valkey ist ein direkter Ersatz für Redis – gleiches Protokoll, gleiche Befehle, gleiche Anwendungsfälle als In-Memory-Datenbank, Cache und Message-Broker – gepflegt als Open-Source-Projekt unter der Linux Foundation, nachdem Redis Inc. Redis von seiner ursprünglich offenen Lizenz weg neu lizenziert hat. Es wird von AWS, Google und anderen großen Cloud-Anbietern unterstützt.\n\nValkey eignet sich für Teams, die genau den Funktionsumfang und die API von Redis unter einer Lizenz wollen, die quelloffen bleibt – eine direkt relevante Alternative für alle, die den bestehenden Redis-Eintrag in diesem Katalog gegen dessen aktuelle Lizenzbedingungen abwägen."
+    }
+  }
+}

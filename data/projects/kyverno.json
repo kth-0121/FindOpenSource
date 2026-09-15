@@ -1,0 +1,46 @@
+{
+  "name": "Kyverno",
+  "slug": "kyverno",
+  "description": "Kubernetes-native policy engine that lets you write and enforce policies using plain YAML instead of a separate policy language.",
+  "longDescription": "Kyverno validates, mutates, and generates Kubernetes resources based on policies written as ordinary Kubernetes YAML manifests, so a team doesn't need to learn a new policy language to enforce rules like requiring resource limits or blocking privileged containers. It runs as an admission controller, rejecting non-compliant resources before they're created.\n\nKyverno is a fit for Kubernetes-focused teams that want policy enforcement without learning Rego, a YAML-native alternative to Open Policy Agent (also in this catalog) for teams that specifically don't want to introduce a separate policy language.",
+  "repository": "https://github.com/kyverno/kyverno",
+  "website": "https://kyverno.io",
+  "documentation": "https://kyverno.io/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "policy-as-code",
+    "kubernetes-security",
+    "admission-control",
+    "yaml-policies"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes 原生策略引擎，让你用纯 YAML 而不是单独的策略语言来编写和执行策略。",
+      "longDescription": "Kyverno 基于以普通 Kubernetes YAML 清单编写的策略，对 Kubernetes 资源进行校验、变更和生成，因此团队无需学习新的策略语言即可执行诸如“必须设置资源限制”或“禁止特权容器”之类的规则。它作为准入控制器运行，在不合规资源被创建之前就将其拒绝。\n\nKyverno 适合那些专注于 Kubernetes、希望在不学习 Rego 的情况下执行策略的团队，对于特别不希望引入另一种策略语言的团队而言，是目录中 Open Policy Agent 的一个原生基于 YAML 的替代方案。"
+    },
+    "ja": {
+      "description": "個別のポリシー言語ではなく、通常の YAML を使ってポリシーを記述・適用できる、Kubernetes ネイティブなポリシーエンジンです。",
+      "longDescription": "Kyverno は、通常の Kubernetes YAML マニフェストとして記述されたポリシーに基づいて、Kubernetes リソースの検証、変更、生成を行うため、リソース制限の要求や特権コンテナのブロックといったルールを適用するために新しいポリシー言語を学ぶ必要がありません。アドミッションコントローラーとして動作し、非準拠のリソースが作成される前に拒否します。\n\nKyverno は、Rego を学ばずにポリシー適用を行いたい、Kubernetes に特化したチームに向いています。別のポリシー言語を導入したくないチームにとって、(カタログにもある) Open Policy Agent の YAML ネイティブな代替手段です。"
+    },
+    "ko": {
+      "description": "별도의 정책 언어 대신 일반 YAML로 정책을 작성하고 적용할 수 있게 해주는 Kubernetes 네이티브 정책 엔진입니다.",
+      "longDescription": "Kyverno는 일반 Kubernetes YAML 매니페스트로 작성된 정책을 기반으로 Kubernetes 리소스를 검증, 변경, 생성하므로, 리소스 제한 요구나 권한 있는 컨테이너 차단 같은 규칙을 적용하기 위해 새로운 정책 언어를 배울 필요가 없습니다. 어드미션 컨트롤러로 동작하여 규정을 위반하는 리소스가 생성되기 전에 거부합니다.\n\nKyverno는 Rego를 배우지 않고 정책을 적용하고 싶은 Kubernetes 중심 팀에 적합하며, 별도의 정책 언어를 도입하고 싶지 않은 팀에게 (카탈로그에 있는) Open Policy Agent의 YAML 네이티브 대안입니다."
+    },
+    "es": {
+      "description": "Motor de políticas nativo de Kubernetes que te permite escribir y aplicar políticas usando YAML sencillo en lugar de un lenguaje de políticas aparte.",
+      "longDescription": "Kyverno valida, modifica y genera recursos de Kubernetes basándose en políticas escritas como manifiestos YAML de Kubernetes normales, de modo que un equipo no necesita aprender un nuevo lenguaje de políticas para aplicar reglas como exigir límites de recursos o bloquear contenedores privilegiados. Se ejecuta como un controlador de admisión, rechazando recursos no conformes antes de que se creen.\n\nKyverno encaja en equipos centrados en Kubernetes que quieren aplicar políticas sin aprender Rego, una alternativa nativa en YAML a Open Policy Agent (también en este catálogo) para equipos que específicamente no quieren introducir un lenguaje de políticas aparte."
+    },
+    "de": {
+      "description": "Kubernetes-native Policy-Engine, mit der du Richtlinien in gewöhnlichem YAML statt in einer separaten Richtliniensprache schreiben und durchsetzen kannst.",
+      "longDescription": "Kyverno validiert, verändert und generiert Kubernetes-Ressourcen basierend auf Richtlinien, die als gewöhnliche Kubernetes-YAML-Manifeste geschrieben sind, sodass ein Team keine neue Richtliniensprache lernen muss, um Regeln wie das Erfordern von Ressourcenlimits oder das Blockieren privilegierter Container durchzusetzen. Es läuft als Admission Controller und lehnt nicht konforme Ressourcen ab, bevor sie erstellt werden.\n\nKyverno eignet sich für Kubernetes-fokussierte Teams, die Richtliniendurchsetzung ohne das Erlernen von Rego wollen – eine YAML-native Alternative zu Open Policy Agent (ebenfalls in diesem Katalog) für Teams, die gezielt keine separate Richtliniensprache einführen möchten."
+    }
+  }
+}

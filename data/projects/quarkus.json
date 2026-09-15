@@ -1,0 +1,46 @@
+{
+  "name": "Quarkus",
+  "slug": "quarkus",
+  "description": "Kubernetes-native Java framework designed for fast startup times and low memory footprint, tailored for containers and serverless.",
+  "longDescription": "Quarkus compiles Java applications to start in milliseconds and use a fraction of the memory that traditional JVM applications need, particularly when compiled ahead-of-time to a native binary via GraalVM - solving the slow-startup, high-memory problems that made Java historically awkward for containers and serverless functions. It supports the familiar Java ecosystem (JAX-RS, Hibernate, and more) with this different runtime model.\n\nQuarkus is a fit for Java teams building microservices or serverless functions for Kubernetes who want container-native startup and memory characteristics without leaving the Java language and ecosystem.",
+  "repository": "https://github.com/quarkusio/quarkus",
+  "website": "https://quarkus.io",
+  "documentation": "https://quarkus.io/guides/",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "java-framework",
+    "kubernetes-native",
+    "microservices",
+    "serverless"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Kubernetes 原生打造的 Java 框架，专为快速启动和低内存占用而设计，适用于容器和无服务器场景。",
+      "longDescription": "Quarkus 编译出的 Java 应用可在毫秒级完成启动，所需内存也仅为传统 JVM 应用的一小部分，尤其是通过 GraalVM 提前编译为原生二进制文件时——解决了长期以来困扰 Java 在容器和无服务器函数场景中应用的启动慢、内存占用高的问题。它在这种不同的运行时模型下，依然支持熟悉的 Java 生态系统（JAX-RS、Hibernate 等）。\n\nQuarkus 适合那些为 Kubernetes 构建微服务或无服务器函数、希望获得容器原生的启动速度和内存特性、同时又不想离开 Java 语言及其生态系统的 Java 团队。"
+    },
+    "ja": {
+      "description": "高速な起動時間と少ないメモリフットプリントのために設計された、コンテナやサーバーレスに適した Kubernetes ネイティブな Java フレームワークです。",
+      "longDescription": "Quarkus は、特に GraalVM を介してネイティブバイナリへ事前コンパイルした場合に、ミリ秒単位で起動し、従来の JVM アプリケーションが必要とするメモリのごく一部しか使わないように Java アプリケーションをコンパイルします。これにより、コンテナやサーバーレス関数において Java を扱いにくくしていた、起動の遅さやメモリ消費量の多さという問題を解決します。この異なるランタイムモデルのもとでも、おなじみの Java エコシステム(JAX-RS、Hibernate など)をサポートします。\n\nQuarkus は、Java の言語・エコシステムを離れることなく、コンテナネイティブな起動速度とメモリ特性を求める、Kubernetes 向けのマイクロサービスやサーバーレス関数を構築する Java チームに向いています。"
+    },
+    "ko": {
+      "description": "빠른 시작 시간과 낮은 메모리 사용량을 위해 설계된, 컨테이너와 서버리스에 맞춘 Kubernetes 네이티브 Java 프레임워크입니다.",
+      "longDescription": "Quarkus는 Java 애플리케이션을 밀리초 단위로 시작하고 전통적인 JVM 애플리케이션이 필요로 하는 메모리의 극히 일부만 사용하도록 컴파일합니다. 특히 GraalVM을 통해 네이티브 바이너리로 사전 컴파일할 때 더욱 그렇습니다 — 컨테이너와 서버리스 함수에서 Java를 역사적으로 다루기 어렵게 만들었던 느린 시작과 높은 메모리 문제를 해결합니다. 이런 다른 런타임 모델에서도 익숙한 Java 생태계(JAX-RS, Hibernate 등)를 지원합니다.\n\nQuarkus는 Java 언어와 생태계를 떠나지 않으면서 컨테이너 네이티브한 시작·메모리 특성을 원하는, Kubernetes용 마이크로서비스나 서버리스 함수를 구축하는 Java 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Framework Java nativo de Kubernetes diseñado para tiempos de arranque rápidos y bajo consumo de memoria, pensado para contenedores y serverless.",
+      "longDescription": "Quarkus compila aplicaciones Java para que arranquen en milisegundos y usen una fracción de la memoria que necesitan las aplicaciones JVM tradicionales, especialmente cuando se compilan de antemano a un binario nativo mediante GraalVM, resolviendo los problemas de arranque lento y alto consumo de memoria que históricamente hacían de Java una opción incómoda para contenedores y funciones serverless. Admite el ecosistema Java habitual (JAX-RS, Hibernate y más) con este modelo de ejecución distinto.\n\nQuarkus encaja en equipos Java que construyen microservicios o funciones serverless para Kubernetes y quieren características de arranque y memoria nativas de contenedores sin abandonar el lenguaje y el ecosistema Java."
+    },
+    "de": {
+      "description": "Kubernetes-natives Java-Framework für schnelle Startzeiten und geringen Speicherbedarf, zugeschnitten auf Container und Serverless.",
+      "longDescription": "Quarkus kompiliert Java-Anwendungen so, dass sie in Millisekunden starten und nur einen Bruchteil des Speichers benötigen, den traditionelle JVM-Anwendungen brauchen, besonders wenn sie über GraalVM vorab zu einer nativen Binärdatei kompiliert werden – das löst die Probleme mit langsamem Start und hohem Speicherbedarf, die Java historisch für Container und Serverless-Funktionen unhandlich machten. Es unterstützt das vertraute Java-Ökosystem (JAX-RS, Hibernate und mehr) mit diesem anderen Laufzeitmodell.\n\nQuarkus eignet sich für Java-Teams, die Microservices oder Serverless-Funktionen für Kubernetes bauen und containernative Start- und Speichereigenschaften wollen, ohne die Sprache und das Ökosystem von Java zu verlassen."
+    }
+  }
+}

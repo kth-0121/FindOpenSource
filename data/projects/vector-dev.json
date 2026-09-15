@@ -1,0 +1,46 @@
+{
+  "name": "Vector",
+  "slug": "vector-dev",
+  "description": "High-performance observability data pipeline for collecting, transforming, and routing logs, metrics, and traces.",
+  "longDescription": "Vector is a single binary that can act as an agent or aggregator for logs, metrics, and traces, transforming and routing observability data between many possible sources and destinations through a declarative configuration. It's built in Rust for low resource overhead compared to JVM-based alternatives.\n\nVector is a fit for teams that want one unified, high-performance pipeline for all three observability data types instead of separate tools per data type, complementing Fluentd (also in this catalog) as a more modern, broader-scope alternative for teams starting fresh.",
+  "repository": "https://github.com/vectordotdev/vector",
+  "website": "https://vector.dev",
+  "documentation": "https://vector.dev/docs/",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "observability-pipeline",
+    "log-collection",
+    "telemetry",
+    "data-pipeline"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "license": "MPL-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "高性能可观测性数据管道，用于采集、转换和路由日志、指标和链路追踪数据。",
+      "longDescription": "Vector 是一个单一的二进制程序，可作为日志、指标和链路追踪数据的代理或聚合器，通过声明式配置在众多可能的来源和目的地之间转换和路由可观测性数据。它使用 Rust 构建，相比基于 JVM 的替代方案资源开销更低。\n\nVector 适合那些希望用一套统一、高性能的管道处理全部三类可观测性数据、而不是为每种数据类型分别使用不同工具的团队，与目录中的 Fluentd 形成互补，是面向新搭建场景、更现代、覆盖范围更广的替代方案。"
+    },
+    "ja": {
+      "description": "ログ、メトリクス、トレースを収集・変換・ルーティングするための、高性能なオブザーバビリティデータパイプラインです。",
+      "longDescription": "Vector は単一のバイナリで、ログ・メトリクス・トレースのエージェントまたはアグリゲーターとして動作し、宣言的な設定を通じて、数多くのソースと宛先の間でオブザーバビリティデータを変換・ルーティングします。JVM ベースの代替ツールに比べて低いリソースオーバーヘッドを実現するため、Rust で構築されています。\n\nVector は、データ種別ごとに別々のツールを使うのではなく、3種類すべてのオブザーバビリティデータを1つの統合された高性能パイプラインで扱いたいチームに向いています。(カタログにもある) Fluentd を補完する存在で、新規に構築するチーム向けの、よりモダンで対象範囲の広い代替手段です。"
+    },
+    "ko": {
+      "description": "로그, 메트릭, 트레이스를 수집·변환·라우팅하는 고성능 관측 가능성 데이터 파이프라인입니다.",
+      "longDescription": "Vector는 단일 바이너리로 로그·메트릭·트레이스를 위한 에이전트나 어그리게이터 역할을 할 수 있으며, 선언적 설정을 통해 다양한 소스와 목적지 사이에서 관측 가능성 데이터를 변환·라우팅합니다. JVM 기반 대안보다 낮은 리소스 오버헤드를 위해 Rust로 만들어졌습니다.\n\nVector는 데이터 유형마다 별도 도구를 쓰는 대신 세 가지 관측 가능성 데이터 유형 모두를 하나의 통합된 고성능 파이프라인으로 다루고 싶은 팀에 적합합니다. (카탈로그에 있는) Fluentd를 보완하는 관계로, 새로 구축하는 팀을 위한 더 현대적이고 폭넓은 범위의 대안입니다."
+    },
+    "es": {
+      "description": "Pipeline de datos de observabilidad de alto rendimiento para recolectar, transformar y enrutar logs, métricas y trazas.",
+      "longDescription": "Vector es un único binario que puede actuar como agente o agregador de logs, métricas y trazas, transformando y enrutando datos de observabilidad entre muchas fuentes y destinos posibles mediante una configuración declarativa. Está construido en Rust para lograr una sobrecarga de recursos baja frente a alternativas basadas en JVM.\n\nVector encaja en equipos que quieren un único pipeline unificado y de alto rendimiento para los tres tipos de datos de observabilidad en lugar de herramientas separadas por tipo de dato, complementando a Fluentd (también en este catálogo) como alternativa más moderna y de mayor alcance para equipos que empiezan de cero."
+    },
+    "de": {
+      "description": "Hochperformante Observability-Daten-Pipeline zum Sammeln, Transformieren und Weiterleiten von Logs, Metriken und Traces.",
+      "longDescription": "Vector ist eine einzelne Binärdatei, die als Agent oder Aggregator für Logs, Metriken und Traces fungieren kann und Observability-Daten über eine deklarative Konfiguration zwischen vielen möglichen Quellen und Zielen transformiert und weiterleitet. Es ist in Rust gebaut, um im Vergleich zu JVM-basierten Alternativen einen geringen Ressourcen-Overhead zu haben.\n\nVector eignet sich für Teams, die eine einzige, einheitliche Hochleistungs-Pipeline für alle drei Observability-Datentypen statt separater Tools pro Datentyp wollen – als Ergänzung zu Fluentd (ebenfalls in diesem Katalog), eine modernere Alternative mit breiterem Umfang für Teams, die neu aufsetzen."
+    }
+  }
+}

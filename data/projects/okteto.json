@@ -1,0 +1,46 @@
+{
+  "name": "Okteto",
+  "slug": "okteto",
+  "description": "Development tool that lets you code locally while running and debugging your application directly inside a remote Kubernetes cluster.",
+  "longDescription": "Okteto synchronizes your local code changes into a container running in a real Kubernetes cluster in real time, so you can develop and debug against production-like infrastructure, databases, and services without a full build-push-deploy cycle for every change. It replaces a local Docker Compose setup with the actual cluster your app will run on.\n\nOkteto is a fit for teams whose applications depend on infrastructure that's hard to fully replicate locally, complementing Skaffold (also in this catalog), which focuses on fast local build/deploy cycles rather than live-syncing code into a remote cluster.",
+  "repository": "https://github.com/okteto/okteto",
+  "website": "https://www.okteto.com",
+  "documentation": "https://www.okteto.com/docs/",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "kubernetes-development",
+    "remote-development",
+    "live-sync",
+    "debugging"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "开发工具，让你在本地编写代码，同时在远程 Kubernetes 集群内直接运行和调试应用。",
+      "longDescription": "Okteto 会实时将你本地的代码更改同步到运行在真实 Kubernetes 集群中的容器里，因此你可以针对类生产环境的基础设施、数据库和服务进行开发和调试，而不必为每次更改都执行完整的构建-推送-部署流程。它用应用实际运行所在的真实集群，取代了本地 Docker Compose 环境。\n\nOkteto 适合那些应用依赖难以在本地完全复现的基础设施的团队，与目录中的 Skaffold 形成互补——Skaffold 侧重于快速的本地构建/部署循环，而不是将代码实时同步到远程集群。"
+    },
+    "ja": {
+      "description": "ローカルでコードを書きながら、アプリケーションをリモートの Kubernetes クラスタ内で直接実行・デバッグできる開発ツールです。",
+      "longDescription": "Okteto は、ローカルのコード変更をリアルタイムで実際の Kubernetes クラスタ上で動作するコンテナに同期するため、変更のたびに完全なビルド・プッシュ・デプロイのサイクルを行うことなく、本番同様のインフラ、データベース、サービスに対して開発・デバッグができます。ローカルの Docker Compose 環境の代わりに、アプリが実際に稼働する本物のクラスタを使います。\n\nOkteto は、ローカルで完全に再現するのが難しいインフラに依存するアプリケーションを持つチームに向いています。(カタログにもある) Skaffold を補完する存在で、Skaffold はリモートクラスタへのライブ同期ではなく、高速なローカルのビルド・デプロイサイクルに重点を置いています。"
+    },
+    "ko": {
+      "description": "로컬에서 코드를 작성하면서 원격 Kubernetes 클러스터 안에서 직접 애플리케이션을 실행하고 디버깅할 수 있게 해주는 개발 도구입니다.",
+      "longDescription": "Okteto는 로컬 코드 변경 사항을 실시간으로 실제 Kubernetes 클러스터에서 실행 중인 컨테이너에 동기화하므로, 변경할 때마다 전체 빌드-푸시-배포 사이클을 거치지 않고도 프로덕션과 유사한 인프라, 데이터베이스, 서비스를 대상으로 개발하고 디버깅할 수 있습니다. 로컬 Docker Compose 설정을 앱이 실제로 실행될 진짜 클러스터로 대체합니다.\n\nOkteto는 로컬에서 완전히 복제하기 어려운 인프라에 의존하는 애플리케이션을 가진 팀에 적합하며, (카탈로그에 있는) Skaffold를 보완합니다 — Skaffold는 원격 클러스터로의 실시간 동기화보다 빠른 로컬 빌드/배포 사이클에 중점을 둡니다."
+    },
+    "es": {
+      "description": "Herramienta de desarrollo que te permite programar localmente mientras ejecutas y depuras tu aplicación directamente dentro de un clúster de Kubernetes remoto.",
+      "longDescription": "Okteto sincroniza tus cambios de código locales en tiempo real con un contenedor que se ejecuta en un clúster de Kubernetes real, para que puedas desarrollar y depurar contra infraestructura, bases de datos y servicios similares a producción sin un ciclo completo de build-push-deploy en cada cambio. Sustituye una configuración local de Docker Compose por el clúster real en el que se ejecutará tu app.\n\nOkteto encaja en equipos cuyas aplicaciones dependen de infraestructura difícil de replicar por completo en local, complementando a Skaffold (también en este catálogo), centrado en ciclos rápidos de build/deploy locales en lugar de sincronizar código en vivo con un clúster remoto."
+    },
+    "de": {
+      "description": "Entwicklungstool, mit dem du lokal coden kannst, während deine Anwendung direkt in einem entfernten Kubernetes-Cluster läuft und debuggt wird.",
+      "longDescription": "Okteto synchronisiert deine lokalen Codeänderungen in Echtzeit mit einem Container, der in einem echten Kubernetes-Cluster läuft, sodass du gegen produktionsähnliche Infrastruktur, Datenbanken und Dienste entwickeln und debuggen kannst, ohne bei jeder Änderung einen vollständigen Build-Push-Deploy-Zyklus zu durchlaufen. Es ersetzt ein lokales Docker-Compose-Setup durch den tatsächlichen Cluster, auf dem deine App laufen wird.\n\nOkteto eignet sich für Teams, deren Anwendungen von Infrastruktur abhängen, die sich lokal schwer vollständig nachbilden lässt – als Ergänzung zu Skaffold (ebenfalls in diesem Katalog), das sich auf schnelle lokale Build/Deploy-Zyklen statt Live-Sync von Code in einen entfernten Cluster konzentriert."
+    }
+  }
+}

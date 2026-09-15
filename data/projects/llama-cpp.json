@@ -1,0 +1,47 @@
+{
+  "name": "llama.cpp",
+  "slug": "llama-cpp",
+  "description": "High-performance C/C++ implementation for running LLM inference locally on consumer hardware, including CPUs, with minimal dependencies.",
+  "longDescription": "llama.cpp runs large language models efficiently on ordinary hardware - including plain CPUs, not just GPUs - using quantization techniques that shrink model size and memory requirements with minimal quality loss, all in a dependency-light C/C++ codebase that's easy to embed or cross-compile. It's the inference engine that many higher-level local-LLM tools are built on top of.\n\nllama.cpp is a fit for developers who want direct, low-level control over local LLM inference performance and hardware targeting, the underlying engine that Ollama (also in this catalog) wraps with a friendlier setup experience - power users often reach for llama.cpp directly when they need more control.",
+  "repository": "https://github.com/ggml-org/llama.cpp",
+  "website": "https://github.com/ggml-org/llama.cpp",
+  "documentation": "https://github.com/ggml-org/llama.cpp/blob/master/README.md",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "llm-inference",
+    "local-inference",
+    "quantization",
+    "model-serving"
+  ],
+  "languages": [
+    "C++",
+    "C"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "高性能 C/C++ 实现，用于在消费级硬件（包括 CPU）上本地运行大语言模型推理，依赖极少。",
+      "longDescription": "llama.cpp 能在普通硬件——包括纯 CPU，而不仅限于 GPU——上高效运行大语言模型，采用量化技术在几乎不损失质量的情况下缩减模型体积和内存需求，整个代码库以轻依赖的 C/C++ 编写，易于嵌入或交叉编译。它是许多更高层本地大语言模型工具背后所依赖的推理引擎。\n\nllama.cpp 适合那些希望对本地大语言模型推理性能和硬件适配拥有直接、底层控制权的开发者，是目录中 Ollama 以更友好的搭建体验进行封装的底层引擎——高级用户在需要更多控制权时，常常会直接选用 llama.cpp。"
+    },
+    "ja": {
+      "description": "CPU を含むコンシューマー向けハードウェア上でローカルに LLM 推論を実行するための、依存関係の少ない高性能な C/C++ 実装です。",
+      "longDescription": "llama.cpp は、GPU だけでなく普通の CPU を含む一般的なハードウェア上で、大規模言語モデルを効率的に動作させます。モデルサイズとメモリ要件を、品質の低下を最小限に抑えながら縮小する量子化技術を使い、すべて依存関係の少ない C/C++ のコードベースで実装されているため、組み込みやクロスコンパイルが容易です。多くのより高レベルなローカル LLM ツールが、その基盤として利用している推論エンジンです。\n\nllama.cpp は、ローカルでの LLM 推論パフォーマンスやハードウェアのターゲティングを直接的かつ低レベルに制御したい開発者に向いています。(カタログにもある) Ollama がより親しみやすいセットアップ体験でラップしている基盤エンジンであり、より高い制御を必要とするパワーユーザーは、しばしば llama.cpp を直接使用します。"
+    },
+    "ko": {
+      "description": "CPU를 포함한 소비자용 하드웨어에서 최소한의 의존성으로 LLM 추론을 로컬에서 실행하는 고성능 C/C++ 구현체입니다.",
+      "longDescription": "llama.cpp는 GPU뿐 아니라 일반 CPU를 포함한 평범한 하드웨어에서 대규모 언어 모델을 효율적으로 실행하며, 품질 손실을 최소화하면서 모델 크기와 메모리 요구량을 줄이는 양자화 기법을 사용합니다. 모든 것이 의존성이 적은 C/C++ 코드베이스로 되어 있어 임베딩이나 크로스 컴파일이 쉽습니다. 많은 상위 수준 로컬 LLM 도구들이 기반으로 삼는 추론 엔진입니다.\n\nllama.cpp는 로컬 LLM 추론 성능과 하드웨어 타겟팅에 대해 직접적이고 저수준의 제어를 원하는 개발자에게 적합하며, (카탈로그에 있는) Ollama가 더 친절한 설정 경험으로 감싸는 기반 엔진입니다 — 파워 유저는 더 많은 제어가 필요할 때 흔히 llama.cpp를 직접 사용합니다."
+    },
+    "es": {
+      "description": "Implementación en C/C++ de alto rendimiento para ejecutar inferencia de LLM localmente en hardware de consumo, incluidas CPUs, con dependencias mínimas.",
+      "longDescription": "llama.cpp ejecuta grandes modelos de lenguaje de forma eficiente en hardware corriente —incluidas CPUs normales, no solo GPUs— usando técnicas de cuantización que reducen el tamaño del modelo y los requisitos de memoria con una pérdida mínima de calidad, todo en una base de código C/C++ con pocas dependencias, fácil de embeber o compilar de forma cruzada. Es el motor de inferencia sobre el que se construyen muchas herramientas de LLM local de más alto nivel.\n\nllama.cpp encaja en desarrolladores que quieren control directo y de bajo nivel sobre el rendimiento de la inferencia de LLM local y el hardware objetivo; es el motor subyacente que Ollama (también en este catálogo) envuelve con una experiencia de configuración más amigable: los usuarios avanzados suelen recurrir directamente a llama.cpp cuando necesitan más control."
+    },
+    "de": {
+      "description": "Hochperformante C/C++-Implementierung zum lokalen Ausführen von LLM-Inferenz auf Consumer-Hardware, einschließlich CPUs, mit minimalen Abhängigkeiten.",
+      "longDescription": "llama.cpp führt große Sprachmodelle effizient auf gewöhnlicher Hardware aus – einschließlich reiner CPUs, nicht nur GPUs – mithilfe von Quantisierungstechniken, die Modellgröße und Speicherbedarf bei minimalem Qualitätsverlust verringern, alles in einer abhängigkeitsarmen C/C++-Codebasis, die sich leicht einbetten oder cross-kompilieren lässt. Es ist die Inferenz-Engine, auf der viele höherstufige lokale LLM-Tools aufbauen.\n\nllama.cpp eignet sich für Entwickler, die direkte, niedrigstufige Kontrolle über lokale LLM-Inferenz-Performance und Hardware-Ausrichtung wollen – die zugrunde liegende Engine, die Ollama (ebenfalls in diesem Katalog) mit einer freundlicheren Einrichtungserfahrung umhüllt; Power-User greifen oft direkt zu llama.cpp, wenn sie mehr Kontrolle benötigen."
+    }
+  }
+}

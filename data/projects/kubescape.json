@@ -1,0 +1,46 @@
+{
+  "name": "Kubescape",
+  "slug": "kubescape",
+  "description": "Kubernetes security posture and compliance scanner that checks clusters against security frameworks and best practices.",
+  "longDescription": "Kubescape scans Kubernetes clusters, manifests, and Helm charts against established security frameworks - like the NSA-CISA hardening guide and MITRE ATT&CK - and configuration best practices, producing a risk score and specific, actionable findings rather than a wall of raw output. It covers posture and compliance rather than active runtime threat detection.\n\nKubescape is a fit for teams that need to assess and report on their overall Kubernetes security posture, complementing kube-bench's narrower CIS benchmark focus and Falco's runtime detection (also in this catalog) with a broader compliance and posture view.",
+  "repository": "https://github.com/kubescape/kubescape",
+  "website": "https://www.kubescape.io",
+  "documentation": "https://kubescape.io/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "kubernetes-security",
+    "compliance",
+    "security-posture",
+    "risk-assessment"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes 安全态势与合规扫描工具，依据安全框架和最佳实践检查集群。",
+      "longDescription": "Kubescape 依据既有的安全框架（如 NSA-CISA 加固指南和 MITRE ATT&CK）以及配置最佳实践，对 Kubernetes 集群、清单文件和 Helm Chart 进行扫描，生成风险评分以及具体、可操作的发现，而不是一大堆原始输出。它覆盖的是安全态势与合规性，而非主动的运行时威胁检测。\n\nKubescape 适合那些需要评估并汇报整体 Kubernetes 安全态势的团队，与目录中聚焦更窄的 CIS 基准的 kube-bench 以及负责运行时检测的 Falco 形成互补，提供更广泛的合规与态势视角。"
+    },
+    "ja": {
+      "description": "セキュリティフレームワークとベストプラクティスに照らしてクラスタをチェックする、Kubernetes セキュリティ態勢・コンプライアンススキャナーです。",
+      "longDescription": "Kubescape は、NSA-CISA ハードニングガイドや MITRE ATT&CK といった確立されたセキュリティフレームワークや設定のベストプラクティスに照らして、Kubernetes クラスタ、マニフェスト、Helm Chart をスキャンし、大量の生の出力ではなく、リスクスコアと具体的で実行可能な発見事項を生成します。アクティブなランタイム脅威検知ではなく、態勢とコンプライアンスをカバーします。\n\nKubescape は、Kubernetes 全体のセキュリティ態勢を評価・報告する必要があるチームに向いています。より狭い CIS ベンチマークに焦点を当てた kube-bench や、ランタイム検知を行う(カタログにもある) Falco を、より広範なコンプライアンス・態勢の視点で補完します。"
+    },
+    "ko": {
+      "description": "보안 프레임워크와 모범 사례에 따라 클러스터를 점검하는 Kubernetes 보안 태세·컴플라이언스 스캐너입니다.",
+      "longDescription": "Kubescape는 NSA-CISA 하드닝 가이드, MITRE ATT&CK 같은 확립된 보안 프레임워크와 설정 모범 사례에 따라 Kubernetes 클러스터, 매니페스트, Helm 차트를 스캔하여, 원시 출력의 벽이 아니라 위험 점수와 구체적이고 실행 가능한 결과를 생성합니다. 능동적인 런타임 위협 탐지가 아니라 태세와 컴플라이언스를 다룹니다.\n\nKubescape는 전반적인 Kubernetes 보안 태세를 평가하고 보고해야 하는 팀에 적합하며, 더 좁은 CIS 벤치마크에 초점을 맞춘 kube-bench와 런타임 탐지를 담당하는 (카탈로그에 있는) Falco를 더 넓은 컴플라이언스·태세 관점으로 보완합니다."
+    },
+    "es": {
+      "description": "Escáner de postura de seguridad y cumplimiento de Kubernetes que comprueba los clústeres frente a marcos de seguridad y buenas prácticas.",
+      "longDescription": "Kubescape escanea clústeres, manifiestos y charts de Helm de Kubernetes frente a marcos de seguridad establecidos —como la guía de hardening NSA-CISA y MITRE ATT&CK— y buenas prácticas de configuración, generando una puntuación de riesgo y hallazgos concretos y accionables en lugar de un muro de salida en bruto. Cubre postura y cumplimiento, no detección activa de amenazas en tiempo de ejecución.\n\nKubescape encaja en equipos que necesitan evaluar y reportar su postura general de seguridad de Kubernetes, complementando el enfoque más estrecho de kube-bench en el benchmark CIS y la detección en tiempo de ejecución de Falco (también en este catálogo) con una visión más amplia de cumplimiento y postura."
+    },
+    "de": {
+      "description": "Scanner für Kubernetes-Sicherheitslage und Compliance, der Cluster gegen Sicherheitsframeworks und Best Practices prüft.",
+      "longDescription": "Kubescape scannt Kubernetes-Cluster, Manifeste und Helm-Charts gegen etablierte Sicherheitsframeworks – wie den NSA-CISA-Hardening-Guide und MITRE ATT&CK – sowie Konfigurations-Best-Practices und erzeugt einen Risiko-Score sowie konkrete, umsetzbare Befunde statt einer Wand roher Ausgabe. Es deckt Sicherheitslage und Compliance ab, nicht aktive Runtime-Bedrohungserkennung.\n\nKubescape eignet sich für Teams, die ihre gesamte Kubernetes-Sicherheitslage bewerten und darüber berichten müssen – als Ergänzung zu kube-benchs engerem CIS-Benchmark-Fokus und Falcos Runtime-Erkennung (ebenfalls in diesem Katalog) mit einer breiteren Compliance- und Sicherheitslage-Sicht."
+    }
+  }
+}

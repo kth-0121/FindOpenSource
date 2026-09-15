@@ -1,0 +1,45 @@
+{
+  "name": "Pydantic AI",
+  "slug": "pydantic-ai",
+  "description": "Type-safe agent framework from the team behind Pydantic, bringing familiar Python typing and validation patterns to LLM application development.",
+  "longDescription": "Pydantic AI lets developers define an LLM agent's inputs, outputs, and tool functions using ordinary Pydantic models, so the same type validation and IDE autocomplete that Python developers already rely on extends naturally to LLM-powered code. It aims for a lighter, more Python-idiomatic feel than some other agent frameworks.\n\nPydantic AI is a fit for Python teams that want LLM application code to feel like normal, type-safe Python rather than a separate DSL, a newer entrant compared to LangChain (also in this catalog) that specifically emphasizes type safety and minimal abstraction.",
+  "repository": "https://github.com/pydantic/pydantic-ai",
+  "website": "https://ai.pydantic.dev",
+  "documentation": "https://ai.pydantic.dev/",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "agent-framework",
+    "llm-framework",
+    "type-safety"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "来自 Pydantic 团队的类型安全智能体框架，将熟悉的 Python 类型与校验模式带入大语言模型应用开发。",
+      "longDescription": "Pydantic AI 让开发者能够使用普通的 Pydantic 模型来定义大语言模型智能体的输入、输出和工具函数，使 Python 开发者已经习惯依赖的类型校验和 IDE 自动补全，自然地延伸到基于大语言模型的代码中。相比其他一些智能体框架，它追求更轻量、更贴近 Python 惯用写法的体验。\n\nPydantic AI 适合那些希望大语言模型应用代码像普通、类型安全的 Python 代码、而非单独 DSL 的 Python 团队，是相对目录中 LangChain 更新的进入者，特别强调类型安全和最小化抽象。"
+    },
+    "ja": {
+      "description": "Pydantic チームによる型安全なエージェントフレームワークで、おなじみの Python の型付けと検証パターンを LLM アプリケーション開発にもたらします。",
+      "longDescription": "Pydantic AI は、開発者が普通の Pydantic モデルを使って LLM エージェントの入力、出力、ツール関数を定義できるようにし、Python 開発者がすでに頼りにしている型検証や IDE の自動補完が、LLM を活用したコードにも自然に及ぶようにします。他のいくつかのエージェントフレームワークよりも、より軽量で Python らしい感触を目指しています。\n\nPydantic AI は、LLM アプリケーションのコードを、独立した DSL としてではなく、通常の型安全な Python のように感じたい Python チームに向いています。(カタログにもある) LangChain と比べて比較的新しい参入者で、型安全性と最小限の抽象化を特に重視しています。"
+    },
+    "ko": {
+      "description": "Pydantic 팀이 만든 타입 안전 에이전트 프레임워크로, 익숙한 Python 타입 지정과 검증 패턴을 LLM 애플리케이션 개발에 가져옵니다.",
+      "longDescription": "Pydantic AI는 개발자가 일반 Pydantic 모델을 사용해 LLM 에이전트의 입력, 출력, 도구 함수를 정의할 수 있게 해주어, Python 개발자가 이미 의존하는 타입 검증과 IDE 자동완성이 LLM 기반 코드에도 자연스럽게 확장되게 합니다. 다른 일부 에이전트 프레임워크보다 더 가볍고 Python다운 느낌을 지향합니다.\n\nPydantic AI는 LLM 애플리케이션 코드가 별도의 DSL이 아니라 평범하고 타입 안전한 Python처럼 느껴지길 원하는 Python 팀에 적합하며, (카탈로그에 있는) LangChain에 비해 비교적 새로운 진입자로 타입 안전성과 최소한의 추상화를 특히 강조합니다."
+    },
+    "es": {
+      "description": "Framework de agentes con seguridad de tipos del equipo detrás de Pydantic, que lleva los patrones habituales de tipado y validación de Python al desarrollo de aplicaciones LLM.",
+      "longDescription": "Pydantic AI permite a los desarrolladores definir las entradas, salidas y funciones de herramienta de un agente LLM usando modelos Pydantic normales, de modo que la misma validación de tipos y el autocompletado del IDE en los que ya confían los desarrolladores Python se extienden de forma natural al código impulsado por LLM. Busca una sensación más ligera y más idiomática de Python que otros frameworks de agentes.\n\nPydantic AI encaja en equipos Python que quieren que el código de aplicaciones LLM se sienta como Python normal y con tipos seguros en lugar de un DSL aparte, un actor más reciente en comparación con LangChain (también en este catálogo) que enfatiza específicamente la seguridad de tipos y una abstracción mínima."
+    },
+    "de": {
+      "description": "Typsicheres Agenten-Framework vom Team hinter Pydantic, das vertraute Python-Typisierungs- und Validierungsmuster in die LLM-Anwendungsentwicklung bringt.",
+      "longDescription": "Pydantic AI lässt Entwickler die Eingaben, Ausgaben und Tool-Funktionen eines LLM-Agenten mit gewöhnlichen Pydantic-Modellen definieren, sodass sich dieselbe Typvalidierung und IDE-Autovervollständigung, auf die sich Python-Entwickler bereits verlassen, natürlich auf LLM-gestützten Code erstreckt. Es strebt ein leichteres, python-idiomatischeres Gefühl an als manche anderen Agenten-Frameworks.\n\nPydantic AI eignet sich für Python-Teams, die wollen, dass sich LLM-Anwendungscode wie normales, typsicheres Python statt eine separate DSL anfühlt – ein neuerer Mitbewerber im Vergleich zu LangChain (ebenfalls in diesem Katalog), der speziell Typsicherheit und minimale Abstraktion betont."
+    }
+  }
+}

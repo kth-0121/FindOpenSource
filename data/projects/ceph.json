@@ -1,0 +1,46 @@
+{
+  "name": "Ceph",
+  "slug": "ceph",
+  "description": "Industry-standard distributed storage system providing object, block, and file storage from a single unified cluster.",
+  "longDescription": "Ceph is a mature, widely deployed distributed storage system that presents object (S3-compatible), block, and file storage interfaces on top of one underlying cluster, automatically replicating and rebalancing data across nodes for durability. It scales from small clusters to exabyte-scale deployments.\n\nCeph is a fit for teams that need self-hosted, unified storage across multiple access patterns (object + block + file) rather than separate systems for each, a broader scope than the object-storage-only MinIO or SeaweedFS already in this catalog.",
+  "repository": "https://github.com/ceph/ceph",
+  "website": "https://ceph.io",
+  "documentation": "https://docs.ceph.com",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "distributed-storage",
+    "object-storage",
+    "block-storage",
+    "unified-storage"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "LGPL-2.1",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "行业标准的分布式存储系统，从单一统一集群中提供对象、块和文件存储。",
+      "longDescription": "Ceph 是一个成熟、被广泛部署的分布式存储系统，在单一底层集群之上提供对象（兼容 S3）、块和文件存储接口，并自动在节点间复制和重新平衡数据以保证持久性。它可以从小型集群扩展到 EB 级部署。\n\nCeph 适合那些需要自托管、跨多种访问模式（对象+块+文件）统一存储、而非为每种模式单独部署系统的团队，其覆盖范围比目录中仅提供对象存储的 MinIO 或 SeaweedFS 更广。"
+    },
+    "ja": {
+      "description": "単一の統合クラスタから、オブジェクト・ブロック・ファイルストレージを提供する、業界標準の分散ストレージシステムです。",
+      "longDescription": "Ceph は成熟した、広く導入されている分散ストレージシステムで、1つの基盤クラスタの上にオブジェクト(S3互換)・ブロック・ファイルストレージのインターフェースを提供し、耐久性のためにノード間でデータを自動的に複製・再バランスします。小規模なクラスタからエクサバイト級の展開まで対応します。\n\nCeph は、アクセスパターンごとに別々のシステムを用意するのではなく、複数のアクセスパターン(オブジェクト＋ブロック＋ファイル)にまたがるセルフホスト型の統合ストレージを必要とするチームに向いています。カタログに既にあるオブジェクトストレージ専用の MinIO や SeaweedFS よりも広い範囲をカバーします。"
+    },
+    "ko": {
+      "description": "하나의 통합 클러스터에서 오브젝트, 블록, 파일 스토리지를 제공하는 업계 표준 분산 스토리지 시스템입니다.",
+      "longDescription": "Ceph는 성숙하고 널리 배포된 분산 스토리지 시스템으로, 하나의 기반 클러스터 위에서 오브젝트(S3 호환), 블록, 파일 스토리지 인터페이스를 제공하며, 내구성을 위해 노드 간에 데이터를 자동으로 복제하고 재조정합니다. 소규모 클러스터부터 엑사바이트급 배포까지 확장됩니다.\n\nCeph는 접근 방식(오브젝트+블록+파일)마다 별도 시스템을 쓰는 대신, 셀프 호스팅된 통합 스토리지가 여러 접근 방식에 걸쳐 필요한 팀에 적합합니다. 카탈로그에 이미 있는, 오브젝트 스토리지 전용인 MinIO나 SeaweedFS보다 범위가 넓습니다."
+    },
+    "es": {
+      "description": "Sistema de almacenamiento distribuido estándar de la industria que ofrece almacenamiento de objetos, bloques y archivos desde un único clúster unificado.",
+      "longDescription": "Ceph es un sistema de almacenamiento distribuido maduro y ampliamente desplegado que presenta interfaces de almacenamiento de objetos (compatible con S3), de bloques y de archivos sobre un único clúster subyacente, replicando y rebalanceando automáticamente los datos entre nodos para garantizar la durabilidad. Escala desde clústeres pequeños hasta despliegues del orden de exabytes.\n\nCeph encaja en equipos que necesitan almacenamiento unificado y autoalojado a través de múltiples patrones de acceso (objetos + bloques + archivos) en lugar de sistemas separados para cada uno, un alcance más amplio que el de MinIO o SeaweedFS, centrados solo en almacenamiento de objetos, ya presentes en este catálogo."
+    },
+    "de": {
+      "description": "Branchenstandard-Speichersystem, das Objekt-, Block- und Dateispeicher aus einem einzigen, vereinheitlichten Cluster bereitstellt.",
+      "longDescription": "Ceph ist ein ausgereiftes, weit verbreitetes verteiltes Speichersystem, das Objekt- (S3-kompatible), Block- und Dateispeicher-Schnittstellen über einem zugrunde liegenden Cluster bereitstellt und Daten zur Haltbarkeit automatisch über Knoten hinweg repliziert und neu ausbalanciert. Es skaliert von kleinen Clustern bis zu Exabyte-großen Deployments.\n\nCeph eignet sich für Teams, die selbst gehosteten, einheitlichen Speicher über mehrere Zugriffsmuster hinweg (Objekt + Block + Datei) statt separater Systeme für jedes benötigen – ein breiterer Umfang als das reine Objektspeicher-MinIO oder SeaweedFS, die bereits in diesem Katalog sind."
+    }
+  }
+}

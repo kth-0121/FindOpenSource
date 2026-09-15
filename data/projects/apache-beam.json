@@ -1,0 +1,48 @@
+{
+  "name": "Beam",
+  "slug": "apache-beam",
+  "description": "Unified programming model for defining batch and stream data processing pipelines that can run portably across multiple execution engines.",
+  "longDescription": "Apache Beam lets a team write a data pipeline once using its unified batch/stream API, then run that same pipeline on different underlying execution engines - including Flink and Spark (also in this catalog) - without rewriting it for each. This avoids locking a pipeline's logic to one specific processing engine.\n\nBeam is a fit for teams that want pipeline portability across execution engines, or who are building on Google Cloud Dataflow (which uses Beam as its programming model), a different layer than Flink or Spark themselves, which are the engines Beam pipelines actually run on.",
+  "repository": "https://github.com/apache/beam",
+  "website": "https://beam.apache.org",
+  "documentation": "https://beam.apache.org/documentation/",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "data-pipeline",
+    "batch-processing",
+    "stream-processing",
+    "portable-pipelines"
+  ],
+  "languages": [
+    "Java",
+    "Python",
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "统一的编程模型，用于定义批处理和流处理数据管道，可在多种执行引擎间以可移植的方式运行。",
+      "longDescription": "Apache Beam 让团队使用其统一的批/流 API 只编写一次数据管道，然后就能在不同的底层执行引擎上运行同一套管道——包括目录中的 Flink 和 Spark——而无需为每种引擎重写。这避免了将管道逻辑锁定在某一特定处理引擎上。\n\nBeam 适合那些希望管道能够跨执行引擎移植的团队，或者正在基于 Google Cloud Dataflow（其以 Beam 为编程模型）构建的团队；它与 Flink 或 Spark 本身属于不同的层级——后两者是 Beam 管道实际运行的引擎。"
+    },
+    "ja": {
+      "description": "複数の実行エンジンにまたがってポータブルに実行できる、バッチ・ストリームデータ処理パイプラインを定義するための統一プログラミングモデルです。",
+      "longDescription": "Apache Beam は、統一されたバッチ/ストリーム API を使ってデータパイプラインを一度だけ記述し、その同じパイプラインを(カタログにもある) Flink や Spark を含む異なる基盤の実行エンジン上で、エンジンごとに書き直すことなく実行できるようにします。これにより、パイプラインのロジックが特定の処理エンジンに縛られることを避けられます。\n\nBeam は、実行エンジンをまたいだパイプラインの移植性を求めるチームや、(Beam をプログラミングモデルとして使用する) Google Cloud Dataflow 上に構築しているチームに向いています。Flink や Spark 自体とは異なるレイヤーで、それらは Beam のパイプラインが実際に実行されるエンジンです。"
+    },
+    "ko": {
+      "description": "여러 실행 엔진에 걸쳐 이식 가능하게 실행할 수 있는 배치·스트림 데이터 처리 파이프라인을 정의하기 위한 통합 프로그래밍 모델입니다.",
+      "longDescription": "Apache Beam은 통합된 배치/스트림 API를 사용해 데이터 파이프라인을 한 번만 작성하면, (카탈로그에 있는) Flink와 Spark를 포함한 서로 다른 기반 실행 엔진에서 엔진마다 다시 작성하지 않고도 동일한 파이프라인을 실행할 수 있게 해줍니다. 이를 통해 파이프라인 로직이 특정 처리 엔진에 종속되는 것을 피할 수 있습니다.\n\nBeam은 실행 엔진 간 파이프라인 이식성을 원하는 팀이나, (Beam을 프로그래밍 모델로 사용하는) Google Cloud Dataflow 위에 구축하는 팀에 적합합니다. Flink나 Spark 자체와는 다른 계층으로, 그것들은 Beam 파이프라인이 실제로 실행되는 엔진입니다."
+    },
+    "es": {
+      "description": "Modelo de programación unificado para definir pipelines de procesamiento de datos por lotes y en streaming que pueden ejecutarse de forma portable en múltiples motores de ejecución.",
+      "longDescription": "Apache Beam permite a un equipo escribir un pipeline de datos una sola vez usando su API unificada de lotes/streaming, y luego ejecutar ese mismo pipeline en distintos motores de ejecución subyacentes —incluidos Flink y Spark, también en este catálogo— sin reescribirlo para cada uno. Esto evita atar la lógica de un pipeline a un motor de procesamiento específico.\n\nBeam encaja en equipos que quieren portabilidad de pipelines entre motores de ejecución, o que construyen sobre Google Cloud Dataflow (que usa Beam como su modelo de programación), una capa distinta de Flink o Spark en sí, que son los motores sobre los que realmente se ejecutan los pipelines de Beam."
+    },
+    "de": {
+      "description": "Einheitliches Programmiermodell zum Definieren von Batch- und Stream-Datenverarbeitungspipelines, die portabel über mehrere Ausführungs-Engines hinweg laufen können.",
+      "longDescription": "Apache Beam lässt ein Team eine Datenpipeline einmal mit seiner einheitlichen Batch/Stream-API schreiben und dieselbe Pipeline dann auf verschiedenen zugrunde liegenden Ausführungs-Engines laufen lassen – einschließlich Flink und Spark (ebenfalls in diesem Katalog) –, ohne sie für jede neu zu schreiben. Das verhindert, dass die Logik einer Pipeline an eine bestimmte Verarbeitungs-Engine gebunden wird.\n\nBeam eignet sich für Teams, die Pipeline-Portabilität über Ausführungs-Engines hinweg wollen, oder die auf Google Cloud Dataflow aufbauen (das Beam als Programmiermodell nutzt) – eine andere Schicht als Flink oder Spark selbst, die die Engines sind, auf denen Beam-Pipelines tatsächlich laufen."
+    }
+  }
+}

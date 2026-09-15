@@ -1,0 +1,46 @@
+{
+  "name": "NATS",
+  "slug": "nats",
+  "description": "Lightweight, high-performance messaging system for cloud-native applications, built around simplicity and low operational overhead.",
+  "longDescription": "NATS provides publish/subscribe messaging, request/reply, and persistent streaming (via its JetStream extension) in a single, small, easy-to-operate binary, prioritizing simplicity and performance over the broader feature set of heavier message brokers. It's a CNCF graduated project commonly used as the messaging backbone for microservices and IoT.\n\nNATS is a fit for teams that want lightweight, low-latency messaging without the operational overhead of RabbitMQ or Kafka (also in this catalog) - a third, simpler messaging paradigm alongside those two established options.",
+  "repository": "https://github.com/nats-io/nats-server",
+  "website": "https://nats.io",
+  "documentation": "https://docs.nats.io",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "messaging",
+    "pubsub",
+    "cloud-native",
+    "lightweight-messaging"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向云原生应用的轻量级高性能消息系统，围绕简洁性和低运维开销而构建。",
+      "longDescription": "NATS 在一个体积小、易于运维的二进制程序中提供发布/订阅消息、请求/响应以及（通过 JetStream 扩展实现的）持久化流处理能力，相比更重的消息代理，它优先考虑简洁性和性能而非更广泛的功能集。它是一个 CNCF 毕业项目，常被用作微服务和物联网的消息传递骨干。\n\nNATS 适合那些希望获得轻量级、低延迟消息传递、又不想承担目录中 RabbitMQ 或 Kafka 运维开销的团队——是与这两种成熟方案并存的第三种、更简单的消息范式。"
+    },
+    "ja": {
+      "description": "シンプルさと低い運用負荷を重視して構築された、クラウドネイティブアプリケーション向けの軽量で高性能なメッセージングシステムです。",
+      "longDescription": "NATS は、Pub/Sub メッセージング、リクエスト/リプライ、(JetStream 拡張による) 永続的なストリーミングを、単一の小さく運用しやすいバイナリで提供し、より重いメッセージブローカーの広範な機能セットよりもシンプルさとパフォーマンスを優先しています。CNCF を卒業したプロジェクトで、マイクロサービスや IoT のメッセージングの基盤としてよく使われています。\n\nNATS は、(カタログにもある) RabbitMQ や Kafka の運用負荷をかけずに、軽量で低レイテンシなメッセージングを求めるチームに向いています。その2つの確立された選択肢と並ぶ、3つ目のよりシンプルなメッセージングパラダイムです。"
+    },
+    "ko": {
+      "description": "단순함과 낮은 운영 부담을 중심으로 만들어진, 클라우드 네이티브 애플리케이션을 위한 경량 고성능 메시징 시스템입니다.",
+      "longDescription": "NATS는 발행/구독 메시징, 요청/응답, (JetStream 확장을 통한) 영구 스트리밍을 하나의 작고 운영하기 쉬운 바이너리로 제공하며, 더 무거운 메시지 브로커의 폭넓은 기능 세트보다 단순함과 성능을 우선시합니다. 마이크로서비스와 IoT의 메시징 기반으로 흔히 사용되는 CNCF 졸업 프로젝트입니다.\n\nNATS는 (카탈로그에 있는) RabbitMQ나 Kafka의 운영 부담 없이 가볍고 지연이 적은 메시징을 원하는 팀에 적합하며, 이미 자리 잡은 두 옵션과 나란한 세 번째, 더 단순한 메시징 패러다임입니다."
+    },
+    "es": {
+      "description": "Sistema de mensajería ligero y de alto rendimiento para aplicaciones cloud-native, construido en torno a la simplicidad y un bajo coste operativo.",
+      "longDescription": "NATS ofrece mensajería publicación/suscripción, solicitud/respuesta y streaming persistente (mediante su extensión JetStream) en un binario único, pequeño y fácil de operar, priorizando la simplicidad y el rendimiento sobre el conjunto de funciones más amplio de brókeres de mensajes más pesados. Es un proyecto graduado de la CNCF usado habitualmente como columna vertebral de mensajería para microservicios e IoT.\n\nNATS encaja en equipos que quieren mensajería ligera y de baja latencia sin la sobrecarga operativa de RabbitMQ o Kafka (también en este catálogo): un tercer paradigma de mensajería, más simple, junto a esas dos opciones ya establecidas."
+    },
+    "de": {
+      "description": "Leichtgewichtiges, hochperformantes Messaging-System für Cloud-native Anwendungen, aufgebaut auf Einfachheit und geringem Betriebsaufwand.",
+      "longDescription": "NATS bietet Publish/Subscribe-Messaging, Request/Reply und dauerhaftes Streaming (über seine JetStream-Erweiterung) in einer einzigen, kleinen, leicht zu betreibenden Binärdatei und priorisiert Einfachheit und Performance über den breiteren Funktionsumfang schwererer Message-Broker. Es ist ein von der CNCF graduiertes Projekt, das häufig als Messaging-Rückgrat für Microservices und IoT genutzt wird.\n\nNATS eignet sich für Teams, die leichtgewichtiges, latenzarmes Messaging ohne den Betriebsaufwand von RabbitMQ oder Kafka (ebenfalls in diesem Katalog) wollen – ein drittes, einfacheres Messaging-Paradigma neben diesen beiden etablierten Optionen."
+    }
+  }
+}

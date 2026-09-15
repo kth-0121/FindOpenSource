@@ -1,0 +1,46 @@
+{
+  "name": "Haystack",
+  "slug": "haystack",
+  "description": "Open-source framework for building production-ready search and RAG (retrieval-augmented generation) applications with LLMs.",
+  "longDescription": "Haystack provides composable building blocks - document retrieval, embedding, ranking, generation - for building LLM-powered search and question-answering pipelines, with connectors to many vector databases, document stores, and model providers. It's designed around explicit, inspectable pipelines rather than a single black-box abstraction.\n\nHaystack is a fit for teams building retrieval-augmented generation or enterprise search applications specifically, a more focused alternative to LangChain's (also in this catalog) broader general-purpose LLM application framework.",
+  "repository": "https://github.com/deepset-ai/haystack",
+  "website": "https://haystack.deepset.ai",
+  "documentation": "https://docs.haystack.deepset.ai",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "rag",
+    "llm-framework",
+    "search",
+    "question-answering"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "开源框架，用于基于大语言模型构建可用于生产的搜索和 RAG（检索增强生成）应用。",
+      "longDescription": "Haystack 提供可组合的构建模块——文档检索、向量嵌入、排序、生成——用于构建基于大语言模型的搜索与问答流水线，并配有众多向量数据库、文档存储和模型提供商的连接器。它围绕显式、可检视的流水线设计，而非单一的黑盒抽象。\n\nHaystack 适合那些专门构建检索增强生成或企业搜索应用的团队，相较于目录中 LangChain 更通用的大语言模型应用框架，它是一个更专注的替代方案。"
+    },
+    "ja": {
+      "description": "LLM を使った本番運用向けの検索・RAG(検索拡張生成)アプリケーションを構築するための、オープンソースフレームワークです。",
+      "longDescription": "Haystack は、ドキュメント検索、埋め込み、ランキング、生成といった組み合わせ可能な構成要素を提供し、LLM を活用した検索・質問応答パイプラインを構築できます。多数のベクトルデータベース、ドキュメントストア、モデルプロバイダーへのコネクタも備えています。単一のブラックボックスな抽象化ではなく、明示的で検査可能なパイプラインを中心に設計されています。\n\nHaystack は、検索拡張生成やエンタープライズ検索アプリケーションの構築に特化して取り組むチームに向いています。カタログにある、より汎用的な LLM アプリケーションフレームワークである LangChain よりも、より焦点を絞った代替手段です。"
+    },
+    "ko": {
+      "description": "LLM을 사용해 프로덕션 준비가 된 검색과 RAG(검색 증강 생성) 애플리케이션을 구축하기 위한 오픈소스 프레임워크입니다.",
+      "longDescription": "Haystack은 문서 검색, 임베딩, 랭킹, 생성 같은 조합 가능한 구성 요소를 제공하여 LLM 기반 검색·질의응답 파이프라인을 구축할 수 있게 해주며, 다양한 벡터 데이터베이스, 문서 저장소, 모델 제공자에 대한 커넥터를 갖추고 있습니다. 단일 블랙박스 추상화가 아니라 명시적이고 검사 가능한 파이프라인을 중심으로 설계되었습니다.\n\nHaystack은 검색 증강 생성이나 엔터프라이즈 검색 애플리케이션을 전문적으로 구축하는 팀에 적합하며, 카탈로그에 있는 더 범용적인 LLM 애플리케이션 프레임워크인 LangChain보다 더 집중된 대안입니다."
+    },
+    "es": {
+      "description": "Framework de código abierto para construir aplicaciones de búsqueda y RAG (generación aumentada por recuperación) listas para producción con LLMs.",
+      "longDescription": "Haystack ofrece componentes básicos combinables —recuperación de documentos, embeddings, ranking, generación— para construir pipelines de búsqueda y respuesta a preguntas impulsados por LLM, con conectores a muchas bases de datos vectoriales, almacenes de documentos y proveedores de modelos. Está diseñado en torno a pipelines explícitos e inspeccionables en lugar de una única abstracción de caja negra.\n\nHaystack encaja en equipos que construyen específicamente aplicaciones de generación aumentada por recuperación o búsqueda empresarial, una alternativa más enfocada al framework de aplicaciones LLM de propósito más general de LangChain (también en este catálogo)."
+    },
+    "de": {
+      "description": "Quelloffenes Framework zum Bau produktionsreifer Such- und RAG-(Retrieval-Augmented-Generation-)Anwendungen mit LLMs.",
+      "longDescription": "Haystack bietet zusammensetzbare Bausteine – Dokumentenabruf, Embedding, Ranking, Generierung – zum Bau LLM-gestützter Such- und Frage-Antwort-Pipelines, mit Konnektoren zu vielen Vektordatenbanken, Dokumentenspeichern und Modellanbietern. Es ist um explizite, inspizierbare Pipelines statt einer einzigen Blackbox-Abstraktion herum konzipiert.\n\nHaystack eignet sich für Teams, die speziell Retrieval-Augmented-Generation- oder Enterprise-Search-Anwendungen bauen – eine fokussiertere Alternative zu LangChains (ebenfalls in diesem Katalog) breiterem, allgemeinem LLM-Anwendungsframework."
+    }
+  }
+}

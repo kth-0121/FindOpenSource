@@ -1,0 +1,46 @@
+{
+  "name": "Knative",
+  "slug": "knative",
+  "description": "Kubernetes-native platform for building and running serverless applications, handling autoscaling (including scale-to-zero) and traffic management.",
+  "longDescription": "Knative provides the building blocks for running serverless workloads on Kubernetes - automatically scaling containers up in response to traffic and down to zero when idle, managing revisions and traffic splitting for gradual rollouts, and handling eventing between services. It lets a team get serverless-style deployment on infrastructure they already control rather than a public cloud's proprietary functions product.\n\nKnative is a fit for teams that want serverless deployment patterns - scale-to-zero, request-driven scaling - on their own Kubernetes clusters (also in this catalog) rather than locking into a specific cloud provider's serverless platform.",
+  "repository": "https://github.com/knative/serving",
+  "website": "https://knative.dev",
+  "documentation": "https://knative.dev/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "serverless",
+    "scale-to-zero",
+    "kubernetes-native",
+    "autoscaling"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Kubernetes 原生打造的无服务器应用构建与运行平台，负责自动扩缩容（包括缩容到零）和流量管理。",
+      "longDescription": "Knative 提供了在 Kubernetes 上运行无服务器工作负载所需的构建模块——根据流量自动扩容容器、在空闲时缩容到零、为渐进式发布管理版本和流量拆分，以及处理服务间的事件传递。它让团队能够在自己已经掌控的基础设施上获得无服务器风格的部署，而不必依赖公有云厂商的专有函数产品。\n\nKnative 适合那些希望在目录中已有的自有 Kubernetes 集群上获得无服务器部署模式（缩容到零、按请求扩缩容）、而不想被锁定在某个特定云厂商无服务器平台上的团队。"
+    },
+    "ja": {
+      "description": "サーバーレスアプリケーションの構築・実行のための Kubernetes ネイティブなプラットフォームで、オートスケーリング(ゼロへのスケーリングを含む)とトラフィック管理を扱います。",
+      "longDescription": "Knative は、Kubernetes 上でサーバーレスワークロードを実行するための構成要素を提供します。トラフィックに応じてコンテナを自動的にスケールアップし、アイドル時にはゼロまでスケールダウンし、段階的なロールアウトのためにリビジョンとトラフィック分割を管理し、サービス間のイベント処理を扱います。これにより、チームはパブリッククラウドの専有関数プロダクトではなく、すでに自分たちが管理しているインフラ上でサーバーレススタイルのデプロイを実現できます。\n\nKnative は、特定のクラウドプロバイダーのサーバーレスプラットフォームに縛られるのではなく、(カタログにもある) 自分たちの Kubernetes クラスタ上でサーバーレスのデプロイパターン(ゼロへのスケーリング、リクエスト駆動のスケーリング)を求めるチームに向いています。"
+    },
+    "ko": {
+      "description": "서버리스 애플리케이션을 구축하고 실행하기 위한 Kubernetes 네이티브 플랫폼으로, 오토스케일링(0으로 축소 포함)과 트래픽 관리를 담당합니다.",
+      "longDescription": "Knative는 Kubernetes에서 서버리스 워크로드를 실행하기 위한 구성 요소를 제공합니다. 트래픽에 따라 컨테이너를 자동으로 확장하고 유휴 상태일 때는 0까지 축소하며, 점진적인 롤아웃을 위한 리비전과 트래픽 분할을 관리하고, 서비스 간 이벤트 처리를 담당합니다. 이를 통해 팀은 퍼블릭 클라우드의 독점 함수 제품이 아니라 이미 자신이 관리하는 인프라에서 서버리스 스타일 배포를 구현할 수 있습니다.\n\nKnative는 특정 클라우드 제공업체의 서버리스 플랫폼에 종속되는 대신 (카탈로그에 있는) 자체 Kubernetes 클러스터에서 서버리스 배포 패턴(0으로 축소, 요청 기반 확장)을 원하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Plataforma nativa de Kubernetes para construir y ejecutar aplicaciones serverless, gestionando el autoescalado (incluido el escalado a cero) y el tráfico.",
+      "longDescription": "Knative ofrece los componentes básicos para ejecutar cargas de trabajo serverless en Kubernetes: escalar automáticamente los contenedores hacia arriba en respuesta al tráfico y hacia cero cuando están inactivos, gestionar revisiones y división de tráfico para despliegues graduales, y manejar el eventing entre servicios. Permite a un equipo lograr un despliegue estilo serverless sobre infraestructura que ya controla, en lugar del producto de funciones propietario de una nube pública.\n\nKnative encaja en equipos que quieren patrones de despliegue serverless —escalado a cero, escalado dirigido por peticiones— en sus propios clústeres de Kubernetes (también en este catálogo) en lugar de atarse a la plataforma serverless de un proveedor cloud concreto."
+    },
+    "de": {
+      "description": "Kubernetes-native Plattform zum Bauen und Betreiben serverloser Anwendungen, die Autoscaling (einschließlich Skalierung auf null) und Traffic-Management übernimmt.",
+      "longDescription": "Knative bietet die Bausteine für den Betrieb serverloser Workloads auf Kubernetes – automatisches Hochskalieren von Containern als Reaktion auf Traffic und Herunterskalieren auf null bei Leerlauf, Verwaltung von Revisionen und Traffic-Splitting für schrittweise Rollouts sowie Handhabung von Eventing zwischen Diensten. Es lässt ein Team serverloses Deployment auf bereits kontrollierter Infrastruktur erreichen, statt auf ein proprietäres Functions-Produkt einer Public Cloud.\n\nKnative eignet sich für Teams, die serverlose Deployment-Muster – Skalierung auf null, anfragegetriebene Skalierung – auf den eigenen Kubernetes-Clustern (ebenfalls in diesem Katalog) wollen, statt sich an die Serverless-Plattform eines bestimmten Cloud-Anbieters zu binden."
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "secureCodeBox",
+  "slug": "securecodebox",
+  "description": "Security testing orchestration platform that runs multiple open-source scanners against your applications and infrastructure from one pipeline.",
+  "longDescription": "secureCodeBox coordinates a collection of established open-source security scanners - for web apps, APIs, containers, and infrastructure - behind one consistent interface, running them as Kubernetes jobs and normalizing their findings into a common format. Instead of wiring together many separate scanning tools by hand, a team defines a scan pipeline once.\n\nsecureCodeBox is a fit for security and platform teams that want continuous, automated security scanning across a stack without maintaining glue scripts for each individual scanner - complementing Trivy (also in this catalog), which focuses specifically on vulnerability and misconfiguration scanning rather than orchestrating a broader mix of scanner types.",
+  "repository": "https://github.com/secureCodeBox/secureCodeBox",
+  "website": "https://www.securecodebox.io",
+  "documentation": "https://www.securecodebox.io/docs/getting-started/installation",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "security-testing",
+    "scan-orchestration",
+    "devsecops",
+    "vulnerability-scanning"
+  ],
+  "languages": [
+    "Go",
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "安全测试编排平台，可在一条流水线中对应用和基础设施运行多种开源扫描工具。",
+      "longDescription": "secureCodeBox 将一系列成熟的开源安全扫描工具——涵盖 Web 应用、API、容器和基础设施——整合在统一接口之后，以 Kubernetes 任务的形式运行，并将各工具的结果规范化为统一格式。团队无需手动拼接多个独立的扫描工具，只需定义一次扫描流水线。\n\nsecureCodeBox 适合那些希望在整个技术栈上持续进行自动化安全扫描、又不想为每个扫描工具维护胶水脚本的安全和平台团队，与目录中的 Trivy 形成互补——Trivy 专注于漏洞和错误配置扫描，而不是编排更广泛的多种扫描工具。"
+    },
+    "ja": {
+      "description": "アプリケーションとインフラに対して、複数のオープンソーススキャナーを1つのパイプラインから実行できる、セキュリティテストオーケストレーションプラットフォームです。",
+      "longDescription": "secureCodeBox は、Web アプリ、API、コンテナ、インフラ向けの実績あるオープンソースセキュリティスキャナー群を、1つの一貫したインターフェースの背後でまとめて扱い、Kubernetes ジョブとして実行し、その結果を共通フォーマットに正規化します。多数の個別のスキャンツールを手作業でつなぎ合わせる代わりに、チームはスキャンパイプラインを一度定義するだけで済みます。\n\nsecureCodeBox は、スタック全体にわたる継続的で自動化されたセキュリティスキャンを、個々のスキャナーごとのグルースクリプトを保守することなく実現したい、セキュリティ・プラットフォームチームに向いています。(カタログにもある) Trivy を補完する存在で、Trivy は脆弱性・設定ミスのスキャンに特化しているのに対し、secureCodeBox はより幅広い種類のスキャナーをオーケストレーションします。"
+    },
+    "ko": {
+      "description": "애플리케이션과 인프라에 대해 여러 오픈소스 스캐너를 하나의 파이프라인에서 실행하는 보안 테스트 오케스트레이션 플랫폼입니다.",
+      "longDescription": "secureCodeBox는 웹 앱, API, 컨테이너, 인프라를 위한 검증된 오픈소스 보안 스캐너 모음을 하나의 일관된 인터페이스 뒤에서 조율하며, Kubernetes 작업으로 실행하고 결과를 공통 포맷으로 정규화합니다. 여러 개별 스캔 도구를 수작업으로 엮는 대신, 팀은 스캔 파이프라인을 한 번만 정의하면 됩니다.\n\nsecureCodeBox는 스택 전반에 걸쳐 지속적이고 자동화된 보안 스캔을 원하면서도 각 스캐너별 글루 스크립트를 유지 관리하고 싶지 않은 보안·플랫폼 팀에 적합합니다. (카탈로그에 있는) Trivy를 보완하는 관계로, Trivy는 취약점·잘못된 설정 스캔에 특화된 반면 secureCodeBox는 더 폭넓은 스캐너 종류를 오케스트레이션합니다."
+    },
+    "es": {
+      "description": "Plataforma de orquestación de pruebas de seguridad que ejecuta varios escáneres de código abierto contra tus aplicaciones e infraestructura desde un único pipeline.",
+      "longDescription": "secureCodeBox coordina una colección de escáneres de seguridad de código abierto ya consolidados —para aplicaciones web, APIs, contenedores e infraestructura— detrás de una interfaz consistente, ejecutándolos como jobs de Kubernetes y normalizando sus resultados en un formato común. En lugar de conectar a mano muchas herramientas de escaneo por separado, un equipo define un pipeline de escaneo una sola vez.\n\nsecureCodeBox encaja en equipos de seguridad y plataforma que quieren escaneo de seguridad continuo y automatizado en todo su stack sin mantener scripts de pegamento para cada escáner individual, complementando a Trivy (también en este catálogo), centrado específicamente en el escaneo de vulnerabilidades y configuraciones incorrectas en lugar de orquestar una mezcla más amplia de tipos de escáner."
+    },
+    "de": {
+      "description": "Plattform zur Orchestrierung von Sicherheitstests, die mehrere Open-Source-Scanner gegen deine Anwendungen und Infrastruktur aus einer einzigen Pipeline ausführt.",
+      "longDescription": "secureCodeBox koordiniert eine Sammlung etablierter Open-Source-Sicherheitsscanner – für Webanwendungen, APIs, Container und Infrastruktur – hinter einer einheitlichen Schnittstelle, führt sie als Kubernetes-Jobs aus und normalisiert ihre Ergebnisse in ein gemeinsames Format. Statt viele einzelne Scan-Tools von Hand zu verdrahten, definiert ein Team eine Scan-Pipeline einmalig.\n\nsecureCodeBox eignet sich für Security- und Platform-Teams, die kontinuierliches, automatisiertes Sicherheitsscanning über einen ganzen Stack hinweg wollen, ohne Klebe-Skripte für jeden einzelnen Scanner zu pflegen – als Ergänzung zu Trivy (ebenfalls in diesem Katalog), das sich speziell auf Schwachstellen- und Fehlkonfigurationsscanning konzentriert, statt eine breitere Mischung an Scanner-Typen zu orchestrieren."
+    }
+  }
+}

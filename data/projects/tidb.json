@@ -1,0 +1,46 @@
+{
+  "name": "TiDB",
+  "slug": "tidb",
+  "description": "MySQL-compatible distributed SQL database that scales horizontally while supporting both transactional and analytical workloads.",
+  "longDescription": "TiDB speaks the MySQL protocol, so existing MySQL applications and tools can connect to it with minimal changes, while the database itself is horizontally scalable and distributed under the hood - solving MySQL's traditional scaling limits without giving up SQL and relational features. It supports both transactional (OLTP) and analytical (OLAP) queries in one system.\n\nTiDB is a fit for teams that have outgrown a single MySQL instance and want horizontal scalability without switching to a NoSQL data model or rewriting their application's SQL layer.",
+  "repository": "https://github.com/pingcap/tidb",
+  "website": "https://www.pingcap.com/tidb",
+  "documentation": "https://docs.pingcap.com/tidb/stable",
+  "categories": [
+    "database"
+  ],
+  "keywords": [
+    "distributed-sql",
+    "mysql-compatible",
+    "htap",
+    "scalable-database"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "兼容 MySQL 的分布式 SQL 数据库，可水平扩展，同时支持事务型和分析型工作负载。",
+      "longDescription": "TiDB 使用 MySQL 协议，因此现有的 MySQL 应用和工具只需极少改动即可接入，而数据库本身在底层是水平可扩展的分布式系统——在不放弃 SQL 和关系型特性的前提下，解决了 MySQL 传统的扩展性限制。它在同一个系统中同时支持事务型（OLTP）和分析型（OLAP）查询。\n\nTiDB 适合那些已经超出单个 MySQL 实例承载能力、希望获得水平扩展能力、又不想切换到 NoSQL 数据模型或重写应用 SQL 层的团队。"
+    },
+    "ja": {
+      "description": "MySQL 互換の分散 SQL データベースで、水平方向にスケールしながらトランザクション処理と分析処理の両方のワークロードに対応します。",
+      "longDescription": "TiDB は MySQL プロトコルを話すため、既存の MySQL アプリケーションやツールを最小限の変更で接続でき、その一方でデータベース自体は内部的に水平方向にスケール可能な分散システムです。SQL やリレーショナルな機能を手放すことなく、MySQL の従来のスケーリング上の制約を解決します。トランザクション処理(OLTP)と分析処理(OLAP)の両方のクエリを1つのシステムでサポートします。\n\nTiDB は、単一の MySQL インスタンスの限界を超えてしまい、NoSQL データモデルへの移行やアプリケーションの SQL 層の書き換えを行うことなく、水平方向のスケーラビリティを求めるチームに向いています。"
+    },
+    "ko": {
+      "description": "MySQL 호환 분산 SQL 데이터베이스로, 수평 확장하면서 트랜잭션 워크로드와 분석 워크로드를 모두 지원합니다.",
+      "longDescription": "TiDB는 MySQL 프로토콜을 사용하므로 기존 MySQL 애플리케이션과 도구가 최소한의 변경으로 연결할 수 있으며, 데이터베이스 자체는 내부적으로 수평 확장 가능한 분산 시스템입니다. SQL과 관계형 기능을 포기하지 않고도 MySQL의 전통적인 확장 한계를 해결합니다. 트랜잭션(OLTP)과 분석(OLAP) 쿼리를 하나의 시스템에서 모두 지원합니다.\n\nTiDB는 단일 MySQL 인스턴스의 한계를 넘어섰고, NoSQL 데이터 모델로 전환하거나 애플리케이션의 SQL 계층을 다시 작성하지 않고도 수평 확장성을 원하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Base de datos SQL distribuida y compatible con MySQL que escala horizontalmente mientras admite tanto cargas de trabajo transaccionales como analíticas.",
+      "longDescription": "TiDB habla el protocolo de MySQL, de modo que las aplicaciones y herramientas de MySQL existentes pueden conectarse con cambios mínimos, mientras que la base de datos en sí es distribuida y escalable horizontalmente por dentro, resolviendo los límites de escalado tradicionales de MySQL sin renunciar a SQL ni a las funciones relacionales. Admite consultas tanto transaccionales (OLTP) como analíticas (OLAP) en un mismo sistema.\n\nTiDB encaja en equipos que han superado una única instancia de MySQL y quieren escalabilidad horizontal sin cambiar a un modelo de datos NoSQL ni reescribir la capa SQL de su aplicación."
+    },
+    "de": {
+      "description": "MySQL-kompatible verteilte SQL-Datenbank, die horizontal skaliert und sowohl transaktionale als auch analytische Workloads unterstützt.",
+      "longDescription": "TiDB spricht das MySQL-Protokoll, sodass bestehende MySQL-Anwendungen und -Tools sich mit minimalen Änderungen verbinden können, während die Datenbank selbst intern horizontal skalierbar und verteilt ist – das löst MySQLs traditionelle Skalierungsgrenzen, ohne SQL- und relationale Funktionen aufzugeben. Sie unterstützt sowohl transaktionale (OLTP) als auch analytische (OLAP) Abfragen in einem System.\n\nTiDB eignet sich für Teams, die eine einzelne MySQL-Instanz übertroffen haben und horizontale Skalierbarkeit wollen, ohne zu einem NoSQL-Datenmodell zu wechseln oder die SQL-Schicht ihrer Anwendung neu zu schreiben."
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "kube-burner",
+  "slug": "kube-burner",
+  "description": "Kubernetes performance and scale testing tool that generates configurable cluster load to measure how a cluster behaves under stress.",
+  "longDescription": "kube-burner creates and deletes Kubernetes objects at a configurable rate and scale to simulate real workload pressure, then measures cluster and API server performance metrics throughout the test. It's commonly used to benchmark cluster upgrades, validate capacity planning, and catch performance regressions before they hit production.\n\nkube-burner is a fit for platform teams that need to load-test the Kubernetes control plane itself, a different target than k6 (also in this catalog), which load-tests applications and APIs rather than the underlying cluster infrastructure.",
+  "repository": "https://github.com/kube-burner/kube-burner",
+  "website": "https://kube-burner.github.io/kube-burner/",
+  "documentation": "https://kube-burner.github.io/kube-burner/latest/",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "kubernetes-testing",
+    "performance-testing",
+    "load-testing",
+    "scale-testing"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes 性能与规模测试工具，通过生成可配置的集群负载来衡量集群在压力下的表现。",
+      "longDescription": "kube-burner 以可配置的速率和规模创建和删除 Kubernetes 对象，以模拟真实的工作负载压力，并在整个测试过程中测量集群和 API 服务器的性能指标。它常被用于对集群升级进行基准测试、验证容量规划，并在性能回归问题影响生产环境之前将其发现。\n\nkube-burner 适合那些需要对 Kubernetes 控制平面本身进行负载测试的平台团队，这与目录中的 k6 目标不同——k6 测试的是应用和 API，而不是底层的集群基础设施。"
+    },
+    "ja": {
+      "description": "設定可能なクラスタ負荷を生成し、負荷下でクラスタがどう振る舞うかを測定する、Kubernetes のパフォーマンス・スケールテストツールです。",
+      "longDescription": "kube-burner は、実際のワークロード負荷をシミュレートするために、設定可能なレートと規模で Kubernetes オブジェクトを作成・削除し、そのテスト全体を通じてクラスタと API サーバーのパフォーマンス指標を測定します。クラスタのアップグレードのベンチマーク、キャパシティプランニングの検証、本番環境に影響が出る前のパフォーマンス低下の検出によく使われます。\n\nkube-burner は、Kubernetes のコントロールプレーン自体を負荷テストする必要があるプラットフォームチームに向いています。カタログ内の k6 とは対象が異なり、k6 は基盤となるクラスタインフラではなく、アプリケーションや API を負荷テストするものです。"
+    },
+    "ko": {
+      "description": "설정 가능한 클러스터 부하를 생성해 부하 상태에서 클러스터가 어떻게 동작하는지 측정하는 Kubernetes 성능·스케일 테스트 도구입니다.",
+      "longDescription": "kube-burner는 실제 워크로드 압력을 시뮬레이션하기 위해 설정 가능한 속도와 규모로 Kubernetes 오브젝트를 생성·삭제하고, 테스트 전 과정에서 클러스터와 API 서버 성능 지표를 측정합니다. 클러스터 업그레이드 벤치마킹, 용량 계획 검증, 프로덕션에 영향을 미치기 전에 성능 회귀를 잡아내는 데 흔히 사용됩니다.\n\nkube-burner는 Kubernetes 컨트롤 플레인 자체를 부하 테스트해야 하는 플랫폼 팀에 적합합니다. 카탈로그에 있는 k6와는 대상이 다른데, k6는 기반 클러스터 인프라가 아니라 애플리케이션과 API를 부하 테스트합니다."
+    },
+    "es": {
+      "description": "Herramienta de pruebas de rendimiento y escala para Kubernetes que genera carga configurable en el clúster para medir cómo se comporta bajo estrés.",
+      "longDescription": "kube-burner crea y elimina objetos de Kubernetes a una tasa y escala configurables para simular presión de carga real, y mide métricas de rendimiento del clúster y del API server durante toda la prueba. Se usa habitualmente para evaluar actualizaciones de clúster, validar la planificación de capacidad y detectar regresiones de rendimiento antes de que lleguen a producción.\n\nkube-burner encaja en equipos de plataforma que necesitan probar la carga del propio plano de control de Kubernetes, un objetivo distinto al de k6 (también en este catálogo), que prueba la carga de aplicaciones y APIs en lugar de la infraestructura del clúster subyacente."
+    },
+    "de": {
+      "description": "Kubernetes-Performance- und Skalierungstest-Tool, das konfigurierbare Cluster-Last erzeugt, um zu messen, wie sich ein Cluster unter Belastung verhält.",
+      "longDescription": "kube-burner erstellt und löscht Kubernetes-Objekte mit konfigurierbarer Rate und Skalierung, um echten Workload-Druck zu simulieren, und misst währenddessen Cluster- und API-Server-Performance-Metriken. Es wird häufig verwendet, um Cluster-Upgrades zu benchmarken, Kapazitätsplanung zu validieren und Performance-Regressionen zu erkennen, bevor sie die Produktion erreichen.\n\nkube-burner eignet sich für Platform-Teams, die die Kubernetes-Control-Plane selbst lasttesten müssen – ein anderes Ziel als k6 (ebenfalls in diesem Katalog), das Anwendungen und APIs statt der zugrunde liegenden Cluster-Infrastruktur lasttestet."
+    }
+  }
+}

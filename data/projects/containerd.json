@@ -1,0 +1,45 @@
+{
+  "name": "containerd",
+  "slug": "containerd",
+  "description": "Industry-standard container runtime that manages the container lifecycle - image transfer, execution, and supervision - underneath Docker and Kubernetes.",
+  "longDescription": "containerd handles the low-level work of running containers - pulling images, managing storage and networking, and starting/stopping/supervising container processes - as a daemon that higher-level tools like Docker and Kubernetes build on top of rather than implementing this logic themselves. It's a CNCF graduated project and the default container runtime for most Kubernetes distributions.\n\ncontainerd is a fit for platform teams building custom container infrastructure or who want to understand what's actually running containers underneath Kubernetes (also in this catalog) - most developers use it indirectly through Docker or Kubernetes rather than directly.",
+  "repository": "https://github.com/containerd/containerd",
+  "website": "https://containerd.io",
+  "documentation": "https://github.com/containerd/containerd/tree/main/docs",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "container-runtime",
+    "oci",
+    "kubernetes-infrastructure"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "业界标准的容器运行时，在 Docker 和 Kubernetes 底层管理容器生命周期——镜像传输、执行和监控。",
+      "longDescription": "containerd 承担运行容器的底层工作——拉取镜像、管理存储和网络、启动/停止/监控容器进程——作为一个守护进程，供 Docker 和 Kubernetes 等更高层工具在其之上构建，而不必自己实现这些逻辑。它是一个 CNCF 毕业项目，也是大多数 Kubernetes 发行版的默认容器运行时。\n\ncontainerd 适合那些正在构建自定义容器基础设施、或希望了解 Kubernetes（同样收录于本目录）底层究竟是什么在运行容器的平台团队——大多数开发者是通过 Docker 或 Kubernetes 间接使用它，而不是直接使用。"
+    },
+    "ja": {
+      "description": "Docker や Kubernetes の裏側で、コンテナのライフサイクル——イメージ転送、実行、監視——を管理する、業界標準のコンテナランタイムです。",
+      "longDescription": "containerd は、イメージの取得、ストレージとネットワークの管理、コンテナプロセスの起動・停止・監視といった、コンテナ実行の低レベルな作業を担うデーモンで、Docker や Kubernetes のようなより高レベルなツールが、このロジックを自前で実装する代わりにその上に構築します。CNCF を卒業したプロジェクトで、ほとんどの Kubernetes ディストリビューションのデフォルトのコンテナランタイムです。\n\ncontainerd は、カスタムのコンテナインフラを構築している、あるいは(カタログにもある) Kubernetes の裏側で実際に何がコンテナを動かしているのかを理解したいプラットフォームチームに向いています。ほとんどの開発者は、直接ではなく Docker や Kubernetes を通じて間接的にこれを利用しています。"
+    },
+    "ko": {
+      "description": "Docker와 Kubernetes 아래에서 컨테이너 생명주기——이미지 전송, 실행, 감독——를 관리하는 업계 표준 컨테이너 런타임입니다.",
+      "longDescription": "containerd는 이미지 가져오기, 스토리지·네트워킹 관리, 컨테이너 프로세스의 시작·중지·감독 같은 컨테이너 실행의 저수준 작업을 처리하는 데몬으로, Docker나 Kubernetes 같은 상위 도구들이 이 로직을 직접 구현하는 대신 그 위에 구축됩니다. CNCF 졸업 프로젝트이며 대부분의 Kubernetes 배포판의 기본 컨테이너 런타임입니다.\n\ncontainerd는 커스텀 컨테이너 인프라를 구축하거나 (카탈로그에 있는) Kubernetes 아래에서 실제로 무엇이 컨테이너를 실행하는지 이해하고 싶은 플랫폼 팀에 적합합니다 — 대부분의 개발자는 직접이 아니라 Docker나 Kubernetes를 통해 간접적으로 사용합니다."
+    },
+    "es": {
+      "description": "Runtime de contenedores estándar de la industria que gestiona el ciclo de vida del contenedor —transferencia de imágenes, ejecución y supervisión— por debajo de Docker y Kubernetes.",
+      "longDescription": "containerd se encarga del trabajo de bajo nivel de ejecutar contenedores —descargar imágenes, gestionar almacenamiento y red, e iniciar/detener/supervisar procesos de contenedor— como un demonio sobre el que se construyen herramientas de más alto nivel como Docker y Kubernetes, en lugar de implementar esta lógica ellas mismas. Es un proyecto graduado de la CNCF y el runtime de contenedores por defecto en la mayoría de las distribuciones de Kubernetes.\n\ncontainerd encaja en equipos de plataforma que construyen infraestructura de contenedores personalizada o que quieren entender qué ejecuta realmente los contenedores bajo Kubernetes (también en este catálogo); la mayoría de los desarrolladores lo usan indirectamente a través de Docker o Kubernetes en lugar de directamente."
+    },
+    "de": {
+      "description": "Branchenstandard-Container-Runtime, die den Container-Lebenszyklus – Image-Transfer, Ausführung und Überwachung – unter Docker und Kubernetes verwaltet.",
+      "longDescription": "containerd übernimmt die Low-Level-Arbeit des Container-Betriebs – Images ziehen, Speicher und Netzwerk verwalten sowie Container-Prozesse starten/stoppen/überwachen – als Daemon, auf dem höherstufige Tools wie Docker und Kubernetes aufbauen, statt diese Logik selbst zu implementieren. Es ist ein von der CNCF graduiertes Projekt und die Standard-Container-Runtime für die meisten Kubernetes-Distributionen.\n\ncontainerd eignet sich für Platform-Teams, die eigene Container-Infrastruktur bauen oder verstehen wollen, was unter Kubernetes (ebenfalls in diesem Katalog) tatsächlich Container ausführt – die meisten Entwickler nutzen es indirekt über Docker oder Kubernetes statt direkt."
+    }
+  }
+}

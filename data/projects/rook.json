@@ -1,0 +1,45 @@
+{
+  "name": "Rook",
+  "slug": "rook",
+  "description": "Kubernetes storage orchestrator that automates deploying, managing, and scaling storage systems like Ceph as native Kubernetes services.",
+  "longDescription": "Rook turns storage systems - most commonly Ceph (also in this catalog) - into Kubernetes-native services, handling deployment, scaling, upgrades, and failure recovery through Kubernetes operators instead of manual storage administration. A team gets a fully managed, self-healing storage cluster running as ordinary Kubernetes resources.\n\nRook is a fit for teams that want to run Ceph or similar storage systems on Kubernetes without operating them by hand, complementing rather than replacing the underlying storage engine.",
+  "repository": "https://github.com/rook/rook",
+  "website": "https://rook.io",
+  "documentation": "https://rook.io/docs/rook/latest/",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "storage-orchestration",
+    "kubernetes-operator",
+    "ceph"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "Kubernetes 存储编排器，将 Ceph 等存储系统作为 Kubernetes 原生服务，自动完成部署、管理和扩缩容。",
+      "longDescription": "Rook 将存储系统——最常见的是 Ceph（同样收录于本目录）——转变为 Kubernetes 原生服务，通过 Kubernetes Operator 来处理部署、扩缩容、升级和故障恢复，而不是依靠人工进行存储管理。团队可以获得一个以普通 Kubernetes 资源形式运行的、完全托管、可自我修复的存储集群。\n\nRook 适合那些希望在 Kubernetes 上运行 Ceph 或类似存储系统、又不想手动运维的团队，它是对底层存储引擎的补充，而非替代。"
+    },
+    "ja": {
+      "description": "Ceph のようなストレージシステムのデプロイ・管理・スケーリングを、ネイティブな Kubernetes サービスとして自動化する Kubernetes ストレージオーケストレーターです。",
+      "longDescription": "Rook は、ストレージシステム——最も一般的には (カタログにもある) Ceph——を Kubernetes ネイティブなサービスに変え、手動でのストレージ管理ではなく Kubernetes Operator を通じてデプロイ、スケーリング、アップグレード、障害復旧を処理します。チームは、通常の Kubernetes リソースとして動作する、完全に管理され自己修復するストレージクラスタを手に入れられます。\n\nRook は、Ceph や類似のストレージシステムを手作業で運用することなく Kubernetes 上で動かしたいチームに向いており、基盤となるストレージエンジンを置き換えるのではなく補完します。"
+    },
+    "ko": {
+      "description": "Ceph 같은 스토리지 시스템을 Kubernetes 네이티브 서비스로 배포, 관리, 확장하는 과정을 자동화하는 Kubernetes 스토리지 오케스트레이터입니다.",
+      "longDescription": "Rook은 스토리지 시스템——가장 흔하게는 (카탈로그에 있는) Ceph——을 Kubernetes 네이티브 서비스로 전환해, 수동 스토리지 운영 대신 Kubernetes 오퍼레이터를 통해 배포, 확장, 업그레이드, 장애 복구를 처리합니다. 팀은 일반 Kubernetes 리소스로 동작하는 완전 관리형, 자가 치유 스토리지 클러스터를 얻게 됩니다.\n\nRook은 Ceph나 비슷한 스토리지 시스템을 수작업으로 운영하지 않고 Kubernetes에서 실행하고 싶은 팀에 적합하며, 기반 스토리지 엔진을 대체하기보다 보완합니다."
+    },
+    "es": {
+      "description": "Orquestador de almacenamiento para Kubernetes que automatiza el despliegue, la gestión y el escalado de sistemas de almacenamiento como Ceph como servicios nativos de Kubernetes.",
+      "longDescription": "Rook convierte sistemas de almacenamiento —el más habitual, Ceph (también en este catálogo)— en servicios nativos de Kubernetes, gestionando el despliegue, el escalado, las actualizaciones y la recuperación ante fallos mediante operadores de Kubernetes en lugar de administración manual del almacenamiento. Un equipo obtiene un clúster de almacenamiento totalmente gestionado y autorreparable que se ejecuta como recursos Kubernetes normales.\n\nRook encaja en equipos que quieren ejecutar Ceph o sistemas de almacenamiento similares en Kubernetes sin operarlos manualmente, complementando en lugar de sustituir al motor de almacenamiento subyacente."
+    },
+    "de": {
+      "description": "Kubernetes-Speicherorchestrator, der das Bereitstellen, Verwalten und Skalieren von Speichersystemen wie Ceph als native Kubernetes-Dienste automatisiert.",
+      "longDescription": "Rook verwandelt Speichersysteme – meist Ceph (ebenfalls in diesem Katalog) – in Kubernetes-native Dienste und übernimmt Deployment, Skalierung, Upgrades und Ausfallwiederherstellung über Kubernetes-Operatoren statt manueller Speicherverwaltung. Ein Team erhält einen vollständig verwalteten, selbstheilenden Speicher-Cluster, der als gewöhnliche Kubernetes-Ressourcen läuft.\n\nRook eignet sich für Teams, die Ceph oder ähnliche Speichersysteme auf Kubernetes betreiben wollen, ohne sie von Hand zu administrieren – als Ergänzung statt Ersatz der zugrunde liegenden Speicher-Engine."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "DeepEval",
+  "slug": "deepeval",
+  "description": "Open-source testing framework for evaluating LLM outputs, treating LLM application quality checks like conventional unit tests.",
+  "longDescription": "DeepEval provides metrics and test primitives specifically for LLM outputs - answer relevancy, faithfulness to source documents, hallucination detection, and more - so a team can write automated tests for an LLM application's quality the same way they'd write unit tests for regular code, and run them in CI. It integrates with common testing frameworks like Pytest.\n\nDeepEval is a fit for teams that want systematic, automated quality checks on LLM or RAG application outputs rather than manual spot-checking, complementing Promptfoo (also in this catalog) - both address LLM evaluation, with DeepEval leaning toward a pytest-native unit-testing workflow.",
+  "repository": "https://github.com/confident-ai/deepeval",
+  "website": "https://www.deepeval.com",
+  "documentation": "https://docs.confident-ai.com",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "llm-evaluation",
+    "testing",
+    "rag-evaluation"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "开源测试框架，用于评估大语言模型输出，将大语言模型应用的质量检查视为传统单元测试。",
+      "longDescription": "DeepEval 专门为大语言模型输出提供指标和测试原语——答案相关性、对源文档的忠实度、幻觉检测等——使团队能够像编写常规代码的单元测试一样，为大语言模型应用的质量编写自动化测试，并在 CI 中运行。它与 Pytest 等常见测试框架集成。\n\nDeepEval 适合那些希望对大语言模型或 RAG 应用输出进行系统化、自动化质量检查、而不是人工抽查的团队，与目录中的 Promptfoo 形成互补——两者都致力于大语言模型评估，DeepEval 更偏向基于 pytest 原生的单元测试工作流。"
+    },
+    "ja": {
+      "description": "LLM の出力を評価するためのオープンソーステストフレームワークで、LLM アプリケーションの品質チェックを従来のユニットテストのように扱います。",
+      "longDescription": "DeepEval は、回答の関連性、ソースドキュメントへの忠実性、ハルシネーション検知など、LLM の出力専用のメトリクスとテストプリミティブを提供します。これにより、チームは通常のコードのユニットテストを書くのと同じように LLM アプリケーションの品質に対する自動テストを書き、CI で実行できます。Pytest のような一般的なテストフレームワークと統合できます。\n\nDeepEval は、手動での抜き取り確認ではなく、LLM や RAG アプリケーションの出力に対する体系的で自動化された品質チェックを求めるチームに向いています。(カタログにもある) Promptfoo を補完する存在で、両者とも LLM の評価を扱いますが、DeepEval は pytest ネイティブなユニットテストのワークフローに寄っています。"
+    },
+    "ko": {
+      "description": "LLM 출력을 평가하는 오픈소스 테스트 프레임워크로, LLM 애플리케이션의 품질 검사를 전통적인 단위 테스트처럼 다룹니다.",
+      "longDescription": "DeepEval은 답변 관련성, 원본 문서에 대한 충실성, 환각 탐지 등 LLM 출력에 특화된 지표와 테스트 프리미티브를 제공하여, 팀이 일반 코드의 단위 테스트를 작성하듯 LLM 애플리케이션 품질에 대한 자동화된 테스트를 작성하고 CI에서 실행할 수 있게 해줍니다. Pytest 같은 일반적인 테스트 프레임워크와 통합됩니다.\n\nDeepEval은 수동 샘플 점검 대신 LLM이나 RAG 애플리케이션 출력에 대한 체계적이고 자동화된 품질 검사를 원하는 팀에 적합하며, (카탈로그에 있는) Promptfoo를 보완합니다 — 둘 다 LLM 평가를 다루지만, DeepEval은 pytest 네이티브 단위 테스트 워크플로에 더 가깝습니다."
+    },
+    "es": {
+      "description": "Framework de pruebas de código abierto para evaluar salidas de LLM, tratando las comprobaciones de calidad de aplicaciones LLM como tests unitarios convencionales.",
+      "longDescription": "DeepEval ofrece métricas y primitivas de prueba específicas para salidas de LLM —relevancia de la respuesta, fidelidad a los documentos fuente, detección de alucinaciones y más— para que un equipo pueda escribir pruebas automatizadas de la calidad de una aplicación LLM de la misma forma que escribiría tests unitarios para código normal, y ejecutarlas en CI. Se integra con frameworks de pruebas habituales como Pytest.\n\nDeepEval encaja en equipos que quieren comprobaciones de calidad sistemáticas y automatizadas sobre las salidas de aplicaciones LLM o RAG en lugar de revisiones manuales puntuales, complementando a Promptfoo (también en este catálogo): ambos abordan la evaluación de LLM, con DeepEval inclinándose hacia un flujo de trabajo de pruebas unitarias nativo de pytest."
+    },
+    "de": {
+      "description": "Quelloffenes Test-Framework zur Bewertung von LLM-Ausgaben, das Qualitätschecks für LLM-Anwendungen wie herkömmliche Unit-Tests behandelt.",
+      "longDescription": "DeepEval bietet Metriken und Test-Primitive speziell für LLM-Ausgaben – Antwortrelevanz, Treue zu Quelldokumenten, Halluzinationserkennung und mehr –, sodass ein Team automatisierte Tests für die Qualität einer LLM-Anwendung genauso schreiben kann wie Unit-Tests für gewöhnlichen Code, und sie in CI ausführen kann. Es integriert sich mit gängigen Testframeworks wie Pytest.\n\nDeepEval eignet sich für Teams, die systematische, automatisierte Qualitätsprüfungen für LLM- oder RAG-Anwendungsausgaben statt manueller Stichproben wollen – als Ergänzung zu Promptfoo (ebenfalls in diesem Katalog): Beide adressieren LLM-Evaluation, wobei DeepEval eher zu einem pytest-nativen Unit-Test-Workflow tendiert."
+    }
+  }
+}

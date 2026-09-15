@@ -1,0 +1,46 @@
+{
+  "name": "Netdata",
+  "slug": "netdata",
+  "description": "Real-time, per-second monitoring dashboard that auto-discovers metrics across your infrastructure with zero configuration.",
+  "longDescription": "Netdata installs as an agent that automatically detects and visualizes thousands of metrics per second - system, container, database, application - with almost no manual configuration, and its dashboards update in real time rather than on a polling interval measured in minutes. It's built for immediate visual troubleshooting rather than long-term trend analysis.\n\nNetdata is a fit for teams that want instant, zero-config visibility into what's happening on a machine or service right now, a different niche from Prometheus and Grafana's pull-based, longer-interval, multi-node model already in this catalog.",
+  "repository": "https://github.com/netdata/netdata",
+  "website": "https://www.netdata.cloud",
+  "documentation": "https://learn.netdata.cloud",
+  "categories": [
+    "monitoring"
+  ],
+  "keywords": [
+    "real-time-monitoring",
+    "infrastructure-monitoring",
+    "auto-discovery",
+    "dashboards"
+  ],
+  "languages": [
+    "C"
+  ],
+  "license": "GPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "实时、按秒更新的监控仪表盘，可零配置自动发现整个基础设施中的指标。",
+      "longDescription": "Netdata 以代理形式安装，几乎无需手动配置即可自动检测并可视化每秒数千项指标——系统、容器、数据库、应用——其仪表盘实时更新，而不是按以分钟为单位的轮询间隔刷新。它专为即时的可视化故障排查而设计，而非长期趋势分析。\n\nNetdata 适合那些希望零配置、即时了解某台机器或服务当下运行状况的团队，这与目录中已有的、基于拉取模式、间隔更长、面向多节点的 Prometheus 和 Grafana 属于不同的细分领域。"
+    },
+    "ja": {
+      "description": "設定不要でインフラ全体のメトリクスを自動検出する、リアルタイム・秒単位の監視ダッシュボードです。",
+      "longDescription": "Netdata はエージェントとしてインストールされ、システム・コンテナ・データベース・アプリケーションにわたる数千のメトリクスを、ほぼ手動設定なしに毎秒自動検出・可視化します。ダッシュボードは分単位のポーリング間隔ではなく、リアルタイムに更新されます。長期的なトレンド分析ではなく、即座のビジュアルなトラブルシューティング向けに作られています。\n\nNetdata は、マシンやサービスで今何が起きているかを、設定不要で即座に把握したいチームに向いています。カタログに既にある、プル型でより長い間隔を持つマルチノード向けの Prometheus や Grafana とは異なるニッチです。"
+    },
+    "ko": {
+      "description": "설정 없이 인프라 전반의 메트릭을 자동으로 발견하는 실시간·초 단위 모니터링 대시보드입니다.",
+      "longDescription": "Netdata는 에이전트로 설치되어 시스템, 컨테이너, 데이터베이스, 애플리케이션에 걸친 수천 개의 메트릭을 거의 수동 설정 없이 매초 자동으로 감지하고 시각화하며, 대시보드는 분 단위 폴링 간격이 아니라 실시간으로 업데이트됩니다. 장기 추세 분석이 아니라 즉각적인 시각적 문제 해결을 위해 만들어졌습니다.\n\nNetdata는 지금 이 순간 머신이나 서비스에서 무슨 일이 일어나고 있는지 설정 없이 즉시 파악하고 싶은 팀에 적합합니다. 카탈로그에 이미 있는, 풀 기반이고 간격이 더 길며 다중 노드 지향적인 Prometheus, Grafana와는 다른 영역입니다."
+    },
+    "es": {
+      "description": "Panel de monitorización en tiempo real, por segundo, que autodescubre métricas en toda tu infraestructura sin configuración.",
+      "longDescription": "Netdata se instala como un agente que detecta y visualiza automáticamente miles de métricas por segundo —sistema, contenedores, bases de datos, aplicaciones— con casi ninguna configuración manual, y sus paneles se actualizan en tiempo real en lugar de con un intervalo de sondeo medido en minutos. Está construido para la resolución visual inmediata de problemas, no para el análisis de tendencias a largo plazo.\n\nNetdata encaja en equipos que quieren visibilidad instantánea y sin configuración de lo que está pasando ahora mismo en una máquina o servicio, un nicho distinto al modelo basado en sondeo, de intervalos más largos y multi-nodo de Prometheus y Grafana ya presentes en este catálogo."
+    },
+    "de": {
+      "description": "Echtzeit-Monitoring-Dashboard mit Sekundenauflösung, das Metriken in deiner Infrastruktur ohne Konfiguration automatisch erkennt.",
+      "longDescription": "Netdata installiert sich als Agent, der automatisch Tausende Metriken pro Sekunde erkennt und visualisiert – System, Container, Datenbank, Anwendung – mit fast keiner manuellen Konfiguration, und seine Dashboards aktualisieren sich in Echtzeit statt in einem in Minuten gemessenen Abfrageintervall. Es ist für sofortige visuelle Fehlersuche statt langfristige Trendanalyse gebaut.\n\nNetdata eignet sich für Teams, die sofortige, konfigurationsfreie Einblicke in das aktuelle Geschehen auf einer Maschine oder einem Dienst wollen – eine andere Nische als das Pull-basierte, längerintervallige Multi-Node-Modell von Prometheus und Grafana, die bereits in diesem Katalog sind."
+    }
+  }
+}

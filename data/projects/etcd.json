@@ -1,0 +1,46 @@
+{
+  "name": "etcd",
+  "slug": "etcd",
+  "description": "Distributed, consistent key-value store that Kubernetes itself uses to store all cluster state, and a reliable building block for other distributed systems.",
+  "longDescription": "etcd stores data reliably across a cluster of machines using the Raft consensus algorithm, guaranteeing that all nodes agree on the current state even if some fail - the exact property Kubernetes relies on to store every object, config, and secret describing a cluster's desired state. It's a CNCF graduated project and one of the most battle-tested pieces of distributed systems infrastructure in production use.\n\netcd is a fit for teams building distributed systems that need strongly consistent coordination or configuration storage, whether that's running it themselves for a custom system or understanding it as the foundation underneath the Kubernetes entry already in this catalog.",
+  "repository": "https://github.com/etcd-io/etcd",
+  "website": "https://etcd.io",
+  "documentation": "https://etcd.io/docs/",
+  "categories": [
+    "devops"
+  ],
+  "keywords": [
+    "key-value-store",
+    "distributed-consensus",
+    "kubernetes-infrastructure",
+    "raft"
+  ],
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "分布式一致性键值存储，Kubernetes 本身用它来存储全部集群状态，也是其他分布式系统的可靠构建模块。",
+      "longDescription": "etcd 使用 Raft 共识算法在多台机器组成的集群中可靠地存储数据，确保即使部分节点失效，所有节点仍能就当前状态达成一致——这正是 Kubernetes 用来存储描述集群期望状态的每一个对象、配置和密钥所依赖的特性。它是一个 CNCF 毕业项目，也是生产环境中经过最严格实战检验的分布式系统基础设施之一。\n\netcd 适合那些正在构建需要强一致性协调或配置存储的分布式系统的团队，无论是为自定义系统自行运行它，还是将其理解为目录中已有的 Kubernetes 条目背后的基石。"
+    },
+    "ja": {
+      "description": "Kubernetes 自身がすべてのクラスタ状態を保存するために使用している、分散型で一貫性のあるキーバリューストアであり、他の分散システムにとっても信頼できる構成要素です。",
+      "longDescription": "etcd は Raft コンセンサスアルゴリズムを使って、マシンのクラスタ全体でデータを信頼性高く保存し、一部のノードが故障してもすべてのノードが現在の状態について合意することを保証します。これは、クラスタの望ましい状態を記述するあらゆるオブジェクト、設定、シークレットを保存するために Kubernetes が依存している性質そのものです。CNCF を卒業したプロジェクトであり、本番環境で使われる分散システムインフラの中でも特に実績のあるものの1つです。\n\netcd は、強い一貫性を持つ協調やコンフィグレーションストレージを必要とする分散システムを構築するチームに向いています。カスタムシステムのために自分で運用する場合でも、カタログに既にある Kubernetes エントリの背後にある基盤として理解する場合でも役立ちます。"
+    },
+    "ko": {
+      "description": "Kubernetes 자체가 모든 클러스터 상태를 저장하는 데 사용하는 분산형 일관성 키-값 저장소로, 다른 분산 시스템을 위한 신뢰할 수 있는 구성 요소이기도 합니다.",
+      "longDescription": "etcd는 Raft 합의 알고리즘을 사용해 여러 머신으로 이루어진 클러스터 전반에 걸쳐 데이터를 안정적으로 저장하며, 일부 노드가 실패하더라도 모든 노드가 현재 상태에 동의하도록 보장합니다 — 이는 클러스터의 원하는 상태를 기술하는 모든 오브젝트, 설정, 시크릿을 저장하기 위해 Kubernetes가 의존하는 바로 그 속성입니다. CNCF 졸업 프로젝트이며, 프로덕션에서 사용되는 분산 시스템 인프라 중 가장 검증된 것 중 하나입니다.\n\netcd는 강한 일관성을 가진 조정이나 설정 저장이 필요한 분산 시스템을 구축하는 팀에 적합하며, 커스텀 시스템을 위해 직접 운영하든, 카탈로그에 이미 있는 Kubernetes 항목 아래의 기반으로 이해하든 도움이 됩니다."
+    },
+    "es": {
+      "description": "Almacén de clave-valor distribuido y consistente que el propio Kubernetes usa para guardar todo el estado del clúster, y un componente fiable para otros sistemas distribuidos.",
+      "longDescription": "etcd almacena datos de forma fiable en un clúster de máquinas usando el algoritmo de consenso Raft, garantizando que todos los nodos coincidan en el estado actual incluso si algunos fallan; exactamente la propiedad en la que se apoya Kubernetes para almacenar cada objeto, configuración y secreto que describe el estado deseado de un clúster. Es un proyecto graduado de la CNCF y una de las piezas de infraestructura de sistemas distribuidos más probadas en producción.\n\netcd encaja en equipos que construyen sistemas distribuidos que necesitan coordinación o almacenamiento de configuración fuertemente consistente, ya sea ejecutándolo ellos mismos para un sistema personalizado o entendiéndolo como la base bajo la entrada de Kubernetes ya presente en este catálogo."
+    },
+    "de": {
+      "description": "Verteilter, konsistenter Key-Value-Store, den Kubernetes selbst zum Speichern des gesamten Cluster-Zustands nutzt, und ein zuverlässiger Baustein für andere verteilte Systeme.",
+      "longDescription": "etcd speichert Daten zuverlässig über einen Cluster aus Maschinen hinweg mithilfe des Raft-Konsensalgorithmus und garantiert, dass sich alle Knoten über den aktuellen Zustand einig sind, selbst wenn einige ausfallen – genau die Eigenschaft, auf die sich Kubernetes verlässt, um jedes Objekt, jede Konfiguration und jedes Secret zu speichern, das den gewünschten Zustand eines Clusters beschreibt. Es ist ein von der CNCF graduiertes Projekt und eine der bewährtesten Komponenten verteilter Systeminfrastruktur im Produktionseinsatz.\n\netcd eignet sich für Teams, die verteilte Systeme bauen, die stark konsistente Koordination oder Konfigurationsspeicherung benötigen – sei es, es selbst für ein eigenes System zu betreiben, oder es als das Fundament unter dem bereits in diesem Katalog vorhandenen Kubernetes-Eintrag zu verstehen."
+    }
+  }
+}

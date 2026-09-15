@@ -1,0 +1,46 @@
+{
+  "name": "MLflow",
+  "slug": "mlflow",
+  "description": "Open-source platform for managing the machine learning lifecycle: experiment tracking, model packaging, versioning, and deployment.",
+  "longDescription": "MLflow tracks the parameters, metrics, and artifacts of every ML training run so a team can compare experiments and reproduce results, packages trained models in a standard format that works across serving frameworks, and manages a model registry for versioning and promoting models toward production. It's framework-agnostic, working with PyTorch, TensorFlow, scikit-learn, and others already in this catalog.\n\nMLflow is a fit for data science teams that need to track experiments and manage models systematically rather than in scattered notebooks and spreadsheets, filling an MLOps gap that's currently absent from this catalog's ML framework entries.",
+  "repository": "https://github.com/mlflow/mlflow",
+  "website": "https://mlflow.org",
+  "documentation": "https://mlflow.org/docs/latest/index.html",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "mlops",
+    "experiment-tracking",
+    "model-registry",
+    "model-management"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-14",
+  "translations": {
+    "zh-CN": {
+      "description": "开源平台，用于管理机器学习生命周期：实验跟踪、模型打包、版本管理和部署。",
+      "longDescription": "MLflow 跟踪每一次机器学习训练运行的参数、指标和产物，使团队能够对比实验并复现结果，将训练好的模型打包成可跨多种服务框架使用的标准格式，并维护一个模型注册表，用于版本管理和将模型推向生产环境。它与框架无关，可与目录中已有的 PyTorch、TensorFlow、scikit-learn 等配合使用。\n\nMLflow 适合那些需要系统化跟踪实验和管理模型、而不是散落在各种笔记本和电子表格中的数据科学团队，填补了目录中现有机器学习框架条目所缺失的 MLOps 空白。"
+    },
+    "ja": {
+      "description": "実験管理、モデルのパッケージング、バージョン管理、デプロイといった機械学習のライフサイクルを管理するための、オープンソースプラットフォームです。",
+      "longDescription": "MLflow は、すべての機械学習トレーニング実行のパラメータ、メトリクス、成果物を記録し、チームが実験を比較して結果を再現できるようにします。学習済みモデルを、様々なサービングフレームワークで使える標準フォーマットにパッケージ化し、バージョン管理と本番環境への昇格のためのモデルレジストリを管理します。フレームワークに依存せず、カタログに既にある PyTorch、TensorFlow、scikit-learn などと連携できます。\n\nMLflow は、実験や散在するノートブックやスプレッドシートではなく、体系的に実験を追跡しモデルを管理する必要があるデータサイエンスチームに向いており、カタログの機械学習フレームワークのエントリに現在欠けている MLOps のギャップを埋めます。"
+    },
+    "ko": {
+      "description": "실험 추적, 모델 패키징, 버전 관리, 배포 등 머신러닝 생명주기를 관리하기 위한 오픈소스 플랫폼입니다.",
+      "longDescription": "MLflow는 모든 ML 학습 실행의 파라미터, 지표, 아티팩트를 추적하여 팀이 실험을 비교하고 결과를 재현할 수 있게 해주며, 학습된 모델을 여러 서빙 프레임워크에서 동작하는 표준 형식으로 패키징하고, 버전 관리와 프로덕션으로의 모델 승격을 위한 모델 레지스트리를 관리합니다. 프레임워크에 구애받지 않으며 카탈로그에 이미 있는 PyTorch, TensorFlow, scikit-learn 등과 함께 동작합니다.\n\nMLflow는 흩어진 노트북과 스프레드시트 대신 체계적으로 실험을 추적하고 모델을 관리해야 하는 데이터 과학 팀에 적합하며, 카탈로그의 ML 프레임워크 항목에 현재 빠져 있는 MLOps의 공백을 채워줍니다."
+    },
+    "es": {
+      "description": "Plataforma de código abierto para gestionar el ciclo de vida del machine learning: seguimiento de experimentos, empaquetado de modelos, versionado y despliegue.",
+      "longDescription": "MLflow registra los parámetros, métricas y artefactos de cada ejecución de entrenamiento de ML para que un equipo pueda comparar experimentos y reproducir resultados, empaqueta los modelos entrenados en un formato estándar que funciona en distintos frameworks de servicio, y gestiona un registro de modelos para versionarlos y promoverlos hacia producción. Es independiente del framework y funciona con PyTorch, TensorFlow, scikit-learn y otros ya presentes en este catálogo.\n\nMLflow encaja en equipos de ciencia de datos que necesitan rastrear experimentos y gestionar modelos de forma sistemática en lugar de en notebooks y hojas de cálculo dispersas, cubriendo un hueco de MLOps actualmente ausente en las entradas de frameworks de ML de este catálogo."
+    },
+    "de": {
+      "description": "Quelloffene Plattform zur Verwaltung des Machine-Learning-Lebenszyklus: Experiment-Tracking, Modellverpackung, Versionierung und Deployment.",
+      "longDescription": "MLflow verfolgt die Parameter, Metriken und Artefakte jedes ML-Trainingslaufs, damit ein Team Experimente vergleichen und Ergebnisse reproduzieren kann, verpackt trainierte Modelle in einem Standardformat, das über Serving-Frameworks hinweg funktioniert, und verwaltet eine Model Registry zum Versionieren und Befördern von Modellen Richtung Produktion. Es ist framework-agnostisch und funktioniert mit PyTorch, TensorFlow, scikit-learn und anderen, die bereits in diesem Katalog sind.\n\nMLflow eignet sich für Data-Science-Teams, die Experimente systematisch verfolgen und Modelle verwalten müssen, statt verstreut in Notebooks und Tabellen – es füllt eine MLOps-Lücke, die in den ML-Framework-Einträgen dieses Katalogs derzeit fehlt."
+    }
+  }
+}
