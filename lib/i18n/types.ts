@@ -16,6 +16,9 @@ export interface Dictionary {
     contribute: string;
     github: string;
     support: string;
+    privacy: string;
+    terms: string;
+    contact: string;
   };
   home: {
     heroTitleLine1: string;
@@ -116,5 +119,27 @@ export interface Dictionary {
     howBody: string;
     ctaLabel: string;
     ctaAriaLabel: string;
+  };
+  privacy: {
+    title: string;
+    metaDescription: string;
+    lastUpdated: string;
+    sections: { heading: string; paragraphs: string[] }[];
+  };
+  terms: {
+    title: string;
+    metaDescription: string;
+    lastUpdated: string;
+    sections: { heading: string; paragraphs: string[] }[];
+  };
+  contact: {
+    title: string;
+    metaDescription: string;
+    intro: string;
+    reasonsHeading: string;
+    reasons: string[];
+    howHeading: string;
+    howBody: string;
+    ctaLabel: string;
   };
 }
