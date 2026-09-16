@@ -41,5 +41,23 @@
       "description": "Kubernetes-Speicherorchestrator, der das Bereitstellen, Verwalten und Skalieren von Speichersystemen wie Ceph als native Kubernetes-Dienste automatisiert.",
       "longDescription": "Rook verwandelt Speichersysteme – meist Ceph (ebenfalls in diesem Katalog) – in Kubernetes-native Dienste und übernimmt Deployment, Skalierung, Upgrades und Ausfallwiederherstellung über Kubernetes-Operatoren statt manueller Speicherverwaltung. Ein Team erhält einen vollständig verwalteten, selbstheilenden Speicher-Cluster, der als gewöhnliche Kubernetes-Ressourcen läuft.\n\nRook eignet sich für Teams, die Ceph oder ähnliche Speichersysteme auf Kubernetes betreiben wollen, ohne sie von Hand zu administrieren – als Ergänzung statt Ersatz der zugrunde liegenden Speicher-Engine."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-07-08",
+      "archived": false,
+      "openIssuesCount": 139,
+      "stargazersCount": 13658,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 91
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes storage orchestrator for Ceph and other backends, a complementary rather than competing pick."
+    },
+    "flag": "ok"
   }
 }

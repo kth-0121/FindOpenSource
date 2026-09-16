@@ -43,5 +43,29 @@
       "description": "Anwendungsüberwachungsplattform, die Entwicklern hilft, Probleme im Code zu diagnostizieren, zu beheben und die Performance zu optimieren.",
       "longDescription": "Sentry ist eine Plattform für Debugging und Observability, die Entwicklern hilft, Probleme in Produktionsanwendungen zu erkennen, nachzuverfolgen und zu beheben. Über das klassische Error-Tracking hinaus (Gruppierung, Tracing und Alerting bei Exceptions) umfasst der Funktionsumfang inzwischen Performance-Tracing, einen Trace Explorer, Session Replay, Log-Aggregation und Uptime-Monitoring – für ein vollständigeres Bild davon, was rund um einen Fehler passiert ist, nicht nur den Stack Trace selbst.\n\nEs liefert offizielle SDKs für eine sehr breite Palette an Plattformen – JavaScript, Python, Ruby, PHP/Laravel, Go, Rust, Java/Kotlin, Swift/Objective-C, C#/.NET, C/C++, Dart/Flutter, Elixir und sogar Game-Engines wie Unity, Unreal und Godot –, sodass es sich mit einem offiziellen statt einem Community-Client in die meisten Anwendungs-Stacks einbinden lässt.\n\nDer Quellcode von Sentry ist unter der Functional Source License (FSL-1.1-Apache-2.0) lizenziert, die sich nach einer Verzögerungsfrist in Apache-2.0 umwandelt – heute source-available, aber erst nach dieser Umwandlung für ein bestimmtes Release eine von der OSI anerkannte Open-Source-Lizenz. Es eignet sich für Teams, die eine selbst hostbare Full-Stack-Alternative zu rein proprietärem Error-Tracking-/Observability-SaaS suchen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2010-08-30",
+      "archived": false,
+      "openIssuesCount": 2261,
+      "stargazersCount": 44778,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The dominant self-hosted error-tracking platform; note FSL converts to Apache-2.0 only after a 2-year delay period."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "error-tracking",
+      "strength": "primary"
+    }
+  ]
 }

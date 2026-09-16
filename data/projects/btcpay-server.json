@@ -42,5 +42,37 @@
       "description": "Selbst gehosteter, quelloffener Kryptowährungs-Zahlungsprozessor ohne Gebühren und ohne Mittelsmann.",
       "longDescription": "BTCPay Server ist ein selbst gehosteter, nicht-verwahrender (non-custodial) Bitcoin-Zahlungsprozessor: Er ermöglicht es Händlern, direkte Peer-to-Peer-Bitcoin-Zahlungen anzunehmen, ohne Bearbeitungsgebühren zu zahlen, einen Mittelsmann einzuschalten oder von Kunden eine KYC-Prüfung zu verlangen. Da es sich selbst hosten lässt, behält der Betreiber die volle Kontrolle über die privaten Schlüssel und kann den Dienst auch anderen Personen oder Unternehmen anbieten (Multi-Tenant).\n\nÜber die einfache Rechnungsstellung hinaus bietet es Lightning-Network-Unterstützung (LND, Core Lightning, Eclair) für schnelle, gebührengünstige Zahlungen, SegWit- und Hardware-Wallet-Integration für die zugrunde liegende Wallet sowie optionale Tor-Unterstützung für zusätzliche Privatsphäre. Integrierte „Apps“ decken neben der Verwaltung von Rechnungen und Zahlungsanfragen auch typische Storefront-Anforderungen ab, etwa eine Kassenoberfläche (Point of Sale), Crowdfunding-Seiten und Spenden-Buttons.\n\nDas Kernprojekt ist ein reiner Bitcoin-Build; ein separater, von der Community gepflegter Fork fügt Unterstützung für weitere Kryptowährungen hinzu. Es eignet sich gut für Händler, Entwickler oder Communities, die Bitcoin direkt annehmen möchten, ohne sich auf einen verwahrenden Zahlungsprozessor zu verlassen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-12",
+      "repoCreatedAt": "2017-08-18",
+      "archived": false,
+      "openIssuesCount": 84,
+      "stargazersCount": 7759,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The only self-hosted Bitcoin payment processor in a very thin payments category; strong differentiation."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "payments",
+      "strength": "primary"
+    },
+    {
+      "concept": "cryptocurrency",
+      "strength": "primary"
+    },
+    {
+      "concept": "bitcoin",
+      "strength": "primary"
+    }
+  ]
 }

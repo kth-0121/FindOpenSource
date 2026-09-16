@@ -42,5 +42,33 @@
       "description": "Last- und Netzwerkmesstool für Microservices, das detaillierte Latenz-Perzentile unter anhaltender Last meldet.",
       "longDescription": "Fortio wurde bei Google/Istio gebaut, um Microservices lastzutesten und zu messen, wie sich die Latenz unter hoher gleichzeitiger Last verhält, wobei es detaillierte Perzentil-Aufschlüsselungen statt nur Durchschnittswerte meldet. Es unterstützt HTTP und gRPC, läuft als CLI oder Bibliothek und enthält eine kleine eingebaute UI zur Visualisierung von Ergebnissen.\n\nFortio eignet sich für Teams, die mit gRPC oder Service-Mesh-basierten Microservices arbeiten und präzise Latenzmessungen unter Last benötigen – als Ergänzung zu k6 (ebenfalls in diesem Katalog), das stärker auf allgemeine, skriptbasierte Lasttest-Szenarien fokussiert ist."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2017-10-10",
+      "archived": false,
+      "openIssuesCount": 87,
+      "stargazersCount": 3726,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Lightweight load-testing tool; narrower niche than k6 within the same category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "load-testing",
+      "strength": "primary"
+    },
+    {
+      "concept": "performance-testing",
+      "strength": "secondary"
+    }
+  ]
 }

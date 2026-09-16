@@ -43,5 +43,33 @@
       "description": "Python-native Workflow-Orchestrierungsplattform zum Erstellen, Planen und Überwachen von Datenpipelines mit gewöhnlichem Python-Code.",
       "longDescription": "Prefect lässt Entwickler Workflows als gewöhnliche, mit Task und Flow dekorierte Python-Funktionen definieren, statt eine separate DSL oder ein YAML-Format zu lernen. Es übernimmt automatisch Scheduling, Wiederholungsversuche, Caching und Fehlerbehandlung, und seine UI bietet Einblick in jeden Lauf ohne zusätzlichen Instrumentierungscode.\n\nPrefect eignet sich für Daten- und Plattformteams, die ETL-, ML- oder Datenpipeline-Workflows in Python bauen und eine nah am gewöhnlichen Code bleibende Orchestrierung wollen – eine andere Nische als Temporal oder Argo Workflows (ebenfalls in diesem Katalog), die auf allgemeine verteilte Anwendungs-Workflows statt datenpipeline-spezifisches Scheduling zielen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2018-06-29",
+      "archived": false,
+      "openIssuesCount": 859,
+      "stargazersCount": 23842,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular Python-native workflow orchestration, meaningful overlap with Kestra and Airflow-style tools."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "workflow-orchestration",
+      "strength": "primary"
+    },
+    {
+      "concept": "pipeline-automation",
+      "strength": "secondary"
+    }
+  ]
 }

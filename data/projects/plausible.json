@@ -42,5 +42,29 @@
       "description": "Leichtgewichtige, quelloffene und datenschutzfreundliche Alternative zu Google Analytics.",
       "longDescription": "Plausible Analytics ist ein datenschutzorientiertes Webanalyse-Tool, das als leichtgewichtige, cookiefreie Alternative zu Google Analytics positioniert ist: Es speichert keine personenbezogenen Daten, IP-Adressen oder dauerhaften Identifikatoren und ist von Haus aus so gebaut, dass es DSGVO, CCPA und PECR erfüllt. Das Dashboard konzentriert sich auf eine einzige, übersichtliche Seite mit den wichtigsten Kennzahlen, statt auf die tief verschachtelte Menüstruktur größerer Analyse-Suiten.\n\nÜber die einfache Seitenaufruf-Erfassung hinaus unterstützt es benutzerdefinierte Events, Ziele, Conversion-Funnels und Umsatzattribution, mit codefreiem Tracking für Klicks auf ausgehende Links, ausgefüllte Formulare, Datei-Downloads und 404-Seiten, dazu eine Google-Search-Console-Integration für Keyword-Daten sowie eine API zum Exportieren von Statistiken oder programmatischen Senden von Events.\n\nPlausible ist als kostenpflichtiger, in der EU gehosteter Managed-Cloud-Dienst oder als selbst gehostete Community-Edition erhältlich; das Projekt finanziert sich über Abonnements statt über Werbung oder Datenmonetarisierung – etwas, das die Maintainer als zentralen Bestandteil ihres datenschutzorientierten Geschäftsmodells darstellen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2018-12-04",
+      "archived": false,
+      "openIssuesCount": 63,
+      "stargazersCount": 29083,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Simple, privacy-focused web analytics, a strong lightweight alternative to Matomo/Google Analytics."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "web-analytics",
+      "strength": "primary"
+    }
+  ]
 }

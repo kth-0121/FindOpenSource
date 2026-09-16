@@ -43,5 +43,33 @@
       "description": "Hochperformante C/C++-Implementierung zum lokalen Ausführen von LLM-Inferenz auf Consumer-Hardware, einschließlich CPUs, mit minimalen Abhängigkeiten.",
       "longDescription": "llama.cpp führt große Sprachmodelle effizient auf gewöhnlicher Hardware aus – einschließlich reiner CPUs, nicht nur GPUs – mithilfe von Quantisierungstechniken, die Modellgröße und Speicherbedarf bei minimalem Qualitätsverlust verringern, alles in einer abhängigkeitsarmen C/C++-Codebasis, die sich leicht einbetten oder cross-kompilieren lässt. Es ist die Inferenz-Engine, auf der viele höherstufige lokale LLM-Tools aufbauen.\n\nllama.cpp eignet sich für Entwickler, die direkte, niedrigstufige Kontrolle über lokale LLM-Inferenz-Performance und Hardware-Ausrichtung wollen – die zugrunde liegende Engine, die Ollama (ebenfalls in diesem Katalog) mit einer freundlicheren Einrichtungserfahrung umhüllt; Power-User greifen oft direkt zu llama.cpp, wenn sie mehr Kontrolle benötigen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2023-03-10",
+      "archived": false,
+      "openIssuesCount": 2477,
+      "stargazersCount": 128281,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 84
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The foundational CPU/edge-optimized LLM inference engine underlying much of the local-LLM ecosystem."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "llm-inference",
+      "strength": "primary"
+    },
+    {
+      "concept": "gpu-inference",
+      "strength": "secondary"
+    }
+  ]
 }

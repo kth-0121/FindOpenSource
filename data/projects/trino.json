@@ -42,5 +42,29 @@
       "description": "Verteilte SQL-Abfrage-Engine, mit der du föderierte Abfragen über mehrere Datenquellen – Datenbanken, Data Lakes und mehr – von einem Ort aus ausführen kannst.",
       "longDescription": "Trino führt SQL-Abfragen aus, die Daten über viele verschiedene zugrunde liegende Systeme hinweg verbinden und aggregieren können – PostgreSQL, Objektspeicher-Data-Lakes, Kafka und Dutzende weitere Connectoren –, ohne zuerst all diese Daten in ein einziges Warehouse zu kopieren. Es trennt die Abfrage-Engine davon, wo die Daten tatsächlich liegen.\n\nTrino eignet sich für Teams, die über mehrere bestehende Datenquellen hinweg abfragen müssen, ohne ein großes Datenmigrationsprojekt – eine andere Rolle als die OLAP-Datenbanken (wie ClickHouse, ebenfalls in diesem Katalog), die die Daten selbst speichern, statt sie an Ort und Stelle abzufragen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-01-19",
+      "archived": false,
+      "openIssuesCount": 2767,
+      "stargazersCount": 13237,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading distributed SQL query engine for federated analytics, strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "sql",
+      "strength": "secondary"
+    }
+  ]
 }

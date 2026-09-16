@@ -42,5 +42,23 @@
       "description": "Verteilter, konsistenter Key-Value-Store, den Kubernetes selbst zum Speichern des gesamten Cluster-Zustands nutzt, und ein zuverlässiger Baustein für andere verteilte Systeme.",
       "longDescription": "etcd speichert Daten zuverlässig über einen Cluster aus Maschinen hinweg mithilfe des Raft-Konsensalgorithmus und garantiert, dass sich alle Knoten über den aktuellen Zustand einig sind, selbst wenn einige ausfallen – genau die Eigenschaft, auf die sich Kubernetes verlässt, um jedes Objekt, jede Konfiguration und jedes Secret zu speichern, das den gewünschten Zustand eines Clusters beschreibt. Es ist ein von der CNCF graduiertes Projekt und eine der bewährtesten Komponenten verteilter Systeminfrastruktur im Produktionseinsatz.\n\netcd eignet sich für Teams, die verteilte Systeme bauen, die stark konsistente Koordination oder Konfigurationsspeicherung benötigen – sei es, es selbst für ein eigenes System zu betreiben, oder es als das Fundament unter dem bereits in diesem Katalog vorhandenen Kubernetes-Eintrag zu verstehen."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2013-07-06",
+      "archived": false,
+      "openIssuesCount": 352,
+      "stargazersCount": 52268,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 100
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The distributed key-value store underlying Kubernetes itself; foundational infrastructure component."
+    },
+    "flag": "ok"
   }
 }

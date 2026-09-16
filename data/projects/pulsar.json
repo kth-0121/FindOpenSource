@@ -42,5 +42,37 @@
       "description": "Verteilte Messaging- und Streaming-Plattform, die klassisches Queuing und Event-Streaming mit integrierter Multi-Tenancy vereint.",
       "longDescription": "Apache Pulsar kombiniert das Publish/Subscribe-Queuing-Modell (wie RabbitMQ) mit dauerhaftem, wiederabspielbarem Event-Streaming (wie Kafka) in einem System und trennt seine Compute- und Speicherschichten, sodass jede unabhängig skalieren kann. Integrierte Multi-Tenancy lässt viele Teams sicher einen Pulsar-Cluster mit isolierten Namespaces teilen.\n\nPulsar eignet sich für Teams, die sowohl klassische Queuing- als auch Event-Streaming-Semantik von einer Plattform wollen, statt RabbitMQ und Kafka (ebenfalls in diesem Katalog) nebeneinander zu betreiben, oder die speziell starke Mandantenisolierung auf gemeinsam genutzter Messaging-Infrastruktur benötigen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2016-06-28",
+      "archived": false,
+      "openIssuesCount": 1731,
+      "stargazersCount": 15332,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Cloud-native messaging/streaming platform with built-in multi-tenancy, a strong alternative to Kafka."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "event-streaming",
+      "strength": "primary"
+    },
+    {
+      "concept": "message-broker",
+      "strength": "secondary"
+    },
+    {
+      "concept": "pubsub",
+      "strength": "secondary"
+    }
+  ]
 }

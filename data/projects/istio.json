@@ -42,5 +42,37 @@
       "description": "Der führende Service Mesh für Kubernetes, der Microservices Traffic-Management, Sicherheit und Observability hinzufügt, ohne Anwendungscode zu ändern.",
       "longDescription": "Istio injiziert neben jedem Dienst in einem Kubernetes-Cluster einen Proxy-Sidecar und gibt einem Platform-Team feingranulare Kontrolle über Traffic-Routing, Wiederholungsversuche, Timeouts, gegenseitige TLS-Verschlüsselung zwischen Diensten und detaillierte Telemetrie – alles ohne Codeänderungen in den Diensten selbst. Es ist einer der am weitesten verbreiteten und funktionsreichsten verfügbaren Service Meshes.\n\nIstio eignet sich für Platform-Teams, die viele voneinander abhängige Microservices auf Kubernetes betreiben und Traffic-Kontrolle, Sicherheit und Observability auf Netzwerkebene brauchen – als Ergänzung zu Envoy (ebenfalls in diesem Katalog), dem Proxy, der tatsächlich Istios Datenebene antreibt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-11-18",
+      "archived": false,
+      "openIssuesCount": 502,
+      "stargazersCount": 38388,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely adopted full-featured service mesh; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "service-mesh",
+      "strength": "primary"
+    },
+    {
+      "concept": "mtls",
+      "strength": "secondary"
+    },
+    {
+      "concept": "traffic-management",
+      "strength": "secondary"
+    }
+  ]
 }

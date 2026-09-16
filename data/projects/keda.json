@@ -41,5 +41,33 @@
       "description": "Ereignisgesteuerter Kubernetes-Autoscaler, der Workloads anhand der Anzahl zu verarbeitender Ereignisse skaliert, einschließlich Skalierung auf null.",
       "longDescription": "KEDA erweitert Kubernetes' natives Autoscaling, um auf externe Event-Quellen zu reagieren – Queue-Tiefe, Stream-Verzögerung, benutzerdefinierte Metriken – statt nur auf CPU- und Speichernutzung, und kann einen Workload bis auf null herunterskalieren, wenn keine Arbeit anfällt, was Ressourcen in Leerlaufzeiten spart. Es unterstützt Dutzende von Event-Quellen-Integrationen von Haus aus.\n\nKEDA eignet sich für Teams, die ereignisgesteuerte Workloads auf Kubernetes betreiben – etwa die Verarbeitung von Nachrichten aus Kafka, RabbitMQ oder NATS (ebenfalls in diesem Katalog) – und Autoscaling wollen, das auf tatsächliche Workload-Nachfrage statt Proxy-Metriken wie CPU reagiert."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-02-13",
+      "archived": false,
+      "openIssuesCount": 252,
+      "stargazersCount": 10525,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 91
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes event-driven autoscaler, a focused and widely adopted addition."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "autoscaling",
+      "strength": "primary"
+    },
+    {
+      "concept": "scale-to-zero",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -45,5 +45,37 @@
       "description": "Framework zum Erstellen nativer mobiler Apps für iOS und Android mit React.",
       "longDescription": "Mit React Native kannst du native mobile Apps mit React bauen: Dein UI-Code wird in JavaScript/React geschrieben, aber er rendert zu echten nativen Plattform-UI-Komponenten statt zu einer WebView, sodass Apps native Gesten, Textskalierung und Barrierefreiheits-Verhalten erhalten, das mit dem jeweiligen Betriebssystem übereinstimmt. Fast Refresh übernimmt JavaScript-Änderungen in Sekunden, ohne einen vollständigen nativen Rebuild, und Native Modules erlauben es, plattformspezifischen nativen Code aus JavaScript aufzurufen, wenn Funktionalität über das eingebaute Angebot hinaus benötigt wird.\n\nDas React-Native-Projekt selbst empfiehlt inzwischen, über ein Framework zu bauen, statt reines React Native direkt zu verwenden – Expo wird als produktionsreifes Framework hervorgehoben, das auf React Native aufbaut und dateibasiertes Routing, eine Standardbibliothek nativer Module sowie andere Tools hinzufügt, die die meisten Apps ohnehin brauchen (Navigation, native Abhängigkeiten, Plattformkonfiguration).\n\nReact Native eignet sich für Teams, die eine einzige React-Codebasis über iOS und Android (und andere Plattformen) hinweg teilen möchten und dabei trotzdem eine sich nativ anfühlende UI wollen – besonders in Kombination mit einem Framework wie Expo, statt das native Build-Tooling von Hand zu konfigurieren."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-01-09",
+      "archived": false,
+      "openIssuesCount": 1165,
+      "stargazersCount": 126607,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the two dominant cross-platform mobile frameworks; essential pick for a thin mobile category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "cross-platform",
+      "strength": "primary"
+    },
+    {
+      "concept": "android",
+      "strength": "secondary"
+    },
+    {
+      "concept": "ios",
+      "strength": "secondary"
+    }
+  ]
 }

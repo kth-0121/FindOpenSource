@@ -43,5 +43,33 @@
       "description": "Quelloffene Publishing- und Mitgliedschaftsplattform für Blogs, Newsletter und Online-Publikationen.",
       "longDescription": "Ghost ist eine headless Content-Plattform auf Node.js-Basis, die auf professionelles Publizieren ausgerichtet ist – Blogs, Newsletter und Mitglieder-/Abo-Seiten – statt ein allgemeines CMS zu sein. Inhalte werden über die Ghost-Admin-Oberfläche verwaltet und über die Content API an dein eigenes Frontend (Themes oder eine eigene Seite) ausgeliefert.\n\nDu kannst es mit dem offiziellen Tool `ghost-cli` selbst hosten, das sowohl lokale Installationen für die Entwicklung als auch vollständige Produktionsinstallationen auf einem Server übernimmt – inklusive automatischem SSL via Let's Encrypt. Alternativ ist Ghost(Pro) ein offizieller verwalteter Hosting-Dienst, mit dem sich eine Seite innerhalb weniger Minuten starten lässt, inklusive CDN, Backups und Wartung; die Einnahmen daraus finanzieren die gemeinnützige Ghost Foundation, die das Open-Source-Projekt pflegt.\n\nEs eignet sich für Publisher, Autor:innen und kleine Teams, die eine dedizierte Plattform für Publishing und Mitgliedschaften wollen, statt ein allgemeines CMS dafür zurechtzubiegen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2013-05-04",
+      "archived": false,
+      "openIssuesCount": 189,
+      "stargazersCount": 55309,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular publishing-focused CMS, a clear alternative to WordPress/Strapi for blogging use cases."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "content-management",
+      "strength": "primary"
+    },
+    {
+      "concept": "cms",
+      "strength": "primary"
+    }
+  ]
 }

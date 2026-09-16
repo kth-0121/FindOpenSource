@@ -41,5 +41,29 @@
       "description": "Cloud Native Buildpacks bauen produktionsreife Container-Images direkt aus dem Quellcode der Anwendung, ohne ein Dockerfile zu schreiben.",
       "longDescription": "Cloud Native Buildpacks untersuchen den Quellcode einer Anwendung, erkennen Sprache und Abhängigkeiten und erzeugen automatisch ein optimiertes, reproduzierbares Container-Image – dabei werden Basis-Image-Updates und Sicherheitspatches über viele Apps hinweg auf einmal gehandhabt, indem mit einem aktualisierten Buildpack neu gebaut wird, statt jedes Dockerfile von Hand zu bearbeiten. Die `pack`-CLI ist das Referenzwerkzeug zum Bauen damit.\n\nBuildpacks eignen sich für Platform-Teams, die standardisieren, wie Container-Images über viele Anwendungen und Teams hinweg gebaut werden, und die Dockerfile-Pflege als Aufgabe pro App abschaffen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2018-06-25",
+      "archived": false,
+      "openIssuesCount": 198,
+      "stargazersCount": 3007,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 91
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Standardized container image build tooling, useful but narrower audience within developer-tools."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "build-automation",
+      "strength": "primary"
+    }
+  ]
 }

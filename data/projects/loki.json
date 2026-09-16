@@ -42,5 +42,33 @@
       "description": "Horizontal skalierbares Log-Aggregationssystem, vom Grafana-Team entwickelt, um mit Prometheus-artigen Metriken über dieselben Labels zusammenzuarbeiten.",
       "longDescription": "Loki ist ein horizontal skalierbares, mandantenfähiges Log-Aggregationssystem von Grafana Labs, das von den eigenen Maintainern als \"wie Prometheus, nur für Logs\" beschrieben wird. Statt den Loginhalt volltextindexiert zu durchsuchen, indexiert es nur eine Reihe von Labels, die jedem Log-Stream zugeordnet sind, wodurch es einfacher zu betreiben und günstiger im Betrieb ist als Logsysteme, die jedes Wort indexieren.\n\nDa es dasselbe Label-Modell wie Prometheus verwendet, können Teams, die bereits Prometheus-artige Labels nutzen, Metriken und Logs mit denselben Labels abfragen und korrelieren, statt zwei getrennte Labeling-Schemata zu pflegen, und Loki wird nativ in Grafana zur Visualisierung dieser korrelierten Daten unterstützt. Es eignet sich zudem besonders gut für Kubernetes-Umgebungen, da Pod-Metadaten wie Labels automatisch erfasst und indexiert werden.\n\nLoki eignet sich für Teams, die bereits Prometheus und Grafana für Metriken einsetzen und ein Log-Aggregationssystem wollen, das demselben Betriebsmodell folgt, statt einen separaten, anders aufgebauten Logging-Stack einzuführen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2018-04-16",
+      "archived": false,
+      "openIssuesCount": 1615,
+      "stargazersCount": 28890,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Grafana's purpose-built log aggregation system, a strong representative pick for logging."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "logging",
+      "strength": "primary"
+    },
+    {
+      "concept": "log-aggregation",
+      "strength": "primary"
+    }
+  ]
 }

@@ -42,5 +42,33 @@
       "description": "CNCF-Chaos-Engineering-Plattform für Kubernetes, die Fehlerinjektions-Experimente ausführt, um zu prüfen, wie sich Anwendungen von Ausfällen erholen.",
       "longDescription": "Litmus bietet eine Bibliothek vorgefertigter Chaos-Experimente – Pod-Ausfälle, Netzwerkverzögerungen, Ressourcenerschöpfung und mehr – definiert als Kubernetes-Custom-Resources, zusammen mit einem ChaosCenter-Dashboard zum Planen und Beobachten von Experimentläufen über Cluster hinweg. Es ist ein von der CNCF graduiertes Projekt mit einem großen, von der Community beigetragenen Experiment-Hub.\n\nLitmus eignet sich für Teams, die ein ausgereiftes, CNCF-graduiertes Chaos-Engineering-Tool mit einer großen vorgefertigten Experimentbibliothek wollen – eine echte Alternative zu Chaos Mesh (ebenfalls in diesem Katalog); Teams evaluieren häufig beide, bevor sie sich entscheiden."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-08-25",
+      "repoCreatedAt": "2017-03-15",
+      "archived": false,
+      "openIssuesCount": 400,
+      "stargazersCount": 5612,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Kubernetes chaos engineering tool, overlaps significantly with Chaos Mesh in the same category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "chaos-engineering",
+      "strength": "primary"
+    },
+    {
+      "concept": "fault-injection",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -45,5 +45,37 @@
       "description": "Open-Source, selbst gehosteter Authentifizierungs-Kerndienst mit passwortloser, sozialer und E-Mail-/Passwort-Anmeldung als Alternative zu Auth0 oder Firebase Auth.",
       "longDescription": "SuperTokens Core ist der zentrale Backend-HTTP-Dienst von SuperTokens, einem Open-Source-Authentifizierungssystem, das als Alternative zu Auth0, Firebase Auth und AWS Cognito positioniert ist. Er übernimmt die eigentliche Authentifizierungslogik und Datenbankoperationen und wird von den Backend-SDKs von SuperTokens aufgerufen (verfügbar für Node.js, Go, Python und weitere), die wiederum APIs für Registrierung, Login, Logout und Session-Refresh bereitstellen, die ein Frontend-SDK nutzt, um Session-Tokens zu verwalten und die Login-UI darzustellen.\n\nEs unterstützt passwortlose Anmeldung, Social Login, E-Mail-/Passwort- und Telefon-/Passwort-Authentifizierung, Session-Management, Multi-Faktor-Authentifizierung, Multi-Tenancy mit organisationsbezogenem Enterprise-SSO, Benutzerrollen sowie Authentifizierung zwischen Microservices. Inhalte außerhalb des `ee/`-Verzeichnisses des Repositorys stehen unter der Apache-2.0-Lizenz; das `ee/`-Verzeichnis (Enterprise-Funktionen) ist separat lizenziert.\n\nSuperTokens eignet sich für Teams, die ihre Authentifizierungslogik und -daten mit offiziellen SDKs für ihren Stack direkt selbst hosten möchten, statt sich auf einen vollständig gehosteten Identitätsanbieter eines Drittanbieters zu verlassen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2020-01-05",
+      "archived": false,
+      "openIssuesCount": 145,
+      "stargazersCount": 15298,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 90
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Open-source auth-as-a-service SDK, a developer-friendly alternative to Auth0/Keycloak."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "authentication",
+      "strength": "primary"
+    },
+    {
+      "concept": "sso",
+      "strength": "secondary"
+    },
+    {
+      "concept": "oauth",
+      "strength": "secondary"
+    }
+  ]
 }

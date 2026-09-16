@@ -43,5 +43,37 @@
       "description": "Durchsatzstarke, speichereffiziente Inferenz- und Serving-Engine für große Sprachmodelle, gebaut für den Betrieb von LLMs im großen Maßstab in Produktion statt nur auf einer einzelnen lokalen Maschine.",
       "longDescription": "vLLM ist eine Bibliothek für schnelle LLM-Inferenz und -Serving, ursprünglich am Sky Computing Lab der UC Berkeley entwickelt und heute von einer großen Open-Source-Community gepflegt. Der zentrale Beitrag ist PagedAttention, eine Speicherverwaltungstechnik für den Key-Value-Cache des Attention-Mechanismus, die es ermöglicht, auf derselben GPU-Hardware weitaus mehr gleichzeitige Anfragen zu bedienen als naive Serving-Ansätze – kombiniert mit kontinuierlichem Batching, sodass eingehende Anfragen effizient verarbeitet werden, sobald sie eintreffen, statt auf einen vollen Batch zu warten.\n\nEs stellt einen OpenAI-kompatiblen API-Server bereit, unterstützt eine breite Palette offener Modelle von Hugging Face und bietet Quantisierung sowie spekulatives Decoding zur weiteren Optimierung von Durchsatz und Latenz.\n\nvLLM eignet sich für Teams, die LLMs als Produktionsdienst bereitstellen und viele gleichzeitige Nutzer effizient bedienen müssen – eine andere Ebene als Ollama (ebenfalls in diesem Katalog), das für den lokalen Betrieb eines Modells für einen einzelnen Nutzer gebaut ist und nicht für durchsatzstarkes Multi-Request-Serving."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2023-02-09",
+      "archived": false,
+      "openIssuesCount": 7963,
+      "stargazersCount": 91809,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 91
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading high-throughput LLM inference/serving engine; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "llm-serving",
+      "strength": "primary"
+    },
+    {
+      "concept": "gpu-inference",
+      "strength": "primary"
+    },
+    {
+      "concept": "llm-inference",
+      "strength": "primary"
+    }
+  ]
 }

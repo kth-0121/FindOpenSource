@@ -42,5 +42,37 @@
       "description": "Multi-Agent-Orchestrierungs-Framework zum Aufbau von Teams kollaborierender, rollenbasierter KI-Agenten, die autonom zusammenarbeiten, um komplexe Aufgaben zu erledigen.",
       "longDescription": "CrewAI ist ein quelloffenes Python-Framework zur Orchestrierung mehrerer KI-Agenten, die zusammenarbeiten, statt ein einzelnes Modell isoliert zu betreiben. Seine Crews-Abstraktion lässt einen Entwickler jedem Agenten eine Rolle, ein Ziel und eine Hintergrundgeschichte zuweisen – ein Rechercheur, ein Autor, ein Prüfer –, sodass Agenten sich gegenseitig Teilaufgaben delegieren und ihre Ergebnisse autonom kombinieren können, während seine Flows-Abstraktion präzise, ereignisgesteuerte Kontrolle bietet, um einzelne LLM-Aufrufe, deterministische Schritte und Crews in einer Pipeline zu kombinieren, wenn eine Aufgabe keine volle Autonomie erfordert.\n\nEs wurde unabhängig von anderen Agenten-Frameworks entwickelt statt als Schicht darüber, mit dem Ziel einer leichtgewichtigeren, direkteren API zur Definition von Agentenrollen und Aufgabendelegation.\n\nCrewAI eignet sich für Entwickler, die Anwendungen bauen, bei denen eine Aufgabe davon profitiert, auf spezialisierte, kollaborierende Agenten aufgeteilt zu werden – Recherche-und-Schreib-Pipelines, mehrstufige Analysen oder Automatisierung, die autonomes Schlussfolgern mit deterministischen Schritten mischt –, eine andere Ebene als LangChain (ebenfalls in diesem Katalog), das allgemeine Bausteine für LLM-Anwendungen (Chains, Retrieval, Tool-Nutzung) bietet statt eines dedizierten Multi-Agent-Orchestrierungsmodells."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2023-10-27",
+      "archived": false,
+      "openIssuesCount": 803,
+      "stargazersCount": 58581,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 79
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Another multi-agent orchestration framework in an already crowded ai category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "ai-agents",
+      "strength": "primary"
+    },
+    {
+      "concept": "multi-agent",
+      "strength": "primary"
+    },
+    {
+      "concept": "agent-orchestration",
+      "strength": "primary"
+    }
+  ]
 }

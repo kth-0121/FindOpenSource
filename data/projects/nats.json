@@ -42,5 +42,37 @@
       "description": "Leichtgewichtiges, hochperformantes Messaging-System für Cloud-native Anwendungen, aufgebaut auf Einfachheit und geringem Betriebsaufwand.",
       "longDescription": "NATS bietet Publish/Subscribe-Messaging, Request/Reply und dauerhaftes Streaming (über seine JetStream-Erweiterung) in einer einzigen, kleinen, leicht zu betreibenden Binärdatei und priorisiert Einfachheit und Performance über den breiteren Funktionsumfang schwererer Message-Broker. Es ist ein von der CNCF graduiertes Projekt, das häufig als Messaging-Rückgrat für Microservices und IoT genutzt wird.\n\nNATS eignet sich für Teams, die leichtgewichtiges, latenzarmes Messaging ohne den Betriebsaufwand von RabbitMQ oder Kafka (ebenfalls in diesem Katalog) wollen – ein drittes, einfacheres Messaging-Paradigma neben diesen beiden etablierten Optionen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2012-10-29",
+      "archived": false,
+      "openIssuesCount": 536,
+      "stargazersCount": 20706,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Lightweight, high-performance messaging system, a distinctive simpler alternative to Kafka."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "messaging",
+      "strength": "primary"
+    },
+    {
+      "concept": "pubsub",
+      "strength": "primary"
+    },
+    {
+      "concept": "message-broker",
+      "strength": "secondary"
+    }
+  ]
 }

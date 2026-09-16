@@ -42,5 +42,29 @@
       "description": "Daten-Framework zum Verbinden großer Sprachmodelle mit deinen eigenen Daten – Dokumenten, Datenbanken, APIs – für Retrieval-Augmented-Anwendungen.",
       "longDescription": "LlamaIndex konzentriert sich auf die Datenseite von LLM-Anwendungen: Dokumente und strukturierte Daten aufnehmen, sie für effizienten Abruf indexieren und diesen Index mit einem LLM verbinden, damit es Fragen beantworten kann, die in deinen eigenen Daten verankert sind, statt nur in seinen Trainingsdaten. Es unterstützt von Haus aus eine breite Palette an Datenkonnektoren und Indexierungsstrategien.\n\nLlamaIndex eignet sich für Teams, die Anwendungen bauen, bei denen es das Kernproblem ist, ein LLM über private oder domänenspezifische Daten schlussfolgern zu lassen – als Ergänzung zu LangChain (ebenfalls in diesem Katalog): Beide werden häufig zusammen genutzt, wobei LlamaIndex Datenaufnahme und -abruf übernimmt und LangChain die breitere Anwendungsorchestrierung."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2022-11-02",
+      "archived": false,
+      "openIssuesCount": 771,
+      "stargazersCount": 52166,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Leading data-framework for LLM/RAG applications, meaningful overlap with LangChain."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "large-language-models",
+      "strength": "secondary"
+    }
+  ]
 }

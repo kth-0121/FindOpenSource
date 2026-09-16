@@ -43,5 +43,33 @@
       "description": "Cloud-natives API-Gateway, das Routing, Load Balancing, Authentifizierung und Traffic-Management für Microservices, APIs und LLM-/MCP-Traffic übernimmt.",
       "longDescription": "Kong (Kong Gateway) ist ein cloud-natives, plattformunabhängiges API-Gateway, das auf hohe Performance ausgelegt und über ein Plugin-System erweiterbar ist. Es steht vor deinen Diensten und übernimmt Proxying, Routing, Load Balancing, Health-Checks und Authentifizierung für API- und Microservice-Traffic – als zentrale Schicht, statt diese Logik in jeden einzelnen Dienst einzubauen.\n\nÜber gewöhnlichen API-Traffic hinaus bietet Kong auch Gateway-Funktionen speziell für KI-Workloads, darunter Multi-LLM-Unterstützung, semantische Sicherheit sowie Traffic-Sicherheit und -Analyse für MCP-Traffic (Model Context Protocol). Es läuft nativ auf Kubernetes über einen offiziellen Kubernetes Ingress Controller und lässt sich alternativ über Kongs eigene gehostete Konnect-Plattform bereitstellen, falls du es nicht selbst betreiben möchtest.\n\nKong eignet sich für Teams, die vor vielen Diensten oder APIs eine dedizierte, über Plugins erweiterbare Gateway-Schicht benötigen – für Routing, Auth und Traffic-Policy –, statt diese Logik in jedem Dienst einzeln zu implementieren oder einen general-purpose Reverse Proxy zu verwenden."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-07",
+      "repoCreatedAt": "2014-11-17",
+      "archived": false,
+      "openIssuesCount": 200,
+      "stargazersCount": 44139,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted open-source API gateways; strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "api-gateway",
+      "strength": "primary"
+    },
+    {
+      "concept": "rate-limiting",
+      "strength": "secondary"
+    }
+  ]
 }

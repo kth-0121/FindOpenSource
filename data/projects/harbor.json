@@ -42,5 +42,29 @@
       "description": "Selbst gehostete, von der CNCF graduierte Container-Registry mit integriertem Schwachstellenscanning, Image-Signierung und Zugriffskontrolle.",
       "longDescription": "Harbor speichert und liefert Container-Images (und andere OCI-Artefakte) auf dieselbe Weise wie eine öffentliche Registry wie Docker Hub, aber selbst gehostet innerhalb der eigenen Infrastruktur, mit rollenbasierter Zugriffskontrolle, automatisiertem Schwachstellenscanning gespeicherter Images und Replikation zwischen mehreren Harbor-Instanzen. Es ist ein von der CNCF graduiertes Projekt, das breit als Enterprise-Grade-Private-Registry eingesetzt wird.\n\nHarbor eignet sich für Teams, die eine private, selbst gehostete Container-Registry mit integriertem Sicherheitsscanning statt einer Registry eines Drittanbieters benötigen – als Ergänzung zu Trivy (ebenfalls in diesem Katalog), einem der Scanner, die Harbor intern nutzen kann."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-01-28",
+      "archived": false,
+      "openIssuesCount": 898,
+      "stargazersCount": 29369,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Standard self-hosted container registry with strong security scanning integration."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "container-scanning",
+      "strength": "secondary"
+    }
+  ]
 }

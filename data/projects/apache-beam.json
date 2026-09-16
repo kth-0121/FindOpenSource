@@ -44,5 +44,33 @@
       "description": "Einheitliches Programmiermodell zum Definieren von Batch- und Stream-Datenverarbeitungspipelines, die portabel über mehrere Ausführungs-Engines hinweg laufen können.",
       "longDescription": "Apache Beam lässt ein Team eine Datenpipeline einmal mit seiner einheitlichen Batch/Stream-API schreiben und dieselbe Pipeline dann auf verschiedenen zugrunde liegenden Ausführungs-Engines laufen lassen – einschließlich Flink und Spark (ebenfalls in diesem Katalog) –, ohne sie für jede neu zu schreiben. Das verhindert, dass die Logik einer Pipeline an eine bestimmte Verarbeitungs-Engine gebunden wird.\n\nBeam eignet sich für Teams, die Pipeline-Portabilität über Ausführungs-Engines hinweg wollen, oder die auf Google Cloud Dataflow aufbauen (das Beam als Programmiermodell nutzt) – eine andere Schicht als Flink oder Spark selbst, die die Engines sind, auf denen Beam-Pipelines tatsächlich laufen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-02-02",
+      "archived": false,
+      "openIssuesCount": 3961,
+      "stargazersCount": 8663,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Unified batch/stream processing model, a distinct approach within analytics."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "data-pipeline",
+      "strength": "primary"
+    },
+    {
+      "concept": "etl",
+      "strength": "secondary"
+    }
+  ]
 }

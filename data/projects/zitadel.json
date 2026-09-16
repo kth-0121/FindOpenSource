@@ -45,5 +45,41 @@
       "description": "Cloud-native Identity- und Access-Management-Plattform mit Multi-Tenancy, SSO, MFA und OIDC-/SAML-Unterstützung, nutzbar selbst gehostet oder als verwalteter Dienst.",
       "longDescription": "ZITADEL ist eine Open-Source-Plattform für Identity- und Access-Management, die um eine strikte Multi-Tenant-Hierarchie – Identity System, Organisationen und Projekte – herum aufgebaut ist, mit isolierten Daten und Richtlinien-Geltungsbereichen auf jeder Ebene. Sie bietet Single Sign-on, Multi-Faktor-Authentifizierung, Passkeys, OIDC, SAML und SCIM von Haus aus, und jede Ressource und Aktion ist über gRPC-, connectRPC- und REST-/HTTP-APIs verfügbar.\n\nDie Architektur schreibt jede Änderung als unveränderliches Event, was einen umfassenden, per API zugänglichen Audit-Trail ermöglicht statt einer Reihe selektiv protokollierter Aktionen. ZITADEL Cloud und selbst gehostetes ZITADEL laufen auf derselben Codebasis, und das Projekt ist auf unterbrechungsfreie Updates und horizontale Skalierbarkeit ausgelegt, ohne auf externe Session-Speicher angewiesen zu sein.\n\nZITADEL eignet sich für Teams, die Multi-Tenant-SaaS- oder B2B-Plattformen bauen und native Unterstützung für Organisationen und Instanz-Isolation benötigen, statt Multi-Tenancy nachträglich an ein Single-Tenant-Identitätssystem anzuflanschen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2020-03-16",
+      "archived": false,
+      "openIssuesCount": 1183,
+      "stargazersCount": 15024,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Modern cloud-native identity platform, a newer alternative to Keycloak with a distinct multi-tenancy focus."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "authentication",
+      "strength": "primary"
+    },
+    {
+      "concept": "sso",
+      "strength": "secondary"
+    },
+    {
+      "concept": "oidc",
+      "strength": "secondary"
+    },
+    {
+      "concept": "identity",
+      "strength": "secondary"
+    }
+  ]
 }

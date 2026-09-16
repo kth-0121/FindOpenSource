@@ -42,5 +42,29 @@
       "description": "Quelloffenes Framework zum Bau produktionsreifer Such- und RAG-(Retrieval-Augmented-Generation-)Anwendungen mit LLMs.",
       "longDescription": "Haystack bietet zusammensetzbare Bausteine – Dokumentenabruf, Embedding, Ranking, Generierung – zum Bau LLM-gestützter Such- und Frage-Antwort-Pipelines, mit Konnektoren zu vielen Vektordatenbanken, Dokumentenspeichern und Modellanbietern. Es ist um explizite, inspizierbare Pipelines statt einer einzigen Blackbox-Abstraktion herum konzipiert.\n\nHaystack eignet sich für Teams, die speziell Retrieval-Augmented-Generation- oder Enterprise-Search-Anwendungen bauen – eine fokussiertere Alternative zu LangChains (ebenfalls in diesem Katalog) breiterem, allgemeinem LLM-Anwendungsframework."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-11-14",
+      "archived": false,
+      "openIssuesCount": 143,
+      "stargazersCount": 26512,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Established RAG/LLM orchestration framework, meaningful overlap with LangChain/LlamaIndex."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "large-language-models",
+      "strength": "secondary"
+    }
+  ]
 }

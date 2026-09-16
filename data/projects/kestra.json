@@ -43,5 +43,33 @@
       "description": "Deklarative, YAML-basierte Orchestrierungsplattform zum Planen und Orchestrieren von Datenpipelines, ETL-Jobs und Geschäftsworkflows.",
       "longDescription": "Kestra lässt Teams Workflows in YAML statt in Code definieren, wodurch Pipelines leicht zu versionieren, zu überprüfen und programmatisch zu generieren sind, während eingebettete Skripte in beliebigen Sprachen für die eigentliche Task-Logik weiterhin unterstützt werden. Es bietet eingebautes Scheduling, Event-Trigger, Wiederholungsversuche und eine UI zur Überwachung von Läufen.\n\nKestra eignet sich für Teams, die deklarative, sprachunabhängige Workflow-Definitionen dem Python-first-Ansatz von Prefect (ebenfalls in diesem Katalog) vorziehen – nützlich für Teams mit gemischtsprachigen Pipelines oder die Workflows wollen, die andere Tools generieren und bearbeiten können."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-08-24",
+      "archived": false,
+      "openIssuesCount": 683,
+      "stargazersCount": 28121,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Declarative orchestration platform, meaningful overlap with Prefect/Temporal/Argo Workflows."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "workflow-orchestration",
+      "strength": "primary"
+    },
+    {
+      "concept": "pipeline-automation",
+      "strength": "secondary"
+    }
+  ]
 }

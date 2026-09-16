@@ -42,5 +42,33 @@
       "description": "Kubernetes-Performance- und Skalierungstest-Tool, das konfigurierbare Cluster-Last erzeugt, um zu messen, wie sich ein Cluster unter Belastung verhält.",
       "longDescription": "kube-burner erstellt und löscht Kubernetes-Objekte mit konfigurierbarer Rate und Skalierung, um echten Workload-Druck zu simulieren, und misst währenddessen Cluster- und API-Server-Performance-Metriken. Es wird häufig verwendet, um Cluster-Upgrades zu benchmarken, Kapazitätsplanung zu validieren und Performance-Regressionen zu erkennen, bevor sie die Produktion erreichen.\n\nkube-burner eignet sich für Platform-Teams, die die Kubernetes-Control-Plane selbst lasttesten müssen – ein anderes Ziel als k6 (ebenfalls in diesem Katalog), das Anwendungen und APIs statt der zugrunde liegenden Cluster-Infrastruktur lasttestet."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-03",
+      "repoCreatedAt": "2020-09-02",
+      "archived": false,
+      "openIssuesCount": 19,
+      "stargazersCount": 791,
+      "productionReadiness": "emerging",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 80
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Kubernetes performance/scale testing tool, a narrow niche within testing."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "performance-testing",
+      "strength": "secondary"
+    },
+    {
+      "concept": "kubernetes-testing",
+      "strength": "secondary"
+    }
+  ]
 }

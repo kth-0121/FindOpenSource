@@ -42,5 +42,29 @@
       "description": "Daemonloser Container-Engine, der Container als direkter Docker-Ersatz ausführt, baut und verwaltet, ohne einen Root-Hintergrunddienst.",
       "longDescription": "Podman führt OCI-Container in den meisten Fällen mit denselben Befehlen wie Docker aus, jedoch ohne einen dauerhaften Hintergrunddaemon und mit besserer Unterstützung für die Ausführung von Containern standardmäßig als Nicht-Root-Nutzer – ein anderes Sicherheits- und Architekturmodell als Dockers Client-Server-Design. Es kann auch direkt aus laufenden Containern Kubernetes-YAML generieren.\n\nPodman eignet sich für Teams, die Docker-kompatibles Container-Tooling mit kleinerer Angriffsfläche und ohne Root-Daemon wollen – als Ergänzung zu Container-Registry- und Orchestrierungstools, die bereits in diesem Katalog sind, wie Portainer und Kubernetes."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2017-11-01",
+      "archived": false,
+      "openIssuesCount": 1076,
+      "stargazersCount": 32871,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading daemonless, rootless Docker alternative; strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "containers",
+      "strength": "primary"
+    }
+  ]
 }

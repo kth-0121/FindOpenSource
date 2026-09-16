@@ -42,5 +42,29 @@
       "description": "Application-Performance-Monitoring(APM)-Plattform, die verteiltes Tracing, Service-Topologie und Metriken in einem System bereitstellt.",
       "longDescription": "Apache SkyWalking ist eine vollständige APM-Plattform, die verteiltes Tracing, Service-Abhängigkeits-Mapping, Metriken und Alarmierung für Microservices und Cloud-native Anwendungen kombiniert, mit Auto-Instrumentierungs-Agenten für viele Sprachen, die keine Codeänderungen erfordern. Sie zeigt nicht nur einzelne Traces, sondern die gesamte Service-Topologie und -Gesundheit.\n\nSkyWalking eignet sich für Teams, die eine breitere All-in-one-APM-Plattform wollen, statt Tracing, Metriken und Dashboards aus separaten Tools zusammenzustellen – ein weiterer Umfang als Jaegers reines verteiltes Tracing (ebenfalls in diesem Katalog)."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2015-11-07",
+      "archived": false,
+      "openIssuesCount": 43,
+      "stargazersCount": 24953,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "APM/observability platform, overlaps meaningfully with Jaeger/OpenTelemetry in the largest category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "distributed-tracing",
+      "strength": "secondary"
+    }
+  ]
 }

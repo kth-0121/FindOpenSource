@@ -42,5 +42,29 @@
       "description": "Verteilte Wide-Column-NoSQL-Datenbank für massiven Maßstab und keinen einzelnen Ausfallpunkt über mehrere Rechenzentren hinweg.",
       "longDescription": "Apache Cassandra speichert Daten in einem Wide-Column-Modell über einen Cluster ohne einzelnen Master-Knoten, sodass Schreib- und Lesevorgänge weiterhin funktionieren, selbst wenn ganze Rechenzentren ausfallen. Es ist für sehr hohen Schreibdurchsatz und lineare Skalierbarkeit durch Hinzufügen weiterer Knoten gebaut.\n\nCassandra eignet sich für Teams, die Anwendungen bauen, die über mehrere Regionen hinweg ohne einzelnen Ausfallpunkt verfügbar bleiben müssen – Messaging, IoT, Zeitreihen im großen Maßstab – ein anderes Daten- und Konsistenzmodell als das dokumentenorientierte MongoDB oder das relationale PostgreSQL, die bereits in diesem Katalog sind."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2009-05-21",
+      "archived": false,
+      "openIssuesCount": 533,
+      "stargazersCount": 10091,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Industry-standard wide-column distributed database, a strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "nosql",
+      "strength": "primary"
+    }
+  ]
 }

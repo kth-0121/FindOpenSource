@@ -41,5 +41,29 @@
       "description": "Dokumentenorientierte NoSQL-Datenbank, konzipiert für Skalierbarkeit und Entwickler-Flexibilität.",
       "longDescription": "Dieses Repository enthält den Kern-Datenbankserver von MongoDB (`mongod`) und den Sharding-Router (`mongos`) – also die dokumentenorientierte NoSQL-Datenbank selbst – zusammen mit den Werkzeugen, die zum Bauen und Ausführen aus dem Quellcode benötigt werden. Die meisten Nutzer installieren ein vorgefertigtes Paket (über die offiziellen Downloads, Homebrew oder das offizielle Docker-Image), statt aus dem Quellcode zu bauen.\n\nDas breitere, von diesem Repository referenzierte MongoDB-Ökosystem umfasst `mongosh` (die interaktive Shell), MongoDB Compass (eine GUI zum Erkunden und Abfragen von Daten) sowie offizielle Treiber für die meisten gängigen Programmiersprachen. Für Teams, die keine eigenen Server betreiben möchten, ist MongoDB Atlas der offizielle verwaltete Cloud-Datenbankdienst.\n\nMongoDB eignet sich für Anwendungen, die Daten als flexible, JSON-ähnliche Dokumente statt als feste relationale Tabellen modellieren, und die für größere Datensätze eine eingebaute horizontale Skalierung durch Sharding benötigen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2009-01-15",
+      "archived": false,
+      "openIssuesCount": 34,
+      "stargazersCount": 28557,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 81
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted NoSQL databases; note SSPL is a source-available license, not OSI-approved."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "nosql",
+      "strength": "primary"
+    }
+  ]
 }

@@ -42,5 +42,33 @@
       "description": "Kubernetes-native Plattform zum Servieren von Machine-Learning-Modellen im großen Maßstab, die das Modell-Deployment über Frameworks hinweg standardisiert.",
       "longDescription": "KServe bietet eine standardisierte Kubernetes-Custom-Resource zum Deployen trainierter Modelle – von scikit-learn, PyTorch, TensorFlow und anderen, bereits in diesem Katalog – mit integriertem Autoscaling (einschließlich Skalierung auf null), Canary-Rollouts und einer konsistenten Inferenz-API, unabhängig davon, welches Framework das Modell trainiert hat. Es ist ein CNCF-Projekt, das speziell für allgemeines ML-Modell-Serving statt speziell für LLMs gebaut ist.\n\nKServe eignet sich für Platform-Teams, die standardisieren, wie Modelle über viele Data-Science-Teams und Frameworks hinweg deployt werden – eine breiter angelegte Serving-Plattform als vLLM oder SGLang (ebenfalls in diesem Katalog), die sich speziell auf LLM-Inferenz konzentrieren."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2019-03-27",
+      "archived": false,
+      "openIssuesCount": 209,
+      "stargazersCount": 5909,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 91
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Standardized Kubernetes model-serving layer, complements Kubeflow/MLflow."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "model-serving",
+      "strength": "primary"
+    },
+    {
+      "concept": "llm-serving",
+      "strength": "secondary"
+    }
+  ]
 }

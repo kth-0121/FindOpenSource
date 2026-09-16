@@ -42,5 +42,37 @@
       "description": "Schneller, eigenständiger Server zum Skalieren, Verarbeiten und Konvertieren von Bildern in Echtzeit, als direkter Ersatz für Bildverarbeitungscode in der eigenen Anwendung.",
       "longDescription": "imgproxy ist ein eigenständiger Server zum Skalieren, Verarbeiten und Konvertieren von Bildern, aufgebaut auf Geschwindigkeit, Sicherheit und Einfachheit. Statt Bildverarbeitungsbibliotheken oder Kommandozeilentools innerhalb einer Webanwendung zu pflegen, richtet ein Team Bild-URLs auf imgproxy, das Bilder bei Bedarf verarbeitet und optimiert – Bilder müssen also nicht bei jeder Designänderung neu aufbereitet werden.\n\nDie Open-Source-Edition unterstützt gängige Formate wie JPEG, PNG, GIF, WebP, AVIF und JPEG XL; ein separates kommerzielles Produkt, imgproxy Pro, fügt auf derselben Open-Source-Basis Vorschau-Generierung für Video-, PDF- und Photoshop-Dateien hinzu.\n\nimgproxy eignet sich für Teams, die On-the-fly-Bildskalierung und -optimierung als Infrastruktur benötigen – etwa vor einem CDN oder Storage-Bucket –, statt Bildverarbeitungslogik in jede bildausliefernde Anwendung einzubauen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2017-06-20",
+      "archived": false,
+      "openIssuesCount": 69,
+      "stargazersCount": 11068,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Fast on-the-fly image processing server, a distinct focused tool within media."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "image-processing",
+      "strength": "primary"
+    },
+    {
+      "concept": "image-resizing",
+      "strength": "primary"
+    },
+    {
+      "concept": "image-optimization",
+      "strength": "secondary"
+    }
+  ]
 }

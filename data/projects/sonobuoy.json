@@ -41,5 +41,29 @@
       "description": "Kubernetes-Konformitätstest-Tool, das diagnostisch prüft, ob ein Cluster korrekt konfiguriert ist und sich gemäß der Kubernetes-Spezifikation verhält.",
       "longDescription": "Sonobuoy führt eine Reihe von Diagnose- und Konformitätstests gegen einen Kubernetes-Cluster aus – einschließlich der offiziellen Kubernetes-Konformitäts-Testsuite –, um zu prüfen, ob der Cluster korrekt konfiguriert und mit dem Upstream-Kubernetes-Verhalten kompatibel ist. Es verpackt Ergebnisse zur leichten Überprüfung, statt ein manuelles Testsuite-Setup zu erfordern.\n\nSonobuoy eignet sich für Platform-Teams, die einen neuen Cluster, eine benutzerdefinierte Kubernetes-Distribution oder ein Managed-Kubernetes-Angebot gegen den offiziellen Konformitätsstandard validieren – ein engeres, spezialisierteres Anliegen als der bereits im Katalog vorhandene allgemeine Kubernetes-Eintrag."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-07-27",
+      "repoCreatedAt": "2017-07-26",
+      "archived": false,
+      "openIssuesCount": 37,
+      "stargazersCount": 3049,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 79
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Kubernetes conformance-testing tool, a narrow diagnostic niche within testing."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "kubernetes-testing",
+      "strength": "primary"
+    }
+  ]
 }

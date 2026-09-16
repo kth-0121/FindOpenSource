@@ -43,5 +43,33 @@
       "description": "Open-Source-Plattform für Feature-Management, um Funktionen schrittweise auszurollen, Experimente durchzuführen und Releases zu steuern, ohne Code neu zu deployen.",
       "longDescription": "Unleash ist eine Open-Source-Plattform für Feature-Management, mit der Teams unabhängig vom Zeitpunkt des Code-Deployments steuern können, wann und wie neue Funktionen bei den Nutzern ankommen. Feature Flags erlauben es einem Team, Code bereits in die Produktion zu bringen und eine Funktion anschließend für eine Untergruppe von Nutzern zu aktivieren – oder sofort zurückzurollen – ohne ein neues Deployment, und mehrere Funktionen gleichzeitig mit echten Produktionsdaten zu entwickeln und zu testen, statt langlebige Feature-Branches zu koordinieren.\n\nEs unterstützt schrittweise Rollouts, Targeting-Regeln und die Art kontrollierter Experimente, für die Feature Flags üblicherweise genutzt werden, mit Client-SDKs für viele Sprachen sowie sowohl einem selbst gehosteten Deployment als auch einem verwalteten Unleash-Angebot.\n\nUnleash eignet sich für Teams, die das Releasen von Code vom Releasen von Funktionen entkoppeln möchten – um das Risiko einzelner Deployments zu senken –, statt sich auf Feature-Toggles zum Deployment-Zeitpunkt oder langlebige Branches zu verlassen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-09-29",
+      "archived": false,
+      "openIssuesCount": 38,
+      "stargazersCount": 13808,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading open-source feature-flag/feature-management platform."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "feature-flags",
+      "strength": "primary"
+    },
+    {
+      "concept": "feature-management",
+      "strength": "primary"
+    }
+  ]
 }

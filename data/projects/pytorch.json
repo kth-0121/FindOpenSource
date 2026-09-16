@@ -43,5 +43,29 @@
       "description": "Quelloffenes Machine-Learning-Framework, das den Weg vom Forschungsprototyp bis zum Produktions-Deployment beschleunigt.",
       "longDescription": "PyTorch ist eine Python-Bibliothek, die um zwei zentrale Fähigkeiten herum aufgebaut ist: eine NumPy-ähnliche Tensor-Bibliothek mit starker GPU-Beschleunigung sowie ein Deep-Learning-Framework, das auf einem bandbasierten (tape-based) automatischen Differenzierungssystem (Autograd) aufbaut, das Operationen auf Tensoren nachverfolgt, um Gradienten zu berechnen. Das Modul `torch.nn` baut auf Autograd neuronale Netzwerkschichten auf, `torch.jit` (TorchScript) kann PyTorch-Code in serialisierbare, optimierbare Modelle kompilieren, und bestehende Python-Bibliotheken wie NumPy, SciPy und Cython lassen sich zur Erweiterung nutzen.\n\nPyTorch wird typischerweise entweder als GPU-beschleunigter Ersatz für NumPy oder als Forschungsplattform für Deep Learning eingesetzt, und sein Design bevorzugt einen imperativen, Python-first geprägten Stil – man schreibt und debuggt Modelle als gewöhnlichen Python-Code statt über eine separate statische Graphdefinition.\n\nEs eignet sich für Forscher und Ingenieure, die neuronale Netze bauen und trainieren und dabei eine flexible, Python-native Tensor- und Autograd-Bibliothek einem höherstufigeren, stärker vorgegebenen Deep-Learning-Framework vorziehen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-08-13",
+      "archived": false,
+      "openIssuesCount": 17603,
+      "stargazersCount": 103019,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the two dominant deep-learning frameworks; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "machine-learning",
+      "strength": "primary"
+    }
+  ]
 }

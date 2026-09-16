@@ -42,5 +42,29 @@
       "description": "In-Memory-Datenspeicher und community-geführter Fork von Redis, entstanden nach Redis' Lizenzänderung 2024, die es von einer Open-Source-Lizenz wegführte.",
       "longDescription": "Valkey ist ein direkter Ersatz für Redis – gleiches Protokoll, gleiche Befehle, gleiche Anwendungsfälle als In-Memory-Datenbank, Cache und Message-Broker – gepflegt als Open-Source-Projekt unter der Linux Foundation, nachdem Redis Inc. Redis von seiner ursprünglich offenen Lizenz weg neu lizenziert hat. Es wird von AWS, Google und anderen großen Cloud-Anbietern unterstützt.\n\nValkey eignet sich für Teams, die genau den Funktionsumfang und die API von Redis unter einer Lizenz wollen, die quelloffen bleibt – eine direkt relevante Alternative für alle, die den bestehenden Redis-Eintrag in diesem Katalog gegen dessen aktuelle Lizenzbedingungen abwägen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2024-03-22",
+      "archived": false,
+      "openIssuesCount": 894,
+      "stargazersCount": 27205,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 94
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Community fork of Redis under a permissive license, notable given Redis's license change to a source-available/AGPL model."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "nosql",
+      "strength": "secondary"
+    }
+  ]
 }

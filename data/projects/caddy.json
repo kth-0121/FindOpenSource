@@ -42,5 +42,33 @@
       "description": "Moderner Webserver und Reverse Proxy mit standardmäßig automatischem HTTPS, gebaut für Einfachheit im Vergleich zur klassischen Webserver-Konfiguration.",
       "longDescription": "Caddy beschafft und erneuert TLS-Zertifikate automatisch von Haus aus, mit einem einfachen, lesbaren Konfigurationsformat statt der ausführlicheren Syntax älterer Webserver – HTTPS korrekt bereitzustellen erfordert also überhaupt keine manuelle Zertifikatseinrichtung. Es handhabt Reverse-Proxying, das Ausliefern statischer Dateien und Lastverteilung mit sinnvollen Standardeinstellungen.\n\nCaddy eignet sich für Teams, die einen unkomplizierten, entwicklerfreundlichen Webserver oder Reverse Proxy mit automatischem HTTPS wollen – eine leichtgewichtigere, einfacher zu konfigurierende Alternative zu Traefik oder NGINX (ebenfalls in diesem Katalog) für Teams, die keine Kubernetes-native Service Discovery benötigen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2015-01-13",
+      "archived": false,
+      "openIssuesCount": 282,
+      "stargazersCount": 75752,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Simple automatic-HTTPS web server/reverse proxy, a popular and distinct alternative to nginx/Traefik."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "reverse-proxy",
+      "strength": "primary"
+    },
+    {
+      "concept": "web-server",
+      "strength": "primary"
+    }
+  ]
 }

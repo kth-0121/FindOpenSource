@@ -43,5 +43,23 @@
       "description": "Infrastruktur- und Netzwerküberwachungsplattform für Unternehmen mit integrierten Alarmen, Auto-Discovery und Langzeit-Datenspeicherung.",
       "longDescription": "Zabbix überwacht Server, Netzwerkgeräte, Anwendungen und Dienste und vereint Datensammlung, schwellenwertbasierte Alarmierung, Auto-Discovery und langfristige historische Speicherung in einer einzigen in sich geschlossenen Plattform, statt mehrere Tools zu verdrahten. Es existierte bereits vor dem Cloud-nativen Monitoring-Stack und wird weiterhin breit für klassisches Infrastruktur- und Netzwerkmonitoring eingesetzt.\n\nZabbix eignet sich für Teams, die klassische Infrastruktur überwachen – Netzwerkgeräte, On-Premises-Server, gemischte Umgebungen – und eine All-in-one-Plattform wollen, eine andere Zielgruppe als die Cloud-nativen, Kubernetes-first ausgerichteten Prometheus und Grafana, die bereits in diesem Katalog sind."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-02-27",
+      "archived": false,
+      "openIssuesCount": 108,
+      "stargazersCount": 6376,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Long-standing enterprise monitoring platform, meaningful overlap with Prometheus/Netdata in the largest category."
+    },
+    "flag": "ok"
   }
 }

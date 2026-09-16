@@ -44,5 +44,41 @@
       "description": "Allzweck-Policy-Engine, von der CNCF graduiert, zur Durchsetzung von Autorisierungs-, Compliance- und Konfigurationsregeln als Code über Microservices, APIs, Kubernetes und CI-Pipelines hinweg.",
       "longDescription": "Open Policy Agent (OPA) ist eine Allzweck-Policy-Engine, die Richtlinienentscheidungen vom Anwendungscode entkoppelt. Richtlinien werden in Rego geschrieben, einer deklarativen Abfragesprache, die eigens dafür entwickelt wurde, Regeln über strukturierte Daten auszudrücken; OPA wertet diese Richtlinien gegen eine Anfrage oder Ressource aus und liefert eine Erlauben/Verweigern-Entscheidung (oder eine reichhaltigere strukturierte Ausgabe), die der aufrufende Dienst dann durchsetzt.\n\nDa OPA eine eigenständige Engine ist und keine in eine einzelne Anwendung eingebettete Bibliothek, wird es üblicherweise als Sidecar, als Kubernetes-Admission-Controller, der nicht konforme Ressourcen vor ihrer Erstellung ablehnt, oder als Richtlinienprüfung innerhalb von CI-Pipelines eingesetzt – eine Richtliniensprache, die an sehr unterschiedlichen Durchsetzungspunkten wiederverwendet wird, statt Regeln pro System neu zu implementieren.\n\nOPA eignet sich für Platform- und Security-Teams, die Richtlinien konsistent über viele Dienste und Schichten des Stacks hinweg durchsetzen müssen. Es ist eine andere Ebene als Casbin oder OpenFGA (ebenfalls in diesem Katalog): Das sind Autorisierungsbibliotheken, die eine Anwendung direkt einbettet, um Berechtigungen im eigenen Code zu prüfen, während OPA typischerweise als gemeinsam genutzte Infrastruktur läuft, die viele verschiedene Systeme – darunter auch Anwendungscode – abfragen können."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-12-28",
+      "archived": false,
+      "openIssuesCount": 312,
+      "stargazersCount": 12234,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 100
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard general-purpose policy engine (Rego), essential representative project for policy-as-code."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "policy-as-code",
+      "strength": "primary"
+    },
+    {
+      "concept": "policy-engine",
+      "strength": "primary"
+    },
+    {
+      "concept": "rego",
+      "strength": "primary"
+    },
+    {
+      "concept": "authorization-policy",
+      "strength": "secondary"
+    }
+  ]
 }

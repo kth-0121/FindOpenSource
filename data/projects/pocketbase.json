@@ -45,5 +45,29 @@
       "description": "Quelloffenes Backend mit eingebetteter SQLite-Datenbank, Authentifizierung, Dateispeicher und einer Echtzeit-API in einer einzigen ausführbaren Datei.",
       "longDescription": "PocketBase ist ein in Go geschriebenes Open-Source-Backend, das als einzelne ausführbare Datei ausgeliefert wird: Es bündelt eine eingebettete SQLite-Datenbank mit Echtzeit-Subscriptions, Datei- und Benutzerverwaltung, einer integrierten Admin-Dashboard-UI und einer REST-ähnlichen API, sodass ein kleines Backend läuft, ohne separate Datenbank-, Auth- und API-Dienste zusammenstellen zu müssen.\n\nEs lässt sich auf zwei Arten nutzen: die vorgefertigte ausführbare Datei (erweiterbar mit JavaScript über das eingebaute JS-VM-Plugin) direkt als eigenständiges Backend ausführen, oder PocketBase als Go-Bibliothek/Framework importieren, um eigene, benutzerdefinierte Geschäftslogik darauf aufzubauen und dabei weiterhin eine einzige portable, statisch verlinkte ausführbare Datei zu erzeugen. Offizielle SDKs sind für JavaScript und Dart verfügbar.\n\nDas Projekt weist darauf hin, dass es sich noch in aktiver Entwicklung befindet und vollständige Abwärtskompatibilität vor Erreichen von v1.0 nicht garantiert ist. PocketBase eignet sich für kleine bis mittlere Projekte, Prototypen oder eingebettete/selbst gehostete Apps, die ein minimales Single-Binary-Backend statt eines Multi-Service-Stacks möchten."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-12",
+      "repoCreatedAt": "2022-07-05",
+      "archived": false,
+      "openIssuesCount": 19,
+      "stargazersCount": 61038,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 84
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Single-binary backend with embedded SQLite, a genuinely distinctive lightweight approach vs. Supabase/Appwrite."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "sql",
+      "strength": "related"
+    }
+  ]
 }

@@ -44,5 +44,37 @@
       "description": "Googles UI-Toolkit zum Erstellen nativ kompilierter Anwendungen für Mobile, Web und Desktop aus einer einzigen Codebasis.",
       "longDescription": "Flutter ist Googles Open-Source-SDK zum Erstellen nativ kompilierter Apps für Mobilgeräte, Web und Desktop aus einer einzigen Dart-Codebasis. Statt native Plattform-Widgets zu umschließen, bringt es eine eigene Rendering-Engine (basierend auf Skia und Impeller) sowie einen vollständigen Widget-Katalog mit – inklusive Material- und Cupertino-Stil –, sodass das visuelle Design einer App nicht durch das begrenzt wird, was die jeweilige Plattform bietet.\n\nDie Entwicklung ist um zustandserhaltendes Hot Reload herum aufgebaut, das Codeänderungen sofort auf eine laufende App anwendet, ohne den App-Zustand zu verlieren. Das Tooling umfasst Editor-Plugins für VS Code und IntelliJ/Android Studio sowie Zehntausende Community-Pakete. Native Interoperabilität wird über FFI und Platform Channels unterstützt, wenn du auf vorhandenen plattformspezifischen Code zugreifen musst.\n\nFlutter richtet sich an Teams, die eine einzige Codebasis und ein konsistentes, pixelgenaues UI über iOS, Android, Web und Desktop (Windows, macOS, Linux) hinweg wollen, oder die es als UI-Toolkit für eine eigene Geräteplattform einbetten möchten."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-03-06",
+      "archived": false,
+      "openIssuesCount": 13179,
+      "stargazersCount": 178950,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the two dominant cross-platform mobile frameworks; essential pick for a thin mobile category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "cross-platform",
+      "strength": "primary"
+    },
+    {
+      "concept": "android",
+      "strength": "secondary"
+    },
+    {
+      "concept": "ios",
+      "strength": "secondary"
+    }
+  ]
 }

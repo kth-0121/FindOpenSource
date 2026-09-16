@@ -42,5 +42,33 @@
       "description": "Selbst gehostete Produktivitätsplattform für Dateisynchronisation und -freigabe, Zusammenarbeit und Kommunikation.",
       "longDescription": "Nextcloud Server ist eine selbst hostbare Plattform zum Speichern, Synchronisieren und Teilen von Dateien, Kontakten, Kalendern und mehr – positioniert als private, selbst kontrollierte Alternative zu Cloud-Speicher- und Groupware-Diensten für Endverbraucher. Die Kernfunktionalität wird durch ein App-Ökosystem erweitert (verfügbar über den integrierten App Store), das Dinge wie Kalender, Kontakte, Mail und Talk (Video-/Audio-Chat) abdeckt, sodass aus einer Basisinstallation eine umfassendere Kollaborationssuite werden kann.\n\nZu den Sicherheitsfunktionen gehören eingebaute Verschlüsselungsoptionen, Zwei-Faktor-Authentifizierung und ein aktives Bug-Bounty-Programm auf HackerOne. Nextcloud lässt sich auf verschiedene Weisen beziehen: Anmeldung bei einem Hosting-Anbieter, Selbstinstallation auf eigener Hardware, Kauf eines Geräts mit vorinstallierter Software oder Nutzung eines spezialisierten Nextcloud-Dienstleisters; ein separates Angebot, Nextcloud Enterprise, richtet sich an Geschäfts-, Behörden- und Bildungskunden.\n\nSie eignet sich für Einzelpersonen, Organisationen oder Teams im öffentlichen Sektor, die ihre Dateien und Kollaborationsdaten auf einer selbst kontrollierten Infrastruktur behalten möchten."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-06-02",
+      "archived": false,
+      "openIssuesCount": 3678,
+      "stargazersCount": 36809,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading self-hosted file-sync/collaboration suite, a strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "file-sync",
+      "strength": "primary"
+    },
+    {
+      "concept": "cloud-storage",
+      "strength": "secondary"
+    }
+  ]
 }

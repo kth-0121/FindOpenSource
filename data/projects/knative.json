@@ -42,5 +42,33 @@
       "description": "Kubernetes-native Plattform zum Bauen und Betreiben serverloser Anwendungen, die Autoscaling (einschließlich Skalierung auf null) und Traffic-Management übernimmt.",
       "longDescription": "Knative bietet die Bausteine für den Betrieb serverloser Workloads auf Kubernetes – automatisches Hochskalieren von Containern als Reaktion auf Traffic und Herunterskalieren auf null bei Leerlauf, Verwaltung von Revisionen und Traffic-Splitting für schrittweise Rollouts sowie Handhabung von Eventing zwischen Diensten. Es lässt ein Team serverloses Deployment auf bereits kontrollierter Infrastruktur erreichen, statt auf ein proprietäres Functions-Produkt einer Public Cloud.\n\nKnative eignet sich für Teams, die serverlose Deployment-Muster – Skalierung auf null, anfragegetriebene Skalierung – auf den eigenen Kubernetes-Clustern (ebenfalls in diesem Katalog) wollen, statt sich an die Serverless-Plattform eines bestimmten Cloud-Anbieters zu binden."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-08-25",
+      "repoCreatedAt": "2018-01-24",
+      "archived": false,
+      "openIssuesCount": 165,
+      "stargazersCount": 6091,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes-based serverless platform, a distinctive scale-to-zero approach."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "serverless",
+      "strength": "primary"
+    },
+    {
+      "concept": "scale-to-zero",
+      "strength": "primary"
+    }
+  ]
 }

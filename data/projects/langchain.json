@@ -42,5 +42,37 @@
       "description": "Framework zur Entwicklung von Anwendungen auf Basis großer Sprachmodelle, Agenten und Retrieval-Augmented Generation (RAG).",
       "longDescription": "LangChain ist ein Framework zum Erstellen von LLM-gestützten Anwendungen und Agenten, indem interoperable Komponenten – Chat-Modelle, Embeddings, Vektorspeicher, Retriever und Integrationen von Drittanbietern – hinter einer einheitlichen Schnittstelle miteinander verkettet werden. So kannst du den Anbieter wechseln, wenn sich die zugrunde liegende Modelllandschaft ändert, ohne die Anwendungslogik neu schreiben zu müssen.\n\nEs ist darauf ausgelegt, von schnellen Prototypen bis zu komplexeren Systemen zu skalieren: Man beginnt mit den High-Level-Abstraktionen von LangChain und wechselt bei wachsenden Anforderungen zu Lower-Level-Komponenten oder zu begleitenden Tools wie LangGraph (für besser kontrollierbare, zustandsbehaftete Agenten-Workflows) und LangSmith (zum Evaluieren, Debuggen und Deployen von LLM-Anwendungen). Es ist sowohl für Python als auch für JavaScript/TypeScript verfügbar.\n\nLangChain eignet sich für Entwickler, die Retrieval-Augmented-, Tool-nutzende oder mehrstufige LLM-Anwendungen bauen und dafür einen gemeinsamen Satz an Abstraktionen sowie eine große Bibliothek an Integrationen wollen, statt für jedes Modell oder jeden Vektorspeicher Klebecode von Grund auf zu schreiben."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2022-10-17",
+      "archived": false,
+      "openIssuesCount": 493,
+      "stargazersCount": 146365,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely adopted LLM application framework; essential representative project despite category saturation."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "large-language-models",
+      "strength": "primary"
+    },
+    {
+      "concept": "llm-agents",
+      "strength": "secondary"
+    },
+    {
+      "concept": "rag-evaluation",
+      "strength": "related"
+    }
+  ]
 }

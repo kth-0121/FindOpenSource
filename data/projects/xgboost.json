@@ -42,5 +42,29 @@
       "description": "Optimierte, verteilte Gradient-Boosting-Bibliothek, weit verbreitet für strukturierte/tabellarische Datenprobleme, ein Grundpfeiler des angewandten maschinellen Lernens.",
       "longDescription": "XGBoost implementiert Gradient-Boosted-Decision-Trees mit starkem Fokus auf Performance und Skalierbarkeit und war einer der beständigsten Gewinneralgorithmen bei Machine-Learning-Wettbewerben für strukturierte (tabellarische) Daten – der Art von Daten, die in Tabellen und Datenbanken zu finden sind, statt Bildern oder Text. Es läuft effizient auf einer einzelnen Maschine oder verteilt über einen Cluster.\n\nXGBoost eignet sich für Teams, die Klassifikations-, Regressions- oder Ranking-Probleme auf strukturierten Daten lösen – ein anderes Werkzeug als die Deep-Learning-Frameworks (PyTorch, TensorFlow, ebenfalls in diesem Katalog), die Bild-, Text- und Audioaufgaben dominieren, bei tabellarischen Daten aber oft von Gradient Boosting übertroffen werden."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-02-06",
+      "archived": false,
+      "openIssuesCount": 438,
+      "stargazersCount": 28765,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 92
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely used gradient-boosting libraries, a distinct classical-ML complement to deep-learning frameworks."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "machine-learning",
+      "strength": "primary"
+    }
+  ]
 }

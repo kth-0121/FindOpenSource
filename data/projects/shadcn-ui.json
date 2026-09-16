@@ -42,5 +42,23 @@
       "description": "Sammlung von zugänglichen React-Komponenten zum Kopieren und Einfügen, gebaut mit Radix UI und Tailwind CSS.",
       "longDescription": "shadcn/ui bietet eine Reihe barrierefreier, anpassbarer UI-Komponenten, gebaut mit React und Tailwind CSS. Statt sie als typisches npm-Paket zu verteilen, das man als undurchsichtige Abhängigkeit importiert, beschreibt sich das Projekt selbst als „Open Code“, gedacht als Ausgangspunkt: Man bringt den Komponenten-Quellcode direkt in das eigene Projekt und passt ihn dort an, erweitert und baut direkt darauf auf – man nutzt shadcn/ui im Grunde, um eine eigene Komponentenbibliothek zu bauen, statt von einer externen abhängig zu sein.\n\nEs ist MIT-lizenziert und unter ui.shadcn.com dokumentiert, wo die verfügbaren Komponenten und Nutzungsmuster ausführlich beschrieben werden.\n\nEs eignet sich für Teams, die von Anfang an volle Eigentümerschaft und Kontrolle über ihren Komponenten-Code und ihr Styling haben möchten, statt sich mit den Einschränkungen oder dem Theming-System einer traditionellen, als Abhängigkeit installierten Komponentenbibliothek herumzuschlagen."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-12",
+      "repoCreatedAt": "2023-01-04",
+      "archived": false,
+      "openIssuesCount": 1849,
+      "stargazersCount": 123814,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 84
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Extremely popular copy-paste component system, a genuinely different distribution model vs. MUI in a thin ui category."
+    },
+    "flag": "ok"
   }
 }

@@ -42,5 +42,29 @@
       "description": "Statisches Analysetool, das Kubernetes-YAML-Manifeste und Helm-Charts auf Fehlkonfigurationen scannt, bevor sie überhaupt deployt werden.",
       "longDescription": "kube-linter prüft Kubernetes-Manifeste gegen eine Reihe von Best-Practice-Regeln – fehlende Ressourcenlimits, als Root laufende Container, fehlende Health-Checks und mehr – direkt in einer CI-Pipeline oder lokal und findet so Konfigurationsfehler, bevor eine Ressource jemals auf einen Cluster angewendet wird. Es ist darauf ausgelegt, mit minimalem Setup in bestehende CI-Workflows eingebunden zu werden.\n\nkube-linter eignet sich für Teams, die Kubernetes-Fehlkonfigurationen zum Zeitpunkt der Überprüfung statt in Produktion finden wollen – eine Vor-Deployment-Ergänzung zu Kubescape und kube-bench (ebenfalls in diesem Katalog), die bereits laufende Cluster bewerten."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2020-08-13",
+      "archived": false,
+      "openIssuesCount": 90,
+      "stargazersCount": 3507,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Static analysis for Kubernetes YAML, a narrow niche overlapping with Kyverno/Kubescape."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "iac-scanning",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -42,5 +42,29 @@
       "description": "Erweitert Prometheus um Langzeitspeicherung, globale Abfragen über Cluster hinweg und Hochverfügbarkeit für großangelegte Metrik-Deployments.",
       "longDescription": "Thanos sitzt neben bestehenden Prometheus-Instanzen und fügt Fähigkeiten hinzu, die Prometheus allein nicht bietet: unbegrenzte Langzeit-Metrik-Aufbewahrung im Objektspeicher, eine einzige globale Abfrageansicht über mehrere Prometheus-Server und -Cluster hinweg sowie Deduplizierung für hochverfügbare Prometheus-Paare. Es ist ein von der CNCF graduiertes Projekt, das Prometheus erweitern statt ersetzen soll.\n\nThanos eignet sich für Teams, die Prometheus (ebenfalls in diesem Katalog) bereits im Multi-Cluster-Maßstab betreiben und an dessen Einzelinstanz-Grenzen gestoßen sind – eine ergänzende statt konkurrierende Erweiterung des bestehenden Monitoring-Stacks."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-11",
+      "repoCreatedAt": "2017-11-01",
+      "archived": false,
+      "openIssuesCount": 907,
+      "stargazersCount": 14203,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Long-term storage/global-view layer for Prometheus, a complementary rather than competing pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "metrics-storage",
+      "strength": "secondary"
+    }
+  ]
 }

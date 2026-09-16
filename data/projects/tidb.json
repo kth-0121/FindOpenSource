@@ -42,5 +42,33 @@
       "description": "MySQL-kompatible verteilte SQL-Datenbank, die horizontal skaliert und sowohl transaktionale als auch analytische Workloads unterstützt.",
       "longDescription": "TiDB spricht das MySQL-Protokoll, sodass bestehende MySQL-Anwendungen und -Tools sich mit minimalen Änderungen verbinden können, während die Datenbank selbst intern horizontal skalierbar und verteilt ist – das löst MySQLs traditionelle Skalierungsgrenzen, ohne SQL- und relationale Funktionen aufzugeben. Sie unterstützt sowohl transaktionale (OLTP) als auch analytische (OLAP) Abfragen in einem System.\n\nTiDB eignet sich für Teams, die eine einzelne MySQL-Instanz übertroffen haben und horizontale Skalierbarkeit wollen, ohne zu einem NoSQL-Datenmodell zu wechseln oder die SQL-Schicht ihrer Anwendung neu zu schreiben."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-09-06",
+      "archived": false,
+      "openIssuesCount": 7024,
+      "stargazersCount": 40530,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Distributed MySQL-compatible NewSQL database, a distinctive HTAP architecture."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "relational-database",
+      "strength": "secondary"
+    },
+    {
+      "concept": "sql",
+      "strength": "secondary"
+    }
+  ]
 }

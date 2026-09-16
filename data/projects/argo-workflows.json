@@ -42,5 +42,33 @@
       "description": "Kubernetes-natives Workflow-Engine, die jeden Schritt einer Pipeline als Container ausführt und parallele Jobs sowie mehrstufige DAGs direkt auf einem Cluster orchestriert.",
       "longDescription": "Argo Workflows ist eine quelloffene, von der CNCF graduierte Workflow-Engine zur Orchestrierung von Jobs auf Kubernetes, die vollständig als Kubernetes-Custom-Resource-Definitions implementiert ist, statt als separates System, das auf einen Cluster aufgesetzt wird. Ein Workflow wird als Abfolge von Schritten oder als gerichteter azyklischer Graph (DAG) von Tasks definiert, wobei jeder Schritt in seinem eigenen Container läuft – sodass alles, was in einem Container laufen kann, von einem Trainingsjob bis zu einer Datentransformation, ohne zusätzlichen Klebecode zu einem Workflow-Schritt wird.\n\nEs wird häufig für Machine-Learning-Pipelines, Batch- und Datenverarbeitung, Infrastrukturautomatisierung und CI/CD eingesetzt und nutzt dabei Kubernetes' eigene Scheduling- und Skalierungsfähigkeiten, um viele parallele Schritte über einen Cluster statt nur einen einzelnen Worker laufen zu lassen.\n\nArgo Workflows eignet sich für Teams, die bereits Kubernetes betreiben und containerbasierte Pipelines mit dem bereits genutzten Cluster orchestrieren möchten – eine andere Nische als Temporal (ebenfalls in diesem Katalog), dessen Workflows allgemeine Funktionen in einem Sprach-SDK statt Kubernetes-nativer Container-Schritte sind."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2017-08-21",
+      "archived": false,
+      "openIssuesCount": 1283,
+      "stargazersCount": 16977,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 94
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Widely-used Kubernetes-native workflow engine, strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "workflow-orchestration",
+      "strength": "primary"
+    },
+    {
+      "concept": "workflow-engine",
+      "strength": "secondary"
+    }
+  ]
 }

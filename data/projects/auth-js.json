@@ -45,5 +45,37 @@
       "description": "Quelloffene Authentifizierungsbibliothek auf Basis von Standard-Web-APIs, mit Unterstützung für OAuth, E-Mail/passwortlose und anmeldedatenbasierte Anmeldung für jedes JavaScript-Framework oder jede Laufzeitumgebung.",
       "longDescription": "Auth.js (früher NextAuth.js) ist eine Sammlung von Open-Source-Authentifizierungspaketen, die auf Standard-Web-APIs aufbauen und so konzipiert sind, dass sie mit jedem JavaScript-Framework, jeder Laufzeitumgebung oder jedem Hosting-Modell funktionieren – einschließlich Serverless- und Docker-Deployments, nicht nur mit Next.js.\n\nEs unterstützt OAuth 2.0 und OpenID Connect von Haus aus, ebenso wie E-Mail-/passwortlose Anmeldung und Passkeys/WebAuthn, und lässt sich mit oder ohne Datenbank verwenden: Wird eine Datenbank genutzt, decken offizielle Adapter Postgres, MySQL, MariaDB, SQL Server, MongoDB, SQLite und mehr ab. Zu den Sicherheitsstandards zählen CSRF-Schutz, verschlüsselte JSON Web Tokens und restriktive Cookie-Richtlinien gemäß den OWASP-Empfehlungen.\n\nAuth.js eignet sich gut für Teams, die ihre Authentifizierungsdaten und -logik direkt in der eigenen Anwendung behalten möchten, statt sich auf einen gehosteten Identity-Provider zu verlassen. Im offiziellen README wird darauf hingewiesen, dass das Projekt inzwischen Teil von Better Auth ist, und neuen Projekten wird empfohlen, dort zu starten – es sei denn, sie benötigen speziell die zustandslose, datenbankunabhängige Session-Verwaltung von Auth.js."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-07-22",
+      "repoCreatedAt": "2018-01-27",
+      "archived": false,
+      "openIssuesCount": 604,
+      "stargazersCount": 28364,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 82
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular JS/TS auth library (NextAuth.js lineage), a good option for app-embedded auth vs. standalone auth servers."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "authentication",
+      "strength": "primary"
+    },
+    {
+      "concept": "oauth",
+      "strength": "secondary"
+    },
+    {
+      "concept": "sso",
+      "strength": "related"
+    }
+  ]
 }

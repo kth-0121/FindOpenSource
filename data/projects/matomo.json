@@ -41,5 +41,33 @@
       "description": "Quelloffene Webanalyse-Plattform, die dir volle Kontrolle und Eigentum über Besucherdaten gibt.",
       "longDescription": "Matomo (früher Piwik) ist eine selbst gehostete Open-Source-Webanalyseplattform, die als datenschutzfreundliche Alternative zu Google Analytics positioniert ist. Du installierst die PHP/MySQL-Anwendung auf deinem eigenen Server, fügst den zu beobachtenden Seiten ein kleines JavaScript-Snippet hinzu und siehst Besucher- und Traffic-Berichte in Echtzeit aus deiner eigenen Instanz – die gesammelten Daten bleiben vollständig in deinem Besitz, statt an Dritte weitergegeben zu werden.\n\nLaut dem Projekt wird Matomo auf mehr als 1,4 Millionen Websites eingesetzt. Für Teams, die keinen eigenen Server betreiben möchten, bietet Matomo Cloud als Alternative zum Self-Hosting eine gehostete Version mit kostenloser Testphase.\n\nEs eignet sich für Organisationen und Entwickler, die Webanalyse mit denselben zentralen Reporting-Funktionen wie gängige Analysetools wollen, wobei die Daten jedoch auf einer Infrastruktur verbleiben, die sie selbst kontrollieren."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2011-03-30",
+      "archived": false,
+      "openIssuesCount": 2575,
+      "stargazersCount": 21869,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 81
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most full-featured self-hosted web analytics platform, a privacy-respecting alternative to Google Analytics."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "web-analytics",
+      "strength": "primary"
+    },
+    {
+      "concept": "product-analytics",
+      "strength": "secondary"
+    }
+  ]
 }

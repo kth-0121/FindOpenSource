@@ -44,5 +44,37 @@
       "description": "Zuverlässiges Framework für End-to-End-Tests und Browserautomatisierung für moderne Webanwendungen.",
       "longDescription": "Playwright ist ein Framework für Browserautomatisierung und Tests, das Chromium, Firefox und WebKit über eine einzige API steuert und sich für End-to-End-Tests, eigenständige Automatisierungsskripte oder als Tool nutzen lässt, das KI-Agenten aufrufen können. Playwright Test, der voll ausgestattete Test-Runner, führt Tests parallel über Browser hinweg mit vollständiger Isolation aus (jeder Test erhält einen frischen Browserkontext), wartet automatisch, bis Elemente bedienbar werden, und bietet webfirst-Assertions, die automatisch erneut versuchen, statt sich auf feste Timeouts zu verlassen.\n\nLocators sind so gestaltet, dass sie widerspiegeln, wie ein Nutzer die Seite wahrnimmt (nach Rolle, Label, Platzhalter oder Test-ID), statt auf brüchige CSS-Selektoren zu setzen, und bei einem Fehlschlag erhältst du Traces, Screenshots und Videos, die du im Trace Viewer Schritt für Schritt untersuchen kannst. Über das Testen hinaus liefert Playwright auch eine CLI für Coding-Agenten (Claude Code, Copilot) sowie einen MCP-Server für LLM-gesteuerte Browserautomatisierung, dazu eine VS-Code-Erweiterung zum Schreiben und Debuggen von Tests.\n\nEs eignet sich für Teams, die zuverlässige, browserübergreifende End-to-End-Tests benötigen, sowie für Projekte, die programmatische oder KI-gesteuerte Browserautomatisierung brauchen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2019-11-15",
+      "archived": false,
+      "openIssuesCount": 183,
+      "stargazersCount": 96153,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the most widely adopted browser-automation/E2E-testing frameworks; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "browser-automation",
+      "strength": "primary"
+    },
+    {
+      "concept": "e2e-testing",
+      "strength": "primary"
+    },
+    {
+      "concept": "test-automation",
+      "strength": "secondary"
+    }
+  ]
 }

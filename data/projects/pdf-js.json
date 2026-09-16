@@ -42,5 +42,37 @@
       "description": "Allzweck-Plattform auf Basis von Webstandards zum Parsen und Rendern von PDFs im Browser.",
       "longDescription": "PDF.js ist ein PDF-Viewer sowie eine Parsing-/Rendering-Bibliothek, die vollständig mit Webtechnologien (HTML5/JavaScript) statt als natives Plugin gebaut ist. Sie wird von der Community vorangetrieben und von Mozilla unterstützt, mit dem erklärten Ziel, eine universelle, auf Webstandards basierende Plattform zum Parsen und Rendern von PDF-Dateien im Browser zu sein.\n\nSie ist ab Version 19 direkt in Firefox als Standard-PDF-Viewer eingebaut, und für Chrome gibt es eine offiziell anmutende Erweiterung; du kannst den Viewer oder die Bibliothek auch in deine eigene Webanwendung einbetten oder aus dem Quellcode eine eigene Browsererweiterung bauen.\n\nPDF.js eignet sich für Webentwickler, die PDF-Dokumente innerhalb einer Webseite oder Browsererweiterung rendern oder untersuchen müssen, ohne auf einen nativen/plugin-basierten PDF-Viewer oder eine proprietäre Rendering-Engine angewiesen zu sein."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2011-04-26",
+      "archived": false,
+      "openIssuesCount": 421,
+      "stargazersCount": 53874,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard browser-based PDF rendering library; underlies Firefox's built-in PDF viewer."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "pdf",
+      "strength": "primary"
+    },
+    {
+      "concept": "pdf-viewer",
+      "strength": "primary"
+    },
+    {
+      "concept": "document",
+      "strength": "secondary"
+    }
+  ]
 }

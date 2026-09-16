@@ -3,9 +3,17 @@ import path from "node:path";
 import { z } from "zod";
 import { projectSchema } from "../lib/schema";
 import categoriesData from "../data/categories.json";
+import { keywordTaxonomy } from "../lib/i18n/keyword-taxonomy";
 
 const projectsDir = path.join(process.cwd(), "data", "projects");
 const validCategorySlugs = new Set(categoriesData.map((category) => category.slug));
+
+// Every concept id a `project.intents[].concept` is allowed to reference --
+// mirrors exactly what lib/search.ts's scoreIntentMatch will ever look up
+// (the taxonomy's canonical ids plus every entry's related-term ids).
+const validIntentConcepts = new Set(
+  keywordTaxonomy.flatMap((entry) => [entry.canonical, ...entry.related]),
+);
 
 type FileErrors = { file: string; errors: string[] };
 
@@ -62,6 +70,15 @@ function main() {
         )
           .sort()
           .join(", ")}`,
+      );
+    }
+
+    const invalidIntentConcepts = (project.intents ?? [])
+      .map((intent) => intent.concept)
+      .filter((concept) => !validIntentConcepts.has(concept));
+    if (invalidIntentConcepts.length > 0) {
+      errors.push(
+        `invalid intent concept(s): ${invalidIntentConcepts.join(", ")}. Must be a canonical or related id from lib/i18n/keyword-taxonomy.ts`,
       );
     }
 

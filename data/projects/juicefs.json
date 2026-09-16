@@ -42,5 +42,29 @@
       "description": "Verteiltes POSIX-Dateisystem, das Daten auf Objektspeicher wie S3 ablegt und vertraute Dateisystem-Semantik mit Cloud-Storage im großen Maßstab verbindet.",
       "longDescription": "JuiceFS bietet eine standardmäßige POSIX-Dateisystemschnittstelle – sodass bestehende Anwendungen wie auf jeder lokalen Festplatte lesen und schreiben können –, während die Daten tatsächlich in einem Objektspeicher-Backend wie S3, MinIO oder Ähnlichem gespeichert werden, mit separat gehaltenen Metadaten für schnellen Zugriff. So erhalten Teams Dateisystem-Semantik über billigem, dauerhaftem Objektspeicher.\n\nJuiceFS eignet sich für Teams, die POSIX-Dateisystemkompatibilität für Tools oder Workloads benötigen, die nicht direkt mit Objektspeicher-APIs sprechen können – ein anderes Zugriffsmuster als die nativen Objektspeicher-Schnittstellen von MinIO oder SeaweedFS, die bereits in diesem Katalog sind."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2021-01-08",
+      "archived": false,
+      "openIssuesCount": 203,
+      "stargazersCount": 14426,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "POSIX-compatible distributed file system built on object storage, a distinctive architecture."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "file-sync",
+      "strength": "related"
+    }
+  ]
 }

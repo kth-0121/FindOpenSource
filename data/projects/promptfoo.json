@@ -41,5 +41,33 @@
       "description": "Open-Source-Tool zum Testen und Bewerten von LLM-Prompts, das Ausgaben über Modelle hinweg vergleicht und Qualitätsregressionen vor dem Deployment erkennt.",
       "longDescription": "Promptfoo führt eine Reihe von Testfällen gegen einen oder mehrere LLM-Prompts oder -Modelle aus, bewertet Ausgaben anhand definierter Kriterien und zeigt Seite-an-Seite-Vergleiche – sodass ein Team eine Prompt-Änderung erkennen kann, die die Qualität verschlechtert, oder vergleichen kann, wie verschiedene Modelle bei derselben Aufgabe abschneiden, bevor ausgeliefert wird. Es funktioniert als CLI, die in bestehende CI-Pipelines passt.\n\nPromptfoo eignet sich für Teams, die an Prompts iterieren oder LLM-Anbieter vergleichen und eine datengetriebene Bewertung statt manueller Sichtprüfung wollen – als Ergänzung zu DeepEval (ebenfalls in diesem Katalog): Beide decken LLM-Evaluation ab, wobei Promptfoo eher zu Prompt- und Modellvergleich speziell tendiert."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2023-04-28",
+      "archived": false,
+      "openIssuesCount": 650,
+      "stargazersCount": 25116,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 82
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Widely used LLM prompt-testing and evaluation CLI, a practical developer-first tool."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "prompt-testing",
+      "strength": "primary"
+    },
+    {
+      "concept": "llm-evaluation",
+      "strength": "primary"
+    }
+  ]
 }

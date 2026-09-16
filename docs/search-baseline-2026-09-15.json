@@ -1,0 +1,1426 @@
+{
+  "en": {
+    "authentication": [
+      {
+        "slug": "keycloak",
+        "score": 160
+      },
+      {
+        "slug": "zitadel",
+        "score": 120
+      },
+      {
+        "slug": "auth-js",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 100
+      },
+      {
+        "slug": "supabase",
+        "score": 60
+      }
+    ],
+    "login": [
+      {
+        "slug": "keycloak",
+        "score": 180
+      },
+      {
+        "slug": "auth-js",
+        "score": 120
+      },
+      {
+        "slug": "zitadel",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 80
+      },
+      {
+        "slug": "supabase",
+        "score": 80
+      }
+    ],
+    "oauth": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      }
+    ],
+    "sso": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      },
+      {
+        "slug": "zitadel",
+        "score": 40
+      }
+    ],
+    "vector database": [
+      {
+        "slug": "milvus",
+        "score": 150
+      },
+      {
+        "slug": "qdrant",
+        "score": 150
+      },
+      {
+        "slug": "vector-dev",
+        "score": 100
+      },
+      {
+        "slug": "postgresql",
+        "score": 80
+      },
+      {
+        "slug": "mongodb",
+        "score": 60
+      }
+    ],
+    "image upload": [
+      {
+        "slug": "uppy",
+        "score": 190
+      },
+      {
+        "slug": "buildpacks",
+        "score": 20
+      },
+      {
+        "slug": "harbor",
+        "score": 20
+      },
+      {
+        "slug": "imgproxy",
+        "score": 20
+      },
+      {
+        "slug": "opencv",
+        "score": 20
+      }
+    ],
+    "chat": [
+      {
+        "slug": "rocket-chat",
+        "score": 90
+      },
+      {
+        "slug": "mattermost",
+        "score": 80
+      },
+      {
+        "slug": "apache-rocketmq",
+        "score": 20
+      },
+      {
+        "slug": "nats",
+        "score": 20
+      },
+      {
+        "slug": "pulsar",
+        "score": 20
+      }
+    ],
+    "cms": [
+      {
+        "slug": "strapi",
+        "score": 80
+      },
+      {
+        "slug": "wagtail",
+        "score": 80
+      },
+      {
+        "slug": "decap-cms",
+        "score": 60
+      },
+      {
+        "slug": "payload",
+        "score": 60
+      },
+      {
+        "slug": "ghost",
+        "score": 40
+      }
+    ],
+    "pdf": [
+      {
+        "slug": "pdf-js",
+        "score": 80
+      }
+    ],
+    "logging": [
+      {
+        "slug": "fluentd",
+        "score": 80
+      },
+      {
+        "slug": "loki",
+        "score": 80
+      },
+      {
+        "slug": "ghost",
+        "score": 20
+      },
+      {
+        "slug": "grafana",
+        "score": 20
+      },
+      {
+        "slug": "jaeger",
+        "score": 20
+      }
+    ],
+    "feature flags": [
+      {
+        "slug": "unleash",
+        "score": 190
+      },
+      {
+        "slug": "posthog",
+        "score": 110
+      },
+      {
+        "slug": "apache-apisix",
+        "score": 5
+      },
+      {
+        "slug": "video-js",
+        "score": 5
+      }
+    ],
+    "monitoring": [
+      {
+        "slug": "uptime-kuma",
+        "score": 120
+      },
+      {
+        "slug": "prometheus",
+        "score": 80
+      },
+      {
+        "slug": "sentry",
+        "score": 80
+      },
+      {
+        "slug": "grafana",
+        "score": 60
+      },
+      {
+        "slug": "opentelemetry-collector",
+        "score": 55
+      }
+    ],
+    "payment": [
+      {
+        "slug": "btcpay-server",
+        "score": 80
+      },
+      {
+        "slug": "lago",
+        "score": 15.5
+      }
+    ]
+  },
+  "zh-CN": {
+    "authentication": [
+      {
+        "slug": "keycloak",
+        "score": 160
+      },
+      {
+        "slug": "zitadel",
+        "score": 120
+      },
+      {
+        "slug": "auth-js",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 100
+      },
+      {
+        "slug": "supabase",
+        "score": 60
+      }
+    ],
+    "login": [
+      {
+        "slug": "keycloak",
+        "score": 180
+      },
+      {
+        "slug": "auth-js",
+        "score": 120
+      },
+      {
+        "slug": "zitadel",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 80
+      },
+      {
+        "slug": "supabase",
+        "score": 80
+      }
+    ],
+    "oauth": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      }
+    ],
+    "sso": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      },
+      {
+        "slug": "zitadel",
+        "score": 40
+      }
+    ],
+    "vector database": [
+      {
+        "slug": "milvus",
+        "score": 150
+      },
+      {
+        "slug": "qdrant",
+        "score": 150
+      },
+      {
+        "slug": "vector-dev",
+        "score": 100
+      },
+      {
+        "slug": "postgresql",
+        "score": 80
+      },
+      {
+        "slug": "mongodb",
+        "score": 60
+      }
+    ],
+    "image upload": [
+      {
+        "slug": "uppy",
+        "score": 190
+      },
+      {
+        "slug": "buildpacks",
+        "score": 20
+      },
+      {
+        "slug": "harbor",
+        "score": 20
+      },
+      {
+        "slug": "imgproxy",
+        "score": 20
+      },
+      {
+        "slug": "opencv",
+        "score": 20
+      }
+    ],
+    "chat": [
+      {
+        "slug": "rocket-chat",
+        "score": 90
+      },
+      {
+        "slug": "mattermost",
+        "score": 80
+      },
+      {
+        "slug": "apache-rocketmq",
+        "score": 20
+      },
+      {
+        "slug": "nats",
+        "score": 20
+      },
+      {
+        "slug": "pulsar",
+        "score": 20
+      }
+    ],
+    "cms": [
+      {
+        "slug": "strapi",
+        "score": 80
+      },
+      {
+        "slug": "wagtail",
+        "score": 80
+      },
+      {
+        "slug": "decap-cms",
+        "score": 60
+      },
+      {
+        "slug": "payload",
+        "score": 60
+      },
+      {
+        "slug": "ghost",
+        "score": 40
+      }
+    ],
+    "pdf": [
+      {
+        "slug": "pdf-js",
+        "score": 80
+      }
+    ],
+    "logging": [
+      {
+        "slug": "fluentd",
+        "score": 80
+      },
+      {
+        "slug": "loki",
+        "score": 80
+      },
+      {
+        "slug": "ghost",
+        "score": 20
+      },
+      {
+        "slug": "grafana",
+        "score": 20
+      },
+      {
+        "slug": "jaeger",
+        "score": 20
+      }
+    ],
+    "feature flags": [
+      {
+        "slug": "unleash",
+        "score": 190
+      },
+      {
+        "slug": "posthog",
+        "score": 110
+      }
+    ],
+    "monitoring": [
+      {
+        "slug": "uptime-kuma",
+        "score": 120
+      },
+      {
+        "slug": "prometheus",
+        "score": 80
+      },
+      {
+        "slug": "sentry",
+        "score": 80
+      },
+      {
+        "slug": "grafana",
+        "score": 60
+      },
+      {
+        "slug": "opentelemetry-collector",
+        "score": 55
+      }
+    ],
+    "payment": [
+      {
+        "slug": "btcpay-server",
+        "score": 80
+      },
+      {
+        "slug": "lago",
+        "score": 15.5
+      }
+    ]
+  },
+  "ja": {
+    "authentication": [
+      {
+        "slug": "keycloak",
+        "score": 160
+      },
+      {
+        "slug": "zitadel",
+        "score": 120
+      },
+      {
+        "slug": "auth-js",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 100
+      },
+      {
+        "slug": "supabase",
+        "score": 60
+      }
+    ],
+    "login": [
+      {
+        "slug": "keycloak",
+        "score": 180
+      },
+      {
+        "slug": "auth-js",
+        "score": 120
+      },
+      {
+        "slug": "zitadel",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 80
+      },
+      {
+        "slug": "supabase",
+        "score": 80
+      }
+    ],
+    "oauth": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      }
+    ],
+    "sso": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      },
+      {
+        "slug": "zitadel",
+        "score": 40
+      }
+    ],
+    "vector database": [
+      {
+        "slug": "milvus",
+        "score": 150
+      },
+      {
+        "slug": "qdrant",
+        "score": 150
+      },
+      {
+        "slug": "vector-dev",
+        "score": 100
+      },
+      {
+        "slug": "postgresql",
+        "score": 80
+      },
+      {
+        "slug": "mongodb",
+        "score": 60
+      }
+    ],
+    "image upload": [
+      {
+        "slug": "uppy",
+        "score": 190
+      },
+      {
+        "slug": "buildpacks",
+        "score": 20
+      },
+      {
+        "slug": "harbor",
+        "score": 20
+      },
+      {
+        "slug": "imgproxy",
+        "score": 20
+      },
+      {
+        "slug": "opencv",
+        "score": 20
+      }
+    ],
+    "chat": [
+      {
+        "slug": "rocket-chat",
+        "score": 90
+      },
+      {
+        "slug": "mattermost",
+        "score": 80
+      },
+      {
+        "slug": "apache-rocketmq",
+        "score": 20
+      },
+      {
+        "slug": "nats",
+        "score": 20
+      },
+      {
+        "slug": "pulsar",
+        "score": 20
+      }
+    ],
+    "cms": [
+      {
+        "slug": "strapi",
+        "score": 80
+      },
+      {
+        "slug": "wagtail",
+        "score": 80
+      },
+      {
+        "slug": "decap-cms",
+        "score": 60
+      },
+      {
+        "slug": "payload",
+        "score": 60
+      },
+      {
+        "slug": "ghost",
+        "score": 40
+      }
+    ],
+    "pdf": [
+      {
+        "slug": "pdf-js",
+        "score": 80
+      }
+    ],
+    "logging": [
+      {
+        "slug": "fluentd",
+        "score": 80
+      },
+      {
+        "slug": "loki",
+        "score": 80
+      },
+      {
+        "slug": "ghost",
+        "score": 20
+      },
+      {
+        "slug": "grafana",
+        "score": 20
+      },
+      {
+        "slug": "jaeger",
+        "score": 20
+      }
+    ],
+    "feature flags": [
+      {
+        "slug": "unleash",
+        "score": 190
+      },
+      {
+        "slug": "posthog",
+        "score": 110
+      }
+    ],
+    "monitoring": [
+      {
+        "slug": "uptime-kuma",
+        "score": 120
+      },
+      {
+        "slug": "prometheus",
+        "score": 80
+      },
+      {
+        "slug": "sentry",
+        "score": 80
+      },
+      {
+        "slug": "grafana",
+        "score": 60
+      },
+      {
+        "slug": "opentelemetry-collector",
+        "score": 55
+      }
+    ],
+    "payment": [
+      {
+        "slug": "btcpay-server",
+        "score": 80
+      },
+      {
+        "slug": "lago",
+        "score": 15.5
+      }
+    ]
+  },
+  "ko": {
+    "authentication": [
+      {
+        "slug": "keycloak",
+        "score": 160
+      },
+      {
+        "slug": "zitadel",
+        "score": 120
+      },
+      {
+        "slug": "auth-js",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 100
+      },
+      {
+        "slug": "supabase",
+        "score": 60
+      }
+    ],
+    "login": [
+      {
+        "slug": "keycloak",
+        "score": 180
+      },
+      {
+        "slug": "auth-js",
+        "score": 120
+      },
+      {
+        "slug": "zitadel",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 80
+      },
+      {
+        "slug": "supabase",
+        "score": 80
+      }
+    ],
+    "oauth": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      }
+    ],
+    "sso": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      },
+      {
+        "slug": "zitadel",
+        "score": 40
+      }
+    ],
+    "vector database": [
+      {
+        "slug": "milvus",
+        "score": 150
+      },
+      {
+        "slug": "qdrant",
+        "score": 150
+      },
+      {
+        "slug": "vector-dev",
+        "score": 100
+      },
+      {
+        "slug": "postgresql",
+        "score": 80
+      },
+      {
+        "slug": "mongodb",
+        "score": 60
+      }
+    ],
+    "image upload": [
+      {
+        "slug": "uppy",
+        "score": 190
+      },
+      {
+        "slug": "buildpacks",
+        "score": 20
+      },
+      {
+        "slug": "harbor",
+        "score": 20
+      },
+      {
+        "slug": "imgproxy",
+        "score": 20
+      },
+      {
+        "slug": "opencv",
+        "score": 20
+      }
+    ],
+    "chat": [
+      {
+        "slug": "rocket-chat",
+        "score": 90
+      },
+      {
+        "slug": "mattermost",
+        "score": 80
+      },
+      {
+        "slug": "apache-rocketmq",
+        "score": 20
+      },
+      {
+        "slug": "nats",
+        "score": 20
+      },
+      {
+        "slug": "pulsar",
+        "score": 20
+      }
+    ],
+    "cms": [
+      {
+        "slug": "strapi",
+        "score": 80
+      },
+      {
+        "slug": "wagtail",
+        "score": 80
+      },
+      {
+        "slug": "decap-cms",
+        "score": 60
+      },
+      {
+        "slug": "payload",
+        "score": 60
+      },
+      {
+        "slug": "ghost",
+        "score": 40
+      }
+    ],
+    "pdf": [
+      {
+        "slug": "pdf-js",
+        "score": 80
+      }
+    ],
+    "logging": [
+      {
+        "slug": "fluentd",
+        "score": 80
+      },
+      {
+        "slug": "loki",
+        "score": 80
+      },
+      {
+        "slug": "ghost",
+        "score": 20
+      },
+      {
+        "slug": "grafana",
+        "score": 20
+      },
+      {
+        "slug": "jaeger",
+        "score": 20
+      }
+    ],
+    "feature flags": [
+      {
+        "slug": "unleash",
+        "score": 190
+      },
+      {
+        "slug": "posthog",
+        "score": 110
+      }
+    ],
+    "monitoring": [
+      {
+        "slug": "uptime-kuma",
+        "score": 120
+      },
+      {
+        "slug": "prometheus",
+        "score": 80
+      },
+      {
+        "slug": "sentry",
+        "score": 80
+      },
+      {
+        "slug": "grafana",
+        "score": 60
+      },
+      {
+        "slug": "opentelemetry-collector",
+        "score": 55
+      }
+    ],
+    "payment": [
+      {
+        "slug": "btcpay-server",
+        "score": 80
+      },
+      {
+        "slug": "lago",
+        "score": 15.5
+      }
+    ]
+  },
+  "es": {
+    "authentication": [
+      {
+        "slug": "keycloak",
+        "score": 160
+      },
+      {
+        "slug": "zitadel",
+        "score": 120
+      },
+      {
+        "slug": "auth-js",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 100
+      },
+      {
+        "slug": "supabase",
+        "score": 60
+      }
+    ],
+    "login": [
+      {
+        "slug": "keycloak",
+        "score": 180
+      },
+      {
+        "slug": "auth-js",
+        "score": 120
+      },
+      {
+        "slug": "zitadel",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 80
+      },
+      {
+        "slug": "supabase",
+        "score": 80
+      }
+    ],
+    "oauth": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      }
+    ],
+    "sso": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      },
+      {
+        "slug": "zitadel",
+        "score": 40
+      }
+    ],
+    "vector database": [
+      {
+        "slug": "milvus",
+        "score": 150
+      },
+      {
+        "slug": "qdrant",
+        "score": 150
+      },
+      {
+        "slug": "vector-dev",
+        "score": 100
+      },
+      {
+        "slug": "postgresql",
+        "score": 80
+      },
+      {
+        "slug": "mongodb",
+        "score": 60
+      }
+    ],
+    "image upload": [
+      {
+        "slug": "uppy",
+        "score": 190
+      },
+      {
+        "slug": "buildpacks",
+        "score": 20
+      },
+      {
+        "slug": "harbor",
+        "score": 20
+      },
+      {
+        "slug": "imgproxy",
+        "score": 20
+      },
+      {
+        "slug": "opencv",
+        "score": 20
+      }
+    ],
+    "chat": [
+      {
+        "slug": "rocket-chat",
+        "score": 90
+      },
+      {
+        "slug": "mattermost",
+        "score": 80
+      },
+      {
+        "slug": "apache-rocketmq",
+        "score": 20
+      },
+      {
+        "slug": "nats",
+        "score": 20
+      },
+      {
+        "slug": "pulsar",
+        "score": 20
+      }
+    ],
+    "cms": [
+      {
+        "slug": "strapi",
+        "score": 80
+      },
+      {
+        "slug": "wagtail",
+        "score": 80
+      },
+      {
+        "slug": "decap-cms",
+        "score": 60
+      },
+      {
+        "slug": "payload",
+        "score": 60
+      },
+      {
+        "slug": "ghost",
+        "score": 40
+      }
+    ],
+    "pdf": [
+      {
+        "slug": "pdf-js",
+        "score": 80
+      }
+    ],
+    "logging": [
+      {
+        "slug": "fluentd",
+        "score": 80
+      },
+      {
+        "slug": "loki",
+        "score": 80
+      },
+      {
+        "slug": "ghost",
+        "score": 20
+      },
+      {
+        "slug": "grafana",
+        "score": 20
+      },
+      {
+        "slug": "jaeger",
+        "score": 20
+      }
+    ],
+    "feature flags": [
+      {
+        "slug": "unleash",
+        "score": 190
+      },
+      {
+        "slug": "posthog",
+        "score": 110
+      }
+    ],
+    "monitoring": [
+      {
+        "slug": "uptime-kuma",
+        "score": 120
+      },
+      {
+        "slug": "prometheus",
+        "score": 80
+      },
+      {
+        "slug": "sentry",
+        "score": 80
+      },
+      {
+        "slug": "grafana",
+        "score": 60
+      },
+      {
+        "slug": "opentelemetry-collector",
+        "score": 55
+      }
+    ],
+    "payment": [
+      {
+        "slug": "btcpay-server",
+        "score": 80
+      },
+      {
+        "slug": "lago",
+        "score": 15.5
+      }
+    ]
+  },
+  "de": {
+    "authentication": [
+      {
+        "slug": "keycloak",
+        "score": 160
+      },
+      {
+        "slug": "zitadel",
+        "score": 120
+      },
+      {
+        "slug": "auth-js",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 100
+      },
+      {
+        "slug": "supabase",
+        "score": 60
+      }
+    ],
+    "login": [
+      {
+        "slug": "keycloak",
+        "score": 180
+      },
+      {
+        "slug": "auth-js",
+        "score": 120
+      },
+      {
+        "slug": "zitadel",
+        "score": 100
+      },
+      {
+        "slug": "authelia",
+        "score": 80
+      },
+      {
+        "slug": "supabase",
+        "score": 80
+      }
+    ],
+    "oauth": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      }
+    ],
+    "sso": [
+      {
+        "slug": "auth-js",
+        "score": 40
+      },
+      {
+        "slug": "authelia",
+        "score": 40
+      },
+      {
+        "slug": "keycloak",
+        "score": 40
+      },
+      {
+        "slug": "zitadel",
+        "score": 40
+      }
+    ],
+    "vector database": [
+      {
+        "slug": "milvus",
+        "score": 150
+      },
+      {
+        "slug": "qdrant",
+        "score": 150
+      },
+      {
+        "slug": "vector-dev",
+        "score": 100
+      },
+      {
+        "slug": "postgresql",
+        "score": 80
+      },
+      {
+        "slug": "mongodb",
+        "score": 60
+      }
+    ],
+    "image upload": [
+      {
+        "slug": "uppy",
+        "score": 190
+      },
+      {
+        "slug": "buildpacks",
+        "score": 20
+      },
+      {
+        "slug": "harbor",
+        "score": 20
+      },
+      {
+        "slug": "imgproxy",
+        "score": 20
+      },
+      {
+        "slug": "opencv",
+        "score": 20
+      }
+    ],
+    "chat": [
+      {
+        "slug": "rocket-chat",
+        "score": 90
+      },
+      {
+        "slug": "mattermost",
+        "score": 80
+      },
+      {
+        "slug": "apache-rocketmq",
+        "score": 20
+      },
+      {
+        "slug": "nats",
+        "score": 20
+      },
+      {
+        "slug": "pulsar",
+        "score": 20
+      }
+    ],
+    "cms": [
+      {
+        "slug": "strapi",
+        "score": 80
+      },
+      {
+        "slug": "wagtail",
+        "score": 80
+      },
+      {
+        "slug": "decap-cms",
+        "score": 60
+      },
+      {
+        "slug": "payload",
+        "score": 60
+      },
+      {
+        "slug": "ghost",
+        "score": 40
+      }
+    ],
+    "pdf": [
+      {
+        "slug": "pdf-js",
+        "score": 80
+      }
+    ],
+    "logging": [
+      {
+        "slug": "fluentd",
+        "score": 80
+      },
+      {
+        "slug": "loki",
+        "score": 80
+      },
+      {
+        "slug": "ghost",
+        "score": 20
+      },
+      {
+        "slug": "grafana",
+        "score": 20
+      },
+      {
+        "slug": "jaeger",
+        "score": 20
+      }
+    ],
+    "feature flags": [
+      {
+        "slug": "unleash",
+        "score": 190
+      },
+      {
+        "slug": "posthog",
+        "score": 110
+      }
+    ],
+    "monitoring": [
+      {
+        "slug": "uptime-kuma",
+        "score": 120
+      },
+      {
+        "slug": "prometheus",
+        "score": 80
+      },
+      {
+        "slug": "sentry",
+        "score": 80
+      },
+      {
+        "slug": "grafana",
+        "score": 60
+      },
+      {
+        "slug": "opentelemetry-collector",
+        "score": 55
+      }
+    ],
+    "payment": [
+      {
+        "slug": "btcpay-server",
+        "score": 80
+      },
+      {
+        "slug": "lago",
+        "score": 15.5
+      }
+    ]
+  }
+}

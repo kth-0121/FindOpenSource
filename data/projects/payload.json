@@ -43,5 +43,33 @@
       "description": "TypeScript-first Headless-CMS und Anwendungsframework mit integriertem Admin-Panel.",
       "longDescription": "Payload ist ein Headless-CMS, das speziell für Next.js entwickelt wurde: Statt als separater Dienst zu laufen, den man über eine API aufruft, wird es direkt in deinen bestehenden Next.js-`/app`-Ordner installiert, sodass Frontend und CMS dasselbe Projekt teilen können und du die Datenbank direkt aus React Server Components abfragen kannst, ohne zwingend über REST oder GraphQL zu gehen.\n\nEs ist vollständig in TypeScript geschrieben, mit Typen, die automatisch aus deinem Datenschema generiert werden, und umfasst Authentifizierung, Dokumentversionierung und Entwürfe, Lokalisierung, einen blockbasierten Layout-Builder, eine anpassbare React-basierte Admin-UI, einen Lexical-Rich-Text-Editor, bedingte Feldlogik sowie feingranulare, im Code definierte Zugriffskontrolle – mit Hooks, die praktisch bei jeder Aktion verfügbar sind.\n\nPayload ist Open Source und überall dort selbst hostbar, wo Next.js läuft, mit Ein-Klick-Deployment-Optionen für Vercel und Cloudflare. Es eignet sich gut für Teams, die bereits auf Next.js aufbauen und ein code-first, entwicklergesteuertes CMS direkt in ihre App integrieren möchten, statt eine separate gehostete Content-Plattform zu nutzen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2021-01-05",
+      "archived": false,
+      "openIssuesCount": 1137,
+      "stargazersCount": 44747,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "TypeScript-native headless CMS, a strong modern option in a moderately thin cms category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "headless-cms",
+      "strength": "primary"
+    },
+    {
+      "concept": "cms",
+      "strength": "primary"
+    }
+  ]
 }

@@ -1,0 +1,3729 @@
+[
+  {
+    "slug": "alluxio",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Distinctive data-orchestration/caching layer for analytics workloads, adds real diversity to storage."
+    },
+    "intents": []
+  },
+  {
+    "slug": "ansible",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted infrastructure automation tools; a clear representative pick even in a saturated devops category."
+    },
+    "intents": []
+  },
+  {
+    "slug": "apache-apisix",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Solid API gateway option though the API category already covers similar ground with Kong."
+    },
+    "intents": [
+      {
+        "concept": "api-gateway",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "apache-beam",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Unified batch/stream processing model, a distinct approach within analytics."
+    },
+    "intents": [
+      {
+        "concept": "data-pipeline",
+        "strength": "primary"
+      },
+      {
+        "concept": "etl",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "apache-kafka",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The de facto standard for event streaming; essential representative project for the backend category."
+    },
+    "intents": [
+      {
+        "concept": "event-streaming",
+        "strength": "primary"
+      },
+      {
+        "concept": "message-broker",
+        "strength": "secondary"
+      },
+      {
+        "concept": "kafka",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "apache-rocketmq",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Capable messaging platform but overlaps significantly with Kafka/RabbitMQ/Pulsar already in the catalog."
+    },
+    "intents": [
+      {
+        "concept": "message-broker",
+        "strength": "primary"
+      },
+      {
+        "concept": "messaging",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "apache-spark",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "Foundational big-data processing engine, essential representative project for analytics."
+    },
+    "intents": [
+      {
+        "concept": "data-pipeline",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "appwrite",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Broad self-hosted BaaS platform spanning multiple thin categories (auth, storage) at once, high practical utility."
+    },
+    "intents": [
+      {
+        "concept": "authentication",
+        "strength": "secondary"
+      },
+      {
+        "concept": "object-storage",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "argo-cd",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading GitOps continuous-delivery tool for Kubernetes, a clear representative pick."
+    },
+    "intents": [
+      {
+        "concept": "gitops",
+        "strength": "primary"
+      },
+      {
+        "concept": "continuous-delivery",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "argo-events",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Event-driven trigger layer complementing Argo Workflows, a useful niche addition."
+    },
+    "intents": [
+      {
+        "concept": "event-streaming",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "argo-workflows",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Widely-used Kubernetes-native workflow engine, strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "workflow-orchestration",
+        "strength": "primary"
+      },
+      {
+        "concept": "workflow-engine",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "auth-js",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular JS/TS auth library (NextAuth.js lineage), a good option for app-embedded auth vs. standalone auth servers."
+    },
+    "intents": [
+      {
+        "concept": "authentication",
+        "strength": "primary"
+      },
+      {
+        "concept": "oauth",
+        "strength": "secondary"
+      },
+      {
+        "concept": "sso",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "authelia",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Self-hosted SSO/2FA portal, distinct from full IdP platforms like Keycloak."
+    },
+    "intents": [
+      {
+        "concept": "authentication",
+        "strength": "primary"
+      },
+      {
+        "concept": "sso",
+        "strength": "primary"
+      },
+      {
+        "concept": "single-sign-on",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "backstage",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading internal developer portal platform, well-differentiated within developer-tools."
+    },
+    "intents": [
+      {
+        "concept": "developer-portal",
+        "strength": "primary"
+      },
+      {
+        "concept": "platform-engineering",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "bagisto",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Laravel-based open commerce platform, adds diversity to a thin ecommerce category."
+    },
+    "intents": [
+      {
+        "concept": "commerce",
+        "strength": "primary"
+      },
+      {
+        "concept": "ecommerce",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "btcpay-server",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The only self-hosted Bitcoin payment processor in a very thin payments category; strong differentiation."
+    },
+    "intents": [
+      {
+        "concept": "payments",
+        "strength": "primary"
+      },
+      {
+        "concept": "cryptocurrency",
+        "strength": "primary"
+      },
+      {
+        "concept": "bitcoin",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "buildpacks",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Standardized container image build tooling, useful but narrower audience within developer-tools."
+    },
+    "intents": [
+      {
+        "concept": "build-automation",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "caddy",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Simple automatic-HTTPS web server/reverse proxy, a popular and distinct alternative to nginx/Traefik."
+    },
+    "intents": [
+      {
+        "concept": "reverse-proxy",
+        "strength": "primary"
+      },
+      {
+        "concept": "web-server",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "camel-ai",
+    "productionReadiness": "emerging",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Multi-agent framework in an already very saturated ai category with several similar agent frameworks."
+    },
+    "intents": [
+      {
+        "concept": "ai-agents",
+        "strength": "primary"
+      },
+      {
+        "concept": "multi-agent",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "casbin",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Widely embedded access-control library (RBAC/ABAC), distinct from full auth servers."
+    },
+    "intents": [
+      {
+        "concept": "authorization",
+        "strength": "primary"
+      },
+      {
+        "concept": "rbac",
+        "strength": "primary"
+      },
+      {
+        "concept": "access-control",
+        "strength": "primary"
+      },
+      {
+        "concept": "abac",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "cassandra",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Industry-standard wide-column distributed database, a strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "nosql",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "ceph",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "De facto standard for self-hosted distributed storage at scale."
+    },
+    "intents": [
+      {
+        "concept": "object-storage",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "cert-manager",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Standard TLS certificate automation for Kubernetes with near-universal adoption in that ecosystem."
+    },
+    "intents": []
+  },
+  {
+    "slug": "chaos-mesh",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Leading Kubernetes-native chaos engineering tool."
+    },
+    "intents": [
+      {
+        "concept": "chaos-engineering",
+        "strength": "primary"
+      },
+      {
+        "concept": "fault-injection",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "cilium",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading eBPF-based Kubernetes networking/security layer."
+    },
+    "intents": [
+      {
+        "concept": "service-mesh",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "clickhouse",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Extremely popular columnar OLAP database, a strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "columnar-database",
+        "strength": "primary"
+      },
+      {
+        "concept": "olap",
+        "strength": "primary"
+      },
+      {
+        "concept": "real-time-analytics",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "cloudevents",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Useful event-format spec/SDK but narrower -- more of an interoperability standard than a standalone tool."
+    },
+    "intents": [
+      {
+        "concept": "event-streaming",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "coder",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Self-hosted remote development environments, a distinct niche within developer-tools."
+    },
+    "intents": [
+      {
+        "concept": "remote-development",
+        "strength": "primary"
+      },
+      {
+        "concept": "cloud-development-environment",
+        "strength": "primary"
+      },
+      {
+        "concept": "dev-environments",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "containerd",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Core container runtime underneath Docker/Kubernetes, mostly relevant to platform builders."
+    },
+    "intents": [
+      {
+        "concept": "containers",
+        "strength": "primary"
+      },
+      {
+        "concept": "container-orchestration",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "crawlee",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular modern web scraping/crawling library."
+    },
+    "intents": [
+      {
+        "concept": "web-scraping",
+        "strength": "primary"
+      },
+      {
+        "concept": "crawler",
+        "strength": "primary"
+      },
+      {
+        "concept": "data-extraction",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "crewai",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Another multi-agent orchestration framework in an already crowded ai category."
+    },
+    "intents": [
+      {
+        "concept": "ai-agents",
+        "strength": "primary"
+      },
+      {
+        "concept": "multi-agent",
+        "strength": "primary"
+      },
+      {
+        "concept": "agent-orchestration",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "crossplane",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes-native infrastructure provisioning control plane, distinct from Terraform's approach."
+    },
+    "intents": [
+      {
+        "concept": "infrastructure-as-code",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "cubefs",
+    "productionReadiness": "emerging",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Cloud-native distributed file/object storage; overlaps with several existing storage options."
+    },
+    "intents": [
+      {
+        "concept": "object-storage",
+        "strength": "secondary"
+      },
+      {
+        "concept": "cloud-storage",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "cypress",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted end-to-end testing frameworks for the web."
+    },
+    "intents": [
+      {
+        "concept": "e2e-testing",
+        "strength": "primary"
+      },
+      {
+        "concept": "test-automation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "dapr",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Distributed application runtime with strong CNCF backing, a distinctive building-block approach."
+    },
+    "intents": [
+      {
+        "concept": "distributed-runtime",
+        "strength": "primary"
+      },
+      {
+        "concept": "microservices",
+        "strength": "secondary"
+      },
+      {
+        "concept": "pubsub",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "decap-cms",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Git-backed headless CMS, a distinct workflow model (no database) vs. other CMS options."
+    },
+    "intents": [
+      {
+        "concept": "headless-cms",
+        "strength": "primary"
+      },
+      {
+        "concept": "cms",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "deepeval",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "LLM evaluation is a growing, still under-served niche even within a saturated ai category."
+    },
+    "intents": [
+      {
+        "concept": "llm-evaluation",
+        "strength": "primary"
+      },
+      {
+        "concept": "rag-evaluation",
+        "strength": "secondary"
+      },
+      {
+        "concept": "prompt-testing",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "deepspeed",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Widely used large-scale model training optimization library."
+    },
+    "intents": [
+      {
+        "concept": "machine-learning",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "directus",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Popular headless CMS/data platform spanning three categories; note BUSL is source-available, not fully open."
+    },
+    "intents": [
+      {
+        "concept": "headless-cms",
+        "strength": "primary"
+      },
+      {
+        "concept": "cms",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "docling",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Document parsing/conversion for AI pipelines, differentiated from generic OCR tools."
+    },
+    "intents": [
+      {
+        "concept": "document-processing",
+        "strength": "primary"
+      },
+      {
+        "concept": "ocr",
+        "strength": "secondary"
+      },
+      {
+        "concept": "text-extraction",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "druid",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Real-time OLAP database, differentiated from ClickHouse/Trino by its real-time ingestion focus."
+    },
+    "intents": [
+      {
+        "concept": "real-time-analytics",
+        "strength": "primary"
+      },
+      {
+        "concept": "olap-database",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "elasticsearch",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The dominant full-text search engine; essential representative project for a thin search category."
+    },
+    "intents": [
+      {
+        "concept": "full-text-search",
+        "strength": "primary"
+      },
+      {
+        "concept": "search-engine",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "envoy",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Industry-standard edge/service proxy underlying most modern service meshes."
+    },
+    "intents": [
+      {
+        "concept": "service-mesh",
+        "strength": "secondary"
+      },
+      {
+        "concept": "load-balancing",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "etcd",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The distributed key-value store underlying Kubernetes itself; foundational infrastructure component."
+    },
+    "intents": []
+  },
+  {
+    "slug": "expo",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading React Native tooling platform, a strong representative pick for a thin mobile category."
+    },
+    "intents": [
+      {
+        "concept": "cross-platform",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "falco",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Leading runtime security/threat-detection tool for containers and Kubernetes."
+    },
+    "intents": [
+      {
+        "concept": "security-scanning",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "ffmpeg",
+    "productionReadiness": "foundational",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The universal foundation for audio/video processing; essential representative project for media."
+    },
+    "intents": [
+      {
+        "concept": "video-analysis",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "flagger",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Progressive delivery operator for Kubernetes, complements Argo/Flux in a saturated devops category."
+    },
+    "intents": [
+      {
+        "concept": "progressive-delivery",
+        "strength": "primary"
+      },
+      {
+        "concept": "canary-deployment",
+        "strength": "primary"
+      },
+      {
+        "concept": "progressive-rollout",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "flink",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading stream-processing engine, a strong representative pick for real-time analytics."
+    },
+    "intents": [
+      {
+        "concept": "stream-processing",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "fluentd",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Widely used log collector/forwarder; monitoring is already the largest category, but this is a standard pick."
+    },
+    "intents": [
+      {
+        "concept": "logging",
+        "strength": "primary"
+      },
+      {
+        "concept": "log-aggregation",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "flutter",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the two dominant cross-platform mobile frameworks; essential pick for a thin mobile category."
+    },
+    "intents": [
+      {
+        "concept": "cross-platform",
+        "strength": "primary"
+      },
+      {
+        "concept": "android",
+        "strength": "secondary"
+      },
+      {
+        "concept": "ios",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "flux2",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Leading GitOps toolkit alongside Argo CD; overlaps meaningfully with it in a saturated category."
+    },
+    "intents": [
+      {
+        "concept": "gitops",
+        "strength": "primary"
+      },
+      {
+        "concept": "continuous-delivery",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "fortio",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Lightweight load-testing tool; narrower niche than k6 within the same category."
+    },
+    "intents": [
+      {
+        "concept": "load-testing",
+        "strength": "primary"
+      },
+      {
+        "concept": "performance-testing",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "foundationdb",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Distinctive ordered key-value store with strong transactional guarantees, used as a substrate by other databases."
+    },
+    "intents": []
+  },
+  {
+    "slug": "ghost",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular publishing-focused CMS, a clear alternative to WordPress/Strapi for blogging use cases."
+    },
+    "intents": [
+      {
+        "concept": "content-management",
+        "strength": "primary"
+      },
+      {
+        "concept": "cms",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "gitea",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Lightweight self-hosted Git service, a strong differentiated pick vs. heavier platforms."
+    },
+    "intents": []
+  },
+  {
+    "slug": "grafana",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The dominant observability dashboarding tool; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "observability",
+        "strength": "primary"
+      },
+      {
+        "concept": "dashboard",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "graphite",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Older time-series monitoring tool, now largely superseded by Prometheus/InfluxDB in the same category."
+    },
+    "intents": [
+      {
+        "concept": "time-series-database",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "grpc",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard high-performance RPC framework, essential representative project for API tooling."
+    },
+    "intents": [
+      {
+        "concept": "rpc",
+        "strength": "primary"
+      },
+      {
+        "concept": "protocol-buffers",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "guidance",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Structured-output generation library, meaningful overlap with Outlines/Instructor in the same category."
+    },
+    "intents": [
+      {
+        "concept": "structured-output",
+        "strength": "primary"
+      },
+      {
+        "concept": "llm-generation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "harbor",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Standard self-hosted container registry with strong security scanning integration."
+    },
+    "intents": [
+      {
+        "concept": "container-scanning",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "hasura",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Instant GraphQL API layer over databases, a distinctive and widely used approach across three categories."
+    },
+    "intents": [
+      {
+        "concept": "graphql-client",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "haystack",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Established RAG/LLM orchestration framework, meaningful overlap with LangChain/LlamaIndex."
+    },
+    "intents": [
+      {
+        "concept": "large-language-models",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "helm",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The standard Kubernetes package manager; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "kubernetes-deployment",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "hoppscotch",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Open-source Postman alternative, a distinctive lightweight API-testing option."
+    },
+    "intents": [
+      {
+        "concept": "api-testing",
+        "strength": "primary"
+      },
+      {
+        "concept": "postman-alternative",
+        "strength": "primary"
+      },
+      {
+        "concept": "rest-client",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "imgproxy",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Fast on-the-fly image processing server, a distinct focused tool within media."
+    },
+    "intents": [
+      {
+        "concept": "image-processing",
+        "strength": "primary"
+      },
+      {
+        "concept": "image-resizing",
+        "strength": "primary"
+      },
+      {
+        "concept": "image-optimization",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "influxdb",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading purpose-built time-series database, a strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "time-series-database",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "instructor",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular structured-output library for LLMs with a distinctive validation-first approach."
+    },
+    "intents": [
+      {
+        "concept": "structured-output",
+        "strength": "primary"
+      },
+      {
+        "concept": "llm-generation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "istio",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely adopted full-featured service mesh; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "service-mesh",
+        "strength": "primary"
+      },
+      {
+        "concept": "mtls",
+        "strength": "secondary"
+      },
+      {
+        "concept": "traffic-management",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "jaeger",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard distributed tracing tool alongside OpenTelemetry, a strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "distributed-tracing",
+        "strength": "primary"
+      },
+      {
+        "concept": "tracing",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "jellyfin",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading fully open-source self-hosted media server, distinct from proprietary alternatives."
+    },
+    "intents": [
+      {
+        "concept": "video-player",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "jenkins",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The long-standing standard self-hosted CI/CD server, still very widely deployed."
+    },
+    "intents": [
+      {
+        "concept": "ci-cd",
+        "strength": "primary"
+      },
+      {
+        "concept": "continuous-integration",
+        "strength": "primary"
+      },
+      {
+        "concept": "automation-server",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "juicefs",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "POSIX-compatible distributed file system built on object storage, a distinctive architecture."
+    },
+    "intents": [
+      {
+        "concept": "file-sync",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "jupyterlab",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard interactive notebook environment for data science and ML workflows."
+    },
+    "intents": []
+  },
+  {
+    "slug": "k6",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading modern load-testing tool, a strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "load-testing",
+        "strength": "primary"
+      },
+      {
+        "concept": "performance-testing",
+        "strength": "primary"
+      },
+      {
+        "concept": "stress-testing",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "keda",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes event-driven autoscaler, a focused and widely adopted addition."
+    },
+    "intents": [
+      {
+        "concept": "autoscaling",
+        "strength": "primary"
+      },
+      {
+        "concept": "scale-to-zero",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "kepler",
+    "productionReadiness": "emerging",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes energy/carbon consumption monitoring, a genuinely unique niche not covered elsewhere."
+    },
+    "intents": [
+      {
+        "concept": "metrics",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "keploy",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "API test-case generation from real traffic, a distinctive approach to testing."
+    },
+    "intents": [
+      {
+        "concept": "api-testing",
+        "strength": "primary"
+      },
+      {
+        "concept": "test-automation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "kestra",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Declarative orchestration platform, meaningful overlap with Prefect/Temporal/Argo Workflows."
+    },
+    "intents": [
+      {
+        "concept": "workflow-orchestration",
+        "strength": "primary"
+      },
+      {
+        "concept": "pipeline-automation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "keycloak",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading full-featured open-source identity and access management server; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "authentication",
+        "strength": "primary"
+      },
+      {
+        "concept": "sso",
+        "strength": "primary"
+      },
+      {
+        "concept": "single-sign-on",
+        "strength": "primary"
+      },
+      {
+        "concept": "oauth",
+        "strength": "primary"
+      },
+      {
+        "concept": "oidc",
+        "strength": "primary"
+      },
+      {
+        "concept": "identity",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "knative",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes-based serverless platform, a distinctive scale-to-zero approach."
+    },
+    "intents": [
+      {
+        "concept": "serverless",
+        "strength": "primary"
+      },
+      {
+        "concept": "scale-to-zero",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "kong",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted open-source API gateways; strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "api-gateway",
+        "strength": "primary"
+      },
+      {
+        "concept": "rate-limiting",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "kserve",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Standardized Kubernetes model-serving layer, complements Kubeflow/MLflow."
+    },
+    "intents": [
+      {
+        "concept": "model-serving",
+        "strength": "primary"
+      },
+      {
+        "concept": "llm-serving",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "kube-bench",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "CIS benchmark compliance checker for Kubernetes, a narrow but useful security-testing niche."
+    },
+    "intents": [
+      {
+        "concept": "security-scanning",
+        "strength": "primary"
+      },
+      {
+        "concept": "kubernetes-testing",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "kube-burner",
+    "productionReadiness": "emerging",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Kubernetes performance/scale testing tool, a narrow niche within testing."
+    },
+    "intents": [
+      {
+        "concept": "performance-testing",
+        "strength": "secondary"
+      },
+      {
+        "concept": "kubernetes-testing",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "kube-linter",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Static analysis for Kubernetes YAML, a narrow niche overlapping with Kyverno/Kubescape."
+    },
+    "intents": [
+      {
+        "concept": "iac-scanning",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "kubeflow",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard Kubernetes-native ML pipeline platform, strong representative pick for MLOps."
+    },
+    "intents": [
+      {
+        "concept": "mlops",
+        "strength": "primary"
+      },
+      {
+        "concept": "ml-pipelines",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "kubernetes",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The foundational container orchestration platform; the single most essential representative project in devops."
+    },
+    "intents": [
+      {
+        "concept": "container-orchestration",
+        "strength": "primary"
+      },
+      {
+        "concept": "kubernetes-deployment",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "kubescape",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Comprehensive Kubernetes security posture scanner, differentiated by breadth of checks."
+    },
+    "intents": [
+      {
+        "concept": "security-scanning",
+        "strength": "primary"
+      },
+      {
+        "concept": "vulnerability-scanning",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "kyverno",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes-native policy engine, a YAML-first alternative to OPA/Rego-based tools."
+    },
+    "intents": [
+      {
+        "concept": "policy-as-code",
+        "strength": "primary"
+      },
+      {
+        "concept": "policy-engine",
+        "strength": "primary"
+      },
+      {
+        "concept": "admission-control",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "lago",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Open-source usage-based billing engine, a strong differentiator in a very thin payments category."
+    },
+    "intents": [
+      {
+        "concept": "billing",
+        "strength": "primary"
+      },
+      {
+        "concept": "usage-based-billing",
+        "strength": "primary"
+      },
+      {
+        "concept": "metering",
+        "strength": "primary"
+      },
+      {
+        "concept": "invoicing",
+        "strength": "secondary"
+      },
+      {
+        "concept": "subscription-billing",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "langchain",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely adopted LLM application framework; essential representative project despite category saturation."
+    },
+    "intents": [
+      {
+        "concept": "large-language-models",
+        "strength": "primary"
+      },
+      {
+        "concept": "llm-agents",
+        "strength": "secondary"
+      },
+      {
+        "concept": "rag-evaluation",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "linkerd",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Lightweight service mesh, a simpler alternative to Istio in a saturated category."
+    },
+    "intents": [
+      {
+        "concept": "service-mesh",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "litmus",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Kubernetes chaos engineering tool, overlaps significantly with Chaos Mesh in the same category."
+    },
+    "intents": [
+      {
+        "concept": "chaos-engineering",
+        "strength": "primary"
+      },
+      {
+        "concept": "fault-injection",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "llama-cpp",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The foundational CPU/edge-optimized LLM inference engine underlying much of the local-LLM ecosystem."
+    },
+    "intents": [
+      {
+        "concept": "llm-inference",
+        "strength": "primary"
+      },
+      {
+        "concept": "gpu-inference",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "llamaindex",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Leading data-framework for LLM/RAG applications, meaningful overlap with LangChain."
+    },
+    "intents": [
+      {
+        "concept": "large-language-models",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "loki",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Grafana's purpose-built log aggregation system, a strong representative pick for logging."
+    },
+    "intents": [
+      {
+        "concept": "logging",
+        "strength": "primary"
+      },
+      {
+        "concept": "log-aggregation",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "longhorn",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Standard Kubernetes-native distributed block storage, a focused and widely deployed pick."
+    },
+    "intents": [
+      {
+        "concept": "persistent-volume-backup",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "m3db",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Distributed time-series database at very large scale, overlaps with InfluxDB/Prometheus in the same category."
+    },
+    "intents": [
+      {
+        "concept": "time-series-database",
+        "strength": "secondary"
+      },
+      {
+        "concept": "metrics-storage",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "matomo",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most full-featured self-hosted web analytics platform, a privacy-respecting alternative to Google Analytics."
+    },
+    "intents": [
+      {
+        "concept": "web-analytics",
+        "strength": "primary"
+      },
+      {
+        "concept": "product-analytics",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "mattermost",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading self-hosted team chat platform; essential representative project for a very thin chat category."
+    },
+    "intents": [
+      {
+        "concept": "team-chat",
+        "strength": "primary"
+      },
+      {
+        "concept": "chat",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "medusa",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Headless commerce platform with strong developer-first positioning, differentiated within a thin ecommerce category."
+    },
+    "intents": [
+      {
+        "concept": "headless-commerce",
+        "strength": "primary"
+      },
+      {
+        "concept": "commerce",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "meilisearch",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Fast, easy-to-run instant-search engine, a strong developer-friendly alternative to Elasticsearch."
+    },
+    "intents": [
+      {
+        "concept": "full-text-search",
+        "strength": "primary"
+      },
+      {
+        "concept": "search-engine",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "milvus",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading purpose-built vector database; essential representative project for vector search."
+    },
+    "intents": [
+      {
+        "concept": "vector-database",
+        "strength": "primary"
+      },
+      {
+        "concept": "similarity-search",
+        "strength": "primary"
+      },
+      {
+        "concept": "embeddings",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "minio",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "S3-compatible object storage was historically a top pick, but the upstream repository is currently archived on GitHub -- flagged for review."
+    },
+    "intents": [
+      {
+        "concept": "object-storage",
+        "strength": "primary"
+      },
+      {
+        "concept": "cloud-storage",
+        "strength": "secondary"
+      }
+    ],
+    "flag": "hold"
+  },
+  {
+    "slug": "mlflow",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard open-source ML lifecycle/experiment-tracking platform."
+    },
+    "intents": [
+      {
+        "concept": "experiment-tracking",
+        "strength": "primary"
+      },
+      {
+        "concept": "model-registry",
+        "strength": "primary"
+      },
+      {
+        "concept": "mlops",
+        "strength": "secondary"
+      },
+      {
+        "concept": "model-comparison",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "mockserver",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "API mocking/stubbing tool, a narrower niche within a well-populated testing category."
+    },
+    "intents": [
+      {
+        "concept": "api-testing",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "mongodb",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted NoSQL databases; note SSPL is a source-available license, not OSI-approved."
+    },
+    "intents": [
+      {
+        "concept": "nosql",
+        "strength": "primary"
+      },
+      {
+        "concept": "document",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "mui",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted React component libraries; strong representative pick for a thin ui category."
+    },
+    "intents": []
+  },
+  {
+    "slug": "n8n",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Extremely popular visual workflow-automation tool spanning two categories; note the Sustainable Use License is source-available, not OSI-approved."
+    },
+    "intents": [
+      {
+        "concept": "workflow-automation",
+        "strength": "primary"
+      },
+      {
+        "concept": "pipeline-automation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "nats",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Lightweight, high-performance messaging system, a distinctive simpler alternative to Kafka."
+    },
+    "intents": [
+      {
+        "concept": "messaging",
+        "strength": "primary"
+      },
+      {
+        "concept": "pubsub",
+        "strength": "primary"
+      },
+      {
+        "concept": "message-broker",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "nemo-guardrails",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "LLM safety/guardrails toolkit, a genuinely distinct niche within a saturated ai category."
+    },
+    "intents": [
+      {
+        "concept": "llm-evaluation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "neo4j",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The dominant graph database; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "graph-database",
+        "strength": "primary"
+      },
+      {
+        "concept": "cypher",
+        "strength": "secondary"
+      },
+      {
+        "concept": "connected-data",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "netdata",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Real-time, zero-configuration infrastructure monitoring, a distinctive high-granularity approach."
+    },
+    "intents": [
+      {
+        "concept": "self-hosted-monitoring",
+        "strength": "primary"
+      },
+      {
+        "concept": "metrics",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "nextcloud",
+    "productionReadiness": "foundational",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading self-hosted file-sync/collaboration suite, a strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "file-sync",
+        "strength": "primary"
+      },
+      {
+        "concept": "cloud-storage",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "odigos",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "eBPF-based auto-instrumentation for observability, a newer entrant with meaningful OpenTelemetry overlap."
+    },
+    "intents": [
+      {
+        "concept": "opentelemetry",
+        "strength": "secondary"
+      },
+      {
+        "concept": "observability",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "okteto",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes-native remote development tool, overlaps with Coder in the same category."
+    },
+    "intents": [
+      {
+        "concept": "remote-development",
+        "strength": "primary"
+      },
+      {
+        "concept": "cloud-development-environment",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "ollama",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most popular tool for running LLMs locally; essential representative project for local inference."
+    },
+    "intents": [
+      {
+        "concept": "llm-inference",
+        "strength": "primary"
+      },
+      {
+        "concept": "large-language-models",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "open-policy-agent",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard general-purpose policy engine (Rego), essential representative project for policy-as-code."
+    },
+    "intents": [
+      {
+        "concept": "policy-as-code",
+        "strength": "primary"
+      },
+      {
+        "concept": "policy-engine",
+        "strength": "primary"
+      },
+      {
+        "concept": "rego",
+        "strength": "primary"
+      },
+      {
+        "concept": "authorization-policy",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "opencv",
+    "productionReadiness": "foundational",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The foundational computer-vision library used across the entire industry."
+    },
+    "intents": [
+      {
+        "concept": "computer-vision",
+        "strength": "primary"
+      },
+      {
+        "concept": "object-detection",
+        "strength": "secondary"
+      },
+      {
+        "concept": "image-processing",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "openebs",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Kubernetes-native storage, meaningful overlap with Longhorn/Rook in a moderately-sized category."
+    },
+    "intents": []
+  },
+  {
+    "slug": "openfga",
+    "productionReadiness": "emerging",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Google Zanzibar-style fine-grained authorization service, a genuinely distinct approach vs. RBAC tools like Casbin."
+    },
+    "intents": [
+      {
+        "concept": "fine-grained-access",
+        "strength": "primary"
+      },
+      {
+        "concept": "authorization",
+        "strength": "primary"
+      },
+      {
+        "concept": "iam",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "opensearch",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The fully open-source fork of Elasticsearch, a strong alternative given Elasticsearch's AGPL/SSPL history."
+    },
+    "intents": [
+      {
+        "concept": "full-text-search",
+        "strength": "primary"
+      },
+      {
+        "concept": "search-engine",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "opentelemetry-collector",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The standard vendor-neutral telemetry pipeline; essential representative project for observability."
+    },
+    "intents": [
+      {
+        "concept": "opentelemetry",
+        "strength": "primary"
+      },
+      {
+        "concept": "telemetry",
+        "strength": "primary"
+      },
+      {
+        "concept": "observability",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "opentofu",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Community-governed fork of Terraform, notable mainly as the open-license alternative given Terraform's BUSL change."
+    },
+    "intents": [
+      {
+        "concept": "infrastructure-as-code",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "ory-kratos",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "API-first cloud-native identity server, a headless alternative to Keycloak."
+    },
+    "intents": [
+      {
+        "concept": "authentication",
+        "strength": "primary"
+      },
+      {
+        "concept": "identity",
+        "strength": "primary"
+      },
+      {
+        "concept": "iam",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "outlines",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Structured-output/constrained-generation library for LLMs, overlaps with Guidance/Instructor."
+    },
+    "intents": [
+      {
+        "concept": "structured-output",
+        "strength": "primary"
+      },
+      {
+        "concept": "json-schema",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "payload",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "TypeScript-native headless CMS, a strong modern option in a moderately thin cms category."
+    },
+    "intents": [
+      {
+        "concept": "headless-cms",
+        "strength": "primary"
+      },
+      {
+        "concept": "cms",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "pdf-js",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard browser-based PDF rendering library; underlies Firefox's built-in PDF viewer."
+    },
+    "intents": [
+      {
+        "concept": "pdf",
+        "strength": "primary"
+      },
+      {
+        "concept": "pdf-viewer",
+        "strength": "primary"
+      },
+      {
+        "concept": "document",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "perses",
+    "productionReadiness": "emerging",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Newer CNCF dashboarding tool, meaningful overlap with the well-established Grafana."
+    },
+    "intents": [
+      {
+        "concept": "dashboard",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "pixie",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "eBPF-based auto-instrumenting observability for Kubernetes, a genuinely distinct no-code-change approach."
+    },
+    "intents": [
+      {
+        "concept": "observability",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "plausible",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Simple, privacy-focused web analytics, a strong lightweight alternative to Matomo/Google Analytics."
+    },
+    "intents": [
+      {
+        "concept": "web-analytics",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "playwright",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the most widely adopted browser-automation/E2E-testing frameworks; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "browser-automation",
+        "strength": "primary"
+      },
+      {
+        "concept": "e2e-testing",
+        "strength": "primary"
+      },
+      {
+        "concept": "test-automation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "pocketbase",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Single-binary backend with embedded SQLite, a genuinely distinctive lightweight approach vs. Supabase/Appwrite."
+    },
+    "intents": [
+      {
+        "concept": "sql",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "podman",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading daemonless, rootless Docker alternative; strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "containers",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "portainer",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular container management UI, a distinct visual-management niche within devops."
+    },
+    "intents": [
+      {
+        "concept": "containers",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "postgresql",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most widely trusted open-source relational database; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "relational-database",
+        "strength": "primary"
+      },
+      {
+        "concept": "sql",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "postgrest",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Instant REST API directly from a PostgreSQL schema, a distinctive zero-code approach."
+    },
+    "intents": [
+      {
+        "concept": "rest-client",
+        "strength": "related"
+      }
+    ]
+  },
+  {
+    "slug": "posthog",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading all-in-one open-source product analytics platform."
+    },
+    "intents": [
+      {
+        "concept": "product-analytics",
+        "strength": "primary"
+      },
+      {
+        "concept": "experimentation",
+        "strength": "secondary"
+      },
+      {
+        "concept": "feature-flags",
+        "strength": "secondary"
+      },
+      {
+        "concept": "feature-management",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "prefect",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular Python-native workflow orchestration, meaningful overlap with Kestra and Airflow-style tools."
+    },
+    "intents": [
+      {
+        "concept": "workflow-orchestration",
+        "strength": "primary"
+      },
+      {
+        "concept": "pipeline-automation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "prometheus",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The de facto standard for metrics-based monitoring; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "metrics",
+        "strength": "primary"
+      },
+      {
+        "concept": "monitoring",
+        "strength": "primary"
+      },
+      {
+        "concept": "observability",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "promptfoo",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Widely used LLM prompt-testing and evaluation CLI, a practical developer-first tool."
+    },
+    "intents": [
+      {
+        "concept": "prompt-testing",
+        "strength": "primary"
+      },
+      {
+        "concept": "llm-evaluation",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "pulsar",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Cloud-native messaging/streaming platform with built-in multi-tenancy, a strong alternative to Kafka."
+    },
+    "intents": [
+      {
+        "concept": "event-streaming",
+        "strength": "primary"
+      },
+      {
+        "concept": "message-broker",
+        "strength": "secondary"
+      },
+      {
+        "concept": "pubsub",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "pydantic-ai",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Type-safe agent framework building on Pydantic's validation model, a distinctive typed approach."
+    },
+    "intents": [
+      {
+        "concept": "ai-agents",
+        "strength": "primary"
+      },
+      {
+        "concept": "structured-output",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "pytorch",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the two dominant deep-learning frameworks; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "machine-learning",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "qdrant",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Popular high-performance vector database, meaningful but justified overlap with Milvus given different tradeoffs."
+    },
+    "intents": [
+      {
+        "concept": "vector-database",
+        "strength": "primary"
+      },
+      {
+        "concept": "similarity-search",
+        "strength": "primary"
+      },
+      {
+        "concept": "embeddings",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "quarkus",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes-native Java framework, a strong pick for JVM-based cloud-native backends."
+    },
+    "intents": []
+  },
+  {
+    "slug": "quickwit",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Cloud-native, cost-efficient search engine built for object storage, a distinctive architecture in a thin search category."
+    },
+    "intents": [
+      {
+        "concept": "full-text-search",
+        "strength": "primary"
+      },
+      {
+        "concept": "search-engine",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "rabbitmq",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted message brokers; strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "message-broker",
+        "strength": "primary"
+      },
+      {
+        "concept": "amqp",
+        "strength": "primary"
+      },
+      {
+        "concept": "messaging",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "react-native",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the two dominant cross-platform mobile frameworks; essential pick for a thin mobile category."
+    },
+    "intents": [
+      {
+        "concept": "cross-platform",
+        "strength": "primary"
+      },
+      {
+        "concept": "android",
+        "strength": "secondary"
+      },
+      {
+        "concept": "ios",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "redis",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the most widely adopted in-memory data stores; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "nosql",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "rocket-chat",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Long-standing self-hosted team chat platform, a strong second option in a very thin chat category."
+    },
+    "intents": [
+      {
+        "concept": "team-chat",
+        "strength": "primary"
+      },
+      {
+        "concept": "chat",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "rook",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes storage orchestrator for Ceph and other backends, a complementary rather than competing pick."
+    },
+    "intents": []
+  },
+  {
+    "slug": "saleor",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "GraphQL-native headless commerce platform, a strong differentiated pick in a thin ecommerce category."
+    },
+    "intents": [
+      {
+        "concept": "headless-commerce",
+        "strength": "primary"
+      },
+      {
+        "concept": "commerce",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "scrapy",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The long-standing standard Python web-scraping framework."
+    },
+    "intents": [
+      {
+        "concept": "web-scraping",
+        "strength": "primary"
+      },
+      {
+        "concept": "crawler",
+        "strength": "primary"
+      },
+      {
+        "concept": "data-extraction",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "seatunnel",
+    "productionReadiness": "emerging",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Data integration/ETL connector platform, overlaps with Apache Beam/Flink in adjacent categories."
+    },
+    "intents": [
+      {
+        "concept": "data-integration",
+        "strength": "primary"
+      },
+      {
+        "concept": "etl",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "seaweedfs",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Distributed object/file storage, meaningful overlap with MinIO/Ceph/JuiceFS in a moderately-sized category."
+    },
+    "intents": [
+      {
+        "concept": "object-storage",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "securecodebox",
+    "productionReadiness": "emerging",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Kubernetes-native security-testing orchestration, a narrower niche within testing."
+    },
+    "intents": [
+      {
+        "concept": "security-scanning",
+        "strength": "primary"
+      },
+      {
+        "concept": "vulnerability-scanning",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "semantic-kernel",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Microsoft's LLM orchestration SDK, meaningful overlap with LangChain but distinct enterprise/.NET positioning."
+    },
+    "intents": [
+      {
+        "concept": "ai-agents",
+        "strength": "secondary"
+      },
+      {
+        "concept": "large-language-models",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "sensu",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Monitoring event pipeline, overlaps meaningfully with Prometheus/Zabbix in the largest category."
+    },
+    "intents": []
+  },
+  {
+    "slug": "sentry",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The dominant self-hosted error-tracking platform; note FSL converts to Apache-2.0 only after a 2-year delay period."
+    },
+    "intents": [
+      {
+        "concept": "error-tracking",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "sglang",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Fast-growing high-performance LLM serving engine, a strong alternative to vLLM."
+    },
+    "intents": [
+      {
+        "concept": "llm-serving",
+        "strength": "primary"
+      },
+      {
+        "concept": "gpu-inference",
+        "strength": "secondary"
+      },
+      {
+        "concept": "llm-inference",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "shadcn-ui",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Extremely popular copy-paste component system, a genuinely different distribution model vs. MUI in a thin ui category."
+    },
+    "intents": []
+  },
+  {
+    "slug": "sigstore",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard toolchain for software artifact signing and supply-chain security."
+    },
+    "intents": [
+      {
+        "concept": "artifact-signing",
+        "strength": "primary"
+      },
+      {
+        "concept": "supply-chain-security",
+        "strength": "primary"
+      },
+      {
+        "concept": "provenance",
+        "strength": "secondary"
+      },
+      {
+        "concept": "sbom",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "skaffold",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes local-development workflow tool, a focused build/deploy-loop niche."
+    },
+    "intents": [
+      {
+        "concept": "kubernetes-deployment",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "skywalking",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "APM/observability platform, overlaps meaningfully with Jaeger/OpenTelemetry in the largest category."
+    },
+    "intents": [
+      {
+        "concept": "distributed-tracing",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "sonobuoy",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Kubernetes conformance-testing tool, a narrow diagnostic niche within testing."
+    },
+    "intents": [
+      {
+        "concept": "kubernetes-testing",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "sops",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard tool for encrypting secrets in Git, a focused and widely adopted pick."
+    },
+    "intents": [
+      {
+        "concept": "secrets-management",
+        "strength": "primary"
+      },
+      {
+        "concept": "encryption",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "spinnaker",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Multi-cloud continuous-delivery platform, a heavier alternative to Argo CD/Flux."
+    },
+    "intents": [
+      {
+        "concept": "continuous-delivery",
+        "strength": "primary"
+      },
+      {
+        "concept": "automated-rollback",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "stackstorm",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Event-driven IT automation platform, older and narrower relative to Kestra/Prefect/Argo Workflows."
+    },
+    "intents": [
+      {
+        "concept": "workflow-automation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "strapi",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most widely adopted open-source headless CMS; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "headless-cms",
+        "strength": "primary"
+      },
+      {
+        "concept": "cms",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "strimzi",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "The standard operator for running Kafka on Kubernetes, complementary to Apache Kafka itself."
+    },
+    "intents": [
+      {
+        "concept": "kafka",
+        "strength": "secondary"
+      },
+      {
+        "concept": "event-streaming",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "supabase",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading open-source Firebase alternative spanning three categories; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "authentication",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "supertokens",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Open-source auth-as-a-service SDK, a developer-friendly alternative to Auth0/Keycloak."
+    },
+    "intents": [
+      {
+        "concept": "authentication",
+        "strength": "primary"
+      },
+      {
+        "concept": "sso",
+        "strength": "secondary"
+      },
+      {
+        "concept": "oauth",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "sylius",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Symfony-based flexible ecommerce framework, adds diversity to a thin category though a narrower audience than Saleor/Medusa."
+    },
+    "intents": [
+      {
+        "concept": "commerce",
+        "strength": "primary"
+      },
+      {
+        "concept": "ecommerce",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "tekton",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes-native CI/CD building-block framework, a lower-level complement to Jenkins/Argo."
+    },
+    "intents": [
+      {
+        "concept": "ci-cd",
+        "strength": "primary"
+      },
+      {
+        "concept": "continuous-integration",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "temporal",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading durable-execution workflow engine, a strong differentiated pick even among several orchestration tools."
+    },
+    "intents": [
+      {
+        "concept": "durable-execution",
+        "strength": "primary"
+      },
+      {
+        "concept": "workflow-orchestration",
+        "strength": "primary"
+      },
+      {
+        "concept": "workflow-engine",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "tensorflow",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the two dominant deep-learning frameworks; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "machine-learning",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "terraform",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The long-standing standard infrastructure-as-code tool, still extremely widely used despite the BUSL license change."
+    },
+    "intents": [
+      {
+        "concept": "infrastructure-as-code",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "tesseract",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard open-source OCR engine, essential representative project for text-extraction use cases in a thin media category."
+    },
+    "intents": [
+      {
+        "concept": "ocr",
+        "strength": "primary"
+      },
+      {
+        "concept": "text-extraction",
+        "strength": "primary"
+      },
+      {
+        "concept": "image-to-text",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "thanos",
+    "productionReadiness": "mature",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Long-term storage/global-view layer for Prometheus, a complementary rather than competing pick."
+    },
+    "intents": [
+      {
+        "concept": "metrics-storage",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "tidb",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Distributed MySQL-compatible NewSQL database, a distinctive HTAP architecture."
+    },
+    "intents": [
+      {
+        "concept": "relational-database",
+        "strength": "secondary"
+      },
+      {
+        "concept": "sql",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "traefik",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted cloud-native reverse proxies, strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "reverse-proxy",
+        "strength": "primary"
+      },
+      {
+        "concept": "load-balancing",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "trino",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading distributed SQL query engine for federated analytics, strong representative pick."
+    },
+    "intents": [
+      {
+        "concept": "sql",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "trivy",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely adopted open-source vulnerability scanner for containers and IaC."
+    },
+    "intents": [
+      {
+        "concept": "vulnerability-scanning",
+        "strength": "primary"
+      },
+      {
+        "concept": "container-scanning",
+        "strength": "primary"
+      },
+      {
+        "concept": "iac-scanning",
+        "strength": "secondary"
+      },
+      {
+        "concept": "sbom",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "umami",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Simple, lightweight privacy-focused web analytics, a minimal alternative to Plausible/Matomo."
+    },
+    "intents": [
+      {
+        "concept": "web-analytics",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "unleash",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading open-source feature-flag/feature-management platform."
+    },
+    "intents": [
+      {
+        "concept": "feature-flags",
+        "strength": "primary"
+      },
+      {
+        "concept": "feature-management",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "unsloth",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Fast-growing efficient LLM fine-tuning library, a genuinely distinct performance-focused niche."
+    },
+    "intents": [
+      {
+        "concept": "machine-learning",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "uppy",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely adopted modular file-uploader UI library, strong representative pick for image/file upload."
+    },
+    "intents": [
+      {
+        "concept": "file-upload",
+        "strength": "primary"
+      },
+      {
+        "concept": "file-uploader",
+        "strength": "primary"
+      },
+      {
+        "concept": "image-upload",
+        "strength": "primary"
+      },
+      {
+        "concept": "upload",
+        "strength": "primary"
+      },
+      {
+        "concept": "drag-and-drop",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "uptime-kuma",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular self-hosted uptime-monitoring tool with a distinctive simple UI, a lighter alternative to Sensu/Zabbix."
+    },
+    "intents": [
+      {
+        "concept": "uptime-monitoring",
+        "strength": "primary"
+      },
+      {
+        "concept": "status-page",
+        "strength": "primary"
+      },
+      {
+        "concept": "ping",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "valkey",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Community fork of Redis under a permissive license, notable given Redis's license change to a source-available/AGPL model."
+    },
+    "intents": [
+      {
+        "concept": "nosql",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "vector-dev",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "High-performance observability data pipeline, distinct focus on data routing vs. storage/visualization tools."
+    },
+    "intents": [
+      {
+        "concept": "log-aggregation",
+        "strength": "secondary"
+      },
+      {
+        "concept": "data-pipeline",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "velero",
+    "productionReadiness": "foundational",
+    "governance": "foundation",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard Kubernetes backup/disaster-recovery tool."
+    },
+    "intents": [
+      {
+        "concept": "disaster-recovery",
+        "strength": "primary"
+      },
+      {
+        "concept": "kubernetes-backup",
+        "strength": "primary"
+      },
+      {
+        "concept": "persistent-volume-backup",
+        "strength": "secondary"
+      },
+      {
+        "concept": "cluster-migration",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "video-js",
+    "productionReadiness": "foundational",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely adopted open-source HTML5 video player library."
+    },
+    "intents": [
+      {
+        "concept": "video-player",
+        "strength": "primary"
+      },
+      {
+        "concept": "html5-video",
+        "strength": "primary"
+      },
+      {
+        "concept": "web-video",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "vllm",
+    "productionReadiness": "foundational",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading high-throughput LLM inference/serving engine; essential representative project."
+    },
+    "intents": [
+      {
+        "concept": "llm-serving",
+        "strength": "primary"
+      },
+      {
+        "concept": "gpu-inference",
+        "strength": "primary"
+      },
+      {
+        "concept": "llm-inference",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "wagtail",
+    "productionReadiness": "foundational",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular Django-based CMS, a strong Python-ecosystem alternative to the JS-heavy CMS options already in the catalog."
+    },
+    "intents": [
+      {
+        "concept": "content-management",
+        "strength": "primary"
+      },
+      {
+        "concept": "cms",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "woodpecker-ci",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Lightweight community-driven CI/CD engine (a Drone fork), a narrower option in a saturated devops category."
+    },
+    "intents": [
+      {
+        "concept": "ci-cd",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "xgboost",
+    "productionReadiness": "foundational",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely used gradient-boosting libraries, a distinct classical-ML complement to deep-learning frameworks."
+    },
+    "intents": [
+      {
+        "concept": "machine-learning",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "zabbix",
+    "productionReadiness": "foundational",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Long-standing enterprise monitoring platform, meaningful overlap with Prometheus/Netdata in the largest category."
+    },
+    "intents": []
+  },
+  {
+    "slug": "zitadel",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Modern cloud-native identity platform, a newer alternative to Keycloak with a distinct multi-tenancy focus."
+    },
+    "intents": [
+      {
+        "concept": "authentication",
+        "strength": "primary"
+      },
+      {
+        "concept": "sso",
+        "strength": "secondary"
+      },
+      {
+        "concept": "oidc",
+        "strength": "secondary"
+      },
+      {
+        "concept": "identity",
+        "strength": "secondary"
+      }
+    ]
+  }
+]

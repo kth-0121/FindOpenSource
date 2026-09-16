@@ -42,5 +42,33 @@
       "description": "Microsofts Open-Source-SDK zur Integration großer Sprachmodelle in Anwendungen, mit Unterstützung für Plugins, Speicher und Planung.",
       "longDescription": "Semantic Kernel lässt Entwickler LLM-Prompts mit nativen Codefunktionen als austauschbare „Plugins“ kombinieren, wodurch ein LLM echte Anwendungslogik aufrufen kann, und bietet Speicher- und Planungsabstraktionen zum Bau autonomerer, mehrstufiger KI-Funktionen. Es ist darauf ausgelegt, sich natürlich in bestehende .NET-, Python- oder Java-Codebasen zu integrieren, statt eine Neuentwicklung zu erfordern.\n\nSemantic Kernel eignet sich für Teams, die bereits im Microsoft-Ökosystem (insbesondere .NET) arbeiten und ein LLM-Orchestrierungs-SDK wollen, das sich in dieser Umgebung nativ anfühlt – eine Alternative zu LangChain (ebenfalls in diesem Katalog) mit erstklassiger Mehrsprachenunterstützung einschließlich starker .NET-Integration."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-11",
+      "repoCreatedAt": "2023-02-27",
+      "archived": false,
+      "openIssuesCount": 298,
+      "stargazersCount": 28559,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 85
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Microsoft's LLM orchestration SDK, meaningful overlap with LangChain but distinct enterprise/.NET positioning."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "ai-agents",
+      "strength": "secondary"
+    },
+    {
+      "concept": "large-language-models",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -42,5 +42,29 @@
       "description": "Infrastructure-as-Code-Tool zum sicheren und effizienten Aufbau, Ändern und Versionieren von Infrastruktur.",
       "longDescription": "Terraform ist ein Infrastructure-as-Code-Tool zum sicheren und vorhersehbaren Aufbauen, Ändern und Versionieren von Infrastruktur: Du beschreibst den gewünschten Zustand deiner Infrastruktur in einer High-Level-Konfigurationssprache, und Terraform findet heraus, wie dieser Zustand erreicht wird. Vor jeder Änderung erstellt es einen Ausführungsplan, der genau zeigt, was erstellt, geändert oder gelöscht wird, und baut einen Abhängigkeitsgraphen aller Ressourcen auf, sodass unabhängige Änderungen parallel angewendet werden können.\n\nDieses Repository enthält den Terraform-Kern – die CLI und die Graph-Engine –, während die Unterstützung einzelner Cloud- und Service-Provider als separate Plugins implementiert ist, die Terraform automatisch aus der Terraform Registry herunterlädt (einige von HashiCorp gepflegt, andere von der Community oder von Anbietern).\n\nTerraform ist unter der Business Source License 1.1 lizenziert, keiner vollständig quelloffenen (von der OSI anerkannten) Lizenz. Es eignet sich für Teams, die Infrastruktur über einen oder mehrere Provider hinweg als versionierten, überprüfbaren Code verwalten möchten, statt über manuelle Konsolenänderungen oder Ad-hoc-Skripte."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-03-13",
+      "archived": false,
+      "openIssuesCount": 1926,
+      "stargazersCount": 49660,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The long-standing standard infrastructure-as-code tool, still extremely widely used despite the BUSL license change."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "infrastructure-as-code",
+      "strength": "primary"
+    }
+  ]
 }

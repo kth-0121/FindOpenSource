@@ -41,5 +41,29 @@
       "description": "Bibliothek zum deutlich schnelleren und speicherärmeren Feintunen großer Sprachmodelle im Vergleich zu Standard-Trainingsansätzen.",
       "longDescription": "Unsloth optimiert den Feintuning-Prozess für populäre Open-Weight-LLMs und beansprucht durch benutzerdefinierte Kernel-Optimierungen wesentlich schnelleres Training und geringeren Speicherverbrauch als Standard-Hugging-Face-Trainingscode, wodurch Feintuning-Jobs, die sonst High-End-Multi-GPU-Setups bräuchten, auf bescheidenerer Hardware laufen können. Es unterstützt populäre offene Modelle und integriert sich in gängige Feintuning-Workflows.\n\nUnsloth eignet sich für Teams oder Einzelpersonen, die Open-Weight-LLMs mit begrenztem Hardware-Budget feintunen – eine spezialisierte Effizienzschicht, die DeepSpeed (ebenfalls in diesem Katalog) ergänzt: Beide adressieren Trainingseffizienz, wobei sich Unsloth speziell darauf konzentriert, Feintuning auf kleinerer Hardware zugänglich zu machen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2023-11-29",
+      "archived": false,
+      "openIssuesCount": 1364,
+      "stargazersCount": 76189,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 76
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Fast-growing efficient LLM fine-tuning library, a genuinely distinct performance-focused niche."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "machine-learning",
+      "strength": "secondary"
+    }
+  ]
 }

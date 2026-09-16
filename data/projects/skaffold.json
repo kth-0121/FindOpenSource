@@ -42,5 +42,29 @@
       "description": "Lokales Kubernetes-Entwicklungstool, das den Build-Push-Deploy-Kreislauf automatisiert, sodass Codeänderungen automatisch in einem Cluster reflektiert werden.",
       "longDescription": "Skaffold beobachtet deinen Quellcode, baut Container-Images automatisch neu, wenn sich Dateien ändern, pusht sie in eine Registry und deployt sie erneut in einen Kubernetes-Cluster – kontinuierlich, ohne dass ein Entwickler jeden Schritt manuell erneut ausführen muss. Es unterstützt viele Build- und Deployment-Tools, statt ein Team an eine bestimmte Toolchain zu binden.\n\nSkaffold eignet sich für Entwickler, die Anwendungen bauen, die auf Kubernetes laufen, und einen schnellen lokalen Iterationskreislauf wollen – als Ergänzung zu Coder (ebenfalls in diesem Katalog), das entfernte Entwicklungsumgebungen bereitstellt, statt den lokalen Build-Deploy-Zyklus zu automatisieren."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2018-01-23",
+      "archived": false,
+      "openIssuesCount": 911,
+      "stargazersCount": 15890,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes local-development workflow tool, a focused build/deploy-loop niche."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "kubernetes-deployment",
+      "strength": "secondary"
+    }
+  ]
 }

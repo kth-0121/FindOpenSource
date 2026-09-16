@@ -42,5 +42,29 @@
       "description": "Branchenstandard-Speichersystem, das Objekt-, Block- und Dateispeicher aus einem einzigen, vereinheitlichten Cluster bereitstellt.",
       "longDescription": "Ceph ist ein ausgereiftes, weit verbreitetes verteiltes Speichersystem, das Objekt- (S3-kompatible), Block- und Dateispeicher-Schnittstellen über einem zugrunde liegenden Cluster bereitstellt und Daten zur Haltbarkeit automatisch über Knoten hinweg repliziert und neu ausbalanciert. Es skaliert von kleinen Clustern bis zu Exabyte-großen Deployments.\n\nCeph eignet sich für Teams, die selbst gehosteten, einheitlichen Speicher über mehrere Zugriffsmuster hinweg (Objekt + Block + Datei) statt separater Systeme für jedes benötigen – ein breiterer Umfang als das reine Objektspeicher-MinIO oder SeaweedFS, die bereits in diesem Katalog sind."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2011-09-01",
+      "archived": false,
+      "openIssuesCount": 1399,
+      "stargazersCount": 17041,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 96
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "De facto standard for self-hosted distributed storage at scale."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "object-storage",
+      "strength": "primary"
+    }
+  ]
 }

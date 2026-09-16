@@ -42,5 +42,29 @@
       "description": "Leichtgewichtige Web-UI und API zur Verwaltung von Docker-, Swarm-, Kubernetes- und ACI-Container-Umgebungen über ein einziges Dashboard.",
       "longDescription": "Portainer Community Edition ist eine Service-Delivery-Plattform für containerisierte Anwendungen, die dir eine grafische Oberfläche (und eine umfangreiche API) zur Verwaltung von Containern, Images, Volumes und Netzwerken über Docker-, Docker-Swarm-, Kubernetes- und Azure-Container-Instances-Umgebungen hinweg bietet. Statt kubectl- oder docker-Befehle direkt auszuführen, verwalten Teams ihre Orchestrator-Ressourcen über die UI von Portainer.\n\nEs läuft als einzelner Container, der auf jedem Cluster bereitgestellt werden kann – entweder als Linux- oder als Windows-nativer Container. Eine separate Portainer Business Edition baut auf derselben Open-Source-Basis auf und fügt Funktionen wie rollenbasierte Zugriffskontrolle und kommerziellen Support für Organisationen hinzu, die diese benötigen.\n\nPortainer eignet sich für Teams, die neben den CLI-first-Tools des aktuellen Katalogs wie Kubernetes und Terraform eine GUI-Schicht über das Docker-/Kubernetes-Container-Management wollen – für die alltägliche operative Sichtbarkeit statt für die Infrastruktur-Provisionierung."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2016-05-19",
+      "archived": false,
+      "openIssuesCount": 755,
+      "stargazersCount": 38504,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular container management UI, a distinct visual-management niche within devops."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "containers",
+      "strength": "secondary"
+    }
+  ]
 }

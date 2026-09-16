@@ -43,5 +43,29 @@
       "description": "Speziell für Metriken, Events und Echtzeitanalysen bei hohem Schreibvolumen entwickelte Zeitreihendatenbank.",
       "longDescription": "InfluxDB ist eine Datenbank, die speziell für zeitgestempelte Daten entwickelt wurde – Metriken, Sensormesswerte, Anwendungsereignisse –, optimiert für sehr hohen Schreibdurchsatz und Zeitbereichsabfragen, mit einer eigenen, um Zeitreihenoperationen herum gebauten Abfragesprache. Sie wird sowohl als Monitoring-Backend als auch direkt von Anwendungen genutzt, die Zeitreihendaten erzeugen.\n\nInfluxDB eignet sich für Teams, die eine allgemeine Zeitreihendatenbank statt einer ausschließlich für Prometheus-artige Metriken gebauten benötigen, sowie für IoT-, Sensor- oder Analytics-Anwendungsfälle jenseits der Infrastrukturüberwachung."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2013-09-26",
+      "archived": false,
+      "openIssuesCount": 2165,
+      "stargazersCount": 31741,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading purpose-built time-series database, a strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "time-series-database",
+      "strength": "primary"
+    }
+  ]
 }

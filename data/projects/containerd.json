@@ -41,5 +41,33 @@
       "description": "Branchenstandard-Container-Runtime, die den Container-Lebenszyklus – Image-Transfer, Ausführung und Überwachung – unter Docker und Kubernetes verwaltet.",
       "longDescription": "containerd übernimmt die Low-Level-Arbeit des Container-Betriebs – Images ziehen, Speicher und Netzwerk verwalten sowie Container-Prozesse starten/stoppen/überwachen – als Daemon, auf dem höherstufige Tools wie Docker und Kubernetes aufbauen, statt diese Logik selbst zu implementieren. Es ist ein von der CNCF graduiertes Projekt und die Standard-Container-Runtime für die meisten Kubernetes-Distributionen.\n\ncontainerd eignet sich für Platform-Teams, die eigene Container-Infrastruktur bauen oder verstehen wollen, was unter Kubernetes (ebenfalls in diesem Katalog) tatsächlich Container ausführt – die meisten Entwickler nutzen es indirekt über Docker oder Kubernetes statt direkt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-11-13",
+      "archived": false,
+      "openIssuesCount": 465,
+      "stargazersCount": 21296,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 98
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Core container runtime underneath Docker/Kubernetes, mostly relevant to platform builders."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "containers",
+      "strength": "primary"
+    },
+    {
+      "concept": "container-orchestration",
+      "strength": "related"
+    }
+  ]
 }

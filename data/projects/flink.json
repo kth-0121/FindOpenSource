@@ -41,5 +41,29 @@
       "description": "Verteilte Stream-Processing-Engine zur Berechnung über kontinuierliche, unbegrenzte Datenströme mit Exactly-once-Korrektheitsgarantien.",
       "longDescription": "Apache Flink verarbeitet Daten als kontinuierliche Ströme statt fester Batches und berechnet Aggregationen, Joins und Mustererkennung über Ereignisse, sobald sie eintreffen, mit niedriger Latenz und Exactly-once-Verarbeitungsgarantien auch nach Ausfällen. Es unterstützt auch Batch-Verarbeitung als Spezialfall des Streamings.\n\nFlink eignet sich für Teams, die Echtzeit-Datenpipelines, Betrugserkennung oder ereignisgesteuerte Analytics bauen und Daten verarbeiten müssen, sobald sie eintreffen, statt in geplanten Batches – häufig gepaart mit Apache Kafka (ebenfalls in diesem Katalog) als Ereignisquelle."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-06-07",
+      "archived": false,
+      "openIssuesCount": 366,
+      "stargazersCount": 26335,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 97
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading stream-processing engine, a strong representative pick for real-time analytics."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "stream-processing",
+      "strength": "primary"
+    }
+  ]
 }

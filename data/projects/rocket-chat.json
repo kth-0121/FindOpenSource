@@ -43,5 +43,33 @@
       "description": "Quelloffene Team-Chat- und Kollaborationsplattform, die sich vollständig selbst hosten lässt.",
       "longDescription": "Rocket.Chat ist eine quelloffene, selbst hostbare Team-Kommunikationsplattform in TypeScript, die sich an Organisationen mit strengen Datenschutz- oder Compliance-Anforderungen richtet. Zu den Deployment-Optionen gehören Self-Hosting (Docker, Podman, Kubernetes), Cloud-Hosting sowie vollständig air-gapped (ohne Internetzugang) Umgebungen für hochsichere oder regulierte Bereiche.\n\nZu den Sicherheitsfunktionen zählen Ende-zu-Ende-Verschlüsselung, Identitätsmanagement sowie rollen- und attributbasierte Zugriffskontrolle. Über den Kern-Chat hinaus unterstützt es Sprachanrufe und Federation (Kommunikation zwischen separaten Rocket.Chat-Workspaces) und lässt sich durch öffentliche Apps aus dem Rocket.Chat Marketplace oder eigene, mit der Apps-Engine gebaute Apps erweitern. Neben der Web-App stehen Desktop- und Mobile-Clients zur Verfügung.\n\nEs eignet sich für Organisationen – einschließlich regulierter Branchen wie Regierung, Verteidigung oder Finanzwesen –, die eine selbst gehostete oder air-gapped Chat-Plattform mit feingranularer Zugriffskontrolle und Compliance-Tooling benötigen, statt eines reinen SaaS-Team-Chat-Produkts."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-05-19",
+      "archived": false,
+      "openIssuesCount": 4038,
+      "stargazersCount": 46120,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Long-standing self-hosted team chat platform, a strong second option in a very thin chat category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "team-chat",
+      "strength": "primary"
+    },
+    {
+      "concept": "chat",
+      "strength": "primary"
+    }
+  ]
 }

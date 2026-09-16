@@ -17,6 +17,14 @@ const LANGUAGE_EXACT = 8;
 const LANGUAGE_PARTIAL = 4;
 const DESCRIPTION_PARTIAL = 5;
 const ALL_TOKENS_MATCHED_BONUS = 25;
+// Curated "this project genuinely serves this intent" claims (project.intents,
+// see lib/schema.ts / docs/project-evaluation.md). Pitched between
+// CATEGORY_EXACT and KEYWORD_EXACT: stronger evidence than a broad category
+// tag, but a curated claim never outranks a literal keyword/name match on
+// the same token.
+const INTENT_PRIMARY_MATCH = 25;
+const INTENT_SECONDARY_MATCH = 12;
+const INTENT_RELATED_MATCH = 5;
 
 /**
  * Below this length, substring ("partial") matching is skipped — only an
@@ -101,6 +109,22 @@ function expandQuery(query: string, locale: Locale): string[] {
   return Array.from(expansions);
 }
 
+/**
+ * project.intents (see lib/schema.ts / docs/project-evaluation.md) records
+ * what a project genuinely serves, curated at the same taxonomy-concept
+ * granularity as keyword-taxonomy.ts. Exact match only, same rationale as
+ * scoreExpansionTerm below: these are short curated ids, not free text.
+ * Projects without `intents` always return 0 here, so this is a no-op for
+ * any project that hasn't been curated yet.
+ */
+function scoreIntentMatch(term: string, project: Project): number {
+  const intent = project.intents?.find((i) => i.concept === term);
+  if (!intent) return 0;
+  if (intent.strength === "primary") return INTENT_PRIMARY_MATCH;
+  if (intent.strength === "secondary") return INTENT_SECONDARY_MATCH;
+  return INTENT_RELATED_MATCH;
+}
+
 function scoreTokenAgainstProject(
   token: string,
   project: Project,
@@ -142,6 +166,8 @@ function scoreTokenAgainstProject(
     best = Math.max(best, DESCRIPTION_PARTIAL);
   }
 
+  best = Math.max(best, scoreIntentMatch(token, project));
+
   return best * weight;
 }
 
@@ -160,6 +186,7 @@ function scoreExpansionTerm(term: string, project: Project): number {
   if (project.categories.includes(term)) {
     best = Math.max(best, CATEGORY_EXACT);
   }
+  best = Math.max(best, scoreIntentMatch(term, project));
   return best * EXPANSION_WEIGHT;
 }
 

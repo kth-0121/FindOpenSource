@@ -41,5 +41,33 @@
       "description": "Bibliothek, um zuverlässige, strukturierte Datenausgaben von LLMs mittels Function-Calling-APIs und Pydantic-Modellen zur Validierung zu erhalten.",
       "longDescription": "Instructor umhüllt die native Function-Calling- oder Tool-Use-Fähigkeit eines LLM, sodass ein Entwickler eine Antwort anfordern kann, die einem Pydantic-Modell entspricht, und wiederholt die Anfrage automatisch, wenn die Ausgabe des Modells nicht gegen dieses Schema validiert – wodurch unzuverlässige LLM-Freitextausgabe in verlässliche strukturierte Daten verwandelt wird. Es unterstützt OpenAI, Anthropic und viele andere Modellanbieter über eine konsistente Schnittstelle.\n\nInstructor eignet sich für Teams, die strukturierte Datenextraktion aus LLMs benötigen, und erreicht dies über Function-Calling-APIs und Retry-Logik – ein anderer technischer Ansatz als Outlines (ebenfalls in diesem Katalog), das die Generierung stattdessen auf Token-Ebene einschränkt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-11",
+      "repoCreatedAt": "2023-06-14",
+      "archived": false,
+      "openIssuesCount": 55,
+      "stargazersCount": 13894,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 82
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular structured-output library for LLMs with a distinctive validation-first approach."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "structured-output",
+      "strength": "primary"
+    },
+    {
+      "concept": "llm-generation",
+      "strength": "secondary"
+    }
+  ]
 }

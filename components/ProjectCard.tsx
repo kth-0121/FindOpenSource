@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Project } from "@/lib/schema";
 import { getCategoryBySlug, localizeCategory } from "@/lib/categories";
+import { getTopEvidenceBadge } from "@/lib/evaluation/badges";
 import type { Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/types";
 
@@ -18,6 +19,7 @@ export function ProjectCard({
     .filter((category): category is NonNullable<typeof category> => Boolean(category))
     .map((category) => localizeCategory(category, dict))
     .slice(0, 3);
+  const topBadge = getTopEvidenceBadge(project);
 
   return (
     <Link
@@ -33,6 +35,7 @@ export function ProjectCard({
         </span>
       </div>
       <p className="line-clamp-2 text-sm text-muted-foreground">{project.description}</p>
+      {topBadge && <p className="text-xs font-medium text-accent">{dict.evidenceBadges[topBadge]}</p>}
       {categories.length > 0 && (
         <ul className="flex flex-wrap gap-2">
           {categories.map((category) => (

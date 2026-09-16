@@ -37,6 +37,10 @@ yarn-error.log*
 # vercel
 .vercel
 
+# raw offline gh-api evidence cache (derived/classified fields live in
+# data/projects/*.json instead -- this is just the intermediate pull)
+/data/.cache/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

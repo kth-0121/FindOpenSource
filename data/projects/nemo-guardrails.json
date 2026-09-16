@@ -41,5 +41,29 @@
       "description": "Toolkit zum Hinzufügen programmierbarer Sicherheits- und Verhaltens-Guardrails zu LLM-gestützten Konversationsanwendungen.",
       "longDescription": "NeMo Guardrails lässt ein Team mithilfe einer dedizierten Modellierungssprache Regeln definieren, was eine LLM-gestützte Anwendung tun und nicht tun soll – beim Thema bleiben, bestimmte Inhalte vermeiden, einem bestimmten Gesprächsablauf folgen – und setzt diese Regeln rund um das zugrunde liegende LLM durch, unabhängig davon, welches Modell verwendet wird. Das fügt einem von Natur aus unvorhersehbaren Modell eine Schicht Vorhersagbarkeit hinzu.\n\nNeMo Guardrails eignet sich für Teams, die LLM-Anwendungen mit verlässlichen Verhaltensgrenzen deployen, und ergänzt allgemeine LLM-Frameworks wie LangChain und Haystack (ebenfalls in diesem Katalog) durch eine Sicherheits- und Kontrollschicht um jedes Modell oder jede Pipeline, die diese Frameworks orchestrieren."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2023-04-18",
+      "archived": false,
+      "openIssuesCount": 229,
+      "stargazersCount": 7124,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 79
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "LLM safety/guardrails toolkit, a genuinely distinct niche within a saturated ai category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "llm-evaluation",
+      "strength": "secondary"
+    }
+  ]
 }

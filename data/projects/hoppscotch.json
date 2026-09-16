@@ -44,5 +44,37 @@
       "description": "Leichtgewichtiges, quelloffenes API-Entwicklungsökosystem zum Erstellen und Testen von REST-, GraphQL-, WebSocket- und anderen API-Anfragen, als Alternative zu Postman.",
       "longDescription": "Hoppscotch ist ein Open-Source-Ökosystem für die API-Entwicklung, mit dem sich API-Anfragen erstellen, senden und untersuchen lassen – positioniert als Alternative zu Postman und Insomnia. Es unterstützt die gesamte Bandbreite an HTTP-Methoden (einschließlich benutzerdefinierter Methoden, die manche APIs verwenden) sowie GraphQL, WebSocket, Server-Sent Events und weitere Protokolle, mit Echtzeit-Anfrage-/Antwortverarbeitung in einer bewusst leichtgewichtigen, minimalistischen Oberfläche.\n\nEs ist als Web-App, Desktop-App und CLI verfügbar und kann je nach gewünschter Deployment-Art eines Teams vollständig offline, on-premises oder in der Cloud laufen. Als Progressive Web App unterstützt es sofortiges Laden und Offline-Nutzung über Service Worker, und Themes sowie Einstellungen werden zwischen Cloud- oder lokalen Sitzungen synchronisiert.\n\nHoppscotch eignet sich für Entwickler, die einen schnellen, selbst hostbaren API-Client zum Erstellen und Testen von Anfragen während der Entwicklung möchten, statt eines proprietären, reinen Desktop-Tools."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2019-08-21",
+      "archived": false,
+      "openIssuesCount": 822,
+      "stargazersCount": 80310,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Open-source Postman alternative, a distinctive lightweight API-testing option."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "api-testing",
+      "strength": "primary"
+    },
+    {
+      "concept": "postman-alternative",
+      "strength": "primary"
+    },
+    {
+      "concept": "rest-client",
+      "strength": "secondary"
+    }
+  ]
 }

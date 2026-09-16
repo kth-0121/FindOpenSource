@@ -3,6 +3,12 @@ import type { Dictionary } from "../types";
 const dictionary: Dictionary = {
   skipToContent: "Skip to content",
   adSlotLabel: "Advertisement",
+  evidenceBadges: {
+    activelyMaintained: "Actively maintained",
+    wellDocumented: "Well documented",
+    permissiveLicense: "Permissive license",
+    foundationBacked: "Foundation-backed",
+  },
   nav: {
     categories: "Categories",
     contribute: "Contribute",

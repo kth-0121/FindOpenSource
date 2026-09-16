@@ -43,5 +43,29 @@
       "description": "eBPF-basierte Observability-Plattform, die sofortige Einblicke in Kubernetes-Anwendungen ohne Codeänderungen oder manuelle Instrumentierung bietet.",
       "longDescription": "Pixie nutzt eBPF, um Telemetrie – HTTP/gRPC-Anfragen, Datenbankabfragen, Netzwerkverbindungen, Ressourcennutzung – direkt aus dem Linux-Kernel automatisch zu erfassen, sodass ein Team tiefe Anwendungs-Observability erhält, ohne eine einzige Tracing-Bibliothek oder einen Agenten zum Code hinzuzufügen. Daten bleiben standardmäßig im Cluster, statt extern versendet zu werden.\n\nPixie eignet sich für Teams, die eine Kubernetes-Anwendung sofort debuggen wollen, ohne sie vorher instrumentiert zu haben – ein grundlegend anderer Ansatz als das instrumentierungsbasierte Modell des OpenTelemetry Collectors (ebenfalls in diesem Katalog)."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-07-30",
+      "repoCreatedAt": "2020-02-27",
+      "archived": false,
+      "openIssuesCount": 396,
+      "stargazersCount": 6535,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 88
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "eBPF-based auto-instrumenting observability for Kubernetes, a genuinely distinct no-code-change approach."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "observability",
+      "strength": "secondary"
+    }
+  ]
 }

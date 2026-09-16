@@ -41,5 +41,33 @@
       "description": "Verteilte Messaging- und Streaming-Plattform für transaktionale Zuverlässigkeit auf Finanz-Niveau bei sehr hohem Durchsatz.",
       "longDescription": "RocketMQ handhabt Publish/Subscribe-Messaging, geordnete Nachrichten und transaktionale Nachrichten – bei denen ein Nachrichtenversand an das Ergebnis einer Datenbanktransaktion gebunden ist – ursprünglich bei Alibaba gebaut, um die Zuverlässigkeits- und Skalierungsanforderungen der E-Commerce-Transaktionsverarbeitung zu bewältigen. Es ist eine etablierte Alternative im selben Bereich wie Kafka und RabbitMQ.\n\nRocketMQ eignet sich für Teams, die speziell transaktionale Messaging-Garantien benötigen (Nachrichtenzustellung gebunden an das Ergebnis einer Geschäftstransaktion) – eine Fähigkeit, die es für Finanz- und Bestellabwicklungs-Workloads von RabbitMQ und Kafka (ebenfalls in diesem Katalog) unterscheidet."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-11-30",
+      "archived": false,
+      "openIssuesCount": 689,
+      "stargazersCount": 22596,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 91
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Capable messaging platform but overlaps significantly with Kafka/RabbitMQ/Pulsar already in the catalog."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "message-broker",
+      "strength": "primary"
+    },
+    {
+      "concept": "messaging",
+      "strength": "secondary"
+    }
+  ]
 }

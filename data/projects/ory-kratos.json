@@ -44,5 +44,37 @@
       "description": "API-first, headless Identitäts- und Benutzerverwaltungsserver für cloud-native Anwendungen, der Login, Registrierung, Wiederherstellung und Profilverwaltung abdeckt.",
       "longDescription": "Ory Kratos ist ein API-first Identitäts- und Benutzerverwaltungssystem für cloud-native Anwendungen. Es zentralisiert Self-Service-Login, Registrierung, Kontoverifizierung, Passwort-/Kontowiederherstellung, Multi-Faktor-Authentifizierung und Profilverwaltung in einer Reihe von HTTP-APIs, sodass Anwendungen diese Abläufe nutzen, statt sie von Grund auf neu zu implementieren.\n\nEs ist bewusst headless konzipiert: Kratos stellt browserbasierte und native App-Authentifizierungsabläufe über APIs bereit, liefert aber keine eigene Login-UI mit, sodass es mit jedem Frontend-Framework funktioniert. Es ist darauf ausgelegt, auf große Mengen an Identitäten und Geräten zu skalieren, und lässt sich bei Bedarf in den breiteren Ory-Stack integrieren (Ory Hydra für OAuth2/OpenID Connect, Ory Keto für Zugriffskontrolle). Es kann selbst gehostet oder auf dem verwalteten Ory Network betrieben werden.\n\nKratos eignet sich für Teams, die die Identitätslogik vollständig aus ihrem Anwendungscode entfernen und als API konsumieren möchten, während sie die volle Kontrolle über ihre eigene Login-UI behalten, statt eine vorgefertigte zu übernehmen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-07-29",
+      "repoCreatedAt": "2018-05-29",
+      "archived": false,
+      "openIssuesCount": 224,
+      "stargazersCount": 13877,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 85
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "API-first cloud-native identity server, a headless alternative to Keycloak."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "authentication",
+      "strength": "primary"
+    },
+    {
+      "concept": "identity",
+      "strength": "primary"
+    },
+    {
+      "concept": "iam",
+      "strength": "secondary"
+    }
+  ]
 }

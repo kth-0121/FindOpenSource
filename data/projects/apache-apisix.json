@@ -42,5 +42,29 @@
       "description": "Dynamisches, hochperformantes API-Gateway auf Basis von NGINX und etcd, das Hot-Reload-fähige Plugins, Canary-Releases und KI-Traffic-Routing zu den klassischen Gateway-Funktionen hinzufügt.",
       "longDescription": "Apache APISIX ist ein Cloud-natives API-Gateway, das für die Datenebene auf NGINX und für die dynamische Konfigurationsspeicherung auf etcd aufbaut, unter der Governance der Apache Software Foundation. Anders als Gateways, die zum Übernehmen von Konfigurationsänderungen einen Reload benötigen, erlaubt das etcd-gestützte Design von APISIX, Routen, Upstreams und Plugins dynamisch zu aktualisieren, ohne neu zu starten oder Traffic zu verlieren.\n\nEs übernimmt die üblichen Aufgaben eines API-Gateways – Lastverteilung, Authentifizierung, Rate Limiting, Circuit Breaking, Canary-Releases – sowohl für klassischen Nord-Süd-Traffic als auch für Ost-West-Traffic zwischen Diensten, kann als Kubernetes-Ingress-Controller laufen und hat AI-Gateway-Funktionen zum Routen und Verwalten von Traffic zu LLM-Anbietern erhalten.\n\nAPISIX eignet sich für Teams, die API-Gateways evaluieren und eine von Apache verwaltete, etcd-basierte Alternative mit dynamischer Konfiguration wollen – als Ergänzung zu dem bereits in diesem Katalog vorhandenen Kong-Eintrag: Beide lösen dasselbe Kernproblem mit unterschiedlichen Architekturen und Governance-Modellen, und Teams vergleichen die beiden häufig direkt miteinander."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-04-10",
+      "archived": false,
+      "openIssuesCount": 243,
+      "stargazersCount": 17123,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 94
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Solid API gateway option though the API category already covers similar ground with Kong."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "api-gateway",
+      "strength": "primary"
+    }
+  ]
 }

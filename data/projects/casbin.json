@@ -44,5 +44,41 @@
       "description": "Open-Source-Bibliothek für Zugriffskontrolle, die ACL-, RBAC- und ABAC-Autorisierungsmodelle implementiert, mit produktionsreifen Portierungen für Go, Java, Python, Node.js und mehr.",
       "longDescription": "Casbin ist eine Bibliothek für Zugriffskontrolle – kein eigenständiger Server –, die einer Anwendung Autorisierung hinzufügt, indem sie Richtlinien durchsetzt, die gegen Standard-Zugriffskontrollmodelle wie ACL, RBAC und ABAC definiert sind. Richtlinien und das Modell, das sie definiert, werden in einem kompakten Konfigurationsformat geschrieben, das über Casbins Sprachimplementierungen hinweg konsistent bleibt, sodass dieselbe Richtlinienlogik wiederverwendet werden kann, egal ob eine Anwendung in Go, Java, Python, Node.js, PHP, .NET, C++ oder Rust geschrieben ist.\n\nDa es sich um eine Bibliothek handelt, die direkt in eine Anwendung eingebettet wird, statt um einen separaten Identitätsdienst, übernimmt Casbin die Autorisierungsentscheidung selbst (hat dieser Benutzer die Berechtigung, diese Aktion auszuführen), nicht die Authentifizierung (wer ist dieser Benutzer) – es wird üblicherweise mit einem separaten Authentifizierungssystem kombiniert. Das Projekt wird inzwischen unter der Apache Software Foundation gehostet.\n\nCasbin eignet sich für Entwickler, die feingranulare, modellbasierte Zugriffskontrolle direkt im eigenen Anwendungscode benötigen, über eine oder mehrere Sprachen hinweg, statt Authentifizierung oder einen separaten Policy-Decision-Dienst."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-11",
+      "repoCreatedAt": "2017-04-08",
+      "archived": false,
+      "openIssuesCount": 38,
+      "stargazersCount": 20389,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Widely embedded access-control library (RBAC/ABAC), distinct from full auth servers."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "authorization",
+      "strength": "primary"
+    },
+    {
+      "concept": "rbac",
+      "strength": "primary"
+    },
+    {
+      "concept": "access-control",
+      "strength": "primary"
+    },
+    {
+      "concept": "abac",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -43,5 +43,29 @@
       "description": "CNCF-Dashboarding-Tool zur Visualisierung von Observability-Daten, aufgebaut um portable, versionierbare Dashboard-Definitionen.",
       "longDescription": "Perses bietet Dashboards für Metriken und andere Observability-Daten mit Fokus auf Dashboards-as-Code – Definitionen, die zwischen Tools portabel sind, leicht in git gespeichert und programmatisch generiert werden können, statt an das proprietäre Dashboard-Format eines Anbieters gebunden zu sein. Es strebt an, ein CNCF-Standard für Dashboard-Definitionen zu werden.\n\nPerses eignet sich für Teams, die versionierte, portable Dashboard-Definitionen statt manuell gebauter Dashboards wollen – eine aufstrebende Alternative zu Grafana (ebenfalls in diesem Katalog) für Teams, die Dashboards-as-Code priorisieren."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2021-01-26",
+      "archived": false,
+      "openIssuesCount": 269,
+      "stargazersCount": 2424,
+      "productionReadiness": "emerging",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Newer CNCF dashboarding tool, meaningful overlap with the well-established Grafana."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "dashboard",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -42,5 +42,33 @@
       "description": "Von der CNCF graduierter Log-Collector, der die Datensammlung aus vielen Quellen in einer einzigen, strukturierten Logging-Schicht vereint.",
       "longDescription": "Fluentd sammelt Logs aus einer riesigen Bandbreite von Quellen – Anwendungslogs, Systemlogs, Cloud-Dienste – und leitet sie in einem einheitlichen, strukturierten Format an ein oder mehrere Ziele wie Elasticsearch, Objektspeicher oder ein Log-Analytics-Backend weiter. Sein Plugin-Ökosystem deckt die meisten gängigen Ein- und Ausgaben ohne benutzerdefinierten Klebecode ab.\n\nFluentd eignet sich für Teams, die eine dedizierte Log-Sammel- und Weiterleitungsschicht vor einem Storage- oder Analytics-Backend benötigen – als Ergänzung zu Grafana Loki (ebenfalls in diesem Katalog), das die Log-Speicherung und -Abfrage übernimmt statt die Sammelschicht selbst."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2011-06-19",
+      "archived": false,
+      "openIssuesCount": 134,
+      "stargazersCount": 13586,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Widely used log collector/forwarder; monitoring is already the largest category, but this is a standard pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "logging",
+      "strength": "primary"
+    },
+    {
+      "concept": "log-aggregation",
+      "strength": "primary"
+    }
+  ]
 }

@@ -43,5 +43,37 @@
       "description": "Selbst gehostete Plattform zum Bereitstellen von Cloud-Entwicklungsumgebungen auf eigener Infrastruktur, die jedem Entwickler einen konsistenten, wegwerfbaren Remote-Workspace gibt.",
       "longDescription": "Coder ist eine selbst gehostete Plattform für Cloud-Entwicklungsumgebungen (CDEs) – vollständige Entwicklungs-Workspaces, die auf von einem Team kontrollierter Infrastruktur statt auf dem Laptop einer Einzelperson laufen. Workspaces werden als Terraform definiert, sodass ein Workspace genau die Rechenleistung, den Netzwerkzugriff und das Tooling bereitstellen kann, auf die sich ein Team standardisiert hat, sich über einen sicheren WireGuard-Tunnel mit dem bevorzugten Editor eines Entwicklers verbindet und sich bei Inaktivität automatisch herunterfährt, um Kosten zu kontrollieren.\n\nDa Workspaces aus einer gemeinsamen Vorlage statt von Hand eingerichtet werden, erhält jeder Entwickler eine konsistente, reproduzierbare Umgebung statt einer persönlich abgedrifteten lokalen Maschine, und Workspaces lassen sich beliebig neu erstellen oder verwerfen, da die tatsächliche Arbeit eines Entwicklers nicht ausschließlich auf der zugrunde liegenden Infrastruktur des Workspace liegt.\n\nCoder eignet sich für Teams, die Cloud-Entwicklungsumgebungen auf eigener Infrastruktur statt der Cloud eines Anbieters betreiben möchten, um Onboarding und Tooling zu standardisieren, ohne die Kontrolle darüber aufzugeben, wo Code und Rechenleistung tatsächlich laufen – als Ergänzung zu Gitea und Portainer (ebenfalls in diesem Katalog) statt als Ersatz, da Coder den Entwicklungs-Workspace selbst bereitstellt, nicht den Code-Host oder die darunterliegende Container-Runtime."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2021-12-22",
+      "archived": false,
+      "openIssuesCount": 999,
+      "stargazersCount": 14464,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 82
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Self-hosted remote development environments, a distinct niche within developer-tools."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "remote-development",
+      "strength": "primary"
+    },
+    {
+      "concept": "cloud-development-environment",
+      "strength": "primary"
+    },
+    {
+      "concept": "dev-environments",
+      "strength": "primary"
+    }
+  ]
 }

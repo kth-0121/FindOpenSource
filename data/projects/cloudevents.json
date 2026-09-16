@@ -42,5 +42,29 @@
       "description": "CNCF-Spezifikation und SDK-Sammlung zur Beschreibung von Ereignisdaten in einem gemeinsamen, anbieterneutralen Format über Systeme und Plattformen hinweg.",
       "longDescription": "CloudEvents definiert ein Standard-Umschlagformat für Ereignisdaten – was passiert ist, wann, aus welcher Quelle –, sodass verschiedene Systeme, Message-Broker und Cloud-Anbieter Ereignisdaten austauschen können, ohne dass jeder sein eigenes inkompatibles Format erfindet. Es wird als Spezifikation plus SDKs in vielen Sprachen ausgeliefert, statt als laufender Dienst.\n\nCloudEvents eignet sich für Teams, die ereignisgesteuerte Architekturen über mehrere Tools oder Anbieter hinweg bauen und wollen, dass Ereignisse interoperabel sind statt an das Format eines bestimmten Messaging-Systems gebunden – als Ergänzung zu NATS, Kafka und RabbitMQ (ebenfalls in diesem Katalog), die alle CloudEvents-formatierte Payloads transportieren können."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-03",
+      "repoCreatedAt": "2017-12-09",
+      "archived": false,
+      "openIssuesCount": 15,
+      "stargazersCount": 5891,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Useful event-format spec/SDK but narrower -- more of an interoperability standard than a standalone tool."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "event-streaming",
+      "strength": "related"
+    }
+  ]
 }

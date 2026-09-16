@@ -41,5 +41,37 @@
       "description": "Schnelles Serving-Framework für große Sprachmodelle und Vision-Language-Modelle mit einer strukturierten Generierungssprache für komplexe LLM-Programme.",
       "longDescription": "SGLang kombiniert ein hochperformantes Inferenz-Backend mit einer Frontend-Sprache zum Ausdrücken komplexer LLM-Interaktionen – mehrstufiges Schlussfolgern, strukturierte Ausgabe, Tool-Aufrufe – als ein einziges Programm, das die Laufzeitumgebung als Ganzes optimieren kann, statt als Reihe separater API-Aufrufe. Es zielt sowohl auf rohen Serving-Durchsatz als auch auf Ausdruckskraft für komplexe agentenartige Workloads.\n\nSGLang eignet sich für Teams, die hochdurchsatzfähiges LLM-Serving kombiniert mit strukturierten, mehrstufigen Generierungsmustern benötigen – eine performance-fokussierte Alternative zu vLLM (ebenfalls in diesem Katalog), die Teams häufig gegeneinander benchmarken."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2024-01-08",
+      "archived": false,
+      "openIssuesCount": 5344,
+      "stargazersCount": 35980,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 79
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Fast-growing high-performance LLM serving engine, a strong alternative to vLLM."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "llm-serving",
+      "strength": "primary"
+    },
+    {
+      "concept": "gpu-inference",
+      "strength": "secondary"
+    },
+    {
+      "concept": "llm-inference",
+      "strength": "secondary"
+    }
+  ]
 }

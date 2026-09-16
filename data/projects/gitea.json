@@ -42,5 +42,23 @@
       "description": "Leichtgewichtiger, selbst gehosteter Git-Dienst mit Issue-Tracking, Pull Requests und CI-Integration.",
       "longDescription": "Gitea ist eine selbst gehostete All-in-One-Plattform für die Softwareentwicklung, geschrieben in Go: Git-Repository-Hosting, Code-Review, Issue-Tracking, ein Kanban-Board für Projekte, ein Wiki, eine Paketregistry und CI/CD (Gitea Actions, kompatibel mit GitHub-Actions-Workflows) in einer einzigen Anwendung. Da es in Go geschrieben ist, läuft eine einzige Binärdatei unter Linux, macOS, BSD und Windows auf x86, amd64, ARM, RISC-V64 und PowerPC.\n\nDie meisten Teams hosten es selbst, etwa über das offizielle Docker-Image, aber Gitea bietet auch eine gehostete Option (Gitea Cloud) sowie ein kostenloses Konto mit begrenzter Repository-Anzahl auf gitea.com, falls du keine eigene Instanz betreiben möchtest.\n\nGitea richtet sich an Teams und Einzelpersonen, die für Versionsverwaltung und den umgebenden Entwicklungsworkflow eine leichtgewichtige, selbst hostbare Alternative zu GitHub/GitLab suchen – besonders dort, wo Ressourcenverbrauch oder die volle Kontrolle über die Hosting-Umgebung wichtig sind."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-11-01",
+      "archived": false,
+      "openIssuesCount": 2466,
+      "stargazersCount": 57990,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Lightweight self-hosted Git service, a strong differentiated pick vs. heavier platforms."
+    },
+    "flag": "ok"
   }
 }

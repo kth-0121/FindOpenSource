@@ -43,5 +43,29 @@
       "description": "Durchgängige, quelloffene Plattform für maschinelles Lernen, von der Forschung bis zur Produktion.",
       "longDescription": "TensorFlow ist eine End-to-End-Open-Source-Plattform für maschinelles Lernen, ursprünglich vom Machine-Intelligence-Team von Google (Google Brain) für interne ML-Forschung entwickelt und heute als universelles Framework gepflegt, das weit über diesen ursprünglichen Kontext hinaus eingesetzt wird. Es bietet stabile Python- und C++-APIs (mit zusätzlichen, nicht garantiert stabilen APIs für andere Sprachen) sowie ein breiteres Ökosystem an Tools, Bibliotheken und Community-Ressourcen sowohl für die Forschung als auch für den Bau und das Deployment von ML-gestützten Anwendungen.\n\nEs wird über pip installiert (`tensorflow` für GPU-fähige Builds auf unterstützten Plattformen oder `tensorflow-cpu` für ein kleineres, reines CPU-Paket), wobei GPU-Beschleunigung über CUDA unter Linux/Windows oder über Geräteplugins für DirectX und Apples Metal auf anderen Plattformen verfügbar ist.\n\nTensorFlow eignet sich für Teams und Forscher, die Machine-Learning-Modelle bauen oder deployen und dabei ein ausgereiftes, weitverbreitetes Framework mit erstklassiger Python-Unterstützung und Production-Deployment-Tooling wollen, statt einer rein forschungsorientierten oder eng gefassten ML-Bibliothek."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-11-07",
+      "archived": false,
+      "openIssuesCount": 3165,
+      "stargazersCount": 200093,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the two dominant deep-learning frameworks; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "machine-learning",
+      "strength": "primary"
+    }
+  ]
 }

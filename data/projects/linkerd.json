@@ -43,5 +43,29 @@
       "description": "Leichtgewichtiger Service Mesh für Kubernetes mit Fokus auf Einfachheit und geringen Ressourcen-Overhead – eine echte Alternative zu Istio.",
       "longDescription": "Linkerd fügt einem Kubernetes-Cluster über leichtgewichtige Proxys gegenseitige TLS-Verschlüsselung, Wiederholungsversuche, Lastverteilung und detaillierte Traffic-Metriken hinzu und priorisiert bewusst operative Einfachheit und einen kleinen Ressourcen-Fußabdruck gegenüber dem breiteren Funktionsumfang von Istio (ebenfalls in diesem Katalog). Es war das ursprüngliche Service-Mesh-Projekt und ist ein von der CNCF graduiertes Projekt.\n\nLinkerd eignet sich für Teams, die zentrale Service-Mesh-Fähigkeiten – mTLS, Observability, Zuverlässigkeit – ohne Istios operative Komplexität wollen – eine echte Alternative, die Teams häufig Seite an Seite mit Istio evaluieren, bevor sie sich entscheiden."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2017-12-04",
+      "archived": false,
+      "openIssuesCount": 213,
+      "stargazersCount": 11496,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Lightweight service mesh, a simpler alternative to Istio in a saturated category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "service-mesh",
+      "strength": "primary"
+    }
+  ]
 }

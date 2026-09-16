@@ -46,5 +46,33 @@
       "description": "Quelloffene Datenplattform, die jede SQL-Datenbank mit einer dynamischen API und einer intuitiven Admin-App umschließt.",
       "longDescription": "Directus ist eine Backend-Schicht, die auf einer bestehenden SQL-Datenbank aufsetzt – darunter Postgres, MySQL, MariaDB, SQL Server, SQLite, Oracle und CockroachDB – und diese automatisch als REST- und GraphQL-APIs bereitstellt, ohne ein bestimmtes Schema oder ORM-Konventionen vorauszusetzen. Neben den APIs liefert es ein visuelles Studio (Admin-App), mit dem auch nicht-technische Teammitglieder Inhalte direkt in der Live-Datenbank verwalten können, mit feldgenauer, richtlinienbasierter Zugriffskontrolle, die sowohl für Menschen als auch für KI-Agenten gilt.\n\nEin aktueller Schwerpunkt des Projekts liegt auf KI-Tooling: Directus enthält einen im Studio integrierten KI-Assistenten sowie einen nativen MCP-Server (Model Context Protocol), sodass Tools wie Claude, Cursor oder ChatGPT sich mit denselben Live-Daten verbinden und unter denselben Berechtigungsregeln wie menschliche Nutzer darauf zugreifen können – statt mit einer exportierten Kopie zu arbeiten.\n\nEs lässt sich auf eigener Infrastruktur selbst hosten oder als verwaltetes Projekt auf Directus Cloud betreiben und ist über benutzerdefinierte Endpunkte, Hooks, Interfaces und Module erweiterbar – geeignet für Teams, die einer bestehenden Datenbank eine API und eine Admin-Oberfläche hinzufügen möchten, ohne beides selbst zu entwickeln."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2012-12-12",
+      "archived": false,
+      "openIssuesCount": 402,
+      "stargazersCount": 37915,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 77
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Popular headless CMS/data platform spanning three categories; note BUSL is source-available, not fully open."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "headless-cms",
+      "strength": "primary"
+    },
+    {
+      "concept": "cms",
+      "strength": "primary"
+    }
+  ]
 }

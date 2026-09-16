@@ -42,5 +42,37 @@
       "description": "Schnelles, High-Level-Python-Framework für Web Scraping und Crawling, zum Extrahieren strukturierter Daten von Websites.",
       "longDescription": "Scrapy ist ein Web-Scraping-Framework für Python, das strukturierte Daten von Websites extrahiert. Es ist plattformübergreifend, benötigt Python 3.10 oder neuer und wird von Zyte (früher Scrapinghub) zusammen mit einer großen Community von Contributors gepflegt – das macht es zu einem der etablierteren, langjährigen Frameworks im Bereich Web Scraping.\n\nAls Framework statt als Tool für einen einzelnen Zweck übernimmt Scrapy das Grundgerüst rund um einen Scraper – Anfragen stellen, Links folgen, Antworten parsen und extrahierte Daten exportieren –, sodass ein Entwickler die für eine bestimmte Website spezifische Extraktionslogik schreibt, statt die umgebende Crawling-Infrastruktur selbst zu bauen.\n\nScrapy eignet sich für Python-Entwickler, die Scraper oder Crawler bauen und ein etabliertes, funktionsreiches Framework wollen – besonders für größere oder langfristig laufende Scraping-Projekte, bei denen Framework-Struktur und Wartbarkeit eine Rolle spielen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2010-02-22",
+      "archived": false,
+      "openIssuesCount": 391,
+      "stargazersCount": 64355,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The long-standing standard Python web-scraping framework."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "web-scraping",
+      "strength": "primary"
+    },
+    {
+      "concept": "crawler",
+      "strength": "primary"
+    },
+    {
+      "concept": "data-extraction",
+      "strength": "secondary"
+    }
+  ]
 }

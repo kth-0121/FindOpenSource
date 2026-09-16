@@ -41,5 +41,33 @@
       "description": "Das führende GitOps-Continuous-Delivery-Tool für Kubernetes, das den Zustand deines Clusters automatisch mit dem in git Definierten synchronisiert.",
       "longDescription": "Argo CD vergleicht kontinuierlich den tatsächlichen Zustand eines Kubernetes-Clusters mit dem in einem Git-Repository definierten gewünschten Zustand und synchronisiert den Cluster automatisch (oder nach Freigabe), sodass git zur einzigen Quelle der Wahrheit für das Deployte wird, mit vollständigem Audit-Trail und einfachem Rollback über die Git-Historie. Es ist ein von der CNCF graduiertes Projekt und eines der am weitesten verbreiteten GitOps-Tools.\n\nArgo CD eignet sich für Teams, die Deployments vollständig durch Git-Commits statt manuelle kubectl- oder CI-Pipeline-Schritte antreiben wollen – als Ergänzung zu Argo Workflows (ebenfalls in diesem Katalog): Workflows führt einmalige Pipelines aus, während Argo CD laufend den Zustand laufender Anwendungen abgleicht."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2018-02-09",
+      "archived": false,
+      "openIssuesCount": 4362,
+      "stargazersCount": 24163,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 97
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading GitOps continuous-delivery tool for Kubernetes, a clear representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "gitops",
+      "strength": "primary"
+    },
+    {
+      "concept": "continuous-delivery",
+      "strength": "primary"
+    }
+  ]
 }

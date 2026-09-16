@@ -42,5 +42,33 @@
       "description": "Quelloffenes System zur Automatisierung von Deployment, Skalierung und Verwaltung containerisierter Anwendungen.",
       "longDescription": "Kubernetes (K8s) ist ein Open-Source-System zum Bereitstellen, Skalieren und Verwalten containerisierter Anwendungen über einen Cluster aus mehreren Hosts hinweg. Statt Container auf einer einzelnen Maschine auszuführen, plant und verwaltet es sie über den gesamten Cluster hinweg und übernimmt Aufgaben wie das Neustarten fehlgeschlagener Container, das Skalieren der Anzahl laufender Instanzen und das Ausrollen von Updates.\n\nSein Design baut auf mehr als einem Jahrzehnt interner Erfahrung von Google im großskaligen Betrieb von Produktions-Workloads mit einem internen System namens Borg auf, kombiniert mit Praktiken, die die breitere Community beigetragen hat, seit Kubernetes ein eigenständiges Open-Source-Projekt wurde. Es wird von der Cloud Native Computing Foundation (CNCF) gehostet.\n\nKubernetes eignet sich für Teams, die containerisierte, microservice-artige Anwendungen betreiben und automatisiertes Deployment, Skalierung und Wiederherstellung über viele Maschinen hinweg benötigen, statt Container Host für Host manuell zu verwalten."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-06-06",
+      "archived": false,
+      "openIssuesCount": 3042,
+      "stargazersCount": 127737,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The foundational container orchestration platform; the single most essential representative project in devops."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "container-orchestration",
+      "strength": "primary"
+    },
+    {
+      "concept": "kubernetes-deployment",
+      "strength": "secondary"
+    }
+  ]
 }

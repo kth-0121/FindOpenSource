@@ -42,5 +42,33 @@
       "description": "Hochperformante Observability-Daten-Pipeline zum Sammeln, Transformieren und Weiterleiten von Logs, Metriken und Traces.",
       "longDescription": "Vector ist eine einzelne Binärdatei, die als Agent oder Aggregator für Logs, Metriken und Traces fungieren kann und Observability-Daten über eine deklarative Konfiguration zwischen vielen möglichen Quellen und Zielen transformiert und weiterleitet. Es ist in Rust gebaut, um im Vergleich zu JVM-basierten Alternativen einen geringen Ressourcen-Overhead zu haben.\n\nVector eignet sich für Teams, die eine einzige, einheitliche Hochleistungs-Pipeline für alle drei Observability-Datentypen statt separater Tools pro Datentyp wollen – als Ergänzung zu Fluentd (ebenfalls in diesem Katalog), eine modernere Alternative mit breiterem Umfang für Teams, die neu aufsetzen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2018-08-27",
+      "archived": false,
+      "openIssuesCount": 2487,
+      "stargazersCount": 22558,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "High-performance observability data pipeline, distinct focus on data routing vs. storage/visualization tools."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "log-aggregation",
+      "strength": "secondary"
+    },
+    {
+      "concept": "data-pipeline",
+      "strength": "secondary"
+    }
+  ]
 }

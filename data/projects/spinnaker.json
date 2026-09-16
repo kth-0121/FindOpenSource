@@ -42,5 +42,33 @@
       "description": "Multi-Cloud-Continuous-Delivery-Plattform, ursprünglich bei Netflix gebaut, um Anwendungen zuverlässig über viele Cloud-Anbieter und Regionen hinweg bereitzustellen.",
       "longDescription": "Spinnaker verwaltet Deployment-Pipelines über mehrere Cloud-Anbieter und Regionen hinweg von einer Plattform aus, mit integrierter Unterstützung für Canary-Analyse, automatisiertes Rollback und komplexe mehrstufige Release-Strategien, die größere Organisationen oft benötigen. Es wurde bei Netflix gebaut, um Deployments in sehr großem Maßstab zu verwalten, und später quelloffen gemacht.\n\nSpinnaker eignet sich für größere Organisationen, die über mehrere Cloud-Anbieter oder viele Regionen hinweg deployen und ausgefeilte Release-Orchestrierung benötigen – eine schwergewichtigere Plattform als die fokussierteren Argo CD oder Flux (ebenfalls in diesem Katalog) für Teams, deren Deployment-Bedarf über einen einzelnen Kubernetes-Cluster hinausgeht."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2014-07-02",
+      "archived": false,
+      "openIssuesCount": 110,
+      "stargazersCount": 9787,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Multi-cloud continuous-delivery platform, a heavier alternative to Argo CD/Flux."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "continuous-delivery",
+      "strength": "primary"
+    },
+    {
+      "concept": "automated-rollback",
+      "strength": "secondary"
+    }
+  ]
 }

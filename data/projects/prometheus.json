@@ -42,5 +42,37 @@
       "description": "Quelloffenes Toolkit für Systemmonitoring und Alerting mit dimensionalem Datenmodell und leistungsstarker Abfragesprache.",
       "longDescription": "Prometheus ist ein Tool zur Überwachung von Systemen und Diensten und ein Projekt der Cloud Native Computing Foundation (CNCF): Es sammelt in regelmäßigen Abständen Metriken von konfigurierten Zielen, wertet Regelausdrücke anhand dieser Daten aus und kann Alerts auslösen, wenn bestimmte Bedingungen erfüllt sind.\n\nSein Datenmodell ist mehrdimensional – Zeitreihen werden durch einen Metriknamen plus eine Reihe von Schlüssel/Wert-Labels identifiziert – und wird mit PromQL abgefragt, seiner eigenen, um diese Mehrdimensionalität herum gebauten Abfragesprache. Prometheus zieht Metriken normalerweise per HTTP von Zielen ab (entdeckt über Service Discovery oder statische Konfiguration), wobei für Batch-Jobs auch ein Push-Pfad über ein zwischengeschaltetes Gateway existiert. Ein einzelner Prometheus-Server ist eigenständig und hat keine Abhängigkeit von verteiltem Storage; mehrere Server lassen sich über hierarchische oder horizontale Föderation kombinieren.\n\nEs wird häufig mit einem separaten Dashboard-Tool zur Visualisierung kombiniert und eignet sich für Teams, die Metrikerfassung, Abfragen und Alerting für Dienste und Infrastruktur benötigen – besonders in Cloud-native-/Kubernetes-Umgebungen, in denen CNCF-Tooling bereits im Einsatz ist."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2012-11-24",
+      "archived": false,
+      "openIssuesCount": 882,
+      "stargazersCount": 66074,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The de facto standard for metrics-based monitoring; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "metrics",
+      "strength": "primary"
+    },
+    {
+      "concept": "monitoring",
+      "strength": "primary"
+    },
+    {
+      "concept": "observability",
+      "strength": "secondary"
+    }
+  ]
 }

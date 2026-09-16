@@ -42,5 +42,33 @@
       "description": "Automatische OpenTelemetry-Instrumentierungsplattform, die verteiltes Tracing zu Anwendungen hinzufügt, ohne eine einzige Codezeile zu ändern.",
       "longDescription": "Odigos erkennt automatisch die in einem Kubernetes-Cluster laufenden Sprachen und Frameworks und injiziert für jedes davon OpenTelemetry-Instrumentierung, wodurch Traces, Metriken und Logs entstehen, ohne dass ein Entwickler manuell Tracing-Bibliotheken zu jedem Dienst hinzufügen muss. Es verwaltet die anhaltende Komplexität, die Instrumentierung über viele Dienste hinweg aktuell zu halten.\n\nOdigos eignet sich für Teams, die verteiltes Tracing über eine bestehende, nicht instrumentierte Codebasis wollen, ohne ein manuelles Instrumentierungsprojekt zu starten – als Ergänzung zum OpenTelemetry Collector (ebenfalls in diesem Katalog), der die von Odigos automatisch erzeugten Daten verarbeitet."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2022-06-08",
+      "archived": false,
+      "openIssuesCount": 150,
+      "stargazersCount": 3679,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 81
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "eBPF-based auto-instrumentation for observability, a newer entrant with meaningful OpenTelemetry overlap."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "opentelemetry",
+      "strength": "secondary"
+    },
+    {
+      "concept": "observability",
+      "strength": "secondary"
+    }
+  ]
 }

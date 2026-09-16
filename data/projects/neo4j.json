@@ -43,5 +43,37 @@
       "description": "Native Graphdatenbank, die Daten als Knoten und Beziehungen speichert und abfragt, speziell für Probleme mit vernetzten Daten gebaut.",
       "longDescription": "Neo4j speichert Daten als Graph – Knoten und die Beziehungen zwischen ihnen – statt als Tabellen oder Dokumente, und seine Cypher-Abfragesprache ist speziell für das Durchlaufen von Verbindungen konzipiert, wodurch Abfragen wie „Freunde von Freunden“ oder „kürzester Pfad“ unkompliziert werden, statt viele Joins zu erfordern. Dieses Modell passt natürlich zu Empfehlungssystemen, Betrugserkennung und Netzwerkanalyse.\n\nNeo4j eignet sich für Teams, deren Daten grundlegend von Beziehungen zwischen Entitäten handeln – ein Datenmodell, das in den PostgreSQL-, MongoDB- und Redis-Einträgen dieses Katalogs derzeit fehlt, da diese nicht für Graphdurchläufe gebaut sind."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-10",
+      "repoCreatedAt": "2012-11-12",
+      "archived": false,
+      "openIssuesCount": 249,
+      "stargazersCount": 17225,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The dominant graph database; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "graph-database",
+      "strength": "primary"
+    },
+    {
+      "concept": "cypher",
+      "strength": "secondary"
+    },
+    {
+      "concept": "connected-data",
+      "strength": "secondary"
+    }
+  ]
 }

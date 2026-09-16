@@ -41,5 +41,33 @@
       "description": "Quelloffene Headless-Commerce-Plattform zum Bau schneller, anpassbarer Storefronts und Backends.",
       "longDescription": "Medusa ist eine Commerce-Plattform, die um ein anpassbares Framework und eine Reihe von Commerce-Modulen herum aufgebaut ist, sodass Teams eine individuelle Commerce-Anwendung zusammenstellen können, ohne die Kern-Commerce-Logik von Grund auf neu zu implementieren. Sie ist für mehr als typische Onlineshops gedacht: Dieselben Module können B2B- oder Direct-to-Consumer-Shops, Marktplätze, Vertriebsplattformen und Kassensysteme (POS) unterstützen.\n\nDie zentralen Commerce-Module sind Open Source (MIT-lizenziert) und auf npm veröffentlicht; eine separate Enterprise Edition fügt im Rahmen einer kommerziellen Vereinbarung mit dem Hersteller von Medusa RBAC-basierte Funktionen hinzu und folgt damit einem Open-Core-Modell. Beim Hosting können Teams entweder selbst hosten oder das verwaltete Medusa Cloud für Deployment, Skalierung und Wartung nutzen.\n\nMedusa eignet sich für Teams, die eine stärker anpassbare Commerce-Logik benötigen, als eine typische gehostete E-Commerce-Plattform erlaubt, ohne dieses Fundament vollständig selbst aufbauen zu müssen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2020-01-18",
+      "archived": false,
+      "openIssuesCount": 194,
+      "stargazersCount": 36313,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Headless commerce platform with strong developer-first positioning, differentiated within a thin ecommerce category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "headless-commerce",
+      "strength": "primary"
+    },
+    {
+      "concept": "commerce",
+      "strength": "primary"
+    }
+  ]
 }

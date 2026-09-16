@@ -42,5 +42,33 @@
       "description": "CIS-Kubernetes-Benchmark-Compliance-Prüfer, der die Konfiguration eines Clusters gegen offizielle Sicherheits-Best-Practices prüft.",
       "longDescription": "kube-bench führt die im CIS Kubernetes Benchmark definierten Prüfungen – einem weit verbreiteten, offiziellen Sicherheitskonfigurationsstandard – gegen einen laufenden Cluster aus und meldet genau, welche Einstellungen bestehen oder durchfallen und warum. Es läuft als Job innerhalb des geprüften Clusters und testet damit die tatsächliche Live-Konfiguration statt statischer Manifeste.\n\nkube-bench eignet sich für Teams, die die Kubernetes-Konfigurations-Compliance gegen einen anerkannten Standard nachweisen oder verifizieren müssen – ein eigenständiges, engeres Anliegen als Trivys breiteres Schwachstellenscanning oder Kyvernos fortlaufende Richtliniendurchsetzung (ebenfalls in diesem Katalog)."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-07",
+      "repoCreatedAt": "2017-06-19",
+      "archived": false,
+      "openIssuesCount": 104,
+      "stargazersCount": 8185,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "CIS benchmark compliance checker for Kubernetes, a narrow but useful security-testing niche."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "security-scanning",
+      "strength": "primary"
+    },
+    {
+      "concept": "kubernetes-testing",
+      "strength": "primary"
+    }
+  ]
 }

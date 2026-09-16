@@ -42,5 +42,23 @@
       "description": "Automatisiert das Ausstellen, Erneuern und Verwalten von TLS-Zertifikaten für Kubernetes-Anwendungen und eliminiert manuelle Zertifikatsverwaltung.",
       "longDescription": "cert-manager überwacht als Kubernetes-Ressourcen definierte Zertifikatsanfragen und beschafft, erneuert und installiert automatisch TLS-Zertifikate von einer Zertifizierungsstelle – einschließlich kostenloser automatisierter wie Let's Encrypt –, sodass ein Team nie wieder manuell ein Zertifikat erzeugt oder erneuert. Es ist ein CNCF-Projekt, das zum Standardweg geworden ist, TLS auf Kubernetes zu handhaben.\n\ncert-manager eignet sich für jedes Team, das Dienste auf Kubernetes betreibt, die TLS-Zertifikate benötigen – ein grundlegendes Infrastrukturteil, das Ingress- und Proxy-Tools ergänzt, die bereits in diesem Katalog sind, wie Traefik und Caddy."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2017-05-24",
+      "archived": false,
+      "openIssuesCount": 266,
+      "stargazersCount": 14082,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Standard TLS certificate automation for Kubernetes with near-universal adoption in that ecosystem."
+    },
+    "flag": "ok"
   }
 }
