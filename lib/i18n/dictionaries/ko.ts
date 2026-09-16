@@ -150,6 +150,9 @@ const dictionary: Dictionary = {
     backLink: "전체 카테고리",
     emptyMessage: "아직 이 카테고리에 프로젝트가 없습니다.",
     addOneLink: "프로젝트 추가하기",
+    filterAll: "전체",
+    filterAiAgents: "AI 에이전트",
+    filterAgentTools: "에이전트 도구",
   },
   projectsPage: {
     title: "전체 프로젝트",

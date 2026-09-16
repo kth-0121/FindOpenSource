@@ -150,6 +150,9 @@ const dictionary: Dictionary = {
     backLink: "すべてのカテゴリ",
     emptyMessage: "このカテゴリにはまだプロジェクトがありません。",
     addOneLink: "プロジェクトを追加する",
+    filterAll: "すべて",
+    filterAiAgents: "AIエージェント",
+    filterAgentTools: "エージェントツール",
   },
   projectsPage: {
     title: "すべてのプロジェクト",

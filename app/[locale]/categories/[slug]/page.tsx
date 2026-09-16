@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ProjectCard } from "@/components/ProjectCard";
+import { CategoryAgentFilter } from "@/components/CategoryAgentFilter";
 import { getAllCategories, getCategoryBySlug, localizeCategory } from "@/lib/categories";
 import { getProjectsByCategory } from "@/lib/projects";
 import { isLocale, type Locale } from "@/lib/i18n/config";
@@ -71,6 +72,8 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             {dict.categoryDetail.addOneLink}
           </Link>
         </p>
+      ) : category.slug === "ai-agents" ? (
+        <CategoryAgentFilter projects={projects} locale={locale} dict={dict} />
       ) : (
         <ul className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2">
           {projects.map((project) => (
