@@ -151,6 +151,9 @@ const dictionary: Dictionary = {
     backLink: "Alle Kategorien",
     emptyMessage: "In dieser Kategorie gibt es noch keine Projekte.",
     addOneLink: "Eines hinzufügen",
+    filterAll: "Alle",
+    filterAiAgents: "KI-Agenten",
+    filterAgentTools: "Agenten-Tools",
   },
   projectsPage: {
     title: "Alle Projekte",

@@ -63,6 +63,9 @@ export interface Dictionary {
     backLink: string;
     emptyMessage: string;
     addOneLink: string;
+    filterAll: string;
+    filterAiAgents: string;
+    filterAgentTools: string;
   };
   projectsPage: {
     title: string;

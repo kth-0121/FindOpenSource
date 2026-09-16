@@ -150,6 +150,9 @@ const dictionary: Dictionary = {
     backLink: "全部分类",
     emptyMessage: "该分类下暂无项目。",
     addOneLink: "添加一个",
+    filterAll: "全部",
+    filterAiAgents: "AI 智能体",
+    filterAgentTools: "智能体工具",
   },
   projectsPage: {
     title: "全部项目",
