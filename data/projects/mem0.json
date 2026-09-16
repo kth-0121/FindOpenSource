@@ -1,0 +1,69 @@
+{
+  "name": "Mem0",
+  "slug": "mem0",
+  "description": "The memory layer for AI agents -- drop-in persistent memory infrastructure that remembers context across conversations and sessions.",
+  "longDescription": "Mem0 gives agents and LLM apps a memory layer that persists relevant context (facts, preferences, past interactions) across sessions instead of starting from a blank slate every conversation, and integrates as a lightweight drop-in component rather than requiring a full agent platform. It works alongside most major agent frameworks rather than replacing them.\n\nMem0 is a fit for teams adding persistent, evolving context to an existing agent or chat application as a library-level integration -- distinct from Letta (also in this catalog), which is a full stateful-agent platform rather than a memory layer you embed into something else.",
+  "repository": "https://github.com/mem0ai/mem0",
+  "website": "https://mem0.ai",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-memory",
+    "persistent-context",
+    "long-term-memory"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "AI 智能体的记忆层——开箱即用的持久化记忆基础设施，能在多次对话和会话之间记住上下文。",
+      "longDescription": "Mem0 为智能体和 LLM 应用提供一个记忆层，能在多个会话之间持久保存相关上下文（事实、偏好、过往互动），而不是每次对话都从空白开始，并且作为一个轻量级的即插即用组件集成，而不需要一整套智能体平台。它可以配合大多数主流智能体框架一起工作，而不是取代它们。\n\nMem0 适合那些想在现有智能体或聊天应用中以库级集成方式添加持久、不断演进的上下文的团队——这与 Letta（同样收录于本目录）不同，后者是一个完整的有状态智能体平台，而不是一个可以嵌入到其他系统中的记忆层。"
+    },
+    "ja": {
+      "description": "AIエージェントのためのメモリレイヤー——会話やセッションをまたいでコンテキストを記憶する、組み込み可能な永続メモリインフラです。",
+      "longDescription": "Mem0は、エージェントやLLMアプリに、複数のセッションをまたいで関連するコンテキスト（事実、好み、過去のやり取り）を保持するメモリレイヤーを提供し、毎回まっさらな状態から始めるのではなく、フルのエージェントプラットフォームを必要とせず軽量な組み込みコンポーネントとして統合されます。主要なエージェントフレームワークの多くと併用でき、それらを置き換えるものではありません。\n\nMem0は、既存のエージェントやチャットアプリにライブラリレベルの統合として、永続的で進化し続けるコンテキストを追加したいチームに向いています。(同じくカタログにある)Letta——組み込むメモリレイヤーというより完全なステートフルエージェントプラットフォーム——とは異なります。"
+    },
+    "ko": {
+      "description": "AI 에이전트를 위한 메모리 레이어 — 대화와 세션 전반에 걸쳐 컨텍스트를 기억하는, 바로 꽂아 쓸 수 있는 영속 메모리 인프라입니다.",
+      "longDescription": "Mem0는 에이전트와 LLM 앱에 여러 세션에 걸쳐 관련 컨텍스트(사실, 선호도, 과거 상호작용)를 지속시키는 메모리 레이어를 제공해, 매 대화를 백지 상태에서 시작하는 대신 전체 에이전트 플랫폼 없이 가벼운 드롭인 컴포넌트로 통합됩니다. 대부분의 주요 에이전트 프레임워크와 함께 작동하며 이를 대체하지 않습니다.\n\nMem0는 기존 에이전트나 채팅 애플리케이션에 라이브러리 수준의 통합으로 지속적이고 진화하는 컨텍스트를 추가하려는 팀에 적합합니다 — (카탈로그에 있는) Letta와는 다릅니다. Letta는 끼워 넣는 메모리 레이어가 아니라 완전한 stateful 에이전트 플랫폼입니다."
+    },
+    "es": {
+      "description": "La capa de memoria para agentes de IA -- infraestructura de memoria persistente lista para integrar que recuerda el contexto entre conversaciones y sesiones.",
+      "longDescription": "Mem0 dota a los agentes y aplicaciones LLM de una capa de memoria que conserva el contexto relevante (hechos, preferencias, interacciones pasadas) entre sesiones en lugar de empezar de cero en cada conversación, y se integra como un componente ligero listo para usar en lugar de requerir una plataforma de agentes completa. Funciona junto a la mayoría de los frameworks de agentes principales en lugar de sustituirlos.\n\nMem0 encaja en equipos que añaden contexto persistente y evolutivo a un agente o aplicación de chat existente como una integración a nivel de librería -- a diferencia de Letta (también en este catálogo), que es una plataforma completa de agentes con estado en lugar de una capa de memoria que se incrusta en otra cosa."
+    },
+    "de": {
+      "description": "Die Memory-Schicht für KI-Agenten -- direkt einsetzbare, persistente Memory-Infrastruktur, die sich über Gespräche und Sitzungen hinweg an Kontext erinnert.",
+      "longDescription": "Mem0 gibt Agenten und LLM-Apps eine Memory-Schicht, die relevanten Kontext (Fakten, Präferenzen, frühere Interaktionen) über Sitzungen hinweg bewahrt, statt bei jeder Konversation bei null anzufangen, und lässt sich als leichtgewichtige, direkt einsetzbare Komponente integrieren statt eine vollständige Agenten-Plattform zu erfordern. Es funktioniert neben den meisten gängigen Agenten-Frameworks, statt sie zu ersetzen.\n\nMem0 passt zu Teams, die einem bestehenden Agenten oder einer Chat-Anwendung persistenten, sich weiterentwickelnden Kontext als Integration auf Bibliotheksebene hinzufügen -- anders als Letta (ebenfalls in diesem Katalog), das eine vollständige zustandsbehaftete Agenten-Plattform ist statt einer Memory-Schicht, die man in etwas anderes einbettet."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2023-06-20",
+      "archived": false,
+      "openIssuesCount": 752,
+      "stargazersCount": 65386,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-16",
+      "score": 79
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The clear representative pick for a drop-in agent memory layer; fills a distinct gap with no equivalent already in the catalog."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-memory",
+      "strength": "primary"
+    }
+  ]
+}

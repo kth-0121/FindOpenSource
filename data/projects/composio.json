@@ -1,0 +1,70 @@
+{
+  "name": "Composio",
+  "slug": "composio",
+  "description": "Powers 1000+ toolkits, tool search, context management and authentication so AI agents can actually take action, not just plan it.",
+  "longDescription": "Composio provides the integration layer between agents and the outside world: a large catalog of pre-built toolkits (SaaS apps, dev tools, and more), tool discovery/search so an agent can find the right tool for a task, authentication handling for those tools, and a sandboxed workbench for testing agent actions safely.\n\nComposio is a fit for teams building agents that need to call many different real-world tools/APIs without hand-rolling auth and integration code for each one -- infrastructure that sits alongside an agent framework rather than being a framework itself.",
+  "repository": "https://github.com/ComposioHQ/composio",
+  "website": "https://composio.dev",
+  "documentation": "https://docs.composio.dev",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-tools",
+    "tool-integration",
+    "tool-use"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "支持 1000 多种工具包、工具搜索、上下文管理和身份验证，让 AI 智能体真正能够采取行动，而不只是规划行动。",
+      "longDescription": "Composio 提供了智能体与外部世界之间的集成层：一个庞大的预置工具包目录（SaaS 应用、开发工具等）、让智能体能为任务找到合适工具的工具发现/搜索功能、这些工具的身份验证处理，以及一个用于安全测试智能体操作的沙箱工作台。\n\nComposio 适合那些需要让智能体调用许多不同的真实工具/API、而不想为每一个都手写身份验证和集成代码的团队——它是与智能体框架并存的基础设施，而不是框架本身。"
+    },
+    "ja": {
+      "description": "1000以上のツールキット、ツール検索、コンテキスト管理、認証を提供し、AIエージェントが単に計画するだけでなく実際に行動を起こせるようにします。",
+      "longDescription": "Composioは、エージェントと外部世界の間の統合レイヤーを提供します：あらかじめ用意された大規模なツールキットカタログ（SaaSアプリ、開発ツールなど）、タスクに適したツールを見つけるためのツール発見/検索機能、それらツールの認証処理、そしてエージェントの行動を安全にテストするためのサンドボックスワークベンチです。\n\nComposioは、多数の異なる実世界のツール/APIをエージェントに呼び出させる必要があり、それぞれに認証や統合コードを手作りしたくないチームに向いています——エージェントフレームワーク自体というより、その横に位置するインフラです。"
+    },
+    "ko": {
+      "description": "1000개 이상의 툴킷, 도구 검색, 컨텍스트 관리, 인증을 지원해 AI 에이전트가 계획만 세우는 게 아니라 실제로 행동할 수 있게 합니다.",
+      "longDescription": "Composio는 에이전트와 외부 세계 사이의 통합 계층을 제공합니다: 사전 구축된 대규모 툴킷 카탈로그(SaaS 앱, 개발 도구 등), 에이전트가 작업에 맞는 도구를 찾을 수 있는 도구 탐색/검색 기능, 해당 도구들의 인증 처리, 그리고 에이전트 동작을 안전하게 테스트할 수 있는 샌드박스 워크벤치입니다.\n\nComposio는 여러 다른 실제 도구·API를 에이전트가 호출해야 하는데 각각에 대해 인증·통합 코드를 직접 작성하고 싶지 않은 팀에 적합합니다 — 에이전트 프레임워크 자체가 아니라 그 옆에 위치하는 인프라입니다."
+    },
+    "es": {
+      "description": "Impulsa más de 1000 kits de herramientas, búsqueda de herramientas, gestión de contexto y autenticación para que los agentes de IA realmente puedan actuar, no solo planificar.",
+      "longDescription": "Composio proporciona la capa de integración entre los agentes y el mundo exterior: un amplio catálogo de kits de herramientas preconstruidos (apps SaaS, herramientas de desarrollo y más), descubrimiento/búsqueda de herramientas para que un agente encuentre la adecuada para una tarea, gestión de autenticación para esas herramientas y un banco de pruebas aislado para probar acciones de agentes de forma segura.\n\nComposio encaja en equipos que construyen agentes que necesitan llamar a muchas herramientas/APIs del mundo real sin programar a mano la autenticación e integración de cada una -- infraestructura que convive junto a un framework de agentes en lugar de ser un framework en sí."
+    },
+    "de": {
+      "description": "Bietet über 1000 Toolkits, Tool-Suche, Kontextverwaltung und Authentifizierung, damit KI-Agenten tatsächlich handeln können, statt nur zu planen.",
+      "longDescription": "Composio stellt die Integrationsschicht zwischen Agenten und der Außenwelt bereit: einen großen Katalog vorgefertigter Toolkits (SaaS-Apps, Entwicklertools und mehr), Tool-Erkennung/-Suche, damit ein Agent das richtige Werkzeug für eine Aufgabe findet, Authentifizierungsverwaltung für diese Tools und eine Sandbox-Werkbank zum sicheren Testen von Agentenaktionen.\n\nComposio passt zu Teams, die Agenten bauen, die viele verschiedene reale Tools/APIs aufrufen müssen, ohne für jedes einzelne Auth- und Integrationscode von Hand zu schreiben -- Infrastruktur, die neben einem Agenten-Framework steht, statt selbst eines zu sein."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-16",
+      "repoCreatedAt": "2024-02-23",
+      "archived": false,
+      "openIssuesCount": 89,
+      "stargazersCount": 30195,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-16",
+      "score": 82
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Clear gap-filler for the 'agent needs to call real tools' problem, with a large integration catalog and no direct equivalent in the catalog."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

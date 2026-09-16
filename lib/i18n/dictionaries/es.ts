@@ -137,6 +137,11 @@ const dictionary: Dictionary = {
       name: "Móvil",
       description: "Frameworks para construir aplicaciones móviles multiplataforma.",
     },
+    "ai-agents": {
+      name: "Agentes de IA y herramientas para agentes",
+      description:
+        "Frameworks e infraestructura para crear agentes de IA, ayudarlos a usar herramientas y completar tareas reales.",
+    },
   },
   categoriesPage: {
     title: "Categorías",

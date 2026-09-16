@@ -1,0 +1,69 @@
+{
+  "name": "Skyvern",
+  "slug": "skyvern",
+  "description": "Automates browser-based workflows using computer vision and LLMs to understand and interact with websites, even ones it hasn't seen before.",
+  "longDescription": "Skyvern uses a vision-based approach rather than relying on brittle DOM selectors or site-specific scripts: it looks at a page the way a person would, and can generalize to websites it hasn't been configured for ahead of time. It's positioned as a workflow-automation platform (with a UI for defining and monitoring runs) more than a raw library.\n\nSkyvern is a fit for teams automating browser workflows across many different, changing, or unfamiliar sites where a vision-first approach is more resilient than DOM-based automation like browser-use (also in this catalog). Note it's licensed under AGPL-3.0, a stronger copyleft license than most projects in this catalog.",
+  "repository": "https://github.com/Skyvern-AI/skyvern",
+  "website": "https://www.skyvern.com",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "computer-use",
+    "browser-automation",
+    "vision-based-agent"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "使用计算机视觉和 LLM 来理解并操作网站（即便是从未见过的网站），实现浏览器工作流自动化。",
+      "longDescription": "Skyvern 采用基于视觉的方式，而不是依赖容易失效的 DOM 选择器或针对特定网站编写的脚本：它像人一样“看”页面，因此能够泛化到事先没有为其配置过的网站。它的定位更像是一个工作流自动化平台（带有用于定义和监控运行的界面），而不是一个原始的库。\n\nSkyvern 适合那些需要在许多不同、经常变化或不熟悉的网站上自动化浏览器工作流的团队，在这类场景下，视觉优先的方式比 browser-use（同样收录于本目录）那样基于 DOM 的自动化更具韧性。请注意它采用 AGPL-3.0 许可证，这是本目录中大多数项目所用许可证中copyleft 强度更高的一种。"
+    },
+    "ja": {
+      "description": "コンピュータビジョンとLLMを使ってウェブサイトを理解し操作することで、初めて見るサイトであってもブラウザベースのワークフローを自動化します。",
+      "longDescription": "Skyvernは、壊れやすいDOMセレクタやサイト固有のスクリプトに頼るのではなく、視覚ベースのアプローチを採用しています：人がページを見るのと同じように見るため、事前に設定していないウェブサイトにも汎化できます。生のライブラリというより、実行の定義と監視のためのUIを備えたワークフロー自動化プラットフォームとして位置付けられています。\n\nSkyvernは、多数の異なる、変化する、あるいは見慣れないサイトにまたがってブラウザワークフローを自動化するチームに向いています。そうした場面では、視覚優先のアプローチはbrowser-use（同じくこのカタログにある）のようなDOMベースの自動化より堅牢です。なお、このカタログの大半のプロジェクトよりコピーレフトの強いAGPL-3.0ライセンスである点に注意してください。"
+    },
+    "ko": {
+      "description": "컴퓨터 비전과 LLM을 사용해 웹사이트를 이해하고 상호작용하며, 처음 보는 사이트에서도 브라우저 기반 워크플로를 자동화합니다.",
+      "longDescription": "Skyvern은 깨지기 쉬운 DOM 선택자나 사이트별 스크립트에 의존하는 대신 비전 기반 접근 방식을 사용합니다: 사람이 페이지를 보는 방식처럼 보기 때문에, 사전에 설정되지 않은 웹사이트에도 일반화할 수 있습니다. 원시 라이브러리보다는 실행을 정의하고 모니터링하는 UI를 갖춘 워크플로 자동화 플랫폼으로 포지셔닝되어 있습니다.\n\nSkyvern은 다양하고 자주 바뀌거나 익숙하지 않은 여러 사이트에 걸쳐 브라우저 워크플로를 자동화하는 팀에 적합하며, 이런 상황에서는 비전 우선 접근이 browser-use(카탈로그에 있음) 같은 DOM 기반 자동화보다 더 견고합니다. 이 카탈로그의 대부분 프로젝트보다 카피레프트가 강한 AGPL-3.0 라이선스라는 점을 유의하세요."
+    },
+    "es": {
+      "description": "Automatiza flujos de trabajo basados en navegador usando visión por computador y LLMs para entender e interactuar con sitios web, incluso los que no ha visto antes.",
+      "longDescription": "Skyvern usa un enfoque basado en visión en lugar de depender de selectores DOM frágiles o scripts específicos de cada sitio: mira una página como lo haría una persona, y puede generalizar a sitios web para los que no se ha configurado de antemano. Se posiciona más como una plataforma de automatización de flujos de trabajo (con una interfaz para definir y monitorizar ejecuciones) que como una librería en bruto.\n\nSkyvern encaja en equipos que automatizan flujos de trabajo de navegador en muchos sitios distintos, cambiantes o desconocidos, donde un enfoque basado en visión es más resistente que la automatización basada en DOM como browser-use (también en este catálogo). Ten en cuenta que usa la licencia AGPL-3.0, un copyleft más fuerte que la mayoría de proyectos de este catálogo."
+    },
+    "de": {
+      "description": "Automatisiert browserbasierte Workflows mithilfe von Computer Vision und LLMs, um Websites zu verstehen und mit ihnen zu interagieren -- auch mit bisher unbekannten.",
+      "longDescription": "Skyvern nutzt einen visionsbasierten Ansatz statt sich auf brüchige DOM-Selektoren oder seitenspezifische Skripte zu verlassen: Es betrachtet eine Seite so, wie es ein Mensch tun würde, und kann sich so auf Websites verallgemeinern, für die es nicht vorab konfiguriert wurde. Es ist eher als Workflow-Automatisierungsplattform positioniert (mit einer UI zum Definieren und Überwachen von Läufen) denn als reine Bibliothek.\n\nSkyvern passt zu Teams, die Browser-Workflows über viele verschiedene, sich ändernde oder unbekannte Websites hinweg automatisieren, wo ein visionsorientierter Ansatz robuster ist als DOM-basierte Automatisierung wie browser-use (ebenfalls in diesem Katalog). Zu beachten: Es steht unter der AGPL-3.0-Lizenz, einem stärkeren Copyleft als bei den meisten Projekten in diesem Katalog."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-16",
+      "repoCreatedAt": "2024-02-28",
+      "archived": false,
+      "openIssuesCount": 243,
+      "stargazersCount": 23010,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-16",
+      "score": 70
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Vision-first approach to browser automation is a genuinely different technique from DOM-based tools, aimed more at workflow platforms than raw libraries."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "computer-use",
+      "strength": "primary"
+    }
+  ]
+}

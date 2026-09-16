@@ -44,14 +44,14 @@
   },
   "evaluation": {
     "quality": {
-      "lastCommitAt": "2026-09-15",
+      "lastCommitAt": "2026-09-16",
       "repoCreatedAt": "2024-01-08",
       "archived": false,
-      "openIssuesCount": 5344,
-      "stargazersCount": 35980,
+      "openIssuesCount": 5376,
+      "stargazersCount": 36030,
       "productionReadiness": "mature",
       "governance": "community",
-      "evaluatedAt": "2026-09-15",
+      "evaluatedAt": "2026-09-16",
       "score": 79
     },
     "catalogValue": {

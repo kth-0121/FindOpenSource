@@ -1,0 +1,71 @@
+{
+  "name": "MCP Servers",
+  "slug": "mcp-servers",
+  "description": "Official reference implementations of the Model Context Protocol -- the open standard now adopted across OpenAI, Google, Microsoft and Anthropic for connecting agents to tools and data.",
+  "longDescription": "This repository hosts the official reference server implementations for the Model Context Protocol (MCP), a standardized way for AI applications to connect to external tools, data sources, and systems -- avoiding the need for every agent framework to build bespoke integrations for every tool. MCP has since been adopted well beyond its originating team, with implementations and support across most major AI platforms.\n\nMCP Servers is a fit for anyone building agent tooling who wants to speak (or expose) a genuinely cross-platform protocol rather than a proprietary integration format -- the reference implementations here are the starting point for both consuming and building MCP-compatible tools.",
+  "repository": "https://github.com/modelcontextprotocol/servers",
+  "website": "https://modelcontextprotocol.io",
+  "documentation": "https://modelcontextprotocol.io",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-tools",
+    "mcp",
+    "protocol",
+    "tool-use"
+  ],
+  "languages": [
+    "TypeScript",
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "模型上下文协议（Model Context Protocol）的官方参考实现——这一开放标准现已被 OpenAI、Google、Microsoft 和 Anthropic 共同采用，用于把智能体连接到工具和数据。",
+      "longDescription": "该仓库托管了模型上下文协议（MCP）的官方参考服务器实现，MCP 是一种让 AI 应用连接外部工具、数据源和系统的标准化方式——避免每个智能体框架都要为每个工具单独打造集成方案。MCP 如今已经远远超出了最初团队的范围被广泛采用，大多数主流 AI 平台都提供了相应实现和支持。\n\nMCP Servers 适合任何希望使用（或提供）一个真正跨平台协议、而不是专有集成格式的智能体工具开发者——这里的参考实现是使用和构建兼容 MCP 工具的起点。"
+    },
+    "ja": {
+      "description": "Model Context Protocolの公式リファレンス実装——OpenAI、Google、Microsoft、Anthropicにまたがって採用されている、エージェントをツールやデータに接続するためのオープン標準です。",
+      "longDescription": "このリポジトリは、Model Context Protocol（MCP）の公式リファレンスサーバー実装をホストしています。MCPは、AIアプリケーションを外部ツール、データソース、システムに接続するための標準化された方法で、すべてのエージェントフレームワークがツールごとに独自の統合を作る必要をなくします。MCPは発祥チームをはるかに超えて採用が広がり、ほとんどの主要AIプラットフォームで実装・サポートされています。\n\nMCP Serversは、独自の統合フォーマットではなく、真にクロスプラットフォームなプロトコルを話す（または公開する）エージェントツールを構築したい人に向いています。ここにあるリファレンス実装は、MCP互換ツールを利用・構築するための出発点です。"
+    },
+    "ko": {
+      "description": "모델 컨텍스트 프로토콜(Model Context Protocol)의 공식 레퍼런스 구현체 — OpenAI, Google, Microsoft, Anthropic 전반에서 채택된, 에이전트를 도구와 데이터에 연결하는 오픈 표준입니다.",
+      "longDescription": "이 저장소는 모델 컨텍스트 프로토콜(MCP)의 공식 레퍼런스 서버 구현체를 담고 있습니다. MCP는 AI 애플리케이션이 외부 도구, 데이터 소스, 시스템에 연결하는 표준화된 방법으로, 모든 에이전트 프레임워크가 도구마다 별도의 통합을 만들 필요를 없애줍니다. MCP는 원 개발팀을 훨씬 넘어서 채택되었고, 대부분의 주요 AI 플랫폼에서 구현·지원되고 있습니다.\n\nMCP Servers는 독점적인 통합 포맷이 아니라 진정한 크로스플랫폼 프로토콜을 사용(또는 제공)하고 싶은 에이전트 도구 개발자에게 적합합니다 — 여기의 레퍼런스 구현체는 MCP 호환 도구를 사용하고 만드는 출발점입니다."
+    },
+    "es": {
+      "description": "Implementaciones de referencia oficiales del Model Context Protocol -- el estándar abierto ahora adoptado por OpenAI, Google, Microsoft y Anthropic para conectar agentes con herramientas y datos.",
+      "longDescription": "Este repositorio aloja las implementaciones de servidor de referencia oficiales del Model Context Protocol (MCP), una forma estandarizada para que las aplicaciones de IA se conecten a herramientas externas, fuentes de datos y sistemas -- evitando que cada framework de agentes tenga que construir integraciones a medida para cada herramienta. MCP ha sido adoptado mucho más allá de su equipo de origen, con implementaciones y soporte en la mayoría de las plataformas de IA principales.\n\nMCP Servers encaja en cualquiera que construya herramientas para agentes y quiera hablar (o exponer) un protocolo genuinamente multiplataforma en lugar de un formato de integración propietario -- las implementaciones de referencia aquí son el punto de partida tanto para consumir como para construir herramientas compatibles con MCP."
+    },
+    "de": {
+      "description": "Offizielle Referenzimplementierungen des Model Context Protocol -- des offenen Standards, der inzwischen von OpenAI, Google, Microsoft und Anthropic übernommen wurde, um Agenten mit Tools und Daten zu verbinden.",
+      "longDescription": "Dieses Repository beherbergt die offiziellen Referenz-Serverimplementierungen des Model Context Protocol (MCP), eine standardisierte Art für KI-Anwendungen, sich mit externen Tools, Datenquellen und Systemen zu verbinden -- ohne dass jedes Agenten-Framework für jedes Tool eine maßgeschneiderte Integration bauen muss. MCP wurde inzwischen weit über sein Ursprungsteam hinaus übernommen, mit Implementierungen und Unterstützung bei den meisten großen KI-Plattformen.\n\nMCP Servers passt zu allen, die Agenten-Tooling bauen und ein wirklich plattformübergreifendes Protokoll statt eines proprietären Integrationsformats sprechen (oder anbieten) wollen -- die Referenzimplementierungen hier sind der Ausgangspunkt, um MCP-kompatible Tools sowohl zu nutzen als auch zu bauen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-03",
+      "repoCreatedAt": "2024-11-19",
+      "archived": false,
+      "openIssuesCount": 537,
+      "stargazersCount": 90371,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-16",
+      "score": 82
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "MCP has become the genuine industry-wide standard for connecting agents to tools across every major AI vendor -- the clearest must-include pick in the whole category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

@@ -137,6 +137,10 @@ const dictionary: Dictionary = {
       name: "モバイル",
       description: "クロスプラットフォームなモバイルアプリを構築するためのフレームワークです。",
     },
+    "ai-agents": {
+      name: "AIエージェント & エージェントツール",
+      description: "AIエージェントを構築し、ツールを使わせ、実際の作業をこなせるようにするフレームワークとインフラです。",
+    },
   },
   categoriesPage: {
     title: "カテゴリ",

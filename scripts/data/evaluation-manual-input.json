@@ -1998,10 +1998,6 @@
       {
         "concept": "nosql",
         "strength": "primary"
-      },
-      {
-        "concept": "document",
-        "strength": "primary"
       }
     ]
   },
@@ -3723,6 +3719,239 @@
       {
         "concept": "identity",
         "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "ponytail",
+    "productionReadiness": "emerging",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Only representative project of the agent skills/plugins sub-area in this catalog; extremely young but already directly validated by real usage."
+    },
+    "intents": [
+      {
+        "concept": "agent-tools",
+        "strength": "primary"
+      },
+      {
+        "concept": "coding-agent",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "cli-anything",
+    "productionReadiness": "emerging",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Represents a genuinely novel niche -- turning arbitrary professional software into agent-usable CLIs -- with no equivalent elsewhere in the catalog."
+    },
+    "intents": [
+      {
+        "concept": "agent-tools",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "aider",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The clear representative pick for terminal-based, git-native AI pair programming; a large, established community and a distinct workflow model."
+    },
+    "intents": [
+      {
+        "concept": "coding-agent",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "openhands",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "Leading platform for end-to-end autonomous software engineering agents, a distinct paradigm from assistive tools like Aider."
+    },
+    "intents": [
+      {
+        "concept": "coding-agent",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "swe-agent",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Research-grade coding agent with a distinct academic lineage (SWE-bench) and issue-to-PR focus, differentiated from assistive/product-oriented tools."
+    },
+    "intents": [
+      {
+        "concept": "coding-agent",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "cline",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted IDE-native autonomous coding agents, with a distinct human-in-the-loop approval UX."
+    },
+    "intents": [
+      {
+        "concept": "coding-agent",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "browser-use",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The de facto standard library for giving agents control of a real browser; a clear gap-filler with no equivalent already in the catalog."
+    },
+    "intents": [
+      {
+        "concept": "computer-use",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "skyvern",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Vision-first approach to browser automation is a genuinely different technique from DOM-based tools, aimed more at workflow platforms than raw libraries."
+    },
+    "intents": [
+      {
+        "concept": "computer-use",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "mem0",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The clear representative pick for a drop-in agent memory layer; fills a distinct gap with no equivalent already in the catalog."
+    },
+    "intents": [
+      {
+        "concept": "agent-memory",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "letta",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "A full stateful-agent platform with self-editing memory, a genuinely different approach from Mem0's drop-in library model."
+    },
+    "intents": [
+      {
+        "concept": "agent-memory",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "composio",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Clear gap-filler for the 'agent needs to call real tools' problem, with a large integration catalog and no direct equivalent in the catalog."
+    },
+    "intents": [
+      {
+        "concept": "agent-tools",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "mcp-servers",
+    "productionReadiness": "mature",
+    "governance": "community",
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "MCP has become the genuine industry-wide standard for connecting agents to tools across every major AI vendor -- the clearest must-include pick in the whole category."
+    },
+    "intents": [
+      {
+        "concept": "agent-tools",
+        "strength": "primary"
+      }
+    ]
+  },
+  {
+    "slug": "agentops",
+    "productionReadiness": "emerging",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "The clearest representative pick for agent-specific observability/evaluation, distinct from generic LLM-response evaluation tools."
+    },
+    "intents": [
+      {
+        "concept": "llm-evaluation",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "langgraph",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Graph-based, stateful control flow is a genuinely different architecture from conversational multi-agent frameworks already in the catalog."
+    },
+    "intents": [
+      {
+        "concept": "agent-orchestration",
+        "strength": "primary"
+      },
+      {
+        "concept": "ai-agents",
+        "strength": "secondary"
+      }
+    ]
+  },
+  {
+    "slug": "smolagents",
+    "productionReadiness": "mature",
+    "governance": "vendor-backed",
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Code-execution-first paradigm is a genuinely different technical approach from the JSON-tool-call frameworks otherwise in the catalog."
+    },
+    "intents": [
+      {
+        "concept": "ai-agents",
+        "strength": "primary"
       }
     ]
   }

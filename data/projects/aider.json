@@ -1,0 +1,70 @@
+{
+  "name": "Aider",
+  "slug": "aider",
+  "description": "AI pair programming in your terminal -- Aider edits code in your local git repo, running tests and committing changes as it goes.",
+  "longDescription": "Aider works directly in your terminal against your actual local git repository: it reads relevant files for context, proposes and applies edits, runs your test suite, and creates git commits with sensible messages as it goes. It supports most major LLMs and is model-agnostic rather than tied to one provider.\n\nAider is a fit for developers who want an assistive, git-native pair-programming workflow -- you stay in the loop reviewing diffs and commits -- rather than a fully autonomous agent that runs unsupervised (like OpenHands, also in this catalog). It's one of the earliest and most widely adopted tools in the coding-agent space.",
+  "repository": "https://github.com/Aider-AI/aider",
+  "website": "https://aider.chat",
+  "documentation": "https://aider.chat",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "coding-agent",
+    "ai-pair-programming",
+    "terminal",
+    "git-native"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "在你的终端里进行 AI 结对编程 —— Aider 在你本地的 git 仓库中编辑代码，边改边运行测试并提交更改。",
+      "longDescription": "Aider 直接在终端里针对你实际的本地 git 仓库工作：读取相关文件作为上下文，提出并应用编辑，运行你的测试套件，并在过程中创建带有合理说明的 git 提交。它支持大多数主流 LLM，不绑定单一供应商。\n\nAider 适合希望保持辅助式、git 原生的结对编程工作流（你始终在回路中审查 diff 和提交）的开发者，而不是像 OpenHands（同样收录于本目录）那样完全自主、无人监督运行的智能体。它是编程智能体领域最早、最广泛采用的工具之一。"
+    },
+    "ja": {
+      "description": "ターミナルでのAIペアプログラミング —— Aiderはローカルのgitリポジトリ内でコードを編集し、テストを実行しながらコミットしていきます。",
+      "longDescription": "Aiderは実際のローカルgitリポジトリに対して、ターミナル内で直接動作します：関連ファイルをコンテキストとして読み込み、編集を提案・適用し、テストスイートを実行し、その過程で適切なメッセージ付きのgitコミットを作成します。主要なLLMの大半をサポートし、特定のプロバイダーに縛られないモデル非依存の設計です。\n\nAiderは、補助的でgitネイティブなペアプログラミングのワークフロー（差分やコミットを常にレビューしながら関与し続ける）を求める開発者に向いています。(同じくカタログにある)OpenHandsのように監視なしで完全自律的に動くエージェントとは異なります。コーディングエージェント分野で最も早くから広く採用されているツールの一つです。"
+    },
+    "ko": {
+      "description": "터미널에서 이루어지는 AI 페어 프로그래밍 — Aider는 로컬 git 저장소에서 코드를 편집하며, 테스트를 실행하고 변경사항을 커밋합니다.",
+      "longDescription": "Aider는 실제 로컬 git 저장소를 대상으로 터미널에서 직접 작동합니다: 관련 파일을 컨텍스트로 읽고, 편집을 제안하고 적용하며, 테스트 스위트를 실행하고, 그 과정에서 적절한 메시지와 함께 git 커밋을 생성합니다. 대부분의 주요 LLM을 지원하며 특정 공급자에 종속되지 않는 모델 독립적 설계입니다.\n\nAider는 보조적이고 git 네이티브한 페어 프로그래밍 워크플로(diff와 커밋을 계속 검토하며 관여하는)를 원하는 개발자에게 적합합니다 — (카탈로그에 있는) OpenHands처럼 감독 없이 완전 자율로 실행되는 에이전트와는 다릅니다. 코딩 에이전트 분야에서 가장 먼저, 가장 널리 채택된 도구 중 하나입니다."
+    },
+    "es": {
+      "description": "Programación en pareja con IA en tu terminal -- Aider edita código en tu repositorio git local, ejecutando pruebas y confirmando cambios sobre la marcha.",
+      "longDescription": "Aider funciona directamente en tu terminal contra tu repositorio git local real: lee los archivos relevantes como contexto, propone y aplica ediciones, ejecuta tu conjunto de pruebas y crea commits de git con mensajes razonables a medida que avanza. Es compatible con la mayoría de los LLM principales y no depende de un único proveedor.\n\nAider encaja en desarrolladores que quieren un flujo de trabajo de programación en pareja asistido y nativo de git -- te mantienes en el bucle revisando diffs y commits -- en lugar de un agente totalmente autónomo que se ejecuta sin supervisión (como OpenHands, también en este catálogo). Es una de las herramientas más tempranas y ampliamente adoptadas en el espacio de agentes de codificación."
+    },
+    "de": {
+      "description": "KI-Pair-Programming im Terminal -- Aider bearbeitet Code direkt in deinem lokalen Git-Repository, führt dabei Tests aus und committet Änderungen.",
+      "longDescription": "Aider arbeitet direkt im Terminal gegen dein tatsächliches lokales Git-Repository: Es liest relevante Dateien als Kontext, schlägt Änderungen vor und wendet sie an, führt deine Testsuite aus und erstellt dabei Git-Commits mit sinnvollen Nachrichten. Es unterstützt die meisten gängigen LLMs und ist modellunabhängig statt an einen Anbieter gebunden.\n\nAider passt zu Entwicklern, die einen unterstützenden, git-nativen Pair-Programming-Workflow wollen -- man bleibt im Loop und prüft Diffs und Commits -- statt eines vollständig autonomen, unbeaufsichtigt laufenden Agenten (wie OpenHands, ebenfalls in diesem Katalog). Es ist eines der frühesten und am weitesten verbreiteten Tools im Bereich Coding-Agenten."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-05-22",
+      "repoCreatedAt": "2023-05-09",
+      "archived": false,
+      "openIssuesCount": 1869,
+      "stargazersCount": 48989,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-16",
+      "score": 73
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The clear representative pick for terminal-based, git-native AI pair programming; a large, established community and a distinct workflow model."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "coding-agent",
+      "strength": "primary"
+    }
+  ]
+}

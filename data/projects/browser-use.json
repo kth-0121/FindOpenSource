@@ -1,0 +1,68 @@
+{
+  "name": "browser-use",
+  "slug": "browser-use",
+  "description": "A library that lets AI agents control a real web browser -- clicking, typing, navigating and reading pages -- to complete tasks that require the open web.",
+  "longDescription": "browser-use gives an LLM agent a structured way to perceive and act on a live browser: it extracts the interactive elements of a page, lets the agent decide what to click or type, and handles navigation, so tasks that require actually using a website (rather than calling an API for it) become automatable. It's become the most widely adopted library specifically for this niche.\n\nbrowser-use is a fit for teams building agents that need to interact with websites that don't offer a usable API -- filling forms, comparing prices, navigating multi-step flows -- as a building block rather than a full no-code automation platform.",
+  "repository": "https://github.com/browser-use/browser-use",
+  "website": "https://browser-use.com",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "computer-use",
+    "browser-automation",
+    "agent-tools"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "一个让 AI 智能体控制真实网页浏览器的库——点击、输入、导航和阅读页面——用于完成需要在开放网络上进行的任务。",
+      "longDescription": "browser-use 为 LLM 智能体提供了一种结构化的方式来感知并操作一个正在运行的浏览器：提取页面上的可交互元素，让智能体决定要点击或输入什么内容，并处理页面导航，使得那些必须真正使用网站（而不是调用其 API）才能完成的任务变得可自动化。它已成为这一细分领域中被采用最广泛的库。\n\nbrowser-use 适合那些需要让智能体与没有可用 API 的网站交互——填写表单、比较价格、走完多步骤流程——的团队，把它当作一个构建模块，而不是一整套无代码自动化平台。"
+    },
+    "ja": {
+      "description": "AIエージェントが実際のウェブブラウザを操作——クリック、入力、ナビゲーション、ページの読み取り——して、オープンウェブを必要とするタスクを完了させるためのライブラリです。",
+      "longDescription": "browser-useは、LLMエージェントが稼働中のブラウザを知覚し操作するための構造化された方法を提供します：ページ内の操作可能な要素を抽出し、エージェントが何をクリックまたは入力すべきか判断できるようにし、ナビゲーションを処理します。これにより、（APIを呼ぶのではなく）実際にウェブサイトを使う必要があるタスクを自動化できます。この分野で最も広く採用されているライブラリになっています。\n\nbrowser-useは、使えるAPIを提供していないウェブサイトとエージェントがやり取りする必要があるチーム——フォーム入力、価格比較、複数ステップのフローのナビゲーションなど——に向いています。フルノーコード自動化プラットフォームというより、構成要素として使うものです。"
+    },
+    "ko": {
+      "description": "AI 에이전트가 실제 웹 브라우저를 제어하게 해주는 라이브러리입니다 — 클릭, 입력, 탐색, 페이지 읽기 — 개방된 웹이 필요한 작업을 완료하기 위해서입니다.",
+      "longDescription": "browser-use는 LLM 에이전트가 실행 중인 브라우저를 인지하고 조작할 수 있는 구조화된 방법을 제공합니다: 페이지의 상호작용 가능한 요소를 추출하고, 에이전트가 무엇을 클릭하거나 입력할지 결정하게 하며, 탐색을 처리합니다. 이를 통해 (API를 호출하는 대신) 실제로 웹사이트를 사용해야 하는 작업을 자동화할 수 있습니다. 이 니치에서 가장 널리 채택된 라이브러리가 되었습니다.\n\nbrowser-use는 사용 가능한 API가 없는 웹사이트와 에이전트가 상호작용해야 하는 팀 — 폼 작성, 가격 비교, 다단계 흐름 탐색 등 — 에 적합하며, 완전한 노코드 자동화 플랫폼이 아니라 빌딩 블록으로 사용됩니다."
+    },
+    "es": {
+      "description": "Una librería que permite a los agentes de IA controlar un navegador web real -- haciendo clic, escribiendo, navegando y leyendo páginas -- para completar tareas que requieren la web abierta.",
+      "longDescription": "browser-use le da a un agente LLM una forma estructurada de percibir y actuar sobre un navegador en vivo: extrae los elementos interactivos de una página, deja que el agente decida qué hacer clic o escribir, y gestiona la navegación, de modo que las tareas que requieren usar realmente un sitio web (en lugar de llamar a una API) se vuelven automatizables. Se ha convertido en la librería más adoptada específicamente para este nicho.\n\nbrowser-use encaja en equipos que construyen agentes que necesitan interactuar con sitios web que no ofrecen una API utilizable -- rellenar formularios, comparar precios, navegar flujos de varios pasos -- como una pieza de construcción más que como una plataforma completa de automatización sin código."
+    },
+    "de": {
+      "description": "Eine Bibliothek, mit der KI-Agenten einen echten Webbrowser steuern können -- klicken, tippen, navigieren und Seiten lesen -- um Aufgaben zu erledigen, die das offene Web erfordern.",
+      "longDescription": "browser-use gibt einem LLM-Agenten eine strukturierte Möglichkeit, einen laufenden Browser wahrzunehmen und zu bedienen: Es extrahiert die interaktiven Elemente einer Seite, lässt den Agenten entscheiden, was zu klicken oder einzugeben ist, und übernimmt die Navigation -- so werden Aufgaben automatisierbar, für die eine Website tatsächlich benutzt werden muss (statt eine API dafür aufzurufen). Es ist zur meistgenutzten Bibliothek speziell für diese Nische geworden.\n\nbrowser-use passt zu Teams, die Agenten bauen, die mit Websites interagieren müssen, die keine nutzbare API bieten -- Formulare ausfüllen, Preise vergleichen, mehrstufige Abläufe durchlaufen -- als Baustein statt als vollständige No-Code-Automatisierungsplattform."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2024-10-31",
+      "archived": false,
+      "openIssuesCount": 429,
+      "stargazersCount": 114771,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-16",
+      "score": 77
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The de facto standard library for giving agents control of a real browser; a clear gap-filler with no equivalent already in the catalog."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "computer-use",
+      "strength": "primary"
+    }
+  ]
+}
