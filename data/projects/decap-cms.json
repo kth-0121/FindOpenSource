@@ -43,5 +43,33 @@
       "description": "Git-basiertes, quelloffenes CMS für Static-Site-Generatoren, das Inhalte als Dateien in deinem Repository über eine einfache Admin-Oberfläche bearbeitet.",
       "longDescription": "Decap CMS (früher Netlify CMS, 2023 umbenannt) ist ein Content-Management-System für Static-Site-Generatoren, das Inhalte direkt als Dateien in einem Git-Repository speichert, statt in einer Datenbank. Es wird als Single-Page-App ausgeliefert, die du unter dem Pfad /admin deiner Seite einbindest; eine YAML-Konfigurationsdatei beschreibt dein Content-Modell, und sobald sich ein Nutzer authentifiziert hat, kann er über eine übersichtliche UI Inhalte erstellen und bearbeiten – Änderungen werden wie jede andere Dateiänderung in dein Git-Repository committet.\n\nEs lässt sich auf zwei Arten installieren: als einzelne HTML-Datei plus Konfigurationsdatei für das einfachste Setup, oder als npm-Paket für Projekte, die es in ihren Build integrieren möchten. Da Inhalte in Git liegen, passt es natürlich zu Static-Site-Workflows, bei denen die Seite selbst bereits aus einem Git-Repository gebaut und bei jedem Push deployt wird.\n\nDecap CMS eignet sich für Teams, die einen Static-Site-Generator einsetzen und einen leichtgewichtigen, git-nativen Weg für nicht-technische Redakteure zur Inhaltsverwaltung wollen, ohne ein separates, datenbankgestütztes CMS aufzusetzen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2015-01-20",
+      "archived": false,
+      "openIssuesCount": 592,
+      "stargazersCount": 19379,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Git-backed headless CMS, a distinct workflow model (no database) vs. other CMS options."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "headless-cms",
+      "strength": "primary"
+    },
+    {
+      "concept": "cms",
+      "strength": "primary"
+    }
+  ]
 }

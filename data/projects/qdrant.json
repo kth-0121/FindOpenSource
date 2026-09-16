@@ -43,5 +43,37 @@
       "description": "Vektordatenbank und Ähnlichkeitssuchmaschine zum Bau von KI-Anwendungen mit Embeddings.",
       "longDescription": "Qdrant ist eine in Rust geschriebene Vektor-Ähnlichkeitssuchmaschine und Vektordatenbank, die „Points“ – Vektoren plus einer beliebigen Payload – speichert und durchsucht, mit einem Schwerpunkt auf umfangreicher, erweiterter Filterung neben der Ähnlichkeitssuche selbst (Kombination von semantischem Matching mit strukturierten Metadatenfiltern).\n\nSie läuft als Server (über Docker oder andere Deployment-Varianten) mit offiziellen Client-Bibliotheken für Python, JavaScript/TypeScript, Go, Rust, .NET/C# und Java, oder als Qdrant Edge, eine leichtgewichtige eingebettete Variante, die innerhalb deines Anwendungsprozesses für Edge- oder ressourcenbeschränkte Umgebungen läuft und sich mit einem vollständigen Qdrant-Server synchronisieren kann. Qdrant veröffentlicht außerdem fertige „Agent Skills“, die sein Vektorsuche-Tooling direkt in KI-Coding-Assistenten einbringen.\n\nEs ist selbst hostbar oder als verwalteter Qdrant-Cloud-Dienst mit einer kostenlosen Stufe verfügbar. Qdrant eignet sich für Teams, die semantische Suche, Empfehlungen oder andere Embedding-basierte Matching-Funktionen bauen und dabei neben der Vektorsuche selbst auch eine Filterung nach strukturierten Metadaten benötigen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2020-05-30",
+      "archived": false,
+      "openIssuesCount": 720,
+      "stargazersCount": 34569,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Popular high-performance vector database, meaningful but justified overlap with Milvus given different tradeoffs."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "vector-database",
+      "strength": "primary"
+    },
+    {
+      "concept": "similarity-search",
+      "strength": "primary"
+    },
+    {
+      "concept": "embeddings",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -41,5 +41,29 @@
       "description": "Zeitreihen-Metrikspeicher- und Graphing-System, das seit über einem Jahrzehnt ein grundlegender Baustein von Monitoring-Stacks ist.",
       "longDescription": "Graphite speichert numerische Zeitreihendaten und stellt sie als Graphen über ein einfaches, etabliertes Speicherformat und eine Abfrage-API dar, für deren Konsum viele andere Monitoring-Tools – darunter Grafana – ursprünglich gebaut wurden. Es konzentriert sich rein auf das Speichern und Darstellen von Zeitreihen statt auf Sammlung oder Alarmierung.\n\nGraphite eignet sich für Teams, die ältere, darauf aufgebaute Monitoring-Stacks pflegen, oder die einen einfachen, bewährten Metrikspeicher wollen – anders als das Pull-basierte, label-orientierte Modell von Prometheus, das bereits in diesem Katalog ist."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-07",
+      "repoCreatedAt": "2012-05-07",
+      "archived": false,
+      "openIssuesCount": 24,
+      "stargazersCount": 6116,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 84
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Older time-series monitoring tool, now largely superseded by Prometheus/InfluxDB in the same category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "time-series-database",
+      "strength": "secondary"
+    }
+  ]
 }

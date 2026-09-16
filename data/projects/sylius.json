@@ -43,5 +43,33 @@
       "description": "Open-Source-E-Commerce-Framework auf Symfony-Basis, ausgelegt auf stark individualisierte Commerce-Anwendungen, mit ausgeprägter Testkultur und REST-API.",
       "longDescription": "Sylius ist ein Open-Source-E-Commerce-Framework auf Basis von Symfony, gedacht für Teams, die eine Commerce-Anwendung benötigen, die eng an ihre eigene Geschäftslogik angepasst ist, statt einer starren All-in-one-Plattform. Es ist mit einer ausgeprägten testgetriebenen Kultur (BDD) mit PHPUnit und Behat aufgebaut und stellt eine REST-API für Integrationen und individuelle Frontend-Erlebnisse bereit.\n\nAls Framework statt als schlüsselfertige Anwendung ist Sylius dafür gedacht, auf Code-Ebene erweitert und an spezifische Geschäftsanforderungen angepasst zu werden; Sylius Plus ist eine separate, kommerzielle Schicht, die Module wie One-Page-Checkout, eine B2B-Suite, Multi-Store-Management und Treueprogramm-Funktionen für Teams hinzufügt, die diese Fähigkeiten nutzen möchten, ohne sie selbst zu bauen.\n\nSylius eignet sich für PHP/Symfony-Teams, die eine anpassbare Commerce-Basis zum Aufbauen wollen, statt eine feste E-Commerce-Plattform zu konfigurieren – und schließt damit eine Lücke im aktuellen Katalog, der bislang keine PHP-basierte Commerce-Option enthält."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-10",
+      "repoCreatedAt": "2011-11-05",
+      "archived": false,
+      "openIssuesCount": 226,
+      "stargazersCount": 8534,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Symfony-based flexible ecommerce framework, adds diversity to a thin category though a narrower audience than Saleor/Medusa."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "commerce",
+      "strength": "primary"
+    },
+    {
+      "concept": "ecommerce",
+      "strength": "primary"
+    }
+  ]
 }

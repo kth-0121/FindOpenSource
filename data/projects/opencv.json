@@ -42,5 +42,37 @@
       "description": "Die quelloffene Standardbibliothek für Computer Vision mit Algorithmen zur Bild- und Videoverarbeitung, -analyse und -verständnis.",
       "longDescription": "OpenCV implementiert Hunderte von Computer-Vision- und Bildverarbeitungsalgorithmen – Objekterkennung, Gesichtserkennung, Merkmalsabgleich, Kamerakalibrierung, Videoanalyse – als optimierte Bibliothek, aufrufbar aus C++, Python, Java und anderen Sprachen. Es ist seit über zwei Jahrzehnten das grundlegende Computer-Vision-Toolkit sowohl für Forschung als auch für Produktionssysteme.\n\nOpenCV eignet sich für jedes Team, das Anwendungen baut, die Bilder und Video programmatisch verarbeiten, analysieren oder verstehen müssen – es füllt eine Computer-Vision-Lücke in diesem Katalog, die in den bereits vorhandenen allgemeinen ML-/Deep-Learning-Frameworks derzeit fehlt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2012-07-19",
+      "archived": false,
+      "openIssuesCount": 2762,
+      "stargazersCount": 90842,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 92
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The foundational computer-vision library used across the entire industry."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "computer-vision",
+      "strength": "primary"
+    },
+    {
+      "concept": "object-detection",
+      "strength": "secondary"
+    },
+    {
+      "concept": "image-processing",
+      "strength": "secondary"
+    }
+  ]
 }

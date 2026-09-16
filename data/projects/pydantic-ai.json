@@ -41,5 +41,33 @@
       "description": "Typsicheres Agenten-Framework vom Team hinter Pydantic, das vertraute Python-Typisierungs- und Validierungsmuster in die LLM-Anwendungsentwicklung bringt.",
       "longDescription": "Pydantic AI lässt Entwickler die Eingaben, Ausgaben und Tool-Funktionen eines LLM-Agenten mit gewöhnlichen Pydantic-Modellen definieren, sodass sich dieselbe Typvalidierung und IDE-Autovervollständigung, auf die sich Python-Entwickler bereits verlassen, natürlich auf LLM-gestützten Code erstreckt. Es strebt ein leichteres, python-idiomatischeres Gefühl an als manche anderen Agenten-Frameworks.\n\nPydantic AI eignet sich für Python-Teams, die wollen, dass sich LLM-Anwendungscode wie normales, typsicheres Python statt eine separate DSL anfühlt – ein neuerer Mitbewerber im Vergleich zu LangChain (ebenfalls in diesem Katalog), der speziell Typsicherheit und minimale Abstraktion betont."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2024-06-21",
+      "archived": false,
+      "openIssuesCount": 884,
+      "stargazersCount": 19949,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 76
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Type-safe agent framework building on Pydantic's validation model, a distinctive typed approach."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "ai-agents",
+      "strength": "primary"
+    },
+    {
+      "concept": "structured-output",
+      "strength": "secondary"
+    }
+  ]
 }

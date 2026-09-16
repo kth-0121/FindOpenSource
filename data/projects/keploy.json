@@ -42,5 +42,33 @@
       "description": "Entwicklerorientiertes API-Testtool, das echten API- und Datenbank-Traffic per eBPF aufzeichnet und automatisch in Testfälle und Daten-Mocks umwandelt – ohne Codeänderungen.",
       "longDescription": "Keploy ist ein quelloffenes API- und Integrationstest-Tool, das Tests aus echtem Traffic generiert, statt dass ein Entwickler sie von Hand schreiben muss. Es nutzt eBPF, um API-Aufrufe, Datenbankabfragen und Streaming-Events auf Netzwerkebene zu erfassen, während eine Anwendung normal läuft – das bedeutet kein zu installierendes SDK und keine Codeänderungen – und wandelt den erfassten Traffic dann in wiedergebbare Testfälle und Daten-Mocks um.\n\nDa es aufgezeichneten, realistischen Traffic statt von einem Entwickler ausgedachter synthetischer Anfragen wiedergibt, eignet es sich gut, um Regressionen in komplexen, verteilten Request-Abläufen zu erkennen, ohne eine große Sammlung von API-Test-Fixtures von Hand zu pflegen, und ist sprachunabhängig, da die Erfassung auf Netzwerkebene statt innerhalb des Anwendungscodes stattfindet.\n\nKeploy eignet sich für Teams, die API- und Integrationstestabdeckung aus tatsächlicher Nutzung statt von Grund auf geschrieben haben möchten – als Ergänzung zu Cypress und Playwright (ebenfalls in diesem Katalog), die browserbasierte Nutzerabläufe statt Backend-API- und Integrationsverhalten testen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2022-01-19",
+      "archived": false,
+      "openIssuesCount": 728,
+      "stargazersCount": 18459,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 82
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "API test-case generation from real traffic, a distinctive approach to testing."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "api-testing",
+      "strength": "primary"
+    },
+    {
+      "concept": "test-automation",
+      "strength": "secondary"
+    }
+  ]
 }

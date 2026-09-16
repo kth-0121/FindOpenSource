@@ -41,5 +41,33 @@
       "description": "Bibliothek zum Einschränken von LLM-Ausgaben auf eine bestimmte Struktur – JSON-Schema, Regex, Grammatik – und garantiert gültige, parsbare Ergebnisse.",
       "longDescription": "Outlines steuert, welche Tokens ein LLM bei jedem Schritt generieren darf, und garantiert, dass die endgültige Ausgabe exakt einem JSON-Schema, einem regulären Ausdruck oder einer kontextfreien Grammatik entspricht, statt zu hoffen, dass ein Modell Formatierungsanweisungen in einem Prompt befolgt. Das eliminiert eine häufige Klasse von LLM-Anwendungsfehlern, die durch fehlerhafte oder nicht parsbare Modellausgaben verursacht werden.\n\nOutlines eignet sich für Teams, die garantiert gültige strukturierte Ausgaben von einem LLM benötigen – etwa das Befüllen eines Datenbankeintrags, den Aufruf einer Funktion mit den richtigen Argumenttypen – ein anderer technischer Ansatz (eingeschränkte Generierung auf Token-Ebene) als Instructor (ebenfalls in diesem Katalog), das strukturierte Ausgabe stattdessen über Function-Calling-APIs erreicht."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-09",
+      "repoCreatedAt": "2023-03-17",
+      "archived": false,
+      "openIssuesCount": 166,
+      "stargazersCount": 15807,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 82
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Structured-output/constrained-generation library for LLMs, overlaps with Guidance/Instructor."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "structured-output",
+      "strength": "primary"
+    },
+    {
+      "concept": "json-schema",
+      "strength": "secondary"
+    }
+  ]
 }

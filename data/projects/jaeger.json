@@ -42,5 +42,33 @@
       "description": "CNCF-Plattform für verteiltes Tracing zur Visualisierung von Anfrageflüssen über Microservices hinweg, die genau zeigt, welcher Dienst oder Aufruf für Latenz oder Fehler verantwortlich ist.",
       "longDescription": "Jaeger ist ein verteiltes Tracing-System, das ursprünglich bei Uber entwickelt wurde und heute ein von der CNCF graduiertes Projekt ist. Es sammelt, speichert und visualisiert Traces – den End-zu-Ende-Pfad, den eine einzelne Anfrage beim Durchlaufen vieler Microservices nimmt –, sodass ein Entwickler sehen kann, welcher konkrete Service-Aufruf die meiste Latenz hinzugefügt hat oder wo tatsächlich ein Fehler geworfen wurde, statt aus über mehrere Dienste verstreuten Logs und Metriken zu raten.\n\nJaeger v2 wurde auf Basis des OpenTelemetry Collectors (ebenfalls in diesem Katalog) neu aufgebaut und empfängt daher nativ OTLP-Tracedaten; es kann als All-in-one-Binary mit UI-, Collector- und Query-Komponenten für die lokale Nutzung laufen oder für den Produktivbetrieb mit separatem Storage skaliert werden.\n\nJaeger eignet sich für Teams, die Microservices betreiben und dienstübergreifende Latenz und Fehler direkt debuggen müssen – als Ergänzung zu metrikfokussierten Tools wie Prometheus und Grafana (ebenfalls in diesem Katalog): Diese zeigen, dass etwas langsam ist oder fehlschlägt, während Jaeger genau zeigt, wo im Anfragepfad es passiert ist."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2016-04-15",
+      "archived": false,
+      "openIssuesCount": 546,
+      "stargazersCount": 23211,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 100
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard distributed tracing tool alongside OpenTelemetry, a strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "distributed-tracing",
+      "strength": "primary"
+    },
+    {
+      "concept": "tracing",
+      "strength": "primary"
+    }
+  ]
 }

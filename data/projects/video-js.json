@@ -42,5 +42,37 @@
       "description": "Voll ausgestatteter, quelloffener HTML5-Videoplayer für das Web, der gängige Streaming-Formate unterstützt und über ein Plugin-Ökosystem erweiterbar ist.",
       "longDescription": "Video.js ist ein Open-Source-Webvideoplayer, der in Desktop-Browsern, auf Mobilgeräten, Tablets und webbasierten Smart-TVs funktioniert. Von Haus aus unterstützt er die im Web gängigen Medienformate, einschließlich Streaming-Formaten wie HLS und DASH, sodass er in den meisten Fällen Video mit adaptiver Bitrate ohne zusätzliche Konfiguration abspielen kann.\n\nEr lässt sich direkt über ein CDN-gehostetes Skript und Stylesheet in eine Seite einbinden oder per npm installieren, für Projekte, die ihre eigenen Abhängigkeiten bündeln, und sein Verhalten lässt sich über ein großes Ökosystem aus Community- und offiziellen Plugins erweitern. Das Projekt wird seit 2010 aktiv weiterentwickelt und auf einer großen Zahl von Produktions-Websites eingesetzt.\n\nVideo.js eignet sich für Teams, die eine einbettbare, anpassbare Videoplayer-Komponente für die eigene Website oder App benötigen – als Ergänzung, nicht als Ersatz für einen vollwertigen Medienserver (wie Jellyfin im aktuellen Katalog), der Speicherung und Bibliotheksverwaltung übernimmt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2010-05-14",
+      "archived": false,
+      "openIssuesCount": 669,
+      "stargazersCount": 39880,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 92
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely adopted open-source HTML5 video player library."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "video-player",
+      "strength": "primary"
+    },
+    {
+      "concept": "html5-video",
+      "strength": "primary"
+    },
+    {
+      "concept": "web-video",
+      "strength": "secondary"
+    }
+  ]
 }

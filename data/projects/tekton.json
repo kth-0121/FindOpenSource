@@ -41,5 +41,33 @@
       "description": "Kubernetes-native Bausteine zum Erstellen von CI/CD-Pipelines, die Teams eine standardisierte, portable Möglichkeit geben, Pipelines als Kubernetes-Ressourcen zu definieren.",
       "longDescription": "Tekton definiert Pipelines, Tasks und Trigger als Kubernetes-Custom-Resources, sodass eine CI/CD-Pipeline als gewöhnlicher Kubernetes-Workload läuft, statt von einem externen CI-Dienst abhängig zu sein – und da Pipelines nur Kubernetes-Ressourcen sind, sind sie zwischen jedem Tekton-kompatiblen Tool oder jeder Plattform portabel. Es ist ein CNCF-Projekt, das als wiederverwendbare Infrastruktur statt als vollständiges CI/CD-Produkt konzipiert ist.\n\nTekton eignet sich für Platform-Teams, die ein eigenes CI/CD-System oder eine interne Entwicklerplattform auf Kubernetes bauen – ein niedrigerstufiger Baustein als vollständige CI/CD-Tools wie Jenkins oder Woodpecker CI (ebenfalls in diesem Katalog)."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2018-08-29",
+      "archived": false,
+      "openIssuesCount": 577,
+      "stargazersCount": 9063,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 91
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes-native CI/CD building-block framework, a lower-level complement to Jenkins/Argo."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "ci-cd",
+      "strength": "primary"
+    },
+    {
+      "concept": "continuous-integration",
+      "strength": "secondary"
+    }
+  ]
 }

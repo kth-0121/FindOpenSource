@@ -41,5 +41,33 @@
       "description": "Horizontal skalierbare, verteilte Zeitreihendatenbank und Metrikplattform, bei Uber für Monitoring in sehr großem Maßstab entwickelt.",
       "longDescription": "M3 ist eine verteilte Metrikplattform – Speicher-Engine, Abfrageschicht und Aggregation –, die für das Schreib- und Speichervolumen der Überwachung tausender Dienste in sehr großem Maßstab ausgelegt ist, weit über das hinaus, was eine einzelne Prometheus-Instanz allein bewältigt. Sie bietet eine zu Prometheus-Remote-Write-kompatible Schnittstelle, sodass bestehende Prometheus-Setups sie als skalierbares Backend nutzen können.\n\nM3 eignet sich für große Organisationen, deren Metrikvolumen eine einzelne Prometheus-Instanz überstiegen hat und die eine speziell gebaute, horizontal skalierbare Speicherschicht unter ihrem bestehenden Setup benötigen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-08-17",
+      "repoCreatedAt": "2016-06-14",
+      "archived": false,
+      "openIssuesCount": 228,
+      "stargazersCount": 4896,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Distributed time-series database at very large scale, overlaps with InfluxDB/Prometheus in the same category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "time-series-database",
+      "strength": "secondary"
+    },
+    {
+      "concept": "metrics-storage",
+      "strength": "secondary"
+    }
+  ]
 }

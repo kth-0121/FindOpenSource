@@ -44,5 +44,29 @@
       "description": "Einheitliche Analytics-Engine für Batch- und Stream-Datenverarbeitung im großen Maßstab, eines der am weitesten verbreiteten Big-Data-Frameworks.",
       "longDescription": "Apache Spark verarbeitet sehr große Datensätze über einen verteilten Cluster aus Maschinen und unterstützt Batch-Verarbeitung, Streaming, SQL-Abfragen und Machine-Learning-Workloads durch eine einzige einheitliche Engine und API in mehreren Sprachen, darunter Python, Scala und Java. Es ist seit über einem Jahrzehnt das Standard-Framework für Big-Data-Verarbeitung.\n\nSpark eignet sich für Teams, die großangelegte Datentransformation, ETL oder Machine-Learning-Pipelines über verteilte Cluster betreiben – eine breitere, allgemeinere Engine als die spezialisierteren Flink (Echtzeit-Streaming) oder Trino (föderiertes SQL), ebenfalls in diesem Katalog."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-02-25",
+      "archived": false,
+      "openIssuesCount": 555,
+      "stargazersCount": 43999,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "Foundational big-data processing engine, essential representative project for analytics."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "data-pipeline",
+      "strength": "secondary"
+    }
+  ]
 }

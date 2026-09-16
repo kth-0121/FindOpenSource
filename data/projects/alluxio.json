@@ -42,5 +42,23 @@
       "description": "Datenorchestrierungsschicht zwischen Compute-Engines und Speichersystemen, die Daten für schnelleren, einheitlichen Zugriff zwischen beiden cached.",
       "longDescription": "Alluxio sitzt zwischen Compute-Frameworks (wie Spark oder Trino) und einem oder mehreren zugrunde liegenden Speichersystemen (S3, HDFS und andere), stellt einen einheitlichen Namensraum bereit und cached häufig genutzte Daten im Speicher oder auf schnellen lokalen Festplatten, um Analytics-Workloads zu beschleunigen, ohne die zugrunde liegenden Daten zu verschieben. Es entkoppelt Compute vom Speicherort.\n\nAlluxio eignet sich für Datenplattform-Teams, die Analytics-Engines gegen entfernten oder langsamen Speicher betreiben und eine Caching- und Vereinheitlichungsschicht wollen – eine andere Rolle als die Objektspeichersysteme (MinIO, SeaweedFS), die bereits in diesem Katalog sind: Es sitzt vor dem Speicher, statt selbst Speicher zu sein."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-01",
+      "repoCreatedAt": "2012-12-21",
+      "archived": false,
+      "openIssuesCount": 1047,
+      "stargazersCount": 7242,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Distinctive data-orchestration/caching layer for analytics workloads, adds real diversity to storage."
+    },
+    "flag": "ok"
   }
 }

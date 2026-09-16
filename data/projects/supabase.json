@@ -50,5 +50,29 @@
       "description": "Open-Source-Alternative zu Firebase mit Postgres-Datenbank, Authentifizierung, sofort einsatzbereiten APIs, Edge-Funktionen, Echtzeit-Subscriptions und Storage.",
       "longDescription": "Supabase beschreibt sich selbst als „die Postgres-Entwicklungsplattform“: Statt eines einzigen monolithischen Backends handelt es sich um eine modulare Zusammensetzung quelloffener Tools rund um PostgreSQL – Realtime (ein Elixir-Server zum Streamen von Datenbankänderungen über WebSockets), PostgREST (automatisch aus deinem Schema generierte REST-API), GoTrue (JWT-basierte Authentifizierung), eine Storage-API für Dateien auf S3-Basis mit in Postgres durchgesetzten Berechtigungen, pg_graphql für eine GraphQL-API sowie postgres-meta zur Verwaltung der Datenbank selbst. Erklärtes Ziel ist eine Firebase-ähnliche Entwicklererfahrung, aufgebaut aus quelloffenen, freizügig lizenzierten Komponenten oder eigenen Komponenten, die Supabase baut und open source macht, wenn keine passende existiert.\n\nZu den Kernfunktionen gehören eine gehostete Postgres-Datenbank, Authentifizierung/Autorisierung, automatisch generierte REST- und GraphQL-APIs, Echtzeit-Subscriptions, Datenbank- und Edge-Funktionen, Dateispeicher, ein KI-/Vektor-Embedding-Toolkit sowie ein Web-Dashboard. Die Client-Bibliotheken sind modular aufgebaut, sodass du nur die Teile nutzen kannst, die du brauchst (z. B. nur PostgREST oder GoTrue), statt der gesamten Plattform.\n\nSupabase lässt sich als gehostete Plattform nutzen (anmelden und loslegen) oder selbst hosten/lokal betreiben, was es für Teams geeignet macht, die ein Postgres-zentriertes Backend mit Firebase-artiger Entwicklererfahrung wollen, darunter aber quelloffene Komponenten."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-10-12",
+      "archived": false,
+      "openIssuesCount": 1139,
+      "stargazersCount": 109266,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading open-source Firebase alternative spanning three categories; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "authentication",
+      "strength": "secondary"
+    }
+  ]
 }

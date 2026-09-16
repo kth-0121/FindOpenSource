@@ -1,6 +1,12 @@
 export interface Dictionary {
   skipToContent: string;
   adSlotLabel: string;
+  evidenceBadges: {
+    activelyMaintained: string;
+    wellDocumented: string;
+    permissiveLicense: string;
+    foundationBacked: string;
+  };
   nav: {
     categories: string;
     contribute: string;

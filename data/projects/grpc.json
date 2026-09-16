@@ -44,5 +44,33 @@
       "description": "Hochperformantes Open-Source-RPC-Framework, mit dem Dienste gegenseitig Funktionen über Sprachen und Netzwerke hinweg direkt aufrufen können.",
       "longDescription": "gRPC lässt einen Dienst Funktionen bereitstellen, die andere Dienste aufrufen können, als wären es lokale Methodenaufrufe, wobei Protocol Buffers für kompakte, stark typisierte Nachrichtendefinitionen und HTTP/2 für effizienten, multiplexierten Transport genutzt werden. Es generiert Client- und Server-Code in Dutzenden von Sprachen aus einer gemeinsamen Dienstdefinition.\n\ngRPC eignet sich für Teams, die Microservices bauen, die effiziente, stark typisierte Dienst-zu-Dienst-Kommunikation benötigen – ein anderes Muster als die REST/GraphQL-APIs, die Directus, Hasura und PostgREST (ebenfalls in diesem Katalog) bereitstellen; gRPC wird meist für interne Dienst-zu-Dienst-Aufrufe statt öffentliche APIs genutzt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-12-08",
+      "archived": false,
+      "openIssuesCount": 1334,
+      "stargazersCount": 45311,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard high-performance RPC framework, essential representative project for API tooling."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "rpc",
+      "strength": "primary"
+    },
+    {
+      "concept": "protocol-buffers",
+      "strength": "secondary"
+    }
+  ]
 }

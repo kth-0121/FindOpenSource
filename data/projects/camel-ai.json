@@ -41,5 +41,33 @@
       "description": "Open-Source-Framework für Forschung und den Bau von Systemen mehrerer kommunizierender, rollenspielender KI-Agenten, die autonom zusammenarbeiten.",
       "longDescription": "CAMEL (Communicative Agents for „Mind“ Exploration) bietet Infrastruktur zum Erstellen mehrerer KI-Agenten, die definierte Rollen übernehmen und miteinander kommunizieren, um Aufgaben zu erledigen oder Szenarien zu simulieren, mit Wurzeln in der akademischen Forschung zu Multi-Agenten-Verhalten. Es wird sowohl zum Bau praktischer Multi-Agenten-Anwendungen als auch zum Erforschen genutzt, wie LLM-basierte Agenten im großen Maßstab interagieren.\n\nCAMEL eignet sich für Teams und Forscher, die Multi-Agenten-Systeme und emergentes Agentenverhalten erforschen – eine forschungsorientierte Alternative zu CrewAI (ebenfalls in diesem Katalog): Beide adressieren Multi-Agenten-Orchestrierung, wobei CAMEL eher zu Experimenten und dem Studium von Agenten-Interaktionsmustern tendiert."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2023-03-17",
+      "archived": false,
+      "openIssuesCount": 481,
+      "stargazersCount": 17719,
+      "productionReadiness": "emerging",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 76
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Multi-agent framework in an already very saturated ai category with several similar agent frameworks."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "ai-agents",
+      "strength": "primary"
+    },
+    {
+      "concept": "multi-agent",
+      "strength": "primary"
+    }
+  ]
 }

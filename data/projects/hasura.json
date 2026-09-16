@@ -47,5 +47,29 @@
       "description": "Sofortige GraphQL- und REST-APIs auf PostgreSQL und anderen Datenbanken, über Data Connectors.",
       "longDescription": "Hasura ist eine Open-Source-Engine, die eine einzige, komponierbare GraphQL- (und REST-)API über deine Daten bereitstellt, statt dass du für jede Tabelle oder Abfrage manuell API-Endpunkte schreiben musst. Die aktuelle Hauptversion, Hasura DDN (v3), verbindet sich über Data Connectors mit mehreren Quellen – PostgreSQL und kompatible Datenbanken, MongoDB, ClickHouse und Microsoft SQL Server – und erlaubt es, über Connector-SDKs in TypeScript, Python oder Go eigene Geschäftslogik hinzuzufügen. Die vorherige stabile Linie, Hasura V2, ist die ursprüngliche, primär um PostgreSQL herum gebaute GraphQL Engine und wird im selben Repository weiterhin aktiv gepflegt.\n\nHasura eignet sich für Teams, die keine eigene Datenzugriffs-API-Schicht von Hand bauen möchten und stattdessen sofort einsatzbereite, sichere GraphQL-/REST-Endpunkte direkt über ihren bestehenden Datenbanken haben wollen – mit der Möglichkeit, dort, wo die generierte API nicht ausreicht, eigene Logik zu ergänzen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-09",
+      "repoCreatedAt": "2018-06-18",
+      "archived": false,
+      "openIssuesCount": 2373,
+      "stargazersCount": 32113,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Instant GraphQL API layer over databases, a distinctive and widely used approach across three categories."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "graphql-client",
+      "strength": "related"
+    }
+  ]
 }

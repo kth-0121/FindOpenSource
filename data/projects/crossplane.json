@@ -42,5 +42,29 @@
       "description": "Kubernetes-native Control Plane, mit der du Cloud-Infrastruktur – Datenbanken, Netzwerke, Speicher – über Kubernetes-APIs bereitstellen und verwalten kannst.",
       "longDescription": "Crossplane erweitert die Kubernetes-API, um Cloud-Infrastruktur – eine verwaltete Datenbank, einen Load Balancer, einen Storage Bucket – als Kubernetes-Ressourcen darzustellen, sodass ein Team echte Cloud-Infrastruktur über denselben `kubectl apply`-Workflow und dasselbe RBAC-Modell bereitstellen und verwalten kann, das es bereits für Anwendungen nutzt. Es setzt Infrastruktur zu wiederverwendbaren, höherstufigen Abstraktionen zusammen, die Platform-Teams Entwicklern anbieten können.\n\nCrossplane eignet sich für Platform-Teams, die eine interne Entwicklerplattform bauen und wollen, dass Infrastruktur-Provisionierung über Kubernetes-APIs läuft – ein anderer Ansatz als Terraform oder OpenTofu (ebenfalls in diesem Katalog), die eine separate CLI und ein Statemodell außerhalb von Kubernetes nutzen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2018-09-08",
+      "archived": false,
+      "openIssuesCount": 192,
+      "stargazersCount": 12068,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes-native infrastructure provisioning control plane, distinct from Terraform's approach."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "infrastructure-as-code",
+      "strength": "primary"
+    }
+  ]
 }

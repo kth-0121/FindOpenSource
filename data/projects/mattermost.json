@@ -43,5 +43,33 @@
       "description": "Open-Core-Plattform für Teamzusammenarbeit zum Selbsthosten, die Chat, Workflow-Automatisierung, Sprachanrufe und Bildschirmfreigabe vereint - entwickelt mit Go, React und PostgreSQL.",
       "longDescription": "Mattermost ist eine Open-Core-Kollaborationsplattform zum Selbsthosten, die Team-Chat mit Workflow-Automatisierung, Sprachanrufen, Bildschirmfreigabe und KI-Integration kombiniert. Der Server ist in Go und React geschrieben, läuft als einzelne Linux-Binärdatei mit PostgreSQL im Hintergrund und bietet Erweiterbarkeit über Webhooks, Slash-Commands, eine API und einen Marktplatz für Integrationen.\n\nDie Lizenzierung ist mehrschichtig: Offizielle, kompilierte Releases von Mattermost, Inc. stehen unter der MIT-Lizenz, während das eigene Bauen des Quellcodes unter AGPLv3 (mit einigen Ausnahmen) oder einer separaten kommerziellen Lizenz erfolgt, und ein Teil der Admin-Tools und Konfigurationsdateien steht unter Apache-2.0 – ein Spiegelbild von Mattermosts Open-Core-Modell statt einer einzigen, einfachen Lizenz.\n\nEs wird häufig für DevSecOps-Kommunikation, Incident Response und IT-Service-Desk-Workflows eingesetzt, von Teams, die eine selbst gehostete Alternative zu gehosteten Chat-Plattformen suchen – mit der Option, on-premises zu deployen oder das Cloud-Angebot von Mattermost zu nutzen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-06-15",
+      "archived": false,
+      "openIssuesCount": 1003,
+      "stargazersCount": 39062,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 90
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading self-hosted team chat platform; essential representative project for a very thin chat category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "team-chat",
+      "strength": "primary"
+    },
+    {
+      "concept": "chat",
+      "strength": "primary"
+    }
+  ]
 }

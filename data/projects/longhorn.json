@@ -42,5 +42,29 @@
       "description": "Leichtgewichtiger, verteilter Blockspeicher für Kubernetes, der im Vergleich zu schwereren Speichersystemen einfach bereitzustellen und zu betreiben sein soll.",
       "longDescription": "Longhorn stellt persistente Block-Storage-Volumes für Kubernetes-Workloads mit eingebautem Snapshotting, Backup und Disaster Recovery bereit und strebt einen deutlich einfacheren operativen Aufwand als Ceph an, während es dennoch verteilt und hochverfügbar bleibt. Es ist ein von der CNCF graduiertes Projekt, beliebt sowohl in Edge- und Homelab-Kubernetes-Deployments als auch in Produktionsclustern.\n\nLonghorn eignet sich für Teams, die verteilten Blockspeicher für Kubernetes ohne Cephs operative Komplexität wollen – eine leichtgewichtigere Alternative zu Rook und Ceph, die bereits in diesem Katalog sind, für Teams, die nicht den vollen Funktionsumfang von Ceph benötigen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2017-04-14",
+      "archived": false,
+      "openIssuesCount": 1893,
+      "stargazersCount": 7981,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Standard Kubernetes-native distributed block storage, a focused and widely deployed pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "persistent-volume-backup",
+      "strength": "secondary"
+    }
+  ]
 }

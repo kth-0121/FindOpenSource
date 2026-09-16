@@ -42,5 +42,29 @@
       "description": "Ereignisgesteuerte Automatisierungsplattform, die Aktionen und Workflows automatisch als Reaktion auf Ereignisse in deiner Infrastruktur auslöst.",
       "longDescription": "StackStorm verbindet Event-Quellen – Monitoring-Alarme, Webhooks, Sensoren, Zeitpläne – mit automatisierten Aktionen und Workflows und fungiert als programmierbare „Wenn das passiert, tu das“-Schicht für den IT-Betrieb. Seine Regel-Engine lässt Teams Abhilfemaßnahmen und Betriebs-Runbooks codifizieren, sodass Routine-Vorfälle automatisch statt manuell behandelt werden.\n\nStackStorm eignet sich für Betriebsteams, die reaktive, ereignisgetriggerte Aufgaben automatisieren wollen – Auto-Remediation, alarmgesteuerte Runbooks, ChatOps – eine andere Nische als Temporal oder Argo Workflows (ebenfalls in diesem Katalog), die explizit aufgerufene Anwendungs-Workflows orchestrieren, statt auf externe Ereignisse zu reagieren."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-02",
+      "repoCreatedAt": "2014-04-23",
+      "archived": false,
+      "openIssuesCount": 603,
+      "stargazersCount": 6534,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Event-driven IT automation platform, older and narrower relative to Kestra/Prefect/Argo Workflows."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "workflow-automation",
+      "strength": "secondary"
+    }
+  ]
 }

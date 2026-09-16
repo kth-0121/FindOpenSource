@@ -44,5 +44,29 @@
       "description": "In-Memory-Datenstrukturspeicher, der als Datenbank, Cache, Message-Broker und Streaming-Engine eingesetzt wird.",
       "longDescription": "Redis (mit dem 8.0-Release von „Redis Community Edition“ in „Redis Open Source“ umbenannt) ist ein In-Memory-Datenstrukturserver, der meist als Cache eingesetzt wird, aber auch als universeller Datenstrukturspeicher, Session-Store, Message-Broker/Warteschlangensystem und – über Redis Search – als Such- und Vektorabfrage-Engine für KI-Anwendungen (semantisches Caching, RAG-Retrieval sowie Kurz-/Langzeitgedächtnis für LLMs) dient.\n\nDa Daten hauptsächlich im Arbeitsspeicher gehalten werden und effiziente Datenstrukturen (Strings, Listen, Sets, Hashes, Sorted Sets, Streams und mehr) zum Einsatz kommen, erreicht es sehr niedrige, oft Sub-Millisekunden-Latenzen, und über die Module-API lässt es sich um zusätzliche Befehle und Fähigkeiten über den Standardumfang hinaus erweitern.\n\nDie Lizenzierung hat sich über die Versionen hinweg geändert: Releases bis 7.2.x stehen unter BSD-3-Clause, während 8.0.x und später zur Wahl zwischen RSALv2, SSPLv1 oder AGPLv3 angeboten werden. Über das Self-Hosting hinaus bietet Redis Ltd. auch Redis Software (selbst verwaltet, auf Unternehmen ausgerichtet) und Redis Cloud (vollständig verwaltet auf AWS, Azure oder Google Cloud) an."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2009-03-21",
+      "archived": false,
+      "openIssuesCount": 2947,
+      "stargazersCount": 76371,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the most widely adopted in-memory data stores; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "nosql",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -43,5 +43,29 @@
       "description": "Eigenständiger Webserver, der jede PostgreSQL-Datenbank direkt in eine RESTful-API verwandelt.",
       "longDescription": "PostgREST ist ein eigenständiger Webserver, der das Schema einer bestehenden PostgreSQL-Datenbank direkt in eine RESTful-API verwandelt, ohne dass du eine separate Anwendungsschicht schreiben musst, um jede Tabelle oder Ansicht bereitzustellen. Er ist in Haskell geschrieben, läuft auf dem Warp-HTTP-Server und ist so konzipiert, dass möglichst viel Arbeit in die Datenbank selbst verlagert wird – einschließlich der Serialisierung von JSON-Antworten und der Ausführung von Datenvalidierung in SQL – statt diese Arbeit im API-Server zu erledigen.\n\nEr wird typischerweise als eigenständige Binärdatei installiert oder über Docker vor einer Postgres-Datenbank betrieben, und das Projekt berichtet von Antwortzeiten unter einer Sekunde bei mehreren tausend Anfragen pro Sekunde, selbst auf bescheidenem Hosting.\n\nPostgREST eignet sich für Teams, die eine Postgres-Datenbank schnell als REST-API bereitstellen möchten, wobei das Datenbankschema selbst (Tabellen, Views, Berechtigungen) als Single Source of Truth dafür dient, wie die API aussieht, statt CRUD-Endpunkte von Hand zu schreiben und zu pflegen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-06-13",
+      "archived": false,
+      "openIssuesCount": 401,
+      "stargazersCount": 27665,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Instant REST API directly from a PostgreSQL schema, a distinctive zero-code approach."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "rest-client",
+      "strength": "related"
+    }
+  ]
 }

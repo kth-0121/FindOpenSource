@@ -41,5 +41,33 @@
       "description": "Schnelle, quelloffene Suchmaschine, die sich leicht integrieren lässt und sofort relevante Ergebnisse liefert.",
       "longDescription": "Meilisearch ist eine Suchmaschine, die darauf ausgelegt ist, schnell und einfach selbst zu betreiben zu sein: Sie kombiniert Volltext- und semantische (hybride) Suche, liefert Ergebnisse typischerweise in unter 50 Millisekunden und verzeiht Tippfehler und Rechtschreibfehler, sodass Nutzer trotzdem relevante Treffer finden. Integrierte Filterung, facettierte Suche, Sortierung, Synonyme, Geosuche und Multi-Tenancy decken das meiste ab, was eine typische Produktsuchfunktion benötigt, ganz ohne zusätzliche Dienste.\n\nSie unterstützt zudem von Haus aus stärker KI-orientierte Anwendungsfälle, darunter konversationelle Suche (Beantwortung natürlichsprachlicher Fragen auf Basis deiner indexierten Daten) und Integrationen mit Tools wie LangChain und dem Model Context Protocol (MCP). Feingranulare API-Schlüssel und Tenant-Tokens übernehmen Zugriffskontrolle und Multi-Tenant-Suche.\n\nDu kannst Meilisearch selbst hosten oder das verwaltete Meilisearch Cloud nutzen. Es eignet sich für Teams, die schnelle, relevante Suche hinzufügen möchten – von einfacher Website-Suche bis hin zu stärker KI-gestützten oder personalisierten Sucherlebnissen –, ohne eine schwerere, universelle Suchplattform zu betreiben."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2018-04-23",
+      "archived": false,
+      "openIssuesCount": 323,
+      "stargazersCount": 59292,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Fast, easy-to-run instant-search engine, a strong developer-friendly alternative to Elasticsearch."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "full-text-search",
+      "strength": "primary"
+    },
+    {
+      "concept": "search-engine",
+      "strength": "secondary"
+    }
+  ]
 }

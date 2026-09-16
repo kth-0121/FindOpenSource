@@ -41,5 +41,29 @@
       "description": "Der Standard-Paketmanager für Kubernetes, mit dem du selbst komplexe Anwendungen als versionierte, wiederverwendbare Charts definieren, installieren und aktualisieren kannst.",
       "longDescription": "Helm verpackt die Manifeste, Konfiguration und Abhängigkeiten einer Kubernetes-Anwendung in ein einziges versioniertes „Chart“, das mit einem Befehl installiert, aktualisiert oder zurückgerollt werden kann, statt Dutzende einzelner YAML-Dateien manuell anzuwenden. Ein großes öffentliches Chart-Repository bedeutet, dass für die meiste gängige Software bereits ein installationsbereites Helm-Chart existiert.\n\nHelm eignet sich für alle, die Anwendungen auf Kubernetes bereitstellen und versionierte, wiederholbare, parametrisierte Installationen statt manueller Verwaltung roher Manifeste wollen – es ist das de-facto-Standard-Paketformat, für das die meisten anderen Kubernetes-Tools in diesem Katalog, wie Kong oder Grafana, ein offizielles Chart bereitstellen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2015-10-06",
+      "archived": false,
+      "openIssuesCount": 460,
+      "stargazersCount": 30245,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 97
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The standard Kubernetes package manager; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "kubernetes-deployment",
+      "strength": "primary"
+    }
+  ]
 }

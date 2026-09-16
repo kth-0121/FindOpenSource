@@ -90,7 +90,11 @@ export function getRelatedProjects(slug: string, locale: Locale = defaultLocale,
   const project = all.find((p) => p.slug === slug);
   if (!project) return [];
 
-  const others = all.filter((other) => other.slug !== project.slug);
+  const others = all
+    .filter((other) => other.slug !== project.slug)
+    // Never recommend a project flagged for hold (e.g. archived/abandoned).
+    .filter((other) => other.evaluation?.flag !== "hold");
+
   const scored = others.map((other) => {
     const sharedCategories = other.categories.filter((category) =>
       project.categories.includes(category),
@@ -103,7 +107,16 @@ export function getRelatedProjects(slug: string, locale: Locale = defaultLocale,
 
   const related = scored
     .filter((entry) => entry.score > 0)
-    .sort((a, b) => b.score - a.score)
+    .sort(
+      (a, b) =>
+        // Primary sort (category/keyword overlap) is untouched. Quality
+        // score only ever breaks an exact tie -- it can never outrank a
+        // project with genuinely higher category/keyword overlap. Missing
+        // scores default to 0, same conservative-by-default rule as
+        // computeQualityScore itself.
+        b.score - a.score ||
+        (b.project.evaluation?.quality?.score ?? 0) - (a.project.evaluation?.quality?.score ?? 0),
+    )
     .slice(0, limit)
     .map((entry) => entry.project);
 

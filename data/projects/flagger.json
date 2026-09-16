@@ -42,5 +42,37 @@
       "description": "Progressive-Delivery-Operator, der Canary-, Blue-Green- und A/B-Deployments für Kubernetes mit automatischem Rollback bei Fehlern automatisiert.",
       "longDescription": "Flagger verlagert Traffic schrittweise auf eine neue Version eines Dienstes, während es kontinuierlich Metriken prüft – Fehlerrate, Latenz, benutzerdefinierte Geschäftsmetriken – und rollt automatisch zurück, wenn sich diese Metriken verschlechtern, wodurch die für Canary-Releases sonst übliche manuelle Überwachung entfällt. Es integriert sich mit Service Meshes wie Istio und Linkerd (ebenfalls in diesem Katalog) oder Ingress-Controllern, um Traffic-Splitting zu steuern.\n\nFlagger eignet sich für Teams, die automatisierte, metrikgesteuerte progressive Delivery statt manueller Beobachtung eines Canary-Rollouts wollen – häufig gepaart mit Flux (ebenfalls in diesem Katalog) aus derselben Projektfamilie."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-08",
+      "repoCreatedAt": "2018-09-19",
+      "archived": false,
+      "openIssuesCount": 388,
+      "stargazersCount": 5405,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Progressive delivery operator for Kubernetes, complements Argo/Flux in a saturated devops category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "progressive-delivery",
+      "strength": "primary"
+    },
+    {
+      "concept": "canary-deployment",
+      "strength": "primary"
+    },
+    {
+      "concept": "progressive-rollout",
+      "strength": "primary"
+    }
+  ]
 }

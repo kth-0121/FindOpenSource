@@ -41,5 +41,33 @@
       "description": "GitOps-Continuous-Delivery-Tool für Kubernetes, das den Zustand eines Clusters mit einem Git-Repository synchron hält – eine echte Alternative zu Argo CD.",
       "longDescription": "Flux beobachtet ein Git-Repository und wendet Änderungen automatisch auf einen Kubernetes-Cluster an, wodurch der deployte Zustand mit dem Committeten synchron bleibt – dasselbe grundlegende GitOps-Muster wie Argo CD (ebenfalls in diesem Katalog), gebaut mit einer modulareren, Kubernetes-Controller-nativeren Architektur. Es ist ein von der CNCF graduiertes Projekt mit engen Verbindungen zur breiteren GitOps Working Group.\n\nFlux eignet sich für Teams, die GitOps-Tools evaluieren und eine leichtgewichtigere, Kubernetes-nativere Alternative zu Argo CD wollen – Teams vergleichen häufig beide, bevor sie eines für ihre Deployment-Pipeline wählen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-13",
+      "repoCreatedAt": "2020-04-24",
+      "archived": false,
+      "openIssuesCount": 259,
+      "stargazersCount": 8407,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 97
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Leading GitOps toolkit alongside Argo CD; overlaps meaningfully with it in a saturated category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "gitops",
+      "strength": "primary"
+    },
+    {
+      "concept": "continuous-delivery",
+      "strength": "primary"
+    }
+  ]
 }

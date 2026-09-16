@@ -45,5 +45,45 @@
       "description": "Elegantes, modulares Open-Source-Datei-Upload-Tool mit Drag-and-Drop, Bildzuschnitt und Uploads zu S3, Google Drive und mehr.",
       "longDescription": "Uppy ist ein modularer JavaScript-Datei-Uploader, der um eine Plugin-Architektur herum aufgebaut ist: Ein kleiner Kern kümmert sich um Status und Uploads, während Plugins Quellen (lokale Festplatte, Webcam, Google Drive, Dropbox, Box oder Remote-URLs über den optionalen Companion-Server), UI (ein vorgefertigtes Dashboard oder headless Komponenten/Hooks für eine eigene Oberfläche), Bearbeitung (wie einen Bildeditor) und Upload-Transporte hinzufügen – einschließlich fortsetzbarer Uploads über das offene tus-Protokoll, sodass große Uploads Netzwerkunterbrechungen überstehen können.\n\nEs bietet erstklassige Integrationen für reines JS/HTML, React, Svelte und Vue (mit eingeschränkterer Unterstützung für Angular) und drei Wege, die UI zu bauen, je nachdem, wie viel Kontrolle benötigt wird: eine sofort einsatzbereite Dashboard-Komponente, kleinere headless Komponenten, oder Hooks für eine vollständig eigene Oberfläche. Uppy funktioniert eigenständig oder in Kombination mit Transloadit (vom selben Team entwickelt) zur Dateicodierung, -konvertierung und -zustellung, benötigt dies aber nicht zwingend.\n\nUppy eignet sich für Teams, die ein flexibles, anpassbares Datei-Upload-Widget statt eines einfachen nativen `<input type=\"file\">` benötigen, insbesondere wenn fortsetzbare Uploads oder mehrere Dateiquellen erforderlich sind."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2015-11-16",
+      "archived": false,
+      "openIssuesCount": 178,
+      "stargazersCount": 30971,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely adopted modular file-uploader UI library, strong representative pick for image/file upload."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "file-upload",
+      "strength": "primary"
+    },
+    {
+      "concept": "file-uploader",
+      "strength": "primary"
+    },
+    {
+      "concept": "image-upload",
+      "strength": "primary"
+    },
+    {
+      "concept": "upload",
+      "strength": "primary"
+    },
+    {
+      "concept": "drag-and-drop",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -43,5 +43,29 @@
       "description": "Verteiltes Datei- und Objektspeichersystem, das darauf ausgelegt ist, Milliarden von Dateien schnell zu speichern und auszuliefern, und dabei S3, POSIX sowie Lakehouse-Protokolle (S3 Tables) spricht.",
       "longDescription": "SeaweedFS ist ein verteiltes Speichersystem, das um zwei Ziele herum entwickelt wurde: Milliarden von Dateien zu speichern und sie schnell auszuliefern. Eine einzige `weed`-Binärdatei kann dieselben zugrunde liegenden Daten sowohl als S3-kompatiblen Objektspeicher, als POSIX-konformes Dateisystem als auch als Lakehouse über S3 Tables bereitstellen, statt für jedes Zugriffsmuster ein separates System zu benötigen.\n\nJeder gespeicherte Blob ist mit etwa einem Festplattenzugriff erreichbar, und die Speicherkapazität wird durch das Starten zusätzlicher Volume-Server statt durch Resharding bestehender Daten skaliert; Cloud-Speicher lässt sich zudem als transparente Cache- oder Speicherebene einschichten. Das macht es zu einer direkt vergleichbaren Option zu anderen S3-kompatiblen Objektspeichersystemen für Teams, die selbst gehosteten Speicher evaluieren – auch als praktikable Alternative für alle, die derzeit auf MinIO setzen, dessen GitHub-Repository der Community-Edition archiviert wurde und nicht mehr gepflegt wird.\n\nSeaweedFS eignet sich für Teams, die selbst gehosteten, S3-kompatiblen Objektspeicher oder ein POSIX-Dateisystem bei großen Dateizahlen benötigen und die Speicherkapazität lieber schrittweise statt über einen einzigen monolithischen Cluster skalieren möchten."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-07-14",
+      "archived": false,
+      "openIssuesCount": 766,
+      "stargazersCount": 34671,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Distributed object/file storage, meaningful overlap with MinIO/Ceph/JuiceFS in a moderately-sized category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "object-storage",
+      "strength": "secondary"
+    }
+  ]
 }

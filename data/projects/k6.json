@@ -43,5 +43,37 @@
       "description": "Modernes Last- und Performance-Testtool, mit dem Entwickler Tests in JavaScript skripten und von der Kommandozeile ausführen können – gebaut für das DevOps- und CI/CD-Zeitalter.",
       "longDescription": "k6 ist ein quelloffenes Lasttest-Tool von Grafana Labs, das darauf aufbaut, Testszenarien in JavaScript zu skripten, statt sich durch einen GUI-Recorder zu klicken. Ein Entwickler schreibt das Verhalten virtueller Nutzer als Code – welche Requests gesendet werden, wie viele Nutzer simuliert werden, wie die Last über die Zeit ansteigen soll – und k6 führt dieses Skript von der Kommandozeile aus, wodurch es sich problemlos in die Versionskontrolle einchecken und lokal wie in CI identisch ausführen lässt.\n\nEs lässt sich natürlich in CI/CD-Pipelines integrieren, um bei jedem Build Performance-Checks durchzuführen, und seine Ausgabe fließt in Grafana-Dashboards (ebenfalls in diesem Katalog) ein, um Durchsatz, Latenz und Fehlerraten über den Verlauf eines Testlaufs zu visualisieren.\n\nk6 eignet sich für Teams, die Last- und Performance-Tests genauso einfach schreiben, überprüfen und automatisieren möchten wie ihre bestehenden Unit- und Integrationstests – als Ergänzung zu Cypress und Playwright (ebenfalls in diesem Katalog), die Korrektheit und Nutzerabläufe testen statt Performance unter Last."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-03-21",
+      "archived": false,
+      "openIssuesCount": 803,
+      "stargazersCount": 31486,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 90
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading modern load-testing tool, a strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "load-testing",
+      "strength": "primary"
+    },
+    {
+      "concept": "performance-testing",
+      "strength": "primary"
+    },
+    {
+      "concept": "stress-testing",
+      "strength": "secondary"
+    }
+  ]
 }

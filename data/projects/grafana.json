@@ -43,5 +43,33 @@
       "description": "Quelloffene Plattform für Monitoring und Observability, mit der du Metriken abfragen, visualisieren und Alarme darauf einrichten kannst.",
       "longDescription": "Grafana ist eine Open-Source-Plattform zum Abfragen, Visualisieren und Alarmieren auf Basis von Metriken und Logs, unabhängig davon, wo diese Daten gespeichert sind – es verbindet sich mit vielen verschiedenen Datenquellen und kann sogar mehrere Quellen im selben Dashboard oder Panel kombinieren, statt eine eigene Speicher-Engine mitzubringen.\n\nDashboards werden aus konfigurierbaren Panels aufgebaut und können mit Template-Variablen dynamisch und teamübergreifend wiederverwendbar gestaltet werden. Die Explore-Ansicht erlaubt es, mit Ad-hoc-Abfragen tief in Metriken und Logs einzutauchen, Zeiträume und Datenquellen nebeneinander zu vergleichen und direkt von einer Metrik zu den zugehörigen Logs zu wechseln. Alert-Regeln werden visuell definiert und können Systeme wie Slack, PagerDuty, VictorOps und OpsGenie benachrichtigen.\n\nGrafana eignet sich für Teams, die bereits Metriken oder Logs in einem oder mehreren Backends haben und diese Daten gemeinsam, dashboardbasiert erkunden und auf Alerts reagieren möchten, ohne die Daten selbst in Grafana zu zentralisieren."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2013-12-11",
+      "archived": false,
+      "openIssuesCount": 3293,
+      "stargazersCount": 76762,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The dominant observability dashboarding tool; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "observability",
+      "strength": "primary"
+    },
+    {
+      "concept": "dashboard",
+      "strength": "secondary"
+    }
+  ]
 }

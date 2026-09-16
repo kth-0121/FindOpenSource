@@ -43,5 +43,45 @@
       "description": "Open-Source-Infrastruktur für nutzungsbasierte Abrechnung und Metering, die Produktnutzung – API-Aufrufe, Rechenleistung, Tokens – in Preisgestaltung, Rechnungen und Umsatz umwandelt.",
       "longDescription": "Lago ist Open-Source-Abrechnungsinfrastruktur für nutzungsbasierte und abonnementbasierte Preismodelle. Es misst die Produktnutzung – etwa API-Aufrufe, Rechenzeit oder LLM-Tokens – und wandelt diese Nutzungsdaten in Preisberechnungen, Guthaben, Nutzungsrechte, Rechnungen und Zahlungseinzug um, statt dass ein Team Metering- und Rechnungslogik auf einer generischen Zahlungs-API selbst aufbauen muss.\n\nEs kann direkt als eigenes Abrechnungssystem genutzt (Lago Direct) oder eingebettet werden, um die Abrechnung für die eigenen Kunden zu übernehmen (Lago Embedded), und wird produktiv unter anderem von Mistral AI, Groq und Synthesia speziell für nutzungsbasierte und KI-Produkt-Abrechnung eingesetzt. Das Projekt positioniert sich sowohl für die Monetarisierung agentischer und KI-Produkte als auch für klassische SaaS-Abonnements.\n\nLago eignet sich für Teams, die nach gemessener Nutzung statt nach Pauschalabonnements abrechnen müssen, oder die eine Open-Source-Alternative zu gehosteten Plattformen für nutzungsbasierte Abrechnung suchen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2022-02-28",
+      "archived": false,
+      "openIssuesCount": 23,
+      "stargazersCount": 10555,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 76
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Open-source usage-based billing engine, a strong differentiator in a very thin payments category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "billing",
+      "strength": "primary"
+    },
+    {
+      "concept": "usage-based-billing",
+      "strength": "primary"
+    },
+    {
+      "concept": "metering",
+      "strength": "primary"
+    },
+    {
+      "concept": "invoicing",
+      "strength": "secondary"
+    },
+    {
+      "concept": "subscription-billing",
+      "strength": "secondary"
+    }
+  ]
 }

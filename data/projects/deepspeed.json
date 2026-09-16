@@ -41,5 +41,29 @@
       "description": "Deep-Learning-Optimierungsbibliothek von Microsoft zum effizienten Trainieren und Ausführen sehr großer Modelle über mehrere GPUs hinweg.",
       "longDescription": "DeepSpeed implementiert speicher- und kommunikationseffiziente Techniken – wie ZeRO-Optimizer-State-Partitionierung –, die es Teams ermöglichen, Modelle zu trainieren, die weit größer sind, als sonst in verfügbaren GPU-Speicher passen würden, und beschleunigt das Training über mehrere GPUs und Maschinen hinweg. Es integriert sich mit PyTorch (ebenfalls in diesem Katalog), statt es zu ersetzen.\n\nDeepSpeed eignet sich für Teams, die große Modelle trainieren, die an die Grenzen verfügbarer Hardware stoßen – eine spezialisierte Optimierungsschicht über PyTorch statt eines Allzweck-Frameworks; die meisten Teams greifen speziell dann darauf zurück, wenn standardmäßiges Single-GPU- oder naives Multi-GPU-Training nicht ausreicht."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2020-01-23",
+      "archived": false,
+      "openIssuesCount": 1407,
+      "stargazersCount": 43114,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Widely used large-scale model training optimization library."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "machine-learning",
+      "strength": "secondary"
+    }
+  ]
 }

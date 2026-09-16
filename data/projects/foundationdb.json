@@ -42,5 +42,23 @@
       "description": "Verteilter, geordneter Key-Value-Store mit starken ACID-Transaktionsgarantien, konzipiert als zuverlässiges Speicherfundament für andere Systeme.",
       "longDescription": "FoundationDB bietet ein einfaches, geordnetes Key-Value-Datenmodell mit vollständigen ACID-Transaktionen über einen verteilten Cluster hinweg und hält seinen Kern bewusst klein und rigoros getestet, sodass höherstufige Datenmodelle (Dokument, Graph, relational) darauf aufgesetzt werden können. Apple nutzt es als kritische Infrastruktur und hat es nach der Übernahme des dahinterstehenden Unternehmens quelloffen gemacht.\n\nFoundationDB eignet sich für Teams, die Infrastruktur oder Plattformen bauen und ein grundsolides, transaktionales verteiltes Speicherfundament zum Aufbauen benötigen – ein niedrigstufigerer Baustein als die gebrauchsfertigen Datenbanken (PostgreSQL, MongoDB), die bereits in diesem Katalog sind."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2017-12-14",
+      "archived": false,
+      "openIssuesCount": 763,
+      "stargazersCount": 16706,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Distinctive ordered key-value store with strong transactional guarantees, used as a substrate by other databases."
+    },
+    "flag": "ok"
   }
 }

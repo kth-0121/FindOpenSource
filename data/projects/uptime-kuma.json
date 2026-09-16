@@ -43,5 +43,37 @@
       "description": "Selbst gehostetes Tool zur Verfügbarkeits- und Statusüberwachung mit reaktivem Dashboard, das HTTP, TCP, DNS, Ping, Docker-Container und mehr abdeckt.",
       "longDescription": "Uptime Kuma ist ein selbst gehostetes Monitoring-Tool, das sich speziell auf Verfügbarkeits- und Statusprüfungen konzentriert, statt auf den breiteren Umfang von Metriken/Logs/Traces eines vollständigen Observability-Stacks. Es prüft Dienste über HTTP(S) (einschließlich Keyword- und JSON-Query-Abgleich), TCP, Ping, DNS-Einträge, WebSocket, Steam-Gameserver und Docker-Container, mit konfigurierbaren Intervallen ab 20 Sekunden.\n\nEs benachrichtigt dich über mehr als 90 unterstützte Dienste, darunter Telegram, Discord, Slack, Pushover und E-Mail, und kann mehrere öffentliche Statusseiten erzeugen, die jeweils einer eigenen benutzerdefinierten Domain zugeordnet werden können. Weitere Funktionen sind die Überwachung des Zertifikatsablaufs, Proxy-Unterstützung, 2FA und mehrsprachige Unterstützung.\n\nUptime Kuma eignet sich für Einzelpersonen und Teams, die auf einfache, selbst gehostete Weise erfahren möchten, wenn ein Dienst ausfällt, und eine Statusseite veröffentlichen möchten, statt einer vollständigen Metrik- und Dashboard-Plattform wie Prometheus und Grafana."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2021-07-03",
+      "archived": false,
+      "openIssuesCount": 803,
+      "stargazersCount": 91388,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular self-hosted uptime-monitoring tool with a distinctive simple UI, a lighter alternative to Sensu/Zabbix."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "uptime-monitoring",
+      "strength": "primary"
+    },
+    {
+      "concept": "status-page",
+      "strength": "primary"
+    },
+    {
+      "concept": "ping",
+      "strength": "secondary"
+    }
+  ]
 }

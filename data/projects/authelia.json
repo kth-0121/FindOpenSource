@@ -45,5 +45,37 @@
       "description": "Selbst gehostetes Single-Sign-on- und Zwei-Faktor-Authentifizierungsportal, das deinem Reverse Proxy vorgeschaltet wird, um bestehende Webanwendungen zu schützen.",
       "longDescription": "Authelia ist ein Open-Source-Server für Authentifizierung und Autorisierung, der bestehenden Webanwendungen Single Sign-on und Zwei-Faktor-Authentifizierung hinzufügt, ohne dass diese Anwendungen selbst geändert werden müssen. Er arbeitet als Begleiter eines Reverse Proxys (z. B. nginx, Traefik oder Caddy): Der Proxy leitet Authentifizierungsentscheidungen an Authelia weiter, das jede Anfrage anhand konfigurierbarer Zugriffsregeln erlaubt, ablehnt oder umleitet.\n\nEs unterstützt OpenID Connect 1.0 und OAuth 2.0, mehrere Zwei-Faktor-Methoden (FIDO2/WebAuthn-Sicherheitsschlüssel, TOTP-Authenticator-Apps und Duo-Push-Benachrichtigungen) sowie passwortlose Authentifizierung über Passkeys. Zugriffsregeln lassen sich nach Subdomain, Benutzer, Gruppenzugehörigkeit, Anfragepfad, Methode oder Netzwerk eingrenzen, mit wählbarer Ein- oder Zwei-Faktor-Richtlinie pro Regel, und die Installation ist als eigenständige Binärdatei, Systempaket oder Container möglich, inklusive offiziellem Helm-Chart für Kubernetes.\n\nAuthelia eignet sich für Teams und Self-Hoster, die einer Reihe bestehender Webanwendungen hinter einem Reverse Proxy zentrales Login und 2FA hinzufügen möchten, statt jede Anwendung einzeln für die Authentifizierung anzupassen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-12-07",
+      "archived": false,
+      "openIssuesCount": 133,
+      "stargazersCount": 28969,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 80
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Self-hosted SSO/2FA portal, distinct from full IdP platforms like Keycloak."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "authentication",
+      "strength": "primary"
+    },
+    {
+      "concept": "sso",
+      "strength": "primary"
+    },
+    {
+      "concept": "single-sign-on",
+      "strength": "primary"
+    }
+  ]
 }

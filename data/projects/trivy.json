@@ -43,5 +43,41 @@
       "description": "All-in-one-Sicherheitsscanner zum Auffinden von Schwachstellen, Fehlkonfigurationen, offengelegten Geheimnissen und Lizenzproblemen in Container-Images, Dateisystemen, Repositories und Kubernetes.",
       "longDescription": "Trivy ist ein umfassender Sicherheitsscanner von Aqua Security, der eine breite Palette von Zielen prüft – Container-Images, Dateisysteme, entfernte Git-Repositories, VM-Images und laufende Kubernetes-Cluster – und dabei Sicherheitsprobleme mit einem einzigen Tool statt separaten Scannern für jeden Bereich findet. Seine Scanner decken bekannte Schwachstellen (CVEs) in Betriebssystempaketen und Anwendungsabhängigkeiten, Infrastructure-as-Code-Fehlkonfigurationen, fest codierte Geheimnisse und Softwarelizenzprobleme ab und können eine Software Bill of Materials (SBOM) für ein gescanntes Ziel erzeugen.\n\nEs wird häufig lokal als CLI, als Container-Image oder in CI-Pipelines als Sicherheits-Gate eingesetzt, das einen Build fehlschlagen lässt, wenn eine Schwachstelle oberhalb eines gewählten Schweregrads gefunden wird; die breite Sprach- und Plattformabdeckung bedeutet, dass die meisten Stacks ohne zusätzliche Plugins unterstützt werden.\n\nTrivy eignet sich für Teams, die einen einzigen, schnellen Scanner für Schwachstellen, Fehlkonfigurationen und Geheimnisse über ihre gesamte Software-Lieferkette hinweg wollen – als Ergänzung zu Open Policy Agent (ebenfalls in diesem Katalog), das Richtlinien für die Zukunft durchsetzt, während Trivy findet, was in bestehenden Images, Code und Infrastruktur bereits falsch ist."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-04-11",
+      "archived": false,
+      "openIssuesCount": 269,
+      "stargazersCount": 37920,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 96
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely adopted open-source vulnerability scanner for containers and IaC."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "vulnerability-scanning",
+      "strength": "primary"
+    },
+    {
+      "concept": "container-scanning",
+      "strength": "primary"
+    },
+    {
+      "concept": "iac-scanning",
+      "strength": "secondary"
+    },
+    {
+      "concept": "sbom",
+      "strength": "secondary"
+    }
+  ]
 }

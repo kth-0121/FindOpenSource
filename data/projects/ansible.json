@@ -42,5 +42,23 @@
       "description": "Radikal einfache IT-Automatisierungsplattform für Konfigurationsmanagement, Deployment und Orchestrierung.",
       "longDescription": "Ansible ist ein agentenloses IT-Automatisierungssystem, mit dem sich Konfiguration, Deployment und Orchestrierung vieler Rechner gleichzeitig verwalten lassen. Anstatt auf jedem Zielsystem eine spezielle Agentensoftware zu installieren, verbindet es sich über den vorhandenen SSH-Daemon, sodass auf den verwalteten Systemen nichts zusätzlich vorbereitet werden muss.\n\nEs basiert auf wenigen Design-Zielen: eine minimale Lernkurve, eine Beschreibung der Infrastruktur, die sowohl für Menschen als auch Maschinen lesbar ist, und die Vereinfachung komplexer Vorgänge – etwa unterbrechungsfreie Rolling Updates hinter einem Load Balancer. Module, die die eigentliche Arbeit ausführen, können in jeder dynamischen Sprache geschrieben werden, nicht nur in Python.\n\nAnsible wird häufig für Konfigurationsmanagement, Anwendungs-Deployment, Cloud-Provisionierung, Ad-hoc-Befehlsausführung und die Automatisierung von Netzwerkgeräten eingesetzt und eignet sich damit gut für Teams, die Infrastruktur automatisieren möchten, ohne auf jedem verwalteten Host einen eigenen Agenten laufen zu lassen."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2012-03-06",
+      "archived": false,
+      "openIssuesCount": 824,
+      "stargazersCount": 70688,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted infrastructure automation tools; a clear representative pick even in a saturated devops category."
+    },
+    "flag": "ok"
   }
 }

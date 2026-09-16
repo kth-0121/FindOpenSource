@@ -42,5 +42,29 @@
       "description": "HTTP(S)-Mock-Server und -Proxy für Tests, mit dem du API-Antworten simulieren, Live-Traffic untersuchen und Fehler injizieren kannst.",
       "longDescription": "MockServer fängt HTTP(S)-Anfragen ab und beantwortet sie mit konfigurierten Mock-Antworten, sodass ein Team gegen Abhängigkeiten testen kann, die noch nicht existieren, unzuverlässig sind oder deren Fehlerbedingungen schwer zu reproduzieren sind – einschließlich des gezielten Injizierens von Timeouts, fehlerhaften Antworten oder bestimmten Fehlercodes. Es kann auch als Proxy laufen, um Live-Traffic aufzuzeichnen und zu verändern.\n\nMockServer eignet sich für Teams, die Integrationstests schreiben, die von externen APIs abhängen – als Ergänzung zu Hoppscotch (ebenfalls in diesem Katalog), das zum manuellen Erkunden und Aufrufen von APIs gebaut ist, statt sie für automatisierte Tests zu mocken."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2013-02-26",
+      "archived": false,
+      "openIssuesCount": 6,
+      "stargazersCount": 4970,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "API mocking/stubbing tool, a narrower niche within a well-populated testing category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "api-testing",
+      "strength": "secondary"
+    }
+  ]
 }

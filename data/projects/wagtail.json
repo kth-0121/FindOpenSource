@@ -43,5 +43,33 @@
       "description": "Django-basiertes, quelloffenes Content-Management-System mit Fokus auf Redaktionserfahrung und einer Headless-Content-API für entkoppelte Frontends.",
       "longDescription": "Wagtail ist ein Open-Source-Content-Management-System auf Basis von Django, das Redakteuren eine schnelle, ansprechende Bearbeitungsoberfläche bietet und Entwicklern gleichzeitig präzise Kontrolle über Frontend-Design und Seitenstruktur gibt. Es skaliert von einem einzelnen Raspberry Pi bis zu Multi-Datacenter-Deployments mit Millionen von Seiten und Tausenden von Redakteuren.\n\nInhalte werden mit StreamField modelliert, wodurch Redakteure flexible Seitenlayouts aus strukturierten Inhaltsblöcken bauen können, ohne diese Struktur durch freies HTML zu verlieren. Wagtail stellt außerdem eine Content API für Teams bereit, die es headless betreiben möchten, wobei ein separat gebautes Frontend Inhalte über die API konsumiert, statt Wagtails eigene Seitenvorlagen zu nutzen; integriert ist zudem eine Suche auf Basis von Elasticsearch oder PostgreSQL-Suche.\n\nWagtail eignet sich für Teams im Python/Django-Stack, die ein CMS mit starker Redaktions-UX wollen und wahlweise klassisch serverseitig gerenderte Seiten oder eine Headless-Content-API betreiben möchten – und schließt damit eine Lücke für Teams, die kein CMS aus dem JavaScript-Stack wollen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2014-02-03",
+      "archived": false,
+      "openIssuesCount": 1005,
+      "stargazersCount": 20498,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 92
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular Django-based CMS, a strong Python-ecosystem alternative to the JS-heavy CMS options already in the catalog."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "content-management",
+      "strength": "primary"
+    },
+    {
+      "concept": "cms",
+      "strength": "primary"
+    }
+  ]
 }

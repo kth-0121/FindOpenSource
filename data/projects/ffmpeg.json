@@ -42,5 +42,29 @@
       "description": "Das Branchenstandard-Toolkit zum Aufnehmen, Konvertieren und Streamen von Audio und Video in praktisch jedem Format.",
       "longDescription": "FFmpeg ist ein Kommandozeilentool und eine Sammlung von Bibliotheken, die nahezu jedes existierende Audio- und Videoformat dekodieren, kodieren, transkodieren, muxen, demuxen, streamen, filtern und abspielen können, und es treibt still und leise die Medienverarbeitung in einem riesigen Teil der Video-Infrastruktur, Browser und Medien-Tools des Internets an. Seine Lizenzierung ist nuanciert: Der Kern ist LGPL, während das Aktivieren bestimmter optionaler Codecs einen gegebenen Build zu GPL macht.\n\nFFmpeg eignet sich für jedes Team, das Medien programmatisch verarbeiten, konvertieren oder streamen muss – als Ergänzung zu Video.js und Jellyfin (ebenfalls in diesem Katalog): Diese spielen und verwalten Medien, während FFmpeg die zugrunde liegende Kodierungs- und Transkodierungsarbeit übernimmt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2011-04-14",
+      "archived": false,
+      "openIssuesCount": 3,
+      "stargazersCount": 64244,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The universal foundation for audio/video processing; essential representative project for media."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "video-analysis",
+      "strength": "related"
+    }
+  ]
 }

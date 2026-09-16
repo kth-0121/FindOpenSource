@@ -43,5 +43,33 @@
       "description": "Machine-Learning-Plattform für Kubernetes, die Pipelines, Modelltraining, Hyperparameter-Tuning und Serving in einem Toolkit bündelt.",
       "longDescription": "Kubeflow bündelt die Teile, die ein Data-Science-Team benötigt, um ML-Workflows auf Kubernetes auszuführen – Pipeline-Orchestrierung, verteilte Trainingsjobs, Hyperparameter-Tuning, Modell-Serving und Notebook-Umgebungen –, sodass ein Platform-Team nicht jedes Teil separat zusammenbauen und integrieren muss. Es ist speziell dafür gebaut, ML-Workloads in dieselbe Kubernetes-Infrastruktur zu bringen, die ein Team bereits betreibt.\n\nKubeflow eignet sich für Platform-Teams, die ML-Infrastruktur auf Kubernetes standardisieren – eine breitere End-to-End-MLOps-Plattform als fokussiertere Tools wie MLflow (ebenfalls in diesem Katalog), das speziell Experiment-Tracking und Modellverwaltung übernimmt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-08-21",
+      "repoCreatedAt": "2017-11-30",
+      "archived": false,
+      "openIssuesCount": 1,
+      "stargazersCount": 15869,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard Kubernetes-native ML pipeline platform, strong representative pick for MLOps."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "mlops",
+      "strength": "primary"
+    },
+    {
+      "concept": "ml-pipelines",
+      "strength": "primary"
+    }
+  ]
 }

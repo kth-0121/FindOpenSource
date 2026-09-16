@@ -42,5 +42,33 @@
       "description": "Verteilte Such- und Analytics-Engine für alle Datentypen, einschließlich Text, numerischer und geografischer Daten.",
       "longDescription": "Elasticsearch ist eine verteilte Such- und Analyse-Engine sowie ein Datenspeicher, der darauf ausgelegt ist, sehr große Datensätze nahezu in Echtzeit zu durchsuchen und zu analysieren. Über die klassische Volltextsuche hinaus fungiert es auch als Vektordatenbank und unterstützt Vektorsuche sowie Retrieval-Augmented-Generation-Muster (RAG) für generative KI-Anwendungen.\n\nEs wird häufig für Volltextsuche, Anwendungs- und Infrastruktur-Logs, Metriken, Application Performance Monitoring (APM) und die Analyse von Sicherheitslogs eingesetzt – dieselbe Engine bildet auch die Grundlage des breiteren Elastic Stack (einschließlich Kibana zur Visualisierung). Es kann als selbstverwalteter Cluster (über Docker oder eine heruntergeladene Distribution) oder als verwaltetes Deployment in der Elastic Cloud betrieben werden.\n\nElasticsearch eignet sich für Teams, die große, unstrukturierte oder halbstrukturierte Datensätze – von suchgetriebenen Produktfunktionen bis hin zu Observability- und Security-Anwendungsfällen – in einem einzigen System statt in mehreren spezialisierten Tools indexieren und abfragen müssen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2010-02-08",
+      "archived": false,
+      "openIssuesCount": 6078,
+      "stargazersCount": 77919,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The dominant full-text search engine; essential representative project for a thin search category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "full-text-search",
+      "strength": "primary"
+    },
+    {
+      "concept": "search-engine",
+      "strength": "primary"
+    }
+  ]
 }

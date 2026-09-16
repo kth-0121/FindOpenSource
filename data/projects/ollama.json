@@ -42,5 +42,33 @@
       "description": "Führe große Sprachmodelle lokal aus – mit einer einfachen Kommandozeile und API.",
       "longDescription": "Mit Ollama kannst du offene große Sprachmodelle lokal auf macOS, Windows oder Linux (oder über ein offizielles Docker-Image) herunterladen und ausführen, und es stellt eine REST-API bereit, um programmatisch mit diesen Modellen zu chatten oder sie zu verwalten – nützlich zum Bau von Anwendungen, die ein lokales Modell genauso aufrufen, wie sie eine gehostete LLM-API aufrufen würden.\n\nÜber das direkte Ausführen von Modellen hinaus kann Ollama auch externe Coding-Agenten und -Assistenten starten und mit ihnen verbinden – darunter Claude Code, Codex, Copilot CLI und OpenCode – und über seine OpenClaw-Integration als persönlicher KI-Assistent fungieren, der über Chat-Apps wie WhatsApp, Telegram, Slack und Discord erreichbar ist.\n\nOffizielle Client-Bibliotheken sind für Python und JavaScript verfügbar. Ollama eignet sich für Entwickler, die Modelle aus Datenschutz-, Kosten- oder Offline-Gründen auf eigener Hardware ausführen möchten, oder die eine lokale Laufzeitumgebung suchen, die sich auch in bestehende Coding-Agent- und Chat-basierte KI-Workflows einbinden lässt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2023-06-26",
+      "archived": false,
+      "openIssuesCount": 4003,
+      "stargazersCount": 181017,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most popular tool for running LLMs locally; essential representative project for local inference."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "llm-inference",
+      "strength": "primary"
+    },
+    {
+      "concept": "large-language-models",
+      "strength": "secondary"
+    }
+  ]
 }

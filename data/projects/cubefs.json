@@ -42,5 +42,33 @@
       "description": "Verteiltes Dateisystem und Objektspeichersystem für Cloud-native, datenintensive Anwendungen im großen Maßstab.",
       "longDescription": "CubeFS bietet sowohl Datei- als auch Objektspeicherschnittstellen über einen verteilten, horizontal skalierbaren Cluster, ursprünglich bei JD.com gebaut, um datenintensive Workloads im großen Maßstab zu bewältigen – darunter Big-Data-Analytics, KI-Trainingsdaten und Container-native Speicherung. Es ist ein von der CNCF gehostetes Projekt mit Unterstützung für Multi-Tenancy und Multi-Zone-Deployment.\n\nCubeFS eignet sich für Teams, die groß angelegte, datenintensive Workloads betreiben – Big Data, KI-Trainingsdaten-Pipelines – und verteilten Datei- und Objektspeicher zusammen benötigen, eine Alternative im selben Bereich wie Ceph und JuiceFS, die bereits in diesem Katalog sind, mit einem anderen architektonischen Ursprung."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-10",
+      "repoCreatedAt": "2019-02-19",
+      "archived": false,
+      "openIssuesCount": 263,
+      "stargazersCount": 5658,
+      "productionReadiness": "emerging",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Cloud-native distributed file/object storage; overlaps with several existing storage options."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "object-storage",
+      "strength": "secondary"
+    },
+    {
+      "concept": "cloud-storage",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -43,5 +43,37 @@
       "description": "Ausgereifter, weit verbreiteter Message-Broker zum Entkoppeln von Diensten mit zuverlässigen Warteschlangen, Routing und Pub/Sub-Messaging über AMQP, MQTT und STOMP.",
       "longDescription": "RabbitMQ ist ein universeller Message-Broker, der es Anwendungen ermöglicht, asynchron zu kommunizieren, indem sie Nachrichten an Queues und Exchanges statt direkt aneinander senden. Er implementiert mehrere Messaging-Protokolle – AMQP 0-9-1, AMQP 1.0, MQTT und STOMP –, sodass Producer und Consumer, die in unterschiedlichen Sprachen und Frameworks geschrieben sind, über denselben Broker Nachrichten austauschen können.\n\nSein Routing-Modell aus Exchanges und Bindings unterstützt gängige Messaging-Muster von Haus aus: einfache Work-Queues zum Verteilen von Hintergrundaufgaben auf mehrere Worker, Publish/Subscribe-Fan-out an mehrere Consumer sowie themenbasiertes Routing für selektivere Zustellung. RabbitMQ lässt sich für Hochverfügbarkeit clustern, und die Management-Oberfläche sowie CLI-Tools machen Queue-Tiefe, Consumer-Anzahl und Nachrichtenfluss im Produktivbetrieb leicht einsehbar.\n\nRabbitMQ eignet sich für Teams, die eine klassische, bewährte Task-Queue oder einen Message-Broker benötigen, um Dienste zu entkoppeln und Last abzufedern – etwa indem langsame Arbeit an Hintergrund-Consumer ausgelagert wird –, statt eines verteilten Logs für hochdurchsatzfähiges Event-Streaming mit Replay, wofür eher Apache Kafka (ebenfalls in diesem Katalog) konzipiert ist."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2010-09-20",
+      "archived": false,
+      "openIssuesCount": 266,
+      "stargazersCount": 13850,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 92
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted message brokers; strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "message-broker",
+      "strength": "primary"
+    },
+    {
+      "concept": "amqp",
+      "strength": "primary"
+    },
+    {
+      "concept": "messaging",
+      "strength": "secondary"
+    }
+  ]
 }

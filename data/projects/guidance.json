@@ -41,5 +41,33 @@
       "description": "Programmierparadigma und Bibliothek zur Steuerung der LLM-Generierung mit verschachteltem Prompting, Kontrollfluss und eingeschränkter Ausgabe in einem Programm.",
       "longDescription": "Guidance lässt einen Entwickler ein einziges Programm schreiben, das Klartext-Prompts, Kontrollfluss (Schleifen, Bedingungen) und Einschränkungen darüber, was das Modell als Nächstes genau generieren darf – Regex-Muster, Auswahllisten oder strukturierte Formate – mischt, statt mehrere separate Aufrufe an eine LLM-API zu machen und Ergebnisse im Anwendungscode zusammenzufügen. Das kann die Generierung auch beschleunigen, indem Tokens übersprungen werden, die durch die Einschränkungen bereits feststehen.\n\nGuidance eignet sich für Teams, die feingranulare, programmatische Kontrolle über den Generierungsprozess selbst wollen – eine vergleichbare Alternative zu Outlines (ebenfalls in diesem Katalog): Beide schränken LLM-Ausgaben ein, wobei Guidance einen verschachtelten Programm-und-Generierung-Autorenstil betont."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-05-21",
+      "repoCreatedAt": "2022-11-10",
+      "archived": false,
+      "openIssuesCount": 327,
+      "stargazersCount": 21753,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 68
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Structured-output generation library, meaningful overlap with Outlines/Instructor in the same category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "structured-output",
+      "strength": "primary"
+    },
+    {
+      "concept": "llm-generation",
+      "strength": "secondary"
+    }
+  ]
 }

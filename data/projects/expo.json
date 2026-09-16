@@ -43,5 +43,29 @@
       "description": "Quelloffene Plattform und Toolchain zum Erstellen universeller nativer Apps mit React Native.",
       "longDescription": "Expo ist eine Open-Source-Plattform zum Erstellen universeller nativer Apps für Android, iOS und das Web aus einer einzigen React- und JavaScript-Codebasis. Dieses Repository enthält die zentralen Open-Source-Bestandteile: das Expo SDK (eine kuratierte Sammlung von Bibliotheken für native Geräte-APIs), eine Modules API zum Schreiben eigener nativer Module, die Expo-Go-App zum schnellen Vorschauen von Projekten auf einem echten Gerät, eine CLI sowie Expo Router für dateibasiertes Routing.\n\nExpo Application Services (EAS) ist eine separate, gehostete Plattform, die auf diesen Open-Source-Tools aufbaut und Build, Einreichung und Updates für Teams übernimmt, die keine eigene native Build-Infrastruktur betreiben möchten – sie ist optional und nicht erforderlich, um das Open-Source-SDK und die CLI zu nutzen.\n\nExpo eignet sich gut für Teams, die iOS, Android und das Web aus einer einzigen React-Codebasis heraus adressieren möchten, ohne für die alltägliche App-Entwicklung native Xcode-/Android-Studio-Projekte von Hand konfigurieren zu müssen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-08-15",
+      "archived": false,
+      "openIssuesCount": 853,
+      "stargazersCount": 52254,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading React Native tooling platform, a strong representative pick for a thin mobile category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "cross-platform",
+      "strength": "primary"
+    }
+  ]
 }

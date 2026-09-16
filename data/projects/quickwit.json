@@ -42,5 +42,33 @@
       "description": "Cloud-native Suchmaschine, speziell für Observability-Daten gebaut, die Logs und Traces direkt auf Objektspeicher indexiert für kosteneffiziente Suche im großen Maßstab.",
       "longDescription": "Quickwit ist eine quelloffene Suchmaschine, die speziell für Observability-Anwendungsfälle gebaut wurde – die Suche in Logs und verteilten Traces – statt für allgemeine Anwendungssuche. Die prägende Designentscheidung ist, Daten direkt auf Objektspeicher wie S3 zu indexieren und abzufragen, statt zu verlangen, dass Daten auf angeschlossenen Festplatten liegen, wodurch sich Storage und Compute unabhängig skalieren lassen und die Kosten für das Vorhalten großer Mengen an Log-Daten weit unter denen festplattenbasierter Suchsysteme bleiben.\n\nEs wird häufig als Such-Backend hinter Log-Management- und Distributed-Tracing-Tools eingesetzt und ist darauf ausgelegt, auch bei Daten, die vollständig im Objektspeicher liegen, schnell abfragbar zu sein – eine Architektur, die auf der Realität aufbaut, dass die meisten Log-Daten einmal geschrieben und selten abgefragt werden.\n\nQuickwit eignet sich für Teams mit großen Mengen an Log- oder Trace-Daten, die Volltextsuche ohne den Betriebsaufwand wollen, alles auf Festplatte vorzuhalten – ein spezialisierteres Tool als die bereits in diesem Katalog vorhandenen Allzweck-Einträge Elasticsearch, OpenSearch oder Meilisearch, die für Anwendungs- und Website-Suche statt speziell für Observability-Daten gebaut sind."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2021-04-13",
+      "archived": false,
+      "openIssuesCount": 819,
+      "stargazersCount": 11635,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 84
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Cloud-native, cost-efficient search engine built for object storage, a distinctive architecture in a thin search category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "full-text-search",
+      "strength": "primary"
+    },
+    {
+      "concept": "search-engine",
+      "strength": "secondary"
+    }
+  ]
 }

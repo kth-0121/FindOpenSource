@@ -42,5 +42,33 @@
       "description": "Cloud-native Chaos-Engineering-Plattform für Kubernetes, die kontrollierte Fehler injiziert – Pod, Netzwerk, I/O und mehr –, um zu testen, wie sich ein System bei Ausfällen tatsächlich verhält.",
       "longDescription": "Chaos Mesh ist eine quelloffene Chaos-Engineering-Plattform für Kubernetes und mittlerweile ein CNCF-Incubating-Projekt. Statt auf Produktionsvorfälle zu warten, die offenbaren, wie ein System mit Fehlern umgeht, lässt es ein Team Fehlerinjektions-Experimente als Kubernetes-Custom-Resources definieren – Pods beenden, Netzwerklatenz oder Paketverlust injizieren, I/O beschädigen oder Cloud-Anbieter-Ausfälle simulieren – und beobachten, wie das System tatsächlich reagiert.\n\nExperimente können einmalig oder über einen wiederkehrenden Schedule laufen, zu mehrstufigen Workflows zusammengesetzt werden und mit StatusCheck-Ressourcen gepaart werden, sodass ein Experiment automatisch prüfen kann, ob das System gesund geblieben ist – dazu ein Web-Dashboard zum Erstellen und Einsehen von Läufen über den gesamten Cluster hinweg.\n\nChaos Mesh eignet sich für Teams, die Kubernetes-Workloads in Produktion betreiben und Resilienz sowie Fehlerbehandlung gezielt validieren wollen, statt Lücken in Retry-Logik, Timeouts oder Failover erst während eines echten Ausfalls zu entdecken."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-10",
+      "repoCreatedAt": "2019-09-04",
+      "archived": false,
+      "openIssuesCount": 544,
+      "stargazersCount": 7899,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 94
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Leading Kubernetes-native chaos engineering tool."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "chaos-engineering",
+      "strength": "primary"
+    },
+    {
+      "concept": "fault-injection",
+      "strength": "primary"
+    }
+  ]
 }

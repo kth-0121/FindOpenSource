@@ -42,5 +42,33 @@
       "description": "Kommandozeilentool, das einzelne Werte innerhalb von YAML-, JSON- und anderen Konfigurationsdateien verschlüsselt, sodass Secrets sicher in git committet werden können.",
       "longDescription": "SOPS (Secrets OPerationS) verschlüsselt nur die Werte in einer strukturierten Datei – nicht die gesamte Datei –, sodass ein git diff weiterhin zeigt, welche Schlüssel sich geändert haben, während die tatsächlichen Secret-Werte über ein Schlüsselverwaltungs-Backend wie AWS KMS, GCP KMS oder PGP verschlüsselt bleiben. So kann ein Team Secrets zusammen mit dem Rest seiner Konfiguration in der Versionskontrolle halten, statt sie separat zu speichern.\n\nSOPS eignet sich für Teams, die GitOps praktizieren und Secrets sicher im selben Git-Repository wie alles andere benötigen – häufig gepaart mit Tools wie Flux oder Argo CD (ebenfalls in diesem Katalog), die Konfiguration aus git synchronisieren."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2015-08-13",
+      "archived": false,
+      "openIssuesCount": 446,
+      "stargazersCount": 23121,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard tool for encrypting secrets in Git, a focused and widely adopted pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "secrets-management",
+      "strength": "primary"
+    },
+    {
+      "concept": "encryption",
+      "strength": "secondary"
+    }
+  ]
 }

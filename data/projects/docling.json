@@ -42,5 +42,37 @@
       "description": "Dokumentenparsing-Bibliothek, die PDFs, Word-Dokumente und andere Formate in saubere, strukturierte Daten für LLM- und RAG-Pipelines umwandelt.",
       "longDescription": "Docling parst komplexe Dokumentformate – PDFs mit Tabellen und Abbildungen, Word-Dokumente, PowerPoint-Dateien und mehr – in strukturierte Darstellungen (wie Markdown oder JSON), die Layout-Informationen bewahren, die ein LLM tatsächlich nutzen kann, statt des verstümmelten Klartexts, den eine naive PDF-zu-Text-Konvertierung erzeugt. Es ist speziell mit Blick auf RAG- und LLM-Ingestion-Pipelines gebaut.\n\nDocling eignet sich für Teams, die Dokumente in eine LLM- oder RAG-Pipeline einspeisen und eine genaue Strukturerhaltung benötigen – als Ergänzung zu Tesseract (ebenfalls in diesem Katalog): Tesseract erkennt Text aus rohen Pixeln, während sich Docling auf das Verstehen der Struktur und des Layouts eines Dokuments konzentriert."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2024-07-09",
+      "archived": false,
+      "openIssuesCount": 913,
+      "stargazersCount": 66437,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 78
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Document parsing/conversion for AI pipelines, differentiated from generic OCR tools."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "document-processing",
+      "strength": "primary"
+    },
+    {
+      "concept": "ocr",
+      "strength": "secondary"
+    },
+    {
+      "concept": "text-extraction",
+      "strength": "secondary"
+    }
+  ]
 }

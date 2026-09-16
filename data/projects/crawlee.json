@@ -43,5 +43,37 @@
       "description": "Node.js- und TypeScript-Bibliothek für Web Scraping und Browserautomatisierung, gebaut für zuverlässige Crawler, die der Bot-Erkennung widerstehen.",
       "longDescription": "Crawlee ist eine Web-Scraping- und Browserautomatisierungs-Bibliothek für Node.js und TypeScript, die darauf abzielt, zuverlässige Crawler mit minimalem zusätzlichem Konfigurationsaufwand zu bauen. Sie ist so konzipiert, dass sich Crawler standardmäßig menschenähnlicher verhalten, was hilft, gängige Bot-Erkennungssysteme nicht auszulösen, während sie gleichzeitig die Werkzeuge bereitstellt, um Links zu crawlen, Daten zu scrapen und Ergebnisse auf der Festplatte oder in der Cloud zu speichern.\n\nSie lässt sich mit Playwright (bereits an anderer Stelle in diesem Katalog für Browserautomatisierung genutzt) als optionale Abhängigkeit integrieren, wenn ein Crawler einen echten Browser statt reiner HTTP-Anfragen benötigt, und es gibt ein separates Crawlee-for-Python-Paket für Teams, die in Python statt im JavaScript/TypeScript-Ökosystem arbeiten, auf das dieses npm-Paket abzielt.\n\nCrawlee eignet sich für JavaScript/TypeScript-Teams, die Scraper oder Datenextraktions-Pipelines bauen – auch zur Versorgung von LLM- oder RAG-Pipelines – und eine gepflegte Bibliothek mit eingebauten Anti-Erkennungs-Standardeinstellungen wollen, als Ergänzung zu Python-first-Tools wie Scrapy im aktuellen Katalog statt als Duplikat."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2016-08-26",
+      "archived": false,
+      "openIssuesCount": 135,
+      "stargazersCount": 25805,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular modern web scraping/crawling library."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "web-scraping",
+      "strength": "primary"
+    },
+    {
+      "concept": "crawler",
+      "strength": "primary"
+    },
+    {
+      "concept": "data-extraction",
+      "strength": "secondary"
+    }
+  ]
 }

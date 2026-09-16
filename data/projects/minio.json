@@ -42,5 +42,33 @@
       "description": "Hochperformantes, S3-kompatibles Objektspeichersystem für selbst gehostete und Hybrid-Cloud-Deployments.",
       "longDescription": "MinIO ist ein leistungsstarker, S3-API-kompatibler Objektspeicherserver, der historisch für selbst gehosteten und On-Premises-Speicher beliebt war, der das S3-Protokoll sprechen muss, das von unzähligen bestehenden Tools und SDKs verwendet wird.\n\nHinweis: Laut aktuellem README ist dieses Repository (minio/minio) als nicht mehr gepflegt markiert. Der Hersteller des Projekts verweist Nutzer nun auf AIStor – eine kostenlose, voll ausgestattete Community-Edition sowie eine separate kommerzielle Enterprise-Edition – als gepflegten Nachfolger. Die hier vorliegende MinIO-Community-Edition wird inzwischen ebenfalls nur noch als Quellcode verteilt (keine vorgebauten Binärdateien); sie muss mit `go install` oder Docker selbst gebaut werden und bleibt unter AGPLv3 lizenziert.\n\nTeams, die MinIO heute evaluieren, sollten den aktuellen Status von AIStor und diesem Repository direkt prüfen, bevor sie es für ein neues Projekt einsetzen, da eine fortlaufende Wartung hier ausdrücklich nicht mehr garantiert wird."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-04-24",
+      "repoCreatedAt": "2015-01-14",
+      "archived": true,
+      "openIssuesCount": 80,
+      "stargazersCount": 61368,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 58
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "S3-compatible object storage was historically a top pick, but the upstream repository is currently archived on GitHub -- flagged for review."
+    },
+    "flag": "hold"
+  },
+  "intents": [
+    {
+      "concept": "object-storage",
+      "strength": "primary"
+    },
+    {
+      "concept": "cloud-storage",
+      "strength": "secondary"
+    }
+  ]
 }

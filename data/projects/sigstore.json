@@ -42,5 +42,41 @@
       "description": "Toolkit für Software-Supply-Chain-Sicherheit zum Signieren, Verifizieren und Aufzeichnen der Herkunft von Software-Artefakten, Container-Images und Releases.",
       "longDescription": "sigstore (meist über sein Tool cosign genutzt) lässt Entwickler Software-Artefakte – Container-Images, Binärdateien, Release-Dateien – signieren und lässt jeden anderen verifizieren, dass diese Signaturen von der erwarteten Quelle stammen, wobei kurzlebige Zertifikate statt langfristiger Schlüssel verwendet werden, die ein Team verwalten und schützen muss. Signierereignisse werden in einem öffentlichen, manipulationssicheren Transparenzprotokoll erfasst.\n\nsigstore eignet sich für Teams, die die Authentizität und Integrität von Software überprüfen wollen, die sie bauen, veröffentlichen oder konsumieren – ein Supply-Chain-Sicherheitsanliegen, das sich von Trivys Schwachstellenscanning oder Falcos Runtime-Erkennung (ebenfalls in diesem Katalog) unterscheidet und sich speziell auf Herkunft und Signierung konzentriert."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2021-02-04",
+      "archived": false,
+      "openIssuesCount": 162,
+      "stargazersCount": 6304,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard toolchain for software artifact signing and supply-chain security."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "artifact-signing",
+      "strength": "primary"
+    },
+    {
+      "concept": "supply-chain-security",
+      "strength": "primary"
+    },
+    {
+      "concept": "provenance",
+      "strength": "secondary"
+    },
+    {
+      "concept": "sbom",
+      "strength": "secondary"
+    }
+  ]
 }

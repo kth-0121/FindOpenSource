@@ -42,5 +42,29 @@
       "description": "eBPF-basierte Netzwerk-, Sicherheits- und Observability-Plattform für Kubernetes, die klassische Netzwerkkomponenten durch Performance auf Kernel-Ebene ersetzt.",
       "longDescription": "Cilium nutzt eBPF – eine Linux-Kernel-Technologie –, um Kubernetes-Netzwerk, Netzwerkrichtliniendurchsetzung, Lastverteilung und Observability direkt im Kernel zu implementieren und vermeidet so den Performance-Overhead klassischer iptables-basierter Netzwerke. Es ist ein von der CNCF graduiertes Projekt, das zu einem der am weitesten verbreiteten Kubernetes-CNI-(Netzwerk-)Plugins geworden ist.\n\nCilium eignet sich für Platform-Teams, die hochperformantes Networking, feingranulare Netzwerksicherheitsrichtlinien und tiefe Netzwerk-Observability für Kubernetes wollen – als Ergänzung zu Istio (ebenfalls in diesem Katalog): Cilium kann allein auf der Netzwerkebene arbeiten oder Service-Mesh-Fähigkeiten ohne Sidecar-Proxy bereitstellen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-12-16",
+      "archived": false,
+      "openIssuesCount": 1090,
+      "stargazersCount": 25137,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 100
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading eBPF-based Kubernetes networking/security layer."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "service-mesh",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -42,5 +42,33 @@
       "description": "Echtzeit-Analytics-Datenbank für Abfragen unter einer Sekunde über kontinuierlich streamende und historische Ereignisdaten im großen Maßstab.",
       "longDescription": "Apache Druid nimmt Daten kontinuierlich sowohl aus Streaming-Quellen (wie Kafka) als auch aus Batch-Quellen auf und ist speziell für schnelle Aggregationsabfragen – Zählungen, Summen, Perzentile – über diese Daten konzipiert, selbst während laufend neue Ereignisse eintreffen. Es wird häufig eingesetzt, um Echtzeit-Dashboards und nutzerseitige Analytics anzutreiben.\n\nDruid eignet sich für Teams, die Echtzeit-Analytics-Dashboards oder nutzerseitige Metriken auf kontinuierlich streamenden Daten bauen – als Ergänzung zu ClickHouse (ebenfalls in diesem Katalog): Beide sind OLAP-Engines, aber Druids Architektur ist speziell auf Echtzeit-Streaming-Ingestion optimiert."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2012-10-23",
+      "archived": false,
+      "openIssuesCount": 789,
+      "stargazersCount": 14053,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Real-time OLAP database, differentiated from ClickHouse/Trino by its real-time ingestion focus."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "real-time-analytics",
+      "strength": "primary"
+    },
+    {
+      "concept": "olap-database",
+      "strength": "primary"
+    }
+  ]
 }

@@ -43,5 +43,33 @@
       "description": "Leistungsstarkes, quelloffenes objektrelationales Datenbanksystem mit über 35 Jahren aktiver Entwicklung.",
       "longDescription": "Dieses Repository enthält die offizielle Quellcode-Distribution von PostgreSQL, einem fortschrittlichen objektrelationalen Datenbankmanagementsystem. Es unterstützt einen erweiterten Teilbereich des SQL-Standards, einschließlich Transaktionen, Fremdschlüsseln, Unterabfragen, Triggern sowie benutzerdefinierten Typen und Funktionen – ein Grund, warum Postgres oft mit eigenen Datentypen und Funktionen erweitert wird, statt als feste, geschlossene relationale Engine behandelt zu werden.\n\nDie meisten Nutzer installieren ein vorgefertigtes Paket für ihre Plattform, statt direkt aus dieser Quellcode-Distribution zu bauen; die offizielle Dokumentation deckt sowohl das Bauen aus dem Quellcode als auch die allgemeine Nutzung ab. PostgreSQL eignet sich für Anwendungen, die eine ausgereifte, standardkonforme relationale Datenbank mit Erweiterungsspielraum benötigen – von typischen transaktionalen Webanwendungsdaten bis hin zu spezialisierteren Workloads über Erweiterungen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2010-09-21",
+      "archived": false,
+      "openIssuesCount": 0,
+      "stargazersCount": 22108,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most widely trusted open-source relational database; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "relational-database",
+      "strength": "primary"
+    },
+    {
+      "concept": "sql",
+      "strength": "primary"
+    }
+  ]
 }

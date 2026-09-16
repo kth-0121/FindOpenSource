@@ -42,5 +42,41 @@
       "description": "Backup-, Wiederherstellungs- und Migrationstool für Kubernetes-Cluster, das sowohl Cluster-Ressourcen als auch Persistent-Volume-Daten vor Verlust schützt oder das Verschieben von Workloads zwischen Clustern ermöglicht.",
       "longDescription": "Velero (früher Heptio Ark) sichert und stellt Kubernetes-Cluster-Ressourcen und deren Persistent-Volume-Daten wieder her und läuft als Server-Komponente innerhalb des Clusters neben einem lokal genutzten Kommandozeilen-Client. Ein Backup erfasst die Kubernetes-Objekte, aus denen eine Anwendung besteht – Deployments, Services, Konfiguration und mehr – zusammen mit Snapshots der verwendeten Persistent Volumes, sodass beides nach Datenverlust, versehentlichem Löschen oder einem Cluster-Ausfall gemeinsam wiederhergestellt werden kann.\n\nÜber die Notfallwiederherstellung hinaus unterstützt derselbe Backup-und-Restore-Mechanismus die Migration von Workloads auf einen neuen Cluster oder das Replizieren des Zustands eines Produktions-Clusters in Staging- oder Entwicklungsumgebungen, und funktioniert mit einer Reihe von Public-Cloud-Anbietern sowie On-Premises-Storage.\n\nVelero eignet sich für Teams, die Kubernetes in Produktion betreiben und einen erprobten Weg brauchen, um sich von Cluster-Verlust zu erholen oder Workloads zwischen Clustern zu verschieben – ein anderes Anliegen als die bereits in diesem Katalog vorhandenen Objektspeichersysteme wie MinIO oder SeaweedFS: Diese speichern Anwendungsdaten, während Velero den Cluster und seinen Zustand oberhalb jeglichen bereits genutzten Storages schützt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2017-08-02",
+      "archived": false,
+      "openIssuesCount": 820,
+      "stargazersCount": 10294,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 100
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard Kubernetes backup/disaster-recovery tool."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "disaster-recovery",
+      "strength": "primary"
+    },
+    {
+      "concept": "kubernetes-backup",
+      "strength": "primary"
+    },
+    {
+      "concept": "persistent-volume-backup",
+      "strength": "secondary"
+    },
+    {
+      "concept": "cluster-migration",
+      "strength": "secondary"
+    }
+  ]
 }

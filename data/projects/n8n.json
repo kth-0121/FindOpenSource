@@ -44,5 +44,33 @@
       "description": "Workflow-Automatisierungsplattform, mit der du Apps und Dienste über einen visuellen, knotenbasierten Editor verbindest.",
       "longDescription": "n8n ist eine Fair-Code-Plattform für Workflow-Automatisierung, die eine visuelle, knotenbasierte Oberfläche mit der Möglichkeit kombiniert, bei Bedarf in JavaScript oder Python (und npm-Pakete) einzutauchen, wenn die eingebauten Nodes nicht ausreichen. Sie verbindet sich mit über 1.500 Drittanbieterdiensten und liefert Tausende Community-Workflow-Vorlagen als Ausgangspunkt, statt Automatisierungen auf einer leeren Oberfläche von Grund auf neu zu bauen.\n\nDer aktuelle Fokus liegt speziell auf der Automatisierung von KI-Agenten: dem Aufbau mehrstufiger KI-Workflows mit Tool-Nutzung, manuellen Freigabeschritten und Observability, während man modellagnostisch bleibt (OpenAI, Anthropic, Google oder selbst gehostete/offene Modelle), sodass sich der Anbieter wechseln lässt, ohne den Workflow neu zu gestalten.\n\nn8n kann selbst gehostet (über Docker) oder über das Cloud-Angebot von n8n genutzt werden. Es ist unter n8ns eigener Sustainable Use License lizenziert, ergänzt durch eine separate Enterprise License für zusätzliche Funktionen – der Quellcode ist stets einsehbar und selbst hostbar, dies ist jedoch keine von der OSI anerkannte Open-Source-Lizenz, was wichtig zu wissen ist, falls strikt offene Lizenzierung für deinen Anwendungsfall eine Rolle spielt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-06-22",
+      "archived": false,
+      "openIssuesCount": 1167,
+      "stargazersCount": 204354,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Extremely popular visual workflow-automation tool spanning two categories; note the Sustainable Use License is source-available, not OSI-approved."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "workflow-automation",
+      "strength": "primary"
+    },
+    {
+      "concept": "pipeline-automation",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -42,5 +42,33 @@
       "description": "JavaScript-End-to-End-Testframework für das moderne Web mit schnellen, zuverlässigen Tests.",
       "longDescription": "Cypress ist ein JavaScript-Testtool, das von seinen Maintainern als schnelles, einfaches und zuverlässiges Testwerkzeug für alles beschrieben wird, was im Browser läuft. Es wird wie eine gewöhnliche Projektabhängigkeit über npm, Yarn oder pnpm neben dem bestehenden Anwendungs-Tooling installiert.\n\nCypress richtet sich an Frontend- und Full-Stack-Teams, die browserbasierte End-to-End-Tests in ihren regulären JavaScript-Entwicklungs- und CI-Workflow integrieren möchten."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-03-04",
+      "archived": false,
+      "openIssuesCount": 1079,
+      "stargazersCount": 51014,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted end-to-end testing frameworks for the web."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "e2e-testing",
+      "strength": "primary"
+    },
+    {
+      "concept": "test-automation",
+      "strength": "secondary"
+    }
+  ]
 }

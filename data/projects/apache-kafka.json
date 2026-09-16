@@ -44,5 +44,37 @@
       "description": "Verteilte Event-Streaming-Plattform, die Daten als dauerhaftes, wiederabspielbares Log speichert – gebaut für durchsatzstarke Echtzeit-Pipelines statt klassisches Punkt-zu-Punkt-Queuing.",
       "longDescription": "Apache Kafka ist eine verteilte Event-Streaming-Plattform zum Veröffentlichen, Speichern und Verarbeiten kontinuierlicher Event-Ströme in großem Maßstab. Anders als ein klassischer Message-Broker behält Kafka Events für eine konfigurierbare Aufbewahrungsdauer in einem geordneten, nur anhängenden Log, sodass mehrere unabhängige Consumer denselben Event-Strom in ihrem eigenen Tempo lesen – und erneut lesen – können, ohne um dieselbe Nachricht zu konkurrieren.\n\nDieses log-basierte Modell macht Kafka gut geeignet für Event Sourcing, Echtzeit-Analyse-Pipelines und das Verbinden vieler Producer und Consumer um eine gemeinsame, wiederabspielbare Quelle der Wahrheit, wobei Kafka Streams und ksqlDB zur direkten Datenverarbeitung innerhalb der Pipeline zur Verfügung stehen. Kafka ist für den Betrieb als verteiltes Cluster ausgelegt und darauf gebaut, sehr hohen Schreib- und Lesedurchsatz zu bewältigen.\n\nKafka eignet sich für Teams, die ereignisgesteuerte Architekturen oder Echtzeit-Datenpipelines mit Bedarf an Dauerhaftigkeit und Replay bauen – als Ergänzung, nicht als Duplikat zu RabbitMQ (ebenfalls in diesem Katalog), dessen Queue-und-Routing-Modell besser zu klassischen Hintergrundaufgaben- und Task-Queue-Workloads passt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2011-08-15",
+      "archived": false,
+      "openIssuesCount": 559,
+      "stargazersCount": 33730,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 100
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The de facto standard for event streaming; essential representative project for the backend category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "event-streaming",
+      "strength": "primary"
+    },
+    {
+      "concept": "message-broker",
+      "strength": "secondary"
+    },
+    {
+      "concept": "kafka",
+      "strength": "primary"
+    }
+  ]
 }

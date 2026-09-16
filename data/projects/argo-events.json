@@ -42,5 +42,29 @@
       "description": "Ereignisgesteuertes Automatisierungs-Framework für Kubernetes, das Workflows, Funktionen oder andere Aktionen als Reaktion auf Ereignisse aus beliebigen Quellen auslöst.",
       "longDescription": "Argo Events verbindet eine breite Palette von Event-Quellen – Webhooks, Message-Queues, Cron-Zeitpläne, CloudEvents – mit Triggern, die einen Argo Workflow starten, eine Serverless-Funktion aufrufen oder jede andere Kubernetes-native Aktion ausführen können. Es läuft als Kubernetes-Custom-Resources neben dem Rest des Argo-Projekts.\n\nArgo Events eignet sich für Teams, die bereits Argo Workflows (ebenfalls in diesem Katalog) nutzen und eine ereignisgesteuerte Trigger-Schicht davor benötigen, um das Muster „Ereignis passiert, Workflow läuft“ nativ auf Kubernetes zu vervollständigen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-12",
+      "repoCreatedAt": "2018-05-17",
+      "archived": false,
+      "openIssuesCount": 156,
+      "stargazersCount": 2691,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Event-driven trigger layer complementing Argo Workflows, a useful niche addition."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "event-streaming",
+      "strength": "secondary"
+    }
+  ]
 }

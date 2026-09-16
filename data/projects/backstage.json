@@ -42,5 +42,33 @@
       "description": "Offenes Framework zum Aufbau eines internen Entwicklerportals, das die Dienste, Infrastruktur und Dokumentation eines Unternehmens in einem durchsuchbaren Software-Katalog vereint.",
       "longDescription": "Backstage ist ein quelloffenes Framework, ursprünglich bei Spotify entwickelt und heute ein CNCF-Incubating-Projekt, zum Aufbau eines internen Entwicklerportals. Sein zentraler Software Catalog erfasst jeden Dienst, jede Bibliothek, Datenpipeline, Website und jedes ML-Modell, das eine Organisation besitzt, und ersetzt verstreute Wikis und Stammeswissen darüber, was existiert und wem es gehört, durch eine einzige, strukturierte Quelle der Wahrheit.\n\nAuf dem Katalog aufbauend bietet Backstage Software Templates zum Aufsetzen neuer Projekte nach den Standards einer Organisation sowie TechDocs, um technische Dokumentation nahe am beschriebenen Code zu halten und im Portal darzustellen – und da es ein Framework statt eines fertigen Produkts ist, bauen Teams eigene Plugins und passen es an ihr internes Tooling an.\n\nBackstage eignet sich für Platform-Engineering-Teams in Organisationen mit so vielen Diensten, dass „was existiert und wem gehört es“ zu einem echten Problem geworden ist, und gibt Entwicklern einen zentralen Ort, um Software zu entdecken, zu verstehen und aufzusetzen, statt durch Repos, Wikis und Slack-Threads zu suchen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2020-01-24",
+      "archived": false,
+      "openIssuesCount": 426,
+      "stargazersCount": 34414,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 94
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading internal developer portal platform, well-differentiated within developer-tools."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "developer-portal",
+      "strength": "primary"
+    },
+    {
+      "concept": "platform-engineering",
+      "strength": "secondary"
+    }
+  ]
 }

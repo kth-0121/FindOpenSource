@@ -43,5 +43,37 @@
       "description": "Weit verbreiteter Open-Source-Automatisierungsserver mit einem großen Plugin-Ökosystem für den Aufbau von CI/CD-Pipelines und die Automatisierung der Softwareauslieferung.",
       "longDescription": "Jenkins ist ein in Java gebauter Open-Source-Automatisierungsserver, der durch mehr als 2.000 Plugins erweitert wird, die Integrationen für Versionskontrolle, Build-Tools, Test-Frameworks, Deployment-Ziele und Benachrichtigungssysteme abdecken. Statt eines festen Satzes an Integrationen ist Jenkins darauf ausgelegt, zu einer CI/CD-Pipeline zusammengesetzt zu werden, die auf die spezifische Toolchain eines Teams zugeschnitten ist.\n\nEs ist eines der am längsten laufenden und am weitesten verbreiteten aktiv genutzten CI/CD-Tools, mit regelmäßigen Releases, einer Long-Term-Support-Release-Linie und einem aktiven Plugin-Ökosystem, das sowohl vom Kernteam als auch von der Community gepflegt wird.\n\nJenkins eignet sich für Teams, die einen hochgradig erweiterbaren, selbst gehosteten CI/CD-Server benötigen, der sich mit einer breiten und manchmal ungewöhnlichen Mischung aus Tools integrieren lässt, statt eines meinungsstärkeren, leichtgewichtigeren Pipeline-Runners."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2010-11-22",
+      "archived": false,
+      "openIssuesCount": 3610,
+      "stargazersCount": 26547,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The long-standing standard self-hosted CI/CD server, still very widely deployed."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "ci-cd",
+      "strength": "primary"
+    },
+    {
+      "concept": "continuous-integration",
+      "strength": "primary"
+    },
+    {
+      "concept": "automation-server",
+      "strength": "primary"
+    }
+  ]
 }

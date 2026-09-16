@@ -42,5 +42,29 @@
       "description": "Kubernetes Efficient Power Level Exporter, der den Energieverbrauch von Workloads auf einem Cluster misst und offenlegt.",
       "longDescription": "Kepler nutzt eBPF und Hardware-Schnittstellen zur Leistungsmessung, um den Energieverbrauch einzelner Pods und Container zu schätzen, und stellt diese Daten als Prometheus-Metriken bereit. Es ist eines der wenigen Tools, das Kubernetes-Workloads direkt mit Strom- und CO2-Fußabdruck-Daten verbindet.\n\nKepler eignet sich für Platform-Teams, die den Energie- und CO2-Einfluss ihrer Kubernetes-Workloads nachverfolgen, darüber berichten oder optimieren müssen – eine Fähigkeit, die derzeit kein anderes Projekt in diesem Katalog bietet."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2022-02-01",
+      "archived": false,
+      "openIssuesCount": 44,
+      "stargazersCount": 1567,
+      "productionReadiness": "emerging",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 85
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes energy/carbon consumption monitoring, a genuinely unique niche not covered elsewhere."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "metrics",
+      "strength": "related"
+    }
+  ]
 }

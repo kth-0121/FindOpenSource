@@ -43,5 +43,33 @@
       "description": "Selbst gehostetes, quelloffenes Headless-CMS, das REST- und GraphQL-APIs automatisch aus visuell modellierten Content-Typen generiert.",
       "longDescription": "Strapi ist ein selbst gehostetes, quelloffenes Headless-CMS: Du definierst Content-Typen visuell mit dem Content-Type Builder, und es generiert automatisch REST- und GraphQL-APIs für diesen Content, bereit zur Nutzung von jedem Web-Frontend, jeder mobilen App oder anderen Clients. Zu den integrierten Funktionen gehören rollen- und berechtigungsbasierte Zugriffskontrolle, eine Medienbibliothek, Internationalisierung und ein Entwurf-/Veröffentlichungs-Workflow, und das Backend lässt sich über eine explizite Routes -> Middlewares -> Controllers -> Services-Architektur sowie ein Plugin-System erweitern.\n\nEs bietet erstklassige TypeScript-Unterstützung, unterstützt SQLite, PostgreSQL, MySQL und MariaDB als Datenbankoptionen, und der Kern ist MIT-lizenziert – ein separates `ee/`-Verzeichnis (Enterprise Edition) im selben Repository ist für kostenpflichtige Funktionen anders lizenziert. Über das Self-Hosting hinaus ist Strapi Cloud die offizielle verwaltete Hosting-Option.\n\nEs eignet sich für Teams, die Content visuell modellieren und sofort generierte APIs erhalten möchten, während sie die volle Kontrolle über den Backend-Code behalten, statt über eine vollständig gehostete, geschlossene Content-Plattform zu arbeiten."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-09-30",
+      "archived": false,
+      "openIssuesCount": 542,
+      "stargazersCount": 73162,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most widely adopted open-source headless CMS; essential representative project."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "headless-cms",
+      "strength": "primary"
+    },
+    {
+      "concept": "cms",
+      "strength": "primary"
+    }
+  ]
 }

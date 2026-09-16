@@ -42,5 +42,33 @@
       "description": "Entwicklungstool, mit dem du lokal coden kannst, während deine Anwendung direkt in einem entfernten Kubernetes-Cluster läuft und debuggt wird.",
       "longDescription": "Okteto synchronisiert deine lokalen Codeänderungen in Echtzeit mit einem Container, der in einem echten Kubernetes-Cluster läuft, sodass du gegen produktionsähnliche Infrastruktur, Datenbanken und Dienste entwickeln und debuggen kannst, ohne bei jeder Änderung einen vollständigen Build-Push-Deploy-Zyklus zu durchlaufen. Es ersetzt ein lokales Docker-Compose-Setup durch den tatsächlichen Cluster, auf dem deine App laufen wird.\n\nOkteto eignet sich für Teams, deren Anwendungen von Infrastruktur abhängen, die sich lokal schwer vollständig nachbilden lässt – als Ergänzung zu Skaffold (ebenfalls in diesem Katalog), das sich auf schnelle lokale Build/Deploy-Zyklen statt Live-Sync von Code in einen entfernten Cluster konzentriert."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2018-08-07",
+      "archived": false,
+      "openIssuesCount": 37,
+      "stargazersCount": 3546,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Kubernetes-native remote development tool, overlaps with Coder in the same category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "remote-development",
+      "strength": "primary"
+    },
+    {
+      "concept": "cloud-development-environment",
+      "strength": "secondary"
+    }
+  ]
 }

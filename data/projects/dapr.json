@@ -42,5 +42,37 @@
       "description": "Portable Laufzeitumgebung, die Microservices Bausteine bereitstellt – State Management, Pub/Sub-Messaging, Service-Aufrufe und Workflows – über eine Sidecar-API in beliebiger Sprache.",
       "longDescription": "Dapr (Distributed Application Runtime) ist eine quelloffene, von der CNCF graduierte Laufzeitumgebung zum Bau von Microservices, ereignisgesteuerten Systemen und KI-Agenten, ohne in jedem Dienst dieselbe Verteiltsysteme-Infrastruktur von Hand zu bauen. Es läuft als Sidecar neben einer Anwendung und stellt Bausteine – Service-zu-Service-Aufrufe, State Management, Publish/Subscribe-Messaging, Workflow-Orchestrierung und Secrets – über Standard-HTTP und gRPC bereit, sodass jede Sprache sie ohne ein Dapr-spezifisches SDK nutzen kann, wobei native SDKs für .NET, Java, Python, Go, JavaScript/TypeScript und Rust existieren.\n\nDa diese Funktionen über Daprs APIs statt fest im Anwendungscode verankert genutzt werden, lässt sich die zugrunde liegende Infrastruktur – welcher Message-Broker, welcher State-Store, welcher Secrets-Vault – per Konfiguration austauschen, ohne den Anwendungscode zu ändern, und dieselben Bausteine funktionieren konsistent über Kubernetes, andere Clouds, den Edge oder eine lokale Maschine hinweg.\n\nDapr eignet sich für Teams, die Microservices oder ereignisgesteuerte Backends bauen und Primitive für verteilte Systeme als Infrastruktur statt pro Dienst neu implementiert haben möchten – eine andere Abstraktionsebene als die Backend-as-a-Service-Plattformen anderswo in diesem Katalog wie Supabase oder Appwrite, die ein Backend mit eigener Meinung und eigenem Datenmodell bieten statt meinungsloser Bausteine, die ein Team in die eigenen Dienste einbaut."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2019-06-19",
+      "archived": false,
+      "openIssuesCount": 442,
+      "stargazersCount": 26095,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 94
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Distributed application runtime with strong CNCF backing, a distinctive building-block approach."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "distributed-runtime",
+      "strength": "primary"
+    },
+    {
+      "concept": "microservices",
+      "strength": "secondary"
+    },
+    {
+      "concept": "pubsub",
+      "strength": "secondary"
+    }
+  ]
 }

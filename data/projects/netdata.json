@@ -42,5 +42,33 @@
       "description": "Echtzeit-Monitoring-Dashboard mit Sekundenauflösung, das Metriken in deiner Infrastruktur ohne Konfiguration automatisch erkennt.",
       "longDescription": "Netdata installiert sich als Agent, der automatisch Tausende Metriken pro Sekunde erkennt und visualisiert – System, Container, Datenbank, Anwendung – mit fast keiner manuellen Konfiguration, und seine Dashboards aktualisieren sich in Echtzeit statt in einem in Minuten gemessenen Abfrageintervall. Es ist für sofortige visuelle Fehlersuche statt langfristige Trendanalyse gebaut.\n\nNetdata eignet sich für Teams, die sofortige, konfigurationsfreie Einblicke in das aktuelle Geschehen auf einer Maschine oder einem Dienst wollen – eine andere Nische als das Pull-basierte, längerintervallige Multi-Node-Modell von Prometheus und Grafana, die bereits in diesem Katalog sind."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2013-06-17",
+      "archived": false,
+      "openIssuesCount": 398,
+      "stargazersCount": 80530,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Real-time, zero-configuration infrastructure monitoring, a distinctive high-granularity approach."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "self-hosted-monitoring",
+      "strength": "primary"
+    },
+    {
+      "concept": "metrics",
+      "strength": "secondary"
+    }
+  ]
 }

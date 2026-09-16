@@ -43,5 +43,37 @@
       "description": "Beziehungsbasierte Autorisierungs-Engine, inspiriert von Google Zanzibar, zum Modellieren und Durchsetzen feingranularer Zugriffskontrolle als eigenständiger Dienst.",
       "longDescription": "OpenFGA ist eine leistungsstarke Autorisierungs- und Berechtigungs-Engine, inspiriert vom Zanzibar-Paper von Google zu beziehungsbasierter Zugriffskontrolle. Statt Autorisierungslogik in den Anwendungscode einzubetten, läuft OpenFGA als eigenständiger Dienst, den Anwendungen über HTTP- oder gRPC-APIs abfragen, um zu prüfen, ob ein bestimmter Benutzer die Berechtigung hat, eine bestimmte Aktion an einer bestimmten Ressource auszuführen – basierend auf einem von dir definierten Beziehungsmodell.\n\nEs unterstützt mehrere Storage-Backends (In-Memory, PostgreSQL, MySQL und SQLite in Beta), liefert offizielle SDKs für Java, Node.js, Go, Python und .NET und enthält eine CLI, einen Terraform-Provider zur Konfiguration von Servern als Code sowie einen browserbasierten Playground zum Modellieren und Testen von Autorisierungsregeln. Es lässt sich auch direkt als Go-Bibliothek einbetten, statt als separater Dienst zu laufen. OpenFGA wird produktiv unter anderem bei Auth0, Grafana Labs, Canonical und Docker eingesetzt.\n\nEs eignet sich für Teams, die feingranulare, beziehungsbasierte Autorisierung (etwa verschachtelte Gruppen, geteilte Dokumente oder Berechtigungen auf Organisationsebene) als abfragbaren Dienst benötigen, statt Authentifizierung oder eine einfachere rollenbasierte Zugriffskontroll-Bibliothek."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2022-06-08",
+      "archived": false,
+      "openIssuesCount": 211,
+      "stargazersCount": 5774,
+      "productionReadiness": "emerging",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 85
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Google Zanzibar-style fine-grained authorization service, a genuinely distinct approach vs. RBAC tools like Casbin."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "fine-grained-access",
+      "strength": "primary"
+    },
+    {
+      "concept": "authorization",
+      "strength": "primary"
+    },
+    {
+      "concept": "iam",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -42,5 +42,33 @@
       "description": "Hochperformanter Proxy für Cloud-native Anwendungen, der als grundlegende Datenebene für viele moderne Service Meshes und API-Gateways dient.",
       "longDescription": "Envoy ist ein Proxy, der speziell für Microservices-Architekturen entwickelt wurde und Lastverteilung, Service Discovery, Wiederholungsversuche, Circuit Breaking und detaillierte Observability auf Netzwerkebene übernimmt – ursprünglich bei Lyft gebaut und heute eine der am weitesten verbreiteten Komponenten Cloud-nativer Infrastruktur. Statt direkt von den meisten Entwicklern genutzt zu werden, läuft es typischerweise unter höherstufigen Tools.\n\nEnvoy eignet sich für Platform-Teams, die eigene Netzwerkinfrastruktur bauen, und ist auch für Teams wissenswert, die es nicht direkt konfigurieren, da es die Datenebene von Istio und mehreren API-Gateways antreibt, die bereits in diesem Katalog sind."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-08-08",
+      "archived": false,
+      "openIssuesCount": 1842,
+      "stargazersCount": 28928,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Industry-standard edge/service proxy underlying most modern service meshes."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "service-mesh",
+      "strength": "secondary"
+    },
+    {
+      "concept": "load-balancing",
+      "strength": "secondary"
+    }
+  ]
 }

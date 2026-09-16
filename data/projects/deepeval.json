@@ -41,5 +41,37 @@
       "description": "Quelloffenes Test-Framework zur Bewertung von LLM-Ausgaben, das Qualitätschecks für LLM-Anwendungen wie herkömmliche Unit-Tests behandelt.",
       "longDescription": "DeepEval bietet Metriken und Test-Primitive speziell für LLM-Ausgaben – Antwortrelevanz, Treue zu Quelldokumenten, Halluzinationserkennung und mehr –, sodass ein Team automatisierte Tests für die Qualität einer LLM-Anwendung genauso schreiben kann wie Unit-Tests für gewöhnlichen Code, und sie in CI ausführen kann. Es integriert sich mit gängigen Testframeworks wie Pytest.\n\nDeepEval eignet sich für Teams, die systematische, automatisierte Qualitätsprüfungen für LLM- oder RAG-Anwendungsausgaben statt manueller Stichproben wollen – als Ergänzung zu Promptfoo (ebenfalls in diesem Katalog): Beide adressieren LLM-Evaluation, wobei DeepEval eher zu einem pytest-nativen Unit-Test-Workflow tendiert."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2023-08-10",
+      "archived": false,
+      "openIssuesCount": 591,
+      "stargazersCount": 18274,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 79
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "LLM evaluation is a growing, still under-served niche even within a saturated ai category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "llm-evaluation",
+      "strength": "primary"
+    },
+    {
+      "concept": "rag-evaluation",
+      "strength": "secondary"
+    },
+    {
+      "concept": "prompt-testing",
+      "strength": "secondary"
+    }
+  ]
 }

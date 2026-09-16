@@ -42,5 +42,37 @@
       "description": "Quelloffene OCR-Engine, die Text aus gescannten Dokumenten und Bildern extrahiert und dabei mehr als 100 Sprachen von Haus aus unterstützt.",
       "longDescription": "Tesseract ist eine quelloffene Optical-Character-Recognition(OCR)-Engine, ursprünglich bei HP entwickelt und heute von Google zusammen mit einer Community von Contributors gepflegt. Sie wird als Kommandozeilenprogramm und als Bibliothek libtesseract ausgeliefert und unterstützt sowohl eine neuere, auf LSTM-Neuronalen-Netzen basierende Erkennungs-Engine (Standard seit Tesseract 4) als auch die alte, musterbasierte Engine aus Tesseract 3 für Kompatibilität.\n\nSie liest gängige Bildformate wie PNG, JPEG und TIFF, erkennt dank Unicode/UTF-8-Unterstützung Text in mehr als 100 Sprachen von Haus aus und kann Klartext, durchsuchbares PDF, hOCR, TSV und weitere strukturierte Formate ausgeben – wobei wie bei jeder OCR-Engine die Ergebnisqualität stark von der Qualität des Eingabebilds abhängt.\n\nTesseract eignet sich für Teams, die Text aus gescannten Dokumenten, fotografierten Formularen oder Bildern als Teil einer Datenpipeline extrahieren müssen – etwa zur Digitalisierung von Papierdokumenten, zur Indexierung gescannter Archive oder um Text in eine LLM-/RAG-Pipeline einzuspeisen –, als Ergänzung zu PDF.js (ebenfalls in diesem Katalog), das PDFs rendert und parst, die bereits eine Textebene enthalten, statt Text aus Pixeln zu erkennen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-11",
+      "repoCreatedAt": "2014-08-12",
+      "archived": false,
+      "openIssuesCount": 484,
+      "stargazersCount": 76495,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard open-source OCR engine, essential representative project for text-extraction use cases in a thin media category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "ocr",
+      "strength": "primary"
+    },
+    {
+      "concept": "text-extraction",
+      "strength": "primary"
+    },
+    {
+      "concept": "image-to-text",
+      "strength": "primary"
+    }
+  ]
 }

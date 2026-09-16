@@ -42,5 +42,29 @@
       "description": "Einfache, schnelle, datenschutzorientierte Webanalyse-Alternative, die du selbst hosten kannst.",
       "longDescription": "Umami ist eine datenschutzorientierte Webanalyse-Plattform, die Traffic, Kampagnen, Nutzerverhalten, Conversions und Umsatz in einem einzigen Dashboard abdeckt, ganz ohne Cookies oder die Art von dauerhaftem Tracking, wie sie bei gängigen Analysetools üblich ist. Es ist selbst hostbar oder als verwalteter Cloud-Dienst verfügbar.\n\nSelbst-Hosting aus dem Quellcode erfordert Node.js 18.18+ und eine PostgreSQL-Datenbank (12.14+); der Build-Schritt richtet das Datenbankschema ein und legt beim ersten Start einen Standard-Admin-Login an. Zwei-Faktor-Authentifizierung lässt sich durch das Konfigurieren eines Verschlüsselungsschlüssels aktivieren.\n\nUmami eignet sich für Teams und Einzelpersonen, die eine unkomplizierte, datenschutzfreundliche Website-Analyse wollen, die sie entweder selbst auf ihrem eigenen Node.js/Postgres-Stack betreiben oder als gehosteten Dienst nutzen können – als Alternative zu Cookie-basierten Analyseplattformen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2020-07-17",
+      "archived": false,
+      "openIssuesCount": 126,
+      "stargazersCount": 38824,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-15",
+      "score": 84
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Simple, lightweight privacy-focused web analytics, a minimal alternative to Plausible/Matomo."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "web-analytics",
+      "strength": "primary"
+    }
+  ]
 }

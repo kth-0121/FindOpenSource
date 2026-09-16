@@ -42,5 +42,37 @@
       "description": "Plattform für dauerhafte Ausführung, mit der Entwickler zuverlässige, lang laufende Workflows als gewöhnlichen Code schreiben – Wiederholungsversuche, Zustand und Fehlerbehebung werden automatisch gehandhabt.",
       "longDescription": "Temporal ist eine Plattform für dauerhafte Ausführung zum Bau von Anwendungen, die mehrstufige Prozesse zuverlässig koordinieren müssen – Auftragsabwicklung, Provisionierungs-Pipelines, Freigabeprozesse oder jeder Workflow, der sich über Sekunden, Tage oder Monate erstreckt. Entwickler schreiben Workflows als gewöhnliche Funktionen in Go, Java, Python, TypeScript oder .NET; der Temporal-Server zeichnet jeden Schritt als Event-Historie auf und wiederholt fehlgeschlagene Activities automatisch, sodass ein Absturz, ein Deployment oder eine Netzwerkstörung keinen Fortschritt verliert und keine handgeschriebene Retry-Logik erfordert.\n\nDa der Workflow-Zustand in Temporals Event-Historie lebt statt im Anwendungsspeicher oder einer vom Team selbst gepflegten Datenbank, kann ein Workflow monatelang sicher laufen, Worker-Neustarts überstehen und zur Fehlersuche untersucht oder wiedergegeben werden – ursprünglich als Fork von Ubers Cadence entstanden, hat es sich zu einer weit verbreiteten Engine für dieses Muster entwickelt.\n\nTemporal eignet sich für Backend-Teams, die immer wieder Retry-Logik, verteilte Locks oder Cron-plus-Datenbank-Flags neu erfinden, um mehrstufige Prozesse zuverlässig zu koordinieren, und ihnen stattdessen eine dedizierte Runtime für dauerhafte Ausführung gibt – ein anderes Werkzeug als n8n (ebenfalls in diesem Katalog), das auf Low-Code-, UI-first-Automatisierung statt code-first Workflow-Engineering zielt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-10-16",
+      "archived": false,
+      "openIssuesCount": 971,
+      "stargazersCount": 23057,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 96
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading durable-execution workflow engine, a strong differentiated pick even among several orchestration tools."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "durable-execution",
+      "strength": "primary"
+    },
+    {
+      "concept": "workflow-orchestration",
+      "strength": "primary"
+    },
+    {
+      "concept": "workflow-engine",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -42,5 +42,37 @@
       "description": "Spaltenorientierte Datenbank für Echtzeit-Analyseabfragen über riesige Datensätze, die aggregierte Berichte in Millisekunden statt Sekunden oder Minuten erzeugt.",
       "longDescription": "ClickHouse ist ein quelloffenes, spaltenorientiertes Datenbankmanagementsystem, das speziell für Online Analytical Processing (OLAP) gebaut ist – Abfragen, die große Datenmengen scannen und aggregieren, etwa das Zählen von Events, das Berechnen von Durchschnitten oder den Aufbau von Dashboards –, statt für die zeilenweisen transaktionalen Workloads, für die eine allgemeine relationale Datenbank optimiert ist. Sein spaltenorientierter Speicher und die vektorisierte Abfrageausführung erlauben es, Milliarden von Zeilen zu scannen und aggregierte Ergebnisse in Echtzeit zurückzugeben.\n\nEs wird häufig als Query-Engine hinter Echtzeit-Analytics-Dashboards, Produkt- und Business-Intelligence-Tools, Observability- und Log-Analytics-Plattformen sowie großangelegter Event- oder Clickstream-Analyse eingesetzt und kann kontinuierlich Daten aus Quellen wie Apache Kafka (ebenfalls in diesem Katalog) für Streaming-Analytics-Anwendungsfälle aufnehmen.\n\nClickHouse eignet sich für Teams, deren Workload grundlegend analytisch ist – Aggregation und Reporting über große, überwiegend nur anhängende Datensätze – statt transaktional, wofür eine zeilenorientierte Datenbank wie PostgreSQL oder MongoDB (ebenfalls in diesem Katalog) besser geeignet wäre."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-06-02",
+      "archived": false,
+      "openIssuesCount": 7584,
+      "stargazersCount": 49901,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 96
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Extremely popular columnar OLAP database, a strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "columnar-database",
+      "strength": "primary"
+    },
+    {
+      "concept": "olap",
+      "strength": "primary"
+    },
+    {
+      "concept": "real-time-analytics",
+      "strength": "secondary"
+    }
+  ]
 }

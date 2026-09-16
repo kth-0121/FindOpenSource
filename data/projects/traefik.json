@@ -42,5 +42,33 @@
       "description": "Moderner, cloud-nativer Reverse Proxy und Load Balancer, der sich in deine bestehende Infrastruktur integriert.",
       "longDescription": "Traefik ist ein Reverse Proxy und Load Balancer, der speziell für dynamische, container-/orchestratorbasierte Umgebungen entwickelt wurde. Statt für jeden Microservice manuell eine Route zu konfigurieren, beobachtet er deinen Orchestrator oder deine Service-Registry (Docker, Swarm, Kubernetes, Consul, Etcd, Rancher, Amazon ECS oder statische Dateien) und generiert und aktualisiert automatisch Routing-Regeln, sobald Dienste hinzugefügt, entfernt oder skaliert werden – ganz ohne Neustarts.\n\nZu den integrierten Funktionen gehören automatisches HTTPS über Let's Encrypt (einschließlich Wildcard-Zertifikate), mehrere Load-Balancing-Algorithmen, Circuit Breaker und Retries, WebSocket-/HTTP2-/gRPC-Unterstützung, ein Web-Dashboard zur Visualisierung der Routen, eine REST-API sowie Metrik-Export zu Prometheus, Datadog, StatsD und InfluxDB. Es wird als einzelne Go-Binärdatei oder als offizielles Docker-Image ausgeliefert.\n\nTraefik eignet sich für Teams, die Microservices auf Docker, Kubernetes oder ähnlichen Orchestratoren betreiben und möchten, dass Routing und TLS automatisch mit den Deployments synchron bleiben, statt eine traditionelle Reverse-Proxy-Konfigurationsdatei von Hand zu pflegen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2015-09-13",
+      "archived": false,
+      "openIssuesCount": 926,
+      "stargazersCount": 64846,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted cloud-native reverse proxies, strong representative pick."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "reverse-proxy",
+      "strength": "primary"
+    },
+    {
+      "concept": "load-balancing",
+      "strength": "secondary"
+    }
+  ]
 }

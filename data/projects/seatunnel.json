@@ -42,5 +42,33 @@
       "description": "Verteilte Datenintegrationsplattform zum Verschieben und Transformieren von Daten zwischen Datenbanken, Data Lakes und Messaging-Systemen im großen Maßstab.",
       "longDescription": "Apache SeaTunnel verbindet sich über vorgefertigte Konnektoren mit einer sehr breiten Palette von Datenquellen und -zielen – Datenbanken, Data Warehouses, Objektspeicher, Message-Queues – und lässt ein Team Datensynchronisations- und -transformationspipelines definieren, ohne für jedes Systempaar benutzerdefinierten Integrationscode zu schreiben. Es unterstützt sowohl Batch- als auch Streaming-Datenbewegung.\n\nSeaTunnel eignet sich für Data-Engineering-Teams, die Daten zwischen vielen verschiedenen Systemen verschieben und transformieren müssen – als Ergänzung zu Flink und Spark (ebenfalls in diesem Katalog), die Daten verarbeiten, sobald sie bereits fließen, indem es den anfänglichen Verbindungs- und Verschiebungsschritt zwischen heterogenen Systemen übernimmt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2017-08-05",
+      "archived": false,
+      "openIssuesCount": 706,
+      "stargazersCount": 9652,
+      "productionReadiness": "emerging",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Data integration/ETL connector platform, overlaps with Apache Beam/Flink in adjacent categories."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "data-integration",
+      "strength": "primary"
+    },
+    {
+      "concept": "etl",
+      "strength": "primary"
+    }
+  ]
 }

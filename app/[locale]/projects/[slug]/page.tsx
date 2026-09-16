@@ -4,8 +4,10 @@ import Link from "next/link";
 import { AdSlot } from "@/components/AdSlot";
 import { ProjectCard } from "@/components/ProjectCard";
 import { KeywordBadge } from "@/components/KeywordBadge";
+import { EvidenceBadge } from "@/components/EvidenceBadge";
 import { getAllProjects, getProjectBySlug, getRelatedProjects } from "@/lib/projects";
 import { getCategoryBySlug, localizeCategory } from "@/lib/categories";
+import { getEvidenceBadges } from "@/lib/evaluation/badges";
 import { siteConfig } from "@/lib/site";
 import { isLocale, localeMeta, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
@@ -61,6 +63,7 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     .filter((category): category is NonNullable<typeof category> => Boolean(category))
     .map((category) => localizeCategory(category, dict));
   const relatedProjects = getRelatedProjects(project.slug, locale);
+  const evidenceBadges = getEvidenceBadges(project);
 
   const pageUrl = `${siteConfig.url}/${locale}/projects/${project.slug}`;
   const jsonLd = {
@@ -84,6 +87,16 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
 
       <h1 className="text-3xl font-bold tracking-tight">{project.name}</h1>
       <p className="mt-3 text-lg text-muted-foreground">{project.description}</p>
+
+      {evidenceBadges.length > 0 && (
+        <ul className="mt-3 flex flex-wrap gap-2">
+          {evidenceBadges.map((badge) => (
+            <li key={badge}>
+              <EvidenceBadge>{dict.evidenceBadges[badge]}</EvidenceBadge>
+            </li>
+          ))}
+        </ul>
+      )}
 
       <div className="mt-6 flex flex-wrap gap-3">
         <a

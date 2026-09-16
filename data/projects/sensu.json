@@ -41,5 +41,23 @@
       "description": "Ereignisbasierte Monitoring- und Observability-Pipeline, die Teams volle Kontrolle darüber gibt, wie Monitoring-Ereignisse verarbeitet und weitergeleitet werden.",
       "longDescription": "Sensu behandelt jedes Check-Ergebnis und jede Metrik als Ereignis, das durch eine konfigurierbare Pipeline fließt, in der ein Team genau festlegt, wie jedes Ereignis gefiltert, transformiert und an Alarmierungs-, Ticketing- oder Speichersysteme weitergeleitet werden soll – statt eines starren Sammeln-dann-Alarmieren-Modells. Es unterstützt sowohl Push- als auch Pull-basierte Checks.\n\nSensu eignet sich für Teams, die feingranulare Kontrolle über die Verarbeitung und Routing-Logik von Monitoring-Ereignissen wollen – ein anderer architektonischer Ansatz als das Dashboard-und-Abfrage-Modell von Grafana und Prometheus, die bereits in diesem Katalog sind."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2017-02-23",
+      "archived": false,
+      "openIssuesCount": 274,
+      "stargazersCount": 1109,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Monitoring event pipeline, overlaps meaningfully with Prometheus/Zabbix in the largest category."
+    },
+    "flag": "ok"
   }
 }

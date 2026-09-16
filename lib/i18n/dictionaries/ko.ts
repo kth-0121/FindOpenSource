@@ -3,6 +3,12 @@ import type { Dictionary } from "../types";
 const dictionary: Dictionary = {
   skipToContent: "본문으로 건너뛰기",
   adSlotLabel: "광고",
+  evidenceBadges: {
+    activelyMaintained: "활발히 유지보수됨",
+    wellDocumented: "문서화가 잘 되어 있음",
+    permissiveLicense: "관대한 라이선스",
+    foundationBacked: "재단 지원",
+  },
   nav: {
     categories: "카테고리",
     contribute: "기여하기",

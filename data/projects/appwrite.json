@@ -50,5 +50,33 @@
       "description": "Open-Source-Backend-Plattform mit Authentifizierung, Datenbanken, Storage, Funktionen und Echtzeit-APIs - selbstgehostet oder als verwalteter Cloud-Dienst.",
       "longDescription": "Appwrite ist eine Open-Source-Entwicklungsplattform, die die Backend-Infrastruktur bündelt, die die meisten Apps benötigen – Authentifizierung (E-Mail/Passwort, OAuth, Magic Links, anonyme Sitzungen), eine strukturierte Datenbank, Dateispeicher, serverlose Funktionen, Multi-Channel-Messaging (E-Mail, SMS, Push) und ein integriertes Hosting-Produkt (Sites) für das Frontend – hinter einer einzigen API und Konsole.\n\nSie ist für den Betrieb in einer containerisierten Umgebung ausgelegt: Ein einzelner Docker-Befehl startet eine vollständige lokale Instanz, und für den Produktivbetrieb läuft sie auch auf Kubernetes, Docker Swarm oder Rancher. Appwrite Cloud ist die offizielle verwaltete Alternative, falls du die Infrastruktur nicht selbst betreiben möchtest.\n\nAppwrite eignet sich für Teams, die Backends für Web-, Mobile- oder KI-Anwendungen bauen und dafür eine einzige Open-Source-Plattform für Authentifizierung, Daten, Storage und Hosting nutzen möchten, statt mehrere separate Dienste zusammenzustellen und zu pflegen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-04-08",
+      "archived": false,
+      "openIssuesCount": 1011,
+      "stargazersCount": 57367,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Broad self-hosted BaaS platform spanning multiple thin categories (auth, storage) at once, high practical utility."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "authentication",
+      "strength": "secondary"
+    },
+    {
+      "concept": "object-storage",
+      "strength": "secondary"
+    }
+  ]
 }

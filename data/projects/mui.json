@@ -43,5 +43,23 @@
       "description": "Umfassende Bibliothek von React-UI-Komponenten, die Googles Material Design umsetzt.",
       "longDescription": "Material UI (das Paket `@mui/material` der MUI-Organisation) ist eine React-Komponentenbibliothek, die Googles Material-Design-System als eigenständige Implementierung umsetzt – nicht als Wrapper um Googles eigenen Code. Sie wird seit über einem Jahrzehnt mit Beiträgen einer großen Open-Source-Community weiterentwickelt, und ihr Kernset an Komponenten lässt sich mit MUI X erweitern, einer separaten Suite komplexerer Komponenten (Datengrids, Datumsauswahl, Diagramme) für fortgeschrittene Anwendungsfälle.\n\nSie eignet sich für React-Teams, die ein ausgereiftes, fertiges Set an barrierefreien UI-Komponenten nach den Konventionen von Material Design wollen, statt die Komponenten eines Designsystems von Grund auf selbst zu bauen."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2014-08-18",
+      "archived": false,
+      "openIssuesCount": 1477,
+      "stargazersCount": 99046,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted React component libraries; strong representative pick for a thin ui category."
+    },
+    "flag": "ok"
   }
 }

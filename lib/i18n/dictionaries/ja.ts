@@ -3,6 +3,12 @@ import type { Dictionary } from "../types";
 const dictionary: Dictionary = {
   skipToContent: "コンテンツへスキップ",
   adSlotLabel: "広告",
+  evidenceBadges: {
+    activelyMaintained: "活発にメンテナンスされている",
+    wellDocumented: "ドキュメントが充実",
+    permissiveLicense: "寛容なライセンス",
+    foundationBacked: "財団の支援あり",
+  },
   nav: {
     categories: "カテゴリ",
     contribute: "コントリビュート",

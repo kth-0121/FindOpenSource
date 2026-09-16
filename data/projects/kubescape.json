@@ -42,5 +42,33 @@
       "description": "Scanner für Kubernetes-Sicherheitslage und Compliance, der Cluster gegen Sicherheitsframeworks und Best Practices prüft.",
       "longDescription": "Kubescape scannt Kubernetes-Cluster, Manifeste und Helm-Charts gegen etablierte Sicherheitsframeworks – wie den NSA-CISA-Hardening-Guide und MITRE ATT&CK – sowie Konfigurations-Best-Practices und erzeugt einen Risiko-Score sowie konkrete, umsetzbare Befunde statt einer Wand roher Ausgabe. Es deckt Sicherheitslage und Compliance ab, nicht aktive Runtime-Bedrohungserkennung.\n\nKubescape eignet sich für Teams, die ihre gesamte Kubernetes-Sicherheitslage bewerten und darüber berichten müssen – als Ergänzung zu kube-benchs engerem CIS-Benchmark-Fokus und Falcos Runtime-Erkennung (ebenfalls in diesem Katalog) mit einer breiteren Compliance- und Sicherheitslage-Sicht."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2021-08-12",
+      "archived": false,
+      "openIssuesCount": 42,
+      "stargazersCount": 11728,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 93
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Comprehensive Kubernetes security posture scanner, differentiated by breadth of checks."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "security-scanning",
+      "strength": "primary"
+    },
+    {
+      "concept": "vulnerability-scanning",
+      "strength": "secondary"
+    }
+  ]
 }

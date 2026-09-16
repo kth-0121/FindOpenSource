@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "validate": "tsx scripts/validate-projects.ts"
+    "validate": "tsx scripts/validate-projects.ts",
+    "audit:projects": "tsx scripts/audit-projects.ts"
   },
   "dependencies": {
     "next": "16.3.5",

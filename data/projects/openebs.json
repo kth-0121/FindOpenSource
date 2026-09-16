@@ -41,5 +41,23 @@
       "description": "Container-Attached-Storage-Plattform, die persistente Speichervolumes direkt innerhalb von Kubernetes bereitstellt und verwaltet.",
       "longDescription": "OpenEBS stellt Speicher als Kubernetes-native Ressourcen bereit und gibt jedem Workload einen eigenen dedizierten Speicher-Controller und Volumes, statt sich auf externe Speicherarrays zu verlassen, was die Speicherverwaltung für Teams vereinfacht, die bereits vollständig innerhalb von Kubernetes arbeiten. Es unterstützt mehrere Speicher-Engines je nach Anforderungen an Performance und Haltbarkeit.\n\nOpenEBS eignet sich für Teams, die Kubernetes-nativen persistenten Speicher wollen, ohne einen separaten Speicher-Cluster wie Ceph bereitzustellen und zu verwalten – eine leichtgewichtigere Option neben Rook und Longhorn, die bereits in diesem Katalog sind."
     }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2016-08-01",
+      "archived": false,
+      "openIssuesCount": 36,
+      "stargazersCount": 9813,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 91
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Kubernetes-native storage, meaningful overlap with Longhorn/Rook in a moderately-sized category."
+    },
+    "flag": "ok"
   }
 }

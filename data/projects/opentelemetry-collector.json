@@ -43,5 +43,37 @@
       "description": "Anbieterneutrale Pipeline zum Sammeln, Verarbeiten und Exportieren von Traces, Metriken und Logs aus Anwendungen in ein beliebiges Observability-Backend.",
       "longDescription": "Der OpenTelemetry Collector ist die einsetzbare Komponente von OpenTelemetry, dem von der CNCF graduierten Standard für Anwendungstelemetrie. Er empfängt Traces, Metriken und Logs von instrumentierten Anwendungen über offene Protokolle wie OTLP, kann diese Daten im Transit bündeln, filtern und transformieren und exportiert sie an ein oder mehrere Backends – sodass ein Team Observability-Backends durch Ändern der Collector-Konfiguration wechseln oder hinzufügen kann, statt jeden Dienst neu zu instrumentieren.\n\nEr läuft als Agent neben einer Anwendung oder als eigenständiges Gateway, das gleichzeitig von vielen Diensten sammelt, und bringt ein großes Ökosystem an Receivern und Exportern für gängige Tools mit, darunter Jaeger und Prometheus-kompatible Systeme, die bereits in diesem Katalog enthalten sind.\n\nDer Collector eignet sich für Teams, die einmal mit einem offenen, anbieterneutralen Standard instrumentieren und später entscheiden – oder ändern – möchten, wo diese Telemetriedaten landen, statt direkt gegen einen einzelnen proprietären Agenten zu instrumentieren."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-05-09",
+      "archived": false,
+      "openIssuesCount": 696,
+      "stargazersCount": 7553,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The standard vendor-neutral telemetry pipeline; essential representative project for observability."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "opentelemetry",
+      "strength": "primary"
+    },
+    {
+      "concept": "telemetry",
+      "strength": "primary"
+    },
+    {
+      "concept": "observability",
+      "strength": "secondary"
+    }
+  ]
 }

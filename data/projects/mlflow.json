@@ -42,5 +42,41 @@
       "description": "Quelloffene Plattform zur Verwaltung des Machine-Learning-Lebenszyklus: Experiment-Tracking, Modellverpackung, Versionierung und Deployment.",
       "longDescription": "MLflow verfolgt die Parameter, Metriken und Artefakte jedes ML-Trainingslaufs, damit ein Team Experimente vergleichen und Ergebnisse reproduzieren kann, verpackt trainierte Modelle in einem Standardformat, das über Serving-Frameworks hinweg funktioniert, und verwaltet eine Model Registry zum Versionieren und Befördern von Modellen Richtung Produktion. Es ist framework-agnostisch und funktioniert mit PyTorch, TensorFlow, scikit-learn und anderen, die bereits in diesem Katalog sind.\n\nMLflow eignet sich für Data-Science-Teams, die Experimente systematisch verfolgen und Modelle verwalten müssen, statt verstreut in Notebooks und Tabellen – es füllt eine MLOps-Lücke, die in den ML-Framework-Einträgen dieses Katalogs derzeit fehlt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2018-06-05",
+      "archived": false,
+      "openIssuesCount": 2094,
+      "stargazersCount": 27961,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard open-source ML lifecycle/experiment-tracking platform."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "experiment-tracking",
+      "strength": "primary"
+    },
+    {
+      "concept": "model-registry",
+      "strength": "primary"
+    },
+    {
+      "concept": "mlops",
+      "strength": "secondary"
+    },
+    {
+      "concept": "model-comparison",
+      "strength": "secondary"
+    }
+  ]
 }

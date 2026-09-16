@@ -42,5 +42,33 @@
       "description": "Verteilte Such- und Analytics-Engine unter Apache-2.0-Lizenz, ein Fork von Elasticsearch, um eine vollständig quelloffene Alternative für Volltextsuche und Log-Analytik zu garantieren.",
       "longDescription": "OpenSearch ist eine quelloffene, verteilte Such- und Analytics-Engine, die Dokumente für schnelle Volltextsuche, Aggregationen und Analytik im großen Maßstab indexiert. Es entstand als Fork von Elasticsearch und Kibana, nachdem Elastic diese Projekte von einer OSI-anerkannten Lizenz weggeführt hatte, und steht weiterhin unter der Apache-2.0-Lizenz, gepflegt von der OpenSearch Software Foundation mit Unterstützung von AWS und anderen Unternehmen.\n\nEs wird häufig für Anwendungs- und Website-Suche, Log- und Observability-Analytik als Backend für strukturierte Log-Daten sowie Sicherheitsanalytik eingesetzt, mit OpenSearch Dashboards zur Visualisierung obendrauf – weitgehend API-kompatibel mit dem Elasticsearch-Ökosystem, aus dem es hervorgegangen ist, was die Migration für Teams erleichtert, die bereits ähnliche Tools nutzen.\n\nOpenSearch eignet sich für Teams, die Elasticsearch-artige Volltextsuche und Analytik unter einer Lizenz wollen, die auch künftig quelloffen bleibt, und ist eine direkte Apache-2.0-Alternative zum bereits in diesem Katalog vorhandenen Elasticsearch-Eintrag für Teams, denen dieser Lizenzunterschied wichtig ist."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2021-01-29",
+      "archived": false,
+      "openIssuesCount": 3177,
+      "stargazersCount": 13714,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 100
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The fully open-source fork of Elasticsearch, a strong alternative given Elasticsearch's AGPL/SSPL history."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "full-text-search",
+      "strength": "primary"
+    },
+    {
+      "concept": "search-engine",
+      "strength": "primary"
+    }
+  ]
 }

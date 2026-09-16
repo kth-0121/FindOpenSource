@@ -45,5 +45,37 @@
       "description": "Quelloffene Vektordatenbank für skalierbare Ähnlichkeitssuche und KI-Anwendungen.",
       "longDescription": "Milvus ist eine Vektordatenbank, die speziell dafür entwickelt wurde, Embeddings – Vektordarstellungen unstrukturierter Daten wie Text, Bilder und multimodaler Inhalte – zusammen mit gewöhnlichen skalaren Feldern wie Ganzzahlen, Strings oder JSON zu speichern und zu durchsuchen, sodass sich Vektor-Ähnlichkeitssuche mit Metadatenfilterung kombinieren lässt.\n\nSie basiert auf einer verteilten, Kubernetes-nativen Architektur, die Compute und Storage trennt, sodass Abfrage- und Dateneinlese-Kapazität unabhängig voneinander skaliert werden können; unterstützt werden außerdem ein Standalone-Modus für eine einzelne Maschine sowie das leichtgewichtige, per pip installierbare Milvus Lite für lokales Prototyping. Mehrere Vektorindex-Typen (HNSW, IVF, FLAT, SCANN, DiskANN) und GPU-Beschleunigung werden unterstützt, sodass der Index für unterschiedliche Abwägungen zwischen Genauigkeit, Geschwindigkeit und Speicherverbrauch angepasst werden kann.\n\nMilvus kann selbst gehostet oder als vollständig verwalteter Dienst auf Zilliz Cloud genutzt werden. Es eignet sich für Teams, die KI-Anwendungen mit Vektorsuche im großen Maßstab bauen – etwa Retrieval-Augmented Generation, Empfehlungssysteme oder multimodale Suche – statt Vektorsuche nachträglich an eine universelle Datenbank anzuflanschen."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2019-09-16",
+      "archived": false,
+      "openIssuesCount": 1416,
+      "stargazersCount": 46118,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 99
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading purpose-built vector database; essential representative project for vector search."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "vector-database",
+      "strength": "primary"
+    },
+    {
+      "concept": "similarity-search",
+      "strength": "primary"
+    },
+    {
+      "concept": "embeddings",
+      "strength": "secondary"
+    }
+  ]
 }

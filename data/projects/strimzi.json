@@ -41,5 +41,33 @@
       "description": "Kubernetes-Operator, der den Betrieb von Apache-Kafka-Clustern automatisiert und Deployment, Konfiguration und Lebenszyklusverwaltung übernimmt.",
       "longDescription": "Strimzi verpackt Apache Kafka (ebenfalls in diesem Katalog) und seine umgebenden Komponenten als Kubernetes-Custom-Resources und -Operatoren und automatisiert Cluster-Provisionierung, Topic- und Benutzerverwaltung, Upgrades und Skalierung, die sonst manuelle Kafka-Administrationskenntnisse erfordern würden. Ein Team verwaltet Kafka genauso wie jeden anderen Kubernetes-Workload.\n\nStrimzi eignet sich für Teams, die Kafka auf Kubernetes betreiben wollen, ohne es von Hand zu administrieren – eine Kubernetes-Operator-Schicht über Kafka selbst statt ein Ersatz dafür."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2016-05-06",
+      "archived": false,
+      "openIssuesCount": 153,
+      "stargazersCount": 5933,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "evaluatedAt": "2026-09-15",
+      "score": 91
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "The standard operator for running Kafka on Kubernetes, complementary to Apache Kafka itself."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "kafka",
+      "strength": "secondary"
+    },
+    {
+      "concept": "event-streaming",
+      "strength": "secondary"
+    }
+  ]
 }

@@ -43,5 +43,41 @@
       "description": "Quelloffene Produktanalyseplattform mit Feature Flags, Session Replay und A/B-Tests.",
       "longDescription": "PostHog begann als Produktanalyse-Tool und hat sich zu einer breiteren Plattform für Produktentwicklung entwickelt: Neben ereignisbasierter Analyse und Webanalyse umfasst es Session Replay, Feature Flags, A/B-Experimente, Fehlerverfolgung, Log-Erfassung, codefreie Umfragen, ein Data Warehouse, das externe Quellen (wie Stripe oder Hubspot) synchronisiert, konfigurierbare Datenpipelines zu über 25 Zielen, KI-Observability für LLM-gestützte Apps sowie Automatisierungs-Workflows – alles einsehbar in einem einzigen Produkt.\n\nEs wird über ein JavaScript-Snippet, offizielle SDKs (JS, Python, Node, Mobile und andere Backend-Sprachen) oder seine API installiert und kann auch als MCP-Server verbunden werden, um PostHog-Daten in KI-Coding-Agenten wie Claude Code oder Cursor einzubringen.\n\nDer Kern ist MIT-lizenziert (abgesehen vom separaten `ee`-Verzeichnis), und der empfohlene Weg, es zu betreiben, ist PostHog Cloud (USA oder EU) mit einem großzügigen kostenlosen monatlichen Kontingent; ein selbst gehostetes, quelloffenes „Hobby-Deploy“ ist ebenfalls über Docker verfügbar, wobei die Maintainer anmerken, dass selbst gehostete Deployments keinen offiziellen Support erhalten und für den kleineren Einsatz gedacht sind, bevor man zu Cloud wechselt."
     }
-  }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2020-01-23",
+      "archived": false,
+      "openIssuesCount": 5537,
+      "stargazersCount": 39803,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-15",
+      "score": 95
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading all-in-one open-source product analytics platform."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "product-analytics",
+      "strength": "primary"
+    },
+    {
+      "concept": "experimentation",
+      "strength": "secondary"
+    },
+    {
+      "concept": "feature-flags",
+      "strength": "secondary"
+    },
+    {
+      "concept": "feature-management",
+      "strength": "secondary"
+    }
+  ]
 }
