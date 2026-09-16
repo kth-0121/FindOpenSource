@@ -1,0 +1,70 @@
+{
+  "name": "OpenHands",
+  "slug": "openhands",
+  "description": "AI-driven software development platform where autonomous agents can modify code, run commands, browse the web, and call APIs to complete engineering tasks end to end.",
+  "longDescription": "OpenHands (formerly OpenDevin) runs agents in a sandboxed environment with real developer capabilities: editing code, executing shell commands, browsing the web, and calling APIs, so a task can go from description to a working change without a human driving every step. It's designed for end-to-end autonomy rather than the turn-by-turn assistive model of tools like Aider (also in this catalog).\n\nOpenHands is a fit for teams experimenting with more autonomous software engineering workflows -- letting an agent attempt a full task in a sandbox and review the result -- rather than pair-programming with continuous human oversight.",
+  "repository": "https://github.com/All-Hands-AI/OpenHands",
+  "website": "https://openhands.dev",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "coding-agent",
+    "autonomous-agent",
+    "agent-harness",
+    "software-engineering"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "AI 驱动的软件开发平台，自主智能体可以修改代码、运行命令、浏览网页并调用 API，从头到尾完成工程任务。",
+      "longDescription": "OpenHands（原 OpenDevin）在沙箱环境中运行具备真实开发者能力的智能体：编辑代码、执行 shell 命令、浏览网页、调用 API，因此一个任务可以从描述直接变成可用的更改，而无需人工驱动每一步。它面向端到端的自主性，而不是像 Aider（同样收录于本目录）那样逐轮进行的辅助式模型。\n\nOpenHands 适合正在尝试更自主的软件工程工作流的团队——让智能体在沙箱中尝试完成整个任务并审查结果，而不是持续由人工监督的结对编程。"
+    },
+    "ja": {
+      "description": "自律的なエージェントがコードを変更し、コマンドを実行し、ウェブを閲覧し、APIを呼び出してエンジニアリングタスクをエンドツーエンドで完了させる、AI駆動のソフトウェア開発プラットフォームです。",
+      "longDescription": "OpenHands（旧OpenDevin）は、実際の開発者能力を持つエージェントをサンドボックス環境で実行します：コードの編集、シェルコマンドの実行、ウェブ閲覧、API呼び出しなどを行い、タスクの説明から人が一歩ずつ操作することなく実際に動く変更へと進められます。(同じくカタログにある)Aiderのようなターンごとの補助的モデルではなく、エンドツーエンドの自律性のために設計されています。\n\nOpenHandsは、より自律的なソフトウェアエンジニアリングのワークフロー——エージェントにサンドボックス内でタスク全体を試みさせ、結果をレビューする——を試したいチームに向いています。継続的な人による監督付きのペアプログラミングとは異なります。"
+    },
+    "ko": {
+      "description": "자율 에이전트가 코드를 수정하고, 명령을 실행하고, 웹을 탐색하고, API를 호출해 엔지니어링 작업을 처음부터 끝까지 완료하는 AI 기반 소프트웨어 개발 플랫폼입니다.",
+      "longDescription": "OpenHands(구 OpenDevin)는 실제 개발자 능력을 가진 에이전트를 샌드박스 환경에서 실행합니다: 코드 편집, 셸 명령 실행, 웹 탐색, API 호출 등을 수행해, 작업 설명만으로 사람이 매 단계를 조작하지 않고도 실제로 작동하는 변경사항까지 이어질 수 있습니다. (카탈로그에 있는) Aider 같은 턴 단위 보조 모델이 아니라 엔드투엔드 자율성을 위해 설계됐습니다.\n\nOpenHands는 더 자율적인 소프트웨어 엔지니어링 워크플로 — 에이전트가 샌드박스에서 전체 작업을 시도하고 결과를 검토하는 방식 — 를 실험하는 팀에 적합합니다. 지속적인 사람의 감독이 필요한 페어 프로그래밍과는 다릅니다."
+    },
+    "es": {
+      "description": "Plataforma de desarrollo de software impulsada por IA donde agentes autónomos pueden modificar código, ejecutar comandos, navegar por la web y llamar a APIs para completar tareas de ingeniería de principio a fin.",
+      "longDescription": "OpenHands (antes OpenDevin) ejecuta agentes en un entorno aislado (sandbox) con capacidades reales de desarrollador: editar código, ejecutar comandos de shell, navegar por la web y llamar a APIs, de modo que una tarea puede pasar de una descripción a un cambio funcional sin que un humano dirija cada paso. Está diseñado para la autonomía de principio a fin, a diferencia del modelo asistido turno a turno de herramientas como Aider (también en este catálogo).\n\nOpenHands encaja en equipos que experimentan con flujos de trabajo de ingeniería de software más autónomos -- dejando que un agente intente completar una tarea entera en un sandbox y revisando el resultado -- en lugar de programar en pareja con supervisión humana continua."
+    },
+    "de": {
+      "description": "KI-gesteuerte Softwareentwicklungsplattform, auf der autonome Agenten Code ändern, Befehle ausführen, im Web surfen und APIs aufrufen können, um technische Aufgaben von Anfang bis Ende zu erledigen.",
+      "longDescription": "OpenHands (früher OpenDevin) führt Agenten in einer Sandbox-Umgebung mit echten Entwicklerfähigkeiten aus: Code bearbeiten, Shell-Befehle ausführen, im Web surfen und APIs aufrufen -- eine Aufgabe kann so von der Beschreibung bis zu einer funktionierenden Änderung gelangen, ohne dass ein Mensch jeden Schritt steuert. Es ist auf End-to-End-Autonomie ausgelegt statt auf das schrittweise unterstützende Modell von Tools wie Aider (ebenfalls in diesem Katalog).\n\nOpenHands passt zu Teams, die mit autonomeren Software-Engineering-Workflows experimentieren -- einen Agenten eine ganze Aufgabe in einer Sandbox versuchen lassen und das Ergebnis prüfen -- statt Pair-Programming mit kontinuierlicher menschlicher Aufsicht."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-16",
+      "repoCreatedAt": "2024-03-13",
+      "archived": false,
+      "openIssuesCount": 812,
+      "stargazersCount": 88099,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-16",
+      "score": 79
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "Leading platform for end-to-end autonomous software engineering agents, a distinct paradigm from assistive tools like Aider."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "coding-agent",
+      "strength": "primary"
+    }
+  ]
+}

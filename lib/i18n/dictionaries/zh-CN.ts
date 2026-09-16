@@ -137,6 +137,10 @@ const dictionary: Dictionary = {
       name: "移动端",
       description: "用于构建跨平台移动应用的框架。",
     },
+    "ai-agents": {
+      name: "AI 智能体与智能体工具",
+      description: "用于构建 AI 智能体、让智能体使用工具并完成实际工作的框架与基础设施。",
+    },
   },
   categoriesPage: {
     title: "分类",

@@ -1,0 +1,70 @@
+{
+  "name": "SWE-agent",
+  "slug": "swe-agent",
+  "description": "Takes a GitHub issue and autonomously tries to fix it with your LLM of choice; also usable for offensive cybersecurity and competitive coding challenges (NeurIPS 2024).",
+  "longDescription": "SWE-agent gives an LLM a custom agent-computer interface for navigating and editing code repositories, then points it at a real GitHub issue and lets it attempt an automatic fix -- generating a pull-request-ready patch. It originates from the academic team behind the SWE-bench benchmark, which is now widely used to measure coding-agent performance across the industry.\n\nSWE-agent is a fit for teams and researchers who want a rigorously benchmarked, research-grade autonomous issue-resolution agent, or who want to reuse the same agent-computer interface for adjacent tasks like security research and competitive programming.",
+  "repository": "https://github.com/SWE-agent/SWE-agent",
+  "website": "https://swe-agent.com",
+  "documentation": "https://swe-agent.com",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "coding-agent",
+    "issue-resolution",
+    "swe-bench",
+    "autonomous-agent"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "接收一个 GitHub issue，自主尝试用你选择的 LLM 修复它；也可用于攻击性网络安全研究和竞技编程挑战（NeurIPS 2024）。",
+      "longDescription": "SWE-agent 为 LLM 提供了一个定制的智能体-计算机接口，用于浏览和编辑代码仓库，然后让它面对一个真实的 GitHub issue，尝试自动修复——生成一个可直接用于 pull request 的补丁。它源自 SWE-bench 基准测试背后的学术团队，该基准现已被业界广泛用于衡量编程智能体的性能。\n\nSWE-agent 适合希望使用经过严格基准测试、研究级别的自主 issue 解决智能体的团队和研究人员，或者希望将同一套智能体-计算机接口复用于安全研究、竞技编程等相邻任务的人。"
+    },
+    "ja": {
+      "description": "GitHub issueを受け取り、選んだLLMで自律的に修正を試みます。攻撃的サイバーセキュリティ研究や競技プログラミングの課題にも利用可能です（NeurIPS 2024）。",
+      "longDescription": "SWE-agentは、コードリポジトリを操作・編集するためのカスタムなエージェント-コンピュータインターフェースをLLMに与え、実際のGitHub issueを対象に自動修正を試みさせます——プルリクエストとしてすぐ使えるパッチを生成します。SWE-benchベンチマークを開発した学術チームに由来しており、このベンチマークは現在、業界全体でコーディングエージェントの性能測定に広く使われています。\n\nSWE-agentは、厳密にベンチマークされた研究グレードの自律的issue解決エージェントを求めるチームや研究者、またはセキュリティ研究や競技プログラミングなど隣接タスクに同じエージェント-コンピュータインターフェースを再利用したい人に向いています。"
+    },
+    "ko": {
+      "description": "GitHub 이슈를 받아 선택한 LLM으로 자율적으로 수정을 시도합니다. 공격적 사이버보안 연구와 경쟁 프로그래밍 챌린지에도 사용 가능합니다 (NeurIPS 2024).",
+      "longDescription": "SWE-agent는 코드 저장소를 탐색하고 편집하기 위한 맞춤형 에이전트-컴퓨터 인터페이스를 LLM에 제공한 다음, 실제 GitHub 이슈를 대상으로 자동 수정을 시도하게 합니다 — pull request에 바로 쓸 수 있는 패치를 생성합니다. SWE-bench 벤치마크를 만든 학계 팀에서 시작됐으며, 이 벤치마크는 현재 업계 전반에서 코딩 에이전트 성능을 측정하는 데 널리 쓰입니다.\n\nSWE-agent는 엄격하게 벤치마크된 연구급 자율 이슈 해결 에이전트를 원하는 팀·연구자, 또는 같은 에이전트-컴퓨터 인터페이스를 보안 연구나 경쟁 프로그래밍 같은 인접 작업에 재사용하고 싶은 사람에게 적합합니다."
+    },
+    "es": {
+      "description": "Toma un issue de GitHub e intenta arreglarlo de forma autónoma con el LLM que elijas; también se puede usar para ciberseguridad ofensiva y desafíos de programación competitiva (NeurIPS 2024).",
+      "longDescription": "SWE-agent le da a un LLM una interfaz agente-computadora personalizada para navegar y editar repositorios de código, y luego lo dirige a un issue real de GitHub para que intente una corrección automática -- generando un parche listo para un pull request. Proviene del equipo académico detrás del benchmark SWE-bench, ahora ampliamente usado en la industria para medir el rendimiento de agentes de codificación.\n\nSWE-agent encaja en equipos e investigadores que quieren un agente de resolución autónoma de issues con evaluación rigurosa y nivel de investigación, o que quieren reutilizar la misma interfaz agente-computadora para tareas afines como investigación de seguridad y programación competitiva."
+    },
+    "de": {
+      "description": "Nimmt ein GitHub-Issue entgegen und versucht autonom, es mit dem LLM deiner Wahl zu beheben; auch für offensive Cybersicherheit und Programmierwettbewerbe nutzbar (NeurIPS 2024).",
+      "longDescription": "SWE-agent stattet ein LLM mit einer speziellen Agent-Computer-Schnittstelle zum Navigieren und Bearbeiten von Code-Repositories aus und lässt es dann an einem echten GitHub-Issue einen automatischen Fix versuchen -- inklusive eines pull-request-fertigen Patches. Es stammt vom akademischen Team hinter dem SWE-bench-Benchmark, der inzwischen branchenweit zur Messung der Leistung von Coding-Agenten verwendet wird.\n\nSWE-agent passt zu Teams und Forschenden, die einen rigoros benchmarkten, forschungsnahen autonomen Issue-Lösungsagenten wollen, oder die dieselbe Agent-Computer-Schnittstelle für angrenzende Aufgaben wie Sicherheitsforschung und Wettbewerbsprogrammierung wiederverwenden möchten."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2024-04-02",
+      "archived": false,
+      "openIssuesCount": 111,
+      "stargazersCount": 20338,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "evaluatedAt": "2026-09-16",
+      "score": 82
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Research-grade coding agent with a distinct academic lineage (SWE-bench) and issue-to-PR focus, differentiated from assistive/product-oriented tools."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "coding-agent",
+      "strength": "primary"
+    }
+  ]
+}

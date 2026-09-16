@@ -1,0 +1,69 @@
+{
+  "name": "Cline",
+  "slug": "cline",
+  "description": "Autonomous coding agent available as an IDE extension, CLI assistant or SDK, with a human-in-the-loop approval workflow for every file change and command.",
+  "longDescription": "Cline runs as a VS Code (and JetBrains) extension, a CLI assistant, or an embeddable SDK, and can create/edit files, run terminal commands, and use a browser to complete coding tasks. Every action is surfaced for approval by default rather than running fully unsupervised, so it fits directly into an existing editor-centered workflow.\n\nCline is a fit for developers who want an autonomous agent but want to stay inside their IDE and approve changes as they happen, distinct from terminal-first tools like Aider or fully unsupervised platforms like OpenHands (both also in this catalog).",
+  "repository": "https://github.com/cline/cline",
+  "website": "https://cline.bot",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "coding-agent",
+    "ide-extension",
+    "autonomous-agent",
+    "vscode"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "自主编程智能体，提供 IDE 扩展、CLI 助手或 SDK 形式，对每一次文件更改和命令执行都采用人工审批确认的工作流。",
+      "longDescription": "Cline 可作为 VS Code（以及 JetBrains）扩展、CLI 助手或可嵌入的 SDK 运行，能够创建/编辑文件、运行终端命令、使用浏览器来完成编程任务。默认情况下每个操作都会呈现出来等待批准，而不是完全无人监督地运行，因此可以直接融入现有的、以编辑器为中心的工作流。\n\nCline 适合那些想要一个自主智能体、但又希望留在 IDE 内并在变更发生时逐一批准的开发者，这与 Aider 这类终端优先的工具或 OpenHands 这类完全无人监督的平台（两者均收录于本目录）不同。"
+    },
+    "ja": {
+      "description": "IDE拡張機能、CLIアシスタント、またはSDKとして利用できる自律型コーディングエージェントで、ファイル変更やコマンド実行のたびに人間による承認を求めるワークフローを備えています。",
+      "longDescription": "ClineはVS Code（およびJetBrains）拡張機能、CLIアシスタント、または組み込み可能なSDKとして動作し、ファイルの作成・編集、ターミナルコマンドの実行、ブラウザの利用によってコーディングタスクを完了させます。完全に監視なしで実行するのではなく、デフォルトではすべての操作が承認のために表示されるため、既存のエディタ中心のワークフローにそのまま組み込めます。\n\nClineは、自律的なエージェントを使いたいがIDE内にとどまり変更が発生するたびに承認したい開発者に向いています。Aiderのようなターミナル優先のツールや、OpenHandsのような完全監視なしのプラットフォーム（いずれもこのカタログに掲載）とは異なります。"
+    },
+    "ko": {
+      "description": "IDE 확장, CLI 어시스턴트, SDK 형태로 사용 가능한 자율 코딩 에이전트로, 모든 파일 변경과 명령 실행마다 사람의 승인을 거치는 워크플로를 갖추고 있습니다.",
+      "longDescription": "Cline은 VS Code(및 JetBrains) 확장, CLI 어시스턴트, 또는 내장 가능한 SDK로 실행되며, 파일 생성/편집, 터미널 명령 실행, 브라우저 사용을 통해 코딩 작업을 완료할 수 있습니다. 완전히 감독 없이 실행되는 대신 기본적으로 모든 작업이 승인을 위해 표시되므로, 기존의 에디터 중심 워크플로에 그대로 녹아듭니다.\n\nCline은 자율 에이전트를 원하지만 IDE 안에 머물며 변경이 일어날 때마다 승인하고 싶은 개발자에게 적합합니다. Aider 같은 터미널 우선 도구나 OpenHands 같은 완전 무감독 플랫폼(둘 다 카탈로그에 있음)과는 다릅니다."
+    },
+    "es": {
+      "description": "Agente de codificación autónomo disponible como extensión de IDE, asistente de CLI o SDK, con un flujo de aprobación humano para cada cambio de archivo y comando.",
+      "longDescription": "Cline funciona como extensión de VS Code (y JetBrains), asistente de CLI o SDK integrable, y puede crear/editar archivos, ejecutar comandos de terminal y usar un navegador para completar tareas de codificación. Por defecto, cada acción se muestra para su aprobación en lugar de ejecutarse sin supervisión, por lo que encaja directamente en un flujo de trabajo centrado en el editor ya existente.\n\nCline encaja en desarrolladores que quieren un agente autónomo pero prefieren quedarse dentro de su IDE y aprobar los cambios a medida que ocurren, a diferencia de herramientas centradas en terminal como Aider o plataformas totalmente sin supervisión como OpenHands (ambas también en este catálogo)."
+    },
+    "de": {
+      "description": "Autonomer Coding-Agent, verfügbar als IDE-Erweiterung, CLI-Assistent oder SDK, mit einem Human-in-the-Loop-Genehmigungsworkflow für jede Dateiänderung und jeden Befehl.",
+      "longDescription": "Cline läuft als VS-Code- (und JetBrains-)Erweiterung, CLI-Assistent oder einbettbares SDK und kann Dateien erstellen/bearbeiten, Terminalbefehle ausführen und einen Browser nutzen, um Coding-Aufgaben zu erledigen. Standardmäßig wird jede Aktion zur Genehmigung angezeigt, statt vollständig unbeaufsichtigt zu laufen, wodurch es sich nahtlos in einen bestehenden, editorzentrierten Workflow einfügt.\n\nCline passt zu Entwicklern, die einen autonomen Agenten wollen, aber in ihrer IDE bleiben und Änderungen bei ihrem Auftreten genehmigen möchten -- anders als terminal-zentrierte Tools wie Aider oder vollständig unbeaufsichtigte Plattformen wie OpenHands (beide ebenfalls in diesem Katalog)."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-16",
+      "repoCreatedAt": "2024-07-06",
+      "archived": false,
+      "openIssuesCount": 1330,
+      "stargazersCount": 68160,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-16",
+      "score": 79
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most widely adopted IDE-native autonomous coding agents, with a distinct human-in-the-loop approval UX."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "coding-agent",
+      "strength": "primary"
+    }
+  ]
+}

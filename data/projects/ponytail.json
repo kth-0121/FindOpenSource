@@ -1,0 +1,74 @@
+{
+  "name": "Ponytail",
+  "slug": "ponytail",
+  "description": "A coding-agent skill that enforces YAGNI and minimal, pragmatic solutions -- installs into Claude Code, Cursor, Codex and 15+ other agent platforms.",
+  "longDescription": "Ponytail is not an agent itself -- it's a skill/plugin that attaches to an existing coding agent (Claude Code, Cursor, Codex, GitHub Copilot CLI, and others) and changes how it writes code. Before generating anything, it forces the agent through a decision ladder: does this need to exist at all, is it already in the codebase, is it in the standard library, is there a native platform feature, is it an already-installed dependency, can it be one line -- and only then writes the minimum necessary.\n\nPonytail is a fit for teams who find coding agents tend to over-engineer (unnecessary abstractions, extra dependencies, speculative flexibility) and want a lightweight, installable correction rather than prompting for it every time. It's a genuinely different category from full agent frameworks (also in this catalog) -- it doesn't build agents, it modifies the behavior of agents you already use.",
+  "repository": "https://github.com/DietrichGebert/ponytail",
+  "website": "https://ponytail.dev",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "coding-agent",
+    "yagni",
+    "claude-code-plugin"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "一个编程智能体技能，强制执行 YAGNI 和最小化实用方案 —— 可安装到 Claude Code、Cursor、Codex 等 15 个以上智能体平台。",
+      "longDescription": "Ponytail 本身不是一个智能体，而是一个附加到现有编程智能体（Claude Code、Cursor、Codex、GitHub Copilot CLI 等）上的技能/插件，改变它编写代码的方式。在生成任何代码之前，它会强制智能体走一遍判断阶梯：这真的需要存在吗、代码库里是否已有、标准库里有没有、有没有原生平台功能、有没有已安装的依赖、能不能一行搞定——只有到最后才会写出最少必要的代码。\n\nPonytail 适合那些发现编程智能体倾向于过度设计（不必要的抽象、额外依赖、投机性的灵活性）、希望有一个轻量级、可安装的纠正方案而不是每次都要重新提示的团队。这与目录中的完整智能体框架是完全不同的类别——它不构建智能体，而是修改你已经在用的智能体的行为。"
+    },
+    "ja": {
+      "description": "YAGNIと最小限で実用的な解決策を強制するコーディングエージェント用スキル。Claude Code、Cursor、Codexなど15以上のエージェントプラットフォームにインストール可能。",
+      "longDescription": "Ponytailそれ自体はエージェントではなく、既存のコーディングエージェント（Claude Code、Cursor、Codex、GitHub Copilot CLIなど）に取り付けて、コードの書き方を変えるスキル/プラグインです。何かを生成する前に、エージェントに判断のはしごを強制的に通らせます：これは本当に必要か、すでにコードベースにあるか、標準ライブラリにあるか、ネイティブなプラットフォーム機能はあるか、すでにインストール済みの依存関係はあるか、1行で済むか——そこまで来て初めて、必要最小限のコードを書きます。\n\nPonytailは、コーディングエージェントが過剰設計になりがちだと感じており（不要な抽象化、余分な依存関係、投機的な柔軟性）、毎回プロンプトで指示する代わりに軽量でインストール可能な是正策を求めるチームに向いています。これは、このカタログにある完全なエージェントフレームワークとは全く異なるカテゴリーです——エージェントを構築するのではなく、すでに使っているエージェントの振る舞いを変えるものです。"
+    },
+    "ko": {
+      "description": "YAGNI와 최소한의 실용적인 해결책을 강제하는 코딩 에이전트용 스킬. Claude Code, Cursor, Codex 등 15개 이상의 에이전트 플랫폼에 설치 가능.",
+      "longDescription": "Ponytail 자체는 에이전트가 아니라, 기존 코딩 에이전트(Claude Code, Cursor, Codex, GitHub Copilot CLI 등)에 설치되어 코드를 작성하는 방식을 바꾸는 스킬/플러그인입니다. 무언가를 생성하기 전에, 에이전트가 판단의 사다리를 거치도록 강제합니다: 이게 정말 필요한가, 이미 코드베이스에 있는가, 표준 라이브러리에 있는가, 네이티브 플랫폼 기능이 있는가, 이미 설치된 의존성이 있는가, 한 줄로 해결되는가 — 그제서야 필요한 최소한의 코드를 작성합니다.\n\nPonytail은 코딩 에이전트가 과도하게 설계하는 경향(불필요한 추상화, 추가 의존성, 투기적인 유연성)이 있다고 느끼고, 매번 프롬프트로 지시하는 대신 가볍고 설치 가능한 교정 수단을 원하는 팀에 적합합니다. 이는 카탈로그에 있는 완전한 에이전트 프레임워크와는 완전히 다른 범주입니다 — 에이전트를 만드는 게 아니라, 이미 쓰고 있는 에이전트의 행동을 바꾸는 것입니다."
+    },
+    "es": {
+      "description": "Una skill para agentes de codificación que impone YAGNI y soluciones mínimas y pragmáticas -- se instala en Claude Code, Cursor, Codex y más de 15 plataformas de agentes.",
+      "longDescription": "Ponytail no es un agente en sí mismo, sino una skill/plugin que se conecta a un agente de codificación existente (Claude Code, Cursor, Codex, GitHub Copilot CLI y otros) y cambia cómo escribe código. Antes de generar nada, obliga al agente a pasar por una escalera de decisiones: ¿esto necesita existir?, ¿ya está en el código base?, ¿está en la librería estándar?, ¿hay una función nativa de la plataforma?, ¿es una dependencia ya instalada?, ¿puede ser una línea? -- y solo entonces escribe lo mínimo necesario.\n\nPonytail encaja en equipos que notan que los agentes de codificación tienden a sobrediseñar (abstracciones innecesarias, dependencias extra, flexibilidad especulativa) y quieren una corrección ligera e instalable en lugar de tener que indicarlo cada vez. Es una categoría genuinamente distinta de los frameworks de agentes completos (también en este catálogo): no construye agentes, modifica el comportamiento de los agentes que ya usas."
+    },
+    "de": {
+      "description": "Ein Skill für Coding-Agenten, der YAGNI und minimale, pragmatische Lösungen erzwingt -- installierbar in Claude Code, Cursor, Codex und über 15 weiteren Agenten-Plattformen.",
+      "longDescription": "Ponytail ist selbst kein Agent, sondern ein Skill/Plugin, das sich an einen bestehenden Coding-Agenten (Claude Code, Cursor, Codex, GitHub Copilot CLI und andere) andockt und verändert, wie dieser Code schreibt. Bevor irgendetwas generiert wird, zwingt es den Agenten durch eine Entscheidungsleiter: Muss das überhaupt existieren, ist es schon im Code, gibt es das in der Standardbibliothek, gibt es eine native Plattformfunktion, gibt es eine bereits installierte Abhängigkeit, geht es in einer Zeile -- erst dann wird das Nötigste geschrieben.\n\nPonytail passt zu Teams, die merken, dass Coding-Agenten zu Overengineering neigen (unnötige Abstraktionen, zusätzliche Abhängigkeiten, spekulative Flexibilität), und die eine leichtgewichtige, installierbare Korrektur wollen statt es jedes Mal per Prompt einzufordern. Das ist eine grundlegend andere Kategorie als vollständige Agenten-Frameworks (ebenfalls in diesem Katalog) -- es baut keine Agenten, sondern verändert das Verhalten von Agenten, die bereits genutzt werden."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-14",
+      "repoCreatedAt": "2026-06-12",
+      "archived": false,
+      "openIssuesCount": 272,
+      "stargazersCount": 139793,
+      "productionReadiness": "emerging",
+      "governance": "community",
+      "evaluatedAt": "2026-09-16",
+      "score": 64
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Only representative project of the agent skills/plugins sub-area in this catalog; extremely young but already directly validated by real usage."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    },
+    {
+      "concept": "coding-agent",
+      "strength": "secondary"
+    }
+  ]
+}

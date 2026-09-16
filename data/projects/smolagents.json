@@ -1,0 +1,68 @@
+{
+  "name": "smolagents",
+  "slug": "smolagents",
+  "description": "A barebones library for agents that think in code -- the agent writes and executes actual code to take actions, rather than emitting structured JSON tool calls.",
+  "longDescription": "smolagents takes a code-first approach: instead of an agent emitting a JSON blob that a framework then interprets as a tool call, the agent writes real code (typically Python) to take actions directly, which Hugging Face's research suggests is often more capable and efficient than JSON-based tool calling for complex tasks. The library itself is intentionally minimal.\n\nsmolagents is a fit for teams who want to experiment with or adopt the code-execution paradigm for agents rather than the more common JSON-tool-call pattern used by most agent frameworks (several already in this catalog) -- a genuinely different approach, not just another framework with the same underlying model.",
+  "repository": "https://github.com/huggingface/smolagents",
+  "documentation": "https://huggingface.co/docs/smolagents",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "ai-agents",
+    "code-agent",
+    "agent-framework"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "一个面向“用代码思考”的智能体的极简库——智能体编写并执行真正的代码来采取行动，而不是输出结构化的 JSON 工具调用。",
+      "longDescription": "smolagents 采用了一种代码优先的方式：智能体不是输出一段由框架解释为工具调用的 JSON，而是直接编写真正的代码（通常是 Python）来执行操作，Hugging Face 的研究表明，对于复杂任务而言，这种方式往往比基于 JSON 的工具调用更有能力、更高效。这个库本身刻意保持精简。\n\nsmolagents 适合那些想要尝试或采用“代码执行”这一智能体范式、而不是大多数智能体框架（本目录中已收录多个）所使用的更常见的 JSON 工具调用模式的团队——这是一种真正不同的方法，而不仅仅是又一个底层模型相同的框架。"
+    },
+    "ja": {
+      "description": "コードで考えるエージェントのための最小限のライブラリです——エージェントは構造化されたJSONツール呼び出しを出力するのではなく、実際のコードを書いて実行することで行動を起こします。",
+      "longDescription": "smolagentsはコード優先のアプローチを取ります：エージェントがフレームワークによってツール呼び出しとして解釈されるJSONの塊を出力するのではなく、エージェントが直接、実際のコード（通常はPython）を書いてアクションを実行します。Hugging Faceの研究によれば、複雑なタスクにおいてはこの方式の方がJSONベースのツール呼び出しよりも能力が高く効率的であることが多いとされています。このライブラリ自体は意図的に最小限に保たれています。\n\nsmolagentsは、ほとんどのエージェントフレームワーク（このカタログにも複数掲載）が使う、より一般的なJSONツール呼び出しパターンではなく、エージェントのためのコード実行パラダイムを試したい、あるいは採用したいチームに向いています——単に同じ基盤モデルを持つ別のフレームワークではなく、本質的に異なるアプローチです。"
+    },
+    "ko": {
+      "description": "코드로 사고하는 에이전트를 위한 미니멀한 라이브러리입니다 — 에이전트가 구조화된 JSON 도구 호출을 출력하는 대신, 실제 코드를 작성하고 실행해 행동을 취합니다.",
+      "longDescription": "smolagents는 코드 우선 접근 방식을 취합니다: 에이전트가 프레임워크에 의해 도구 호출로 해석되는 JSON 덩어리를 출력하는 대신, 에이전트가 직접 실제 코드(보통 Python)를 작성해 행동을 취합니다. Hugging Face의 연구에 따르면 복잡한 작업에서는 이 방식이 JSON 기반 도구 호출보다 더 능력 있고 효율적인 경우가 많다고 합니다. 라이브러리 자체는 의도적으로 최소한으로 유지됩니다.\n\nsmolagents는 대부분의 에이전트 프레임워크(카탈로그에 이미 여러 개 있음)가 사용하는 더 흔한 JSON 도구 호출 패턴 대신, 에이전트를 위한 코드 실행 패러다임을 실험하거나 채택하고 싶은 팀에 적합합니다 — 단순히 동일한 기반 모델을 가진 또 다른 프레임워크가 아니라, 진짜로 다른 접근 방식입니다."
+    },
+    "es": {
+      "description": "Una librería minimalista para agentes que piensan en código -- el agente escribe y ejecuta código real para realizar acciones, en lugar de emitir llamadas a herramientas en JSON estructurado.",
+      "longDescription": "smolagents adopta un enfoque centrado en el código: en lugar de que un agente emita un bloque JSON que un framework interpreta luego como una llamada a herramienta, el agente escribe código real (normalmente Python) para actuar directamente, lo cual, según la investigación de Hugging Face, suele ser más capaz y eficiente que las llamadas a herramientas basadas en JSON para tareas complejas. La librería en sí es intencionadamente mínima.\n\nsmolagents encaja en equipos que quieren experimentar con, o adoptar, el paradigma de ejecución de código para agentes en lugar del patrón más común de llamadas a herramientas en JSON que usan la mayoría de los frameworks de agentes (varios ya en este catálogo) -- un enfoque genuinamente distinto, no solo otro framework con el mismo modelo subyacente."
+    },
+    "de": {
+      "description": "Eine schlanke Bibliothek für Agenten, die in Code denken -- der Agent schreibt und führt echten Code aus, um zu handeln, statt strukturierte JSON-Tool-Aufrufe auszugeben.",
+      "longDescription": "smolagents verfolgt einen code-first-Ansatz: Statt dass ein Agent einen JSON-Block ausgibt, den ein Framework anschließend als Tool-Aufruf interpretiert, schreibt der Agent direkt echten Code (meist Python), um zu handeln -- laut Forschung von Hugging Face oft leistungsfähiger und effizienter als JSON-basierte Tool-Aufrufe bei komplexen Aufgaben. Die Bibliothek selbst ist bewusst minimal gehalten.\n\nsmolagents passt zu Teams, die das Code-Ausführungs-Paradigma für Agenten ausprobieren oder übernehmen wollen, statt des gebräuchlicheren JSON-Tool-Call-Musters, das die meisten Agenten-Frameworks (mehrere bereits in diesem Katalog) verwenden -- ein grundlegend anderer Ansatz, nicht nur ein weiteres Framework mit demselben zugrunde liegenden Modell."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-08-25",
+      "repoCreatedAt": "2024-12-05",
+      "archived": false,
+      "openIssuesCount": 813,
+      "stargazersCount": 29345,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-16",
+      "score": 79
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Code-execution-first paradigm is a genuinely different technical approach from the JSON-tool-call frameworks otherwise in the catalog."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "ai-agents",
+      "strength": "primary"
+    }
+  ]
+}

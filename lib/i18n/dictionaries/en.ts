@@ -137,6 +137,11 @@ const dictionary: Dictionary = {
       name: "Mobile",
       description: "Frameworks for building cross-platform mobile applications.",
     },
+    "ai-agents": {
+      name: "AI Agents & Agent Tools",
+      description:
+        "Frameworks, tools and infrastructure for building AI agents and helping them use tools and get work done.",
+    },
   },
   categoriesPage: {
     title: "Categories",

@@ -1,0 +1,74 @@
+{
+  "name": "LangGraph",
+  "slug": "langgraph",
+  "description": "Build resilient, stateful agents as graphs -- explicit nodes and edges for control flow, rather than an implicit agent loop, for reliable long-running or multi-step workflows.",
+  "longDescription": "LangGraph models an agent's control flow as an explicit graph (nodes for steps, edges for transitions) with built-in state persistence, so you can build agents that pause, resume, branch, and recover from failure predictably, rather than relying on an LLM to implicitly manage the whole flow. It's from the team behind LangChain (also in this catalog) but is architecturally distinct -- a state-machine approach rather than a chain/agent-loop abstraction.\n\nLangGraph is a fit for teams building agents where reliability and explicit control over the workflow matter -- long-running processes, human-in-the-loop approval steps, or complex branching logic -- rather than a simple single-pass agent.",
+  "repository": "https://github.com/langchain-ai/langgraph",
+  "website": "https://www.langchain.com/langgraph",
+  "documentation": "https://docs.langchain.com/oss/python/langgraph/",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-orchestration",
+    "stateful-agent",
+    "graph-based-workflow"
+  ],
+  "languages": [
+    "Python",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "把智能体的控制流构建为显式的图——用节点和边来表达流程，而不是隐式的智能体循环，从而实现可靠的长时间运行或多步骤工作流。",
+      "longDescription": "LangGraph 将智能体的控制流建模为一个显式的图（用节点表示步骤、用边表示转移），并内置状态持久化，因此你可以构建能够暂停、恢复、分支并从失败中可预测地恢复的智能体，而不是依赖 LLM 隐式地管理整个流程。它来自 LangChain（同样收录于本目录）背后的团队，但架构上截然不同——是一种状态机方法，而不是链式/智能体循环的抽象。\n\nLangGraph 适合那些在构建智能体时看重可靠性和对工作流显式控制的团队——长时间运行的流程、人工审批步骤，或复杂的分支逻辑——而不是简单的单次执行智能体。"
+    },
+    "ja": {
+      "description": "エージェントの制御フローを、暗黙的なエージェントループではなく、制御フローのための明示的なノードとエッジを持つグラフとして構築し、長時間実行や複数ステップのワークフローを信頼性高く実現します。",
+      "longDescription": "LangGraphは、エージェントの制御フローを明示的なグラフ（ステップのためのノード、遷移のためのエッジ）としてモデル化し、組み込みの状態永続化を備えているため、LLMに全体のフローを暗黙的に管理させるのではなく、一時停止、再開、分岐、失敗からの回復を予測可能な形で行えるエージェントを構築できます。(同じくカタログにある)LangChainを開発したチームによるものですが、アーキテクチャとしては明確に異なります——チェーン/エージェントループの抽象化ではなく、ステートマシン的アプローチです。\n\nLangGraphは、信頼性やワークフローへの明示的な制御が重要なエージェント——長時間実行されるプロセス、人による承認ステップ、複雑な分岐ロジックなど——を構築するチームに向いています。単純な単発実行のエージェントとは異なります。"
+    },
+    "ko": {
+      "description": "암묵적인 에이전트 루프 대신 제어 흐름을 위한 명시적인 노드와 엣지로 에이전트의 제어 흐름을 그래프로 구성해, 신뢰할 수 있는 장기 실행 또는 다단계 워크플로를 만듭니다.",
+      "longDescription": "LangGraph는 에이전트의 제어 흐름을 명시적인 그래프(단계를 위한 노드, 전환을 위한 엣지)로 모델링하고 상태 지속성을 내장해, LLM이 전체 흐름을 암묵적으로 관리하게 맡기는 대신 일시정지, 재개, 분기, 실패로부터의 예측 가능한 복구가 가능한 에이전트를 만들 수 있게 합니다. (카탈로그에 있는) LangChain을 만든 팀에서 나왔지만 아키텍처적으로는 확연히 다릅니다 — 체인/에이전트 루프 추상화가 아니라 상태 머신 방식입니다.\n\nLangGraph는 신뢰성과 워크플로에 대한 명시적 제어가 중요한 에이전트 — 장기 실행 프로세스, 사람의 승인 단계, 복잡한 분기 로직 — 를 만드는 팀에 적합하며, 단순한 단일 패스 에이전트와는 다릅니다."
+    },
+    "es": {
+      "description": "Construye agentes resilientes y con estado como grafos -- nodos y aristas explícitos para el flujo de control, en lugar de un bucle de agente implícito, para flujos de trabajo fiables de larga duración o de varios pasos.",
+      "longDescription": "LangGraph modela el flujo de control de un agente como un grafo explícito (nodos para los pasos, aristas para las transiciones) con persistencia de estado incorporada, de modo que puedes construir agentes que se pausan, reanudan, ramifican y se recuperan de fallos de forma predecible, en lugar de depender de que un LLM gestione implícitamente todo el flujo. Proviene del equipo detrás de LangChain (también en este catálogo), pero es arquitectónicamente distinto: un enfoque de máquina de estados en lugar de una abstracción de cadena/bucle de agente.\n\nLangGraph encaja en equipos que construyen agentes donde la fiabilidad y el control explícito sobre el flujo de trabajo importan -- procesos de larga duración, pasos de aprobación con humano en el bucle, o lógica de ramificación compleja -- en lugar de un agente simple de una sola pasada."
+    },
+    "de": {
+      "description": "Baue robuste, zustandsbehaftete Agenten als Graphen -- explizite Knoten und Kanten für den Kontrollfluss statt einer impliziten Agentenschleife, für zuverlässige, langlaufende oder mehrstufige Workflows.",
+      "longDescription": "LangGraph modelliert den Kontrollfluss eines Agenten als expliziten Graphen (Knoten für Schritte, Kanten für Übergänge) mit eingebauter Zustandspersistenz, sodass man Agenten bauen kann, die pausieren, fortsetzen, verzweigen und vorhersagbar aus Fehlern wiederherstellen können, statt sich darauf zu verlassen, dass ein LLM den gesamten Ablauf implizit steuert. Es stammt vom Team hinter LangChain (ebenfalls in diesem Katalog), ist architektonisch aber klar unterschieden -- ein Zustandsautomaten-Ansatz statt einer Chain-/Agentenschleifen-Abstraktion.\n\nLangGraph passt zu Teams, die Agenten bauen, bei denen Zuverlässigkeit und explizite Kontrolle über den Workflow wichtig sind -- langlaufende Prozesse, Human-in-the-Loop-Genehmigungsschritte oder komplexe Verzweigungslogik -- statt eines einfachen einstufigen Agenten."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-15",
+      "repoCreatedAt": "2023-08-09",
+      "archived": false,
+      "openIssuesCount": 790,
+      "stargazersCount": 41751,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-16",
+      "score": 86
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Graph-based, stateful control flow is a genuinely different architecture from conversational multi-agent frameworks already in the catalog."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-orchestration",
+      "strength": "primary"
+    },
+    {
+      "concept": "ai-agents",
+      "strength": "secondary"
+    }
+  ]
+}

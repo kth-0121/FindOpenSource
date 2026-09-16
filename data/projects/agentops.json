@@ -1,0 +1,68 @@
+{
+  "name": "AgentOps",
+  "slug": "agentops",
+  "description": "Python SDK for AI agent monitoring, LLM cost tracking and benchmarking, integrating with most major agent frameworks including CrewAI, LangChain and AutoGen.",
+  "longDescription": "AgentOps gives visibility into what an agent actually did -- traces of its decisions, tool calls and reasoning steps -- plus LLM cost tracking and benchmarking, purpose-built for the multi-step, tool-using nature of agents rather than single LLM calls. It integrates with most major agent frameworks (several already in this catalog) instead of requiring a specific one.\n\nAgentOps is a fit for teams running agents in production who need to debug why an agent took a particular action, track the real cost of running it, and catch regressions -- observability for agent behavior specifically, distinct from general LLM-response evaluation.",
+  "repository": "https://github.com/AgentOps-AI/agentops",
+  "website": "https://agentops.ai",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-evaluation",
+    "agent-observability",
+    "llm-cost-tracking"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "用于 AI 智能体监控、LLM 成本追踪与基准测试的 Python SDK，可与 CrewAI、LangChain、AutoGen 等大多数主流智能体框架集成。",
+      "longDescription": "AgentOps 让你能够看清智能体实际做了什么——它的决策、工具调用和推理步骤的追踪记录——再加上 LLM 成本追踪与基准测试，专为智能体那种多步骤、使用工具的特性打造，而不是针对单次 LLM 调用。它可以与大多数主流智能体框架集成（本目录中已收录多个），而不需要绑定某一个特定框架。\n\nAgentOps 适合那些在生产环境中运行智能体、需要调试智能体为何采取某个特定行动、追踪运行的真实成本、并及时发现回归问题的团队——这是专门针对智能体行为的可观测性，与通用的 LLM 响应评估不同。"
+    },
+    "ja": {
+      "description": "AIエージェントの監視、LLMコスト追跡、ベンチマークのためのPython SDKで、CrewAI、LangChain、AutoGenなど主要なエージェントフレームワークの大半と統合できます。",
+      "longDescription": "AgentOpsは、エージェントが実際に何をしたのか——その意思決定、ツール呼び出し、推論ステップのトレース——を可視化し、それに加えてLLMコスト追跡とベンチマークも提供します。単発のLLM呼び出しではなく、エージェント特有の多段階でツールを使う性質のために専用設計されています。特定のフレームワークを必要とせず、主要なエージェントフレームワーク（このカタログにも複数掲載）の大半と統合できます。\n\nAgentOpsは、本番環境でエージェントを運用しており、エージェントがなぜ特定の行動を取ったのかをデバッグし、実際の運用コストを追跡し、リグレッションを検知する必要があるチームに向いています。エージェントの振る舞いそのものに特化したオブザーバビリティであり、一般的なLLM応答評価とは異なります。"
+    },
+    "ko": {
+      "description": "AI 에이전트 모니터링, LLM 비용 추적, 벤치마킹을 위한 Python SDK로, CrewAI, LangChain, AutoGen 등 대부분의 주요 에이전트 프레임워크와 통합됩니다.",
+      "longDescription": "AgentOps는 에이전트가 실제로 무엇을 했는지 — 결정, 도구 호출, 추론 단계의 추적 — 을 보여주고, 여기에 LLM 비용 추적과 벤치마킹을 더합니다. 단일 LLM 호출이 아니라 여러 단계를 거치며 도구를 사용하는 에이전트 특유의 성격에 맞춰 설계됐습니다. 특정 프레임워크를 요구하지 않고 대부분의 주요 에이전트 프레임워크(카탈로그에 이미 여러 개 있음)와 통합됩니다.\n\nAgentOps는 프로덕션에서 에이전트를 운영하며 에이전트가 왜 특정 행동을 했는지 디버깅하고, 실제 운영 비용을 추적하고, 회귀를 잡아내야 하는 팀에 적합합니다. 일반적인 LLM 응답 평가와는 다른, 에이전트 행동 전용 관측성입니다."
+    },
+    "es": {
+      "description": "SDK de Python para monitorización de agentes de IA, seguimiento de costes de LLM y benchmarking, que se integra con la mayoría de los frameworks de agentes principales, incluyendo CrewAI, LangChain y AutoGen.",
+      "longDescription": "AgentOps ofrece visibilidad sobre lo que un agente hizo realmente -- trazas de sus decisiones, llamadas a herramientas y pasos de razonamiento -- además de seguimiento de costes de LLM y benchmarking, diseñado específicamente para la naturaleza de múltiples pasos y uso de herramientas de los agentes, en lugar de para llamadas individuales a un LLM. Se integra con la mayoría de los frameworks de agentes principales (varios ya en este catálogo) en lugar de requerir uno específico.\n\nAgentOps encaja en equipos que ejecutan agentes en producción y necesitan depurar por qué un agente tomó una acción concreta, rastrear el coste real de ejecutarlo y detectar regresiones -- observabilidad específica para el comportamiento de agentes, distinta de la evaluación genérica de respuestas de LLM."
+    },
+    "de": {
+      "description": "Python-SDK für KI-Agenten-Monitoring, LLM-Kostenverfolgung und Benchmarking, das sich in die meisten großen Agenten-Frameworks integriert, darunter CrewAI, LangChain und AutoGen.",
+      "longDescription": "AgentOps gibt Einblick in das, was ein Agent tatsächlich getan hat -- Traces seiner Entscheidungen, Tool-Aufrufe und Denkschritte --, dazu LLM-Kostenverfolgung und Benchmarking, speziell für die mehrstufige, werkzeugnutzende Natur von Agenten statt für einzelne LLM-Aufrufe konzipiert. Es integriert sich in die meisten großen Agenten-Frameworks (mehrere bereits in diesem Katalog) statt ein bestimmtes vorauszusetzen.\n\nAgentOps passt zu Teams, die Agenten in Produktion betreiben und debuggen müssen, warum ein Agent eine bestimmte Aktion ausgeführt hat, die tatsächlichen Betriebskosten verfolgen und Regressionen erkennen wollen -- Observability speziell für Agentenverhalten, anders als generische LLM-Antwortbewertung."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-06-25",
+      "repoCreatedAt": "2023-08-15",
+      "archived": false,
+      "openIssuesCount": 181,
+      "stargazersCount": 5821,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-16",
+      "score": 69
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "The clearest representative pick for agent-specific observability/evaluation, distinct from generic LLM-response evaluation tools."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "llm-evaluation",
+      "strength": "secondary"
+    }
+  ]
+}

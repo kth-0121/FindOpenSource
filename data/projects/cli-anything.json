@@ -1,0 +1,68 @@
+{
+  "name": "CLI-Anything",
+  "slug": "cli-anything",
+  "description": "Turns any professional software into an agent-native CLI tool via a single pip install, so AI agents can control real applications without fragile UI automation.",
+  "longDescription": "CLI-Anything makes software with a codebase agent-native by generating complete, production-ready CLI interfaces for it -- creative tools (image editing, 3D modeling, vector graphics) and production tools (audio, office, live streaming, video editing) included. A simple pip install puts it on PATH, and agents discover the available tools via a standard `which` lookup, with no wrappers, APIs, or UI automation required.\n\nCLI-Anything is a fit for teams building agents that need to drive real, full-featured professional software rather than a dumbed-down reimplementation that only covers a fraction of the original functionality. It's a distinct niche in this catalog -- not a framework for building agents, not a memory layer, but infrastructure that exposes existing software to whatever agent already exists.",
+  "repository": "https://github.com/HKUDS/CLI-Anything",
+  "website": "https://clianything.cc",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-native",
+    "cli-generation",
+    "tool-use"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-16",
+  "translations": {
+    "zh-CN": {
+      "description": "只需一次 pip install，即可把任何专业软件变成智能体可用的 CLI 工具，让 AI 智能体无需脆弱的 UI 自动化即可控制真实应用。",
+      "longDescription": "CLI-Anything 通过为有代码库的软件生成完整、可用于生产的 CLI 接口，让软件变得对智能体友好——涵盖创意工具（图像编辑、3D 建模、矢量图形）和生产工具（音频、办公、直播、视频编辑）。一次简单的 pip install 就能把它放到 PATH 中，智能体通过标准的 `which` 查找就能发现可用工具，无需任何包装器、API 或 UI 自动化。\n\nCLI-Anything 适合那些需要让智能体驱动真实、功能完整的专业软件、而不是只覆盖原始功能一小部分的简化重实现的团队。它在本目录中是一个独特的细分领域——不是构建智能体的框架，也不是记忆层，而是把现有软件暴露给任何已有智能体使用的基础设施。"
+    },
+    "ja": {
+      "description": "pip install一つで、あらゆるプロフェッショナルソフトウェアをエージェントネイティブなCLIツールに変え、脆いUI自動化なしでAIエージェントが実際のアプリケーションを操作できるようにします。",
+      "longDescription": "CLI-Anythingは、コードベースを持つソフトウェアに対して完全な本番運用可能なCLIインターフェースを生成することで、エージェントフレンドリーにします——クリエイティブツール（画像編集、3Dモデリング、ベクターグラフィックス）や本番ツール（音声、オフィス、ライブ配信、動画編集）も対象です。シンプルなpip installでPATHに追加され、エージェントは標準的な`which`検索で利用可能なツールを発見できます。ラッパーやAPI、UI自動化は一切不要です。\n\nCLI-Anythingは、元の機能のごく一部しかカバーしない簡略化された再実装ではなく、実際の、機能豊富なプロフェッショナルソフトウェアをエージェントに操作させたいチームに向いています。このカタログの中でも独自のニッチです——エージェントを構築するフレームワークでもメモリレイヤーでもなく、既存のソフトウェアをすでにあるエージェントに公開するインフラです。"
+    },
+    "ko": {
+      "description": "pip install 한 번으로 모든 전문 소프트웨어를 에이전트 네이티브 CLI 도구로 바꿔, AI 에이전트가 취약한 UI 자동화 없이 실제 애플리케이션을 제어할 수 있게 합니다.",
+      "longDescription": "CLI-Anything은 코드베이스가 있는 소프트웨어에 완전하고 프로덕션 준비가 된 CLI 인터페이스를 생성해 에이전트 친화적으로 만듭니다 — 크리에이티브 도구(이미지 편집, 3D 모델링, 벡터 그래픽)와 프로덕션 도구(오디오, 오피스, 라이브 스트리밍, 영상 편집)도 포함됩니다. 간단한 pip install로 PATH에 추가되며, 에이전트는 표준 `which` 조회로 사용 가능한 도구를 발견합니다 — 래퍼, API, UI 자동화가 전혀 필요 없습니다.\n\nCLI-Anything은 원본 기능의 일부만 담은 단순화된 재구현이 아니라, 실제의 기능이 풍부한 전문 소프트웨어를 에이전트가 다루게 하려는 팀에 적합합니다. 이 카탈로그에서 독자적인 니치입니다 — 에이전트를 만드는 프레임워크도, 메모리 계층도 아니라, 기존 소프트웨어를 이미 존재하는 에이전트에게 노출하는 인프라입니다."
+    },
+    "es": {
+      "description": "Convierte cualquier software profesional en una herramienta CLI nativa para agentes con un solo pip install, para que los agentes de IA controlen aplicaciones reales sin automatización frágil de la interfaz.",
+      "longDescription": "CLI-Anything hace que el software con código fuente sea nativo para agentes generando interfaces CLI completas y listas para producción -- herramientas creativas (edición de imágenes, modelado 3D, gráficos vectoriales) y herramientas de producción (audio, ofimática, streaming en vivo, edición de vídeo) incluidas. Un simple pip install lo coloca en el PATH, y los agentes descubren las herramientas disponibles mediante una búsqueda estándar con `which`, sin necesidad de wrappers, APIs ni automatización de interfaz.\n\nCLI-Anything encaja en equipos que construyen agentes que necesitan manejar software profesional real y completo, en lugar de una reimplementación simplificada que solo cubre una fracción de la funcionalidad original. Es un nicho genuinamente distinto en este catálogo: no es un framework para construir agentes ni una capa de memoria, sino infraestructura que expone software existente a cualquier agente que ya exista."
+    },
+    "de": {
+      "description": "Verwandelt beliebige professionelle Software mit einem einzigen pip install in ein agenten-natives CLI-Tool, sodass KI-Agenten echte Anwendungen ohne fragile UI-Automatisierung steuern können.",
+      "longDescription": "CLI-Anything macht Software mit vorhandenem Quellcode agenten-nativ, indem es vollständige, produktionsreife CLI-Schnittstellen dafür generiert -- kreative Tools (Bildbearbeitung, 3D-Modellierung, Vektorgrafik) und Produktionswerkzeuge (Audio, Office, Livestreaming, Videobearbeitung) inklusive. Ein einfacher pip install setzt es in den PATH, und Agenten entdecken die verfügbaren Tools über eine Standard-`which`-Abfrage, ganz ohne Wrapper, APIs oder UI-Automatisierung.\n\nCLI-Anything passt zu Teams, die Agenten bauen, die echte, voll funktionsfähige professionelle Software steuern müssen statt einer vereinfachten Neuimplementierung, die nur einen Bruchteil der ursprünglichen Funktionalität abdeckt. Es ist eine eigenständige Nische in diesem Katalog -- kein Framework zum Bauen von Agenten, keine Memory-Schicht, sondern Infrastruktur, die vorhandene Software für jeden bereits existierenden Agenten zugänglich macht."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-08-21",
+      "repoCreatedAt": "2026-03-08",
+      "archived": false,
+      "openIssuesCount": 98,
+      "stargazersCount": 49472,
+      "productionReadiness": "emerging",
+      "governance": "community",
+      "evaluatedAt": "2026-09-16",
+      "score": 65
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Represents a genuinely novel niche -- turning arbitrary professional software into agent-usable CLIs -- with no equivalent elsewhere in the catalog."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

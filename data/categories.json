@@ -98,5 +98,10 @@
     "slug": "mobile",
     "name": "Mobile",
     "description": "Frameworks for building cross-platform mobile applications."
+  },
+  {
+    "slug": "ai-agents",
+    "name": "AI Agents & Agent Tools",
+    "description": "Open source projects for building AI agents, extending what they can do, and helping them use tools and get real work done."
   }
 ]

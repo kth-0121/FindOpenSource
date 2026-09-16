@@ -137,6 +137,11 @@ const dictionary: Dictionary = {
       name: "Mobile",
       description: "Frameworks zum Erstellen plattformübergreifender mobiler Apps.",
     },
+    "ai-agents": {
+      name: "KI-Agenten & Agenten-Tools",
+      description:
+        "Frameworks und Infrastruktur zum Erstellen von KI-Agenten, damit sie Tools nutzen und echte Aufgaben erledigen können.",
+    },
   },
   categoriesPage: {
     title: "Kategorien",

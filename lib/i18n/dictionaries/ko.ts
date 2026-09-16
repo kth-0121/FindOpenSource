@@ -137,6 +137,10 @@ const dictionary: Dictionary = {
       name: "모바일",
       description: "크로스플랫폼 모바일 앱을 만들기 위한 프레임워크입니다.",
     },
+    "ai-agents": {
+      name: "AI 에이전트 및 에이전트 도구",
+      description: "AI 에이전트를 만들고, 도구를 사용하게 하고, 실제 작업을 수행하도록 돕는 프레임워크와 인프라입니다.",
+    },
   },
   categoriesPage: {
     title: "카테고리",
