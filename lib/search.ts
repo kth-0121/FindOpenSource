@@ -125,50 +125,72 @@ function scoreIntentMatch(term: string, project: Project): number {
   return INTENT_RELATED_MATCH;
 }
 
+interface TokenMatch {
+  score: number;
+  // True when the token matched an exact field value or a curated intent
+  // (see project.intents / docs/project-evaluation.md) rather than only a
+  // raw substring hit -- used to tell a real signal apart from a compound
+  // keyword like "configuration-management" merely containing the token.
+  trusted: boolean;
+}
+
 function scoreTokenAgainstProject(
   token: string,
   project: Project,
   categories: Category[],
   weight: number,
-): number {
+): TokenMatch {
   let best = 0;
+  let trusted = false;
   const allowPartial = token.length >= MIN_PARTIAL_TOKEN_LENGTH;
 
   const name = project.name.toLowerCase();
-  if (name === token) best = Math.max(best, NAME_EXACT);
-  else if (allowPartial && name.includes(token)) best = Math.max(best, NAME_PARTIAL);
+  if (name === token) {
+    best = Math.max(best, NAME_EXACT);
+    trusted = true;
+  } else if (allowPartial && name.includes(token)) best = Math.max(best, NAME_PARTIAL);
 
   for (const keyword of project.keywords) {
     const value = keyword.toLowerCase();
-    if (value === token) best = Math.max(best, KEYWORD_EXACT);
-    else if (allowPartial && value.includes(token)) best = Math.max(best, KEYWORD_PARTIAL);
+    if (value === token) {
+      best = Math.max(best, KEYWORD_EXACT);
+      trusted = true;
+    } else if (allowPartial && value.includes(token)) best = Math.max(best, KEYWORD_PARTIAL);
   }
 
   for (const categorySlug of project.categories) {
-    if (categorySlug === token) best = Math.max(best, CATEGORY_EXACT);
-    else if (allowPartial && categorySlug.includes(token)) best = Math.max(best, CATEGORY_PARTIAL);
+    if (categorySlug === token) {
+      best = Math.max(best, CATEGORY_EXACT);
+      trusted = true;
+    } else if (allowPartial && categorySlug.includes(token)) best = Math.max(best, CATEGORY_PARTIAL);
 
     const category = categories.find((c) => c.slug === categorySlug);
     if (category) {
       const categoryName = category.name.toLowerCase();
-      if (categoryName === token) best = Math.max(best, CATEGORY_EXACT);
-      else if (allowPartial && categoryName.includes(token)) best = Math.max(best, CATEGORY_PARTIAL);
+      if (categoryName === token) {
+        best = Math.max(best, CATEGORY_EXACT);
+        trusted = true;
+      } else if (allowPartial && categoryName.includes(token)) best = Math.max(best, CATEGORY_PARTIAL);
     }
   }
 
   for (const language of project.languages ?? []) {
     const value = language.toLowerCase();
-    if (value === token) best = Math.max(best, LANGUAGE_EXACT);
-    else if (allowPartial && value.includes(token)) best = Math.max(best, LANGUAGE_PARTIAL);
+    if (value === token) {
+      best = Math.max(best, LANGUAGE_EXACT);
+      trusted = true;
+    } else if (allowPartial && value.includes(token)) best = Math.max(best, LANGUAGE_PARTIAL);
   }
 
   if (allowPartial && project.description.toLowerCase().includes(token)) {
     best = Math.max(best, DESCRIPTION_PARTIAL);
   }
 
-  best = Math.max(best, scoreIntentMatch(token, project));
+  const intentScore = scoreIntentMatch(token, project);
+  if (intentScore > 0) trusted = true;
+  best = Math.max(best, intentScore);
 
-  return best * weight;
+  return { score: best * weight, trusted };
 }
 
 /**
@@ -202,7 +224,8 @@ export function searchProjects(
   const expansionTerms = expandQuery(query, locale).filter((term) => !tokens.includes(term));
 
   const results = projects.map((project) => {
-    const tokenScores = tokens.map((token) => scoreTokenAgainstProject(token, project, categories, 1));
+    const tokenMatches = tokens.map((token) => scoreTokenAgainstProject(token, project, categories, 1));
+    const tokenScores = tokenMatches.map((match) => match.score);
     const directScore = tokenScores.reduce((total, tokenScore) => total + tokenScore, 0);
     const matchesEveryToken = tokens.length > 1 && tokenScores.every((tokenScore) => tokenScore > 0);
     const coverageBonus = matchesEveryToken ? tokens.length * ALL_TOKENS_MATCHED_BONUS : 0;
@@ -212,7 +235,19 @@ export function searchProjects(
       0,
     );
 
-    return { project, score: directScore + coverageBonus + expansionScore };
+    // A multi-word query where one word only hit as a raw substring inside an
+    // unrelated compound keyword (e.g. "management" inside a project's
+    // "configuration-management" tag for the query "identity management"),
+    // while the other word(s) matched nothing at all, and nothing else backs
+    // the result up (no exact field/intent match, no taxonomy expansion) is
+    // noise, not a real hit -- drop it instead of letting it fill a Top-5 slot.
+    const hasTrustedMatch = tokenMatches.some((match) => match.trusted);
+    const isUnsupportedPartialOnly =
+      tokens.length > 1 && !matchesEveryToken && !hasTrustedMatch && expansionScore === 0;
+
+    const score = isUnsupportedPartialOnly ? 0 : directScore + coverageBonus + expansionScore;
+
+    return { project, score };
   });
 
   return results

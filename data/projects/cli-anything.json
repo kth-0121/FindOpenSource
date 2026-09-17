@@ -9,6 +9,7 @@
     "ai-agents"
   ],
   "keywords": [
+    "cli",
     "agent-native",
     "cli-generation",
     "tool-use"
@@ -51,7 +52,7 @@
       "productionReadiness": "emerging",
       "governance": "community",
       "evaluatedAt": "2026-09-16",
-      "score": 65
+      "score": 67
     },
     "catalogValue": {
       "rating": 4,
