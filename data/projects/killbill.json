@@ -1,0 +1,43 @@
+{
+  "name": "Kill Bill",
+  "slug": "killbill",
+  "description": "Open source subscription billing and payments platform for running recurring revenue, invoicing and billing logic on your own infrastructure.",
+  "longDescription": "Kill Bill is a subscription billing and payments platform aimed at businesses that need to run recurring billing logic (subscriptions, trials, promotions, upgrades/downgrades, usage-based add-ons) without depending on the uptime, processing speed or pricing of a third-party billing SaaS. It's highly modularized rather than an all-in-one monolith, so teams can disable pieces they don't need or swap in an existing system for a specific part of the flow.\n\nOut of the box it provides real-time analytics and financial reporting, and a plugin architecture for integrating specific payment processors and other systems. It can run on-premises or in the cloud, and keeping billing/customer data in your own infrastructure avoids the vendor lock-in that comes with a fully hosted billing SaaS.\n\nKill Bill is a fit for businesses running non-trivial subscription or usage-based billing who want the flexibility of an in-house system and are prepared to operate it themselves, rather than teams that just need simple one-off payments.",
+  "repository": "https://github.com/killbill/killbill",
+  "website": "https://killbill.io",
+  "documentation": "https://docs.killbill.io",
+  "categories": [
+    "payments"
+  ],
+  "keywords": [
+    "subscription-billing",
+    "payments",
+    "invoicing",
+    "recurring-billing",
+    "usage-based-billing"
+  ],
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-25",
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-24",
+      "repoCreatedAt": "2012-10-21",
+      "archived": false,
+      "openIssuesCount": 270,
+      "stargazersCount": 5760,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-25",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Subscription/recurring billing is a distinct niche from BTCPay's crypto payments and Lago's usage-metering focus; a strong differentiated third pick in a very thin payments category."
+    },
+    "flag": "ok"
+  }
+}

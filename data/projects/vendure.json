@@ -1,0 +1,42 @@
+{
+  "name": "Vendure",
+  "slug": "vendure",
+  "description": "Open source headless commerce platform built with TypeScript, NestJS and GraphQL, with a plugin-first architecture.",
+  "longDescription": "Vendure is a headless commerce platform for modeling catalog, orders, pricing, promotions and customers on a backend you can change at the core rather than work around. It's built end-to-end in TypeScript on NestJS, exposes a GraphQL API, and ships a React/TanStack-based admin dashboard. Its plugin system is the primary extension point — most custom business logic is expected to be written as plugins rather than forked core code.\n\nIt supports single-store and multi-channel setups (useful for running D2C and B2B storefronts, or multiple regional storefronts, from one backend), and is commonly paired with a separate frontend framework since it's headless by design.\n\nVendure is dual-licensed: the open source edition is GPLv3, with a separate commercial license (Vendure Commercial License) available from Vendure GmbH for teams that need different terms. Worth knowing before adopting it, since that's a different model from the fully permissive licenses on some other platforms in this catalog.",
+  "repository": "https://github.com/vendurehq/vendure",
+  "website": "https://www.vendure.io",
+  "documentation": "https://docs.vendure.io",
+  "categories": [
+    "ecommerce"
+  ],
+  "keywords": [
+    "headless-commerce",
+    "ecommerce",
+    "graphql",
+    "b2b-commerce"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "GPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-09-25",
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-24",
+      "repoCreatedAt": "2018-06-11",
+      "archived": false,
+      "openIssuesCount": 240,
+      "stargazersCount": 8469,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-25",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "TypeScript/NestJS/GraphQL-native stack and plugin-first architecture genuinely differ from Medusa and Saleor, but ecommerce is no longer a thin category, so a good rather than essential fourth headless option."
+    },
+    "flag": "ok"
+  }
+}

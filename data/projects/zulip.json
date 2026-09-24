@@ -1,0 +1,43 @@
+{
+  "name": "Zulip",
+  "slug": "zulip",
+  "description": "Open source team chat with topic-based threading that keeps parallel conversations organized instead of one long scrolling feed.",
+  "longDescription": "Zulip is a team chat application built around topic-based threading: every message belongs to a channel and a topic within it, so multiple ongoing conversations stay organized and easy to catch up on instead of collapsing into a single interleaved stream. That structure is aimed at making both live, synchronous discussion and slower, asynchronous follow-up work well in the same tool, rather than treating chat as purely real-time.\n\nIt's self-hostable (Docker or a native installer) or available as a hosted service, includes a full REST API and bots/integrations framework, and supports end-to-end encrypted search across message history. The project is built by a distributed open source community — over 1,500 contributors and 99+ people with 100+ merged commits each, per the project's own numbers.\n\nZulip fits teams and open source projects that have outgrown a single flat chat channel and want conversations to stay navigable as the team or contributor base grows, without giving up real-time chat.",
+  "repository": "https://github.com/zulip/zulip",
+  "website": "https://zulip.com",
+  "documentation": "https://zulip.readthedocs.io/en/latest/",
+  "categories": [
+    "chat"
+  ],
+  "keywords": [
+    "team-chat",
+    "messaging",
+    "topic-threading",
+    "open-source-chat",
+    "async-communication"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-09-25",
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-24",
+      "repoCreatedAt": "2015-09-25",
+      "archived": false,
+      "openIssuesCount": 2023,
+      "stargazersCount": 25946,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-25",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Topic-based threading is a genuinely different conversation model from Mattermost/Rocket.Chat's channel-only approach; a strong third option in a very thin chat category."
+    },
+    "flag": "ok"
+  }
+}
