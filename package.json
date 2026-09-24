@@ -9,9 +9,11 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "validate": "tsx scripts/validate-projects.ts",
-    "audit:projects": "tsx scripts/audit-projects.ts"
+    "audit:projects": "tsx scripts/audit-projects.ts",
+    "test": "tsx --test lib/ai/*.test.ts"
   },
   "dependencies": {
+    "@next/third-parties": "^16.3.6",
     "next": "16.3.5",
     "react": "19.2.8",
     "react-dom": "19.2.8",
@@ -27,5 +29,9 @@
     "tailwindcss": "^4",
     "tsx": "^4.23.13",
     "typescript": "^5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "unrs-resolver@1.12.2": true
   }
 }
