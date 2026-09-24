@@ -1,0 +1,42 @@
+{
+  "name": "Typesense",
+  "slug": "typesense",
+  "description": "Fast, typo-tolerant open source search engine positioned as an easier-to-run alternative to Elasticsearch.",
+  "longDescription": "Typesense is a search engine built in C++ for fast, typo-tolerant full-text search, with built-in vector search for combining keyword and semantic (embedding-based) queries in the same index. It's designed to be simple to operate: a single binary, sane defaults, and a REST API, rather than a large distributed system that needs its own operations expertise to run well.\n\nCore features include faceting, filtering, sorting, geosearch, synonyms, and curation rules, plus official client libraries for several languages and a managed Typesense Cloud offering for teams that don't want to self-host. The project positions itself explicitly as a simpler alternative to Elasticsearch and to closed-source hosted search APIs.\n\nTypesense is a fit for teams that want instant, relevant search (site search, product search, in-app search) without taking on the operational complexity of a full Elasticsearch/OpenSearch cluster, and that may also want vector/hybrid search in the same system.",
+  "repository": "https://github.com/typesense/typesense",
+  "website": "https://typesense.org",
+  "documentation": "https://typesense.org/docs/",
+  "categories": [
+    "search"
+  ],
+  "keywords": [
+    "search-engine",
+    "full-text-search",
+    "vector-search",
+    "typo-tolerant-search"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "GPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-09-25",
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-09-24",
+      "repoCreatedAt": "2017-01-18",
+      "archived": false,
+      "openIssuesCount": 899,
+      "stargazersCount": 26590,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-25",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Real technical differentiation (built-in vector/hybrid search, single-binary ops model) but occupies similar positioning to Meilisearch already in the catalog, so a good rather than essential addition."
+    },
+    "flag": "ok"
+  }
+}

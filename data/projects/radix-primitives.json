@@ -1,0 +1,42 @@
+{
+  "name": "Radix Primitives",
+  "slug": "radix-primitives",
+  "description": "Unstyled, accessible React component primitives for building your own design system instead of adopting a pre-styled one.",
+  "longDescription": "Radix Primitives is a low-level React component library focused on accessibility, keyboard interaction and correct ARIA behavior for common UI patterns (dialogs, dropdowns, tooltips, tabs, popovers and more), deliberately shipped without visual styling. The idea is that you bring your own CSS/styling approach and get the accessibility and interaction behavior handled for you, rather than fighting to override another library's opinionated styles.\n\nComponents can be adopted incrementally — you don't need to commit to Radix as your entire UI layer, individual primitives can sit alongside existing components. It's the unstyled foundation that several popular styled component systems, including shadcn/ui already in this catalog, are built on top of.\n\nRadix Primitives fits teams building their own design system who want solved, tested accessibility behavior instead of re-implementing ARIA patterns from scratch, without inheriting someone else's visual design.",
+  "repository": "https://github.com/radix-ui/primitives",
+  "website": "https://radix-ui.com/primitives",
+  "documentation": "https://www.radix-ui.com/primitives/docs",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "component-library",
+    "design-system",
+    "accessibility",
+    "unstyled-components"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-09-25",
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-08-08",
+      "repoCreatedAt": "2020-06-19",
+      "archived": false,
+      "openIssuesCount": 356,
+      "stargazersCount": 19324,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-09-25",
+      "score": 84
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Unstyled primitives are a genuinely different layer from MUI's styled system, and Radix is literally the engine shadcn/ui is built on -- complementary rather than redundant in a thin ui category."
+    },
+    "flag": "ok"
+  }
+}
