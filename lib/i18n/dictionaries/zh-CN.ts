@@ -161,6 +161,8 @@ const dictionary: Dictionary = {
   },
   projectDetail: {
     overviewHeading: "概述",
+    whyHeading: "为什么收录此项目",
+    catalogRatingLabel: "目录评分",
     githubButton: "GitHub",
     websiteButton: "官网",
     documentationButton: "文档",
@@ -172,6 +174,18 @@ const dictionary: Dictionary = {
     spottedError: "发现信息有误？",
     suggestEditLink: "在 GitHub 上提出修改建议",
     suggestEditSuffix: "。",
+  },
+  productionReadiness: {
+    foundational: "基础项目",
+    mature: "成熟",
+    emerging: "新兴",
+    experimental: "实验性",
+  },
+  governance: {
+    foundation: "基金会治理",
+    "vendor-backed": "厂商支持",
+    community: "社区主导",
+    unknown: "治理情况未评估",
   },
   about: {
     title: "关于 FindOpenSource",

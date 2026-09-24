@@ -162,6 +162,8 @@ const dictionary: Dictionary = {
   },
   projectDetail: {
     overviewHeading: "Überblick",
+    whyHeading: "Warum es in diesem Katalog steht",
+    catalogRatingLabel: "Katalog-Bewertung",
     githubButton: "GitHub",
     websiteButton: "Website",
     documentationButton: "Dokumentation",
@@ -173,6 +175,18 @@ const dictionary: Dictionary = {
     spottedError: "Einen Fehler entdeckt? ",
     suggestEditLink: "Änderung auf GitHub vorschlagen",
     suggestEditSuffix: ".",
+  },
+  productionReadiness: {
+    foundational: "Grundlegend etabliert",
+    mature: "Ausgereift",
+    emerging: "Aufstrebend",
+    experimental: "Experimentell",
+  },
+  governance: {
+    foundation: "Stiftungsgeführt",
+    "vendor-backed": "Herstellergestützt",
+    community: "Community-getrieben",
+    unknown: "Governance nicht bewertet",
   },
   about: {
     title: "Über FindOpenSource",

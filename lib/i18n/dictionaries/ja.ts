@@ -161,6 +161,8 @@ const dictionary: Dictionary = {
   },
   projectDetail: {
     overviewHeading: "概要",
+    whyHeading: "このカタログに掲載されている理由",
+    catalogRatingLabel: "カタログ評価",
     githubButton: "GitHub",
     websiteButton: "Webサイト",
     documentationButton: "ドキュメント",
@@ -172,6 +174,18 @@ const dictionary: Dictionary = {
     spottedError: "誤りを見つけましたか? ",
     suggestEditLink: "GitHub で修正を提案する",
     suggestEditSuffix: "",
+  },
+  productionReadiness: {
+    foundational: "基盤プロジェクト",
+    mature: "成熟",
+    emerging: "新興",
+    experimental: "実験的",
+  },
+  governance: {
+    foundation: "財団によるガバナンス",
+    "vendor-backed": "ベンダー主導",
+    community: "コミュニティ主導",
+    unknown: "ガバナンス未評価",
   },
   about: {
     title: "FindOpenSource について",
