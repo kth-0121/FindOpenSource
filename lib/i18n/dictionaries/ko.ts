@@ -161,6 +161,8 @@ const dictionary: Dictionary = {
   },
   projectDetail: {
     overviewHeading: "개요",
+    whyHeading: "이 카탈로그에 오른 이유",
+    catalogRatingLabel: "카탈로그 평점",
     githubButton: "GitHub",
     websiteButton: "웹사이트",
     documentationButton: "문서",
@@ -172,6 +174,18 @@ const dictionary: Dictionary = {
     spottedError: "잘못된 정보를 발견하셨나요? ",
     suggestEditLink: "GitHub에서 수정 제안하기",
     suggestEditSuffix: "",
+  },
+  productionReadiness: {
+    foundational: "기반 프로젝트",
+    mature: "성숙 단계",
+    emerging: "신흥 단계",
+    experimental: "실험적",
+  },
+  governance: {
+    foundation: "재단 거버넌스",
+    "vendor-backed": "벤더 지원",
+    community: "커뮤니티 주도",
+    unknown: "거버넌스 미평가",
   },
   about: {
     title: "FindOpenSource 소개",

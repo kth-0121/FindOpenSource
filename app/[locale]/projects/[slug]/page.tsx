@@ -64,6 +64,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
     .map((category) => localizeCategory(category, dict));
   const relatedProjects = getRelatedProjects(project.slug, locale);
   const evidenceBadges = getEvidenceBadges(project);
+  const catalogValue = project.evaluation?.catalogValue;
+  const quality = project.evaluation?.quality;
+  const showGovernance = quality?.governance && quality.governance !== "unknown";
 
   const pageUrl = `${siteConfig.url}/${locale}/projects/${project.slug}`;
   const jsonLd = {
@@ -139,6 +142,34 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
               <p key={paragraph.slice(0, 40)}>{paragraph}</p>
             ))}
           </div>
+        </section>
+      )}
+
+      {catalogValue && (
+        <section
+          aria-labelledby="project-why"
+          className="mt-10 rounded-lg border border-border bg-muted/30 p-5"
+        >
+          <h2 id="project-why" className="mb-2 text-xl font-semibold tracking-tight">
+            {dict.projectDetail.whyHeading}
+          </h2>
+          <p className="mb-3 text-sm font-medium text-accent" aria-label={`${dict.projectDetail.catalogRatingLabel}: ${catalogValue.rating}/5`}>
+            {dict.projectDetail.catalogRatingLabel}: {"★".repeat(catalogValue.rating)}
+            {"☆".repeat(5 - catalogValue.rating)} ({catalogValue.rating}/5)
+          </p>
+          <p className="text-foreground/90">{catalogValue.rationale}</p>
+          {(quality?.productionReadiness || showGovernance) && (
+            <ul className="mt-4 flex flex-wrap gap-2 text-sm text-muted-foreground">
+              {quality?.productionReadiness && (
+                <li className="rounded-full bg-muted px-3 py-1">
+                  {dict.productionReadiness[quality.productionReadiness]}
+                </li>
+              )}
+              {showGovernance && quality?.governance && (
+                <li className="rounded-full bg-muted px-3 py-1">{dict.governance[quality.governance]}</li>
+              )}
+            </ul>
+          )}
         </section>
       )}
 

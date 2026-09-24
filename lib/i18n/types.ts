@@ -74,6 +74,8 @@ export interface Dictionary {
   };
   projectDetail: {
     overviewHeading: string;
+    whyHeading: string;
+    catalogRatingLabel: string;
     githubButton: string;
     websiteButton: string;
     documentationButton: string;
@@ -85,6 +87,18 @@ export interface Dictionary {
     spottedError: string;
     suggestEditLink: string;
     suggestEditSuffix: string;
+  };
+  productionReadiness: {
+    foundational: string;
+    mature: string;
+    emerging: string;
+    experimental: string;
+  };
+  governance: {
+    foundation: string;
+    "vendor-backed": string;
+    community: string;
+    unknown: string;
   };
   about: {
     title: string;
