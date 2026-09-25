@@ -30,9 +30,17 @@ through GitHub pull requests.
 - **Multilingual search** — search in any of the 6 supported languages; colloquial queries like
   "로그인" or "ログイン" expand to the canonical English keywords behind the scenes.
 - **Shareable search URLs** — every search is a real URL (`/en/search?q=authentication`).
+- **AI-assisted search** (optional) — when configured, natural-language queries are expanded via
+  an LLM into canonical search concepts before falling back to plain keyword search; disabled by
+  default and never required. See [`lib/ai/`](lib/ai/).
+- **Compare projects** — pick any two projects and see their license, categories, languages and
+  catalog signals side by side, shareable via URL (`/en/compare?a=meilisearch&b=typesense`).
+- **Catalog Value ratings** — every project carries a 0–5 rating with a written rationale for why
+  it's worth including, plus maturity/governance tags. See
+  [`docs/project-evaluation.md`](docs/project-evaluation.md).
 - **Category browsing** — 20 curated categories from AI to DevOps.
-- **Static & fast** — built with the Next.js App Router; every localized project and category
-  page is statically generated at build time.
+- **Static & fast** — built with the Next.js App Router; every localized project, category and
+  comparison page is statically generated at build time.
 - **SEO-friendly** — locale-aware metadata, OpenGraph, hreflang alternates, JSON-LD, sitemap and
   canonical URLs for every page.
 
@@ -147,13 +155,17 @@ app/
   [locale]/            Localized routes (root layout lives here — <html lang> per locale)
     page.tsx             Home page
     search/              Search results (/[locale]/search?q=...)
+    compare/              Compare index + two-project comparison picker (/[locale]/compare)
     projects/[slug]/     Project detail pages
     categories/[slug]/   Category pages
     about/, contribute/  Static content pages
     not-found.tsx        Localized 404
+  api/search/understand/  AI query-understanding endpoint (progressive enhancement, opt-in)
   sitemap.ts, robots.ts  Top-level SEO endpoints (locale-independent URLs)
 middleware.ts          Prefixes unlocalized paths with the default locale (no browser-language redirect)
 components/           Reusable UI components (locale/dict-aware) + LanguageSwitcher
+  ComparePicker.tsx      Client-side project picker for /compare
+  ComparisonTable.tsx    Side-by-side comparison cards for two selected projects
 data/
   projects/*.json        One canonical file per project; optional per-locale `translations`
   categories.json         Canonical (English) category definitions; stable slugs
@@ -161,6 +173,8 @@ lib/
   schema.ts               Zod schemas for projects & categories
   projects.ts, categories.ts   Data loaders with locale-aware resolution + fallback
   search.ts                Relevance-ranked, locale-aware search
+  ai/                       Optional LLM query-understanding layer (prompt, schema, cache, rate limit)
+  evaluation/               Quality score + catalog value + evidence badge logic (docs/project-evaluation.md)
   i18n/
     config.ts               Locales, default locale, BCP 47 / OpenGraph metadata
     types.ts                 Dictionary interface (source of truth for required UI strings)

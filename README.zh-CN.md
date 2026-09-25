@@ -25,8 +25,15 @@ FindOpenSource 是一个完全静态、由社区共同维护的目录。没有�
 - **多语言搜索** — 可以用支持的 6 种语言中任意一种搜索；"登录"、"ログイン" 这类口语化查询会在
   后台自动扩展为对应的标准英文关键词。
 - **可分享的搜索 URL** — 每次搜索都是一个真实的 URL（`/zh-CN/search?q=authentication`）。
+- **AI 辅助搜索**（可选）— 配置后，自然语言查询会先通过 LLM 扩展为标准搜索概念，再回退到普通
+  关键词搜索；默认关闭，并非必需。详见 [`lib/ai/`](lib/ai/)。
+- **项目对比** — 选择任意两个项目，并排查看它们的许可证、分类、语言和目录评级，并可通过 URL
+  分享（`/zh-CN/compare?a=meilisearch&b=typesense`）。
+- **目录评级** — 每个项目都有 0～5 分的评级，附带说明为何收录该项目的理由，以及成熟度/治理
+  标签。详见 [`docs/project-evaluation.md`](docs/project-evaluation.md)。
 - **分类浏览** — 从 AI 到 DevOps，共 20 个精心整理的分类。
-- **静态且快速** — 基于 Next.js App Router 构建；每个本地化的项目和分类页面都在构建时静态生成。
+- **静态且快速** — 基于 Next.js App Router 构建；每个本地化的项目、分类和对比页面都在构建时
+  静态生成。
 - **对 SEO 友好** — 每个页面都具备本地化元数据、OpenGraph、hreflang 备用链接、JSON-LD、站点地图
   和 canonical URL。
 
@@ -134,13 +141,17 @@ app/
   [locale]/            按语言划分的路由（根布局也在这里 —— 每种语言各自的 <html lang>）
     page.tsx             首页
     search/              搜索结果 (/[locale]/search?q=...)
+    compare/              对比首页 + 双项目选择器 (/[locale]/compare)
     projects/[slug]/     项目详情页
     categories/[slug]/   分类页
     about/, contribute/  静态内容页
     not-found.tsx        本地化的 404 页面
+  api/search/understand/  AI 查询理解接口（可选的渐进增强功能）
   sitemap.ts, robots.ts  顶层 SEO 端点（与语言无关的 URL）
 middleware.ts          为不带语言前缀的路径加上默认语言前缀（不做浏览器语言自动跳转）
 components/           可复用的 UI 组件（感知语言/字典）+ LanguageSwitcher
+  ComparePicker.tsx      /compare 的客户端项目选择组件
+  ComparisonTable.tsx    展示两个已选项目并排对比的卡片
 data/
   projects/*.json        每个项目一个标准文件；可选的按语言 `translations`
   categories.json         标准（英文）分类定义；固定 slug
@@ -148,6 +159,8 @@ lib/
   schema.ts               项目与分类的 Zod schema
   projects.ts, categories.ts   支持语言感知解析 + 回退的数据加载器
   search.ts                按相关度排序、语言感知的搜索
+  ai/                       可选的 LLM 查询理解层（prompt、schema、缓存、限流）
+  evaluation/               质量分数 + 目录评级 + 证据徽章逻辑 (docs/project-evaluation.md)
   i18n/
     config.ts               语言列表、默认语言、BCP 47 / OpenGraph 元数据
     types.ts                 字典接口（必需 UI 文案的唯一标准）

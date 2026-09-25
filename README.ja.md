@@ -30,9 +30,17 @@ FindOpenSource は完全に静的で、コミュニティによって運営さ�
 - **多言語検索** — 対応する 6 言語のどれでも検索可能。「로그인」「登录」のような口語的なクエリは、
   裏側で標準的な英語キーワードに展開されます。
 - **共有可能な検索 URL** — すべての検索結果は実際の URL です（`/ja/search?q=authentication`）。
+- **AI 支援検索**（任意）— 設定されている場合、自然言語のクエリは LLM によって標準的な検索
+  コンセプトに拡張された後、通常のキーワード検索にフォールバックします。デフォルトでは無効で、
+  必須ではありません。詳細は [`lib/ai/`](lib/ai/) を参照してください。
+- **プロジェクト比較** — 任意の 2 つのプロジェクトを選び、ライセンス・カテゴリ・言語・カタログ
+  指標を並べて比較でき、URL で共有もできます（`/ja/compare?a=meilisearch&b=typesense`）。
+- **カタログ評価** — すべてのプロジェクトに、なぜこのカタログに含まれているかを説明する 0〜5
+  の評価と根拠、成熟度・ガバナンスのタグが付いています。詳細は
+  [`docs/project-evaluation.md`](docs/project-evaluation.md) を参照してください。
 - **カテゴリ閲覧** — AI から DevOps まで、20 個の厳選されたカテゴリ。
 - **静的で高速** — Next.js App Router で構築されており、ローカライズされたすべてのプロジェクト・
-  カテゴリページはビルド時に静的生成されます。
+  カテゴリ・比較ページはビルド時に静的生成されます。
 - **SEO フレンドリー** — 各ページにロケールごとのメタデータ、OpenGraph、hreflang 代替リンク、
   JSON-LD、サイトマップ、canonical URL を用意しています。
 
@@ -150,13 +158,17 @@ app/
   [locale]/            ロケールごとのルート（ルートレイアウトもここに配置 — ロケールごとの <html lang>）
     page.tsx             ホームページ
     search/              検索結果 (/[locale]/search?q=...)
+    compare/              比較インデックス + 2 プロジェクト選択 UI (/[locale]/compare)
     projects/[slug]/     プロジェクト詳細ページ
     categories/[slug]/   カテゴリページ
     about/, contribute/  静的コンテンツページ
     not-found.tsx        ロケールごとの 404
+  api/search/understand/  AI クエリ理解エンドポイント（任意の段階的拡張機能）
   sitemap.ts, robots.ts  トップレベルの SEO エンドポイント（ロケールに依存しない URL）
 middleware.ts          ロケールなしのパスにデフォルトロケールを付与（ブラウザ言語による自動リダイレクトなし）
 components/           再利用可能な UI コンポーネント（ロケール/辞書対応）+ LanguageSwitcher
+  ComparePicker.tsx      /compare 用のクライアント側プロジェクト選択コンポーネント
+  ComparisonTable.tsx    選択した 2 プロジェクトを並べて表示する比較カード
 data/
   projects/*.json        プロジェクトごとに 1 つの標準ファイル；任意でロケールごとの `translations`
   categories.json         標準（英語）カテゴリ定義；固定の slug
@@ -164,6 +176,8 @@ lib/
   schema.ts               プロジェクト・カテゴリ用の Zod スキーマ
   projects.ts, categories.ts   ロケール対応の解決とフォールバックを行うデータローダー
   search.ts                関連度ランキング付き、ロケール対応の検索
+  ai/                       任意の LLM クエリ理解レイヤー（プロンプト、スキーマ、キャッシュ、レート制限）
+  evaluation/               品質スコア + カタログ評価 + 根拠バッジのロジック (docs/project-evaluation.md)
   i18n/
     config.ts               ロケール、デフォルトロケール、BCP 47 / OpenGraph メタデータ
     types.ts                 辞書インターフェース（必須 UI 文字列の唯一の基準）
