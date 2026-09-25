@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/projects",
     "/categories",
+    "/compare",
     "/about",
     "/contribute",
     "/support",

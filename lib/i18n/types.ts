@@ -20,6 +20,7 @@ export interface Dictionary {
     tagline: string;
     about: string;
     contribute: string;
+    compare: string;
     github: string;
     support: string;
     privacy: string;
@@ -72,9 +73,24 @@ export interface Dictionary {
     descriptionOne: string;
     descriptionOther: string;
   };
+  compare: {
+    indexTitle: string;
+    indexDescription: string;
+    firstProjectLabel: string;
+    secondProjectLabel: string;
+    projectPlaceholder: string;
+    selectPrompt: string;
+    evidenceLabel: string;
+    startCompareLabel: string;
+    allCategoriesOption: string;
+    categoryFilterLabel: string;
+    changeSelectionLabel: string;
+    noMatchesLabel: string;
+  };
   projectDetail: {
     overviewHeading: string;
     whyHeading: string;
+    descriptionLabel: string;
     catalogRatingLabel: string;
     githubButton: string;
     websiteButton: string;
