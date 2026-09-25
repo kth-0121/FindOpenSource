@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
-import { getAllProjects, getFeaturedProjects, getCategoriesWithCounts } from "@/lib/projects";
+import { getAllProjects, getFeaturedProjects, getCategoriesWithCounts, stripTranslations } from "@/lib/projects";
 import { getAllCategories } from "@/lib/categories";
-import type { Project } from "@/lib/schema";
 import { SearchExperience } from "@/components/SearchExperience";
 import { SearchStart } from "@/components/SearchStart";
 import { isLocale, type Locale } from "@/lib/i18n/config";
@@ -13,22 +12,6 @@ import { buildAlternates } from "@/lib/i18n/metadata";
 type SearchPageProps = {
   params: Promise<{ locale: string }>;
 };
-
-/**
- * `translations` (all 5 non-English locale blocks) is only needed to
- * resolve `description`/`keywords`/`longDescription` for the active
- * locale -- getAllProjects() already does that in localizeProject().
- * Everything downstream of this page (client-side search, ProjectCard)
- * only ever reads the localized fields, never `project.translations`
- * itself, so carrying that block into the client bundle is pure dead
- * weight (it's the single largest field on a project record -- roughly
- * two-thirds of one project's JSON size).
- */
-function stripTranslations(project: Project): Project {
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- destructured only to omit it below
-  const { translations, ...rest } = project;
-  return rest;
-}
 
 /**
  * This page intentionally never reads `searchParams`, `cookies()`, or

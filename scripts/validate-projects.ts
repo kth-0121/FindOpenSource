@@ -105,7 +105,7 @@ function main() {
   }
 
   if (fileErrors.length > 0) {
-    console.error(`\nFound problems in ${fileErrors.length} project file(s):\n`);
+    console.error(`\nFound problems in ${fileErrors.length} file(s):\n`);
     for (const { file, errors } of fileErrors) {
       console.error(`  ${file}`);
       for (const error of errors) {

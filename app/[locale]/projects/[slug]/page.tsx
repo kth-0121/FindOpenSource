@@ -211,6 +211,15 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         </div>
       </dl>
 
+      <p className="mt-10">
+        <Link
+          href={`/${locale}/compare?a=${project.slug}`}
+          className="text-sm font-medium text-accent hover:underline"
+        >
+          {dict.compare.startCompareLabel}
+        </Link>
+      </p>
+
       <AdSlot label={dict.adSlotLabel} />
 
       {relatedProjects.length > 0 && (

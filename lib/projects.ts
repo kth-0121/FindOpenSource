@@ -44,6 +44,20 @@ function localizeAll(projects: Project[], locale: Locale): Project[] {
   return projects.map((project) => localizeProject(project, locale));
 }
 
+/**
+ * `translations` (all 5 non-English locale blocks) is only needed to resolve
+ * `description`/`keywords`/`longDescription` for the active locale --
+ * localizeProject() already does that above. Client components only ever
+ * read the localized fields, never `project.translations` itself, so
+ * carrying that block into the client bundle is pure dead weight (it's the
+ * single largest field on a project record).
+ */
+export function stripTranslations(project: Project): Project {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars -- destructured only to omit it below
+  const { translations, ...rest } = project;
+  return rest;
+}
+
 export function getAllProjects(locale: Locale = defaultLocale): Project[] {
   return localizeAll(loadProjects(), locale);
 }
