@@ -119,11 +119,3 @@ function scoreGovernance(evidence: QualityEvidence): number {
       return 0;
   }
 }
-
-export function qualityTier(score: number): "exceptional" | "excellent" | "good" | "consider" | "review" {
-  if (score >= 90) return "exceptional";
-  if (score >= 80) return "excellent";
-  if (score >= 70) return "good";
-  if (score >= 60) return "consider";
-  return "review";
-}

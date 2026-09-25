@@ -100,8 +100,8 @@ numbers to drift apart for no reason).
 
 ### Quality tiers (internal only, never shown to users as a number)
 
-`qualityTier()` in the same file: 90–100 exceptional · 80–89 excellent · 70–79 good ·
-60–69 consider · below 60 review.
+For eyeballing a `computeQualityScore()` result: 90–100 exceptional · 80–89 excellent ·
+70–79 good · 60–69 consider · below 60 review.
 
 ## 4. Score B — Intent
 
