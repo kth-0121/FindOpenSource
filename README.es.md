@@ -34,9 +34,19 @@ fusionado a través de pull requests en GitHub.
   canónicas en inglés.
 - **URLs de búsqueda compartibles** — cada búsqueda es una URL real
   (`/es/search?q=authentication`).
+- **Búsqueda asistida por IA** (opcional) — cuando está configurada, las consultas en lenguaje
+  natural se expanden mediante un LLM a conceptos de búsqueda canónicos antes de recurrir a la
+  búsqueda por palabras clave; desactivada por defecto y nunca obligatoria. Consulta
+  [`lib/ai/`](lib/ai/).
+- **Comparar proyectos** — elige dos proyectos cualesquiera y compara su licencia, categorías,
+  lenguajes y señales de catálogo lado a lado, compartible por URL
+  (`/es/compare?a=meilisearch&b=typesense`).
+- **Valoraciones de Catalog Value** — cada proyecto tiene una valoración de 0 a 5 con una
+  justificación escrita de por qué vale la pena incluirlo, además de etiquetas de madurez y
+  gobernanza. Consulta [`docs/project-evaluation.md`](docs/project-evaluation.md).
 - **Navegación por categorías** — 20 categorías curadas, desde IA hasta DevOps.
 - **Estático y rápido** — construido con el App Router de Next.js; cada página localizada de
-  proyecto y categoría se genera de forma estática en tiempo de build.
+  proyecto, categoría y comparación se genera de forma estática en tiempo de build.
 - **Optimizado para SEO** — metadatos por locale, OpenGraph, enlaces alternativos hreflang,
   JSON-LD, sitemap y URLs canónicas en cada página.
 
@@ -164,13 +174,17 @@ app/
   [locale]/            Rutas localizadas (el layout raíz vive aquí — <html lang> por locale)
     page.tsx             Página de inicio
     search/              Resultados de búsqueda (/[locale]/search?q=...)
+    compare/              Índice de comparación + selector de dos proyectos (/[locale]/compare)
     projects/[slug]/     Páginas de detalle de proyecto
     categories/[slug]/   Páginas de categoría
     about/, contribute/  Páginas de contenido estático
     not-found.tsx        404 localizado
+  api/search/understand/  Endpoint de comprensión de consultas por IA (mejora progresiva, opcional)
   sitemap.ts, robots.ts  Endpoints de SEO de nivel superior (URLs independientes del locale)
 middleware.ts          Añade el locale por defecto a rutas sin prefijo (sin redirección por idioma del navegador)
 components/           Componentes de UI reutilizables (conscientes de locale/diccionario) + LanguageSwitcher
+  ComparePicker.tsx      Selector de proyectos en cliente para /compare
+  ComparisonTable.tsx    Tarjetas de comparación lado a lado para los dos proyectos elegidos
 data/
   projects/*.json        Un archivo canónico por proyecto; `translations` opcional por locale
   categories.json         Definiciones canónicas (en inglés) de categoría; slugs estables
@@ -178,6 +192,8 @@ lib/
   schema.ts               Esquemas Zod para proyectos y categorías
   projects.ts, categories.ts   Cargadores de datos con resolución consciente de locale + fallback
   search.ts                Búsqueda ordenada por relevancia, consciente de locale
+  ai/                       Capa opcional de comprensión de consultas por LLM (prompt, schema, caché, rate limit)
+  evaluation/               Lógica de quality score + Catalog Value + evidence badges (docs/project-evaluation.md)
   i18n/
     config.ts               Locales, locale por defecto, metadatos BCP 47 / OpenGraph
     types.ts                 Interfaz del diccionario (fuente de verdad para el texto de UI requerido)

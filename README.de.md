@@ -32,9 +32,19 @@ JSON-Datei, die über GitHub Pull Requests geprüft und gemerged wird.
   Anfragen wie "로그인" oder "ログイン" werden im Hintergrund zu den kanonischen englischen
   Keywords erweitert.
 - **Teilbare Such-URLs** — jede Suche ist eine echte URL (`/de/search?q=authentication`).
+- **KI-gestützte Suche** (optional) — sofern konfiguriert, werden natürlichsprachliche Anfragen
+  per LLM zu kanonischen Suchkonzepten erweitert, bevor auf die reine Keyword-Suche
+  zurückgefallen wird; standardmäßig deaktiviert und nie erforderlich. Siehe
+  [`lib/ai/`](lib/ai/).
+- **Projekte vergleichen** — wähle zwei beliebige Projekte aus und vergleiche Lizenz,
+  Kategorien, Sprachen und Katalog-Signale nebeneinander, teilbar per URL
+  (`/de/compare?a=meilisearch&b=typesense`).
+- **Catalog-Value-Bewertungen** — jedes Projekt trägt eine Bewertung von 0–5 mit einer
+  schriftlichen Begründung, warum es aufgenommen wurde, sowie Reife-/Governance-Tags. Siehe
+  [`docs/project-evaluation.md`](docs/project-evaluation.md).
 - **Kategorie-Browsing** — 20 kuratierte Kategorien von KI bis DevOps.
-- **Statisch und schnell** — gebaut mit dem Next.js App Router; jede lokalisierte Projekt- und
-  Kategorieseite wird zur Build-Zeit statisch generiert.
+- **Statisch und schnell** — gebaut mit dem Next.js App Router; jede lokalisierte Projekt-,
+  Kategorie- und Vergleichsseite wird zur Build-Zeit statisch generiert.
 - **SEO-freundlich** — locale-bezogene Metadaten, OpenGraph, hreflang-Alternativen, JSON-LD,
   Sitemap und canonical URLs für jede Seite.
 
@@ -161,13 +171,17 @@ app/
   [locale]/            Lokalisierte Routen (auch das Root-Layout liegt hier — <html lang> pro Locale)
     page.tsx             Startseite
     search/              Suchergebnisse (/[locale]/search?q=...)
+    compare/              Vergleichs-Index + Zwei-Projekte-Auswahl (/[locale]/compare)
     projects/[slug]/     Projekt-Detailseiten
     categories/[slug]/   Kategorieseiten
     about/, contribute/  Statische Inhaltsseiten
     not-found.tsx        Lokalisierte 404-Seite
+  api/search/understand/  KI-Query-Understanding-Endpoint (progressive Erweiterung, optional)
   sitemap.ts, robots.ts  SEO-Endpunkte auf oberster Ebene (locale-unabhängige URLs)
 middleware.ts          Versieht Pfade ohne Locale mit dem Standard-Locale (keine Weiterleitung anhand der Browsersprache)
 components/           Wiederverwendbare UI-Komponenten (locale-/dictionary-bewusst) + LanguageSwitcher
+  ComparePicker.tsx      Client-seitige Projektauswahl für /compare
+  ComparisonTable.tsx    Nebeneinander angeordnete Vergleichskarten für zwei ausgewählte Projekte
 data/
   projects/*.json        Eine kanonische Datei pro Projekt; optionale `translations` pro Locale
   categories.json         Kanonische (englische) Kategoriedefinitionen; stabile Slugs
@@ -175,6 +189,8 @@ lib/
   schema.ts               Zod-Schemas für Projekte & Kategorien
   projects.ts, categories.ts   Daten-Loader mit locale-bewusster Auflösung + Fallback
   search.ts                Nach Relevanz sortierte, locale-bewusste Suche
+  ai/                       Optionale LLM-Query-Understanding-Schicht (Prompt, Schema, Cache, Rate Limit)
+  evaluation/               Quality-Score- + Catalog-Value- + Evidence-Badge-Logik (docs/project-evaluation.md)
   i18n/
     config.ts               Locales, Standard-Locale, BCP 47 / OpenGraph-Metadaten
     types.ts                 Dictionary-Schnittstelle (Quelle der Wahrheit für erforderliche UI-Strings)

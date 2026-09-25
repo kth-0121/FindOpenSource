@@ -30,9 +30,17 @@ FindOpenSource는 완전히 정적이고 커뮤니티가 함께 관리하는 디
 - **다국어 검색** — 지원하는 6개 언어 어디로든 검색할 수 있습니다. "로그인", "ログイン" 같은
   구어체 검색어도 내부적으로 표준 영어 키워드로 확장됩니다.
 - **공유 가능한 검색 URL** — 모든 검색 결과는 실제 URL입니다 (`/ko/search?q=인증`).
+- **AI 보조 검색** (선택 사항) — 설정되어 있으면 자연어 검색어가 LLM을 통해 표준 검색 개념으로
+  확장된 뒤, 일반 키워드 검색으로 폴백합니다. 기본값은 비활성화이며 필수가 아닙니다. 자세한
+  내용은 [`lib/ai/`](lib/ai/)를 참고하세요.
+- **프로젝트 비교** — 원하는 두 프로젝트를 골라 라이선스, 카테고리, 언어, 카탈로그 지표를
+  나란히 비교할 수 있고, URL로 공유도 가능합니다 (`/ko/compare?a=meilisearch&b=typesense`).
+- **카탈로그 평점** — 모든 프로젝트에는 0~5점 평점과 왜 이 카탈로그에 포함되었는지를 설명하는
+  근거, 그리고 성숙도/거버넌스 태그가 함께 붙습니다. 자세한 내용은
+  [`docs/project-evaluation.md`](docs/project-evaluation.md)를 참고하세요.
 - **카테고리 탐색** — AI부터 DevOps까지 20개의 큐레이션된 카테고리.
-- **정적이고 빠름** — Next.js App Router로 빌드되어, 모든 지역화된 프로젝트/카테고리 페이지가
-  빌드 시점에 정적으로 생성됩니다.
+- **정적이고 빠름** — Next.js App Router로 빌드되어, 모든 지역화된 프로젝트/카테고리/비교
+  페이지가 빌드 시점에 정적으로 생성됩니다.
 - **SEO 친화적** — 로케일별 메타데이터, OpenGraph, hreflang 대체 링크, JSON-LD, 사이트맵,
   모든 페이지의 canonical URL을 제공합니다.
 
@@ -148,13 +156,17 @@ app/
   [locale]/            로케일별 라우트 (루트 레이아웃도 여기 — 로케일별 <html lang>)
     page.tsx             홈페이지
     search/              검색 결과 (/[locale]/search?q=...)
+    compare/              비교 인덱스 + 두 프로젝트 선택 UI (/[locale]/compare)
     projects/[slug]/     프로젝트 상세 페이지
     categories/[slug]/   카테고리 페이지
     about/, contribute/  정적 콘텐츠 페이지
     not-found.tsx        로케일별 404
+  api/search/understand/  AI 쿼리 이해 엔드포인트 (선택적 점진적 개선 기능)
   sitemap.ts, robots.ts  최상위 SEO 엔드포인트 (로케일 독립적인 URL)
 middleware.ts          로케일이 없는 경로에 기본 로케일을 붙임 (브라우저 언어 리다이렉트 없음)
 components/           재사용 가능한 UI 컴포넌트(로케일/딕셔너리 인지) + LanguageSwitcher
+  ComparePicker.tsx      /compare용 클라이언트 프로젝트 선택 컴포넌트
+  ComparisonTable.tsx    선택된 두 프로젝트를 나란히 보여주는 비교 카드
 data/
   projects/*.json        프로젝트당 하나의 표준 파일; 선택적으로 로케일별 `translations`
   categories.json         표준(영어) 카테고리 정의; 고정 슬러그
@@ -162,6 +174,8 @@ lib/
   schema.ts               프로젝트 & 카테고리용 Zod 스키마
   projects.ts, categories.ts   로케일 인지 처리 + 폴백을 지원하는 데이터 로더
   search.ts                관련도 기반, 로케일 인지 검색
+  ai/                       선택적 LLM 쿼리 이해 레이어 (프롬프트, 스키마, 캐시, 레이트 리밋)
+  evaluation/               품질 점수 + 카탈로그 평점 + 근거 뱃지 로직 (docs/project-evaluation.md)
   i18n/
     config.ts               로케일, 기본 로케일, BCP 47 / OpenGraph 메타데이터
     types.ts                 딕셔너리 인터페이스 (필수 UI 문자열의 기준)
