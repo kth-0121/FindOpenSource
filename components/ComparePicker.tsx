@@ -108,7 +108,9 @@ function ProjectSlot({
                 className="flex w-full flex-col items-start gap-0.5 px-3 py-2 text-left text-sm hover:bg-accent/5"
               >
                 <span className="font-medium text-foreground">{project.name}</span>
-                <span className="line-clamp-1 text-xs text-muted-foreground">{project.description}</span>
+                <span data-nosnippet className="line-clamp-1 text-xs text-muted-foreground">
+                  {project.description}
+                </span>
               </button>
             </li>
           ))

@@ -36,7 +36,8 @@ function ProjectComparisonCard({
         </span>
       </div>
 
-      <p className="text-sm text-muted-foreground">{project.description}</p>
+      {/* data-nosnippet: see ProjectCard.tsx -- same reasoning. */}
+      <p data-nosnippet className="text-sm text-muted-foreground">{project.description}</p>
 
       {categories.length > 0 && (
         <div>

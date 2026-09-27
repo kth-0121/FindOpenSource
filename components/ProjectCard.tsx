@@ -34,7 +34,9 @@ export function ProjectCard({
           {project.license}
         </span>
       </div>
-      <p className="line-clamp-2 text-sm text-muted-foreground">{project.description}</p>
+      {/* data-nosnippet: keeps Google from pulling a random project's blurb as the
+          search snippet for whatever listing page this card renders on. */}
+      <p data-nosnippet className="line-clamp-2 text-sm text-muted-foreground">{project.description}</p>
       {topBadge && <p className="text-xs font-medium text-accent">{dict.evidenceBadges[topBadge]}</p>}
       {categories.length > 0 && (
         <ul className="flex flex-wrap gap-2">
