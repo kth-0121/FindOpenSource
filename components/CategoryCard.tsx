@@ -30,7 +30,8 @@ export function CategoryCard({
           <span className="shrink-0 text-xs text-muted-foreground">{count}</span>
         )}
       </div>
-      <p className="text-sm text-muted-foreground">{localized.description}</p>
+      {/* data-nosnippet: see ProjectCard.tsx -- same reasoning. */}
+      <p data-nosnippet className="text-sm text-muted-foreground">{localized.description}</p>
     </Link>
   );
 }
