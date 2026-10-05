@@ -1,0 +1,42 @@
+{
+  "name": "Hyperswitch",
+  "slug": "hyperswitch",
+  "description": "Open source payments orchestration platform that routes transactions across multiple payment processors with intelligent routing and a PCI-compliant, self-hostable core.",
+  "longDescription": "Hyperswitch is an open source payments switch: instead of integrating directly with one payment processor, you integrate once with Hyperswitch and it routes each transaction to the best available provider from a configurable list (Stripe, Adyen, Checkout.com, and dozens of others), with automatic failover if one provider is down or declines. This reduces vendor lock-in and lets teams optimize for cost, approval rates, or regional coverage without rewriting integration code.\n\nBeyond routing, it includes intelligent retry logic, fraud and risk checks, tokenization/vaulting for stored payment methods, payout support, and reconciliation tooling, with both a managed SaaS offering and a self-hosted deployment option -- the self-hosted path is what keeps this genuinely open source rather than open-core-only. The core engine is written in Rust for performance and reliability on a critical-path workload.\n\nHyperswitch is a fit for teams processing real payment volume who want multi-provider resilience and routing control without building and maintaining that orchestration layer themselves.",
+  "repository": "https://github.com/juspay/hyperswitch",
+  "website": "https://hyperswitch.io",
+  "documentation": "https://docs.hyperswitch.io",
+  "categories": [
+    "payments"
+  ],
+  "keywords": [
+    "payment-orchestration",
+    "payment-gateway",
+    "pci-compliance",
+    "payment-routing"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-10-05",
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-05",
+      "repoCreatedAt": "2022-10-17",
+      "archived": false,
+      "openIssuesCount": 2284,
+      "stargazersCount": 45279,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-10-05",
+      "score": 88
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Payment orchestration/routing across providers is a distinct niche from the billing (Kill Bill, Lago) and crypto (BTCPay Server) tools already in a still-thin category, with strong real-world adoption."
+    },
+    "flag": "ok"
+  }
+}

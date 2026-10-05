@@ -1,0 +1,43 @@
+{
+  "name": "Capacitor",
+  "slug": "capacitor",
+  "description": "Open source native runtime for building web apps that run as genuinely native apps on iOS and Android, and installable PWAs on the web, with a plugin system for native device APIs.",
+  "longDescription": "Capacitor is a native runtime that lets you build a single web app and run it as a genuinely native app on iOS and Android, as well as an installable Progressive Web App, rather than rendering inside a plain embedded browser view. It exposes a consistent, promise-based JavaScript API for native device capabilities (camera, geolocation, filesystem, push notifications, and more), backed by native Swift and Kotlin/Java implementations under the hood.\n\nUnlike a full opinionated framework, Capacitor is intentionally framework-agnostic: it works with any web app (React, Vue, Angular, Svelte, or plain JavaScript) and is commonly paired with the Ionic UI framework, though it doesn't require it. Its plugin architecture lets teams write custom native functionality once per platform and call it from web code, and a large ecosystem of community and official plugins already covers most common native integrations.\n\nCapacitor is a fit for teams that already have (or want to build) a web app and want to ship real native mobile apps from the same codebase, without committing to a framework that abstracts away native platform access.",
+  "repository": "https://github.com/ionic-team/capacitor",
+  "website": "https://capacitorjs.com",
+  "documentation": "https://capacitorjs.com/docs",
+  "categories": [
+    "mobile"
+  ],
+  "keywords": [
+    "native-runtime",
+    "cross-platform",
+    "ios",
+    "android",
+    "pwa"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-10-05",
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-02",
+      "repoCreatedAt": "2017-11-18",
+      "archived": false,
+      "openIssuesCount": 141,
+      "stargazersCount": 16780,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-10-05",
+      "score": 90
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Framework-agnostic native runtime genuinely differs from Expo/React Native/Flutter's full-framework approach, in a category with only 3 prior entries -- a strong, distinct pick."
+    },
+    "flag": "ok"
+  }
+}
