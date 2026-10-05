@@ -1,0 +1,41 @@
+{
+  "name": "Headless UI",
+  "slug": "headless-ui",
+  "description": "Completely unstyled, fully accessible UI components for React and Vue, built by the Tailwind CSS team to integrate with any styling approach.",
+  "longDescription": "Headless UI provides a small set of fully accessible, keyboard-navigable UI components -- menus, dialogs, comboboxes, listboxes, switches, tabs, and more -- with zero built-in styling. Every visual decision is left to you via plain CSS, Tailwind classes, or any other styling approach, while Headless UI handles the genuinely hard parts: focus management, ARIA attributes, keyboard interaction patterns, and animation state.\n\nIt ships official React and Vue implementations with matching APIs, and is built and maintained by the Tailwind Labs team specifically to pair well with Tailwind CSS, though it works with any styling method since it renders no CSS itself. Compared to broader component libraries, Headless UI deliberately stays small and focused -- it doesn't try to cover every possible UI pattern, just the ones that are genuinely tricky to implement correctly from scratch.\n\nHeadless UI is a fit for teams that already have their own design system or visual language and want correct, accessible interaction behavior without inheriting someone else's visual opinions -- a narrower, more opinionated alternative to the broader primitive set in Radix Primitives.",
+  "repository": "https://github.com/tailwindlabs/headlessui",
+  "website": "https://headlessui.com",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "headless-components",
+    "accessibility",
+    "react-components",
+    "vue-components"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-10-05",
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-04-13",
+      "repoCreatedAt": "2020-09-16",
+      "archived": false,
+      "openIssuesCount": 115,
+      "stargazersCount": 28766,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-10-05",
+      "score": 72
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Overlaps conceptually with Radix Primitives as another headless/accessible component set, but its React+Vue dual support and smaller, more opinionated scope are real differentiation -- a good rather than essential addition."
+    },
+    "flag": "ok"
+  }
+}

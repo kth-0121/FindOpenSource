@@ -1,0 +1,42 @@
+{
+  "name": "Matrix Synapse",
+  "slug": "matrix-synapse",
+  "description": "Reference homeserver implementation of the Matrix open, federated messaging protocol, letting you self-host a chat server that interoperates with the rest of the Matrix network.",
+  "longDescription": "Synapse is the original and most widely deployed server implementation of Matrix, an open standard for decentralized, end-to-end-encrypted real-time communication. Unlike the centralized team-chat platforms in this catalog, a Matrix homeserver federates with every other Matrix homeserver by default: users on your self-hosted server can message, call, and join rooms with users on any other Matrix server (or on hosted services like Element), the same way email works across providers.\n\nSynapse implements the full Matrix specification, including end-to-end encryption, voice/video calling, bridges to other networks (Slack, Discord, IRC, and more via separate bridge projects), and room-based access control for everything from private DMs to large public communities. It's written in Python/Twisted with performance-critical paths increasingly implemented in Rust, and is commonly deployed behind a reverse proxy with PostgreSQL as its database.\n\nMatrix Synapse is a fit for organizations that specifically need federation or data sovereignty (governments, NGOs, privacy-focused communities) rather than a single centralized team-chat instance, and are willing to take on homeserver operations in exchange for not depending on one vendor's walled garden.",
+  "repository": "https://github.com/element-hq/synapse",
+  "website": "https://matrix.org",
+  "documentation": "https://element-hq.github.io/synapse/latest/",
+  "categories": [
+    "chat"
+  ],
+  "keywords": [
+    "matrix-protocol",
+    "federated-chat",
+    "self-hosted-chat",
+    "end-to-end-encryption"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-10-05",
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-05",
+      "repoCreatedAt": "2014-08-11",
+      "archived": false,
+      "openIssuesCount": 2076,
+      "stargazersCount": 4678,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "evaluatedAt": "2026-10-05",
+      "score": 84
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Federated, protocol-based architecture is fundamentally different from the three centralized team-chat apps already in this thin category -- a genuinely complementary choice for interoperability or data sovereignty."
+    },
+    "flag": "ok"
+  }
+}
