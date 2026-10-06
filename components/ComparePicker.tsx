@@ -19,23 +19,36 @@ function bySlug<T extends { slug: string }>(items: T[], slug: string | undefined
   return items.find((item) => item.slug === slug);
 }
 
-/** Fetches the full Project record for a slug only once it's actually selected (see app/api/projects/[locale]/[slug]/route.ts). */
-function useFullProject(locale: Locale, slug: string | undefined): Project | undefined {
+/**
+ * Fetches the full Project record for a slug only once it's actually selected
+ * (see app/api/projects/[locale]/[slug]/route.ts). On failure it calls
+ * `onFail` -- a stable state setter -- so the slot falls back to the picker
+ * instead of sitting on a half-selected card forever.
+ */
+function useFullProject(
+  locale: Locale,
+  slug: string | undefined,
+  onFail: (slug: undefined) => void,
+): Project | undefined {
   const [result, setResult] = useState<{ slug: string; project: Project } | undefined>(undefined);
 
   useEffect(() => {
     if (!slug) return;
     let cancelled = false;
-    fetch(`/api/projects/${locale}/${slug}`)
+    fetch(`/api/projects/${locale}/${encodeURIComponent(slug)}`)
       .then((response) => (response.ok ? (response.json() as Promise<Project>) : undefined))
       .then((project) => {
-        if (!cancelled && project) setResult({ slug, project });
+        if (cancelled) return;
+        if (project) setResult({ slug, project });
+        else onFail(undefined);
       })
-      .catch(() => {});
+      .catch(() => {
+        if (!cancelled) onFail(undefined);
+      });
     return () => {
       cancelled = true;
     };
-  }, [locale, slug]);
+  }, [locale, slug, onFail]);
 
   // Guards against a stale result from a just-cleared or just-switched slug
   // still rendering while the new fetch is in flight.
@@ -190,8 +203,10 @@ export function ComparePicker({
 
   const summaryA = bySlug(projects, slugA);
   const summaryB = bySlug(projects, slugB);
-  const fullA = useFullProject(locale, slugA);
-  const fullB = useFullProject(locale, slugB);
+  // Only fetch slugs that exist in the catalog summary -- an arbitrary ?a=
+  // value never reaches the network or renders a project the picker can't show.
+  const fullA = useFullProject(locale, summaryA?.slug, setSlugA);
+  const fullB = useFullProject(locale, summaryB?.slug, setSlugB);
 
   function updateUrl(nextA: string | undefined, nextB: string | undefined) {
     const params = new URLSearchParams();
