@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import type { Category, Project } from "@/lib/schema";
 import { localizeCategory } from "@/lib/categories";
@@ -11,18 +11,45 @@ import type { Dictionary } from "@/lib/i18n/types";
 
 const MAX_RESULTS = 40;
 
-function bySlug(projects: Project[], slug: string | null): Project | undefined {
+/** Just enough per project to power the picker's search/filter list -- see ComparePicker's own doc comment for why. */
+type ProjectSummary = Pick<Project, "slug" | "name" | "description" | "categories">;
+
+function bySlug<T extends { slug: string }>(items: T[], slug: string | undefined): T | undefined {
   if (!slug) return undefined;
-  return projects.find((project) => project.slug === slug);
+  return items.find((item) => item.slug === slug);
 }
 
-/** One slot's picker: category filter + search, click a row to select. Shown until a project is picked, then collapses to its ProjectCard. */
+/** Fetches the full Project record for a slug only once it's actually selected (see app/api/projects/[locale]/[slug]/route.ts). */
+function useFullProject(locale: Locale, slug: string | undefined): Project | undefined {
+  const [result, setResult] = useState<{ slug: string; project: Project } | undefined>(undefined);
+
+  useEffect(() => {
+    if (!slug) return;
+    let cancelled = false;
+    fetch(`/api/projects/${locale}/${slug}`)
+      .then((response) => (response.ok ? (response.json() as Promise<Project>) : undefined))
+      .then((project) => {
+        if (!cancelled && project) setResult({ slug, project });
+      })
+      .catch(() => {});
+    return () => {
+      cancelled = true;
+    };
+  }, [locale, slug]);
+
+  // Guards against a stale result from a just-cleared or just-switched slug
+  // still rendering while the new fetch is in flight.
+  return result && result.slug === slug ? result.project : undefined;
+}
+
+/** One slot's picker: category filter + search, click a row to select. Shown until a project is picked, then collapses to its card. */
 function ProjectSlot({
   label,
   projects,
   categories,
   exclude,
-  selected,
+  selectedSummary,
+  selectedFull,
   defaultCategory,
   dict,
   locale,
@@ -30,14 +57,15 @@ function ProjectSlot({
   onClear,
 }: {
   label: string;
-  projects: Project[];
+  projects: ProjectSummary[];
   categories: Category[];
   exclude?: string;
-  selected: Project | undefined;
+  selectedSummary: ProjectSummary | undefined;
+  selectedFull: Project | undefined;
   defaultCategory: string;
   dict: Dictionary;
   locale: Locale;
-  onSelect: (project: Project) => void;
+  onSelect: (project: ProjectSummary) => void;
   onClear: () => void;
 }) {
   const [query, setQuery] = useState("");
@@ -52,10 +80,19 @@ function ProjectSlot({
       .slice(0, MAX_RESULTS);
   }, [projects, exclude, categoryFilter, query]);
 
-  if (selected) {
+  if (selectedSummary) {
     return (
       <div className="flex flex-col gap-2">
-        <ProjectCard project={selected} locale={locale} dict={dict} />
+        {selectedFull ? (
+          <ProjectCard project={selectedFull} locale={locale} dict={dict} />
+        ) : (
+          <div className="flex flex-col gap-3 rounded-lg border border-border p-5">
+            <h3 className="font-semibold text-foreground">{selectedSummary.name}</h3>
+            <p data-nosnippet className="line-clamp-2 text-sm text-muted-foreground">
+              {selectedSummary.description}
+            </p>
+          </div>
+        )}
         <button
           type="button"
           onClick={onClear}
@@ -127,6 +164,13 @@ function ProjectSlot({
  * comparison is shareable via URL; arriving with ?a= pre-filled (from a
  * project detail page's "Compare with another project" link) also seeds
  * the second slot's category filter to the first project's category.
+ *
+ * `projects` is a lightweight summary for all ~220 projects (enough for the
+ * picker's own search/filter UI); the full Project record for whichever 1-2
+ * are actually selected is fetched on demand (useFullProject) instead of
+ * being embedded here -- this page used to ship every project's full data
+ * on every load, which was the single biggest driver of this site's Fast
+ * Origin Transfer usage.
  */
 export function ComparePicker({
   projects,
@@ -134,21 +178,22 @@ export function ComparePicker({
   locale,
   dict,
 }: {
-  projects: Project[];
+  projects: ProjectSummary[];
   categories: Category[];
   locale: Locale;
   dict: Dictionary;
 }) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const [slugA, setSlugA] = useState(() => searchParams.get("a"));
-  const [slugB, setSlugB] = useState(() => searchParams.get("b"));
+  const [slugA, setSlugA] = useState<string | undefined>(() => searchParams.get("a") ?? undefined);
+  const [slugB, setSlugB] = useState<string | undefined>(() => searchParams.get("b") ?? undefined);
 
-  const projectA = useMemo(() => bySlug(projects, slugA), [projects, slugA]);
-  const projectB = useMemo(() => bySlug(projects, slugB), [projects, slugB]);
-  const bothSelected = Boolean(projectA && projectB);
+  const summaryA = bySlug(projects, slugA);
+  const summaryB = bySlug(projects, slugB);
+  const fullA = useFullProject(locale, slugA);
+  const fullB = useFullProject(locale, slugB);
 
-  function updateUrl(nextA: string | null, nextB: string | null) {
+  function updateUrl(nextA: string | undefined, nextB: string | undefined) {
     const params = new URLSearchParams();
     if (nextA) params.set("a", nextA);
     if (nextB) params.set("b", nextB);
@@ -163,9 +208,10 @@ export function ComparePicker({
           label={dict.compare.firstProjectLabel}
           projects={projects}
           categories={categories}
-          exclude={projectB?.slug}
-          selected={projectA}
-          defaultCategory={projectB?.categories[0] ?? ""}
+          exclude={slugB}
+          selectedSummary={summaryA}
+          selectedFull={fullA}
+          defaultCategory={summaryB?.categories[0] ?? ""}
           dict={dict}
           locale={locale}
           onSelect={(project) => {
@@ -173,17 +219,18 @@ export function ComparePicker({
             updateUrl(project.slug, slugB);
           }}
           onClear={() => {
-            setSlugA(null);
-            updateUrl(null, slugB);
+            setSlugA(undefined);
+            updateUrl(undefined, slugB);
           }}
         />
         <ProjectSlot
           label={dict.compare.secondProjectLabel}
           projects={projects}
           categories={categories}
-          exclude={projectA?.slug}
-          selected={projectB}
-          defaultCategory={projectA?.categories[0] ?? ""}
+          exclude={slugA}
+          selectedSummary={summaryB}
+          selectedFull={fullB}
+          defaultCategory={summaryA?.categories[0] ?? ""}
           dict={dict}
           locale={locale}
           onSelect={(project) => {
@@ -191,15 +238,15 @@ export function ComparePicker({
             updateUrl(slugA, project.slug);
           }}
           onClear={() => {
-            setSlugB(null);
-            updateUrl(slugA, null);
+            setSlugB(undefined);
+            updateUrl(slugA, undefined);
           }}
         />
       </div>
 
       <div className="mt-10">
-        {bothSelected && projectA && projectB ? (
-          <ComparisonTable projects={[projectA, projectB]} locale={locale} dict={dict} />
+        {fullA && fullB ? (
+          <ComparisonTable projects={[fullA, fullB]} locale={locale} dict={dict} />
         ) : (
           <p className="text-center text-sm text-muted-foreground">{dict.compare.selectPrompt}</p>
         )}

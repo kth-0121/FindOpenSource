@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
-import { getAllProjects, stripTranslations } from "@/lib/projects";
+import { getAllProjects } from "@/lib/projects";
 import { getAllCategories } from "@/lib/categories";
 import { ComparePicker } from "@/components/ComparePicker";
 import { isLocale, type Locale } from "@/lib/i18n/config";
@@ -18,6 +18,13 @@ type CompareIndexPageProps = {
  * serves from the CDN. Which two projects are selected is entirely
  * client-computed (see ComparePicker, which reads ?a=/?b= via
  * `useSearchParams()`), same static+Suspense split as /search.
+ *
+ * Only a lightweight {slug, name, description, categories} summary is sent
+ * to the client for all ~220 projects (enough for the picker's search/
+ * filter UI) -- the full Project record for the 1-2 actually selected
+ * projects is fetched on demand from /api/projects/[locale]/[slug] (see
+ * ComparePicker). Embedding every project's full data here was the single
+ * biggest driver of this page's payload size.
  */
 export async function generateMetadata({ params }: CompareIndexPageProps): Promise<Metadata> {
   const { locale: localeParam } = await params;
@@ -36,7 +43,12 @@ export default async function CompareIndexPage({ params }: CompareIndexPageProps
   if (!isLocale(localeParam)) notFound();
   const locale: Locale = localeParam;
   const dict = getDictionary(locale);
-  const projects = getAllProjects(locale).map(stripTranslations);
+  const projects = getAllProjects(locale).map(({ slug, name, description, categories }) => ({
+    slug,
+    name,
+    description,
+    categories,
+  }));
   const categories = getAllCategories();
 
   return (
