@@ -48,12 +48,12 @@
       "lastCommitAt": "2026-09-01",
       "repoCreatedAt": "2012-12-21",
       "archived": false,
-      "openIssuesCount": 1047,
-      "stargazersCount": 7243,
+      "openIssuesCount": 1048,
+      "stargazersCount": 7247,
       "productionReadiness": "mature",
       "governance": "foundation",
-      "evaluatedAt": "2026-09-16",
-      "score": 93
+      "score": 88,
+      "evaluatedAt": "2026-10-05"
     },
     "catalogValue": {
       "rating": 3,
