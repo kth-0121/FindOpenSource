@@ -19,6 +19,18 @@
     "Python",
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "posthog-js",
+      "posthog-node"
+    ],
+    "pypi": [
+      "posthog"
+    ],
+    "go": [
+      "github.com/posthog/posthog-go"
+    ]
+  },
   "license": "MIT",
   "featured": true,
   "dateAdded": "2026-04-15",

@@ -18,6 +18,11 @@
   "languages": [
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "@radix-ui/react-*"
+    ]
+  },
   "license": "MIT",
   "featured": false,
   "dateAdded": "2026-09-25",

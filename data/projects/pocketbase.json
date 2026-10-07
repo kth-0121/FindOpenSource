@@ -21,6 +21,14 @@
   "languages": [
     "Go"
   ],
+  "packages": {
+    "npm": [
+      "pocketbase"
+    ],
+    "go": [
+      "github.com/pocketbase/pocketbase"
+    ]
+  },
   "license": "MIT",
   "featured": true,
   "dateAdded": "2026-08-27",

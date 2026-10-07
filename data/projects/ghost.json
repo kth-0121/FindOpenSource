@@ -19,6 +19,12 @@
     "JavaScript",
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "@tryghost/admin-api",
+      "@tryghost/content-api"
+    ]
+  },
   "license": "MIT",
   "featured": true,
   "dateAdded": "2026-07-08",

@@ -18,6 +18,16 @@
   "languages": [
     "Python"
   ],
+  "packages": {
+    "npm": [
+      "@langchain/core",
+      "langchain"
+    ],
+    "pypi": [
+      "langchain",
+      "langchain-core"
+    ]
+  },
   "license": "MIT",
   "featured": true,
   "dateAdded": "2025-10-29",

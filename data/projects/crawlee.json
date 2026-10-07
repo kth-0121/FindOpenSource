@@ -19,6 +19,11 @@
   "languages": [
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "crawlee"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": false,
   "dateAdded": "2026-09-13",

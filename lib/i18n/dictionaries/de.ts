@@ -23,6 +23,7 @@ const dictionary: Dictionary = {
     about: "Über uns",
     contribute: "Mitmachen",
     compare: "Vergleichen",
+    analyze: "Repository analysieren",
     github: "GitHub",
     support: "FindOpenSource unterstützen",
     privacy: "Datenschutz",
@@ -174,6 +175,34 @@ const dictionary: Dictionary = {
     categoryFilterLabel: "Nach Kategorie filtern",
     changeSelectionLabel: "Ändern",
     noMatchesLabel: "Keine passenden Projekte.",
+  },
+  analyze: {
+    pageTitle: "GitHub-Repository analysieren",
+    pageDescription:
+      "Füge ein öffentliches GitHub-Repository ein, um zu sehen, welche Open-Source-Projekte aus diesem Katalog es bereits nutzt und welche zu seinem Stack passen könnten.",
+    inputLabel: "GitHub-Repository",
+    inputPlaceholder: "github.com/owner/repo",
+    submitLabel: "Analysieren",
+    loading: "Wird analysiert…",
+    errorInvalid: "Gib eine GitHub-Repository-URL oder owner/repo ein.",
+    errorNotFound: "Repository nicht gefunden. Nur öffentliche Repositories können analysiert werden.",
+    errorRateLimited:
+      "Das GitHub-Anfragelimit für dein Netzwerk ist erreicht. Versuche es in ein paar Minuten erneut.",
+    errorGeneric: "Dieses Repository konnte nicht analysiert werden. Versuche es erneut.",
+    stackHeading: "Erkannter Stack",
+    languageLabel: "Hauptsprache",
+    frameworksLabel: "Frameworks",
+    dependenciesLabel: "{count} Abhängigkeiten in {files}",
+    noManifests:
+      "Im Stammverzeichnis des Repositorys wurde keine unterstützte Abhängigkeitsdatei (package.json, requirements.txt, pyproject.toml, go.mod, Cargo.toml) gefunden.",
+    usedHeading: "Nutzt bereits aus diesem Katalog",
+    usedEmpty: "In den Abhängigkeiten dieses Repositorys wurden keine Projekte aus diesem Katalog gefunden.",
+    matchedVia: "über {package}",
+    recommendHeading: "Könnte zu diesem Projekt passen",
+    recommendReason: "Als {ecosystem}-Paket installierbar · kein {category}-Projekt in diesem Repository erkannt",
+    recommendEmpty: "Keine Empfehlungen – dieses Repository deckt die geprüften Kategorien bereits ab.",
+    limitationNote:
+      "Es werden nur Abhängigkeitsdateien im Stammverzeichnis gelesen, daher können Monorepos unvollständige Ergebnisse zeigen. Empfehlungen decken nur Authentifizierung, Testing, Monitoring, Analytics und Suche ab.",
   },
   projectDetail: {
     overviewHeading: "Überblick",

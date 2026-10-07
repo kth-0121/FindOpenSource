@@ -18,6 +18,14 @@
     "Python",
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "@composio/core"
+    ],
+    "pypi": [
+      "composio"
+    ]
+  },
   "license": "MIT",
   "featured": false,
   "dateAdded": "2026-09-16",

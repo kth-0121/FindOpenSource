@@ -18,6 +18,11 @@
   "languages": [
     "JavaScript"
   ],
+  "packages": {
+    "npm": [
+      "pdfjs-dist"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": false,
   "dateAdded": "2025-12-31",

@@ -19,6 +19,11 @@
     "TypeScript",
     "JavaScript"
   ],
+  "packages": {
+    "npm": [
+      "@mui/material"
+    ]
+  },
   "license": "MIT",
   "featured": false,
   "dateAdded": "2026-05-06",

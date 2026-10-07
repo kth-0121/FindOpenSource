@@ -26,6 +26,14 @@
     "TypeScript",
     "Go"
   ],
+  "packages": {
+    "npm": [
+      "@supabase/supabase-js"
+    ],
+    "pypi": [
+      "supabase"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": true,
   "dateAdded": "2026-09-10",

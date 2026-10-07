@@ -19,6 +19,11 @@
     "TypeScript",
     "JavaScript"
   ],
+  "packages": {
+    "npm": [
+      "@strapi/strapi"
+    ]
+  },
   "license": "MIT",
   "featured": true,
   "dateAdded": "2026-07-15",

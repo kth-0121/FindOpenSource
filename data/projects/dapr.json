@@ -18,6 +18,17 @@
   "languages": [
     "Go"
   ],
+  "packages": {
+    "npm": [
+      "@dapr/dapr"
+    ],
+    "pypi": [
+      "dapr"
+    ],
+    "go": [
+      "github.com/dapr/go-sdk"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": false,
   "dateAdded": "2026-09-14",

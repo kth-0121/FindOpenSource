@@ -17,6 +17,12 @@
   "languages": [
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "@headlessui/react",
+      "@headlessui/vue"
+    ]
+  },
   "license": "MIT",
   "featured": false,
   "dateAdded": "2026-10-05",

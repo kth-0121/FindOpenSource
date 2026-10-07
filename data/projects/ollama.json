@@ -18,6 +18,17 @@
   "languages": [
     "Go"
   ],
+  "packages": {
+    "npm": [
+      "ollama"
+    ],
+    "pypi": [
+      "ollama"
+    ],
+    "go": [
+      "github.com/ollama/ollama"
+    ]
+  },
   "license": "MIT",
   "featured": true,
   "dateAdded": "2025-11-05",

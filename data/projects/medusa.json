@@ -17,6 +17,12 @@
   "languages": [
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "@medusajs/js-sdk",
+      "@medusajs/medusa"
+    ]
+  },
   "license": "MIT",
   "featured": true,
   "dateAdded": "2026-01-14",

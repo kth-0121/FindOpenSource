@@ -18,6 +18,14 @@
   "languages": [
     "Python"
   ],
+  "packages": {
+    "npm": [
+      "llamaindex"
+    ],
+    "pypi": [
+      "llama-index"
+    ]
+  },
   "license": "MIT",
   "featured": false,
   "dateAdded": "2026-09-14",

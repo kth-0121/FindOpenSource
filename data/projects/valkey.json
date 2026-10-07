@@ -18,6 +18,15 @@
   "languages": [
     "C"
   ],
+  "packages": {
+    "npm": [
+      "@valkey/valkey-glide",
+      "iovalkey"
+    ],
+    "pypi": [
+      "valkey"
+    ]
+  },
   "license": "BSD-3-Clause",
   "featured": false,
   "dateAdded": "2026-09-14",

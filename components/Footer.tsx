@@ -24,6 +24,9 @@ export function Footer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           <Link href={`/${locale}/compare`} className="whitespace-nowrap hover:text-foreground">
             {dict.footer.compare}
           </Link>
+          <Link href={`/${locale}/analyze`} className="whitespace-nowrap hover:text-foreground">
+            {dict.footer.analyze}
+          </Link>
           <Link href={`/${locale}/privacy`} className="whitespace-nowrap hover:text-foreground">
             {dict.footer.privacy}
           </Link>
