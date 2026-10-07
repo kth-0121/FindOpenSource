@@ -18,6 +18,14 @@
   "languages": [
     "Go"
   ],
+  "packages": {
+    "pypi": [
+      "prometheus-client"
+    ],
+    "go": [
+      "github.com/prometheus/client_golang"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": true,
   "dateAdded": "2026-01-28",

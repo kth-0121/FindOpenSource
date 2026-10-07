@@ -20,6 +20,11 @@
   "languages": [
     "Go"
   ],
+  "packages": {
+    "go": [
+      "github.com/ory/kratos-client-go"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": false,
   "dateAdded": "2026-09-13",

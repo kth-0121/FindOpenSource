@@ -17,6 +17,20 @@
   "languages": [
     "C++"
   ],
+  "packages": {
+    "npm": [
+      "mongodb"
+    ],
+    "pypi": [
+      "pymongo"
+    ],
+    "go": [
+      "go.mongodb.org/mongo-driver/v2"
+    ],
+    "cargo": [
+      "mongodb"
+    ]
+  },
   "license": "SSPL-1.0",
   "featured": true,
   "dateAdded": "2026-08-12",

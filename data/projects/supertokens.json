@@ -21,6 +21,15 @@
   "languages": [
     "Java"
   ],
+  "packages": {
+    "npm": [
+      "supertokens-auth-react",
+      "supertokens-node"
+    ],
+    "pypi": [
+      "supertokens-python"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": false,
   "dateAdded": "2026-09-13",

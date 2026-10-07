@@ -17,6 +17,20 @@
   "languages": [
     "Rust"
   ],
+  "packages": {
+    "npm": [
+      "meilisearch"
+    ],
+    "pypi": [
+      "meilisearch"
+    ],
+    "go": [
+      "github.com/meilisearch/meilisearch-go"
+    ],
+    "cargo": [
+      "meilisearch-sdk"
+    ]
+  },
   "license": "MIT",
   "featured": true,
   "dateAdded": "2026-02-18",

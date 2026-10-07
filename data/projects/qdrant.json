@@ -19,6 +19,20 @@
   "languages": [
     "Rust"
   ],
+  "packages": {
+    "npm": [
+      "@qdrant/js-client-rest"
+    ],
+    "pypi": [
+      "qdrant-client"
+    ],
+    "go": [
+      "github.com/qdrant/go-client"
+    ],
+    "cargo": [
+      "qdrant-client"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": true,
   "dateAdded": "2025-10-22",

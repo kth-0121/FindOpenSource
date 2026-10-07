@@ -20,6 +20,17 @@
   "languages": [
     "C"
   ],
+  "packages": {
+    "npm": [
+      "redis"
+    ],
+    "pypi": [
+      "redis"
+    ],
+    "go": [
+      "github.com/redis/go-redis/v9"
+    ]
+  },
   "license": "AGPL-3.0",
   "featured": true,
   "dateAdded": "2026-08-05",

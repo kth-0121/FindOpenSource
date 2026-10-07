@@ -18,6 +18,11 @@
   "languages": [
     "C++"
   ],
+  "packages": {
+    "pypi": [
+      "opencv-python"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": false,
   "dateAdded": "2026-09-14",

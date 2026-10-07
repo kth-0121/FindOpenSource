@@ -20,6 +20,15 @@
   "languages": [
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "@playwright/test",
+      "playwright"
+    ],
+    "pypi": [
+      "playwright"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": true,
   "dateAdded": "2026-05-27",

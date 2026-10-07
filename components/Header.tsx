@@ -16,9 +16,12 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           {siteConfig.name}
         </Link>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 sm:gap-x-5">
-          <nav aria-label="Primary" className="flex items-center gap-4 text-sm sm:gap-5">
+          <nav aria-label="Primary" className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm sm:gap-x-5">
             <Link href={`/${locale}/categories`} className="text-foreground/80 hover:text-foreground">
               {dict.nav.categories}
+            </Link>
+            <Link href={`/${locale}/analyze`} className="text-foreground/80 hover:text-foreground">
+              {dict.footer.analyze}
             </Link>
             <Link href={`/${locale}/contribute`} className="text-foreground/80 hover:text-foreground">
               {dict.nav.contribute}

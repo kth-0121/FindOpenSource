@@ -18,6 +18,17 @@
   "languages": [
     "Java"
   ],
+  "packages": {
+    "npm": [
+      "@elastic/elasticsearch"
+    ],
+    "pypi": [
+      "elasticsearch"
+    ],
+    "go": [
+      "github.com/elastic/go-elasticsearch/v8"
+    ]
+  },
   "license": "AGPL-3.0",
   "featured": false,
   "dateAdded": "2026-02-11",

@@ -124,6 +124,22 @@ export const projectSchema = z.object({
     .min(1, "at least one category is required"),
   keywords: z.array(z.string().min(1)).min(1, "at least one keyword is required"),
   languages: z.array(z.string().min(1)).optional(),
+  /**
+   * Official installable packages, used by the repo analyzer to detect this
+   * project in a GitHub repo's manifests. Each entry was verified against
+   * its registry to point back at this project's GitHub org. A trailing "*"
+   * is a prefix wildcard (e.g. "@radix-ui/react-*"); Go entries match any
+   * module under that path, ignoring a major-version suffix.
+   */
+  packages: z
+    .object({
+      npm: z.array(z.string().min(1)).optional(),
+      pypi: z.array(z.string().min(1)).optional(),
+      go: z.array(z.string().min(1)).optional(),
+      cargo: z.array(z.string().min(1)).optional(),
+    })
+    .strict()
+    .optional(),
   license: z.string().min(1, "license is required"),
   featured: z.boolean().optional().default(false),
   dateAdded: z

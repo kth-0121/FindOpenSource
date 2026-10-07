@@ -19,6 +19,11 @@
     "Python",
     "C++"
   ],
+  "packages": {
+    "pypi": [
+      "torch"
+    ]
+  },
   "license": "BSD-3-Clause",
   "featured": true,
   "dateAdded": "2025-11-12",

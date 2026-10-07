@@ -21,6 +21,12 @@
   "languages": [
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "@auth/core",
+      "next-auth"
+    ]
+  },
   "license": "ISC",
   "featured": false,
   "dateAdded": "2026-09-01",

@@ -21,6 +21,7 @@ export interface Dictionary {
     about: string;
     contribute: string;
     compare: string;
+    analyze: string;
     github: string;
     support: string;
     privacy: string;
@@ -86,6 +87,33 @@ export interface Dictionary {
     categoryFilterLabel: string;
     changeSelectionLabel: string;
     noMatchesLabel: string;
+  };
+  analyze: {
+    pageTitle: string;
+    pageDescription: string;
+    inputLabel: string;
+    inputPlaceholder: string;
+    submitLabel: string;
+    loading: string;
+    errorInvalid: string;
+    errorNotFound: string;
+    errorRateLimited: string;
+    errorGeneric: string;
+    stackHeading: string;
+    languageLabel: string;
+    frameworksLabel: string;
+    /** {count} dependencies, {files} manifest file names */
+    dependenciesLabel: string;
+    noManifests: string;
+    usedHeading: string;
+    usedEmpty: string;
+    /** {package} */
+    matchedVia: string;
+    recommendHeading: string;
+    /** {ecosystem}, {category} */
+    recommendReason: string;
+    recommendEmpty: string;
+    limitationNote: string;
   };
   projectDetail: {
     overviewHeading: string;

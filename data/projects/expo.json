@@ -19,6 +19,11 @@
     "TypeScript",
     "C++"
   ],
+  "packages": {
+    "npm": [
+      "expo"
+    ]
+  },
   "license": "MIT",
   "featured": false,
   "dateAdded": "2025-11-26",

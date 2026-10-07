@@ -19,6 +19,20 @@
     "Python",
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "@sentry/*"
+    ],
+    "pypi": [
+      "sentry-sdk"
+    ],
+    "go": [
+      "github.com/getsentry/sentry-go"
+    ],
+    "cargo": [
+      "sentry"
+    ]
+  },
   "license": "FSL-1.1-Apache-2.0",
   "featured": true,
   "dateAdded": "2026-01-21",

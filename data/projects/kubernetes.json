@@ -18,6 +18,11 @@
   "languages": [
     "Go"
   ],
+  "packages": {
+    "go": [
+      "k8s.io/client-go"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": true,
   "dateAdded": "2026-03-18",

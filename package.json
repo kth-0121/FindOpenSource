@@ -10,7 +10,7 @@
     "typecheck": "tsc --noEmit",
     "validate": "tsx scripts/validate-projects.ts",
     "audit:projects": "tsx scripts/audit-projects.ts",
-    "test": "tsx --test lib/ai/*.test.ts"
+    "test": "tsx --test lib/ai/*.test.ts lib/*.test.ts"
   },
   "dependencies": {
     "@next/third-parties": "^16.3.6",

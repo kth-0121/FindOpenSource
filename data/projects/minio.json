@@ -18,6 +18,17 @@
   "languages": [
     "Go"
   ],
+  "packages": {
+    "npm": [
+      "minio"
+    ],
+    "pypi": [
+      "minio"
+    ],
+    "go": [
+      "github.com/minio/minio-go/v7"
+    ]
+  },
   "license": "AGPL-3.0",
   "featured": true,
   "dateAdded": "2026-04-01",

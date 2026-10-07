@@ -23,6 +23,7 @@ const dictionary: Dictionary = {
     about: "Acerca de",
     contribute: "Contribuir",
     compare: "Comparar",
+    analyze: "Analizar repositorio",
     github: "GitHub",
     support: "Apoya FindOpenSource",
     privacy: "Privacidad",
@@ -174,6 +175,35 @@ const dictionary: Dictionary = {
     categoryFilterLabel: "Filtrar por categoría",
     changeSelectionLabel: "Cambiar",
     noMatchesLabel: "Ningún proyecto coincide.",
+  },
+  analyze: {
+    pageTitle: "Analizar un repositorio de GitHub",
+    pageDescription:
+      "Pega un repositorio público de GitHub para ver qué proyectos open source de este catálogo ya usa y cuáles podrían encajar en su stack.",
+    inputLabel: "Repositorio de GitHub",
+    inputPlaceholder: "github.com/owner/repo",
+    submitLabel: "Analizar",
+    loading: "Analizando…",
+    errorInvalid: "Introduce la URL de un repositorio de GitHub o owner/repo.",
+    errorNotFound: "No se encontró el repositorio. Solo se pueden analizar repositorios públicos.",
+    errorRateLimited:
+      "Se alcanzó el límite de solicitudes de GitHub para tu red. Inténtalo de nuevo en unos minutos.",
+    errorGeneric: "No se pudo analizar este repositorio. Inténtalo de nuevo.",
+    stackHeading: "Stack detectado",
+    languageLabel: "Lenguaje principal",
+    frameworksLabel: "Frameworks",
+    dependenciesLabel: "{count} dependencias en {files}",
+    noManifests:
+      "No se encontró ningún archivo de dependencias compatible (package.json, requirements.txt, pyproject.toml, go.mod, Cargo.toml) en la raíz del repositorio.",
+    usedHeading: "Ya usa de este catálogo",
+    usedEmpty: "No se encontraron proyectos de este catálogo entre las dependencias del repositorio.",
+    matchedVia: "mediante {package}",
+    recommendHeading: "Podría encajar en este proyecto",
+    recommendReason:
+      "Se instala como paquete de {ecosystem} · no se detectó ningún proyecto de {category} en este repositorio",
+    recommendEmpty: "Sin recomendaciones: este repositorio ya cubre las categorías que revisamos.",
+    limitationNote:
+      "Solo se leen los archivos de dependencias de la raíz del repositorio, así que en monorepos los resultados pueden ser parciales. Las recomendaciones solo cubren autenticación, testing, monitorización, analítica y búsqueda.",
   },
   projectDetail: {
     overviewHeading: "Descripción general",

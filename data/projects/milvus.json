@@ -21,6 +21,14 @@
     "Go",
     "C++"
   ],
+  "packages": {
+    "npm": [
+      "@zilliz/milvus2-sdk-node"
+    ],
+    "pypi": [
+      "pymilvus"
+    ]
+  },
   "license": "Apache-2.0",
   "featured": true,
   "dateAdded": "2026-07-29",

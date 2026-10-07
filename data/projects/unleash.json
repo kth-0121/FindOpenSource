@@ -19,6 +19,18 @@
   "languages": [
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "@unleash/proxy-client-react",
+      "unleash-client"
+    ],
+    "pypi": [
+      "UnleashClient"
+    ],
+    "go": [
+      "github.com/Unleash/unleash-client-go/v4"
+    ]
+  },
   "license": "AGPL-3.0",
   "featured": false,
   "dateAdded": "2026-09-13",

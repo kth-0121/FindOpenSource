@@ -26,6 +26,15 @@
     "PHP",
     "TypeScript"
   ],
+  "packages": {
+    "npm": [
+      "appwrite",
+      "node-appwrite"
+    ],
+    "pypi": [
+      "appwrite"
+    ]
+  },
   "license": "BSD-3-Clause",
   "featured": true,
   "dateAdded": "2026-09-08",
