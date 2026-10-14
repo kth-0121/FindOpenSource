@@ -38,8 +38,12 @@ export default async function HomePage({ params }: HomePageProps) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
+    // Google reads site name from WebSite data on the home page; `url` must be
+    // the domain root (not /en) and alternateName ties the "findoss" brand
+    // searches people actually type to this name.
     name: siteConfig.name,
-    url: `${siteConfig.url}/${locale}`,
+    alternateName: ["findoss", "FindOSS", "findoss.dev"],
+    url: `${siteConfig.url}/`,
     potentialAction: {
       "@type": "SearchAction",
       target: `${siteConfig.url}/${locale}/search?q={search_term_string}`,
