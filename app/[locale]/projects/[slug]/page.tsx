@@ -92,7 +92,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
       <p className="mt-3 text-lg text-muted-foreground">{project.description}</p>
 
       {evidenceBadges.length > 0 && (
-        <ul className="mt-3 flex flex-wrap gap-2">
+        // data-nosnippet: Google was quoting these badge labels ("Actively
+        // maintained; Well documented; ...") as the search snippet.
+        <ul data-nosnippet className="mt-3 flex flex-wrap gap-2">
           {evidenceBadges.map((badge) => (
             <li key={badge}>
               <EvidenceBadge>{dict.evidenceBadges[badge]}</EvidenceBadge>
