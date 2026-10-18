@@ -15,6 +15,8 @@
 搜索"身份验证"、"聊天"、"CMS"、"向量数据库"或"网页抓取"，就能得到一份经过筛选的开源项目列表 —
 并附带许可证、开发语言、链接等信息，方便你快速评估。
 
+目前目录共收录 21 个分类下的 **224 个精选项目**。
+
 FindOpenSource 是一个完全静态、由社区共同维护的目录。没有登录、没有数据库、也没有后端服务。
 每个项目都是一个纯 JSON 文件，通过 GitHub 拉取请求（Pull Request）审核并合并。
 
@@ -29,9 +31,13 @@ FindOpenSource 是一个完全静态、由社区共同维护的目录。没有�
   关键词搜索；默认关闭，并非必需。详见 [`lib/ai/`](lib/ai/)。
 - **项目对比** — 选择任意两个项目，并排查看它们的许可证、分类、语言和目录评级，并可通过 URL
   分享（`/zh-CN/compare?a=meilisearch&b=typesense`）。
+- **GitHub 仓库分析器** — 粘贴一个 GitHub 仓库 URL，即可查看它使用的语言和框架、已经依赖了
+  哪些目录中的项目，以及针对缺失环节（身份验证、测试、监控、分析、搜索）的精选推荐，每条都附有
+  理由。完全在浏览器中通过公开的 GitHub API 运行 —— 无需登录，不存储任何数据
+  （`/zh-CN/analyze?repo=vercel/next.js`）。
 - **目录评级** — 每个项目都有 0～5 分的评级，附带说明为何收录该项目的理由，以及成熟度/治理
   标签。详见 [`docs/project-evaluation.md`](docs/project-evaluation.md)。
-- **分类浏览** — 从 AI 到 DevOps，共 20 个精心整理的分类。
+- **分类浏览** — 从 AI、AI 智能体到 DevOps，共 21 个精心整理的分类。
 - **静态且快速** — 基于 Next.js App Router 构建；每个本地化的项目、分类和对比页面都在构建时
   静态生成。
 - **对 SEO 友好** — 每个页面都具备本地化元数据、OpenGraph、hreflang 备用链接、JSON-LD、站点地图
@@ -55,6 +61,8 @@ FindOpenSource 是一个完全静态、由社区共同维护的目录。没有�
 /en/projects/supabase
 /en/categories/authentication
 /en/search?q=authentication
+/en/compare?a=meilisearch&b=typesense
+/en/analyze?repo=vercel/next.js
 
 /zh-CN
 /zh-CN/projects/supabase
@@ -78,7 +86,7 @@ Milvus 和 Qdrant 的排名仍会高于普通数据库。具体评分实现见 [
 
 ## 分类
 
-AI 与机器学习 · 身份验证与安全 · 后端 · 数据库 · API · CMS · 聊天与消息 · 开发者工具 · UI 与
+AI 与机器学习 · AI 智能体与智能体工具 · 身份验证与安全 · 后端 · 数据库 · API · CMS · 聊天与消息 · 开发者工具 · UI 与
 组件 · 分析 · 存储 · 自动化 · DevOps · 搜索 · 监控 · 电子商务 · 支付 · 媒体 · 测试 · 移动端
 
 分类 **slug** 是固定不变的，不会被翻译（是 `/zh-CN/categories/authentication`，而不是
@@ -112,7 +120,7 @@ AI 与机器学习 · 身份验证与安全 · 后端 · 数据库 · API · CMS
    名称、BCP 47 标签、OpenGraph locale）。
 2. 在 `lib/i18n/dictionaries/` 下添加一个实现 `Dictionary` 接口的新字典文件（TypeScript 会
    标出任何缺失的 key），并在 `get-dictionary.ts` 中注册它。
-3. 在新字典的 `categories` 字段中，为全部 20 个 slug 添加分类翻译。
+3. 在新字典的 `categories` 字段中，为全部 21 个 slug 添加分类翻译。
 4. 可选：在 `keyword-taxonomy.ts` 中为新语言添加同义词。
 5. 运行 `npm run build` —— 新语言的静态路由会根据 `locales`、`data/projects/` 和
    `data/categories.json` 自动生成，无需修改其他任何内容。
@@ -131,6 +139,7 @@ npm run dev         # 在 http://localhost:3000/en 启动本地开发服务器
 npm run lint         # 对代码库进行 lint 检查
 npm run typecheck    # 运行 TypeScript 编译器
 npm run validate     # 校验 data/projects/ 下的所有项目数据
+npm test             # 运行单元测试（搜索、AI 层、仓库分析器）
 npm run build         # 生产环境构建
 ```
 
@@ -142,23 +151,31 @@ app/
     page.tsx             首页
     search/              搜索结果 (/[locale]/search?q=...)
     compare/              对比首页 + 双项目选择器 (/[locale]/compare)
+    analyze/              GitHub 仓库分析器 (/[locale]/analyze?repo=owner/name)
     projects/[slug]/     项目详情页
     categories/[slug]/   分类页
-    about/, contribute/  静态内容页
+    about/, contribute/, contact/, privacy/, terms/, support/  静态内容页
     not-found.tsx        本地化的 404 页面
   api/search/understand/  AI 查询理解接口（可选的渐进增强功能）
+  api/catalog/           供仓库分析器使用的预渲染包索引
+  api/projects/[locale]/[slug]/  预渲染的单项目 JSON，由 /compare 按需获取
+  icon.svg, favicon.ico, apple-icon.png  站点 Logo（f. 标志）
   sitemap.ts, robots.ts  顶层 SEO 端点（与语言无关的 URL）
 middleware.ts          为不带语言前缀的路径加上默认语言前缀（不做浏览器语言自动跳转）
 components/           可复用的 UI 组件（感知语言/字典）+ LanguageSwitcher
   ComparePicker.tsx      /compare 的客户端项目选择组件
   ComparisonTable.tsx    展示两个已选项目并排对比的卡片
+  RepoAnalyzer.tsx       /analyze 的客户端 GitHub 仓库分析器
 data/
-  projects/*.json        每个项目一个标准文件；可选的按语言 `translations`
+  projects/*.json        每个项目一个标准文件；可选的按语言 `translations` 以及
+                           注册表 `packages`（仓库分析器使用的 npm/PyPI/Go/Cargo 包名）
   categories.json         标准（英文）分类定义；固定 slug
 lib/
   schema.ts               项目与分类的 Zod schema
   projects.ts, categories.ts   支持语言感知解析 + 回退的数据加载器
   search.ts                按相关度排序、语言感知的搜索
+  repo-analysis.ts         清单文件解析器（package.json、requirements.txt、pyproject.toml、go.mod、
+                             Cargo.toml）、包匹配与精选推荐
   ai/                       可选的 LLM 查询理解层（prompt、schema、缓存、限流）
   evaluation/               质量分数 + 目录评级 + 证据徽章逻辑 (docs/project-evaluation.md)
   i18n/
@@ -171,6 +188,7 @@ lib/
     format.ts                 {placeholder} 插值 + 复数处理辅助函数
 scripts/
   validate-projects.ts     数据校验，在 CI 中运行
+  audit-projects.ts        只读报告：覆盖率、陈旧度、分类均衡、重复项
 .github/               Issue/PR 模板与校验工作流
 ```
 

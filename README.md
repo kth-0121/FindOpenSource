@@ -18,6 +18,8 @@ Search "authentication", "chat", "CMS", "vector database" or "web scraping" and 
 list of open source projects that solve that problem — with enough information (license,
 language, links) to quickly evaluate them.
 
+The catalog currently lists **224 curated projects** across 21 categories.
+
 FindOpenSource is a fully static, community-maintained directory. There is no login, no
 database, and no backend service. Every project is a plain JSON file, reviewed and merged
 through GitHub pull requests.
@@ -35,10 +37,14 @@ through GitHub pull requests.
   default and never required. See [`lib/ai/`](lib/ai/).
 - **Compare projects** — pick any two projects and see their license, categories, languages and
   catalog signals side by side, shareable via URL (`/en/compare?a=meilisearch&b=typesense`).
+- **GitHub repo analyzer** — paste a GitHub repository URL to see its language and frameworks,
+  which catalog projects it already depends on, and curated suggestions (auth, testing,
+  monitoring, analytics, search) for the gaps, each with a reason. Runs entirely in the browser
+  against the public GitHub API — no login, nothing stored (`/en/analyze?repo=vercel/next.js`).
 - **Catalog Value ratings** — every project carries a 0–5 rating with a written rationale for why
   it's worth including, plus maturity/governance tags. See
   [`docs/project-evaluation.md`](docs/project-evaluation.md).
-- **Category browsing** — 20 curated categories from AI to DevOps.
+- **Category browsing** — 21 curated categories from AI and AI agents to DevOps.
 - **Static & fast** — built with the Next.js App Router; every localized project, category and
   comparison page is statically generated at build time.
 - **SEO-friendly** — locale-aware metadata, OpenGraph, hreflang alternates, JSON-LD, sitemap and
@@ -62,6 +68,8 @@ Every route is locale-prefixed:
 /en/projects/supabase
 /en/categories/authentication
 /en/search?q=authentication
+/en/compare?a=meilisearch&b=typesense
+/en/analyze?repo=vercel/next.js
 
 /ko
 /ko/projects/supabase
@@ -88,7 +96,7 @@ weight than a direct match — so synonyms *help* results without ever outrankin
 
 ## Categories
 
-AI & Machine Learning · Authentication & Security · Backend · Database · API · CMS ·
+AI & Machine Learning · AI Agents & Agent Tools · Authentication & Security · Backend · Database · API · CMS ·
 Chat & Messaging · Developer Tools · UI & Components · Analytics · Storage · Automation ·
 DevOps · Search · Monitoring · E-commerce · Payments · Media · Testing · Mobile
 
@@ -125,7 +133,7 @@ existing one) — no changes to the search algorithm itself are needed.
    BCP 47 tag, OpenGraph locale).
 2. Add a new dictionary file in `lib/i18n/dictionaries/` implementing the `Dictionary` interface
    (TypeScript will flag any missing key) and register it in `get-dictionary.ts`.
-3. Add category translations for all 20 slugs inside the new dictionary's `categories` field.
+3. Add category translations for all 21 slugs inside the new dictionary's `categories` field.
 4. Optionally add synonyms for the new locale to `keyword-taxonomy.ts`.
 5. Run `npm run build` — the new locale's static routes are generated automatically from
    `locales`, `data/projects/`, and `data/categories.json`; nothing else needs to change.
@@ -145,6 +153,7 @@ npm run dev         # start the local dev server at http://localhost:3000/en
 npm run lint         # lint the codebase
 npm run typecheck    # run the TypeScript compiler
 npm run validate     # validate all project data in data/projects/
+npm test             # run unit tests (search, AI layer, repo analyzer)
 npm run build         # production build
 ```
 
@@ -156,23 +165,31 @@ app/
     page.tsx             Home page
     search/              Search results (/[locale]/search?q=...)
     compare/              Compare index + two-project comparison picker (/[locale]/compare)
+    analyze/              GitHub repo analyzer (/[locale]/analyze?repo=owner/name)
     projects/[slug]/     Project detail pages
     categories/[slug]/   Category pages
-    about/, contribute/  Static content pages
+    about/, contribute/, contact/, privacy/, terms/, support/  Static content pages
     not-found.tsx        Localized 404
   api/search/understand/  AI query-understanding endpoint (progressive enhancement, opt-in)
+  api/catalog/           Prerendered package index used by the repo analyzer
+  api/projects/[locale]/[slug]/  Prerendered per-project JSON, fetched on demand by /compare
+  icon.svg, favicon.ico, apple-icon.png  Site logo (the f. mark)
   sitemap.ts, robots.ts  Top-level SEO endpoints (locale-independent URLs)
 middleware.ts          Prefixes unlocalized paths with the default locale (no browser-language redirect)
 components/           Reusable UI components (locale/dict-aware) + LanguageSwitcher
   ComparePicker.tsx      Client-side project picker for /compare
   ComparisonTable.tsx    Side-by-side comparison cards for two selected projects
+  RepoAnalyzer.tsx       Client-side GitHub repo analyzer for /analyze
 data/
-  projects/*.json        One canonical file per project; optional per-locale `translations`
+  projects/*.json        One canonical file per project; optional per-locale `translations` and
+                           registry `packages` (npm/PyPI/Go/Cargo names used by the repo analyzer)
   categories.json         Canonical (English) category definitions; stable slugs
 lib/
   schema.ts               Zod schemas for projects & categories
   projects.ts, categories.ts   Data loaders with locale-aware resolution + fallback
   search.ts                Relevance-ranked, locale-aware search
+  repo-analysis.ts         Manifest parsers (package.json, requirements.txt, pyproject.toml, go.mod,
+                             Cargo.toml), package matching and curated recommendations
   ai/                       Optional LLM query-understanding layer (prompt, schema, cache, rate limit)
   evaluation/               Quality score + catalog value + evidence badge logic (docs/project-evaluation.md)
   i18n/
@@ -185,6 +202,7 @@ lib/
     format.ts                 {placeholder} interpolation + pluralization helper
 scripts/
   validate-projects.ts     Data validation, run in CI
+  audit-projects.ts        Read-only report: coverage, staleness, category balance, duplicates
 .github/               Issue/PR templates and the validation workflow
 ```
 

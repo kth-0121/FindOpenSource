@@ -18,6 +18,8 @@ FindOpenSource는 다른 질문에서 출발합니다:
 해결하는 오픈소스 프로젝트 목록을 큐레이션해서 보여줍니다 — 빠르게 판단할 수 있도록 라이선스,
 언어, 링크 같은 정보도 함께 제공합니다.
 
+현재 카탈로그에는 21개 카테고리에 걸쳐 **224개의 큐레이션된 프로젝트**가 등록되어 있습니다.
+
 FindOpenSource는 완전히 정적이고 커뮤니티가 함께 관리하는 디렉터리입니다. 로그인도, 데이터베이스도,
 백엔드 서버도 없습니다. 모든 프로젝트는 하나의 JSON 파일이며, GitHub 풀 리퀘스트를 통해 검토되고
 병합됩니다.
@@ -35,10 +37,14 @@ FindOpenSource는 완전히 정적이고 커뮤니티가 함께 관리하는 디
   내용은 [`lib/ai/`](lib/ai/)를 참고하세요.
 - **프로젝트 비교** — 원하는 두 프로젝트를 골라 라이선스, 카테고리, 언어, 카탈로그 지표를
   나란히 비교할 수 있고, URL로 공유도 가능합니다 (`/ko/compare?a=meilisearch&b=typesense`).
+- **GitHub 저장소 분석기** — GitHub 저장소 URL을 붙여넣으면 사용 언어와 프레임워크, 이미 의존하고
+  있는 카탈로그 프로젝트, 그리고 부족한 영역(인증, 테스트, 모니터링, 분석, 검색)에 대한 큐레이션된
+  추천을 각각의 이유와 함께 보여줍니다. 공개 GitHub API를 이용해 전부 브라우저에서 실행되며,
+  로그인도 필요 없고 아무것도 저장하지 않습니다 (`/ko/analyze?repo=vercel/next.js`).
 - **카탈로그 평점** — 모든 프로젝트에는 0~5점 평점과 왜 이 카탈로그에 포함되었는지를 설명하는
   근거, 그리고 성숙도/거버넌스 태그가 함께 붙습니다. 자세한 내용은
   [`docs/project-evaluation.md`](docs/project-evaluation.md)를 참고하세요.
-- **카테고리 탐색** — AI부터 DevOps까지 20개의 큐레이션된 카테고리.
+- **카테고리 탐색** — AI와 AI 에이전트부터 DevOps까지 21개의 큐레이션된 카테고리.
 - **정적이고 빠름** — Next.js App Router로 빌드되어, 모든 지역화된 프로젝트/카테고리/비교
   페이지가 빌드 시점에 정적으로 생성됩니다.
 - **SEO 친화적** — 로케일별 메타데이터, OpenGraph, hreflang 대체 링크, JSON-LD, 사이트맵,
@@ -62,6 +68,8 @@ FindOpenSource는 완전히 정적이고 커뮤니티가 함께 관리하는 디
 /en/projects/supabase
 /en/categories/authentication
 /en/search?q=authentication
+/en/compare?a=meilisearch&b=typesense
+/en/analyze?repo=vercel/next.js
 
 /ko
 /ko/projects/supabase
@@ -89,7 +97,7 @@ upload` 같은 여러 단어 검색어는 토큰 단위로 나뉘어 개별적�
 
 ## 카테고리
 
-AI & 머신러닝 · 인증 & 보안 · 백엔드 · 데이터베이스 · API · CMS · 채팅 & 메시징 · 개발자 도구 ·
+AI & 머신러닝 · AI 에이전트 및 에이전트 도구 · 인증 & 보안 · 백엔드 · 데이터베이스 · API · CMS · 채팅 & 메시징 · 개발자 도구 ·
 UI & 컴포넌트 · 분석 · 스토리지 · 자동화 · DevOps · 검색 · 모니터링 · 이커머스 · 결제 · 미디어 ·
 테스트 · 모바일
 
@@ -126,7 +134,7 @@ taxonomy와 대조해 확장합니다. 새로운 의도를 추가하려면 항�
    자국어 이름, BCP 47 태그, OpenGraph 로케일).
 2. `lib/i18n/dictionaries/`에 `Dictionary` 인터페이스를 구현하는 새 딕셔너리 파일을 추가하고
    (TypeScript가 누락된 키를 알려줍니다) `get-dictionary.ts`에 등록합니다.
-3. 새 딕셔너리의 `categories` 필드 안에 20개 슬러그 전체에 대한 카테고리 번역을 추가합니다.
+3. 새 딕셔너리의 `categories` 필드 안에 21개 슬러그 전체에 대한 카테고리 번역을 추가합니다.
 4. 선택적으로 `keyword-taxonomy.ts`에 새 로케일용 동의어를 추가합니다.
 5. `npm run build`를 실행하세요 — 새 로케일의 정적 라우트는 `locales`, `data/projects/`,
    `data/categories.json`을 기반으로 자동 생성되며, 그 외에는 아무것도 바꿀 필요가 없습니다.
@@ -146,6 +154,7 @@ npm run dev         # http://localhost:3000/en 에서 로컬 개발 서버 실�
 npm run lint         # 코드베이스 린트
 npm run typecheck    # TypeScript 컴파일러 실행
 npm run validate     # data/projects/ 의 모든 프로젝트 데이터 검증
+npm test             # 단위 테스트 실행 (검색, AI 레이어, 저장소 분석기)
 npm run build         # 프로덕션 빌드
 ```
 
@@ -157,23 +166,31 @@ app/
     page.tsx             홈페이지
     search/              검색 결과 (/[locale]/search?q=...)
     compare/              비교 인덱스 + 두 프로젝트 선택 UI (/[locale]/compare)
+    analyze/              GitHub 저장소 분석기 (/[locale]/analyze?repo=owner/name)
     projects/[slug]/     프로젝트 상세 페이지
     categories/[slug]/   카테고리 페이지
-    about/, contribute/  정적 콘텐츠 페이지
+    about/, contribute/, contact/, privacy/, terms/, support/  정적 콘텐츠 페이지
     not-found.tsx        로케일별 404
   api/search/understand/  AI 쿼리 이해 엔드포인트 (선택적 점진적 개선 기능)
+  api/catalog/           저장소 분석기가 사용하는 사전 렌더링된 패키지 인덱스
+  api/projects/[locale]/[slug]/  /compare에서 필요할 때 가져오는 사전 렌더링된 프로젝트별 JSON
+  icon.svg, favicon.ico, apple-icon.png  사이트 로고 (f. 마크)
   sitemap.ts, robots.ts  최상위 SEO 엔드포인트 (로케일 독립적인 URL)
 middleware.ts          로케일이 없는 경로에 기본 로케일을 붙임 (브라우저 언어 리다이렉트 없음)
 components/           재사용 가능한 UI 컴포넌트(로케일/딕셔너리 인지) + LanguageSwitcher
   ComparePicker.tsx      /compare용 클라이언트 프로젝트 선택 컴포넌트
   ComparisonTable.tsx    선택된 두 프로젝트를 나란히 보여주는 비교 카드
+  RepoAnalyzer.tsx       /analyze용 클라이언트 GitHub 저장소 분석기
 data/
-  projects/*.json        프로젝트당 하나의 표준 파일; 선택적으로 로케일별 `translations`
+  projects/*.json        프로젝트당 하나의 표준 파일; 선택적으로 로케일별 `translations` 및
+                           레지스트리 `packages` (저장소 분석기가 사용하는 npm/PyPI/Go/Cargo 이름)
   categories.json         표준(영어) 카테고리 정의; 고정 슬러그
 lib/
   schema.ts               프로젝트 & 카테고리용 Zod 스키마
   projects.ts, categories.ts   로케일 인지 처리 + 폴백을 지원하는 데이터 로더
   search.ts                관련도 기반, 로케일 인지 검색
+  repo-analysis.ts         매니페스트 파서 (package.json, requirements.txt, pyproject.toml, go.mod,
+                             Cargo.toml), 패키지 매칭 및 큐레이션된 추천
   ai/                       선택적 LLM 쿼리 이해 레이어 (프롬프트, 스키마, 캐시, 레이트 리밋)
   evaluation/               품질 점수 + 카탈로그 평점 + 근거 뱃지 로직 (docs/project-evaluation.md)
   i18n/
@@ -186,6 +203,7 @@ lib/
     format.ts                 {placeholder} 치환 + 복수형 처리 헬퍼
 scripts/
   validate-projects.ts     데이터 검증, CI에서 실행
+  audit-projects.ts        읽기 전용 리포트: 커버리지, 오래된 항목, 카테고리 균형, 중복
 .github/               이슈/PR 템플릿과 검증 워크플로
 ```
 

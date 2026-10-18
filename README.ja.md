@@ -18,6 +18,8 @@ FindOpenSource は別の問いから出発します：
 課題を解決するオープンソースプロジェクトの厳選リストが表示されます — ライセンス、開発言語、
 リンクなど、素早く評価するための情報も一緒に確認できます。
 
+現在、カタログには 21 のカテゴリにわたって **224 件の厳選プロジェクト** が掲載されています。
+
 FindOpenSource は完全に静的で、コミュニティによって運営されているディレクトリです。ログインも、
 データベースも、バックエンドサービスもありません。すべてのプロジェクトは 1 つの JSON ファイルで
 あり、GitHub のプルリクエストを通じてレビュー・マージされます。
@@ -35,10 +37,14 @@ FindOpenSource は完全に静的で、コミュニティによって運営さ�
   必須ではありません。詳細は [`lib/ai/`](lib/ai/) を参照してください。
 - **プロジェクト比較** — 任意の 2 つのプロジェクトを選び、ライセンス・カテゴリ・言語・カタログ
   指標を並べて比較でき、URL で共有もできます（`/ja/compare?a=meilisearch&b=typesense`）。
+- **GitHub リポジトリ分析** — GitHub リポジトリの URL を貼り付けると、使用言語とフレームワーク、
+  すでに依存しているカタログ内のプロジェクト、そして不足している領域（認証、テスト、モニタリング、
+  分析、検索）に対する厳選された提案を、それぞれの理由とともに表示します。公開 GitHub API を使って
+  すべてブラウザ内で動作し、ログイン不要で何も保存されません（`/ja/analyze?repo=vercel/next.js`）。
 - **カタログ評価** — すべてのプロジェクトに、なぜこのカタログに含まれているかを説明する 0〜5
   の評価と根拠、成熟度・ガバナンスのタグが付いています。詳細は
   [`docs/project-evaluation.md`](docs/project-evaluation.md) を参照してください。
-- **カテゴリ閲覧** — AI から DevOps まで、20 個の厳選されたカテゴリ。
+- **カテゴリ閲覧** — AI や AI エージェントから DevOps まで、21 個の厳選されたカテゴリ。
 - **静的で高速** — Next.js App Router で構築されており、ローカライズされたすべてのプロジェクト・
   カテゴリ・比較ページはビルド時に静的生成されます。
 - **SEO フレンドリー** — 各ページにロケールごとのメタデータ、OpenGraph、hreflang 代替リンク、
@@ -62,6 +68,8 @@ FindOpenSource は完全に静的で、コミュニティによって運営さ�
 /en/projects/supabase
 /en/categories/authentication
 /en/search?q=authentication
+/en/compare?a=meilisearch&b=typesense
+/en/analyze?repo=vercel/next.js
 
 /ja
 /ja/projects/supabase
@@ -89,7 +97,7 @@ FindOpenSource は完全に静的で、コミュニティによって運営さ�
 
 ## カテゴリ
 
-AI・機械学習 · 認証・セキュリティ · バックエンド · データベース · API · CMS · チャット・
+AI・機械学習 · AIエージェント & エージェントツール · 認証・セキュリティ · バックエンド · データベース · API · CMS · チャット・
 メッセージング · 開発者ツール · UI・コンポーネント · 分析 · ストレージ · 自動化 · DevOps ·
 検索 · モニタリング · EC · 決済 · メディア · テスト · モバイル
 
@@ -128,7 +136,7 @@ AI・機械学習 · 認証・セキュリティ · バックエンド · デー
    その言語自身での表記、BCP 47 タグ、OpenGraph ロケール）。
 2. `lib/i18n/dictionaries/` に `Dictionary` インターフェースを実装した新しい辞書ファイルを
    追加し（欠けているキーは TypeScript が指摘します）、`get-dictionary.ts` に登録します。
-3. 新しい辞書の `categories` フィールド内に、20 個すべての slug に対するカテゴリ翻訳を追加します。
+3. 新しい辞書の `categories` フィールド内に、21 個すべての slug に対するカテゴリ翻訳を追加します。
 4. 任意で `keyword-taxonomy.ts` に新しいロケール向けの類義語を追加します。
 5. `npm run build` を実行します — 新しいロケールの静的ルートは `locales`、
    `data/projects/`、`data/categories.json` から自動生成され、それ以外に変更する必要はありません。
@@ -148,6 +156,7 @@ npm run dev         # http://localhost:3000/en でローカル開発サーバー
 npm run lint         # コードベースの lint
 npm run typecheck    # TypeScript コンパイラの実行
 npm run validate     # data/projects/ 内のすべてのプロジェクトデータを検証
+npm test             # ユニットテストの実行（検索、AI レイヤー、リポジトリ分析）
 npm run build         # 本番用ビルド
 ```
 
@@ -159,23 +168,31 @@ app/
     page.tsx             ホームページ
     search/              検索結果 (/[locale]/search?q=...)
     compare/              比較インデックス + 2 プロジェクト選択 UI (/[locale]/compare)
+    analyze/              GitHub リポジトリ分析 (/[locale]/analyze?repo=owner/name)
     projects/[slug]/     プロジェクト詳細ページ
     categories/[slug]/   カテゴリページ
-    about/, contribute/  静的コンテンツページ
+    about/, contribute/, contact/, privacy/, terms/, support/  静的コンテンツページ
     not-found.tsx        ロケールごとの 404
   api/search/understand/  AI クエリ理解エンドポイント（任意の段階的拡張機能）
+  api/catalog/           リポジトリ分析で使うプリレンダリング済みのパッケージインデックス
+  api/projects/[locale]/[slug]/  /compare が必要に応じて取得する、プリレンダリング済みのプロジェクトごとの JSON
+  icon.svg, favicon.ico, apple-icon.png  サイトロゴ（f. マーク）
   sitemap.ts, robots.ts  トップレベルの SEO エンドポイント（ロケールに依存しない URL）
 middleware.ts          ロケールなしのパスにデフォルトロケールを付与（ブラウザ言語による自動リダイレクトなし）
 components/           再利用可能な UI コンポーネント（ロケール/辞書対応）+ LanguageSwitcher
   ComparePicker.tsx      /compare 用のクライアント側プロジェクト選択コンポーネント
   ComparisonTable.tsx    選択した 2 プロジェクトを並べて表示する比較カード
+  RepoAnalyzer.tsx       /analyze 用のクライアント側 GitHub リポジトリ分析コンポーネント
 data/
-  projects/*.json        プロジェクトごとに 1 つの標準ファイル；任意でロケールごとの `translations`
+  projects/*.json        プロジェクトごとに 1 つの標準ファイル；任意でロケールごとの `translations` と
+                           レジストリの `packages`（リポジトリ分析で使う npm/PyPI/Go/Cargo のパッケージ名）
   categories.json         標準（英語）カテゴリ定義；固定の slug
 lib/
   schema.ts               プロジェクト・カテゴリ用の Zod スキーマ
   projects.ts, categories.ts   ロケール対応の解決とフォールバックを行うデータローダー
   search.ts                関連度ランキング付き、ロケール対応の検索
+  repo-analysis.ts         マニフェストパーサー（package.json、requirements.txt、pyproject.toml、go.mod、
+                             Cargo.toml）、パッケージ照合、厳選された提案
   ai/                       任意の LLM クエリ理解レイヤー（プロンプト、スキーマ、キャッシュ、レート制限）
   evaluation/               品質スコア + カタログ評価 + 根拠バッジのロジック (docs/project-evaluation.md)
   i18n/
@@ -188,6 +205,7 @@ lib/
     format.ts                 {placeholder} 補間 + 複数形処理のヘルパー
 scripts/
   validate-projects.ts     データ検証、CI で実行
+  audit-projects.ts        読み取り専用レポート：カバレッジ、更新の停滞、カテゴリのバランス、重複
 .github/               Issue/PR テンプレートと検証ワークフロー
 ```
 

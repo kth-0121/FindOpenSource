@@ -18,6 +18,8 @@ Busca "autenticación", "chat", "CMS", "base de datos vectorial" o "web scraping
 lista curada de proyectos open source que resuelven ese problema — con la información necesaria
 (licencia, lenguaje, enlaces) para evaluarlos rápidamente.
 
+El catálogo incluye actualmente **224 proyectos curados** en 21 categorías.
+
 FindOpenSource es un directorio totalmente estático, mantenido por la comunidad. No hay login,
 ni base de datos, ni servicio backend. Cada proyecto es un simple archivo JSON, revisado y
 fusionado a través de pull requests en GitHub.
@@ -41,10 +43,15 @@ fusionado a través de pull requests en GitHub.
 - **Comparar proyectos** — elige dos proyectos cualesquiera y compara su licencia, categorías,
   lenguajes y señales de catálogo lado a lado, compartible por URL
   (`/es/compare?a=meilisearch&b=typesense`).
+- **Analizador de repositorios de GitHub** — pega la URL de un repositorio de GitHub para ver su
+  lenguaje y frameworks, qué proyectos del catálogo ya usa como dependencias y sugerencias curadas
+  (autenticación, testing, monitorización, analítica, búsqueda) para lo que le falta, cada una con
+  su motivo. Se ejecuta íntegramente en el navegador contra la API pública de GitHub — sin login y
+  sin guardar nada (`/es/analyze?repo=vercel/next.js`).
 - **Valoraciones de Catalog Value** — cada proyecto tiene una valoración de 0 a 5 con una
   justificación escrita de por qué vale la pena incluirlo, además de etiquetas de madurez y
   gobernanza. Consulta [`docs/project-evaluation.md`](docs/project-evaluation.md).
-- **Navegación por categorías** — 20 categorías curadas, desde IA hasta DevOps.
+- **Navegación por categorías** — 21 categorías curadas, desde IA y agentes de IA hasta DevOps.
 - **Estático y rápido** — construido con el App Router de Next.js; cada página localizada de
   proyecto, categoría y comparación se genera de forma estática en tiempo de build.
 - **Optimizado para SEO** — metadatos por locale, OpenGraph, enlaces alternativos hreflang,
@@ -68,6 +75,8 @@ Cada ruta lleva el prefijo del locale:
 /en/projects/supabase
 /en/categories/authentication
 /en/search?q=authentication
+/en/compare?a=meilisearch&b=typesense
+/en/analyze?repo=vercel/next.js
 
 /es
 /es/projects/supabase
@@ -98,7 +107,7 @@ a los resultados, sin superar nunca a una coincidencia exacta.
 
 ## Categorías
 
-IA y Machine Learning · Autenticación y Seguridad · Backend · Base de datos · API · CMS ·
+IA y Machine Learning · Agentes de IA y herramientas para agentes · Autenticación y Seguridad · Backend · Base de datos · API · CMS ·
 Chat y Mensajería · Herramientas de desarrollo · UI y Componentes · Analítica · Almacenamiento ·
 Automatización · DevOps · Búsqueda · Monitorización · E-commerce · Pagos · Media · Testing ·
 Móvil
@@ -141,7 +150,7 @@ locale a una existente) — no hace falta tocar el algoritmo de búsqueda en sí
 2. Añade un nuevo archivo de diccionario en `lib/i18n/dictionaries/` que implemente la
    interfaz `Dictionary` (TypeScript marcará cualquier clave faltante) y regístralo en
    `get-dictionary.ts`.
-3. Añade las traducciones de categoría para los 20 slugs dentro del campo `categories` del
+3. Añade las traducciones de categoría para los 21 slugs dentro del campo `categories` del
    nuevo diccionario.
 4. Opcionalmente, añade sinónimos para el nuevo locale en `keyword-taxonomy.ts`.
 5. Ejecuta `npm run build` — las rutas estáticas del nuevo locale se generan automáticamente
@@ -164,6 +173,7 @@ npm run dev         # iniciar el servidor de desarrollo local en http://localhos
 npm run lint         # analizar el código con lint
 npm run typecheck    # ejecutar el compilador de TypeScript
 npm run validate     # validar todos los datos de proyecto en data/projects/
+npm test             # ejecutar los tests unitarios (búsqueda, capa de IA, analizador de repositorios)
 npm run build         # build de producción
 ```
 
@@ -175,23 +185,31 @@ app/
     page.tsx             Página de inicio
     search/              Resultados de búsqueda (/[locale]/search?q=...)
     compare/              Índice de comparación + selector de dos proyectos (/[locale]/compare)
+    analyze/              Analizador de repositorios de GitHub (/[locale]/analyze?repo=owner/name)
     projects/[slug]/     Páginas de detalle de proyecto
     categories/[slug]/   Páginas de categoría
-    about/, contribute/  Páginas de contenido estático
+    about/, contribute/, contact/, privacy/, terms/, support/  Páginas de contenido estático
     not-found.tsx        404 localizado
   api/search/understand/  Endpoint de comprensión de consultas por IA (mejora progresiva, opcional)
+  api/catalog/           Índice de paquetes prerenderizado que usa el analizador de repositorios
+  api/projects/[locale]/[slug]/  JSON prerenderizado por proyecto, que /compare obtiene bajo demanda
+  icon.svg, favicon.ico, apple-icon.png  Logo del sitio (la marca f.)
   sitemap.ts, robots.ts  Endpoints de SEO de nivel superior (URLs independientes del locale)
 middleware.ts          Añade el locale por defecto a rutas sin prefijo (sin redirección por idioma del navegador)
 components/           Componentes de UI reutilizables (conscientes de locale/diccionario) + LanguageSwitcher
   ComparePicker.tsx      Selector de proyectos en cliente para /compare
   ComparisonTable.tsx    Tarjetas de comparación lado a lado para los dos proyectos elegidos
+  RepoAnalyzer.tsx       Analizador de repositorios de GitHub en cliente para /analyze
 data/
-  projects/*.json        Un archivo canónico por proyecto; `translations` opcional por locale
+  projects/*.json        Un archivo canónico por proyecto; `translations` opcional por locale y
+                           `packages` de registro (nombres de npm/PyPI/Go/Cargo usados por el analizador de repositorios)
   categories.json         Definiciones canónicas (en inglés) de categoría; slugs estables
 lib/
   schema.ts               Esquemas Zod para proyectos y categorías
   projects.ts, categories.ts   Cargadores de datos con resolución consciente de locale + fallback
   search.ts                Búsqueda ordenada por relevancia, consciente de locale
+  repo-analysis.ts         Parsers de manifiestos (package.json, requirements.txt, pyproject.toml, go.mod,
+                             Cargo.toml), matching de paquetes y recomendaciones curadas
   ai/                       Capa opcional de comprensión de consultas por LLM (prompt, schema, caché, rate limit)
   evaluation/               Lógica de quality score + Catalog Value + evidence badges (docs/project-evaluation.md)
   i18n/
@@ -204,6 +222,7 @@ lib/
     format.ts                 Helper de interpolación {placeholder} + pluralización
 scripts/
   validate-projects.ts     Validación de datos, ejecutada en CI
+  audit-projects.ts        Informe de solo lectura: cobertura, obsolescencia, equilibrio de categorías, duplicados
 .github/               Plantillas de issue/PR y el workflow de validación
 ```
 
