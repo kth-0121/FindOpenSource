@@ -1,0 +1,74 @@
+{
+  "name": "Anthropic Skills",
+  "slug": "anthropic-skills",
+  "description": "Anthropic's public repository of Agent Skills -- example skills, the Agent Skills specification and a starter template for teaching agents repeatable tasks.",
+  "longDescription": "A skill is a folder with a SKILL.md file (YAML frontmatter plus instructions) and optional scripts and resources that an agent loads only when a task calls for it. This repository is where that format comes from: it holds the Agent Skills specification, a template to start your own, and example skills ranging from creative work (art, design) to technical tasks such as web-app testing and MCP server generation. It can be added directly as a Claude Code plugin marketplace, and the same skills work in Claude.ai and the Claude API.\n\nIt's the reference point for anyone writing their own skills or evaluating what the format can do. Note the licensing split: most skills are Apache-2.0, but the document skills (docx, pdf, pptx, xlsx) are source-available reference code rather than open source.",
+  "repository": "https://github.com/anthropics/skills",
+  "website": "https://agentskills.io",
+  "documentation": "https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "agent-skills-spec",
+    "claude-code-plugin",
+    "skill-template"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-10-19",
+  "translations": {
+    "zh-CN": {
+      "description": "Anthropic 官方的 Agent Skills 公共仓库——包含示例技能、Agent Skills 规范以及用于教会智能体可重复任务的入门模板。",
+      "longDescription": "技能（skill）是一个包含 SKILL.md 文件（YAML 前置信息加指令）以及可选脚本和资源的文件夹，智能体只在任务需要时才加载它。这个仓库正是这一格式的源头：它包含 Agent Skills 规范、用于编写自己技能的模板，以及从创意工作（艺术、设计）到技术任务（如 Web 应用测试、MCP 服务器生成）的示例技能。它可以直接作为 Claude Code 插件市场添加，同样的技能也能在 Claude.ai 和 Claude API 中使用。\n\n对于想编写自己的技能、或评估这一格式能做什么的人来说，它是参考起点。注意许可证的区别：大多数技能采用 Apache-2.0，但文档类技能（docx、pdf、pptx、xlsx）是源码可见的参考代码，而非开源。"
+    },
+    "ja": {
+      "description": "AnthropicによるAgent Skillsの公開リポジトリ。サンプルスキル、Agent Skills仕様、エージェントに繰り返し可能なタスクを教えるためのテンプレートを収録。",
+      "longDescription": "スキルとは、SKILL.mdファイル（YAMLフロントマターと指示）と任意のスクリプトやリソースを含むフォルダで、エージェントはタスクに必要なときだけそれを読み込みます。このリポジトリはその形式の出発点で、Agent Skills仕様、独自スキルを作るためのテンプレート、そしてクリエイティブな作業（アート、デザイン）からWebアプリのテストやMCPサーバー生成といった技術的タスクまでのサンプルスキルを収めています。Claude Codeのプラグインマーケットプレイスとして直接追加でき、同じスキルはClaude.aiやClaude APIでも使えます。\n\n独自のスキルを書く人や、この形式で何ができるかを見極めたい人にとっての基準点です。ライセンスの違いに注意してください：ほとんどのスキルはApache-2.0ですが、ドキュメント系スキル（docx、pdf、pptx、xlsx）はオープンソースではなくソース公開の参考コードです。"
+    },
+    "ko": {
+      "description": "Anthropic의 Agent Skills 공개 저장소 — 예제 스킬, Agent Skills 명세, 에이전트에게 반복 가능한 작업을 가르치는 시작 템플릿을 담고 있습니다.",
+      "longDescription": "스킬은 SKILL.md 파일(YAML 머리말과 지시문)과 선택적인 스크립트·리소스를 담은 폴더로, 에이전트는 작업에 필요할 때만 이를 불러옵니다. 이 저장소가 바로 그 형식의 출발점입니다: Agent Skills 명세, 직접 스킬을 만들 수 있는 템플릿, 그리고 창작 작업(아트, 디자인)부터 웹 앱 테스트나 MCP 서버 생성 같은 기술 작업까지 아우르는 예제 스킬이 들어 있습니다. Claude Code 플러그인 마켓플레이스로 바로 추가할 수 있고, 같은 스킬을 Claude.ai와 Claude API에서도 쓸 수 있습니다.\n\n직접 스킬을 작성하거나 이 형식으로 무엇을 할 수 있는지 살펴보려는 사람에게 기준점이 됩니다. 라이선스 차이에 유의하세요: 대부분의 스킬은 Apache-2.0이지만, 문서 스킬(docx, pdf, pptx, xlsx)은 오픈소스가 아닌 소스 공개 참고 코드입니다."
+    },
+    "es": {
+      "description": "El repositorio público de Agent Skills de Anthropic: skills de ejemplo, la especificación Agent Skills y una plantilla inicial para enseñar tareas repetibles a los agentes.",
+      "longDescription": "Una skill es una carpeta con un archivo SKILL.md (frontmatter YAML más instrucciones) y scripts y recursos opcionales que el agente carga solo cuando una tarea lo requiere. Este repositorio es el origen de ese formato: contiene la especificación Agent Skills, una plantilla para crear las tuyas y skills de ejemplo que van desde trabajo creativo (arte, diseño) hasta tareas técnicas como pruebas de aplicaciones web y generación de servidores MCP. Se puede añadir directamente como marketplace de plugins de Claude Code, y las mismas skills funcionan en Claude.ai y en la API de Claude.\n\nEs el punto de referencia para quien escriba sus propias skills o quiera evaluar lo que permite el formato. Ojo con la licencia: la mayoría de las skills son Apache-2.0, pero las skills de documentos (docx, pdf, pptx, xlsx) son código de referencia con fuente disponible, no open source."
+    },
+    "de": {
+      "description": "Anthropics öffentliches Repository für Agent Skills -- Beispiel-Skills, die Agent-Skills-Spezifikation und eine Vorlage, um Agenten wiederholbare Aufgaben beizubringen.",
+      "longDescription": "Ein Skill ist ein Ordner mit einer SKILL.md-Datei (YAML-Frontmatter plus Anweisungen) und optionalen Skripten und Ressourcen, die ein Agent nur lädt, wenn eine Aufgabe es erfordert. Aus diesem Repository stammt das Format: Es enthält die Agent-Skills-Spezifikation, eine Vorlage für eigene Skills und Beispiel-Skills von kreativer Arbeit (Kunst, Design) bis zu technischen Aufgaben wie Web-App-Tests und MCP-Server-Generierung. Es lässt sich direkt als Claude-Code-Plugin-Marketplace hinzufügen, und dieselben Skills funktionieren in Claude.ai und der Claude API.\n\nEs ist der Referenzpunkt für alle, die eigene Skills schreiben oder prüfen wollen, was das Format leistet. Achtung bei der Lizenz: Die meisten Skills stehen unter Apache-2.0, die Dokument-Skills (docx, pdf, pptx, xlsx) sind jedoch quelloffener Referenzcode und kein Open Source."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-09",
+      "repoCreatedAt": "2025-09-22",
+      "openIssuesCount": 1426,
+      "stargazersCount": 182046,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "emerging",
+      "evaluatedAt": "2026-10-19",
+      "score": 79
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The origin of the Agent Skills format: spec, template and reference skills in one place, and the first stop for anyone writing or evaluating skills."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    },
+    {
+      "concept": "coding-agent",
+      "strength": "secondary"
+    }
+  ]
+}

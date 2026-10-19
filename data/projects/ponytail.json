@@ -57,7 +57,7 @@
     },
     "catalogValue": {
       "rating": 4,
-      "rationale": "Only representative project of the agent skills/plugins sub-area in this catalog; extremely young but already directly validated by real usage."
+      "rationale": "A focused, single-purpose agent skill that curbs over-engineering; extremely young but already directly validated by real usage."
     },
     "flag": "ok"
   },

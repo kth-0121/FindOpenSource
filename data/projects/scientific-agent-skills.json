@@ -1,0 +1,73 @@
+{
+  "name": "Scientific Agent Skills",
+  "slug": "scientific-agent-skills",
+  "description": "177 scientific and research skills for AI agents -- bioinformatics, cheminformatics, clinical research, data analysis and scientific writing, plus 100+ databases.",
+  "longDescription": "Scientific Agent Skills (formerly Claude Scientific Skills) is a library of procedural knowledge that turns a general coding agent into a research assistant. Its 177 skills teach the agent how to use specialized scientific libraries, databases and tools across biology, chemistry, medicine, physics, engineering, Earth science and data analysis -- for example single-cell RNA-seq, molecular docking, LC-MS/MS processing, satellite imagery or publication-quality figures. The collection is described in an arXiv paper (2609.00065).\n\nIt follows the open Agent Skills standard and works with Cursor, Claude Code, Codex, Google Antigravity and other compatible hosts. A fit for researchers and labs who want agents that follow validated scientific workflows rather than improvising them.",
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "science",
+    "bioinformatics",
+    "research"
+  ],
+  "languages": [
+    "Python",
+    "Shell"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-10-19",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 AI 智能体的 177 项科学与研究技能——生物信息学、化学信息学、临床研究、数据分析和科学写作，外加 100 多个数据库。",
+      "longDescription": "Scientific Agent Skills（原名 Claude Scientific Skills）是一个程序性知识库，能把通用编程智能体变成研究助手。它的 177 项技能教会智能体如何使用生物、化学、医学、物理、工程、地球科学和数据分析领域的专业科学库、数据库和工具——例如单细胞 RNA 测序、分子对接、LC-MS/MS 处理、卫星影像或出版级图表。该合集在一篇 arXiv 论文（2609.00065）中有详细介绍。\n\n它遵循开放的 Agent Skills 标准，可与 Cursor、Claude Code、Codex、Google Antigravity 及其他兼容宿主配合使用。适合希望智能体遵循经过验证的科学工作流程、而不是临场发挥的研究人员和实验室。"
+    },
+    "ja": {
+      "description": "AIエージェント向けの177の科学・研究スキル——バイオインフォマティクス、ケモインフォマティクス、臨床研究、データ分析、科学論文の執筆、さらに100以上のデータベース。",
+      "longDescription": "Scientific Agent Skills（旧称 Claude Scientific Skills）は、汎用のコーディングエージェントを研究アシスタントに変える手続き的知識のライブラリです。177のスキルが、生物学、化学、医学、物理学、工学、地球科学、データ分析にわたる専門的な科学ライブラリ、データベース、ツールの使い方をエージェントに教えます——たとえばシングルセルRNA-seq、分子ドッキング、LC-MS/MS処理、衛星画像、論文品質の図表などです。このコレクションはarXiv論文（2609.00065）で解説されています。\n\nオープンなAgent Skills標準に準拠しており、Cursor、Claude Code、Codex、Google Antigravityなどの対応ホストで動作します。エージェントに即興ではなく検証済みの科学的ワークフローに従わせたい研究者や研究室に向いています。"
+    },
+    "ko": {
+      "description": "AI 에이전트를 위한 177개의 과학·연구 스킬 — 생물정보학, 화학정보학, 임상 연구, 데이터 분석, 과학 글쓰기, 그리고 100개 이상의 데이터베이스.",
+      "longDescription": "Scientific Agent Skills(이전 이름 Claude Scientific Skills)는 범용 코딩 에이전트를 연구 보조로 바꿔주는 절차적 지식 라이브러리입니다. 177개의 스킬이 생물학, 화학, 의학, 물리학, 공학, 지구과학, 데이터 분석 분야의 전문 과학 라이브러리·데이터베이스·도구 사용법을 에이전트에게 가르칩니다 — 예를 들어 단일세포 RNA-seq, 분자 도킹, LC-MS/MS 처리, 위성 영상, 논문 수준의 그래프 등입니다. 이 컬렉션은 arXiv 논문(2609.00065)에 소개되어 있습니다.\n\n개방형 Agent Skills 표준을 따르며 Cursor, Claude Code, Codex, Google Antigravity 등 호환 환경에서 동작합니다. 에이전트가 즉흥적으로 하는 대신 검증된 과학 워크플로를 따르길 원하는 연구자와 연구실에 적합합니다."
+    },
+    "es": {
+      "description": "177 skills científicas y de investigación para agentes de IA: bioinformática, quimioinformática, investigación clínica, análisis de datos y redacción científica, además de más de 100 bases de datos.",
+      "longDescription": "Scientific Agent Skills (antes Claude Scientific Skills) es una biblioteca de conocimiento procedimental que convierte un agente de codificación general en un asistente de investigación. Sus 177 skills enseñan al agente a usar bibliotecas, bases de datos y herramientas científicas especializadas en biología, química, medicina, física, ingeniería, ciencias de la Tierra y análisis de datos -- por ejemplo RNA-seq de célula única, acoplamiento molecular, procesamiento LC-MS/MS, imágenes satelitales o figuras de calidad para publicación. La colección se describe en un artículo de arXiv (2609.00065).\n\nSigue el estándar abierto Agent Skills y funciona con Cursor, Claude Code, Codex, Google Antigravity y otros hosts compatibles. Encaja con investigadores y laboratorios que quieren agentes que sigan flujos científicos validados en lugar de improvisarlos."
+    },
+    "de": {
+      "description": "177 wissenschaftliche und Forschungs-Skills für KI-Agenten -- Bioinformatik, Chemoinformatik, klinische Forschung, Datenanalyse und wissenschaftliches Schreiben, plus über 100 Datenbanken.",
+      "longDescription": "Scientific Agent Skills (früher Claude Scientific Skills) ist eine Bibliothek prozeduralen Wissens, die einen allgemeinen Coding-Agenten in einen Forschungsassistenten verwandelt. Die 177 Skills bringen dem Agenten bei, spezialisierte wissenschaftliche Bibliotheken, Datenbanken und Tools aus Biologie, Chemie, Medizin, Physik, Ingenieurwesen, Geowissenschaften und Datenanalyse zu nutzen -- etwa Single-Cell-RNA-seq, molekulares Docking, LC-MS/MS-Verarbeitung, Satellitenbilder oder publikationsreife Abbildungen. Die Sammlung ist in einem arXiv-Paper (2609.00065) beschrieben.\n\nSie folgt dem offenen Agent-Skills-Standard und funktioniert mit Cursor, Claude Code, Codex, Google Antigravity und anderen kompatiblen Hosts. Passt zu Forschenden und Laboren, die Agenten wollen, die validierten wissenschaftlichen Workflows folgen, statt zu improvisieren."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-12",
+      "repoCreatedAt": "2025-10-19",
+      "openIssuesCount": 49,
+      "stargazersCount": 52710,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "emerging",
+      "evaluatedAt": "2026-10-19",
+      "score": 69
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "By far the deepest domain-specific skill library; brings agent skills to scientific research, a use case no other project in this catalog covers."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    },
+    {
+      "concept": "coding-agent",
+      "strength": "secondary"
+    }
+  ]
+}

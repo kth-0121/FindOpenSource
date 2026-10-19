@@ -18,7 +18,7 @@ Busca "autenticación", "chat", "CMS", "base de datos vectorial" o "web scraping
 lista curada de proyectos open source que resuelven ese problema — con la información necesaria
 (licencia, lenguaje, enlaces) para evaluarlos rápidamente.
 
-El catálogo incluye actualmente **224 proyectos curados** en 21 categorías.
+El catálogo incluye actualmente **230 proyectos curados** en 21 categorías.
 
 FindOpenSource es un directorio totalmente estático, mantenido por la comunidad. No hay login,
 ni base de datos, ni servicio backend. Cada proyecto es un simple archivo JSON, revisado y

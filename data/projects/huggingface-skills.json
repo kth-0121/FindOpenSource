@@ -1,0 +1,76 @@
+{
+  "name": "Hugging Face Skills",
+  "slug": "huggingface-skills",
+  "description": "Agent skills for AI/ML work on the Hugging Face Hub -- dataset creation, model training and evaluation, plus an hf CLI skill for core Hub operations.",
+  "longDescription": "Hugging Face Skills are Agent Skills definitions that teach a coding agent to work with the Hugging Face ecosystem. The recommended starting point is the hf-cli skill, which teaches the agent every hf command for managing models, datasets and Spaces on the Hub; further skills cover tasks such as building datasets, training and fine-tuning models, and running evaluations.\n\nThe skills work in Claude Code (as a plugin marketplace), Codex, Gemini CLI and Cursor, with a generated AGENTS.md as a fallback for agents that don't support skills yet. A good fit for ML engineers who want an agent to handle Hub chores and training runs without hand-holding.",
+  "repository": "https://github.com/huggingface/skills",
+  "website": "https://huggingface.co",
+  "documentation": "https://huggingface.co/docs/hub/agents-cli",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "huggingface",
+    "model-training",
+    "datasets"
+  ],
+  "languages": [
+    "Python",
+    "TypeScript",
+    "Shell"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-10-19",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 Hugging Face Hub 上 AI/ML 工作的智能体技能——数据集创建、模型训练与评估，以及用于核心 Hub 操作的 hf CLI 技能。",
+      "longDescription": "Hugging Face Skills 是一组 Agent Skills 定义，用来教编程智能体使用 Hugging Face 生态。推荐的起点是 hf-cli 技能，它教会智能体使用所有 hf 命令来管理 Hub 上的模型、数据集和 Spaces；其他技能则涵盖构建数据集、训练和微调模型以及运行评估等任务。\n\n这些技能可在 Claude Code（作为插件市场）、Codex、Gemini CLI 和 Cursor 中使用，对于尚不支持技能的智能体，还提供生成的 AGENTS.md 作为后备。适合希望让智能体处理 Hub 日常操作和训练任务、无需手把手指导的机器学习工程师。"
+    },
+    "ja": {
+      "description": "Hugging Face Hub上のAI/ML作業のためのエージェントスキル——データセット作成、モデルの学習と評価、Hubの基本操作のためのhf CLIスキル。",
+      "longDescription": "Hugging Face Skillsは、コーディングエージェントにHugging Faceエコシステムの使い方を教えるAgent Skillsの定義集です。推奨される出発点はhf-cliスキルで、Hub上のモデル、データセット、Spacesを管理するためのすべてのhfコマンドをエージェントに教えます。その他のスキルは、データセットの構築、モデルの学習やファインチューニング、評価の実行といったタスクをカバーします。\n\nスキルはClaude Code（プラグインマーケットプレイスとして）、Codex、Gemini CLI、Cursorで動作し、まだスキルに対応していないエージェント向けには生成済みのAGENTS.mdがフォールバックとして用意されています。Hubの雑務や学習の実行を手取り足取り指示せずにエージェントに任せたいMLエンジニアに向いています。"
+    },
+    "ko": {
+      "description": "Hugging Face Hub에서 AI/ML 작업을 위한 에이전트 스킬 — 데이터셋 생성, 모델 학습과 평가, 그리고 Hub 기본 작업을 위한 hf CLI 스킬.",
+      "longDescription": "Hugging Face Skills는 코딩 에이전트에게 Hugging Face 생태계 사용법을 가르치는 Agent Skills 정의 모음입니다. 권장 시작점은 hf-cli 스킬로, Hub의 모델·데이터셋·Spaces를 관리하는 모든 hf 명령을 에이전트에게 알려줍니다. 그 밖의 스킬은 데이터셋 구축, 모델 학습과 파인튜닝, 평가 실행 같은 작업을 다룹니다.\n\n스킬은 Claude Code(플러그인 마켓플레이스), Codex, Gemini CLI, Cursor에서 동작하며, 아직 스킬을 지원하지 않는 에이전트를 위해 생성된 AGENTS.md를 대안으로 제공합니다. Hub 관련 잡무와 학습 실행을 일일이 지시하지 않고 에이전트에게 맡기고 싶은 ML 엔지니어에게 적합합니다."
+    },
+    "es": {
+      "description": "Skills para agentes orientadas a trabajo de IA/ML en Hugging Face Hub: creación de datasets, entrenamiento y evaluación de modelos, y una skill de hf CLI para las operaciones básicas del Hub.",
+      "longDescription": "Hugging Face Skills son definiciones de Agent Skills que enseñan a un agente de codificación a trabajar con el ecosistema de Hugging Face. El punto de partida recomendado es la skill hf-cli, que enseña al agente todos los comandos hf para gestionar modelos, datasets y Spaces en el Hub; otras skills cubren tareas como construir datasets, entrenar y ajustar modelos y ejecutar evaluaciones.\n\nLas skills funcionan en Claude Code (como marketplace de plugins), Codex, Gemini CLI y Cursor, con un AGENTS.md generado como alternativa para agentes que aún no admiten skills. Encaja con ingenieros de ML que quieren que un agente se encargue de las tareas del Hub y de los entrenamientos sin supervisión constante."
+    },
+    "de": {
+      "description": "Agent Skills für KI/ML-Arbeit auf dem Hugging Face Hub -- Datensätze erstellen, Modelle trainieren und evaluieren, plus ein hf-CLI-Skill für die zentralen Hub-Operationen.",
+      "longDescription": "Hugging Face Skills sind Agent-Skills-Definitionen, die einem Coding-Agenten den Umgang mit dem Hugging-Face-Ökosystem beibringen. Empfohlener Einstieg ist der hf-cli-Skill, der dem Agenten alle hf-Befehle zur Verwaltung von Modellen, Datensätzen und Spaces auf dem Hub beibringt; weitere Skills decken Aufgaben wie den Aufbau von Datensätzen, das Training und Fine-Tuning von Modellen sowie Evaluierungen ab.\n\nDie Skills funktionieren in Claude Code (als Plugin-Marketplace), Codex, Gemini CLI und Cursor, mit einer generierten AGENTS.md als Fallback für Agenten, die noch keine Skills unterstützen. Passt zu ML-Engineers, die Hub-Routinearbeit und Trainingsläufe einem Agenten überlassen wollen, ohne ihn an die Hand zu nehmen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-08",
+      "repoCreatedAt": "2025-11-24",
+      "openIssuesCount": 67,
+      "stargazersCount": 11182,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "emerging",
+      "evaluatedAt": "2026-10-19",
+      "score": 75
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "The official way to give agents Hugging Face Hub skills; valuable for ML workflows, narrower audience than general coding skill sets."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    },
+    {
+      "concept": "coding-agent",
+      "strength": "secondary"
+    }
+  ]
+}

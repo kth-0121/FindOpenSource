@@ -18,7 +18,7 @@ Suche nach "Authentifizierung", "Chat", "CMS", "Vektordatenbank" oder "Web Scrap
 erhalte eine kuratierte Liste von Open-Source-Projekten, die genau dieses Problem lösen — mit
 genug Informationen (Lizenz, Sprache, Links), um sie schnell einschätzen zu können.
 
-Der Katalog umfasst derzeit **224 kuratierte Projekte** in 21 Kategorien.
+Der Katalog umfasst derzeit **230 kuratierte Projekte** in 21 Kategorien.
 
 FindOpenSource ist ein vollständig statisches, von der Community gepflegtes Verzeichnis. Es
 gibt kein Login, keine Datenbank und keinen Backend-Dienst. Jedes Projekt ist eine einfache

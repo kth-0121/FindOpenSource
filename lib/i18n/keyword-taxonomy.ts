@@ -797,6 +797,18 @@ export const keywordTaxonomy: KeywordTaxonomyEntry[] = [
     related: ["agent-memory", "ai-agents", "vector-database"],
   },
   {
+    canonical: "agent-skill",
+    synonyms: {
+      en: ["agent skills", "ai skills", "skills", "skill.md", "claude skills"],
+      "zh-CN": ["智能体技能", "AI 技能", "技能"],
+      ja: ["エージェントスキル", "AIスキル", "スキル"],
+      ko: ["에이전트 스킬", "AI 스킬", "스킬"],
+      es: ["skills de agentes", "habilidades de ia", "skills"],
+      de: ["agenten-skills", "ki-skills", "skills"],
+    },
+    related: ["agent-skill"],
+  },
+  {
     canonical: "agent-tools",
     synonyms: {
       en: ["agent tools", "tool use", "agent plugin", "agent-native"],

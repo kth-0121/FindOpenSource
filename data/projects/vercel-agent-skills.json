@@ -1,0 +1,73 @@
+{
+  "name": "Vercel Agent Skills",
+  "slug": "vercel-agent-skills",
+  "description": "Vercel's official collection of agent skills -- React and Next.js performance rules, web interface guidelines and Vercel project optimization.",
+  "longDescription": "These skills package Vercel Engineering's guidance in the open Agent Skills format. react-best-practices brings 40+ React and Next.js performance rules ranked by impact (eliminating waterfalls, bundle size, server-side performance, re-renders), web-design-guidelines audits UI code against 100+ rules for accessibility, focus states, forms, animation and performance, and vercel-optimize investigates a deployed Vercel project's metrics to rank cost and performance fixes.\n\nIt's a fit for teams building React or Next.js apps who want their coding agent to write and review code against the same rules Vercel uses, without pasting a style guide into every prompt.",
+  "repository": "https://github.com/vercel-labs/agent-skills",
+  "website": "https://skills.sh/vercel-labs/agent-skills",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "react",
+    "nextjs",
+    "web-performance"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-10-19",
+  "translations": {
+    "zh-CN": {
+      "description": "Vercel 官方的智能体技能合集——React 与 Next.js 性能规则、Web 界面指南以及 Vercel 项目优化。",
+      "longDescription": "这些技能以开放的 Agent Skills 格式打包了 Vercel 工程团队的指南。react-best-practices 提供 40 多条按影响排序的 React 与 Next.js 性能规则（消除请求瀑布、包体积、服务端性能、重复渲染）；web-design-guidelines 依据 100 多条规则审查 UI 代码的可访问性、焦点状态、表单、动画和性能；vercel-optimize 则分析已部署 Vercel 项目的指标，对成本和性能改进进行排序。\n\n适合构建 React 或 Next.js 应用、希望编程智能体按照 Vercel 使用的同一套规则编写和审查代码、而不必在每个提示里粘贴风格指南的团队。"
+    },
+    "ja": {
+      "description": "Vercel公式のエージェントスキル集——ReactとNext.jsのパフォーマンスルール、Webインターフェースガイドライン、Vercelプロジェクトの最適化。",
+      "longDescription": "これらのスキルは、Vercel Engineeringのガイダンスをオープンな Agent Skills 形式にまとめたものです。react-best-practicesは影響度順に並んだ40以上のReact/Next.jsパフォーマンスルール（ウォーターフォールの解消、バンドルサイズ、サーバーサイドのパフォーマンス、再レンダリング）を提供し、web-design-guidelinesはアクセシビリティ、フォーカス状態、フォーム、アニメーション、パフォーマンスに関する100以上のルールでUIコードを監査し、vercel-optimizeはデプロイ済みVercelプロジェクトの指標を調べてコストとパフォーマンスの改善策を順位付けします。\n\nReactやNext.jsのアプリを作っていて、プロンプトのたびにスタイルガイドを貼り付けることなく、Vercelが使うのと同じルールでコーディングエージェントにコードを書かせ、レビューさせたいチームに向いています。"
+    },
+    "ko": {
+      "description": "Vercel의 공식 에이전트 스킬 모음 — React·Next.js 성능 규칙, 웹 인터페이스 가이드라인, Vercel 프로젝트 최적화.",
+      "longDescription": "이 스킬들은 Vercel 엔지니어링 팀의 가이드를 개방형 Agent Skills 형식으로 묶은 것입니다. react-best-practices는 영향도 순으로 정리된 40개 이상의 React·Next.js 성능 규칙(요청 워터폴 제거, 번들 크기, 서버 측 성능, 리렌더링)을 제공하고, web-design-guidelines는 접근성, 포커스 상태, 폼, 애니메이션, 성능에 관한 100개 이상의 규칙으로 UI 코드를 점검하며, vercel-optimize는 배포된 Vercel 프로젝트의 지표를 분석해 비용·성능 개선 항목의 우선순위를 매깁니다.\n\nReact나 Next.js 앱을 만들면서, 매번 프롬프트에 스타일 가이드를 붙여넣지 않고도 코딩 에이전트가 Vercel과 같은 규칙으로 코드를 작성하고 리뷰하길 원하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "La colección oficial de skills para agentes de Vercel: reglas de rendimiento para React y Next.js, guías de interfaces web y optimización de proyectos en Vercel.",
+      "longDescription": "Estas skills empaquetan las guías de Vercel Engineering en el formato abierto Agent Skills. react-best-practices aporta más de 40 reglas de rendimiento para React y Next.js ordenadas por impacto (eliminar cascadas de peticiones, tamaño del bundle, rendimiento en servidor, re-renderizados), web-design-guidelines audita el código de UI con más de 100 reglas de accesibilidad, estados de foco, formularios, animación y rendimiento, y vercel-optimize analiza las métricas de un proyecto desplegado en Vercel para priorizar mejoras de coste y rendimiento.\n\nEncaja con equipos que construyen aplicaciones React o Next.js y quieren que su agente de codificación escriba y revise código con las mismas reglas que usa Vercel, sin pegar una guía de estilo en cada prompt."
+    },
+    "de": {
+      "description": "Vercels offizielle Sammlung von Agent Skills -- Performance-Regeln für React und Next.js, Richtlinien für Web-Interfaces und Optimierung von Vercel-Projekten.",
+      "longDescription": "Diese Skills verpacken die Leitlinien von Vercel Engineering im offenen Agent-Skills-Format. react-best-practices liefert über 40 nach Wirkung sortierte Performance-Regeln für React und Next.js (Request-Wasserfälle vermeiden, Bundle-Größe, serverseitige Performance, Re-Renders), web-design-guidelines prüft UI-Code anhand von über 100 Regeln zu Barrierefreiheit, Fokuszuständen, Formularen, Animation und Performance, und vercel-optimize untersucht die Metriken eines deployten Vercel-Projekts, um Kosten- und Performance-Verbesserungen zu priorisieren.\n\nPasst zu Teams, die React- oder Next.js-Apps bauen und wollen, dass ihr Coding-Agent Code nach denselben Regeln schreibt und prüft, die Vercel nutzt -- ohne in jeden Prompt einen Styleguide einzufügen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-08-28",
+      "repoCreatedAt": "2025-12-08",
+      "openIssuesCount": 181,
+      "stargazersCount": 32618,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "emerging",
+      "evaluatedAt": "2026-10-19",
+      "score": 64
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Useful, focused skills for React/Next.js and Vercel users; narrower than general-purpose skill sets but authoritative within that stack."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    },
+    {
+      "concept": "coding-agent",
+      "strength": "secondary"
+    }
+  ]
+}

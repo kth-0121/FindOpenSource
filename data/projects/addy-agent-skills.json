@@ -1,0 +1,75 @@
+{
+  "name": "Agent Skills by Addy Osmani",
+  "slug": "addy-agent-skills",
+  "description": "Production-grade engineering skills for AI coding agents, mapped to the development lifecycle -- spec, plan, build, test, review and ship.",
+  "longDescription": "This collection packages the workflows and quality gates senior engineers follow into skills a coding agent applies consistently. Nine slash commands (/spec, /plan, /build, /test, /review, /ship and more) map to each phase of development and activate the right skills, while other skills trigger on their own -- designing an API pulls in interface-design guidance, building UI pulls in frontend engineering rules. /build auto can turn an approved plan into an implementation in one pass.\n\nIt installs into 70+ agents (Claude Code, Cursor, Codex, Copilot, Cline and others) with one npx skills add command, either as the whole set of 25 skills or one skill at a time. A good fit for teams that want review, testing and performance standards enforced by the agent rather than remembered by people.",
+  "repository": "https://github.com/addyosmani/agent-skills",
+  "website": "https://skills.addy.ie",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "coding-agent",
+    "code-review",
+    "slash-commands"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript",
+    "Shell"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-10-19",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 AI 编程智能体的生产级工程技能，按开发生命周期组织——规格、计划、构建、测试、审查和发布。",
+      "longDescription": "这个合集把资深工程师遵循的工作流程和质量关卡打包成技能，让编程智能体始终如一地执行。九个斜杠命令（/spec、/plan、/build、/test、/review、/ship 等）对应开发的各个阶段并激活相应技能，其他技能则会自动触发——设计 API 时会引入接口设计指南，构建 UI 时会引入前端工程规则。/build auto 可以把已批准的计划一次性转化为实现。\n\n只需一条 npx skills add 命令即可安装到 70 多个智能体（Claude Code、Cursor、Codex、Copilot、Cline 等）中，可以安装全部 25 个技能，也可以逐个安装。适合希望由智能体来执行代码审查、测试和性能标准、而不是靠人记住的团队。"
+    },
+    "ja": {
+      "description": "AIコーディングエージェント向けのプロダクション品質のエンジニアリングスキル。仕様・計画・構築・テスト・レビュー・リリースという開発ライフサイクルに沿って構成。",
+      "longDescription": "このコレクションは、シニアエンジニアが守るワークフローと品質ゲートを、コーディングエージェントが一貫して適用できるスキルにまとめたものです。9つのスラッシュコマンド（/spec、/plan、/build、/test、/review、/shipなど）が開発の各フェーズに対応して適切なスキルを起動し、その他のスキルは自動で発動します——APIを設計すればインターフェース設計のガイドが、UIを作ればフロントエンドのルールが読み込まれます。/build autoを使えば、承認済みの計画を一度に実装まで進められます。\n\nnpx skills addコマンド1つで70以上のエージェント（Claude Code、Cursor、Codex、Copilot、Clineなど）にインストールでき、25個のスキルをまとめても1つずつでも導入できます。レビュー、テスト、パフォーマンスの基準を人の記憶ではなくエージェントに守らせたいチームに向いています。"
+    },
+    "ko": {
+      "description": "AI 코딩 에이전트를 위한 실전 수준의 엔지니어링 스킬 모음. 스펙·계획·구현·테스트·리뷰·배포의 개발 주기에 맞춰 구성되어 있습니다.",
+      "longDescription": "이 컬렉션은 시니어 엔지니어가 따르는 작업 흐름과 품질 관문을, 코딩 에이전트가 일관되게 적용하는 스킬로 묶었습니다. 9개의 슬래시 명령(/spec, /plan, /build, /test, /review, /ship 등)이 개발의 각 단계에 대응해 알맞은 스킬을 실행하고, 나머지 스킬은 상황에 따라 자동으로 동작합니다 — API를 설계하면 인터페이스 설계 가이드가, UI를 만들면 프런트엔드 규칙이 적용됩니다. /build auto를 쓰면 승인된 계획을 한 번에 구현까지 진행할 수 있습니다.\n\nnpx skills add 명령 하나로 70개 이상의 에이전트(Claude Code, Cursor, Codex, Copilot, Cline 등)에 설치할 수 있으며, 25개 스킬 전체나 하나씩 골라 설치할 수 있습니다. 코드 리뷰, 테스트, 성능 기준을 사람이 기억하는 대신 에이전트가 지키게 하려는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Skills de ingeniería de nivel producción para agentes de codificación con IA, organizadas según el ciclo de desarrollo: especificar, planificar, construir, probar, revisar y publicar.",
+      "longDescription": "Esta colección empaqueta los flujos de trabajo y controles de calidad que siguen los ingenieros sénior en skills que un agente de codificación aplica de forma consistente. Nueve comandos slash (/spec, /plan, /build, /test, /review, /ship y más) corresponden a cada fase del desarrollo y activan las skills adecuadas, mientras que otras se activan solas: diseñar una API incorpora guías de diseño de interfaces y construir UI incorpora reglas de ingeniería frontend. /build auto puede convertir un plan aprobado en una implementación de una sola vez.\n\nSe instala en más de 70 agentes (Claude Code, Cursor, Codex, Copilot, Cline y otros) con un solo comando npx skills add, ya sea el conjunto completo de 25 skills o una a una. Encaja con equipos que quieren que el agente haga cumplir los estándares de revisión, pruebas y rendimiento en lugar de depender de la memoria de las personas."
+    },
+    "de": {
+      "description": "Produktionsreife Engineering-Skills für KI-Coding-Agenten, entlang des Entwicklungszyklus -- Spezifikation, Planung, Umsetzung, Test, Review und Release.",
+      "longDescription": "Diese Sammlung verpackt die Workflows und Qualitätsschranken, denen erfahrene Engineers folgen, in Skills, die ein Coding-Agent konsequent anwendet. Neun Slash-Befehle (/spec, /plan, /build, /test, /review, /ship und weitere) entsprechen den Entwicklungsphasen und aktivieren die passenden Skills, während andere Skills von selbst greifen -- beim API-Design kommen Leitlinien für Schnittstellen dazu, beim UI-Bau Frontend-Regeln. /build auto setzt einen freigegebenen Plan in einem Durchgang um.\n\nMit einem einzigen npx-skills-add-Befehl lässt es sich in über 70 Agenten installieren (Claude Code, Cursor, Codex, Copilot, Cline und andere), als komplettes Set mit 25 Skills oder einzeln. Passt zu Teams, die Review-, Test- und Performance-Standards vom Agenten durchsetzen lassen wollen, statt sich auf das Gedächtnis von Menschen zu verlassen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-13",
+      "repoCreatedAt": "2026-02-15",
+      "openIssuesCount": 134,
+      "stargazersCount": 108281,
+      "governance": "community",
+      "archived": false,
+      "productionReadiness": "emerging",
+      "evaluatedAt": "2026-10-19",
+      "score": 66
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "A broad, well-organized engineering skill set tied to the full development lifecycle, with one-command install across most agents."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    },
+    {
+      "concept": "coding-agent",
+      "strength": "secondary"
+    }
+  ]
+}

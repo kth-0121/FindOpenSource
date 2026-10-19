@@ -1,0 +1,74 @@
+{
+  "name": "Superpowers",
+  "slug": "superpowers",
+  "description": "An agentic skills framework that gives coding agents a full development methodology -- brainstorming, planning, TDD, debugging and subagent-driven execution.",
+  "longDescription": "Superpowers is a library of composable skills plus a small set of bootstrap instructions that make a coding agent actually use them. Instead of jumping straight into code, the agent first draws out what you're trying to build, shows the spec back in short chunks, writes an implementation plan, and then works through it with subagents that implement and review each task. Skills cover test-driven development, systematic debugging, verification before declaring work done, brainstorming and plan writing, and they trigger automatically.\n\nIt installs into Claude Code (via the official plugin marketplace), Codex, Cursor, Gemini CLI, GitHub Copilot CLI, OpenCode and many other agents. It's a fit for developers who want their agent to follow a disciplined engineering process by default rather than re-prompting for it every session.",
+  "repository": "https://github.com/obra/superpowers",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "coding-agent",
+    "tdd",
+    "claude-code-plugin"
+  ],
+  "languages": [
+    "Shell",
+    "JavaScript",
+    "Python"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-10-19",
+  "translations": {
+    "zh-CN": {
+      "description": "一个智能体技能框架，为编程智能体提供完整的开发方法论——头脑风暴、规划、TDD、调试和子智能体驱动的执行。",
+      "longDescription": "Superpowers 是一套可组合的技能库，外加一小组让编程智能体真正使用这些技能的引导指令。智能体不会直接开始写代码，而是先弄清你想构建什么，把规格分成简短的片段给你确认，写出实施计划，然后由子智能体逐项实现并审查每个任务。技能涵盖测试驱动开发、系统化调试、完成前验证、头脑风暴和计划编写，并且会自动触发。\n\n它可以安装到 Claude Code（通过官方插件市场）、Codex、Cursor、Gemini CLI、GitHub Copilot CLI、OpenCode 等众多智能体中。适合希望智能体默认遵循严谨工程流程、而不是每次会话都重新提示的开发者。"
+    },
+    "ja": {
+      "description": "コーディングエージェントに完全な開発手法を与えるエージェントスキルフレームワーク——ブレインストーミング、計画、TDD、デバッグ、サブエージェント駆動の実行。",
+      "longDescription": "Superpowersは、組み合わせ可能なスキルのライブラリと、コーディングエージェントに実際にそれを使わせるための少数の起動指示で構成されています。エージェントはいきなりコードを書くのではなく、まず何を作りたいのかを引き出し、仕様を短いまとまりで提示し、実装計画を書いたうえで、各タスクを実装・レビューするサブエージェントで進めます。スキルはテスト駆動開発、体系的なデバッグ、完了前の検証、ブレインストーミング、計画作成をカバーし、自動的に発動します。\n\nClaude Code（公式プラグインマーケットプレイス経由）、Codex、Cursor、Gemini CLI、GitHub Copilot CLI、OpenCodeなど多くのエージェントにインストールできます。毎回プロンプトで指示するのではなく、エージェントに規律あるエンジニアリングプロセスを標準で守らせたい開発者に向いています。"
+    },
+    "ko": {
+      "description": "코딩 에이전트에게 완전한 개발 방법론을 부여하는 에이전트 스킬 프레임워크 — 브레인스토밍, 계획, TDD, 디버깅, 서브에이전트 기반 실행.",
+      "longDescription": "Superpowers는 조합 가능한 스킬 라이브러리와, 코딩 에이전트가 실제로 그 스킬을 쓰도록 만드는 소수의 부트스트랩 지시문으로 구성됩니다. 에이전트는 곧바로 코드를 작성하는 대신, 먼저 무엇을 만들려는지 끌어내고, 스펙을 짧은 단위로 보여주며, 구현 계획을 쓴 뒤 각 작업을 구현하고 리뷰하는 서브에이전트로 진행합니다. 스킬은 테스트 주도 개발, 체계적인 디버깅, 완료 전 검증, 브레인스토밍, 계획 작성을 다루며 자동으로 실행됩니다.\n\nClaude Code(공식 플러그인 마켓플레이스), Codex, Cursor, Gemini CLI, GitHub Copilot CLI, OpenCode 등 여러 에이전트에 설치할 수 있습니다. 세션마다 다시 지시하지 않아도 에이전트가 기본적으로 규율 있는 엔지니어링 프로세스를 따르길 원하는 개발자에게 적합합니다."
+    },
+    "es": {
+      "description": "Un framework de skills para agentes que da a los agentes de codificación una metodología de desarrollo completa: lluvia de ideas, planificación, TDD, depuración y ejecución con subagentes.",
+      "longDescription": "Superpowers es una biblioteca de skills combinables más un pequeño conjunto de instrucciones de arranque que hacen que el agente de codificación realmente las use. En lugar de lanzarse directamente al código, el agente primero averigua qué quieres construir, te muestra la especificación en fragmentos cortos, escribe un plan de implementación y luego lo ejecuta con subagentes que implementan y revisan cada tarea. Las skills cubren desarrollo guiado por pruebas, depuración sistemática, verificación antes de dar el trabajo por terminado, lluvia de ideas y redacción de planes, y se activan automáticamente.\n\nSe instala en Claude Code (vía el marketplace oficial de plugins), Codex, Cursor, Gemini CLI, GitHub Copilot CLI, OpenCode y muchos otros agentes. Encaja con desarrolladores que quieren que su agente siga por defecto un proceso de ingeniería disciplinado en lugar de pedírselo en cada sesión."
+    },
+    "de": {
+      "description": "Ein Skill-Framework, das Coding-Agenten eine vollständige Entwicklungsmethodik gibt -- Brainstorming, Planung, TDD, Debugging und Ausführung über Subagenten.",
+      "longDescription": "Superpowers ist eine Bibliothek kombinierbarer Skills plus eine kleine Menge Startanweisungen, die dafür sorgen, dass ein Coding-Agent sie auch tatsächlich nutzt. Statt direkt Code zu schreiben, klärt der Agent zuerst, was du bauen willst, zeigt die Spezifikation in kurzen Abschnitten, schreibt einen Umsetzungsplan und arbeitet ihn dann mit Subagenten ab, die jede Aufgabe umsetzen und prüfen. Die Skills decken testgetriebene Entwicklung, systematisches Debugging, Verifikation vor dem Abschluss, Brainstorming und Planschreiben ab und werden automatisch ausgelöst.\n\nEs lässt sich in Claude Code (über den offiziellen Plugin-Marketplace), Codex, Cursor, Gemini CLI, GitHub Copilot CLI, OpenCode und viele weitere Agenten installieren. Es passt zu Entwicklern, die wollen, dass ihr Agent standardmäßig einem disziplinierten Engineering-Prozess folgt, statt es in jeder Sitzung neu einzufordern."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-10",
+      "repoCreatedAt": "2025-10-09",
+      "openIssuesCount": 381,
+      "stargazersCount": 301730,
+      "governance": "community",
+      "archived": false,
+      "productionReadiness": "emerging",
+      "evaluatedAt": "2026-10-19",
+      "score": 66
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most widely adopted skills framework for coding agents; a complete, opinionated workflow rather than a loose collection, and it runs across most agent hosts."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    },
+    {
+      "concept": "coding-agent",
+      "strength": "secondary"
+    }
+  ]
+}
