@@ -1,0 +1,73 @@
+{
+  "name": "PrestaShop",
+  "slug": "prestashop",
+  "description": "Open-source ecommerce platform for building and running a self-hosted online store, with a full back office and a large module and theme marketplace.",
+  "longDescription": "PrestaShop is a standalone PHP ecommerce application: a storefront plus a back office for managing products and variants, stock, orders, customers, carriers, taxes, promotions and multiple languages and currencies. Its newer back-office pages are built on Symfony.\n\nFunctionality is extended through modules and the look through themes, with a sizable marketplace of both. The core is licensed under OSL-3.0 and bundled modules under AFL-3.0. It has a particularly strong community in Europe. A good fit for merchants and agencies who want a traditional, all-in-one store they host themselves rather than a headless commerce backend.",
+  "repository": "https://github.com/PrestaShop/PrestaShop",
+  "website": "https://www.prestashop-project.org/",
+  "documentation": "https://devdocs.prestashop-project.org/",
+  "categories": [
+    "ecommerce"
+  ],
+  "keywords": [
+    "ecommerce",
+    "online-store",
+    "php-ecommerce",
+    "symfony",
+    "commerce"
+  ],
+  "languages": [
+    "PHP",
+    "TypeScript",
+    "Twig"
+  ],
+  "license": "OSL-3.0",
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "用于搭建和运营自托管在线商店的开源电商平台，拥有完整的后台以及庞大的模块和主题市场。",
+      "longDescription": "PrestaShop 是一个独立的 PHP 电商应用：包含店面和后台，可管理商品及规格、库存、订单、客户、物流商、税费、促销以及多语言和多币种。其较新的后台页面基于 Symfony 构建。\n\n功能通过模块扩展，外观通过主题定制，两者都有相当规模的市场。核心采用 OSL-3.0 许可证，内置模块采用 AFL-3.0。它在欧洲拥有特别强大的社区。适合希望使用传统一体化、自行托管商店而非无头电商后端的商家和代理机构。"
+    },
+    "ja": {
+      "description": "セルフホストのオンラインストアを構築・運営するためのオープンソースECプラットフォーム。充実した管理画面と、大規模なモジュール・テーマのマーケットプレイスがあります。",
+      "longDescription": "PrestaShopは単体で動くPHP製のECアプリケーションです。ストアフロントと管理画面を備え、商品とバリエーション、在庫、注文、顧客、配送業者、税金、プロモーション、多言語・多通貨を管理できます。新しい管理画面はSymfonyで作られています。\n\n機能はモジュールで、見た目はテーマで拡張し、どちらにも相当な規模のマーケットプレイスがあります。コアはOSL-3.0、同梱モジュールはAFL-3.0でライセンスされています。特にヨーロッパで強いコミュニティを持っています。ヘッドレスなコマースバックエンドではなく、従来型のオールインワンのストアを自分でホストしたい事業者や制作会社に向いています。"
+    },
+    "ko": {
+      "description": "셀프 호스팅 온라인 스토어를 만들고 운영하기 위한 오픈소스 이커머스 플랫폼으로, 완전한 관리자 화면과 대규모 모듈·테마 마켓플레이스를 갖추고 있습니다.",
+      "longDescription": "PrestaShop은 독립 실행형 PHP 이커머스 애플리케이션입니다. 스토어프런트와 관리자 화면을 제공하며 상품과 옵션, 재고, 주문, 고객, 배송사, 세금, 프로모션, 다국어·다통화를 관리할 수 있습니다. 새로운 관리자 페이지는 Symfony로 만들어졌습니다.\n\n기능은 모듈로, 디자인은 테마로 확장하며 둘 다 상당한 규모의 마켓플레이스가 있습니다. 코어는 OSL-3.0, 기본 모듈은 AFL-3.0 라이선스입니다. 특히 유럽에서 강한 커뮤니티를 갖고 있습니다. 헤드리스 커머스 백엔드가 아니라 전통적인 올인원 스토어를 직접 호스팅하고 싶은 판매자와 에이전시에 적합합니다."
+    },
+    "es": {
+      "description": "Plataforma de ecommerce de código abierto para crear y gestionar una tienda online autoalojada, con un back office completo y un gran marketplace de módulos y temas.",
+      "longDescription": "PrestaShop es una aplicación de ecommerce independiente en PHP: una tienda más un back office para gestionar productos y variantes, stock, pedidos, clientes, transportistas, impuestos, promociones y varios idiomas y monedas. Sus páginas más recientes del back office están construidas con Symfony.\n\nLa funcionalidad se amplía con módulos y el aspecto con temas, ambos con un marketplace considerable. El núcleo tiene licencia OSL-3.0 y los módulos incluidos AFL-3.0. Cuenta con una comunidad especialmente fuerte en Europa. Encaja con comercios y agencias que quieren una tienda tradicional todo en uno alojada por ellos mismos, en lugar de un backend de comercio headless."
+    },
+    "de": {
+      "description": "Open-Source-E-Commerce-Plattform zum Aufbau und Betrieb eines selbst gehosteten Onlineshops, mit vollständigem Backoffice und großem Marktplatz für Module und Themes.",
+      "longDescription": "PrestaShop ist eine eigenständige PHP-E-Commerce-Anwendung: ein Storefront plus Backoffice zur Verwaltung von Produkten und Varianten, Lagerbestand, Bestellungen, Kunden, Versanddienstleistern, Steuern, Aktionen sowie mehreren Sprachen und Währungen. Die neueren Backoffice-Seiten basieren auf Symfony.\n\nFunktionen werden über Module, das Aussehen über Themes erweitert, für beides gibt es einen ansehnlichen Marktplatz. Der Kern steht unter OSL-3.0, die mitgelieferten Module unter AFL-3.0. Besonders in Europa hat es eine starke Community. Passt zu Händlern und Agenturen, die einen klassischen All-in-One-Shop selbst hosten wollen statt eines Headless-Commerce-Backends."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-19",
+      "repoCreatedAt": "2012-11-19",
+      "openIssuesCount": 2489,
+      "stargazersCount": 9229,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "mature",
+      "evaluatedAt": "2026-10-21",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Established self-hosted store platform, especially popular in Europe; a standalone (non-WordPress, non-headless) option for the category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "commerce",
+      "strength": "primary"
+    }
+  ]
+}

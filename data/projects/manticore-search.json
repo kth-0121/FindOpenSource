@@ -1,0 +1,75 @@
+{
+  "name": "Manticore Search",
+  "slug": "manticore-search",
+  "description": "Open-source search database for full-text, vector and hybrid search with real-time indexing, queried with SQL or a JSON HTTP API.",
+  "longDescription": "Manticore Search is a search engine written in C++ that grew out of the Sphinx search project. It speaks the MySQL protocol, so you can create tables, insert documents and run full-text queries with plain SQL, and also offers an HTTP JSON API that is largely compatible with Elasticsearch-style requests.\n\nIt supports real-time indexes, faceting, fuzzy matching, KNN vector search and hybrid full-text plus vector ranking, and can replicate across nodes. It is known for low resource use and fast queries on large datasets. A fit for teams that want Elasticsearch-class search with a smaller footprint, or that prefer querying their search index with SQL.",
+  "repository": "https://github.com/manticoresoftware/manticoresearch",
+  "website": "https://manticoresearch.com",
+  "documentation": "https://manual.manticoresearch.com/",
+  "categories": [
+    "search"
+  ],
+  "keywords": [
+    "search-engine",
+    "full-text-search",
+    "vector-search",
+    "hybrid-search",
+    "sql"
+  ],
+  "languages": [
+    "C++"
+  ],
+  "license": "GPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "支持全文、向量和混合搜索的开源搜索数据库，具备实时索引，可通过 SQL 或 JSON HTTP API 查询。",
+      "longDescription": "Manticore Search 是一个用 C++ 编写的搜索引擎，源自 Sphinx 搜索项目。它支持 MySQL 协议，因此可以用普通 SQL 创建表、插入文档并执行全文查询；同时还提供与 Elasticsearch 风格请求高度兼容的 HTTP JSON API。\n\n它支持实时索引、分面、模糊匹配、KNN 向量搜索以及全文与向量结合的混合排序，并可在节点间复制。它以资源占用低、在大数据集上查询快著称。适合想要 Elasticsearch 级别搜索但资源占用更小，或更喜欢用 SQL 查询搜索索引的团队。"
+    },
+    "ja": {
+      "description": "全文検索、ベクトル検索、ハイブリッド検索に対応したオープンソースの検索データベース。リアルタイムにインデックス化し、SQLまたはJSON HTTP APIでクエリできます。",
+      "longDescription": "Manticore Searchは、Sphinx検索プロジェクトから発展したC++製の検索エンジンです。MySQLプロトコルを話すため、普通のSQLでテーブルを作り、ドキュメントを挿入し、全文検索クエリを実行できます。また、Elasticsearch形式のリクエストとほぼ互換性のあるHTTP JSON APIも提供しています。\n\nリアルタイムインデックス、ファセット、あいまい一致、KNNベクトル検索、全文とベクトルを組み合わせたハイブリッドランキングに対応し、ノード間でレプリケーションもできます。リソース消費が少なく、大規模データでも高速なクエリで知られています。より小さなフットプリントでElasticsearch級の検索をしたいチームや、検索インデックスをSQLで扱いたいチームに向いています。"
+    },
+    "ko": {
+      "description": "전문 검색, 벡터 검색, 하이브리드 검색을 지원하는 오픈소스 검색 데이터베이스로, 실시간 색인을 제공하며 SQL이나 JSON HTTP API로 쿼리합니다.",
+      "longDescription": "Manticore Search는 Sphinx 검색 프로젝트에서 발전한 C++ 검색 엔진입니다. MySQL 프로토콜을 지원하므로 일반 SQL로 테이블을 만들고 문서를 넣고 전문 검색 쿼리를 실행할 수 있으며, Elasticsearch 스타일 요청과 대부분 호환되는 HTTP JSON API도 제공합니다.\n\n실시간 인덱스, 패싯, 퍼지 매칭, KNN 벡터 검색, 전문과 벡터를 결합한 하이브리드 랭킹을 지원하고 노드 간 복제도 가능합니다. 적은 리소스로 대용량 데이터에서도 빠른 쿼리를 내는 것으로 알려져 있습니다. 더 작은 자원으로 Elasticsearch급 검색을 원하거나, 검색 인덱스를 SQL로 다루고 싶은 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Base de datos de búsqueda de código abierto para búsqueda de texto completo, vectorial e híbrida con indexación en tiempo real, consultable con SQL o una API HTTP JSON.",
+      "longDescription": "Manticore Search es un motor de búsqueda escrito en C++ que nació del proyecto Sphinx. Habla el protocolo de MySQL, así que puedes crear tablas, insertar documentos y lanzar consultas de texto completo con SQL normal, y además ofrece una API HTTP JSON en gran parte compatible con peticiones al estilo de Elasticsearch.\n\nAdmite índices en tiempo real, facetas, coincidencia difusa, búsqueda vectorial KNN y ranking híbrido de texto completo más vectores, y puede replicarse entre nodos. Es conocido por su bajo consumo de recursos y consultas rápidas sobre grandes volúmenes de datos. Encaja con equipos que quieren búsqueda al nivel de Elasticsearch con menos recursos, o que prefieren consultar su índice con SQL."
+    },
+    "de": {
+      "description": "Open-Source-Suchdatenbank für Volltext-, Vektor- und Hybridsuche mit Echtzeit-Indexierung, abfragbar per SQL oder JSON-HTTP-API.",
+      "longDescription": "Manticore Search ist eine in C++ geschriebene Suchmaschine, die aus dem Sphinx-Suchprojekt hervorgegangen ist. Sie spricht das MySQL-Protokoll, sodass du Tabellen anlegen, Dokumente einfügen und Volltextabfragen mit normalem SQL ausführen kannst, und bietet außerdem eine HTTP-JSON-API, die weitgehend mit Anfragen im Elasticsearch-Stil kompatibel ist.\n\nSie unterstützt Echtzeit-Indizes, Facetten, Fuzzy-Matching, KNN-Vektorsuche und hybrides Ranking aus Volltext und Vektoren und kann zwischen Knoten replizieren. Sie ist für geringen Ressourcenverbrauch und schnelle Abfragen auf großen Datenmengen bekannt. Passt zu Teams, die Suche auf Elasticsearch-Niveau mit kleinerem Footprint wollen oder ihren Suchindex lieber mit SQL abfragen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-21",
+      "repoCreatedAt": "2017-06-28",
+      "openIssuesCount": 651,
+      "stargazersCount": 12063,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "mature",
+      "evaluatedAt": "2026-10-21",
+      "score": 83
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Fast SQL-native search database (Sphinx successor) with vector and hybrid search; a lighter alternative to Elasticsearch for the category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "full-text-search",
+      "strength": "primary"
+    },
+    {
+      "concept": "search-engine",
+      "strength": "primary"
+    }
+  ]
+}

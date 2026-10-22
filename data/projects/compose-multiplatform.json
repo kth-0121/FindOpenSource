@@ -1,0 +1,80 @@
+{
+  "name": "Compose Multiplatform",
+  "slug": "compose-multiplatform",
+  "description": "Declarative Kotlin UI framework from JetBrains for sharing UI code across Android, iOS, desktop and web, built on Jetpack Compose.",
+  "longDescription": "Compose Multiplatform brings Jetpack Compose, Android's declarative UI toolkit, to other platforms. Using Kotlin Multiplatform, you write UI once with composable functions and run it on Android, iOS, desktop (Windows, macOS, Linux) and the web, while still being able to drop down to native platform APIs where needed.\n\nBecause it builds on the same Compose APIs Android developers already know, existing Android teams can extend an app to iOS and desktop with little new learning. Developed by JetBrains alongside Kotlin itself, it is a fit for teams that already work in Kotlin and want a shared UI layer instead of separate Swift and Android codebases.",
+  "repository": "https://github.com/JetBrains/compose-multiplatform",
+  "website": "https://www.jetbrains.com/compose-multiplatform/",
+  "documentation": "https://kotlinlang.org/docs/multiplatform/compose-multiplatform.html",
+  "categories": [
+    "mobile",
+    "ui"
+  ],
+  "keywords": [
+    "kotlin",
+    "cross-platform",
+    "declarative-ui",
+    "android",
+    "ios"
+  ],
+  "languages": [
+    "Kotlin"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "JetBrains 推出的声明式 Kotlin UI 框架，基于 Jetpack Compose，可在 Android、iOS、桌面和 Web 之间共享 UI 代码。",
+      "longDescription": "Compose Multiplatform 将 Android 的声明式 UI 工具包 Jetpack Compose 带到其他平台。借助 Kotlin Multiplatform，你只需用可组合函数编写一次 UI，就能在 Android、iOS、桌面（Windows、macOS、Linux）和 Web 上运行，需要时仍可调用各平台的原生 API。\n\n由于它基于 Android 开发者已经熟悉的 Compose API，现有的 Android 团队几乎无需额外学习就能把应用扩展到 iOS 和桌面。它由 JetBrains 与 Kotlin 本身一同开发，适合已经使用 Kotlin、希望用共享 UI 层取代分别维护 Swift 和 Android 代码库的团队。"
+    },
+    "ja": {
+      "description": "JetBrainsによる宣言的なKotlin UIフレームワーク。Jetpack Composeをベースに、Android、iOS、デスクトップ、WebでUIコードを共有できます。",
+      "longDescription": "Compose Multiplatformは、Androidの宣言的UIツールキットであるJetpack Composeを他のプラットフォームに広げるものです。Kotlin Multiplatformを使い、コンポーザブル関数でUIを一度書けば、Android、iOS、デスクトップ（Windows、macOS、Linux）、Webで動かせ、必要な箇所ではネイティブのプラットフォームAPIも呼び出せます。\n\nAndroid開発者がすでに知っているCompose APIの上に作られているため、既存のAndroidチームはほとんど新しく学ぶことなくアプリをiOSやデスクトップに広げられます。Kotlin本体とともにJetBrainsが開発しており、すでにKotlinを使っていて、SwiftとAndroidのコードベースを別々に保つ代わりに共通のUI層を持ちたいチームに向いています。"
+    },
+    "ko": {
+      "description": "JetBrains가 만든 선언형 Kotlin UI 프레임워크로, Jetpack Compose를 기반으로 Android·iOS·데스크톱·웹 간에 UI 코드를 공유합니다.",
+      "longDescription": "Compose Multiplatform은 Android의 선언형 UI 툴킷인 Jetpack Compose를 다른 플랫폼으로 확장합니다. Kotlin Multiplatform을 이용해 컴포저블 함수로 UI를 한 번 작성하면 Android, iOS, 데스크톱(Windows·macOS·Linux), 웹에서 실행할 수 있고, 필요한 곳에서는 네이티브 플랫폼 API도 호출할 수 있습니다.\n\nAndroid 개발자에게 이미 익숙한 Compose API를 그대로 쓰기 때문에, 기존 Android 팀은 새로 배울 것이 거의 없이 앱을 iOS와 데스크톱으로 넓힐 수 있습니다. Kotlin과 함께 JetBrains가 개발하며, 이미 Kotlin을 쓰고 있고 Swift와 Android 코드베이스를 따로 두는 대신 공통 UI 계층을 원하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Framework de UI declarativa en Kotlin de JetBrains para compartir código de interfaz entre Android, iOS, escritorio y web, basado en Jetpack Compose.",
+      "longDescription": "Compose Multiplatform lleva Jetpack Compose, el kit de UI declarativa de Android, a otras plataformas. Con Kotlin Multiplatform escribes la interfaz una sola vez con funciones composables y la ejecutas en Android, iOS, escritorio (Windows, macOS, Linux) y la web, pudiendo recurrir a las APIs nativas de cada plataforma cuando haga falta.\n\nAl basarse en las mismas APIs de Compose que los desarrolladores Android ya conocen, los equipos Android existentes pueden extender una app a iOS y escritorio con poco aprendizaje nuevo. Lo desarrolla JetBrains junto al propio Kotlin y encaja con equipos que ya trabajan en Kotlin y quieren una capa de UI compartida en lugar de bases de código separadas en Swift y Android."
+    },
+    "de": {
+      "description": "Deklaratives Kotlin-UI-Framework von JetBrains, um UI-Code zwischen Android, iOS, Desktop und Web zu teilen, aufgebaut auf Jetpack Compose.",
+      "longDescription": "Compose Multiplatform bringt Jetpack Compose, das deklarative UI-Toolkit von Android, auf weitere Plattformen. Mit Kotlin Multiplatform schreibst du die Oberfläche einmal mit Composable-Funktionen und führst sie auf Android, iOS, Desktop (Windows, macOS, Linux) und im Web aus, kannst aber bei Bedarf auf native Plattform-APIs zurückgreifen.\n\nDa es auf denselben Compose-APIs aufbaut, die Android-Entwickler bereits kennen, können bestehende Android-Teams eine App mit wenig neuem Lernaufwand auf iOS und Desktop erweitern. Entwickelt von JetBrains zusammen mit Kotlin selbst, passt es zu Teams, die bereits in Kotlin arbeiten und eine gemeinsame UI-Schicht statt getrennter Swift- und Android-Codebasen wollen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-20",
+      "repoCreatedAt": "2020-09-07",
+      "openIssuesCount": 24,
+      "stargazersCount": 19434,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "mature",
+      "evaluatedAt": "2026-10-21",
+      "score": 89
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "JetBrains' Kotlin take on shared native UI across Android, iOS, desktop and web; fills the Kotlin gap next to Flutter and React Native."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "cross-platform",
+      "strength": "primary"
+    },
+    {
+      "concept": "android",
+      "strength": "secondary"
+    },
+    {
+      "concept": "ios",
+      "strength": "secondary"
+    }
+  ]
+}

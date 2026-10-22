@@ -29,6 +29,7 @@ const LICENSE_CLASS: Record<string, LicenseClass> = {
   "GPL-2.0": "strong-copyleft",
   "GPL-3.0": "strong-copyleft",
   "AGPL-3.0": "strong-copyleft",
+  "OSL-3.0": "strong-copyleft",
   "BUSL-1.1": "source-available",
   "SSPL-1.0": "source-available",
   "Sustainable Use License": "source-available",

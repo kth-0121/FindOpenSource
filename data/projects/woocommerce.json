@@ -1,0 +1,73 @@
+{
+  "name": "WooCommerce",
+  "slug": "woocommerce",
+  "description": "Customizable open-source ecommerce platform built on WordPress -- turn a WordPress site into an online store for physical goods, digital products or subscriptions.",
+  "longDescription": "WooCommerce is a WordPress plugin that adds a complete online store: product catalog, cart and checkout, inventory, taxes, shipping, coupons, customer accounts and order management. Because it runs inside WordPress, store pages, content and blog live in the same site and can use the same themes and editor.\n\nA large extension ecosystem covers payment gateways, subscriptions, bookings, memberships and marketplace integrations, and a REST API plus block-based checkout support custom builds. A fit for businesses and agencies that already use WordPress, or that want a self-hosted store with a huge pool of themes, plugins and developers to draw on.",
+  "repository": "https://github.com/woocommerce/woocommerce",
+  "website": "https://woocommerce.com",
+  "documentation": "https://developer.woocommerce.com/docs/",
+  "categories": [
+    "ecommerce"
+  ],
+  "keywords": [
+    "ecommerce",
+    "wordpress",
+    "online-store",
+    "php-ecommerce",
+    "commerce"
+  ],
+  "languages": [
+    "PHP",
+    "TypeScript",
+    "JavaScript"
+  ],
+  "license": "GPL-2.0",
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "基于 WordPress 的可定制开源电商平台——把 WordPress 网站变成销售实体商品、数字产品或订阅的在线商店。",
+      "longDescription": "WooCommerce 是一个 WordPress 插件，可添加完整的在线商店功能：商品目录、购物车与结账、库存、税费、配送、优惠券、客户账户和订单管理。由于它运行在 WordPress 内部，商店页面、内容和博客都在同一个站点中，并可使用相同的主题和编辑器。\n\n庞大的扩展生态覆盖支付网关、订阅、预约、会员和平台集成，REST API 和基于区块的结账也支持定制开发。适合已经在使用 WordPress 的企业和代理机构，或希望拥有可自托管商店、并能借助大量主题、插件和开发者资源的团队。"
+    },
+    "ja": {
+      "description": "WordPress上に構築された、カスタマイズ可能なオープンソースECプラットフォーム——WordPressサイトを、物販、デジタル商品、サブスクリプションを扱うオンラインストアに変えます。",
+      "longDescription": "WooCommerceは、完全なオンラインストアを追加するWordPressプラグインです。商品カタログ、カートと決済、在庫、税金、配送、クーポン、顧客アカウント、注文管理を備えています。WordPressの中で動くため、ストアのページ、コンテンツ、ブログが同じサイトにあり、同じテーマやエディターを使えます。\n\n決済ゲートウェイ、サブスクリプション、予約、会員制、マーケットプレイス連携などを網羅する大規模な拡張機能のエコシステムがあり、REST APIとブロックベースのチェックアウトがカスタム開発を支えます。すでにWordPressを使っている企業や制作会社、または豊富なテーマ・プラグイン・開発者を活用できるセルフホストのストアを求める人に向いています。"
+    },
+    "ko": {
+      "description": "WordPress 기반의 커스터마이즈 가능한 오픈소스 이커머스 플랫폼 — WordPress 사이트를 실물 상품, 디지털 상품, 구독을 판매하는 온라인 스토어로 바꿉니다.",
+      "longDescription": "WooCommerce는 완전한 온라인 스토어를 추가하는 WordPress 플러그인입니다. 상품 카탈로그, 장바구니와 결제, 재고, 세금, 배송, 쿠폰, 고객 계정, 주문 관리를 제공합니다. WordPress 안에서 동작하기 때문에 스토어 페이지, 콘텐츠, 블로그가 한 사이트에 있고 같은 테마와 편집기를 쓸 수 있습니다.\n\n결제 게이트웨이, 구독, 예약, 멤버십, 마켓플레이스 연동을 아우르는 거대한 확장 생태계가 있고, REST API와 블록 기반 체크아웃으로 맞춤 개발도 가능합니다. 이미 WordPress를 쓰는 회사나 에이전시, 또는 풍부한 테마·플러그인·개발자 생태계를 활용할 수 있는 셀프 호스팅 스토어를 원하는 경우에 적합합니다."
+    },
+    "es": {
+      "description": "Plataforma de ecommerce de código abierto y personalizable construida sobre WordPress: convierte un sitio WordPress en una tienda online de productos físicos, digitales o suscripciones.",
+      "longDescription": "WooCommerce es un plugin de WordPress que añade una tienda online completa: catálogo de productos, carrito y checkout, inventario, impuestos, envíos, cupones, cuentas de cliente y gestión de pedidos. Como funciona dentro de WordPress, las páginas de la tienda, el contenido y el blog viven en el mismo sitio y pueden usar los mismos temas y editor.\n\nUn gran ecosistema de extensiones cubre pasarelas de pago, suscripciones, reservas, membresías e integraciones con marketplaces, y una API REST junto con el checkout basado en bloques permite desarrollos a medida. Encaja con empresas y agencias que ya usan WordPress, o que quieren una tienda autoalojada con una enorme oferta de temas, plugins y desarrolladores."
+    },
+    "de": {
+      "description": "Anpassbare Open-Source-E-Commerce-Plattform auf Basis von WordPress -- macht aus einer WordPress-Site einen Onlineshop für physische Waren, digitale Produkte oder Abos.",
+      "longDescription": "WooCommerce ist ein WordPress-Plugin, das einen vollständigen Onlineshop hinzufügt: Produktkatalog, Warenkorb und Checkout, Lagerbestand, Steuern, Versand, Gutscheine, Kundenkonten und Bestellverwaltung. Da es innerhalb von WordPress läuft, liegen Shopseiten, Inhalte und Blog auf derselben Site und können dieselben Themes und denselben Editor nutzen.\n\nEin großes Erweiterungs-Ökosystem deckt Zahlungsanbieter, Abos, Buchungen, Mitgliedschaften und Marktplatz-Anbindungen ab, und eine REST-API sowie der blockbasierte Checkout ermöglichen individuelle Lösungen. Passt zu Unternehmen und Agenturen, die bereits WordPress nutzen, oder die einen selbst gehosteten Shop mit riesiger Auswahl an Themes, Plugins und Entwicklern wollen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-21",
+      "repoCreatedAt": "2011-08-09",
+      "openIssuesCount": 1496,
+      "stargazersCount": 10558,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "foundational",
+      "evaluatedAt": "2026-10-21",
+      "score": 90
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most widely deployed open-source ecommerce platform; an essential, non-headless counterpoint to Medusa and Saleor."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "commerce",
+      "strength": "primary"
+    }
+  ]
+}

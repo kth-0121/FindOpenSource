@@ -1,0 +1,69 @@
+{
+  "name": "Ant Design",
+  "slug": "ant-design",
+  "description": "Enterprise-class UI design language and React component library, with a large set of high-quality components for building data-heavy admin and business applications.",
+  "longDescription": "Ant Design is both a design system and its React implementation, antd. It provides a broad set of components geared toward business software: tables with sorting, filtering and pagination, complex forms with validation, trees, cascaders, date and time pickers, steps, upload, and layout and navigation primitives, plus a theme system based on design tokens.\n\nIt includes built-in internationalization for dozens of languages, and a wider ecosystem around it covers charts (AntV), pro admin templates and mobile components. It originated at Ant Group and is used widely across large organizations. A good fit for teams building internal tools, dashboards and admin panels who want a consistent, comprehensive component set.",
+  "repository": "https://github.com/ant-design/ant-design",
+  "website": "https://ant.design",
+  "documentation": "https://ant.design/docs/react/introduce",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "react-components",
+    "ui-components",
+    "design-system",
+    "enterprise-ui"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "packages": {
+    "npm": [
+      "antd"
+    ]
+  },
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "企业级 UI 设计语言和 React 组件库，提供大量高质量组件，用于构建数据密集型的后台和业务应用。",
+      "longDescription": "Ant Design 既是一套设计体系，也是其 React 实现 antd。它提供面向业务软件的丰富组件：支持排序、筛选和分页的表格，带校验的复杂表单，树、级联选择、日期时间选择器、步骤条、上传，以及布局和导航基础组件，并配有基于设计令牌（Design Token）的主题系统。\n\n它内置数十种语言的国际化支持，周边生态还覆盖图表（AntV）、Pro 后台模板和移动端组件。它起源于蚂蚁集团，并在大型组织中被广泛使用。适合构建内部工具、仪表盘和管理后台、希望获得一致且全面组件集的团队。"
+    },
+    "ja": {
+      "description": "エンタープライズ向けのUIデザイン言語とReactコンポーネントライブラリ。データ量の多い管理画面や業務アプリを作るための高品質なコンポーネントを豊富に揃えています。",
+      "longDescription": "Ant Designはデザインシステムであり、そのReact実装であるantdでもあります。業務ソフトウェア向けの幅広いコンポーネントを提供します。ソート・フィルター・ページネーション付きのテーブル、バリデーション付きの複雑なフォーム、ツリー、カスケーダー、日付・時刻ピッカー、ステップ、アップロード、レイアウトやナビゲーションの基本部品に加え、デザイントークンに基づくテーマシステムがあります。\n\n数十の言語に対応した国際化が組み込まれており、周辺エコシステムとしてチャート（AntV）、Pro管理テンプレート、モバイル向けコンポーネントもあります。Ant Groupで生まれ、大規模な組織で広く使われています。社内ツール、ダッシュボード、管理画面を作り、一貫性のある包括的なコンポーネント群を使いたいチームに向いています。"
+    },
+    "ko": {
+      "description": "엔터프라이즈급 UI 디자인 언어이자 React 컴포넌트 라이브러리로, 데이터가 많은 관리자 화면과 업무용 앱을 만들기 위한 고품질 컴포넌트를 폭넓게 제공합니다.",
+      "longDescription": "Ant Design은 디자인 시스템이면서 그 React 구현체인 antd이기도 합니다. 업무용 소프트웨어에 맞춘 다양한 컴포넌트를 제공합니다. 정렬·필터·페이지네이션을 갖춘 테이블, 검증이 포함된 복잡한 폼, 트리, 캐스케이더, 날짜·시간 선택기, 단계 표시, 업로드, 레이아웃과 내비게이션 기본 요소, 그리고 디자인 토큰 기반의 테마 시스템이 있습니다.\n\n수십 개 언어의 국제화를 기본 제공하며, 주변 생태계로 차트(AntV), Pro 관리자 템플릿, 모바일 컴포넌트도 있습니다. Ant Group에서 시작되어 대규모 조직에서 널리 쓰입니다. 사내 도구, 대시보드, 관리자 패널을 만들면서 일관되고 포괄적인 컴포넌트 세트를 원하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Lenguaje de diseño de UI de nivel empresarial y biblioteca de componentes React, con un amplio conjunto de componentes de alta calidad para crear paneles de administración y aplicaciones de negocio con muchos datos.",
+      "longDescription": "Ant Design es a la vez un sistema de diseño y su implementación en React, antd. Ofrece un amplio conjunto de componentes orientados al software de negocio: tablas con ordenación, filtrado y paginación, formularios complejos con validación, árboles, cascaders, selectores de fecha y hora, pasos, subida de archivos y primitivas de layout y navegación, además de un sistema de temas basado en design tokens.\n\nIncluye internacionalización integrada para decenas de idiomas, y su ecosistema cubre gráficos (AntV), plantillas de administración Pro y componentes móviles. Nació en Ant Group y se usa ampliamente en grandes organizaciones. Encaja con equipos que construyen herramientas internas, dashboards y paneles de administración y quieren un conjunto de componentes coherente y completo."
+    },
+    "de": {
+      "description": "UI-Designsprache und React-Komponentenbibliothek für den Enterprise-Einsatz, mit einer großen Auswahl hochwertiger Komponenten für datenlastige Admin- und Business-Anwendungen.",
+      "longDescription": "Ant Design ist zugleich ein Designsystem und dessen React-Implementierung antd. Es bietet eine breite Palette an Komponenten für Business-Software: Tabellen mit Sortierung, Filterung und Paginierung, komplexe Formulare mit Validierung, Bäume, Cascader, Datums- und Zeitauswahl, Schrittanzeigen, Upload sowie Layout- und Navigationsbausteine, dazu ein Theme-System auf Basis von Design Tokens.\n\nEingebaute Internationalisierung für Dutzende Sprachen ist enthalten, und das umliegende Ökosystem umfasst Charts (AntV), Pro-Admin-Vorlagen und mobile Komponenten. Es stammt von der Ant Group und ist in großen Organisationen weit verbreitet. Passt zu Teams, die interne Tools, Dashboards und Admin-Panels bauen und ein einheitliches, umfassendes Komponentenset wollen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-21",
+      "repoCreatedAt": "2015-04-24",
+      "openIssuesCount": 1115,
+      "stargazersCount": 99828,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "foundational",
+      "evaluatedAt": "2026-10-21",
+      "score": 96
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the most used React component libraries in the world and the go-to for enterprise admin UIs; essential for the thin ui category."
+    },
+    "flag": "ok"
+  }
+}

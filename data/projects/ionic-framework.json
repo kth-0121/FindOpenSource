@@ -1,0 +1,89 @@
+{
+  "name": "Ionic Framework",
+  "slug": "ionic-framework",
+  "description": "Cross-platform UI toolkit for building iOS, Android and Progressive Web Apps with HTML, CSS and JavaScript, with first-class React, Angular and Vue integrations.",
+  "longDescription": "Ionic Framework is a library of mobile-optimized UI components (navigation, tabs, lists, modals, gestures and more) built as standard Web Components, so the same app code renders with platform-appropriate styling on iOS and Android. Official packages integrate it with React, Angular and Vue.\n\nIonic apps run as Progressive Web Apps in the browser, and are typically packaged as native iOS and Android apps with Capacitor, which gives access to device APIs like the camera, filesystem and push notifications. A good fit for web teams who want to ship to app stores from one codebase without learning Swift or Kotlin.",
+  "repository": "https://github.com/ionic-team/ionic-framework",
+  "website": "https://ionicframework.com",
+  "documentation": "https://ionicframework.com/docs",
+  "categories": [
+    "mobile",
+    "ui"
+  ],
+  "keywords": [
+    "mobile",
+    "cross-platform",
+    "ui-components",
+    "pwa",
+    "hybrid-apps"
+  ],
+  "languages": [
+    "TypeScript",
+    "SCSS"
+  ],
+  "license": "MIT",
+  "packages": {
+    "npm": [
+      "@ionic/core",
+      "@ionic/react",
+      "@ionic/angular",
+      "@ionic/vue"
+    ]
+  },
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "使用 HTML、CSS 和 JavaScript 构建 iOS、Android 和渐进式 Web 应用的跨平台 UI 工具包，原生支持 React、Angular 和 Vue。",
+      "longDescription": "Ionic Framework 是一套针对移动端优化的 UI 组件库（导航、标签页、列表、模态框、手势等），以标准 Web Components 构建，因此同一份应用代码能在 iOS 和 Android 上以符合各平台风格的样式渲染。官方包提供了与 React、Angular 和 Vue 的集成。\n\nIonic 应用可以作为渐进式 Web 应用在浏览器中运行，通常再通过 Capacitor 打包为原生 iOS 和 Android 应用，从而访问相机、文件系统和推送通知等设备 API。适合希望用一套代码发布到应用商店、又不想学习 Swift 或 Kotlin 的 Web 团队。"
+    },
+    "ja": {
+      "description": "HTML・CSS・JavaScriptでiOS、Android、PWAを構築するクロスプラットフォームUIツールキット。React、Angular、Vueとの公式連携を備えています。",
+      "longDescription": "Ionic Frameworkは、ナビゲーション、タブ、リスト、モーダル、ジェスチャーなどモバイル向けに最適化されたUIコンポーネントのライブラリで、標準のWeb Componentsとして作られているため、同じアプリのコードがiOSとAndroidでそれぞれのプラットフォームらしい見た目で描画されます。公式パッケージでReact、Angular、Vueと統合できます。\n\nIonicアプリはブラウザ上でPWAとして動作し、一般的にはCapacitorでネイティブのiOS・Androidアプリとしてパッケージ化され、カメラやファイルシステム、プッシュ通知などのデバイスAPIにアクセスできます。SwiftやKotlinを学ばずに1つのコードベースからアプリストアに出したいWebチームに向いています。"
+    },
+    "ko": {
+      "description": "HTML·CSS·JavaScript로 iOS, Android, PWA를 만드는 크로스플랫폼 UI 툴킷으로, React·Angular·Vue와의 공식 연동을 제공합니다.",
+      "longDescription": "Ionic Framework는 내비게이션, 탭, 리스트, 모달, 제스처 등 모바일에 최적화된 UI 컴포넌트 라이브러리입니다. 표준 Web Components로 만들어져 같은 앱 코드가 iOS와 Android에서 각 플랫폼에 맞는 스타일로 렌더링됩니다. 공식 패키지로 React, Angular, Vue와 통합할 수 있습니다.\n\nIonic 앱은 브라우저에서 PWA로 동작하며, 보통 Capacitor로 네이티브 iOS·Android 앱으로 패키징해 카메라, 파일 시스템, 푸시 알림 같은 기기 API를 사용합니다. Swift나 Kotlin을 배우지 않고 하나의 코드베이스로 앱스토어에 출시하고 싶은 웹 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Kit de UI multiplataforma para crear apps iOS, Android y Progressive Web Apps con HTML, CSS y JavaScript, con integraciones oficiales para React, Angular y Vue.",
+      "longDescription": "Ionic Framework es una biblioteca de componentes de UI optimizados para móvil (navegación, pestañas, listas, modales, gestos y más) construidos como Web Components estándar, de modo que el mismo código de la app se muestra con el estilo propio de cada plataforma en iOS y Android. Los paquetes oficiales lo integran con React, Angular y Vue.\n\nLas apps de Ionic funcionan como Progressive Web Apps en el navegador y normalmente se empaquetan como apps nativas de iOS y Android con Capacitor, que da acceso a APIs del dispositivo como la cámara, el sistema de archivos y las notificaciones push. Encaja con equipos web que quieren publicar en las tiendas de apps desde una sola base de código sin aprender Swift ni Kotlin."
+    },
+    "de": {
+      "description": "Plattformübergreifendes UI-Toolkit für iOS-, Android- und Progressive-Web-Apps mit HTML, CSS und JavaScript, mit offiziellen Integrationen für React, Angular und Vue.",
+      "longDescription": "Ionic Framework ist eine Bibliothek mobiloptimierter UI-Komponenten (Navigation, Tabs, Listen, Modals, Gesten und mehr), gebaut als Standard-Web-Components, sodass derselbe App-Code auf iOS und Android im jeweils plattformtypischen Stil dargestellt wird. Offizielle Pakete integrieren es in React, Angular und Vue.\n\nIonic-Apps laufen als Progressive Web Apps im Browser und werden üblicherweise mit Capacitor als native iOS- und Android-Apps verpackt, was Zugriff auf Geräte-APIs wie Kamera, Dateisystem und Push-Benachrichtigungen gibt. Passt zu Web-Teams, die aus einer Codebasis in die App Stores wollen, ohne Swift oder Kotlin zu lernen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-20",
+      "repoCreatedAt": "2013-08-20",
+      "openIssuesCount": 515,
+      "stargazersCount": 52715,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "mature",
+      "evaluatedAt": "2026-10-21",
+      "score": 90
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Long-running cross-platform mobile UI toolkit for web developers; pairs naturally with Capacitor already in the catalog."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "cross-platform",
+      "strength": "primary"
+    },
+    {
+      "concept": "ios",
+      "strength": "secondary"
+    },
+    {
+      "concept": "android",
+      "strength": "secondary"
+    }
+  ]
+}

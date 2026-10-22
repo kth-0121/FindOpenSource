@@ -1,0 +1,70 @@
+{
+  "name": "Mantine",
+  "slug": "mantine",
+  "description": "Fully featured React components library with 100+ customizable components and 50+ hooks, plus packages for forms, dates, charts, notifications and rich text editing.",
+  "longDescription": "Mantine is a React UI library that covers most of what an application needs out of the box: inputs, buttons, overlays, navigation, data display and layout components, all accessible and themeable through a single theme object with built-in dark mode. Styling is done with plain CSS modules and CSS variables, so it works with server components and doesn't require a CSS-in-JS runtime.\n\nBeyond the core, separate packages add form state management, date pickers, charts, notifications, a spotlight command palette, dropzones and a rich text editor, and @mantine/hooks is usable on its own. A good fit for React and Next.js teams who want a complete, consistent component set without assembling one from many libraries.",
+  "repository": "https://github.com/mantinedev/mantine",
+  "website": "https://mantine.dev",
+  "documentation": "https://mantine.dev/getting-started/",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "react-components",
+    "ui-components",
+    "react-hooks",
+    "design-system"
+  ],
+  "languages": [
+    "TypeScript",
+    "CSS"
+  ],
+  "license": "MIT",
+  "packages": {
+    "npm": [
+      "@mantine/*"
+    ]
+  },
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "功能完备的 React 组件库，提供 100 多个可定制组件和 50 多个 Hook，另有表单、日期、图表、通知和富文本编辑等扩展包。",
+      "longDescription": "Mantine 是一个 React UI 库，开箱即覆盖应用所需的大部分内容：输入框、按钮、浮层、导航、数据展示和布局组件，全部支持无障碍访问，并可通过单一主题对象进行定制，内置暗色模式。样式使用普通 CSS Modules 和 CSS 变量实现，因此可与服务器组件配合使用，无需 CSS-in-JS 运行时。\n\n在核心之外，独立的扩展包提供表单状态管理、日期选择器、图表、通知、Spotlight 命令面板、拖放上传区和富文本编辑器，@mantine/hooks 也可以单独使用。适合希望拥有一套完整、一致的组件、而不是从多个库拼凑的 React 和 Next.js 团队。"
+    },
+    "ja": {
+      "description": "100以上のカスタマイズ可能なコンポーネントと50以上のフックを備えた、機能豊富なReactコンポーネントライブラリ。フォーム、日付、チャート、通知、リッチテキスト編集のパッケージもあります。",
+      "longDescription": "Mantineは、アプリに必要なものの大半を標準で揃えたReact UIライブラリです。入力、ボタン、オーバーレイ、ナビゲーション、データ表示、レイアウトのコンポーネントがあり、すべてアクセシブルで、1つのテーマオブジェクトでテーマ設定でき、ダークモードも組み込まれています。スタイルは素のCSS ModulesとCSS変数で書かれているため、サーバーコンポーネントでも使え、CSS-in-JSのランタイムは不要です。\n\nコア以外にも、フォームの状態管理、日付ピッカー、チャート、通知、Spotlightコマンドパレット、ドロップゾーン、リッチテキストエディターを追加する個別パッケージがあり、@mantine/hooksは単体でも使えます。多くのライブラリを寄せ集めずに、完全で一貫したコンポーネント群を使いたいReactやNext.jsのチームに向いています。"
+    },
+    "ko": {
+      "description": "100개 이상의 커스터마이즈 가능한 컴포넌트와 50개 이상의 훅을 갖춘 풀 기능 React 컴포넌트 라이브러리로, 폼·날짜·차트·알림·리치 텍스트 편집 패키지도 제공합니다.",
+      "longDescription": "Mantine은 앱에 필요한 대부분을 기본으로 갖춘 React UI 라이브러리입니다. 입력, 버튼, 오버레이, 내비게이션, 데이터 표시, 레이아웃 컴포넌트를 제공하며, 모두 접근성을 지원하고 하나의 테마 객체로 꾸밀 수 있고 다크 모드가 내장되어 있습니다. 스타일은 순수 CSS Modules와 CSS 변수로 작성되어 서버 컴포넌트와 함께 쓸 수 있고 CSS-in-JS 런타임이 필요 없습니다.\n\n코어 외에도 폼 상태 관리, 날짜 선택기, 차트, 알림, Spotlight 명령 팔레트, 드롭존, 리치 텍스트 에디터를 더하는 별도 패키지가 있고, @mantine/hooks는 단독으로도 쓸 수 있습니다. 여러 라이브러리를 조합하지 않고 완전하고 일관된 컴포넌트 세트를 원하는 React·Next.js 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Biblioteca de componentes React completa con más de 100 componentes personalizables y más de 50 hooks, además de paquetes para formularios, fechas, gráficos, notificaciones y edición de texto enriquecido.",
+      "longDescription": "Mantine es una biblioteca de UI para React que cubre de serie la mayor parte de lo que necesita una aplicación: inputs, botones, overlays, navegación, visualización de datos y componentes de layout, todos accesibles y personalizables mediante un único objeto de tema con modo oscuro integrado. Los estilos se escriben con CSS Modules y variables CSS, así que funciona con server components y no requiere un runtime de CSS-in-JS.\n\nAdemás del núcleo, paquetes separados añaden gestión del estado de formularios, selectores de fecha, gráficos, notificaciones, una paleta de comandos spotlight, zonas de arrastrar y soltar y un editor de texto enriquecido, y @mantine/hooks se puede usar por sí solo. Encaja con equipos de React y Next.js que quieren un conjunto de componentes completo y coherente sin montarlo a partir de muchas bibliotecas."
+    },
+    "de": {
+      "description": "Umfassende React-Komponentenbibliothek mit über 100 anpassbaren Komponenten und über 50 Hooks, dazu Pakete für Formulare, Datumsauswahl, Charts, Benachrichtigungen und Rich-Text-Editing.",
+      "longDescription": "Mantine ist eine React-UI-Bibliothek, die das meiste, was eine Anwendung braucht, schon mitbringt: Eingabefelder, Buttons, Overlays, Navigation, Datenanzeige und Layout-Komponenten, alle barrierefrei und über ein einziges Theme-Objekt anpassbar, mit eingebautem Dark Mode. Gestylt wird mit einfachen CSS Modules und CSS-Variablen, daher funktioniert es mit Server Components und braucht keine CSS-in-JS-Runtime.\n\nNeben dem Kern ergänzen separate Pakete Formular-State-Management, Datepicker, Charts, Benachrichtigungen, eine Spotlight-Befehlspalette, Dropzones und einen Rich-Text-Editor, und @mantine/hooks ist auch einzeln nutzbar. Passt zu React- und Next.js-Teams, die ein vollständiges, einheitliches Komponentenset wollen, statt es aus vielen Bibliotheken zusammenzustellen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-18",
+      "repoCreatedAt": "2021-01-07",
+      "openIssuesCount": 31,
+      "stargazersCount": 31849,
+      "governance": "community",
+      "archived": false,
+      "productionReadiness": "mature",
+      "evaluatedAt": "2026-10-21",
+      "score": 87
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Fully featured React component and hooks library with a strong developer experience; a popular modern pick for the thin ui category."
+    },
+    "flag": "ok"
+  }
+}

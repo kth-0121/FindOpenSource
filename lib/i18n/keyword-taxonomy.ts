@@ -65,6 +65,30 @@ export const keywordTaxonomy: KeywordTaxonomyEntry[] = [
     related: ["team-chat", "messaging", "chat"],
   },
   {
+    canonical: "video-conferencing",
+    synonyms: {
+      en: ["video conferencing", "video calls", "video meetings", "zoom alternative"],
+      "zh-CN": ["视频会议", "视频通话"],
+      ja: ["ビデオ会議", "ビデオ通話", "web会議"],
+      ko: ["화상회의", "화상 회의", "영상통화"],
+      es: ["videoconferencia", "videollamadas"],
+      de: ["videokonferenz", "videoanrufe"],
+    },
+    related: ["video-conferencing", "webrtc"],
+  },
+  {
+    canonical: "customer-support",
+    synonyms: {
+      en: ["live chat", "customer support", "help desk", "helpdesk", "intercom alternative"],
+      "zh-CN": ["在线客服", "客服", "帮助台"],
+      ja: ["ライブチャット", "カスタマーサポート", "ヘルプデスク"],
+      ko: ["라이브 채팅", "고객 지원", "고객센터", "헬프데스크"],
+      es: ["chat en vivo", "atención al cliente", "mesa de ayuda"],
+      de: ["live-chat", "kundensupport", "helpdesk"],
+    },
+    related: ["customer-support", "live-chat", "help-desk"],
+  },
+  {
     canonical: "database",
     synonyms: {
       en: ["db", "data store"],

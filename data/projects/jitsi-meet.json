@@ -1,0 +1,77 @@
+{
+  "name": "Jitsi Meet",
+  "slug": "jitsi-meet",
+  "description": "Secure, self-hostable video conferencing built on WebRTC -- use it as a standalone meeting app or embed meetings in your own web or mobile application.",
+  "longDescription": "Jitsi Meet is a full video conferencing application that runs in the browser with no account or download required for participants, plus native mobile apps. Meetings support screen sharing, chat, breakout rooms, lobby and password protection, recording and live streaming, and end-to-end encryption.\n\nIt sits on the Jitsi Videobridge media server and can be self-hosted with Docker or a Debian/Ubuntu package, or used through the free meet.jit.si service. The IFrame API and mobile SDKs make it easy to embed video calls in another product. A good fit for organizations that need a Zoom-style meeting tool under their own control, or developers adding video calls to an app.",
+  "repository": "https://github.com/jitsi/jitsi-meet",
+  "website": "https://jitsi.org/jitsi-meet/",
+  "documentation": "https://jitsi.github.io/handbook/",
+  "categories": [
+    "chat",
+    "media"
+  ],
+  "keywords": [
+    "video-conferencing",
+    "webrtc",
+    "video-calls",
+    "zoom-alternative"
+  ],
+  "languages": [
+    "TypeScript",
+    "JavaScript",
+    "Lua"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "基于 WebRTC 的安全、可自托管的视频会议——既可作为独立会议应用使用，也可将会议嵌入你自己的 Web 或移动应用。",
+      "longDescription": "Jitsi Meet 是一个完整的视频会议应用，在浏览器中运行，参会者无需注册账号或下载软件，另有原生移动应用。会议支持屏幕共享、聊天、分组讨论室、等候室和密码保护、录制和直播，以及端到端加密。\n\n它构建在 Jitsi Videobridge 媒体服务器之上，可以通过 Docker 或 Debian/Ubuntu 软件包自托管，也可以使用免费的 meet.jit.si 服务。IFrame API 和移动 SDK 让你可以轻松地把视频通话嵌入到其他产品中。适合需要自主掌控 Zoom 式会议工具的组织，或为应用添加视频通话的开发者。"
+    },
+    "ja": {
+      "description": "WebRTCで構築された安全でセルフホスト可能なビデオ会議——単体の会議アプリとして使うことも、自分のWebやモバイルアプリに会議を埋め込むこともできます。",
+      "longDescription": "Jitsi Meetは、ブラウザで動作する本格的なビデオ会議アプリで、参加者はアカウント登録やダウンロードが不要です。ネイティブのモバイルアプリもあります。会議では画面共有、チャット、ブレイクアウトルーム、ロビーとパスワード保護、録画とライブ配信、エンドツーエンド暗号化が使えます。\n\nJitsi Videobridgeメディアサーバーの上に成り立っており、DockerやDebian/Ubuntuパッケージでセルフホストできるほか、無料のmeet.jit.siサービスとしても使えます。IFrame APIやモバイルSDKにより、他の製品へのビデオ通話の埋め込みも簡単です。Zoomのような会議ツールを自分たちの管理下に置きたい組織や、アプリにビデオ通話を加えたい開発者に向いています。"
+    },
+    "ko": {
+      "description": "WebRTC 기반의 안전하고 셀프 호스팅 가능한 화상회의 — 독립 회의 앱으로 쓰거나 자신의 웹·모바일 앱에 회의를 임베드할 수 있습니다.",
+      "longDescription": "Jitsi Meet는 브라우저에서 동작하는 완전한 화상회의 앱으로, 참가자는 계정이나 설치 없이 바로 참여할 수 있고 네이티브 모바일 앱도 있습니다. 회의에서는 화면 공유, 채팅, 소회의실, 대기실과 비밀번호 보호, 녹화와 라이브 스트리밍, 종단 간 암호화를 지원합니다.\n\nJitsi Videobridge 미디어 서버 위에서 동작하며, Docker나 Debian/Ubuntu 패키지로 셀프 호스팅하거나 무료 meet.jit.si 서비스로 사용할 수 있습니다. IFrame API와 모바일 SDK로 다른 제품에 영상통화를 쉽게 넣을 수 있습니다. Zoom 같은 회의 도구를 직접 운영하고 싶은 조직이나, 앱에 영상통화 기능을 넣으려는 개발자에게 적합합니다."
+    },
+    "es": {
+      "description": "Videoconferencia segura y autoalojable basada en WebRTC: úsala como app de reuniones independiente o integra reuniones en tu propia aplicación web o móvil.",
+      "longDescription": "Jitsi Meet es una aplicación completa de videoconferencia que funciona en el navegador sin que los participantes necesiten cuenta ni descargas, además de apps móviles nativas. Las reuniones admiten compartir pantalla, chat, salas para grupos, sala de espera y contraseña, grabación y retransmisión en directo, y cifrado de extremo a extremo.\n\nSe apoya en el servidor de medios Jitsi Videobridge y se puede autoalojar con Docker o con un paquete de Debian/Ubuntu, o usar a través del servicio gratuito meet.jit.si. La IFrame API y los SDKs móviles facilitan integrar videollamadas en otro producto. Encaja con organizaciones que necesitan una herramienta de reuniones al estilo de Zoom bajo su propio control, o con desarrolladores que añaden videollamadas a una app."
+    },
+    "de": {
+      "description": "Sichere, selbst hostbare Videokonferenzen auf Basis von WebRTC -- als eigenständige Meeting-App oder eingebettet in deine eigene Web- oder Mobile-App.",
+      "longDescription": "Jitsi Meet ist eine vollständige Videokonferenz-Anwendung, die im Browser läuft, ohne dass Teilnehmende ein Konto oder einen Download brauchen, dazu kommen native Mobile-Apps. Meetings unterstützen Bildschirmfreigabe, Chat, Breakout-Räume, Lobby und Passwortschutz, Aufzeichnung und Livestreaming sowie Ende-zu-Ende-Verschlüsselung.\n\nEs baut auf dem Medienserver Jitsi Videobridge auf und lässt sich per Docker oder Debian/Ubuntu-Paket selbst hosten oder über den kostenlosen Dienst meet.jit.si nutzen. Die IFrame-API und die Mobile-SDKs machen es einfach, Videoanrufe in ein anderes Produkt einzubetten. Passt zu Organisationen, die ein Meeting-Tool im Stil von Zoom unter eigener Kontrolle brauchen, oder zu Entwicklern, die Videoanrufe in eine App einbauen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-20",
+      "repoCreatedAt": "2013-12-16",
+      "openIssuesCount": 169,
+      "stargazersCount": 30116,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "mature",
+      "evaluatedAt": "2026-10-21",
+      "score": 90
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The best-known self-hostable video conferencing app; covers real-time video, which the chat category was missing entirely."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "video-conferencing",
+      "strength": "primary"
+    },
+    {
+      "concept": "webrtc",
+      "strength": "primary"
+    }
+  ]
+}

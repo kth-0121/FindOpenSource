@@ -18,7 +18,7 @@ Search "authentication", "chat", "CMS", "vector database" or "web scraping" and 
 list of open source projects that solve that problem — with enough information (license,
 language, links) to quickly evaluate them.
 
-The catalog currently lists **230 curated projects** across 21 categories.
+The catalog currently lists **242 curated projects** across 21 categories.
 
 FindOpenSource is a fully static, community-maintained directory. There is no login, no
 database, and no backend service. Every project is a plain JSON file, reviewed and merged

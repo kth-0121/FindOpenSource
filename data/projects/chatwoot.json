@@ -1,0 +1,77 @@
+{
+  "name": "Chatwoot",
+  "slug": "chatwoot",
+  "description": "Open-source customer support platform -- live chat, email, social and messaging channels in one shared inbox, as a self-hostable alternative to Intercom and Zendesk.",
+  "longDescription": "Chatwoot gives support teams one inbox for conversations from a website live-chat widget, email, WhatsApp, Facebook, Instagram, Telegram, SMS and other channels. Agents get assignment, canned responses, private notes, labels and team routing, and businesses get a help-center knowledge base, CSAT surveys and reporting on response times.\n\nIt is a Ruby on Rails app with a Vue frontend and can be self-hosted with Docker or used as a managed cloud service. The core is MIT-licensed; code under the enterprise/ directory carries a separate license. A good fit for companies that want Intercom-style customer messaging while keeping the data on their own servers.",
+  "repository": "https://github.com/chatwoot/chatwoot",
+  "website": "https://www.chatwoot.com",
+  "documentation": "https://www.chatwoot.com/docs",
+  "categories": [
+    "chat"
+  ],
+  "keywords": [
+    "live-chat",
+    "customer-support",
+    "help-desk",
+    "omnichannel",
+    "intercom-alternative"
+  ],
+  "languages": [
+    "Ruby",
+    "Vue",
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "开源客户支持平台——在线聊天、邮件、社交和即时通讯渠道汇集到一个共享收件箱，是 Intercom 和 Zendesk 的可自托管替代品。",
+      "longDescription": "Chatwoot 为客服团队提供一个统一收件箱，汇集来自网站在线聊天组件、邮件、WhatsApp、Facebook、Instagram、Telegram、短信等渠道的会话。客服人员可以使用分配、快捷回复、内部备注、标签和团队路由，企业还能获得帮助中心知识库、满意度（CSAT）调查以及响应时间报表。\n\n它是一个 Ruby on Rails 应用，前端使用 Vue，可以用 Docker 自托管，也可以使用托管云服务。核心采用 MIT 许可证；enterprise/ 目录下的代码使用单独的许可证。适合想要 Intercom 式客户沟通、同时把数据保留在自己服务器上的公司。"
+    },
+    "ja": {
+      "description": "オープンソースのカスタマーサポート基盤——ライブチャット、メール、SNS、メッセージングの各チャネルを1つの共有受信箱にまとめる、セルフホスト可能なIntercomやZendeskの代替です。",
+      "longDescription": "Chatwootは、Webサイトのライブチャットウィジェット、メール、WhatsApp、Facebook、Instagram、Telegram、SMSなどのチャネルからの会話を1つの受信箱にまとめてサポートチームに提供します。担当者向けには割り当て、定型返信、社内メモ、ラベル、チームへのルーティングがあり、企業向けにはヘルプセンターのナレッジベース、CSATアンケート、応答時間のレポートがあります。\n\nVueフロントエンドを持つRuby on Railsアプリで、Dockerでセルフホストすることも、マネージドクラウドとして使うこともできます。コアはMITライセンスで、enterprise/ディレクトリ以下のコードには別のライセンスが適用されます。データを自社サーバーに置いたままIntercomのような顧客対応を行いたい企業に向いています。"
+    },
+    "ko": {
+      "description": "오픈소스 고객 지원 플랫폼 — 라이브 채팅, 이메일, 소셜, 메신저 채널을 하나의 공유 받은편지함으로 모으는, 셀프 호스팅 가능한 Intercom·Zendesk 대안입니다.",
+      "longDescription": "Chatwoot는 웹사이트 라이브 채팅 위젯, 이메일, WhatsApp, Facebook, Instagram, Telegram, SMS 등 여러 채널에서 들어오는 대화를 하나의 받은편지함으로 모아 지원팀에 제공합니다. 상담원은 배정, 자주 쓰는 답변, 내부 메모, 라벨, 팀별 라우팅을 쓸 수 있고, 회사는 헬프센터 지식 베이스, 만족도(CSAT) 설문, 응답 시간 리포트를 얻습니다.\n\nVue 프런트엔드를 쓰는 Ruby on Rails 앱으로, Docker로 셀프 호스팅하거나 관리형 클라우드로 사용할 수 있습니다. 코어는 MIT 라이선스이고, enterprise/ 디렉터리 아래 코드는 별도 라이선스를 따릅니다. 데이터를 자체 서버에 두면서 Intercom 같은 고객 응대를 원하는 회사에 적합합니다."
+    },
+    "es": {
+      "description": "Plataforma de atención al cliente de código abierto: chat en vivo, email, redes sociales y canales de mensajería en una bandeja compartida, como alternativa autoalojable a Intercom y Zendesk.",
+      "longDescription": "Chatwoot ofrece a los equipos de soporte una sola bandeja para las conversaciones que llegan desde un widget de chat en vivo en la web, email, WhatsApp, Facebook, Instagram, Telegram, SMS y otros canales. Los agentes cuentan con asignación, respuestas predefinidas, notas privadas, etiquetas y enrutamiento por equipos, y las empresas con un centro de ayuda, encuestas CSAT e informes de tiempos de respuesta.\n\nEs una app Ruby on Rails con frontend en Vue que se puede autoalojar con Docker o usar como servicio gestionado en la nube. El núcleo tiene licencia MIT; el código del directorio enterprise/ tiene una licencia aparte. Encaja con empresas que quieren mensajería con clientes al estilo de Intercom manteniendo los datos en sus propios servidores."
+    },
+    "de": {
+      "description": "Open-Source-Kundensupport-Plattform -- Live-Chat, E-Mail, Social- und Messaging-Kanäle in einem gemeinsamen Posteingang, als selbst hostbare Alternative zu Intercom und Zendesk.",
+      "longDescription": "Chatwoot bündelt für Support-Teams Unterhaltungen aus einem Live-Chat-Widget auf der Website, E-Mail, WhatsApp, Facebook, Instagram, Telegram, SMS und weiteren Kanälen in einem Posteingang. Agenten bekommen Zuweisung, Textbausteine, interne Notizen, Labels und Team-Routing, Unternehmen ein Help-Center mit Wissensdatenbank, CSAT-Umfragen und Reports zu Antwortzeiten.\n\nEs ist eine Ruby-on-Rails-App mit Vue-Frontend und lässt sich per Docker selbst hosten oder als verwalteter Cloud-Dienst nutzen. Der Kern steht unter MIT; Code im Verzeichnis enterprise/ hat eine eigene Lizenz. Passt zu Unternehmen, die Kundenkommunikation im Stil von Intercom wollen, die Daten aber auf eigenen Servern behalten möchten."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-21",
+      "repoCreatedAt": "2019-08-14",
+      "openIssuesCount": 1598,
+      "stargazersCount": 38037,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "mature",
+      "evaluatedAt": "2026-10-21",
+      "score": 90
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading open-source customer support inbox; adds customer-facing chat to a category that so far only covered team chat."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "customer-support",
+      "strength": "primary"
+    },
+    {
+      "concept": "live-chat",
+      "strength": "primary"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Sonic",
+  "slug": "sonic",
+  "description": "Fast, lightweight and schema-less search backend written in Rust -- an Elasticsearch alternative for simple text search that runs on a few MB of RAM.",
+  "longDescription": "Sonic is an identifier index rather than a document store: you push text along with an object ID, and searches return matching IDs that you then look up in your own database. Keeping only the index makes it extremely small and fast, with memory use measured in megabytes rather than gigabytes.\n\nIt supports search, autocomplete suggestions and typo tolerance, organizes data into collections and buckets, and is controlled over a simple TCP protocol with client libraries in many languages. It was built to power search at the customer-support company Crisp. A good fit when you need quick search or autocomplete over an existing database and a full Elasticsearch cluster would be overkill.",
+  "repository": "https://github.com/valeriansaliou/sonic",
+  "categories": [
+    "search"
+  ],
+  "keywords": [
+    "search-engine",
+    "search-backend",
+    "autocomplete",
+    "lightweight",
+    "rust"
+  ],
+  "languages": [
+    "Rust"
+  ],
+  "license": "MPL-2.0",
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "用 Rust 编写的快速、轻量、无模式的搜索后端——面向简单文本搜索的 Elasticsearch 替代品，只需几 MB 内存即可运行。",
+      "longDescription": "Sonic 是一个标识符索引而非文档存储：你推送文本和对应的对象 ID，搜索时返回匹配的 ID，再到你自己的数据库中查询具体数据。只保存索引让它极其小巧快速，内存占用以 MB 而非 GB 计。\n\n它支持搜索、自动补全建议和容错拼写，将数据组织为 collection 和 bucket，通过简单的 TCP 协议控制，并提供多种语言的客户端库。它最初是为客服公司 Crisp 的搜索功能而构建。适合需要在现有数据库之上快速实现搜索或自动补全、而完整的 Elasticsearch 集群又过于笨重的场景。"
+    },
+    "ja": {
+      "description": "Rustで書かれた高速・軽量でスキーマレスな検索バックエンド——数MBのメモリで動く、シンプルなテキスト検索向けのElasticsearch代替です。",
+      "longDescription": "Sonicはドキュメントストアではなく識別子のインデックスです。テキストとオブジェクトIDを送り込むと、検索結果として一致するIDが返り、それを使って自分のデータベースから実データを引きます。インデックスだけを持つことで非常に小さく高速になり、メモリ使用量はGBではなくMB単位です。\n\n検索、オートコンプリートの候補、タイプミス許容に対応し、データをコレクションとバケットで整理し、シンプルなTCPプロトコルで操作します。多くの言語向けにクライアントライブラリがあります。カスタマーサポート企業Crispの検索を支えるために作られました。既存のデータベースに素早い検索やオートコンプリートを付けたいが、Elasticsearchクラスタでは大げさすぎる場合に向いています。"
+    },
+    "ko": {
+      "description": "Rust로 작성된 빠르고 가벼운 스키마리스 검색 백엔드 — 몇 MB 메모리로 동작하는, 간단한 텍스트 검색용 Elasticsearch 대안입니다.",
+      "longDescription": "Sonic은 문서 저장소가 아니라 식별자 인덱스입니다. 텍스트와 객체 ID를 넣으면 검색 시 일치하는 ID를 돌려주고, 실제 데이터는 그 ID로 자신의 데이터베이스에서 조회합니다. 인덱스만 보관하기 때문에 매우 작고 빠르며, 메모리 사용량이 GB가 아니라 MB 단위입니다.\n\n검색, 자동완성 제안, 오타 허용을 지원하고 데이터를 컬렉션과 버킷으로 구성하며, 간단한 TCP 프로토콜로 제어하고 여러 언어의 클라이언트 라이브러리가 있습니다. 고객 지원 회사 Crisp의 검색을 위해 만들어졌습니다. 기존 데이터베이스에 빠른 검색이나 자동완성을 붙이고 싶은데 Elasticsearch 클러스터는 과한 경우에 적합합니다."
+    },
+    "es": {
+      "description": "Backend de búsqueda rápido, ligero y sin esquema escrito en Rust: una alternativa a Elasticsearch para búsquedas de texto sencillas que funciona con pocos MB de RAM.",
+      "longDescription": "Sonic es un índice de identificadores, no un almacén de documentos: envías texto junto con el ID de un objeto, y las búsquedas devuelven los IDs coincidentes que luego consultas en tu propia base de datos. Guardar solo el índice lo hace extremadamente pequeño y rápido, con un uso de memoria que se mide en megabytes y no en gigabytes.\n\nAdmite búsqueda, sugerencias de autocompletado y tolerancia a erratas, organiza los datos en colecciones y buckets, y se controla mediante un protocolo TCP sencillo con bibliotecas cliente en muchos lenguajes. Se creó para la búsqueda de la empresa de atención al cliente Crisp. Encaja cuando necesitas búsqueda rápida o autocompletado sobre una base de datos existente y un clúster de Elasticsearch sería excesivo."
+    },
+    "de": {
+      "description": "Schnelles, leichtgewichtiges und schemaloses Such-Backend in Rust -- eine Elasticsearch-Alternative für einfache Textsuche, die mit wenigen MB RAM auskommt.",
+      "longDescription": "Sonic ist ein Index für Identifikatoren, kein Dokumentspeicher: Du übergibst Text zusammen mit einer Objekt-ID, und Suchanfragen liefern die passenden IDs zurück, die du dann in deiner eigenen Datenbank nachschlägst. Weil nur der Index gespeichert wird, ist es extrem klein und schnell, mit einem Speicherverbrauch im Megabyte- statt Gigabyte-Bereich.\n\nEs unterstützt Suche, Autocomplete-Vorschläge und Tippfehlertoleranz, organisiert Daten in Collections und Buckets und wird über ein einfaches TCP-Protokoll gesteuert, mit Client-Bibliotheken für viele Sprachen. Gebaut wurde es für die Suche beim Kundensupport-Anbieter Crisp. Passt, wenn du schnelle Suche oder Autocomplete über eine bestehende Datenbank brauchst und ein komplettes Elasticsearch-Cluster überdimensioniert wäre."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-19",
+      "repoCreatedAt": "2019-02-26",
+      "openIssuesCount": 53,
+      "stargazersCount": 21365,
+      "governance": "community",
+      "archived": false,
+      "productionReadiness": "mature",
+      "evaluatedAt": "2026-10-21",
+      "score": 73
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Tiny, schema-less search index that runs in a few MB of RAM; a niche but distinctive option far lighter than anything else in the category."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "search-engine",
+      "strength": "primary"
+    }
+  ]
+}

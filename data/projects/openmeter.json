@@ -1,0 +1,87 @@
+{
+  "name": "OpenMeter",
+  "slug": "openmeter",
+  "description": "Real-time usage metering and billing for AI, API and DevOps products -- collects and aggregates millions of usage events to drive usage-based pricing, entitlements and invoices.",
+  "longDescription": "OpenMeter is a metering and billing engine for products priced by usage: tokens consumed, API calls, compute minutes, and similar. Applications send usage events (CloudEvents format) and OpenMeter aggregates them in real time into meters that can be queried per customer and time window.\n\nOn top of metering it adds entitlements (usage limits and feature access), plans and invoicing, so a product can enforce quotas and bill from the same data. It is written in Go, ships with client SDKs, and can be self-hosted. A fit for teams building AI or API products who need accurate high-volume usage tracking rather than seat-based subscriptions.",
+  "repository": "https://github.com/openmeterio/openmeter",
+  "website": "https://openmeter.io",
+  "documentation": "https://openmeter.io/docs",
+  "categories": [
+    "payments"
+  ],
+  "keywords": [
+    "metering",
+    "usage-based-billing",
+    "billing",
+    "usage-tracking"
+  ],
+  "languages": [
+    "Go",
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "packages": {
+    "npm": [
+      "@openmeter/sdk"
+    ],
+    "go": [
+      "github.com/openmeterio/openmeter"
+    ]
+  },
+  "featured": false,
+  "dateAdded": "2026-10-21",
+  "translations": {
+    "zh-CN": {
+      "description": "面向 AI、API 和 DevOps 产品的实时用量计量与计费——收集并聚合数百万条用量事件，驱动按用量定价、权益控制和账单。",
+      "longDescription": "OpenMeter 是面向按用量定价产品的计量与计费引擎：消耗的 token、API 调用次数、计算分钟数等。应用以 CloudEvents 格式发送用量事件，OpenMeter 会实时将其聚合为可按客户和时间窗口查询的计量指标。\n\n在计量之上，它还提供权益（用量限制和功能访问）、套餐和开票功能，让产品可以基于同一份数据执行配额和计费。项目使用 Go 编写，提供客户端 SDK，并可自托管。适合构建 AI 或 API 产品、需要精确追踪大规模用量而非按席位订阅的团队。"
+    },
+    "ja": {
+      "description": "AI・API・DevOps製品向けのリアルタイム使用量計測と課金——数百万件の使用量イベントを収集・集計し、従量課金、利用権限、請求に活用します。",
+      "longDescription": "OpenMeterは、使用量で価格が決まる製品のための計測・課金エンジンです。消費トークン数、API呼び出し回数、計算時間などが対象です。アプリケーションが使用量イベント（CloudEvents形式）を送ると、OpenMeterがリアルタイムで集計し、顧客や期間ごとに照会できるメーターにします。\n\n計測に加えて、エンタイトルメント（利用上限や機能アクセス）、プラン、請求書発行も備えており、同じデータからクォータの適用と請求を行えます。Goで書かれ、クライアントSDKが用意され、セルフホストも可能です。席数ベースのサブスクリプションではなく、大量の使用量を正確に追跡する必要があるAI・API製品のチームに向いています。"
+    },
+    "ko": {
+      "description": "AI·API·DevOps 제품을 위한 실시간 사용량 계측과 과금 — 수백만 건의 사용량 이벤트를 수집·집계해 사용량 기반 요금, 이용 권한, 청구서에 활용합니다.",
+      "longDescription": "OpenMeter는 사용량으로 가격이 매겨지는 제품을 위한 계측·과금 엔진입니다. 소비한 토큰 수, API 호출 수, 컴퓨팅 시간 같은 것이 대상입니다. 애플리케이션이 사용량 이벤트(CloudEvents 형식)를 보내면 OpenMeter가 실시간으로 집계해 고객별·기간별로 조회할 수 있는 미터로 만듭니다.\n\n계측 위에 이용 권한(사용량 한도와 기능 접근), 요금제, 청구서 발행까지 제공해 같은 데이터로 할당량 적용과 과금을 함께 처리할 수 있습니다. Go로 작성되었고 클라이언트 SDK를 제공하며 셀프 호스팅도 가능합니다. 좌석 기반 구독이 아니라 대량 사용량을 정확히 추적해야 하는 AI·API 제품 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Medición de uso y facturación en tiempo real para productos de IA, API y DevOps: recoge y agrega millones de eventos de uso para precios por consumo, derechos de acceso y facturas.",
+      "longDescription": "OpenMeter es un motor de medición y facturación para productos con precio por uso: tokens consumidos, llamadas a la API, minutos de cómputo y similares. Las aplicaciones envían eventos de uso (en formato CloudEvents) y OpenMeter los agrega en tiempo real en medidores consultables por cliente y ventana de tiempo.\n\nSobre la medición añade entitlements (límites de uso y acceso a funciones), planes y facturación, de modo que un producto puede aplicar cuotas y cobrar a partir de los mismos datos. Está escrito en Go, incluye SDKs de cliente y se puede autoalojar. Encaja con equipos que construyen productos de IA o APIs y necesitan un seguimiento preciso de grandes volúmenes de uso en lugar de suscripciones por usuario."
+    },
+    "de": {
+      "description": "Echtzeit-Nutzungsmessung und Billing für KI-, API- und DevOps-Produkte -- sammelt und aggregiert Millionen von Nutzungsereignissen für nutzungsbasierte Preise, Entitlements und Rechnungen.",
+      "longDescription": "OpenMeter ist eine Metering- und Billing-Engine für Produkte, die nach Nutzung abgerechnet werden: verbrauchte Tokens, API-Aufrufe, Rechenminuten und Ähnliches. Anwendungen senden Nutzungsereignisse (im CloudEvents-Format), und OpenMeter aggregiert sie in Echtzeit zu Metern, die pro Kunde und Zeitfenster abgefragt werden können.\n\nDarauf aufbauend bietet es Entitlements (Nutzungslimits und Feature-Zugriff), Tarife und Rechnungsstellung, sodass ein Produkt Kontingente durchsetzen und aus denselben Daten abrechnen kann. Es ist in Go geschrieben, liefert Client-SDKs und lässt sich selbst hosten. Passt zu Teams, die KI- oder API-Produkte bauen und präzises Tracking großer Nutzungsmengen statt sitzbasierter Abos brauchen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-20",
+      "repoCreatedAt": "2023-06-06",
+      "openIssuesCount": 67,
+      "stargazersCount": 2395,
+      "governance": "vendor-backed",
+      "archived": false,
+      "productionReadiness": "emerging",
+      "evaluatedAt": "2026-10-21",
+      "score": 82
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Real-time usage metering engine for usage-based pricing; overlaps with Lago on billing but is stronger on high-volume event metering."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "metering",
+      "strength": "primary"
+    },
+    {
+      "concept": "usage-based-billing",
+      "strength": "primary"
+    },
+    {
+      "concept": "billing",
+      "strength": "secondary"
+    }
+  ]
+}
