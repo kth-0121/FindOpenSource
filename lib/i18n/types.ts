@@ -8,6 +8,7 @@ export interface Dictionary {
     foundationBacked: string;
   };
   nav: {
+    skills: string;
     categories: string;
     contribute: string;
     github: string;
@@ -29,6 +30,14 @@ export interface Dictionary {
     contact: string;
   };
   home: {
+    skillsEyebrow: string;
+    skillsTitleLine1: string;
+    skillsTitleLine2: string;
+    skillsSubtitle: string;
+    skillsCta: string;
+    /** {skills}, {packs}, {agents} */
+    skillsStats: string;
+    skillsPresetsLabel: string;
     heroTitleLine1: string;
     heroTitleLine2: string;
     heroSubtitle: string;
@@ -87,6 +96,41 @@ export interface Dictionary {
     categoryFilterLabel: string;
     changeSelectionLabel: string;
     noMatchesLabel: string;
+  };
+  skills: {
+    pageTitle: string;
+    pageDescription: string;
+    presetsHeading: string;
+    presets: Record<"coding" | "frontend" | "lean" | "ml", { title: string; description: string }>;
+    listLabel: string;
+    searchLabel: string;
+    searchPlaceholder: string;
+    descriptionNote: string;
+    noResults: string;
+    /** {count} */
+    skillCount: string;
+    selectPack: string;
+    clearPack: string;
+    viewPack: string;
+    /** {name} */
+    viewSource: string;
+    /** {count} */
+    selectedCount: string;
+    clearAll: string;
+    agentLabel: string;
+    otherAgents: string;
+    scopeLabel: string;
+    scopeProject: string;
+    scopeGlobal: string;
+    promptTab: string;
+    commandTab: string;
+    promptHint: string;
+    commandHint: string;
+    emptySelection: string;
+    copy: string;
+    copied: string;
+    /** {count} */
+    jumpToOutput: string;
   };
   analyze: {
     pageTitle: string;

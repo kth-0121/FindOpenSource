@@ -1,0 +1,2178 @@
+[
+  {
+    "name": "api-and-interface-design",
+    "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/api-and-interface-design",
+    "branch": "main"
+  },
+  {
+    "name": "browser-testing-with-devtools",
+    "description": "Tests in real browsers via Chrome DevTools MCP. Use when building or debugging anything that runs in a browser. Use when you need to inspect the DOM, capture console errors, analyze network requests, profile performance, or verify visual output with real runtime data. Requires the chrome-devtools MCP server to be configured.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/browser-testing-with-devtools",
+    "branch": "main"
+  },
+  {
+    "name": "ci-cd-and-automation",
+    "description": "Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment strategies.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/ci-cd-and-automation",
+    "branch": "main"
+  },
+  {
+    "name": "code-review-and-quality",
+    "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. Use when asked to review a diff or a pull request, even when the diff is pasted inline.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/code-review-and-quality",
+    "branch": "main"
+  },
+  {
+    "name": "code-simplification",
+    "description": "Simplifies code for clarity. Use when refactoring code for clarity without changing behavior. Use when code works but is harder to read, maintain, or extend than it should be. Use when reviewing code that has accumulated unnecessary complexity. Use when asked to simplify, clean up, or reduce the nesting of a function or module that already works, even when the code is pasted inline and nothing else needs to change.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/code-simplification",
+    "branch": "main"
+  },
+  {
+    "name": "constraint-driven-development",
+    "description": "Establishes a project's quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane default thresholds when they have no number in mind, records everything in CONSTRAINTS.md, and watches the diff for a weakened bar — new @ts-ignore or eslint-disable suppressions, skipped or deleted tests, assertions stripped out, unimplemented stubs, thresholds edited down. Use when no quality bar is written down, when the user says \"set up constraints\" or \"define our standards\", when the user wants dimensions they care about — accessibility, web performance, coverage — set up as enforced constraints, when an agent keeps silencing checks or skipping tests to get to green, when you need a coverage or performance threshold and don't know what number to pick, or when an agent writes more code than anyone will read.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/constraint-driven-development",
+    "branch": "main"
+  },
+  {
+    "name": "context-engineering",
+    "description": "Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/context-engineering",
+    "branch": "main"
+  },
+  {
+    "name": "debugging-and-error-recovery",
+    "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root cause rather than guessing.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/debugging-and-error-recovery",
+    "branch": "main"
+  },
+  {
+    "name": "deprecation-and-migration",
+    "description": "Manages deprecation and migration. Use when removing old systems, APIs, or features. Use when migrating users from one implementation to another. Use when migrating a database schema in production, such as renaming or dropping a column without downtime (expand/contract). Use when deciding whether to maintain or sunset existing code.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/deprecation-and-migration",
+    "branch": "main"
+  },
+  {
+    "name": "documentation-and-adrs",
+    "description": "Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/documentation-and-adrs",
+    "branch": "main"
+  },
+  {
+    "name": "doubt-driven-development",
+    "description": "Subjects every non-trivial decision to a fresh-context adversarial review before it stands. Use when you want every assumption cross-examined before proceeding, when stress-testing a plan for hidden failure modes, when correctness matters more than speed, when working in unfamiliar code, when stakes are high (production auth, security-sensitive logic, a high-stakes migration, irreversible operations), or any time a confident output would be cheaper to verify now than to debug later.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/doubt-driven-development",
+    "branch": "main"
+  },
+  {
+    "name": "frontend-ui-engineering",
+    "description": "Builds production-quality, accessible, responsive user-facing UIs. Use when building or modifying interfaces and pages, creating components, implementing layouts, meeting WCAG accessibility requirements, managing state, or when the output needs to look and feel production-quality rather than AI-generated.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/frontend-ui-engineering",
+    "branch": "main"
+  },
+  {
+    "name": "git-workflow-and-versioning",
+    "description": "Structures git workflow practices. Use when making any code change. Use when committing, branching, resolving conflicts, splitting uncommitted work in a messy working tree into clean atomic commits, opening or reviewing a pull request (PR), pushing to a remote, or when you need to organize work across multiple parallel streams. Use when cutting a release, choosing a semantic version bump, tagging, or writing a changelog. Use when asked to write a commit message or a changelog entry for a change, or to split a change into commits, even when the diff is pasted inline and the message seems easy to write from it.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/git-workflow-and-versioning",
+    "branch": "main"
+  },
+  {
+    "name": "idea-refine",
+    "description": "Refines raw ideas into sharp, actionable concepts through structured divergent and convergent thinking. Use when an idea is still vague, when you need to stress-test assumptions before committing to a plan, or when you want to expand options before converging on one. Triggers on \"ideate\", \"refine this idea\", or \"stress-test my plan\".",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/idea-refine",
+    "branch": "main"
+  },
+  {
+    "name": "incremental-implementation",
+    "description": "Delivers changes incrementally in thin, verifiable slices. Use when implementing any feature or change that touches more than one file, or when picking up the next task from a plan. Use when rolling a change out behind a feature flag, when you're about to write a large amount of code at once, or when a task feels too big to land in one step.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/incremental-implementation",
+    "branch": "main"
+  },
+  {
+    "name": "interview-me",
+    "description": "Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an ask is underspecified (\"build me X\" without \"for whom\" or \"why now\"), when the user explicitly invokes (\"interview me\", \"grill me\", \"are we sure?\", \"stress-test my thinking\"), or when you catch yourself silently filling in ambiguous requirements before any plan, spec, or code exists.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/interview-me",
+    "branch": "main"
+  },
+  {
+    "name": "observability-and-instrumentation",
+    "description": "Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence it works. Use when production issues are reported but you can't tell what happened from the available data.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/observability-and-instrumentation",
+    "branch": "main"
+  },
+  {
+    "name": "performance-optimization",
+    "description": "Optimizes application performance across frontend, backend, queries, and databases. Use when performance requirements exist, when you suspect performance regressions, when Core Web Vitals or load times need improvement, when N+1 query patterns need fixing, or when profiling reveals bottlenecks.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/performance-optimization",
+    "branch": "main"
+  },
+  {
+    "name": "planning-and-task-breakdown",
+    "description": "Breaks work into ordered tasks. Use when you have a spec or clear requirements and need to break work into implementable tasks. Use when a task feels too large to start, when you need to estimate scope, or when parallel work is possible.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/planning-and-task-breakdown",
+    "branch": "main"
+  },
+  {
+    "name": "security-and-hardening",
+    "description": "Hardens code against vulnerabilities. Use when auditing an input handler for vulnerabilities, when handling user input, authentication, data storage, or external integrations, or when checking a login flow is safe against the OWASP Top Ten. Use when building any feature that accepts untrusted data, manages user sessions or session cookies, or interacts with third-party services. Use when auditing dependencies for known vulnerabilities, triaging package-manager audit findings, or assessing supply-chain risk in a new package. Use when personal data or privacy compliance (GDPR, CCPA) is involved.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/security-and-hardening",
+    "branch": "main"
+  },
+  {
+    "name": "shipping-and-launch",
+    "description": "Prepares production launches. Use when preparing to deploy to production, or when asking what needs to be in place before shipping. Use when you need a pre-launch checklist, when setting up monitoring, when planning a staged rollout, or when you need a rollback strategy.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/shipping-and-launch",
+    "branch": "main"
+  },
+  {
+    "name": "source-driven-development",
+    "description": "Grounds every implementation decision in official documentation. Use when you want to verify an approach against the official docs before implementing it, or when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where correctness matters.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/source-driven-development",
+    "branch": "main"
+  },
+  {
+    "name": "spec-driven-development",
+    "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objectives and scope, or when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requirement spans several independently testable capabilities and needs decomposing into a capability map of modules before specifying.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/spec-driven-development",
+    "branch": "main"
+  },
+  {
+    "name": "test-driven-development",
+    "description": "Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality. Use when asked to add tests to a function, fix a bug in it or change its behavior, even when the code is pasted inline and the request does not mention tests.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/test-driven-development",
+    "branch": "main"
+  },
+  {
+    "name": "using-agent-skills",
+    "description": "Discovers and invokes agent skills. Use when starting a session, or when you need to decide which skill or workflow applies to the piece of work at hand. This is the meta-skill that governs how all other skills are discovered and invoked.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/using-agent-skills",
+    "branch": "main"
+  },
+  {
+    "name": "academy-guide",
+    "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/academy-guide",
+    "branch": "main"
+  },
+  {
+    "name": "algorithmic-art",
+    "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/algorithmic-art",
+    "branch": "main"
+  },
+  {
+    "name": "brand-guidelines",
+    "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/brand-guidelines",
+    "branch": "main"
+  },
+  {
+    "name": "canvas-design",
+    "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/canvas-design",
+    "branch": "main"
+  },
+  {
+    "name": "claude-api",
+    "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent/RAG/LLM-judge/computer-use; generate/summarize/extract/classify/rewrite/converse over NL; debugging refusals/cutoffs/streaming/tool-calls/tokens).\nSKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in the query; OR `grep -rE 'openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama'` over the project hits (run this grep FIRST if no provider named — don't Read the file).",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/claude-api",
+    "branch": "main"
+  },
+  {
+    "name": "discernment-nudge",
+    "description": "After you give a substantive answer or draft that the user may act on — advice or recommendations, drafted artifacts such as goals, plans, pitches, proposals, or emails, estimates or projections, analysis or interpretation of data, factual claims they may rely on, or a multi-step argument — invoke this skill BEFORE finalizing your reply and then, if it applies, append 2-3 short follow-up questions, each tied to something specific in what you just produced, that help the user check key facts, probe the reasoning or assumptions, and notice missing context. Do this at most once per conversation. Skip it when the user asked a trivial how-to or simple lookup, wants a purely educational explanation, asked you only to format, convert, or assemble a file from content they provided, is writing code they will run, is doing creative writing or casual chat, or already asked you to double-check, cite, or review — the skill file explains these boundaries and the exact output format.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/discernment-nudge",
+    "branch": "main"
+  },
+  {
+    "name": "doc-coauthoring",
+    "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/doc-coauthoring",
+    "branch": "main"
+  },
+  {
+    "name": "frontend-design",
+    "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/frontend-design",
+    "branch": "main"
+  },
+  {
+    "name": "internal-comms",
+    "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/internal-comms",
+    "branch": "main"
+  },
+  {
+    "name": "mcp-builder",
+    "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/mcp-builder",
+    "branch": "main"
+  },
+  {
+    "name": "skill-creator",
+    "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/skill-creator",
+    "branch": "main"
+  },
+  {
+    "name": "slack-gif-creator",
+    "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/slack-gif-creator",
+    "branch": "main"
+  },
+  {
+    "name": "theme-factory",
+    "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/theme-factory",
+    "branch": "main"
+  },
+  {
+    "name": "web-artifacts-builder",
+    "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/web-artifacts-builder",
+    "branch": "main"
+  },
+  {
+    "name": "webapp-testing",
+    "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/webapp-testing",
+    "branch": "main"
+  },
+  {
+    "name": "hf-mcp",
+    "description": "Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces, papers. Get repo details, fetch documentation, run compute jobs, and use Gradio Spaces as AI tools. Available when connected to the HF MCP server.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "hf-mcp/skills/hf-mcp",
+    "branch": "main"
+  },
+  {
+    "name": "hf-cli",
+    "description": "Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. Use when: handling authentication; managing local cache; managing Hugging Face Buckets; running or scheduling jobs on Hugging Face infrastructure; managing Hugging Face repos; discussions and pull requests; browsing models, datasets and spaces; reading, searching, or browsing academic papers; managing collections; querying datasets; configuring spaces; setting up webhooks; or deploying and managing HF Inference Endpoints. Make sure to use this skill whenever the user mentions 'hf', 'huggingface', 'Hugging Face', 'huggingface-cli', or 'hugging face cli', or wants to do anything related to the Hugging Face ecosystem and to AI and ML in general. Also use for cloud storage needs like training checkpoints, data pipelines, or agent traces. Use even if the user doesn't explicitly ask for a CLI command. Replaces the deprecated `huggingface-cli`.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/hf-cli",
+    "branch": "main"
+  },
+  {
+    "name": "hf-cloud-aws-context-discovery",
+    "description": "Discover the user's local AWS context (active profile, region, account ID, caller identity) at the start of any AWS task. Use this skill before any other AWS work — deploying to SageMaker, creating resources, calling AWS APIs, or anything that touches an AWS account. Use it especially when the user has not specified a region or profile explicitly, when they say things like \"use my AWS account\", \"deploy to AWS\", \"use my profile\", or when about to make any AWS CLI or SDK call. Never guess the region or account ID — always use this skill to read it from the local configuration first.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/hf-cloud-aws-context-discovery",
+    "branch": "main"
+  },
+  {
+    "name": "hf-cloud-python-env-setup",
+    "description": "Set up an isolated Python environment for SageMaker / AWS work, with the right Python version and current boto3. Use this skill whenever Python code will be executed for a SageMaker deployment, training job, or any AWS automation — including when about to run `pip install`, when about to invoke `boto3`, when creating or activating a virtualenv, or when the user asks to \"set up the environment\". Never use system Python and never `pip install` into it. Always isolate. This skill prevents the most common failure modes: wrong Python version, dependency conflicts, and stale SDKs.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/hf-cloud-python-env-setup",
+    "branch": "main"
+  },
+  {
+    "name": "hf-cloud-sagemaker-deployment-planner",
+    "description": "Plan and coordinate the deployment of a model to Amazon SageMaker AI. Use this skill whenever the user wants to deploy, host, serve, or expose a model on SageMaker or AWS — including phrases like \"deploy a model\", \"host this LLM on AWS\", \"serve this embedding model\", \"deploy a reranker\", \"deploy a text-to-image / diffusion model\", \"host this for async inference\", \"create an endpoint\", \"serve my fine-tuned model\", or any request that involves making a model available for inference on AWS. Use this even when the user is vague (e.g. \"I just want to get this running on AWS, you figure it out\"). Works for text-generation LLMs, embedding models, rerankers, classifiers, text-to-image / diffusion models — picks the right serving stack and chooses between real-time and async inference. This is the entry-point skill for SageMaker deployment work — it asks clarifying questions, picks a deployment pathway, and coordinates the other deployment skills.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/hf-cloud-sagemaker-deployment-planner",
+    "branch": "main"
+  },
+  {
+    "name": "hf-cloud-sagemaker-iam-preflight",
+    "description": "Ensure a usable SageMaker execution role exists before deploying or training. Use this skill whenever about to create a SageMaker endpoint, model, training job, or any resource that requires an execution role. Use it especially when the user has not provided a role ARN explicitly, when scripts are about to call `iam:CreateRole`, or when an AccessDenied error mentions an IAM action. Never blindly call `iam:CreateRole` — always check for existing roles first. This skill prevents the most common SageMaker deployment failure: trying to create IAM resources from an SSO principal that has no IAM write permissions.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/hf-cloud-sagemaker-iam-preflight",
+    "branch": "main"
+  },
+  {
+    "name": "hf-cloud-sagemaker-production-defaults",
+    "description": "Create a SageMaker endpoint (real-time, real-time scale-to-zero, or async) with autoscaling, CloudWatch alarms, and tagging enabled by default. Use this skill whenever about to create a SageMaker endpoint, write deployment code that calls `create_endpoint`, or finalize a deployment after the image URI and IAM role are known. Provides deploy.py for real-time endpoints, deploy_ic.py for real-time endpoints that scale to zero instances via inference components, and deploy_async.py for async endpoints (also scale-to-zero). This is the last step in the SageMaker deployment workflow. Never generate a bare `create_endpoint` call without these defaults — endpoints without autoscaling or alarms are demos, not deployments.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/hf-cloud-sagemaker-production-defaults",
+    "branch": "main"
+  },
+  {
+    "name": "hf-cloud-serving-image-selection",
+    "description": "Pick the right serving container for a SageMaker model deployment and find its current image URI. Use this skill whenever about to deploy a model to a SageMaker endpoint and an image URI needs to be chosen — including when the user says \"deploy this LLM\", \"host this HuggingFace model\", \"serve this fine-tuned model\", \"deploy this embedding model\", \"host a reranker\", \"serve a sentence-transformers model\", or when about to hardcode any container URI in deployment code. HuggingFace-curated Deep Learning Containers are ALWAYS preferred: HuggingFace vLLM (LLMs and generative rerankers), HuggingFace vLLM-Omni (multimodal), TEI (embeddings/cross-encoder rerankers), HF Inference Toolkit (other transformers). Generic images (AWS vLLM, DJL-LMI, SGLang) are used only when no HuggingFace image is compatible — never merely because they carry a newer version. Never hardcode a container URI from memory and never default to TGI. Prevents stale-image failures and wrong-region URIs.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/hf-cloud-serving-image-selection",
+    "branch": "main"
+  },
+  {
+    "name": "hf-mem",
+    "description": "Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/hf-mem",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-best",
+    "description": "Use when the user asks about finding the best, top, or recommended model for a task, wants to know what AI model to use, or wants to compare models by benchmark scores. Triggers on: \"best model for X\", \"what model should I use for\", \"top models for [task]\", \"which model runs on my laptop/machine/device\", \"recommend a model for\", \"what LLM should I use for\", \"compare models for\", \"what's state of the art for\", or any question about choosing an AI model for a specific use case. Always use this skill when the user wants model recommendations or comparisons, even if they don't explicitly mention HuggingFace or benchmarks.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-best",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-community-evals",
+    "description": "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-community-evals",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-datasets",
+    "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-datasets",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-gradio",
+    "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-gradio",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-llm-trainer",
+    "description": "Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, model selection/leaderboards and model persistence. Use for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-llm-trainer",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-local-models",
+    "description": "Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-local-models",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-lora-space-builder",
+    "description": "Build and publish a Gradio demo on Hugging Face Spaces for a user-provided LoRA. Use when someone asks to create, generate, ship, or publish a Space, demo, Gradio app, or playground for a LoRA — including LoRAs for Qwen-Image, Qwen-Image-Edit, LTX-Video, Wan, FLUX, SDXL, or other diffusion base models. Also triggers when someone describes a LoRA they trained or hosts on the Hub and wants to share it. Covers picking the right base pipeline and `diffusers` inference recipe, designing a UI tailored to the LoRA's task and inputs (Union/multi-task control, edit, video, image, etc.), respecting model-card recommendations (trigger words, steps, guidance, LoRA scale, example inputs), and shipping to ZeroGPU hardware as a private Space by default.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-lora-space-builder",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-paper-publisher",
+    "description": "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-paper-publisher",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-papers",
+    "description": "Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-papers",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-spaces",
+    "description": "Build, deploy, and maintain applications on Hugging Face Spaces — Gradio / Docker / Static SDKs, ZeroGPU and dedicated hardware, model loading, debugging, buckets, inference providers, community grants. Use whenever the user asks to create or host an app on Hugging Face, port code onto ZeroGPU, fix a Space that won't build or run, or otherwise work with `hf spaces …`, `@spaces.GPU`, Space README frontmatter, or the `spaces` Python package.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-spaces",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-tool-builder",
+    "description": "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich or process data.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-tool-builder",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-trackio",
+    "description": "Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). Supports real-time dashboard visualization, alerts with webhooks, HF Space syncing, and JSON output for automation.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-trackio",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-vision-trainer",
+    "description": "Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers classifier), and SAM/SAM2 segmentation using Hugging Face Transformers on Hugging Face Jobs cloud GPUs. Covers COCO-format dataset preparation, Albumentations augmentation, mAP/mAR evaluation, accuracy metrics, SAM segmentation with bbox/point prompts, DiceCE loss, hardware selection, cost estimation, Trackio monitoring, and Hub persistence. Use when users mention training object detection, image classification, SAM, SAM2, segmentation, image matting, DETR, D-FINE, RT-DETR, ViT, timm, MobileNet, ResNet, bounding box models, or fine-tuning vision models on Hugging Face Jobs.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-vision-trainer",
+    "branch": "main"
+  },
+  {
+    "name": "huggingface-zerogpu",
+    "description": "AI demos and GPU compute with Gradio Spaces and Hugging Face Spaces ZeroGPU. Use when writing or reviewing code that uses `@spaces.GPU`, configuring `python_version` or `requirements.txt` for a ZeroGPU Space, or handling ZeroGPU-specific code constraints — pickle-based process isolation, `gr.State` semantics across the worker boundary, no `torch.compile` (use AoTI instead), CUDA wheel-only builds (no `nvcc` at build or runtime), large vs xlarge sizing, and dynamic duration callables. Make sure to use this skill whenever the user mentions ZeroGPU, `@spaces.GPU`, or the `spaces` Python package, or hits ZeroGPU-specific code errors like `PicklingError` across the worker boundary, `illegal duration`, or `flash-attn` wheel-build failures — even when the user does not explicitly ask for ZeroGPU coding guidance. Trigger on `import spaces` or `@spaces.GPU` in code.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/huggingface-zerogpu",
+    "branch": "main"
+  },
+  {
+    "name": "train-sentence-transformers",
+    "description": "Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder, dense or static embedding model for retrieval, similarity, clustering, classification, paraphrase mining, dedup, multimodal), `CrossEncoder` (reranker, pair scoring for two-stage retrieval / pair classification), `SparseEncoder` (SPLADE, sparse embedding model for learned-sparse retrieval), and `MultiVectorEncoder` (ColBERT / late-interaction, per-token embeddings scored with MaxSim). Covers loss selection, hard-negative mining, evaluators, distillation, LoRA, Matryoshka, and Hugging Face Hub publishing. Use for any sentence-transformers training task.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/train-sentence-transformers",
+    "branch": "main"
+  },
+  {
+    "name": "transformers-js",
+    "description": "Use Transformers.js to run state-of-the-art machine learning models directly in JavaScript/TypeScript. Supports NLP (text classification, translation, summarization), computer vision (image classification, object detection), audio (speech recognition, audio classification), and multimodal tasks. Works in browsers and server-side runtimes (Node.js, Bun, Deno) with WebGPU/WASM using pre-trained models from Hugging Face Hub.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/transformers-js",
+    "branch": "main"
+  },
+  {
+    "name": "trl-training",
+    "description": "Post-train LLMs with TRL (Transformers Reinforcement Learning) — SFT, DPO, GRPO, KTO, and reward-model training. Use when writing or debugging training code with the TRL Python API or the trl CLI.",
+    "pack": "huggingface-skills",
+    "repo": "huggingface/skills",
+    "path": "skills/trl-training",
+    "branch": "main"
+  },
+  {
+    "name": "ponytail-audit",
+    "description": "Quality audit of a whole repo: bugs, security holes, what breaks under real load, risky code without tests, slow paths, and what to delete, merge or split. Ranked, each finding explained in plain English. One-shot report, changes nothing. Use for \"audit this codebase\", \"review the whole repo\", \"find bloat\", \"what can I delete\", /ponytail-audit.",
+    "pack": "ponytail",
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail-audit",
+    "branch": "main"
+  },
+  {
+    "name": "ponytail-debt",
+    "description": "List every `shortcut:` comment (and older `ponytail:` ones) as a debt ledger. One-shot report, changes nothing. Use for \"ponytail debt\", \"what did ponytail defer\", \"list the shortcuts\", /ponytail-debt.",
+    "pack": "ponytail",
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail-debt",
+    "branch": "main"
+  },
+  {
+    "name": "ponytail-gain",
+    "description": "Show ponytail's measured savings (code, cost, speed) from the benchmark. One-shot display. Use for /ponytail-gain, \"what does ponytail save\", \"ponytail impact\".",
+    "pack": "ponytail",
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail-gain",
+    "branch": "main"
+  },
+  {
+    "name": "ponytail-help",
+    "description": "Quick reference for ponytail levels, skills and commands. One-shot display. Use for /ponytail-help, \"ponytail help\", \"how do I use ponytail\".",
+    "pack": "ponytail",
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail-help",
+    "branch": "main"
+  },
+  {
+    "name": "ponytail-review",
+    "description": "Quality review of a change: is the logic right, is it safe, does it hold under real load, is risky code tested, is it fast enough, and is every line needed. Reads the connected code, not only the diff. Each finding is explained in plain English. Use for \"review this\", \"code review\", \"review the last commit\", \"review my PR\", \"is this over-engineered\", /ponytail-review.",
+    "pack": "ponytail",
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail-review",
+    "branch": "main"
+  },
+  {
+    "name": "ponytail",
+    "description": "Lazy senior dev mode: the smallest change that fully solves the task, and a reply a busy human understands in one read. Use on any coding task (writing, fixing, refactoring, reviewing, choosing dependencies) and when the user says \"ponytail\", \"be lazy\", \"simplest solution\", \"yagni\", or complains about over-engineering or bloat. Levels: lite, full (default), ultra.",
+    "pack": "ponytail",
+    "repo": "DietrichGebert/ponytail",
+    "path": "skills/ponytail",
+    "branch": "main"
+  },
+  {
+    "name": "13c-metabolic-flux",
+    "description": "Estimates intracellular metabolic fluxes from steady-state carbon-13 isotope-tracing measurements using validated atom maps, mfapy isotope simulation, constrained multistart fitting, and flux-profile diagnostics. Use for 13C-MFA, carbon tracing, mass isotopomer distributions (MDVs/MIDs), positional isotopomers, parallel tracer experiments, and determining whether labeling data constrain a pathway flux. Distinguishes measured-label inference from COBRA flux balance analysis and flags experiments requiring nonstationary MFA.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/13c-metabolic-flux",
+    "branch": "main"
+  },
+  {
+    "name": "adaptyv",
+    "description": "Uses the Adaptyv Bio Foundry API and Python SDK to design protein characterization experiments, estimate costs, submit sequences, monitor laboratory progress, and retrieve results. Applies to Adaptyv Foundry, its target catalog, binding screening and affinity assays, thermostability, expression, fluorescence, epitope binning, and enzyme activity workflows, including code using adaptyv or FoundryClient.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/adaptyv",
+    "branch": "main"
+  },
+  {
+    "name": "aeon",
+    "description": "This skill should be used for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentation, and similarity search. Use when working with temporal data, sequential patterns, or time-indexed observations requiring specialized algorithms beyond standard ML approaches. Particularly suited for univariate and multivariate time series analysis with scikit-learn compatible APIs.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/aeon",
+    "branch": "main"
+  },
+  {
+    "name": "alphagenome",
+    "description": "Looks up precomputed AlphaGenome Atlas effects for any GRCh38 single-nucleotide variant (AVI score with Phred and 18 SHAP feature attributions, plus raw and quantile scores for RNA-seq, DNase, ATAC, ChIP-TF, ChIP-histone, CAGE, PRO-cap, splicing, polyadenylation and contact-map tracks), scores variants or scans windows on demand with the AlphaGenome model for human and mouse (variant scoring, in silico mutagenesis, REF-versus-ALT track prediction), and builds Atlas website deep links. Use when the user mentions AlphaGenome, AlphaGenome Atlas, AVI or AlphaGenome Variant Impact, DeepMind variant effect prediction, or wants to prioritise or mechanistically interpret non-coding, regulatory, splicing, enhancer, promoter, or chromatin-accessibility effects of SNVs from a VCF, credible set, or region. Research use only; not a clinical tool.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/alphagenome",
+    "branch": "main"
+  },
+  {
+    "name": "analytical-method-validation",
+    "description": "Plans, executes, and documents validation, verification, and transfer of analytical procedures under the governing framework - ICH Q2(R2) and Q14, USP <1220>/<1225>/<1226>, ICH M10 bioanalytical, CLSI EP, or ISO/IEC 17025. Use for HPLC, LC-MS/MS, GC, CE, ICP-MS, dissolution, qNMR, qPCR, NIR, and ligand binding or cell-based assays whenever the question is whether a procedure is fit for its intended purpose. Triggers include \"method validation\", \"analytical method validation\", \"AMV\", \"validation protocol\", \"acceptance criteria\", \"linearity\", \"reportable range\", \"accuracy and precision\", \"repeatability\", \"intermediate precision\", \"recovery\", \"LOD\", \"LOQ\", \"detection limit\", \"quantitation limit\", \"specificity\", \"robustness\", \"method transfer\", \"method comparison\", \"Deming\", \"Passing-Bablok\", \"Bland-Altman\", \"equivalence testing\", \"OOS investigation\", \"ICH Q2\", \"Q2(R2)\", \"Q14\", \"USP 1225\", \"ICH M10\", \"incurred sample reanalysis\", \"ISR\", \"CLSI EP\", and any request to show that an assay works.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/analytical-method-validation",
+    "branch": "main"
+  },
+  {
+    "name": "anndata",
+    "description": "Handles annotated matrices in single-cell analysis, .h5ad and Zarr files, and integration with the scverse ecosystem. This is the data format skill—for analysis workflows use scanpy; for probabilistic models use scvi-tools; for population-scale queries use cellxgene-census.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/anndata",
+    "branch": "main"
+  },
+  {
+    "name": "arbor",
+    "description": "Applies Arbor Hypothesis Tree Refinement to research artifacts with repeatable evaluators, including model training, agent harnesses, data synthesis and benchmark optimization. Uses persistent hypotheses, isolated experiments, evidence propagation and held-out candidate comparison for multi-experiment research runs. Includes a standard-library state manager and guidance for the RUC-NLPIR Arbor CLI.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/arbor",
+    "branch": "main"
+  },
+  {
+    "name": "arboreto",
+    "description": "Infers candidate gene regulatory networks from bulk or single-cell expression data using AertsLab Arboreto GRNBoost2 and GENIE3. Use for transcription factor-target association ranking, compatible Dask execution, sparse expression inputs, and network stability checks.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/arboreto",
+    "branch": "main"
+  },
+  {
+    "name": "astropy",
+    "description": "Core Python library for astronomy and astrophysics workflows that need Astropy APIs, including units/quantities, coordinates, FITS I/O, tables, time systems, WCS, and cosmology. Use when implementing or debugging astronomical data analysis code with Astropy.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/astropy",
+    "branch": "main"
+  },
+  {
+    "name": "autoskill",
+    "description": "Analyzes user-requested Screenpipe history windows to detect repeated research workflows, match existing scientific skills, and stage new skill drafts or composition recipes for review. Requires a reachable Screenpipe HTTP API, normally on localhost:3030. Detection and embedding inference run locally; the selected LLM receives redacted app/title cluster summaries and matched skill descriptions. Use only when the user explicitly asks to analyze their recent work and propose skills.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/autoskill",
+    "branch": "main"
+  },
+  {
+    "name": "benchling-integration",
+    "description": "Benchling Python SDK and REST API integration for registry entities, inventory, ELN entries, workflows, Benchling Apps, and Data Warehouse queries. Use when automating lab data with benchling-sdk or the v2 API.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/benchling-integration",
+    "branch": "main"
+  },
+  {
+    "name": "bgpt-paper-search",
+    "description": "Searches BGPT scientific papers by topic or DOI and retrieves claim-level evidence extracted from full text, including experiments, reported statistics, scope, limitations, and provenance. Use for literature reviews, evidence synthesis, and finding experimental details beyond abstracts.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/bgpt-paper-search",
+    "branch": "main"
+  },
+  {
+    "name": "bids",
+    "description": "Organizes, queries, validates, and converts Brain Imaging Data Structure (BIDS) datasets. Supports organizing neuroscience and biomedical data (MRI, EEG, MEG, iEEG, PET, microscopy, NIRS, motion capture, EMG, MR spectroscopy, behavioral), querying BIDS layouts, validating compliance, converting DICOM to BIDS, writing metadata sidecars, or creating BIDS derivatives.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/bids",
+    "branch": "main"
+  },
+  {
+    "name": "biopython",
+    "description": "Provides Biopython workflows for sequence manipulation, file parsing (FASTA/GenBank/PDB), phylogenetics, and programmatic NCBI/PubMed access (Bio.Entrez). Supports batch processing, custom molecular-biology pipelines, BLAST automation, structure analysis, and motif analysis.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/biopython",
+    "branch": "main"
+  },
+  {
+    "name": "bioservices",
+    "description": "Provides a Python interface to bioinformatics services including UniProt, KEGG, ChEMBL, Reactome, QuickGO, and UniChem. Used for cross-database protein annotation, pathway retrieval, chemical identifier mapping, and integrated biological data workflows with BioServices.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/bioservices",
+    "branch": "main"
+  },
+  {
+    "name": "bulk-rnaseq",
+    "description": "Prepares bulk RNA-seq FASTQ, Salmon, STAR or featureCounts output for gene-level differential expression. Covers nf-core/rnaseq and standalone quantification, biological replication, strandedness, reference provenance, validated count assembly and a PyDESeq2 handoff. Use for FASTQ-to-counts analysis, nf-core/rnaseq configuration, STAR/Salmon quantification, or building a counts matrix for DESeq2. For single-cell data use scanpy; for statistical fitting alone use pydeseq2.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/bulk-rnaseq",
+    "branch": "main"
+  },
+  {
+    "name": "cantera",
+    "description": "Runs Cantera homogeneous chemical reactors and evaluates ignition delay with mechanism provenance, conservation checks, and numerical refinement. Use for combustion kinetics, closed adiabatic ideal-gas constant-volume or constant-pressure ignition, temperature histories, or mechanism-specific ignition-delay comparisons.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/cantera",
+    "branch": "main"
+  },
+  {
+    "name": "cellprofiler",
+    "description": "Runs reproducible CellProfiler microscopy pipelines for nuclear segmentation, cell counts, and per-object fluorescence measurements. Supports image/channel manifests, headless batch execution, segmentation overlays, and measurement QC for 2D fluorescence assays.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/cellprofiler",
+    "branch": "main"
+  },
+  {
+    "name": "cellxgene-census",
+    "description": "Queries the CZ CELLxGENE Census programmatically for versioned public single-cell and spatial transcriptomics data. Use when you need population-scale cell metadata, gene expression slices, Census summary counts, source H5AD URIs/downloads, embeddings, spatial Census data, or reference atlas comparisons across organisms, tissues, diseases, assays, and cell types. For analyzing your own local single-cell data use scanpy, anndata, or scvi-tools.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/cellxgene-census",
+    "branch": "main"
+  },
+  {
+    "name": "cirq",
+    "description": "Google quantum computing framework. Use when targeting Google Quantum AI hardware, designing noise-aware circuits, or running quantum characterization experiments. Best for Google hardware, noise modeling, and low-level circuit design. For IBM hardware use qiskit; for quantum ML with autodiff use pennylane; for physics simulations use qutip.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/cirq",
+    "branch": "main"
+  },
+  {
+    "name": "citation-management",
+    "description": "Comprehensive citation management for academic research. Search OpenAlex, PubMed, and Google Scholar for papers, extract accurate metadata, validate citations, and generate properly formatted BibTeX entries. This skill should be used when you need to find papers, verify citation information, convert DOIs to BibTeX, or ensure reference accuracy in scientific writing.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/citation-management",
+    "branch": "main"
+  },
+  {
+    "name": "clinical-decision-support",
+    "description": "Prepares and validates research-only clinical decision-support evaluation, evidence-profile, cohort, survival, biomarker/model, privacy, and governance artifacts. Supports aggregate or synthetic research documentation and traceability, excluding patient care and live clinical operation.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/clinical-decision-support",
+    "branch": "main"
+  },
+  {
+    "name": "clinical-reports",
+    "description": "Creates safety-bounded draft structures and runs local deterministic checks for clinical case, diagnostic, trial, safety, and aggregate research reports. Use only with synthetic, de-identified, or aggregate inputs and verified source-fact manifests; every output requires qualified review.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/clinical-reports",
+    "branch": "main"
+  },
+  {
+    "name": "cobrapy",
+    "description": "Performs constraint-based metabolic modeling with COBRApy, including FBA, pFBA, FVA, gene knockouts, flux sampling, growth media, production envelopes, gap filling, and SBML model validation for systems biology and metabolic engineering.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/cobrapy",
+    "branch": "main"
+  },
+  {
+    "name": "consciousness-council",
+    "description": "Structures a multi-perspective council exercise for decisions, research trade-offs, and creative challenges. Simulates thinking archetypes, separates evidence from assumptions and values, and synthesizes a conditional recommendation. Use when the user requests a council, panel, devil's advocate analysis, \"mind council\", or deliberate comparison of perspectives on a difficult choice.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/consciousness-council",
+    "branch": "main"
+  },
+  {
+    "name": "dask",
+    "description": "Scales pandas, NumPy, and custom Python research workflows beyond memory or across clusters with Dask. Covers DataFrames, Arrays, Bags, Futures, chunking, schedulers, and distributed diagnostics. Use for partitioned file processing, scientific array computation, or parallel tasks whose memory and dependency structure require Dask.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/dask",
+    "branch": "main"
+  },
+  {
+    "name": "database-lookup",
+    "description": "Queries documented public database APIs with explicit endpoints, filters, pagination, and provenance. Used when a scientific, regulatory, financial, or other database-backed fact must be retrieved reproducibly from a named source rather than inferred from general knowledge.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/database-lookup",
+    "branch": "main"
+  },
+  {
+    "name": "datalad",
+    "description": "Retrieves, versions, and publishes scientific datasets with DataLad and git-annex, and captures computational provenance with datalad run, rerun, and containers-run. Use when cloning or fetching data from OpenNeuro, DANDI, datasets.datalad.org, or any DataLad dataset; when a file in a dataset reads as a broken symlink or a small pointer instead of real data; when an analysis needs a machine-readable record of how each output was produced so it can be re-executed; or when publishing a dataset to siblings such as a GitHub repository plus a storage remote. Also use to decide between DataLad and plain Git for a data-carrying repository.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/datalad",
+    "branch": "main"
+  },
+  {
+    "name": "datamol",
+    "description": "Pythonic wrapper around RDKit with simplified interface and sensible defaults. Preferred for standard drug discovery including SMILES parsing, standardization, descriptors, fingerprints, clustering, 3D conformers, parallel processing. Returns native rdkit.Chem.Mol objects. For advanced control or custom parameters, use rdkit directly.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/datamol",
+    "branch": "main"
+  },
+  {
+    "name": "deepchem",
+    "description": "Builds molecular property prediction and MoleculeNet workflows with DeepChem, including SMILES featurization, scaffold or grouped holdouts, masked labels, graph models and explicit pretrained encoder transfer. Used for ADMET, toxicity, solubility and chemistry ML when DeepChem data/model contracts and scientific validation are needed.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/deepchem",
+    "branch": "main"
+  },
+  {
+    "name": "deepspot-m",
+    "description": "Generates transcriptome-wide virtual spatial transcriptomics from H&E histology with DeepSpot-M. Used for predicted log1p-CPM expression from 224x224 tiles at about 20x, querying the released protein-coding gene panel by symbol, and whole-slide prediction after resolution-aware tiling with histolab.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/deepspot-m",
+    "branch": "main"
+  },
+  {
+    "name": "deeptools",
+    "description": "NGS analysis toolkit. BAM to bigWig conversion, QC (correlation, PCA, fingerprints), heatmaps/profiles (TSS, peaks), for ChIP-seq, RNA-seq, ATAC-seq visualization.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/deeptools",
+    "branch": "main"
+  },
+  {
+    "name": "depmap",
+    "description": "Retrieves and analyzes Cancer Dependency Map (DepMap) release data, including CRISPR Chronos gene effects, cancer model annotations, omics biomarkers, and PRISM drug sensitivity. Supports cancer-selective dependency, co-essentiality, and candidate synthetic-lethality analyses with release-aware identifiers and statistical checks.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/depmap",
+    "branch": "main"
+  },
+  {
+    "name": "dhdna-profiler",
+    "description": "Applies the DHDNA framework as an exploratory rubric for reasoning and writing patterns in supplied text. Used for explicit requests for DHDNA, cognitive-style reflection, a thinking-pattern profile, or comparisons of textual reasoning. Scores describe evidence in the sample, not validated psychological traits or personal identity.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/dhdna-profiler",
+    "branch": "main"
+  },
+  {
+    "name": "diffdock",
+    "description": "Predicts protein-small-molecule binding poses with DiffDock and DiffDock-L from PDB or sequence plus SMILES/SDF/MOL2. Covers batch docking, pose triage, confidence interpretation, and validation. Use for molecular docking and virtual-screening pose generation, not binding-affinity prediction.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/diffdock",
+    "branch": "main"
+  },
+  {
+    "name": "dnanexus-integration",
+    "description": "Builds and operates reproducible genomics workloads on DNAnexus with the dx CLI, dxpy, apps/applets, native workflows, dxCompiler, and Nextflow. Supports DNAnexus data transfers, dxapp.json development, execution monitoring, workflow import, and project automation.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/dnanexus-integration",
+    "branch": "main"
+  },
+  {
+    "name": "esm",
+    "description": "Uses the Biohub esm Python SDK for ESM3 protein generation, ESMC embeddings, and ESMFold2 all-atom folding. Applies to local model inference and Biohub hosted clients, including former Forge workflows; distinguishes the separate legacy fair-esm distribution.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/esm",
+    "branch": "main"
+  },
+  {
+    "name": "etetoolkit",
+    "description": "Analyzes, manipulates, compares, annotates, and visualizes phylogenetic or other hierarchical trees with ETE 4. Supports Newick/Nexus tree I/O, topology edits and pattern matching, Robinson-Foulds comparisons, gene-tree evolutionary events and reconciliation, NCBI/GTDB taxonomy, SmartView exploration, and publication rendering. Applies to existing trees after alignment and phylogenetic inference, rather than inferring trees from raw sequences.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/etetoolkit",
+    "branch": "main"
+  },
+  {
+    "name": "exa-search",
+    "description": "Searches scientific and technical web content with Exa and extracts page or PDF text from URLs in batches. Supports scholarly discovery with the publication category and academic domain filters. Applies to requests to search the web, look up current research, fetch a page, or extract an article using Exa.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/exa-search",
+    "branch": "main"
+  },
+  {
+    "name": "experimental-design",
+    "description": "Designs experiments and studies BEFORE data is collected — choosing a design, randomizing, blocking, and laying out treatment combinations so results are interpretable. Use whenever someone is planning a study, asks how to assign subjects/samples to groups, mentions randomization, blocking, stratification, controls, factorial or fractional-factorial designs, design of experiments (DOE), screening many factors, response-surface optimization, crossover or repeated-measures or split-plot designs, cluster/group randomization, Latin squares, plate layouts, batch/run-order effects, replication vs. pseudoreplication, or sequential/adaptive/group-sequential designs. Trigger even for informal phrasings like \"how should I set up this experiment\", \"how do I avoid confounding\", \"what's the best way to test these 6 factors\", or \"assign these mice to conditions\". For computing the sample size or power once the design is chosen, use statistical-power; for analyzing data already collected, use statistical-analysis.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/experimental-design",
+    "branch": "main"
+  },
+  {
+    "name": "exploratory-data-analysis",
+    "description": "Performs bounded, local exploratory analysis of explicitly supported scientific files. Supports redacted CSV/TSV/JSON profiles; optional NumPy, HDF5, FASTA/FASTQ, and basic image metadata inspection; missingness/leakage audits; outlier and transformation sensitivity; and rigorous EDA report scaffolds. Other domain formats are reference-only and unknown formats fail closed.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/exploratory-data-analysis",
+    "branch": "main"
+  },
+  {
+    "name": "fictiv",
+    "description": "Operates Fictiv (app.fictiv.com), the on-demand manufacturing platform, end to end in the user's browser. Covers uploading CAD parts, configuring process, material, finish, threads, tolerances and inspections, getting instant or manual quotes, reading and fixing DFM feedback, choosing lead time and region, checking out and paying (card or PO), tracking orders, reordering, and troubleshooting. Applies when the user mentions Fictiv, wants a part CNC machined, 3D printed, sheet-metal fabricated, urethane cast, injection or compression molded, or die cast through an online service, asks to \"get a quote\" or \"order parts\" for a STEP/SLDPRT/STL file, wants to check a Fictiv quote or order status, or has a problem with a Fictiv upload, DFM warning, price or checkout. Also applies when the user wants custom parts manufactured and has a Fictiv account, even if Fictiv is not named.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/fictiv",
+    "branch": "main"
+  },
+  {
+    "name": "flowio",
+    "description": "Reads, inspects, and writes Flow Cytometry Standard (FCS) 2.0, 3.0, and 3.1 files with FlowIO. Use for low-level FCS metadata and channel inspection, NumPy event extraction, multi-dataset files, table export, and FCS 3.1 creation; use FlowKit for compensation, cytometry transforms, gating, or FlowJo workspaces.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/flowio",
+    "branch": "main"
+  },
+  {
+    "name": "flowkit",
+    "description": "Analyzes flow cytometry data with FlowKit, including spillover compensation, logicle and biexponential transforms, hierarchical gating, GatingML strategies, and supported FlowJo 10 workspaces. Use for reproducible gate counts, population percentages, gated fluorescence summaries, or reproducing a FlowJo analysis in Python. For FCS metadata inspection or file-format repair alone, use FlowIO.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/flowkit",
+    "branch": "main"
+  },
+  {
+    "name": "fluidsim",
+    "description": "Plans, configures, inspects, restarts, and analyzes bounded FluidSim computational-fluid-dynamics simulations with explicit numerical-validity and HPC safety checks. Use for FluidSim solver selection, parameter review, FFT/MPI setup, output diagnostics, or restart compatibility.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/fluidsim",
+    "branch": "main"
+  },
+  {
+    "name": "folklore-variant-evidence",
+    "description": "Retrieves ClinGen gene-disease validity assertions for a public gene or disease, and reviews source-linked public evidence and literature for one supported GRCh38 germline nuclear SNV or simple indel through Folklore Clinical Variant Interpretation MCP. Used when a scientific agent must branch deterministically on resolved, ambiguous, not-found, invalid, unsupported, or unavailable variant outcomes; chain a resolved public variant into related literature or publication details; or preserve evidence provenance without accepting patient, phenotype, family, segregation, or private case data.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/folklore-variant-evidence",
+    "branch": "main"
+  },
+  {
+    "name": "generate-image",
+    "description": "Generates or edits images with AI models through the OpenRouter Image API (Gemini, Seedream, Recraft, GPT-Image, Riverflow). Use for photos, illustrations, artwork, concept art, visual assets, logos, and image editing or compositing from reference images. For flowcharts, circuits, pathways, and other technical diagrams, use the scientific-schematics skill instead.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/generate-image",
+    "branch": "main"
+  },
+  {
+    "name": "geniml",
+    "description": "Supports audited local Geniml genomic-interval workflows: validate BED and universe contracts, plan Region2Vec or scEmbed runs, inspect model/tokenizer compatibility, and assess consensus universes.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/geniml",
+    "branch": "main"
+  },
+  {
+    "name": "genomic-coordinates",
+    "description": "Converts genomic intervals between coordinate conventions, normalises and compares variant representations, and detects assembly or contig-naming mismatches before they corrupt an analysis. Used whenever coordinates cross a format, tool, or assembly boundary - converting between BED, GFF/GTF, VCF, SAM/BAM, WIG, PSL, genePred, Picard interval_list, or region strings; reconciling 0-based half-open with 1-based inclusive; left-aligning or trimming indels; checking whether two variant records describe the same change; mapping genomic to transcript, CDS, or protein positions; auditing a BED/GTF/VCF for convention violations; or diagnosing GRCh37 vs hg19 vs GRCh38 vs T2T, chr-prefix, and liftover problems. Triggers include \"off by one\", \"0-based\", \"1-based\", \"half-open\", \"coordinate system\", \"left-align\", \"normalize variant\", \"bcftools norm\", \"chr prefix\", \"wrong genome build\", \"liftover\", \"REF mismatch\", and \"HGVS\".",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/genomic-coordinates",
+    "branch": "main"
+  },
+  {
+    "name": "genomic-intelligence",
+    "description": "Predicts regulatory features, gene structure, and expression directly from DNA sequence using Genomic Intelligence's hosted transformer DNA language models — no local GPU or model weights. Six tasks over a REST API and a hosted MCP server (keyless public demo): promoter regions, splice donor/acceptor sites, enhancer activity, chromatin state, sequence-to-expression (log TPM), and de-novo gene annotation, plus a composite find-genes-then-predict-expression workflow. Use when the user has a gene symbol, a genomic region, or a DNA/FASTA sequence and wants any of these predictions, mentions Genomic Intelligence, genomicintelligence.ai, api.genomicintelligence.ai, or mcp.genomicintelligence.ai.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/genomic-intelligence",
+    "branch": "main"
+  },
+  {
+    "name": "geomaster",
+    "description": "Supports geospatial research workflows for remote sensing, vector and raster GIS, spatial statistics, terrain and network analysis, and machine learning for Earth observation. Use when processing satellite imagery, aligning coordinate systems and raster grids, accessing STAC catalogs, analyzing geospatial time series, or implementing scientific GIS workflows in Python, R, Julia, JavaScript, C++, Java, Go, or Rust.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/geomaster",
+    "branch": "main"
+  },
+  {
+    "name": "geopandas",
+    "description": "Guidance and local audit tools for Python workflows that directly use GeoPandas GeoSeries, GeoDataFrame, spatial operations, or vector-data I/O.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/geopandas",
+    "branch": "main"
+  },
+  {
+    "name": "get-available-resources",
+    "description": "Detects host inventory and effective CPU, memory, disk, scheduler, container, and accelerator limits when a user asks for resource-aware planning or before a clearly resource-sensitive local workload. Produces a redacted JSON snapshot and conservative planning helpers without stress tests or assuming visible host hardware is usable.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/get-available-resources",
+    "branch": "main"
+  },
+  {
+    "name": "gget",
+    "description": "Queries 20+ bioinformatics resources through CLI/Python. Supports quick lookups of gene info, BLAST/BLAT, viral sequence downloads, PDB/mmCIF structures, G2P residue annotations, enrichment analysis, OpenTargets, COSMIC, CELLxGENE, and 8cube mouse specificity/expression data. Best for interactive exploration and simple queries. For batch processing or advanced BLAST use biopython; for multi-database Python workflows use bioservices.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/gget",
+    "branch": "main"
+  },
+  {
+    "name": "ginkgo-cloud-lab",
+    "description": "Guides protocol selection, input preparation, pricing checks, and browser ordering on Ginkgo Bioworks Cloud Lab (cloud.ginkgo.bio). Applies to cell-free, E. coli, and Pichia protein expression; HiBiT, A280, and LabChip readouts; IVT mRNA/circRNA synthesis; thermal shift assays; Echo-MS methods; SPR target onboarding; plate-reader assay onboarding; and fluorescent pixel art.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/ginkgo-cloud-lab",
+    "branch": "main"
+  },
+  {
+    "name": "glycoengineering",
+    "description": "Analyzes and engineers protein glycosylation by scanning canonical N-glycosylation sequons, describing S/T-rich regions, checking curated glycan evidence, and preparing NetNGlyc, NetOGlyc and GlycoSHIELD workflows. Use for glycoprotein engineering, antibody Fc glycosylation, glycan shielding, and site-specific glycoproteomics interpretation.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/glycoengineering",
+    "branch": "main"
+  },
+  {
+    "name": "gtars",
+    "description": "Supports Gtars for local genomic interval models and set algebra, overlaps and counts, consensus and coverage, tokenization, fragment processing, and refget/BEDbase planning across Python, Rust, and the CLI.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/gtars",
+    "branch": "main"
+  },
+  {
+    "name": "histolab",
+    "description": "Extracts and preprocesses whole-slide histology image tiles with Histolab. Use for WSI inspection, tissue masks, random/grid/score-based tile extraction, H&E stain normalization, and tile dataset preparation. For multiplexed imaging or deep learning inference pipelines, use pathml.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/histolab",
+    "branch": "main"
+  },
+  {
+    "name": "hugging-science",
+    "description": "Discovers and evaluates scientific datasets, models, methodology posts, and Spaces through the Hugging Science catalog. Used when selecting scientific ML resources in biology, chemistry, genomics, materials, climate, physics, astronomy, medicine, mathematics, protein design, single-cell analysis, or PDE modeling, and when checking their actual datasets, Transformers, native-runtime, Inference Providers, or Gradio interfaces.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/hugging-science",
+    "branch": "main"
+  },
+  {
+    "name": "hypogenic",
+    "description": "Plans and audits use of ChicagoHAI HypoGeniC/HypoRefine for LLM-assisted hypothesis generation from labeled text datasets. Use for the `hypogenic` package, its task configs, hypothesis banks, or HypoBench datasets—not for manual hypothesis formulation or scientific validation.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/hypogenic",
+    "branch": "main"
+  },
+  {
+    "name": "hypothesis-generation",
+    "description": "Formulates evidence-bounded scientific questions, candidate hypotheses, rival explanations, causal or associational claims, discriminating predictions, measurements, and preregistration-ready analysis plans. Used when turning observations or preliminary findings into transparent, testable research plans without treating hypotheses as facts.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/hypothesis-generation",
+    "branch": "main"
+  },
+  {
+    "name": "imaging-data-commons",
+    "description": "Queries and downloads public cancer imaging data from NCI Imaging Data Commons. Supports IDC collection discovery, DICOM access, radiology (CT, MR, PET) and pathology AI datasets, metadata SQL, visualization, licensing, and citations. Uses public metadata and download routes without authentication; optional BigQuery and Google Healthcare routes require Google credentials.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/imaging-data-commons",
+    "branch": "main"
+  },
+  {
+    "name": "infographics",
+    "description": "Creates and reviews infographics with Nano Banana 2 via OpenRouter. Use for statistical summaries, timelines, comparisons, processes, and visual explanations with supplied data or optional Sonar research. Supports ten layouts, eight style presets, reference images, and accessible palette starting points.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/infographics",
+    "branch": "main"
+  },
+  {
+    "name": "iso-standards-readiness",
+    "description": "Prepares and structurally reviews readiness evidence for ISO management-system and laboratory-competence standards - ISO 13485 medical device QMS, ISO 14971 device risk management, ISO/IEC 17025 testing and calibration laboratories, and ISO 15189 medical laboratories. Use when organizing declared scope, controlled documents, risk-management files, scope of accreditation, traceability, CAPA, external-provider controls, or bounded local evidence manifests, and when separating ISO certification from laboratory accreditation, FDA QMSR inspection, CLIA certification, MDSAP, and EU MDR/IVDR evidence boundaries. Not for legal applicability, compliance, certification, or accreditation decisions; contains no clause text.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/iso-standards-readiness",
+    "branch": "main"
+  },
+  {
+    "name": "lab-hardware-cad",
+    "description": "Designs custom laboratory hardware as parametric build123d models and exports fabrication artifacts as STEP, STL, and DXF files - microfluidic chips and molds, optomechanical mounts and breadboard adapters, cuvette and microplate holders, tube racks, animal-behavior rigs, and 3D-printed instrument fixtures. Use when a research task needs a physical part that must mate with standardized labware, an optical table, a cage system, or a printer, CNC, or laser process.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/lab-hardware-cad",
+    "branch": "main"
+  },
+  {
+    "name": "labarchive-integration",
+    "description": "Integrates with the official LabArchives ELN REST-like API and Inventory API v1. Supports regional endpoint selection, signed-request construction, user authorization and UID flows, local LA container validation, and verified LabArchives integration workflows.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/labarchive-integration",
+    "branch": "main"
+  },
+  {
+    "name": "lamindb",
+    "description": "Manages biological datasets and models with LaminDB, including artifact registration, lineage tracking, schema validation, Bionty ontology annotation, query/search, collections, branches, storage, and workflow integrations. Use for reproducible biological data curation or a LaminDB lakehouse.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/lamindb",
+    "branch": "main"
+  },
+  {
+    "name": "latchbio-integration",
+    "description": "Builds, registers, debugs, and operates bioinformatics workflows on Latch using the Python SDK, CLI, Latch Data and Registry, Nextflow, Snakemake, programmatic execution, and Latch MCP. Use when authoring or deploying Latch workflows, configuring resources or interfaces, moving data, integrating Registry, or launching and monitoring runs.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/latchbio-integration",
+    "branch": "main"
+  },
+  {
+    "name": "latex-posters",
+    "description": "Creates research posters in LaTeX using beamerposter, tikzposter, or baposter. Use for conference posters, academic presentations, multi-column scientific layouts, figure integration, typography, compilation, and PDF preflight.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/latex-posters",
+    "branch": "main"
+  },
+  {
+    "name": "liteparse",
+    "description": "Local document and PDF parsing that returns spatial text with bounding boxes. Use for extracting text from PDFs, DOCX, Office files, and images; running OCR on scans; producing layout-preserved JSON for RAG; batch-ingesting folders of papers; or rendering pages to PNG for multimodal agents. Distinguishing capabilities are spatial text boxes, Markdown, page raster output, and local parsing with optional custom HTTP OCR.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/liteparse",
+    "branch": "main"
+  },
+  {
+    "name": "literature-review",
+    "description": "Conducts systematic, scoping, and narrative literature reviews using PubMed, arXiv, bioRxiv, Semantic Scholar, and other appropriate sources. Use for research synthesis, reproducible literature searches, screening, citation checking, or preparing Markdown and PDF reviews. Tracks search coverage, records versus studies, and evidence limitations; supports meta-analysis planning but does not supply a meta-analysis engine.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/literature-review",
+    "branch": "main"
+  },
+  {
+    "name": "mageck",
+    "description": "Analyzes pooled CRISPR screen FASTQ reads and guide-count matrices with MAGeCK, validates guide libraries and contrasts, measures replicate and library QC, and produces gene hit rankings with effect sizes and FDR. Use for new knockout, CRISPRi, or CRISPRa screen analysis, enrichment or depletion contrasts, and MAGeCK count/test workflows; existing public dependency-score lookup belongs to DepMap.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/mageck",
+    "branch": "main"
+  },
+  {
+    "name": "marine-carbonate-chemistry",
+    "description": "Solves seawater carbonate chemistry with PyCO2SYS for chemical oceanography, ocean acidification, and marine carbon-cycle research. Use for paired total alkalinity, dissolved inorganic carbon, pH, or seawater pCO2/fCO2 measurements; carbonate speciation; aragonite and calcite saturation; Revelle factors; lab-to-in-situ temperature and pressure corrections; and measurement uncertainty propagation. Applies to carbonate-system calculations, not general aqueous speciation or air-sea gas-flux estimation.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/marine-carbonate-chemistry",
+    "branch": "main"
+  },
+  {
+    "name": "markdown-mermaid-writing",
+    "description": "Writes scientific Markdown documentation and Mermaid diagrams for workflows, relationships, timelines, and schemas. Provides syntax references, document templates, accessibility guidance, and version-aware rendering checks. Use when a user requests Markdown, Mermaid, or a text-based structural diagram; quantitative scientific figures require suitable plotting tools.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/markdown-mermaid-writing",
+    "branch": "main"
+  },
+  {
+    "name": "market-research-reports",
+    "description": "Builds evidence-traceable market research reports and assumption-driven market sizing or forecast scenarios. Use for market definition, industry and customer evidence, competitive landscapes, TAM/SAM/SOM reconciliation, forecast sensitivity, and auditable report scaffolds.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/market-research-reports",
+    "branch": "main"
+  },
+  {
+    "name": "markitdown",
+    "description": "Converts heterogeneous documents and selected URIs to Markdown with Microsoft MarkItDown for text analysis, search, and LLM/RAG ingestion. Covers safe local conversion, streams, Office/PDF/data formats, batch workflows, plugins, vision OCR, Azure extraction, and the official MCP server.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/markitdown",
+    "branch": "main"
+  },
+  {
+    "name": "matchms",
+    "description": "Processes, cleans, compares, and searches tandem mass spectra with matchms. Use for MS/MS file I/O, metadata harmonization, peak filtering, spectral similarity, library matching, score matrices, and molecular-similarity networks. Use pyopenms instead for LC-MS feature detection or proteomics pipelines.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/matchms",
+    "branch": "main"
+  },
+  {
+    "name": "matlab",
+    "description": "Builds, reviews, migrates, and plans MATLAB or GNU Octave numerical workflows. Use for arrays, tabular/time data, tests, projects, graphics, MAT files, and explicit Python interoperability.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/matlab",
+    "branch": "main"
+  },
+  {
+    "name": "matplotlib",
+    "description": "Creates and customizes scientific plots with Matplotlib. Used for fine-grained control over plot elements, novel plot types, and scientific workflows. Export to PNG/PDF/SVG for publication. For quick statistical plots use seaborn; for interactive plots use plotly; for publication-ready multi-panel figures with journal styling, use scientific-visualization.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/matplotlib",
+    "branch": "main"
+  },
+  {
+    "name": "medchem",
+    "description": "Applies medicinal chemistry filters for compound triage, using drug-likeness rules (Lipinski, Veber, CNS), structural alert catalogs (PAINS, NIBR, ChEMBL), complexity metrics, and the medchem query language for library filtering.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/medchem",
+    "branch": "main"
+  },
+  {
+    "name": "modal",
+    "description": "Modal is a serverless cloud platform for running Python on demand, including on-demand GPUs. Use when deploying or serving AI/ML models, running GPU-accelerated workloads (training, fine-tuning, inference), serving web endpoints, scheduling batch jobs, or scaling Python code to cloud containers with the Modal SDK.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/modal",
+    "branch": "main"
+  },
+  {
+    "name": "molecular-dynamics",
+    "description": "Runs and analyzes molecular dynamics simulations with OpenMM and MDAnalysis. Sets up protein/small molecule systems, defines force fields, runs energy minimization and production MD, and analyzes trajectories (RMSD, RMSF, contact maps, free energy surfaces). For structural biology, drug binding, and biophysics.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/molecular-dynamics",
+    "branch": "main"
+  },
+  {
+    "name": "molfeat",
+    "description": "Featurizes small molecules with Molfeat for QSAR/QSPR, chemical similarity, virtual screening, and molecular ML. Covers ECFP/MACCS fingerprints, RDKit descriptors, pharmacophores, pretrained embeddings, configuration persistence, and molecule-to-label alignment.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/molfeat",
+    "branch": "main"
+  },
+  {
+    "name": "ncats-arax",
+    "description": "Queries the NCATS Translator ARAX production API for bounded, typed, provenance-rich one-hop and endpoint-pinned two-hop biomedical knowledge-graph relationships. Use for Biolink-constrained RTX-KG2 lookup, explicit selected-provider ARAX federation, separate entity normalization, qualifier-aware graph traversal, and inspection of TRAPI edge bindings, publications, and knowledge-source provenance. Do not use for inference, ranking, open-ended pathfinding, clinical guidance, or sensitive queries.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/ncats-arax",
+    "branch": "main"
+  },
+  {
+    "name": "networkx",
+    "description": "Creates, analyzes, and visualizes complex networks and graphs in Python with NetworkX. Use when working with network/graph data structures, computing graph algorithms (shortest paths, centrality, clustering), detecting communities, generating synthetic networks (random, scale-free, small-world), reading/writing graph file formats, or drawing network topologies. Common applications include social, biological, transportation, and citation networks.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/networkx",
+    "branch": "main"
+  },
+  {
+    "name": "neurokit2",
+    "description": "Builds and audits reproducible NeuroKit2 research workflows for physiological time-series preprocessing, event/interval analysis, multimodal alignment, variability, and complexity. Use when code imports neurokit2 or needs its current APIs, schemas, and method-aware validation—not for diagnosis or device validation.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/neurokit2",
+    "branch": "main"
+  },
+  {
+    "name": "neuropixels-analysis",
+    "description": "Analyzes Neuropixels extracellular recordings end-to-end with SpikeInterface. Covers loading SpikeGLX/Open Ephys/NWB data, preprocessing, drift/motion correction, Kilosort4 (and CPU) spike sorting, quality metrics, and unit curation (threshold-based, model-based UnitRefine, and AI-assisted visual review). Use when working with Neuropixels 1.0/2.0 recordings, spike sorting, or extracellular electrophysiology analysis.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/neuropixels-analysis",
+    "branch": "main"
+  },
+  {
+    "name": "nextflow",
+    "description": "Builds, runs, and debugs Nextflow DSL2 pipelines and nf-core workflows. Use for Nextflow, nf-core, .nf files, nextflow.config, processes/channels/operators, samplesheets, nf-test, modules/subworkflows, container and executor configuration, HPC/SLURM or cloud deployment, and failed or resumed pipeline runs.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/nextflow",
+    "branch": "main"
+  },
+  {
+    "name": "nmrglue",
+    "description": "Processes calibrated one-dimensional complex NMR free-induction decays with nmrglue into phased spectra, peak candidates, and signed integration regions. Use for raw 1D NMR processing, ppm-axis verification, apodization, Fourier transformation, manual phasing, baseline correction, or reproducible spectral integration.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/nmrglue",
+    "branch": "main"
+  },
+  {
+    "name": "nwb-conversion",
+    "description": "Converts neuroscience acquisition data to Neurodata Without Borders files with NeuroConv and PyNWB, preserves metadata and timebases, checks evidence-based clock alignment, and produces schema validation, NWB Inspector findings and round-trip checks. Use for NWB conversion and synchronization of planar single-channel two-photon TIFF imaging plus timestamped behavioral position CSV; this skill does not perform spike sorting or claim tested support for arbitrary acquisition formats.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/nwb-conversion",
+    "branch": "main"
+  },
+  {
+    "name": "omero-integration",
+    "description": "Inspects and automates microscopy data workflows against OMERO.server with omero-py, BlitzGateway, OMERO CLI, tables, annotations, ROIs, rendering, and documented OMERO.web APIs. Use this skill for scoped OMERO inventory, metadata export, import/export planning, or reviewed write workflows.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/omero-integration",
+    "branch": "main"
+  },
+  {
+    "name": "onekgpd",
+    "description": "Queries the 1000 Genomes Project dataset (3,202 whole-genome-sequenced individuals, GRCh38) at the level of individual participants. Use when a question is about individuals or variants in the 1000 Genomes Project cohort: which individuals carry variants matching specific criteria in a gene or region, which individuals are homozygous-reference at a position, which variants exist in the dataset or carried by specified individuals in a gene or region, the relatedness between two specified individuals. Variants are returned with 1000 Genomes allele frequencies (AF), gnomAD v4.1 exome and genome AF, AlphaMissense score, and HGVSp annotations.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/onekgpd",
+    "branch": "main"
+  },
+  {
+    "name": "ontology-term-resolution",
+    "description": "Resolves free-text scientific labels to ontology term IDs and validates existing CURIEs against the EBI Ontology Lookup Service (OLS4). Also looks up prefixes in Bioregistry, resolves compact identifiers via Identifiers.org, maps lab shorthand with ZOOMA, and builds Ontobee term pages. Use whenever an ontology identifier must be produced or checked - annotating tissue, cell type, disease, phenotype, assay, chemical, organism, sex, or developmental stage fields; preparing metadata for GEO, ENA, BioSamples, CELLxGENE, HCA, or ISA-Tab submission; auditing a metadata table of term IDs; checking whether a term is obsolete and what replaced it; or deciding HPO vs HP. Triggers include \"ontology term\", \"ontology ID\", \"CURIE\", \"controlled vocabulary\", \"UBERON\", \"CL:\", \"MONDO\", \"HPO\", \"EFO\", \"ChEBI\", \"NCBITaxon\", \"GO term\", \"PATO\", \"Zooma\", \"Bioregistry\", \"Identifiers.org\", \"Ontobee\", \"annotate this tissue/cell type/disease\", and any request to emit or verify an identifier shaped like PREFIX:0001234.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/ontology-term-resolution",
+    "branch": "main"
+  },
+  {
+    "name": "open-notebook",
+    "description": "Organizes research with the self-hosted Open Notebook alternative to NotebookLM. Supports source ingestion (PDFs, web pages, audio, video, and Office documents), cited document chat, text and vector search, notes, custom transformations, and multi-speaker podcasts. Use when automating Open Notebook through its REST API or configuring its local or cloud AI providers, including OpenAI, Anthropic, Google, Ollama, Groq, and Mistral.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/open-notebook",
+    "branch": "main"
+  },
+  {
+    "name": "openpiv",
+    "description": "Performs Particle Image Velocimetry (PIV) analysis with OpenPIV. Use when extracting velocity fields from PIV image pairs, analyzing fluid dynamics or flow visualization experiments, cross-correlating interrogation windows, validating and replacing spurious PIV vectors, or computing vorticity, strain rate, and turbulence statistics from measured velocity fields.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/openpiv",
+    "branch": "main"
+  },
+  {
+    "name": "opentrons-integration",
+    "description": "Authors, reviews, migrates, simulates, and troubleshoots official Opentrons Python Protocol API v2 protocols for Flex and OT-2 robots. Use for robot-specific liquid handling, deck and labware setup, pipettes, modules, runtime parameters, liquid classes, and Opentrons App analysis. Use pylabrobot instead when one workflow must support multiple robot vendors.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/opentrons-integration",
+    "branch": "main"
+  },
+  {
+    "name": "optimize-for-gpu",
+    "description": "GPU-accelerates scientific Python on NVIDIA hardware and verifies that the result is correct and faster. Use for CUDA/GPU optimization; CPU-bound NumPy, SciPy, pandas, scikit-learn, NetworkX, scikit-image, vector-search, image-processing, graph, simulation, or file-I/O workloads; CuPy, cuDF, cuML, cuGraph, cuVS, cuCIM, KvikIO, Warp, Newton, Numba-CUDA, or RAFT questions; and profiling, memory-transfer, kernel, or multi-GPU bottlenecks. Also use when large data-parallel Python code is slow and GPU acceleration is a plausible option, even if the user does not name CUDA.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/optimize-for-gpu",
+    "branch": "main"
+  },
+  {
+    "name": "pacsomatic",
+    "description": "Prepares and launches nf-core/pacsomatic matched tumor-normal PacBio HiFi genomics workflows from unaligned BAM inputs. Supports samplesheet generation, pinned Nextflow launch artifacts, local checks, LSF/Slurm/PBS Pro/SGE launcher submission, and startup troubleshooting. Use for pacsomatic run preparation and execution, not general short-read somatic analysis or medical imaging PACS.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pacsomatic",
+    "branch": "main"
+  },
+  {
+    "name": "paper-lookup",
+    "description": "Searches 18 scholarly APIs for papers, preprints, citations, open-access full text, repository records, and journal OA status, and returns results with reproducible provenance. Covers PubMed, PMC, Europe PMC, bioRxiv, medRxiv, arXiv, OpenAlex, Crossref, Semantic Scholar, CORE, Unpaywall, OpenCitations, PubTator3, Zenodo, Figshare, ROR, BioStudies, and DOAJ. Use when searching for papers, citations, DOI/PMID/arXiv lookups, abstracts, full text, open-access PDFs, preprints, citation graphs, author publications, biomedical entity annotations, deposited records (Zenodo, Figshare, BioStudies), institution ROR IDs, or any scholarly literature query. Triggers on mentions of any supported database or requests like \"find papers on X\", \"look up this DOI\", \"who cites this paper\", or \"get me the PDF\".",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/paper-lookup",
+    "branch": "main"
+  },
+  {
+    "name": "paperclip",
+    "description": "Searches and reads biomedical papers, FDA/PMDA/EMA documents, clinical trials, and protein records with the GXL Paperclip CLI and Python SDK. Supports source-scoped search, full-text grep, metadata SQL, map/reduce extraction, figure analysis, optional repositories and claim verification, and line-pinned citations. Use when a task names GXL paperclip, asks to install or authenticate it, or requests literature retrieval and evidence extraction through Paperclip.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/paperclip",
+    "branch": "main"
+  },
+  {
+    "name": "paperzilla",
+    "description": "Reads projects, searches project feeds, and retrieves recommendations and canonical papers in Paperzilla through the pz CLI. Supports recent recommendations, paper details, markdown-based summaries, recommendation feedback, JSON export, and Atom feed URLs.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/paperzilla",
+    "branch": "main"
+  },
+  {
+    "name": "parallel-web",
+    "description": "Uses Parallel CLI for web search, URL extraction, deep research, structured data enrichment, entity discovery, and recurring web monitoring. Best for requests that explicitly need current web evidence, academic-source discovery, repeated entity lookups, exhaustive reports, or ongoing change tracking.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/parallel-web",
+    "branch": "main"
+  },
+  {
+    "name": "pathml",
+    "description": "Supports local computational pathology research with PathML: slide loading and tiling, preprocessing and QC, h5path storage, multiplex quantification, spatial graphs, and bounded model inference. Use for whole-slide H&E, CODEX, Vectra, Mesmer, HoVer-Net, and HACTNet workflows.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pathml",
+    "branch": "main"
+  },
+  {
+    "name": "pathogen-variant-surveillance",
+    "description": "Queries public GenSpectrum LAPIS data for pathogen genomic surveillance, current lineage nomenclature, weekly sequence proportions, reporting delays, and descriptive mutation frequencies. Use for variant surveillance, Pango lineage validation, dominant submitted lineages, Nextclade assignment provenance, SARS-CoV-2, influenza/H5N1 clades, RSV, mpox, measles, dengue, or LAPIS queries. Distinguishes sequence prevalence from infection prevalence, clades from genotypes, missing calls from reference matches, and sampling changes from biological growth advantage.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pathogen-variant-surveillance",
+    "branch": "main"
+  },
+  {
+    "name": "pathway-enrichment",
+    "description": "Performs pathway and gene-set enrichment analysis on gene lists or ranked gene data and interprets the results. Used when the user has a set of genes (differentially expressed genes from PyDESeq2/Scanpy, CRISPR-screen hits, cluster marker genes, proteomics hits) and wants to know which biological pathways, GO terms, or gene sets are over-represented or enriched. Covers over-representation analysis (ORA / Enrichr / Fisher / hypergeometric), ranked Gene Set Enrichment Analysis (GSEA / preranked), single-sample scoring (ssGSEA/GSVA), and functional profiling via gseapy, g:Profiler, Enrichr libraries, MSigDB, GO, KEGG, Reactome, and WikiPathways — plus gene-ID mapping, choosing the right background universe, multiple-testing correction, redundancy reduction, dotplots/enrichment maps, and publication-ready tables. Use this for \"pathway analysis\", \"enrichment analysis\", \"GO enrichment\", \"KEGG/Reactome pathways\", \"GSEA\", \"over-representation\", \"functional annotation\", or \"what pathways are my genes in\".",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pathway-enrichment",
+    "branch": "main"
+  },
+  {
+    "name": "peer-review",
+    "description": "Prepares evidence-bounded, constructive peer-review drafts and structured manuscript assessments. Supports authorized review of scientific manuscripts, protocols, preprints, or research proposals; reporting-guideline selection; claim–evidence checks; methods, statistics, reproducibility, ethics, figure/table, and citation critique; or revision-response planning.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/peer-review",
+    "branch": "main"
+  },
+  {
+    "name": "pennylane",
+    "description": "Builds and differentiates PennyLane quantum circuits, hybrid PyTorch or JAX models, molecular VQE and QAOA workflows. Use for variational quantum algorithms, quantum machine learning, simulator validation, and moving validated circuits to provider plugins. For hardware-specific compilation use qiskit or cirq; for open-system dynamics use qutip.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pennylane",
+    "branch": "main"
+  },
+  {
+    "name": "phylogenetics",
+    "description": "Builds and analyzes phylogenetic trees using MAFFT multiple sequence alignment, IQ-TREE maximum likelihood with ModelFinder and branch support, and FastTree approximate inference. Uses ETE3 for tree summaries and visualization. Applies to homologous nucleotide or protein sequences, microbial gene trees, protein families, and cautiously interpreted dated phylogenies.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/phylogenetics",
+    "branch": "main"
+  },
+  {
+    "name": "pi-agent",
+    "description": "Builds with and operates Pi, the minimal terminal coding harness. Use for installing Pi, configuring providers/models/settings/environment variables, creating Pi skills/extensions/packages/themes/prompt templates, embedding Pi through the SDK, integrating over RPC or JSON event streams, parsing sessions, running local models through the llama.cpp router, developing custom Pi providers and TUI components, or using ecosystem packages such as pi-subagents (delegation/orchestration), pi-mcp-adapter (MCP servers), pi-interview (interactive forms), and pi-web-access (web search, fetching, video understanding).",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pi-agent",
+    "branch": "main"
+  },
+  {
+    "name": "pkpd-modeling",
+    "description": "Pharmacokinetic and pharmacodynamic modelling and simulation - non-compartmental analysis, compartmental and population PK, PK/PD and exposure-response, TMDD, PBPK orientation, bioequivalence, allometric scaling and first-in-human dose, drug interaction prediction, and Bayesian therapeutic drug monitoring. Use when analysing concentration-time data, deriving exposure metrics, fitting PK or PD models, or evaluating dosing regimens. Triggers include \"pharmacokinetics\", \"pharmacodynamics\", \"PK/PD\", \"NCA\", \"non-compartmental\", \"AUC\", \"Cmax\", \"lambda z\", \"half-life\", \"clearance\", \"volume of distribution\", \"compartmental model\", \"population PK\", \"popPK\", \"NONMEM\", \"nlmixr2\", \"Pharmpy\", \"Monolix\", \"exposure-response\", \"Emax\", \"EC50\", \"indirect response\", \"effect compartment\", \"TMDD\", \"PBPK\", \"bioequivalence\", \"RSABE\", \"ABEL\", \"allometric scaling\", \"first-in-human\", \"MABEL\", \"drug-drug interaction\", \"DDI\", \"ICH M12\", \"concentration-QTc\", \"therapeutic drug monitoring\", \"MIPD\", and \"dosing regimen\".",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pkpd-modeling",
+    "branch": "main"
+  },
+  {
+    "name": "polars-bio",
+    "description": "Performs genomic interval overlap, nearest, merge, coverage, complement and subtraction on Polars DataFrames, and reads or writes BED, VCF, BCF, BAM, CRAM, GFF, GTF, FASTA and FASTQ data. Use for coordinate-aware genomic joins, read-depth analysis, lazy bioinformatics I/O, SQL queries or migration from bioframe.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/polars-bio",
+    "branch": "main"
+  },
+  {
+    "name": "polars",
+    "description": "High-performance DataFrame library for Python ETL, analytics, and pandas migration. It supports expression-based data manipulation with lazy query optimization, parallel execution, streaming out-of-core processing, Arrow interoperability, and optional GPU execution.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/polars",
+    "branch": "main"
+  },
+  {
+    "name": "pptx-posters",
+    "description": "Creates and audits editable scientific posters in macro-free PowerPoint (.pptx) from author-approved local content and assets. Used when the requested deliverable is a PowerPoint research/conference poster and exact physical, printer, accessibility, provenance, and package-security checks are required.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pptx-posters",
+    "branch": "main"
+  },
+  {
+    "name": "primekg",
+    "description": "Queries a pinned Precision Medicine Knowledge Graph (PrimeKG) CSV for typed gene, drug, disease, and phenotype nodes, direct associations, disease context, and one- or two-hop paths. Use for PrimeKG reproducibility, biological association lookup, and hypothesis generation with relation and data provenance preserved.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/primekg",
+    "branch": "main"
+  },
+  {
+    "name": "primer-design",
+    "description": "Designs and audits PCR and RT-qPCR primers with Primer3, explicit thermodynamic conditions, reference-based off-target amplification searches, and traceable sequence coordinates. Use for designing primer pairs, checking existing primers, exon-junction or isoform-specific assays, variant masking, cloning tails, multiplex compatibility, and interpreting Primer-BLAST results. Includes bounded local in-silico PCR and BLAST screening; distinguishes computational candidates from experimentally validated assays.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/primer-design",
+    "branch": "main"
+  },
+  {
+    "name": "protocolsio-integration",
+    "description": "Reads, validates, and safely exports protocols.io data with current official REST/MCP contracts, or creates non-executing mutation plans. The bundled client makes bounded official-host GET requests only with explicit --execute. Use only for tasks explicitly targeting protocols.io or an exact protocols.io protocol version.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/protocolsio-integration",
+    "branch": "main"
+  },
+  {
+    "name": "pufferlib",
+    "description": "Version-aware guidance for PufferLib reinforcement-learning environments, vectorization, policies, PuffeRL training, evaluation, and safe checkpoint review. Covers the native 5.0 build and environment API, published 3.0.0 Gymnasium/PettingZoo adaptation, and a pinned historical 4.0 profile.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pufferlib",
+    "branch": "main"
+  },
+  {
+    "name": "pybamm",
+    "description": "Simulates lithium-ion battery charge, discharge and rest experiments with PyBaMM, records parameter-set provenance, checks mesh and solver sensitivity, and compares predicted voltage curves with measured cycling data. Use for SPM or DFN electrochemical battery modeling, C-rate protocols, voltage cutoffs, parameter studies and numerical validation of battery simulations.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pybamm",
+    "branch": "main"
+  },
+  {
+    "name": "pycalphad",
+    "description": "Computes finite-temperature CALPHAD equilibria, phase fractions, and phase compositions from thermodynamic TDB databases using pycalphad. Use for alloy phase stability, equilibrium temperature sweeps, tie lines, lever-rule checks, or reproducible phase-fraction calculations with explicit components and mole-fraction conditions.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pycalphad",
+    "branch": "main"
+  },
+  {
+    "name": "pydeseq2",
+    "description": "Performs bulk RNA-seq differential expression analysis with PyDESeq2, including count validation, formula designs, explicit contrasts, Wald tests, FDR correction, coefficient-matched LFC shrinkage, and result visualization. Use for PyDESeq2 or Python DESeq2 workflows with biological replicates.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pydeseq2",
+    "branch": "main"
+  },
+  {
+    "name": "pydicom",
+    "description": "Reads, inspects, writes, transforms, and preflights local DICOM datasets and pixel data. Applies to DICOM metadata, transfer syntaxes, compression plugins, frames, private elements, JSON, and bounded de-identification review.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pydicom",
+    "branch": "main"
+  },
+  {
+    "name": "pyhealth",
+    "description": "Builds and validates PyHealth clinical machine-learning pipelines for EHR, signals, imaging, and medical codes. Use for PyHealth dataset loading, MIMIC-III/IV, eICU or OMOP prediction tasks, patient-level evaluation, mortality/readmission/length-of-stay modeling, medication recommendation, sleep staging, Trainer checkpoints, and ICD/ATC/NDC/RxNorm mapping.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pyhealth",
+    "branch": "main"
+  },
+  {
+    "name": "pylabrobot",
+    "description": "Develops and reviews PyLabRobot lab-automation resources, liquid-handling plans, offline simulations, and supported-device integrations. Supports PyLabRobot protocols and API questions; keep physical execution behind an explicit operator safety gate.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pylabrobot",
+    "branch": "main"
+  },
+  {
+    "name": "pymatgen",
+    "description": "Analyzes, validates, converts, and transforms materials structures and computed materials data with pymatgen. Use for local phase diagrams, symmetry sensitivity, electronic-structure I/O, and bounded Materials Project queries.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pymatgen",
+    "branch": "main"
+  },
+  {
+    "name": "pymc",
+    "description": "Builds and checks Bayesian models with PyMC, including hierarchical models, NUTS MCMC, variational inference, mutable-data predictions, posterior predictive checks, diagnostics, and PSIS-LOO model comparison. Use for probabilistic modeling and uncertainty inference in PyMC.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pymc",
+    "branch": "main"
+  },
+  {
+    "name": "pymoo",
+    "description": "Solves and validates single-, multi-, and many-objective optimization with pymoo, including NSGA-II, NSGA-III, MOEA/D, constraints, Pareto approximations, reference directions, and ZDT/DTLZ benchmarks for engineering and research problems.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pymoo",
+    "branch": "main"
+  },
+  {
+    "name": "pyopenms",
+    "description": "Processes mass spectrometry data with pyOpenMS. Supports proteomics and metabolomics workflows—feature detection, peptide/protein identification, label-free quantification, adduct/accurate-mass annotation, and complex LC-MS/MS pipelines. Supports extensive file formats and algorithms. For simple spectral comparison and small-molecule library matching use matchms.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pyopenms",
+    "branch": "main"
+  },
+  {
+    "name": "pysam",
+    "description": "Provides Python/HTSlib workflows for genomic files. Used when reading, querying, filtering, or writing SAM/BAM/CRAM, VCF/BCF, FASTA/FASTQ, or tabix data with pysam, including pileup, coverage, indexing, and CRAM references.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pysam",
+    "branch": "main"
+  },
+  {
+    "name": "pytdc",
+    "description": "Provides Therapeutics Data Commons workflows through PyTDC for registry discovery, dataset access, task-aware splits, evaluator metrics, benchmark groups, and bounded molecular-oracle scoring. Use when working with TDC therapeutic ML datasets or benchmarks.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pytdc",
+    "branch": "main"
+  },
+  {
+    "name": "pytorch-lightning",
+    "description": "Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorch code into LightningModules, configure Trainers for multi-GPU/TPU, implement data pipelines, callbacks, logging (W&B, TensorBoard, MLflow), distributed training (DDP, FSDP, DeepSpeed), for scalable neural network training.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pytorch-lightning",
+    "branch": "main"
+  },
+  {
+    "name": "pyzotero",
+    "description": "Manages Zotero reference libraries using the pyzotero Python client: retrieves, creates, updates, and deletes items, collections, tags, and attachments via the Zotero Web API v3 or local API. Applies when working with Zotero libraries programmatically, managing bibliographic references, exporting citations, searching library contents, uploading PDF attachments, or building research automation workflows that integrate with Zotero.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/pyzotero",
+    "branch": "main"
+  },
+  {
+    "name": "qiime2-amplicon",
+    "description": "Processes paired-end 16S amplicon reads into QIIME 2 ASVs and taxonomy with retained artifact provenance. Checks paired FASTQ manifests, primer orientation diagnostics, predicted post-trimming overlap, sample IDs, runtime versions and read retention, and guides selection of compatible taxonomic classifiers.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/qiime2-amplicon",
+    "branch": "main"
+  },
+  {
+    "name": "qiskit",
+    "description": "Builds, simulates, transpiles, and executes quantum circuits with Qiskit and IBM Quantum Runtime. Use for Qiskit 2.x circuits and operators, V2 Sampler or Estimator primitives, target-aware transpilation, local or noisy simulation, IBM QPU execution, Runtime sessions or batches, error mitigation, and Qiskit ecosystem packages.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/qiskit",
+    "branch": "main"
+  },
+  {
+    "name": "qutip",
+    "description": "Simulate and audit closed and open quantum-system models with QuTiP 5, including deterministic, trajectory, steady-state, spectral, and phase-space workflows. Use for local quantum-dynamics work where physical assumptions, dimensions, and numerical convergence must be explicit.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/qutip",
+    "branch": "main"
+  },
+  {
+    "name": "rdkit",
+    "description": "Cheminformatics toolkit for fine-grained molecular control. SMILES/SDF parsing, descriptors (MW, LogP, TPSA), fingerprints, substructure search, 2D/3D generation, similarity, reactions. For standard workflows with simpler interface, use datamol (wrapper around RDKit). Use rdkit for advanced control, custom sanitization, specialized algorithms.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/rdkit",
+    "branch": "main"
+  },
+  {
+    "name": "relion",
+    "description": "Validates and executes RELION single-particle cryo-EM refinement and half-map postprocessing. Supports STAR optics/acquisition checks, particle-stack consistency, gold-standard half sets, soft-mask validation, diagnostic Fourier shell correlation, and restart guidance.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/relion",
+    "branch": "main"
+  },
+  {
+    "name": "relsa-severity-assessment",
+    "description": "Supports multivariate severity assessment and exploratory endpoint-time score forecasting for laboratory animal studies using the RELSA (RELative Severity Assessment) score and ARIMA-based foRcast forecasting. Use when combining welfare readouts — body weight or weight loss, body temperature, clinical or nesting scores, biomarkers, activity, heart rate, burrowing, wheel running — into one severity score per animal per day, when asking which animals are at risk of reaching a humane endpoint at a specified future observation time, when defining attention/danger zones or thresholds on a severity scale by kernel density estimation, or when reporting severity for a 3Rs, refinement, animal-welfare, or EU Directive 2010/63/EU severity-assessment context. Covers directionality (\"turned\" variables), baseline normalization, reference sets, RELSA weights, ARIMA prediction intervals, and RMSE/PICP/MPIW evaluation.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/relsa-severity-assessment",
+    "branch": "main"
+  },
+  {
+    "name": "research-grants",
+    "description": "Supports research proposal preparation and review for NSF, NIH, DOE, DARPA, and Taiwan NSTC, including opportunity-specific requirements, aims, review criteria, budgets, broader impacts, forms, and resubmissions. Use for investigator-authored grant development, compliance matrices, and proposal critiques.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/research-grants",
+    "branch": "main"
+  },
+  {
+    "name": "research-lookup",
+    "description": "Compiles current scholarly evidence for a scientific manuscript or research brief when the user explicitly asks to gather literature, references, background evidence, competing findings, or a manuscript research packet. Uses Parallel Search by default, Parallel Extract for source retrieval, Parallel Research for explicitly deep/exhaustive work, optional explicit Parallel Chat, and optional Perplexity only when requested or allowed as a failure fallback.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/research-lookup",
+    "branch": "main"
+  },
+  {
+    "name": "scanpy",
+    "description": "Performs Scanpy single-cell RNA-seq QC, normalization, HVG selection, PCA/UMAP/t-SNE, clustering, exploratory marker ranking, pseudobulk preparation, visualization, and Seurat or SingleCellExperiment RDS conversion to h5ad. Applies to established exploratory scRNA-seq workflows with explicit count and expression provenance; complementary skills cover scvi-tools models and AnnData format details.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scanpy",
+    "branch": "main"
+  },
+  {
+    "name": "scholar-evaluation",
+    "description": "Provides qualitative-first, evidence-traceable developmental review of scholarly works and audit low-stakes research-assessment rubrics with optional local quality controls. Never use for ranking people or consequential decisions.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scholar-evaluation",
+    "branch": "main"
+  },
+  {
+    "name": "scientific-brainstorming",
+    "description": "Facilitates evidence-aware scientific ideation with independent generation, structured discussion, explicit assumptions, transparent evaluation, adversarial review, and decision logs. Use for early-stage research brainstorming or prioritizing candidate directions; hand off empirical validation, study design, ethics or regulatory review, and clinical questions to appropriate experts or skills.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-brainstorming",
+    "branch": "main"
+  },
+  {
+    "name": "scientific-critical-thinking",
+    "description": "Evaluates scientific claims and evidence quality. Applies to experimental design validity, biases and confounders, statistical interpretation, evidence grading frameworks (GRADE, Cochrane Risk of Bias), and teaching critical analysis. Supports evidence appraisal and identifying flaws; formal peer review writing belongs to peer-review.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-critical-thinking",
+    "branch": "main"
+  },
+  {
+    "name": "scientific-schematics",
+    "description": "Generates scientific diagram drafts using Nano Banana 2 AI with smart iterative refinement. Uses Gemini 3.7 Flash for quality review. Refines when the review requests improvement, with at most two generations. Specialized in neural network architectures, system diagrams, flowcharts, biological pathways, and complex scientific visualizations.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-schematics",
+    "branch": "main"
+  },
+  {
+    "name": "scientific-slides",
+    "description": "Builds slide decks and presentations for research talks. Used for making PowerPoint slides, conference presentations, seminar talks, research presentations, thesis defense slides, or any scientific talk. Provides slide structure, design templates, timing guidance, and visual validation. Works with PowerPoint and LaTeX Beamer.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-slides",
+    "branch": "main"
+  },
+  {
+    "name": "scientific-visualization",
+    "description": "Creates and audits truthful, accessible, publication-ready scientific figures with Matplotlib, Seaborn, or Plotly. Use it for figure design, multi-panel layouts, uncertainty and missing-data displays, color/contrast review, image metadata validation, and journal export planning.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-visualization",
+    "branch": "main"
+  },
+  {
+    "name": "scientific-writing",
+    "description": "Drafts, revises, and audits scientific manuscripts or reports with explicit evidence provenance, reporting-guideline coverage, authorship accountability, confidentiality controls, and local consistency checks. Use for manuscript sections, references, declarations, tables, figures, or submission preparation when scientific accuracy and traceability matter.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scientific-writing",
+    "branch": "main"
+  },
+  {
+    "name": "scikit-bio",
+    "description": "Biological data toolkit. Sequence analysis, alignments, phylogenetic trees, diversity metrics (alpha/beta, UniFrac), ordination (PCoA), PERMANOVA, FASTA/Newick I/O, for microbiome analysis.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scikit-bio",
+    "branch": "main"
+  },
+  {
+    "name": "scikit-learn",
+    "description": "Supports machine learning in Python with scikit-learn. Applies when working with supervised learning (classification, regression), unsupervised learning (clustering, dimensionality reduction), model evaluation, hyperparameter tuning, preprocessing, or building ML pipelines. Provides comprehensive reference documentation for algorithms, preprocessing techniques, pipelines, and best practices.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scikit-learn",
+    "branch": "main"
+  },
+  {
+    "name": "scikit-survival",
+    "description": "Builds, evaluates, and audits right-censored or competing-risk survival workflows with scikit-survival, including leakage-safe preprocessing, model selection, probability prediction, and censoring-aware metrics.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scikit-survival",
+    "branch": "main"
+  },
+  {
+    "name": "scvelo",
+    "description": "Performs RNA velocity analysis with scVelo from spliced and unspliced single-cell RNA counts. Fits deterministic or dynamical models, examines gene phase portraits, builds velocity graphs, estimates relative latent time, and ranks velocity-associated genes. Use for directional trajectory hypotheses and kinetic-model diagnostics alongside Scanpy; velocity alone does not establish cell fate or causal drivers.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scvelo",
+    "branch": "main"
+  },
+  {
+    "name": "scvi-tools",
+    "description": "Fits probabilistic models for single-cell omics, including scVI batch integration, scANVI annotation, totalVI CITE-seq, MultiVI RNA/ATAC integration, and posterior differential expression. Use for generative modeling, reference mapping, multimodal analysis, or model-based uncertainty; use scanpy for standard preprocessing and exploratory analysis.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/scvi-tools",
+    "branch": "main"
+  },
+  {
+    "name": "seaborn",
+    "description": "Creates Seaborn statistical visualizations with pandas integration for distributions, relationships, categorical comparisons, regression displays, pair plots, and heatmaps. Supports function and objects interfaces with explicit aggregation, uncertainty, and missing-data handling. Best suited to static exploratory plots; plotly covers interactive figures and scientific-visualization covers publication styling.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/seaborn",
+    "branch": "main"
+  },
+  {
+    "name": "shap",
+    "description": "Explain and audit machine-learning predictions with SHAP. Use for selecting SHAP explainers and maskers, computing and validating feature attributions, handling multi-output explanations, and producing local or global SHAP visualizations.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/shap",
+    "branch": "main"
+  },
+  {
+    "name": "simpy",
+    "description": "Builds, inspects, tests, and analyzes bounded process-based discrete-event simulations with SimPy. Use for event scheduling, resource queues, interrupts, monitoring, independent replications, warm-up, and reproducible output analysis.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/simpy",
+    "branch": "main"
+  },
+  {
+    "name": "stable-baselines3",
+    "description": "Trains and evaluates single-agent reinforcement learning with Stable Baselines3 (PPO, SAC, DQN, TD3, DDPG, A2C), Gymnasium custom environments, vectorized rollouts, callbacks, and checkpoint normalization. Applies to reproducible RL experiments, continuous control, discrete actions, and SB3-Contrib recurrent or masked policies.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/stable-baselines3",
+    "branch": "main"
+  },
+  {
+    "name": "statistical-analysis",
+    "description": "Guided statistical analysis for research data - test selection, assumption checking, effect sizes, power analysis, Bayesian alternatives, and APA-formatted reporting. Use whenever a user wants to compare groups, test a hypothesis, analyze experimental or survey data, check statistical assumptions, compute required sample sizes, or write up results - even if they never name a specific test. Covers t-tests, ANOVA, chi-square, correlation, regression, non-parametric and Bayesian methods. For low-level model APIs, see the statsmodels and pymc skills.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/statistical-analysis",
+    "branch": "main"
+  },
+  {
+    "name": "statistical-power",
+    "description": "Calculates sample sizes and statistical power for study planning. Applies when someone asks \"how many subjects/samples/replicates do I need\", wants an a priori power analysis, a minimum detectable effect (MDE), a power curve, or needs to justify a sample size for a grant, IRB protocol, or pre-registration. Covers closed-form power for t-tests, ANOVA, proportions, correlations, chi-square, and regression, plus simulation-based (Monte Carlo) power for complex designs — logistic/Poisson regression, mixed models, cluster-randomized trials, survival, and interactions. Also handles requests that only mention an effect size, alpha, or \"80% power\" without saying \"power analysis\" explicitly. For laying out the study (randomization, blocking, factorial/DOE, crossover, sequential designs) use experimental-design; for analyzing data already collected and reporting it use statistical-analysis.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/statistical-power",
+    "branch": "main"
+  },
+  {
+    "name": "statsmodels",
+    "description": "Fits and diagnoses Python statistical models including OLS, GLM, discrete and mixed models, ARIMA and SARIMAX. Supports coefficient inference, marginal effects, model comparison and time series forecasting with explicit design and uncertainty checks. Used for econometrics and statistical modeling; for guided test selection with APA reporting, see statistical-analysis.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/statsmodels",
+    "branch": "main"
+  },
+  {
+    "name": "sympy",
+    "description": "Performs exact symbolic mathematics with SymPy for algebra, calculus, equation solving, symbolic linear algebra, physics, and lambdify or LaTeX code generation. Use when a task needs symbolic results, explicit assumptions, or exact arithmetic; use NumPy or SciPy for purely numerical workloads.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/sympy",
+    "branch": "main"
+  },
+  {
+    "name": "tamarind",
+    "description": "Provides access to a collection of open-source molecular design and structural biology tools on the Tamarind Bio platform, via its REST API or MCP server — no local GPUs required. Tamarind bundles popular open-source models for structure prediction (AlphaFold, Boltz, Chai, ESMFold), protein, binder, and de novo design (RFdiffusion, ProteinMPNN, BoltzGen), antibody and nanobody design and developability, protein-ligand docking (DiffDock, Autodock Vina), binding-affinity prediction, MSA generation, and molecular dynamics. Use when the user mentions Tamarind or tamarind.bio, wants to run any of these open-source tools in the cloud, references app.tamarind.bio/api or the x-api-key header, or needs to submit batches of sequences for structural or biophysical characterization.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/tamarind",
+    "branch": "main"
+  },
+  {
+    "name": "tellurium",
+    "description": "Simulates biochemical kinetic models from SBML or Antimony with Tellurium and libRoadRunner, checks model units, compares deterministic parameter perturbations, and exports and replays SBML plus SED-ML COMBINE archives. Use for reaction-network time courses, kinetic parameters, concentration dynamics and reproducible simulation experiments; steady-state constraint-based metabolic flux analysis belongs to cobrapy.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/tellurium",
+    "branch": "main"
+  },
+  {
+    "name": "tiledbvcf",
+    "description": "Stores and retrieves genomic variant calls with TileDB-VCF. Use for indexed single-sample VCF/BCF ingestion, incremental cohorts, region and sample queries, streaming results, allele statistics, QC, and VCF/BCF export locally or through TileDB Cloud.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/tiledbvcf",
+    "branch": "main"
+  },
+  {
+    "name": "timesfm-forecasting",
+    "description": "Performs zero-shot time-series forecasting with Google's TimesFM, including regular-grid CSV preparation, quantile forecasts, XReg covariates, and held-out evaluation. Uses the Apache-licensed TimesFM 2.5 checkpoint by default and documents the distinct TimesFM 3.0 multivariate API and weight-license requirements.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/timesfm-forecasting",
+    "branch": "main"
+  },
+  {
+    "name": "torch-geometric",
+    "description": "Supports PyTorch Geometric (PyG) graph neural networks — node/link/graph classification, message passing (GCN, GAT, GraphSAGE, GIN), heterogeneous graphs, neighbor sampling, and custom datasets. Use when working with torch_geometric, not for general NetworkX analytics or non-graph PyTorch models.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/torch-geometric",
+    "branch": "main"
+  },
+  {
+    "name": "torchdrug",
+    "description": "Builds and troubleshoots TorchDrug 0.2.1 workflows for molecular graphs, property prediction, self-supervised pretraining, molecule generation, retrosynthesis, protein representation learning, and knowledge graph reasoning. Use when code imports torchdrug or needs its datasets, models, tasks, or Engine.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/torchdrug",
+    "branch": "main"
+  },
+  {
+    "name": "transformers",
+    "description": "Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, and Trainer fine-tuning on NLP, vision, audio, and multimodal tasks. Applies when working with AutoModel, pipelines, tokenizers, generation configs, or TrainingArguments within Transformers.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/transformers",
+    "branch": "main"
+  },
+  {
+    "name": "treatment-plans",
+    "description": "Formats and structurally validates local treatment-plan documentation after clinical decisions have already been supplied and verified by authorized licensed professionals. Use for source traceability, clinician-authored intervention records, goals and checkpoints, shared-decision records, reconciliation handoffs, and release gates—not for clinical decision-making.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/treatment-plans",
+    "branch": "main"
+  },
+  {
+    "name": "umap-learn",
+    "description": "Applies UMAP-learn to nonlinear dimensionality reduction, 2D/3D embeddings, clustering preprocessing, supervised or semi-supervised UMAP, DensMAP, AlignedUMAP, and Parametric UMAP workflows.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/umap-learn",
+    "branch": "main"
+  },
+  {
+    "name": "uncertainty-and-units",
+    "description": "Tracks physical units and propagates measurement uncertainty in scientific calculations using pint and uncertainties. Use for unit conversion and dimensional checking, GUM uncertainty budgets, Type A and Type B evaluation, coverage factors and expanded uncertainty, Monte Carlo propagation, significant-figure and plus-minus reporting, error propagation through curve fits, CODATA constants, auditing Python code for stripped units or broken uncertainty propagation, and order-of-magnitude plausibility checks using dimensionless groups (Reynolds, Peclet, Damkohler, Knudsen, Biot, Womersley), characteristic scales such as diffusion time or Debye length, and observed magnitude ranges. Trigger on \"is this number physically reasonable\", \"sanity check these units\", \"what regime is this flow in\", or a result that looks off by orders of magnitude.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/uncertainty-and-units",
+    "branch": "main"
+  },
+  {
+    "name": "usfiscaldata",
+    "description": "Queries the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use for national debt (Debt to the Penny), Daily Treasury Statements, Monthly Treasury Statements, Treasury securities auctions, interest rates, foreign exchange rates, savings bonds, or U.S. government revenue and spending statistics.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/usfiscaldata",
+    "branch": "main"
+  },
+  {
+    "name": "vaex",
+    "description": "Processes large tabular scientific datasets with Vaex expressions, filtered views, streamed statistics, binned visualizations, and file conversion. Use for larger-than-RAM HDF5, Arrow, CSV, or Parquet analysis, virtual feature engineering, or Vaex ML preprocessing; distinguishes these operations from estimators and conversions that materialize data.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/vaex",
+    "branch": "main"
+  },
+  {
+    "name": "venue-templates",
+    "description": "Prepares journal manuscripts, conference papers, research posters, and grant documents using venue-specific formatting guidance and bundled LaTeX scaffolds. Supports selecting an official template, checking current page or anonymity rules, adapting academic writing to a venue, or inspecting a submission PDF.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/venue-templates",
+    "branch": "main"
+  },
+  {
+    "name": "waypoint-bio",
+    "description": "Supports work with Outpost Bio's open microbiome foundation models - the Waypoint checkpoints (Waypoint-6m, Waypoint-45m, Waypoint-170m), the Atlas pretraining corpus, the Compass eight-task benchmark, or the `waypoint` CLI from the `waypoint-bio` package. Covers embedding microbiome samples, fine-tuning on taxonomic abundance data, benchmarking a checkpoint on Compass, pretraining a GPT-2 model on taxonomic abundance profiles, and converting MetaPhlAn, Kraken2, QIIME 2, or MGnify abundance tables into waypoint format.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/waypoint-bio",
+    "branch": "main"
+  },
+  {
+    "name": "what-if-oracle",
+    "description": "Supports structured what-if scenario analysis for research planning, experimental contingencies, and scientific project decisions. Explores favorable, reference, adverse, wild-card, contrarian, and second-order scenarios with explicit assumptions, evidence, and decision triggers. Use to stress-test a research plan under uncertainty; scenario narratives do not estimate causal effects or calibrated forecast probabilities.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/what-if-oracle",
+    "branch": "main"
+  },
+  {
+    "name": "zarr-python",
+    "description": "Stores and queries chunked N-D scientific arrays with Zarr-Python 3, including codecs, sharding, S3/GCS storage, and NumPy/Dask/Xarray integration. Use for array layout, bounded I/O, format migration, or scientific metadata preservation.",
+    "pack": "scientific-agent-skills",
+    "repo": "K-Dense-AI/scientific-agent-skills",
+    "path": "skills/zarr-python",
+    "branch": "main"
+  },
+  {
+    "name": "brainstorming",
+    "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/brainstorming",
+    "branch": "main"
+  },
+  {
+    "name": "diagnosing-superpowers",
+    "description": "Use when a superpowers session went wrong and your human partner wants to know why — repeated work, ignored plans, stumbles, poor results, a skill that didn't fire, \"it took too long\", \"why is it so expensive\", \"what is it doing\" — or wants to build a bug report for the superpowers maintainers, for the current session or a past one identified by id or path, on any harness.",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/diagnosing-superpowers",
+    "branch": "main"
+  },
+  {
+    "name": "dispatching-parallel-agents",
+    "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/dispatching-parallel-agents",
+    "branch": "main"
+  },
+  {
+    "name": "executing-plans",
+    "description": "Use when executing an implementation plan in the current session as the implementer yourself — your human partner chose inline execution, or no subagent tool is available",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/executing-plans",
+    "branch": "main"
+  },
+  {
+    "name": "finishing-a-development-branch",
+    "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/finishing-a-development-branch",
+    "branch": "main"
+  },
+  {
+    "name": "receiving-code-review",
+    "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/receiving-code-review",
+    "branch": "main"
+  },
+  {
+    "name": "requesting-code-review",
+    "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/requesting-code-review",
+    "branch": "main"
+  },
+  {
+    "name": "subagent-driven-development",
+    "description": "Use when executing implementation plans with independent tasks in the current session",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/subagent-driven-development",
+    "branch": "main"
+  },
+  {
+    "name": "systematic-debugging",
+    "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/systematic-debugging",
+    "branch": "main"
+  },
+  {
+    "name": "test-driven-development",
+    "description": "Use when implementing any feature or bugfix, before writing implementation code",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/test-driven-development",
+    "branch": "main"
+  },
+  {
+    "name": "using-git-worktrees",
+    "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/using-git-worktrees",
+    "branch": "main"
+  },
+  {
+    "name": "using-superpowers",
+    "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/using-superpowers",
+    "branch": "main"
+  },
+  {
+    "name": "verification-before-completion",
+    "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/verification-before-completion",
+    "branch": "main"
+  },
+  {
+    "name": "writing-plans",
+    "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/writing-plans",
+    "branch": "main"
+  },
+  {
+    "name": "writing-skills",
+    "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+    "pack": "superpowers",
+    "repo": "obra/superpowers",
+    "path": "skills/writing-skills",
+    "branch": "main"
+  },
+  {
+    "name": "vercel-composition-patterns",
+    "description": " React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/composition-patterns",
+    "branch": "main"
+  },
+  {
+    "name": "deploy-to-vercel",
+    "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/deploy-to-vercel",
+    "branch": "main"
+  },
+  {
+    "name": "vercel-react-best-practices",
+    "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/react-best-practices",
+    "branch": "main"
+  },
+  {
+    "name": "vercel-react-native-skills",
+    "description": " React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/react-native-skills",
+    "branch": "main"
+  },
+  {
+    "name": "vercel-react-view-transitions",
+    "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/react-view-transitions",
+    "branch": "main"
+  },
+  {
+    "name": "vercel-cli-with-tokens",
+    "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/vercel-cli-with-tokens",
+    "branch": "main"
+  },
+  {
+    "name": "vercel-optimize",
+    "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/vercel-optimize",
+    "branch": "main"
+  },
+  {
+    "name": "web-design-guidelines",
+    "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/web-design-guidelines",
+    "branch": "main"
+  },
+  {
+    "name": "writing-guidelines",
+    "description": "Review docs/prose for Writing Guidelines compliance. Use when asked to \"review my docs\", \"check writing style\", \"audit prose\", \"review docs voice and tone\", or \"check this page against the writing handbook\".",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-skills",
+    "path": "skills/writing-guidelines",
+    "branch": "main"
+  }
+]

@@ -10,9 +10,11 @@ import { SupportLink } from "@/components/SupportLink";
 import { getCategoriesWithCounts, getFeaturedProjects, getRecentProjects } from "@/lib/projects";
 import { getSupportUrl } from "@/lib/support";
 import { siteConfig } from "@/lib/site";
+import { AGENTS, PRESETS, skills } from "@/lib/skills";
 import { isLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { buildAlternates } from "@/lib/i18n/metadata";
+import { formatMessage } from "@/lib/i18n/format";
 
 type HomePageProps = {
   params: Promise<{ locale: string }>;
@@ -57,19 +59,59 @@ export default async function HomePage({ params }: HomePageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <section className="flex flex-col items-center gap-6 text-center">
-        <h1 className="max-w-2xl text-4xl font-bold tracking-tight sm:text-5xl">
+      <section className="flex flex-col items-center gap-6 text-center" aria-labelledby="skill-builder-hero">
+        <p className="text-sm font-medium text-accent">{dict.home.skillsEyebrow}</p>
+        <h1 id="skill-builder-hero" className="max-w-3xl text-4xl font-bold tracking-tight sm:text-5xl">
+          {dict.home.skillsTitleLine1}
+          <br />
+          {dict.home.skillsTitleLine2}
+        </h1>
+        <p className="max-w-xl text-lg text-muted-foreground">{dict.home.skillsSubtitle}</p>
+        <Link
+          href={`/${locale}/skills`}
+          className="rounded-full bg-accent px-6 py-3 text-sm font-medium text-accent-foreground hover:opacity-90"
+        >
+          {dict.home.skillsCta}
+        </Link>
+        <p className="text-xs text-muted-foreground">
+          {formatMessage(dict.home.skillsStats, {
+            skills: skills.length,
+            packs: new Set(skills.map((skill) => skill.pack)).size,
+            agents: AGENTS.length - 1,
+          })}
+        </p>
+        <div className="mt-4 w-full">
+          <p className="mb-3 text-xs text-muted-foreground">{dict.home.skillsPresetsLabel}</p>
+          <ul className="grid grid-cols-1 gap-3 text-left sm:grid-cols-2 lg:grid-cols-4">
+            {PRESETS.map((preset) => (
+              <li key={preset.id}>
+                <Link
+                  href={`/${locale}/skills?preset=${preset.id}`}
+                  className="block h-full rounded-lg border border-border p-4 transition-colors hover:border-accent"
+                >
+                  <span className="block font-medium">{dict.skills.presets[preset.id].title}</span>
+                  <span className="mt-1 block text-sm text-muted-foreground">
+                    {dict.skills.presets[preset.id].description}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section className="mt-24 flex flex-col items-center gap-6 text-center" aria-labelledby="find-open-source">
+        <h2 id="find-open-source" className="max-w-2xl text-3xl font-bold tracking-tight sm:text-4xl">
           {dict.home.heroTitleLine1}
           <br />
           {dict.home.heroTitleLine2}
-        </h1>
+        </h2>
         <p className="max-w-xl text-lg text-muted-foreground">{dict.home.heroSubtitle}</p>
         <SearchBox
           locale={locale}
           placeholder={dict.home.searchPlaceholder}
           inputLabel={dict.search.inputLabel}
           submitLabel={dict.search.submitLabel}
-          autoFocus
         />
         <div className="flex flex-col items-center gap-2">
           <p className="text-xs text-muted-foreground">{dict.home.popularSearchesLabel}</p>

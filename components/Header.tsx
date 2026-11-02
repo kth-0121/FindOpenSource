@@ -23,6 +23,9 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         </Link>
         <div className="flex flex-wrap items-center gap-x-4 gap-y-2 sm:gap-x-5">
           <nav aria-label="Primary" className="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm sm:gap-x-5">
+            <Link href={`/${locale}/skills`} className="font-medium text-accent hover:opacity-80">
+              {dict.nav.skills}
+            </Link>
             <Link href={`/${locale}/categories`} className="text-foreground/80 hover:text-foreground">
               {dict.nav.categories}
             </Link>
