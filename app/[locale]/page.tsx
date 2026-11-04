@@ -91,7 +91,7 @@ export default async function HomePage({ params }: HomePageProps) {
 
   const quickMenu: { key: QuickMenuKey; href: string }[] = [
     { key: "skills", href: `/${locale}/skills` },
-    { key: "search", href: "#search" },
+    { key: "search", href: `/${locale}/search` },
     { key: "categories", href: `/${locale}/categories` },
     { key: "analyze", href: `/${locale}/analyze` },
     { key: "compare", href: `/${locale}/compare` },
