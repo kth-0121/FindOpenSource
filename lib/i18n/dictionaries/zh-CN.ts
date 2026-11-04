@@ -35,13 +35,22 @@ const dictionary: Dictionary = {
     introTitleLine1: "让 AI 智能体更强，",
     introTitleLine2: "让开源选型更准。",
     introSubtitle: "FindOpenSource 把开源 Agent Skills 变成粘贴即可安装的提示词，并帮助你发现、对比和分析开源项目。",
-    introPrimaryCta: "打开技能构建器",
-    introSecondaryCta: "搜索开源项目",
     stats: {
       skills: "智能体技能",
       projects: "开源项目",
       categories: "分类",
       languages: "支持语言",
+    },
+    quickMenu: {
+      heading: "主要功能",
+      items: {
+        skills: { title: "技能构建器", body: "一段提示词安装技能" },
+        search: { title: "开源搜索", body: "按功能查找开源项目" },
+        categories: { title: "分类", body: "浏览 21 个分类" },
+        analyze: { title: "仓库分析", body: "查看仓库在用的开源项目" },
+        compare: { title: "项目对比", body: "两个项目并排比较" },
+        contribute: { title: "参与贡献", body: "推荐一个项目" },
+      },
     },
     featureSkills: {
       eyebrow: "智能体技能构建器",
@@ -76,12 +85,7 @@ const dictionary: Dictionary = {
     popularSearchesLabel: "热门搜索",
     popularSearches: ["身份验证", "聊天", "数据库", "图片上传", "CMS", "AI"],
     browseCategories: "浏览分类",
-    viewAll: "查看全部",
     popularOpenSource: "热门开源项目",
-    recentlyAdded: "最近添加",
-    supportHeading: "FindOpenSource 对你有帮助吗？",
-    supportBody: "通过 GitHub Sponsors 赞助 FindOpenSource，帮助我们持续改进开源项目的发现体验。",
-    supportCta: "赞助 FindOpenSource",
   },
   search: {
     inputLabel: "搜索开源项目",

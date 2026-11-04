@@ -35,13 +35,22 @@ const dictionary: Dictionary = {
     introTitleLine1: "AIエージェントをもっと強く。",
     introTitleLine2: "オープンソースをもっと的確に。",
     introSubtitle: "FindOpenSourceは、オープンソースのAgent Skillsを貼り付けるだけのインストール用プロンプトに変え、オープンソースプロジェクトの検索・比較・分析を手助けします。",
-    introPrimaryCta: "スキルビルダーを開く",
-    introSecondaryCta: "オープンソースを検索",
     stats: {
       skills: "エージェントスキル",
       projects: "オープンソースプロジェクト",
       categories: "カテゴリ",
       languages: "対応言語",
+    },
+    quickMenu: {
+      heading: "主な機能",
+      items: {
+        skills: { title: "スキルビルダー", body: "プロンプト1つでスキルを導入" },
+        search: { title: "オープンソース検索", body: "機能からオープンソースを探す" },
+        categories: { title: "カテゴリ", body: "21の分野を見る" },
+        analyze: { title: "リポジトリ分析", body: "リポジトリが使うOSSを確認" },
+        compare: { title: "プロジェクト比較", body: "2つを並べて比較" },
+        contribute: { title: "貢献する", body: "プロジェクトを提案" },
+      },
     },
     featureSkills: {
       eyebrow: "エージェントスキルビルダー",
@@ -76,12 +85,7 @@ const dictionary: Dictionary = {
     popularSearchesLabel: "よく検索されるキーワード",
     popularSearches: ["認証", "チャット", "データベース", "画像アップロード", "CMS", "AI"],
     browseCategories: "カテゴリを見る",
-    viewAll: "すべて見る",
     popularOpenSource: "人気のオープンソース",
-    recentlyAdded: "最近追加されたプロジェクト",
-    supportHeading: "FindOpenSource は役に立ちましたか?",
-    supportBody: "GitHub Sponsors で FindOpenSource をサポートして、オープンソース発見の改善を後押ししてください。",
-    supportCta: "FindOpenSource をサポート",
   },
   search: {
     inputLabel: "オープンソースプロジェクトを検索",

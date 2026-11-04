@@ -35,13 +35,22 @@ const dictionary: Dictionary = {
     introTitleLine1: "Power up your AI agent.",
     introTitleLine2: "Find the right open source.",
     introSubtitle: "FindOpenSource turns open-source Agent Skills into a ready-to-paste install prompt, and helps you discover, compare and audit open-source projects.",
-    introPrimaryCta: "Open the Skill Builder",
-    introSecondaryCta: "Search open source",
     stats: {
       skills: "agent skills",
       projects: "open-source projects",
       categories: "categories",
       languages: "languages",
+    },
+    quickMenu: {
+      heading: "Features",
+      items: {
+        skills: { title: "Skill Builder", body: "Install agent skills with one prompt" },
+        search: { title: "Search", body: "Find open source by feature" },
+        categories: { title: "Categories", body: "Browse 21 categories" },
+        analyze: { title: "Analyze a repo", body: "See what your repo uses" },
+        compare: { title: "Compare", body: "Two projects side by side" },
+        contribute: { title: "Contribute", body: "Suggest a project" },
+      },
     },
     featureSkills: {
       eyebrow: "Agent Skill Builder",
@@ -76,12 +85,7 @@ const dictionary: Dictionary = {
     popularSearchesLabel: "Popular searches",
     popularSearches: ["authentication", "chat", "database", "image upload", "cms", "ai"],
     browseCategories: "Browse Categories",
-    viewAll: "View all",
     popularOpenSource: "Popular Open Source",
-    recentlyAdded: "Recently Added",
-    supportHeading: "Found FindOpenSource useful?",
-    supportBody: "Support the project on GitHub Sponsors and help us keep improving open-source discovery.",
-    supportCta: "Support FindOpenSource",
   },
   search: {
     inputLabel: "Search open source projects",

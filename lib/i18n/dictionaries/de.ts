@@ -35,13 +35,22 @@ const dictionary: Dictionary = {
     introTitleLine1: "Mach deinen KI-Agenten stärker.",
     introTitleLine2: "Finde das passende Open Source.",
     introSubtitle: "FindOpenSource macht aus Open-Source-Agent-Skills einen Installations-Prompt zum Einfügen und hilft dir, Open-Source-Projekte zu finden, zu vergleichen und zu analysieren.",
-    introPrimaryCta: "Skill Builder öffnen",
-    introSecondaryCta: "Open Source suchen",
     stats: {
       skills: "Agent Skills",
       projects: "Open-Source-Projekte",
       categories: "Kategorien",
       languages: "Sprachen",
+    },
+    quickMenu: {
+      heading: "Funktionen",
+      items: {
+        skills: { title: "Skill Builder", body: "Skills mit einem Prompt installieren" },
+        search: { title: "Suche", body: "Open Source nach Funktion finden" },
+        categories: { title: "Kategorien", body: "21 Kategorien durchstöbern" },
+        analyze: { title: "Repo analysieren", body: "Sehen, was dein Repo nutzt" },
+        compare: { title: "Vergleichen", body: "Zwei Projekte nebeneinander" },
+        contribute: { title: "Mitmachen", body: "Ein Projekt vorschlagen" },
+      },
     },
     featureSkills: {
       eyebrow: "Agent Skill Builder",
@@ -76,12 +85,7 @@ const dictionary: Dictionary = {
     popularSearchesLabel: "Beliebte Suchanfragen",
     popularSearches: ["Authentifizierung", "Chat", "Datenbank", "Bild-Upload", "CMS", "KI"],
     browseCategories: "Kategorien durchsuchen",
-    viewAll: "Alle anzeigen",
     popularOpenSource: "Beliebte Open-Source-Projekte",
-    recentlyAdded: "Kürzlich hinzugefügt",
-    supportHeading: "Hat dir FindOpenSource geholfen?",
-    supportBody: "Unterstütze das Projekt auf GitHub Sponsors und hilf uns, die Open-Source-Suche weiter zu verbessern.",
-    supportCta: "FindOpenSource unterstützen",
   },
   search: {
     inputLabel: "Open-Source-Projekte durchsuchen",

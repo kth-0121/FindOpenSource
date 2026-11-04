@@ -35,13 +35,22 @@ const dictionary: Dictionary = {
     introTitleLine1: "AI 에이전트는 더 강하게,",
     introTitleLine2: "오픈소스는 더 정확하게.",
     introSubtitle: "FindOpenSource는 오픈소스 Agent Skills를 붙여넣기만 하면 되는 설치 프롬프트로 만들어 주고, 오픈소스 프로젝트를 찾고 비교하고 분석하도록 돕습니다.",
-    introPrimaryCta: "스킬 빌더 열기",
-    introSecondaryCta: "오픈소스 검색",
     stats: {
       skills: "에이전트 스킬",
       projects: "오픈소스 프로젝트",
       categories: "카테고리",
       languages: "지원 언어",
+    },
+    quickMenu: {
+      heading: "주요 기능",
+      items: {
+        skills: { title: "스킬 빌더", body: "프롬프트 하나로 스킬 설치" },
+        search: { title: "오픈소스 검색", body: "기능으로 오픈소스 찾기" },
+        categories: { title: "카테고리", body: "21개 분야 둘러보기" },
+        analyze: { title: "저장소 분석", body: "내 저장소가 쓰는 오픈소스" },
+        compare: { title: "프로젝트 비교", body: "두 프로젝트 나란히 보기" },
+        contribute: { title: "기여하기", body: "프로젝트 추천하기" },
+      },
     },
     featureSkills: {
       eyebrow: "에이전트 스킬 빌더",
@@ -76,12 +85,7 @@ const dictionary: Dictionary = {
     popularSearchesLabel: "인기 검색어",
     popularSearches: ["인증", "채팅", "데이터베이스", "이미지 업로드", "CMS", "AI"],
     browseCategories: "카테고리 둘러보기",
-    viewAll: "전체 보기",
     popularOpenSource: "인기 오픈소스",
-    recentlyAdded: "최근 추가된 프로젝트",
-    supportHeading: "FindOpenSource가 도움이 되셨나요?",
-    supportBody: "더 많은 오픈소스 프로젝트를 발견할 수 있도록 GitHub Sponsors로 FindOpenSource를 후원해주세요.",
-    supportCta: "FindOpenSource 후원하기",
   },
   search: {
     inputLabel: "오픈소스 프로젝트 검색",

@@ -33,9 +33,11 @@ export interface Dictionary {
     introTitleLine1: string;
     introTitleLine2: string;
     introSubtitle: string;
-    introPrimaryCta: string;
-    introSecondaryCta: string;
     stats: { skills: string; projects: string; categories: string; languages: string };
+    quickMenu: {
+      heading: string;
+      items: Record<"skills" | "search" | "categories" | "analyze" | "compare" | "contribute", { title: string; body: string }>;
+    };
     featureSkills: {
       eyebrow: string;
       title: string;
@@ -56,12 +58,7 @@ export interface Dictionary {
     popularSearchesLabel: string;
     popularSearches: string[];
     browseCategories: string;
-    viewAll: string;
     popularOpenSource: string;
-    recentlyAdded: string;
-    supportHeading: string;
-    supportBody: string;
-    supportCta: string;
   };
   search: {
     inputLabel: string;

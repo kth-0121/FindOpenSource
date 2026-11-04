@@ -35,13 +35,22 @@ const dictionary: Dictionary = {
     introTitleLine1: "Potencia tu agente de IA.",
     introTitleLine2: "Encuentra el open source adecuado.",
     introSubtitle: "FindOpenSource convierte Agent Skills de código abierto en un prompt de instalación listo para pegar, y te ayuda a descubrir, comparar y analizar proyectos open source.",
-    introPrimaryCta: "Abrir el constructor de skills",
-    introSecondaryCta: "Buscar open source",
     stats: {
       skills: "skills para agentes",
       projects: "proyectos open source",
       categories: "categorías",
       languages: "idiomas",
+    },
+    quickMenu: {
+      heading: "Funciones",
+      items: {
+        skills: { title: "Constructor de skills", body: "Instala skills con un solo prompt" },
+        search: { title: "Búsqueda", body: "Encuentra open source por función" },
+        categories: { title: "Categorías", body: "Explora 21 categorías" },
+        analyze: { title: "Analizar un repo", body: "Mira qué usa tu repo" },
+        compare: { title: "Comparar", body: "Dos proyectos lado a lado" },
+        contribute: { title: "Contribuir", body: "Sugiere un proyecto" },
+      },
     },
     featureSkills: {
       eyebrow: "Constructor de skills para agentes",
@@ -76,12 +85,7 @@ const dictionary: Dictionary = {
     popularSearchesLabel: "Búsquedas populares",
     popularSearches: ["autenticación", "chat", "base de datos", "subida de imágenes", "CMS", "IA"],
     browseCategories: "Explorar categorías",
-    viewAll: "Ver todas",
     popularOpenSource: "Open source popular",
-    recentlyAdded: "Añadidos recientemente",
-    supportHeading: "¿Te ha resultado útil FindOpenSource?",
-    supportBody: "Apoya el proyecto en GitHub Sponsors y ayúdanos a seguir mejorando el descubrimiento de open source.",
-    supportCta: "Apoyar FindOpenSource",
   },
   search: {
     inputLabel: "Buscar proyectos open source",
