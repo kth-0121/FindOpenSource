@@ -30,6 +30,8 @@ export interface Dictionary {
     contact: string;
   };
   home: {
+    /** Site-wide default <title> suffix and the home page title. */
+    metaTitle: string;
     introTitleLine1: string;
     introTitleLine2: string;
     introSubtitle: string;

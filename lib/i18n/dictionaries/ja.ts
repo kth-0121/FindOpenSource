@@ -32,6 +32,7 @@ const dictionary: Dictionary = {
     contact: "お問い合わせ",
   },
   home: {
+    metaTitle: "AIエージェントのスキルビルダー・オープンソース検索",
     introTitleLine1: "AIエージェントをもっと強く。",
     introTitleLine2: "オープンソースをもっと的確に。",
     introSubtitle: "FindOpenSourceは、オープンソースのAgent Skillsを貼り付けるだけのインストール用プロンプトに変え、オープンソースプロジェクトの検索・比較・分析を手助けします。",

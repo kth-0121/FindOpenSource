@@ -32,6 +32,7 @@ const dictionary: Dictionary = {
     contact: "Kontakt",
   },
   home: {
+    metaTitle: "Agent Skill Builder & Open-Source-Suche",
     introTitleLine1: "Mach deinen KI-Agenten stärker.",
     introTitleLine2: "Finde das passende Open Source.",
     introSubtitle: "FindOpenSource macht aus Open-Source-Agent-Skills einen Installations-Prompt zum Einfügen und hilft dir, Open-Source-Projekte zu finden, zu vergleichen und zu analysieren.",

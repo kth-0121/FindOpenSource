@@ -32,6 +32,7 @@ const dictionary: Dictionary = {
     contact: "联系我们",
   },
   home: {
+    metaTitle: "AI 智能体技能构建器 · 开源项目搜索",
     introTitleLine1: "让 AI 智能体更强，",
     introTitleLine2: "让开源选型更准。",
     introSubtitle: "FindOpenSource 把开源 Agent Skills 变成粘贴即可安装的提示词，并帮助你发现、对比和分析开源项目。",

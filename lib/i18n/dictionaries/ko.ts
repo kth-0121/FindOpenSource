@@ -32,6 +32,7 @@ const dictionary: Dictionary = {
     contact: "문의",
   },
   home: {
+    metaTitle: "AI 에이전트 스킬 빌더 · 오픈소스 검색",
     introTitleLine1: "AI 에이전트는 더 강하게,",
     introTitleLine2: "오픈소스는 더 정확하게.",
     introSubtitle: "FindOpenSource는 오픈소스 Agent Skills를 붙여넣기만 하면 되는 설치 프롬프트로 만들어 주고, 오픈소스 프로젝트를 찾고 비교하고 분석하도록 돕습니다.",

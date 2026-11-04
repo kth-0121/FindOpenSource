@@ -35,28 +35,29 @@ export async function generateMetadata({ params }: LocaleLayoutProps): Promise<M
   if (!isLocale(localeParam)) return {};
   const locale: Locale = localeParam;
   const alternates = buildAlternates(locale, "");
+  const dict = getDictionary(locale);
 
   return {
     metadataBase: new URL(siteConfig.url),
     title: {
-      default: `${siteConfig.name} — Find the right open source for your project`,
+      default: `${siteConfig.name} — ${dict.home.metaTitle}`,
       template: `%s — ${siteConfig.name}`,
     },
-    description: siteConfig.description,
+    description: dict.home.introSubtitle,
     alternates,
     openGraph: {
       type: "website",
       url: alternates.canonical,
       siteName: siteConfig.name,
       title: siteConfig.name,
-      description: siteConfig.description,
+      description: dict.home.introSubtitle,
       locale: ogLocale(locale),
       alternateLocale: ogAlternateLocales(locale),
     },
     twitter: {
       card: "summary_large_image",
       title: siteConfig.name,
-      description: siteConfig.description,
+      description: dict.home.introSubtitle,
     },
   };
 }
