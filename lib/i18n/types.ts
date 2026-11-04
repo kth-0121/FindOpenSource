@@ -30,14 +30,25 @@ export interface Dictionary {
     contact: string;
   };
   home: {
-    skillsEyebrow: string;
-    skillsTitleLine1: string;
-    skillsTitleLine2: string;
-    skillsSubtitle: string;
-    skillsCta: string;
-    /** {skills}, {packs}, {agents} */
-    skillsStats: string;
-    skillsPresetsLabel: string;
+    introTitleLine1: string;
+    introTitleLine2: string;
+    introSubtitle: string;
+    introPrimaryCta: string;
+    introSecondaryCta: string;
+    stats: { skills: string; projects: string; categories: string; languages: string };
+    featureSkills: {
+      eyebrow: string;
+      title: string;
+      body: string;
+      steps: [string, string, string];
+      cta: string;
+      presetsLabel: string;
+      /** {preset}, {agent} */
+      exampleLabel: string;
+    };
+    featureSearchEyebrow: string;
+    featureAnalyze: { eyebrow: string; title: string; body: string; cta: string };
+    featureCompare: { eyebrow: string; title: string; body: string; cta: string };
     heroTitleLine1: string;
     heroTitleLine2: string;
     heroSubtitle: string;
