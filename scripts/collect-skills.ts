@@ -10,6 +10,10 @@ import { execFileSync } from "node:child_process";
  * skills whose frontmatter marks them proprietary are left out, since this
  * is an open-source catalog.
  *
+ * Translations live separately in data/skill-translations.json, keyed by
+ * skill id with a hash of the English text they came from; lib/skills.test.ts
+ * fails for any new or changed description until it's re-translated.
+ *
  * Usage: npx tsx scripts/collect-skills.ts
  */
 

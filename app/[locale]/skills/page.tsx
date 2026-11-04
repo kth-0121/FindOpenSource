@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { SkillBuilder, type SkillPack } from "@/components/SkillBuilder";
 import { getProjectBySlug } from "@/lib/projects";
 import { SKILL_PACK_ORDER } from "@/lib/skills";
+import skillTranslations from "@/data/skill-translations.json";
 import { isLocale, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { buildAlternates } from "@/lib/i18n/metadata";
@@ -17,6 +18,16 @@ function getSkillPacks(locale: Locale): SkillPack[] {
     const project = getProjectBySlug(slug, locale);
     return project ? [{ slug, name: project.name, description: project.description }] : [];
   });
+}
+
+/** Server-side only, so each page ships just its own locale (English is already in lib/skills). */
+function getSkillDescriptions(locale: Locale): Record<string, string> {
+  if (locale === "en") return {};
+  const out: Record<string, string> = {};
+  for (const [id, t] of Object.entries(skillTranslations as Record<string, Record<string, string>>)) {
+    if (t[locale]) out[id] = t[locale];
+  }
+  return out;
 }
 
 export async function generateMetadata({ params }: SkillsPageProps): Promise<Metadata> {
@@ -43,7 +54,12 @@ export default async function SkillsPage({ params }: SkillsPageProps) {
       <p className="mt-2 max-w-2xl text-muted-foreground">{dict.skills.pageDescription}</p>
       <div className="mt-8">
         <Suspense fallback={null}>
-          <SkillBuilder packs={getSkillPacks(locale)} locale={locale} dict={dict} />
+          <SkillBuilder
+            packs={getSkillPacks(locale)}
+            descriptions={getSkillDescriptions(locale)}
+            locale={locale}
+            dict={dict}
+          />
         </Suspense>
       </div>
     </div>

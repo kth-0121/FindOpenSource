@@ -31,7 +31,18 @@ function presetSkills(id: string | null): Set<string> {
   return new Set(PRESETS.find((p) => p.id === id)?.skills ?? []);
 }
 
-export function SkillBuilder({ packs, locale, dict }: { packs: SkillPack[]; locale: Locale; dict: Dictionary }) {
+export function SkillBuilder({
+  packs,
+  descriptions,
+  locale,
+  dict,
+}: {
+  packs: SkillPack[];
+  /** Skill id -> description in the page locale; only sent for non-English locales. */
+  descriptions: Record<string, string>;
+  locale: Locale;
+  dict: Dictionary;
+}) {
   const t = dict.skills;
   const searchParams = useSearchParams();
   const [selected, setSelected] = useState<Set<string>>(() => presetSkills(searchParams.get("preset")));
@@ -44,8 +55,16 @@ export function SkillBuilder({ packs, locale, dict }: { packs: SkillPack[]; loca
   const agent = AGENTS.find((a) => a.id === agentId)!;
   const q = query.trim().toLowerCase();
   const visible = useMemo(
-    () => (q ? skills.filter((s) => s.name.includes(q) || s.description.toLowerCase().includes(q)) : skills),
-    [q],
+    () =>
+      q
+        ? skills.filter(
+            (s) =>
+              s.name.includes(q) ||
+              s.description.toLowerCase().includes(q) ||
+              descriptions[skillId(s)]?.toLowerCase().includes(q),
+          )
+        : skills,
+    [q, descriptions],
   );
   const picked = skills.filter((s) => selected.has(skillId(s)));
   const output = picked.length === 0 ? "" : tab === "prompt" ? buildPrompt(picked, agent, scope) : buildCommands(picked, agent, scope).join("\n");
@@ -165,8 +184,8 @@ export function SkillBuilder({ packs, locale, dict }: { packs: SkillPack[]; loca
                           />
                           <label htmlFor={`skill-${id}`} className="min-w-0 flex-1 cursor-pointer">
                             <span className="block font-mono text-sm">{skill.name}</span>
-                            <span className="mt-0.5 line-clamp-2 text-xs text-muted-foreground" title={skill.description}>
-                              {skill.description}
+                            <span className="mt-0.5 line-clamp-2 text-xs text-muted-foreground" title={descriptions[id] ?? skill.description}>
+                              {descriptions[id] ?? skill.description}
                             </span>
                           </label>
                           <a

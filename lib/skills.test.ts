@@ -1,7 +1,9 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { AGENTS, PRESETS, SKILL_PACK_ORDER, buildCommands, buildPrompt, skillId, skills } from "./skills";
+import { createHash } from "node:crypto";
 import { parseFrontmatter } from "../scripts/collect-skills";
+import translations from "../data/skill-translations.json";
 
 const byId = new Map(skills.map((s) => [skillId(s), s]));
 const claude = AGENTS.find((a) => a.id === "claude-code")!;
@@ -12,6 +14,17 @@ test("every preset skill exists in data/skills.json", () => {
 
 test("every collected pack has a display slot", () => {
   for (const skill of skills) assert.ok(SKILL_PACK_ORDER.includes(skill.pack), skill.pack);
+});
+
+test("every skill description is translated from its current English text", () => {
+  const all = translations as Record<string, Record<string, string>>;
+  for (const skill of skills) {
+    const t = all[skillId(skill)];
+    assert.ok(t, `missing translation: ${skillId(skill)}`);
+    // A changed upstream SKILL.md changes this hash: re-translate that skill.
+    assert.equal(t.source, createHash("sha1").update(skill.description).digest("hex").slice(0, 10), `stale translation: ${skillId(skill)}`);
+    for (const locale of ["ko", "ja", "zh-CN", "es", "de"]) assert.ok(t[locale], `${skillId(skill)} ${locale}`);
+  }
 });
 
 test("skill ids are unique", () => {

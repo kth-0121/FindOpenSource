@@ -238,7 +238,7 @@ const dictionary: Dictionary = {
     listLabel: "사용 가능한 스킬",
     searchLabel: "스킬 검색",
     searchPlaceholder: "스킬 검색 (예: debugging, react, pdf)",
-    descriptionNote: "스킬 설명은 각 스킬의 SKILL.md 원문(영어) 그대로 표시됩니다.",
+    descriptionNote: "스킬 설명은 각 스킬의 SKILL.md를 번역한 것입니다.",
     noResults: "검색과 일치하는 스킬이 없습니다.",
     skillCount: "스킬 {count}개",
     selectPack: "모두 선택",

@@ -238,7 +238,7 @@ const dictionary: Dictionary = {
     listLabel: "可用技能",
     searchLabel: "搜索技能",
     searchPlaceholder: "搜索技能（例如 debugging、react、pdf）",
-    descriptionNote: "技能说明按各技能 SKILL.md 的原文（英文）显示。",
+    descriptionNote: "技能说明译自各技能的 SKILL.md。",
     noResults: "没有与搜索匹配的技能。",
     skillCount: "{count} 个技能",
     selectPack: "全选",

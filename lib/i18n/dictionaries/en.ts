@@ -239,7 +239,7 @@ const dictionary: Dictionary = {
     listLabel: "Available skills",
     searchLabel: "Search skills",
     searchPlaceholder: "Search skills (e.g. debugging, react, pdf)",
-    descriptionNote: "Skill descriptions are shown as written in each skill's SKILL.md.",
+    descriptionNote: "Descriptions come from each skill's SKILL.md.",
     noResults: "No skills match your search.",
     skillCount: "{count} skills",
     selectPack: "Select all",

@@ -238,7 +238,7 @@ const dictionary: Dictionary = {
     listLabel: "利用できるスキル",
     searchLabel: "スキルを検索",
     searchPlaceholder: "スキルを検索（例: debugging, react, pdf）",
-    descriptionNote: "スキルの説明は各スキルのSKILL.mdの原文（英語）のまま表示しています。",
+    descriptionNote: "スキルの説明は各スキルのSKILL.mdを翻訳したものです。",
     noResults: "検索に一致するスキルはありません。",
     skillCount: "スキル {count} 件",
     selectPack: "すべて選択",
