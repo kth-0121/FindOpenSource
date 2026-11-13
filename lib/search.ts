@@ -16,6 +16,7 @@ const CATEGORY_PARTIAL = 8;
 const LANGUAGE_EXACT = 8;
 const LANGUAGE_PARTIAL = 4;
 const DESCRIPTION_PARTIAL = 5;
+const LONG_DESCRIPTION_PARTIAL = 3;
 const ALL_TOKENS_MATCHED_BONUS = 25;
 // Curated "this project genuinely serves this intent" claims (project.intents,
 // see lib/schema.ts / docs/project-evaluation.md). Pitched between
@@ -39,12 +40,26 @@ const INTENT_RELATED_MATCH = 5;
 const MIN_PARTIAL_TOKEN_LENGTH = 4;
 
 /**
- * Minimum query length before it's allowed to match *inside* a longer
- * taxonomy candidate phrase (see `expandQuery`). Below this, only an exact
- * match against a candidate counts, to avoid e.g. "ai" matching "container
- * orchestration" purely because the letters happen to appear in sequence.
+ * The length guards here are tuned for alphabetic words. A Korean, Japanese
+ * or Chinese word carries the same meaning in 2-3 characters ("로그인",
+ * "認証", "数据库"), so holding it to 4 would switch off description and
+ * synonym matching for nearly every CJK query.
  */
-const MIN_EXPANSION_QUERY_LENGTH = 4;
+const CJK = /[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]/;
+const minPartialLength = (text: string) => (CJK.test(text) ? 2 : MIN_PARTIAL_TOKEN_LENGTH);
+
+/**
+ * Substring match that, for alphabetic words, must begin at a word start:
+ * "logging" must not hit "blogging", nor "base" hit "database". CJK text has
+ * no word boundaries to anchor on, so it stays a plain substring match.
+ */
+function containsWord(text: string, word: string): boolean {
+  if (CJK.test(word)) return text.includes(word);
+  for (let i = text.indexOf(word); i !== -1; i = text.indexOf(word, i + 1)) {
+    if (i === 0 || !/[a-z0-9]/.test(text[i - 1])) return true;
+  }
+  return false;
+}
 
 /**
  * Query-expansion terms are scored at a fraction of a direct match. This
@@ -91,12 +106,12 @@ function expandQuery(query: string, locale: Locale): string[] {
     const matched = candidates.some((candidate) => {
       const value = candidate.toLowerCase();
       if (normalized === value) return true;
-      if (value.length >= MIN_PARTIAL_TOKEN_LENGTH && normalized.includes(value)) return true;
+      if (value.length >= minPartialLength(value) && containsWord(normalized, value)) return true;
       // Only let a *short* query match inside a longer candidate phrase once
       // it's long enough that an accidental substring hit is unlikely (e.g.
       // "ai" must not match "container orchestration" just because it
       // contains the letters "ai").
-      if (normalized.length >= MIN_EXPANSION_QUERY_LENGTH && value.includes(normalized)) return true;
+      if (normalized.length >= MIN_PARTIAL_TOKEN_LENGTH && containsWord(value, normalized)) return true;
       return false;
     });
 
@@ -138,31 +153,34 @@ function scoreTokenAgainstProject(
   token: string,
   project: Project,
   categories: Category[],
-  weight: number,
+  // False when the token is one word of a longer query: a project merely
+  // *named* that word ("Vector" for "vector db") must not outrank the
+  // projects the whole phrase describes.
+  soleToken: boolean,
 ): TokenMatch {
   let best = 0;
   let trusted = false;
-  const allowPartial = token.length >= MIN_PARTIAL_TOKEN_LENGTH;
+  const allowPartial = token.length >= minPartialLength(token);
 
   const name = project.name.toLowerCase();
   if (name === token) {
-    best = Math.max(best, NAME_EXACT);
+    best = Math.max(best, soleToken ? NAME_EXACT : NAME_PARTIAL);
     trusted = true;
-  } else if (allowPartial && name.includes(token)) best = Math.max(best, NAME_PARTIAL);
+  } else if (allowPartial && containsWord(name, token)) best = Math.max(best, NAME_PARTIAL);
 
   for (const keyword of project.keywords) {
     const value = keyword.toLowerCase();
     if (value === token) {
       best = Math.max(best, KEYWORD_EXACT);
       trusted = true;
-    } else if (allowPartial && value.includes(token)) best = Math.max(best, KEYWORD_PARTIAL);
+    } else if (allowPartial && containsWord(value, token)) best = Math.max(best, KEYWORD_PARTIAL);
   }
 
   for (const categorySlug of project.categories) {
     if (categorySlug === token) {
       best = Math.max(best, CATEGORY_EXACT);
       trusted = true;
-    } else if (allowPartial && categorySlug.includes(token)) best = Math.max(best, CATEGORY_PARTIAL);
+    } else if (allowPartial && containsWord(categorySlug, token)) best = Math.max(best, CATEGORY_PARTIAL);
 
     const category = categories.find((c) => c.slug === categorySlug);
     if (category) {
@@ -170,7 +188,7 @@ function scoreTokenAgainstProject(
       if (categoryName === token) {
         best = Math.max(best, CATEGORY_EXACT);
         trusted = true;
-      } else if (allowPartial && categoryName.includes(token)) best = Math.max(best, CATEGORY_PARTIAL);
+      } else if (allowPartial && containsWord(categoryName, token)) best = Math.max(best, CATEGORY_PARTIAL);
     }
   }
 
@@ -179,18 +197,20 @@ function scoreTokenAgainstProject(
     if (value === token) {
       best = Math.max(best, LANGUAGE_EXACT);
       trusted = true;
-    } else if (allowPartial && value.includes(token)) best = Math.max(best, LANGUAGE_PARTIAL);
+    } else if (allowPartial && containsWord(value, token)) best = Math.max(best, LANGUAGE_PARTIAL);
   }
 
-  if (allowPartial && project.description.toLowerCase().includes(token)) {
+  if (allowPartial && containsWord(project.description.toLowerCase(), token)) {
     best = Math.max(best, DESCRIPTION_PARTIAL);
+  } else if (allowPartial && containsWord(project.longDescription?.toLowerCase() ?? "", token)) {
+    best = Math.max(best, LONG_DESCRIPTION_PARTIAL);
   }
 
   const intentScore = scoreIntentMatch(token, project);
   if (intentScore > 0) trusted = true;
   best = Math.max(best, intentScore);
 
-  return { score: best * weight, trusted };
+  return { score: best, trusted };
 }
 
 /**
@@ -202,6 +222,8 @@ function scoreTokenAgainstProject(
  */
 function scoreExpansionTerm(term: string, project: Project): number {
   let best = 0;
+  // "k8s" expands to "kubernetes": the project of that name belongs on top.
+  if (project.name.toLowerCase() === term) best = NAME_EXACT;
   if (project.keywords.some((keyword) => keyword.toLowerCase() === term)) {
     best = Math.max(best, KEYWORD_EXACT);
   }
@@ -212,11 +234,39 @@ function scoreExpansionTerm(term: string, project: Project): number {
   return best * EXPANSION_WEIGHT;
 }
 
+/** One insertion, deletion or substitution apart. */
+function withinOneEdit(a: string, b: string): boolean {
+  if (Math.abs(a.length - b.length) > 1) return false;
+  let i = 0;
+  while (i < a.length && a[i] === b[i]) i++;
+  const [longer, shorter] = a.length >= b.length ? [a, b] : [b, a];
+  return longer.slice(i + 1) === shorter.slice(longer.length === shorter.length ? i + 1 : i);
+}
+
+/**
+ * Typo rescue for a query that found nothing: swaps each word for a project
+ * name or keyword word one edit away ("postgers" has none, "kuberntes" ->
+ * "kubernetes"). Returns the query unchanged when nothing is close.
+ * ponytail: one edit, Latin words of 5+ letters only; no transpositions or
+ * CJK. Swap in a real fuzzy matcher if typos turn out to matter more.
+ */
+function fixTypos(tokens: string[], projects: Project[]): string[] {
+  const vocabulary = new Set(
+    projects.flatMap((p) => [...p.name.toLowerCase().split(/\s+/), ...p.keywords.flatMap((k) => k.toLowerCase().split("-"))]),
+  );
+  return tokens.map((token) => {
+    if (token.length < 5 || vocabulary.has(token)) return token;
+    for (const word of vocabulary) if (word.length >= 4 && withinOneEdit(token, word)) return word;
+    return token;
+  });
+}
+
 export function searchProjects(
   query: string,
   projects: Project[],
   categories: Category[],
   locale: Locale,
+  allowTypoFix = true,
 ): SearchResult[] {
   const tokens = tokenize(query);
   if (tokens.length === 0) return [];
@@ -224,10 +274,13 @@ export function searchProjects(
   const expansionTerms = expandQuery(query, locale).filter((term) => !tokens.includes(term));
 
   const results = projects.map((project) => {
-    const tokenMatches = tokens.map((token) => scoreTokenAgainstProject(token, project, categories, 1));
+    const tokenMatches = tokens.map((token) => scoreTokenAgainstProject(token, project, categories, tokens.length === 1));
     const tokenScores = tokenMatches.map((match) => match.score);
     const directScore = tokenScores.reduce((total, tokenScore) => total + tokenScore, 0);
-    const matchesEveryToken = tokens.length > 1 && tokenScores.every((tokenScore) => tokenScore > 0);
+    // A word that only turns up somewhere in the long description is too weak
+    // to count as "this project covers that word".
+    const matchesEveryToken =
+      tokens.length > 1 && tokenScores.every((tokenScore) => tokenScore > LONG_DESCRIPTION_PARTIAL);
     const coverageBonus = matchesEveryToken ? tokens.length * ALL_TOKENS_MATCHED_BONUS : 0;
 
     const expansionScore = expansionTerms.reduce(
@@ -250,7 +303,11 @@ export function searchProjects(
     return { project, score };
   });
 
-  return results
+  const found = results
     .filter((result) => result.score > 0)
     .sort((a, b) => b.score - a.score || a.project.name.localeCompare(b.project.name));
+  if (found.length > 0 || !allowTypoFix) return found;
+
+  const fixed = fixTypos(tokens, projects).join(" ");
+  return fixed === tokens.join(" ") ? found : searchProjects(fixed, projects, categories, locale, false);
 }
