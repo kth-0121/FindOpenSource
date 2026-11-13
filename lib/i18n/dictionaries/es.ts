@@ -11,6 +11,7 @@ const dictionary: Dictionary = {
   },
   nav: {
     skills: "Skill Builder",
+    setups: "Setups",
     categories: "Categorías",
     contribute: "Contribuir",
     github: "GitHub",
@@ -227,18 +228,58 @@ const dictionary: Dictionary = {
       coding: {
         title: "Programación disciplinada",
         description: "Lluvia de ideas, planificar, tests primero, depurar con método y verificar antes de terminar.",
+        benefits: [
+          "Acuerda la especificación antes de programar, así hay menos retrabajo",
+          "Tests primero y depuración de la causa raíz en vez de parches a ciegas",
+          "Debe mostrar la verificación antes de decir que terminó: menos \"ya funciona\" falsos",
+        ],
       },
       frontend: {
         title: "Frontend y React",
         description: "Diseño de UI con personalidad, buenas prácticas de React y pruebas en navegador.",
+        benefits: [
+          "UI con una dirección visual intencionada en lugar de un aspecto de plantilla",
+          "Aplica las reglas de rendimiento de React/Next.js de Vercel y patrones de composición escalables",
+          "Revisa accesibilidad y UX con las Web Interface Guidelines y prueba la app real con Playwright",
+        ],
       },
       lean: {
         title: "Código sin excesos",
         description: "Evita que el agente sobrediseñe: el cambio más simple que funcione, en pasos pequeños.",
+        benefits: [
+          "El cambio más pequeño que resuelve la tarea, sin abstracciones especulativas",
+          "Entrega en porciones finas y verificables en lugar de un diff gigante",
+          "Revisa y simplifica el código sin cambiar su comportamiento",
+        ],
       },
       ml: {
         title: "ML en Hugging Face",
         description: "Operaciones del Hub, datasets, entrenamiento y evaluación de modelos.",
+        benefits: [
+          "Gestiona modelos, datasets y Spaces del Hub con la CLI hf",
+          "Explora, busca y filtra datasets con la Dataset Viewer API",
+          "Ajusta modelos con TRL o Unsloth (SFT, DPO, GRPO) y evalúa en local con inspect-ai y lighteval",
+        ],
+      },
+      shortform: {
+        title: "Formato corto y redes",
+        description: "Investigación de tendencias, guiones cortos, hooks de anuncios y captions sin rastro de IA.",
+        benefits: [
+          "Encuentra de qué se habla ahora en Reddit, X, YouTube y TikTok antes de crear nada",
+          "Guiones de vídeo corto, carruseles, hilos y calendarios de publicación por plataforma",
+          "Hooks y ángulos para anuncios de TikTok y Meta, y qué enfoque de vídeo encaja: avatar IA, generado o Remotion",
+          "Quita las señales de IA de captions y guiones para que suenen a ti",
+        ],
+      },
+      growth: {
+        title: "Marketing y crecimiento SEO",
+        description: "Copywriting, SEO y búsqueda con IA, conversión y lanzamientos.",
+        benefits: [
+          "Copy y titulares de página con afirmaciones que puedes respaldar",
+          "Diagnostica problemas de SEO (indexación, Core Web Vitals) y cómo aparecer citado en ChatGPT y AI Overviews",
+          "Encuentra por qué una página no convierte y qué cambiar primero",
+          "Planes y checklists de lanzamiento para Product Hunt, betas y listas de espera",
+        ],
       },
     },
     listLabel: "Skills disponibles",
@@ -266,6 +307,53 @@ const dictionary: Dictionary = {
     copy: "Copiar",
     copied: "¡Copiado!",
     jumpToOutput: "Ver prompt para {count} skills",
+    presetDetails: "Ver detalles",
+    benefitsLabel: "Por qué ayuda",
+    includedLabel: "Skills incluidas",
+    setups: {
+      heading: "Setups de desarrolladores conocidos",
+      intro: "Los setups de Claude Code que estas personas usan a diario, publicados como open source. Cada uno se instala completo con su comando oficial.",
+      installLabel: "Instalar en Claude Code",
+      installHint: "Las líneas que empiezan con / se ejecutan dentro de Claude Code; el resto, en una terminal. Consulta el README para requisitos y otros agentes.",
+      items: {
+        ecc: {
+          credential: "Ganador del hackathon Anthropic x Forum Ventures (sep. 2025)",
+          summary: "ECC (Everything Claude Code): un arnés completo de agentes, skills, hooks, reglas y memoria.",
+          strengths: [
+            "Más de 70 agentes y 300 skills de planificación, revisión, seguridad y más en una sola instalación",
+            "Integra el ciclo planificar → probar → implementar → revisar → verificar en cada tarea",
+            "AgentShield analiza prompts, hooks, configuración MCP y secretos",
+          ],
+        },
+        gstack: {
+          credential: "Presidente y CEO de Y Combinator",
+          summary: "gstack: comandos slash que funcionan como un equipo de ingeniería virtual.",
+          strengths: [
+            "Roles de CEO, diseñador, eng manager, QA, seguridad y release como comandos slash",
+            "/review encuentra bugs que pasan la CI pero fallan en producción",
+            "/qa abre un navegador real para reproducir y corregir bugs",
+          ],
+        },
+        mattpocock: {
+          credential: "Educador de TypeScript, creador de Total TypeScript (ex-Vercel)",
+          summary: "Skills for Real Engineers: skills pequeñas y combinables sacadas de su propia carpeta .agents.",
+          strengths: [
+            "/grill-me hace que el agente te pregunte antes de construir, para entender lo que quieres",
+            "/grill-with-docs crea un glosario del proyecto que reduce la verbosidad y los tokens",
+            "/tdd y /diagnosing-bugs imponen red-green-refactor y depuración por fases",
+          ],
+        },
+        superpowers: {
+          credential: "Creador de Superpowers, Prime Radiant",
+          summary: "Superpowers: una metodología de desarrollo completa hecha de skills combinables.",
+          strengths: [
+            "Pregunta qué quieres construir de verdad y muestra la especificación en partes cortas",
+            "Planifica con TDD red/green real, YAGNI y DRY",
+            "El desarrollo dirigido por subagentes puede seguir el plan solo durante horas",
+          ],
+        },
+      },
+    },
   },
   analyze: {
     pageTitle: "Analizar un repositorio de GitHub",

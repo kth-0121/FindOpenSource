@@ -11,6 +11,7 @@ const dictionary: Dictionary = {
   },
   nav: {
     skills: "Skill Builder",
+    setups: "Setups",
     categories: "Categories",
     contribute: "Contribute",
     github: "GitHub",
@@ -227,18 +228,58 @@ const dictionary: Dictionary = {
       coding: {
         title: "Disciplined coding",
         description: "Brainstorm, plan, test first, debug systematically and verify before finishing.",
+        benefits: [
+          "Agrees on the spec before any code, so less rework",
+          "Tests first and root-cause debugging instead of guess-and-patch fixes",
+          "Must show verification output before saying it's done, so fewer false \"it works\"",
+        ],
       },
       frontend: {
         title: "Frontend & React",
         description: "Distinctive UI design, React best practices and browser testing.",
+        benefits: [
+          "UI with a deliberate visual direction instead of a templated look",
+          "Applies Vercel's React/Next.js performance rules and composition patterns that scale",
+          "Checks accessibility and UX against Web Interface Guidelines and tests the real app with Playwright",
+        ],
       },
       lean: {
         title: "Lean code",
         description: "Keep agents from over-engineering: simplest working change, small increments.",
+        benefits: [
+          "The smallest change that fully solves the task, with no speculative abstractions",
+          "Ships in thin, verifiable slices instead of one giant diff",
+          "Reviews and simplifies code without changing its behavior",
+        ],
       },
       ml: {
         title: "ML on Hugging Face",
         description: "Hub operations, datasets, model training and evaluation.",
+        benefits: [
+          "Manage models, datasets and Spaces on the Hub with the hf CLI",
+          "Explore, search and filter datasets through the Dataset Viewer API",
+          "Fine-tune with TRL or Unsloth (SFT, DPO, GRPO) and run local evals with inspect-ai and lighteval",
+        ],
+      },
+      shortform: {
+        title: "Short-form & social",
+        description: "Trend research, short-form scripts, ad hooks and captions without AI tells.",
+        benefits: [
+          "Finds what people are talking about right now on Reddit, X, YouTube and TikTok before you make anything",
+          "Short-form video scripts, carousels, threads and posting calendars per platform",
+          "Ad hooks and angles for TikTok and Meta, plus which video approach fits: AI avatar, generated or Remotion",
+          "Strips AI tells from captions and scripts so they sound like you",
+        ],
+      },
+      growth: {
+        title: "Marketing & SEO growth",
+        description: "Copywriting, SEO and AI search, conversion and launches.",
+        benefits: [
+          "Page copy and headlines whose claims you can actually back up",
+          "Diagnoses SEO issues (indexing, Core Web Vitals) and how to get cited in ChatGPT and AI Overviews",
+          "Finds why a page isn't converting and what to change first",
+          "Launch plans and checklists for Product Hunt, betas and waitlists",
+        ],
       },
     },
     listLabel: "Available skills",
@@ -266,6 +307,53 @@ const dictionary: Dictionary = {
     copy: "Copy",
     copied: "Copied!",
     jumpToOutput: "Get prompt for {count} skills",
+    presetDetails: "Details",
+    benefitsLabel: "Why it helps",
+    includedLabel: "Included skills",
+    setups: {
+      heading: "Setups from well-known developers",
+      intro: "The Claude Code setups these people use every day, open-sourced. Each one installs as a whole with its own official command.",
+      installLabel: "Install in Claude Code",
+      installHint: "Lines starting with / run inside Claude Code; the rest run in a terminal. Check the README for requirements and other agents.",
+      items: {
+        ecc: {
+          credential: "Winner of the Anthropic x Forum Ventures hackathon (Sep 2025)",
+          summary: "ECC (Everything Claude Code): a full agent harness of agents, skills, hooks, rules and memory.",
+          strengths: [
+            "70+ agents and 300+ skills for planning, review, security and more in one install",
+            "Bakes a plan → test → implement → review → verify loop into every task",
+            "AgentShield scans prompts, hooks, MCP config and secrets",
+          ],
+        },
+        gstack: {
+          credential: "President & CEO of Y Combinator",
+          summary: "gstack: slash commands that work as a virtual engineering team.",
+          strengths: [
+            "CEO, designer, eng manager, QA, security and release roles as slash commands",
+            "/review finds bugs that pass CI but break in production",
+            "/qa opens a real browser to reproduce and fix bugs",
+          ],
+        },
+        mattpocock: {
+          credential: "TypeScript educator, creator of Total TypeScript (ex-Vercel)",
+          summary: "Skills for Real Engineers: small, composable skills from his own .agents folder.",
+          strengths: [
+            "/grill-me makes the agent question you before it builds, so it gets what you want",
+            "/grill-with-docs builds a shared project glossary that cuts verbosity and tokens",
+            "/tdd and /diagnosing-bugs enforce red-green-refactor and step-by-step debugging",
+          ],
+        },
+        superpowers: {
+          credential: "Creator of Superpowers, Prime Radiant",
+          summary: "Superpowers: a complete development methodology built from composable skills.",
+          strengths: [
+            "Asks what you're really building and shows the spec in short, readable chunks",
+            "Plans around true red/green TDD, YAGNI and DRY",
+            "Subagent-driven development can follow the plan autonomously for hours",
+          ],
+        },
+      },
+    },
   },
   analyze: {
     pageTitle: "Analyze a GitHub repo",

@@ -11,6 +11,7 @@ const dictionary: Dictionary = {
   },
   nav: {
     skills: "스킬 빌더",
+    setups: "세팅",
     categories: "카테고리",
     contribute: "기여하기",
     github: "GitHub",
@@ -226,18 +227,58 @@ const dictionary: Dictionary = {
       coding: {
         title: "체계적인 코딩",
         description: "브레인스토밍, 계획, 테스트 우선, 체계적 디버깅, 완료 전 검증.",
+        benefits: [
+          "코드 전에 스펙부터 합의해서 다시 만드는 일이 줄어요",
+          "추측으로 땜질하지 않고 테스트 우선·근본 원인 디버깅으로 고쳐요",
+          "검증 결과를 보여준 뒤에만 '완료'라고 말해서 거짓 '잘 돼요'가 줄어요",
+        ],
       },
       frontend: {
         title: "프런트엔드 & React",
         description: "개성 있는 UI 디자인, React 모범 사례, 브라우저 테스트.",
+        benefits: [
+          "템플릿 같은 화면이 아니라 의도가 분명한 디자인의 UI",
+          "Vercel의 React/Next.js 성능 규칙과 확장 가능한 컴포넌트 패턴을 적용",
+          "Web Interface Guidelines로 접근성·UX를 점검하고 Playwright로 실제 앱을 테스트",
+        ],
       },
       lean: {
         title: "군더더기 없는 코드",
         description: "에이전트의 과잉 설계를 막고, 가장 단순한 변경을 작게 나눠 진행.",
+        benefits: [
+          "과한 추상화 없이 문제를 해결하는 가장 작은 변경",
+          "거대한 변경 대신 검증 가능한 얇은 단위로 나눠서 구현",
+          "동작은 그대로 두고 코드를 리뷰하고 단순하게 정리",
+        ],
       },
       ml: {
         title: "Hugging Face 머신러닝",
         description: "Hub 작업, 데이터셋, 모델 학습과 평가.",
+        benefits: [
+          "hf CLI로 Hub의 모델·데이터셋·Space를 관리",
+          "Dataset Viewer API로 데이터셋을 탐색·검색·필터링",
+          "TRL·Unsloth로 파인튜닝(SFT, DPO, GRPO)하고 inspect-ai·lighteval로 로컬 평가",
+        ],
+      },
+      shortform: {
+        title: "숏폼·SNS 바이럴",
+        description: "트렌드 조사, 숏폼 대본, 광고 훅, AI 티 안 나는 캡션.",
+        benefits: [
+          "만들기 전에 Reddit·X·YouTube·TikTok에서 지금 화제인 이야기를 찾아줘요",
+          "플랫폼별 숏폼 영상 대본, 캐러셀, 스레드, 게시 캘린더",
+          "TikTok·Meta 광고 훅과 앵글, AI 아바타·생성형·Remotion 중 맞는 영상 제작 방식 추천",
+          "캡션과 대본에서 AI 티를 지워 내가 쓴 것처럼",
+        ],
+      },
+      growth: {
+        title: "마케팅·SEO 그로스",
+        description: "카피라이팅, SEO·AI 검색, 전환율, 런칭.",
+        benefits: [
+          "근거를 댈 수 있는 주장만 담은 페이지 카피와 헤드라인",
+          "색인·Core Web Vitals 같은 SEO 문제 진단과 ChatGPT·AI 개요에 인용되는 방법",
+          "페이지 전환이 안 되는 이유와 먼저 바꿀 것",
+          "Product Hunt·베타·대기자 명단 런칭 계획과 체크리스트",
+        ],
       },
     },
     listLabel: "사용 가능한 스킬",
@@ -265,6 +306,53 @@ const dictionary: Dictionary = {
     copy: "복사",
     copied: "복사됨!",
     jumpToOutput: "스킬 {count}개 프롬프트 받기",
+    presetDetails: "자세히 보기",
+    benefitsLabel: "이런 점이 좋아요",
+    includedLabel: "포함된 스킬",
+    setups: {
+      heading: "유명 개발자들의 세팅",
+      intro: "이 사람들이 매일 쓰는 Claude Code 세팅이 오픈소스로 공개돼 있어요. 세팅마다 공식 명령어로 통째로 설치합니다.",
+      installLabel: "Claude Code에 설치",
+      installHint: "/로 시작하는 줄은 Claude Code 안에서, 나머지는 터미널에서 실행하세요. 요구 사항과 다른 에이전트용 설치는 README를 확인하세요.",
+      items: {
+        ecc: {
+          credential: "Anthropic x Forum Ventures 해커톤 우승자 (2025년 9월)",
+          summary: "ECC (Everything Claude Code): 에이전트·스킬·훅·규칙·메모리를 모두 갖춘 에이전트 하네스.",
+          strengths: [
+            "계획·리뷰·보안 등 70개 이상의 에이전트와 300개 이상의 스킬을 한 번에 설치",
+            "계획 → 테스트 → 구현 → 리뷰 → 검증 흐름이 모든 작업에 기본 적용",
+            "AgentShield가 프롬프트·훅·MCP 설정·시크릿을 보안 스캔",
+          ],
+        },
+        gstack: {
+          credential: "Y Combinator 대표 (President & CEO)",
+          summary: "gstack: 가상의 엔지니어링 팀처럼 일하는 슬래시 명령어 모음.",
+          strengths: [
+            "CEO·디자이너·엔지니어링 매니저·QA·보안·릴리스 역할을 슬래시 명령어로",
+            "/review가 CI는 통과하지만 프로덕션에서 깨지는 버그를 찾아줌",
+            "/qa가 실제 브라우저를 열어 버그를 재현하고 고침",
+          ],
+        },
+        mattpocock: {
+          credential: "TypeScript 교육자, Total TypeScript 제작자 (전 Vercel)",
+          summary: "Skills for Real Engineers: 본인의 .agents 폴더에서 바로 꺼낸 작고 조합 가능한 스킬.",
+          strengths: [
+            "/grill-me로 만들기 전에 에이전트가 먼저 질문해 원하는 걸 정확히 파악",
+            "/grill-with-docs로 프로젝트 용어집을 만들어 장황한 답변과 토큰 낭비를 줄임",
+            "/tdd와 /diagnosing-bugs로 레드-그린-리팩터와 단계별 디버깅을 강제",
+          ],
+        },
+        superpowers: {
+          credential: "Superpowers 제작자, Prime Radiant",
+          summary: "Superpowers: 조합 가능한 스킬로 만든 완전한 개발 방법론.",
+          strengths: [
+            "무엇을 만들려는지 먼저 묻고 스펙을 읽기 쉬운 짧은 단위로 보여줌",
+            "진짜 레드/그린 TDD, YAGNI, DRY 중심으로 구현 계획을 세움",
+            "서브에이전트 주도 개발로 몇 시간씩 계획대로 자율 작업",
+          ],
+        },
+      },
+    },
   },
   analyze: {
     pageTitle: "GitHub 저장소 분석",

@@ -20,9 +20,9 @@ import { execFileSync } from "node:child_process";
 const projectsDir = path.join(process.cwd(), "data", "projects");
 const outPath = path.join(process.cwd(), "data", "skills.json");
 
-// Only top-level skills/<name>/SKILL.md (or <plugin>/skills/<name>/SKILL.md);
+// Only skills/<name>/SKILL.md, <plugin>/skills/<name>/SKILL.md or a root SKILL.md;
 // this skips templates, mirrored copies for other agents and benchmark files.
-const SKILL_PATH = /^(?:[^/.][^/]*\/)?skills\/[^/]+\/SKILL\.md$/;
+const SKILL_PATH = /^(?:(?:[^/.][^/]*\/)?skills\/[^/]+\/)?SKILL\.md$/;
 
 function gh(args: string[]): string {
   return execFileSync("gh", ["api", ...args], { encoding: "utf-8", maxBuffer: 64 * 1024 * 1024 });

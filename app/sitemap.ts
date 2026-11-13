@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticEntries = [
     "",
     "/skills",
+    "/setups",
     "/projects",
     "/categories",
     "/compare",

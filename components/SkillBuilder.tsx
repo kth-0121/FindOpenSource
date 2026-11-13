@@ -24,9 +24,6 @@ export interface SkillPack {
   description: string;
 }
 
-// Packs this large start collapsed so the list stays scannable.
-const COLLAPSE_ABOVE = 40;
-
 function presetSkills(id: string | null): Set<string> {
   return new Set(PRESETS.find((p) => p.id === id)?.skills ?? []);
 }
@@ -96,20 +93,41 @@ export function SkillBuilder({
         <h2 id="skill-presets" className="mb-3 text-sm font-medium text-muted-foreground">
           {t.presetsHeading}
         </h2>
-        <ul className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="grid grid-cols-1 items-start gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {PRESETS.map((preset) => (
-            <li key={preset.id}>
-              <button
-                type="button"
-                onClick={() => setSelected(new Set(preset.skills))}
-                className="h-full w-full rounded-lg border border-border p-4 text-left transition-colors hover:border-accent"
-              >
+            <li key={preset.id} className="flex flex-col rounded-lg border border-border transition-colors hover:border-accent">
+              <button type="button" onClick={() => {
+                  setSelected(new Set(preset.skills));
+                  document.getElementById("skill-output")?.scrollIntoView({ behavior: "smooth" });
+                }} className="flex-1 p-4 text-left">
                 <span className="block font-medium">{t.presets[preset.id].title}</span>
                 <span className="mt-1 block text-sm text-muted-foreground">{t.presets[preset.id].description}</span>
                 <span className="mt-2 block text-xs text-accent">
                   {formatMessage(t.skillCount, { count: preset.skills.length })}
                 </span>
               </button>
+              <details className="group border-t border-border text-sm">
+                <summary className="flex cursor-pointer list-none items-center justify-between px-4 py-2 text-xs text-muted-foreground hover:text-foreground">
+                  {t.presetDetails}
+                  <span className="transition-transform group-open:rotate-180" aria-hidden="true">▾</span>
+                </summary>
+                <div className="flex flex-col gap-3 px-4 pb-4">
+                  <div>
+                    <p className="text-xs font-medium">{t.benefitsLabel}</p>
+                    <ul className="mt-1 list-disc space-y-1 pl-4 text-muted-foreground">
+                      {t.presets[preset.id].benefits.map((b) => <li key={b}>{b}</li>)}
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="text-xs font-medium">{t.includedLabel}</p>
+                    <ul className="mt-1 flex flex-wrap gap-1">
+                      {preset.skills.map((id) => (
+                        <li key={id} className="rounded bg-muted px-1.5 py-0.5 font-mono text-xs">{id.split("/")[1]}</li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </details>
             </li>
           ))}
         </ul>
@@ -142,7 +160,7 @@ export function SkillBuilder({
               return (
                 <details
                   key={pack.slug}
-                  open={q !== "" || skills.filter((s) => s.pack === pack.slug).length <= COLLAPSE_ABOVE}
+                  open={q !== ""}
                   className="group rounded-lg border border-border"
                 >
                   <summary className="flex cursor-pointer list-none items-start justify-between gap-3 p-4">

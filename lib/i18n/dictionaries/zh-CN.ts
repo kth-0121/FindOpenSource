@@ -11,6 +11,7 @@ const dictionary: Dictionary = {
   },
   nav: {
     skills: "技能构建器",
+    setups: "配置",
     categories: "分类",
     contribute: "贡献",
     github: "GitHub",
@@ -226,18 +227,58 @@ const dictionary: Dictionary = {
       coding: {
         title: "规范化编码",
         description: "头脑风暴、制定计划、测试先行、系统化调试、完成前验证。",
+        benefits: [
+          "写代码前先对齐需求规格，减少返工",
+          "先写测试、找根本原因，而不是靠猜测打补丁",
+          "必须先展示验证结果才说“完成”，减少虚假的“已经好了”",
+        ],
       },
       frontend: {
         title: "前端与 React",
         description: "有辨识度的 UI 设计、React 最佳实践和浏览器测试。",
+        benefits: [
+          "有明确视觉方向的 UI，而不是模板化的界面",
+          "应用 Vercel 的 React/Next.js 性能规则和可扩展的组件模式",
+          "按 Web Interface Guidelines 检查无障碍和 UX，并用 Playwright 测试真实应用",
+        ],
       },
       lean: {
         title: "精简代码",
         description: "防止智能体过度设计：最简单可行的改动，小步推进。",
+        benefits: [
+          "用最小的改动完整解决问题，不做多余抽象",
+          "以可验证的小步交付，而不是一次巨大的改动",
+          "在不改变行为的前提下评审并简化代码",
+        ],
       },
       ml: {
         title: "Hugging Face 机器学习",
         description: "Hub 操作、数据集、模型训练与评估。",
+        benefits: [
+          "用 hf CLI 管理 Hub 上的模型、数据集和 Space",
+          "通过 Dataset Viewer API 浏览、搜索和筛选数据集",
+          "用 TRL 或 Unsloth 微调（SFT、DPO、GRPO），并用 inspect-ai 和 lighteval 本地评估",
+        ],
+      },
+      shortform: {
+        title: "短视频与社交传播",
+        description: "趋势调研、短视频脚本、广告钩子和没有 AI 腔的配文。",
+        benefits: [
+          "动手前先找出 Reddit、X、YouTube 和 TikTok 上当下的热门话题",
+          "按平台生成短视频脚本、轮播图、推文串和发布日历",
+          "TikTok 和 Meta 广告的钩子与角度，并推荐合适的视频方式：AI 数字人、生成式或 Remotion",
+          "去掉配文和脚本里的 AI 腔，读起来像你自己写的",
+        ],
+      },
+      growth: {
+        title: "营销与 SEO 增长",
+        description: "文案、SEO 与 AI 搜索、转化率和产品发布。",
+        benefits: [
+          "只包含有依据说法的页面文案和标题",
+          "诊断 SEO 问题（索引、Core Web Vitals），以及如何被 ChatGPT 和 AI 概览引用",
+          "找出页面不转化的原因和最先要改的地方",
+          "Product Hunt、内测和候补名单的发布计划与清单",
+        ],
       },
     },
     listLabel: "可用技能",
@@ -265,6 +306,53 @@ const dictionary: Dictionary = {
     copy: "复制",
     copied: "已复制！",
     jumpToOutput: "获取 {count} 个技能的提示词",
+    presetDetails: "查看详情",
+    benefitsLabel: "有什么好处",
+    includedLabel: "包含的技能",
+    setups: {
+      heading: "知名开发者的配置",
+      intro: "这些人每天使用的 Claude Code 配置已经开源。每套配置都用官方命令整体安装。",
+      installLabel: "安装到 Claude Code",
+      installHint: "以 / 开头的行在 Claude Code 内运行，其余在终端运行。环境要求和其他智能体的安装方式请查看 README。",
+      items: {
+        ecc: {
+          credential: "Anthropic x Forum Ventures 黑客松冠军（2025 年 9 月）",
+          summary: "ECC (Everything Claude Code)：集智能体、技能、钩子、规则和记忆于一体的智能体框架。",
+          strengths: [
+            "一次安装 70 多个智能体和 300 多个技能，覆盖规划、评审、安全等",
+            "把 计划 → 测试 → 实现 → 评审 → 验证 的流程融入每个任务",
+            "AgentShield 扫描提示词、钩子、MCP 配置和密钥",
+          ],
+        },
+        gstack: {
+          credential: "Y Combinator 总裁兼 CEO",
+          summary: "gstack：像一支虚拟工程团队一样工作的斜杠命令集。",
+          strengths: [
+            "用斜杠命令扮演 CEO、设计师、工程经理、QA、安全和发布角色",
+            "/review 找出能通过 CI 却在生产环境出错的 bug",
+            "/qa 打开真实浏览器复现并修复 bug",
+          ],
+        },
+        mattpocock: {
+          credential: "TypeScript 教育者，Total TypeScript 作者（前 Vercel）",
+          summary: "Skills for Real Engineers：直接取自他本人 .agents 文件夹的小型可组合技能。",
+          strengths: [
+            "/grill-me 让智能体在动手前先提问，准确理解你的需求",
+            "/grill-with-docs 建立项目术语表，减少啰嗦输出和 token 消耗",
+            "/tdd 和 /diagnosing-bugs 强制红-绿-重构和分阶段调试",
+          ],
+        },
+        superpowers: {
+          credential: "Superpowers 作者，Prime Radiant",
+          summary: "Superpowers：由可组合技能构成的完整开发方法论。",
+          strengths: [
+            "先问清你真正要做什么，再把规格拆成易读的小段展示",
+            "围绕真正的红/绿 TDD、YAGNI 和 DRY 制定计划",
+            "子智能体驱动开发可按计划自主工作数小时",
+          ],
+        },
+      },
+    },
   },
   analyze: {
     pageTitle: "分析 GitHub 仓库",

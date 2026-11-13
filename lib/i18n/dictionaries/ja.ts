@@ -11,6 +11,7 @@ const dictionary: Dictionary = {
   },
   nav: {
     skills: "スキルビルダー",
+    setups: "セットアップ",
     categories: "カテゴリ",
     contribute: "コントリビュート",
     github: "GitHub",
@@ -226,18 +227,58 @@ const dictionary: Dictionary = {
       coding: {
         title: "規律あるコーディング",
         description: "ブレスト、計画、テスト先行、体系的なデバッグ、完了前の検証。",
+        benefits: [
+          "コードの前に仕様をすり合わせるので手戻りが減る",
+          "推測でのパッチではなく、テストファーストと根本原因デバッグで直す",
+          "検証結果を示してから「完了」と言うので、誤った「動きます」が減る",
+        ],
       },
       frontend: {
         title: "フロントエンド & React",
         description: "個性あるUIデザイン、Reactのベストプラクティス、ブラウザテスト。",
+        benefits: [
+          "テンプレート風ではなく、意図のあるビジュアルの UI",
+          "Vercel の React/Next.js パフォーマンスルールと拡張しやすいコンポーネント設計を適用",
+          "Web Interface Guidelines でアクセシビリティと UX を点検し、Playwright で実アプリをテスト",
+        ],
       },
       lean: {
         title: "無駄のないコード",
         description: "エージェントの過剰設計を防ぎ、最小の変更を小さく積み重ねる。",
+        benefits: [
+          "余計な抽象化なしでタスクを解決する最小の変更",
+          "巨大な差分ではなく、検証できる薄い単位で実装",
+          "振る舞いを変えずにコードをレビュー・簡素化",
+        ],
       },
       ml: {
         title: "Hugging Faceで機械学習",
         description: "Hubの操作、データセット、モデルの学習と評価。",
+        benefits: [
+          "hf CLI で Hub のモデル・データセット・Space を管理",
+          "Dataset Viewer API でデータセットを探索・検索・フィルタ",
+          "TRL や Unsloth でファインチューニング（SFT・DPO・GRPO）し、inspect-ai と lighteval でローカル評価",
+        ],
+      },
+      shortform: {
+        title: "ショート動画・SNS",
+        description: "トレンド調査、ショート動画の台本、広告フック、AI っぽくないキャプション。",
+        benefits: [
+          "作る前に Reddit・X・YouTube・TikTok で今話題のことを調べる",
+          "プラットフォーム別のショート動画台本、カルーセル、スレッド、投稿カレンダー",
+          "TikTok・Meta 広告のフックと切り口、AI アバター・生成・Remotion のどれが合うかも提案",
+          "キャプションや台本から AI っぽさを消して自分らしく",
+        ],
+      },
+      growth: {
+        title: "マーケティング・SEO グロース",
+        description: "コピーライティング、SEO・AI 検索、コンバージョン、ローンチ。",
+        benefits: [
+          "根拠を示せる主張だけのページコピーと見出し",
+          "インデックスや Core Web Vitals などの SEO 問題を診断し、ChatGPT や AI 概要に引用される方法も",
+          "ページがコンバージョンしない理由と最初に変えるべき点",
+          "Product Hunt・ベータ・ウェイトリストのローンチ計画とチェックリスト",
+        ],
       },
     },
     listLabel: "利用できるスキル",
@@ -265,6 +306,53 @@ const dictionary: Dictionary = {
     copy: "コピー",
     copied: "コピーしました！",
     jumpToOutput: "スキル {count} 件のプロンプトを見る",
+    presetDetails: "詳しく見る",
+    benefitsLabel: "ここが良い",
+    includedLabel: "含まれるスキル",
+    setups: {
+      heading: "有名開発者のセットアップ",
+      intro: "この人たちが毎日使っている Claude Code のセットアップがオープンソースで公開されています。どれも公式コマンドで丸ごとインストールします。",
+      installLabel: "Claude Code にインストール",
+      installHint: "/ で始まる行は Claude Code 内で、それ以外はターミナルで実行します。必要環境や他のエージェント向けの手順は README を確認してください。",
+      items: {
+        ecc: {
+          credential: "Anthropic x Forum Ventures ハッカソン優勝者（2025年9月）",
+          summary: "ECC (Everything Claude Code)：エージェント・スキル・フック・ルール・メモリを備えたエージェントハーネス。",
+          strengths: [
+            "計画・レビュー・セキュリティなど70以上のエージェントと300以上のスキルを一括導入",
+            "計画 → テスト → 実装 → レビュー → 検証の流れをすべての作業に組み込む",
+            "AgentShield がプロンプト・フック・MCP 設定・シークレットをスキャン",
+          ],
+        },
+        gstack: {
+          credential: "Y Combinator 代表（President & CEO）",
+          summary: "gstack：仮想のエンジニアリングチームとして働くスラッシュコマンド集。",
+          strengths: [
+            "CEO・デザイナー・EM・QA・セキュリティ・リリースの役割をスラッシュコマンドで",
+            "/review が CI は通るが本番で壊れるバグを見つける",
+            "/qa が実際のブラウザを開いてバグを再現・修正",
+          ],
+        },
+        mattpocock: {
+          credential: "TypeScript 教育者、Total TypeScript 制作者（元 Vercel）",
+          summary: "Skills for Real Engineers：本人の .agents フォルダから出した小さく組み合わせやすいスキル。",
+          strengths: [
+            "/grill-me で作る前にエージェントが質問し、意図をすり合わせる",
+            "/grill-with-docs でプロジェクト用語集を作り、冗長な出力とトークンを削減",
+            "/tdd と /diagnosing-bugs でレッド・グリーン・リファクタと段階的デバッグを徹底",
+          ],
+        },
+        superpowers: {
+          credential: "Superpowers 作者、Prime Radiant",
+          summary: "Superpowers：組み合わせ可能なスキルで構成された開発方法論。",
+          strengths: [
+            "何を作りたいのかをまず尋ね、仕様を読みやすい短い単位で提示",
+            "本物のレッド/グリーン TDD・YAGNI・DRY を軸に計画を立てる",
+            "サブエージェント駆動開発で数時間にわたり計画どおり自律作業",
+          ],
+        },
+      },
+    },
   },
   analyze: {
     pageTitle: "GitHubリポジトリを分析",

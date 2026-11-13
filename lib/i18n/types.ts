@@ -1,3 +1,6 @@
+import type { SetupId } from "../setups";
+import type { PresetId } from "../skills";
+
 export interface Dictionary {
   skipToContent: string;
   adSlotLabel: string;
@@ -9,6 +12,7 @@ export interface Dictionary {
   };
   nav: {
     skills: string;
+    setups: string;
     categories: string;
     contribute: string;
     github: string;
@@ -111,7 +115,7 @@ export interface Dictionary {
     pageTitle: string;
     pageDescription: string;
     presetsHeading: string;
-    presets: Record<"coding" | "frontend" | "lean" | "ml", { title: string; description: string }>;
+    presets: Record<PresetId, { title: string; description: string; benefits: string[] }>;
     listLabel: string;
     searchLabel: string;
     searchPlaceholder: string;
@@ -141,6 +145,16 @@ export interface Dictionary {
     copied: string;
     /** {count} */
     jumpToOutput: string;
+    presetDetails: string;
+    benefitsLabel: string;
+    includedLabel: string;
+    setups: {
+      heading: string;
+      intro: string;
+      installLabel: string;
+      installHint: string;
+      items: Record<SetupId, { credential: string; summary: string; strengths: string[] }>;
+    };
   };
   analyze: {
     pageTitle: string;

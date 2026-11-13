@@ -256,6 +256,14 @@
     "branch": "main"
   },
   {
+    "name": "docx",
+    "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files) or Word templates (.dotx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', '.dotx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/docx",
+    "branch": "main"
+  },
+  {
     "name": "frontend-design",
     "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
     "pack": "anthropic-skills",
@@ -277,6 +285,22 @@
     "pack": "anthropic-skills",
     "repo": "anthropics/skills",
     "path": "skills/mcp-builder",
+    "branch": "main"
+  },
+  {
+    "name": "pdf",
+    "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/pdf",
+    "branch": "main"
+  },
+  {
+    "name": "pptx",
+    "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. If a .pptx or .potx file needs to be opened, created, or touched, use this skill.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/pptx",
     "branch": "main"
   },
   {
@@ -317,6 +341,14 @@
     "pack": "anthropic-skills",
     "repo": "anthropics/skills",
     "path": "skills/webapp-testing",
+    "branch": "main"
+  },
+  {
+    "name": "xlsx",
+    "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+    "pack": "anthropic-skills",
+    "repo": "anthropics/skills",
+    "path": "skills/xlsx",
     "branch": "main"
   },
   {
@@ -525,6 +557,446 @@
     "pack": "huggingface-skills",
     "repo": "huggingface/skills",
     "path": "skills/trl-training",
+    "branch": "main"
+  },
+  {
+    "name": "humanizer",
+    "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says.\nUse when editing or reviewing prose for AI tells: not-X-but-Y contrasts, one-line\nclosers, staged openers, forced triads, dashes everywhere, inflated claims, sales\nlanguage, stock AI words, bold labels, or filler.",
+    "pack": "humanizer",
+    "repo": "blader/humanizer",
+    "path": ".",
+    "branch": "main"
+  },
+  {
+    "name": "last30days",
+    "description": "Research what people actually say about any topic in the last 30 days. Pulls posts and engagement from Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web. Includes a doctor health check to diagnose broken or missing sources.",
+    "pack": "last30days",
+    "repo": "mvanhorn/last30days-skill",
+    "path": "skills/last30days",
+    "branch": "main"
+  },
+  {
+    "name": "ab-testing",
+    "description": "When the user wants to plan, run, or read A/B tests, or asks a judgement call on one: is the result real, can we stop, which version won, is this worth testing at all: sample size, duration, significance, hypotheses, and experiment backlogs. For tracking setup, see analytics. For page-level conversion fixes, see cro.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/ab-testing",
+    "branch": "main"
+  },
+  {
+    "name": "ad-creative",
+    "description": "When the user wants to write or judge ad creative, or asks which ad, hook, or angle to run or kill: headlines, primary text, and variations for Google, Meta, LinkedIn, and TikTok, fresh angles when creative fatigues. Test hypotheses name the metric, comparison, and expected direction. No AI tells like 'it's not X, it's Y'. For campaign strategy, see ads. For landing pages, see copywriting.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/ad-creative",
+    "branch": "main"
+  },
+  {
+    "name": "ads",
+    "description": "When the user wants to plan, run, or fix paid ads on Google, Meta, and LinkedIn, or asks a judgement call on them: are ads worth it, which channel or budget split, why CPA rose, kill or keep a campaign. End with facts, hypotheses, and missing data; label unavailable inputs MISSING instead of estimating. For ad copy, see ad-creative. For pixels and CAPI, see conversion-tracking. For landing pages, see cro.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/ads",
+    "branch": "main"
+  },
+  {
+    "name": "ai-seo",
+    "description": "When the user wants to get cited and recommended in AI answers (ChatGPT, Perplexity, AI Overviews), or asks why AI cites a competitor, which content gets cited, or whether llms.txt or a page format is worth it: AEO, GEO, AI visibility, agent-readable sites. For technical and on-page SEO, see seo-audit. For structured data, see schema.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/ai-seo",
+    "branch": "main"
+  },
+  {
+    "name": "analytics",
+    "description": "When the user wants to set up or audit analytics, or asks whether a metric or number is calculated right, what to track, or how to name events: tracking plans, GA4, GTM, Mixpanel, PostHog, UTMs. Rate metrics divide matching closed windows, never full-period spend by partial-period results. For conversions in ad platforms, see conversion-tracking. For attribution or platforms that over-claim, see attribution. For tests, see ab-testing.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/analytics",
+    "branch": "main"
+  },
+  {
+    "name": "aso",
+    "description": "When the user wants to audit or optimize an App Store or Google Play listing, or asks which title, keywords, or screenshots to pick or why downloads are low: subtitle, description, ratings, and comparing listings with competitors.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/aso",
+    "branch": "main"
+  },
+  {
+    "name": "attribution",
+    "description": "When the user wants to work out which marketing drives revenue, or asks whether a channel is really working, which numbers to trust, or how to credit podcasts and dark social: attribution models, platforms that over-claim, MMM, incrementality and holdout tests, self-reported attribution. For tracking and UTMs, see analytics. For pixels and CAPI, see conversion-tracking. For CRM revenue, see revops. For AI search blind spots, see ai-seo.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/attribution",
+    "branch": "main"
+  },
+  {
+    "name": "churn-prevention",
+    "description": "When the user wants to reduce churn, or asks why customers cancel, whether to offer a discount or pause: cancellation flows, exit surveys, save offers, dunning and failed-payment recovery. For win-back emails, see emails. For in-app upgrade screens, see paywalls.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/churn-prevention",
+    "branch": "main"
+  },
+  {
+    "name": "co-marketing",
+    "description": "When the user wants co-marketing partners or joint campaigns, or asks whether a partner fits, a size mismatch matters, or how to split work and leads: integration partners, cross-promotion, co-branded content, joint webinars. For referral programs, see referrals. For launch partnerships, see launch. For running the event, see events.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/co-marketing",
+    "branch": "main"
+  },
+  {
+    "name": "cold-email",
+    "description": "When the user wants to write or run B2B cold outbound, or asks whether an opener, reason to reach out, or email works or why nobody replies: cold emails, follow-ups, sending domains, deliverability, LinkedIn, cadences. Send from secondary domains, verify lists first, turn off open tracking, stop every channel when a prospect replies. No AI tells like 'it's not X, it's Y'. For the list, see prospecting. For lifecycle email, see emails. For call scripts, see sales-enablement.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/cold-email",
+    "branch": "main"
+  },
+  {
+    "name": "community-marketing",
+    "description": "When the user wants to build or grow an online community, or asks whether a community is worth it, where to host it, or why members stay quiet: Discord, Slack, forums, participation, community-led growth, advocates. For referral programs, see referrals. For creator partnerships, see influencer-marketing.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/community-marketing",
+    "branch": "main"
+  },
+  {
+    "name": "competitor-profiling",
+    "description": "When the user wants to research competitors into dated profiles, or asks what a rival charges, claims, or is doing, or whether a conclusion about them is fair: positioning, pricing, features, reviews, SEO, observed facts kept apart from inference. For comparison pages, see competitors. For battle cards, see sales-enablement. For accounts you sell to, see prospecting. For how a competitor grew, see reverse-engineer-marketing.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/competitor-profiling",
+    "branch": "main"
+  },
+  {
+    "name": "competitors",
+    "description": "When the user wants to create or audit comparison and alternative pages ('X vs Y', 'X alternative', 'best X alternatives'), or asks what a public page may say about a competitor: page formats, fair claims, and outdated pages. For researching competitors, see competitor-profiling. For internal battle cards, see sales-enablement.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/competitors",
+    "branch": "main"
+  },
+  {
+    "name": "content-strategy",
+    "description": "When the user wants to plan content, or asks which topic or piece to prioritize, what to write about, or why posts bring no customers: topic clusters, editorial calendars, roadmaps tied to customers and search. For writing pieces, see copywriting. For SEO audits, see seo-audit. For social content, see social.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/content-strategy",
+    "branch": "main"
+  },
+  {
+    "name": "conversion-tracking",
+    "description": "When the user wants to set up, audit, or fix conversion tracking to Google Ads, Meta, GA4, LinkedIn, and TikTok, or asks why conversions are missing or doubled: GTM, pixels, CAPI, Enhanced Conversions, offline imports. Fire on confirmed success, not the submit click; verify a test conversion arrives; diagnose before changing; offer free paths and disclose partner tools. For tracking plans, see analytics. For attribution, see attribution. For bidding, see ads.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/conversion-tracking",
+    "branch": "main"
+  },
+  {
+    "name": "copy-editing",
+    "description": "When the user wants to edit, tighten, proofread, or refresh existing copy, or asks whether to keep, cut, or change a line in it, without rewriting from scratch. Every edit removes AI tells: 'it's not X, it's Y' reveals, 'no X, no Y, no Z' lists, and sentences that trail into extra comma clauses. A request to fix one line gets a point edit to that line only. For new copy, see copywriting.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/copy-editing",
+    "branch": "main"
+  },
+  {
+    "name": "copywriting",
+    "description": "When the user wants to write or rewrite page copy (homepage, landing, pricing, feature), or asks which headline, promise, or message to lead with. Diagnoses the input first (blank brief, real voice, or point edit) and changes only what it calls for. Claims must be supportable; a declined claim names the evidence that would unlock it. No AI tells like 'it's not X, it's Y' or 'no X, no Y, no Z'. For editing, see copy-editing. For emails, see emails. For the offer, see offers.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/copywriting",
+    "branch": "main"
+  },
+  {
+    "name": "cro",
+    "description": "When the user wants more conversions from a page or form, or asks why a page isn't converting, what to change first, or whether to add or remove a field or element: landing and pricing pages, lead forms, or a URL shared for feedback. For signup flows, see signup. For activation, see onboarding. For popups, see popups. For running the test, see ab-testing.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/cro",
+    "branch": "main"
+  },
+  {
+    "name": "customer-research",
+    "description": "When the user wants to run or synthesize customer research, or asks what customer quotes, reviews, or feedback really mean, what is safe to conclude, and what to ask next: interviews, surveys, voice of customer, personas, JTBD, mining Reddit and reviews. For copy from research, see copywriting. For acting on it in pages, see cro.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/customer-research",
+    "branch": "main"
+  },
+  {
+    "name": "directory-submissions",
+    "description": "When the user wants to list a product in startup, SaaS, AI, MCP, and review directories, or asks which directories are worth it or whether listings are working: Product Hunt, G2, Capterra, AlternativeTo, MCP registries, awesome lists, and a submission tracker. For the broader launch, see launch. For other link building, see link-building.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/directory-submissions",
+    "branch": "main"
+  },
+  {
+    "name": "emails",
+    "description": "When the user wants to create or improve automated email sequences, or asks what to send, when, or whether an email or flow is working: welcome, onboarding, nurture, and win-back flows. No AI tells like 'it's not X, it's Y', 'no X, no Y, no Z' lists, or fake 'Re:' subject lines. For cold outreach, see cold-email. For in-app onboarding, see onboarding. For texts, see sms.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/emails",
+    "branch": "main"
+  },
+  {
+    "name": "events",
+    "description": "When the user wants to plan, run, sponsor, or speak at events, or asks whether an event or booth is worth the money: webinars, conferences, booths, meetups, show-up rates, and follow-up into pipeline. For launches, see launch. For joint webinars, see co-marketing. For community programs, see community-marketing. For podcasts, see public-relations. For event emails, see emails.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/events",
+    "branch": "main"
+  },
+  {
+    "name": "free-tools",
+    "description": "When the user wants to plan or build a free tool as marketing, or asks whether a tool idea is worth building or which one to pick: calculators, graders, generators, and other interactive tools for leads, SEO, and links. For downloadable lead magnets, see lead-magnets.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/free-tools",
+    "branch": "main"
+  },
+  {
+    "name": "image",
+    "description": "When the user wants to create, generate, edit, or optimize marketing images, or asks which approach to take (generate, design, or photograph): blog heroes, social graphics, product mockups, banners, OG images. For ad images, see ad-creative. For video, see video.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/image",
+    "branch": "main"
+  },
+  {
+    "name": "influencer-marketing",
+    "description": "When the user wants creator, influencer, or ambassador partnerships, or asks which creators fit, what to pay, which rights to buy, or whether a sponsorship worked: vetting, contracts, briefs, UGC, newsletter and podcast sponsorships, FTC disclosure. For affiliate payouts, see referrals. For community advocacy, see community-marketing. For creator content as ads, see ad-creative.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/influencer-marketing",
+    "branch": "main"
+  },
+  {
+    "name": "launch",
+    "description": "When the user wants to plan a product or feature launch, or asks whether it's ready, when to announce, or how to get noticed: Product Hunt, beta and early access, waitlists, release go-to-market, launch checklists, release notes. For marketing after launch, see marketing-ideas. For the offer, see offers.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/launch",
+    "branch": "main"
+  },
+  {
+    "name": "lead-magnets",
+    "description": "When the user wants to plan or improve a lead magnet, or asks what to give away for emails or how much to ask in return (gating, form fields): checklists, templates, ebooks, gated guides, content upgrades. For interactive tools, see free-tools. For the follow-up sequence, see emails. For popups that capture emails, see popups.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/lead-magnets",
+    "branch": "main"
+  },
+  {
+    "name": "link-building",
+    "description": "When the user wants backlinks and mentions that lift rankings and AI citations, or asks how to get sites to link or whether a link tactic is safe: link gaps, unlinked mentions, broken links, guest posts, best-of outreach. Never buy links that pass ranking credit: paid or exchanged placements get rel=sponsored or nofollow. For press, see public-relations. For directories, see directory-submissions. For reviews, see referrals. For communities, see community-marketing.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/link-building",
+    "branch": "main"
+  },
+  {
+    "name": "marketing-council",
+    "description": "When the user wants several expert takes on a marketing decision, or asks what a famous marketer would say about it: a simulated board (Seth Godin, David Ogilvy, April Dunford, Byron Sharp, and more), each grounded in their documented frameworks, where they disagree, and a recommendation. To execute, hand off to the relevant skill.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/marketing-council",
+    "branch": "main"
+  },
+  {
+    "name": "marketing-ideas",
+    "description": "When the user wants marketing ideas or growth tactics for a software product, or asks what to try to get attention or the next customers with little time or budget, or after the obvious channels. Draws on a library of 139 ideas. For a specific channel, see that skill (ads, social, emails, and others). For a full plan, see marketing-plan.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/marketing-ideas",
+    "branch": "main"
+  },
+  {
+    "name": "marketing-loops",
+    "description": "When the user wants a recurring marketing job an AI agent runs on a cadence or trigger, or asks what a weekly or daily automated check should do, remember, and when it should stop: SEO and ads checks, churn watches, outbound triage. For one-off ideas, see marketing-ideas. For the test loop, see ab-testing.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/marketing-loops",
+    "branch": "main"
+  },
+  {
+    "name": "marketing-plan",
+    "description": "When the user wants a full marketing or go-to-market plan for a client, an advised company, or their own product, or asks how to sequence or prioritize several initiatives with a fixed team and budget: channels, budget, team, goals across AARRR, market sizing. For positioning first, see product-marketing. For ideas only, see marketing-ideas.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/marketing-plan",
+    "branch": "main"
+  },
+  {
+    "name": "marketing-psychology",
+    "description": "When the user wants to apply psychology to marketing, or asks why buyers behave or value things as they do, or whether a persuasion tactic is honest: biases, mental models, anchoring, social proof, scarcity, loss aversion, framing. For a page, see cro. For pricing tactics, see pricing. For copy, see copywriting.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/marketing-psychology",
+    "branch": "main"
+  },
+  {
+    "name": "offers",
+    "description": "When the user wants to design or improve the offer itself, or asks why it isn't selling or how to add urgency honestly: value stacking, bonuses, guarantees, scarcity, payment plans, upsells. Best for services, courses, coaching, and high-ticket B2B; for self-serve SaaS, read pricing first. For price and tiers, see pricing. For the page, see copywriting. For the launch, see launch. For sales collateral, see sales-enablement.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/offers",
+    "branch": "main"
+  },
+  {
+    "name": "onboarding",
+    "description": "When the user wants better onboarding and activation, or asks why new users don't stick or what the first session should do: first-run experience, aha moments, checklists, empty states, time to value. For the signup flow itself, see signup. For onboarding emails, see emails.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/onboarding",
+    "branch": "main"
+  },
+  {
+    "name": "paywalls",
+    "description": "When the user wants to create or improve in-app paywalls and upgrade moments, or asks when or how hard to ask free users to pay (after they've seen value): upgrade screens, upsell modals, feature gates, limit-reached and trial-expired screens, mobile subscription paywalls. For public pricing pages, see cro. For pricing decisions, see pricing.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/paywalls",
+    "branch": "main"
+  },
+  {
+    "name": "popups",
+    "description": "When the user wants to create or improve popups, modals, slide-ins, sticky bars, and banners, or asks whether one will help or annoy and when to show it: exit intent, email capture, scroll and time triggers, announcements. For forms and pages outside popups, see cro.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/popups",
+    "branch": "main"
+  },
+  {
+    "name": "pricing",
+    "description": "When the user wants to set pricing and packaging, or asks what to charge, whether to raise prices, or how to move existing customers: tiers, value metrics, per-seat vs usage, freemium and trials, willingness to pay, pricing pages. For in-app upgrade screens, see paywalls. For offers on services, courses, and high-ticket B2B, see offers.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/pricing",
+    "branch": "main"
+  },
+  {
+    "name": "product-marketing",
+    "description": "When the user wants to create or update the product marketing context doc (.agents/product-marketing.md), or asks what belongs in it or whether positioning or ICP is clear enough: product, ICP, positioning, competitors, customer language, brand voice. Use it before other marketing skills on a new project, when the audience or positioning changes, and to log learnings.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/product-marketing",
+    "branch": "main"
+  },
+  {
+    "name": "programmatic-seo",
+    "description": "When the user wants SEO pages at scale from templates and data, or asks whether a page set will rank or look thin: location, integration, comparison, directory, and '[X] for [Y]' pages, each useful rather than thin. For SEO audits, see seo-audit. For content planning, see content-strategy.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/programmatic-seo",
+    "branch": "main"
+  },
+  {
+    "name": "prospecting",
+    "description": "When the user wants to find and qualify prospects for outbound, or asks who to target first, which signal to prioritize, or where to spot buyers with the problem: buying signals, enrichment, verification, account research. Verify emails before a sequence, never scrape LinkedIn: define audiences in Sales Navigator and pull contacts from licensed data. For outreach, see cold-email. For competitor research, see competitor-profiling.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/prospecting",
+    "branch": "main"
+  },
+  {
+    "name": "public-relations",
+    "description": "When the user wants press and media coverage, or asks what to say to a reporter, whether a story is newsworthy, or how to handle a crisis: pitches, press releases, media lists, HARO, op-eds, podcast guest prep, newsjacking (public relations, not pull requests). For directories, see directory-submissions. For launches, see launch. For cold outreach to prospects, see cold-email.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/public-relations",
+    "branch": "main"
+  },
+  {
+    "name": "referrals",
+    "description": "When the user wants referral and affiliate programs or word of mouth, or asks what to reward, how much to pay, or which loop to start with: refer-a-friend incentives, commissions and payouts, partner programs, 'made with' badges, review campaigns. For launch virality, see launch. For creator deals, see influencer-marketing.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/referrals",
+    "branch": "main"
+  },
+  {
+    "name": "reverse-engineer-marketing",
+    "description": "When the user wants to know how another company grew and what to copy, or asks what a competitor did and when: a dated log of their moves against their traffic from public data, archives, job posts, reviews, and their funnel, compared with the user's data, ending in plays routed to other skills. Also finds where competitors are weak. For a snapshot profile, see competitor-profiling. For comparison pages, see competitors.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/reverse-engineer-marketing",
+    "branch": "main"
+  },
+  {
+    "name": "revops",
+    "description": "When the user wants to design revenue operations, or asks when a lead is ready for sales or why sales and marketing disagree on lead quality: lifecycle stages, MQL and SQL, scoring, routing, handoff, pipeline stages, CRM automation. For outbound copy, see cold-email. For email flows, see emails.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/revops",
+    "branch": "main"
+  },
+  {
+    "name": "sales-enablement",
+    "description": "When the user wants sales collateral, or asks what to give a champion or rep, or how to answer an objection or make the case: decks, one-pagers, objection handling, demo scripts, talk tracks, battle cards, proposals, win-loss. For public comparison pages, see competitors. For buyer research, see customer-research. For website copy, see copywriting. For cold emails, see cold-email. For the offer, see offers.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/sales-enablement",
+    "branch": "main"
+  },
+  {
+    "name": "schema",
+    "description": "When the user wants to add, fix, or validate schema markup (JSON-LD), or asks which type fits a page or whether some markup is allowed: product, review, recipe, FAQ, rich result eligibility (FAQ no longer earns Google rich results), Search Console errors. For broader SEO, see seo-audit. For AI search, see ai-seo.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/schema",
+    "branch": "main"
+  },
+  {
+    "name": "seo-audit",
+    "description": "When the user wants to audit or diagnose SEO, or asks why traffic dropped, a page won't rank, or whether a setup like canonicals, hreflang, or redirects is right: technical SEO, indexing, Google updates, on-page and titles, Core Web Vitals, local SEO. Start here when someone just says their SEO is bad. For pages at scale, see programmatic-seo. For structured data, see schema. For AI search, see ai-seo.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/seo-audit",
+    "branch": "main"
+  },
+  {
+    "name": "signup",
+    "description": "When the user wants better signup, registration, and trial start flows, or asks which fields or steps to cut or whether to require a card: SSO and drop-off before an account exists. For what happens after signup, see onboarding. For lead forms that don't create an account, see cro.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/signup",
+    "branch": "main"
+  },
+  {
+    "name": "site-architecture",
+    "description": "When the user wants to plan or restructure a website, or asks which pages they need or where something belongs: hierarchy, navigation, URL structure, internal linking, website builders and migrations. Not XML sitemaps (see seo-audit). For structured data, see schema.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/site-architecture",
+    "branch": "main"
+  },
+  {
+    "name": "sms",
+    "description": "When the user wants SMS, MMS, or WhatsApp marketing, or asks whether texting is worth it or a message is allowed: abandoned cart, win-back, and promo texts, WhatsApp templates and windows, TCPA and A2P 10DLC compliance, SMS vs email. For email, see emails. For phone capture popups, see popups.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/sms",
+    "branch": "main"
+  },
+  {
+    "name": "social",
+    "description": "When the user wants organic social content for LinkedIn, X, Instagram, TikTok, or Facebook, or asks what to post, which format to favor, or from which account: posts, threads, carousels, short-form video scripts, calendars, build-in-public posts from commits, listening. No AI tells like 'it's not X, it's Y' or broetry. For content strategy, see content-strategy. For paid ads, see ad-creative. For press, see public-relations.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/social",
+    "branch": "main"
+  },
+  {
+    "name": "video",
+    "description": "When the user wants to create video with AI tools or code, or asks which approach to use (screen recording, AI avatar, generated, or templated) or how to make videos repeatably: product demos, AI generation (Veo, Sora, HeyGen), programmatic video with Remotion. For what to post, see social. For video ads, see ad-creative.",
+    "pack": "marketingskills",
+    "repo": "coreyhaines31/marketingskills",
+    "path": "skills/video",
     "branch": "main"
   },
   {

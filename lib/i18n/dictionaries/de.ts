@@ -11,6 +11,7 @@ const dictionary: Dictionary = {
   },
   nav: {
     skills: "Skill Builder",
+    setups: "Setups",
     categories: "Kategorien",
     contribute: "Mitmachen",
     github: "GitHub",
@@ -227,18 +228,58 @@ const dictionary: Dictionary = {
       coding: {
         title: "Diszipliniert coden",
         description: "Brainstorming, Planung, Test-first, systematisches Debugging und Prüfung vor dem Abschluss.",
+        benefits: [
+          "Klärt die Spezifikation vor dem Code, also weniger Nacharbeit",
+          "Test-first und Ursachen-Debugging statt Raten und Flicken",
+          "Zeigt erst die Verifikation, bevor es \"fertig\" sagt: weniger falsches \"läuft\"",
+        ],
       },
       frontend: {
         title: "Frontend & React",
         description: "Eigenständiges UI-Design, React-Best-Practices und Browser-Tests.",
+        benefits: [
+          "UI mit bewusster visueller Richtung statt Template-Look",
+          "Wendet Vercels React/Next.js-Performance-Regeln und skalierbare Kompositionsmuster an",
+          "Prüft Barrierefreiheit und UX nach den Web Interface Guidelines und testet die echte App mit Playwright",
+        ],
       },
       lean: {
         title: "Schlanker Code",
         description: "Verhindert Over-Engineering: die einfachste funktionierende Änderung in kleinen Schritten.",
+        benefits: [
+          "Die kleinste Änderung, die die Aufgabe löst, ohne spekulative Abstraktionen",
+          "Liefert in dünnen, überprüfbaren Schritten statt eines riesigen Diffs",
+          "Reviewt und vereinfacht Code, ohne sein Verhalten zu ändern",
+        ],
       },
       ml: {
         title: "ML mit Hugging Face",
         description: "Hub-Operationen, Datensätze, Modelltraining und Evaluierung.",
+        benefits: [
+          "Modelle, Datasets und Spaces im Hub mit der hf-CLI verwalten",
+          "Datasets über die Dataset Viewer API erkunden, durchsuchen und filtern",
+          "Mit TRL oder Unsloth feintunen (SFT, DPO, GRPO) und lokal mit inspect-ai und lighteval evaluieren",
+        ],
+      },
+      shortform: {
+        title: "Kurzvideo & Social",
+        description: "Trendrecherche, Kurzvideo-Skripte, Anzeigen-Hooks und Captions ohne KI-Klang.",
+        benefits: [
+          "Findet, worüber gerade auf Reddit, X, YouTube und TikTok gesprochen wird, bevor du etwas erstellst",
+          "Kurzvideo-Skripte, Karussells, Threads und Posting-Kalender pro Plattform",
+          "Hooks und Blickwinkel für TikTok- und Meta-Anzeigen, plus welcher Videoansatz passt: KI-Avatar, generiert oder Remotion",
+          "Entfernt KI-Merkmale aus Captions und Skripten, damit sie nach dir klingen",
+        ],
+      },
+      growth: {
+        title: "Marketing & SEO-Wachstum",
+        description: "Copywriting, SEO und KI-Suche, Conversion und Launches.",
+        benefits: [
+          "Seitentexte und Headlines mit Aussagen, die du belegen kannst",
+          "Diagnostiziert SEO-Probleme (Indexierung, Core Web Vitals) und wie du in ChatGPT und AI Overviews zitiert wirst",
+          "Findet, warum eine Seite nicht konvertiert und was zuerst zu ändern ist",
+          "Launch-Pläne und Checklisten für Product Hunt, Betas und Wartelisten",
+        ],
       },
     },
     listLabel: "Verfügbare Skills",
@@ -266,6 +307,53 @@ const dictionary: Dictionary = {
     copy: "Kopieren",
     copied: "Kopiert!",
     jumpToOutput: "Prompt für {count} Skills",
+    presetDetails: "Details",
+    benefitsLabel: "Was es bringt",
+    includedLabel: "Enthaltene Skills",
+    setups: {
+      heading: "Setups bekannter Entwickler",
+      intro: "Die Claude-Code-Setups, die diese Leute täglich nutzen, als Open Source. Jedes wird komplett mit seinem offiziellen Befehl installiert.",
+      installLabel: "In Claude Code installieren",
+      installHint: "Zeilen mit / am Anfang laufen in Claude Code, der Rest im Terminal. Voraussetzungen und andere Agents stehen in der README.",
+      items: {
+        ecc: {
+          credential: "Gewinner des Anthropic x Forum Ventures Hackathons (Sep. 2025)",
+          summary: "ECC (Everything Claude Code): ein komplettes Agent-Harness aus Agents, Skills, Hooks, Regeln und Memory.",
+          strengths: [
+            "Über 70 Agents und 300 Skills für Planung, Review, Security und mehr in einer Installation",
+            "Verankert den Ablauf Planen → Testen → Implementieren → Review → Verifizieren in jeder Aufgabe",
+            "AgentShield scannt Prompts, Hooks, MCP-Konfiguration und Secrets",
+          ],
+        },
+        gstack: {
+          credential: "President & CEO von Y Combinator",
+          summary: "gstack: Slash-Befehle, die wie ein virtuelles Engineering-Team arbeiten.",
+          strengths: [
+            "Rollen für CEO, Designer, Eng Manager, QA, Security und Release als Slash-Befehle",
+            "/review findet Bugs, die die CI bestehen, aber in Produktion brechen",
+            "/qa öffnet einen echten Browser, um Bugs zu reproduzieren und zu beheben",
+          ],
+        },
+        mattpocock: {
+          credential: "TypeScript-Lehrer, Macher von Total TypeScript (ex-Vercel)",
+          summary: "Skills for Real Engineers: kleine, kombinierbare Skills direkt aus seinem .agents-Ordner.",
+          strengths: [
+            "/grill-me lässt den Agenten vor dem Bauen nachfragen, damit er versteht, was du willst",
+            "/grill-with-docs baut ein Projekt-Glossar, das Geschwätzigkeit und Tokens spart",
+            "/tdd und /diagnosing-bugs erzwingen Red-Green-Refactor und schrittweises Debugging",
+          ],
+        },
+        superpowers: {
+          credential: "Macher von Superpowers, Prime Radiant",
+          summary: "Superpowers: eine vollständige Entwicklungsmethodik aus kombinierbaren Skills.",
+          strengths: [
+            "Fragt, was du wirklich baust, und zeigt die Spezifikation in kurzen, lesbaren Häppchen",
+            "Plant mit echtem Red/Green-TDD, YAGNI und DRY",
+            "Subagent-getriebene Entwicklung arbeitet den Plan stundenlang selbstständig ab",
+          ],
+        },
+      },
+    },
   },
   analyze: {
     pageTitle: "GitHub-Repository analysieren",

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { SkillBuilder, type SkillPack } from "@/components/SkillBuilder";
 import { getProjectBySlug } from "@/lib/projects";
@@ -49,10 +50,13 @@ export default async function SkillsPage({ params }: SkillsPageProps) {
   const dict = getDictionary(locale);
 
   return (
-    <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
+    <div className={`mx-auto max-w-6xl px-4 py-12 sm:px-6 ${locale === "ko" ? "break-keep" : ""}`}>
       <h1 className="text-3xl font-bold tracking-tight">{dict.skills.pageTitle}</h1>
       <p className="mt-2 max-w-2xl text-muted-foreground">{dict.skills.pageDescription}</p>
-      <div className="mt-8">
+      <Link href={`/${locale}/setups`} className="mt-3 inline-block text-sm text-accent hover:underline">
+        {dict.skills.setups.heading} →
+      </Link>
+      <div className="mt-10">
         <Suspense fallback={null}>
           <SkillBuilder
             packs={getSkillPacks(locale)}

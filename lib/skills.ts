@@ -21,6 +21,9 @@ export const SKILL_PACK_ORDER = [
   "vercel-agent-skills",
   "ponytail",
   "huggingface-skills",
+  "marketingskills",
+  "last30days",
+  "humanizer",
   "scientific-agent-skills",
 ];
 
@@ -85,6 +88,26 @@ export const PRESETS = [
       "huggingface-skills/huggingface-datasets",
       "huggingface-skills/huggingface-llm-trainer",
       "huggingface-skills/huggingface-community-evals",
+    ],
+  },
+  {
+    id: "shortform",
+    skills: [
+      "last30days/last30days",
+      "marketingskills/social",
+      "marketingskills/video",
+      "marketingskills/ad-creative",
+      "humanizer/humanizer",
+    ],
+  },
+  {
+    id: "growth",
+    skills: [
+      "marketingskills/copywriting",
+      "marketingskills/seo-audit",
+      "marketingskills/ai-seo",
+      "marketingskills/cro",
+      "marketingskills/launch",
     ],
   },
 ] as const;
