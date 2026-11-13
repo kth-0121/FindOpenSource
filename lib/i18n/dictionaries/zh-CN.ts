@@ -489,7 +489,7 @@ const dictionary: Dictionary = {
   privacy: {
     title: "隐私政策",
     metaDescription: "了解 FindOpenSource 如何处理信息、Cookie、第三方服务和外部链接。",
-    lastUpdated: "最后更新：2026 年 9 月 15 日",
+    lastUpdated: "最后更新：2026 年 11 月 13 日",
     sections: [
       {
         heading: "简介",
@@ -514,15 +514,16 @@ const dictionary: Dictionary = {
       {
         heading: "搜索查询与使用信息",
         paragraphs: [
-          "当你在 FindOpenSource 上搜索时，你输入的关键词会作为 URL 参数传递（例如 /search?q=database），并在页面渲染时与网站本地的项目目录进行匹配。FindOpenSource 不会将你的搜索查询记录、存储或分析到任何数据库中。",
+          "在 FindOpenSource 中搜索时，搜索词会出现在页面网址中（例如 /search?q=database），并在你的浏览器中与网站的项目目录进行匹配。FindOpenSource 不会将你的搜索词存储在自己的任何数据库中。但由于搜索词是页面地址的一部分，Google Analytics 可能会将其与你访问的其他页面一起记录（见下文）。",
           "与几乎所有网站一样，底层托管基础设施可能会出于安全和运维目的自动记录基本的技术请求信息（例如 IP 地址、浏览器类型和请求时间戳）。这是标准的 Web 服务器行为，并非 FindOpenSource 的应用代码单独收集或处理的内容。",
         ],
       },
       {
-        heading: "Cookie 及类似技术",
+        heading: "Cookie、广告与分析",
         paragraphs: [
-          "FindOpenSource 目前不会设置自己的 Cookie，也不使用 localStorage 或 sessionStorage 来追踪或识别访问者。",
-          "如果这种情况在未来发生变化——例如引入广告——我们会更新本节内容，具体说明所使用的技术及其原因。",
+          "FindOpenSource 本身不设置 Cookie，但使用了两项会在你的浏览器中设置 Cookie 及类似标识符的 Google 服务：用于了解访问人数和常用页面的 Google Analytics，以及用于展示广告的 Google AdSense。",
+          "包括 Google 在内的第三方供应商会使用 Cookie，根据你以往访问本网站或其他网站的情况投放广告。Google 使用广告 Cookie，使其及其合作伙伴能够根据你访问本网站和/或互联网上其他网站的情况向你投放广告。Google 如何使用来自使用其服务的网站的信息，请参阅 https://policies.google.com/technologies/partner-sites。",
+          "你可以在 Google 广告设置（https://adssettings.google.com）中停用个性化广告，或在 https://www.aboutads.info/choices 停用部分第三方供应商将 Cookie 用于个性化广告。你可以通过 https://tools.google.com/dlpage/gaoptout 的浏览器插件阻止 Google Analytics 收集你的数据，也可以在浏览器设置中屏蔽或删除 Cookie。",
         ],
       },
       {
@@ -547,7 +548,7 @@ const dictionary: Dictionary = {
       {
         heading: "数据保留",
         paragraphs: [
-          "由于 FindOpenSource 不通过网站收集个人信息，因此没有需要说明的用户数据保留期限。托管基础设施生成的任何技术日志，将按照该服务提供商自身的做法保留，不在 FindOpenSource 的控制范围内。",
+          "由于 FindOpenSource 不通过网站收集个人信息，因此没有自己的用户数据保留期限需要说明。通过 Google Analytics 和 AdSense Cookie 收集的数据按 Google 的政策保留，托管基础设施生成的技术日志按该服务商的做法保留，均不受 FindOpenSource 控制。",
         ],
       },
       {
@@ -577,7 +578,7 @@ const dictionary: Dictionary = {
       {
         heading: "本隐私政策的变更",
         paragraphs: [
-          "随着网站的发展，我们可能会更新本政策。FindOpenSource 未来可能会使用 Google AdSense 等广告服务。如果引入广告，我们会在广告上线前更新本政策，说明相关的 Cookie、标识符、数据处理方式和用户可选项。本页顶部的「最后更新」日期反映了最近一次修订的时间。",
+          "随着网站的发展，我们可能会更新本政策。本页顶部的「最后更新」日期反映了最近一次修订的时间。",
         ],
       },
       {

@@ -491,7 +491,7 @@ const dictionary: Dictionary = {
   privacy: {
     title: "개인정보처리방침",
     metaDescription: "FindOpenSource가 정보, 쿠키, 제3자 서비스, 외부 링크를 어떻게 다루는지 안내합니다.",
-    lastUpdated: "최종 업데이트: 2026년 9월 15일",
+    lastUpdated: "최종 업데이트: 2026년 11월 13일",
     sections: [
       {
         heading: "소개",
@@ -516,15 +516,16 @@ const dictionary: Dictionary = {
       {
         heading: "검색어 및 이용 정보",
         paragraphs: [
-          "FindOpenSource에서 검색하면 입력한 검색어는 URL 파라미터(예: /search?q=database)로 전달되어, 페이지가 렌더링되는 시점에 사이트의 로컬 프로젝트 카탈로그와 매칭됩니다. FindOpenSource는 검색어를 별도의 데이터베이스에 기록하거나 저장하거나 분석하지 않습니다.",
+          "FindOpenSource에서 검색하면 검색어가 페이지 주소에 포함되고(예: /search?q=database), 브라우저에서 사이트의 프로젝트 목록과 대조됩니다. FindOpenSource는 검색어를 자체 데이터베이스에 저장하지 않습니다. 다만 검색어가 페이지 주소의 일부이기 때문에, 방문한 다른 페이지와 함께 Google 애널리틱스에 기록될 수 있습니다(아래 참고).",
           "거의 모든 웹사이트와 마찬가지로, 호스팅 인프라는 보안 및 운영 목적으로 IP 주소, 브라우저 종류, 요청 시각과 같은 기본적인 기술 정보를 자동으로 기록할 수 있습니다. 이는 일반적인 웹 서버의 동작 방식이며, FindOpenSource의 애플리케이션 코드가 별도로 수집하거나 처리하는 정보가 아닙니다.",
         ],
       },
       {
-        heading: "쿠키 및 유사 기술",
+        heading: "쿠키, 광고 및 분석",
         paragraphs: [
-          "FindOpenSource는 현재 자체 쿠키를 설정하지 않으며, 방문자를 추적하거나 식별하기 위해 localStorage나 sessionStorage를 사용하지 않습니다.",
-          "향후 광고 도입 등의 이유로 이 부분이 변경될 경우, 정확히 어떤 기술이 왜 사용되는지 이 섹션을 업데이트하여 안내하겠습니다.",
+          "FindOpenSource는 자체 쿠키를 설정하지 않습니다. 다만 브라우저에 쿠키 및 유사한 식별자를 저장하는 두 가지 Google 서비스를 사용합니다. 방문자 수와 많이 이용되는 페이지를 파악하기 위한 Google 애널리틱스, 그리고 광고를 게재하기 위한 Google 애드센스입니다.",
+          "Google을 포함한 제3자 공급업체는 쿠키를 사용하여 사용자가 이 사이트나 다른 웹사이트를 이전에 방문한 기록을 바탕으로 광고를 게재합니다. Google은 광고 쿠키를 사용하여, 사용자가 이 사이트 및 인터넷의 다른 사이트를 방문한 기록을 바탕으로 Google과 파트너가 광고를 게재할 수 있도록 합니다. Google이 자사 서비스를 사용하는 사이트의 정보를 어떻게 사용하는지는 https://policies.google.com/technologies/partner-sites 에서 확인할 수 있습니다.",
+          "Google 광고 설정(https://adssettings.google.com)에서 맞춤 광고를 해제하거나, https://www.aboutads.info/choices 에서 일부 제3자 공급업체의 맞춤 광고용 쿠키 사용을 해제할 수 있습니다. Google 애널리틱스의 데이터 수집은 https://tools.google.com/dlpage/gaoptout 의 브라우저 부가기능으로 차단할 수 있으며, 브라우저 설정에서 쿠키를 차단하거나 삭제할 수도 있습니다.",
         ],
       },
       {
@@ -549,7 +550,7 @@ const dictionary: Dictionary = {
       {
         heading: "데이터 보관",
         paragraphs: [
-          "FindOpenSource는 사이트를 통해 개인정보를 수집하지 않으므로, 별도의 사용자 데이터 보관 기간이 존재하지 않습니다. 호스팅 인프라에서 생성되는 기술 로그는 FindOpenSource의 통제 범위 밖에서 해당 제공업체의 자체 정책에 따라 보관됩니다.",
+          "FindOpenSource는 사이트를 통해 개인정보를 직접 수집하지 않으므로 별도로 설명할 자체 사용자 데이터 보관 기간이 없습니다. Google 애널리틱스와 애드센스 쿠키를 통해 수집된 데이터는 Google의 정책에 따라, 호스팅 인프라에서 생성된 기술 로그는 해당 제공업체의 정책에 따라 보관되며, 둘 다 FindOpenSource가 관리하지 않습니다.",
         ],
       },
       {
@@ -579,7 +580,7 @@ const dictionary: Dictionary = {
       {
         heading: "이 개인정보처리방침의 변경",
         paragraphs: [
-          "사이트가 발전함에 따라 이 방침을 업데이트할 수 있습니다. FindOpenSource는 향후 Google AdSense와 같은 광고 서비스를 도입할 수 있습니다. 광고가 도입될 경우, 시행 전에 관련 쿠키, 식별자, 데이터 처리 방식, 사용자 선택 옵션을 설명하도록 이 방침을 업데이트하겠습니다. 이 페이지 상단의 '최종 업데이트' 날짜는 가장 최근 개정 시점을 나타냅니다.",
+          "사이트가 발전함에 따라 이 방침을 업데이트할 수 있습니다. 이 페이지 상단의 '최종 업데이트' 날짜는 가장 최근 개정 시점을 나타냅니다.",
         ],
       },
       {

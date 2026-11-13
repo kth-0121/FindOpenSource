@@ -496,7 +496,7 @@ const dictionary: Dictionary = {
   privacy: {
     title: "Política de privacidad",
     metaDescription: "Cómo gestiona FindOpenSource la información, las cookies, los servicios de terceros y los enlaces externos.",
-    lastUpdated: "Última actualización: 15 de septiembre de 2026",
+    lastUpdated: "Última actualización: 13 de noviembre de 2026",
     sections: [
       {
         heading: "Introducción",
@@ -521,15 +521,16 @@ const dictionary: Dictionary = {
       {
         heading: "Consultas de búsqueda e información de uso",
         paragraphs: [
-          "Cuando buscas en FindOpenSource, tu consulta se pasa como parámetro de URL (por ejemplo, /search?q=database) y se compara con el catálogo local de proyectos del sitio en el momento en que se genera la página. FindOpenSource no registra, almacena ni analiza tus consultas de búsqueda en ninguna base de datos.",
+          "Cuando buscas en FindOpenSource, tu consulta se incluye en la URL de la página (por ejemplo, /search?q=database) y se compara en tu navegador con el catálogo de proyectos del sitio. FindOpenSource no guarda tus búsquedas en ninguna base de datos propia. Sin embargo, como la consulta forma parte de la dirección de la página, Google Analytics puede registrarla junto con las demás páginas que visitas (ver más abajo).",
           "Como prácticamente cualquier sitio web, la infraestructura de alojamiento subyacente puede registrar automáticamente información técnica básica de la solicitud (como la dirección IP, el tipo de navegador y la marca de tiempo de la solicitud) con fines de seguridad y operativos. Este es un comportamiento estándar de los servidores web y no algo que el código de la aplicación de FindOpenSource recopile o procese de forma independiente.",
         ],
       },
       {
-        heading: "Cookies y tecnologías similares",
+        heading: "Cookies, publicidad y analítica",
         paragraphs: [
-          "Actualmente, FindOpenSource no establece sus propias cookies ni utiliza localStorage o sessionStorage para rastrear o identificar a los visitantes.",
-          "Si esto cambia en el futuro, por ejemplo si se introduce publicidad, esta sección se actualizará para describir exactamente qué se utiliza y por qué.",
+          "FindOpenSource no instala cookies propias. Sí utiliza dos servicios de Google que instalan cookies e identificadores similares en tu navegador: Google Analytics, para saber cuántas personas visitan el sitio y qué páginas usan, y Google AdSense, para mostrar anuncios.",
+          "Los proveedores externos, incluido Google, utilizan cookies para mostrar anuncios basados en tus visitas anteriores a este sitio o a otros sitios web. Las cookies de publicidad de Google le permiten a Google y a sus socios mostrarte anuncios basados en tus visitas a este sitio y/o a otros sitios de Internet. Cómo usa Google la información de los sitios que utilizan sus servicios se explica en https://policies.google.com/technologies/partner-sites.",
+          "Puedes desactivar la publicidad personalizada en la Configuración de anuncios de Google (https://adssettings.google.com) o desactivar el uso de cookies para publicidad personalizada por parte de algunos proveedores externos en https://www.aboutads.info/choices. Puedes impedir que Google Analytics recopile tus datos con el complemento de navegador de https://tools.google.com/dlpage/gaoptout, o bloquear o eliminar las cookies desde la configuración de tu navegador.",
         ],
       },
       {
@@ -554,7 +555,7 @@ const dictionary: Dictionary = {
       {
         heading: "Retención de datos",
         paragraphs: [
-          "Como FindOpenSource no recopila información personal a través del sitio, no existe un calendario de retención de datos de usuario que describir. Los registros técnicos generados por la infraestructura de alojamiento se conservan según las prácticas propias de ese proveedor, fuera del control de FindOpenSource.",
+          "Como FindOpenSource no recopila información personal a través del sitio, no tiene un plazo propio de conservación de datos de usuarios que describir. Los datos recopilados mediante las cookies de Google Analytics y AdSense se conservan según las políticas de Google, y los registros técnicos de la infraestructura de alojamiento según las prácticas de ese proveedor, ambos fuera del control de FindOpenSource.",
         ],
       },
       {
@@ -584,7 +585,7 @@ const dictionary: Dictionary = {
       {
         heading: "Cambios en esta política de privacidad",
         paragraphs: [
-          "Podemos actualizar esta política a medida que el sitio evoluciona. FindOpenSource podría utilizar servicios publicitarios como Google AdSense en el futuro. Si se introduce publicidad, esta política se actualizará antes de su activación para describir las cookies, identificadores, tratamiento de datos y opciones del usuario correspondientes. La fecha de última actualización en la parte superior de esta página refleja la revisión más reciente.",
+          "Podemos actualizar esta política a medida que el sitio evoluciona. La fecha de última actualización en la parte superior de esta página refleja la revisión más reciente.",
         ],
       },
       {

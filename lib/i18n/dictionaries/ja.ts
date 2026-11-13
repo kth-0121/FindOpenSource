@@ -491,7 +491,7 @@ const dictionary: Dictionary = {
   privacy: {
     title: "プライバシーポリシー",
     metaDescription: "FindOpenSource が情報、Cookie、第三者サービス、外部リンクをどのように扱っているかについて説明します。",
-    lastUpdated: "最終更新日: 2026年9月15日",
+    lastUpdated: "最終更新日: 2026年11月13日",
     sections: [
       {
         heading: "はじめに",
@@ -516,15 +516,16 @@ const dictionary: Dictionary = {
       {
         heading: "検索クエリと利用情報",
         paragraphs: [
-          "FindOpenSource で検索を行うと、入力した検索語は URL パラメータ(例: /search?q=database)として渡され、ページがレンダリングされる際にサイト内のプロジェクトカタログと照合されます。FindOpenSource は検索クエリをデータベースに記録・保存・分析することはありません。",
+          "FindOpenSource で検索すると、検索語はページの URL に含まれ（例: /search?q=database）、ブラウザ上でサイトのプロジェクト一覧と照合されます。FindOpenSource が検索語を独自のデータベースに保存することはありません。ただし検索語はページアドレスの一部であるため、閲覧した他のページとともに Google アナリティクスに記録されることがあります（下記参照）。",
           "ほとんどのウェブサイトと同様に、ホスティングインフラはセキュリティおよび運用目的で IP アドレス、ブラウザの種類、リクエスト日時などの基本的な技術情報を自動的に記録することがあります。これは一般的な Web サーバーの標準的な挙動であり、FindOpenSource のアプリケーションコードが別途収集・処理しているものではありません。",
         ],
       },
       {
-        heading: "Cookie および類似技術",
+        heading: "Cookie、広告、アクセス解析",
         paragraphs: [
-          "FindOpenSource は現在、独自の Cookie を設定しておらず、訪問者の追跡や識別のために localStorage や sessionStorage を使用していません。",
-          "将来、広告の導入などにより状況が変わった場合は、何が使われ、なぜ使われるのかをこのセクションで具体的に更新してお知らせします。",
+          "FindOpenSource 自体は Cookie を設定しません。ただし、ブラウザに Cookie や類似の識別子を保存する 2 つの Google サービスを利用しています。訪問者数やよく使われるページを把握するための Google アナリティクスと、広告を配信するための Google AdSense です。",
+          "Google などの第三者配信事業者は Cookie を使用して、ユーザーがこのサイトや他のウェブサイトに過去にアクセスした際の情報に基づいて広告を配信します。Google が広告 Cookie を使用することにより、ユーザーがこのサイトやインターネット上の他のサイトにアクセスした際の情報に基づいて、Google やそのパートナーが広告を表示できます。Google がサービスを利用するサイトの情報をどのように使用するかは https://policies.google.com/technologies/partner-sites で確認できます。",
+          "パーソナライズ広告は Google の広告設定（https://adssettings.google.com）で無効にできます。また https://www.aboutads.info/choices で、一部の第三者配信事業者によるパーソナライズ広告用 Cookie の使用を無効にできます。Google アナリティクスによるデータ収集は https://tools.google.com/dlpage/gaoptout のブラウザアドオンで停止でき、ブラウザの設定で Cookie をブロックまたは削除することもできます。",
         ],
       },
       {
@@ -549,7 +550,7 @@ const dictionary: Dictionary = {
       {
         heading: "データの保持",
         paragraphs: [
-          "FindOpenSource はサイトを通じて個人情報を収集していないため、ユーザーデータの保持期間について説明する内容がありません。ホスティングインフラによって生成される技術ログは、FindOpenSource の管理外で、当該プロバイダー自身のポリシーに従って保持されます。",
+          "FindOpenSource はサイトを通じて個人情報を収集しないため、独自のユーザーデータ保存期間はありません。Google アナリティクスと AdSense の Cookie を通じて収集されたデータは Google のポリシーに、ホスティング基盤が生成する技術ログはそのプロバイダーの方針に従って保存され、いずれも FindOpenSource の管理外です。",
         ],
       },
       {
@@ -579,7 +580,7 @@ const dictionary: Dictionary = {
       {
         heading: "本プライバシーポリシーの変更",
         paragraphs: [
-          "サイトの発展に伴い、本ポリシーを更新することがあります。FindOpenSource は将来、Google AdSense などの広告サービスを利用する可能性があります。広告を導入する場合は、導入前に関連する Cookie、識別子、データ処理、ユーザーの選択肢について説明するよう本ポリシーを更新します。ページ上部の「最終更新日」は最新の改定日を示しています。",
+          "サイトの発展に伴い、本ポリシーを更新することがあります。ページ上部の「最終更新日」は最新の改定日を示しています。",
         ],
       },
       {
