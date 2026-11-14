@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import { sendGAEvent } from "@next/third-parties/google";
 import { useSearchParams } from "next/navigation";
 import {
   AGENTS,
@@ -80,6 +81,8 @@ export function SkillBuilder({
   async function copy() {
     try {
       await navigator.clipboard.writeText(output);
+      // The site's one real conversion: someone left with an install prompt.
+      sendGAEvent("event", "copy_skill_prompt", { format: tab, agent: agentId, skill_count: picked.length });
       setCopied(true);
       setTimeout(() => setCopied(false), 1500);
     } catch {
