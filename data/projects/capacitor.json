@@ -27,6 +27,28 @@
   "license": "MIT",
   "featured": false,
   "dateAdded": "2026-10-05",
+  "translations": {
+    "zh-CN": {
+      "description": "开源原生运行时，用于构建 Web 应用，使其既能在 iOS 和 Android 上作为真正的原生应用运行，也能在 Web 上作为可安装的 PWA 运行，并提供用于调用原生设备 API 的插件系统。",
+      "longDescription": "Capacitor 是一个原生运行时，让你只需构建一个 Web 应用，就能将其作为真正的原生应用运行在 iOS 和 Android 上，同时也可作为可安装的渐进式 Web 应用（PWA）运行，而不是在普通的嵌入式浏览器视图中渲染。它为原生设备能力（相机、地理定位、文件系统、推送通知等）提供一致的、基于 Promise 的 JavaScript API，底层由原生的 Swift 和 Kotlin/Java 实现支撑。\n\n与大而全、约定繁多的框架不同，Capacitor 有意保持与框架无关：它适用于任何 Web 应用（React、Vue、Angular、Svelte 或原生 JavaScript），常与 Ionic UI 框架搭配使用，但并不依赖它。其插件架构让团队可以为每个平台编写一次自定义原生功能，再从 Web 代码中调用；庞大的社区和官方插件生态已经覆盖了大多数常见的原生集成。\n\nCapacitor 适合已经拥有（或想要构建）Web 应用、并希望用同一套代码库发布真正原生移动应用的团队，而无需绑定一个将原生平台访问抽象掉的框架。"
+    },
+    "ja": {
+      "description": "Web アプリを iOS・Android 上で本物のネイティブアプリとして、また Web 上ではインストール可能な PWA として動かすためのオープンソースのネイティブランタイムです。ネイティブのデバイス API を利用するためのプラグインシステムを備えています。",
+      "longDescription": "Capacitor は、1つの Web アプリを構築し、単なる埋め込みブラウザビュー内で描画するのではなく、iOS・Android 上で本物のネイティブアプリとして、さらにインストール可能な Progressive Web App としても動かせるネイティブランタイムです。カメラ、位置情報、ファイルシステム、プッシュ通知などのネイティブデバイス機能に対して、一貫した Promise ベースの JavaScript API を提供し、その裏側ではネイティブの Swift および Kotlin/Java 実装が動いています。\n\n設計思想の強いフル機能のフレームワークとは異なり、Capacitor は意図的にフレームワーク非依存になっています。どの Web アプリ(React、Vue、Angular、Svelte、素の JavaScript)とも組み合わせられ、Ionic UI フレームワークと併用されることが多いものの、必須ではありません。プラグインアーキテクチャにより、チームは独自のネイティブ機能をプラットフォームごとに一度書くだけで Web コードから呼び出せます。また、コミュニティ製・公式の豊富なプラグインエコシステムが、一般的なネイティブ連携の大半をすでにカバーしています。\n\nCapacitor は、すでに Web アプリを持っている(または構築したい)チームが、ネイティブプラットフォームへのアクセスを抽象化してしまうフレームワークに縛られることなく、同じコードベースから本物のネイティブモバイルアプリをリリースしたい場合に向いています。"
+    },
+    "ko": {
+      "description": "웹 앱을 iOS와 Android에서 진짜 네이티브 앱으로, 웹에서는 설치 가능한 PWA로 실행할 수 있게 해 주는 오픈소스 네이티브 런타임으로, 네이티브 디바이스 API를 위한 플러그인 시스템을 갖추고 있습니다.",
+      "longDescription": "Capacitor는 하나의 웹 앱을 만들어 단순한 임베디드 브라우저 뷰 안에서 렌더링하는 것이 아니라, iOS와 Android에서 진짜 네이티브 앱으로, 그리고 설치 가능한 Progressive Web App으로 실행할 수 있게 해 주는 네이티브 런타임입니다. 네이티브 디바이스 기능(카메라, 위치 정보, 파일 시스템, 푸시 알림 등)을 위한 일관된 Promise 기반 JavaScript API를 제공하며, 내부적으로는 Swift와 Kotlin/Java로 작성된 네이티브 구현이 이를 뒷받침합니다.\n\n특정 방식을 강하게 요구하는 풀 프레임워크와 달리, Capacitor는 의도적으로 프레임워크에 독립적입니다: 어떤 웹 앱(React, Vue, Angular, Svelte, 또는 순수 JavaScript)과도 함께 동작하며, Ionic UI 프레임워크와 자주 짝을 이루지만 Ionic이 필수는 아닙니다. 플러그인 아키텍처 덕분에 팀은 커스텀 네이티브 기능을 플랫폼별로 한 번만 작성해 웹 코드에서 호출할 수 있고, 커뮤니티 플러그인과 공식 플러그인으로 이루어진 대규모 생태계가 이미 대부분의 일반적인 네이티브 통합을 지원합니다.\n\nCapacitor는 이미 웹 앱을 가지고 있거나 만들려는 팀이, 네이티브 플랫폼 접근을 추상화해 버리는 프레임워크에 얽매이지 않고 같은 코드베이스로 진짜 네이티브 모바일 앱을 출시하고자 할 때 적합합니다."
+    },
+    "es": {
+      "description": "Runtime nativo de código abierto para crear apps web que se ejecutan como apps genuinamente nativas en iOS y Android, y como PWA instalables en la web, con un sistema de plugins para las APIs nativas del dispositivo.",
+      "longDescription": "Capacitor es un runtime nativo que te permite crear una sola app web y ejecutarla como una app genuinamente nativa en iOS y Android, además de como Progressive Web App instalable, en lugar de renderizarla dentro de una simple vista de navegador embebida. Expone una API de JavaScript coherente y basada en promesas para las capacidades nativas del dispositivo (cámara, geolocalización, sistema de archivos, notificaciones push y más), respaldada internamente por implementaciones nativas en Swift y Kotlin/Java.\n\nA diferencia de un framework completo y con opiniones marcadas, Capacitor es intencionadamente agnóstico respecto al framework: funciona con cualquier app web (React, Vue, Angular, Svelte o JavaScript puro) y suele combinarse con el framework de UI Ionic, aunque no lo requiere. Su arquitectura de plugins permite a los equipos escribir funcionalidad nativa personalizada una vez por plataforma e invocarla desde el código web, y un amplio ecosistema de plugins oficiales y de la comunidad ya cubre la mayoría de las integraciones nativas habituales.\n\nCapacitor encaja en equipos que ya tienen (o quieren crear) una app web y desean publicar apps móviles nativas reales desde la misma base de código, sin comprometerse con un framework que abstraiga el acceso a la plataforma nativa."
+    },
+    "de": {
+      "description": "Open-Source-Native-Runtime, mit der du Web-Apps baust, die als echte native Apps auf iOS und Android sowie als installierbare PWAs im Web laufen – mit einem Plugin-System für native Geräte-APIs.",
+      "longDescription": "Capacitor ist eine native Runtime, mit der du eine einzige Web-App baust und sie als echte native App auf iOS und Android sowie als installierbare Progressive Web App ausführst, statt sie nur in einer einfachen eingebetteten Browser-Ansicht darzustellen. Sie stellt eine einheitliche, Promise-basierte JavaScript-API für native Gerätefunktionen bereit (Kamera, Standort, Dateisystem, Push-Benachrichtigungen und mehr), hinter der native Implementierungen in Swift und Kotlin/Java arbeiten.\n\nAnders als ein umfassendes, meinungsstarkes Framework ist Capacitor bewusst Framework-unabhängig: Es funktioniert mit jeder Web-App (React, Vue, Angular, Svelte oder reinem JavaScript) und wird häufig mit dem UI-Framework Ionic kombiniert, setzt es aber nicht voraus. Dank der Plugin-Architektur können Teams eigene native Funktionen einmal pro Plattform schreiben und aus dem Web-Code aufrufen, und ein großes Ökosystem aus Community- und offiziellen Plugins deckt die meisten gängigen nativen Integrationen bereits ab.\n\nCapacitor eignet sich für Teams, die bereits eine Web-App haben (oder bauen wollen) und aus derselben Codebasis echte native Mobile-Apps ausliefern möchten, ohne sich auf ein Framework festzulegen, das den Zugriff auf die native Plattform wegabstrahiert."
+    }
+  },
   "evaluation": {
     "quality": {
       "lastCommitAt": "2026-10-02",

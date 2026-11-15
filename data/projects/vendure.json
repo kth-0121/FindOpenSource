@@ -21,6 +21,28 @@
   "license": "GPL-3.0",
   "featured": false,
   "dateAdded": "2026-09-25",
+  "translations": {
+    "zh-CN": {
+      "description": "开源无头电商平台，基于 TypeScript、NestJS 和 GraphQL 构建，采用插件优先的架构。",
+      "longDescription": "Vendure 是一个无头电商平台，让你在一个可以从核心层面修改、而非只能绕道变通的后端上，对商品目录、订单、定价、促销和客户进行建模。它从头到尾使用 TypeScript 并基于 NestJS 构建，提供 GraphQL API，并附带基于 React/TanStack 的管理后台。其插件系统是主要的扩展点——大多数自定义业务逻辑都应以插件形式编写，而不是 fork 核心代码。\n\n它支持单店铺和多渠道配置（便于在同一个后端上运行 D2C 和 B2B 店面，或多个区域店面），并且由于本身就是无头设计，通常会与独立的前端框架搭配使用。\n\nVendure 采用双重许可：开源版本使用 GPLv3，另有 Vendure GmbH 提供的独立商业许可（Vendure Commercial License），供需要不同条款的团队使用。采用前值得了解这一点，因为这与本目录中其他一些平台采用的完全宽松许可证模式不同。"
+    },
+    "ja": {
+      "description": "TypeScript、NestJS、GraphQL で構築された、プラグインファーストのアーキテクチャを持つオープンソースのヘッドレスコマースプラットフォームです。",
+      "longDescription": "Vendure は、カタログ、注文、価格設定、プロモーション、顧客をモデル化するためのヘッドレスコマースプラットフォームで、回避策を講じるのではなくコアから変更できるバックエンドを提供します。TypeScript で NestJS 上にエンドツーエンドで構築され、GraphQL API を公開し、React/TanStack ベースの管理ダッシュボードを同梱しています。プラグインシステムが主な拡張ポイントで、独自のビジネスロジックの大半は、コアのコードをフォークするのではなくプラグインとして書くことが想定されています。\n\n単一ストア構成とマルチチャネル構成(1つのバックエンドから D2C と B2B のストアフロントや、複数の地域別ストアフロントを運営するのに便利)に対応しており、設計上ヘッドレスであるため、別のフロントエンドフレームワークと組み合わせて使われることが一般的です。\n\nVendure はデュアルライセンスです。オープンソース版は GPLv3 で、異なる条件を必要とするチーム向けに Vendure GmbH から別途商用ライセンス(Vendure Commercial License)が提供されています。このカタログにある他のいくつかのプラットフォームが採用している完全に寛容なライセンスとは異なるモデルなので、導入前に知っておく価値があります。"
+    },
+    "ko": {
+      "description": "TypeScript, NestJS, GraphQL로 구축된 오픈소스 헤드리스 커머스 플랫폼으로, 플러그인 우선 아키텍처를 갖추고 있습니다.",
+      "longDescription": "Vendure는 카탈로그, 주문, 가격, 프로모션, 고객을 모델링하는 헤드리스 커머스 플랫폼으로, 우회해서 작업할 필요 없이 코어부터 변경할 수 있는 백엔드를 제공합니다. NestJS 기반으로 처음부터 끝까지 TypeScript로 작성되었고, GraphQL API를 노출하며, React/TanStack 기반 관리자 대시보드를 함께 제공합니다. 플러그인 시스템이 주요 확장 지점으로, 대부분의 커스텀 비즈니스 로직은 코어 코드를 포크하는 대신 플러그인으로 작성하는 것을 전제로 합니다.\n\n단일 스토어와 멀티 채널 구성(하나의 백엔드로 D2C와 B2B 스토어프런트, 또는 여러 지역별 스토어프런트를 운영할 때 유용)을 지원하며, 설계상 헤드리스이기 때문에 일반적으로 별도의 프런트엔드 프레임워크와 함께 사용합니다.\n\nVendure는 듀얼 라이선스입니다: 오픈소스 에디션은 GPLv3이며, 다른 조건이 필요한 팀을 위해 Vendure GmbH가 별도의 상용 라이선스(Vendure Commercial License)를 제공합니다. 이 카탈로그의 다른 일부 플랫폼이 채택한 완전 허용형 라이선스와는 다른 모델이므로, 도입 전에 알아 두는 것이 좋습니다."
+    },
+    "es": {
+      "description": "Plataforma de comercio headless de código abierto construida con TypeScript, NestJS y GraphQL, con una arquitectura centrada en plugins.",
+      "longDescription": "Vendure es una plataforma de comercio headless para modelar catálogo, pedidos, precios, promociones y clientes sobre un backend que puedes modificar desde el núcleo en lugar de tener que sortearlo. Está construida de principio a fin en TypeScript sobre NestJS, expone una API GraphQL e incluye un panel de administración basado en React/TanStack. Su sistema de plugins es el principal punto de extensión — se espera que la mayor parte de la lógica de negocio personalizada se escriba como plugins en lugar de bifurcar el código del núcleo.\n\nAdmite configuraciones de una sola tienda y multicanal (útiles para gestionar tiendas D2C y B2B, o varias tiendas regionales, desde un mismo backend), y suele combinarse con un framework de frontend independiente, ya que es headless por diseño.\n\nVendure tiene licencia dual: la edición de código abierto es GPLv3, con una licencia comercial aparte (Vendure Commercial License) disponible a través de Vendure GmbH para los equipos que necesiten otras condiciones. Conviene saberlo antes de adoptarlo, ya que es un modelo distinto de las licencias totalmente permisivas de algunas otras plataformas de este catálogo."
+    },
+    "de": {
+      "description": "Open-Source-Headless-Commerce-Plattform auf Basis von TypeScript, NestJS und GraphQL mit Plugin-first-Architektur.",
+      "longDescription": "Vendure ist eine Headless-Commerce-Plattform, mit der du Katalog, Bestellungen, Preise, Aktionen und Kunden in einem Backend abbildest, das du im Kern anpassen kannst, statt um es herumarbeiten zu müssen. Sie ist durchgängig in TypeScript auf NestJS gebaut, stellt eine GraphQL-API bereit und bringt ein Admin-Dashboard auf Basis von React/TanStack mit. Das Plugin-System ist der zentrale Erweiterungspunkt — die meiste individuelle Geschäftslogik soll als Plugin geschrieben werden, statt den Core-Code zu forken.\n\nSie unterstützt Single-Store- und Multi-Channel-Setups (praktisch, um D2C- und B2B-Storefronts oder mehrere regionale Storefronts aus einem Backend zu betreiben) und wird häufig mit einem separaten Frontend-Framework kombiniert, da sie von vornherein headless konzipiert ist.\n\nVendure ist doppelt lizenziert: Die Open-Source-Edition steht unter GPLv3, und für Teams, die andere Bedingungen benötigen, bietet die Vendure GmbH eine separate kommerzielle Lizenz (Vendure Commercial License) an. Das solltest du vor dem Einsatz wissen, denn dieses Modell unterscheidet sich von den vollständig permissiven Lizenzen einiger anderer Plattformen in diesem Katalog."
+    }
+  },
   "evaluation": {
     "quality": {
       "lastCommitAt": "2026-09-24",

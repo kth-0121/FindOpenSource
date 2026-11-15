@@ -27,6 +27,28 @@
   "license": "Apache-2.0",
   "featured": false,
   "dateAdded": "2026-09-25",
+  "translations": {
+    "zh-CN": {
+      "description": "开源团队聊天工具，采用基于话题的线程组织方式，让并行的对话保持条理清晰，而不是汇成一条长长的滚动信息流。",
+      "longDescription": "Zulip 是一款围绕基于话题的线程构建的团队聊天应用：每条消息都属于一个频道及其中的某个话题，因此多个进行中的对话能够保持有序、便于追赶进度，而不会混杂成一条交错的消息流。这种结构旨在让实时的同步讨论和节奏较慢的异步跟进都能在同一个工具中顺畅进行，而不是把聊天视为纯粹的实时交流。\n\n它可以自托管（Docker 或原生安装程序），也可以使用托管服务，包含完整的 REST API 以及机器人/集成框架，并支持对消息历史进行端到端加密搜索。该项目由一个分布式开源社区构建——据项目官方数据，贡献者超过 1,500 人，其中 99 人以上各自合并了 100 次以上的提交。\n\nZulip 适合那些已经不满足于单一扁平聊天频道、希望在团队或贡献者规模增长时对话依然易于浏览，同时又不想放弃实时聊天的团队和开源项目。"
+    },
+    "ja": {
+      "description": "トピック単位のスレッドで、並行する会話を1本の長いフィードに流さず整理しておけるオープンソースのチームチャットです。",
+      "longDescription": "Zulip は、トピック単位のスレッドを中心に設計されたチームチャットアプリケーションです。すべてのメッセージはチャンネルと、その中のトピックに属するため、進行中の複数の会話が1本の入り混じったストリームに埋もれることなく整理され、後から追いつくのも簡単です。この構造は、チャットを純粋にリアルタイムのものとして扱うのではなく、ライブでの同期的な議論と、時間をおいた非同期のフォローアップの両方を同じツールでうまく行えるようにすることを狙っています。\n\nセルフホスト(Docker またはネイティブインストーラー)も、ホスト型サービスの利用も可能で、完全な REST API とボット/インテグレーションのフレームワークを備え、メッセージ履歴全体を対象としたエンドツーエンド暗号化検索に対応しています。プロジェクトは分散型のオープンソースコミュニティによって開発されており、プロジェクト自身の数字によれば、コントリビューターは1,500人以上、100件以上のコミットがマージされた人は99人以上にのぼります。\n\nZulip は、単一のフラットなチャットチャンネルでは手に負えなくなったチームやオープンソースプロジェクトが、リアルタイムチャットを手放すことなく、チームやコントリビューターが増えても会話を追いやすい状態に保ちたい場合に向いています。"
+    },
+    "ko": {
+      "description": "하나의 긴 스크롤 피드 대신 토픽 기반 스레드로 여러 대화를 동시에 정리해 주는 오픈소스 팀 채팅입니다.",
+      "longDescription": "Zulip은 토픽 기반 스레드를 중심으로 만들어진 팀 채팅 애플리케이션입니다: 모든 메시지는 채널과 그 안의 토픽에 속하므로, 진행 중인 여러 대화가 하나의 뒤섞인 스트림으로 무너지지 않고 정리된 상태를 유지하며 나중에 따라잡기도 쉽습니다. 이 구조는 채팅을 순수한 실시간 도구로만 취급하지 않고, 실시간 동기식 토론과 느린 비동기식 후속 작업이 같은 도구 안에서 모두 잘 이루어지도록 하는 것을 목표로 합니다.\n\n셀프 호스팅(Docker 또는 네이티브 설치 프로그램)하거나 호스팅 서비스로 이용할 수 있으며, 완전한 REST API와 봇/통합 프레임워크를 포함하고, 메시지 기록 전체에 대한 종단 간 암호화 검색을 지원합니다. 프로젝트 자체 집계에 따르면 1,500명이 넘는 기여자와, 각자 100개 이상의 커밋을 병합한 99명 이상의 사람들로 이루어진 분산형 오픈소스 커뮤니티가 이 프로젝트를 만들고 있습니다.\n\nZulip은 하나의 평면적인 채팅 채널로는 부족해진 팀과 오픈소스 프로젝트가, 실시간 채팅을 포기하지 않으면서 팀이나 기여자 규모가 커져도 대화를 쉽게 탐색할 수 있기를 원할 때 적합합니다."
+    },
+    "es": {
+      "description": "Chat de equipo de código abierto con hilos basados en temas que mantienen organizadas las conversaciones paralelas en lugar de un único feed largo por el que desplazarse.",
+      "longDescription": "Zulip es una aplicación de chat de equipo construida en torno a hilos basados en temas: cada mensaje pertenece a un canal y a un tema dentro de él, de modo que varias conversaciones en curso se mantienen organizadas y es fácil ponerse al día con ellas, en lugar de mezclarse en un único flujo entrelazado. Esa estructura busca que tanto la conversación síncrona en directo como el seguimiento asíncrono más pausado funcionen bien en la misma herramienta, en lugar de tratar el chat como algo puramente en tiempo real.\n\nSe puede autoalojar (con Docker o un instalador nativo) o usar como servicio alojado, incluye una API REST completa y un framework de bots/integraciones, y admite búsqueda con cifrado de extremo a extremo en el historial de mensajes. El proyecto lo desarrolla una comunidad de código abierto distribuida — más de 1.500 colaboradores y más de 99 personas con más de 100 commits fusionados cada una, según las cifras del propio proyecto.\n\nZulip encaja en equipos y proyectos de código abierto que se han quedado pequeños con un único canal de chat plano y quieren que las conversaciones sigan siendo navegables a medida que crece el equipo o la base de colaboradores, sin renunciar al chat en tiempo real."
+    },
+    "de": {
+      "description": "Open-Source-Team-Chat mit themenbasiertem Threading, das parallele Unterhaltungen geordnet hält, statt alles in einem langen Feed zu sammeln.",
+      "longDescription": "Zulip ist eine Team-Chat-Anwendung, die auf themenbasiertem Threading aufbaut: Jede Nachricht gehört zu einem Kanal und einem Thema darin, sodass mehrere laufende Unterhaltungen geordnet bleiben und sich leicht nachlesen lassen, statt in einem einzigen verschachtelten Strom zu verschwimmen. Diese Struktur soll dafür sorgen, dass sowohl live geführte, synchrone Diskussionen als auch langsamere, asynchrone Nacharbeit im selben Tool gut funktionieren, statt Chat rein als Echtzeitmedium zu behandeln.\n\nZulip lässt sich selbst hosten (per Docker oder nativem Installer) oder als gehosteter Dienst nutzen, bietet eine vollständige REST-API sowie ein Framework für Bots und Integrationen und unterstützt Ende-zu-Ende-verschlüsselte Suche im gesamten Nachrichtenverlauf. Entwickelt wird das Projekt von einer verteilten Open-Source-Community — laut eigenen Angaben über 1.500 Mitwirkende und mehr als 99 Personen mit jeweils über 100 gemergten Commits.\n\nZulip eignet sich für Teams und Open-Source-Projekte, die einem einzelnen flachen Chat-Kanal entwachsen sind und möchten, dass Unterhaltungen auch bei wachsendem Team oder wachsender Contributor-Basis übersichtlich bleiben, ohne auf Echtzeit-Chat zu verzichten."
+    }
+  },
   "evaluation": {
     "quality": {
       "lastCommitAt": "2026-09-24",

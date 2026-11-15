@@ -22,6 +22,28 @@
   "license": "Apache-2.0",
   "featured": false,
   "dateAdded": "2026-09-25",
+  "translations": {
+    "zh-CN": {
+      "description": "开源订阅计费与支付平台，可在你自己的基础设施上运行经常性收入、开票和计费逻辑。",
+      "longDescription": "Kill Bill 是一个订阅计费与支付平台，面向需要运行周期性计费逻辑（订阅、试用、促销、升级/降级、按用量计费的附加项），又不想依赖第三方计费 SaaS 的可用性、处理速度或定价的企业。它高度模块化，而非一体化的单体系统，因此团队可以禁用不需要的部分，或在流程的特定环节换用现有系统。\n\n它开箱即提供实时分析和财务报表，并通过插件架构集成特定的支付处理商及其他系统。它可以部署在本地或云端，将计费和客户数据保留在你自己的基础设施中，可以避免完全托管的计费 SaaS 带来的供应商锁定。\n\nKill Bill 适合运行较复杂的订阅或按用量计费、希望拥有自建系统的灵活性并准备好自行运维的企业，而不是只需要简单一次性支付的团队。"
+    },
+    "ja": {
+      "description": "継続課金、請求書発行、課金ロジックを自社のインフラ上で運用するための、オープンソースのサブスクリプション課金・決済プラットフォームです。",
+      "longDescription": "Kill Bill は、サードパーティの課金 SaaS の稼働率、処理速度、料金体系に依存することなく、継続課金ロジック(サブスクリプション、トライアル、プロモーション、アップグレード/ダウングレード、従量課金のアドオン)を運用する必要がある企業向けのサブスクリプション課金・決済プラットフォームです。オールインワンのモノリスではなく高度にモジュール化されているため、不要な部分を無効にしたり、フローの特定部分を既存システムに置き換えたりできます。\n\n標準でリアルタイム分析と財務レポートを提供し、特定の決済代行サービスやその他のシステムと連携するためのプラグインアーキテクチャを備えています。オンプレミスでもクラウドでも稼働でき、課金データや顧客データを自社のインフラ内に保持することで、完全ホスト型の課金 SaaS につきもののベンダーロックインを避けられます。\n\nKill Bill は、単純な単発決済だけが必要なチームではなく、ある程度複雑なサブスクリプション課金や従量課金を運用しており、自社システムの柔軟性を求め、それを自ら運用する覚悟のある企業に向いています。"
+    },
+    "ko": {
+      "description": "반복 매출, 인보이스 발행, 결제 로직을 자체 인프라에서 운영할 수 있는 오픈소스 구독 결제 및 결제 처리 플랫폼입니다.",
+      "longDescription": "Kill Bill은 서드파티 결제 SaaS의 가동 시간, 처리 속도, 가격 정책에 의존하지 않고 반복 결제 로직(구독, 체험판, 프로모션, 업그레이드/다운그레이드, 사용량 기반 부가 상품)을 운영해야 하는 기업을 위한 구독 결제 및 결제 처리 플랫폼입니다. 올인원 모놀리스가 아니라 고도로 모듈화되어 있어, 팀은 필요 없는 부분을 비활성화하거나 흐름의 특정 부분을 기존 시스템으로 대체할 수 있습니다.\n\n실시간 분석과 재무 보고 기능을 기본으로 제공하며, 특정 결제 대행사 및 기타 시스템과 통합하기 위한 플러그인 아키텍처를 갖추고 있습니다. 온프레미스나 클라우드에서 실행할 수 있고, 결제/고객 데이터를 자체 인프라에 보관하므로 완전 호스팅형 결제 SaaS에 따르는 벤더 종속을 피할 수 있습니다.\n\nKill Bill은 단순한 일회성 결제만 필요한 팀보다는, 복잡한 구독형 또는 사용량 기반 결제를 운영하면서 사내 시스템의 유연성을 원하고 이를 직접 운영할 준비가 된 기업에 적합합니다."
+    },
+    "es": {
+      "description": "Plataforma de facturación por suscripción y pagos de código abierto para gestionar ingresos recurrentes, facturas y lógica de facturación en tu propia infraestructura.",
+      "longDescription": "Kill Bill es una plataforma de facturación por suscripción y pagos dirigida a empresas que necesitan ejecutar lógica de facturación recurrente (suscripciones, periodos de prueba, promociones, cambios de plan al alza o a la baja, complementos basados en el uso) sin depender de la disponibilidad, la velocidad de procesamiento ni los precios de un SaaS de facturación de terceros. Es altamente modular en lugar de un monolito todo en uno, por lo que los equipos pueden desactivar las piezas que no necesitan o sustituir una parte concreta del flujo por un sistema que ya tengan.\n\nDe serie ofrece analítica en tiempo real e informes financieros, y una arquitectura de plugins para integrar procesadores de pago específicos y otros sistemas. Puede ejecutarse on-premises o en la nube, y mantener los datos de facturación y de clientes en tu propia infraestructura evita la dependencia del proveedor que conlleva un SaaS de facturación totalmente alojado.\n\nKill Bill encaja en empresas con facturación por suscripción o basada en el uso nada trivial que quieren la flexibilidad de un sistema propio y están dispuestas a operarlo ellas mismas, más que en equipos que solo necesitan pagos puntuales sencillos."
+    },
+    "de": {
+      "description": "Open-Source-Plattform für Abo-Abrechnung und Zahlungen, mit der du wiederkehrende Umsätze, Rechnungsstellung und Abrechnungslogik auf deiner eigenen Infrastruktur betreibst.",
+      "longDescription": "Kill Bill ist eine Plattform für Abo-Abrechnung und Zahlungen für Unternehmen, die wiederkehrende Abrechnungslogik (Abonnements, Testphasen, Aktionen, Up- und Downgrades, nutzungsbasierte Zusatzleistungen) betreiben müssen, ohne von der Verfügbarkeit, der Verarbeitungsgeschwindigkeit oder den Preisen eines externen Billing-SaaS abhängig zu sein. Sie ist stark modular aufgebaut statt als All-in-one-Monolith, sodass Teams nicht benötigte Teile deaktivieren oder für einen bestimmten Teil des Ablaufs ein bestehendes System einsetzen können.\n\nVon Haus aus bietet sie Echtzeit-Analysen und Finanzberichte sowie eine Plugin-Architektur zur Anbindung bestimmter Zahlungsabwickler und anderer Systeme. Sie lässt sich On-Premises oder in der Cloud betreiben, und wenn Abrechnungs- und Kundendaten in deiner eigenen Infrastruktur bleiben, vermeidest du den Vendor-Lock-in, der mit einem vollständig gehosteten Billing-SaaS einhergeht.\n\nKill Bill eignet sich für Unternehmen mit anspruchsvoller Abo- oder nutzungsbasierter Abrechnung, die die Flexibilität eines internen Systems wollen und bereit sind, es selbst zu betreiben – weniger für Teams, die nur einfache Einmalzahlungen brauchen."
+    }
+  },
   "evaluation": {
     "quality": {
       "lastCommitAt": "2026-09-24",

@@ -26,6 +26,28 @@
   "license": "MIT",
   "featured": false,
   "dateAdded": "2026-09-25",
+  "translations": {
+    "zh-CN": {
+      "description": "无样式、无障碍的 React 组件原语，用于构建你自己的设计系统，而不是采用预置样式的方案。",
+      "longDescription": "Radix Primitives 是一个底层 React 组件库，专注于常见 UI 模式（对话框、下拉菜单、工具提示、标签页、弹出层等）的无障碍性、键盘交互和正确的 ARIA 行为，并刻意不附带视觉样式。其理念是由你自带 CSS/样式方案，而无障碍和交互行为交给它来处理，不必费力覆盖其他库带有强烈主张的样式。\n\n组件可以渐进式采用——你无需把 Radix 作为整个 UI 层，单个原语可以与现有组件并存。它是多个流行的带样式组件系统所依赖的无样式基础，其中包括同样收录于本目录的 shadcn/ui。\n\nRadix Primitives 适合构建自有设计系统的团队：他们希望获得经过验证和测试的无障碍行为，而不是从零重新实现 ARIA 模式，同时又不想继承别人的视觉设计。"
+    },
+    "ja": {
+      "description": "スタイル済みのデザインシステムを採用する代わりに、独自のデザインシステムを構築するための、スタイルを持たないアクセシブルな React コンポーネントプリミティブです。",
+      "longDescription": "Radix Primitives は、一般的な UI パターン(ダイアログ、ドロップダウン、ツールチップ、タブ、ポップオーバーなど)のアクセシビリティ、キーボード操作、正しい ARIA の挙動に焦点を当てた低レベルの React コンポーネントライブラリで、意図的に見た目のスタイルを持たずに提供されています。自分の CSS/スタイリング手法を持ち込み、アクセシビリティとインタラクションの挙動は任せてしまうという考え方で、他のライブラリの強いこだわりを持ったスタイルを苦労して上書きする必要がありません。\n\nコンポーネントは段階的に導入できます。UI レイヤー全体を Radix に委ねる必要はなく、個々のプリミティブを既存のコンポーネントと並べて使えます。このカタログにすでに掲載されている shadcn/ui をはじめ、人気のあるスタイル付きコンポーネントシステムのいくつかが、このスタイルなしの基盤の上に構築されています。\n\nRadix Primitives は、独自のデザインシステムを構築しているチームが、ARIA パターンをゼロから再実装することなく、他者のビジュアルデザインを引き継ぐこともなく、解決済みでテスト済みのアクセシビリティ挙動を手に入れたい場合に向いています。"
+    },
+    "ko": {
+      "description": "미리 스타일이 적용된 디자인 시스템을 채택하는 대신 자신만의 디자인 시스템을 구축하기 위한, 스타일 없는 접근성 중심의 React 컴포넌트 프리미티브입니다.",
+      "longDescription": "Radix Primitives는 일반적인 UI 패턴(다이얼로그, 드롭다운, 툴팁, 탭, 팝오버 등)의 접근성, 키보드 상호작용, 올바른 ARIA 동작에 초점을 맞춘 저수준 React 컴포넌트 라이브러리로, 의도적으로 시각적 스타일 없이 제공됩니다. 다른 라이브러리의 강한 스타일을 덮어쓰느라 씨름하는 대신, 자신의 CSS/스타일링 방식을 가져오고 접근성과 상호작용 동작은 라이브러리가 처리하도록 하자는 것이 핵심 아이디어입니다.\n\n컴포넌트는 점진적으로 도입할 수 있습니다 — Radix를 UI 계층 전체로 채택할 필요 없이, 개별 프리미티브를 기존 컴포넌트와 나란히 사용할 수 있습니다. 이 카탈로그에도 있는 shadcn/ui를 비롯해 여러 인기 있는 스타일 컴포넌트 시스템이 이 스타일 없는 기반 위에 만들어졌습니다.\n\nRadix Primitives는 자체 디자인 시스템을 구축하면서, 다른 누군가의 시각 디자인을 물려받지 않고 ARIA 패턴을 처음부터 다시 구현하는 대신 이미 해결되고 검증된 접근성 동작을 원하는 팀에 적합합니다."
+    },
+    "es": {
+      "description": "Primitivas de componentes de React sin estilos y accesibles para construir tu propio sistema de diseño en lugar de adoptar uno ya estilizado.",
+      "longDescription": "Radix Primitives es una biblioteca de componentes de React de bajo nivel centrada en la accesibilidad, la interacción con el teclado y el comportamiento ARIA correcto para patrones de UI habituales (diálogos, menús desplegables, tooltips, pestañas, popovers y más), distribuida deliberadamente sin estilos visuales. La idea es que aportes tu propio enfoque de CSS/estilos y que el comportamiento de accesibilidad e interacción quede resuelto por ti, en lugar de pelearte para sobrescribir los estilos con opiniones marcadas de otra biblioteca.\n\nLos componentes pueden adoptarse de forma incremental — no necesitas comprometerte con Radix como toda tu capa de UI; las primitivas individuales pueden convivir con componentes existentes. Es la base sin estilos sobre la que se construyen varios sistemas de componentes estilizados populares, entre ellos shadcn/ui, ya incluido en este catálogo.\n\nRadix Primitives encaja en equipos que construyen su propio sistema de diseño y quieren un comportamiento de accesibilidad resuelto y probado en lugar de reimplementar patrones ARIA desde cero, sin heredar el diseño visual de otros."
+    },
+    "de": {
+      "description": "Ungestylte, barrierefreie React-Komponenten-Primitives, mit denen du dein eigenes Designsystem baust, statt ein vorgestyltes zu übernehmen.",
+      "longDescription": "Radix Primitives ist eine Low-Level-Komponentenbibliothek für React, die sich auf Barrierefreiheit, Tastaturinteraktion und korrektes ARIA-Verhalten für gängige UI-Muster (Dialoge, Dropdowns, Tooltips, Tabs, Popovers und mehr) konzentriert und bewusst ohne visuelles Styling ausgeliefert wird. Die Idee: Du bringst deinen eigenen CSS- bzw. Styling-Ansatz mit, und Barrierefreiheit und Interaktionsverhalten werden für dich erledigt, statt dass du mühsam die meinungsstarken Styles einer anderen Bibliothek überschreiben musst.\n\nDie Komponenten lassen sich schrittweise einführen — du musst Radix nicht als komplette UI-Schicht einsetzen, einzelne Primitives können neben bestehenden Komponenten existieren. Es ist das ungestylte Fundament, auf dem mehrere beliebte gestylte Komponentensysteme aufbauen, darunter auch shadcn/ui, das bereits in diesem Katalog vertreten ist.\n\nRadix Primitives eignet sich für Teams, die ihr eigenes Designsystem bauen und gelöstes, getestetes Barrierefreiheitsverhalten wollen, statt ARIA-Muster von Grund auf neu zu implementieren – ohne dabei das visuelle Design anderer zu übernehmen."
+    }
+  },
   "evaluation": {
     "quality": {
       "lastCommitAt": "2026-08-08",
