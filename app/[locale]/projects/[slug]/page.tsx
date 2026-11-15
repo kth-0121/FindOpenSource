@@ -9,7 +9,7 @@ import { getAllProjects, getProjectBySlug, getRelatedProjects } from "@/lib/proj
 import { getCategoryBySlug, localizeCategory } from "@/lib/categories";
 import { getEvidenceBadges } from "@/lib/evaluation/badges";
 import { siteConfig } from "@/lib/site";
-import { isLocale, localeMeta, type Locale } from "@/lib/i18n/config";
+import { defaultLocale, isLocale, localeMeta, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { buildAlternates, ogLocale, ogAlternateLocales } from "@/lib/i18n/metadata";
 
@@ -29,8 +29,11 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   if (!project) return {};
 
   const alternates = buildAlternates(locale, `/projects/${project.slug}`);
+  // An untranslated locale page is an English duplicate; keep it out of the index.
+  const untranslated = locale !== defaultLocale && !project.translations?.[locale];
 
   return {
+    ...(untranslated && { robots: { index: false, follow: true } }),
     title: project.name,
     description: project.description,
     alternates,

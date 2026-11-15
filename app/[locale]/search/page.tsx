@@ -33,6 +33,8 @@ export async function generateMetadata({ params }: SearchPageProps): Promise<Met
     title: dict.search.pageTitle,
     description: dict.search.pageDescription,
     alternates: buildAlternates(locale, "/search"),
+    // Internal search results are thin content to Google and AdSense.
+    robots: { index: false, follow: true },
   };
 }
 

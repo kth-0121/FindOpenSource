@@ -1,12 +1,12 @@
 import type { MetadataRoute } from "next";
 import { getAllProjects } from "@/lib/projects";
 import { getAllCategories } from "@/lib/categories";
-import { locales } from "@/lib/i18n/config";
+import { defaultLocale, locales, type Locale } from "@/lib/i18n/config";
 import { buildAlternates } from "@/lib/i18n/metadata";
 
 /** One sitemap `<url>` entry per locale for a given locale-independent path, each annotated with hreflang alternates to every other locale. */
-function entriesForPath(path: string, lastModified?: Date): MetadataRoute.Sitemap {
-  return locales.map((locale) => {
+function entriesForPath(path: string, lastModified?: Date, only: readonly Locale[] = locales): MetadataRoute.Sitemap {
+  return only.map((locale) => {
     const alternates = buildAlternates(locale, path);
     return {
       url: alternates.canonical,
@@ -41,6 +41,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entriesForPath(
       `/projects/${project.slug}`,
       project.dateAdded ? new Date(project.dateAdded) : undefined,
+      // Untranslated locale pages are noindex (see the project page metadata).
+      locales.filter((l) => l === defaultLocale || project.translations?.[l]),
     ),
   );
 
