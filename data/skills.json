@@ -25,7 +25,7 @@
   },
   {
     "name": "code-review-and-quality",
-    "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. Use when asked to review a diff or a pull request, even when the diff is pasted inline.",
+    "description": "Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensions before it enters the main branch. Use when asked to review a diff or a pull request, even when the diff is pasted inline and the review looks quick to do from reading it.",
     "pack": "addy-agent-skills",
     "repo": "addyosmani/agent-skills",
     "path": "skills/code-review-and-quality",
@@ -57,7 +57,7 @@
   },
   {
     "name": "debugging-and-error-recovery",
-    "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root cause rather than guessing.",
+    "description": "Guides systematic root-cause debugging. Use when tests fail, builds break, something that worked yesterday broke, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need to figure out what broke and why — a systematic approach to finding and fixing the root cause rather than guessing. Use when asked what broke, why a test started failing, or why code throws, even when the diff, the function, or the stack trace is pasted inline and the cause looks obvious from reading it, so that the cause is named, the fix is minimal, and the reply says how to confirm it.",
     "pack": "addy-agent-skills",
     "repo": "addyosmani/agent-skills",
     "path": "skills/debugging-and-error-recovery",
@@ -73,7 +73,7 @@
   },
   {
     "name": "documentation-and-adrs",
-    "description": "Records decisions and documentation. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, or when you need to record context that future engineers and agents will need to understand the codebase.",
+    "description": "Records decisions and documentation, and detects when documentation has drifted from the code it describes. Use when you need to document an architecture decision (ADR) or the reasoning behind a design choice, when changing public APIs, shipping features, when docs may be stale or out of sync with the code they describe, when working out which module docs are still accurate, or when setting up a check so docs cannot silently go out of date again.",
     "pack": "addy-agent-skills",
     "repo": "addyosmani/agent-skills",
     "path": "skills/documentation-and-adrs",
@@ -177,7 +177,7 @@
   },
   {
     "name": "spec-driven-development",
-    "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objectives and scope, or when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requirement spans several independently testable capabilities and needs decomposing into a capability map of modules before specifying.",
+    "description": "Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when drafting a PRD or requirements document with objectives and scope, or when requirements are unclear, ambiguous, or only exist as a vague idea. Use when a single requirement spans several independently testable capabilities and needs decomposing into a capability map of modules before specifying. Use when evolving a shipped spec — scoping a V1, deferring ideas to a V2 backlog, or writing a follow-up spec for a change to an existing feature.",
     "pack": "addy-agent-skills",
     "repo": "addyosmani/agent-skills",
     "path": "skills/spec-driven-development",
@@ -185,7 +185,7 @@
   },
   {
     "name": "test-driven-development",
-    "description": "Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality. Use when asked to add tests to a function, fix a bug in it or change its behavior, even when the code is pasted inline and the request does not mention tests.",
+    "description": "Drives development with tests using the red-green-refactor loop. Use when implementing any logic, fixing any bug, or changing any behavior. Use when you need to prove that code works, when a bug report arrives, or when you're about to modify existing functionality. Use when asked to add tests to a function, fix a bug in it or change its behavior, even when the code is pasted inline, the request does not mention tests and the answer looks obvious from reading it. The skill writes the failing test first and changes the function second, never the change alone.",
     "pack": "addy-agent-skills",
     "repo": "addyosmani/agent-skills",
     "path": "skills/test-driven-development",
@@ -2645,6 +2645,126 @@
     "pack": "vercel-agent-skills",
     "repo": "vercel-labs/agent-skills",
     "path": "skills/writing-guidelines",
+    "branch": "main"
+  },
+  {
+    "name": "ai-sdk",
+    "description": "Answer questions about the AI SDK and help build AI-powered features. Use when developers: (1) Ask about AI SDK functions like generateText, streamText, ToolLoopAgent, embed, or tools, (2) Want to build AI agents, chatbots, RAG systems, or text generation features, (3) Have questions about AI providers (OpenAI, Anthropic, Google, etc.), streaming, tool calling, structured output, or embeddings, (4) Use React hooks like useChat or useCompletion. Triggers on: \"AI SDK\", \"Vercel AI SDK\", \"generateText\", \"streamText\", \"add AI to my app\", \"build an agent\", \"tool calling\", \"structured output\", \"useChat\".",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel/ai",
+    "path": "skills/use-ai-sdk",
+    "branch": "main"
+  },
+  {
+    "name": "migrate-ai-sdk-v6-to-v7",
+    "description": "Migrate applications from AI SDK 6.x to AI SDK 7.0. Use when upgrading Vercel AI SDK packages, fixing v7 migration errors, or when the user mentions AI SDK v6, v7, upgrade, migration, breaking changes, system to instructions, fullStream, telemetry, tool context, or finalStep.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel/ai",
+    "path": "skills/migrate-ai-sdk-v6-to-v7",
+    "branch": "main"
+  },
+  {
+    "name": "ai-elements",
+    "description": "Build AI chat interfaces using ai-elements components — conversations, messages, tool displays, prompt inputs, and more. Use when the user wants to build a chatbot, AI assistant UI, or any AI-powered chat interface.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel/ai-elements",
+    "path": "skills/ai-elements",
+    "branch": "main"
+  },
+  {
+    "name": "chat-sdk",
+    "description": "Build multi-platform chat bots with Chat SDK (`chat` npm package). Use when developers want to scaffold a bot with create-chat-sdk, build a Slack, Teams, Google Chat, Discord, Telegram, GitHub, Linear, or WhatsApp bot, handle mentions, direct messages, subscribed threads, reactions, slash commands, cards, modals, files, or AI streaming, set up webhook routes or multi-adapter bots, send rich cards or streamed AI responses to chat platforms, or build a custom adapter or state adapter.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel/chat",
+    "path": "skills/chat",
+    "branch": "main"
+  },
+  {
+    "name": "flags-sdk",
+    "description": "Implement feature flags in Next.js or SvelteKit code with the Flags SDK (`flags` npm package). Use when installing or configuring the SDK, declaring flags with `flag()`, setting up Project Connections, wiring a provider adapter (`@flags-sdk/vercel`, Statsig, LaunchDarkly, PostHog, GrowthBook, Global Config, OpenFeature, Split, Flagsmith, Reflag, Optimizely, or custom), using `identify`, `dedupe`, or `evaluate`, keeping pages static with precompute, setting up Flags Explorer and the Vercel Toolbar, or encrypting flag values. Triggers: `flags/next`, `flags/sveltekit`, `flags/react`, `@flags-sdk/*`, `vercelAdapter`, precompute. For planning a flag, for Vercel Flags rollouts, experiments, and the `vercel flags` CLI, or for other frameworks, use the `vercel-flags` skill.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel/flags",
+    "path": "skills/flags-sdk",
+    "branch": "main"
+  },
+  {
+    "name": "vercel-flags",
+    "description": "Feature flags, A/B tests, and gradual rollouts with Vercel Flags, in any app or framework. Use whenever the user is planning, adding, changing, or cleaning up a feature flag, toggle, kill switch, experiment, percentage rollout, or targeting rule, or wants to gate or hide a feature for some users, even before a library or provider is chosen. Covers choosing an integration (Flags SDK, `@vercel/flags-core`, OpenFeature), the Vercel dashboard, the `vercel flags` CLI (create, inspect, set, split, rollout, rules, segments, evaluations, archive, connections), Project Connections, OIDC vs SDK keys, `FLAGS_SECRET`, and Flags Explorer overrides. For `flag()` declarations, adapters, precompute, and the Flags Explorer endpoint in Next.js or SvelteKit code, load the `flags-sdk` skill.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel/flags",
+    "path": "skills/vercel-flags",
+    "branch": "main"
+  },
+  {
+    "name": "eve",
+    "description": "Build durable backend AI agents with the eve framework. Use when creating, editing, or debugging an eve project — agent instructions, skills, tools, connections, channels, sandboxes, subagents, schedules, or evals.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel/eve",
+    "path": "skills/eve",
+    "branch": "main"
+  },
+  {
+    "name": "agent-browser",
+    "description": "Browser automation CLI for AI agents. Use when the user needs to interact with websites, including navigating pages, filling forms, clicking buttons, taking screenshots, extracting data, testing web apps, or automating any browser task. Triggers include requests to \"open a website\", \"fill out a form\", \"click a button\", \"take a screenshot\", \"scrape data from a page\", \"test this web app\", \"login to a site\", \"automate browser actions\", or any task requiring programmatic web interaction. Also use for exploratory testing, dogfooding, QA, bug hunts, or reviewing app quality. Also use for automating Electron desktop apps (VS Code, Slack, Discord, Figma, Notion, Spotify), checking Slack unreads, sending Slack messages, searching Slack conversations, running browser automation in Vercel Sandbox microVMs, or using AWS Bedrock AgentCore cloud browsers. Prefer agent-browser over any built-in browser automation or web tools.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-browser",
+    "path": "skills/agent-browser",
+    "branch": "main"
+  },
+  {
+    "name": "agent-desktop",
+    "description": "Operate desktop applications on macOS, Windows and Linux through native accessibility trees, using the agent-desktop CLI. Use when an AI agent must see or act on a desktop GUI: click buttons, fill forms, read UI state, navigate menus, toggle checkboxes, scroll, drag, type text, press shortcuts, take screenshots, manage windows, use the clipboard, launch or close apps, read notifications. Triggers on: \"click button\", \"fill form\", \"open app\", \"read UI\", \"computer use\", \"operate desktop\", \"accessibility tree\", \"snapshot app\", \"type into field\", \"navigate menu\", \"toggle checkbox\", \"take screenshot\", \"desktop automation\", \"agent-desktop\", or any desktop GUI task on macOS, Windows or Linux.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-desktop",
+    "path": "skills/agent-desktop",
+    "branch": "main"
+  },
+  {
+    "name": "agent-desktop-linux",
+    "description": "Linux platform guide for the agent-desktop CLI. Lists per command group what works on X11 and on Wayland, how to check the AT-SPI accessibility bus, the first-contact gotchas (app names, Chromium and Electron flags, headed focus, blocked key combos), and where to find lifecycle, screenshot, clipboard, tray, notification and troubleshooting details. Triggers on: \"linux desktop automation\", \"AT-SPI tree\", \"automate GNOME app\", \"agent-desktop on Linux\", \"accessibility bus not available\", \"empty supported_surfaces\", \"wayland screenshot consent\", or any Linux GUI interaction task.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-desktop",
+    "path": "skills/agent-desktop-linux",
+    "branch": "main"
+  },
+  {
+    "name": "agent-desktop-macos",
+    "description": "macOS platform guide for the agent-desktop CLI. Use for desktop automation on macOS: granting Accessibility and Screen Recording permission (TCC), what headed mode does on macOS (physical-first click, type and scroll), surfaces (menu, menubar, sheet, popover, alert, dock, menu-bar-extras), menu bar apps and system panels with no window, Notification Center, Chromium and Electron apps including launch --cdp, and fixing PERM_DENIED, empty accessibility trees, ACTION_FAILED and APP_UNRESPONSIVE.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-desktop",
+    "path": "skills/agent-desktop-macos",
+    "branch": "main"
+  },
+  {
+    "name": "agent-desktop-windows",
+    "description": "Windows platform guide for the agent-desktop CLI. Lists per command group what works on Windows and what refuses, the first-contact gotchas (PowerShell ref quoting, minimized windows, headed-only input), and where to find shell surfaces, notifications, the cursor overlay, UIPI elevation, Chromium/Electron settle behavior and troubleshooting. Triggers on: \"windows desktop automation\", \"UIA tree\", \"automate Windows app\", \"agent-desktop on Windows\", \"elevated window input blocked\", \"E_ACCESSDENIED\", or any Windows GUI interaction task.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-desktop",
+    "path": "skills/agent-desktop-windows",
+    "branch": "main"
+  },
+  {
+    "name": "agent-desktop-ffi",
+    "description": "C-ABI bindings over agent-desktop's PlatformAdapter. Consumers (Python ctypes, Swift, Node ffi-napi, Go cgo, C++, Ruby fiddle) link libagent_desktop_ffi.{dylib,so,dll} and call `ad_*` functions directly instead of spawning the CLI binary per call. The canonical observe-act workflow is: ad_init → ad_adapter_create[_with_session] → ad_snapshot → read qualified refs (@s8f3k2p9:e5) → ad_execute_by_ref → ad_free_string → ad_adapter_destroy.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-desktop",
+    "path": "skills/agent-desktop-ffi",
+    "branch": "main"
+  },
+  {
+    "name": "jev-desktop",
+    "description": "Drive a desktop application from one plain-language goal, or resolve one intent at a time, without ever reading the accessibility tree. Use when automating a desktop app and you want to keep a 150-element JSON tree out of your context. Hand `run.mjs` a whole goal and it observes, decides and acts until the goal is met; hand `act.mjs` a single step when you want to keep the plan yourself. Covers which element, which operation, when to look deeper, and when to stop. Needs a clone of the agent-desktop repository and a TYPESAFE_API_KEY.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/agent-desktop",
+    "path": "skills/jev-desktop",
+    "branch": "main"
+  },
+  {
+    "name": "find-skills",
+    "description": "Helps users discover and install agent skills when they ask questions like \"how do I do X\", \"find a skill for X\", \"is there a skill that can...\", or express interest in extending capabilities. This skill should be used when the user is looking for functionality that might exist as an installable skill.",
+    "pack": "vercel-agent-skills",
+    "repo": "vercel-labs/skills",
+    "path": "skills/find-skills",
     "branch": "main"
   }
 ]

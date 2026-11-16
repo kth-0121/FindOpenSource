@@ -61,6 +61,25 @@ export function parseFrontmatter(markdown: string): Record<string, string> {
   return out;
 }
 
+/**
+ * Official skills a vendor ships inside its product repos rather than its skills
+ * pack repo, listed under that pack: "owner/repo" -> skill folders in it.
+ */
+const EXTRA_SOURCES: Record<string, Record<string, string[]>> = {
+  "vercel-agent-skills": {
+    "vercel/ai": ["skills/use-ai-sdk", "skills/migrate-ai-sdk-v6-to-v7"],
+    "vercel/ai-elements": ["skills/ai-elements"],
+    "vercel/chat": ["skills/chat"],
+    "vercel/flags": ["skills/flags-sdk", "skills/vercel-flags"],
+    "vercel/eve": ["skills/eve"],
+    "vercel-labs/agent-browser": ["skills/agent-browser"],
+    "vercel-labs/agent-desktop": ["agent-desktop", "agent-desktop-linux", "agent-desktop-macos", "agent-desktop-windows", "agent-desktop-ffi", "jev-desktop"].map((d) => `skills/${d}`),
+    "vercel-labs/skills": ["skills/find-skills"],
+  },
+};
+
+const defaultBranch = (repo: string): string => JSON.parse(gh([`repos/${repo}`])).default_branch;
+
 function main() {
   const packs = fs
     .readdirSync(projectsDir)
@@ -70,12 +89,19 @@ function main() {
 
   const skills = [];
   for (const pack of packs) {
-    const repo = pack.repository.replace("https://github.com/", "");
-    const branch = JSON.parse(gh([`repos/${repo}`])).default_branch;
-    const tree = JSON.parse(gh([`repos/${repo}/git/trees/${branch}?recursive=1`])).tree as { path: string }[];
-    const files = tree.map((t) => t.path).filter((p) => SKILL_PATH.test(p));
+    const packRepo = pack.repository.replace("https://github.com/", "");
+    const packBranch = defaultBranch(packRepo);
+    const tree = JSON.parse(gh([`repos/${packRepo}/git/trees/${packBranch}?recursive=1`])).tree as { path: string }[];
+    const sources = tree
+      .map((t) => t.path)
+      .filter((p) => SKILL_PATH.test(p))
+      .map((file) => ({ repo: packRepo, branch: packBranch, file }));
+    for (const [repo, dirs] of Object.entries(EXTRA_SOURCES[pack.slug] ?? {})) {
+      const branch = defaultBranch(repo);
+      sources.push(...dirs.map((dir) => ({ repo, branch, file: `${dir}/SKILL.md` })));
+    }
     let kept = 0;
-    for (const file of files) {
+    for (const { repo, branch, file } of sources) {
       const content = gh([`repos/${repo}/contents/${file}?ref=${branch}`, "-H", "Accept: application/vnd.github.raw"]);
       const fm = parseFrontmatter(content);
       if (!fm.name || !fm.description) {
@@ -96,7 +122,7 @@ function main() {
       });
       kept++;
     }
-    console.log(`${pack.slug}: ${kept}/${files.length}`);
+    console.log(`${pack.slug}: ${kept}/${sources.length}`);
   }
 
   fs.writeFileSync(outPath, JSON.stringify(skills, null, 2) + "\n");
