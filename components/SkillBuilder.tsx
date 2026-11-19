@@ -43,12 +43,17 @@ export function SkillBuilder({
 }) {
   const t = dict.skills;
   const searchParams = useSearchParams();
-  const [selected, setSelected] = useState<Set<string>>(() => presetSkills(searchParams.get("preset")));
+  // ?skills=a/b,c/d is a shared selection; ?preset= a starter set.
+  const [selected, setSelected] = useState<Set<string>>(() => {
+    const shared = searchParams.get("skills");
+    return shared ? new Set(shared.split(",")) : presetSkills(searchParams.get("preset"));
+  });
   const [query, setQuery] = useState("");
   const [agentId, setAgentId] = useState<Agent["id"]>("claude-code");
   const [scope, setScope] = useState<Scope>("project");
   const [tab, setTab] = useState<"prompt" | "command">("prompt");
   const [copied, setCopied] = useState(false);
+  const [linkCopied, setLinkCopied] = useState(false);
 
   const agent = AGENTS.find((a) => a.id === agentId)!;
   const q = query.trim().toLowerCase();
@@ -87,6 +92,18 @@ export function SkillBuilder({
       setTimeout(() => setCopied(false), 1500);
     } catch {
       // Clipboard can be blocked (insecure context, permissions); the text stays selectable.
+    }
+  }
+
+  async function copyLink() {
+    const url = `${location.origin}${location.pathname}?skills=${picked.map(skillId).join(",")}`;
+    try {
+      await navigator.clipboard.writeText(url);
+      sendGAEvent("event", "share_skill_link", { skill_count: picked.length });
+      setLinkCopied(true);
+      setTimeout(() => setLinkCopied(false), 1500);
+    } catch {
+      // Clipboard blocked; nothing else to do.
     }
   }
 
@@ -235,9 +252,14 @@ export function SkillBuilder({
                 {formatMessage(t.selectedCount, { count: picked.length })}
               </h2>
               {picked.length > 0 && (
-                <button type="button" onClick={() => setSelected(new Set())} className="text-xs text-muted-foreground hover:text-foreground">
-                  {t.clearAll}
-                </button>
+                <span className="flex gap-3 text-xs">
+                  <button type="button" onClick={copyLink} className="text-accent hover:underline">
+                    {linkCopied ? t.copied : t.shareLink}
+                  </button>
+                  <button type="button" onClick={() => setSelected(new Set())} className="text-muted-foreground hover:text-foreground">
+                    {t.clearAll}
+                  </button>
+                </span>
               )}
             </div>
 

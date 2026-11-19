@@ -294,6 +294,7 @@ const dictionary: Dictionary = {
     viewSource: "View {name} on GitHub",
     selectedCount: "{count} selected",
     clearAll: "Clear",
+    shareLink: "Copy link",
     agentLabel: "Agent",
     otherAgents: "Other agents",
     scopeLabel: "Install for",

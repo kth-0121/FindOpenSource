@@ -293,6 +293,7 @@ const dictionary: Dictionary = {
     viewSource: "在 GitHub 上查看 {name}",
     selectedCount: "已选 {count} 个",
     clearAll: "清空",
+    shareLink: "复制链接",
     agentLabel: "智能体",
     otherAgents: "其他智能体",
     scopeLabel: "安装范围",

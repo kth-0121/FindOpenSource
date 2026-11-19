@@ -293,6 +293,7 @@ const dictionary: Dictionary = {
     viewSource: "GitHub에서 {name} 보기",
     selectedCount: "{count}개 선택됨",
     clearAll: "초기화",
+    shareLink: "링크 복사",
     agentLabel: "에이전트",
     otherAgents: "기타 에이전트",
     scopeLabel: "설치 범위",

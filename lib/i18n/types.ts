@@ -131,6 +131,8 @@ export interface Dictionary {
     /** {count} */
     selectedCount: string;
     clearAll: string;
+    /** Copies a link that reopens the builder with the current selection. */
+    shareLink: string;
     agentLabel: string;
     otherAgents: string;
     scopeLabel: string;

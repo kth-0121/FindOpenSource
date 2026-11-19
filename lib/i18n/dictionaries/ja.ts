@@ -293,6 +293,7 @@ const dictionary: Dictionary = {
     viewSource: "GitHubで{name}を見る",
     selectedCount: "{count} 件選択中",
     clearAll: "クリア",
+    shareLink: "リンクをコピー",
     agentLabel: "エージェント",
     otherAgents: "その他のエージェント",
     scopeLabel: "インストール先",
