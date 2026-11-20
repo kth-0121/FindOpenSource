@@ -295,6 +295,7 @@ const dictionary: Dictionary = {
     selectedCount: "{count} seleccionadas",
     clearAll: "Limpiar",
     shareLink: "Copiar enlace",
+    removeSkill: "Quitar {name}",
     agentLabel: "Agente",
     otherAgents: "Otros agentes",
     scopeLabel: "Instalar para",

@@ -294,6 +294,7 @@ const dictionary: Dictionary = {
     selectedCount: "{count}개 선택됨",
     clearAll: "초기화",
     shareLink: "링크 복사",
+    removeSkill: "{name} 빼기",
     agentLabel: "에이전트",
     otherAgents: "기타 에이전트",
     scopeLabel: "설치 범위",

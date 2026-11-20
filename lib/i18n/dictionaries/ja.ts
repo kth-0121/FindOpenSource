@@ -294,6 +294,7 @@ const dictionary: Dictionary = {
     selectedCount: "{count} 件選択中",
     clearAll: "クリア",
     shareLink: "リンクをコピー",
+    removeSkill: "{name}を外す",
     agentLabel: "エージェント",
     otherAgents: "その他のエージェント",
     scopeLabel: "インストール先",

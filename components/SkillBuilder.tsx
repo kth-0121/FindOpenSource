@@ -263,6 +263,23 @@ export function SkillBuilder({
               )}
             </div>
 
+            {picked.length > 0 && (
+              <ul className="mt-3 flex max-h-32 flex-wrap gap-1 overflow-auto">
+                {picked.map((skill) => (
+                  <li key={skillId(skill)}>
+                    <button
+                      type="button"
+                      onClick={() => toggle([skillId(skill)], false)}
+                      aria-label={formatMessage(t.removeSkill, { name: skill.name })}
+                      className="rounded bg-muted px-1.5 py-0.5 font-mono text-xs hover:text-muted-foreground"
+                    >
+                      {skill.name} ×
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            )}
+
             <div className="mt-4 grid grid-cols-2 gap-3">
               <label className="flex flex-col gap-1 text-xs text-muted-foreground">
                 {t.agentLabel}

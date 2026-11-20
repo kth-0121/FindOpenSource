@@ -294,6 +294,7 @@ const dictionary: Dictionary = {
     selectedCount: "已选 {count} 个",
     clearAll: "清空",
     shareLink: "复制链接",
+    removeSkill: "移除 {name}",
     agentLabel: "智能体",
     otherAgents: "其他智能体",
     scopeLabel: "安装范围",

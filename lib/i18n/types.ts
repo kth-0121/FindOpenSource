@@ -133,6 +133,7 @@ export interface Dictionary {
     clearAll: string;
     /** Copies a link that reopens the builder with the current selection. */
     shareLink: string;
+    removeSkill: string;
     agentLabel: string;
     otherAgents: string;
     scopeLabel: string;
