@@ -8,7 +8,7 @@ import { EvidenceBadge } from "@/components/EvidenceBadge";
 import { getAllProjects, getCategoriesWithCounts, getProjectBySlug } from "@/lib/projects";
 import { getEvidenceBadges } from "@/lib/evaluation/badges";
 import { siteConfig } from "@/lib/site";
-import { AGENTS, PRESETS, buildPrompt, skillId, skills } from "@/lib/skills";
+import { AGENTS, PRESETS, SKILL_PACK_ORDER, buildPrompt, skillId, skills } from "@/lib/skills";
 import { isLocale, locales, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { buildAlternates } from "@/lib/i18n/metadata";
@@ -211,6 +211,16 @@ export default async function HomePage({ params }: HomePageProps) {
                   <KeywordBadge href={`/${locale}/skills?preset=${preset.id}`}>
                     {dict.skills.presets[preset.id].title}
                   </KeywordBadge>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="mt-4">
+            <p className="mb-2 text-xs text-muted-foreground">{dict.skills.packGuide.guidesHeading}</p>
+            <ul className="flex flex-wrap gap-2">
+              {SKILL_PACK_ORDER.map((slug) => (
+                <li key={slug}>
+                  <KeywordBadge href={`/${locale}/skills/${slug}`}>{getProjectBySlug(slug, locale)?.name ?? slug}</KeywordBadge>
                 </li>
               ))}
             </ul>

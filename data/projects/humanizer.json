@@ -21,23 +21,28 @@
   "translations": {
     "ko": {
       "description": "AI가 쓴 티가 나는 글을 내용은 그대로 두고 글쓴이가 쓴 것처럼 다시 써 주는 에이전트 스킬.",
-      "longDescription": "Humanizer는 글을 다듬는 Agent Skill입니다. 'X가 아니라 Y' 식의 대비, 한 줄짜리 마무리, 뻔한 도입부, 억지 3단 나열, 남발되는 대시, 과장된 주장, 영업 말투, 흔한 AI 단어 같은 AI 글의 특징을 찾아 의미는 유지한 채 고쳐 씁니다.\n\n에이전트가 초안을 쓴 캡션, 대본, 게시물, 문서를 내 이름으로 내보내기 전에 사용하세요."
+      "longDescription": "Humanizer는 글을 다듬는 Agent Skill입니다. 'X가 아니라 Y' 식의 대비, 한 줄짜리 마무리, 뻔한 도입부, 억지 3단 나열, 남발되는 대시, 과장된 주장, 영업 말투, 흔한 AI 단어 같은 AI 글의 특징을 찾아 의미는 유지한 채 고쳐 씁니다.\n\n에이전트가 초안을 쓴 캡션, 대본, 게시물, 문서를 내 이름으로 내보내기 전에 사용하세요.",
+      "rationale": "텍스트에서 AI 특유의 티 나는 패턴을 없애 주는 인기 단일 목적 글쓰기 스킬입니다."
     },
     "ja": {
       "description": "AI っぽい文章を、内容は変えずに書き手本人が書いたように書き直すエージェントスキル。",
-      "longDescription": "Humanizer は文章を編集するための Agent Skill です。「X ではなく Y」型の対比、一行の締め、お決まりの書き出し、無理な三点列挙、多用されるダッシュ、誇張、セールス口調、ありがちな AI 語彙といった AI 文章の特徴を見つけ、意味を保ったまま書き直します。\n\nエージェントが下書きしたキャプション、台本、投稿、ドキュメントを自分の名前で出す前に使いましょう。"
+      "longDescription": "Humanizer は文章を編集するための Agent Skill です。「X ではなく Y」型の対比、一行の締め、お決まりの書き出し、無理な三点列挙、多用されるダッシュ、誇張、セールス口調、ありがちな AI 語彙といった AI 文章の特徴を見つけ、意味を保ったまま書き直します。\n\nエージェントが下書きしたキャプション、台本、投稿、ドキュメントを自分の名前で出す前に使いましょう。",
+      "rationale": "文章から AI っぽい特徴的な表現を取り除く、単一用途の人気ライティングスキルです。"
     },
     "zh-CN": {
       "description": "一个智能体技能，把带有 AI 腔的文字改写得像作者本人所写，同时不改变原意。",
-      "longDescription": "Humanizer 是用于润色文字的 Agent Skill。它会找出 AI 写作的常见痕迹——“不是 X 而是 Y”式对比、一句话收尾、套路化开头、强行三连、满篇破折号、夸大说法、推销腔和常见 AI 词汇——并在保留原意的前提下改写。\n\n在以你的名义发布由智能体起草的配文、脚本、帖子和文档之前使用它。"
+      "longDescription": "Humanizer 是用于润色文字的 Agent Skill。它会找出 AI 写作的常见痕迹——“不是 X 而是 Y”式对比、一句话收尾、套路化开头、强行三连、满篇破折号、夸大说法、推销腔和常见 AI 词汇——并在保留原意的前提下改写。\n\n在以你的名义发布由智能体起草的配文、脚本、帖子和文档之前使用它。",
+      "rationale": "一款流行的单一用途写作技能，用于去除文本中可辨识的 AI 写作痕迹。"
     },
     "es": {
       "description": "Una skill de agente que reescribe textos que suenan a IA para que parezcan del autor, sin cambiar lo que dicen.",
-      "longDescription": "Humanizer es una Agent Skill para editar prosa. Busca señales comunes de escritura generada por IA -- contrastes \"no es X, es Y\", cierres de una línea, aperturas forzadas, tríadas artificiales, guiones por todas partes, afirmaciones infladas, lenguaje de ventas y palabras típicas de IA -- y las reescribe manteniendo el significado.\n\nÚsala en captions, guiones, posts y documentos que redactó un agente antes de publicarlos con tu nombre."
+      "longDescription": "Humanizer es una Agent Skill para editar prosa. Busca señales comunes de escritura generada por IA -- contrastes \"no es X, es Y\", cierres de una línea, aperturas forzadas, tríadas artificiales, guiones por todas partes, afirmaciones infladas, lenguaje de ventas y palabras típicas de IA -- y las reescribe manteniendo el significado.\n\nÚsala en captions, guiones, posts y documentos que redactó un agente antes de publicarlos con tu nombre.",
+      "rationale": "Una skill de escritura popular y de propósito único que elimina de un texto los patrones reconocibles de la IA."
     },
     "de": {
       "description": "Ein Agent-Skill, der KI-klingenden Text so umschreibt, dass er nach dem Autor klingt, ohne die Aussage zu ändern.",
-      "longDescription": "Humanizer ist ein Agent Skill zum Redigieren von Texten. Er sucht typische Merkmale KI-generierter Texte -- \"nicht X, sondern Y\"-Kontraste, Einzeiler-Schlüsse, inszenierte Einstiege, erzwungene Dreierlisten, Gedankenstriche überall, übertriebene Behauptungen, Verkaufssprache und typische KI-Wörter -- und schreibt sie um, ohne die Bedeutung zu ändern.\n\nNutze ihn für Captions, Skripte, Posts und Dokumente, die ein Agent entworfen hat, bevor sie unter deinem Namen rausgehen."
+      "longDescription": "Humanizer ist ein Agent Skill zum Redigieren von Texten. Er sucht typische Merkmale KI-generierter Texte -- \"nicht X, sondern Y\"-Kontraste, Einzeiler-Schlüsse, inszenierte Einstiege, erzwungene Dreierlisten, Gedankenstriche überall, übertriebene Behauptungen, Verkaufssprache und typische KI-Wörter -- und schreibt sie um, ohne die Bedeutung zu ändern.\n\nNutze ihn für Captions, Skripte, Posts und Dokumente, die ein Agent entworfen hat, bevor sie unter deinem Namen rausgehen.",
+      "rationale": "Ein beliebter Schreib-Skill mit einem einzigen Zweck: erkennbare KI-Muster aus Texten entfernen."
     }
   },
   "evaluation": {

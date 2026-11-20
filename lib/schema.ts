@@ -15,6 +15,8 @@ const projectTranslationSchema = z
       .max(2500, "translated longDescription should be at most 2500 characters")
       .optional(),
     keywords: z.array(z.string().min(1)).min(1, "keywords, if provided, cannot be empty").optional(),
+    /** Translated evaluation.catalogValue.rationale, shown on the project page. */
+    rationale: z.string().min(10).max(300).optional(),
   })
   .strict();
 

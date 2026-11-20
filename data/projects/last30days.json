@@ -24,23 +24,28 @@
   "translations": {
     "ko": {
       "description": "Reddit, X, YouTube, TikTok 등에서 최근 30일 동안 사람들이 어떤 주제에 대해 실제로 하는 말을 조사하는 에이전트 스킬.",
-      "longDescription": "last30days는 Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, 웹에서 특정 주제에 대한 최근 게시물과 반응을 모아, 사람들이 실제로 하는 말을 정리해 주는 Agent Skill입니다. 내장된 doctor 점검으로 깨지거나 빠진 소스를 진단합니다.\n\n콘텐츠를 만들거나 제품 결정을 내리기 전에, 모델의 학습 데이터가 아닌 지금의 반응과 트렌드를 알고 싶을 때 유용합니다."
+      "longDescription": "last30days는 Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, 웹에서 특정 주제에 대한 최근 게시물과 반응을 모아, 사람들이 실제로 하는 말을 정리해 주는 Agent Skill입니다. 내장된 doctor 점검으로 깨지거나 빠진 소스를 진단합니다.\n\n콘텐츠를 만들거나 제품 결정을 내리기 전에, 모델의 학습 데이터가 아닌 지금의 반응과 트렌드를 알고 싶을 때 유용합니다.",
+      "rationale": "지금 소셜 플랫폼 곳곳에서 사람들이 하는 이야기를 모아 보여 주는 인기 단일 리서치 스킬입니다."
     },
     "ja": {
       "description": "Reddit、X、YouTube、TikTok などで、直近30日に人々があるトピックについて実際に言っていることを調べるエージェントスキル。",
-      "longDescription": "last30days は、Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub、Web からトピックに関する最近の投稿と反応を集め、人々が実際に言っていることをまとめる Agent Skill です。組み込みの doctor チェックで、壊れた・欠けたソースを診断します。\n\nコンテンツ制作や製品の判断の前に、モデルの学習データではなく今の反応やトレンドを知りたいときに役立ちます。"
+      "longDescription": "last30days は、Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub、Web からトピックに関する最近の投稿と反応を集め、人々が実際に言っていることをまとめる Agent Skill です。組み込みの doctor チェックで、壊れた・欠けたソースを診断します。\n\nコンテンツ制作や製品の判断の前に、モデルの学習データではなく今の反応やトレンドを知りたいときに役立ちます。",
+      "rationale": "SNS 上で今まさに話題になっていることを拾い上げる、単一用途の人気リサーチスキルです。"
     },
     "zh-CN": {
       "description": "一个智能体技能，调研过去 30 天人们在 Reddit、X、YouTube、TikTok 等平台上对任意话题的真实讨论。",
-      "longDescription": "last30days 是一个 Agent Skill，从 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 和网页抓取某个话题的近期帖子和互动，并总结人们真实在说什么。内置的 doctor 检查可诊断失效或缺失的数据源。\n\n在制作内容或做产品决策前，想了解当下的反应和趋势而不是模型训练数据时很有用。"
+      "longDescription": "last30days 是一个 Agent Skill，从 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 和网页抓取某个话题的近期帖子和互动，并总结人们真实在说什么。内置的 doctor 检查可诊断失效或缺失的数据源。\n\n在制作内容或做产品决策前，想了解当下的反应和趋势而不是模型训练数据时很有用。",
+      "rationale": "一款流行的单一研究技能，用于汇总各社交平台上当下的讨论动态。"
     },
     "es": {
       "description": "Una skill de agente que investiga lo que la gente dice realmente sobre cualquier tema en los últimos 30 días en Reddit, X, YouTube, TikTok y más.",
-      "longDescription": "last30days es una Agent Skill que recoge publicaciones e interacción recientes sobre un tema en Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub y la web, y resume lo que la gente dice de verdad. Un chequeo doctor integrado diagnostica fuentes rotas o ausentes.\n\nEs útil antes de crear contenido o tomar una decisión de producto, cuando quieres reacciones y tendencias actuales en lugar de los datos de entrenamiento del modelo."
+      "longDescription": "last30days es una Agent Skill que recoge publicaciones e interacción recientes sobre un tema en Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub y la web, y resume lo que la gente dice de verdad. Un chequeo doctor integrado diagnostica fuentes rotas o ausentes.\n\nEs útil antes de crear contenido o tomar una decisión de producto, cuando quieres reacciones y tendencias actuales en lugar de los datos de entrenamiento del modelo.",
+      "rationale": "Una skill de investigación popular que muestra lo que la gente está diciendo ahora mismo en las redes sociales."
     },
     "de": {
       "description": "Ein Agent-Skill, der recherchiert, was Leute in den letzten 30 Tagen auf Reddit, X, YouTube, TikTok und mehr tatsächlich über ein Thema sagen.",
-      "longDescription": "last30days ist ein Agent Skill, der aktuelle Posts und Reaktionen zu einem Thema von Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub und dem Web sammelt und zusammenfasst, was die Leute wirklich sagen. Ein eingebauter Doctor-Check erkennt kaputte oder fehlende Quellen.\n\nNützlich vor Content- oder Produktentscheidungen, wenn du aktuelle Reaktionen und Trends statt der Trainingsdaten des Modells willst."
+      "longDescription": "last30days ist ein Agent Skill, der aktuelle Posts und Reaktionen zu einem Thema von Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub und dem Web sammelt und zusammenfasst, was die Leute wirklich sagen. Ein eingebauter Doctor-Check erkennt kaputte oder fehlende Quellen.\n\nNützlich vor Content- oder Produktentscheidungen, wenn du aktuelle Reaktionen und Trends statt der Trainingsdaten des Modells willst.",
+      "rationale": "Ein einzelner, beliebter Recherche-Skill, der zeigt, worüber gerade auf sozialen Plattformen gesprochen wird."
     }
   },
   "evaluation": {

@@ -37,6 +37,13 @@ export function localizeProject(project: Project, locale: Locale): Project {
     description: translation.description ?? project.description,
     longDescription: translation.longDescription ?? project.longDescription,
     keywords: translation.keywords ?? project.keywords,
+    ...(translation.rationale &&
+      project.evaluation?.catalogValue && {
+        evaluation: {
+          ...project.evaluation,
+          catalogValue: { ...project.evaluation.catalogValue, rationale: translation.rationale },
+        },
+      }),
   };
 }
 

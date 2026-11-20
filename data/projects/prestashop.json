@@ -27,23 +27,28 @@
   "translations": {
     "zh-CN": {
       "description": "用于搭建和运营自托管在线商店的开源电商平台，拥有完整的后台以及庞大的模块和主题市场。",
-      "longDescription": "PrestaShop 是一个独立的 PHP 电商应用：包含店面和后台，可管理商品及规格、库存、订单、客户、物流商、税费、促销以及多语言和多币种。其较新的后台页面基于 Symfony 构建。\n\n功能通过模块扩展，外观通过主题定制，两者都有相当规模的市场。核心采用 OSL-3.0 许可证，内置模块采用 AFL-3.0。它在欧洲拥有特别强大的社区。适合希望使用传统一体化、自行托管商店而非无头电商后端的商家和代理机构。"
+      "longDescription": "PrestaShop 是一个独立的 PHP 电商应用：包含店面和后台，可管理商品及规格、库存、订单、客户、物流商、税费、促销以及多语言和多币种。其较新的后台页面基于 Symfony 构建。\n\n功能通过模块扩展，外观通过主题定制，两者都有相当规模的市场。核心采用 OSL-3.0 许可证，内置模块采用 AFL-3.0。它在欧洲拥有特别强大的社区。适合希望使用传统一体化、自行托管商店而非无头电商后端的商家和代理机构。",
+      "rationale": "成熟的自托管商店平台，在欧洲尤其流行；为该类别提供了一个独立（非 WordPress、非无头）的选项。"
     },
     "ja": {
       "description": "セルフホストのオンラインストアを構築・運営するためのオープンソースECプラットフォーム。充実した管理画面と、大規模なモジュール・テーマのマーケットプレイスがあります。",
-      "longDescription": "PrestaShopは単体で動くPHP製のECアプリケーションです。ストアフロントと管理画面を備え、商品とバリエーション、在庫、注文、顧客、配送業者、税金、プロモーション、多言語・多通貨を管理できます。新しい管理画面はSymfonyで作られています。\n\n機能はモジュールで、見た目はテーマで拡張し、どちらにも相当な規模のマーケットプレイスがあります。コアはOSL-3.0、同梱モジュールはAFL-3.0でライセンスされています。特にヨーロッパで強いコミュニティを持っています。ヘッドレスなコマースバックエンドではなく、従来型のオールインワンのストアを自分でホストしたい事業者や制作会社に向いています。"
+      "longDescription": "PrestaShopは単体で動くPHP製のECアプリケーションです。ストアフロントと管理画面を備え、商品とバリエーション、在庫、注文、顧客、配送業者、税金、プロモーション、多言語・多通貨を管理できます。新しい管理画面はSymfonyで作られています。\n\n機能はモジュールで、見た目はテーマで拡張し、どちらにも相当な規模のマーケットプレイスがあります。コアはOSL-3.0、同梱モジュールはAFL-3.0でライセンスされています。特にヨーロッパで強いコミュニティを持っています。ヘッドレスなコマースバックエンドではなく、従来型のオールインワンのストアを自分でホストしたい事業者や制作会社に向いています。",
+      "rationale": "特にヨーロッパで人気のある、実績あるセルフホスト型ストアプラットフォームです。WordPress 系でもヘッドレスでもない、単体で動く選択肢としてこの分野に加わります。"
     },
     "ko": {
       "description": "셀프 호스팅 온라인 스토어를 만들고 운영하기 위한 오픈소스 이커머스 플랫폼으로, 완전한 관리자 화면과 대규모 모듈·테마 마켓플레이스를 갖추고 있습니다.",
-      "longDescription": "PrestaShop은 독립 실행형 PHP 이커머스 애플리케이션입니다. 스토어프런트와 관리자 화면을 제공하며 상품과 옵션, 재고, 주문, 고객, 배송사, 세금, 프로모션, 다국어·다통화를 관리할 수 있습니다. 새로운 관리자 페이지는 Symfony로 만들어졌습니다.\n\n기능은 모듈로, 디자인은 테마로 확장하며 둘 다 상당한 규모의 마켓플레이스가 있습니다. 코어는 OSL-3.0, 기본 모듈은 AFL-3.0 라이선스입니다. 특히 유럽에서 강한 커뮤니티를 갖고 있습니다. 헤드리스 커머스 백엔드가 아니라 전통적인 올인원 스토어를 직접 호스팅하고 싶은 판매자와 에이전시에 적합합니다."
+      "longDescription": "PrestaShop은 독립 실행형 PHP 이커머스 애플리케이션입니다. 스토어프런트와 관리자 화면을 제공하며 상품과 옵션, 재고, 주문, 고객, 배송사, 세금, 프로모션, 다국어·다통화를 관리할 수 있습니다. 새로운 관리자 페이지는 Symfony로 만들어졌습니다.\n\n기능은 모듈로, 디자인은 테마로 확장하며 둘 다 상당한 규모의 마켓플레이스가 있습니다. 코어는 OSL-3.0, 기본 모듈은 AFL-3.0 라이선스입니다. 특히 유럽에서 강한 커뮤니티를 갖고 있습니다. 헤드리스 커머스 백엔드가 아니라 전통적인 올인원 스토어를 직접 호스팅하고 싶은 판매자와 에이전시에 적합합니다.",
+      "rationale": "특히 유럽에서 인기 있는, 오래 자리 잡은 셀프 호스팅 쇼핑몰 플랫폼으로, WordPress 기반도 헤드리스도 아닌 독립형 선택지입니다."
     },
     "es": {
       "description": "Plataforma de ecommerce de código abierto para crear y gestionar una tienda online autoalojada, con un back office completo y un gran marketplace de módulos y temas.",
-      "longDescription": "PrestaShop es una aplicación de ecommerce independiente en PHP: una tienda más un back office para gestionar productos y variantes, stock, pedidos, clientes, transportistas, impuestos, promociones y varios idiomas y monedas. Sus páginas más recientes del back office están construidas con Symfony.\n\nLa funcionalidad se amplía con módulos y el aspecto con temas, ambos con un marketplace considerable. El núcleo tiene licencia OSL-3.0 y los módulos incluidos AFL-3.0. Cuenta con una comunidad especialmente fuerte en Europa. Encaja con comercios y agencias que quieren una tienda tradicional todo en uno alojada por ellos mismos, en lugar de un backend de comercio headless."
+      "longDescription": "PrestaShop es una aplicación de ecommerce independiente en PHP: una tienda más un back office para gestionar productos y variantes, stock, pedidos, clientes, transportistas, impuestos, promociones y varios idiomas y monedas. Sus páginas más recientes del back office están construidas con Symfony.\n\nLa funcionalidad se amplía con módulos y el aspecto con temas, ambos con un marketplace considerable. El núcleo tiene licencia OSL-3.0 y los módulos incluidos AFL-3.0. Cuenta con una comunidad especialmente fuerte en Europa. Encaja con comercios y agencias que quieren una tienda tradicional todo en uno alojada por ellos mismos, en lugar de un backend de comercio headless.",
+      "rationale": "Una plataforma de tiendas autoalojada y consolidada, especialmente popular en Europa; una opción independiente (ni WordPress ni headless) para la categoría."
     },
     "de": {
       "description": "Open-Source-E-Commerce-Plattform zum Aufbau und Betrieb eines selbst gehosteten Onlineshops, mit vollständigem Backoffice und großem Marktplatz für Module und Themes.",
-      "longDescription": "PrestaShop ist eine eigenständige PHP-E-Commerce-Anwendung: ein Storefront plus Backoffice zur Verwaltung von Produkten und Varianten, Lagerbestand, Bestellungen, Kunden, Versanddienstleistern, Steuern, Aktionen sowie mehreren Sprachen und Währungen. Die neueren Backoffice-Seiten basieren auf Symfony.\n\nFunktionen werden über Module, das Aussehen über Themes erweitert, für beides gibt es einen ansehnlichen Marktplatz. Der Kern steht unter OSL-3.0, die mitgelieferten Module unter AFL-3.0. Besonders in Europa hat es eine starke Community. Passt zu Händlern und Agenturen, die einen klassischen All-in-One-Shop selbst hosten wollen statt eines Headless-Commerce-Backends."
+      "longDescription": "PrestaShop ist eine eigenständige PHP-E-Commerce-Anwendung: ein Storefront plus Backoffice zur Verwaltung von Produkten und Varianten, Lagerbestand, Bestellungen, Kunden, Versanddienstleistern, Steuern, Aktionen sowie mehreren Sprachen und Währungen. Die neueren Backoffice-Seiten basieren auf Symfony.\n\nFunktionen werden über Module, das Aussehen über Themes erweitert, für beides gibt es einen ansehnlichen Marktplatz. Der Kern steht unter OSL-3.0, die mitgelieferten Module unter AFL-3.0. Besonders in Europa hat es eine starke Community. Passt zu Händlern und Agenturen, die einen klassischen All-in-One-Shop selbst hosten wollen statt eines Headless-Commerce-Backends.",
+      "rationale": "Etablierte selbst gehostete Shop-Plattform, besonders beliebt in Europa – eine eigenständige Option (weder WordPress-basiert noch headless) in diesem Bereich."
     }
   },
   "evaluation": {

@@ -23,23 +23,28 @@
   "translations": {
     "zh-CN": {
       "description": "容器附加存储平台，可直接在 Kubernetes 内部配置和管理持久化存储卷。",
-      "longDescription": "OpenEBS 将存储以 Kubernetes 原生资源的形式进行配置，为每个工作负载提供专属的存储控制器和卷，而不依赖外部存储阵列，从而为已完全在 Kubernetes 内运行的团队简化存储管理。它根据性能和持久性需求支持多种存储引擎。\n\nOpenEBS 适合那些希望获得 Kubernetes 原生持久化存储、又不想部署和管理像 Ceph 那样独立存储集群的团队，是目录中 Rook 和 Longhorn 之外的一个更轻量的选择。"
+      "longDescription": "OpenEBS 将存储以 Kubernetes 原生资源的形式进行配置，为每个工作负载提供专属的存储控制器和卷，而不依赖外部存储阵列，从而为已完全在 Kubernetes 内运行的团队简化存储管理。它根据性能和持久性需求支持多种存储引擎。\n\nOpenEBS 适合那些希望获得 Kubernetes 原生持久化存储、又不想部署和管理像 Ceph 那样独立存储集群的团队，是目录中 Rook 和 Longhorn 之外的一个更轻量的选择。",
+      "rationale": "Kubernetes 原生存储，在规模中等的类别中与 Longhorn、Rook 存在明显重叠。"
     },
     "ja": {
       "description": "永続的なストレージボリュームを Kubernetes 内で直接プロビジョニング・管理する、コンテナアタッチドストレージプラットフォームです。",
-      "longDescription": "OpenEBS は、外部のストレージアレイに頼るのではなく、各ワークロードに専用のストレージコントローラーとボリュームを与える形で、ストレージを Kubernetes ネイティブなリソースとしてプロビジョニングします。これにより、すでに完全に Kubernetes 内で運用しているチームのストレージ管理がシンプルになります。パフォーマンスと耐久性のニーズに応じて複数のストレージエンジンをサポートします。\n\nOpenEBS は、Ceph のような別のストレージクラスタをデプロイ・管理することなく、Kubernetes ネイティブな永続ストレージを求めるチームに向いており、カタログに既にある Rook や Longhorn と並ぶ、より軽量な選択肢です。"
+      "longDescription": "OpenEBS は、外部のストレージアレイに頼るのではなく、各ワークロードに専用のストレージコントローラーとボリュームを与える形で、ストレージを Kubernetes ネイティブなリソースとしてプロビジョニングします。これにより、すでに完全に Kubernetes 内で運用しているチームのストレージ管理がシンプルになります。パフォーマンスと耐久性のニーズに応じて複数のストレージエンジンをサポートします。\n\nOpenEBS は、Ceph のような別のストレージクラスタをデプロイ・管理することなく、Kubernetes ネイティブな永続ストレージを求めるチームに向いており、カタログに既にある Rook や Longhorn と並ぶ、より軽量な選択肢です。",
+      "rationale": "Kubernetes ネイティブなストレージですが、中規模の分野で Longhorn や Rook と大きく重なります。"
     },
     "ko": {
       "description": "영구 스토리지 볼륨을 Kubernetes 내부에서 직접 프로비저닝하고 관리하는 컨테이너 부착형 스토리지 플랫폼입니다.",
-      "longDescription": "OpenEBS는 외부 스토리지 어레이에 의존하는 대신 각 워크로드에 전용 스토리지 컨트롤러와 볼륨을 제공하는 방식으로 스토리지를 Kubernetes 네이티브 리소스로 프로비저닝하여, 이미 전적으로 Kubernetes 안에서 운영 중인 팀의 스토리지 관리를 단순화합니다. 성능과 내구성 요구 사항에 따라 여러 스토리지 엔진을 지원합니다.\n\nOpenEBS는 Ceph 같은 별도 스토리지 클러스터를 배포·관리하지 않고 Kubernetes 네이티브 영구 스토리지를 원하는 팀에 적합하며, 카탈로그에 이미 있는 Rook, Longhorn과 나란한 더 가벼운 선택지입니다."
+      "longDescription": "OpenEBS는 외부 스토리지 어레이에 의존하는 대신 각 워크로드에 전용 스토리지 컨트롤러와 볼륨을 제공하는 방식으로 스토리지를 Kubernetes 네이티브 리소스로 프로비저닝하여, 이미 전적으로 Kubernetes 안에서 운영 중인 팀의 스토리지 관리를 단순화합니다. 성능과 내구성 요구 사항에 따라 여러 스토리지 엔진을 지원합니다.\n\nOpenEBS는 Ceph 같은 별도 스토리지 클러스터를 배포·관리하지 않고 Kubernetes 네이티브 영구 스토리지를 원하는 팀에 적합하며, 카탈로그에 이미 있는 Rook, Longhorn과 나란한 더 가벼운 선택지입니다.",
+      "rationale": "Kubernetes 네이티브 스토리지로, 중간 규모의 분야에서 Longhorn, Rook과 상당 부분 겹칩니다."
     },
     "es": {
       "description": "Plataforma de almacenamiento adjunto a contenedores que aprovisiona y gestiona volúmenes de almacenamiento persistentes directamente dentro de Kubernetes.",
-      "longDescription": "OpenEBS aprovisiona almacenamiento como recursos nativos de Kubernetes, dando a cada carga de trabajo su propio controlador de almacenamiento dedicado y volúmenes en lugar de depender de cabinas de almacenamiento externas, lo que simplifica la gestión del almacenamiento para equipos que ya operan enteramente dentro de Kubernetes. Admite múltiples motores de almacenamiento según las necesidades de rendimiento y durabilidad.\n\nOpenEBS encaja en equipos que quieren almacenamiento persistente nativo de Kubernetes sin desplegar y gestionar un clúster de almacenamiento separado como Ceph, una opción más ligera junto a Rook y Longhorn ya presentes en este catálogo."
+      "longDescription": "OpenEBS aprovisiona almacenamiento como recursos nativos de Kubernetes, dando a cada carga de trabajo su propio controlador de almacenamiento dedicado y volúmenes en lugar de depender de cabinas de almacenamiento externas, lo que simplifica la gestión del almacenamiento para equipos que ya operan enteramente dentro de Kubernetes. Admite múltiples motores de almacenamiento según las necesidades de rendimiento y durabilidad.\n\nOpenEBS encaja en equipos que quieren almacenamiento persistente nativo de Kubernetes sin desplegar y gestionar un clúster de almacenamiento separado como Ceph, una opción más ligera junto a Rook y Longhorn ya presentes en este catálogo.",
+      "rationale": "Almacenamiento nativo de Kubernetes con un solapamiento notable con Longhorn y Rook en una categoría de tamaño medio."
     },
     "de": {
       "description": "Container-Attached-Storage-Plattform, die persistente Speichervolumes direkt innerhalb von Kubernetes bereitstellt und verwaltet.",
-      "longDescription": "OpenEBS stellt Speicher als Kubernetes-native Ressourcen bereit und gibt jedem Workload einen eigenen dedizierten Speicher-Controller und Volumes, statt sich auf externe Speicherarrays zu verlassen, was die Speicherverwaltung für Teams vereinfacht, die bereits vollständig innerhalb von Kubernetes arbeiten. Es unterstützt mehrere Speicher-Engines je nach Anforderungen an Performance und Haltbarkeit.\n\nOpenEBS eignet sich für Teams, die Kubernetes-nativen persistenten Speicher wollen, ohne einen separaten Speicher-Cluster wie Ceph bereitzustellen und zu verwalten – eine leichtgewichtigere Option neben Rook und Longhorn, die bereits in diesem Katalog sind."
+      "longDescription": "OpenEBS stellt Speicher als Kubernetes-native Ressourcen bereit und gibt jedem Workload einen eigenen dedizierten Speicher-Controller und Volumes, statt sich auf externe Speicherarrays zu verlassen, was die Speicherverwaltung für Teams vereinfacht, die bereits vollständig innerhalb von Kubernetes arbeiten. Es unterstützt mehrere Speicher-Engines je nach Anforderungen an Performance und Haltbarkeit.\n\nOpenEBS eignet sich für Teams, die Kubernetes-nativen persistenten Speicher wollen, ohne einen separaten Speicher-Cluster wie Ceph bereitzustellen und zu verwalten – eine leichtgewichtigere Option neben Rook und Longhorn, die bereits in diesem Katalog sind.",
+      "rationale": "Kubernetes-nativer Speicher mit deutlicher Überschneidung zu Longhorn und Rook in einem mittelgroßen Bereich."
     }
   },
   "evaluation": {

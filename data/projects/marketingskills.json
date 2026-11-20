@@ -26,23 +26,28 @@
   "translations": {
     "ko": {
       "description": "AI 에이전트용 마케팅 스킬 -- SNS·숏폼 콘텐츠, 광고 소재, 카피라이팅, SEO, 전환율 최적화, 런칭, 그로스.",
-      "longDescription": "Marketing Skills는 코딩 에이전트에게 마케팅 업무를 가르치는 50개 이상의 Agent Skill 모음입니다. SNS 게시물과 숏폼 영상 대본, 광고 소재와 훅, 페이지 카피, SEO·AI 검색 진단, 전환율 최적화, 가격 책정, 런칭, 이메일까지 다룹니다. 각 스킬은 요청을 먼저 진단하고, 다른 스킬이 맞는 작업이면 그 스킬을 안내합니다.\n\n이미 Claude Code, Codex, Cursor를 쓰는 창업자와 작은 팀이 같은 에이전트로 코드뿐 아니라 그로스 업무까지 하고 싶을 때 적합합니다."
+      "longDescription": "Marketing Skills는 코딩 에이전트에게 마케팅 업무를 가르치는 50개 이상의 Agent Skill 모음입니다. SNS 게시물과 숏폼 영상 대본, 광고 소재와 훅, 페이지 카피, SEO·AI 검색 진단, 전환율 최적화, 가격 책정, 런칭, 이메일까지 다룹니다. 각 스킬은 요청을 먼저 진단하고, 다른 스킬이 맞는 작업이면 그 스킬을 안내합니다.\n\n이미 Claude Code, Codex, Cursor를 쓰는 창업자와 작은 팀이 같은 에이전트로 코드뿐 아니라 그로스 업무까지 하고 싶을 때 적합합니다.",
+      "rationale": "코딩 에이전트용 마케팅 스킬 라이브러리 중 가장 널리 쓰이며, 소셜, 광고, 카피, SEO, CRO를 아우릅니다."
     },
     "ja": {
       "description": "AI エージェント向けマーケティングスキル -- SNS・ショート動画コンテンツ、広告クリエイティブ、コピーライティング、SEO、CRO、ローンチ、グロース。",
-      "longDescription": "Marketing Skills は、コーディングエージェントにマーケティング業務を教える50以上の Agent Skill 集です。SNS 投稿やショート動画の台本、広告クリエイティブとフック、ページのコピー、SEO・AI 検索の診断、コンバージョン最適化、価格設定、ローンチ、メールまで扱います。各スキルはまず依頼を診断し、別のスキルが適している場合はそちらを案内します。\n\nすでに Claude Code、Codex、Cursor を使っている創業者や小さなチームが、同じエージェントでコードだけでなくグロース業務も進めたいときに向いています。"
+      "longDescription": "Marketing Skills は、コーディングエージェントにマーケティング業務を教える50以上の Agent Skill 集です。SNS 投稿やショート動画の台本、広告クリエイティブとフック、ページのコピー、SEO・AI 検索の診断、コンバージョン最適化、価格設定、ローンチ、メールまで扱います。各スキルはまず依頼を診断し、別のスキルが適している場合はそちらを案内します。\n\nすでに Claude Code、Codex、Cursor を使っている創業者や小さなチームが、同じエージェントでコードだけでなくグロース業務も進めたいときに向いています。",
+      "rationale": "コーディングエージェント向けで最も広く使われているマーケティングスキル集で、SNS、広告、コピー、SEO、CRO をカバーします。"
     },
     "zh-CN": {
       "description": "面向 AI 智能体的营销技能 -- 社交与短视频内容、广告创意、文案、SEO、转化率优化、产品发布和增长。",
-      "longDescription": "Marketing Skills 是一套 50 多个 Agent Skill，教编程智能体完成营销工作：社交帖子和短视频脚本、广告创意与钩子、页面文案、SEO 与 AI 搜索诊断、转化率优化、定价、产品发布和邮件。每个技能都会先诊断请求，如果任务更适合其他技能，会指向相应技能。\n\n适合已经在用 Claude Code、Codex 或 Cursor 的创始人和小团队，让同一个智能体既写代码也帮忙做增长。"
+      "longDescription": "Marketing Skills 是一套 50 多个 Agent Skill，教编程智能体完成营销工作：社交帖子和短视频脚本、广告创意与钩子、页面文案、SEO 与 AI 搜索诊断、转化率优化、定价、产品发布和邮件。每个技能都会先诊断请求，如果任务更适合其他技能，会指向相应技能。\n\n适合已经在用 Claude Code、Codex 或 Cursor 的创始人和小团队，让同一个智能体既写代码也帮忙做增长。",
+      "rationale": "编程智能体中使用最广泛的营销技能库，涵盖社交媒体、广告、文案、SEO 和 CRO。"
     },
     "es": {
       "description": "Skills de marketing para agentes de IA -- contenido social y de formato corto, creatividades de anuncios, copywriting, SEO, CRO, lanzamientos y crecimiento.",
-      "longDescription": "Marketing Skills es una biblioteca de más de 50 Agent Skills que enseñan a los agentes de código a hacer trabajo de marketing: posts orgánicos y guiones de vídeo corto, creatividades y hooks de anuncios, copy de páginas, auditorías de SEO y búsqueda con IA, optimización de conversión, precios, lanzamientos y email. Cada skill diagnostica primero la petición y remite a la skill relacionada cuando la tarea corresponde a otra.\n\nEncaja con fundadores y equipos pequeños que ya usan Claude Code, Codex o Cursor y quieren que el mismo agente ayude con el crecimiento, no solo con el código."
+      "longDescription": "Marketing Skills es una biblioteca de más de 50 Agent Skills que enseñan a los agentes de código a hacer trabajo de marketing: posts orgánicos y guiones de vídeo corto, creatividades y hooks de anuncios, copy de páginas, auditorías de SEO y búsqueda con IA, optimización de conversión, precios, lanzamientos y email. Cada skill diagnostica primero la petición y remite a la skill relacionada cuando la tarea corresponde a otra.\n\nEncaja con fundadores y equipos pequeños que ya usan Claude Code, Codex o Cursor y quieren que el mismo agente ayude con el crecimiento, no solo con el código.",
+      "rationale": "La biblioteca de skills de marketing más usada por los agentes de programación, que cubre redes sociales, anuncios, copy, SEO y CRO."
     },
     "de": {
       "description": "Marketing-Skills für KI-Agenten -- Social- und Kurzvideo-Content, Anzeigen-Creatives, Copywriting, SEO, CRO, Launches und Wachstum.",
-      "longDescription": "Marketing Skills ist eine Sammlung von über 50 Agent Skills, die Coding-Agenten Marketingarbeit beibringen: organische Social-Posts und Kurzvideo-Skripte, Anzeigen-Creatives und Hooks, Seitentexte, SEO- und KI-Such-Audits, Conversion-Optimierung, Preisgestaltung, Launches und E-Mail. Jeder Skill analysiert zuerst die Anfrage und verweist auf den passenden Skill, wenn die Aufgabe woanders hingehört.\n\nPasst zu Gründern und kleinen Teams, die Claude Code, Codex oder Cursor schon nutzen und mit demselben Agenten auch Wachstumsarbeit erledigen wollen, nicht nur Code."
+      "longDescription": "Marketing Skills ist eine Sammlung von über 50 Agent Skills, die Coding-Agenten Marketingarbeit beibringen: organische Social-Posts und Kurzvideo-Skripte, Anzeigen-Creatives und Hooks, Seitentexte, SEO- und KI-Such-Audits, Conversion-Optimierung, Preisgestaltung, Launches und E-Mail. Jeder Skill analysiert zuerst die Anfrage und verweist auf den passenden Skill, wenn die Aufgabe woanders hingehört.\n\nPasst zu Gründern und kleinen Teams, die Claude Code, Codex oder Cursor schon nutzen und mit demselben Agenten auch Wachstumsarbeit erledigen wollen, nicht nur Code.",
+      "rationale": "Die meistgenutzte Marketing-Skill-Bibliothek für Coding-Agents, mit Social Media, Anzeigen, Texten, SEO und CRO."
     }
   },
   "evaluation": {

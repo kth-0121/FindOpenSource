@@ -31,23 +31,28 @@
   "translations": {
     "zh-CN": {
       "description": "面向软件销售的开源计费平台——支持订阅、一次性购买和按用量计费，并由 Polar 作为记录商户处理全球销售税。",
-      "longDescription": "Polar 是面向销售数字产品和 SaaS 的开发者的计费与支付平台。它负责结账、订阅、一次性购买、许可证密钥、文件下载和按用量计费，并作为记录商户（merchant of record）运营，因此国际销售税和增值税由它处理，而不是你的负担。\n\n平台本身是开源的（Python 后端、TypeScript 前端），并提供 SDK 和框架适配器，只需几行代码即可在应用中加入结账和客户门户。适合希望获得 Stripe 级别计费功能、又不想自己构建税务合规和订阅逻辑的独立开发者和小团队。"
+      "longDescription": "Polar 是面向销售数字产品和 SaaS 的开发者的计费与支付平台。它负责结账、订阅、一次性购买、许可证密钥、文件下载和按用量计费，并作为记录商户（merchant of record）运营，因此国际销售税和增值税由它处理，而不是你的负担。\n\n平台本身是开源的（Python 后端、TypeScript 前端），并提供 SDK 和框架适配器，只需几行代码即可在应用中加入结账和客户门户。适合希望获得 Stripe 级别计费功能、又不想自己构建税务合规和订阅逻辑的独立开发者和小团队。",
+      "rationale": "作为软件销售记录商家（merchant of record）的开源计费平台；在项目尚少的支付类别中，是 Lago 和 Kill Bill 之外的独特选项。"
     },
     "ja": {
       "description": "ソフトウェア販売向けのオープンソース課金プラットフォーム——サブスクリプション、買い切り、従量課金に対応し、Polarが販売者（Merchant of Record）として各国の売上税を処理します。",
-      "longDescription": "Polarは、デジタル製品やSaaSを販売する開発者向けの課金・決済プラットフォームです。チェックアウト、サブスクリプション、買い切り購入、ライセンスキー、ファイルダウンロード、従量課金を扱い、Merchant of Recordとして運営されるため、海外の売上税やVATの処理を自分で抱える必要がありません。\n\nプラットフォーム自体はオープンソース（Pythonバックエンド、TypeScriptフロントエンド）で、SDKやフレームワーク用アダプターを使えば数行でアプリにチェックアウトや顧客ポータルを追加できます。税務対応やサブスクリプションのロジックを自作せずにStripe並みの課金機能を使いたい個人開発者や小規模チームに向いています。"
+      "longDescription": "Polarは、デジタル製品やSaaSを販売する開発者向けの課金・決済プラットフォームです。チェックアウト、サブスクリプション、買い切り購入、ライセンスキー、ファイルダウンロード、従量課金を扱い、Merchant of Recordとして運営されるため、海外の売上税やVATの処理を自分で抱える必要がありません。\n\nプラットフォーム自体はオープンソース（Pythonバックエンド、TypeScriptフロントエンド）で、SDKやフレームワーク用アダプターを使えば数行でアプリにチェックアウトや顧客ポータルを追加できます。税務対応やサブスクリプションのロジックを自作せずにStripe並みの課金機能を使いたい個人開発者や小規模チームに向いています。",
+      "rationale": "ソフトウェア販売の販売代理人（Merchant of Record）として機能するオープンソースの請求プラットフォームです。掲載の少ない決済分野で、Lago や Kill Bill と並ぶ独自の選択肢です。"
     },
     "ko": {
       "description": "소프트웨어 판매를 위한 오픈소스 결제·과금 플랫폼 — 구독, 단건 구매, 사용량 기반 과금을 지원하며 Polar가 판매 대행자(MoR)로서 각국 판매세를 처리합니다.",
-      "longDescription": "Polar는 디지털 상품과 SaaS를 판매하는 개발자를 위한 과금·결제 플랫폼입니다. 결제 페이지, 구독, 단건 구매, 라이선스 키, 파일 다운로드, 사용량 기반 과금을 처리하고, 판매 대행자(Merchant of Record)로 운영되기 때문에 해외 판매세와 VAT 처리를 직접 떠안을 필요가 없습니다.\n\n플랫폼 자체가 오픈소스(Python 백엔드, TypeScript 프런트엔드)이며, SDK와 프레임워크 어댑터로 몇 줄만에 앱에 결제와 고객 포털을 붙일 수 있습니다. 세금 대응과 구독 로직을 직접 만들지 않고 Stripe 수준의 과금 기능을 원하는 인디 개발자와 소규모 팀에 적합합니다."
+      "longDescription": "Polar는 디지털 상품과 SaaS를 판매하는 개발자를 위한 과금·결제 플랫폼입니다. 결제 페이지, 구독, 단건 구매, 라이선스 키, 파일 다운로드, 사용량 기반 과금을 처리하고, 판매 대행자(Merchant of Record)로 운영되기 때문에 해외 판매세와 VAT 처리를 직접 떠안을 필요가 없습니다.\n\n플랫폼 자체가 오픈소스(Python 백엔드, TypeScript 프런트엔드)이며, SDK와 프레임워크 어댑터로 몇 줄만에 앱에 결제와 고객 포털을 붙일 수 있습니다. 세금 대응과 구독 로직을 직접 만들지 않고 Stripe 수준의 과금 기능을 원하는 인디 개발자와 소규모 팀에 적합합니다.",
+      "rationale": "소프트웨어 판매에서 판매 대행자(merchant of record) 역할을 하는 오픈소스 청구 플랫폼으로, 아직 프로젝트가 적은 결제 분야에서 Lago, Kill Bill과 구별되는 선택지입니다."
     },
     "es": {
       "description": "Plataforma de facturación de código abierto para vender software: suscripciones, compras únicas y precios por uso, con Polar actuando como merchant of record para los impuestos de venta globales.",
-      "longDescription": "Polar es una plataforma de facturación y pagos pensada para desarrolladores que venden productos digitales y SaaS. Gestiona el checkout, suscripciones, compras únicas, claves de licencia, descargas de archivos y facturación por uso, y actúa como merchant of record, de modo que el IVA y los impuestos de venta internacionales no son tu problema.\n\nLa plataforma en sí es de código abierto (backend en Python, frontend en TypeScript) e incluye SDKs y adaptadores para frameworks que permiten añadir checkout y portal de clientes a una app con pocas líneas. Encaja con desarrolladores independientes y equipos pequeños que quieren funciones de facturación al nivel de Stripe sin construir ellos mismos el cumplimiento fiscal y la lógica de suscripciones."
+      "longDescription": "Polar es una plataforma de facturación y pagos pensada para desarrolladores que venden productos digitales y SaaS. Gestiona el checkout, suscripciones, compras únicas, claves de licencia, descargas de archivos y facturación por uso, y actúa como merchant of record, de modo que el IVA y los impuestos de venta internacionales no son tu problema.\n\nLa plataforma en sí es de código abierto (backend en Python, frontend en TypeScript) e incluye SDKs y adaptadores para frameworks que permiten añadir checkout y portal de clientes a una app con pocas líneas. Encaja con desarrolladores independientes y equipos pequeños que quieren funciones de facturación al nivel de Stripe sin construir ellos mismos el cumplimiento fiscal y la lógica de suscripciones.",
+      "rationale": "Una plataforma de facturación open source que actúa como merchant of record para la venta de software; una opción distinta junto a Lago y Kill Bill en una categoría de pagos con pocas opciones."
     },
     "de": {
       "description": "Open-Source-Billing-Plattform für den Verkauf von Software -- Abos, Einmalkäufe und nutzungsbasierte Preise, wobei Polar als Merchant of Record die weltweite Umsatzsteuer übernimmt.",
-      "longDescription": "Polar ist eine Billing- und Payment-Plattform für Entwickler, die digitale Produkte und SaaS verkaufen. Sie übernimmt Checkout, Abonnements, Einmalkäufe, Lizenzschlüssel, Datei-Downloads und nutzungsbasierte Abrechnung und tritt als Merchant of Record auf, sodass internationale Umsatzsteuer und VAT nicht an dir hängen bleiben.\n\nDie Plattform selbst ist Open Source (Python-Backend, TypeScript-Frontend) und bringt SDKs und Framework-Adapter mit, mit denen sich Checkout und Kundenportal in wenigen Zeilen in eine App einbauen lassen. Passt zu Indie-Entwicklern und kleinen Teams, die Billing auf Stripe-Niveau wollen, ohne Steuer-Compliance und Abo-Logik selbst zu bauen."
+      "longDescription": "Polar ist eine Billing- und Payment-Plattform für Entwickler, die digitale Produkte und SaaS verkaufen. Sie übernimmt Checkout, Abonnements, Einmalkäufe, Lizenzschlüssel, Datei-Downloads und nutzungsbasierte Abrechnung und tritt als Merchant of Record auf, sodass internationale Umsatzsteuer und VAT nicht an dir hängen bleiben.\n\nDie Plattform selbst ist Open Source (Python-Backend, TypeScript-Frontend) und bringt SDKs und Framework-Adapter mit, mit denen sich Checkout und Kundenportal in wenigen Zeilen in eine App einbauen lassen. Passt zu Indie-Entwicklern und kleinen Teams, die Billing auf Stripe-Niveau wollen, ohne Steuer-Compliance und Abo-Logik selbst zu bauen.",
+      "rationale": "Open-Source-Billing-Plattform, die beim Softwareverkauf als Merchant of Record auftritt – eine eigenständige Option neben Lago und Kill Bill im dünn besetzten Payments-Bereich."
     }
   },
   "evaluation": {
