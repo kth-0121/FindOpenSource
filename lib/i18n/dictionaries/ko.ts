@@ -311,6 +311,16 @@ const dictionary: Dictionary = {
     presetDetails: "자세히 보기",
     benefitsLabel: "이런 점이 좋아요",
     includedLabel: "포함된 스킬",
+    packGuide: {
+      title: "{name} 가이드: 누구에게 맞고 무엇부터 쓸까",
+      bestForHeading: "이런 분께 맞습니다",
+      startWithHeading: "이것부터 시작하세요",
+      openInBuilder: "스킬 빌더에서 열기",
+      beforeInstallHeading: "설치 전에 알아 둘 점",
+      allSkillsHeading: "전체 스킬 {count}개",
+      projectLink: "프로젝트 개요, 라이선스, 링크",
+      guidesHeading: "스킬 모음 가이드",
+    },
     setups: {
       heading: "유명 개발자들의 세팅",
       intro: "이 사람들이 매일 쓰는 Claude Code 세팅이 오픈소스로 공개돼 있어요. 세팅마다 공식 명령어로 통째로 설치합니다.",

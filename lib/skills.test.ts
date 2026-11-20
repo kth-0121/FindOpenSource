@@ -4,6 +4,8 @@ import { AGENTS, PRESETS, SKILL_PACK_ORDER, buildCommands, buildPrompt, skillId,
 import { createHash } from "node:crypto";
 import { parseFrontmatter } from "../scripts/collect-skills";
 import translations from "../data/skill-translations.json";
+import guides from "../data/skill-pack-guides.json";
+import { locales } from "./i18n/config";
 
 const byId = new Map(skills.map((s) => [skillId(s), s]));
 const claude = AGENTS.find((a) => a.id === "claude-code")!;
@@ -71,4 +73,15 @@ test("parseFrontmatter handles plain, quoted, wrapped and block values", () => {
     other: "folded text",
     wrapped: "first second",
   });
+});
+
+test("every pack has a guide in every locale, recommending skills it actually ships", () => {
+  const all = guides as Record<string, Record<string, { startWith: { skill: string }[] }>>;
+  for (const pack of SKILL_PACK_ORDER) {
+    for (const locale of locales) {
+      const guide = all[pack]?.[locale];
+      assert.ok(guide, `missing guide: ${pack} ${locale}`);
+      for (const { skill } of guide.startWith) assert.ok(byId.has(`${pack}/${skill}`), `${pack} ${locale}: ${skill}`);
+    }
+  }
 });

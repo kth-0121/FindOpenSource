@@ -9,6 +9,8 @@ import { getAllProjects, getProjectBySlug, getRelatedProjects } from "@/lib/proj
 import { getCategoryBySlug, localizeCategory } from "@/lib/categories";
 import { getEvidenceBadges } from "@/lib/evaluation/badges";
 import { siteConfig } from "@/lib/site";
+import { SKILL_PACK_ORDER } from "@/lib/skills";
+import { formatMessage } from "@/lib/i18n/format";
 import { defaultLocale, isLocale, localeMeta, type Locale } from "@/lib/i18n/config";
 import { getDictionary } from "@/lib/i18n/get-dictionary";
 import { buildAlternates, ogLocale, ogAlternateLocales } from "@/lib/i18n/metadata";
@@ -215,6 +217,14 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
           <dd className="mt-2 text-sm text-muted-foreground">{project.license}</dd>
         </div>
       </dl>
+
+      {SKILL_PACK_ORDER.includes(project.slug) && (
+        <p className="mt-10">
+          <Link href={`/${locale}/skills/${project.slug}`} className="text-sm font-medium text-accent hover:underline">
+            {formatMessage(dict.skills.packGuide.title, { name: project.name })} →
+          </Link>
+        </p>
+      )}
 
       <p className="mt-10">
         <Link

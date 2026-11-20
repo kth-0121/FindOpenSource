@@ -1,0 +1,1822 @@
+{
+  "superpowers": {
+    "en": {
+      "intro": "Superpowers is less a bag of tricks than a working method. Its skills chain together: brainstorming turns a vague request into a spec, writing-plans breaks the spec into small tasks, and subagent-driven-development or executing-plans works through them, while test-driven-development, systematic-debugging and verification-before-completion keep each step honest. using-superpowers is the glue: it tells the agent to look for a matching skill before every reply, which is why the others fire without being asked.\n\nThat makes it the most opinionated pack on this site. Install it when you want the agent to slow down and follow a process on every task. If you mostly ask for quick one-off edits, the brainstorming and planning steps will feel like overhead.",
+      "bestFor": [
+        "Developers who hand an agent multi-step features and want a spec and a plan before any code",
+        "Anyone tired of agents saying \"done\" without having run the tests",
+        "Running several subagents in parallel on independent tasks, each in its own git worktree"
+      ],
+      "startWith": [
+        {
+          "skill": "brainstorming",
+          "why": "A short back-and-forth about what you actually want, before any code is written."
+        },
+        {
+          "skill": "writing-plans",
+          "why": "Turns an agreed spec into small tasks that can each be finished and checked."
+        },
+        {
+          "skill": "test-driven-development",
+          "why": "The agent writes a failing test first, so \"fixed\" means something."
+        },
+        {
+          "skill": "systematic-debugging",
+          "why": "No guess-and-patch: the agent has to find the cause before proposing a fix."
+        },
+        {
+          "skill": "verification-before-completion",
+          "why": "The agent runs the check and reads the output before claiming it's done."
+        }
+      ],
+      "beforeInstall": [
+        "using-superpowers asks the agent to look for a skill before every reply, quick questions included. That's the point, but expect more process on small tasks.",
+        "Addy Osmani's pack covers much of the same ground (spec, plan, TDD, review). Pick one as your backbone rather than installing both in full, or the agent gets two competing playbooks."
+      ]
+    },
+    "ko": {
+      "intro": "Superpowers는 요령 모음이라기보다 하나의 작업 방식입니다. 스킬들이 서로 이어집니다. brainstorming은 막연한 요청을 스펙으로 바꾸고, writing-plans는 스펙을 작은 작업으로 나누며, subagent-driven-development나 executing-plans가 그 작업들을 처리합니다. 그 사이 test-driven-development, systematic-debugging, verification-before-completion이 각 단계를 제대로 했는지 확인합니다. using-superpowers는 이들을 묶는 접착제입니다. 매 답변 전에 맞는 스킬을 찾도록 에이전트에 지시하기 때문에, 다른 스킬들이 요청하지 않아도 실행됩니다.\n\n그래서 이 사이트에서 가장 주관이 뚜렷한 스킬 모음입니다. 모든 작업에서 에이전트가 속도를 늦추고 프로세스를 따르길 원할 때 설치하세요. 주로 간단한 일회성 수정을 요청한다면 브레인스토밍과 계획 단계가 부담으로 느껴질 수 있습니다.",
+      "bestFor": [
+        "여러 단계로 된 기능을 에이전트에 맡기면서 코드보다 스펙과 계획을 먼저 원하는 개발자",
+        "테스트도 돌려보지 않고 \"완료\"라고 말하는 에이전트에 지친 사람",
+        "서로 독립적인 작업에 여러 서브에이전트를 각자의 git worktree에서 병렬로 돌리는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "brainstorming",
+          "why": "코드를 쓰기 전에 실제로 원하는 것이 무엇인지 짧게 주고받으며 정리합니다."
+        },
+        {
+          "skill": "writing-plans",
+          "why": "합의한 스펙을 하나씩 끝내고 확인할 수 있는 작은 작업으로 나눕니다."
+        },
+        {
+          "skill": "test-driven-development",
+          "why": "에이전트가 실패하는 테스트를 먼저 작성하므로 \"고쳤다\"는 말에 의미가 생깁니다."
+        },
+        {
+          "skill": "systematic-debugging",
+          "why": "추측해서 땜질하지 않습니다. 수정안을 내기 전에 원인부터 찾아야 합니다."
+        },
+        {
+          "skill": "verification-before-completion",
+          "why": "완료했다고 말하기 전에 에이전트가 검사를 실행하고 출력을 읽습니다."
+        }
+      ],
+      "beforeInstall": [
+        "using-superpowers는 간단한 질문을 포함해 매 답변 전에 스킬을 찾도록 에이전트에 요구합니다. 의도된 동작이지만, 작은 작업에서도 프로세스가 늘어난다고 생각하세요.",
+        "Addy Osmani의 스킬 모음도 스펙, 계획, TDD, 리뷰 등 상당 부분이 겹칩니다. 둘 다 전부 설치하지 말고 하나를 중심으로 고르세요. 그렇지 않으면 에이전트가 서로 충돌하는 두 가지 플레이북을 갖게 됩니다."
+      ]
+    },
+    "ja": {
+      "intro": "Superpowersは便利な小技の寄せ集めというより、ひとつの作業手法です。スキル同士が連携します。brainstormingが曖昧な依頼を仕様にまとめ、writing-plansが仕様を小さなタスクに分け、subagent-driven-developmentやexecuting-plansがそれを順に進めます。その間、test-driven-development、systematic-debugging、verification-before-completionが各ステップのごまかしを防ぎます。using-superpowersはそれらをつなぐ役割で、返答のたびに該当するスキルを探すようエージェントに指示します。他のスキルが頼まなくても発動するのはこのためです。\n\nそのため、このサイトで最も主張の強いパックです。どのタスクでもエージェントに立ち止まってプロセスに従わせたいときにインストールしてください。手早い単発の修正を頼むことが多いなら、ブレインストーミングや計画のステップは余計な手間に感じるでしょう。",
+      "bestFor": [
+        "複数ステップの機能をエージェントに任せ、コードを書く前に仕様と計画がほしい開発者",
+        "テストを実行していないのに「完了」と言うエージェントにうんざりしている人",
+        "独立したタスクで複数のサブエージェントを、それぞれ専用のgit worktreeで並行して動かしたい場合"
+      ],
+      "startWith": [
+        {
+          "skill": "brainstorming",
+          "why": "コードを書く前に、本当にほしいものを短いやり取りで確かめます。"
+        },
+        {
+          "skill": "writing-plans",
+          "why": "合意した仕様を、それぞれ完了と確認ができる小さなタスクに分けます。"
+        },
+        {
+          "skill": "test-driven-development",
+          "why": "エージェントが先に失敗するテストを書くので、「修正済み」に意味が生まれます。"
+        },
+        {
+          "skill": "systematic-debugging",
+          "why": "当て推量のパッチは禁止。エージェントは修正を提案する前に原因を突き止める必要があります。"
+        },
+        {
+          "skill": "verification-before-completion",
+          "why": "エージェントは完了を宣言する前にチェックを実行し、その出力を読みます。"
+        }
+      ],
+      "beforeInstall": [
+        "using-superpowersは、簡単な質問も含めて返答のたびにスキルを探すようエージェントに求めます。それが狙いですが、小さなタスクでもプロセスが増えることは覚悟してください。",
+        "Addy Osmaniのパックも多くの領域（仕様、計画、TDD、レビュー）をカバーしています。両方をすべてインストールするのではなく、どちらかを軸に選んでください。そうしないとエージェントが2つの競合する手順書を抱えることになります。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Superpowers 与其说是一套技巧合集，不如说是一种工作方法。它的技能环环相扣：brainstorming 把模糊的需求变成规格，writing-plans 把规格拆成小任务，subagent-driven-development 或 executing-plans 逐项完成这些任务，而 test-driven-development、systematic-debugging 和 verification-before-completion 确保每一步都靠得住。using-superpowers 是把它们串起来的那一环：它要求智能体在每次回复前先查找匹配的技能，所以其他技能无需你开口就会触发。\n\n这也让它成为本站最有主见的技能包。如果你希望智能体在每个任务上都放慢节奏、遵循流程，就安装它。如果你大多只是让它做一次性的快速修改，头脑风暴和规划步骤会显得多余。",
+      "bestFor": [
+        "把多步骤功能交给智能体、希望在写代码前先有规格和计划的开发者",
+        "受够了智能体没跑测试就说“完成了”的人",
+        "让多个子智能体并行处理相互独立的任务，每个都在自己的 git worktree 中"
+      ],
+      "startWith": [
+        {
+          "skill": "brainstorming",
+          "why": "在写任何代码之前，先简短地来回沟通，弄清你真正想要什么。"
+        },
+        {
+          "skill": "writing-plans",
+          "why": "把确认好的规格拆成一个个可以独立完成和检查的小任务。"
+        },
+        {
+          "skill": "test-driven-development",
+          "why": "智能体先写一个会失败的测试，这样“修好了”才有意义。"
+        },
+        {
+          "skill": "systematic-debugging",
+          "why": "不靠猜测打补丁：智能体必须先找到原因，再提出修复方案。"
+        },
+        {
+          "skill": "verification-before-completion",
+          "why": "智能体先运行检查并读完输出，才会声称已完成。"
+        }
+      ],
+      "beforeInstall": [
+        "using-superpowers 要求智能体在每次回复前都查找技能，简单的问题也不例外。这正是它的用意，但小任务上的流程也会随之变多。",
+        "Addy Osmani 的技能包覆盖了大量相同的内容（规格、计划、TDD、审查）。选一个作为主干，不要两个都完整安装，否则智能体会面对两套相互竞争的流程。"
+      ]
+    },
+    "es": {
+      "intro": "Superpowers es menos una bolsa de trucos que un método de trabajo. Sus skills se encadenan: brainstorming convierte una petición vaga en una especificación, writing-plans divide la especificación en tareas pequeñas, y subagent-driven-development o executing-plans las van resolviendo, mientras test-driven-development, systematic-debugging y verification-before-completion mantienen honesto cada paso. using-superpowers es el pegamento: le indica al agente que busque una skill adecuada antes de cada respuesta, y por eso las demás se activan sin que se lo pidas.\n\nEso lo convierte en el pack con más opiniones de este sitio. Instálalo cuando quieras que el agente vaya más despacio y siga un proceso en cada tarea. Si sobre todo pides ediciones rápidas y puntuales, los pasos de lluvia de ideas y planificación te parecerán una carga.",
+      "bestFor": [
+        "Desarrolladores que encargan a un agente funcionalidades de varios pasos y quieren una especificación y un plan antes de cualquier código",
+        "Quien esté harto de agentes que dicen \"listo\" sin haber ejecutado los tests",
+        "Ejecutar varios subagentes en paralelo sobre tareas independientes, cada uno en su propio git worktree"
+      ],
+      "startWith": [
+        {
+          "skill": "brainstorming",
+          "why": "Un breve intercambio sobre lo que de verdad quieres, antes de escribir código."
+        },
+        {
+          "skill": "writing-plans",
+          "why": "Convierte una especificación acordada en tareas pequeñas que se pueden terminar y comprobar una a una."
+        },
+        {
+          "skill": "test-driven-development",
+          "why": "El agente escribe primero un test que falla, así \"arreglado\" significa algo."
+        },
+        {
+          "skill": "systematic-debugging",
+          "why": "Nada de adivinar y parchear: el agente tiene que encontrar la causa antes de proponer una solución."
+        },
+        {
+          "skill": "verification-before-completion",
+          "why": "El agente ejecuta la comprobación y lee la salida antes de decir que ha terminado."
+        }
+      ],
+      "beforeInstall": [
+        "using-superpowers pide al agente que busque una skill antes de cada respuesta, incluidas las preguntas rápidas. Esa es la idea, pero espera más proceso en tareas pequeñas.",
+        "El pack de Addy Osmani cubre gran parte del mismo terreno (especificación, plan, TDD, revisión). Elige uno como columna vertebral en lugar de instalar ambos completos, o el agente tendrá dos manuales que compiten entre sí."
+      ]
+    },
+    "de": {
+      "intro": "Superpowers ist weniger eine Trickkiste als eine Arbeitsmethode. Die Skills greifen ineinander: brainstorming macht aus einer vagen Anfrage eine Spezifikation, writing-plans zerlegt die Spezifikation in kleine Aufgaben, und subagent-driven-development oder executing-plans arbeitet sie ab, während test-driven-development, systematic-debugging und verification-before-completion jeden Schritt ehrlich halten. using-superpowers ist der Kitt: Es weist den Agenten an, vor jeder Antwort nach einem passenden Skill zu suchen, und deshalb greifen die anderen, ohne dass du sie aufrufen musst.\n\nDamit ist es das meinungsstärkste Paket auf dieser Seite. Installiere es, wenn der Agent bei jeder Aufgabe langsamer werden und einem Prozess folgen soll. Wenn du meist schnelle Einzeländerungen anforderst, wirken die Brainstorming- und Planungsschritte wie Overhead.",
+      "bestFor": [
+        "Entwickler, die einem Agenten mehrstufige Features übergeben und vor jeder Codezeile eine Spezifikation und einen Plan wollen",
+        "Alle, die genug davon haben, dass Agenten \"fertig\" melden, ohne die Tests ausgeführt zu haben",
+        "Mehrere Subagenten parallel an unabhängigen Aufgaben arbeiten lassen, jeden in seinem eigenen git worktree"
+      ],
+      "startWith": [
+        {
+          "skill": "brainstorming",
+          "why": "Ein kurzes Hin und Her darüber, was du eigentlich willst, bevor Code geschrieben wird."
+        },
+        {
+          "skill": "writing-plans",
+          "why": "Macht aus einer abgestimmten Spezifikation kleine Aufgaben, die sich jeweils abschließen und prüfen lassen."
+        },
+        {
+          "skill": "test-driven-development",
+          "why": "Der Agent schreibt zuerst einen fehlschlagenden Test, damit \"behoben\" etwas bedeutet."
+        },
+        {
+          "skill": "systematic-debugging",
+          "why": "Kein Raten und Flicken: Der Agent muss die Ursache finden, bevor er einen Fix vorschlägt."
+        },
+        {
+          "skill": "verification-before-completion",
+          "why": "Der Agent führt die Prüfung aus und liest die Ausgabe, bevor er etwas für erledigt erklärt."
+        }
+      ],
+      "beforeInstall": [
+        "using-superpowers lässt den Agenten vor jeder Antwort nach einem Skill suchen, auch bei kurzen Fragen. Das ist so gewollt, aber rechne bei kleinen Aufgaben mit mehr Prozess.",
+        "Das Paket von Addy Osmani deckt vieles davon ebenfalls ab (Spezifikation, Plan, TDD, Review). Wähle eines als Grundgerüst, statt beide vollständig zu installieren, sonst hat der Agent zwei konkurrierende Playbooks."
+      ]
+    }
+  },
+  "anthropic-skills": {
+    "en": {
+      "intro": "Anthropic's repository is where the Agent Skills format was defined, and its skills double as examples of what the format can do. They fall into three groups: document skills (docx, pdf, pptx, xlsx) that let an agent read and produce Office files and PDFs; design skills such as frontend-design, canvas-design, algorithmic-art and theme-factory; and builder skills such as mcp-builder, skill-creator and webapp-testing.\n\nUnlike Superpowers or Addy Osmani's pack, nothing ties them into a workflow. Each skill stands on its own, so pick by task instead of installing the whole set.",
+      "bestFor": [
+        "Getting an agent to create or edit Word, PowerPoint, Excel and PDF files",
+        "Frontend work where you want UI that doesn't look like every other generated page",
+        "Writing your own skills or MCP servers with a reference implementation at hand"
+      ],
+      "startWith": [
+        {
+          "skill": "frontend-design",
+          "why": "Pushes the agent toward a deliberate visual direction instead of default-looking UI."
+        },
+        {
+          "skill": "pdf",
+          "why": "Reading, merging, splitting and filling PDFs, with scripts for the fiddly parts."
+        },
+        {
+          "skill": "xlsx",
+          "why": "Spreadsheets in and out: formulas, formatting and cleaning up messy data."
+        },
+        {
+          "skill": "skill-creator",
+          "why": "Helps you write a new skill and measure whether it triggers when it should."
+        },
+        {
+          "skill": "webapp-testing",
+          "why": "Drives your local web app with Playwright to check that it actually works."
+        }
+      ],
+      "beforeInstall": [
+        "The document skills (docx, pdf, pptx, xlsx) are source-available rather than open source; the rest are Apache-2.0. Check the license before redistributing them.",
+        "brand-guidelines applies Anthropic's own colors and typography. It's an example of a brand skill, not one to use for your product."
+      ]
+    },
+    "ko": {
+      "intro": "Anthropic의 저장소는 Agent Skills 형식이 정의된 곳이며, 여기 있는 스킬들은 이 형식으로 무엇을 할 수 있는지 보여주는 예시이기도 합니다. 스킬은 세 그룹으로 나뉩니다. 에이전트가 Office 파일과 PDF를 읽고 만들 수 있게 하는 문서 스킬(docx, pdf, pptx, xlsx), frontend-design, canvas-design, algorithmic-art, theme-factory 같은 디자인 스킬, 그리고 mcp-builder, skill-creator, webapp-testing 같은 빌더 스킬입니다.\n\nSuperpowers나 Addy Osmani의 스킬 모음과 달리 이 스킬들을 하나의 워크플로로 묶어주는 것은 없습니다. 스킬마다 독립적이므로 전체를 설치하기보다 작업에 맞춰 고르세요.",
+      "bestFor": [
+        "에이전트로 Word, PowerPoint, Excel, PDF 파일을 만들거나 편집하는 경우",
+        "흔한 생성형 페이지처럼 보이지 않는 UI를 원하는 프론트엔드 작업",
+        "참고 구현을 곁에 두고 직접 스킬이나 MCP 서버를 작성하는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "frontend-design",
+          "why": "기본값 같은 UI 대신 의도적인 시각적 방향을 잡도록 에이전트를 이끕니다."
+        },
+        {
+          "skill": "pdf",
+          "why": "PDF 읽기, 병합, 분할, 양식 채우기를 다루며 번거로운 부분은 스크립트로 처리합니다."
+        },
+        {
+          "skill": "xlsx",
+          "why": "스프레드시트 읽기와 쓰기: 수식, 서식, 지저분한 데이터 정리까지 다룹니다."
+        },
+        {
+          "skill": "skill-creator",
+          "why": "새 스킬 작성을 돕고, 실행되어야 할 때 실제로 실행되는지 측정합니다."
+        },
+        {
+          "skill": "webapp-testing",
+          "why": "Playwright로 로컬 웹 앱을 조작해 실제로 동작하는지 확인합니다."
+        }
+      ],
+      "beforeInstall": [
+        "문서 스킬(docx, pdf, pptx, xlsx)은 오픈 소스가 아니라 소스 공개(source-available) 라이선스이고, 나머지는 Apache-2.0입니다. 재배포하기 전에 라이선스를 확인하세요.",
+        "brand-guidelines는 Anthropic 자체의 색상과 타이포그래피를 적용합니다. 브랜드 스킬의 예시일 뿐, 여러분의 제품에 쓰기 위한 스킬이 아닙니다."
+      ]
+    },
+    "ja": {
+      "intro": "AnthropicのリポジトリはAgent Skills形式が定義された場所で、そのスキルはこの形式で何ができるかを示す見本も兼ねています。スキルは3つのグループに分かれます。エージェントがOfficeファイルやPDFを読み書きできるようにするドキュメント系スキル（docx、pdf、pptx、xlsx）、frontend-design、canvas-design、algorithmic-art、theme-factoryなどのデザイン系スキル、そしてmcp-builder、skill-creator、webapp-testingなどの開発系スキルです。\n\nSuperpowersやAddy Osmaniのパックと違い、ワークフローとしてのつながりはありません。各スキルは独立しているので、セットごとではなくタスクに合わせて選んでください。",
+      "bestFor": [
+        "エージェントにWord、PowerPoint、Excel、PDFファイルを作成・編集させたい場合",
+        "ほかの生成ページと似たり寄ったりではないUIがほしいフロントエンド作業",
+        "参考実装を手元に置いて独自のスキルやMCPサーバーを書きたい場合"
+      ],
+      "startWith": [
+        {
+          "skill": "frontend-design",
+          "why": "ありきたりなUIではなく、意図をもったビジュアルの方向性へエージェントを導きます。"
+        },
+        {
+          "skill": "pdf",
+          "why": "PDFの読み取り、結合、分割、フォーム入力を行い、面倒な部分はスクリプトで処理します。"
+        },
+        {
+          "skill": "xlsx",
+          "why": "スプレッドシートの読み書き：数式、書式設定、乱雑なデータの整理。"
+        },
+        {
+          "skill": "skill-creator",
+          "why": "新しいスキルを書き、想定どおりに発動するかを測定する手助けをします。"
+        },
+        {
+          "skill": "webapp-testing",
+          "why": "Playwrightでローカルのウェブアプリを操作し、実際に動くかを確認します。"
+        }
+      ],
+      "beforeInstall": [
+        "ドキュメント系スキル（docx、pdf、pptx、xlsx）はオープンソースではなくソース公開（source-available）で、それ以外はApache-2.0です。再配布する前にライセンスを確認してください。",
+        "brand-guidelinesはAnthropic自身のカラーとタイポグラフィを適用します。ブランド用スキルの見本であり、自社製品に使うためのものではありません。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Anthropic 的这个仓库是 Agent Skills 格式的诞生地，其中的技能同时也是展示该格式能力的示例。它们分为三类：文档技能（docx、pdf、pptx、xlsx），让智能体读取和生成 Office 文件与 PDF；设计技能，如 frontend-design、canvas-design、algorithmic-art 和 theme-factory；以及构建类技能，如 mcp-builder、skill-creator 和 webapp-testing。\n\n与 Superpowers 或 Addy Osmani 的技能包不同，这些技能之间没有串成工作流。每个技能都独立存在，所以按任务挑选即可，不必整套安装。",
+      "bestFor": [
+        "让智能体创建或编辑 Word、PowerPoint、Excel 和 PDF 文件",
+        "希望界面不像千篇一律的生成页面的前端工作",
+        "手边有参考实现，编写自己的技能或 MCP 服务器"
+      ],
+      "startWith": [
+        {
+          "skill": "frontend-design",
+          "why": "推动智能体采用有意为之的视觉方向，而不是默认样式的界面。"
+        },
+        {
+          "skill": "pdf",
+          "why": "读取、合并、拆分和填写 PDF，繁琐的部分有脚本代劳。"
+        },
+        {
+          "skill": "xlsx",
+          "why": "电子表格的读写：公式、格式以及清理杂乱数据。"
+        },
+        {
+          "skill": "skill-creator",
+          "why": "帮你编写新技能，并衡量它是否在该触发时触发。"
+        },
+        {
+          "skill": "webapp-testing",
+          "why": "用 Playwright 操作你的本地 Web 应用，检查它是否真的能用。"
+        }
+      ],
+      "beforeInstall": [
+        "文档技能（docx、pdf、pptx、xlsx）是源码可用而非开源的；其余技能采用 Apache-2.0 许可。再分发前请先查看许可证。",
+        "brand-guidelines 应用的是 Anthropic 自己的配色和字体。它是品牌技能的示例，不适合用在你的产品上。"
+      ]
+    },
+    "es": {
+      "intro": "El repositorio de Anthropic es donde se definió el formato Agent Skills, y sus skills sirven también como ejemplos de lo que el formato puede hacer. Se dividen en tres grupos: skills de documentos (docx, pdf, pptx, xlsx) que permiten a un agente leer y generar archivos de Office y PDF; skills de diseño como frontend-design, canvas-design, algorithmic-art y theme-factory; y skills para construir, como mcp-builder, skill-creator y webapp-testing.\n\nA diferencia de Superpowers o el pack de Addy Osmani, nada las une en un flujo de trabajo. Cada skill funciona por sí sola, así que elige según la tarea en lugar de instalar el conjunto entero.",
+      "bestFor": [
+        "Hacer que un agente cree o edite archivos de Word, PowerPoint, Excel y PDF",
+        "Trabajo de frontend en el que quieres una UI que no se parezca a cualquier otra página generada",
+        "Escribir tus propias skills o servidores MCP con una implementación de referencia a mano"
+      ],
+      "startWith": [
+        {
+          "skill": "frontend-design",
+          "why": "Empuja al agente hacia una dirección visual deliberada en lugar de una UI con aspecto por defecto."
+        },
+        {
+          "skill": "pdf",
+          "why": "Leer, combinar, dividir y rellenar PDF, con scripts para las partes delicadas."
+        },
+        {
+          "skill": "xlsx",
+          "why": "Hojas de cálculo de entrada y salida: fórmulas, formato y limpieza de datos desordenados."
+        },
+        {
+          "skill": "skill-creator",
+          "why": "Te ayuda a escribir una skill nueva y a medir si se activa cuando debe."
+        },
+        {
+          "skill": "webapp-testing",
+          "why": "Maneja tu aplicación web local con Playwright para comprobar que de verdad funciona."
+        }
+      ],
+      "beforeInstall": [
+        "Las skills de documentos (docx, pdf, pptx, xlsx) tienen el código disponible, pero no son de código abierto; el resto son Apache-2.0. Revisa la licencia antes de redistribuirlas.",
+        "brand-guidelines aplica los colores y la tipografía propios de Anthropic. Es un ejemplo de skill de marca, no una para usar en tu producto."
+      ]
+    },
+    "de": {
+      "intro": "Im Repository von Anthropic wurde das Agent-Skills-Format definiert, und seine Skills dienen zugleich als Beispiele dafür, was das Format kann. Sie fallen in drei Gruppen: Dokument-Skills (docx, pdf, pptx, xlsx), mit denen ein Agent Office-Dateien und PDFs lesen und erstellen kann; Design-Skills wie frontend-design, canvas-design, algorithmic-art und theme-factory; und Builder-Skills wie mcp-builder, skill-creator und webapp-testing.\n\nAnders als bei Superpowers oder dem Paket von Addy Osmani verbindet sie kein Workflow. Jeder Skill steht für sich, also wähle nach Aufgabe aus, statt das ganze Set zu installieren.",
+      "bestFor": [
+        "Einen Agenten Word-, PowerPoint-, Excel- und PDF-Dateien erstellen oder bearbeiten lassen",
+        "Frontend-Arbeit, bei der die UI nicht wie jede andere generierte Seite aussehen soll",
+        "Eigene Skills oder MCP-Server schreiben, mit einer Referenzimplementierung zur Hand"
+      ],
+      "startWith": [
+        {
+          "skill": "frontend-design",
+          "why": "Bringt den Agenten zu einer bewussten visuellen Richtung statt zu einer UI, die nach Standard aussieht."
+        },
+        {
+          "skill": "pdf",
+          "why": "PDFs lesen, zusammenführen, aufteilen und ausfüllen, mit Skripten für die kniffligen Teile."
+        },
+        {
+          "skill": "xlsx",
+          "why": "Tabellen rein und raus: Formeln, Formatierung und das Aufräumen unordentlicher Daten."
+        },
+        {
+          "skill": "skill-creator",
+          "why": "Hilft dir, einen neuen Skill zu schreiben und zu messen, ob er auslöst, wenn er soll."
+        },
+        {
+          "skill": "webapp-testing",
+          "why": "Steuert deine lokale Web-App mit Playwright, um zu prüfen, ob sie wirklich funktioniert."
+        }
+      ],
+      "beforeInstall": [
+        "Die Dokument-Skills (docx, pdf, pptx, xlsx) sind source-available statt Open Source; der Rest steht unter Apache-2.0. Prüfe die Lizenz, bevor du sie weitergibst.",
+        "brand-guidelines wendet die Farben und Typografie von Anthropic an. Es ist ein Beispiel für einen Marken-Skill, nicht einer für dein Produkt."
+      ]
+    }
+  },
+  "addy-agent-skills": {
+    "en": {
+      "intro": "Addy Osmani's pack writes down the habits of a senior engineer as 25 skills, arranged around the life of a change: spec-driven-development and planning-and-task-breakdown before code, incremental-implementation and test-driven-development while building, code-review-and-quality, security-and-hardening and performance-optimization before merging, and shipping-and-launch at the end. Slash commands such as /spec, /plan, /build and /review switch on the right skills for each phase.\n\nIt overlaps with Superpowers but reaches further: there are skills for API design, CI/CD, observability, documentation and deprecation, which Superpowers leaves out. Choose it when you want coverage across the whole lifecycle rather than one tight loop.",
+      "bestFor": [
+        "Teams that want review, security and performance checks applied by the agent, not remembered by people",
+        "Projects heading to production that need CI, monitoring and a launch checklist",
+        "Developers who like to drive each phase with a slash command"
+      ],
+      "startWith": [
+        {
+          "skill": "spec-driven-development",
+          "why": "Writes down what you're building before any code, so there's something to check the result against."
+        },
+        {
+          "skill": "incremental-implementation",
+          "why": "Ships a change in thin slices that each build and pass their tests."
+        },
+        {
+          "skill": "code-review-and-quality",
+          "why": "A multi-axis review for your own change, another agent's or a teammate's."
+        },
+        {
+          "skill": "security-and-hardening",
+          "why": "A pass over input handling, authentication and data storage for common holes."
+        },
+        {
+          "skill": "code-simplification",
+          "why": "Refactors working code for readability without changing what it does."
+        }
+      ],
+      "beforeInstall": [
+        "It ships a test-driven-development skill with the same name as Superpowers'. Install one pack's version, not both.",
+        "Every installed skill adds its description to the agent's context. Start with the five above and add others as the work calls for them."
+      ]
+    },
+    "ko": {
+      "intro": "Addy Osmani의 스킬 모음은 시니어 엔지니어의 습관을 25개의 스킬로 정리했으며, 하나의 변경이 거치는 과정에 맞춰 배치되어 있습니다. 코드 작성 전에는 spec-driven-development와 planning-and-task-breakdown, 구현 중에는 incremental-implementation과 test-driven-development, 머지 전에는 code-review-and-quality, security-and-hardening, performance-optimization, 마지막으로 shipping-and-launch가 있습니다. /spec, /plan, /build, /review 같은 슬래시 커맨드가 각 단계에 맞는 스킬을 켭니다.\n\nSuperpowers와 겹치지만 범위가 더 넓습니다. Superpowers에는 없는 API 설계, CI/CD, 관측성, 문서화, 지원 중단(deprecation) 스킬이 있습니다. 하나의 촘촘한 루프보다 전체 라이프사이클을 아우르길 원할 때 선택하세요.",
+      "bestFor": [
+        "리뷰, 보안, 성능 점검을 사람이 기억하는 대신 에이전트가 적용하길 원하는 팀",
+        "CI, 모니터링, 출시 체크리스트가 필요한, 프로덕션을 앞둔 프로젝트",
+        "슬래시 커맨드로 각 단계를 진행하는 것을 좋아하는 개발자"
+      ],
+      "startWith": [
+        {
+          "skill": "spec-driven-development",
+          "why": "코드를 쓰기 전에 무엇을 만드는지 적어 두어, 결과를 비교해 볼 기준을 만듭니다."
+        },
+        {
+          "skill": "incremental-implementation",
+          "why": "변경을 얇은 단위로 나눠 각각 빌드되고 테스트를 통과하도록 진행합니다."
+        },
+        {
+          "skill": "code-review-and-quality",
+          "why": "내 변경, 다른 에이전트의 변경, 팀원의 변경을 여러 관점에서 리뷰합니다."
+        },
+        {
+          "skill": "security-and-hardening",
+          "why": "입력 처리, 인증, 데이터 저장을 훑으며 흔한 보안 구멍을 찾습니다."
+        },
+        {
+          "skill": "code-simplification",
+          "why": "동작하는 코드를 기능은 그대로 두고 읽기 쉽게 리팩터링합니다."
+        }
+      ],
+      "beforeInstall": [
+        "Superpowers와 같은 이름의 test-driven-development 스킬이 들어 있습니다. 둘 다 설치하지 말고 한 스킬 모음의 버전만 설치하세요.",
+        "설치한 스킬마다 설명이 에이전트의 컨텍스트에 추가됩니다. 위의 다섯 개로 시작하고, 작업에 필요해지면 다른 스킬을 추가하세요."
+      ]
+    },
+    "ja": {
+      "intro": "Addy Osmaniのパックは、シニアエンジニアの習慣を25のスキルとして書き起こし、変更のライフサイクルに沿って配置しています。コードの前にはspec-driven-developmentとplanning-and-task-breakdown、実装中はincremental-implementationとtest-driven-development、マージ前はcode-review-and-quality、security-and-hardening、performance-optimization、そして最後にshipping-and-launchです。/spec、/plan、/build、/reviewなどのスラッシュコマンドで、各フェーズに合ったスキルが有効になります。\n\nSuperpowersと重なる部分はありますが、より広い範囲をカバーします。API設計、CI/CD、オブザーバビリティ、ドキュメント、非推奨化のためのスキルがあり、これらはSuperpowersにはありません。ひとつの緊密なループよりも、ライフサイクル全体をカバーしたいときに選んでください。",
+      "bestFor": [
+        "レビュー、セキュリティ、パフォーマンスのチェックを、人が覚えておくのではなくエージェントに適用させたいチーム",
+        "CI、監視、ローンチチェックリストが必要な本番リリースを控えたプロジェクト",
+        "各フェーズをスラッシュコマンドで進めたい開発者"
+      ],
+      "startWith": [
+        {
+          "skill": "spec-driven-development",
+          "why": "コードの前に何を作るのかを書き出すので、結果を照らし合わせる基準ができます。"
+        },
+        {
+          "skill": "incremental-implementation",
+          "why": "変更を薄いスライスに分けて出し、それぞれがビルドとテストを通るようにします。"
+        },
+        {
+          "skill": "code-review-and-quality",
+          "why": "自分の変更、別のエージェントの変更、チームメイトの変更を多角的にレビューします。"
+        },
+        {
+          "skill": "security-and-hardening",
+          "why": "入力処理、認証、データ保存をよくある脆弱性の観点からひととおり確認します。"
+        },
+        {
+          "skill": "code-simplification",
+          "why": "動作中のコードを、挙動を変えずに読みやすくリファクタリングします。"
+        }
+      ],
+      "beforeInstall": [
+        "Superpowersと同じ名前のtest-driven-developmentスキルが含まれています。両方ではなく、どちらか一方のパックの版をインストールしてください。",
+        "インストールしたスキルはそれぞれ説明文をエージェントのコンテキストに追加します。まず上の5つから始め、作業に応じて追加してください。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Addy Osmani 的技能包把资深工程师的习惯写成了 25 个技能，围绕一次变更的生命周期来组织：写代码前用 spec-driven-development 和 planning-and-task-breakdown，构建时用 incremental-implementation 和 test-driven-development，合并前用 code-review-and-quality、security-and-hardening 和 performance-optimization，最后用 shipping-and-launch。/spec、/plan、/build 和 /review 等斜杠命令会为每个阶段启用相应的技能。\n\n它与 Superpowers 有重叠，但覆盖面更广：它有 API 设计、CI/CD、可观测性、文档和弃用相关的技能，而这些是 Superpowers 没有涉及的。如果你想要覆盖整个生命周期，而不是一个紧凑的循环，就选它。",
+      "bestFor": [
+        "希望由智能体执行审查、安全和性能检查，而不是靠人记着去做的团队",
+        "即将上线、需要 CI、监控和发布清单的项目",
+        "喜欢用斜杠命令推进每个阶段的开发者"
+      ],
+      "startWith": [
+        {
+          "skill": "spec-driven-development",
+          "why": "在写代码前先写下要构建什么，这样就有了检验结果的依据。"
+        },
+        {
+          "skill": "incremental-implementation",
+          "why": "把一次变更切成薄片交付，每一片都能构建并通过测试。"
+        },
+        {
+          "skill": "code-review-and-quality",
+          "why": "多维度审查，适用于你自己、其他智能体或队友的变更。"
+        },
+        {
+          "skill": "security-and-hardening",
+          "why": "检查输入处理、身份验证和数据存储中的常见漏洞。"
+        },
+        {
+          "skill": "code-simplification",
+          "why": "在不改变行为的前提下重构可用的代码，提高可读性。"
+        }
+      ],
+      "beforeInstall": [
+        "它自带的 test-driven-development 技能与 Superpowers 中的同名。只安装其中一个技能包的版本，不要两个都装。",
+        "每个已安装的技能都会把描述加入智能体的上下文。先从上面五个开始，根据工作需要再添加其他技能。"
+      ]
+    },
+    "es": {
+      "intro": "El pack de Addy Osmani pone por escrito los hábitos de un ingeniero sénior en 25 skills, organizadas en torno a la vida de un cambio: spec-driven-development y planning-and-task-breakdown antes del código, incremental-implementation y test-driven-development durante la construcción, code-review-and-quality, security-and-hardening y performance-optimization antes de fusionar, y shipping-and-launch al final. Comandos slash como /spec, /plan, /build y /review activan las skills adecuadas para cada fase.\n\nSe solapa con Superpowers pero llega más lejos: hay skills de diseño de APIs, CI/CD, observabilidad, documentación y deprecación, que Superpowers deja fuera. Elígelo cuando quieras cubrir todo el ciclo de vida en lugar de un único bucle cerrado.",
+      "bestFor": [
+        "Equipos que quieren que el agente aplique las revisiones de código, seguridad y rendimiento, en lugar de depender de que alguien se acuerde",
+        "Proyectos camino de producción que necesitan CI, monitorización y una checklist de lanzamiento",
+        "Desarrolladores a los que les gusta dirigir cada fase con un comando slash"
+      ],
+      "startWith": [
+        {
+          "skill": "spec-driven-development",
+          "why": "Pone por escrito lo que vas a construir antes de cualquier código, para tener algo con lo que comparar el resultado."
+        },
+        {
+          "skill": "incremental-implementation",
+          "why": "Entrega un cambio en porciones finas que compilan y pasan sus tests cada una."
+        },
+        {
+          "skill": "code-review-and-quality",
+          "why": "Una revisión en varios ejes para tu propio cambio, el de otro agente o el de un compañero."
+        },
+        {
+          "skill": "security-and-hardening",
+          "why": "Un repaso al manejo de entradas, la autenticación y el almacenamiento de datos en busca de agujeros comunes."
+        },
+        {
+          "skill": "code-simplification",
+          "why": "Refactoriza código que funciona para hacerlo más legible sin cambiar lo que hace."
+        }
+      ],
+      "beforeInstall": [
+        "Incluye una skill test-driven-development con el mismo nombre que la de Superpowers. Instala la versión de un solo pack, no las dos.",
+        "Cada skill instalada añade su descripción al contexto del agente. Empieza con las cinco de arriba y añade otras cuando el trabajo lo pida."
+      ]
+    },
+    "de": {
+      "intro": "Das Paket von Addy Osmani hält die Gewohnheiten eines Senior Engineers in 25 Skills fest, geordnet nach dem Lebenszyklus einer Änderung: spec-driven-development und planning-and-task-breakdown vor dem Code, incremental-implementation und test-driven-development während der Umsetzung, code-review-and-quality, security-and-hardening und performance-optimization vor dem Merge und shipping-and-launch am Ende. Slash-Commands wie /spec, /plan, /build und /review schalten die passenden Skills für jede Phase ein.\n\nEs überschneidet sich mit Superpowers, reicht aber weiter: Es gibt Skills für API-Design, CI/CD, Observability, Dokumentation und Deprecation, die Superpowers auslässt. Wähle es, wenn du den gesamten Lebenszyklus abdecken willst statt einer engen Schleife.",
+      "bestFor": [
+        "Teams, die Review-, Sicherheits- und Performance-Checks vom Agenten anwenden lassen wollen, statt sich auf das Gedächtnis von Menschen zu verlassen",
+        "Projekte auf dem Weg in die Produktion, die CI, Monitoring und eine Launch-Checkliste brauchen",
+        "Entwickler, die jede Phase gern mit einem Slash-Command steuern"
+      ],
+      "startWith": [
+        {
+          "skill": "spec-driven-development",
+          "why": "Hält fest, was du baust, bevor Code entsteht, damit es etwas gibt, woran sich das Ergebnis messen lässt."
+        },
+        {
+          "skill": "incremental-implementation",
+          "why": "Liefert eine Änderung in dünnen Scheiben, die jeweils bauen und ihre Tests bestehen."
+        },
+        {
+          "skill": "code-review-and-quality",
+          "why": "Ein Review über mehrere Achsen für deine eigene Änderung, die eines anderen Agenten oder eines Teammitglieds."
+        },
+        {
+          "skill": "security-and-hardening",
+          "why": "Ein Durchgang über Eingabeverarbeitung, Authentifizierung und Datenspeicherung auf der Suche nach typischen Lücken."
+        },
+        {
+          "skill": "code-simplification",
+          "why": "Refaktoriert funktionierenden Code für bessere Lesbarkeit, ohne sein Verhalten zu ändern."
+        }
+      ],
+      "beforeInstall": [
+        "Es bringt einen test-driven-development-Skill mit demselben Namen wie der von Superpowers mit. Installiere die Version eines Pakets, nicht beide.",
+        "Jeder installierte Skill fügt seine Beschreibung dem Kontext des Agenten hinzu. Fang mit den fünf oben an und ergänze weitere, wenn die Arbeit es verlangt."
+      ]
+    }
+  },
+  "vercel-agent-skills": {
+    "en": {
+      "intro": "This pack gathers Vercel's official skills, which live in several repositories. The core repo carries Vercel Engineering's rules: vercel-react-best-practices for React and Next.js performance, vercel-composition-patterns for component APIs, and web-design-guidelines for auditing UI code. Product repos add skills for the AI SDK, AI Elements, Chat SDK, the Flags SDK and eve, and vercel-labs adds browser and desktop automation with agent-browser and agent-desktop.\n\nBecause the skills come from different repos, the skill builder writes one install command per repo. Most product skills only help if you use that product, but the React and design rules are useful in any React codebase, hosted on Vercel or not.",
+      "bestFor": [
+        "React and Next.js teams who want code written and reviewed against Vercel's performance rules",
+        "Building AI features with the AI SDK, or chat interfaces with AI Elements",
+        "Agents that need to operate a real browser or desktop app"
+      ],
+      "startWith": [
+        {
+          "skill": "vercel-react-best-practices",
+          "why": "React and Next.js performance rules ranked by impact: waterfalls, bundle size, re-renders."
+        },
+        {
+          "skill": "web-design-guidelines",
+          "why": "Audits UI code for accessibility, focus states, forms and animation."
+        },
+        {
+          "skill": "vercel-composition-patterns",
+          "why": "Untangles components that have grown a pile of boolean props."
+        },
+        {
+          "skill": "ai-sdk",
+          "why": "Helps build features with the AI SDK's generateText, streamText and agent APIs."
+        },
+        {
+          "skill": "agent-browser",
+          "why": "Lets the agent open pages, click, fill in forms and take screenshots."
+        }
+      ],
+      "beforeInstall": [
+        "deploy-to-vercel, vercel-cli-with-tokens and vercel-optimize act on your Vercel account. Read what they run before letting an agent use them.",
+        "agent-desktop controls apps through the operating system's accessibility layer and needs those permissions (on macOS, Accessibility and Screen Recording)."
+      ]
+    },
+    "ko": {
+      "intro": "이 스킬 모음은 여러 저장소에 흩어져 있는 Vercel의 공식 스킬을 모았습니다. 핵심 저장소에는 Vercel Engineering의 규칙이 담겨 있습니다. React와 Next.js 성능을 위한 vercel-react-best-practices, 컴포넌트 API를 위한 vercel-composition-patterns, UI 코드 점검을 위한 web-design-guidelines입니다. 제품 저장소들은 AI SDK, AI Elements, Chat SDK, Flags SDK, eve용 스킬을 더하고, vercel-labs는 agent-browser와 agent-desktop으로 브라우저와 데스크톱 자동화를 더합니다.\n\n스킬이 서로 다른 저장소에서 오기 때문에 스킬 빌더는 저장소마다 설치 명령을 하나씩 만듭니다. 대부분의 제품 스킬은 해당 제품을 쓸 때만 도움이 되지만, React와 디자인 규칙은 Vercel에 호스팅하든 아니든 모든 React 코드베이스에서 유용합니다.",
+      "bestFor": [
+        "Vercel의 성능 규칙에 맞춰 코드를 작성하고 리뷰하길 원하는 React와 Next.js 팀",
+        "AI SDK로 AI 기능을 만들거나 AI Elements로 채팅 인터페이스를 만드는 경우",
+        "실제 브라우저나 데스크톱 앱을 조작해야 하는 에이전트"
+      ],
+      "startWith": [
+        {
+          "skill": "vercel-react-best-practices",
+          "why": "워터폴, 번들 크기, 리렌더링 등 영향도 순으로 정리된 React와 Next.js 성능 규칙입니다."
+        },
+        {
+          "skill": "web-design-guidelines",
+          "why": "UI 코드의 접근성, 포커스 상태, 폼, 애니메이션을 점검합니다."
+        },
+        {
+          "skill": "vercel-composition-patterns",
+          "why": "boolean prop이 잔뜩 늘어난 컴포넌트를 정리합니다."
+        },
+        {
+          "skill": "ai-sdk",
+          "why": "AI SDK의 generateText, streamText, 에이전트 API로 기능을 만드는 것을 돕습니다."
+        },
+        {
+          "skill": "agent-browser",
+          "why": "에이전트가 페이지를 열고, 클릭하고, 폼을 채우고, 스크린샷을 찍을 수 있게 합니다."
+        }
+      ],
+      "beforeInstall": [
+        "deploy-to-vercel, vercel-cli-with-tokens, vercel-optimize는 여러분의 Vercel 계정에서 작업을 수행합니다. 에이전트가 사용하게 하기 전에 무엇을 실행하는지 읽어 보세요.",
+        "agent-desktop은 운영체제의 접근성 계층을 통해 앱을 제어하므로 해당 권한이 필요합니다(macOS에서는 손쉬운 사용과 화면 기록)."
+      ]
+    },
+    "ja": {
+      "intro": "このパックは、複数のリポジトリに分かれているVercelの公式スキルをまとめたものです。コアリポジトリにはVercel Engineeringのルールが入っています。React・Next.jsのパフォーマンスのためのvercel-react-best-practices、コンポーネントAPIのためのvercel-composition-patterns、UIコードを監査するweb-design-guidelinesです。製品リポジトリはAI SDK、AI Elements、Chat SDK、Flags SDK、eve向けのスキルを加え、vercel-labsはagent-browserとagent-desktopでブラウザとデスクトップの自動化を加えています。\n\nスキルが別々のリポジトリから来ているため、スキルビルダーはリポジトリごとに1つのインストールコマンドを出力します。製品向けスキルの多くはその製品を使っている場合にしか役立ちませんが、ReactとデザインのルールはVercelでホストしているかどうかに関係なく、どのReactコードベースでも役立ちます。",
+      "bestFor": [
+        "Vercelのパフォーマンスルールに沿ってコードを書き、レビューしたいReact・Next.jsチーム",
+        "AI SDKでAI機能を、AI Elementsでチャットインターフェースを作る場合",
+        "実際のブラウザやデスクトップアプリを操作する必要があるエージェント"
+      ],
+      "startWith": [
+        {
+          "skill": "vercel-react-best-practices",
+          "why": "影響度順に並べたReact・Next.jsのパフォーマンスルール：ウォーターフォール、バンドルサイズ、再レンダリング。"
+        },
+        {
+          "skill": "web-design-guidelines",
+          "why": "UIコードをアクセシビリティ、フォーカス状態、フォーム、アニメーションの観点から監査します。"
+        },
+        {
+          "skill": "vercel-composition-patterns",
+          "why": "booleanのpropsが山積みになったコンポーネントを整理します。"
+        },
+        {
+          "skill": "ai-sdk",
+          "why": "AI SDKのgenerateText、streamText、エージェントAPIを使った機能づくりを手伝います。"
+        },
+        {
+          "skill": "agent-browser",
+          "why": "エージェントがページを開き、クリックし、フォームに入力し、スクリーンショットを撮れるようにします。"
+        }
+      ],
+      "beforeInstall": [
+        "deploy-to-vercel、vercel-cli-with-tokens、vercel-optimizeはあなたのVercelアカウントに対して操作を行います。エージェントに使わせる前に、何を実行するのかを読んでください。",
+        "agent-desktopはOSのアクセシビリティレイヤーを通じてアプリを操作するため、その権限（macOSではアクセシビリティと画面収録）が必要です。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "这个技能包汇集了分布在多个仓库中的 Vercel 官方技能。核心仓库收录了 Vercel Engineering 的规则：用于 React 和 Next.js 性能的 vercel-react-best-practices、用于组件 API 的 vercel-composition-patterns，以及用于审查 UI 代码的 web-design-guidelines。各产品仓库补充了 AI SDK、AI Elements、Chat SDK、Flags SDK 和 eve 的技能，vercel-labs 则通过 agent-browser 和 agent-desktop 提供浏览器和桌面自动化。\n\n由于这些技能来自不同的仓库，技能构建器会为每个仓库生成一条安装命令。大多数产品技能只有在你使用该产品时才有用，但 React 和设计规则适用于任何 React 代码库，无论是否托管在 Vercel 上。",
+      "bestFor": [
+        "希望按照 Vercel 性能规则编写和审查代码的 React 与 Next.js 团队",
+        "用 AI SDK 构建 AI 功能，或用 AI Elements 构建聊天界面",
+        "需要操作真实浏览器或桌面应用的智能体"
+      ],
+      "startWith": [
+        {
+          "skill": "vercel-react-best-practices",
+          "why": "按影响程度排序的 React 和 Next.js 性能规则：请求瀑布、包体积、重新渲染。"
+        },
+        {
+          "skill": "web-design-guidelines",
+          "why": "审查 UI 代码的无障碍、焦点状态、表单和动画。"
+        },
+        {
+          "skill": "vercel-composition-patterns",
+          "why": "理顺那些堆满布尔属性的组件。"
+        },
+        {
+          "skill": "ai-sdk",
+          "why": "帮助用 AI SDK 的 generateText、streamText 和 agent API 构建功能。"
+        },
+        {
+          "skill": "agent-browser",
+          "why": "让智能体打开页面、点击、填写表单和截图。"
+        }
+      ],
+      "beforeInstall": [
+        "deploy-to-vercel、vercel-cli-with-tokens 和 vercel-optimize 会对你的 Vercel 账户执行操作。让智能体使用它们之前，先看看它们会运行什么。",
+        "agent-desktop 通过操作系统的辅助功能层控制应用，需要相应权限（在 macOS 上是辅助功能和屏幕录制）。"
+      ]
+    },
+    "es": {
+      "intro": "Este pack reúne las skills oficiales de Vercel, que viven en varios repositorios. El repo principal contiene las reglas de Vercel Engineering: vercel-react-best-practices para el rendimiento de React y Next.js, vercel-composition-patterns para las APIs de componentes, y web-design-guidelines para auditar código de UI. Los repos de producto añaden skills para AI SDK, AI Elements, Chat SDK, Flags SDK y eve, y vercel-labs añade automatización de navegador y escritorio con agent-browser y agent-desktop.\n\nComo las skills vienen de repos distintos, el constructor de skills escribe un comando de instalación por repo. La mayoría de las skills de producto solo te sirven si usas ese producto, pero las reglas de React y de diseño son útiles en cualquier código React, esté alojado en Vercel o no.",
+      "bestFor": [
+        "Equipos de React y Next.js que quieren código escrito y revisado según las reglas de rendimiento de Vercel",
+        "Crear funcionalidades de IA con AI SDK, o interfaces de chat con AI Elements",
+        "Agentes que necesitan manejar un navegador real o una aplicación de escritorio"
+      ],
+      "startWith": [
+        {
+          "skill": "vercel-react-best-practices",
+          "why": "Reglas de rendimiento de React y Next.js ordenadas por impacto: cascadas de peticiones, tamaño del bundle, re-renderizados."
+        },
+        {
+          "skill": "web-design-guidelines",
+          "why": "Audita el código de UI en accesibilidad, estados de foco, formularios y animaciones."
+        },
+        {
+          "skill": "vercel-composition-patterns",
+          "why": "Desenreda componentes que han acumulado un montón de props booleanas."
+        },
+        {
+          "skill": "ai-sdk",
+          "why": "Ayuda a crear funcionalidades con generateText, streamText y las APIs de agentes de AI SDK."
+        },
+        {
+          "skill": "agent-browser",
+          "why": "Permite al agente abrir páginas, hacer clic, rellenar formularios y tomar capturas de pantalla."
+        }
+      ],
+      "beforeInstall": [
+        "deploy-to-vercel, vercel-cli-with-tokens y vercel-optimize actúan sobre tu cuenta de Vercel. Lee lo que ejecutan antes de dejar que un agente las use.",
+        "agent-desktop controla aplicaciones a través de la capa de accesibilidad del sistema operativo y necesita esos permisos (en macOS, Accesibilidad y Grabación de pantalla)."
+      ]
+    },
+    "de": {
+      "intro": "Dieses Paket bündelt die offiziellen Skills von Vercel, die in mehreren Repositories liegen. Das Kern-Repo enthält die Regeln von Vercel Engineering: vercel-react-best-practices für die Performance von React und Next.js, vercel-composition-patterns für Komponenten-APIs und web-design-guidelines für das Auditieren von UI-Code. Produkt-Repos ergänzen Skills für AI SDK, AI Elements, Chat SDK, das Flags SDK und eve, und vercel-labs fügt mit agent-browser und agent-desktop Browser- und Desktop-Automatisierung hinzu.\n\nDa die Skills aus verschiedenen Repos stammen, schreibt der Skill-Builder einen Installationsbefehl pro Repo. Die meisten Produkt-Skills helfen nur, wenn du das jeweilige Produkt nutzt, aber die React- und Design-Regeln sind in jeder React-Codebasis nützlich, ob auf Vercel gehostet oder nicht.",
+      "bestFor": [
+        "React- und Next.js-Teams, die Code nach den Performance-Regeln von Vercel schreiben und reviewen lassen wollen",
+        "KI-Features mit dem AI SDK oder Chat-Oberflächen mit AI Elements bauen",
+        "Agenten, die einen echten Browser oder eine Desktop-App bedienen müssen"
+      ],
+      "startWith": [
+        {
+          "skill": "vercel-react-best-practices",
+          "why": "Performance-Regeln für React und Next.js, nach Wirkung sortiert: Waterfalls, Bundle-Größe, Re-Renders."
+        },
+        {
+          "skill": "web-design-guidelines",
+          "why": "Prüft UI-Code auf Barrierefreiheit, Fokuszustände, Formulare und Animationen."
+        },
+        {
+          "skill": "vercel-composition-patterns",
+          "why": "Entwirrt Komponenten, die einen Haufen boolescher Props angesammelt haben."
+        },
+        {
+          "skill": "ai-sdk",
+          "why": "Hilft beim Bauen von Features mit generateText, streamText und den Agent-APIs des AI SDK."
+        },
+        {
+          "skill": "agent-browser",
+          "why": "Lässt den Agenten Seiten öffnen, klicken, Formulare ausfüllen und Screenshots machen."
+        }
+      ],
+      "beforeInstall": [
+        "deploy-to-vercel, vercel-cli-with-tokens und vercel-optimize handeln in deinem Vercel-Konto. Lies, was sie ausführen, bevor du einen Agenten sie nutzen lässt.",
+        "agent-desktop steuert Apps über die Bedienungshilfen-Schicht des Betriebssystems und braucht die entsprechenden Berechtigungen (unter macOS Bedienungshilfen und Bildschirmaufnahme)."
+      ]
+    }
+  },
+  "ponytail": {
+    "en": {
+      "intro": "Ponytail doesn't add a workflow; it changes how the agent writes code. The main ponytail skill makes the agent climb a ladder before writing anything: does this need to exist, is it already in the codebase, do the standard library or the platform cover it, can it be one line. Only then does it write the minimum that works. The other five skills build on the same idea: ponytail-review and ponytail-audit check a change or a whole repo for bugs, untested risky code and lines that aren't needed, ponytail-debt lists the shortcuts it marked for later, and ponytail-gain and ponytail-help are reference cards.\n\nIt can sit alongside a process pack such as Superpowers or Addy Osmani's: those decide what to build and how to check it, Ponytail keeps the result small.",
+      "bestFor": [
+        "Teams whose agent adds abstractions, dependencies or config nobody asked for",
+        "Reviewing agent-written changes for what can be cut",
+        "Keeping a list of deliberate shortcuts so they don't get forgotten"
+      ],
+      "startWith": [
+        {
+          "skill": "ponytail",
+          "why": "The core mode: the smallest change that fully solves the task, and a short reply."
+        },
+        {
+          "skill": "ponytail-review",
+          "why": "Reviews a change for logic, safety, load, missing tests and unneeded lines."
+        },
+        {
+          "skill": "ponytail-audit",
+          "why": "The same review over a whole repo, ranked by what to fix or delete first."
+        }
+      ],
+      "beforeInstall": [
+        "Once installed, the main skill applies to every coding task until you say \"stop ponytail\". If you need the thorough version of something, ask for it and it will build it.",
+        "ponytail-gain and ponytail-help only print reference information. Add them if you want the commands at hand."
+      ]
+    },
+    "ko": {
+      "intro": "Ponytail은 워크플로를 추가하지 않고, 에이전트가 코드를 쓰는 방식을 바꿉니다. 메인 ponytail 스킬은 에이전트가 무언가를 쓰기 전에 사다리를 오르게 합니다. 이게 꼭 있어야 하는지, 이미 코드베이스에 있는지, 표준 라이브러리나 플랫폼이 해결해 주는지, 한 줄로 될 수 있는지를 따집니다. 그다음에야 동작하는 최소한의 코드를 씁니다. 나머지 다섯 스킬도 같은 생각을 바탕으로 합니다. ponytail-review와 ponytail-audit은 변경이나 저장소 전체에서 버그, 테스트되지 않은 위험한 코드, 필요 없는 줄을 찾고, ponytail-debt는 나중으로 미뤄 표시해 둔 지름길을 나열하며, ponytail-gain과 ponytail-help는 참고용 카드입니다.\n\nSuperpowers나 Addy Osmani의 스킬 모음 같은 프로세스 스킬 모음과 함께 쓸 수 있습니다. 그런 스킬 모음이 무엇을 만들고 어떻게 확인할지 정한다면, Ponytail은 결과물을 작게 유지합니다.",
+      "bestFor": [
+        "아무도 요청하지 않은 추상화, 의존성, 설정을 에이전트가 추가하는 팀",
+        "에이전트가 작성한 변경에서 덜어낼 수 있는 부분을 리뷰하는 경우",
+        "의도적으로 택한 지름길을 잊지 않도록 목록으로 관리하는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "ponytail",
+          "why": "핵심 모드입니다. 작업을 온전히 해결하는 가장 작은 변경과 짧은 답변을 만듭니다."
+        },
+        {
+          "skill": "ponytail-review",
+          "why": "변경의 로직, 안전성, 부하, 누락된 테스트, 불필요한 줄을 리뷰합니다."
+        },
+        {
+          "skill": "ponytail-audit",
+          "why": "같은 리뷰를 저장소 전체에 적용하고, 무엇부터 고치거나 삭제할지 순위를 매깁니다."
+        }
+      ],
+      "beforeInstall": [
+        "설치하면 메인 스킬은 \"stop ponytail\"이라고 말할 때까지 모든 코딩 작업에 적용됩니다. 무언가를 꼼꼼한 버전으로 원하면 그렇게 요청하면 만들어 줍니다.",
+        "ponytail-gain과 ponytail-help는 참고 정보만 출력합니다. 커맨드를 바로 확인하고 싶다면 추가하세요."
+      ]
+    },
+    "ja": {
+      "intro": "Ponytailはワークフローを追加するのではなく、エージェントのコードの書き方を変えます。メインのponytailスキルは、何かを書く前にエージェントにはしごを順に上らせます。これは本当に必要か、すでにコードベースにあるか、標準ライブラリやプラットフォームでまかなえるか、1行で済むか。そのうえで初めて、動く最小限のコードを書きます。残りの5つのスキルも同じ考え方に基づいています。ponytail-reviewとponytail-auditは変更やリポジトリ全体を対象に、バグ、テストのないリスクの高いコード、不要な行をチェックし、ponytail-debtは後回しとして印を付けた近道を一覧にし、ponytail-gainとponytail-helpはリファレンスカードです。\n\nSuperpowersやAddy Osmaniのようなプロセス系パックと併用できます。そちらが何を作りどう確認するかを決め、Ponytailは結果を小さく保ちます。",
+      "bestFor": [
+        "誰も頼んでいない抽象化、依存関係、設定をエージェントが追加してしまうチーム",
+        "エージェントが書いた変更から削れるものを見つけるレビュー",
+        "意図的な近道を忘れないよう一覧にしておきたい場合"
+      ],
+      "startWith": [
+        {
+          "skill": "ponytail",
+          "why": "中核のモード：タスクを完全に解決する最小の変更と、短い返答。"
+        },
+        {
+          "skill": "ponytail-review",
+          "why": "変更をロジック、安全性、負荷、不足しているテスト、不要な行の観点からレビューします。"
+        },
+        {
+          "skill": "ponytail-audit",
+          "why": "同じレビューをリポジトリ全体に対して行い、先に修正・削除すべき順に並べます。"
+        }
+      ],
+      "beforeInstall": [
+        "インストールすると、\"stop ponytail\"と言うまでメインのスキルがすべてのコーディングタスクに適用されます。何かを徹底的に作りたいときは、そう頼めば作ってくれます。",
+        "ponytail-gainとponytail-helpはリファレンス情報を表示するだけです。コマンドを手元に置きたい場合に追加してください。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Ponytail 不增加工作流，而是改变智能体写代码的方式。主技能 ponytail 让智能体在动手之前先爬一道阶梯：这个东西需要存在吗？代码库里是不是已经有了？标准库或平台能不能搞定？能不能一行写完？只有这些都不行，它才写出能用的最少代码。其余五个技能建立在同样的理念之上：ponytail-review 和 ponytail-audit 检查一次变更或整个仓库中的 bug、未经测试的高风险代码和多余的代码行，ponytail-debt 列出它标记为以后处理的捷径，ponytail-gain 和 ponytail-help 则是参考卡片。\n\n它可以和 Superpowers 或 Addy Osmani 的技能包这类流程型技能包并用：后者决定构建什么以及如何检查，Ponytail 负责让结果保持精简。",
+      "bestFor": [
+        "智能体总在添加没人要求的抽象、依赖或配置的团队",
+        "审查智能体写的变更，找出可以删减的部分",
+        "记录有意走的捷径，免得被遗忘"
+      ],
+      "startWith": [
+        {
+          "skill": "ponytail",
+          "why": "核心模式：用最小的改动完整解决任务，回复也保持简短。"
+        },
+        {
+          "skill": "ponytail-review",
+          "why": "从逻辑、安全、负载、缺失的测试和多余代码等方面审查一次变更。"
+        },
+        {
+          "skill": "ponytail-audit",
+          "why": "对整个仓库做同样的审查，并按优先修复或删除的顺序排列。"
+        }
+      ],
+      "beforeInstall": [
+        "安装后，主技能会作用于每一个编程任务，直到你说 \"stop ponytail\"。如果你需要某样东西的完整版本，直接提出，它就会照做。",
+        "ponytail-gain 和 ponytail-help 只输出参考信息。想随时查看命令的话再添加它们。"
+      ]
+    },
+    "es": {
+      "intro": "Ponytail no añade un flujo de trabajo; cambia cómo escribe código el agente. La skill principal, ponytail, hace que el agente suba una escalera antes de escribir nada: ¿hace falta que esto exista?, ¿ya está en el código?, ¿lo cubren la biblioteca estándar o la plataforma?, ¿puede ser una sola línea? Solo entonces escribe lo mínimo que funciona. Las otras cinco skills parten de la misma idea: ponytail-review y ponytail-audit revisan un cambio o un repo entero en busca de bugs, código arriesgado sin tests y líneas que sobran, ponytail-debt lista los atajos que marcó para más adelante, y ponytail-gain y ponytail-help son tarjetas de referencia.\n\nPuede convivir con un pack de proceso como Superpowers o el de Addy Osmani: esos deciden qué construir y cómo comprobarlo, y Ponytail mantiene pequeño el resultado.",
+      "bestFor": [
+        "Equipos cuyo agente añade abstracciones, dependencias o configuración que nadie pidió",
+        "Revisar cambios escritos por agentes para ver qué se puede recortar",
+        "Llevar una lista de atajos deliberados para que no caigan en el olvido"
+      ],
+      "startWith": [
+        {
+          "skill": "ponytail",
+          "why": "El modo principal: el cambio más pequeño que resuelve la tarea por completo, y una respuesta breve."
+        },
+        {
+          "skill": "ponytail-review",
+          "why": "Revisa un cambio en lógica, seguridad, carga, tests que faltan y líneas innecesarias."
+        },
+        {
+          "skill": "ponytail-audit",
+          "why": "La misma revisión sobre un repo entero, ordenada por lo que conviene arreglar o borrar primero."
+        }
+      ],
+      "beforeInstall": [
+        "Una vez instalada, la skill principal se aplica a todas las tareas de código hasta que digas \"stop ponytail\". Si necesitas la versión completa de algo, pídela y la construirá.",
+        "ponytail-gain y ponytail-help solo muestran información de referencia. Añádelas si quieres tener los comandos a mano."
+      ]
+    },
+    "de": {
+      "intro": "Ponytail fügt keinen Workflow hinzu; es ändert, wie der Agent Code schreibt. Der Haupt-Skill ponytail lässt den Agenten eine Leiter hochsteigen, bevor er etwas schreibt: Muss das überhaupt existieren, gibt es das schon in der Codebasis, decken Standardbibliothek oder Plattform es ab, geht es in einer Zeile. Erst dann schreibt er das Minimum, das funktioniert. Die anderen fünf Skills bauen auf derselben Idee auf: ponytail-review und ponytail-audit prüfen eine Änderung oder ein ganzes Repo auf Bugs, ungetesteten riskanten Code und überflüssige Zeilen, ponytail-debt listet die Abkürzungen auf, die es für später markiert hat, und ponytail-gain und ponytail-help sind Referenzkarten.\n\nEs lässt sich mit einem Prozess-Paket wie Superpowers oder dem von Addy Osmani kombinieren: Diese entscheiden, was gebaut und wie es geprüft wird, Ponytail hält das Ergebnis klein.",
+      "bestFor": [
+        "Teams, deren Agent Abstraktionen, Abhängigkeiten oder Konfiguration hinzufügt, um die niemand gebeten hat",
+        "Vom Agenten geschriebene Änderungen darauf prüfen, was weg kann",
+        "Eine Liste bewusster Abkürzungen führen, damit sie nicht in Vergessenheit geraten"
+      ],
+      "startWith": [
+        {
+          "skill": "ponytail",
+          "why": "Der Kernmodus: die kleinste Änderung, die die Aufgabe vollständig löst, und eine kurze Antwort."
+        },
+        {
+          "skill": "ponytail-review",
+          "why": "Prüft eine Änderung auf Logik, Sicherheit, Last, fehlende Tests und überflüssige Zeilen."
+        },
+        {
+          "skill": "ponytail-audit",
+          "why": "Dasselbe Review über ein ganzes Repo, sortiert danach, was zuerst behoben oder gelöscht werden sollte."
+        }
+      ],
+      "beforeInstall": [
+        "Nach der Installation gilt der Haupt-Skill für jede Coding-Aufgabe, bis du \"stop ponytail\" sagst. Wenn du die gründliche Version von etwas brauchst, fordere sie an, dann wird sie gebaut.",
+        "ponytail-gain und ponytail-help geben nur Referenzinformationen aus. Füge sie hinzu, wenn du die Befehle griffbereit haben willst."
+      ]
+    }
+  },
+  "huggingface-skills": {
+    "en": {
+      "intro": "Hugging Face's skills teach an agent the Hub and the libraries around it. hf-cli is the base: it covers the hf command for downloading, uploading and managing models, datasets and Spaces. Around it are task skills for training (huggingface-llm-trainer, trl-training, huggingface-vision-trainer, train-sentence-transformers), evaluation, datasets, Gradio apps and Spaces, running models locally with llama.cpp, and papers. A separate hf-cloud group handles deploying models to Amazon SageMaker.\n\nInstall hf-cli first, then add the skills for the work you actually do. Most people need three or four of the 26.",
+      "bestFor": [
+        "ML engineers who want the agent to handle Hub chores: uploads, downloads, repo setup",
+        "Fine-tuning language or vision models with TRL or Unsloth on Hugging Face Jobs",
+        "Building Gradio demos and putting them on Spaces"
+      ],
+      "startWith": [
+        {
+          "skill": "hf-cli",
+          "why": "The recommended starting point: every hf command for models, datasets and Spaces."
+        },
+        {
+          "skill": "huggingface-datasets",
+          "why": "Browses, filters and downloads dataset rows through the Dataset Viewer API."
+        },
+        {
+          "skill": "huggingface-llm-trainer",
+          "why": "SFT, DPO and GRPO fine-tuning runs on Hugging Face Jobs."
+        },
+        {
+          "skill": "huggingface-gradio",
+          "why": "Builds Gradio interfaces and demos in Python."
+        },
+        {
+          "skill": "huggingface-local-models",
+          "why": "Picks a GGUF file and quantization to run a model locally with llama.cpp."
+        }
+      ],
+      "beforeInstall": [
+        "Training jobs and Spaces can run on paid hardware. Check what the agent is about to start before approving it.",
+        "The hf-cloud skills need AWS credentials and create resources in your AWS account. Skip them unless you deploy on SageMaker."
+      ]
+    },
+    "ko": {
+      "intro": "Hugging Face의 스킬은 에이전트에게 Hub와 그 주변 라이브러리를 가르칩니다. 기본은 hf-cli로, 모델, 데이터셋, Spaces를 다운로드, 업로드, 관리하는 hf 명령을 다룹니다. 그 주위로 학습(huggingface-llm-trainer, trl-training, huggingface-vision-trainer, train-sentence-transformers), 평가, 데이터셋, Gradio 앱과 Spaces, llama.cpp로 로컬에서 모델 실행하기, 논문을 위한 작업별 스킬이 있습니다. 별도의 hf-cloud 그룹은 Amazon SageMaker에 모델을 배포하는 일을 맡습니다.\n\n먼저 hf-cli를 설치한 뒤, 실제로 하는 작업에 맞는 스킬을 추가하세요. 대부분은 26개 중 서너 개면 충분합니다.",
+      "bestFor": [
+        "업로드, 다운로드, 저장소 설정 같은 Hub 잡무를 에이전트에 맡기고 싶은 ML 엔지니어",
+        "Hugging Face Jobs에서 TRL이나 Unsloth로 언어 모델이나 비전 모델을 파인튜닝하는 경우",
+        "Gradio 데모를 만들어 Spaces에 올리는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "hf-cli",
+          "why": "권장 시작점입니다. 모델, 데이터셋, Spaces를 위한 모든 hf 명령을 다룹니다."
+        },
+        {
+          "skill": "huggingface-datasets",
+          "why": "Dataset Viewer API로 데이터셋 행을 탐색하고, 필터링하고, 다운로드합니다."
+        },
+        {
+          "skill": "huggingface-llm-trainer",
+          "why": "Hugging Face Jobs에서 SFT, DPO, GRPO 파인튜닝을 실행합니다."
+        },
+        {
+          "skill": "huggingface-gradio",
+          "why": "Python으로 Gradio 인터페이스와 데모를 만듭니다."
+        },
+        {
+          "skill": "huggingface-local-models",
+          "why": "llama.cpp로 모델을 로컬에서 실행할 GGUF 파일과 양자화 방식을 고릅니다."
+        }
+      ],
+      "beforeInstall": [
+        "학습 작업과 Spaces는 유료 하드웨어에서 실행될 수 있습니다. 승인하기 전에 에이전트가 무엇을 시작하려는지 확인하세요.",
+        "hf-cloud 스킬은 AWS 자격 증명이 필요하고 여러분의 AWS 계정에 리소스를 만듭니다. SageMaker에 배포하지 않는다면 건너뛰세요."
+      ]
+    },
+    "ja": {
+      "intro": "Hugging Faceのスキルは、Hubとその周辺のライブラリの使い方をエージェントに教えます。基本となるのはhf-cliで、モデル、データセット、Spacesのダウンロード、アップロード、管理を行うhfコマンドをカバーします。その周りに、学習（huggingface-llm-trainer、trl-training、huggingface-vision-trainer、train-sentence-transformers）、評価、データセット、GradioアプリとSpaces、llama.cppによるローカルでのモデル実行、論文のためのタスク別スキルがあります。別のhf-cloudグループは、Amazon SageMakerへのモデルのデプロイを扱います。\n\nまずhf-cliをインストールし、実際に行う作業に合ったスキルを追加してください。ほとんどの人に必要なのは26個のうち3〜4個です。",
+      "bestFor": [
+        "アップロード、ダウンロード、リポジトリ設定といったHubの雑務をエージェントに任せたいMLエンジニア",
+        "Hugging Face Jobs上でTRLやUnslothを使った言語モデル・ビジョンモデルのファインチューニング",
+        "Gradioのデモを作ってSpacesに公開する場合"
+      ],
+      "startWith": [
+        {
+          "skill": "hf-cli",
+          "why": "推奨の出発点：モデル、データセット、Spacesのためのあらゆるhfコマンド。"
+        },
+        {
+          "skill": "huggingface-datasets",
+          "why": "Dataset Viewer APIを通じてデータセットの行を閲覧、絞り込み、ダウンロードします。"
+        },
+        {
+          "skill": "huggingface-llm-trainer",
+          "why": "Hugging Face Jobs上でのSFT、DPO、GRPOのファインチューニング実行。"
+        },
+        {
+          "skill": "huggingface-gradio",
+          "why": "PythonでGradioのインターフェースやデモを作ります。"
+        },
+        {
+          "skill": "huggingface-local-models",
+          "why": "llama.cppでモデルをローカル実行するためのGGUFファイルと量子化を選びます。"
+        }
+      ],
+      "beforeInstall": [
+        "学習ジョブやSpacesは有料のハードウェアで動くことがあります。承認する前に、エージェントが何を起動しようとしているかを確認してください。",
+        "hf-cloudスキルにはAWSの認証情報が必要で、あなたのAWSアカウントにリソースを作成します。SageMakerにデプロイしないなら省いてください。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Hugging Face 的技能教智能体使用 Hub 及其周边的库。hf-cli 是基础：它涵盖用于下载、上传和管理模型、数据集与 Spaces 的 hf 命令。围绕它的是各类任务技能，包括训练（huggingface-llm-trainer、trl-training、huggingface-vision-trainer、train-sentence-transformers）、评估、数据集、Gradio 应用和 Spaces、用 llama.cpp 在本地运行模型，以及论文。另有一组 hf-cloud 技能负责把模型部署到 Amazon SageMaker。\n\n先安装 hf-cli，再添加你实际工作所需的技能。26 个技能中，大多数人只需要三四个。",
+      "bestFor": [
+        "希望智能体处理 Hub 琐事（上传、下载、仓库设置）的机器学习工程师",
+        "在 Hugging Face Jobs 上用 TRL 或 Unsloth 微调语言或视觉模型",
+        "构建 Gradio 演示并发布到 Spaces"
+      ],
+      "startWith": [
+        {
+          "skill": "hf-cli",
+          "why": "推荐的起点：涵盖模型、数据集和 Spaces 的所有 hf 命令。"
+        },
+        {
+          "skill": "huggingface-datasets",
+          "why": "通过 Dataset Viewer API 浏览、筛选和下载数据集行。"
+        },
+        {
+          "skill": "huggingface-llm-trainer",
+          "why": "在 Hugging Face Jobs 上运行 SFT、DPO 和 GRPO 微调。"
+        },
+        {
+          "skill": "huggingface-gradio",
+          "why": "用 Python 构建 Gradio 界面和演示。"
+        },
+        {
+          "skill": "huggingface-local-models",
+          "why": "挑选 GGUF 文件和量化方式，用 llama.cpp 在本地运行模型。"
+        }
+      ],
+      "beforeInstall": [
+        "训练任务和 Spaces 可能运行在付费硬件上。批准之前，先确认智能体要启动的是什么。",
+        "hf-cloud 技能需要 AWS 凭证，并会在你的 AWS 账户中创建资源。如果你不在 SageMaker 上部署，就跳过它们。"
+      ]
+    },
+    "es": {
+      "intro": "Las skills de Hugging Face enseñan a un agente el Hub y las bibliotecas que lo rodean. hf-cli es la base: cubre el comando hf para descargar, subir y gestionar modelos, datasets y Spaces. A su alrededor hay skills por tarea para entrenamiento (huggingface-llm-trainer, trl-training, huggingface-vision-trainer, train-sentence-transformers), evaluación, datasets, aplicaciones Gradio y Spaces, ejecución de modelos en local con llama.cpp, y papers. Un grupo aparte, hf-cloud, se encarga de desplegar modelos en Amazon SageMaker.\n\nInstala primero hf-cli y luego añade las skills del trabajo que de verdad haces. La mayoría de la gente necesita tres o cuatro de las 26.",
+      "bestFor": [
+        "Ingenieros de ML que quieren que el agente se encargue de las tareas del Hub: subidas, descargas, configuración de repos",
+        "Fine-tuning de modelos de lenguaje o de visión con TRL o Unsloth en Hugging Face Jobs",
+        "Crear demos con Gradio y publicarlas en Spaces"
+      ],
+      "startWith": [
+        {
+          "skill": "hf-cli",
+          "why": "El punto de partida recomendado: todos los comandos hf para modelos, datasets y Spaces."
+        },
+        {
+          "skill": "huggingface-datasets",
+          "why": "Explora, filtra y descarga filas de datasets mediante la API de Dataset Viewer."
+        },
+        {
+          "skill": "huggingface-llm-trainer",
+          "why": "Ejecuciones de fine-tuning SFT, DPO y GRPO en Hugging Face Jobs."
+        },
+        {
+          "skill": "huggingface-gradio",
+          "why": "Crea interfaces y demos de Gradio en Python."
+        },
+        {
+          "skill": "huggingface-local-models",
+          "why": "Elige un archivo GGUF y una cuantización para ejecutar un modelo en local con llama.cpp."
+        }
+      ],
+      "beforeInstall": [
+        "Los trabajos de entrenamiento y los Spaces pueden ejecutarse en hardware de pago. Revisa lo que el agente está a punto de lanzar antes de aprobarlo.",
+        "Las skills de hf-cloud necesitan credenciales de AWS y crean recursos en tu cuenta de AWS. Sáltatelas salvo que despliegues en SageMaker."
+      ]
+    },
+    "de": {
+      "intro": "Die Skills von Hugging Face bringen einem Agenten den Hub und die Bibliotheken drumherum bei. hf-cli ist die Basis: Es deckt den Befehl hf zum Herunterladen, Hochladen und Verwalten von Modellen, Datasets und Spaces ab. Darum herum gibt es Aufgaben-Skills für Training (huggingface-llm-trainer, trl-training, huggingface-vision-trainer, train-sentence-transformers), Evaluation, Datasets, Gradio-Apps und Spaces, das lokale Ausführen von Modellen mit llama.cpp und Papers. Eine eigene Gruppe hf-cloud kümmert sich um das Deployment von Modellen auf Amazon SageMaker.\n\nInstalliere zuerst hf-cli und ergänze dann die Skills für die Arbeit, die du tatsächlich machst. Die meisten brauchen drei oder vier der 26.",
+      "bestFor": [
+        "ML-Engineers, die dem Agenten Hub-Routinearbeit überlassen wollen: Uploads, Downloads, Repo-Einrichtung",
+        "Sprach- oder Vision-Modelle mit TRL oder Unsloth auf Hugging Face Jobs feintunen",
+        "Gradio-Demos bauen und auf Spaces bereitstellen"
+      ],
+      "startWith": [
+        {
+          "skill": "hf-cli",
+          "why": "Der empfohlene Einstieg: jeder hf-Befehl für Modelle, Datasets und Spaces."
+        },
+        {
+          "skill": "huggingface-datasets",
+          "why": "Durchsucht, filtert und lädt Dataset-Zeilen über die Dataset Viewer API herunter."
+        },
+        {
+          "skill": "huggingface-llm-trainer",
+          "why": "SFT-, DPO- und GRPO-Feintuning-Läufe auf Hugging Face Jobs."
+        },
+        {
+          "skill": "huggingface-gradio",
+          "why": "Baut Gradio-Oberflächen und -Demos in Python."
+        },
+        {
+          "skill": "huggingface-local-models",
+          "why": "Wählt eine GGUF-Datei und Quantisierung, um ein Modell lokal mit llama.cpp auszuführen."
+        }
+      ],
+      "beforeInstall": [
+        "Trainingsjobs und Spaces können auf kostenpflichtiger Hardware laufen. Prüfe, was der Agent starten will, bevor du zustimmst.",
+        "Die hf-cloud-Skills brauchen AWS-Zugangsdaten und legen Ressourcen in deinem AWS-Konto an. Lass sie weg, wenn du nicht auf SageMaker deployst."
+      ]
+    }
+  },
+  "marketingskills": {
+    "en": {
+      "intro": "Marketing Skills turns a coding agent into a marketing generalist. Its 53 skills cover almost every growth job: copywriting and copy-editing for pages, seo-audit, ai-seo and programmatic-seo for search, cro, signup and onboarding for conversion, pricing and offers, ads and ad-creative, emails, social and video, plus launch planning and analytics. Each skill first works out what the request really is and points to a related skill when the task belongs elsewhere.\n\nStart with product-marketing. It writes a context file (.agents/product-marketing.md) describing your product, audience, positioning and voice, and skills such as copywriting read it before asking you questions, so you don't repeat yourself in every session.",
+      "bestFor": [
+        "Founders and small teams doing their own marketing",
+        "Developers launching a side project who need copy, SEO and a launch plan",
+        "Finding out why a landing page or signup flow isn't converting"
+      ],
+      "startWith": [
+        {
+          "skill": "product-marketing",
+          "why": "Writes the shared context file the other skills read first."
+        },
+        {
+          "skill": "copywriting",
+          "why": "Writes or rewrites homepage, landing and pricing copy, starting from what the page needs to say."
+        },
+        {
+          "skill": "seo-audit",
+          "why": "Diagnoses why a page doesn't rank or traffic dropped: canonicals, hreflang, redirects and more."
+        },
+        {
+          "skill": "cro",
+          "why": "Works out why a page or form isn't converting and what to change first."
+        },
+        {
+          "skill": "launch",
+          "why": "Plans a product or feature launch: timing, channels and how to get noticed."
+        }
+      ],
+      "beforeInstall": [
+        "With 53 skills, install by job rather than the whole set. The Growth and Short-form presets in the skill builder are a quick start.",
+        "marketing-council simulates a board of well-known marketers based on their published frameworks. Treat it as brainstorming, not as those people's actual advice."
+      ]
+    },
+    "ko": {
+      "intro": "Marketing Skills는 코딩 에이전트를 마케팅 제너럴리스트로 바꿉니다. 53개의 스킬이 거의 모든 그로스 업무를 다룹니다. 페이지를 위한 copywriting과 copy-editing, 검색을 위한 seo-audit, ai-seo, programmatic-seo, 전환을 위한 cro, signup, onboarding, 가격과 오퍼, 광고와 광고 소재, 이메일, 소셜, 영상, 그리고 출시 계획과 분석까지 있습니다. 각 스킬은 먼저 요청이 실제로 무엇인지 파악하고, 다른 스킬에 맞는 작업이면 관련 스킬을 알려줍니다.\n\nproduct-marketing부터 시작하세요. 제품, 고객, 포지셔닝, 보이스를 설명하는 컨텍스트 파일(.agents/product-marketing.md)을 작성하며, copywriting 같은 스킬은 질문하기 전에 이 파일을 읽으므로 세션마다 같은 설명을 반복하지 않아도 됩니다.",
+      "bestFor": [
+        "마케팅을 직접 하는 창업자와 작은 팀",
+        "카피, SEO, 출시 계획이 필요한 사이드 프로젝트를 출시하는 개발자",
+        "랜딩 페이지나 가입 흐름이 왜 전환되지 않는지 알아내는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "product-marketing",
+          "why": "다른 스킬들이 먼저 읽는 공용 컨텍스트 파일을 작성합니다."
+        },
+        {
+          "skill": "copywriting",
+          "why": "페이지가 전해야 할 내용에서 출발해 홈페이지, 랜딩, 가격 페이지 카피를 쓰거나 고칩니다."
+        },
+        {
+          "skill": "seo-audit",
+          "why": "canonical, hreflang, 리디렉션 등을 살펴 페이지 순위가 오르지 않거나 트래픽이 떨어진 원인을 진단합니다."
+        },
+        {
+          "skill": "cro",
+          "why": "페이지나 폼이 왜 전환되지 않는지, 무엇부터 바꿔야 할지 알아냅니다."
+        },
+        {
+          "skill": "launch",
+          "why": "제품이나 기능 출시를 계획합니다: 시기, 채널, 주목받는 방법."
+        }
+      ],
+      "beforeInstall": [
+        "스킬이 53개이므로 전체를 설치하기보다 업무별로 설치하세요. 스킬 빌더의 Growth와 Short-form 프리셋으로 빠르게 시작할 수 있습니다.",
+        "marketing-council은 유명 마케터들이 공개한 프레임워크를 바탕으로 그들로 구성된 자문단을 시뮬레이션합니다. 브레인스토밍으로 활용하고, 그 사람들의 실제 조언으로 받아들이지 마세요."
+      ]
+    },
+    "ja": {
+      "intro": "Marketing Skillsは、コーディングエージェントをマーケティングのジェネラリストに変えます。53のスキルがほぼすべてのグロース業務をカバーします。ページのためのcopywritingとcopy-editing、検索のためのseo-audit、ai-seo、programmatic-seo、コンバージョンのためのcro、signup、onboarding、価格設定とオファー、広告とad-creative、メール、ソーシャル、動画、さらにローンチ計画と分析です。各スキルはまず依頼の本当の中身を見極め、タスクが別の領域に属する場合は関連するスキルを案内します。\n\nまずはproduct-marketingから始めてください。製品、オーディエンス、ポジショニング、トーンを記述したコンテキストファイル（.agents/product-marketing.md）を書き出し、copywritingなどのスキルは質問する前にそれを読むので、セッションのたびに同じ説明を繰り返さずに済みます。",
+      "bestFor": [
+        "自分たちでマーケティングを行う創業者や小規模チーム",
+        "コピー、SEO、ローンチ計画が必要なサイドプロジェクトを公開する開発者",
+        "ランディングページや登録フローでコンバージョンが出ない理由を突き止めたい場合"
+      ],
+      "startWith": [
+        {
+          "skill": "product-marketing",
+          "why": "他のスキルが最初に読む共有コンテキストファイルを書きます。"
+        },
+        {
+          "skill": "copywriting",
+          "why": "ページで伝えるべきことから出発して、ホームページ、ランディング、料金ページのコピーを書き、書き直します。"
+        },
+        {
+          "skill": "seo-audit",
+          "why": "ページが上位表示されない理由やトラフィック減少の原因を診断します：canonical、hreflang、リダイレクトなど。"
+        },
+        {
+          "skill": "cro",
+          "why": "ページやフォームでコンバージョンが出ない理由と、最初に変えるべき点を見極めます。"
+        },
+        {
+          "skill": "launch",
+          "why": "製品や機能のローンチを計画します：タイミング、チャネル、注目を集める方法。"
+        }
+      ],
+      "beforeInstall": [
+        "53個もスキルがあるので、セットごとではなく業務単位でインストールしてください。スキルビルダーのGrowthとShort-formのプリセットを使うと手早く始められます。",
+        "marketing-councilは、著名なマーケターたちが公開しているフレームワークをもとに、彼らの諮問会議をシミュレートします。本人たちの実際の助言ではなく、ブレインストーミングとして扱ってください。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Marketing Skills 把编程智能体变成一名全能型营销人员。它的 53 个技能几乎覆盖所有增长工作：页面的 copywriting 和 copy-editing，搜索方面的 seo-audit、ai-seo 和 programmatic-seo，转化方面的 cro、signup 和 onboarding，定价与优惠，广告与 ad-creative，邮件、社交媒体和视频，以及发布规划和数据分析。每个技能都会先弄清请求的真正意图，如果任务更适合别的技能，就会指向相关技能。\n\n从 product-marketing 开始。它会写一个上下文文件（.agents/product-marketing.md），描述你的产品、受众、定位和语气，copywriting 等技能会在向你提问前先读取它，这样你就不必在每次会话中重复说明。",
+      "bestFor": [
+        "自己做营销的创始人和小团队",
+        "发布副业项目、需要文案、SEO 和发布计划的开发者",
+        "找出落地页或注册流程转化不佳的原因"
+      ],
+      "startWith": [
+        {
+          "skill": "product-marketing",
+          "why": "编写其他技能会首先读取的共享上下文文件。"
+        },
+        {
+          "skill": "copywriting",
+          "why": "从页面需要传达的内容出发，撰写或改写首页、落地页和定价页文案。"
+        },
+        {
+          "skill": "seo-audit",
+          "why": "诊断页面没有排名或流量下降的原因：canonical、hreflang、重定向等。"
+        },
+        {
+          "skill": "cro",
+          "why": "找出页面或表单转化不佳的原因，以及应该先改什么。"
+        },
+        {
+          "skill": "launch",
+          "why": "规划产品或功能发布：时机、渠道以及如何引起关注。"
+        }
+      ],
+      "beforeInstall": [
+        "技能多达 53 个，请按工作内容安装，而不是整套安装。技能构建器中的 Growth 和 Short-form 预设可以帮你快速上手。",
+        "marketing-council 根据知名营销人公开发表的方法论，模拟一个由他们组成的顾问团。请把它当作头脑风暴，而不是这些人本人的真实建议。"
+      ]
+    },
+    "es": {
+      "intro": "Marketing Skills convierte a un agente de código en un generalista del marketing. Sus 53 skills cubren casi cualquier tarea de crecimiento: copywriting y copy-editing para páginas, seo-audit, ai-seo y programmatic-seo para búsqueda, cro, signup y onboarding para conversión, precios y ofertas, anuncios y ad-creative, emails, redes sociales y vídeo, además de planificación de lanzamientos y analítica. Cada skill averigua primero qué se pide realmente y remite a una skill relacionada cuando la tarea corresponde a otra.\n\nEmpieza con product-marketing. Escribe un archivo de contexto (.agents/product-marketing.md) que describe tu producto, tu público, tu posicionamiento y tu tono, y skills como copywriting lo leen antes de hacerte preguntas, así no te repites en cada sesión.",
+      "bestFor": [
+        "Fundadores y equipos pequeños que hacen su propio marketing",
+        "Desarrolladores que lanzan un proyecto personal y necesitan textos, SEO y un plan de lanzamiento",
+        "Descubrir por qué una landing page o un flujo de registro no convierte"
+      ],
+      "startWith": [
+        {
+          "skill": "product-marketing",
+          "why": "Escribe el archivo de contexto compartido que las demás skills leen primero."
+        },
+        {
+          "skill": "copywriting",
+          "why": "Escribe o reescribe los textos de la home, las landings y la página de precios, partiendo de lo que la página necesita decir."
+        },
+        {
+          "skill": "seo-audit",
+          "why": "Diagnostica por qué una página no posiciona o por qué cayó el tráfico: canonicals, hreflang, redirecciones y más."
+        },
+        {
+          "skill": "cro",
+          "why": "Averigua por qué una página o un formulario no convierte y qué cambiar primero."
+        },
+        {
+          "skill": "launch",
+          "why": "Planifica el lanzamiento de un producto o una funcionalidad: calendario, canales y cómo llamar la atención."
+        }
+      ],
+      "beforeInstall": [
+        "Con 53 skills, instala por tarea en lugar del conjunto entero. Los presets Growth y Short-form del constructor de skills son un buen arranque.",
+        "marketing-council simula un consejo de marketers conocidos a partir de sus frameworks publicados. Tómalo como lluvia de ideas, no como el consejo real de esas personas."
+      ]
+    },
+    "de": {
+      "intro": "Marketing Skills macht aus einem Coding-Agenten einen Marketing-Generalisten. Seine 53 Skills decken fast jede Growth-Aufgabe ab: copywriting und copy-editing für Seiten, seo-audit, ai-seo und programmatic-seo für die Suche, cro, signup und onboarding für Conversion, Preise und Angebote, ads und ad-creative, E-Mails, Social und Video sowie Launch-Planung und Analytics. Jeder Skill klärt zuerst, worum es bei der Anfrage wirklich geht, und verweist auf einen verwandten Skill, wenn die Aufgabe woanders hingehört.\n\nFang mit product-marketing an. Es schreibt eine Kontextdatei (.agents/product-marketing.md), die dein Produkt, deine Zielgruppe, Positionierung und Tonalität beschreibt, und Skills wie copywriting lesen sie, bevor sie dir Fragen stellen, sodass du dich nicht in jeder Sitzung wiederholen musst.",
+      "bestFor": [
+        "Gründer und kleine Teams, die ihr Marketing selbst machen",
+        "Entwickler, die ein Nebenprojekt launchen und Texte, SEO und einen Launch-Plan brauchen",
+        "Herausfinden, warum eine Landingpage oder ein Signup-Flow nicht konvertiert"
+      ],
+      "startWith": [
+        {
+          "skill": "product-marketing",
+          "why": "Schreibt die gemeinsame Kontextdatei, die die anderen Skills zuerst lesen."
+        },
+        {
+          "skill": "copywriting",
+          "why": "Schreibt oder überarbeitet Texte für Startseite, Landingpage und Preisseite, ausgehend davon, was die Seite sagen muss."
+        },
+        {
+          "skill": "seo-audit",
+          "why": "Findet heraus, warum eine Seite nicht rankt oder der Traffic eingebrochen ist: Canonicals, hreflang, Redirects und mehr."
+        },
+        {
+          "skill": "cro",
+          "why": "Ermittelt, warum eine Seite oder ein Formular nicht konvertiert und was du zuerst ändern solltest."
+        },
+        {
+          "skill": "launch",
+          "why": "Plant den Launch eines Produkts oder Features: Timing, Kanäle und wie du Aufmerksamkeit bekommst."
+        }
+      ],
+      "beforeInstall": [
+        "Bei 53 Skills installierst du besser nach Aufgabe statt das ganze Set. Die Presets Growth und Short-form im Skill-Builder sind ein schneller Einstieg.",
+        "marketing-council simuliert ein Gremium bekannter Marketer auf Basis ihrer veröffentlichten Frameworks. Behandle es als Brainstorming, nicht als tatsächlichen Rat dieser Personen."
+      ]
+    }
+  },
+  "last30days": {
+    "en": {
+      "intro": "last30days is a single skill with one job: find out what people have said about a topic over the past month. It pulls posts and engagement from Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub and the web, then summarizes the main lines of opinion. That covers a gap every model has: its training data stops at a cutoff, so without something like this an agent can't tell you what is being discussed right now.\n\nUse it before writing about a topic, deciding on a feature or launching something, when current reactions matter more than background knowledge.",
+      "bestFor": [
+        "Creators checking what an audience is talking about before making content",
+        "Product decisions that depend on how people feel about something today",
+        "Following reactions to a launch, a competitor or a news event"
+      ],
+      "startWith": [
+        {
+          "skill": "last30days",
+          "why": "The only skill in the pack: give it a topic, product or person and it reports the past month."
+        }
+      ],
+      "beforeInstall": [
+        "Not every source works out of the box. The built-in doctor check tells you which sources are broken or missing.",
+        "It reports what people say, which isn't always true. Check a claim before repeating it."
+      ]
+    },
+    "ko": {
+      "intro": "last30days는 한 가지 일만 하는 단일 스킬입니다. 지난 한 달 동안 사람들이 어떤 주제에 대해 무슨 말을 했는지 찾아냅니다. Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, 웹에서 게시물과 반응을 가져온 뒤 주요 의견의 흐름을 요약합니다. 이는 모든 모델에 있는 공백을 메웁니다. 학습 데이터는 특정 시점에서 끊기므로, 이런 도구가 없으면 에이전트는 지금 무엇이 논의되고 있는지 알려줄 수 없습니다.\n\n배경지식보다 지금의 반응이 중요할 때, 어떤 주제에 대해 글을 쓰거나 기능을 결정하거나 무언가를 출시하기 전에 사용하세요.",
+      "bestFor": [
+        "콘텐츠를 만들기 전에 시청자가 무슨 이야기를 하는지 확인하는 크리에이터",
+        "사람들이 지금 무언가를 어떻게 느끼는지에 따라 달라지는 제품 결정",
+        "출시, 경쟁사, 뉴스 사건에 대한 반응을 추적하는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "last30days",
+          "why": "스킬 모음의 유일한 스킬입니다. 주제, 제품, 인물을 주면 지난 한 달의 반응을 보고합니다."
+        }
+      ],
+      "beforeInstall": [
+        "모든 소스가 바로 작동하지는 않습니다. 내장된 doctor 검사로 어떤 소스가 고장 났거나 빠져 있는지 확인할 수 있습니다.",
+        "사람들이 하는 말을 보고할 뿐이며, 그 말이 항상 사실은 아닙니다. 주장을 옮기기 전에 확인하세요."
+      ]
+    },
+    "ja": {
+      "intro": "last30daysは、ひとつの役割だけを持つ単一のスキルです。あるトピックについて、この1か月で人々が何を語ってきたかを調べます。Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub、ウェブから投稿とエンゲージメントを集め、主要な意見の流れを要約します。これはどのモデルにもある穴を埋めるものです。学習データはカットオフで止まっているため、こうした仕組みがなければ、エージェントはいま何が話題になっているかを答えられません。\n\nトピックについて書く前、機能を決める前、何かをローンチする前など、背景知識よりも現在の反応が重要なときに使ってください。",
+      "bestFor": [
+        "コンテンツを作る前に、オーディエンスが何を話題にしているか確かめたいクリエイター",
+        "人々がいま何かをどう感じているかに左右される製品判断",
+        "ローンチ、競合、ニュースへの反応を追う場合"
+      ],
+      "startWith": [
+        {
+          "skill": "last30days",
+          "why": "パック唯一のスキル：トピック、製品、人物を渡すと、この1か月の状況を報告します。"
+        }
+      ],
+      "beforeInstall": [
+        "すべてのソースがすぐに使えるわけではありません。組み込みのdoctorチェックで、どのソースが壊れているか、足りないかがわかります。",
+        "報告するのは人々の発言であり、それが常に正しいとは限りません。主張を広める前に確認してください。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "last30days 是一个只做一件事的技能：了解过去一个月里人们对某个话题说了什么。它从 Reddit、X、YouTube、TikTok、Hacker News、Polymarket、GitHub 和网页上抓取帖子和互动数据，然后总结出主要的观点。这弥补了每个模型都有的缺口：训练数据止于某个截止日期，所以没有这类工具，智能体就无法告诉你眼下大家在讨论什么。\n\n在就某个话题写作、决定某个功能或发布产品之前，如果当前的反应比背景知识更重要，就用它。",
+      "bestFor": [
+        "在制作内容前了解受众在聊什么的创作者",
+        "取决于人们当下看法的产品决策",
+        "跟踪人们对一次发布、某个竞争对手或新闻事件的反应"
+      ],
+      "startWith": [
+        {
+          "skill": "last30days",
+          "why": "技能包中唯一的技能：给它一个话题、产品或人物，它就会报告过去一个月的情况。"
+        }
+      ],
+      "beforeInstall": [
+        "并非所有来源都能开箱即用。内置的 doctor 检查会告诉你哪些来源出了问题或缺失。",
+        "它报告的是人们说了什么，而这些并不总是真的。转述某个说法之前，先核实一下。"
+      ]
+    },
+    "es": {
+      "intro": "last30days es una sola skill con un único trabajo: averiguar qué ha dicho la gente sobre un tema en el último mes. Recoge publicaciones e interacciones de Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub y la web, y luego resume las principales líneas de opinión. Eso cubre un hueco que tiene todo modelo: sus datos de entrenamiento terminan en una fecha de corte, así que sin algo así un agente no puede decirte de qué se está hablando ahora mismo.\n\nÚsala antes de escribir sobre un tema, decidir una funcionalidad o lanzar algo, cuando las reacciones actuales importan más que el conocimiento de fondo.",
+      "bestFor": [
+        "Creadores que comprueban de qué habla su público antes de hacer contenido",
+        "Decisiones de producto que dependen de lo que la gente opina hoy sobre algo",
+        "Seguir las reacciones a un lanzamiento, un competidor o una noticia"
+      ],
+      "startWith": [
+        {
+          "skill": "last30days",
+          "why": "La única skill del pack: dale un tema, un producto o una persona y te informa del último mes."
+        }
+      ],
+      "beforeInstall": [
+        "No todas las fuentes funcionan de serie. La comprobación doctor integrada te dice qué fuentes fallan o faltan.",
+        "Informa de lo que dice la gente, que no siempre es verdad. Comprueba una afirmación antes de repetirla."
+      ]
+    },
+    "de": {
+      "intro": "last30days ist ein einzelner Skill mit einer Aufgabe: herausfinden, was im vergangenen Monat über ein Thema gesagt wurde. Er sammelt Beiträge und Engagement von Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub und dem Web und fasst dann die wichtigsten Meinungslinien zusammen. Das schließt eine Lücke, die jedes Modell hat: Seine Trainingsdaten enden an einem Stichtag, also kann ein Agent ohne so etwas nicht sagen, worüber gerade gesprochen wird.\n\nNutze ihn, bevor du über ein Thema schreibst, über ein Feature entscheidest oder etwas launchst, wenn aktuelle Reaktionen wichtiger sind als Hintergrundwissen.",
+      "bestFor": [
+        "Creator, die prüfen, worüber ein Publikum spricht, bevor sie Content erstellen",
+        "Produktentscheidungen, die davon abhängen, wie Menschen heute über etwas denken",
+        "Reaktionen auf einen Launch, einen Wettbewerber oder ein Nachrichtenereignis verfolgen"
+      ],
+      "startWith": [
+        {
+          "skill": "last30days",
+          "why": "Der einzige Skill im Paket: Gib ihm ein Thema, ein Produkt oder eine Person, und er berichtet über den vergangenen Monat."
+        }
+      ],
+      "beforeInstall": [
+        "Nicht jede Quelle funktioniert sofort. Der eingebaute doctor-Check zeigt dir, welche Quellen kaputt sind oder fehlen.",
+        "Er berichtet, was Leute sagen, und das stimmt nicht immer. Prüfe eine Behauptung, bevor du sie weitergibst."
+      ]
+    }
+  },
+  "humanizer": {
+    "en": {
+      "intro": "Humanizer is an editing skill for text an agent drafted. It looks for the patterns that make writing read as machine-made: not-X-but-Y contrasts, one-line closers, staged openers, forced lists of three, dashes everywhere, inflated claims, sales language and stock AI words. Then it rewrites those parts while keeping what the text says.\n\nIt doesn't write from scratch; it's a final pass. Run it on posts, captions, scripts and docs before they go out under your name.",
+      "bestFor": [
+        "Posts, captions and video scripts an agent drafted",
+        "Docs and emails that read as generic",
+        "A last pass after Marketing Skills' copywriting or social skills"
+      ],
+      "startWith": [
+        {
+          "skill": "humanizer",
+          "why": "The only skill in the pack: point it at a draft and it rewrites the AI tells."
+        }
+      ],
+      "beforeInstall": [
+        "It changes wording, not facts. Check the content itself separately.",
+        "Read the result before publishing. Cutting a pattern occasionally removes emphasis you meant to keep."
+      ]
+    },
+    "ko": {
+      "intro": "Humanizer는 에이전트가 쓴 초안을 다듬는 편집 스킬입니다. 글을 기계가 쓴 것처럼 보이게 만드는 패턴을 찾습니다. 'X가 아니라 Y' 식의 대비, 한 줄짜리 마무리, 연출된 도입부, 억지로 맞춘 세 가지 나열, 남발되는 대시, 부풀린 주장, 영업 투의 표현, 상투적인 AI 단어 등입니다. 그런 다음 글의 내용은 유지한 채 해당 부분을 다시 씁니다.\n\n처음부터 글을 쓰지는 않으며, 마지막 손질용입니다. 게시물, 캡션, 스크립트, 문서를 내 이름으로 내보내기 전에 실행하세요.",
+      "bestFor": [
+        "에이전트가 초안을 쓴 게시물, 캡션, 영상 스크립트",
+        "뻔하게 읽히는 문서와 이메일",
+        "Marketing Skills의 copywriting이나 소셜 스킬을 쓴 뒤의 마지막 손질"
+      ],
+      "startWith": [
+        {
+          "skill": "humanizer",
+          "why": "스킬 모음의 유일한 스킬입니다. 초안을 주면 AI 티가 나는 부분을 다시 씁니다."
+        }
+      ],
+      "beforeInstall": [
+        "표현을 바꿀 뿐 사실을 바꾸지는 않습니다. 내용 자체는 따로 확인하세요.",
+        "게시하기 전에 결과를 읽어 보세요. 패턴을 걷어내다 보면 의도했던 강조가 가끔 사라질 수 있습니다."
+      ]
+    },
+    "ja": {
+      "intro": "Humanizerは、エージェントが下書きした文章のための編集スキルです。文章を機械が書いたように見せるパターンを探します。「XではなくY」という対比、一行の締めの文、もったいぶった書き出し、無理やりな3つの列挙、多用されるダッシュ、誇張された主張、売り込み口調、AIにありがちな定番の言葉などです。そして、内容を保ったままその部分を書き直します。\n\nゼロから書くのではなく、仕上げの工程です。投稿、キャプション、台本、ドキュメントを自分の名前で出す前にかけてください。",
+      "bestFor": [
+        "エージェントが下書きした投稿、キャプション、動画の台本",
+        "ありきたりに読めるドキュメントやメール",
+        "Marketing Skillsのcopywritingやソーシャル系スキルの後の最終チェック"
+      ],
+      "startWith": [
+        {
+          "skill": "humanizer",
+          "why": "パック唯一のスキル：下書きを渡すと、AIらしさの出ている箇所を書き直します。"
+        }
+      ],
+      "beforeInstall": [
+        "変えるのは言い回しであり、事実ではありません。内容そのものは別途確認してください。",
+        "公開する前に結果を読んでください。パターンを削った結果、残したかった強調が消えることがたまにあります。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Humanizer 是一个编辑技能，用于处理智能体起草的文本。它会找出让文字读起来像机器写的模式：“不是 X 而是 Y”式的对比、一句话收尾、刻意铺垫的开头、硬凑的三项列举、满篇破折号、夸大的说法、推销腔以及常见的 AI 套话。然后在保留原意的前提下改写这些部分。\n\n它不负责从零写作，而是最后一道工序。在帖子、配文、脚本和文档以你的名义发出之前，用它过一遍。",
+      "bestFor": [
+        "智能体起草的帖子、配文和视频脚本",
+        "读起来千篇一律的文档和邮件",
+        "在 Marketing Skills 的 copywriting 或社交媒体技能之后做最后一遍润色"
+      ],
+      "startWith": [
+        {
+          "skill": "humanizer",
+          "why": "技能包中唯一的技能：把草稿交给它，它会改写其中的 AI 痕迹。"
+        }
+      ],
+      "beforeInstall": [
+        "它改的是措辞，不是事实。内容本身请另行核查。",
+        "发布前读一遍结果。删掉某个模式时，偶尔会把你本想保留的强调一并去掉。"
+      ]
+    },
+    "es": {
+      "intro": "Humanizer es una skill de edición para textos que ha redactado un agente. Busca los patrones que hacen que un texto suene a máquina: contrastes del tipo no-X-sino-Y, cierres de una línea, aperturas teatrales, listas de tres forzadas, guiones por todas partes, afirmaciones infladas, lenguaje de ventas y palabras típicas de IA. Luego reescribe esas partes conservando lo que dice el texto.\n\nNo escribe desde cero; es una pasada final. Úsala en posts, pies de foto, guiones y documentos antes de que salgan con tu nombre.",
+      "bestFor": [
+        "Posts, pies de foto y guiones de vídeo que ha redactado un agente",
+        "Documentos y emails que suenan genéricos",
+        "Una última pasada después de las skills de copywriting o de redes sociales de Marketing Skills"
+      ],
+      "startWith": [
+        {
+          "skill": "humanizer",
+          "why": "La única skill del pack: apúntala a un borrador y reescribe las señales de IA."
+        }
+      ],
+      "beforeInstall": [
+        "Cambia la redacción, no los hechos. Revisa el contenido en sí por separado.",
+        "Lee el resultado antes de publicar. Al quitar un patrón, a veces se pierde un énfasis que querías mantener."
+      ]
+    },
+    "de": {
+      "intro": "Humanizer ist ein Bearbeitungs-Skill für Texte, die ein Agent entworfen hat. Er sucht nach den Mustern, durch die Texte maschinell wirken: Nicht-X-sondern-Y-Kontraste, einzeilige Schlusssätze, inszenierte Einstiege, erzwungene Dreierlisten, Gedankenstriche überall, aufgeblähte Behauptungen, Verkaufssprache und typische KI-Wörter. Dann schreibt er diese Stellen um und behält bei, was der Text aussagt.\n\nEr schreibt nicht von Grund auf; er ist ein letzter Durchgang. Lass ihn über Posts, Captions, Skripte und Dokumente laufen, bevor sie unter deinem Namen rausgehen.",
+      "bestFor": [
+        "Posts, Captions und Videoskripte, die ein Agent entworfen hat",
+        "Dokumente und E-Mails, die generisch klingen",
+        "Ein letzter Durchgang nach den copywriting- oder Social-Skills von Marketing Skills"
+      ],
+      "startWith": [
+        {
+          "skill": "humanizer",
+          "why": "Der einzige Skill im Paket: Richte ihn auf einen Entwurf, und er schreibt die KI-Merkmale um."
+        }
+      ],
+      "beforeInstall": [
+        "Er ändert die Formulierung, nicht die Fakten. Prüfe den Inhalt selbst separat.",
+        "Lies das Ergebnis vor dem Veröffentlichen. Wenn ein Muster wegfällt, geht manchmal eine Betonung verloren, die du behalten wolltest."
+      ]
+    }
+  },
+  "scientific-agent-skills": {
+    "en": {
+      "intro": "Scientific Agent Skills is by far the largest pack here, with 176 skills. Most teach an agent to use one specific scientific library, database or lab platform: scanpy and anndata for single-cell data, rdkit and deepchem for chemistry, biopython and pysam for genomics, astropy for astronomy, pymatgen for materials, qiskit and pennylane for quantum computing. Others cover the research process itself: literature-review, hypothesis-generation, statistical-analysis, scientific-writing, peer-review and research-grants.\n\nNobody needs all of it. Search the skill builder for your field or the libraries you already use, install those, and add a few of the process skills below.",
+      "bestFor": [
+        "Researchers who want an agent to use domain libraries correctly instead of improvising",
+        "Labs working with omics, chemistry, imaging or clinical research data",
+        "Literature reviews, papers and grant applications with an agent's help"
+      ],
+      "startWith": [
+        {
+          "skill": "literature-review",
+          "why": "Systematic or scoping reviews across PubMed, arXiv, bioRxiv and Semantic Scholar, with search coverage tracked."
+        },
+        {
+          "skill": "exploratory-data-analysis",
+          "why": "A bounded first look at a dataset: missing values, leakage, outliers."
+        },
+        {
+          "skill": "statistical-analysis",
+          "why": "Picks the test, checks its assumptions and reports effect sizes in APA format."
+        },
+        {
+          "skill": "scientific-visualization",
+          "why": "Publication-ready, accessible figures with Matplotlib, Seaborn or Plotly."
+        },
+        {
+          "skill": "scientific-writing",
+          "why": "Drafts and audits manuscript sections with every claim traced to its evidence."
+        }
+      ],
+      "beforeInstall": [
+        "Integration skills such as benchling-integration, dnanexus-integration and latchbio-integration need an account on that platform.",
+        "The clinical skills are for research documentation only. clinical-decision-support explicitly excludes patient care, and treatment-plans only formats decisions already made by licensed professionals."
+      ]
+    },
+    "ko": {
+      "intro": "Scientific Agent Skills는 176개의 스킬로 이곳에서 단연 가장 큰 스킬 모음입니다. 대부분은 특정 과학 라이브러리, 데이터베이스, 실험 플랫폼 하나를 쓰는 법을 에이전트에 가르칩니다. 단일 세포 데이터를 위한 scanpy와 anndata, 화학을 위한 rdkit과 deepchem, 유전체학을 위한 biopython과 pysam, 천문학을 위한 astropy, 재료 과학을 위한 pymatgen, 양자 컴퓨팅을 위한 qiskit과 pennylane 등이 있습니다. 나머지는 literature-review, hypothesis-generation, statistical-analysis, scientific-writing, peer-review, research-grants처럼 연구 과정 자체를 다룹니다.\n\n전부 필요한 사람은 없습니다. 스킬 빌더에서 내 분야나 이미 쓰는 라이브러리를 검색해 설치하고, 아래의 연구 과정 스킬 몇 개를 추가하세요.",
+      "bestFor": [
+        "에이전트가 즉흥적으로 처리하지 않고 도메인 라이브러리를 올바르게 쓰길 원하는 연구자",
+        "오믹스, 화학, 이미징, 임상 연구 데이터를 다루는 연구실",
+        "에이전트의 도움을 받는 문헌 검토, 논문, 연구비 신청서 작성"
+      ],
+      "startWith": [
+        {
+          "skill": "literature-review",
+          "why": "PubMed, arXiv, bioRxiv, Semantic Scholar를 아우르는 체계적 문헌 고찰이나 범위 검토를 수행하며, 검색 범위를 기록합니다."
+        },
+        {
+          "skill": "exploratory-data-analysis",
+          "why": "결측값, 데이터 누수, 이상치 등 데이터셋을 범위를 정해 처음 살펴봅니다."
+        },
+        {
+          "skill": "statistical-analysis",
+          "why": "검정 방법을 고르고, 가정을 확인하며, 효과 크기를 APA 형식으로 보고합니다."
+        },
+        {
+          "skill": "scientific-visualization",
+          "why": "Matplotlib, Seaborn, Plotly로 출판 수준의 접근성 높은 그림을 만듭니다."
+        },
+        {
+          "skill": "scientific-writing",
+          "why": "모든 주장을 근거까지 추적하며 원고 섹션을 작성하고 점검합니다."
+        }
+      ],
+      "beforeInstall": [
+        "benchling-integration, dnanexus-integration, latchbio-integration 같은 통합 스킬은 해당 플랫폼의 계정이 필요합니다.",
+        "임상 스킬은 연구 문서화 용도로만 쓰입니다. clinical-decision-support는 환자 진료를 명시적으로 제외하며, treatment-plans는 면허를 가진 전문가가 이미 내린 결정을 서식에 맞게 정리할 뿐입니다."
+      ]
+    },
+    "ja": {
+      "intro": "Scientific Agent Skillsは、176のスキルを持つ、ここで群を抜いて最大のパックです。大半は特定の科学ライブラリ、データベース、ラボプラットフォームの使い方をエージェントに教えるものです。シングルセルデータのためのscanpyとanndata、化学のためのrdkitとdeepchem、ゲノミクスのためのbiopythonとpysam、天文学のためのastropy、材料科学のためのpymatgen、量子コンピューティングのためのqiskitとpennylaneなどです。ほかに研究プロセスそのものを扱うスキルもあります：literature-review、hypothesis-generation、statistical-analysis、scientific-writing、peer-review、research-grants。\n\nすべてが必要な人はいません。スキルビルダーで自分の分野やすでに使っているライブラリを検索してそれらをインストールし、下に挙げたプロセス系スキルをいくつか追加してください。",
+      "bestFor": [
+        "エージェントに場当たり的ではなく、分野のライブラリを正しく使わせたい研究者",
+        "オミクス、化学、イメージング、臨床研究のデータを扱うラボ",
+        "エージェントの助けを借りた文献レビュー、論文、研究助成金の申請"
+      ],
+      "startWith": [
+        {
+          "skill": "literature-review",
+          "why": "PubMed、arXiv、bioRxiv、Semantic Scholarを横断するシステマティックレビューやスコーピングレビュー。検索の網羅範囲も記録します。"
+        },
+        {
+          "skill": "exploratory-data-analysis",
+          "why": "範囲を絞ったデータセットの初期確認：欠損値、リーケージ、外れ値。"
+        },
+        {
+          "skill": "statistical-analysis",
+          "why": "検定を選び、その前提を確認し、効果量をAPA形式で報告します。"
+        },
+        {
+          "skill": "scientific-visualization",
+          "why": "Matplotlib、Seaborn、Plotlyで、論文掲載レベルのアクセシブルな図を作ります。"
+        },
+        {
+          "skill": "scientific-writing",
+          "why": "原稿の各セクションを下書き・監査し、すべての主張を根拠にたどれるようにします。"
+        }
+      ],
+      "beforeInstall": [
+        "benchling-integration、dnanexus-integration、latchbio-integrationなどの連携スキルには、そのプラットフォームのアカウントが必要です。",
+        "臨床系スキルは研究のための文書作成専用です。clinical-decision-supportは患者のケアを明示的に対象外としており、treatment-plansは資格を持つ専門家がすでに下した判断を整形するだけです。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Scientific Agent Skills 是这里规模最大的技能包，多达 176 个技能。大多数技能教智能体使用某个特定的科学库、数据库或实验室平台：单细胞数据用 scanpy 和 anndata，化学用 rdkit 和 deepchem，基因组学用 biopython 和 pysam，天文学用 astropy，材料科学用 pymatgen，量子计算用 qiskit 和 pennylane。其他技能则覆盖研究过程本身：literature-review、hypothesis-generation、statistical-analysis、scientific-writing、peer-review 和 research-grants。\n\n没有人需要全部技能。在技能构建器中搜索你的领域或你已在使用的库，安装这些技能，再加上下面几个流程类技能。",
+      "bestFor": [
+        "希望智能体正确使用领域库、而不是即兴发挥的研究人员",
+        "处理组学、化学、成像或临床研究数据的实验室",
+        "借助智能体完成文献综述、论文和基金申请"
+      ],
+      "startWith": [
+        {
+          "skill": "literature-review",
+          "why": "跨 PubMed、arXiv、bioRxiv 和 Semantic Scholar 进行系统综述或范围综述，并记录检索覆盖情况。"
+        },
+        {
+          "skill": "exploratory-data-analysis",
+          "why": "对数据集做一次有边界的初步检查：缺失值、数据泄漏、异常值。"
+        },
+        {
+          "skill": "statistical-analysis",
+          "why": "选择检验方法、检查其前提假设，并以 APA 格式报告效应量。"
+        },
+        {
+          "skill": "scientific-visualization",
+          "why": "用 Matplotlib、Seaborn 或 Plotly 制作可直接发表、无障碍的图表。"
+        },
+        {
+          "skill": "scientific-writing",
+          "why": "起草和审核稿件章节，让每一个论断都能追溯到证据。"
+        }
+      ],
+      "beforeInstall": [
+        "benchling-integration、dnanexus-integration 和 latchbio-integration 等集成技能需要你在对应平台上有账户。",
+        "临床技能仅用于研究文档。clinical-decision-support 明确排除患者诊疗，treatment-plans 只负责整理由持证专业人员已经做出的决定。"
+      ]
+    },
+    "es": {
+      "intro": "Scientific Agent Skills es, con diferencia, el pack más grande de aquí, con 176 skills. La mayoría enseña a un agente a usar una biblioteca, base de datos o plataforma de laboratorio científica concreta: scanpy y anndata para datos de célula única, rdkit y deepchem para química, biopython y pysam para genómica, astropy para astronomía, pymatgen para materiales, qiskit y pennylane para computación cuántica. Otras cubren el propio proceso de investigación: literature-review, hypothesis-generation, statistical-analysis, scientific-writing, peer-review y research-grants.\n\nNadie lo necesita entero. Busca en el constructor de skills tu campo o las bibliotecas que ya usas, instala esas y añade algunas de las skills de proceso de abajo.",
+      "bestFor": [
+        "Investigadores que quieren que un agente use correctamente las bibliotecas de su campo en lugar de improvisar",
+        "Laboratorios que trabajan con datos ómicos, de química, de imagen o de investigación clínica",
+        "Revisiones bibliográficas, artículos y solicitudes de financiación con ayuda de un agente"
+      ],
+      "startWith": [
+        {
+          "skill": "literature-review",
+          "why": "Revisiones sistemáticas o exploratorias en PubMed, arXiv, bioRxiv y Semantic Scholar, con seguimiento de la cobertura de búsqueda."
+        },
+        {
+          "skill": "exploratory-data-analysis",
+          "why": "Un primer vistazo acotado a un dataset: valores ausentes, fugas de datos, valores atípicos."
+        },
+        {
+          "skill": "statistical-analysis",
+          "why": "Elige la prueba, comprueba sus supuestos e informa de los tamaños del efecto en formato APA."
+        },
+        {
+          "skill": "scientific-visualization",
+          "why": "Figuras accesibles y listas para publicar con Matplotlib, Seaborn o Plotly."
+        },
+        {
+          "skill": "scientific-writing",
+          "why": "Redacta y revisa secciones de manuscritos con cada afirmación vinculada a su evidencia."
+        }
+      ],
+      "beforeInstall": [
+        "Las skills de integración como benchling-integration, dnanexus-integration y latchbio-integration necesitan una cuenta en esa plataforma.",
+        "Las skills clínicas son solo para documentación de investigación. clinical-decision-support excluye explícitamente la atención a pacientes, y treatment-plans solo da formato a decisiones ya tomadas por profesionales con licencia."
+      ]
+    },
+    "de": {
+      "intro": "Scientific Agent Skills ist mit 176 Skills mit Abstand das größte Paket hier. Die meisten bringen einem Agenten bei, eine bestimmte wissenschaftliche Bibliothek, Datenbank oder Laborplattform zu nutzen: scanpy und anndata für Single-Cell-Daten, rdkit und deepchem für Chemie, biopython und pysam für Genomik, astropy für Astronomie, pymatgen für Materialien, qiskit und pennylane für Quantencomputing. Andere decken den Forschungsprozess selbst ab: literature-review, hypothesis-generation, statistical-analysis, scientific-writing, peer-review und research-grants.\n\nNiemand braucht alles davon. Such im Skill-Builder nach deinem Fachgebiet oder den Bibliotheken, die du schon nutzt, installiere diese und ergänze ein paar der Prozess-Skills unten.",
+      "bestFor": [
+        "Forschende, die wollen, dass ein Agent Fachbibliotheken korrekt nutzt, statt zu improvisieren",
+        "Labore, die mit Omics-, Chemie-, Bildgebungs- oder klinischen Forschungsdaten arbeiten",
+        "Literaturübersichten, Paper und Förderanträge mit Unterstützung eines Agenten"
+      ],
+      "startWith": [
+        {
+          "skill": "literature-review",
+          "why": "Systematische oder Scoping-Reviews über PubMed, arXiv, bioRxiv und Semantic Scholar, mit nachverfolgter Suchabdeckung."
+        },
+        {
+          "skill": "exploratory-data-analysis",
+          "why": "Ein abgegrenzter erster Blick auf einen Datensatz: fehlende Werte, Leakage, Ausreißer."
+        },
+        {
+          "skill": "statistical-analysis",
+          "why": "Wählt den Test, prüft seine Annahmen und berichtet Effektstärken im APA-Format."
+        },
+        {
+          "skill": "scientific-visualization",
+          "why": "Publikationsreife, barrierefreie Abbildungen mit Matplotlib, Seaborn oder Plotly."
+        },
+        {
+          "skill": "scientific-writing",
+          "why": "Entwirft und prüft Manuskriptabschnitte, wobei jede Behauptung auf ihre Belege zurückgeführt wird."
+        }
+      ],
+      "beforeInstall": [
+        "Integrations-Skills wie benchling-integration, dnanexus-integration und latchbio-integration brauchen ein Konto auf der jeweiligen Plattform.",
+        "Die klinischen Skills sind nur für die Forschungsdokumentation gedacht. clinical-decision-support schließt die Patientenversorgung ausdrücklich aus, und treatment-plans formatiert nur Entscheidungen, die zugelassene Fachkräfte bereits getroffen haben."
+      ]
+    }
+  }
+}

@@ -204,7 +204,7 @@ export function SkillBuilder({
                     <button type="button" onClick={() => toggle(ids, !allPicked)} className="text-accent hover:underline">
                       {allPicked ? t.clearPack : t.selectPack}
                     </button>
-                    <Link href={`/${locale}/projects/${pack.slug}`} className="text-muted-foreground hover:text-foreground">
+                    <Link href={`/${locale}/skills/${pack.slug}`} className="text-muted-foreground hover:text-foreground">
                       {t.viewPack}
                     </Link>
                   </div>

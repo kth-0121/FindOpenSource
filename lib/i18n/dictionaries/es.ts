@@ -312,6 +312,16 @@ const dictionary: Dictionary = {
     presetDetails: "Ver detalles",
     benefitsLabel: "Por qué ayuda",
     includedLabel: "Skills incluidas",
+    packGuide: {
+      title: "Guía de {name}: para quién es y por dónde empezar",
+      bestForHeading: "Para quién es",
+      startWithHeading: "Empieza por estas",
+      openInBuilder: "Abrir en el constructor de skills",
+      beforeInstallHeading: "Antes de instalar",
+      allSkillsHeading: "Las {count} skills",
+      projectLink: "Resumen del proyecto, licencia y enlaces",
+      guidesHeading: "Guías de paquetes de skills",
+    },
     setups: {
       heading: "Setups de desarrolladores conocidos",
       intro: "Los setups de Claude Code que estas personas usan a diario, publicados como open source. Cada uno se instala completo con su comando oficial.",

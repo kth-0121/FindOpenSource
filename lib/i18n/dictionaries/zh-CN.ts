@@ -311,6 +311,16 @@ const dictionary: Dictionary = {
     presetDetails: "查看详情",
     benefitsLabel: "有什么好处",
     includedLabel: "包含的技能",
+    packGuide: {
+      title: "{name} 指南：适合谁，从哪里开始",
+      bestForHeading: "适合人群",
+      startWithHeading: "从这些开始",
+      openInBuilder: "在技能构建器中打开",
+      beforeInstallHeading: "安装前须知",
+      allSkillsHeading: "全部 {count} 个技能",
+      projectLink: "项目概览、许可证和链接",
+      guidesHeading: "技能包指南",
+    },
     setups: {
       heading: "知名开发者的配置",
       intro: "这些人每天使用的 Claude Code 配置已经开源。每套配置都用官方命令整体安装。",

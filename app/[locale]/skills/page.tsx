@@ -66,6 +66,20 @@ export default async function SkillsPage({ params }: SkillsPageProps) {
           />
         </Suspense>
       </div>
+      <nav aria-labelledby="pack-guides" className="mt-12">
+        <h2 id="pack-guides" className="mb-3 text-sm font-medium text-muted-foreground">
+          {dict.skills.packGuide.guidesHeading}
+        </h2>
+        <ul className="flex flex-wrap gap-2">
+          {getSkillPacks(locale).map((pack) => (
+            <li key={pack.slug}>
+              <Link href={`/${locale}/skills/${pack.slug}`} className="rounded-full border border-border px-3 py-1 text-sm hover:border-accent hover:text-accent">
+                {pack.name}
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </nav>
     </div>
   );
 }

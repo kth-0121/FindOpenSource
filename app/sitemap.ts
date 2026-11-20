@@ -3,6 +3,7 @@ import { getAllProjects } from "@/lib/projects";
 import { getAllCategories } from "@/lib/categories";
 import { defaultLocale, locales, type Locale } from "@/lib/i18n/config";
 import { buildAlternates } from "@/lib/i18n/metadata";
+import { SKILL_PACK_ORDER } from "@/lib/skills";
 
 /** One sitemap `<url>` entry per locale for a given locale-independent path, each annotated with hreflang alternates to every other locale. */
 function entriesForPath(path: string, lastModified?: Date, only: readonly Locale[] = locales): MetadataRoute.Sitemap {
@@ -50,5 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     entriesForPath(`/categories/${category.slug}`),
   );
 
-  return [...staticEntries, ...projectEntries, ...categoryEntries];
+  const packEntries = SKILL_PACK_ORDER.flatMap((pack) => entriesForPath(`/skills/${pack}`, now));
+
+  return [...staticEntries, ...projectEntries, ...categoryEntries, ...packEntries];
 }

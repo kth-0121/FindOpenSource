@@ -151,6 +151,8 @@ export interface Dictionary {
     presetDetails: string;
     benefitsLabel: string;
     includedLabel: string;
+    /** /skills/[pack] guide pages. title: {name}; allSkillsHeading: {count} */
+    packGuide: Record<"title" | "bestForHeading" | "startWithHeading" | "openInBuilder" | "beforeInstallHeading" | "allSkillsHeading" | "projectLink" | "guidesHeading", string>;
     setups: {
       heading: string;
       intro: string;
