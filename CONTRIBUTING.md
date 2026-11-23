@@ -65,7 +65,7 @@ but you only ever need to fill in the English fields above to add a project.
 | `name`          | Yes      | The project's display name.                                                 |
 | `slug`          | Yes      | Lowercase, hyphen-separated identifier. Must match the file name.           |
 | `description`   | Yes      | 10–280 characters. See tips below.                                          |
-| `repository`    | Yes      | The GitHub repository URL (must start with `https://github.com/`).          |
+| `repository`    | Yes      | The source repository URL (usually `https://github.com/...`).               |
 | `website`       | No       | The project's official website, if it has one separate from GitHub.         |
 | `documentation` | No       | A link to the docs, if available.                                          |
 | `categories`    | Yes      | One or more slugs from `data/categories.json`. See below.                   |

@@ -57,14 +57,14 @@
       "stargazersCount": 3678,
       "productionReadiness": "emerging",
       "governance": "vendor-backed",
-      "evaluatedAt": "2026-09-16",
-      "score": 81
+      "evaluatedAt": "2026-11-23",
+      "score": 76
     },
     "catalogValue": {
       "rating": 2,
       "rationale": "eBPF-based auto-instrumentation for observability, a newer entrant with meaningful OpenTelemetry overlap."
     },
-    "flag": "ok"
+    "flag": "hold"
   },
   "intents": [
     {

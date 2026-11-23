@@ -60,12 +60,12 @@
       "lastCommitAt": "2026-07-29",
       "repoCreatedAt": "2018-05-29",
       "archived": false,
-      "openIssuesCount": 224,
-      "stargazersCount": 13879,
+      "openIssuesCount": 244,
+      "stargazersCount": 13964,
       "productionReadiness": "mature",
       "governance": "vendor-backed",
-      "evaluatedAt": "2026-09-16",
-      "score": 85
+      "evaluatedAt": "2026-11-23",
+      "score": 79
     },
     "catalogValue": {
       "rating": 3,

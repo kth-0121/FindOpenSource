@@ -1,0 +1,57 @@
+name: Refresh data
+
+# Weekly re-pull of every skill pack's SKILL.md files and every project's GitHub
+# evidence (last push, archived, stars, quality score). Opens (or updates) a PR
+# when anything changed; if skills changed, CI on that PR fails until the new or
+# changed descriptions are translated in data/skill-translations.json.
+on:
+  schedule:
+    - cron: "0 0 * * 1" # Mondays 09:00 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Collect skills
+        run: npx tsx scripts/collect-skills.ts
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Refresh project repo metadata
+        run: npx tsx scripts/refresh-repo-metadata.ts
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Open a PR when upstream changed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet data/; then
+            echo "No upstream changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git switch -c data-refresh
+          git commit -am "chore: weekly data refresh"
+          git push --force origin data-refresh
+          gh pr view data-refresh > /dev/null 2>&1 || gh pr create \
+            --title "chore: weekly data refresh" \
+            --body "Refreshed skills and project repo metadata. If data/skills.json changed, translate new or changed descriptions in data/skill-translations.json (lib/skills.test.ts lists them), then merge."

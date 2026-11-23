@@ -55,11 +55,11 @@
   },
   "evaluation": {
     "quality": {
-      "lastCommitAt": "2026-09-15",
+      "lastCommitAt": "2026-11-23",
       "repoCreatedAt": "2011-04-26",
       "archived": false,
-      "openIssuesCount": 422,
-      "stargazersCount": 53880,
+      "openIssuesCount": 458,
+      "stargazersCount": 54177,
       "productionReadiness": "foundational",
       "governance": "vendor-backed",
       "evaluatedAt": "2026-09-16",

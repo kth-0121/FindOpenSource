@@ -67,7 +67,7 @@ export function parseFrontmatter(markdown: string): Record<string, string> {
  */
 const EXTRA_SOURCES: Record<string, Record<string, string[]>> = {
   "vercel-agent-skills": {
-    "vercel/ai": ["skills/use-ai-sdk", "skills/migrate-ai-sdk-v6-to-v7"],
+    "vercel/ai": ["skills/ai-sdk", "skills/migrate-ai-sdk-v6-to-v7"],
     "vercel/ai-elements": ["skills/ai-elements"],
     "vercel/chat": ["skills/chat"],
     "vercel/flags": ["skills/flags-sdk", "skills/vercel-flags"],
@@ -102,7 +102,14 @@ function main() {
     }
     let kept = 0;
     for (const { repo, branch, file } of sources) {
-      const content = gh([`repos/${repo}/contents/${file}?ref=${branch}`, "-H", "Accept: application/vnd.github.raw"]);
+      let content: string;
+      try {
+        content = gh([`repos/${repo}/contents/${file}?ref=${branch}`, "-H", "Accept: application/vnd.github.raw"]);
+      } catch {
+        // A moved EXTRA_SOURCES folder shouldn't sink the whole refresh; the PR diff shows the skill dropping out.
+        console.warn(`  skip ${repo}/${file}: not found`);
+        continue;
+      }
       const fm = parseFrontmatter(content);
       if (!fm.name || !fm.description) {
         console.warn(`  skip ${repo}/${file}: no name/description`);

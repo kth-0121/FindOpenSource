@@ -112,13 +112,7 @@ export const projectSchema = z.object({
     .min(40, "longDescription should be at least 40 characters")
     .max(2500, "longDescription should be at most 2500 characters")
     .optional(),
-  repository: z
-    .string()
-    .url("repository must be a valid URL")
-    .refine(
-      (url) => url.startsWith("https://github.com/"),
-      "repository must be a GitHub URL (https://github.com/...)",
-    ),
+  repository: z.string().url("repository must be a valid URL"),
   website: z.string().url("website must be a valid URL").optional(),
   documentation: z.string().url("documentation must be a valid URL").optional(),
   categories: z
