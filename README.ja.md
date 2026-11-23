@@ -18,7 +18,9 @@ FindOpenSource は別の問いから出発します：
 課題を解決するオープンソースプロジェクトの厳選リストが表示されます — ライセンス、開発言語、
 リンクなど、素早く評価するための情報も一緒に確認できます。
 
-現在、カタログには 21 のカテゴリにわたって **245 件の厳選プロジェクト** が掲載されています。
+カタログには 21 のカテゴリにわたって **240+ 件の厳選プロジェクト** が掲載されており、さらに
+10 のスキルパックから集めた **300+ のエージェントスキル** を、1 つのインストールコマンドに
+まとめて組み合わせられます。
 
 FindOpenSource は完全に静的で、コミュニティによって運営されているディレクトリです。ログインも、
 データベースも、バックエンドサービスもありません。すべてのプロジェクトは 1 つの JSON ファイルで
@@ -44,6 +46,13 @@ FindOpenSource は完全に静的で、コミュニティによって運営さ�
 - **カタログ評価** — すべてのプロジェクトに、なぜこのカタログに含まれているかを説明する 0〜5
   の評価と根拠、成熟度・ガバナンスのタグが付いています。詳細は
   [`docs/project-evaluation.md`](docs/project-evaluation.md) を参照してください。
+- **エージェントスキルビルダー** — 10 のパック（Anthropic、Vercel、Superpowers など）からスキルを
+  選び、使うエージェント（Claude Code、Codex、Cursor など）を選んで、インストールコマンド 1 つまたは
+  プロンプトをコピーできます。選択内容はリンクで共有できます（`/ja/skills?skills=superpowers/brainstorming`）。
+- **スキルパックガイド** — パックごとに 1 ページ：どんな人向けか、どのスキルから始めるか、インストール
+  前に確認すべきこと、そして収録されているすべてのスキル（`/ja/skills/superpowers`）。
+- **開発者のセットアップ** — 著名な開発者がオープンソースで公開している Claude Code のセットアップ
+  一式を、それぞれの公式インストーラーとともに紹介します（`/ja/setups`）。
 - **カテゴリ閲覧** — AI や AI エージェントから DevOps まで、21 個の厳選されたカテゴリ。
 - **静的で高速** — Next.js App Router で構築されており、ローカライズされたすべてのプロジェクト・
   カテゴリ・比較ページはビルド時に静的生成されます。
@@ -70,6 +79,9 @@ FindOpenSource は完全に静的で、コミュニティによって運営さ�
 /en/search?q=authentication
 /en/compare?a=meilisearch&b=typesense
 /en/analyze?repo=vercel/next.js
+/en/skills
+/en/skills/superpowers
+/en/setups
 
 /ja
 /ja/projects/supabase
@@ -114,9 +126,14 @@ AI・機械学習 · AIエージェント & エージェントツール · 認�
   そのため、どの言語であってもキーが欠けていれば実行時に空文字になるのではなく、コンパイル時に
   エラーになります。
 - **プロジェクトデータ**はプロジェクトごとに 1 つの標準（英語）JSON ファイルとして管理されます。
-  プロジェクトは任意でロケールごとに翻訳された `description`/`keywords` を持つ `translations`
-  オブジェクトを追加でき、翻訳がない場合は常に英語がフォールバックになります。詳細は
-  [CONTRIBUTING.md](CONTRIBUTING.md#adding-translated-descriptions-optional) を参照してください。
+  プロジェクトはロケールごとに翻訳された `description`・`longDescription`・`keywords` と
+  カタログ評価の `rationale` を持つ `translations` オブジェクトを追加できます。現在、掲載されている
+  すべてのプロジェクトが 6 言語すべてに翻訳されており、翻訳がない場合は英語がフォールバックになります。
+  詳細は [CONTRIBUTING.md](CONTRIBUTING.md#adding-translated-descriptions-optional) を参照してください。
+- **スキルの説明**は各スキルのアップストリームの `SKILL.md` から取得され、
+  [`data/skill-translations.json`](data/skill-translations.json) で翻訳されています。毎週の
+  ワークフローがスキルパックを再取得して PR を作成し、新規または変更された説明が翻訳されるまで
+  テストは失敗します。
 - **カテゴリの名前・説明**は各辞書ファイルに完全に翻訳されています（プロジェクト一覧とは異なり、
   カテゴリはメンテナーが管理する小規模で固定的な分類体系です）。
 
@@ -156,7 +173,7 @@ npm run dev         # http://localhost:3000/en でローカル開発サーバー
 npm run lint         # コードベースの lint
 npm run typecheck    # TypeScript コンパイラの実行
 npm run validate     # data/projects/ 内のすべてのプロジェクトデータを検証
-npm test             # ユニットテストの実行（検索、AI レイヤー、リポジトリ分析）
+npm test             # ユニットテストの実行（検索、AI レイヤー、リポジトリ分析、スキル、プロジェクト）
 npm run build         # 本番用ビルド
 ```
 
@@ -169,6 +186,8 @@ app/
     search/              検索結果 (/[locale]/search?q=...)
     compare/              比較インデックス + 2 プロジェクト選択 UI (/[locale]/compare)
     analyze/              GitHub リポジトリ分析 (/[locale]/analyze?repo=owner/name)
+    skills/               エージェントスキルビルダー (/[locale]/skills) + パックごとのガイド (skills/[pack])
+    setups/               開発者の Claude Code セットアップ (/[locale]/setups)
     projects/[slug]/     プロジェクト詳細ページ
     categories/[slug]/   カテゴリページ
     about/, contribute/, contact/, privacy/, terms/, support/  静的コンテンツページ
@@ -183,10 +202,14 @@ components/           再利用可能な UI コンポーネント（ロケール
   ComparePicker.tsx      /compare 用のクライアント側プロジェクト選択コンポーネント
   ComparisonTable.tsx    選択した 2 プロジェクトを並べて表示する比較カード
   RepoAnalyzer.tsx       /analyze 用のクライアント側 GitHub リポジトリ分析コンポーネント
+  SkillBuilder.tsx       /skills 用のクライアント側スキル選択・インストールコマンド生成コンポーネント
 data/
   projects/*.json        プロジェクトごとに 1 つの標準ファイル；任意でロケールごとの `translations` と
                            レジストリの `packages`（リポジトリ分析で使う npm/PyPI/Go/Cargo のパッケージ名）
   categories.json         標準（英語）カテゴリ定義；固定の slug
+  skills.json             収集したすべてのスキル（scripts/collect-skills.ts が生成）
+  skill-translations.json 翻訳されたスキルの説明（pack/skill をキーとする）
+  skill-pack-guides.json  6 言語すべてで手書きされたパックごとのガイド
 lib/
   schema.ts               プロジェクト・カテゴリ用の Zod スキーマ
   projects.ts, categories.ts   ロケール対応の解決とフォールバックを行うデータローダー
@@ -206,16 +229,17 @@ lib/
 scripts/
   validate-projects.ts     データ検証、CI で実行
   audit-projects.ts        読み取り専用レポート：カバレッジ、更新の停滞、カテゴリのバランス、重複
-.github/               Issue/PR テンプレートと検証ワークフロー
+  collect-skills.ts        各スキルパックの SKILL.md ファイルを data/skills.json に取り込み
+.github/               Issue/PR テンプレート、検証ワークフロー、毎週のスキル更新
 ```
 
 ## ロードマップ
 
 - [ ] 初期の厳選セットを超えてプロジェクトディレクトリを拡充
 - [ ] ディレクトリの成長に合わせて、より細かいサブカテゴリを追加
-- [ ] 初期のフラッグシップセットを超えて、より多くのプロジェクト説明を翻訳
+- [x] すべてのプロジェクトの説明を 6 言語すべてに翻訳
 - [ ] 追加ロケールへの対応（`fr`、`pt-BR`、`hi`、`ru` など）
-- [ ] Google AdSense の導入（レイアウトにはすでに広告スペースを確保済み）
+- [x] Google AdSense の導入
 - [ ] プロジェクトのロゴ・アイコン
 
 ## ライセンス

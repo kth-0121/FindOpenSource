@@ -18,7 +18,8 @@ FindOpenSource는 다른 질문에서 출발합니다:
 해결하는 오픈소스 프로젝트 목록을 큐레이션해서 보여줍니다 — 빠르게 판단할 수 있도록 라이선스,
 언어, 링크 같은 정보도 함께 제공합니다.
 
-현재 카탈로그에는 21개 카테고리에 걸쳐 **245개의 큐레이션된 프로젝트**가 등록되어 있습니다.
+카탈로그에는 21개 카테고리에 걸쳐 **240개 이상의 큐레이션된 프로젝트**가 등록되어 있고, 10개 스킬
+모음에서 골라 한 번에 설치할 수 있는 **300개 이상의 에이전트 스킬**도 있습니다.
 
 FindOpenSource는 완전히 정적이고 커뮤니티가 함께 관리하는 디렉터리입니다. 로그인도, 데이터베이스도,
 백엔드 서버도 없습니다. 모든 프로젝트는 하나의 JSON 파일이며, GitHub 풀 리퀘스트를 통해 검토되고
@@ -44,6 +45,13 @@ FindOpenSource는 완전히 정적이고 커뮤니티가 함께 관리하는 디
 - **카탈로그 평점** — 모든 프로젝트에는 0~5점 평점과 왜 이 카탈로그에 포함되었는지를 설명하는
   근거, 그리고 성숙도/거버넌스 태그가 함께 붙습니다. 자세한 내용은
   [`docs/project-evaluation.md`](docs/project-evaluation.md)를 참고하세요.
+- **에이전트 스킬 빌더** — 10개 스킬 모음(Anthropic, Vercel, Superpowers 등)에서 스킬을 고르고
+  에이전트(Claude Code, Codex, Cursor 등)를 선택하면 설치 명령어 한 줄이나 프롬프트를 복사할 수
+  있습니다. 고른 스킬은 링크로 공유됩니다 (`/ko/skills?skills=superpowers/brainstorming`).
+- **스킬 모음 가이드** — 스킬 모음마다 누구에게 맞는지, 어떤 스킬부터 쓰면 좋은지, 설치 전에
+  확인할 점, 들어 있는 전체 스킬 목록을 한 페이지로 정리했습니다 (`/ko/skills/superpowers`).
+- **개발자 셋업** — 잘 알려진 개발자들이 공개한 Claude Code 셋업을 공식 설치 방법과 함께
+  모았습니다 (`/ko/setups`).
 - **카테고리 탐색** — AI와 AI 에이전트부터 DevOps까지 21개의 큐레이션된 카테고리.
 - **정적이고 빠름** — Next.js App Router로 빌드되어, 모든 지역화된 프로젝트/카테고리/비교
   페이지가 빌드 시점에 정적으로 생성됩니다.
@@ -70,6 +78,9 @@ FindOpenSource는 완전히 정적이고 커뮤니티가 함께 관리하는 디
 /en/search?q=authentication
 /en/compare?a=meilisearch&b=typesense
 /en/analyze?repo=vercel/next.js
+/en/skills
+/en/skills/superpowers
+/en/setups
 
 /ko
 /ko/projects/supabase
@@ -112,10 +123,14 @@ UI & 컴포넌트 · 분석 · 스토리지 · 자동화 · DevOps · 검색 · 
   하나씩 파일이 있는 [`lib/i18n/dictionaries/`](lib/i18n/dictionaries/)에 있으며, 모두 동일한
   [`Dictionary`](lib/i18n/types.ts) TypeScript 인터페이스를 구현합니다 — 그래서 어떤 언어든
   키가 빠지면 런타임에 빈 문자열이 아니라 컴파일 타임 에러가 발생합니다.
-- **프로젝트 데이터**는 프로젝트당 하나의 표준(영어) JSON 파일로 유지됩니다. 프로젝트는 선택적으로
-  로케일별 `description`/`keywords`가 담긴 `translations` 객체를 추가할 수 있으며, 번역이
-  없으면 항상 영어가 대체됩니다. 자세한 내용은
+- **프로젝트 데이터**는 프로젝트당 하나의 표준(영어) JSON 파일로 유지됩니다. 프로젝트는 로케일별
+  `description`, `longDescription`, `keywords`와 카탈로그 평가 `rationale`이 담긴 `translations`
+  객체를 둘 수 있습니다. 현재 등록된 모든 프로젝트가 6개 언어로 번역되어 있고, 번역이 없으면
+  영어가 대체됩니다. 자세한 내용은
   [CONTRIBUTING.md](CONTRIBUTING.md#adding-translated-descriptions-optional)를 참고하세요.
+- **스킬 설명**은 각 스킬의 원본 `SKILL.md`에서 가져오고,
+  [`data/skill-translations.json`](data/skill-translations.json)에서 번역합니다. 매주 워크플로가
+  스킬 모음을 다시 가져와 PR을 열며, 새로 생기거나 바뀐 설명이 번역될 때까지 테스트가 실패합니다.
 - **카테고리 이름/설명**은 각 딕셔너리 파일에 모두 번역되어 있습니다 (카테고리는 프로젝트 목록과
   달리 관리자가 직접 관리하는 소규모 고정 분류 체계입니다).
 
@@ -154,7 +169,7 @@ npm run dev         # http://localhost:3000/en 에서 로컬 개발 서버 실�
 npm run lint         # 코드베이스 린트
 npm run typecheck    # TypeScript 컴파일러 실행
 npm run validate     # data/projects/ 의 모든 프로젝트 데이터 검증
-npm test             # 단위 테스트 실행 (검색, AI 레이어, 저장소 분석기)
+npm test             # 단위 테스트 실행 (검색, AI 레이어, 저장소 분석기, 스킬, 프로젝트)
 npm run build         # 프로덕션 빌드
 ```
 
@@ -167,6 +182,8 @@ app/
     search/              검색 결과 (/[locale]/search?q=...)
     compare/              비교 인덱스 + 두 프로젝트 선택 UI (/[locale]/compare)
     analyze/              GitHub 저장소 분석기 (/[locale]/analyze?repo=owner/name)
+    skills/               에이전트 스킬 빌더 (/[locale]/skills) + 스킬 모음별 가이드 (skills/[pack])
+    setups/               개발자 Claude Code 셋업 (/[locale]/setups)
     projects/[slug]/     프로젝트 상세 페이지
     categories/[slug]/   카테고리 페이지
     about/, contribute/, contact/, privacy/, terms/, support/  정적 콘텐츠 페이지
@@ -181,10 +198,14 @@ components/           재사용 가능한 UI 컴포넌트(로케일/딕셔너리
   ComparePicker.tsx      /compare용 클라이언트 프로젝트 선택 컴포넌트
   ComparisonTable.tsx    선택된 두 프로젝트를 나란히 보여주는 비교 카드
   RepoAnalyzer.tsx       /analyze용 클라이언트 GitHub 저장소 분석기
+  SkillBuilder.tsx       /skills용 클라이언트 스킬 선택 및 설치 명령어 생성기
 data/
   projects/*.json        프로젝트당 하나의 표준 파일; 선택적으로 로케일별 `translations` 및
                            레지스트리 `packages` (저장소 분석기가 사용하는 npm/PyPI/Go/Cargo 이름)
   categories.json         표준(영어) 카테고리 정의; 고정 슬러그
+  skills.json             수집한 전체 스킬 (scripts/collect-skills.ts가 생성)
+  skill-translations.json 스킬 설명 번역, pack/skill 키 기준
+  skill-pack-guides.json  6개 언어로 직접 작성한 스킬 모음별 가이드
 lib/
   schema.ts               프로젝트 & 카테고리용 Zod 스키마
   projects.ts, categories.ts   로케일 인지 처리 + 폴백을 지원하는 데이터 로더
@@ -204,16 +225,17 @@ lib/
 scripts/
   validate-projects.ts     데이터 검증, CI에서 실행
   audit-projects.ts        읽기 전용 리포트: 커버리지, 오래된 항목, 카테고리 균형, 중복
-.github/               이슈/PR 템플릿과 검증 워크플로
+  collect-skills.ts        모든 스킬 모음의 SKILL.md를 data/skills.json으로 수집
+.github/               이슈/PR 템플릿, 검증 워크플로, 주간 스킬 갱신 워크플로
 ```
 
 ## 로드맵
 
 - [ ] 초기 큐레이션 세트를 넘어서 프로젝트 디렉터리 확장
 - [ ] 디렉터리가 성장함에 따라 더 세분화된 하위 카테고리 추가
-- [ ] 초기 플래그십 세트를 넘어서 더 많은 프로젝트 설명 번역
+- [x] 모든 프로젝트 설명을 6개 언어로 번역
 - [ ] 추가 로케일 지원 (`fr`, `pt-BR`, `hi`, `ru` 등)
-- [ ] Google AdSense 연동 (레이아웃에는 이미 광고 영역이 확보되어 있음)
+- [x] Google AdSense 연동
 - [ ] 프로젝트 로고 / 아이콘
 
 ## 라이선스

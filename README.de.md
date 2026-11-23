@@ -18,7 +18,8 @@ Suche nach "Authentifizierung", "Chat", "CMS", "Vektordatenbank" oder "Web Scrap
 erhalte eine kuratierte Liste von Open-Source-Projekten, die genau dieses Problem lösen — mit
 genug Informationen (Lizenz, Sprache, Links), um sie schnell einschätzen zu können.
 
-Der Katalog umfasst derzeit **245 kuratierte Projekte** in 21 Kategorien.
+Der Katalog umfasst **240+ kuratierte Projekte** in 21 Kategorien sowie **300+ Agent-Skills**
+aus 10 Skill-Packs, die du in einem einzigen Installationsbefehl kombinieren kannst.
 
 FindOpenSource ist ein vollständig statisches, von der Community gepflegtes Verzeichnis. Es
 gibt kein Login, keine Datenbank und keinen Backend-Dienst. Jedes Projekt ist eine einfache
@@ -49,6 +50,15 @@ JSON-Datei, die über GitHub Pull Requests geprüft und gemerged wird.
 - **Catalog-Value-Bewertungen** — jedes Projekt trägt eine Bewertung von 0–5 mit einer
   schriftlichen Begründung, warum es aufgenommen wurde, sowie Reife-/Governance-Tags. Siehe
   [`docs/project-evaluation.md`](docs/project-evaluation.md).
+- **Agent-Skill-Builder** — wähle Skills aus 10 Packs (Anthropic, Vercel, Superpowers, ...),
+  wähle deinen Agenten (Claude Code, Codex, Cursor, ...) und kopiere einen einzigen
+  Installationsbefehl oder einen Prompt. Auswahlen sind teilbare Links
+  (`/de/skills?skills=superpowers/brainstorming`).
+- **Skill-Pack-Guides** — eine Seite pro Pack: für wen es gedacht ist, mit welchen Skills man
+  anfängt, was man vor der Installation prüfen sollte, und alle enthaltenen Skills
+  (`/de/skills/superpowers`).
+- **Entwickler-Setups** — komplette Claude-Code-Setups, die bekannte Entwickler als Open Source
+  veröffentlicht haben, jeweils mit eigenem offiziellem Installer (`/de/setups`).
 - **Kategorie-Browsing** — 21 kuratierte Kategorien von KI und KI-Agenten bis DevOps.
 - **Statisch und schnell** — gebaut mit dem Next.js App Router; jede lokalisierte Projekt-,
   Kategorie- und Vergleichsseite wird zur Build-Zeit statisch generiert.
@@ -75,6 +85,9 @@ Jede Route erhält ein Locale-Präfix:
 /en/search?q=authentication
 /en/compare?a=meilisearch&b=typesense
 /en/analyze?repo=vercel/next.js
+/en/skills
+/en/skills/superpowers
+/en/setups
 
 /de
 /de/projects/supabase
@@ -122,9 +135,15 @@ lokalisiert. Die kanonische (englische) Liste findest du in
   ein fehlender Key in irgendeiner Sprache ist damit ein Compile-Fehler, kein leerer String
   zur Laufzeit.
 - **Projektdaten** bleiben in einer kanonischen (englischen) JSON-Datei pro Projekt. Ein
-  Projekt kann optional ein `translations`-Objekt mit übersetzter `description`/`keywords`
-  pro Locale hinzufügen; Englisch ist immer der Fallback, wenn eine Übersetzung fehlt. Siehe
+  Projekt kann ein `translations`-Objekt mit übersetzter `description`, `longDescription`,
+  `keywords` und Catalog-Value-`rationale` pro Locale hinzufügen; alle gelisteten Projekte sind
+  derzeit in alle sechs Sprachen übersetzt, und Englisch ist der Fallback, wenn eine
+  Übersetzung fehlt. Siehe
   [CONTRIBUTING.md](CONTRIBUTING.md#adding-translated-descriptions-optional).
+- **Skill-Beschreibungen** stammen aus der Upstream-`SKILL.md` jedes Skills und werden in
+  [`data/skill-translations.json`](data/skill-translations.json) übersetzt. Ein wöchentlicher
+  Workflow lädt die Skill-Packs neu und öffnet einen PR; die Tests schlagen fehl, bis neue oder
+  geänderte Beschreibungen übersetzt sind.
 - **Kategorienamen/-beschreibungen** sind in jeder Dictionary-Datei vollständig übersetzt
   (Kategorien sind, anders als die offene Projektliste, eine kleine, von den Maintainern
   kuratierte Taxonomie).
@@ -170,7 +189,7 @@ npm run dev         # lokalen Dev-Server unter http://localhost:3000/en starten
 npm run lint         # Codebase linten
 npm run typecheck    # TypeScript-Compiler ausführen
 npm run validate     # alle Projektdaten in data/projects/ validieren
-npm test             # Unit-Tests ausführen (Suche, KI-Schicht, Repo-Analyse)
+npm test             # Unit-Tests ausführen (Suche, KI-Schicht, Repo-Analyse, Skills, Projekte)
 npm run build         # Produktions-Build
 ```
 
@@ -183,6 +202,8 @@ app/
     search/              Suchergebnisse (/[locale]/search?q=...)
     compare/              Vergleichs-Index + Zwei-Projekte-Auswahl (/[locale]/compare)
     analyze/              GitHub-Repo-Analyse (/[locale]/analyze?repo=owner/name)
+    skills/               Agent-Skill-Builder (/[locale]/skills) + Guides pro Pack (skills/[pack])
+    setups/               Claude-Code-Setups von Entwicklern (/[locale]/setups)
     projects/[slug]/     Projekt-Detailseiten
     categories/[slug]/   Kategorieseiten
     about/, contribute/, contact/, privacy/, terms/, support/  Statische Inhaltsseiten
@@ -197,10 +218,14 @@ components/           Wiederverwendbare UI-Komponenten (locale-/dictionary-bewus
   ComparePicker.tsx      Client-seitige Projektauswahl für /compare
   ComparisonTable.tsx    Nebeneinander angeordnete Vergleichskarten für zwei ausgewählte Projekte
   RepoAnalyzer.tsx       Client-seitige GitHub-Repo-Analyse für /analyze
+  SkillBuilder.tsx       Client-seitige Skill-Auswahl und Installationsbefehl-Builder für /skills
 data/
   projects/*.json        Eine kanonische Datei pro Projekt; optionale `translations` pro Locale und
                            Registry-`packages` (npm-/PyPI-/Go-/Cargo-Namen für die Repo-Analyse)
   categories.json         Kanonische (englische) Kategoriedefinitionen; stabile Slugs
+  skills.json             Alle gesammelten Skills (generiert von scripts/collect-skills.ts)
+  skill-translations.json Übersetzte Skill-Beschreibungen, nach Pack/Skill geschlüsselt
+  skill-pack-guides.json  Handgeschriebene Guides pro Pack in allen sechs Sprachen
 lib/
   schema.ts               Zod-Schemas für Projekte & Kategorien
   projects.ts, categories.ts   Daten-Loader mit locale-bewusster Auflösung + Fallback
@@ -220,16 +245,17 @@ lib/
 scripts/
   validate-projects.ts     Datenvalidierung, läuft in der CI
   audit-projects.ts        Read-only-Bericht: Abdeckung, Veraltung, Kategorie-Balance, Duplikate
-.github/               Issue-/PR-Vorlagen und der Validierungs-Workflow
+  collect-skills.ts        Lädt die SKILL.md-Dateien aller Skill-Packs in data/skills.json
+.github/               Issue-/PR-Vorlagen, der Validierungs-Workflow und die wöchentliche Skill-Aktualisierung
 ```
 
 ## Roadmap
 
 - [ ] Das Projektverzeichnis über die anfängliche kuratierte Auswahl hinaus erweitern
 - [ ] Mit wachsendem Verzeichnis feinere Unterkategorien hinzufügen
-- [ ] Mehr Projektbeschreibungen über das anfängliche Flaggschiff-Set hinaus übersetzen
+- [x] Die Beschreibungen aller Projekte in alle sechs Sprachen übersetzen
 - [ ] Weitere Locales (`fr`, `pt-BR`, `hi`, `ru`, ...)
-- [ ] Google-AdSense-Integration (das Layout reserviert bereits Platz für Anzeigen)
+- [x] Google-AdSense-Integration
 - [ ] Projekt-Logos / -Icons
 
 ## Lizenz

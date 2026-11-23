@@ -15,7 +15,8 @@
 搜索"身份验证"、"聊天"、"CMS"、"向量数据库"或"网页抓取"，就能得到一份经过筛选的开源项目列表 —
 并附带许可证、开发语言、链接等信息，方便你快速评估。
 
-目前目录共收录 21 个分类下的 **245 个精选项目**。
+目录共收录 21 个分类下的 **240+ 个精选项目**，另有来自 10 个技能包的 **300+ 个智能体技能**，
+可以自由组合成一条安装命令。
 
 FindOpenSource 是一个完全静态、由社区共同维护的目录。没有登录、没有数据库、也没有后端服务。
 每个项目都是一个纯 JSON 文件，通过 GitHub 拉取请求（Pull Request）审核并合并。
@@ -37,6 +38,13 @@ FindOpenSource 是一个完全静态、由社区共同维护的目录。没有�
   （`/zh-CN/analyze?repo=vercel/next.js`）。
 - **目录评级** — 每个项目都有 0～5 分的评级，附带说明为何收录该项目的理由，以及成熟度/治理
   标签。详见 [`docs/project-evaluation.md`](docs/project-evaluation.md)。
+- **智能体技能构建器** — 从 10 个技能包（Anthropic、Vercel、Superpowers 等）中挑选技能，选择你的
+  智能体（Claude Code、Codex、Cursor 等），然后复制一条安装命令或一段提示词。所选内容可以通过链接
+  分享（`/zh-CN/skills?skills=superpowers/brainstorming`）。
+- **技能包指南** — 每个技能包一个页面：适合谁、从哪些技能入手、安装前需要确认什么，以及它包含的
+  全部技能（`/zh-CN/skills/superpowers`）。
+- **开发者配置** — 知名开发者开源的完整 Claude Code 配置，每套都附带其官方安装程序
+  （`/zh-CN/setups`）。
 - **分类浏览** — 从 AI、AI 智能体到 DevOps，共 21 个精心整理的分类。
 - **静态且快速** — 基于 Next.js App Router 构建；每个本地化的项目、分类和对比页面都在构建时
   静态生成。
@@ -63,6 +71,9 @@ FindOpenSource 是一个完全静态、由社区共同维护的目录。没有�
 /en/search?q=authentication
 /en/compare?a=meilisearch&b=typesense
 /en/analyze?repo=vercel/next.js
+/en/skills
+/en/skills/superpowers
+/en/setups
 
 /zh-CN
 /zh-CN/projects/supabase
@@ -100,9 +111,13 @@ AI 与机器学习 · AI 智能体与智能体工具 · 身份验证与安全 ·
   [`lib/i18n/dictionaries/`](lib/i18n/dictionaries/) 下，每种语言一个文件，全部实现同一个
   [`Dictionary`](lib/i18n/types.ts) TypeScript 接口 —— 因此任何语言缺失某个 key 都会在
   编译期报错，而不是在运行时显示空字符串。
-- **项目数据**始终保存在每个项目一个的标准（英文）JSON 文件中。项目可以选择性地添加一个
-  `translations` 对象，为各语言提供翻译后的 `description`/`keywords`；缺失翻译时始终回退到
-  英文。详见 [CONTRIBUTING.md](CONTRIBUTING.md#adding-translated-descriptions-optional)。
+- **项目数据**始终保存在每个项目一个的标准（英文）JSON 文件中。项目可以添加一个
+  `translations` 对象，为各语言提供翻译后的 `description`、`longDescription`、`keywords` 以及
+  目录评级的 `rationale`；目前所有收录的项目都已翻译为全部六种语言，缺失翻译时回退到英文。详见
+  [CONTRIBUTING.md](CONTRIBUTING.md#adding-translated-descriptions-optional)。
+- **技能描述**来自每个技能上游的 `SKILL.md`，并在
+  [`data/skill-translations.json`](data/skill-translations.json) 中翻译。每周的工作流会重新拉取
+  技能包并发起 PR；在新增或变更的描述被翻译之前，测试会一直失败。
 - **分类名称/描述**已在每个字典文件中完整翻译（与开放式的项目列表不同，分类是一套由维护者
   精心管理的小型分类体系）。
 
@@ -139,7 +154,7 @@ npm run dev         # 在 http://localhost:3000/en 启动本地开发服务器
 npm run lint         # 对代码库进行 lint 检查
 npm run typecheck    # 运行 TypeScript 编译器
 npm run validate     # 校验 data/projects/ 下的所有项目数据
-npm test             # 运行单元测试（搜索、AI 层、仓库分析器）
+npm test             # 运行单元测试（搜索、AI 层、仓库分析器、技能、项目）
 npm run build         # 生产环境构建
 ```
 
@@ -152,6 +167,8 @@ app/
     search/              搜索结果 (/[locale]/search?q=...)
     compare/              对比首页 + 双项目选择器 (/[locale]/compare)
     analyze/              GitHub 仓库分析器 (/[locale]/analyze?repo=owner/name)
+    skills/               智能体技能构建器 (/[locale]/skills) + 各技能包指南 (skills/[pack])
+    setups/               开发者的 Claude Code 配置 (/[locale]/setups)
     projects/[slug]/     项目详情页
     categories/[slug]/   分类页
     about/, contribute/, contact/, privacy/, terms/, support/  静态内容页
@@ -166,10 +183,14 @@ components/           可复用的 UI 组件（感知语言/字典）+ LanguageS
   ComparePicker.tsx      /compare 的客户端项目选择组件
   ComparisonTable.tsx    展示两个已选项目并排对比的卡片
   RepoAnalyzer.tsx       /analyze 的客户端 GitHub 仓库分析器
+  SkillBuilder.tsx       /skills 的客户端技能选择器与安装命令生成器
 data/
   projects/*.json        每个项目一个标准文件；可选的按语言 `translations` 以及
                            注册表 `packages`（仓库分析器使用的 npm/PyPI/Go/Cargo 包名）
   categories.json         标准（英文）分类定义；固定 slug
+  skills.json             收集到的全部技能（由 scripts/collect-skills.ts 生成）
+  skill-translations.json 翻译后的技能描述，以 pack/skill 为键
+  skill-pack-guides.json  以全部六种语言手写的各技能包指南
 lib/
   schema.ts               项目与分类的 Zod schema
   projects.ts, categories.ts   支持语言感知解析 + 回退的数据加载器
@@ -189,16 +210,17 @@ lib/
 scripts/
   validate-projects.ts     数据校验，在 CI 中运行
   audit-projects.ts        只读报告：覆盖率、陈旧度、分类均衡、重复项
-.github/               Issue/PR 模板与校验工作流
+  collect-skills.ts        将每个技能包的 SKILL.md 文件拉取到 data/skills.json
+.github/               Issue/PR 模板、校验工作流以及每周的技能刷新
 ```
 
 ## 路线图
 
 - [ ] 在初始精选集之外继续扩充项目目录
 - [ ] 随着目录的增长，添加更细粒度的子分类
-- [ ] 在最初的旗舰项目集之外翻译更多项目描述
+- [x] 将每个项目的描述翻译为全部六种语言
 - [ ] 支持更多语言（`fr`、`pt-BR`、`hi`、`ru` 等）
-- [ ] 接入 Google AdSense（布局中已预留广告位）
+- [x] 接入 Google AdSense
 - [ ] 项目 Logo / 图标
 
 ## 许可证

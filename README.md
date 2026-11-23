@@ -18,7 +18,8 @@ Search "authentication", "chat", "CMS", "vector database" or "web scraping" and 
 list of open source projects that solve that problem — with enough information (license,
 language, links) to quickly evaluate them.
 
-The catalog currently lists **245 curated projects** across 21 categories.
+The catalog lists **240+ curated projects** across 21 categories, plus **300+ agent skills**
+from 10 skill packs you can mix into one install command.
 
 FindOpenSource is a fully static, community-maintained directory. There is no login, no
 database, and no backend service. Every project is a plain JSON file, reviewed and merged
@@ -44,6 +45,13 @@ through GitHub pull requests.
 - **Catalog Value ratings** — every project carries a 0–5 rating with a written rationale for why
   it's worth including, plus maturity/governance tags. See
   [`docs/project-evaluation.md`](docs/project-evaluation.md).
+- **Agent skill builder** — pick skills from 10 packs (Anthropic, Vercel, Superpowers, ...),
+  pick your agent (Claude Code, Codex, Cursor, ...) and copy one install command or a prompt.
+  Selections are shareable links (`/en/skills?skills=superpowers/brainstorming`).
+- **Skill pack guides** — one page per pack: who it's for, which skills to start with, what to
+  check before installing, and every skill it ships (`/en/skills/superpowers`).
+- **Developer setups** — whole Claude Code setups that well-known developers open-sourced, each
+  with its own official installer (`/en/setups`).
 - **Category browsing** — 21 curated categories from AI and AI agents to DevOps.
 - **Static & fast** — built with the Next.js App Router; every localized project, category and
   comparison page is statically generated at build time.
@@ -70,6 +78,9 @@ Every route is locale-prefixed:
 /en/search?q=authentication
 /en/compare?a=meilisearch&b=typesense
 /en/analyze?repo=vercel/next.js
+/en/skills
+/en/skills/superpowers
+/en/setups
 
 /ko
 /ko/projects/supabase
@@ -112,9 +123,13 @@ Category **slugs** are stable and never translated (`/ko/categories/authenticati
   implementing the same [`Dictionary`](lib/i18n/types.ts) TypeScript interface — so a missing key
   in any language is a compile-time error, not a blank string at runtime.
 - **Project data** stays in one canonical (English) JSON file per project. A project can
-  optionally add a `translations` object with a translated `description`/`keywords` per locale;
-  English is always the fallback when a translation is missing. See
+  add a `translations` object with a translated `description`, `longDescription`, `keywords`
+  and catalog-value `rationale` per locale; every listed project is currently translated into
+  all six languages, and English is the fallback when a translation is missing. See
   [CONTRIBUTING.md](CONTRIBUTING.md#adding-translated-descriptions-optional).
+- **Skill descriptions** come from each skill's upstream `SKILL.md` and are translated in
+  [`data/skill-translations.json`](data/skill-translations.json). A weekly workflow re-pulls the
+  skill packs and opens a PR; tests fail until new or changed descriptions are translated.
 - **Category names/descriptions** are fully translated in each dictionary file (categories are a
   small, maintainer-curated taxonomy, unlike the open-ended project list).
 
@@ -153,7 +168,7 @@ npm run dev         # start the local dev server at http://localhost:3000/en
 npm run lint         # lint the codebase
 npm run typecheck    # run the TypeScript compiler
 npm run validate     # validate all project data in data/projects/
-npm test             # run unit tests (search, AI layer, repo analyzer)
+npm test             # run unit tests (search, AI layer, repo analyzer, skills, projects)
 npm run build         # production build
 ```
 
@@ -166,6 +181,8 @@ app/
     search/              Search results (/[locale]/search?q=...)
     compare/              Compare index + two-project comparison picker (/[locale]/compare)
     analyze/              GitHub repo analyzer (/[locale]/analyze?repo=owner/name)
+    skills/               Agent skill builder (/[locale]/skills) + per-pack guides (skills/[pack])
+    setups/               Developer Claude Code setups (/[locale]/setups)
     projects/[slug]/     Project detail pages
     categories/[slug]/   Category pages
     about/, contribute/, contact/, privacy/, terms/, support/  Static content pages
@@ -180,10 +197,14 @@ components/           Reusable UI components (locale/dict-aware) + LanguageSwitc
   ComparePicker.tsx      Client-side project picker for /compare
   ComparisonTable.tsx    Side-by-side comparison cards for two selected projects
   RepoAnalyzer.tsx       Client-side GitHub repo analyzer for /analyze
+  SkillBuilder.tsx       Client-side skill picker and install-command builder for /skills
 data/
   projects/*.json        One canonical file per project; optional per-locale `translations` and
                            registry `packages` (npm/PyPI/Go/Cargo names used by the repo analyzer)
   categories.json         Canonical (English) category definitions; stable slugs
+  skills.json             Every collected skill (generated by scripts/collect-skills.ts)
+  skill-translations.json Translated skill descriptions, keyed by pack/skill
+  skill-pack-guides.json  Hand-written per-pack guides in all six languages
 lib/
   schema.ts               Zod schemas for projects & categories
   projects.ts, categories.ts   Data loaders with locale-aware resolution + fallback
@@ -203,16 +224,17 @@ lib/
 scripts/
   validate-projects.ts     Data validation, run in CI
   audit-projects.ts        Read-only report: coverage, staleness, category balance, duplicates
-.github/               Issue/PR templates and the validation workflow
+  collect-skills.ts        Pulls every skill pack's SKILL.md files into data/skills.json
+.github/               Issue/PR templates, the validation workflow and the weekly skill refresh
 ```
 
 ## Roadmap
 
 - [ ] Expand the project directory beyond the initial curated set
 - [ ] Add more granular sub-categories as the directory grows
-- [ ] Translate more project descriptions beyond the initial flagship set
+- [x] Translate every project's descriptions into all six languages
 - [ ] Additional locales (`fr`, `pt-BR`, `hi`, `ru`, ...)
-- [ ] Google AdSense integration (layout already reserves ad space)
+- [x] Google AdSense integration
 - [ ] Project logos / icons
 
 ## License
