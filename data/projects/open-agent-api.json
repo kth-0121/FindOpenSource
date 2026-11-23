@@ -1,0 +1,15 @@
+{
+  "name": "Open Agent API",
+  "slug": "open-agent-api",
+  "description": "Self-hosted HTTP gateway that lets applications call configured coding agents through familiar SDK interfaces.",
+  "repository": "https://github.com/jiangxingfan1-coder/Open-Agent-API",
+  "website": "https://openagentapi.pages.dev/",
+  "documentation": "https://github.com/jiangxingfan1-coder/Open-Agent-API/blob/main/docs/quickstart.md",
+  "categories": ["ai-agents", "api"],
+  "keywords": ["agent gateway", "coding agents", "scoped credentials", "human approval", "local agents", "self-hosted"],
+  "longDescription": "Use Open Agent API when an existing app or script needs to send tasks to a configured agent instead of managing a local coding subprocess directly. The gateway exposes published agents under SDK-compatible HTTP endpoints and lets callers follow an existing task while an operator decides whether to approve an action.\n\nThe repository includes an offline sample for exercising the request and approval flow without a model account. Using a real external agent requires its own installation and credentials. The project website describes the tool; it is not a hosted endpoint for executing tasks.",
+  "languages": ["TypeScript"],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-23"
+}
