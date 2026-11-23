@@ -1,5 +1,13 @@
 [
   {
+    "name": "accessibility-engineering",
+    "description": "Audits existing interfaces for WCAG 2.2 AA conformance and remediates the violations found. Use when auditing a page or component for accessibility, running axe-core or pa11y, triaging a11y violations, or checking screen reader and contrast issues before shipping.",
+    "pack": "addy-agent-skills",
+    "repo": "addyosmani/agent-skills",
+    "path": "skills/accessibility-engineering",
+    "branch": "main"
+  },
+  {
     "name": "api-and-interface-design",
     "description": "Guides stable API and interface design. Use when designing APIs, module boundaries, or any public interface. Use when creating REST or GraphQL endpoints, defining type contracts between modules, or establishing boundaries between frontend and backend.",
     "pack": "addy-agent-skills",
@@ -417,7 +425,7 @@
   },
   {
     "name": "hf-mem",
-    "description": "Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub",
+    "description": "Estimate the GPU memory needed to run a Hugging Face model (weights, KV cache and inference overhead) and whether it fits on given GPUs, without downloading it. Use when asked how much VRAM a model needs, whether it fits on a GPU, the longest context that fits, or which GGUF quantization to pick.",
     "pack": "huggingface-skills",
     "repo": "huggingface/skills",
     "path": "skills/hf-mem",
@@ -793,7 +801,7 @@
   },
   {
     "name": "link-building",
-    "description": "When the user wants backlinks and mentions that lift rankings and AI citations, or asks how to get sites to link or whether a link tactic is safe: link gaps, unlinked mentions, broken links, guest posts, best-of outreach. Never buy links that pass ranking credit: paid or exchanged placements get rel=sponsored or nofollow. For press, see public-relations. For directories, see directory-submissions. For reviews, see referrals. For communities, see community-marketing.",
+    "description": "When the user wants backlinks and mentions that lift rankings and AI citations, or asks how to get sites to link, whether a link tactic is safe, or where to buy placements: link gaps, unlinked mentions, broken links, guest posts, link marketplaces. On paid links, state Google's rule (rel=sponsored or nofollow) and the risk, then let the user decide. For press, see public-relations. For directories, see directory-submissions. For reviews, see referrals. For communities, see community-marketing.",
     "pack": "marketingskills",
     "repo": "coreyhaines31/marketingskills",
     "path": "skills/link-building",
