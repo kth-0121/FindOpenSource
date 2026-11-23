@@ -11,7 +11,6 @@ const dictionary: Dictionary = {
   },
   nav: {
     skills: "Skill Builder",
-    setups: "Setups",
     categories: "Categorías",
     contribute: "Contribuir",
     github: "GitHub",

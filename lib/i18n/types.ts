@@ -12,7 +12,6 @@ export interface Dictionary {
   };
   nav: {
     skills: string;
-    setups: string;
     categories: string;
     contribute: string;
     github: string;

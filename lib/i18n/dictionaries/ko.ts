@@ -11,7 +11,6 @@ const dictionary: Dictionary = {
   },
   nav: {
     skills: "스킬 빌더",
-    setups: "세팅",
     categories: "카테고리",
     contribute: "기여하기",
     github: "GitHub",

@@ -29,9 +29,6 @@ export function Header({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           <Link href={`/${locale}/skills`} className="font-medium text-accent hover:opacity-80">
             {dict.nav.skills}
           </Link>
-          <Link href={`/${locale}/setups`} className="text-foreground/80 hover:text-foreground">
-            {dict.nav.setups}
-          </Link>
           <Link href={`/${locale}/categories`} className="text-foreground/80 hover:text-foreground">
             {dict.nav.categories}
           </Link>
