@@ -1,0 +1,118 @@
+{
+  "name": "Chroma",
+  "slug": "chroma",
+  "description": "Open-source vector and search database for AI applications that stores embeddings, documents and metadata behind a small API for similarity and filtered retrieval. Suited to developers building retrieval-augmented generation and semantic search.",
+  "repository": "https://github.com/chroma-core/chroma",
+  "website": "https://www.trychroma.com",
+  "documentation": "https://docs.trychroma.com",
+  "categories": [
+    "database",
+    "ai"
+  ],
+  "keywords": [
+    "vector database",
+    "embeddings",
+    "rag",
+    "semantic search",
+    "similarity search",
+    "llm"
+  ],
+  "longDescription": "Chroma is a database built around the retrieval needs of LLM applications. You create collections, add documents with optional embeddings and metadata, and query them by similarity; if you don't supply embeddings, Chroma can compute them with a configured embedding function. Its deliberately small API and the option to run in-memory or as a local embedded store make it one of the quickest ways to prototype retrieval-augmented generation from Python or JavaScript.\n\nBeyond prototyping, Chroma can run in client-server mode as a standalone service and supports metadata and document-content filters alongside vector search, with a core written largely in Rust. The company behind it also operates Chroma Cloud, a hosted service; the open-source version is what you self-host. Teams with very large datasets or demanding multi-tenant requirements should compare it with purpose-built distributed vector databases before committing.",
+  "languages": [
+    "Rust",
+    "Python"
+  ],
+  "packages": {
+    "pypi": [
+      "chromadb"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "임베딩, 문서, 메타데이터를 저장하고 간단한 API로 유사도 검색과 필터 검색을 제공하는 AI 애플리케이션용 오픈소스 벡터·검색 데이터베이스입니다. 검색 증강 생성(RAG)이나 시맨틱 검색을 만드는 개발자에게 잘 맞습니다.",
+      "longDescription": "Chroma는 LLM 애플리케이션의 검색 요구에 맞춰 설계된 데이터베이스입니다. 컬렉션을 만들고 문서를 추가할 때 임베딩과 메타데이터를 함께 넣을 수 있으며, 유사도로 질의할 수 있습니다. 임베딩을 직접 넣지 않으면 설정한 임베딩 함수로 Chroma가 대신 계산합니다. 의도적으로 작게 만든 API와 인메모리 또는 로컬 임베디드 저장소로 실행할 수 있다는 점 덕분에, Python이나 JavaScript로 검색 증강 생성(RAG)을 가장 빠르게 시제품으로 만들 수 있는 방법 중 하나입니다.\n\n시제품 단계를 넘어서면 클라이언트-서버 모드로 독립 서비스처럼 실행할 수 있고, 벡터 검색과 함께 메타데이터 및 문서 내용 필터도 지원합니다. 핵심 엔진은 대부분 Rust로 작성되어 있습니다. 개발사는 호스팅 서비스인 Chroma Cloud도 운영하며, 오픈소스 버전은 직접 호스팅하는 용도입니다. 데이터가 매우 크거나 멀티테넌트 요구가 까다로운 팀이라면 도입 전에 분산형 전용 벡터 데이터베이스와 비교해 보는 것이 좋습니다.",
+      "keywords": [
+        "벡터 데이터베이스",
+        "임베딩",
+        "RAG",
+        "시맨틱 검색",
+        "유사도 검색",
+        "LLM"
+      ],
+      "rationale": "RAG 시제품 제작에 널리 쓰이는 개발자 친화적 벡터 저장소입니다. 간편한 임베디드 선택지를 더해 주지만 Qdrant·Milvus와 겹치는 부분이 큽니다."
+    },
+    "ja": {
+      "description": "埋め込み、ドキュメント、メタデータを保存し、シンプルな API で類似度検索やフィルタ付き検索を提供する、AI アプリケーション向けのオープンソースのベクトル・検索データベースです。RAG やセマンティック検索を構築する開発者に適しています。",
+      "longDescription": "Chroma は、LLM アプリケーションの検索ニーズを中心に設計されたデータベースです。コレクションを作成し、埋め込みやメタデータを付けてドキュメントを追加し、類似度でクエリします。埋め込みを渡さなければ、設定した埋め込み関数で Chroma が計算してくれます。意図的に小さく保たれた API と、インメモリやローカルの組み込みストアとして動かせる手軽さから、Python や JavaScript で検索拡張生成（RAG）を試作する最も手早い方法の一つになっています。\n\n試作の先では、クライアント・サーバーモードで独立したサービスとして動かすこともでき、ベクトル検索とあわせてメタデータやドキュメント内容によるフィルタも使えます。コアの大部分は Rust で書かれています。開発元はホスト型サービスの Chroma Cloud も運営しており、オープンソース版はセルフホストで利用するものです。非常に大規模なデータや厳しいマルチテナント要件がある場合は、採用前に分散型の専用ベクトルデータベースと比較することをおすすめします。",
+      "keywords": [
+        "ベクトルデータベース",
+        "埋め込み",
+        "RAG",
+        "セマンティック検索",
+        "類似度検索",
+        "LLM"
+      ],
+      "rationale": "RAG の試作で広く使われる開発者に優しいベクトルストアです。手軽な組み込み型という選択肢を加えますが、Qdrant や Milvus との重複は大きめです。"
+    },
+    "zh-CN": {
+      "description": "面向 AI 应用的开源向量与检索数据库，存储嵌入向量、文档和元数据，并通过简洁的 API 提供相似度检索和带过滤条件的检索，适合构建检索增强生成（RAG）和语义搜索的开发者。",
+      "longDescription": "Chroma 是围绕 LLM 应用检索需求设计的数据库。你可以创建集合，添加带有可选嵌入向量和元数据的文档，然后按相似度查询；如果不提供嵌入向量，Chroma 会使用配置好的嵌入函数自动计算。它刻意保持精简的 API，又能以内存模式或本地嵌入式存储运行，因此成为用 Python 或 JavaScript 快速搭建检索增强生成（RAG）原型的最便捷方式之一。\n\n在原型之外，Chroma 也可以以客户端-服务器模式作为独立服务运行，在向量检索的同时支持按元数据和文档内容过滤，核心大部分用 Rust 编写。其背后的公司还运营托管服务 Chroma Cloud，开源版本则用于自行部署。如果数据规模非常大或对多租户有严格要求，建议在选型前与专门的分布式向量数据库进行比较。",
+      "keywords": [
+        "向量数据库",
+        "嵌入向量",
+        "RAG",
+        "语义搜索",
+        "相似度检索",
+        "LLM"
+      ],
+      "rationale": "在 RAG 原型开发中广受欢迎、对开发者友好的向量存储，提供了便捷的嵌入式选项，但与 Qdrant 和 Milvus 有较多重叠。"
+    },
+    "es": {
+      "description": "Base de datos vectorial y de búsqueda de código abierto para aplicaciones de IA que guarda embeddings, documentos y metadatos tras una API sencilla de recuperación por similitud y con filtros. Pensada para quienes desarrollan RAG y búsqueda semántica.",
+      "longDescription": "Chroma es una base de datos diseñada en torno a las necesidades de recuperación de las aplicaciones con LLM. Creas colecciones, añades documentos con embeddings y metadatos opcionales y los consultas por similitud; si no aportas embeddings, Chroma puede calcularlos con una función de embedding configurada. Su API deliberadamente pequeña y la posibilidad de ejecutarla en memoria o como almacén local embebido la convierten en una de las formas más rápidas de prototipar generación aumentada por recuperación (RAG) desde Python o JavaScript.\n\nMás allá del prototipo, Chroma puede funcionar en modo cliente-servidor como servicio independiente y admite filtros por metadatos y por contenido del documento junto a la búsqueda vectorial, con un núcleo escrito en gran parte en Rust. La empresa que lo desarrolla también ofrece Chroma Cloud, un servicio alojado; la versión de código abierto es la que te alojas tú. Los equipos con conjuntos de datos muy grandes o requisitos multiinquilino exigentes deberían compararla con bases de datos vectoriales distribuidas antes de decidirse.",
+      "keywords": [
+        "base de datos vectorial",
+        "embeddings",
+        "RAG",
+        "búsqueda semántica",
+        "búsqueda por similitud",
+        "LLM"
+      ],
+      "rationale": "Almacén vectorial popular y cómodo para prototipar RAG; aporta una opción embebida sencilla, pero se solapa bastante con Qdrant y Milvus."
+    },
+    "de": {
+      "description": "Open-Source-Vektor- und Suchdatenbank für KI-Anwendungen, die Embeddings, Dokumente und Metadaten speichert und über eine schlanke API Ähnlichkeits- und gefilterte Suche bietet. Gedacht für Entwickler, die RAG und semantische Suche bauen.",
+      "longDescription": "Chroma ist eine Datenbank, die auf die Retrieval-Anforderungen von LLM-Anwendungen zugeschnitten ist. Man legt Collections an, fügt Dokumente mit optionalen Embeddings und Metadaten hinzu und fragt sie nach Ähnlichkeit ab; werden keine Embeddings mitgeliefert, berechnet Chroma sie mit einer konfigurierten Embedding-Funktion. Die bewusst kleine API und die Möglichkeit, In-Memory oder als lokaler eingebetteter Speicher zu laufen, machen Chroma zu einem der schnellsten Wege, Retrieval-Augmented Generation mit Python oder JavaScript zu prototypen.\n\nÜber Prototypen hinaus kann Chroma im Client-Server-Modus als eigenständiger Dienst laufen und unterstützt neben der Vektorsuche Filter auf Metadaten und Dokumentinhalte; der Kern ist größtenteils in Rust geschrieben. Das Unternehmen dahinter betreibt zudem Chroma Cloud als gehosteten Dienst, die Open-Source-Version ist für den Selbstbetrieb gedacht. Teams mit sehr großen Datenmengen oder anspruchsvollen Mandantenanforderungen sollten sie vorab mit spezialisierten verteilten Vektordatenbanken vergleichen.",
+      "keywords": [
+        "Vektordatenbank",
+        "Embeddings",
+        "RAG",
+        "semantische Suche",
+        "Ähnlichkeitssuche",
+        "LLM"
+      ],
+      "rationale": "Beliebter, entwicklerfreundlicher Vektorspeicher für RAG-Prototypen; bietet eine einfache Embedded-Option, überschneidet sich aber deutlich mit Qdrant und Milvus."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2022-10-05",
+      "archived": false,
+      "openIssuesCount": 999,
+      "stargazersCount": 29798,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 88,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular developer-friendly vector store for RAG prototyping; adds an easy embedded option but overlaps substantially with Qdrant and Milvus."
+    },
+    "flag": "ok"
+  }
+}

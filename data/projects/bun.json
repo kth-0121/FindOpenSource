@@ -1,0 +1,118 @@
+{
+  "name": "Bun",
+  "slug": "bun",
+  "description": "All-in-one JavaScript and TypeScript toolkit shipped as a single binary: a Node.js-compatible runtime plus a package manager, test runner and bundler, for developers who want faster installs and startup with less tooling.",
+  "repository": "https://github.com/oven-sh/bun",
+  "website": "https://bun.com",
+  "documentation": "https://bun.com/docs",
+  "categories": [
+    "developer-tools",
+    "backend"
+  ],
+  "keywords": [
+    "javascript runtime",
+    "typescript",
+    "package manager",
+    "test runner",
+    "bundler",
+    "node.js alternative"
+  ],
+  "longDescription": "Bun replaces the usual stack of separate JavaScript tools with one executable. Its runtime is designed as a drop-in substitute for Node.js, runs TypeScript and JSX files directly without a separate compile step, and is built on the JavaScriptCore engine rather than V8, which helps it start quickly and use less memory.\n\nThe same bun command installs npm packages, runs package.json scripts, executes tests with a Jest-style runner and bundles code for the browser or server, and each piece can be adopted on its own inside an existing Node.js project. It also ships built-in APIs such as an HTTP server and SQLite access. Node.js compatibility is broad but not complete, so projects that rely on less common Node APIs or native addons should test before switching. Bun itself is MIT-licensed, while the bundled JavaScriptCore is LGPL.",
+  "languages": [
+    "Rust",
+    "C++"
+  ],
+  "packages": {
+    "npm": [
+      "bun"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Node.js 호환 런타임에 패키지 매니저, 테스트 러너, 번들러까지 담아 단일 실행 파일로 제공하는 JavaScript·TypeScript 올인원 툴킷입니다. 설치와 시작 속도를 높이고 도구 수를 줄이고 싶은 개발자에게 맞습니다.",
+      "longDescription": "Bun은 흔히 따로따로 쓰던 JavaScript 도구들을 하나의 실행 파일로 대체합니다. 런타임은 Node.js를 그대로 바꿔 끼울 수 있도록 설계되었고, TypeScript와 JSX 파일을 별도 컴파일 없이 바로 실행합니다. V8 대신 JavaScriptCore 엔진을 기반으로 해 시작이 빠르고 메모리 사용량이 적은 편입니다.\n\n같은 bun 명령 하나로 npm 패키지를 설치하고, package.json 스크립트를 실행하고, Jest 스타일 러너로 테스트를 돌리고, 브라우저나 서버용으로 코드를 번들링할 수 있습니다. 각 기능은 기존 Node.js 프로젝트에 하나씩 도입할 수도 있습니다. HTTP 서버와 SQLite 접근 같은 내장 API도 제공합니다. Node.js 호환성은 넓지만 완전하지는 않으므로, 잘 쓰이지 않는 Node API나 네이티브 애드온에 의존하는 프로젝트라면 전환 전에 충분히 테스트하는 것이 좋습니다. Bun 자체는 MIT 라이선스이고, 함께 포함된 JavaScriptCore는 LGPL입니다.",
+      "keywords": [
+        "JavaScript 런타임",
+        "TypeScript",
+        "패키지 매니저",
+        "테스트 러너",
+        "번들러",
+        "Node.js 대안"
+      ],
+      "rationale": "런타임, 패키지 매니저, 테스트 러너, 번들러를 하나로 묶은 대표적인 Node.js 대안 런타임으로, developer-tools 분야의 핵심 프로젝트입니다."
+    },
+    "ja": {
+      "description": "Node.js 互換ランタイムに、パッケージマネージャー、テストランナー、バンドラーをまとめて単一バイナリで提供する JavaScript/TypeScript のオールインワンツールキットです。インストールや起動を速くし、ツールを減らしたい開発者向けです。",
+      "longDescription": "Bun は、これまで個別に組み合わせていた JavaScript ツール群を 1 つの実行ファイルに置き換えます。ランタイムは Node.js の代わりにそのまま使えるよう設計されており、TypeScript や JSX のファイルを別途コンパイルせずに直接実行できます。V8 ではなく JavaScriptCore エンジンを採用しているため、起動が速くメモリ使用量も抑えられます。\n\n同じ bun コマンドで npm パッケージのインストール、package.json のスクリプト実行、Jest 風のランナーによるテスト、ブラウザ向け・サーバー向けのバンドルまでこなせます。既存の Node.js プロジェクトに機能ごとに少しずつ導入することも可能です。HTTP サーバーや SQLite アクセスなどの組み込み API も備えています。Node.js との互換性は広いものの完全ではないため、あまり使われない Node API やネイティブアドオンに依存するプロジェクトは、移行前に十分に検証すべきです。Bun 本体は MIT ライセンスで、同梱の JavaScriptCore は LGPL です。",
+      "keywords": [
+        "JavaScript ランタイム",
+        "TypeScript",
+        "パッケージマネージャー",
+        "テストランナー",
+        "バンドラー",
+        "Node.js 代替"
+      ],
+      "rationale": "ランタイム、パッケージマネージャー、テストランナー、バンドラーを一体化した代表的な Node.js 代替ランタイムで、developer-tools の中核となるプロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "一体化的 JavaScript 与 TypeScript 工具包，以单个可执行文件提供兼容 Node.js 的运行时，并内置包管理器、测试运行器和打包器，适合希望加快安装与启动速度、减少工具链的开发者。",
+      "longDescription": "Bun 用一个可执行文件取代了通常需要分别搭配的一整套 JavaScript 工具。它的运行时被设计为 Node.js 的直接替代品，可以无需单独编译就直接运行 TypeScript 和 JSX 文件；它基于 JavaScriptCore 引擎而非 V8，因此启动更快、内存占用更低。\n\n同一个 bun 命令可以安装 npm 包、运行 package.json 脚本、用类似 Jest 的运行器执行测试，并为浏览器或服务器打包代码，这些功能也可以在现有 Node.js 项目中逐个引入。它还内置了 HTTP 服务器、SQLite 访问等 API。Bun 对 Node.js 的兼容范围很广但并不完整，依赖冷门 Node API 或原生插件的项目在切换前应充分测试。Bun 本身采用 MIT 许可证，而内置的 JavaScriptCore 采用 LGPL。",
+      "keywords": [
+        "JavaScript 运行时",
+        "TypeScript",
+        "包管理器",
+        "测试运行器",
+        "打包器",
+        "Node.js 替代"
+      ],
+      "rationale": "集运行时、包管理器、测试运行器和打包器于一体的代表性 Node.js 替代方案，是 developer-tools 分类中的核心项目。"
+    },
+    "es": {
+      "description": "Kit todo en uno para JavaScript y TypeScript distribuido como un solo binario: un runtime compatible con Node.js con gestor de paquetes, ejecutor de pruebas y bundler, para quien busca instalaciones y arranques más rápidos con menos herramientas.",
+      "longDescription": "Bun sustituye la habitual colección de herramientas de JavaScript por un único ejecutable. Su runtime está pensado como reemplazo directo de Node.js, ejecuta archivos TypeScript y JSX sin un paso de compilación aparte y se basa en el motor JavaScriptCore en lugar de V8, lo que le ayuda a arrancar rápido y a consumir menos memoria.\n\nEl mismo comando bun instala paquetes de npm, ejecuta los scripts de package.json, lanza pruebas con un ejecutor al estilo de Jest y empaqueta código para el navegador o el servidor; cada pieza puede adoptarse por separado dentro de un proyecto Node.js existente. También incluye API integradas, como un servidor HTTP y acceso a SQLite. La compatibilidad con Node.js es amplia pero no total, así que los proyectos que dependen de API de Node poco comunes o de complementos nativos deberían probar antes de migrar. Bun tiene licencia MIT, mientras que el JavaScriptCore incluido es LGPL.",
+      "keywords": [
+        "runtime de JavaScript",
+        "TypeScript",
+        "gestor de paquetes",
+        "ejecutor de pruebas",
+        "bundler",
+        "alternativa a Node.js"
+      ],
+      "rationale": "Uno de los principales runtimes de JavaScript alternativos a Node.js, que reúne runtime, gestor de paquetes, ejecutor de pruebas y bundler; una entrada clave de developer-tools."
+    },
+    "de": {
+      "description": "All-in-one-Toolkit für JavaScript und TypeScript als einzelne Binärdatei: eine Node.js-kompatible Runtime mit Paketmanager, Test-Runner und Bundler – für Entwickler, die schnellere Installationen, kürzere Startzeiten und weniger Tools wollen.",
+      "longDescription": "Bun ersetzt den üblichen Stapel einzelner JavaScript-Werkzeuge durch eine einzige ausführbare Datei. Die Runtime ist als direkter Ersatz für Node.js gedacht, führt TypeScript- und JSX-Dateien ohne separaten Kompilierschritt aus und setzt auf die Engine JavaScriptCore statt V8, was zu schnellen Startzeiten und geringem Speicherverbrauch beiträgt.\n\nDerselbe bun-Befehl installiert npm-Pakete, führt package.json-Skripte aus, startet Tests mit einem Jest-ähnlichen Runner und bündelt Code für Browser oder Server; jede Komponente lässt sich auch einzeln in einem bestehenden Node.js-Projekt einsetzen. Dazu kommen eingebaute APIs, etwa ein HTTP-Server und SQLite-Zugriff. Die Node.js-Kompatibilität ist breit, aber nicht vollständig – wer auf seltene Node-APIs oder native Add-ons angewiesen ist, sollte vor dem Umstieg testen. Bun selbst steht unter MIT-Lizenz, das mitgelieferte JavaScriptCore unter LGPL.",
+      "keywords": [
+        "JavaScript-Runtime",
+        "TypeScript",
+        "Paketmanager",
+        "Test-Runner",
+        "Bundler",
+        "Node.js-Alternative"
+      ],
+      "rationale": "Eine der beiden wichtigsten modernen JavaScript-Runtimes neben Node.js, die Runtime, Paketmanager, Test-Runner und Bundler vereint; ein zentraler Eintrag für developer-tools."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2021-04-14",
+      "archived": false,
+      "openIssuesCount": 5680,
+      "stargazersCount": 96970,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the two main modern JavaScript runtimes beyond Node.js, combining runtime, package manager, test runner and bundler; a key developer-tools entry."
+    },
+    "flag": "ok"
+  }
+}

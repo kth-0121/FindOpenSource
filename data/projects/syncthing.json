@@ -1,0 +1,111 @@
+{
+  "name": "Syncthing",
+  "slug": "syncthing",
+  "description": "Continuous peer-to-peer file synchronization that keeps folders in sync directly between your own devices over encrypted connections, without a central server or cloud account. For individuals and small teams who want private sync.",
+  "repository": "https://github.com/syncthing/syncthing",
+  "website": "https://syncthing.net",
+  "documentation": "https://docs.syncthing.net/",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "file sync",
+    "peer-to-peer",
+    "decentralized",
+    "encryption",
+    "cross-platform",
+    "dropbox alternative"
+  ],
+  "longDescription": "Syncthing is a file synchronization program that keeps chosen folders identical across several machines by exchanging changes directly between them. There is no central server that holds your data: each device is identified by a cryptographic ID, connections are authenticated and encrypted with TLS, and you decide which devices may share which folders. Public discovery and relay servers help devices find and reach each other across networks, but they never see file contents, and you can run your own.\n\nIt runs as a background service with a local web interface and ships as a single Go binary for Linux, Windows, macOS, the BSDs and other platforms. Folders can be send-only, receive-only or two-way, deleted or overwritten files can be kept with several versioning strategies, and an untrusted-device mode stores encrypted data on machines you do not fully trust. It is well suited to keeping laptops, desktops and home servers in sync or moving data off phones. Syncthing is sync, not backup, so mistakes and deletions propagate unless versioning is enabled, and mobile support relies largely on third-party apps.",
+  "languages": [
+    "Go"
+  ],
+  "license": "MPL-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "중앙 서버나 클라우드 계정 없이, 암호화된 연결로 내 기기끼리 직접 폴더를 계속 동기화하는 P2P 파일 동기화 도구입니다. 사적인 동기화를 원하는 개인과 소규모 팀에 적합합니다.",
+      "longDescription": "Syncthing은 여러 컴퓨터 사이에서 변경 사항을 직접 주고받아 선택한 폴더를 똑같이 유지하는 파일 동기화 프로그램입니다. 데이터를 보관하는 중앙 서버가 없습니다. 각 기기는 암호학적 ID로 식별되고, 연결은 TLS로 인증·암호화되며, 어떤 기기가 어떤 폴더를 공유할지는 사용자가 정합니다. 공개 디스커버리 서버와 릴레이 서버가 서로 다른 네트워크에 있는 기기끼리 찾고 연결하도록 도와주지만 파일 내용은 볼 수 없고, 직접 운영할 수도 있습니다.\n\n로컬 웹 인터페이스를 갖춘 백그라운드 서비스로 동작하며, Linux, Windows, macOS, BSD 계열 등을 위한 단일 Go 바이너리로 배포됩니다. 폴더는 보내기 전용, 받기 전용, 양방향으로 설정할 수 있고, 삭제되거나 덮어쓴 파일은 여러 방식의 버전 관리로 보존할 수 있으며, 완전히 믿기 어려운 기기에는 암호화된 상태로 데이터를 저장하는 '신뢰하지 않는 기기' 모드도 있습니다. 노트북, 데스크톱, 홈 서버를 서로 맞춰 두거나 휴대폰의 데이터를 옮겨 오는 데 잘 맞습니다. 다만 Syncthing은 백업이 아니라 동기화 도구라서 버전 관리를 켜지 않으면 실수나 삭제도 그대로 전파되며, 모바일 지원은 주로 서드파티 앱에 의존합니다.",
+      "keywords": [
+        "파일 동기화",
+        "P2P",
+        "탈중앙화",
+        "암호화",
+        "크로스 플랫폼",
+        "드롭박스 대안"
+      ],
+      "rationale": "가장 널리 쓰이는 탈중앙 파일 동기화 도구입니다. 서버 중심인 Nextcloud나 오브젝트 스토리지 프로젝트와 달리 중앙 서버 없이 기기끼리 동기화합니다."
+    },
+    "ja": {
+      "description": "中央サーバーやクラウドアカウントなしで、暗号化された接続を通じて自分のデバイス同士で直接フォルダーを同期し続ける P2P ファイル同期ツールです。プライベートな同期を求める個人や小規模チーム向けです。",
+      "longDescription": "Syncthing は、複数のマシン間で変更を直接やり取りし、選んだフォルダーを同じ状態に保つファイル同期プログラムです。データを預かる中央サーバーはありません。各デバイスは暗号学的な ID で識別され、接続は TLS で認証・暗号化され、どのデバイスがどのフォルダーを共有するかは自分で決めます。公開のディスカバリーサーバーとリレーサーバーがネットワークをまたいだデバイスの発見と接続を手助けしますが、ファイルの中身は見えず、自前で運用することもできます。\n\nローカルの Web インターフェースを備えたバックグラウンドサービスとして動作し、Linux、Windows、macOS、BSD 系などに向けた単一の Go バイナリとして提供されます。フォルダーは送信のみ・受信のみ・双方向を選べ、削除や上書きされたファイルは複数のバージョン管理方式で残せます。信頼しきれないマシンには暗号化した状態でデータを置く「信頼されていないデバイス」モードもあります。ノート PC、デスクトップ、ホームサーバーを同期させたり、スマートフォンからデータを移したりする用途に向いています。ただし Syncthing はバックアップではなく同期なので、バージョン管理を有効にしない限り誤操作や削除もそのまま伝わります。また、モバイル対応は主にサードパーティ製アプリに頼っています。",
+      "keywords": [
+        "ファイル同期",
+        "P2P",
+        "分散型",
+        "暗号化",
+        "クロスプラットフォーム",
+        "Dropbox 代替"
+      ],
+      "rationale": "最も広く使われている分散型ファイル同期ツールです。サーバー中心の Nextcloud やオブジェクトストレージとは異なり、中央サーバーなしでデバイス同士を同期します。"
+    },
+    "zh-CN": {
+      "description": "持续的点对点文件同步工具，通过加密连接在你自己的设备之间直接同步文件夹，无需中央服务器或云账号。适合希望私密同步数据的个人和小团队。",
+      "longDescription": "Syncthing 是一款文件同步程序，通过在多台机器之间直接交换变更，让选定的文件夹保持一致。它没有保存你数据的中央服务器：每台设备都由加密 ID 标识，连接使用 TLS 认证和加密，哪些设备可以共享哪些文件夹由你决定。公共的发现服务器和中继服务器帮助设备跨网络找到并连接彼此，但它们看不到文件内容，你也可以自己搭建。\n\n它以后台服务的形式运行并提供本地 Web 界面，以单个 Go 二进制文件发布，支持 Linux、Windows、macOS、BSD 等平台。文件夹可以设置为仅发送、仅接收或双向同步，被删除或覆盖的文件可以通过多种版本控制策略保留；对不完全信任的机器，还可以使用“不受信任设备”模式只存放加密数据。它很适合让笔记本、台式机和家庭服务器保持同步，或把手机上的数据转移出来。需要注意，Syncthing 是同步而不是备份，未开启版本控制时误操作和删除也会被同步出去；移动端支持主要依赖第三方应用。",
+      "keywords": [
+        "文件同步",
+        "点对点",
+        "去中心化",
+        "加密",
+        "跨平台",
+        "Dropbox 替代"
+      ],
+      "rationale": "使用最广泛的去中心化文件同步工具；与以服务器为中心的 Nextcloud 及对象存储项目不同，它无需中央服务器即可在设备间同步。"
+    },
+    "es": {
+      "description": "Sincronización continua de archivos entre pares que mantiene carpetas al día directamente entre tus propios dispositivos mediante conexiones cifradas, sin servidor central ni cuenta en la nube. Para personas y equipos pequeños que quieren sincronizar en privado.",
+      "longDescription": "Syncthing es un programa de sincronización de archivos que mantiene idénticas las carpetas elegidas en varias máquinas intercambiando los cambios directamente entre ellas. No existe un servidor central que guarde tus datos: cada dispositivo se identifica con un ID criptográfico, las conexiones se autentican y cifran con TLS, y tú decides qué dispositivos pueden compartir qué carpetas. Los servidores públicos de descubrimiento y de retransmisión ayudan a que los dispositivos se encuentren y se conecten entre redes, pero nunca ven el contenido de los archivos, y puedes ejecutar los tuyos propios.\n\nFunciona como un servicio en segundo plano con una interfaz web local y se distribuye como un único binario de Go para Linux, Windows, macOS, los BSD y otras plataformas. Las carpetas pueden ser solo de envío, solo de recepción o bidireccionales, los archivos borrados o sobrescritos se pueden conservar con varias estrategias de versionado, y un modo de dispositivo no confiable guarda datos cifrados en máquinas de las que no te fías del todo. Encaja muy bien para mantener sincronizados portátiles, equipos de escritorio y servidores domésticos, o para sacar datos del móvil. Syncthing sincroniza, no hace copias de seguridad, así que los errores y borrados se propagan si no activas el versionado, y el soporte móvil depende en gran parte de apps de terceros.",
+      "keywords": [
+        "sincronización de archivos",
+        "peer-to-peer",
+        "descentralizado",
+        "cifrado",
+        "multiplataforma",
+        "alternativa a dropbox"
+      ],
+      "rationale": "La herramienta de sincronización de archivos descentralizada más usada; a diferencia de Nextcloud o de los proyectos de almacenamiento de objetos, sincroniza entre dispositivos sin servidor central."
+    },
+    "de": {
+      "description": "Kontinuierliche Peer-to-Peer-Dateisynchronisation, die Ordner über verschlüsselte Verbindungen direkt zwischen deinen eigenen Geräten abgleicht – ohne zentralen Server oder Cloud-Konto. Für Einzelpersonen und kleine Teams, die privat synchronisieren wollen.",
+      "longDescription": "Syncthing ist ein Programm zur Dateisynchronisation, das ausgewählte Ordner auf mehreren Rechnern identisch hält, indem es Änderungen direkt zwischen ihnen austauscht. Es gibt keinen zentralen Server, der deine Daten verwahrt: Jedes Gerät hat eine kryptografische ID, Verbindungen werden per TLS authentifiziert und verschlüsselt, und du legst fest, welche Geräte welche Ordner teilen dürfen. Öffentliche Discovery- und Relay-Server helfen Geräten, sich netzwerkübergreifend zu finden und zu erreichen, sehen aber nie Dateiinhalte – und du kannst eigene betreiben.\n\nSyncthing läuft als Hintergrunddienst mit lokaler Weboberfläche und wird als einzelnes Go-Binary für Linux, Windows, macOS, die BSDs und weitere Plattformen ausgeliefert. Ordner können nur senden, nur empfangen oder in beide Richtungen synchronisieren, gelöschte oder überschriebene Dateien lassen sich mit verschiedenen Versionierungsstrategien aufbewahren, und ein Modus für nicht vertrauenswürdige Geräte legt dort nur verschlüsselte Daten ab. Gut geeignet ist es, um Laptops, Desktops und Heimserver abzugleichen oder Daten vom Smartphone zu holen. Syncthing synchronisiert, es sichert nicht: Fehler und Löschungen werden ohne aktivierte Versionierung mitübertragen, und die mobile Unterstützung hängt weitgehend von Drittanbieter-Apps ab.",
+      "keywords": [
+        "Dateisynchronisation",
+        "Peer-to-Peer",
+        "dezentral",
+        "Verschlüsselung",
+        "plattformübergreifend",
+        "Dropbox-Alternative"
+      ],
+      "rationale": "Das am weitesten verbreitete dezentrale Sync-Werkzeug; anders als Nextcloud oder die Object-Storage-Projekte synchronisiert es Geräte direkt, ganz ohne zentralen Server."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-26",
+      "repoCreatedAt": "2013-11-26",
+      "archived": false,
+      "openIssuesCount": 404,
+      "stargazersCount": 90932,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 84,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely used decentralized file sync tool; unlike Nextcloud or the object storage projects, it syncs devices directly without any central server."
+    },
+    "flag": "ok"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "name": "Tauri",
+  "slug": "tauri",
+  "description": "Framework for building small, secure desktop and mobile apps with a web frontend and a Rust backend, rendering through the operating system's native webview instead of bundling a browser, for developers seeking a lighter Electron alternative.",
+  "repository": "https://github.com/tauri-apps/tauri",
+  "website": "https://tauri.app",
+  "documentation": "https://tauri.app/start/",
+  "categories": [
+    "mobile",
+    "developer-tools"
+  ],
+  "keywords": [
+    "desktop apps",
+    "cross-platform",
+    "rust",
+    "webview",
+    "electron alternative",
+    "mobile apps"
+  ],
+  "longDescription": "Tauri lets developers build applications for Windows, macOS, Linux, iOS and Android with any frontend that compiles to HTML, CSS and JavaScript, paired with a backend written in Rust. Rather than shipping a full browser engine inside each app, it renders the interface through the platform's system webview (WebView2, WKWebView, WebKitGTK or Android System WebView), which keeps binaries and memory use much smaller than those of typical Electron apps.\n\nThe frontend calls Rust code through a command and event API, and access to system capabilities is governed by explicit permissions. Tauri includes a bundler that produces installers such as .msi, .dmg, .deb, .rpm and AppImage, a self-updater for desktop, system tray icons, native notifications and a set of official plugins for features like file system access. Because rendering depends on each platform's webview, the UI can behave slightly differently across operating systems, and native functionality beyond the provided APIs requires writing Rust. Mobile support arrived with version 2 and is younger than the desktop side.",
+  "languages": [
+    "Rust"
+  ],
+  "packages": {
+    "npm": [
+      "@tauri-apps/api",
+      "@tauri-apps/cli"
+    ],
+    "cargo": [
+      "tauri"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "웹 프런트엔드와 Rust 백엔드로 작고 안전한 데스크톱·모바일 앱을 만드는 프레임워크입니다. 브라우저를 통째로 번들하지 않고 운영체제의 네이티브 웹뷰로 화면을 그려, 더 가벼운 Electron 대안을 찾는 개발자에게 맞습니다.",
+      "longDescription": "Tauri를 쓰면 HTML, CSS, JavaScript로 컴파일되는 어떤 프런트엔드든 Rust로 작성한 백엔드와 결합해 Windows, macOS, Linux, iOS, Android용 애플리케이션을 만들 수 있습니다. 앱마다 완전한 브라우저 엔진을 넣는 대신 플랫폼의 시스템 웹뷰(WebView2, WKWebView, WebKitGTK, Android System WebView)로 인터페이스를 렌더링하므로, 일반적인 Electron 앱보다 실행 파일 크기와 메모리 사용량이 훨씬 작습니다.\n\n프런트엔드는 커맨드·이벤트 API를 통해 Rust 코드를 호출하고, 시스템 기능 접근은 명시적인 권한으로 통제됩니다. .msi, .dmg, .deb, .rpm, AppImage 같은 설치 파일을 만드는 번들러, 데스크톱용 자동 업데이트, 시스템 트레이 아이콘, 네이티브 알림, 파일 시스템 접근 등을 위한 공식 플러그인 세트를 갖추고 있습니다. 렌더링이 플랫폼별 웹뷰에 의존하기 때문에 운영체제마다 UI 동작이 조금씩 다를 수 있고, 제공되는 API 이상의 네이티브 기능은 Rust로 직접 작성해야 합니다. 모바일 지원은 버전 2부터 추가되어 데스크톱보다 역사가 짧습니다.",
+      "keywords": [
+        "데스크톱 앱",
+        "크로스 플랫폼",
+        "Rust",
+        "웹뷰",
+        "Electron 대안",
+        "모바일 앱"
+      ],
+      "rationale": "웹 UI 기반 데스크톱·모바일 앱을 위한 대표적인 경량 프레임워크입니다. Rust 백엔드와 데스크톱 중심이라는 점에서 Capacitor, Flutter를 보완합니다."
+    },
+    "ja": {
+      "description": "Web フロントエンドと Rust バックエンドで、小さく安全なデスクトップ・モバイルアプリを作るフレームワークです。ブラウザを同梱せず OS ネイティブの WebView で描画するため、より軽量な Electron の代替を探す開発者に向いています。",
+      "longDescription": "Tauri を使うと、HTML、CSS、JavaScript にコンパイルされる任意のフロントエンドと Rust で書いたバックエンドを組み合わせて、Windows、macOS、Linux、iOS、Android 向けのアプリケーションを作れます。アプリごとに完全なブラウザエンジンを同梱するのではなく、各プラットフォームのシステム WebView（WebView2、WKWebView、WebKitGTK、Android System WebView）でインターフェースを描画するため、一般的な Electron アプリに比べてバイナリサイズもメモリ使用量も大幅に小さくなります。\n\nフロントエンドはコマンドとイベントの API を通じて Rust のコードを呼び出し、システム機能へのアクセスは明示的な権限で制御されます。.msi、.dmg、.deb、.rpm、AppImage などのインストーラーを生成するバンドラー、デスクトップ向けの自動アップデーター、システムトレイアイコン、ネイティブ通知、ファイルシステムアクセスなどを提供する公式プラグイン群も備えています。描画は各プラットフォームの WebView に依存するため、OS ごとに UI の挙動がわずかに異なることがあり、用意された API を超えるネイティブ機能には Rust でのコードが必要です。モバイル対応はバージョン 2 で加わったもので、デスクトップに比べてまだ歴史が浅いです。",
+      "keywords": [
+        "デスクトップアプリ",
+        "クロスプラットフォーム",
+        "Rust",
+        "WebView",
+        "Electron 代替",
+        "モバイルアプリ"
+      ],
+      "rationale": "Web UI を使ったデスクトップ・モバイルアプリ向けの代表的な軽量フレームワークです。Rust バックエンドとデスクトップ重視の点で、Capacitor や Flutter を補完します。"
+    },
+    "zh-CN": {
+      "description": "用 Web 前端加 Rust 后端构建小巧、安全的桌面与移动应用的框架，借助操作系统原生 WebView 渲染界面而不是打包整个浏览器，适合寻找更轻量 Electron 替代方案的开发者。",
+      "longDescription": "借助 Tauri，开发者可以把任何能编译为 HTML、CSS 和 JavaScript 的前端与用 Rust 编写的后端结合起来，构建适用于 Windows、macOS、Linux、iOS 和 Android 的应用。它不在每个应用中内置完整的浏览器引擎，而是通过平台自带的系统 WebView（WebView2、WKWebView、WebKitGTK 或 Android System WebView）渲染界面，因此安装包体积和内存占用都远小于典型的 Electron 应用。\n\n前端通过命令与事件 API 调用 Rust 代码，对系统能力的访问由显式权限控制。Tauri 内置打包器，可生成 .msi、.dmg、.deb、.rpm、AppImage 等安装包，还提供桌面端自动更新、系统托盘图标、原生通知，以及用于文件系统访问等功能的官方插件集。由于渲染依赖各平台的 WebView，不同操作系统上的界面表现可能略有差异；超出现有 API 的原生功能需要自己用 Rust 编写。移动端支持从 2.0 版本开始提供，成熟度不及桌面端。",
+      "keywords": [
+        "桌面应用",
+        "跨平台",
+        "Rust",
+        "WebView",
+        "Electron 替代",
+        "移动应用"
+      ],
+      "rationale": "面向 Web UI 桌面与移动应用的主流轻量框架；凭借 Rust 后端和桌面侧重，与 Capacitor、Flutter 形成互补。"
+    },
+    "es": {
+      "description": "Framework para crear aplicaciones de escritorio y móviles pequeñas y seguras con un frontend web y un backend en Rust, que renderiza con el webview nativo del sistema operativo en lugar de incluir un navegador, para quien busca una alternativa más ligera a Electron.",
+      "longDescription": "Tauri permite crear aplicaciones para Windows, macOS, Linux, iOS y Android con cualquier frontend que compile a HTML, CSS y JavaScript, combinado con un backend escrito en Rust. En lugar de incluir un motor de navegador completo en cada aplicación, dibuja la interfaz con el webview del sistema de cada plataforma (WebView2, WKWebView, WebKitGTK o Android System WebView), lo que mantiene el tamaño de los binarios y el consumo de memoria muy por debajo de los de una aplicación Electron típica.\n\nEl frontend invoca código Rust mediante una API de comandos y eventos, y el acceso a las capacidades del sistema se controla con permisos explícitos. Tauri incluye un empaquetador que genera instaladores como .msi, .dmg, .deb, .rpm y AppImage, un actualizador automático para escritorio, iconos en la bandeja del sistema, notificaciones nativas y un conjunto de plugins oficiales para funciones como el acceso al sistema de archivos. Como el renderizado depende del webview de cada plataforma, la interfaz puede comportarse de forma ligeramente distinta según el sistema operativo, y cualquier funcionalidad nativa que vaya más allá de las API disponibles exige escribir Rust. El soporte móvil llegó con la versión 2 y está menos maduro que el de escritorio.",
+      "keywords": [
+        "aplicaciones de escritorio",
+        "multiplataforma",
+        "Rust",
+        "webview",
+        "alternativa a Electron",
+        "aplicaciones móviles"
+      ],
+      "rationale": "Framework ligero de referencia para aplicaciones de escritorio y móviles con interfaz web; complementa a Capacitor y Flutter con su backend en Rust y su enfoque en escritorio."
+    },
+    "de": {
+      "description": "Framework für kleine, sichere Desktop- und Mobile-Apps mit Web-Frontend und Rust-Backend, das über die native Webview des Betriebssystems rendert, statt einen Browser mitzuliefern – für Entwickler, die eine schlankere Electron-Alternative suchen.",
+      "longDescription": "Mit Tauri lassen sich Anwendungen für Windows, macOS, Linux, iOS und Android bauen – mit jedem Frontend, das zu HTML, CSS und JavaScript kompiliert, kombiniert mit einem Backend in Rust. Statt in jede App eine vollständige Browser-Engine zu packen, rendert Tauri die Oberfläche über die System-Webview der jeweiligen Plattform (WebView2, WKWebView, WebKitGTK oder Android System WebView). Dadurch bleiben Binärgröße und Speicherverbrauch deutlich unter denen typischer Electron-Apps.\n\nDas Frontend ruft Rust-Code über eine Befehls- und Event-API auf, und der Zugriff auf Systemfunktionen wird über explizite Berechtigungen geregelt. Tauri bringt einen Bundler für Installer wie .msi, .dmg, .deb, .rpm und AppImage mit, dazu einen Self-Updater für Desktop, Tray-Icons, native Benachrichtigungen und offizielle Plugins etwa für den Dateisystemzugriff. Da das Rendering von der Webview der jeweiligen Plattform abhängt, kann sich die Oberfläche je nach Betriebssystem leicht unterschiedlich verhalten, und native Funktionen jenseits der bereitgestellten APIs erfordern eigenen Rust-Code. Die Mobile-Unterstützung kam mit Version 2 und ist jünger als die Desktop-Seite.",
+      "keywords": [
+        "Desktop-Apps",
+        "plattformübergreifend",
+        "Rust",
+        "Webview",
+        "Electron-Alternative",
+        "Mobile-Apps"
+      ],
+      "rationale": "Führendes schlankes Framework für Desktop- und Mobile-Apps mit Web-Oberfläche; ergänzt Capacitor und Flutter durch Rust-Backend und Desktop-Fokus."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2019-07-13",
+      "archived": false,
+      "openIssuesCount": 1476,
+      "stargazersCount": 113199,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "score": 94,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading lightweight framework for desktop and mobile apps with web UIs; complements Capacitor and Flutter with a Rust backend and desktop focus."
+    },
+    "flag": "ok"
+  }
+}

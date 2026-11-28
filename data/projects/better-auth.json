@@ -1,0 +1,116 @@
+{
+  "name": "Better Auth",
+  "slug": "better-auth",
+  "description": "Framework-agnostic authentication and authorization library for TypeScript that runs in your own app and database, with email and password, social sign-in and plugins for 2FA, passkeys, organizations and more. For teams wanting auth without a hosted service.",
+  "repository": "https://github.com/better-auth/better-auth",
+  "website": "https://better-auth.com",
+  "documentation": "https://better-auth.com/docs",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "authentication",
+    "typescript",
+    "oauth",
+    "session management",
+    "two-factor authentication",
+    "passkeys"
+  ],
+  "longDescription": "Better Auth is a TypeScript library that adds authentication to an application without handing users and sessions to an external service. It runs as part of your own server code, stores accounts, sessions and related records in your database through adapters for tools such as Prisma, Drizzle and Kysely or a direct database connection, and exposes a typed client for the browser. Because the core is not tied to one framework, integrations exist for Next.js, Nuxt, SvelteKit, Hono, Express and others.\n\nOut of the box it handles email and password sign-in, OAuth social providers and session management. A plugin system adds features that usually take substantial custom work, such as two-factor authentication, passkeys, magic links, organizations with members and roles, admin tools and API keys, and community plugins extend it further. Since everything runs inside your stack, you also own the operational side: schema migrations, scaling and applying security updates are your responsibility rather than a vendor's.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "better-auth"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "내 앱과 데이터베이스 안에서 동작하는 프레임워크 독립적 TypeScript 인증·인가 라이브러리로, 이메일·비밀번호 로그인과 소셜 로그인을 제공하고 플러그인으로 2FA, 패스키, 조직 기능 등을 더할 수 있습니다. 호스팅 서비스 없이 인증을 구현하려는 팀을 위한 도구입니다.",
+      "longDescription": "Better Auth는 사용자와 세션을 외부 서비스에 맡기지 않고 애플리케이션에 인증 기능을 더하는 TypeScript 라이브러리입니다. 직접 작성한 서버 코드의 일부로 실행되며, 계정, 세션 등 관련 데이터를 Prisma, Drizzle, Kysely용 어댑터나 데이터베이스 직접 연결을 통해 내 데이터베이스에 저장하고, 브라우저용 타입이 지정된 클라이언트를 제공합니다. 코어가 특정 프레임워크에 묶여 있지 않아 Next.js, Nuxt, SvelteKit, Hono, Express 등과의 통합이 마련되어 있습니다.\n\n기본으로 이메일·비밀번호 로그인, OAuth 소셜 로그인, 세션 관리를 처리합니다. 플러그인 시스템으로는 보통 상당한 직접 구현이 필요한 2단계 인증, 패스키, 매직 링크, 멤버와 역할을 갖춘 조직, 관리자 도구, API 키 같은 기능을 추가할 수 있고, 커뮤니티 플러그인으로 더 확장할 수도 있습니다. 모든 것이 내 스택 안에서 돌아가므로 운영도 직접 맡아야 합니다. 스키마 마이그레이션, 확장, 보안 업데이트 적용은 벤더가 아니라 팀의 책임입니다.",
+      "keywords": [
+        "인증",
+        "typescript",
+        "oauth",
+        "세션 관리",
+        "2단계 인증",
+        "패스키"
+      ],
+      "rationale": "폭넓은 플러그인 생태계를 갖춘 빠르게 성장하는 TypeScript 인증 라이브러리입니다. Auth.js와 겹치지만 2FA, 조직, 패스키 등을 앱 안에서 더 폭넓게 다루어 강력한 선택지입니다."
+    },
+    "ja": {
+      "description": "自分のアプリとデータベースの中で動く、フレームワーク非依存の TypeScript 向け認証・認可ライブラリです。メールとパスワード、ソーシャルログインに加え、プラグインで 2FA、パスキー、組織機能などを追加できます。ホスト型サービスを使わずに認証を実装したいチーム向けです。",
+      "longDescription": "Better Auth は、ユーザーやセッションを外部サービスに預けずにアプリケーションへ認証機能を加える TypeScript ライブラリです。自分のサーバーコードの一部として動作し、アカウントやセッションなどのデータを Prisma、Drizzle、Kysely 向けのアダプター、またはデータベースへの直接接続を通じて自分のデータベースに保存し、ブラウザー向けには型付きのクライアントを提供します。コアが特定のフレームワークに縛られていないため、Next.js、Nuxt、SvelteKit、Hono、Express などとの連携が用意されています。\n\n標準でメールとパスワードによるサインイン、OAuth のソーシャルプロバイダー、セッション管理を扱います。プラグインの仕組みにより、通常はかなりの独自実装が必要な二要素認証、パスキー、マジックリンク、メンバーとロールを持つ組織、管理ツール、API キーといった機能を追加でき、コミュニティ製のプラグインでさらに拡張できます。すべてが自分のスタック内で動くため、運用面も自分で担います。スキーマのマイグレーション、スケーリング、セキュリティ更新の適用はベンダーではなくチームの責任になります。",
+      "keywords": [
+        "認証",
+        "typescript",
+        "oauth",
+        "セッション管理",
+        "二要素認証",
+        "パスキー"
+      ],
+      "rationale": "幅広いプラグインエコシステムを持つ急成長中の TypeScript 認証ライブラリです。Auth.js と重なりますが、2FA や組織、パスキーなどをアプリ内でより広くカバーする有力な選択肢です。"
+    },
+    "zh-CN": {
+      "description": "一个与框架无关的 TypeScript 认证与授权库，运行在你自己的应用和数据库中，支持邮箱密码和社交登录，并可通过插件添加双因素认证、通行密钥、组织等功能。适合不想依赖托管服务来实现认证的团队。",
+      "longDescription": "Better Auth 是一个 TypeScript 库，用于为应用添加认证功能，而不必把用户和会话交给外部服务。它作为你自己服务端代码的一部分运行，通过面向 Prisma、Drizzle、Kysely 的适配器或直接数据库连接，把账户、会话等相关记录存进你的数据库，并为浏览器提供带类型的客户端。由于核心不绑定任何框架，它为 Next.js、Nuxt、SvelteKit、Hono、Express 等提供了集成。\n\n它开箱即可处理邮箱密码登录、OAuth 社交登录和会话管理。插件系统可以加入通常需要大量自研工作的功能，比如双因素认证、通行密钥、魔法链接、带成员和角色的组织、管理工具和 API 密钥，社区插件还能进一步扩展。由于一切都运行在你的技术栈中，运维也由你负责：模式迁移、扩容和安全更新都是团队自己的事，而不是供应商的事。",
+      "keywords": [
+        "身份认证",
+        "typescript",
+        "oauth",
+        "会话管理",
+        "双因素认证",
+        "通行密钥"
+      ],
+      "rationale": "快速成长、插件生态丰富的 TypeScript 认证库；与 Auth.js 有所重叠，但在应用内覆盖了更多功能（双因素认证、组织、通行密钥），是很有力的选择。"
+    },
+    "es": {
+      "description": "Biblioteca de autenticación y autorización para TypeScript, independiente del framework, que funciona en tu propia app y base de datos, con email y contraseña, inicio social y plugins para 2FA, passkeys, organizaciones y más. Para equipos que quieren auth sin servicio alojado.",
+      "longDescription": "Better Auth es una biblioteca de TypeScript que añade autenticación a una aplicación sin ceder los usuarios y las sesiones a un servicio externo. Se ejecuta como parte de tu propio código de servidor, guarda cuentas, sesiones y registros relacionados en tu base de datos mediante adaptadores para herramientas como Prisma, Drizzle y Kysely o una conexión directa, y ofrece un cliente tipado para el navegador. Como el núcleo no está atado a ningún framework, hay integraciones para Next.js, Nuxt, SvelteKit, Hono, Express y otros.\n\nDe serie gestiona el inicio de sesión con email y contraseña, proveedores sociales OAuth y la administración de sesiones. Un sistema de plugins añade funciones que normalmente requieren mucho trabajo propio, como autenticación de dos factores, passkeys, enlaces mágicos, organizaciones con miembros y roles, herramientas de administración y claves de API, y los plugins de la comunidad lo amplían aún más. Como todo corre dentro de tu stack, la operación también es tuya: las migraciones de esquema, el escalado y la aplicación de parches de seguridad son responsabilidad del equipo, no de un proveedor.",
+      "keywords": [
+        "autenticación",
+        "typescript",
+        "oauth",
+        "gestión de sesiones",
+        "autenticación de dos factores",
+        "passkeys"
+      ],
+      "rationale": "Biblioteca de autenticación para TypeScript en rápido crecimiento con un amplio ecosistema de plugins; se solapa con Auth.js, pero cubre más dentro de la app (2FA, organizaciones, passkeys), lo que la hace una opción sólida."
+    },
+    "de": {
+      "description": "Framework-unabhängige Authentifizierungs- und Autorisierungsbibliothek für TypeScript, die in der eigenen App und Datenbank läuft: E-Mail und Passwort, Social Login und Plugins für 2FA, Passkeys, Organisationen und mehr. Für Teams, die Auth ohne gehosteten Dienst wollen.",
+      "longDescription": "Better Auth ist eine TypeScript-Bibliothek, die einer Anwendung Authentifizierung hinzufügt, ohne Benutzer und Sessions an einen externen Dienst abzugeben. Sie läuft als Teil des eigenen Servercodes, speichert Konten, Sessions und zugehörige Datensätze über Adapter für Werkzeuge wie Prisma, Drizzle und Kysely oder eine direkte Datenbankverbindung in der eigenen Datenbank und stellt einen typisierten Client für den Browser bereit. Weil der Kern an kein Framework gebunden ist, gibt es Integrationen für Next.js, Nuxt, SvelteKit, Hono, Express und weitere.\n\nVon Haus aus deckt sie Anmeldung per E-Mail und Passwort, OAuth-Social-Provider und Session-Verwaltung ab. Ein Plugin-System ergänzt Funktionen, die sonst viel Eigenarbeit kosten, etwa Zwei-Faktor-Authentifizierung, Passkeys, Magic Links, Organisationen mit Mitgliedern und Rollen, Admin-Werkzeuge und API-Keys; Community-Plugins erweitern das weiter. Da alles im eigenen Stack läuft, liegt auch der Betrieb beim Team: Schemamigrationen, Skalierung und das Einspielen von Sicherheitsupdates übernimmt kein Anbieter.",
+      "keywords": [
+        "Authentifizierung",
+        "typescript",
+        "oauth",
+        "Session-Verwaltung",
+        "Zwei-Faktor-Authentifizierung",
+        "Passkeys"
+      ],
+      "rationale": "Schnell wachsende TypeScript-Auth-Bibliothek mit breitem Plugin-Ökosystem; überschneidet sich mit Auth.js, deckt aber mehr direkt in der App ab (2FA, Organisationen, Passkeys) und ist eine starke Wahl."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2024-05-19",
+      "archived": false,
+      "openIssuesCount": 1000,
+      "stargazersCount": 30910,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 85,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Fast-growing TypeScript auth library with a broad plugin ecosystem; overlaps with Auth.js but covers more in-app (2FA, organizations, passkeys), making it a strong pick."
+    },
+    "flag": "ok"
+  }
+}

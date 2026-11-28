@@ -1,0 +1,117 @@
+{
+  "name": "Electron",
+  "slug": "electron",
+  "description": "Framework for building cross-platform desktop applications with JavaScript, HTML and CSS by embedding Chromium and Node.js, used by teams that want one web-technology codebase for Windows, macOS and Linux.",
+  "repository": "https://github.com/electron/electron",
+  "website": "https://electronjs.org",
+  "documentation": "https://www.electronjs.org/docs/latest",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "desktop apps",
+    "cross-platform",
+    "chromium",
+    "node.js",
+    "javascript",
+    "native apps"
+  ],
+  "longDescription": "Electron lets developers build desktop applications with the same technologies they use for the web. Each app bundles a Chromium renderer for its interface and a Node.js runtime for system access, so a single JavaScript codebase can produce installable apps for Windows, macOS and Linux. Widely used applications such as Visual Studio Code are built on it, which shows how far the approach can scale.\n\nIts APIs cover native windows, menus, the system tray, notifications, file dialogs and inter-process communication between the main process and renderer processes, while companion tools in the ecosystem handle packaging, code signing and auto-updates. Security practices such as context isolation and sandboxed renderers are documented and enabled by default in recent versions. The main trade-off is footprint: because every app ships its own browser engine, installers and memory usage are larger than with native toolkits or lighter webview-based alternatives.",
+  "languages": [
+    "C++",
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "electron"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Chromium과 Node.js를 내장해 JavaScript, HTML, CSS로 크로스 플랫폼 데스크톱 애플리케이션을 만드는 프레임워크로, Windows, macOS, Linux용 앱을 웹 기술 코드베이스 하나로 만들고 싶은 팀이 사용합니다.",
+      "longDescription": "Electron은 웹에서 쓰던 기술 그대로 데스크톱 애플리케이션을 만들 수 있게 해 줍니다. 각 앱은 화면을 그리는 Chromium 렌더러와 시스템에 접근하는 Node.js 런타임을 함께 묶으므로, JavaScript 코드베이스 하나로 Windows, macOS, Linux용 설치형 앱을 만들 수 있습니다. Visual Studio Code처럼 널리 쓰이는 애플리케이션도 Electron으로 만들어져 있어, 이 방식이 얼마나 큰 규모까지 감당할 수 있는지 보여 줍니다.\n\nAPI는 네이티브 창, 메뉴, 시스템 트레이, 알림, 파일 대화상자, 그리고 메인 프로세스와 렌더러 프로세스 사이의 프로세스 간 통신을 다루며, 패키징, 코드 서명, 자동 업데이트는 생태계의 동반 도구가 맡습니다. 컨텍스트 격리와 샌드박스 렌더러 같은 보안 관행이 문서화되어 있고, 최근 버전에서는 기본으로 켜져 있습니다. 가장 큰 단점은 용량입니다. 앱마다 자체 브라우저 엔진을 싣기 때문에 설치 파일과 메모리 사용량이 네이티브 툴킷이나 더 가벼운 웹뷰 기반 대안보다 큽니다.",
+      "keywords": [
+        "데스크톱 앱",
+        "크로스 플랫폼",
+        "Chromium",
+        "Node.js",
+        "자바스크립트",
+        "네이티브 앱"
+      ],
+      "rationale": "웹 기술로 크로스 플랫폼 데스크톱 앱을 만드는 대표 프레임워크로, OpenJS Foundation 산하의 독보적이고 꼭 필요한 프로젝트입니다."
+    },
+    "ja": {
+      "description": "Chromium と Node.js を組み込み、JavaScript、HTML、CSS でクロスプラットフォームのデスクトップアプリを作るフレームワークです。Windows、macOS、Linux 向けを Web 技術の一つのコードベースで作りたいチームに使われています。",
+      "longDescription": "Electron を使うと、Web で使っているのと同じ技術でデスクトップアプリケーションを作れます。各アプリは画面描画用の Chromium レンダラーとシステムアクセス用の Node.js ランタイムを同梱するため、一つの JavaScript コードベースから Windows、macOS、Linux 向けのインストール可能なアプリを生成できます。Visual Studio Code のように広く使われているアプリケーションも Electron 製で、この方式がどこまでスケールできるかを示しています。\n\nAPI はネイティブウィンドウ、メニュー、システムトレイ、通知、ファイルダイアログ、メインプロセスとレンダラープロセス間のプロセス間通信をカバーし、パッケージング、コード署名、自動アップデートはエコシステムの関連ツールが担います。コンテキスト分離やサンドボックス化されたレンダラーといったセキュリティ上の推奨事項は文書化されており、最近のバージョンではデフォルトで有効です。主なトレードオフはサイズで、アプリごとにブラウザエンジンを同梱するため、インストーラーやメモリ使用量はネイティブのツールキットや軽量な WebView ベースの代替より大きくなります。",
+      "keywords": [
+        "デスクトップアプリ",
+        "クロスプラットフォーム",
+        "Chromium",
+        "Node.js",
+        "JavaScript",
+        "ネイティブアプリ"
+      ],
+      "rationale": "Web 技術でクロスプラットフォームのデスクトップアプリを作る定番フレームワークで、OpenJS Foundation 傘下の欠かせない代表的プロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "通过内嵌 Chromium 和 Node.js，用 JavaScript、HTML 和 CSS 构建跨平台桌面应用的框架，适合希望用一套 Web 技术代码库同时覆盖 Windows、macOS 和 Linux 的团队。",
+      "longDescription": "Electron 让开发者能用开发 Web 时的同一套技术来构建桌面应用。每个应用都打包了负责界面的 Chromium 渲染器和负责系统访问的 Node.js 运行时，因此一套 JavaScript 代码库就能生成适用于 Windows、macOS 和 Linux 的可安装应用。Visual Studio Code 等被广泛使用的应用就是基于它构建的，足以说明这种方式能扩展到多大的规模。\n\n它的 API 涵盖原生窗口、菜单、系统托盘、通知、文件对话框，以及主进程与渲染进程之间的进程间通信；打包、代码签名和自动更新则由生态中的配套工具负责。上下文隔离、沙箱化渲染进程等安全实践都有文档说明，并在近期版本中默认开启。主要的代价是体积：由于每个应用都自带浏览器引擎，安装包和内存占用都比原生工具包或更轻量的基于 WebView 的方案更大。",
+      "keywords": [
+        "桌面应用",
+        "跨平台",
+        "Chromium",
+        "Node.js",
+        "JavaScript",
+        "原生应用"
+      ],
+      "rationale": "用 Web 技术构建跨平台桌面应用的主导框架；隶属 OpenJS Foundation，是不可或缺且独具特色的代表项目。"
+    },
+    "es": {
+      "description": "Framework para crear aplicaciones de escritorio multiplataforma con JavaScript, HTML y CSS integrando Chromium y Node.js, usado por equipos que quieren un único código basado en tecnologías web para Windows, macOS y Linux.",
+      "longDescription": "Electron permite crear aplicaciones de escritorio con las mismas tecnologías que se usan en la web. Cada aplicación incluye un renderizador Chromium para la interfaz y un runtime de Node.js para acceder al sistema, de modo que un único código JavaScript puede generar aplicaciones instalables para Windows, macOS y Linux. Aplicaciones de uso masivo como Visual Studio Code están construidas sobre él, lo que muestra hasta dónde puede escalar este enfoque.\n\nSus API cubren ventanas nativas, menús, la bandeja del sistema, notificaciones, diálogos de archivos y la comunicación entre el proceso principal y los procesos de renderizado, mientras que herramientas complementarias del ecosistema se encargan del empaquetado, la firma de código y las actualizaciones automáticas. Prácticas de seguridad como el aislamiento de contexto y los renderizadores en sandbox están documentadas y activadas por defecto en las versiones recientes. El principal inconveniente es el tamaño: como cada aplicación incluye su propio motor de navegador, los instaladores y el consumo de memoria son mayores que con toolkits nativos o alternativas más ligeras basadas en webview.",
+      "keywords": [
+        "aplicaciones de escritorio",
+        "multiplataforma",
+        "Chromium",
+        "Node.js",
+        "JavaScript",
+        "aplicaciones nativas"
+      ],
+      "rationale": "El framework dominante para crear apps de escritorio multiplataforma con tecnologías web; un representante esencial y distintivo bajo la OpenJS Foundation."
+    },
+    "de": {
+      "description": "Framework für plattformübergreifende Desktop-Anwendungen mit JavaScript, HTML und CSS, das Chromium und Node.js einbettet – für Teams, die mit einer Codebasis aus Webtechnologien Windows, macOS und Linux bedienen wollen.",
+      "longDescription": "Mit Electron lassen sich Desktop-Anwendungen mit denselben Technologien bauen, die man aus dem Web kennt. Jede App bündelt einen Chromium-Renderer für die Oberfläche und eine Node.js-Runtime für den Systemzugriff, sodass aus einer einzigen JavaScript-Codebasis installierbare Apps für Windows, macOS und Linux entstehen. Weit verbreitete Anwendungen wie Visual Studio Code basieren darauf, was zeigt, wie weit sich der Ansatz skalieren lässt.\n\nDie APIs decken native Fenster, Menüs, den System-Tray, Benachrichtigungen, Dateidialoge und die Interprozesskommunikation zwischen Haupt- und Renderer-Prozessen ab; Packaging, Code-Signing und automatische Updates übernehmen Begleitwerkzeuge aus dem Ökosystem. Sicherheitspraktiken wie Context Isolation und Sandboxing der Renderer sind dokumentiert und in aktuellen Versionen standardmäßig aktiv. Der wichtigste Kompromiss ist der Ressourcenbedarf: Da jede App ihre eigene Browser-Engine mitbringt, sind Installer und Speicherverbrauch größer als bei nativen Toolkits oder schlankeren Webview-basierten Alternativen.",
+      "keywords": [
+        "Desktop-Apps",
+        "plattformübergreifend",
+        "Chromium",
+        "Node.js",
+        "JavaScript",
+        "native Apps"
+      ],
+      "rationale": "Das dominierende Framework für plattformübergreifende Desktop-Apps mit Webtechnologien; ein unverzichtbarer, eigenständiger Vertreter unter dem Dach der OpenJS Foundation."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2013-04-12",
+      "archived": false,
+      "openIssuesCount": 804,
+      "stargazersCount": 124153,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "score": 100,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The dominant framework for cross-platform desktop apps built with web technologies; an essential, distinctive representative under the OpenJS Foundation."
+    },
+    "flag": "ok"
+  }
+}

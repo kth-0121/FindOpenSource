@@ -1,0 +1,112 @@
+{
+  "name": "OBS Studio",
+  "slug": "obs-studio",
+  "description": "Free desktop application for screen recording and live streaming that composes cameras, screens, browser pages and audio into scenes and encodes them in real time. For streamers, educators and anyone producing video on Windows, macOS or Linux.",
+  "repository": "https://github.com/obsproject/obs-studio",
+  "website": "https://obsproject.com",
+  "documentation": "https://obsproject.com/kb",
+  "categories": [
+    "media"
+  ],
+  "keywords": [
+    "live streaming",
+    "screen recording",
+    "video production",
+    "rtmp",
+    "virtual camera",
+    "broadcasting"
+  ],
+  "longDescription": "OBS Studio is a desktop program for capturing, mixing and broadcasting video. You build scenes from sources such as webcams, capture cards, game or window capture, images, media files and embedded browser pages, then switch between them live with transitions. An audio mixer with per-source filters like noise suppression and gain handles sound, and Studio Mode lets you prepare the next scene before sending it out.\n\nThe output can be recorded to local files or streamed to services such as Twitch and YouTube or any custom RTMP or SRT endpoint, using software x264 encoding or hardware encoders from NVIDIA, AMD, Intel and Apple. A virtual camera feeds the program output into video-call apps, and a built-in WebSocket server allows remote control from stream decks and scripts. Plugins and Lua or Python scripts extend it further. It is widely used for game streaming, online teaching, tutorials and event production. OBS is a production tool on a single machine, not a streaming server, and getting good quality depends on tuning encoder settings to the available hardware and bandwidth.",
+  "languages": [
+    "C",
+    "C++"
+  ],
+  "license": "GPL-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "카메라, 화면, 브라우저 페이지, 오디오를 장면으로 구성해 실시간 인코딩하는 무료 화면 녹화·라이브 스트리밍 데스크톱 앱입니다. Windows, macOS, Linux에서 영상을 만드는 스트리머, 교육자 등 누구에게나 맞습니다.",
+      "longDescription": "OBS Studio는 영상을 캡처하고 합성해 송출하는 데스크톱 프로그램입니다. 웹캠, 캡처 카드, 게임·창 캡처, 이미지, 미디어 파일, 내장 브라우저 페이지 같은 소스로 장면을 만들고, 방송 중에 전환 효과와 함께 장면을 바꿀 수 있습니다. 소스별로 노이즈 억제나 게인 같은 필터를 거는 오디오 믹서가 소리를 담당하고, 스튜디오 모드를 쓰면 다음 장면을 미리 준비한 뒤 내보낼 수 있습니다.\n\n결과물은 로컬 파일로 녹화하거나 Twitch, YouTube 같은 서비스 또는 임의의 RTMP·SRT 엔드포인트로 송출할 수 있으며, 소프트웨어 x264 인코딩이나 NVIDIA, AMD, Intel, Apple의 하드웨어 인코더를 사용할 수 있습니다. 가상 카메라로 프로그램 출력을 화상 회의 앱에 넘길 수 있고, 내장 WebSocket 서버 덕분에 스트림 덱이나 스크립트로 원격 제어할 수도 있습니다. 플러그인과 Lua·Python 스크립트로 기능을 더 넓힐 수 있습니다. 게임 방송, 온라인 수업, 튜토리얼, 행사 중계에 널리 쓰입니다. 다만 OBS는 한 대의 컴퓨터에서 쓰는 제작 도구이지 스트리밍 서버가 아니며, 좋은 화질을 얻으려면 하드웨어와 대역폭에 맞춰 인코더 설정을 조정해야 합니다.",
+      "keywords": [
+        "라이브 스트리밍",
+        "화면 녹화",
+        "영상 제작",
+        "RTMP",
+        "가상 카메라",
+        "방송"
+      ],
+      "rationale": "녹화와 라이브 스트리밍의 사실상 표준 오픈소스 도구로, 카탈로그에 겹치는 항목이 없어 미디어 카테고리에 꼭 필요한 대표 프로젝트입니다."
+    },
+    "ja": {
+      "description": "カメラ、画面、ブラウザページ、音声をシーンとして組み合わせ、リアルタイムでエンコードする無料の画面録画・ライブ配信用デスクトップアプリです。Windows、macOS、Linux で動画を作る配信者や教育者などに向いています。",
+      "longDescription": "OBS Studio は、映像をキャプチャし、合成し、配信するためのデスクトッププログラムです。Web カメラ、キャプチャボード、ゲームやウィンドウのキャプチャ、画像、メディアファイル、埋め込みのブラウザページといったソースからシーンを作り、配信中にトランジション付きで切り替えられます。ソースごとにノイズ抑制やゲインなどのフィルターをかけられる音声ミキサーがサウンドを担い、スタジオモードを使えば次のシーンを準備してから送出できます。\n\n出力はローカルファイルに録画することも、Twitch や YouTube などのサービス、あるいは任意の RTMP や SRT のエンドポイントへ配信することもでき、ソフトウェアの x264 エンコードのほか、NVIDIA、AMD、Intel、Apple のハードウェアエンコーダーを利用できます。仮想カメラで番組出力をビデオ会議アプリに渡せるほか、内蔵の WebSocket サーバーによってストリームデッキやスクリプトからリモート操作することも可能です。プラグインや Lua・Python のスクリプトでさらに拡張できます。ゲーム配信、オンライン授業、チュートリアル、イベント中継などで広く使われています。ただし OBS は 1 台のマシンで使う制作ツールであってストリーミングサーバーではなく、良い画質を得るにはハードウェアと回線に合わせたエンコーダー設定の調整が必要です。",
+      "keywords": [
+        "ライブ配信",
+        "画面録画",
+        "動画制作",
+        "RTMP",
+        "仮想カメラ",
+        "放送"
+      ],
+      "rationale": "録画とライブ配信における事実上の標準のオープンソースツールで、カタログに重複がなく、メディアカテゴリに欠かせない代表的プロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "免费的录屏与直播桌面应用，可把摄像头、屏幕、网页和音频组合成场景并实时编码。适合在 Windows、macOS 或 Linux 上制作视频的主播、教师以及其他创作者。",
+      "longDescription": "OBS Studio 是一款用于采集、合成和播出视频的桌面程序。你可以用摄像头、采集卡、游戏或窗口捕获、图片、媒体文件、内嵌网页等来源搭建场景，并在直播中通过转场效果切换场景。音频混音器负责声音处理，可以为每个来源单独添加噪声抑制、增益等滤镜；工作室模式则让你先准备好下一个场景再切出。\n\n输出既可以录制为本地文件，也可以推流到 Twitch、YouTube 等平台或任意自定义的 RTMP、SRT 地址，编码可使用软件 x264，也可使用 NVIDIA、AMD、Intel 和 Apple 的硬件编码器。虚拟摄像头可以把节目输出送进视频会议软件，内置的 WebSocket 服务器还支持通过直播控制台或脚本远程操控。插件以及 Lua、Python 脚本可以进一步扩展功能。它广泛用于游戏直播、在线教学、教程录制和活动转播。需要注意的是，OBS 是单机上的制作工具，而不是流媒体服务器；想要获得良好画质，需要根据硬件和带宽调整编码设置。",
+      "keywords": [
+        "直播",
+        "录屏",
+        "视频制作",
+        "RTMP",
+        "虚拟摄像头",
+        "广播"
+      ],
+      "rationale": "录制与直播领域事实上的标准开源工具；目录中没有与之重叠的项目，是媒体分类中不可或缺的代表性项目。"
+    },
+    "es": {
+      "description": "Aplicación de escritorio gratuita para grabar la pantalla y emitir en directo que combina cámaras, pantallas, páginas web y audio en escenas y las codifica en tiempo real. Para streamers, docentes y cualquiera que produzca vídeo en Windows, macOS o Linux.",
+      "longDescription": "OBS Studio es un programa de escritorio para capturar, mezclar y emitir vídeo. Construyes escenas a partir de fuentes como cámaras web, capturadoras, captura de juegos o ventanas, imágenes, archivos multimedia y páginas web incrustadas, y luego cambias entre ellas en directo con transiciones. Un mezclador de audio con filtros por fuente, como supresión de ruido o ganancia, se ocupa del sonido, y el Modo Estudio te permite preparar la siguiente escena antes de sacarla al aire.\n\nLa salida puede grabarse en archivos locales o emitirse a servicios como Twitch y YouTube o a cualquier endpoint RTMP o SRT personalizado, usando codificación x264 por software o codificadores por hardware de NVIDIA, AMD, Intel y Apple. Una cámara virtual lleva la salida del programa a las apps de videollamada, y un servidor WebSocket integrado permite el control remoto desde stream decks y scripts. Los plugins y los scripts en Lua o Python lo amplían aún más. Se usa mucho para retransmitir partidas, dar clases en línea, grabar tutoriales y producir eventos. OBS es una herramienta de producción en un solo equipo, no un servidor de streaming, y lograr buena calidad depende de ajustar el codificador al hardware y al ancho de banda disponibles.",
+      "keywords": [
+        "streaming en directo",
+        "grabación de pantalla",
+        "producción de vídeo",
+        "RTMP",
+        "cámara virtual",
+        "retransmisión"
+      ],
+      "rationale": "La herramienta de código abierto estándar de facto para grabar y emitir en directo; no se solapa con nada del catálogo y es un proyecto representativo esencial para la categoría de medios."
+    },
+    "de": {
+      "description": "Kostenlose Desktop-Anwendung für Bildschirmaufnahmen und Livestreaming, die Kameras, Bildschirme, Webseiten und Audio zu Szenen kombiniert und in Echtzeit kodiert. Für Streamer, Lehrende und alle, die unter Windows, macOS oder Linux Videos produzieren.",
+      "longDescription": "OBS Studio ist ein Desktop-Programm zum Aufnehmen, Mischen und Senden von Video. Du baust Szenen aus Quellen wie Webcams, Capture-Karten, Spiel- oder Fensteraufnahme, Bildern, Mediendateien und eingebetteten Webseiten und wechselst live mit Übergängen zwischen ihnen. Ein Audiomixer mit Filtern pro Quelle, etwa Rauschunterdrückung oder Verstärkung, kümmert sich um den Ton, und im Studiomodus lässt sich die nächste Szene vorbereiten, bevor sie auf Sendung geht.\n\nDie Ausgabe kann lokal aufgezeichnet oder an Dienste wie Twitch und YouTube oder an beliebige eigene RTMP- oder SRT-Endpunkte gestreamt werden, wahlweise mit x264 in Software oder mit Hardware-Encodern von NVIDIA, AMD, Intel und Apple. Eine virtuelle Kamera leitet das Programmbild an Videokonferenz-Apps weiter, und ein eingebauter WebSocket-Server erlaubt die Fernsteuerung über Stream Decks und Skripte. Plugins sowie Lua- oder Python-Skripte erweitern das Programm zusätzlich. Verbreitet ist es für Gaming-Streams, Online-Unterricht, Tutorials und Eventproduktionen. OBS ist ein Produktionswerkzeug auf einem einzelnen Rechner und kein Streaming-Server; gute Qualität hängt davon ab, die Encoder-Einstellungen an Hardware und verfügbare Bandbreite anzupassen.",
+      "keywords": [
+        "Livestreaming",
+        "Bildschirmaufnahme",
+        "Videoproduktion",
+        "RTMP",
+        "virtuelle Kamera",
+        "Broadcasting"
+      ],
+      "rationale": "Das De-facto-Standardwerkzeug für Aufnahme und Livestreaming im Open-Source-Bereich; ohne Überschneidung im Katalog und ein unverzichtbares Referenzprojekt für die Medien-Kategorie."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2013-10-01",
+      "archived": false,
+      "openIssuesCount": 1220,
+      "stargazersCount": 80163,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 87,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The de facto open source standard for recording and live streaming; nothing in the catalog overlaps, making it an essential representative of the media category."
+    },
+    "flag": "ok"
+  }
+}

@@ -18,7 +18,7 @@ Busca "autenticación", "chat", "CMS", "base de datos vectorial" o "web scraping
 lista curada de proyectos open source que resuelven ese problema — con la información necesaria
 (licencia, lenguaje, enlaces) para evaluarlos rápidamente.
 
-El catálogo incluye **240+ proyectos curados** en 21 categorías, además de **300+ skills para
+El catálogo incluye **280+ proyectos curados** en 21 categorías, además de **300+ skills para
 agentes** de 10 skill packs que puedes combinar en un único comando de instalación.
 
 FindOpenSource es un directorio totalmente estático, mantenido por la comunidad. No hay login,

@@ -1,0 +1,118 @@
+{
+  "name": "Bruno",
+  "slug": "bruno",
+  "description": "Offline-first open source API client that saves request collections as plain-text files on disk, so developers can explore and test REST and GraphQL APIs and version their collections in Git instead of a cloud workspace.",
+  "repository": "https://github.com/usebruno/bruno",
+  "website": "https://www.usebruno.com",
+  "documentation": "https://docs.usebruno.com",
+  "categories": [
+    "api",
+    "testing"
+  ],
+  "keywords": [
+    "api client",
+    "api testing",
+    "postman alternative",
+    "git",
+    "offline",
+    "graphql"
+  ],
+  "longDescription": "Bruno is a desktop API client positioned as an alternative to Postman and similar tools that keep collections in a hosted account. Each collection lives in a folder on your own filesystem as human-readable text files, currently in the OpenCollection YAML format, so requests can be reviewed, diffed and shared through Git or any other version control system. The project states that it is offline-only and has no plans to add cloud sync.\n\nThe app lets you build and send HTTP and GraphQL requests, manage environments and variables, run scripts before and after requests, and write assertions and tests against responses. A separate command-line tool, published on npm as @usebruno/cli, runs collections in CI pipelines. Most features are free and open source, while some team-oriented capabilities are reserved for paid editions, so check which tier covers what you need.",
+  "languages": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "@usebruno/cli"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "요청 컬렉션을 디스크에 일반 텍스트 파일로 저장하는 오프라인 우선 오픈소스 API 클라이언트입니다. 클라우드 워크스페이스 대신 Git으로 컬렉션을 관리하면서 REST와 GraphQL API를 탐색하고 테스트할 수 있습니다.",
+      "longDescription": "Bruno는 컬렉션을 호스팅 계정에 보관하는 Postman 같은 도구의 대안을 표방하는 데스크톱 API 클라이언트입니다. 각 컬렉션은 내 파일 시스템의 폴더에 사람이 읽을 수 있는 텍스트 파일(현재는 OpenCollection YAML 형식)로 저장되므로, Git이나 다른 버전 관리 시스템으로 요청을 리뷰하고 비교하고 공유할 수 있습니다. 프로젝트는 오프라인 전용이며 클라우드 동기화를 추가할 계획이 없다고 밝히고 있습니다.\n\n앱에서는 HTTP와 GraphQL 요청을 만들어 보내고, 환경과 변수를 관리하고, 요청 전후에 스크립트를 실행하고, 응답에 대한 어설션과 테스트를 작성할 수 있습니다. npm에 @usebruno/cli로 배포되는 별도의 커맨드라인 도구로 CI 파이프라인에서 컬렉션을 실행할 수도 있습니다. 대부분의 기능은 무료 오픈소스지만 일부 팀 중심 기능은 유료 에디션에만 있으므로, 필요한 기능이 어느 등급에 포함되는지 확인하는 것이 좋습니다.",
+      "keywords": [
+        "API 클라이언트",
+        "API 테스트",
+        "Postman 대안",
+        "Git",
+        "오프라인",
+        "GraphQL"
+      ],
+      "rationale": "Git 친화적인 오프라인 API 클라이언트로 인기가 높습니다. Hoppscotch와 겹치지만 컬렉션을 로컬 파일로 저장해 버전 관리한다는 점이 다릅니다."
+    },
+    "ja": {
+      "description": "リクエストのコレクションをディスク上のプレーンテキストファイルとして保存する、オフラインファーストのオープンソース API クライアントです。クラウドのワークスペースではなく Git でコレクションを管理しながら、REST や GraphQL の API を試せます。",
+      "longDescription": "Bruno は、コレクションをホスト型アカウントに保存する Postman などのツールに代わるものとして位置づけられたデスクトップ API クライアントです。各コレクションは自分のファイルシステム上のフォルダーに、人が読めるテキストファイル（現在は OpenCollection YAML 形式）として保存されるため、Git などのバージョン管理システムでリクエストをレビューしたり、差分を見たり、共有したりできます。プロジェクトはオフライン専用であり、クラウド同期を追加する予定はないと明言しています。\n\nアプリでは HTTP や GraphQL のリクエストの作成と送信、環境や変数の管理、リクエスト前後のスクリプト実行、レスポンスに対するアサーションやテストの記述ができます。npm で @usebruno/cli として公開されている別のコマンドラインツールを使えば、CI パイプラインでコレクションを実行できます。ほとんどの機能は無料のオープンソースですが、チーム向けの一部機能は有料版に限られるため、必要な機能がどのプランに含まれるかを確認してください。",
+      "keywords": [
+        "API クライアント",
+        "API テスト",
+        "Postman 代替",
+        "Git",
+        "オフライン",
+        "GraphQL"
+      ],
+      "rationale": "Git と相性のよい人気のオフライン API クライアントです。Hoppscotch と重なりますが、コレクションをローカルファイルとして保存しバージョン管理できる点が異なります。"
+    },
+    "zh-CN": {
+      "description": "离线优先的开源 API 客户端，把请求集合以纯文本文件形式保存在本地磁盘上，让开发者用 Git 而不是云端工作区来管理集合，同时探索和测试 REST 与 GraphQL API。",
+      "longDescription": "Bruno 是一款桌面 API 客户端，定位为 Postman 等把集合存放在托管账户中的工具的替代品。每个集合都以人类可读的文本文件（目前为 OpenCollection YAML 格式）保存在你自己文件系统的文件夹中，因此可以通过 Git 或其他版本控制系统来审阅、比较和共享请求。项目明确表示它只支持离线使用，也没有增加云同步的计划。\n\n在应用中可以构建并发送 HTTP 和 GraphQL 请求，管理环境和变量，在请求前后运行脚本，并针对响应编写断言和测试。另有一个以 @usebruno/cli 名称发布在 npm 上的命令行工具，可在 CI 流水线中运行集合。大部分功能免费且开源，但部分面向团队的功能仅在付费版本中提供，使用前请确认所需功能属于哪个版本。",
+      "keywords": [
+        "API 客户端",
+        "API 测试",
+        "Postman 替代",
+        "Git",
+        "离线",
+        "GraphQL"
+      ],
+      "rationale": "广受欢迎、对 Git 友好的离线 API 客户端；与 Hoppscotch 有重叠，但区别在于把集合保存为本地文件以便版本控制。"
+    },
+    "es": {
+      "description": "Cliente de API de código abierto que prioriza el trabajo sin conexión y guarda las colecciones como archivos de texto en disco, para explorar y probar API REST y GraphQL y versionar las colecciones en Git en lugar de un espacio en la nube.",
+      "longDescription": "Bruno es un cliente de API de escritorio que se presenta como alternativa a Postman y herramientas similares que guardan las colecciones en una cuenta alojada. Cada colección vive en una carpeta de tu propio sistema de archivos como archivos de texto legibles, actualmente en formato OpenCollection YAML, de modo que las peticiones pueden revisarse, compararse y compartirse con Git o cualquier otro sistema de control de versiones. El proyecto afirma que funciona solo sin conexión y que no tiene planes de añadir sincronización en la nube.\n\nLa aplicación permite crear y enviar peticiones HTTP y GraphQL, gestionar entornos y variables, ejecutar scripts antes y después de cada petición y escribir aserciones y pruebas sobre las respuestas. Una herramienta de línea de comandos aparte, publicada en npm como @usebruno/cli, ejecuta colecciones en pipelines de CI. La mayoría de las funciones son gratuitas y de código abierto, pero algunas capacidades orientadas a equipos se reservan para las ediciones de pago, así que conviene comprobar qué nivel cubre lo que necesitas.",
+      "keywords": [
+        "cliente de API",
+        "pruebas de API",
+        "alternativa a Postman",
+        "Git",
+        "sin conexión",
+        "GraphQL"
+      ],
+      "rationale": "Popular cliente de API sin conexión y pensado para Git; se solapa con Hoppscotch, pero se diferencia por guardar las colecciones como archivos locales versionables."
+    },
+    "de": {
+      "description": "Offline-orientierter Open-Source-API-Client, der Request-Sammlungen als Klartextdateien auf der Festplatte speichert – so lassen sich REST- und GraphQL-APIs erkunden und testen und die Sammlungen in Git statt in einem Cloud-Workspace versionieren.",
+      "longDescription": "Bruno ist ein Desktop-API-Client, der sich als Alternative zu Postman und ähnlichen Tools versteht, die Sammlungen in einem gehosteten Konto ablegen. Jede Sammlung liegt stattdessen als Ordner im eigenen Dateisystem, in Form gut lesbarer Textdateien (derzeit im Format OpenCollection YAML), sodass sich Requests per Git oder einem anderen Versionskontrollsystem reviewen, vergleichen und teilen lassen. Laut Projekt arbeitet Bruno ausschließlich offline, und eine Cloud-Synchronisierung ist nicht geplant.\n\nIn der App lassen sich HTTP- und GraphQL-Requests erstellen und senden, Umgebungen und Variablen verwalten, Skripte vor und nach Requests ausführen sowie Assertions und Tests für Antworten schreiben. Ein separates Kommandozeilen-Tool, auf npm als @usebruno/cli veröffentlicht, führt Sammlungen in CI-Pipelines aus. Die meisten Funktionen sind kostenlos und quelloffen, einige teamorientierte Funktionen gibt es jedoch nur in den kostenpflichtigen Editionen – es lohnt sich zu prüfen, welche Stufe den eigenen Bedarf abdeckt.",
+      "keywords": [
+        "API-Client",
+        "API-Tests",
+        "Postman-Alternative",
+        "Git",
+        "offline",
+        "GraphQL"
+      ],
+      "rationale": "Beliebter, Git-freundlicher Offline-API-Client; überschneidet sich mit Hoppscotch, speichert Sammlungen aber als lokale, versionierbare Dateien."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2022-09-27",
+      "archived": false,
+      "openIssuesCount": 2013,
+      "stargazersCount": 48623,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 88,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Popular Git-friendly, offline API client; overlaps with Hoppscotch but differs by storing collections as local files for version control."
+    },
+    "flag": "ok"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Django",
+  "slug": "django",
+  "description": "High-level Python web framework that bundles an ORM, migrations, an automatic admin interface, authentication, forms and templating. Suited to teams building database-backed websites and applications who want conventions and batteries included.",
+  "repository": "https://github.com/django/django",
+  "website": "https://www.djangoproject.com",
+  "documentation": "https://docs.djangoproject.com/en/stable/",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "python",
+    "web framework",
+    "orm",
+    "admin interface",
+    "mvc",
+    "full stack"
+  ],
+  "longDescription": "Django is a full-stack Python web framework, developed in the open since 2005 and stewarded by the Django Software Foundation. It follows a batteries-included philosophy: models defined in Python map to database tables through its ORM, schema changes are tracked as migrations, and an admin site for managing data is generated from those models with very little code. URL routing, views, templates, forms and a user and permission system all ship in the core package.\n\nThe framework also includes protections against common web vulnerabilities such as CSRF, SQL injection and clickjacking, along with caching, internationalization and support for PostgreSQL, MySQL, MariaDB, SQLite and Oracle. It is widely used for content sites, internal tools, SaaS products and the backends of large platforms, often together with Django REST Framework for APIs. Its conventions favor server-rendered, relational-database-backed applications; teams that only need a lightweight JSON API may find it heavier than smaller frameworks.",
+  "languages": [
+    "Python"
+  ],
+  "packages": {
+    "pypi": [
+      "django"
+    ]
+  },
+  "license": "BSD-3-Clause",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "ORM, 마이그레이션, 자동 생성 관리자 화면, 인증, 폼, 템플릿을 모두 갖춘 고수준 Python 웹 프레임워크입니다. 정해진 관례와 풍부한 기본 기능을 원하는, 데이터베이스 기반 웹사이트와 애플리케이션을 만드는 팀에 적합합니다.",
+      "longDescription": "Django는 2005년부터 공개적으로 개발되어 온 풀스택 Python 웹 프레임워크로, Django Software Foundation이 관리합니다. '필요한 것은 모두 기본 포함'이라는 철학을 따릅니다. Python으로 정의한 모델은 ORM을 통해 데이터베이스 테이블에 매핑되고, 스키마 변경은 마이그레이션으로 관리되며, 데이터를 관리하는 관리자 사이트는 아주 적은 코드만으로 모델에서 자동 생성됩니다. URL 라우팅, 뷰, 템플릿, 폼, 사용자와 권한 시스템도 모두 코어 패키지에 들어 있습니다.\n\nCSRF, SQL 인젝션, 클릭재킹 같은 흔한 웹 취약점에 대한 보호 기능과 캐싱, 국제화, 그리고 PostgreSQL, MySQL, MariaDB, SQLite, Oracle 지원도 제공합니다. 콘텐츠 사이트, 사내 도구, SaaS 제품, 대형 플랫폼의 백엔드에 널리 쓰이며, API가 필요할 때는 Django REST Framework와 함께 쓰는 경우가 많습니다. 서버 렌더링과 관계형 데이터베이스 중심 애플리케이션에 맞춰진 관례를 갖고 있어, 가벼운 JSON API만 필요한 팀에게는 작은 프레임워크보다 무겁게 느껴질 수 있습니다.",
+      "keywords": [
+        "python",
+        "웹 프레임워크",
+        "orm",
+        "관리자 화면",
+        "mvc",
+        "풀스택"
+      ],
+      "rationale": "오랜 역사를 지닌 재단 관리형 Python 웹 프레임워크이자 풀스택 백엔드의 기준점으로, 백엔드 분야에 꼭 필요한 대표 프로젝트입니다."
+    },
+    "ja": {
+      "description": "ORM、マイグレーション、自動生成される管理画面、認証、フォーム、テンプレートをまとめて備えた高水準の Python Web フレームワークです。規約と充実した標準機能を求める、データベース中心の Web サイトやアプリケーションを作るチームに向いています。",
+      "longDescription": "Django は 2005 年からオープンに開発されてきたフルスタックの Python Web フレームワークで、Django Software Foundation が運営を担っています。「必要なものは最初から揃っている」という考え方に基づき、Python で定義したモデルは ORM を通じてデータベースのテーブルに対応付けられ、スキーマの変更はマイグレーションとして管理され、データを管理するための管理サイトはごくわずかなコードでモデルから自動生成されます。URL ルーティング、ビュー、テンプレート、フォーム、ユーザーと権限の仕組みもすべてコアパッケージに含まれています。\n\nCSRF、SQL インジェクション、クリックジャッキングといった一般的な Web 脆弱性への対策に加え、キャッシュ、国際化、PostgreSQL・MySQL・MariaDB・SQLite・Oracle のサポートも備えています。コンテンツサイト、社内ツール、SaaS、大規模プラットフォームのバックエンドなどで広く使われ、API には Django REST Framework を組み合わせることがよくあります。サーバーサイドレンダリングとリレーショナルデータベースを前提とした規約のため、軽量な JSON API だけが必要なチームには小さなフレームワークより重く感じられることがあります。",
+      "keywords": [
+        "python",
+        "Web フレームワーク",
+        "orm",
+        "管理画面",
+        "mvc",
+        "フルスタック"
+      ],
+      "rationale": "長い歴史を持つ財団運営の Python Web フレームワークで、フルスタックバックエンドの基準となる存在です。バックエンド分野に欠かせない代表的プロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "一个高层次的 Python Web 框架，内置 ORM、数据库迁移、自动生成的管理后台、认证、表单和模板。适合希望遵循约定、开箱即用地构建数据库驱动型网站和应用的团队。",
+      "longDescription": "Django 是一个全栈 Python Web 框架，自 2005 年起公开开发，由 Django Software Foundation 管理。它奉行“开箱即用”的理念：用 Python 定义的模型通过 ORM 映射到数据库表，模式变更以迁移的形式记录，而用于管理数据的后台站点只需很少的代码就能从模型自动生成。URL 路由、视图、模板、表单以及用户和权限系统都包含在核心包中。\n\n框架还内置了针对 CSRF、SQL 注入和点击劫持等常见 Web 漏洞的防护，以及缓存、国际化，并支持 PostgreSQL、MySQL、MariaDB、SQLite 和 Oracle。它被广泛用于内容网站、内部工具、SaaS 产品和大型平台的后端，构建 API 时常与 Django REST Framework 搭配使用。它的约定偏向服务端渲染和关系型数据库应用；只需要轻量 JSON API 的团队可能会觉得它比小型框架更重。",
+      "keywords": [
+        "python",
+        "Web 框架",
+        "orm",
+        "管理后台",
+        "mvc",
+        "全栈"
+      ],
+      "rationale": "历史悠久、由基金会治理的 Python Web 框架，是全栈后端的标杆；后端类别中不可或缺的代表性项目。"
+    },
+    "es": {
+      "description": "Framework web de Python de alto nivel que incluye ORM, migraciones, panel de administración automático, autenticación, formularios y plantillas. Ideal para equipos que crean sitios y aplicaciones respaldados por bases de datos y quieren convenciones y todo incluido.",
+      "longDescription": "Django es un framework web de Python de pila completa, desarrollado en abierto desde 2005 y bajo la tutela de la Django Software Foundation. Sigue una filosofía de «baterías incluidas»: los modelos definidos en Python se asignan a tablas mediante su ORM, los cambios de esquema se registran como migraciones y un sitio de administración para gestionar los datos se genera a partir de esos modelos con muy poco código. El enrutamiento de URL, las vistas, las plantillas, los formularios y un sistema de usuarios y permisos vienen en el paquete principal.\n\nTambién incorpora protecciones frente a vulnerabilidades web comunes como CSRF, inyección SQL y clickjacking, además de caché, internacionalización y soporte para PostgreSQL, MySQL, MariaDB, SQLite y Oracle. Se usa mucho en sitios de contenido, herramientas internas, productos SaaS y backends de grandes plataformas, a menudo junto con Django REST Framework para las APIs. Sus convenciones favorecen aplicaciones renderizadas en servidor y basadas en bases de datos relacionales; a los equipos que solo necesitan una API JSON ligera puede resultarles más pesado que frameworks más pequeños.",
+      "keywords": [
+        "python",
+        "framework web",
+        "orm",
+        "panel de administración",
+        "mvc",
+        "pila completa"
+      ],
+      "rationale": "El veterano framework web de Python, gobernado por una fundación y referencia para backends de pila completa; un representante imprescindible de la categoría backend."
+    },
+    "de": {
+      "description": "High-Level-Webframework für Python mit ORM, Migrationen, automatisch erzeugter Admin-Oberfläche, Authentifizierung, Formularen und Templates. Passend für Teams, die datenbankgestützte Websites und Anwendungen mit klaren Konventionen und vielen eingebauten Funktionen bauen.",
+      "longDescription": "Django ist ein Full-Stack-Webframework für Python, das seit 2005 offen entwickelt und von der Django Software Foundation betreut wird. Es folgt dem Prinzip „Batterien inklusive“: In Python definierte Modelle werden über das ORM auf Datenbanktabellen abgebildet, Schemaänderungen als Migrationen verfolgt, und eine Admin-Seite zur Datenpflege entsteht aus diesen Modellen mit sehr wenig Code. URL-Routing, Views, Templates, Formulare sowie ein Benutzer- und Rechtesystem gehören zum Kernpaket.\n\nDazu kommen Schutzmechanismen gegen verbreitete Web-Schwachstellen wie CSRF, SQL-Injection und Clickjacking, außerdem Caching, Internationalisierung und Unterstützung für PostgreSQL, MySQL, MariaDB, SQLite und Oracle. Es wird breit für Content-Sites, interne Tools, SaaS-Produkte und die Backends großer Plattformen eingesetzt, für APIs oft zusammen mit Django REST Framework. Seine Konventionen zielen auf serverseitig gerenderte Anwendungen mit relationaler Datenbank; wer nur eine schlanke JSON-API braucht, empfindet es womöglich als schwerer als kleinere Frameworks.",
+      "keywords": [
+        "python",
+        "Webframework",
+        "orm",
+        "Admin-Oberfläche",
+        "mvc",
+        "Full Stack"
+      ],
+      "rationale": "Das altbewährte, stiftungsgeführte Python-Webframework und Referenzpunkt für Full-Stack-Backends; ein unverzichtbarer Vertreter der Backend-Kategorie."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2012-04-28",
+      "archived": false,
+      "openIssuesCount": 525,
+      "stargazersCount": 91744,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "score": 100,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The long-established, foundation-governed Python web framework and a reference point for full-stack backends; an essential representative of the backend category."
+    },
+    "flag": "ok"
+  }
+}

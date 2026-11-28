@@ -18,7 +18,7 @@ Suche nach "Authentifizierung", "Chat", "CMS", "Vektordatenbank" oder "Web Scrap
 erhalte eine kuratierte Liste von Open-Source-Projekten, die genau dieses Problem lösen — mit
 genug Informationen (Lizenz, Sprache, Links), um sie schnell einschätzen zu können.
 
-Der Katalog umfasst **240+ kuratierte Projekte** in 21 Kategorien sowie **300+ Agent-Skills**
+Der Katalog umfasst **280+ kuratierte Projekte** in 21 Kategorien sowie **300+ Agent-Skills**
 aus 10 Skill-Packs, die du in einem einzigen Installationsbefehl kombinieren kannst.
 
 FindOpenSource ist ein vollständig statisches, von der Community gepflegtes Verzeichnis. Es

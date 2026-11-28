@@ -1,0 +1,116 @@
+{
+  "name": "Vite",
+  "slug": "vite",
+  "description": "Frontend build tool with a fast dev server built on native ES modules and an optimized production build, used by web developers working with Vue, React, Svelte and other frameworks.",
+  "repository": "https://github.com/vitejs/vite",
+  "website": "https://vite.dev",
+  "documentation": "https://vite.dev/guide/",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "build tool",
+    "dev server",
+    "hot module replacement",
+    "bundler",
+    "frontend tooling",
+    "es modules"
+  ],
+  "longDescription": "Vite is a frontend build tool that splits the job into two parts: a development server that serves source files over native ES modules, so the browser only requests what a page actually imports, and a production build step that bundles and optimizes the app for deployment. Because the dev server avoids bundling the whole project up front, startup and hot module replacement stay fast even as a codebase grows.\n\nIt handles TypeScript, JSX, CSS preprocessors and static assets out of the box (TypeScript is transpiled, while type checking is left to your editor or tsc), and exposes a plugin API that many frameworks build on, so the same tooling sits underneath setups for Vue, React, Svelte, Solid and others. Projects use it to scaffold new apps from templates, build component libraries in library mode, or power server-side rendering setups. It is a build tool rather than an application framework: routing, data loading and deployment conventions come from whatever framework you put on top.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "vite"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "네이티브 ES 모듈 기반의 빠른 개발 서버와 최적화된 프로덕션 빌드를 제공하는 프런트엔드 빌드 도구로, Vue, React, Svelte 등 다양한 프레임워크를 쓰는 웹 개발자를 위한 도구입니다.",
+      "longDescription": "Vite는 프런트엔드 빌드 작업을 두 부분으로 나눕니다. 하나는 소스 파일을 네이티브 ES 모듈로 제공해 브라우저가 페이지에서 실제로 import하는 파일만 요청하도록 하는 개발 서버이고, 다른 하나는 배포용으로 앱을 번들링하고 최적화하는 프로덕션 빌드 단계입니다. 개발 서버가 프로젝트 전체를 미리 번들링하지 않기 때문에 코드베이스가 커져도 시작 속도와 핫 모듈 교체(HMR)가 빠르게 유지됩니다.\n\nTypeScript, JSX, CSS 전처리기, 정적 자산을 별도 설정 없이 처리하며(TypeScript는 트랜스파일만 하고 타입 검사는 에디터나 tsc에 맡깁니다), 많은 프레임워크가 기반으로 삼는 플러그인 API를 제공합니다. 그래서 Vue, React, Svelte, Solid 등의 구성 밑에 같은 도구가 깔려 있습니다. 템플릿으로 새 앱을 만들거나, 라이브러리 모드로 컴포넌트 라이브러리를 빌드하거나, 서버 사이드 렌더링 구성을 뒷받침하는 데 쓰입니다. 애플리케이션 프레임워크가 아니라 빌드 도구이므로 라우팅, 데이터 로딩, 배포 방식은 그 위에 얹는 프레임워크가 정합니다.",
+      "keywords": [
+        "빌드 도구",
+        "개발 서버",
+        "핫 모듈 교체",
+        "번들러",
+        "프런트엔드 도구",
+        "ES 모듈"
+      ],
+      "rationale": "대부분의 최신 JS 프레임워크가 기반으로 쓰는 사실상 표준 프런트엔드 빌드 도구이자 개발 서버이며, 카탈로그에 아직 비슷한 항목이 없습니다."
+    },
+    "ja": {
+      "description": "ネイティブ ES モジュールを活かした高速な開発サーバーと、最適化された本番ビルドを備えたフロントエンドビルドツールです。Vue、React、Svelte などのフレームワークを使う Web 開発者向けです。",
+      "longDescription": "Vite はフロントエンドのビルド作業を二つに分けて扱います。一つはソースファイルをネイティブ ES モジュールとして配信し、ページが実際に import するものだけをブラウザに読み込ませる開発サーバー、もう一つはデプロイ用にアプリをバンドルして最適化する本番ビルドです。開発サーバーはプロジェクト全体を事前にバンドルしないため、コードベースが大きくなっても起動やホットモジュールリプレースメント(HMR)は高速なままです。\n\nTypeScript、JSX、CSS プリプロセッサ、静的アセットを設定なしで扱え(TypeScript はトランスパイルのみで、型チェックはエディタや tsc に任せます)、多くのフレームワークが土台にしているプラグイン API を備えています。そのため Vue、React、Svelte、Solid などの構成の下で同じツールが動いています。テンプレートからの新規アプリ作成、ライブラリモードでのコンポーネントライブラリのビルド、サーバーサイドレンダリング構成の基盤などに使われます。アプリケーションフレームワークではなくビルドツールなので、ルーティングやデータ取得、デプロイの流儀は上に載せるフレームワーク次第です。",
+      "keywords": [
+        "ビルドツール",
+        "開発サーバー",
+        "ホットモジュールリプレースメント",
+        "バンドラー",
+        "フロントエンドツール",
+        "ES モジュール"
+      ],
+      "rationale": "現代の JS フレームワークの多くを支える事実上標準のフロントエンドビルドツール兼開発サーバーで、カタログにはまだ同等のものがありません。"
+    },
+    "zh-CN": {
+      "description": "一款前端构建工具，提供基于原生 ES 模块的快速开发服务器和经过优化的生产构建，面向使用 Vue、React、Svelte 等框架的 Web 开发者。",
+      "longDescription": "Vite 把前端构建拆成两部分：一个以原生 ES 模块形式提供源文件的开发服务器，浏览器只请求页面实际导入的内容；以及一个为部署打包并优化应用的生产构建步骤。由于开发服务器不会预先打包整个项目，即使代码库不断变大，启动速度和热模块替换（HMR）依然很快。\n\n它开箱即用地支持 TypeScript、JSX、CSS 预处理器和静态资源（TypeScript 只做转译，类型检查交给编辑器或 tsc），并提供许多框架都在其上构建的插件 API，因此 Vue、React、Svelte、Solid 等方案底层用的是同一套工具。常见用法包括用模板创建新应用、用库模式构建组件库，或为服务端渲染方案提供支撑。它是构建工具而不是应用框架：路由、数据加载和部署约定都由你在其上使用的框架决定。",
+      "keywords": [
+        "构建工具",
+        "开发服务器",
+        "热模块替换",
+        "打包工具",
+        "前端工具链",
+        "ES 模块"
+      ],
+      "rationale": "大多数现代 JS 框架背后事实上的标准前端构建工具和开发服务器；目录中尚无同类项目。"
+    },
+    "es": {
+      "description": "Herramienta de compilación frontend con un servidor de desarrollo rápido basado en módulos ES nativos y una compilación de producción optimizada, para desarrolladores web que trabajan con Vue, React, Svelte y otros frameworks.",
+      "longDescription": "Vite divide el trabajo en dos partes: un servidor de desarrollo que sirve el código fuente como módulos ES nativos, de modo que el navegador solo pide lo que la página importa realmente, y un paso de compilación para producción que empaqueta y optimiza la aplicación para desplegarla. Como el servidor de desarrollo no empaqueta todo el proyecto de antemano, el arranque y el reemplazo de módulos en caliente (HMR) siguen siendo rápidos aunque el código crezca.\n\nAdmite TypeScript, JSX, preprocesadores CSS y recursos estáticos sin configuración (TypeScript solo se transpila; la comprobación de tipos queda en manos del editor o de tsc) y ofrece una API de plugins sobre la que se construyen muchos frameworks, así que la misma herramienta está debajo de configuraciones con Vue, React, Svelte, Solid y otros. Se usa para crear aplicaciones a partir de plantillas, compilar bibliotecas de componentes en modo biblioteca o dar soporte a configuraciones de renderizado en servidor. Es una herramienta de compilación, no un framework de aplicaciones: el enrutado, la carga de datos y las convenciones de despliegue dependen del framework que pongas encima.",
+      "keywords": [
+        "herramienta de compilación",
+        "servidor de desarrollo",
+        "reemplazo de módulos en caliente",
+        "empaquetador",
+        "herramientas frontend",
+        "módulos ES"
+      ],
+      "rationale": "La herramienta de compilación y servidor de desarrollo de referencia detrás de la mayoría de los frameworks JS modernos; aún no hay nada equivalente en el catálogo."
+    },
+    "de": {
+      "description": "Frontend-Build-Tool mit schnellem Entwicklungsserver auf Basis nativer ES-Module und optimiertem Produktions-Build, für Webentwickler, die mit Vue, React, Svelte und anderen Frameworks arbeiten.",
+      "longDescription": "Vite teilt die Arbeit in zwei Teile: einen Entwicklungsserver, der Quelldateien als native ES-Module ausliefert, sodass der Browser nur anfordert, was eine Seite tatsächlich importiert, und einen Produktions-Build, der die App für das Deployment bündelt und optimiert. Weil der Entwicklungsserver nicht vorab das ganze Projekt bündelt, bleiben Start und Hot Module Replacement auch bei wachsender Codebasis schnell.\n\nTypeScript, JSX, CSS-Präprozessoren und statische Assets funktionieren ohne Konfiguration (TypeScript wird nur transpiliert, die Typprüfung bleibt dem Editor oder tsc überlassen), und über eine Plugin-API, auf der viele Frameworks aufbauen, steckt dasselbe Tooling unter Setups mit Vue, React, Svelte, Solid und anderen. Typische Einsätze sind neue Apps aus Vorlagen, Komponentenbibliotheken im Library-Modus oder Setups mit serverseitigem Rendering. Vite ist ein Build-Tool, kein Anwendungsframework: Routing, Datenladen und Deployment-Konventionen kommen vom Framework, das man darauf setzt.",
+      "keywords": [
+        "Build-Tool",
+        "Entwicklungsserver",
+        "Hot Module Replacement",
+        "Bundler",
+        "Frontend-Tooling",
+        "ES-Module"
+      ],
+      "rationale": "Das De-facto-Standard-Build-Tool und der Entwicklungsserver hinter den meisten modernen JS-Frameworks; im Katalog gibt es noch nichts Vergleichbares."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2020-04-21",
+      "archived": false,
+      "openIssuesCount": 835,
+      "stargazersCount": 84153,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The de facto frontend build tool and dev server behind most modern JS frameworks; nothing comparable in the catalog yet."
+    },
+    "flag": "ok"
+  }
+}

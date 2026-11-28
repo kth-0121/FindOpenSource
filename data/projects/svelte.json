@@ -1,0 +1,116 @@
+{
+  "name": "Svelte",
+  "slug": "svelte",
+  "description": "Component framework that compiles your components into small, efficient JavaScript at build time instead of shipping a large runtime, aimed at web developers who want concise components and fast pages.",
+  "repository": "https://github.com/sveltejs/svelte",
+  "website": "https://svelte.dev",
+  "documentation": "https://svelte.dev/docs",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "compiler",
+    "component framework",
+    "reactivity",
+    "frontend",
+    "runes",
+    "web apps"
+  ],
+  "longDescription": "Svelte is a UI framework that does most of its work at build time. Components are written in .svelte files that mix markup, script and styles, and the compiler turns them into JavaScript that updates the DOM directly rather than diffing a virtual DOM at runtime. The result is typically less framework code shipped to the browser and component source that reads close to plain HTML, CSS and JavaScript.\n\nSince Svelte 5, reactivity is expressed with runes, explicit primitives such as $state, $derived and $effect that also work in .svelte.js and .svelte.ts modules. Styles are scoped to the component by default, and transitions and animations are built in. For routing, server rendering and deployment, most projects pair it with SvelteKit, which is maintained in a separate repository. Its ecosystem of third-party component libraries is smaller than React's, which is worth weighing for teams that rely heavily on ready-made widgets.",
+  "languages": [
+    "JavaScript"
+  ],
+  "packages": {
+    "npm": [
+      "svelte"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "큰 런타임을 함께 배포하는 대신 빌드 시점에 컴포넌트를 작고 효율적인 JavaScript로 컴파일하는 컴포넌트 프레임워크로, 간결한 컴포넌트와 빠른 페이지를 원하는 웹 개발자를 위한 도구입니다.",
+      "longDescription": "Svelte는 대부분의 작업을 빌드 시점에 처리하는 UI 프레임워크입니다. 컴포넌트는 마크업, 스크립트, 스타일을 함께 담은 .svelte 파일로 작성하며, 컴파일러가 이를 런타임에 가상 DOM을 비교하는 대신 DOM을 직접 갱신하는 JavaScript로 바꿉니다. 그 결과 브라우저로 보내는 프레임워크 코드가 대체로 적고, 컴포넌트 소스도 일반 HTML, CSS, JavaScript에 가깝게 읽힙니다.\n\nSvelte 5부터는 $state, $derived, $effect 같은 명시적 기본 요소인 룬(runes)으로 반응성을 표현하며, 이는 .svelte.js와 .svelte.ts 모듈에서도 동작합니다. 스타일은 기본적으로 컴포넌트 범위로 제한되고, 트랜지션과 애니메이션이 내장되어 있습니다. 라우팅, 서버 렌더링, 배포는 대부분 별도 저장소에서 관리되는 SvelteKit과 함께 사용합니다. 서드파티 컴포넌트 라이브러리 생태계는 React보다 작으므로, 기성 위젯에 크게 의존하는 팀이라면 이 점을 고려해야 합니다.",
+      "keywords": [
+        "컴파일러",
+        "컴포넌트 프레임워크",
+        "반응성",
+        "프런트엔드",
+        "룬",
+        "웹 앱"
+      ],
+      "rationale": "주요 UI 프레임워크 가운데 컴파일 타임 방식이 돋보이며 채택도 탄탄해, Vue나 Next.js와 함께 둘 만한 강력한 선택지입니다."
+    },
+    "ja": {
+      "description": "大きなランタイムを配布する代わりに、ビルド時にコンポーネントを小さく効率的な JavaScript へコンパイルするコンポーネントフレームワークです。簡潔なコンポーネントと高速なページを求める Web 開発者向けです。",
+      "longDescription": "Svelte は処理の大半をビルド時に済ませる UI フレームワークです。コンポーネントはマークアップ、スクリプト、スタイルをまとめた .svelte ファイルに書き、コンパイラがそれを、実行時に仮想 DOM を差分比較するのではなく DOM を直接更新する JavaScript に変換します。その結果、ブラウザに送るフレームワークのコードは一般に少なくなり、コンポーネントのソースも素の HTML、CSS、JavaScript に近い読み味になります。\n\nSvelte 5 からは、$state、$derived、$effect といった明示的なプリミティブである「ルーン」でリアクティビティを表現し、これは .svelte.js や .svelte.ts モジュールでも使えます。スタイルはデフォルトでコンポーネント単位にスコープされ、トランジションやアニメーションも組み込まれています。ルーティング、サーバーレンダリング、デプロイについては、別リポジトリで管理されている SvelteKit と組み合わせるのが一般的です。サードパーティのコンポーネントライブラリは React より少ないため、既製のウィジェットに大きく頼るチームはその点を考慮する必要があります。",
+      "keywords": [
+        "コンパイラ",
+        "コンポーネントフレームワーク",
+        "リアクティビティ",
+        "フロントエンド",
+        "ルーン",
+        "Web アプリ"
+      ],
+      "rationale": "主要 UI フレームワークの中でもコンパイル時に処理する独自のアプローチを持ち、採用実績も十分です。Vue や Next.js と並ぶ有力な選択肢です。"
+    },
+    "zh-CN": {
+      "description": "一个组件框架，在构建时把组件编译成小巧高效的 JavaScript，而不是附带庞大的运行时，面向希望组件简洁、页面快速的 Web 开发者。",
+      "longDescription": "Svelte 是一个把大部分工作放在构建阶段完成的 UI 框架。组件写在混合了标记、脚本和样式的 .svelte 文件中，编译器会把它们转换成直接更新 DOM 的 JavaScript，而不是在运行时对虚拟 DOM 做差异比较。因此发送到浏览器的框架代码通常更少，组件源码读起来也更接近普通的 HTML、CSS 和 JavaScript。\n\n从 Svelte 5 开始，响应式通过 runes 来表达，即 $state、$derived、$effect 等显式原语，它们同样可以在 .svelte.js 和 .svelte.ts 模块中使用。样式默认限定在组件作用域内，并内置了过渡和动画。路由、服务端渲染和部署方面，大多数项目会搭配在独立仓库中维护的 SvelteKit。它的第三方组件库生态比 React 小，重度依赖现成组件的团队需要考虑这一点。",
+      "keywords": [
+        "编译器",
+        "组件框架",
+        "响应式",
+        "前端",
+        "runes",
+        "Web 应用"
+      ],
+      "rationale": "在主流 UI 框架中以编译时方案独树一帜，采用度也很高；是与 Vue、Next.js 并列的有力选择。"
+    },
+    "es": {
+      "description": "Framework de componentes que compila tus componentes en JavaScript pequeño y eficiente durante la compilación, en lugar de enviar un runtime pesado; pensado para desarrolladores web que quieren componentes concisos y páginas rápidas.",
+      "longDescription": "Svelte es un framework de UI que hace la mayor parte de su trabajo en tiempo de compilación. Los componentes se escriben en archivos .svelte que combinan marcado, script y estilos, y el compilador los convierte en JavaScript que actualiza el DOM directamente, en lugar de comparar un DOM virtual en tiempo de ejecución. El resultado suele ser menos código del framework enviado al navegador y un código de componentes que se lee casi como HTML, CSS y JavaScript normales.\n\nDesde Svelte 5, la reactividad se expresa con runes, primitivas explícitas como $state, $derived y $effect que también funcionan en módulos .svelte.js y .svelte.ts. Los estilos tienen ámbito de componente por defecto y las transiciones y animaciones vienen integradas. Para el enrutado, el renderizado en servidor y el despliegue, la mayoría de los proyectos lo combinan con SvelteKit, que se mantiene en un repositorio aparte. Su ecosistema de bibliotecas de componentes de terceros es más pequeño que el de React, algo a tener en cuenta si tu equipo depende mucho de widgets listos para usar.",
+      "keywords": [
+        "compilador",
+        "framework de componentes",
+        "reactividad",
+        "frontend",
+        "runes",
+        "aplicaciones web"
+      ],
+      "rationale": "Enfoque distintivo en tiempo de compilación entre los grandes frameworks de UI, con fuerte adopción; una opción sólida junto a Vue y Next.js."
+    },
+    "de": {
+      "description": "Komponenten-Framework, das Komponenten beim Build in kleines, effizientes JavaScript kompiliert, statt eine große Runtime mitzuliefern; für Webentwickler, die knappe Komponenten und schnelle Seiten wollen.",
+      "longDescription": "Svelte ist ein UI-Framework, das den Großteil seiner Arbeit zur Build-Zeit erledigt. Komponenten werden in .svelte-Dateien geschrieben, die Markup, Skript und Styles vereinen, und der Compiler macht daraus JavaScript, das das DOM direkt aktualisiert, statt zur Laufzeit ein virtuelles DOM abzugleichen. Dadurch landet meist weniger Framework-Code im Browser, und der Komponentencode liest sich nah an normalem HTML, CSS und JavaScript.\n\nSeit Svelte 5 wird Reaktivität mit Runes ausgedrückt, expliziten Primitiven wie $state, $derived und $effect, die auch in .svelte.js- und .svelte.ts-Modulen funktionieren. Styles sind standardmäßig auf die Komponente beschränkt, Übergänge und Animationen sind eingebaut. Für Routing, Server-Rendering und Deployment kombinieren die meisten Projekte Svelte mit SvelteKit, das in einem eigenen Repository gepflegt wird. Das Ökosystem an Komponentenbibliotheken von Drittanbietern ist kleiner als bei React – wichtig für Teams, die stark auf fertige Widgets setzen.",
+      "keywords": [
+        "Compiler",
+        "Komponenten-Framework",
+        "Reaktivität",
+        "Frontend",
+        "Runes",
+        "Web-Apps"
+      ],
+      "rationale": "Eigenständiger Compile-Time-Ansatz unter den großen UI-Frameworks mit starker Verbreitung; eine starke Wahl neben Vue und Next.js."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2016-11-20",
+      "archived": false,
+      "openIssuesCount": 1068,
+      "stargazersCount": 89856,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 93,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Distinctive compile-time approach among major UI frameworks with strong adoption; a strong pick alongside Vue and Next.js."
+    },
+    "flag": "ok"
+  }
+}

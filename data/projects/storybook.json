@@ -1,0 +1,118 @@
+{
+  "name": "Storybook",
+  "slug": "storybook",
+  "description": "Frontend workshop for developing, documenting and testing UI components in isolation, used by teams building design systems and component libraries in React, Vue, Angular, Svelte and other frameworks.",
+  "repository": "https://github.com/storybookjs/storybook",
+  "website": "https://storybook.js.org",
+  "documentation": "https://storybook.js.org/docs",
+  "categories": [
+    "ui",
+    "testing"
+  ],
+  "keywords": [
+    "component workshop",
+    "design systems",
+    "ui documentation",
+    "component testing",
+    "visual testing",
+    "stories"
+  ],
+  "longDescription": "Storybook is a development environment that renders UI components outside of the application they live in. Developers write stories, small files that capture a component in a specific state, and browse them in a standalone interface where props can be changed live. Working this way makes it easier to build edge cases such as empty, loading or error states that are hard to reach in the running app, and gives designers and developers a shared catalog of what exists.\n\nStories double as documentation and as test cases: Storybook can generate docs pages from components, run interaction tests that simulate user behaviour, and check accessibility through addons. A large addon ecosystem extends it further, and it supports React, Vue, Angular, Svelte, web components and other renderers through framework packages. Hosted visual regression testing is offered as a paid service by Chromatic, the company that maintains Storybook. Setup and upgrades can take effort in projects with unusual build configurations.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "storybook",
+      "@storybook/*"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "UI 컴포넌트를 독립된 환경에서 개발하고 문서화하고 테스트하는 프런트엔드 작업 공간으로, React, Vue, Angular, Svelte 등으로 디자인 시스템과 컴포넌트 라이브러리를 만드는 팀이 사용합니다.",
+      "longDescription": "Storybook은 UI 컴포넌트를 실제 애플리케이션 밖에서 렌더링해 주는 개발 환경입니다. 개발자는 컴포넌트의 특정 상태를 담은 작은 파일인 스토리를 작성하고, props를 실시간으로 바꿔 볼 수 있는 독립 인터페이스에서 이를 살펴봅니다. 이렇게 작업하면 실행 중인 앱에서는 재현하기 어려운 빈 상태, 로딩 상태, 오류 상태 같은 예외 상황을 만들기가 쉬워지고, 디자이너와 개발자가 무엇이 있는지 함께 볼 수 있는 공용 카탈로그도 생깁니다.\n\n스토리는 문서이자 테스트 케이스 역할도 합니다. Storybook은 컴포넌트로부터 문서 페이지를 생성하고, 사용자 동작을 흉내 내는 상호작용 테스트를 실행하며, 애드온으로 접근성을 검사할 수 있습니다. 방대한 애드온 생태계로 기능을 더 넓힐 수 있고, 프레임워크별 패키지를 통해 React, Vue, Angular, Svelte, 웹 컴포넌트 등 여러 렌더러를 지원합니다. 호스팅형 시각적 회귀 테스트는 Storybook을 관리하는 회사인 Chromatic이 유료 서비스로 제공합니다. 빌드 구성이 독특한 프로젝트에서는 설정과 업그레이드에 손이 갈 수 있습니다.",
+      "keywords": [
+        "컴포넌트 작업 공간",
+        "디자인 시스템",
+        "UI 문서화",
+        "컴포넌트 테스트",
+        "시각적 테스트",
+        "스토리"
+      ],
+      "rationale": "UI 컴포넌트를 독립적으로 만들고 문서화하는 표준 도구로, 카탈로그에 이미 있는 E2E 테스트 도구들과는 역할이 다릅니다."
+    },
+    "ja": {
+      "description": "UI コンポーネントを切り離した環境で開発・ドキュメント化・テストできるフロントエンドのワークショップです。React、Vue、Angular、Svelte などでデザインシステムやコンポーネントライブラリを作るチームに使われています。",
+      "longDescription": "Storybook は、UI コンポーネントを本来のアプリケーションの外で描画する開発環境です。開発者はコンポーネントの特定の状態を切り出した小さなファイル「ストーリー」を書き、props をその場で変更できる独立した画面で確認します。この進め方なら、動いているアプリでは再現しにくい空状態、読み込み中、エラー状態といったエッジケースを作りやすくなり、デザイナーと開発者が既存のコンポーネントを共有できるカタログにもなります。\n\nストーリーはドキュメントとテストケースを兼ねます。Storybook はコンポーネントからドキュメントページを生成し、ユーザー操作を再現するインタラクションテストを実行し、アドオンでアクセシビリティもチェックできます。豊富なアドオンでさらに拡張でき、フレームワーク別のパッケージを通じて React、Vue、Angular、Svelte、Web Components などのレンダラーに対応しています。ホスト型のビジュアルリグレッションテストは、Storybook をメンテナンスしている Chromatic 社が有料サービスとして提供しています。ビルド構成が特殊なプロジェクトでは、導入やアップグレードに手間がかかることがあります。",
+      "keywords": [
+        "コンポーネントワークショップ",
+        "デザインシステム",
+        "UI ドキュメント",
+        "コンポーネントテスト",
+        "ビジュアルテスト",
+        "ストーリー"
+      ],
+      "rationale": "UI コンポーネントを単独で構築・ドキュメント化するための定番ツールで、カタログ既存の E2E テストツールとは役割が異なります。"
+    },
+    "zh-CN": {
+      "description": "一个前端工作台，用于在隔离环境中开发、记录和测试 UI 组件，被使用 React、Vue、Angular、Svelte 等框架构建设计系统和组件库的团队广泛采用。",
+      "longDescription": "Storybook 是一个在应用之外渲染 UI 组件的开发环境。开发者编写 story，也就是描述组件某一特定状态的小文件，并在一个可以实时修改 props 的独立界面中浏览它们。这样做可以更轻松地构造空状态、加载中、出错等在运行中的应用里难以复现的边界情况，也让设计师和开发者拥有一份共享的组件目录。\n\nstory 同时也是文档和测试用例：Storybook 可以根据组件生成文档页面，运行模拟用户操作的交互测试，并通过插件检查可访问性。庞大的插件生态还能进一步扩展它的能力，并通过各框架的包支持 React、Vue、Angular、Svelte、Web Components 等多种渲染器。托管式视觉回归测试由维护 Storybook 的公司 Chromatic 以付费服务形式提供。在构建配置比较特殊的项目中，安装和升级可能需要花些功夫。",
+      "keywords": [
+        "组件工作台",
+        "设计系统",
+        "UI 文档",
+        "组件测试",
+        "视觉测试",
+        "stories"
+      ],
+      "rationale": "在隔离环境中构建和记录 UI 组件的标准工具；与目录中已有的端到端测试工具定位不同。"
+    },
+    "es": {
+      "description": "Taller de frontend para desarrollar, documentar y probar componentes de UI de forma aislada, usado por equipos que crean sistemas de diseño y bibliotecas de componentes con React, Vue, Angular, Svelte y otros frameworks.",
+      "longDescription": "Storybook es un entorno de desarrollo que renderiza componentes de UI fuera de la aplicación a la que pertenecen. Los desarrolladores escriben stories, archivos pequeños que capturan un componente en un estado concreto, y las exploran en una interfaz independiente donde pueden cambiar las props en vivo. Trabajar así facilita construir casos límite como estados vacíos, de carga o de error, difíciles de alcanzar en la aplicación en marcha, y da a diseñadores y desarrolladores un catálogo compartido de lo que existe.\n\nLas stories sirven a la vez de documentación y de casos de prueba: Storybook puede generar páginas de documentación a partir de los componentes, ejecutar pruebas de interacción que simulan el comportamiento del usuario y comprobar la accesibilidad mediante addons. Un amplio ecosistema de addons lo extiende aún más, y admite React, Vue, Angular, Svelte, web components y otros renderizadores mediante paquetes por framework. Las pruebas de regresión visual alojadas las ofrece como servicio de pago Chromatic, la empresa que mantiene Storybook. La configuración y las actualizaciones pueden costar trabajo en proyectos con configuraciones de compilación poco habituales.",
+      "keywords": [
+        "taller de componentes",
+        "sistemas de diseño",
+        "documentación de UI",
+        "pruebas de componentes",
+        "pruebas visuales",
+        "stories"
+      ],
+      "rationale": "La herramienta estándar para construir y documentar componentes de UI de forma aislada; distinta de las herramientas de pruebas E2E que ya figuran en el catálogo."
+    },
+    "de": {
+      "description": "Frontend-Werkstatt, um UI-Komponenten isoliert zu entwickeln, zu dokumentieren und zu testen – genutzt von Teams, die Designsysteme und Komponentenbibliotheken mit React, Vue, Angular, Svelte und anderen Frameworks bauen.",
+      "longDescription": "Storybook ist eine Entwicklungsumgebung, die UI-Komponenten außerhalb der Anwendung rendert, zu der sie gehören. Entwickler schreiben Stories, kleine Dateien, die eine Komponente in einem bestimmten Zustand festhalten, und durchsuchen sie in einer eigenständigen Oberfläche, in der sich Props live ändern lassen. So lassen sich Randfälle wie leere, ladende oder fehlerhafte Zustände leichter bauen, die in der laufenden App schwer zu erreichen sind, und Designer wie Entwickler bekommen einen gemeinsamen Katalog des Vorhandenen.\n\nStories dienen zugleich als Dokumentation und als Testfälle: Storybook kann aus Komponenten Doku-Seiten erzeugen, Interaktionstests ausführen, die Nutzerverhalten simulieren, und über Addons die Barrierefreiheit prüfen. Ein großes Addon-Ökosystem erweitert es weiter, und über Framework-Pakete werden React, Vue, Angular, Svelte, Web Components und andere Renderer unterstützt. Gehostete visuelle Regressionstests bietet Chromatic, das Unternehmen hinter Storybook, als kostenpflichtigen Dienst an. In Projekten mit ungewöhnlichen Build-Konfigurationen können Einrichtung und Upgrades Aufwand bedeuten.",
+      "keywords": [
+        "Komponenten-Werkstatt",
+        "Designsysteme",
+        "UI-Dokumentation",
+        "Komponententests",
+        "visuelle Tests",
+        "Stories"
+      ],
+      "rationale": "Das Standardwerkzeug, um UI-Komponenten isoliert zu bauen und zu dokumentieren; klar abgegrenzt von den E2E-Testtools, die schon im Katalog sind."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2016-03-18",
+      "archived": false,
+      "openIssuesCount": 1872,
+      "stargazersCount": 91747,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard tool for building and documenting UI components in isolation; distinct from the end-to-end testing tools already listed."
+    },
+    "flag": "ok"
+  }
+}

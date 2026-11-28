@@ -1,0 +1,116 @@
+{
+  "name": "Transformers",
+  "slug": "transformers",
+  "description": "Hugging Face's Python library of pretrained model definitions for text, vision, audio and multimodal tasks, used to load, run and fine-tune models from the Hugging Face Hub. For ML engineers and researchers working with modern neural networks.",
+  "repository": "https://github.com/huggingface/transformers",
+  "website": "https://huggingface.co/transformers",
+  "documentation": "https://huggingface.co/docs/transformers",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "pretrained models",
+    "nlp",
+    "llm",
+    "fine-tuning",
+    "deep learning",
+    "hugging face"
+  ],
+  "longDescription": "Transformers provides reference implementations of a very large number of model architectures, from BERT-style encoders to current large language and vision-language models, together with the tokenizers, processors and configuration classes that go with them. A model published on the Hugging Face Hub can usually be downloaded and run in a few lines, and the same definition serves both inference and training, which is why many fine-tuning tools and inference engines build on it.\n\nThe high-level pipeline API covers common tasks such as text generation, classification, speech recognition and image understanding, while the Trainer class and integrations with other libraries handle fine-tuning and distributed training. Models are defined in PyTorch. For high-throughput production serving, teams usually pair it with a dedicated inference engine such as vLLM rather than serving straight from the library, and given the sheer number of supported architectures, features and polish vary from model to model.",
+  "languages": [
+    "Python"
+  ],
+  "packages": {
+    "pypi": [
+      "transformers"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "텍스트, 비전, 오디오, 멀티모달 작업용 사전 학습 모델 정의를 모아 둔 Hugging Face의 Python 라이브러리로, Hugging Face Hub의 모델을 불러오고 실행하고 파인튜닝하는 데 쓰입니다. 최신 신경망을 다루는 ML 엔지니어와 연구자를 위한 도구입니다.",
+      "longDescription": "Transformers는 BERT 계열 인코더부터 최신 대규모 언어 모델과 비전-언어 모델까지 매우 많은 모델 아키텍처의 참조 구현을, 각 모델에 필요한 토크나이저·프로세서·설정 클래스와 함께 제공합니다. Hugging Face Hub에 올라온 모델은 대개 몇 줄의 코드로 내려받아 실행할 수 있고, 같은 모델 정의를 추론과 학습에 모두 쓰기 때문에 많은 파인튜닝 도구와 추론 엔진이 이 라이브러리를 기반으로 만들어집니다.\n\n고수준 pipeline API는 텍스트 생성, 분류, 음성 인식, 이미지 이해 같은 흔한 작업을 다루고, Trainer 클래스와 다른 라이브러리와의 연동으로 파인튜닝과 분산 학습을 처리합니다. 모델은 PyTorch로 정의됩니다. 처리량이 중요한 프로덕션 서빙에는 라이브러리로 직접 서빙하기보다 vLLM 같은 전용 추론 엔진과 함께 쓰는 경우가 많으며, 지원하는 아키텍처가 워낙 많아 모델마다 기능과 완성도에 차이가 있습니다.",
+      "keywords": [
+        "사전 학습 모델",
+        "자연어 처리",
+        "LLM",
+        "파인튜닝",
+        "딥러닝",
+        "Hugging Face"
+      ],
+      "rationale": "사전 학습 모델을 다루는 사실상의 표준 라이브러리이자 많은 파인튜닝·서빙 도구의 기반으로, AI 분야에서 빼놓을 수 없는 대표 프로젝트입니다."
+    },
+    "ja": {
+      "description": "テキスト、画像、音声、マルチモーダルのタスク向けに事前学習済みモデルの定義をまとめた Hugging Face の Python ライブラリで、Hugging Face Hub のモデルの読み込み、実行、ファインチューニングに使われます。最新のニューラルネットワークを扱う ML エンジニアや研究者向けです。",
+      "longDescription": "Transformers は、BERT 系のエンコーダーから最新の大規模言語モデルや視覚言語モデルまで、非常に多くのモデルアーキテクチャの参照実装を、対応するトークナイザー、プロセッサー、設定クラスとあわせて提供します。Hugging Face Hub で公開されたモデルの多くは数行のコードでダウンロードして実行でき、同じモデル定義を推論と学習の両方に使えるため、多くのファインチューニングツールや推論エンジンがこのライブラリを土台にしています。\n\n高水準の pipeline API はテキスト生成、分類、音声認識、画像理解といった一般的なタスクをカバーし、Trainer クラスや他ライブラリとの連携によってファインチューニングや分散学習を扱えます。モデルは PyTorch で定義されています。高スループットが求められる本番サービングでは、ライブラリから直接配信するよりも vLLM などの専用推論エンジンと組み合わせるのが一般的です。また対応アーキテクチャが膨大なため、機能や完成度はモデルによってばらつきがあります。",
+      "keywords": [
+        "事前学習済みモデル",
+        "自然言語処理",
+        "LLM",
+        "ファインチューニング",
+        "深層学習",
+        "Hugging Face"
+      ],
+      "rationale": "事前学習済みモデルを扱う事実上の標準ライブラリであり、多くのファインチューニングや推論ツールの基盤です。AI カテゴリに欠かせない代表的なプロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "Hugging Face 推出的 Python 库，汇集了文本、视觉、音频和多模态任务的预训练模型定义，用于加载、运行和微调 Hugging Face Hub 上的模型，面向使用现代神经网络的机器学习工程师和研究人员。",
+      "longDescription": "Transformers 提供了数量极多的模型架构参考实现，从 BERT 类编码器到当下的大语言模型和视觉语言模型，并附带配套的分词器、处理器和配置类。发布在 Hugging Face Hub 上的模型通常几行代码就能下载并运行，而且同一份模型定义同时用于推理和训练，这也是许多微调工具和推理引擎都基于它构建的原因。\n\n高层的 pipeline API 覆盖文本生成、分类、语音识别、图像理解等常见任务，Trainer 类以及与其他库的集成则负责微调和分布式训练。模型基于 PyTorch 定义。在追求高吞吐的生产服务中，团队通常会搭配 vLLM 等专用推理引擎，而不是直接用这个库提供服务；另外由于支持的架构非常多，不同模型在功能和完善程度上会有差异。",
+      "keywords": [
+        "预训练模型",
+        "自然语言处理",
+        "LLM",
+        "微调",
+        "深度学习",
+        "Hugging Face"
+      ],
+      "rationale": "预训练模型领域事实上的标准库，也是众多微调和推理工具的基础，是 AI 类别中不可或缺的代表性项目。"
+    },
+    "es": {
+      "description": "Biblioteca de Python de Hugging Face con definiciones de modelos preentrenados para texto, visión, audio y tareas multimodales, usada para cargar, ejecutar y ajustar modelos del Hugging Face Hub. Para ingenieros de ML e investigadores que trabajan con redes neuronales modernas.",
+      "longDescription": "Transformers ofrece implementaciones de referencia de un número enorme de arquitecturas de modelos, desde codificadores al estilo BERT hasta los grandes modelos de lenguaje y de visión y lenguaje actuales, junto con los tokenizadores, procesadores y clases de configuración que los acompañan. Un modelo publicado en el Hugging Face Hub suele poder descargarse y ejecutarse en pocas líneas, y la misma definición sirve tanto para inferencia como para entrenamiento, por lo que muchas herramientas de fine-tuning y motores de inferencia se apoyan en ella.\n\nLa API de alto nivel pipeline cubre tareas habituales como generación de texto, clasificación, reconocimiento de voz y comprensión de imágenes, mientras que la clase Trainer y las integraciones con otras bibliotecas se ocupan del ajuste fino y el entrenamiento distribuido. Los modelos se definen en PyTorch. Para servir en producción con alto rendimiento, los equipos suelen combinarla con un motor de inferencia dedicado como vLLM en lugar de servir directamente desde la biblioteca y, dada la cantidad de arquitecturas soportadas, las funciones y el grado de pulido varían de un modelo a otro.",
+      "keywords": [
+        "modelos preentrenados",
+        "PLN",
+        "LLM",
+        "ajuste fino",
+        "aprendizaje profundo",
+        "Hugging Face"
+      ],
+      "rationale": "La biblioteca de facto para modelos preentrenados y la base sobre la que se construyen muchas herramientas de ajuste y servicio; un proyecto representativo esencial de IA."
+    },
+    "de": {
+      "description": "Python-Bibliothek von Hugging Face mit vortrainierten Modelldefinitionen für Text, Bild, Audio und multimodale Aufgaben, mit der sich Modelle aus dem Hugging Face Hub laden, ausführen und feinabstimmen lassen. Für ML-Engineers und Forschende im Deep Learning.",
+      "longDescription": "Transformers bietet Referenzimplementierungen für eine sehr große Zahl von Modellarchitekturen, von BERT-artigen Encodern bis zu aktuellen großen Sprach- und Vision-Language-Modellen, jeweils mit den passenden Tokenizern, Prozessoren und Konfigurationsklassen. Ein im Hugging Face Hub veröffentlichtes Modell lässt sich meist mit wenigen Zeilen herunterladen und ausführen, und dieselbe Definition dient für Inferenz wie für Training – deshalb bauen viele Fine-Tuning-Werkzeuge und Inferenz-Engines darauf auf.\n\nDie High-Level-API pipeline deckt gängige Aufgaben wie Textgenerierung, Klassifikation, Spracherkennung und Bildverständnis ab, während die Trainer-Klasse und Integrationen mit anderen Bibliotheken Fine-Tuning und verteiltes Training übernehmen. Die Modelle sind in PyTorch definiert. Für durchsatzstarkes Serving in Produktion kombinieren Teams die Bibliothek meist mit einer dedizierten Inferenz-Engine wie vLLM, statt direkt aus ihr zu servieren, und angesichts der Vielzahl unterstützter Architekturen variieren Funktionsumfang und Reife von Modell zu Modell.",
+      "keywords": [
+        "vortrainierte Modelle",
+        "NLP",
+        "LLM",
+        "Fine-Tuning",
+        "Deep Learning",
+        "Hugging Face"
+      ],
+      "rationale": "Die De-facto-Bibliothek für vortrainierte Modelle und Grundlage vieler Fine-Tuning- und Serving-Werkzeuge; ein unverzichtbares, repräsentatives KI-Projekt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2018-10-29",
+      "archived": false,
+      "openIssuesCount": 1191,
+      "stargazersCount": 169311,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The de facto library for pretrained models and the base many fine-tuning and serving tools build on; essential representative AI project."
+    },
+    "flag": "ok"
+  }
+}

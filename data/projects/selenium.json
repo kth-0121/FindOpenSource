@@ -1,0 +1,116 @@
+{
+  "name": "Selenium",
+  "slug": "selenium",
+  "description": "Browser automation project behind the W3C WebDriver standard, providing client libraries for Java, Python, C#, Ruby and JavaScript plus Selenium Grid for running tests across many browsers and machines.",
+  "repository": "https://github.com/SeleniumHQ/selenium",
+  "website": "https://selenium.dev",
+  "documentation": "https://www.selenium.dev/documentation/",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "browser automation",
+    "webdriver",
+    "end-to-end testing",
+    "selenium grid",
+    "cross-browser testing",
+    "test automation"
+  ],
+  "longDescription": "Selenium is an umbrella project for automating web browsers, best known for WebDriver, the API whose design became a W3C standard implemented by browser vendors through drivers such as chromedriver and geckodriver. Test code written against Selenium drives a real browser the way a user would, clicking, typing and navigating, which has made it a long-standing foundation for end-to-end and cross-browser testing as well as general browser automation.\n\nThe repository contains the official language bindings for Java, Python, C#, Ruby and JavaScript, Selenium Grid for distributing sessions across machines and browser versions, and Selenium Manager, which locates or downloads the right browser drivers automatically. Because it speaks the WebDriver protocol, it runs against Chrome, Firefox, Edge and Safari and works with most cloud testing services. It is lower-level than newer all-in-one frameworks: waiting strategies, test structure and reporting are left to the test runner and patterns you choose, which gives flexibility but asks more of the team.",
+  "languages": [
+    "Java"
+  ],
+  "packages": {
+    "npm": [
+      "selenium-webdriver"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "W3C WebDriver 표준의 기반이 된 브라우저 자동화 프로젝트로, Java, Python, C#, Ruby, JavaScript용 클라이언트 라이브러리와 여러 브라우저·머신에서 테스트를 돌리는 Selenium Grid를 제공합니다.",
+      "longDescription": "Selenium은 웹 브라우저 자동화를 위한 상위 프로젝트로, 특히 WebDriver로 잘 알려져 있습니다. WebDriver는 그 설계가 W3C 표준이 되었고, 브라우저 제조사들이 chromedriver, geckodriver 같은 드라이버로 구현하고 있는 API입니다. Selenium으로 작성한 테스트 코드는 사용자처럼 클릭하고, 입력하고, 페이지를 이동하며 실제 브라우저를 조작하기 때문에 오랫동안 E2E 테스트와 크로스 브라우저 테스트, 일반적인 브라우저 자동화의 기반 역할을 해 왔습니다.\n\n저장소에는 Java, Python, C#, Ruby, JavaScript용 공식 언어 바인딩, 여러 머신과 브라우저 버전에 세션을 분산하는 Selenium Grid, 알맞은 브라우저 드라이버를 자동으로 찾거나 내려받는 Selenium Manager가 들어 있습니다. WebDriver 프로토콜을 사용하므로 Chrome, Firefox, Edge, Safari에서 동작하며 대부분의 클라우드 테스트 서비스와도 연동됩니다. 최신 올인원 프레임워크보다 저수준이어서 대기 전략, 테스트 구조, 리포팅은 직접 고른 테스트 러너와 패턴에 맡겨집니다. 유연성은 크지만 팀이 감당할 몫도 그만큼 큽니다.",
+      "keywords": [
+        "브라우저 자동화",
+        "WebDriver",
+        "E2E 테스트",
+        "Selenium Grid",
+        "크로스 브라우저 테스트",
+        "테스트 자동화"
+      ],
+      "rationale": "원조 브라우저 자동화 프로젝트이자 W3C WebDriver의 기준 구현으로, Playwright·Cypress와 겹치지만 여러 언어를 쓰는 테스트 환경에서 여전히 널리 쓰입니다."
+    },
+    "ja": {
+      "description": "W3C WebDriver 標準の元になったブラウザ自動化プロジェクトです。Java、Python、C#、Ruby、JavaScript 向けのクライアントライブラリと、多数のブラウザやマシンでテストを実行する Selenium Grid を提供します。",
+      "longDescription": "Selenium は Web ブラウザを自動化するための包括的なプロジェクトで、特に WebDriver で知られています。WebDriver はその設計が W3C 標準となり、ブラウザベンダーが chromedriver や geckodriver などのドライバーとして実装している API です。Selenium で書いたテストコードは、クリック、入力、画面遷移といったユーザーと同じ操作で実際のブラウザを動かすため、長年にわたり E2E テストやクロスブラウザテスト、一般的なブラウザ自動化の基盤となってきました。\n\nリポジトリには Java、Python、C#、Ruby、JavaScript の公式言語バインディング、複数のマシンやブラウザバージョンにセッションを分散させる Selenium Grid、適切なブラウザドライバーを自動で探したりダウンロードしたりする Selenium Manager が含まれています。WebDriver プロトコルを使うので Chrome、Firefox、Edge、Safari で動作し、ほとんどのクラウドテストサービスとも連携できます。新しいオールインワン型フレームワークより低レベルで、待機戦略、テスト構成、レポートは選んだテストランナーやパターン次第です。柔軟性は高い反面、チームに求められることも多くなります。",
+      "keywords": [
+        "ブラウザ自動化",
+        "WebDriver",
+        "E2E テスト",
+        "Selenium Grid",
+        "クロスブラウザテスト",
+        "テスト自動化"
+      ],
+      "rationale": "ブラウザ自動化の草分けで W3C WebDriver の基準となるプロジェクトです。Playwright や Cypress と重なりますが、多言語のテスト環境では今も広く使われています。"
+    },
+    "zh-CN": {
+      "description": "W3C WebDriver 标准背后的浏览器自动化项目，提供 Java、Python、C#、Ruby 和 JavaScript 客户端库，以及可在多种浏览器和多台机器上运行测试的 Selenium Grid。",
+      "longDescription": "Selenium 是一个用于自动化 Web 浏览器的综合性项目，最为人熟知的是 WebDriver：它的设计已成为 W3C 标准，并由浏览器厂商通过 chromedriver、geckodriver 等驱动程序实现。基于 Selenium 编写的测试代码会像真实用户一样点击、输入和跳转页面来操控真实浏览器，因此长期以来一直是端到端测试、跨浏览器测试以及通用浏览器自动化的基础。\n\n仓库中包含 Java、Python、C#、Ruby 和 JavaScript 的官方语言绑定，用于在多台机器和多个浏览器版本之间分发会话的 Selenium Grid，以及能自动查找或下载合适浏览器驱动的 Selenium Manager。由于它使用 WebDriver 协议，可以在 Chrome、Firefox、Edge 和 Safari 上运行，并能与大多数云测试服务配合使用。它比新一代一体化框架更底层：等待策略、测试结构和报告都交给你选择的测试运行器和模式来处理，灵活性更高，但对团队的要求也更多。",
+      "keywords": [
+        "浏览器自动化",
+        "WebDriver",
+        "端到端测试",
+        "Selenium Grid",
+        "跨浏览器测试",
+        "测试自动化"
+      ],
+      "rationale": "最早的浏览器自动化项目，也是 W3C WebDriver 的参考实现；与 Playwright、Cypress 有重叠，但在多语言测试体系中仍被广泛使用。"
+    },
+    "es": {
+      "description": "Proyecto de automatización de navegadores detrás del estándar W3C WebDriver, con bibliotecas cliente para Java, Python, C#, Ruby y JavaScript, además de Selenium Grid para ejecutar pruebas en muchos navegadores y máquinas.",
+      "longDescription": "Selenium es un proyecto paraguas para automatizar navegadores web, conocido sobre todo por WebDriver, la API cuyo diseño se convirtió en un estándar del W3C que los fabricantes de navegadores implementan mediante drivers como chromedriver y geckodriver. El código de prueba escrito con Selenium controla un navegador real como lo haría un usuario, haciendo clic, escribiendo y navegando, lo que lo ha convertido durante años en una base para pruebas end-to-end y entre navegadores, además de para la automatización general de navegadores.\n\nEl repositorio contiene los bindings oficiales para Java, Python, C#, Ruby y JavaScript, Selenium Grid para repartir sesiones entre máquinas y versiones de navegador, y Selenium Manager, que localiza o descarga automáticamente los drivers adecuados. Como usa el protocolo WebDriver, funciona con Chrome, Firefox, Edge y Safari y con la mayoría de los servicios de pruebas en la nube. Es de más bajo nivel que los frameworks todo en uno más recientes: las estrategias de espera, la estructura de las pruebas y los informes dependen del ejecutor y los patrones que elijas, lo que da flexibilidad pero exige más al equipo.",
+      "keywords": [
+        "automatización de navegadores",
+        "WebDriver",
+        "pruebas end-to-end",
+        "Selenium Grid",
+        "pruebas entre navegadores",
+        "automatización de pruebas"
+      ],
+      "rationale": "El proyecto original de automatización de navegadores y referencia de W3C WebDriver; se solapa con Playwright y Cypress, pero sigue muy usado en suites de pruebas multilenguaje."
+    },
+    "de": {
+      "description": "Browser-Automatisierungsprojekt hinter dem W3C-WebDriver-Standard, mit Client-Bibliotheken für Java, Python, C#, Ruby und JavaScript sowie Selenium Grid, um Tests auf vielen Browsern und Maschinen auszuführen.",
+      "longDescription": "Selenium ist ein Dachprojekt für die Automatisierung von Webbrowsern, vor allem bekannt für WebDriver – die API, deren Design zum W3C-Standard wurde und die Browserhersteller über Treiber wie chromedriver und geckodriver implementieren. Mit Selenium geschriebener Testcode steuert einen echten Browser so, wie es ein Nutzer täte, durch Klicken, Tippen und Navigieren. Damit ist es seit Langem eine Grundlage für End-to-End- und Cross-Browser-Tests sowie für allgemeine Browser-Automatisierung.\n\nDas Repository enthält die offiziellen Sprachbindungen für Java, Python, C#, Ruby und JavaScript, Selenium Grid zum Verteilen von Sitzungen auf Maschinen und Browserversionen sowie Selenium Manager, der passende Browsertreiber automatisch findet oder herunterlädt. Da es das WebDriver-Protokoll spricht, läuft es mit Chrome, Firefox, Edge und Safari und mit den meisten Cloud-Testdiensten. Es arbeitet auf niedrigerer Ebene als neuere All-in-one-Frameworks: Wartestrategien, Teststruktur und Reporting bleiben dem gewählten Test-Runner und den eigenen Mustern überlassen – das bietet Flexibilität, verlangt dem Team aber mehr ab.",
+      "keywords": [
+        "Browser-Automatisierung",
+        "WebDriver",
+        "End-to-End-Tests",
+        "Selenium Grid",
+        "Cross-Browser-Tests",
+        "Testautomatisierung"
+      ],
+      "rationale": "Das ursprüngliche Browser-Automatisierungsprojekt und Referenz für W3C WebDriver; überschneidet sich mit Playwright und Cypress, ist in mehrsprachigen Test-Suites aber weiterhin weit verbreitet."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2013-01-14",
+      "archived": false,
+      "openIssuesCount": 192,
+      "stargazersCount": 34618,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "score": 100,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The original browser automation project and W3C WebDriver reference; overlaps with Playwright and Cypress but remains widely used in polyglot test suites."
+    },
+    "flag": "ok"
+  }
+}

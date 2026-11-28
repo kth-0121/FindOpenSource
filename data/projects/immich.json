@@ -1,0 +1,119 @@
+{
+  "name": "Immich",
+  "slug": "immich",
+  "description": "Self-hosted photo and video management with mobile apps that back up your camera roll automatically, plus face recognition, smart search and shared albums, for people who want a private alternative to cloud photo services.",
+  "repository": "https://github.com/immich-app/immich",
+  "website": "https://immich.app",
+  "documentation": "https://docs.immich.app/",
+  "categories": [
+    "media",
+    "storage"
+  ],
+  "keywords": [
+    "photo management",
+    "video library",
+    "photo backup",
+    "facial recognition",
+    "self-hosted",
+    "google photos alternative"
+  ],
+  "longDescription": "Immich is a self-hosted application for storing, browsing and sharing a personal or family photo and video library. It pairs a web interface with Android and iOS apps that upload new pictures from the phone in the background, so the library stays on hardware you control rather than with a cloud photo provider. Several users can share one server, each with their own library, and albums can be shared with each other or through public links.\n\nOn the server, machine learning features cluster faces, enable search by content using CLIP and let you filter by metadata such as dates, places and camera details. A timeline with a scrubbable scrollbar, a world map, memories from past years, RAW and Live Photo support, tags, a folder view and external libraries for existing photo folders round out the feature set. It is usually deployed with Docker Compose and needs a reasonably capable machine for the machine learning container. Immich is not a backup by itself, and the project explicitly advises keeping separate copies of your originals.",
+  "languages": [
+    "TypeScript",
+    "Dart"
+  ],
+  "packages": {
+    "npm": [
+      "@immich/cli",
+      "@immich/sdk"
+    ]
+  },
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "카메라 롤을 자동으로 백업하는 모바일 앱과 얼굴 인식, 스마트 검색, 공유 앨범을 갖춘 셀프 호스팅 사진·동영상 관리 도구로, 클라우드 사진 서비스를 대신할 사적인 대안을 원하는 사람에게 적합합니다.",
+      "longDescription": "Immich는 개인이나 가족의 사진·동영상 라이브러리를 저장하고 둘러보고 공유하기 위한 셀프 호스팅 애플리케이션입니다. 웹 인터페이스와 함께 Android·iOS 앱을 제공하며, 앱이 휴대폰의 새 사진을 백그라운드에서 업로드하므로 라이브러리가 클라우드 사진 업체가 아니라 직접 관리하는 하드웨어에 남습니다. 여러 사용자가 한 서버를 함께 쓰면서 각자 라이브러리를 가질 수 있고, 앨범은 서로 공유하거나 공개 링크로 나눌 수 있습니다.\n\n서버에서는 머신러닝 기능이 얼굴을 묶어 주고, CLIP을 이용한 내용 기반 검색과 날짜·장소·카메라 정보 같은 메타데이터 필터링을 지원합니다. 스크롤바로 빠르게 훑을 수 있는 타임라인, 세계 지도, 지난 몇 년의 추억, RAW와 Live Photo 지원, 태그, 폴더 보기, 기존 사진 폴더를 불러오는 외부 라이브러리 기능도 갖추고 있습니다. 보통 Docker Compose로 배포하며, 머신러닝 컨테이너를 돌리려면 어느 정도 성능이 있는 장비가 필요합니다. Immich 자체는 백업 수단이 아니며, 프로젝트도 원본 파일의 사본을 따로 보관하라고 분명히 권합니다.",
+      "keywords": [
+        "사진 관리",
+        "동영상 라이브러리",
+        "사진 백업",
+        "얼굴 인식",
+        "셀프 호스팅",
+        "구글 포토 대안"
+      ],
+      "rationale": "셀프 호스팅 사진 관리 분야의 대표 프로젝트입니다. 카탈로그에 비슷한 도구가 없고, 미디어 카테고리에서 Jellyfin과 자연스럽게 짝을 이룹니다."
+    },
+    "ja": {
+      "description": "カメラロールを自動でバックアップするモバイルアプリ、顔認識、スマート検索、共有アルバムを備えたセルフホスト型の写真・動画管理ツールです。クラウドの写真サービスに代わるプライベートな選択肢を求める人に向いています。",
+      "longDescription": "Immich は、個人や家族の写真・動画ライブラリを保存し、閲覧し、共有するためのセルフホスト型アプリケーションです。Web インターフェースに加えて Android と iOS のアプリがあり、スマートフォンの新しい写真をバックグラウンドでアップロードするため、ライブラリはクラウドの写真サービスではなく自分で管理するハードウェアに置かれます。複数のユーザーが 1 台のサーバーをそれぞれのライブラリで共用でき、アルバムはユーザー同士で共有したり、公開リンクで配布したりできます。\n\nサーバー側では機械学習によって顔をグループ化し、CLIP による内容検索や、日付・場所・カメラ情報などのメタデータによる絞り込みができます。ドラッグで素早く移動できるタイムライン、世界地図、過去の思い出、RAW や Live Photo への対応、タグ、フォルダー表示、既存の写真フォルダーを取り込む外部ライブラリなども揃っています。通常は Docker Compose でデプロイし、機械学習コンテナを動かすにはそれなりの性能のマシンが必要です。Immich 自体はバックアップではなく、プロジェクトもオリジナルのコピーを別に保管するよう明確に勧めています。",
+      "keywords": [
+        "写真管理",
+        "動画ライブラリ",
+        "写真バックアップ",
+        "顔認識",
+        "セルフホスト",
+        "Google フォト代替"
+      ],
+      "rationale": "セルフホスト型写真管理の代表的なプロジェクトです。カタログに同種のツールはなく、メディアカテゴリで Jellyfin と自然に対をなします。"
+    },
+    "zh-CN": {
+      "description": "自托管的照片和视频管理工具，配有可自动备份相册的手机应用，并提供人脸识别、智能搜索和共享相册，适合想要替代云端相册服务、保护隐私的用户。",
+      "longDescription": "Immich 是一款自托管应用，用于存储、浏览和分享个人或家庭的照片与视频库。它提供 Web 界面以及 Android 和 iOS 应用，手机上的新照片会在后台自动上传，因此照片库保存在你自己掌控的硬件上，而不是交给云端相册服务商。多个用户可以共用一台服务器、各自拥有独立的照片库，相册既可以在用户之间共享，也可以通过公开链接分享。\n\n服务器端的机器学习功能可以对人脸进行聚类，借助 CLIP 按内容搜索，还能按日期、地点、相机参数等元数据筛选。此外还有可拖动快速浏览的时间线、世界地图、往年回忆、RAW 与 Live Photo 支持、标签、文件夹视图，以及用于接入现有照片目录的外部图库。通常使用 Docker Compose 部署，运行机器学习容器需要性能尚可的机器。Immich 本身并不是备份方案，项目也明确建议另外保留原始文件的副本。",
+      "keywords": [
+        "照片管理",
+        "视频库",
+        "照片备份",
+        "人脸识别",
+        "自托管",
+        "Google 相册替代"
+      ],
+      "rationale": "自托管照片管理领域的代表性项目；目录中没有同类工具，在媒体分类中与 Jellyfin 形成自然搭配。"
+    },
+    "es": {
+      "description": "Gestor autoalojado de fotos y vídeos con apps móviles que hacen copia automática del carrete, reconocimiento facial, búsqueda inteligente y álbumes compartidos, para quien busca una alternativa privada a los servicios de fotos en la nube.",
+      "longDescription": "Immich es una aplicación autoalojada para guardar, explorar y compartir una biblioteca personal o familiar de fotos y vídeos. Combina una interfaz web con apps para Android e iOS que suben en segundo plano las nuevas fotos del teléfono, de modo que la biblioteca se queda en hardware que tú controlas y no en un proveedor de fotos en la nube. Varios usuarios pueden compartir un mismo servidor, cada uno con su propia biblioteca, y los álbumes se pueden compartir entre ellos o mediante enlaces públicos.\n\nEn el servidor, las funciones de aprendizaje automático agrupan caras, permiten buscar por contenido con CLIP y filtrar por metadatos como fechas, lugares o datos de la cámara. Completan el conjunto una línea de tiempo con barra de desplazamiento arrastrable, un mapa mundial, recuerdos de años anteriores, soporte para RAW y Live Photos, etiquetas, vista de carpetas y bibliotecas externas para carpetas de fotos ya existentes. Normalmente se despliega con Docker Compose y necesita una máquina con cierta potencia para el contenedor de aprendizaje automático. Immich no es una copia de seguridad en sí mismo, y el proyecto recomienda expresamente guardar copias aparte de los originales.",
+      "keywords": [
+        "gestión de fotos",
+        "biblioteca de vídeos",
+        "copia de seguridad de fotos",
+        "reconocimiento facial",
+        "autoalojado",
+        "alternativa a google fotos"
+      ],
+      "rationale": "El proyecto de referencia para gestionar fotos de forma autoalojada; no tiene equivalente en el catálogo y encaja de forma natural junto a Jellyfin en la categoría de medios."
+    },
+    "de": {
+      "description": "Selbst gehostete Foto- und Videoverwaltung mit Mobil-Apps, die die Kamerarolle automatisch sichern, dazu Gesichtserkennung, intelligente Suche und geteilte Alben – für alle, die eine private Alternative zu Cloud-Fotodiensten suchen.",
+      "longDescription": "Immich ist eine selbst gehostete Anwendung, um eine private oder familiäre Foto- und Videobibliothek zu speichern, zu durchsuchen und zu teilen. Zur Weboberfläche kommen Apps für Android und iOS, die neue Bilder vom Smartphone im Hintergrund hochladen, sodass die Bibliothek auf eigener Hardware bleibt statt bei einem Cloud-Fotoanbieter. Mehrere Nutzer können sich einen Server mit jeweils eigener Bibliothek teilen, und Alben lassen sich untereinander oder über öffentliche Links freigeben.\n\nAuf dem Server gruppieren Machine-Learning-Funktionen Gesichter, ermöglichen eine inhaltliche Suche per CLIP und das Filtern nach Metadaten wie Datum, Ort oder Kameradaten. Abgerundet wird das durch eine Zeitleiste mit ziehbarer Scrollleiste, eine Weltkarte, Erinnerungen an vergangene Jahre, Unterstützung für RAW und Live Photos, Tags, eine Ordneransicht und externe Bibliotheken für bestehende Fotoordner. Üblicherweise wird es mit Docker Compose betrieben und braucht für den Machine-Learning-Container eine einigermaßen leistungsfähige Maschine. Immich ist selbst kein Backup; das Projekt rät ausdrücklich dazu, separate Kopien der Originale aufzubewahren.",
+      "keywords": [
+        "Fotoverwaltung",
+        "Videobibliothek",
+        "Foto-Backup",
+        "Gesichtserkennung",
+        "selbst gehostet",
+        "Google-Fotos-Alternative"
+      ],
+      "rationale": "Das maßgebliche Projekt für selbst gehostete Fotoverwaltung; im Katalog gibt es nichts Vergleichbares, und in der Medien-Kategorie ergänzt es Jellyfin ganz natürlich."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2022-02-03",
+      "archived": false,
+      "openIssuesCount": 689,
+      "stargazersCount": 120283,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 82,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The defining self-hosted photo management project; nothing comparable is in the catalog, and it pairs naturally with Jellyfin in the media category."
+    },
+    "flag": "ok"
+  }
+}

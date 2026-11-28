@@ -1,0 +1,120 @@
+{
+  "name": "DuckDB",
+  "slug": "duckdb",
+  "description": "In-process analytical SQL database that runs inside your application with no server to manage, built for fast queries over local files, dataframes and lakehouse tables. Aimed at analysts, data engineers and developers embedding analytics.",
+  "repository": "https://github.com/duckdb/duckdb",
+  "website": "https://duckdb.org",
+  "documentation": "https://duckdb.org/docs/",
+  "categories": [
+    "database",
+    "analytics"
+  ],
+  "keywords": [
+    "embedded database",
+    "olap",
+    "sql",
+    "parquet",
+    "data analysis",
+    "columnar"
+  ],
+  "longDescription": "DuckDB is a columnar analytical database engine that is embedded directly in the host process, much like SQLite, but tuned for aggregations, joins and large scans rather than transactional workloads. There is no server to install or operate: you open a database file, or work purely in memory, from the CLI or a language client and start running SQL. That makes it a natural fit for notebooks, scripts, data pipelines and desktop or edge applications.\n\nIt can query CSV, Parquet and JSON files in place, work directly with dataframes from clients such as Python and R, attach to other systems like PostgreSQL to read and join their data, and load extensions that add file formats and features, including open lakehouse table formats. Typical uses are exploratory analysis on a laptop, replacing ad-hoc dataframe code with SQL, and lightweight ETL steps. As a single-process engine it is not a drop-in replacement for a shared data warehouse serving many concurrent writers and users.",
+  "languages": [
+    "C++"
+  ],
+  "packages": {
+    "npm": [
+      "@duckdb/node-api"
+    ],
+    "pypi": [
+      "duckdb"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "애플리케이션 안에서 바로 실행되는 인프로세스 분석용 SQL 데이터베이스로, 따로 관리할 서버가 없습니다. 로컬 파일, 데이터프레임, 레이크하우스 테이블을 빠르게 질의할 수 있어 분석가, 데이터 엔지니어, 분석 기능을 내장하려는 개발자에게 적합합니다.",
+      "longDescription": "DuckDB는 호스트 프로세스에 직접 내장되는 컬럼 기반 분석 데이터베이스 엔진입니다. SQLite처럼 임베디드 방식이지만, 트랜잭션 처리보다는 집계, 조인, 대용량 스캔에 맞춰 최적화되어 있습니다. 설치하거나 운영할 서버가 없고, CLI나 언어별 클라이언트에서 데이터베이스 파일을 열거나 메모리만으로 작업하면서 바로 SQL을 실행할 수 있습니다. 그래서 노트북, 스크립트, 데이터 파이프라인, 데스크톱·엣지 애플리케이션에 자연스럽게 어울립니다.\n\nCSV, Parquet, JSON 파일을 그 자리에서 바로 질의하고, Python이나 R 같은 클라이언트의 데이터프레임을 그대로 다룰 수 있으며, PostgreSQL 같은 다른 시스템에 연결해 데이터를 읽고 조인할 수도 있습니다. 확장 기능을 불러오면 오픈 레이크하우스 테이블 포맷을 비롯한 추가 파일 형식과 기능을 쓸 수 있습니다. 노트북 PC에서의 탐색적 분석, 즉흥적인 데이터프레임 코드를 SQL로 대체하는 작업, 가벼운 ETL 단계에 주로 쓰입니다. 단일 프로세스 엔진이므로 여러 사용자가 동시에 쓰고 읽는 공용 데이터 웨어하우스를 그대로 대신하지는 못합니다.",
+      "keywords": [
+        "임베디드 데이터베이스",
+        "OLAP",
+        "SQL",
+        "Parquet",
+        "데이터 분석",
+        "컬럼형"
+      ],
+      "rationale": "인프로세스 OLAP 엔진의 대표 주자로, 서버형인 ClickHouse·Trino와 겹치지 않는 임베디드 영역을 채워 주는 대표적인 분석 프로젝트입니다."
+    },
+    "ja": {
+      "description": "アプリケーション内で直接動作するインプロセス型の分析用 SQL データベースで、管理すべきサーバーはありません。ローカルファイル、データフレーム、レイクハウスのテーブルを高速にクエリでき、アナリストやデータエンジニア、分析機能を組み込みたい開発者に向いています。",
+      "longDescription": "DuckDB は、ホストプロセスに直接組み込まれる列指向の分析データベースエンジンです。SQLite と同じく組み込み型ですが、トランザクション処理ではなく集計、結合、大規模スキャンに最適化されています。インストールや運用が必要なサーバーはなく、CLI や各言語のクライアントからデータベースファイルを開くか、メモリ上だけで作業して、すぐに SQL を実行できます。そのため、ノートブック、スクリプト、データパイプライン、デスクトップやエッジのアプリケーションと自然に組み合わせられます。\n\nCSV、Parquet、JSON ファイルをその場で直接クエリでき、Python や R などのクライアントのデータフレームをそのまま扱えます。PostgreSQL などの他システムにアタッチしてデータを読み込み、結合することも可能です。拡張機能を読み込めば、オープンなレイクハウスのテーブル形式を含む追加のファイル形式や機能が使えます。ノート PC での探索的分析、場当たり的なデータフレーム処理の SQL への置き換え、軽量な ETL 処理などが代表的な用途です。単一プロセスのエンジンなので、多数のユーザーが同時に読み書きする共有データウェアハウスの代わりにはなりません。",
+      "keywords": [
+        "組み込みデータベース",
+        "OLAP",
+        "SQL",
+        "Parquet",
+        "データ分析",
+        "列指向"
+      ],
+      "rationale": "インプロセス OLAP エンジンの代表格で、サーバー型の ClickHouse や Trino とは異なる組み込み用途を担う、分析カテゴリを代表するプロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "一款在应用进程内运行的分析型 SQL 数据库，无需部署和管理服务器，可快速查询本地文件、数据框和湖仓表，适合数据分析师、数据工程师以及需要内嵌分析能力的开发者。",
+      "longDescription": "DuckDB 是一个直接嵌入宿主进程运行的列式分析数据库引擎。它和 SQLite 一样属于嵌入式数据库，但针对聚合、连接和大规模扫描做了优化，而不是面向事务型负载。它没有需要安装或运维的服务器：在命令行或各语言客户端中打开一个数据库文件，或者完全在内存中工作，就能直接执行 SQL。因此它很适合用在 notebook、脚本、数据管道以及桌面或边缘应用中。\n\n它可以原地查询 CSV、Parquet 和 JSON 文件，直接处理 Python、R 等客户端中的数据框，还能挂载 PostgreSQL 等其他系统来读取并关联其中的数据；通过加载扩展，还可以支持更多文件格式和功能，包括开放的湖仓表格式。典型用途包括在笔记本电脑上做探索性分析、用 SQL 取代零散的数据框处理代码，以及轻量级的 ETL 步骤。作为单进程引擎，它并不能直接替代供大量用户并发读写的共享数据仓库。",
+      "keywords": [
+        "嵌入式数据库",
+        "OLAP",
+        "SQL",
+        "Parquet",
+        "数据分析",
+        "列式存储"
+      ],
+      "rationale": "进程内 OLAP 引擎的代表，与服务端的 ClickHouse、Trino 形成互补，占据独特的嵌入式定位，是分析类别中的代表性项目。"
+    },
+    "es": {
+      "description": "Base de datos SQL analítica que se ejecuta dentro del propio proceso de tu aplicación, sin servidor que administrar, pensada para consultar con rapidez archivos locales, dataframes y tablas lakehouse. Para analistas, ingenieros de datos y desarrolladores que integran analítica.",
+      "longDescription": "DuckDB es un motor de base de datos analítica columnar que se integra directamente en el proceso anfitrión, al estilo de SQLite, pero optimizado para agregaciones, joins y escaneos de grandes volúmenes en lugar de cargas transaccionales. No hay ningún servidor que instalar ni operar: abres un archivo de base de datos, o trabajas solo en memoria, desde la CLI o un cliente de lenguaje y empiezas a ejecutar SQL. Por eso encaja de forma natural en notebooks, scripts, pipelines de datos y aplicaciones de escritorio o edge.\n\nPuede consultar archivos CSV, Parquet y JSON sin moverlos, trabajar directamente con dataframes de clientes como Python y R, conectarse a otros sistemas como PostgreSQL para leer y combinar sus datos, y cargar extensiones que añaden formatos y funciones, incluidos formatos abiertos de tablas lakehouse. Se usa sobre todo para análisis exploratorio en un portátil, para sustituir código improvisado con dataframes por SQL y para pasos ligeros de ETL. Al ser un motor de un solo proceso, no reemplaza directamente a un data warehouse compartido con muchos usuarios y escritores concurrentes.",
+      "keywords": [
+        "base de datos embebida",
+        "OLAP",
+        "SQL",
+        "Parquet",
+        "análisis de datos",
+        "columnar"
+      ],
+      "rationale": "El motor OLAP en proceso de referencia; complementa a ClickHouse y Trino, que funcionan como servidor, con un nicho embebido propio y es una elección representativa de analítica."
+    },
+    "de": {
+      "description": "Analytische SQL-Datenbank, die direkt im Prozess deiner Anwendung läuft, ohne dass ein Server verwaltet werden muss. Sie fragt lokale Dateien, Dataframes und Lakehouse-Tabellen schnell ab und richtet sich an Analysten, Data Engineers und Entwickler, die Analytik einbetten.",
+      "longDescription": "DuckDB ist eine spaltenorientierte analytische Datenbank-Engine, die direkt in den Host-Prozess eingebettet wird – ähnlich wie SQLite, aber auf Aggregationen, Joins und große Scans statt auf Transaktionslasten optimiert. Es gibt keinen Server, der installiert oder betrieben werden muss: Man öffnet über die CLI oder einen Sprach-Client eine Datenbankdatei oder arbeitet rein im Arbeitsspeicher und kann sofort SQL ausführen. Damit passt DuckDB gut zu Notebooks, Skripten, Datenpipelines sowie Desktop- und Edge-Anwendungen.\n\nDuckDB fragt CSV-, Parquet- und JSON-Dateien direkt an Ort und Stelle ab, arbeitet unmittelbar mit Dataframes aus Clients wie Python und R, kann andere Systeme wie PostgreSQL anbinden, um deren Daten zu lesen und zu verknüpfen, und lässt sich über Extensions um weitere Formate und Funktionen erweitern, darunter offene Lakehouse-Tabellenformate. Typische Einsätze sind explorative Analysen auf dem Laptop, das Ersetzen improvisierter Dataframe-Logik durch SQL und schlanke ETL-Schritte. Als Engine in einem einzelnen Prozess ist sie kein direkter Ersatz für ein gemeinsam genutztes Data Warehouse mit vielen gleichzeitig schreibenden Nutzern.",
+      "keywords": [
+        "eingebettete Datenbank",
+        "OLAP",
+        "SQL",
+        "Parquet",
+        "Datenanalyse",
+        "spaltenorientiert"
+      ],
+      "rationale": "Die führende In-Process-OLAP-Engine; ergänzt die serverbasierten ClickHouse und Trino um eine eigene Embedded-Nische und ist ein repräsentatives Analytics-Projekt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2018-06-26",
+      "archived": false,
+      "openIssuesCount": 1301,
+      "stargazersCount": 43434,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading in-process OLAP engine; complements server-side ClickHouse and Trino with a distinct embedded niche and is a representative analytics pick."
+    },
+    "flag": "ok"
+  }
+}

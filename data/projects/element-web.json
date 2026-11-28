@@ -1,0 +1,111 @@
+{
+  "name": "Element Web",
+  "slug": "element-web",
+  "description": "Browser and desktop client for the Matrix protocol, offering end-to-end encrypted messaging, rooms, spaces and calls. For teams and organizations that run their own Matrix homeserver and need a full-featured client to put in front of users.",
+  "repository": "https://github.com/element-hq/element-web",
+  "website": "https://element.io",
+  "documentation": "https://web-docs.element.dev/",
+  "categories": [
+    "chat"
+  ],
+  "keywords": [
+    "matrix client",
+    "end-to-end encryption",
+    "team chat",
+    "decentralized messaging",
+    "electron",
+    "self-hosted"
+  ],
+  "longDescription": "Element Web is the web client for Matrix, the open and federated messaging protocol, and also the base of the Element desktop app. It connects to any Matrix homeserver, such as Synapse, and gives users chat rooms, direct messages, threads, spaces for grouping rooms, file sharing and voice and video calls. End-to-end encryption is supported with device verification and key backup, so private conversations stay unreadable to the servers that relay them.\n\nBecause the client is a static web application, organizations can host their own copy next to their homeserver and adjust a configuration file to set the default server, branding and enabled features. Widgets and integrations let rooms embed other tools, and federation means users can talk to people on other Matrix servers. It is typically deployed by companies, public bodies and communities that want a self-hosted alternative to proprietary team chat. Element Web needs a homeserver to be useful on its own, and for phones the project points users to the separate native Element X apps rather than the mobile browser.",
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "종단 간 암호화 메시지, 방, 스페이스, 통화를 제공하는 Matrix 프로토콜용 브라우저·데스크톱 클라이언트입니다. 자체 Matrix 홈서버를 운영하면서 사용자에게 기능이 풍부한 클라이언트를 제공하려는 팀과 조직에 적합합니다.",
+      "longDescription": "Element Web은 개방형 연합 메시징 프로토콜인 Matrix의 웹 클라이언트이자 Element 데스크톱 앱의 기반입니다. Synapse 같은 어떤 Matrix 홈서버에도 연결할 수 있으며, 채팅방, 1:1 메시지, 스레드, 방을 묶는 스페이스, 파일 공유, 음성·영상 통화를 제공합니다. 기기 인증과 키 백업을 갖춘 종단 간 암호화를 지원하므로, 비공개 대화는 메시지를 중계하는 서버에서도 읽을 수 없습니다.\n\n클라이언트가 정적 웹 애플리케이션이라 조직이 홈서버 옆에 직접 사본을 호스팅하고, 설정 파일로 기본 서버, 브랜딩, 사용할 기능을 조정할 수 있습니다. 위젯과 통합 기능으로 방 안에 다른 도구를 넣을 수 있고, 연합 구조 덕분에 다른 Matrix 서버의 사용자와도 대화할 수 있습니다. 주로 독점 팀 채팅을 대신할 셀프 호스팅 대안을 원하는 기업, 공공 기관, 커뮤니티가 도입합니다. 다만 Element Web만으로는 쓸 수 없고 홈서버가 필요하며, 휴대폰에서는 모바일 브라우저 대신 별도의 네이티브 앱인 Element X를 쓰도록 안내합니다.",
+      "keywords": [
+        "Matrix 클라이언트",
+        "종단 간 암호화",
+        "팀 채팅",
+        "탈중앙 메시징",
+        "Electron",
+        "셀프 호스팅"
+      ],
+      "rationale": "카탈로그에 이미 있는 Synapse 홈서버와 짝을 이루는 대표 Matrix 클라이언트입니다. 쓸모는 크지만 독립적인 채팅 플랫폼이라기보다 기존 Matrix 항목을 보완하는 역할입니다."
+    },
+    "ja": {
+      "description": "エンドツーエンド暗号化されたメッセージ、ルーム、スペース、通話を提供する Matrix プロトコル向けのブラウザ・デスクトップクライアントです。自前の Matrix ホームサーバーを運用し、ユーザーに高機能なクライアントを届けたいチームや組織向けです。",
+      "longDescription": "Element Web は、オープンで連合型のメッセージングプロトコルである Matrix の Web クライアントで、Element デスクトップアプリの土台でもあります。Synapse などの任意の Matrix ホームサーバーに接続でき、チャットルーム、ダイレクトメッセージ、スレッド、ルームをまとめるスペース、ファイル共有、音声・ビデオ通話を利用できます。デバイス検証と鍵のバックアップを伴うエンドツーエンド暗号化に対応しているため、非公開の会話はメッセージを中継するサーバーからも読めません。\n\nクライアントは静的な Web アプリケーションなので、組織はホームサーバーの隣に自前でホストし、設定ファイルでデフォルトのサーバー、ブランディング、有効にする機能を調整できます。ウィジェットや連携機能でルームにほかのツールを埋め込め、連合によってほかの Matrix サーバーのユーザーとも会話できます。主に、プロプライエタリなチームチャットに代わるセルフホストの選択肢を求める企業、公的機関、コミュニティで導入されています。Element Web 単体ではホームサーバーがないと使えず、スマートフォンについてはモバイルブラウザではなく、別のネイティブアプリ Element X を使うよう案内しています。",
+      "keywords": [
+        "Matrix クライアント",
+        "エンドツーエンド暗号化",
+        "チームチャット",
+        "分散型メッセージング",
+        "Electron",
+        "セルフホスト"
+      ],
+      "rationale": "カタログにある Synapse ホームサーバーと対になる代表的な Matrix クライアントです。有用ですが、独立したチャット基盤というより既存の Matrix 項目を補う位置づけです。"
+    },
+    "zh-CN": {
+      "description": "面向 Matrix 协议的浏览器和桌面客户端，提供端到端加密消息、聊天室、空间和通话。适合自建 Matrix 家庭服务器、需要为用户提供功能完整客户端的团队和组织。",
+      "longDescription": "Element Web 是开放联邦式即时通信协议 Matrix 的 Web 客户端，也是 Element 桌面应用的基础。它可以连接任何 Matrix 家庭服务器（例如 Synapse），为用户提供聊天室、私聊、话题串、用于归类聊天室的空间、文件分享以及语音和视频通话。它支持带设备验证和密钥备份的端到端加密，私密对话即使经由服务器中转也无法被服务器读取。\n\n由于客户端是静态 Web 应用，组织可以在家庭服务器旁边自行托管一份，并通过配置文件设置默认服务器、品牌标识和启用的功能。借助小部件和集成，聊天室中可以嵌入其他工具；得益于联邦机制，用户还能与其他 Matrix 服务器上的人交流。它通常被希望用自托管方案替代专有团队聊天工具的企业、公共机构和社区所采用。需要注意的是，Element Web 本身离不开家庭服务器；在手机上，项目建议使用独立的原生应用 Element X，而不是移动浏览器。",
+      "keywords": [
+        "Matrix 客户端",
+        "端到端加密",
+        "团队聊天",
+        "去中心化通信",
+        "Electron",
+        "自托管"
+      ],
+      "rationale": "与目录中已有的 Synapse 家庭服务器配套的主流 Matrix 客户端；很有用，但更多是补全现有的 Matrix 条目，而不是一个独立的聊天平台。"
+    },
+    "es": {
+      "description": "Cliente web y de escritorio para el protocolo Matrix, con mensajería cifrada de extremo a extremo, salas, espacios y llamadas. Para equipos y organizaciones que gestionan su propio servidor Matrix y necesitan un cliente completo para sus usuarios.",
+      "longDescription": "Element Web es el cliente web de Matrix, el protocolo de mensajería abierto y federado, y también la base de la aplicación de escritorio de Element. Se conecta a cualquier servidor doméstico de Matrix, como Synapse, y ofrece salas de chat, mensajes directos, hilos, espacios para agrupar salas, intercambio de archivos y llamadas de voz y vídeo. Admite cifrado de extremo a extremo con verificación de dispositivos y copia de seguridad de claves, de modo que las conversaciones privadas siguen siendo ilegibles para los servidores que las retransmiten.\n\nComo el cliente es una aplicación web estática, las organizaciones pueden alojar su propia copia junto a su servidor y ajustar un archivo de configuración para definir el servidor predeterminado, la imagen de marca y las funciones activas. Los widgets y las integraciones permiten incrustar otras herramientas en las salas, y gracias a la federación los usuarios pueden hablar con personas de otros servidores Matrix. Suelen desplegarlo empresas, organismos públicos y comunidades que buscan una alternativa autoalojada al chat de equipo propietario. Element Web necesita un servidor doméstico para ser útil, y para el móvil el proyecto recomienda las apps nativas Element X en lugar del navegador móvil.",
+      "keywords": [
+        "cliente Matrix",
+        "cifrado de extremo a extremo",
+        "chat de equipo",
+        "mensajería descentralizada",
+        "Electron",
+        "autoalojado"
+      ],
+      "rationale": "El cliente Matrix de referencia, que complementa al servidor Synapse ya presente en el catálogo; útil, aunque más un complemento de la entrada de Matrix existente que una plataforma de chat independiente."
+    },
+    "de": {
+      "description": "Browser- und Desktop-Client für das Matrix-Protokoll mit Ende-zu-Ende-verschlüsselten Nachrichten, Räumen, Spaces und Anrufen. Für Teams und Organisationen, die einen eigenen Matrix-Homeserver betreiben und ihren Nutzern einen vollwertigen Client bieten wollen.",
+      "longDescription": "Element Web ist der Webclient für Matrix, das offene, föderierte Messaging-Protokoll, und zugleich die Grundlage der Element-Desktop-App. Er verbindet sich mit jedem Matrix-Homeserver, etwa Synapse, und bietet Chaträume, Direktnachrichten, Threads, Spaces zum Gruppieren von Räumen, Dateifreigabe sowie Sprach- und Videoanrufe. Ende-zu-Ende-Verschlüsselung mit Geräteverifizierung und Schlüssel-Backup wird unterstützt, sodass private Unterhaltungen für die weiterleitenden Server unlesbar bleiben.\n\nDa der Client eine statische Webanwendung ist, können Organisationen eine eigene Instanz neben ihrem Homeserver hosten und über eine Konfigurationsdatei Standardserver, Branding und aktivierte Funktionen festlegen. Widgets und Integrationen binden andere Werkzeuge in Räume ein, und dank Föderation lässt sich mit Menschen auf anderen Matrix-Servern kommunizieren. Eingesetzt wird er typischerweise von Unternehmen, Behörden und Communities, die eine selbst gehostete Alternative zu proprietärem Team-Chat suchen. Ohne Homeserver ist Element Web allein nicht nutzbar, und für Smartphones verweist das Projekt auf die separaten nativen Element-X-Apps statt auf den mobilen Browser.",
+      "keywords": [
+        "Matrix-Client",
+        "Ende-zu-Ende-Verschlüsselung",
+        "Team-Chat",
+        "dezentrale Kommunikation",
+        "Electron",
+        "selbst gehostet"
+      ],
+      "rationale": "Der maßgebliche Matrix-Client und Gegenstück zum Synapse-Homeserver im Katalog; nützlich, aber eher eine Ergänzung des bestehenden Matrix-Eintrags als eine eigenständige Chat-Plattform."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2015-07-22",
+      "archived": false,
+      "openIssuesCount": 3708,
+      "stargazersCount": 13685,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 84,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "The flagship Matrix client, pairing with the Synapse homeserver already in the catalog; useful, but more a complement to the existing Matrix entry than a standalone chat platform."
+    },
+    "flag": "ok"
+  }
+}

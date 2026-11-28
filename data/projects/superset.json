@@ -1,0 +1,117 @@
+{
+  "name": "Apache Superset",
+  "slug": "superset",
+  "description": "Open-source business intelligence platform from the Apache Software Foundation for exploring data and building interactive dashboards on top of SQL databases, with no-code charting, a SQL editor and fine-grained access control for analysts and data teams.",
+  "repository": "https://github.com/apache/superset",
+  "website": "https://superset.apache.org",
+  "documentation": "https://superset.apache.org/docs/intro",
+  "categories": [
+    "analytics"
+  ],
+  "keywords": [
+    "business intelligence",
+    "dashboards",
+    "data visualization",
+    "sql",
+    "self-hosted",
+    "bi"
+  ],
+  "longDescription": "Apache Superset is a web-based data exploration and visualization platform that sits on top of your existing databases instead of storing the data itself. It connects to most SQL-speaking engines, from transactional databases to cloud warehouses and OLAP systems, and lets users build charts in a no-code explorer or write queries in SQL Lab, its browser-based SQL IDE, before arranging the results into interactive dashboards.\n\nIt offers a wide library of visualization types, a lightweight semantic layer for defining datasets, metrics and calculated columns, caching to keep dashboards responsive, and role-based security that can restrict access to specific datasets or rows. Organizations use it as a self-hosted alternative to commercial BI tools for internal reporting and ad-hoc analysis. Running it in production means operating a metadata database, a cache and asynchronous workers, and dashboard speed ultimately depends on the database underneath.",
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "packages": {
+    "pypi": [
+      "apache-superset"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "SQL 데이터베이스 위에서 데이터를 탐색하고 인터랙티브 대시보드를 만드는 Apache Software Foundation의 오픈소스 비즈니스 인텔리전스 플랫폼입니다. 노코드 차트 작성, SQL 편집기, 세밀한 접근 제어를 갖춰 분석가와 데이터 팀에 적합합니다.",
+      "longDescription": "Apache Superset은 데이터를 직접 저장하지 않고 기존 데이터베이스 위에서 동작하는 웹 기반 데이터 탐색·시각화 플랫폼입니다. 트랜잭션 데이터베이스부터 클라우드 웨어하우스, OLAP 시스템까지 SQL을 쓰는 대부분의 엔진에 연결할 수 있고, 사용자는 노코드 탐색기로 차트를 만들거나 브라우저 기반 SQL IDE인 SQL Lab에서 직접 쿼리를 작성한 뒤 결과를 인터랙티브 대시보드로 구성할 수 있습니다.\n\n다양한 시각화 유형, 데이터셋·지표·계산 컬럼을 정의하는 가벼운 시맨틱 레이어, 대시보드 응답성을 유지하는 캐싱, 특정 데이터셋이나 행 단위까지 접근을 제한할 수 있는 역할 기반 보안을 제공합니다. 여러 조직이 사내 리포팅과 즉석 분석을 위해 상용 BI 도구 대신 셀프 호스팅 방식으로 사용합니다. 프로덕션에서 운영하려면 메타데이터 데이터베이스, 캐시, 비동기 워커를 함께 관리해야 하며, 대시보드 속도는 결국 그 아래의 데이터베이스 성능에 달려 있습니다.",
+      "keywords": [
+        "비즈니스 인텔리전스",
+        "대시보드",
+        "데이터 시각화",
+        "SQL",
+        "셀프 호스팅",
+        "BI"
+      ],
+      "rationale": "ASF가 관리하는 대표적인 오픈소스 BI·대시보드 플랫폼으로, 다른 분석 항목이 다루지 않는 역할을 맡는 대표 프로젝트입니다."
+    },
+    "ja": {
+      "description": "SQL データベースの上でデータを探索し、インタラクティブなダッシュボードを作れる、Apache Software Foundation のオープンソース BI プラットフォームです。ノーコードのチャート作成、SQL エディター、きめ細かなアクセス制御を備え、アナリストやデータチームに向いています。",
+      "longDescription": "Apache Superset は、データ自体を保存するのではなく、既存のデータベースの上で動作する Web ベースのデータ探索・可視化プラットフォームです。トランザクション系データベースからクラウドデータウェアハウス、OLAP システムまで、SQL を扱うほとんどのエンジンに接続でき、ユーザーはノーコードのエクスプローラーでチャートを作ったり、ブラウザで使える SQL IDE である SQL Lab でクエリを書いたりしてから、その結果をインタラクティブなダッシュボードにまとめられます。\n\n豊富な可視化タイプ、データセットや指標、計算カラムを定義する軽量なセマンティックレイヤー、ダッシュボードの応答性を保つキャッシュ、特定のデータセットや行単位までアクセスを制限できるロールベースのセキュリティを備えています。社内レポートやアドホック分析のために、商用 BI ツールに代わるセルフホストの選択肢として多くの組織で使われています。本番運用ではメタデータ用データベース、キャッシュ、非同期ワーカーの管理が必要で、ダッシュボードの速さは最終的に背後のデータベース次第です。",
+      "keywords": [
+        "ビジネスインテリジェンス",
+        "ダッシュボード",
+        "データ可視化",
+        "SQL",
+        "セルフホスト",
+        "BI"
+      ],
+      "rationale": "ASF のもとで開発される代表的なオープンソース BI・ダッシュボード基盤です。他の分析系項目にない役割を担う、代表的なプロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "Apache 软件基金会旗下的开源商业智能平台，可在 SQL 数据库之上探索数据并构建交互式仪表盘，提供无代码图表、SQL 编辑器和细粒度访问控制，适合分析师和数据团队。",
+      "longDescription": "Apache Superset 是一个基于 Web 的数据探索与可视化平台，它运行在你现有的数据库之上，而不是自己存储数据。它可以连接大多数支持 SQL 的引擎，从事务型数据库到云数据仓库和 OLAP 系统都在其列；用户可以在无代码的探索界面中制作图表，也可以在其浏览器端 SQL IDE —— SQL Lab 中编写查询，再把结果组织成交互式仪表盘。\n\n它提供丰富的可视化类型、用于定义数据集、指标和计算列的轻量语义层、保持仪表盘响应速度的缓存，以及可将访问限制到特定数据集或数据行的基于角色的安全机制。许多组织把它作为商业 BI 工具的自托管替代方案，用于内部报表和临时分析。在生产环境中运行它需要维护元数据库、缓存和异步 worker，而仪表盘的速度最终取决于底层数据库。",
+      "keywords": [
+        "商业智能",
+        "仪表盘",
+        "数据可视化",
+        "SQL",
+        "自托管",
+        "BI"
+      ],
+      "rationale": "由 ASF 治理的领先开源 BI 与仪表盘平台，承担了目录中其他分析类项目没有覆盖的角色，是具有代表性的选择。"
+    },
+    "es": {
+      "description": "Plataforma de inteligencia de negocio de código abierto de la Apache Software Foundation para explorar datos y crear dashboards interactivos sobre bases de datos SQL, con gráficos sin código, editor SQL y control de acceso detallado para analistas y equipos de datos.",
+      "longDescription": "Apache Superset es una plataforma web de exploración y visualización de datos que trabaja sobre tus bases de datos existentes en lugar de almacenar los datos por sí misma. Se conecta con la mayoría de motores que hablan SQL, desde bases de datos transaccionales hasta data warehouses en la nube y sistemas OLAP, y permite crear gráficos con un explorador sin código o escribir consultas en SQL Lab, su IDE SQL en el navegador, para luego organizar los resultados en dashboards interactivos.\n\nOfrece una amplia biblioteca de tipos de visualización, una capa semántica ligera para definir datasets, métricas y columnas calculadas, caché para que los dashboards respondan con agilidad y seguridad basada en roles capaz de restringir el acceso a datasets o filas concretos. Muchas organizaciones lo usan como alternativa autoalojada a las herramientas de BI comerciales para informes internos y análisis ad hoc. Ponerlo en producción implica operar una base de datos de metadatos, una caché y workers asíncronos, y la velocidad de los dashboards depende en última instancia de la base de datos subyacente.",
+      "keywords": [
+        "inteligencia de negocio",
+        "dashboards",
+        "visualización de datos",
+        "SQL",
+        "autoalojado",
+        "BI"
+      ],
+      "rationale": "La principal plataforma de BI y dashboards de código abierto, bajo la ASF; cumple un papel que ninguna otra entrada de analítica cubre y es una elección representativa."
+    },
+    "de": {
+      "description": "Open-Source-Business-Intelligence-Plattform der Apache Software Foundation, um Daten auf SQL-Datenbanken zu erkunden und interaktive Dashboards zu bauen – mit No-Code-Diagrammen, SQL-Editor und feingranularer Zugriffskontrolle für Analysten und Datenteams.",
+      "longDescription": "Apache Superset ist eine webbasierte Plattform zur Datenexploration und -visualisierung, die auf vorhandenen Datenbanken aufsetzt, statt die Daten selbst zu speichern. Sie verbindet sich mit den meisten SQL-fähigen Engines, von transaktionalen Datenbanken bis zu Cloud-Warehouses und OLAP-Systemen. Nutzer erstellen Diagramme in einem No-Code-Explorer oder schreiben Abfragen in SQL Lab, der browserbasierten SQL-IDE, und ordnen die Ergebnisse anschließend zu interaktiven Dashboards an.\n\nSuperset bietet eine breite Auswahl an Visualisierungstypen, eine schlanke semantische Schicht für Datasets, Metriken und berechnete Spalten, Caching für reaktionsschnelle Dashboards sowie rollenbasierte Sicherheit, die den Zugriff bis auf einzelne Datasets oder Zeilen einschränken kann. Organisationen setzen es als selbst gehostete Alternative zu kommerziellen BI-Werkzeugen für internes Reporting und Ad-hoc-Analysen ein. Der Produktivbetrieb erfordert eine Metadaten-Datenbank, einen Cache und asynchrone Worker, und wie schnell Dashboards sind, hängt letztlich von der darunterliegenden Datenbank ab.",
+      "keywords": [
+        "Business Intelligence",
+        "Dashboards",
+        "Datenvisualisierung",
+        "SQL",
+        "selbst gehostet",
+        "BI"
+      ],
+      "rationale": "Die führende Open-Source-Plattform für BI und Dashboards unter dem Dach der ASF; sie füllt eine Rolle, die kein anderer Analytics-Eintrag abdeckt, und ist eine repräsentative Wahl."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2015-07-21",
+      "archived": false,
+      "openIssuesCount": 610,
+      "stargazersCount": 75711,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "score": 100,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading open-source BI and dashboarding platform under the ASF; fills a role no other analytics entry covers and is a representative pick."
+    },
+    "flag": "ok"
+  }
+}

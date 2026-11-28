@@ -1,0 +1,117 @@
+{
+  "name": "Astro",
+  "slug": "astro",
+  "description": "Web framework for content-driven sites such as blogs, docs and marketing pages, rendering pages to HTML and loading JavaScript only for the interactive components that need it.",
+  "repository": "https://github.com/withastro/astro",
+  "website": "https://astro.build",
+  "documentation": "https://docs.astro.build/",
+  "categories": [
+    "ui",
+    "cms"
+  ],
+  "keywords": [
+    "static site generator",
+    "islands architecture",
+    "content sites",
+    "server rendering",
+    "web framework",
+    "content collections"
+  ],
+  "longDescription": "Astro is a web framework aimed at sites where content matters more than app-like interactivity: blogs, documentation, marketing pages and portfolios. Pages are rendered to HTML on the server or at build time, and by default no client-side JavaScript is shipped. Interactive parts are added as islands, individual components that hydrate on their own, which keeps pages light without giving up interactivity where it is needed.\n\nComponents can be written in Astro's own .astro syntax or brought in from UI frameworks such as React, Vue, Svelte and Solid through official integrations. Content collections give Markdown, MDX and other content sources type-checked schemas, and adapters let a project move from fully static output to on-demand server rendering on Node or various hosting platforms. Astro is not a CMS with an editing interface; teams that need non-developers to edit content typically connect it to a headless CMS. Highly interactive dashboards or app-like products are usually a better fit for an app framework.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "astro"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "블로그, 문서, 마케팅 페이지 같은 콘텐츠 중심 사이트를 위한 웹 프레임워크로, 페이지를 HTML로 렌더링하고 상호작용이 필요한 컴포넌트에만 JavaScript를 불러옵니다.",
+      "longDescription": "Astro는 앱 같은 상호작용보다 콘텐츠가 중요한 사이트, 즉 블로그, 문서, 마케팅 페이지, 포트폴리오를 겨냥한 웹 프레임워크입니다. 페이지는 서버나 빌드 시점에 HTML로 렌더링되며, 기본적으로 클라이언트 측 JavaScript를 보내지 않습니다. 상호작용이 필요한 부분은 각자 독립적으로 하이드레이션되는 컴포넌트인 아일랜드로 추가하므로, 필요한 곳의 상호작용은 살리면서도 페이지를 가볍게 유지할 수 있습니다.\n\n컴포넌트는 Astro 고유의 .astro 문법으로 작성하거나, 공식 통합을 통해 React, Vue, Svelte, Solid 같은 UI 프레임워크의 컴포넌트를 가져와 쓸 수 있습니다. 콘텐츠 컬렉션은 Markdown, MDX 및 기타 콘텐츠 소스에 타입 검사가 되는 스키마를 부여하고, 어댑터를 쓰면 완전 정적 출력에서 Node나 여러 호스팅 플랫폼의 온디맨드 서버 렌더링으로 옮겨 갈 수 있습니다. Astro는 편집 화면을 갖춘 CMS가 아니므로, 개발자가 아닌 사람이 콘텐츠를 편집해야 한다면 보통 헤드리스 CMS와 연결합니다. 상호작용이 많은 대시보드나 앱 같은 제품에는 앱 프레임워크가 더 잘 맞습니다.",
+      "keywords": [
+        "정적 사이트 생성기",
+        "아일랜드 아키텍처",
+        "콘텐츠 사이트",
+        "서버 렌더링",
+        "웹 프레임워크",
+        "콘텐츠 컬렉션"
+      ],
+      "rationale": "아일랜드 아키텍처를 내세운 콘텐츠 중심 사이트용 대표 프레임워크로, 카탈로그에 이미 있는 헤드리스 CMS들과는 성격이 다릅니다."
+    },
+    "ja": {
+      "description": "ブログ、ドキュメント、マーケティングページなどコンテンツ中心のサイト向け Web フレームワークです。ページを HTML としてレンダリングし、インタラクティブなコンポーネントにだけ JavaScript を読み込みます。",
+      "longDescription": "Astro は、アプリのようなインタラクティブ性よりコンテンツが重要なサイト、つまりブログ、ドキュメント、マーケティングページ、ポートフォリオなどを対象にした Web フレームワークです。ページはサーバー上またはビルド時に HTML としてレンダリングされ、デフォルトではクライアント側の JavaScript を送りません。インタラクティブな部分は、それぞれ独立してハイドレーションされるコンポーネント「アイランド」として追加するため、必要な箇所の操作性を保ちながらページを軽く保てます。\n\nコンポーネントは Astro 独自の .astro 構文で書くことも、公式インテグレーションを通じて React、Vue、Svelte、Solid などの UI フレームワークから持ち込むこともできます。コンテンツコレクションは Markdown、MDX などのコンテンツソースに型チェック付きのスキーマを与え、アダプターを使えば完全な静的出力から、Node や各種ホスティング環境でのオンデマンドなサーバーレンダリングへ切り替えられます。Astro は編集画面を備えた CMS ではないため、開発者以外がコンテンツを編集する必要がある場合は、たいていヘッドレス CMS と組み合わせます。操作の多いダッシュボードやアプリ的なプロダクトには、アプリ向けフレームワークのほうが適しています。",
+      "keywords": [
+        "静的サイトジェネレーター",
+        "アイランドアーキテクチャ",
+        "コンテンツサイト",
+        "サーバーレンダリング",
+        "Web フレームワーク",
+        "コンテンツコレクション"
+      ],
+      "rationale": "アイランドアーキテクチャを採用したコンテンツ重視サイト向けの代表的フレームワークで、カタログ既存のヘッドレス CMS とは役割が異なります。"
+    },
+    "zh-CN": {
+      "description": "面向博客、文档、营销页面等内容型网站的 Web 框架，把页面渲染为 HTML，只为需要交互的组件加载 JavaScript。",
+      "longDescription": "Astro 是一个面向内容比类应用交互更重要的网站的 Web 框架，例如博客、文档、营销页面和作品集。页面在服务端或构建时渲染成 HTML，默认不向客户端发送任何 JavaScript。需要交互的部分以“群岛”（islands）的形式加入，即各自独立完成水合的组件，这样既能在需要的地方保留交互，又能让页面保持轻量。\n\n组件既可以用 Astro 自己的 .astro 语法编写，也可以通过官方集成引入 React、Vue、Svelte、Solid 等 UI 框架的组件。内容集合（content collections）为 Markdown、MDX 及其他内容来源提供带类型检查的 schema，而适配器让项目可以从纯静态输出切换到在 Node 或各类托管平台上按需进行服务端渲染。Astro 并不是带编辑界面的 CMS；如果需要非开发人员编辑内容，团队通常会把它接入一个无头 CMS。交互密集的仪表盘或类应用产品，一般更适合使用应用型框架。",
+      "keywords": [
+        "静态站点生成器",
+        "群岛架构",
+        "内容网站",
+        "服务端渲染",
+        "Web 框架",
+        "内容集合"
+      ],
+      "rationale": "采用群岛架构、面向内容型网站的领先框架；与目录中已有的无头 CMS 定位不同。"
+    },
+    "es": {
+      "description": "Framework web para sitios centrados en contenido, como blogs, documentación y páginas de marketing, que renderiza las páginas a HTML y carga JavaScript solo para los componentes interactivos que lo necesitan.",
+      "longDescription": "Astro es un framework web pensado para sitios donde el contenido importa más que la interactividad propia de una aplicación: blogs, documentación, páginas de marketing y portafolios. Las páginas se renderizan a HTML en el servidor o durante la compilación y, por defecto, no se envía JavaScript al cliente. Las partes interactivas se añaden como islas, componentes individuales que se hidratan por su cuenta, lo que mantiene las páginas ligeras sin renunciar a la interactividad donde hace falta.\n\nLos componentes pueden escribirse con la sintaxis propia .astro o traerse de frameworks de UI como React, Vue, Svelte y Solid mediante integraciones oficiales. Las colecciones de contenido dan esquemas con comprobación de tipos a Markdown, MDX y otras fuentes de contenido, y los adaptadores permiten pasar de una salida totalmente estática a renderizado en servidor bajo demanda en Node o en distintas plataformas de hosting. Astro no es un CMS con interfaz de edición; los equipos que necesitan que personas no técnicas editen contenido suelen conectarlo a un CMS headless. Para paneles muy interactivos o productos tipo aplicación suele encajar mejor un framework de aplicaciones.",
+      "keywords": [
+        "generador de sitios estáticos",
+        "arquitectura de islas",
+        "sitios de contenido",
+        "renderizado en servidor",
+        "framework web",
+        "colecciones de contenido"
+      ],
+      "rationale": "Framework líder para sitios centrados en contenido con arquitectura de islas; distinto de los CMS headless que ya están en el catálogo."
+    },
+    "de": {
+      "description": "Web-Framework für inhaltsgetriebene Websites wie Blogs, Dokumentationen und Marketingseiten, das Seiten als HTML rendert und JavaScript nur für die interaktiven Komponenten lädt, die es brauchen.",
+      "longDescription": "Astro ist ein Web-Framework für Websites, bei denen Inhalte wichtiger sind als App-artige Interaktivität: Blogs, Dokumentationen, Marketingseiten und Portfolios. Seiten werden auf dem Server oder beim Build als HTML gerendert, und standardmäßig wird kein clientseitiges JavaScript ausgeliefert. Interaktive Teile kommen als Islands hinzu, einzelne Komponenten, die eigenständig hydriert werden – so bleiben Seiten schlank, ohne dort auf Interaktivität zu verzichten, wo sie gebraucht wird.\n\nKomponenten lassen sich in Astros eigener .astro-Syntax schreiben oder über offizielle Integrationen aus UI-Frameworks wie React, Vue, Svelte und Solid einbinden. Content Collections geben Markdown, MDX und anderen Inhaltsquellen typgeprüfte Schemas, und Adapter erlauben den Wechsel von rein statischer Ausgabe zu bedarfsgesteuertem Server-Rendering auf Node oder verschiedenen Hosting-Plattformen. Astro ist kein CMS mit Redaktionsoberfläche; wenn Nicht-Entwickler Inhalte pflegen sollen, wird es meist an ein Headless-CMS angebunden. Für stark interaktive Dashboards oder App-artige Produkte passt ein App-Framework in der Regel besser.",
+      "keywords": [
+        "Static-Site-Generator",
+        "Islands-Architektur",
+        "Content-Websites",
+        "Server-Rendering",
+        "Web-Framework",
+        "Content Collections"
+      ],
+      "rationale": "Führendes Framework für inhaltsorientierte Websites mit Islands-Architektur; klar abgegrenzt von den Headless-CMS, die schon im Katalog sind."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2021-03-15",
+      "archived": false,
+      "openIssuesCount": 139,
+      "stargazersCount": 64267,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading framework for content-focused sites with islands architecture; distinct from the headless CMSs already in the catalog."
+    },
+    "flag": "ok"
+  }
+}

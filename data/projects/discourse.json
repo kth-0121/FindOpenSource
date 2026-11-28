@@ -1,0 +1,112 @@
+{
+  "name": "Discourse",
+  "slug": "discourse",
+  "description": "Open source community platform that combines threaded discussion forums with built-in chat, moderation tools and a large plugin and theme ecosystem. For product communities, support forums and member sites that want to own their platform.",
+  "repository": "https://github.com/discourse/discourse",
+  "website": "https://www.discourse.org",
+  "documentation": "https://meta.discourse.org/c/documentation/10",
+  "categories": [
+    "chat"
+  ],
+  "keywords": [
+    "forum",
+    "community platform",
+    "discussion",
+    "moderation",
+    "ruby on rails",
+    "self-hosted"
+  ],
+  "longDescription": "Discourse is a platform for running online communities built around long-lived discussion topics rather than fast-moving chat streams. Conversations are organized into categories and tags, threads load continuously as you scroll, and members get notifications, mentions, likes and email digests, with the option to reply by email. A trust-level system gradually gives active members more permissions, which spreads moderation work across the community instead of leaving everything to staff.\n\nAlongside forums it includes real-time chat channels, private messages, single sign-on through DiscourseConnect or other identity providers, and a JSON API that the web client itself uses. Official and community plugins and themes add features such as AI helpers, data exploration, polls and custom styling. It is used for open source projects, customer support communities and member organizations. The back end is Ruby on Rails with PostgreSQL and Redis and the front end is Ember.js. The recommended self-hosted install is Docker-based, and running it yourself means handling upgrades and email delivery, which is why many communities use the company's paid hosting instead.",
+  "languages": [
+    "Ruby",
+    "JavaScript"
+  ],
+  "license": "GPL-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "스레드형 토론 포럼에 내장 채팅, 모더레이션 도구, 방대한 플러그인·테마 생태계를 더한 오픈소스 커뮤니티 플랫폼입니다. 플랫폼을 직접 소유하고 싶은 제품 커뮤니티, 지원 포럼, 회원 사이트에 적합합니다.",
+      "longDescription": "Discourse는 빠르게 흘러가는 채팅이 아니라 오래 이어지는 토론 주제를 중심으로 온라인 커뮤니티를 운영하기 위한 플랫폼입니다. 대화는 카테고리와 태그로 정리되고, 스레드는 스크롤에 따라 끊김 없이 이어서 불러오며, 회원은 알림, 멘션, 좋아요, 이메일 요약을 받고 이메일로 답글을 달 수도 있습니다. 신뢰 등급 시스템이 활발한 회원에게 점차 더 많은 권한을 주기 때문에, 모더레이션을 운영진에게만 맡기지 않고 커뮤니티 전체로 나눌 수 있습니다.\n\n포럼 외에도 실시간 채팅 채널, 개인 메시지, DiscourseConnect나 다른 ID 공급자를 통한 SSO, 그리고 웹 클라이언트도 그대로 사용하는 JSON API를 제공합니다. 공식·커뮤니티 플러그인과 테마로 AI 도우미, 데이터 탐색, 투표, 맞춤 스타일 같은 기능을 더할 수 있습니다. 오픈소스 프로젝트, 고객 지원 커뮤니티, 회원 단체 등에서 쓰입니다. 백엔드는 PostgreSQL과 Redis를 쓰는 Ruby on Rails, 프런트엔드는 Ember.js입니다. 권장되는 셀프 호스팅 설치 방식은 Docker 기반이며, 직접 운영하면 업그레이드와 이메일 발송까지 챙겨야 하므로 많은 커뮤니티가 회사의 유료 호스팅을 대신 선택합니다.",
+      "keywords": [
+        "포럼",
+        "커뮤니티 플랫폼",
+        "토론",
+        "모더레이션",
+        "Ruby on Rails",
+        "셀프 호스팅"
+      ],
+      "rationale": "대표적인 오픈소스 포럼 소프트웨어입니다. 카탈로그의 실시간 채팅 도구와 달리 오래 남는 커뮤니티 토론을 다루며, 그 영역을 맡는 다른 프로젝트가 없습니다."
+    },
+    "ja": {
+      "description": "スレッド形式のディスカッションフォーラムに、組み込みチャット、モデレーションツール、豊富なプラグインとテーマを組み合わせたオープンソースのコミュニティプラットフォームです。自前のプラットフォームを持ちたい製品コミュニティやサポートフォーラム、会員サイト向けです。",
+      "longDescription": "Discourse は、流れの速いチャットではなく、長く続くディスカッションのトピックを中心にオンラインコミュニティを運営するためのプラットフォームです。会話はカテゴリーとタグで整理され、スレッドはスクロールに合わせて途切れなく読み込まれます。メンバーは通知、メンション、いいね、メールダイジェストを受け取り、メールから返信することもできます。トラストレベルの仕組みによってアクティブなメンバーに少しずつ権限が与えられるため、モデレーションをスタッフだけに任せず、コミュニティ全体で分担できます。\n\nフォーラムに加えて、リアルタイムのチャットチャンネル、個人メッセージ、DiscourseConnect やほかの ID プロバイダーによるシングルサインオン、そして Web クライアント自身も使っている JSON API を備えています。公式とコミュニティのプラグインやテーマで、AI アシスタント、データ探索、投票、独自のデザインなどを追加できます。オープンソースプロジェクト、カスタマーサポートのコミュニティ、会員組織などで使われています。バックエンドは PostgreSQL と Redis を使う Ruby on Rails、フロントエンドは Ember.js です。推奨されるセルフホストのインストールは Docker ベースで、自前運用ではアップグレードやメール配信の面倒も見る必要があるため、多くのコミュニティは同社の有料ホスティングを選んでいます。",
+      "keywords": [
+        "フォーラム",
+        "コミュニティプラットフォーム",
+        "ディスカッション",
+        "モデレーション",
+        "Ruby on Rails",
+        "セルフホスト"
+      ],
+      "rationale": "定番のオープンソースフォーラムソフトウェアです。カタログにあるリアルタイムチャットのツールとは異なり、長く残るコミュニティの議論を扱い、この領域を担うプロジェクトはほかにありません。"
+    },
+    "zh-CN": {
+      "description": "开源社区平台，把分主题的讨论论坛与内置聊天、审核工具以及庞大的插件和主题生态结合在一起。适合希望自主掌控平台的产品社区、支持论坛和会员网站。",
+      "longDescription": "Discourse 是一个围绕长期讨论主题、而不是快速刷屏的聊天来运营在线社区的平台。讨论按分类和标签组织，主题帖随滚动连续加载，成员可以收到通知、提及、点赞和邮件摘要，也可以直接通过邮件回复。信任等级机制会逐步给活跃成员更多权限，从而把审核工作分摊到整个社区，而不是全部压在管理人员身上。\n\n除了论坛，它还提供实时聊天频道、私信、通过 DiscourseConnect 或其他身份提供商实现的单点登录，以及 Web 客户端本身也在使用的 JSON API。官方和社区的插件与主题可以加入 AI 助手、数据探索、投票和自定义样式等功能。它被广泛用于开源项目、客户支持社区和会员组织。后端是使用 PostgreSQL 和 Redis 的 Ruby on Rails，前端是 Ember.js。官方推荐的自托管方式基于 Docker，自行运维需要负责升级和邮件投递，因此不少社区选择该公司的付费托管服务。",
+      "keywords": [
+        "论坛",
+        "社区平台",
+        "讨论",
+        "内容审核",
+        "Ruby on Rails",
+        "自托管"
+      ],
+      "rationale": "代表性的开源论坛软件；与目录中的实时聊天工具不同，它面向长期留存的社区讨论，目前没有其他项目覆盖这一领域。"
+    },
+    "es": {
+      "description": "Plataforma de comunidad de código abierto que combina foros de debate por hilos con chat integrado, herramientas de moderación y un amplio ecosistema de plugins y temas. Para comunidades de producto, foros de soporte y sitios de miembros que quieren ser dueños de su plataforma.",
+      "longDescription": "Discourse es una plataforma para gestionar comunidades en línea construidas alrededor de temas de debate duraderos más que de flujos de chat rápidos. Las conversaciones se organizan en categorías y etiquetas, los hilos se cargan de forma continua al desplazarte y los miembros reciben notificaciones, menciones, me gusta y resúmenes por correo, con la opción de responder por email. Un sistema de niveles de confianza otorga gradualmente más permisos a los miembros activos, lo que reparte la moderación entre la comunidad en lugar de dejarlo todo en manos del equipo.\n\nAdemás de los foros, incluye canales de chat en tiempo real, mensajes privados, inicio de sesión único mediante DiscourseConnect u otros proveedores de identidad y una API JSON que usa el propio cliente web. Los plugins y temas oficiales y de la comunidad añaden funciones como asistentes de IA, exploración de datos, encuestas y estilos personalizados. Se usa en proyectos de código abierto, comunidades de soporte al cliente y organizaciones de miembros. El back end es Ruby on Rails con PostgreSQL y Redis, y el front end es Ember.js. La instalación autoalojada recomendada se basa en Docker, y gestionarla uno mismo implica ocuparse de las actualizaciones y del envío de correo, por lo que muchas comunidades optan por el alojamiento de pago de la empresa.",
+      "keywords": [
+        "foro",
+        "plataforma de comunidad",
+        "debate",
+        "moderación",
+        "Ruby on Rails",
+        "autoalojado"
+      ],
+      "rationale": "El software de foros de código abierto de referencia; a diferencia de las herramientas de chat en tiempo real del catálogo, cubre el debate comunitario duradero, un hueco que ningún otro proyecto ocupa."
+    },
+    "de": {
+      "description": "Quelloffene Community-Plattform, die Diskussionsforen mit Threads, integriertem Chat, Moderationswerkzeugen und einem großen Ökosystem aus Plugins und Themes verbindet. Für Produkt-Communities, Support-Foren und Mitgliederseiten, die ihre Plattform selbst besitzen wollen.",
+      "longDescription": "Discourse ist eine Plattform für Online-Communities, die sich um langlebige Diskussionsthemen drehen statt um schnelllebige Chatverläufe. Gespräche werden in Kategorien und Tags geordnet, Threads laden beim Scrollen fortlaufend nach, und Mitglieder erhalten Benachrichtigungen, Erwähnungen, Likes und E-Mail-Zusammenfassungen; antworten können sie auch per E-Mail. Ein Vertrauensstufen-System gibt aktiven Mitgliedern nach und nach mehr Rechte und verteilt so die Moderation auf die Community, statt alles dem Team zu überlassen.\n\nNeben den Foren bietet Discourse Echtzeit-Chatkanäle, private Nachrichten, Single Sign-on über DiscourseConnect oder andere Identitätsanbieter und eine JSON-API, die auch der Webclient selbst nutzt. Offizielle und Community-Plugins sowie Themes ergänzen Funktionen wie KI-Helfer, Datenauswertung, Umfragen und eigenes Styling. Eingesetzt wird es von Open-Source-Projekten, Kundensupport-Communities und Mitgliederorganisationen. Das Backend ist Ruby on Rails mit PostgreSQL und Redis, das Frontend Ember.js. Die empfohlene selbst gehostete Installation basiert auf Docker; wer selbst betreibt, kümmert sich auch um Upgrades und E-Mail-Zustellung, weshalb viele Communities stattdessen das kostenpflichtige Hosting des Unternehmens nutzen.",
+      "keywords": [
+        "Forum",
+        "Community-Plattform",
+        "Diskussion",
+        "Moderation",
+        "Ruby on Rails",
+        "selbst gehostet"
+      ],
+      "rationale": "Die maßgebliche Open-Source-Forensoftware; anders als die Echtzeit-Chat-Werkzeuge im Katalog deckt sie dauerhafte Community-Diskussionen ab – eine Lücke, die kein anderes Projekt füllt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2013-01-12",
+      "archived": false,
+      "openIssuesCount": 327,
+      "stargazersCount": 48127,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading open source forum software; distinct from the catalog's real-time chat tools by focusing on durable community discussion, a gap no other entry covers."
+    },
+    "flag": "ok"
+  }
+}

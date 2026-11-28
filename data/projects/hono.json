@@ -1,0 +1,117 @@
+{
+  "name": "Hono",
+  "slug": "hono",
+  "description": "Small, fast web framework built on Web Standards that runs the same code on Cloudflare Workers, Deno, Bun, Node.js, AWS Lambda and other JavaScript runtimes. For developers building APIs and edge services in TypeScript.",
+  "repository": "https://github.com/honojs/hono",
+  "website": "https://hono.dev",
+  "documentation": "https://hono.dev/docs/",
+  "categories": [
+    "backend",
+    "api"
+  ],
+  "keywords": [
+    "typescript",
+    "web framework",
+    "edge computing",
+    "cloudflare workers",
+    "serverless",
+    "web standards"
+  ],
+  "longDescription": "Hono is a TypeScript web framework designed around the Fetch API's Request and Response objects rather than any single server platform. Because it relies only on Web Standard APIs and has no external dependencies, one application can be deployed to Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda or Node.js, which makes it a frequent choice for edge functions and serverless backends where startup time and bundle size matter.\n\nIt ships several router implementations, including a regular-expression-based router tuned for speed, a context object for reading requests and building responses, and built-in middleware for concerns such as CORS, JWT verification, logging and compression. Strong TypeScript inference lets route definitions feed validators and a typed RPC-style client. Hono focuses on HTTP handling, so persistence, background jobs and broader application structure are left to whatever the project pairs it with.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "hono"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Web 표준 위에 만들어진 작고 빠른 웹 프레임워크로, 같은 코드를 Cloudflare Workers, Deno, Bun, Node.js, AWS Lambda 등 여러 JavaScript 런타임에서 실행할 수 있습니다. TypeScript로 API와 엣지 서비스를 만드는 개발자를 위한 도구입니다.",
+      "longDescription": "Hono는 특정 서버 플랫폼이 아니라 Fetch API의 Request와 Response 객체를 중심으로 설계된 TypeScript 웹 프레임워크입니다. Web 표준 API에만 의존하고 외부 의존성이 없기 때문에 하나의 애플리케이션을 Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda, Node.js 어디에나 배포할 수 있습니다. 그래서 시작 시간과 번들 크기가 중요한 엣지 함수나 서버리스 백엔드에서 자주 선택됩니다.\n\n속도에 최적화된 정규식 기반 라우터를 비롯한 여러 라우터 구현, 요청을 읽고 응답을 만드는 컨텍스트 객체, CORS, JWT 검증, 로깅, 압축 같은 내장 미들웨어를 제공합니다. 강력한 TypeScript 타입 추론 덕분에 라우트 정의가 그대로 검증기와 타입이 지정된 RPC 스타일 클라이언트로 이어집니다. Hono는 HTTP 처리에 집중하므로 데이터 저장, 백그라운드 작업, 더 큰 애플리케이션 구조는 함께 쓰는 다른 도구에 맡깁니다.",
+      "keywords": [
+        "typescript",
+        "웹 프레임워크",
+        "엣지 컴퓨팅",
+        "cloudflare workers",
+        "서버리스",
+        "웹 표준"
+      ],
+      "rationale": "엣지와 서버리스 배포에서 두드러지는 인기 멀티 런타임 TypeScript 웹 프레임워크로, 카탈로그에 직접적인 대안이 없는 강력한 선택지입니다."
+    },
+    "ja": {
+      "description": "Web 標準の上に作られた小さく高速な Web フレームワークで、同じコードを Cloudflare Workers、Deno、Bun、Node.js、AWS Lambda など多くの JavaScript ランタイムで動かせます。TypeScript で API やエッジサービスを作る開発者向けです。",
+      "longDescription": "Hono は、特定のサーバープラットフォームではなく Fetch API の Request と Response オブジェクトを軸に設計された TypeScript の Web フレームワークです。Web 標準 API だけに依存し外部依存もないため、ひとつのアプリケーションを Cloudflare Workers、Fastly Compute、Deno、Bun、Vercel、AWS Lambda、Node.js のいずれにもデプロイできます。そのため、起動時間やバンドルサイズが重要になるエッジ関数やサーバーレスのバックエンドでよく選ばれています。\n\n速度を重視した正規表現ベースのルーターを含む複数のルーター実装、リクエストの読み取りとレスポンスの組み立てを担うコンテキストオブジェクト、CORS、JWT 検証、ロギング、圧縮などの組み込みミドルウェアを備えています。強力な TypeScript の型推論により、ルート定義をそのままバリデーターや型付きの RPC 風クライアントに活かせます。Hono は HTTP の処理に集中しているため、永続化やバックグラウンドジョブ、より大きなアプリケーション構成は組み合わせる他のツールに任せます。",
+      "keywords": [
+        "typescript",
+        "Web フレームワーク",
+        "エッジコンピューティング",
+        "cloudflare workers",
+        "サーバーレス",
+        "Web 標準"
+      ],
+      "rationale": "エッジやサーバーレスでのデプロイに強みを持つ人気のマルチランタイム TypeScript Web フレームワークで、カタログに直接の代替がない有力な選択肢です。"
+    },
+    "zh-CN": {
+      "description": "一个基于 Web 标准的小巧、高速的 Web 框架，同一份代码可以运行在 Cloudflare Workers、Deno、Bun、Node.js、AWS Lambda 等多种 JavaScript 运行时上，适合用 TypeScript 构建 API 和边缘服务的开发者。",
+      "longDescription": "Hono 是一个 TypeScript Web 框架，它围绕 Fetch API 的 Request 和 Response 对象设计，而不是绑定某一个服务器平台。由于只依赖 Web 标准 API 且没有外部依赖，同一个应用可以部署到 Cloudflare Workers、Fastly Compute、Deno、Bun、Vercel、AWS Lambda 或 Node.js 上，因此在启动时间和包体积很关键的边缘函数和无服务器后端中很受欢迎。\n\n它提供多种路由实现（包括为速度优化的基于正则表达式的路由器）、用于读取请求和构造响应的上下文对象，以及 CORS、JWT 校验、日志、压缩等内置中间件。借助强大的 TypeScript 类型推断，路由定义可以直接用于校验器和带类型的 RPC 风格客户端。Hono 专注于 HTTP 处理，数据持久化、后台任务和更大的应用结构则交给与之搭配的其他工具。",
+      "keywords": [
+        "typescript",
+        "Web 框架",
+        "边缘计算",
+        "cloudflare workers",
+        "无服务器",
+        "Web 标准"
+      ],
+      "rationale": "流行的多运行时 TypeScript Web 框架，在边缘和无服务器部署方面尤为突出；目录中没有直接对应的替代品，是很有力的选择。"
+    },
+    "es": {
+      "description": "Framework web pequeño y rápido basado en estándares web que ejecuta el mismo código en Cloudflare Workers, Deno, Bun, Node.js, AWS Lambda y otros entornos de JavaScript. Para desarrolladores que crean APIs y servicios edge en TypeScript.",
+      "longDescription": "Hono es un framework web de TypeScript diseñado en torno a los objetos Request y Response de la Fetch API, en lugar de a una plataforma de servidor concreta. Como solo depende de APIs estándar de la web y no tiene dependencias externas, una misma aplicación puede desplegarse en Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda o Node.js, lo que lo convierte en una opción habitual para funciones edge y backends serverless donde importan el tiempo de arranque y el tamaño del bundle.\n\nIncluye varias implementaciones de enrutador, entre ellas una basada en expresiones regulares optimizada para la velocidad, un objeto de contexto para leer peticiones y construir respuestas, y middleware integrado para CORS, verificación de JWT, registro y compresión. Su fuerte inferencia de tipos permite que las definiciones de rutas alimenten validadores y un cliente tipado de estilo RPC. Hono se centra en el manejo de HTTP, así que la persistencia, las tareas en segundo plano y la estructura general de la aplicación quedan en manos de lo que se combine con él.",
+      "keywords": [
+        "typescript",
+        "framework web",
+        "edge computing",
+        "cloudflare workers",
+        "serverless",
+        "estándares web"
+      ],
+      "rationale": "Framework web de TypeScript multientorno muy popular, que destaca en despliegues edge y serverless; una opción sólida sin equivalente directo en el catálogo."
+    },
+    "de": {
+      "description": "Kleines, schnelles Webframework auf Basis von Web-Standards, das denselben Code auf Cloudflare Workers, Deno, Bun, Node.js, AWS Lambda und weiteren JavaScript-Runtimes ausführt. Für Entwickler, die APIs und Edge-Dienste in TypeScript bauen.",
+      "longDescription": "Hono ist ein TypeScript-Webframework, das um die Request- und Response-Objekte der Fetch API herum entworfen ist statt um eine bestimmte Serverplattform. Da es nur Web-Standard-APIs nutzt und keine externen Abhängigkeiten hat, lässt sich eine Anwendung auf Cloudflare Workers, Fastly Compute, Deno, Bun, Vercel, AWS Lambda oder Node.js deployen. Das macht es zu einer häufigen Wahl für Edge-Funktionen und Serverless-Backends, bei denen Startzeit und Bundle-Größe zählen.\n\nEs bringt mehrere Router-Implementierungen mit, darunter einen auf Geschwindigkeit getrimmten Router auf Basis regulärer Ausdrücke, ein Kontextobjekt zum Lesen von Requests und Erzeugen von Responses sowie eingebaute Middleware etwa für CORS, JWT-Prüfung, Logging und Kompression. Dank starker TypeScript-Typinferenz fließen Routendefinitionen direkt in Validatoren und einen typisierten Client im RPC-Stil ein. Hono konzentriert sich auf die HTTP-Verarbeitung; Persistenz, Hintergrundjobs und die übergreifende Anwendungsstruktur übernehmen die Werkzeuge, mit denen man es kombiniert.",
+      "keywords": [
+        "typescript",
+        "Webframework",
+        "Edge Computing",
+        "cloudflare workers",
+        "Serverless",
+        "Web-Standards"
+      ],
+      "rationale": "Beliebtes TypeScript-Webframework für mehrere Runtimes, das bei Edge- und Serverless-Deployments heraussticht; eine starke Wahl ohne direktes Gegenstück im Katalog."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-26",
+      "repoCreatedAt": "2021-12-14",
+      "archived": false,
+      "openIssuesCount": 375,
+      "stargazersCount": 33126,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 85,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Popular multi-runtime TypeScript web framework that stands out for edge and serverless deployments; a strong pick with no direct equivalent in the catalog."
+    },
+    "flag": "ok"
+  }
+}

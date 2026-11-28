@@ -1,0 +1,117 @@
+{
+  "name": "Ray",
+  "slug": "ray",
+  "description": "Distributed compute engine for Python that scales workloads from a laptop to a cluster, with libraries for data processing, training, hyperparameter tuning, model serving and reinforcement learning. For ML and data teams running large AI workloads.",
+  "repository": "https://github.com/ray-project/ray",
+  "website": "https://ray.io",
+  "documentation": "https://docs.ray.io",
+  "categories": [
+    "ai"
+  ],
+  "keywords": [
+    "distributed computing",
+    "python",
+    "machine learning",
+    "model serving",
+    "hyperparameter tuning",
+    "cluster"
+  ],
+  "longDescription": "Ray is a framework for running Python code across many machines without rewriting it around a particular distributed system. Its core runtime turns ordinary functions and classes into remote tasks and actors that a scheduler places on CPUs and GPUs across a cluster, handling data movement and fault tolerance along the way, so the same program can be developed on a laptop and then run at cluster scale.\n\nOn top of the core sit the AI libraries: Ray Data for distributed loading and preprocessing, Ray Train for distributed training, Ray Tune for hyperparameter search, Ray Serve for model serving and RLlib for reinforcement learning. Clusters can be launched on cloud VMs or on Kubernetes through KubeRay. Typical uses are batch inference, large-scale training and serving many models behind one API. Operating a Ray cluster adds real complexity, and for workloads that fit on a single machine simpler tools are usually enough.",
+  "languages": [
+    "Python",
+    "C++"
+  ],
+  "packages": {
+    "pypi": [
+      "ray"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "노트북 PC에서 클러스터까지 워크로드를 확장할 수 있는 Python용 분산 컴퓨팅 엔진으로, 데이터 처리, 학습, 하이퍼파라미터 튜닝, 모델 서빙, 강화 학습 라이브러리를 갖추고 있습니다. 대규모 AI 워크로드를 운영하는 ML·데이터 팀을 위한 도구입니다.",
+      "longDescription": "Ray는 특정 분산 시스템에 맞춰 코드를 다시 짜지 않고도 Python 코드를 여러 머신에서 실행할 수 있게 해 주는 프레임워크입니다. 핵심 런타임이 평범한 함수와 클래스를 원격 태스크와 액터로 바꾸고, 스케줄러가 이를 클러스터의 CPU와 GPU에 배치하면서 데이터 이동과 장애 복구까지 처리합니다. 그래서 같은 프로그램을 노트북 PC에서 개발한 뒤 클러스터 규모로 그대로 실행할 수 있습니다.\n\n코어 위에는 AI 라이브러리가 올라갑니다. 분산 데이터 로딩·전처리를 위한 Ray Data, 분산 학습을 위한 Ray Train, 하이퍼파라미터 탐색을 위한 Ray Tune, 모델 서빙을 위한 Ray Serve, 강화 학습을 위한 RLlib이 있습니다. 클러스터는 클라우드 VM이나 KubeRay를 통해 Kubernetes에 띄울 수 있습니다. 배치 추론, 대규모 학습, 하나의 API 뒤에서 여러 모델을 서빙하는 용도로 많이 쓰입니다. Ray 클러스터 운영은 상당한 복잡도를 더하므로, 한 대의 머신으로 충분한 작업이라면 더 단순한 도구가 보통 낫습니다.",
+      "keywords": [
+        "분산 컴퓨팅",
+        "Python",
+        "머신러닝",
+        "모델 서빙",
+        "하이퍼파라미터 튜닝",
+        "클러스터"
+      ],
+      "rationale": "AI 워크로드를 위한 대표적인 범용 분산 컴퓨팅 엔진으로, Kubeflow·DeepSpeed와 역할이 구분되는 강력한 대표 선택지입니다."
+    },
+    "ja": {
+      "description": "ノート PC からクラスターまでワークロードをスケールできる Python 向けの分散コンピューティングエンジンで、データ処理、学習、ハイパーパラメータ調整、モデルサービング、強化学習のライブラリを備えています。大規模な AI ワークロードを扱う ML・データチーム向けです。",
+      "longDescription": "Ray は、特定の分散システムに合わせて書き直すことなく、Python コードを多数のマシンで実行できるようにするフレームワークです。コアのランタイムは普通の関数やクラスをリモートのタスクやアクターに変え、スケジューラーがそれらをクラスター内の CPU や GPU に配置し、データの移動や障害からの回復も引き受けます。そのため、同じプログラムをノート PC で開発し、そのままクラスター規模で実行できます。\n\nコアの上には AI ライブラリ群があります。分散データの読み込みと前処理を担う Ray Data、分散学習の Ray Train、ハイパーパラメータ探索の Ray Tune、モデルサービングの Ray Serve、強化学習の RLlib です。クラスターはクラウドの VM 上や、KubeRay を通じて Kubernetes 上で起動できます。バッチ推論、大規模学習、1 つの API の背後で多数のモデルを配信する用途が代表的です。Ray クラスターの運用にはそれなりの複雑さが伴うため、1 台のマシンに収まる処理なら、たいていはもっとシンプルなツールで十分です。",
+      "keywords": [
+        "分散コンピューティング",
+        "Python",
+        "機械学習",
+        "モデルサービング",
+        "ハイパーパラメータ調整",
+        "クラスター"
+      ],
+      "rationale": "AI ワークロード向けの代表的な汎用分散コンピューティングエンジンです。Kubeflow や DeepSpeed とは役割が異なり、有力な代表的選択肢です。"
+    },
+    "zh-CN": {
+      "description": "面向 Python 的分布式计算引擎，可将工作负载从笔记本电脑扩展到集群，并提供数据处理、训练、超参数调优、模型服务和强化学习等库，适合运行大规模 AI 工作负载的机器学习和数据团队。",
+      "longDescription": "Ray 是一个让 Python 代码在多台机器上运行、而无需围绕特定分布式系统重写代码的框架。它的核心运行时会把普通的函数和类变成远程任务和 actor，由调度器分配到集群中的 CPU 和 GPU 上，并顺带处理数据传输和容错，因此同一个程序可以先在笔记本电脑上开发，再直接以集群规模运行。\n\n在核心之上是一系列 AI 库：用于分布式数据加载和预处理的 Ray Data、用于分布式训练的 Ray Train、用于超参数搜索的 Ray Tune、用于模型服务的 Ray Serve，以及用于强化学习的 RLlib。集群可以部署在云虚拟机上，也可以通过 KubeRay 运行在 Kubernetes 上。典型用途包括批量推理、大规模训练，以及在同一个 API 后面服务多个模型。运维 Ray 集群会带来不小的复杂度，如果工作负载单台机器就能承载，通常更简单的工具就够用了。",
+      "keywords": [
+        "分布式计算",
+        "Python",
+        "机器学习",
+        "模型服务",
+        "超参数调优",
+        "集群"
+      ],
+      "rationale": "面向 AI 工作负载的领先通用分布式计算引擎，与 Kubeflow、DeepSpeed 定位不同，是很有代表性的选择。"
+    },
+    "es": {
+      "description": "Motor de computación distribuida para Python que escala cargas de trabajo desde un portátil hasta un clúster, con bibliotecas para procesamiento de datos, entrenamiento, ajuste de hiperparámetros, servicio de modelos y aprendizaje por refuerzo. Para equipos de ML y datos.",
+      "longDescription": "Ray es un framework para ejecutar código Python en muchas máquinas sin reescribirlo en torno a un sistema distribuido concreto. Su runtime central convierte funciones y clases normales en tareas y actores remotos que un planificador reparte entre las CPU y GPU de un clúster, encargándose del movimiento de datos y de la tolerancia a fallos, de modo que el mismo programa puede desarrollarse en un portátil y luego ejecutarse a escala de clúster.\n\nSobre el núcleo se apoyan las bibliotecas de IA: Ray Data para carga y preprocesamiento distribuidos, Ray Train para entrenamiento distribuido, Ray Tune para búsqueda de hiperparámetros, Ray Serve para servir modelos y RLlib para aprendizaje por refuerzo. Los clústeres pueden lanzarse en máquinas virtuales en la nube o en Kubernetes mediante KubeRay. Se usa sobre todo para inferencia por lotes, entrenamiento a gran escala y para servir muchos modelos detrás de una sola API. Operar un clúster de Ray añade una complejidad real y, para cargas que caben en una sola máquina, suelen bastar herramientas más sencillas.",
+      "keywords": [
+        "computación distribuida",
+        "Python",
+        "aprendizaje automático",
+        "servicio de modelos",
+        "ajuste de hiperparámetros",
+        "clúster"
+      ],
+      "rationale": "El principal motor de computación distribuida de propósito general para cargas de IA; se distingue de Kubeflow y DeepSpeed y es una elección representativa sólida."
+    },
+    "de": {
+      "description": "Verteilte Compute-Engine für Python, die Workloads vom Laptop bis zum Cluster skaliert, mit Bibliotheken für Datenverarbeitung, Training, Hyperparameter-Tuning, Model Serving und Reinforcement Learning. Für ML- und Datenteams mit großen KI-Workloads.",
+      "longDescription": "Ray ist ein Framework, mit dem sich Python-Code auf vielen Maschinen ausführen lässt, ohne ihn um ein bestimmtes verteiltes System herum neu zu schreiben. Die Kern-Runtime macht aus gewöhnlichen Funktionen und Klassen entfernte Tasks und Actors, die ein Scheduler auf CPUs und GPUs im Cluster verteilt; Datenbewegung und Fehlertoleranz übernimmt sie dabei gleich mit. So lässt sich dasselbe Programm auf dem Laptop entwickeln und anschließend im Clustermaßstab ausführen.\n\nAuf dem Kern bauen die KI-Bibliotheken auf: Ray Data für verteiltes Laden und Vorverarbeiten, Ray Train für verteiltes Training, Ray Tune für Hyperparametersuche, Ray Serve für Model Serving und RLlib für Reinforcement Learning. Cluster lassen sich auf Cloud-VMs oder über KubeRay auf Kubernetes starten. Typische Einsätze sind Batch-Inferenz, Training im großen Maßstab und das Bereitstellen vieler Modelle hinter einer API. Der Betrieb eines Ray-Clusters bringt spürbare Komplexität mit sich; für Workloads, die auf eine einzelne Maschine passen, reichen meist einfachere Werkzeuge.",
+      "keywords": [
+        "verteiltes Rechnen",
+        "Python",
+        "maschinelles Lernen",
+        "Model Serving",
+        "Hyperparameter-Tuning",
+        "Cluster"
+      ],
+      "rationale": "Die führende universelle verteilte Compute-Engine für KI-Workloads; klar abgegrenzt von Kubeflow und DeepSpeed und eine starke, repräsentative Wahl."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2016-10-25",
+      "archived": false,
+      "openIssuesCount": 3888,
+      "stargazersCount": 44393,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "score": 100,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading general-purpose distributed compute engine for AI workloads; distinct from Kubeflow and DeepSpeed and a strong representative pick."
+    },
+    "flag": "ok"
+  }
+}

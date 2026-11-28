@@ -1,0 +1,116 @@
+{
+  "name": "pgvector",
+  "slug": "pgvector",
+  "description": "PostgreSQL extension that adds vector data types plus exact and approximate nearest-neighbor search, so embeddings can live alongside relational data. For teams that already run Postgres and want similarity search without a separate vector database.",
+  "repository": "https://github.com/pgvector/pgvector",
+  "documentation": "https://github.com/pgvector/pgvector/blob/master/README.md",
+  "categories": [
+    "database",
+    "ai"
+  ],
+  "keywords": [
+    "postgresql extension",
+    "vector search",
+    "embeddings",
+    "nearest neighbor",
+    "hnsw",
+    "similarity search"
+  ],
+  "longDescription": "pgvector brings vector similarity search into PostgreSQL itself. It adds column types for single-precision, half-precision, binary and sparse vectors, distance operators such as L2, inner product and cosine, and HNSW and IVFFlat indexes for approximate nearest-neighbor queries. Because vectors are ordinary table columns, you keep the transactions, joins, backups, point-in-time recovery and access control of the database you already operate.\n\nTypical uses include retrieval-augmented generation, recommendations and semantic search where embeddings need to be filtered or joined with application data in plain SQL. It works from any language with a Postgres client, and many hosted Postgres providers offer it preinstalled. Very large or extremely high-throughput vector workloads may still be better served by a dedicated vector engine, and index builds and tuning need some care as data grows.",
+  "languages": [
+    "C"
+  ],
+  "packages": {
+    "pypi": [
+      "pgvector"
+    ]
+  },
+  "license": "PostgreSQL License",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "벡터 데이터 타입과 정확·근사 최근접 이웃 검색을 추가해 임베딩을 관계형 데이터와 함께 저장할 수 있게 해 주는 PostgreSQL 확장입니다. 이미 Postgres를 운영 중이고 별도 벡터 데이터베이스 없이 유사도 검색을 원하는 팀에 적합합니다.",
+      "longDescription": "pgvector는 벡터 유사도 검색을 PostgreSQL 안으로 가져옵니다. 단정밀도, 반정밀도, 바이너리, 희소 벡터용 컬럼 타입과 L2, 내적, 코사인 같은 거리 연산자, 그리고 근사 최근접 이웃 질의를 위한 HNSW·IVFFlat 인덱스를 제공합니다. 벡터가 평범한 테이블 컬럼이기 때문에 이미 운영 중인 데이터베이스의 트랜잭션, 조인, 백업, 특정 시점 복구, 접근 제어를 그대로 누릴 수 있습니다.\n\n검색 증강 생성(RAG), 추천, 시맨틱 검색처럼 임베딩을 일반 SQL로 애플리케이션 데이터와 함께 필터링하거나 조인해야 하는 경우에 주로 쓰입니다. Postgres 클라이언트가 있는 언어라면 어디서든 사용할 수 있고, 많은 호스팅 Postgres 서비스에 기본 설치되어 있습니다. 다만 아주 큰 규모나 초고처리량 벡터 워크로드라면 전용 벡터 엔진이 더 나을 수 있으며, 데이터가 커질수록 인덱스 생성과 튜닝에 신경을 써야 합니다.",
+      "keywords": [
+        "PostgreSQL 확장",
+        "벡터 검색",
+        "임베딩",
+        "최근접 이웃",
+        "HNSW",
+        "유사도 검색"
+      ],
+      "rationale": "PostgreSQL에 벡터 검색을 더하는 사실상의 표준으로, Milvus·Qdrant 같은 전용 벡터 저장소를 보완하는 데이터베이스 내장형 접근입니다."
+    },
+    "ja": {
+      "description": "ベクトル型と厳密・近似の最近傍探索を追加し、埋め込みをリレーショナルデータと一緒に保存できるようにする PostgreSQL 拡張です。すでに Postgres を運用していて、別のベクトルデータベースなしで類似度検索をしたいチームに向いています。",
+      "longDescription": "pgvector は、ベクトルの類似度検索を PostgreSQL そのものに持ち込みます。単精度、半精度、バイナリ、スパースの各ベクトル用カラム型、L2・内積・コサインなどの距離演算子、そして近似最近傍クエリのための HNSW と IVFFlat インデックスを提供します。ベクトルは普通のテーブルのカラムなので、すでに運用しているデータベースのトランザクション、結合、バックアップ、ポイントインタイムリカバリ、アクセス制御をそのまま活かせます。\n\n検索拡張生成（RAG）、レコメンド、セマンティック検索など、埋め込みを通常の SQL でアプリケーションデータと絞り込んだり結合したりしたい場面でよく使われます。Postgres クライアントがあればどの言語からでも使え、多くのホスト型 Postgres サービスにプリインストールされています。ただし、非常に大規模あるいは超高スループットのベクトル処理では専用のベクトルエンジンの方が適している場合があり、データの増加に応じてインデックス構築やチューニングに注意が必要です。",
+      "keywords": [
+        "PostgreSQL 拡張",
+        "ベクトル検索",
+        "埋め込み",
+        "最近傍探索",
+        "HNSW",
+        "類似度検索"
+      ],
+      "rationale": "PostgreSQL にベクトル検索を加える定番の方法で、Milvus や Qdrant のような専用ベクトルストアを補完する、データベース内蔵型のアプローチです。"
+    },
+    "zh-CN": {
+      "description": "为 PostgreSQL 增加向量数据类型以及精确和近似最近邻搜索的扩展，让嵌入向量与关系型数据存放在一起。适合已经在用 Postgres、希望不另建向量数据库就能做相似度检索的团队。",
+      "longDescription": "pgvector 把向量相似度搜索直接带进 PostgreSQL。它提供单精度、半精度、二进制和稀疏向量的列类型，L2、内积、余弦等距离运算符，以及用于近似最近邻查询的 HNSW 和 IVFFlat 索引。由于向量就是普通的表列，你可以继续使用现有数据库的事务、连接、备份、时间点恢复和访问控制。\n\n典型用途包括检索增强生成（RAG）、推荐和语义搜索等需要用普通 SQL 将嵌入向量与业务数据一起过滤或关联的场景。任何有 Postgres 客户端的语言都可以使用它，许多托管 Postgres 服务也已预装。不过，对于超大规模或极高吞吐量的向量负载，专用向量引擎可能更合适；随着数据增长，索引构建和调优也需要多加留意。",
+      "keywords": [
+        "PostgreSQL 扩展",
+        "向量搜索",
+        "嵌入向量",
+        "最近邻",
+        "HNSW",
+        "相似度检索"
+      ],
+      "rationale": "为 PostgreSQL 增加向量搜索的标准方案，以数据库内置的方式与 Milvus、Qdrant 等专用向量存储形成互补。"
+    },
+    "es": {
+      "description": "Extensión de PostgreSQL que añade tipos de datos vectoriales y búsqueda exacta y aproximada de vecinos más cercanos, para que los embeddings convivan con los datos relacionales. Para equipos que ya usan Postgres y quieren búsqueda por similitud sin otra base de datos.",
+      "longDescription": "pgvector lleva la búsqueda por similitud vectorial al propio PostgreSQL. Añade tipos de columna para vectores de precisión simple, media precisión, binarios y dispersos, operadores de distancia como L2, producto interno y coseno, e índices HNSW e IVFFlat para consultas aproximadas de vecinos más cercanos. Como los vectores son columnas normales de una tabla, conservas las transacciones, los joins, las copias de seguridad, la recuperación a un punto en el tiempo y el control de acceso de la base de datos que ya operas.\n\nSe usa habitualmente para generación aumentada por recuperación (RAG), recomendaciones y búsqueda semántica cuando los embeddings deben filtrarse o combinarse con datos de la aplicación en SQL corriente. Funciona desde cualquier lenguaje con cliente de Postgres, y muchos proveedores de Postgres gestionado la ofrecen preinstalada. Las cargas vectoriales muy grandes o de rendimiento extremo pueden encajar mejor en un motor vectorial dedicado, y la creación y el ajuste de índices requieren cierto cuidado a medida que crecen los datos.",
+      "keywords": [
+        "extensión de PostgreSQL",
+        "búsqueda vectorial",
+        "embeddings",
+        "vecinos más cercanos",
+        "HNSW",
+        "búsqueda por similitud"
+      ],
+      "rationale": "La forma estándar de añadir búsqueda vectorial a PostgreSQL; un enfoque dentro de la base de datos que complementa a almacenes dedicados como Milvus y Qdrant."
+    },
+    "de": {
+      "description": "PostgreSQL-Erweiterung, die Vektordatentypen sowie exakte und approximative Nächste-Nachbarn-Suche hinzufügt, sodass Embeddings neben relationalen Daten liegen. Für Teams, die bereits Postgres betreiben und Ähnlichkeitssuche ohne separate Vektordatenbank wollen.",
+      "longDescription": "pgvector bringt Vektor-Ähnlichkeitssuche direkt in PostgreSQL. Die Erweiterung ergänzt Spaltentypen für Vektoren in einfacher und halber Genauigkeit sowie für binäre und dünnbesetzte Vektoren, Distanzoperatoren wie L2, Skalarprodukt und Kosinus sowie HNSW- und IVFFlat-Indizes für approximative Nächste-Nachbarn-Abfragen. Da Vektoren ganz normale Tabellenspalten sind, bleiben Transaktionen, Joins, Backups, Point-in-Time-Recovery und Zugriffskontrolle der bereits betriebenen Datenbank erhalten.\n\nTypische Einsätze sind Retrieval-Augmented Generation, Empfehlungen und semantische Suche, bei denen Embeddings in normalem SQL gefiltert oder mit Anwendungsdaten verknüpft werden müssen. pgvector funktioniert mit jeder Sprache, für die es einen Postgres-Client gibt, und viele gehostete Postgres-Angebote haben es vorinstalliert. Sehr große oder extrem durchsatzstarke Vektor-Workloads sind mit einer dedizierten Vektor-Engine unter Umständen besser bedient, und Indexaufbau sowie Tuning brauchen mit wachsenden Daten etwas Sorgfalt.",
+      "keywords": [
+        "PostgreSQL-Erweiterung",
+        "Vektorsuche",
+        "Embeddings",
+        "nächste Nachbarn",
+        "HNSW",
+        "Ähnlichkeitssuche"
+      ],
+      "rationale": "Der Standardweg, PostgreSQL um Vektorsuche zu erweitern; ein datenbankinterner Ansatz, der dedizierte Vektorspeicher wie Milvus und Qdrant ergänzt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2021-04-20",
+      "archived": false,
+      "openIssuesCount": 25,
+      "stargazersCount": 23846,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 89,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard way to add vector search to PostgreSQL; a distinct in-database approach that complements dedicated vector stores like Milvus and Qdrant."
+    },
+    "flag": "ok"
+  }
+}

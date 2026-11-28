@@ -1,0 +1,116 @@
+{
+  "name": "Biome",
+  "slug": "biome",
+  "description": "Fast formatter and linter for JavaScript, TypeScript, JSX, JSON, CSS, GraphQL and more in a single Rust-based tool, for web teams that want to replace a Prettier and ESLint setup with one dependency and one config file.",
+  "repository": "https://github.com/biomejs/biome",
+  "website": "https://biomejs.dev",
+  "documentation": "https://biomejs.dev/guides/getting-started/",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "formatter",
+    "linter",
+    "javascript",
+    "typescript",
+    "prettier alternative",
+    "eslint alternative"
+  ],
+  "longDescription": "Biome is a toolchain for keeping web codebases consistent and healthy. It began as a community fork of the Rome project and combines a code formatter and a linter in one binary, so a project can rely on a single tool and configuration file instead of coordinating Prettier, ESLint and their plugins. Its formatter aims for close compatibility with Prettier's output, and its linter includes hundreds of rules drawn from ESLint, typescript-eslint and other sources.\n\nBiome produces detailed, contextual diagnostics, can apply safe fixes automatically, and is built to run interactively in editors through first-party extensions, handling code that is still malformed while you type. A check command runs formatting, linting and import sorting together, and a ci command suits pipelines. It works with sensible defaults and no configuration. Teams that depend on niche ESLint plugins or custom rules may find gaps, since Biome does not run the ESLint plugin ecosystem.",
+  "languages": [
+    "Rust"
+  ],
+  "packages": {
+    "npm": [
+      "@biomejs/biome"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "JavaScript, TypeScript, JSX, JSON, CSS, GraphQL 등을 다루는 빠른 포매터이자 린터를 Rust 기반 단일 도구로 제공합니다. Prettier와 ESLint 조합을 의존성 하나, 설정 파일 하나로 바꾸고 싶은 웹 팀에게 맞습니다.",
+      "longDescription": "Biome는 웹 코드베이스를 일관되고 건강하게 유지하기 위한 툴체인입니다. Rome 프로젝트의 커뮤니티 포크로 출발했으며, 코드 포매터와 린터를 하나의 실행 파일에 합쳐 Prettier, ESLint와 그 플러그인들을 맞춰 쓰는 대신 도구 하나와 설정 파일 하나로 충분하게 해 줍니다. 포매터는 Prettier 출력과의 높은 호환성을 목표로 하고, 린터에는 ESLint, typescript-eslint 등에서 가져온 수백 개의 규칙이 들어 있습니다.\n\nBiome는 맥락이 담긴 자세한 진단 메시지를 보여 주고, 안전한 수정은 자동으로 적용할 수 있으며, 공식 확장을 통해 에디터에서 대화형으로 동작하도록 설계되어 입력 중인 불완전한 코드도 처리합니다. check 명령은 포매팅, 린트, import 정렬을 한 번에 실행하고, ci 명령은 파이프라인에 적합합니다. 별도 설정 없이도 합리적인 기본값으로 동작합니다. 다만 Biome는 ESLint 플러그인 생태계를 실행하지 않으므로, 특수한 ESLint 플러그인이나 커스텀 규칙에 의존하는 팀은 빈자리를 느낄 수 있습니다.",
+      "keywords": [
+        "포매터",
+        "린터",
+        "JavaScript",
+        "TypeScript",
+        "Prettier 대안",
+        "ESLint 대안"
+      ],
+      "rationale": "웹 프로젝트를 위한 대표적인 올인원 포매터·린터로, 카탈로그에 비어 있던 JavaScript 코드 품질 도구 자리를 큰 중복 없이 채웁니다."
+    },
+    "ja": {
+      "description": "JavaScript、TypeScript、JSX、JSON、CSS、GraphQL などに対応する高速なフォーマッター兼リンターを、Rust 製の単一ツールで提供します。Prettier と ESLint の構成を、依存関係 1 つと設定ファイル 1 つに置き換えたい Web チーム向けです。",
+      "longDescription": "Biome は、Web のコードベースを一貫した健全な状態に保つためのツールチェーンです。Rome プロジェクトのコミュニティフォークとして始まり、コードフォーマッターとリンターを 1 つのバイナリにまとめているため、Prettier や ESLint とそのプラグインを組み合わせる代わりに、ツールも設定ファイルも 1 つで済みます。フォーマッターは Prettier の出力との高い互換性を目指しており、リンターには ESLint や typescript-eslint などに由来する数百のルールが含まれています。\n\nBiome は文脈を踏まえた詳細な診断を出し、安全な修正は自動で適用できます。公式拡張機能を通じてエディター上で対話的に動くよう設計されており、入力途中の不完全なコードも扱えます。check コマンドはフォーマット、リント、import の並べ替えをまとめて実行し、ci コマンドはパイプライン向けです。設定なしでも妥当なデフォルトで動作します。ただし ESLint のプラグインエコシステムは実行できないため、特殊な ESLint プラグインや独自ルールに頼るチームには足りない部分があるかもしれません。",
+      "keywords": [
+        "フォーマッター",
+        "リンター",
+        "JavaScript",
+        "TypeScript",
+        "Prettier 代替",
+        "ESLint 代替"
+      ],
+      "rationale": "Web プロジェクト向けの代表的なオールインワンのフォーマッター兼リンターで、カタログに欠けていた JavaScript のコード品質ツールの枠を大きな重複なく埋めます。"
+    },
+    "zh-CN": {
+      "description": "以单个 Rust 工具提供的快速格式化器和代码检查器，支持 JavaScript、TypeScript、JSX、JSON、CSS、GraphQL 等，适合希望用一个依赖、一个配置文件取代 Prettier 加 ESLint 组合的 Web 团队。",
+      "longDescription": "Biome 是一套用于保持 Web 代码库一致与健康的工具链。它最初是 Rome 项目的社区分支，把代码格式化器和代码检查器合并到一个可执行文件里，项目无需再协调 Prettier、ESLint 及其插件，只需一个工具和一个配置文件。它的格式化器力求与 Prettier 的输出高度兼容，代码检查器则包含数百条来自 ESLint、typescript-eslint 等来源的规则。\n\nBiome 会给出详细且带上下文的诊断信息，能够自动应用安全的修复，并通过官方扩展在编辑器中交互式运行，即使是正在输入、尚不完整的代码也能处理。check 命令可一次完成格式化、检查和 import 排序，ci 命令则适合流水线使用。它无需任何配置即可凭合理的默认值工作。不过 Biome 不运行 ESLint 插件生态，依赖小众 ESLint 插件或自定义规则的团队可能会发现缺口。",
+      "keywords": [
+        "格式化工具",
+        "代码检查",
+        "JavaScript",
+        "TypeScript",
+        "Prettier 替代",
+        "ESLint 替代"
+      ],
+      "rationale": "面向 Web 项目的主流一体化格式化与代码检查工具，在几乎没有重叠的情况下填补了目录中 JavaScript 代码质量工具的空白。"
+    },
+    "es": {
+      "description": "Formateador y linter rápidos para JavaScript, TypeScript, JSX, JSON, CSS, GraphQL y más en una sola herramienta escrita en Rust, para equipos web que quieren sustituir la combinación de Prettier y ESLint por una dependencia y un archivo de configuración.",
+      "longDescription": "Biome es una cadena de herramientas para mantener los proyectos web coherentes y en buen estado. Surgió como fork comunitario del proyecto Rome y combina un formateador de código y un linter en un único binario, de modo que un proyecto puede apoyarse en una sola herramienta y un solo archivo de configuración en lugar de coordinar Prettier, ESLint y sus plugins. Su formateador busca una compatibilidad muy alta con la salida de Prettier, y su linter incluye cientos de reglas procedentes de ESLint, typescript-eslint y otras fuentes.\n\nBiome ofrece diagnósticos detallados y con contexto, puede aplicar automáticamente las correcciones seguras y está diseñado para funcionar de forma interactiva en el editor mediante extensiones oficiales, incluso con código que aún está incompleto mientras escribes. El comando check ejecuta a la vez formateo, lint y ordenación de imports, y el comando ci está pensado para pipelines. Funciona con valores predeterminados sensatos y sin configuración. Los equipos que dependen de plugins de ESLint muy específicos o de reglas propias pueden notar carencias, ya que Biome no ejecuta el ecosistema de plugins de ESLint.",
+      "keywords": [
+        "formateador",
+        "linter",
+        "JavaScript",
+        "TypeScript",
+        "alternativa a Prettier",
+        "alternativa a ESLint"
+      ],
+      "rationale": "Formateador y linter todo en uno de referencia para proyectos web; cubre en el catálogo el hueco de la calidad de código JavaScript sin solaparse con otras entradas."
+    },
+    "de": {
+      "description": "Schneller Formatter und Linter für JavaScript, TypeScript, JSX, JSON, CSS, GraphQL und mehr in einem einzigen Rust-basierten Tool – für Web-Teams, die ein Setup aus Prettier und ESLint durch eine Abhängigkeit und eine Konfigurationsdatei ersetzen wollen.",
+      "longDescription": "Biome ist eine Toolchain, die Web-Codebasen konsistent und gesund hält. Sie entstand als Community-Fork des Rome-Projekts und vereint Code-Formatter und Linter in einer Binärdatei, sodass ein Projekt mit einem Tool und einer Konfigurationsdatei auskommt, statt Prettier, ESLint und deren Plugins aufeinander abzustimmen. Der Formatter strebt eine sehr hohe Kompatibilität mit der Ausgabe von Prettier an, der Linter enthält Hunderte Regeln aus ESLint, typescript-eslint und weiteren Quellen.\n\nBiome liefert ausführliche, kontextbezogene Diagnosen, kann sichere Korrekturen automatisch anwenden und ist für den interaktiven Einsatz im Editor über offizielle Erweiterungen ausgelegt – auch noch unvollständiger Code während des Tippens wird verarbeitet. Der Befehl check erledigt Formatierung, Linting und Import-Sortierung in einem Durchgang, der Befehl ci ist für Pipelines gedacht. Sinnvolle Standardwerte machen eine Konfiguration optional. Teams, die auf spezielle ESLint-Plugins oder eigene Regeln angewiesen sind, stoßen womöglich auf Lücken, da Biome das ESLint-Plugin-Ökosystem nicht ausführt.",
+      "keywords": [
+        "Formatter",
+        "Linter",
+        "JavaScript",
+        "TypeScript",
+        "Prettier-Alternative",
+        "ESLint-Alternative"
+      ],
+      "rationale": "Führender All-in-one-Formatter und -Linter für Webprojekte; schließt ohne nennenswerte Überschneidung die Lücke bei JavaScript-Codequalität im Katalog."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2023-07-27",
+      "archived": false,
+      "openIssuesCount": 553,
+      "stargazersCount": 26235,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 85,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading all-in-one formatter and linter for web projects; fills the JavaScript code-quality gap in the catalog without close overlap."
+    },
+    "flag": "ok"
+  }
+}

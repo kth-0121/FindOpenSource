@@ -1,0 +1,117 @@
+{
+  "name": "tRPC",
+  "slug": "trpc",
+  "description": "TypeScript library for building end-to-end typesafe APIs without schemas or code generation: clients call server procedures with types inferred directly from the router. For full-stack TypeScript teams that share code between client and server.",
+  "repository": "https://github.com/trpc/trpc",
+  "website": "https://trpc.io",
+  "documentation": "https://trpc.io/docs",
+  "categories": [
+    "api"
+  ],
+  "keywords": [
+    "typescript",
+    "rpc",
+    "type safety",
+    "full stack",
+    "api",
+    "react query"
+  ],
+  "longDescription": "tRPC lets a TypeScript server and client share an API contract simply by sharing types. You define procedures, meaning queries, mutations and subscriptions, on a router on the server, and the client imports only the router's type, so calls get autocompletion and compile-time errors when inputs or outputs change, with no OpenAPI or GraphQL schema and no generated code in between. Inputs are usually validated with libraries such as Zod, which also supply the inferred types.\n\nAdapters let the server run inside Next.js, Express, Fastify, AWS Lambda, standalone Node.js and Fetch-based runtimes, while client integrations for React and TanStack Query handle caching and data fetching. It fits monorepos and full-stack apps where both sides are written in TypeScript, and it is a core piece of stacks such as create-t3-app. It is a poorer fit for public APIs consumed from other languages or by third parties, where a schema-first approach like REST with OpenAPI or GraphQL works better.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "@trpc/server",
+      "@trpc/client"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "스키마나 코드 생성 없이 엔드투엔드 타입 안전 API를 만드는 TypeScript 라이브러리입니다. 클라이언트는 라우터에서 바로 추론된 타입으로 서버 프로시저를 호출합니다. 클라이언트와 서버가 코드를 공유하는 풀스택 TypeScript 팀을 위한 도구입니다.",
+      "longDescription": "tRPC는 타입을 공유하는 것만으로 TypeScript 서버와 클라이언트가 API 계약을 공유하게 해 줍니다. 서버의 라우터에 쿼리, 뮤테이션, 구독 같은 프로시저를 정의하면 클라이언트는 라우터의 타입만 가져다 씁니다. 그 결과 호출 시 자동 완성이 되고, 입력이나 출력이 바뀌면 컴파일 단계에서 오류가 드러나며, 중간에 OpenAPI나 GraphQL 스키마도 생성된 코드도 필요 없습니다. 입력 검증에는 보통 Zod 같은 라이브러리를 쓰며, 이 라이브러리가 추론되는 타입도 제공합니다.\n\n어댑터를 통해 서버를 Next.js, Express, Fastify, AWS Lambda, 단독 Node.js, Fetch 기반 런타임 안에서 실행할 수 있고, React와 TanStack Query용 클라이언트 통합이 캐싱과 데이터 패칭을 처리합니다. 양쪽이 모두 TypeScript로 작성된 모노레포나 풀스택 앱에 잘 맞으며, create-t3-app 같은 스택의 핵심 구성 요소이기도 합니다. 반면 다른 언어나 외부 사용자가 호출하는 공개 API에는 덜 적합하며, 이런 경우에는 OpenAPI를 곁들인 REST나 GraphQL 같은 스키마 우선 방식이 더 낫습니다.",
+      "keywords": [
+        "typescript",
+        "rpc",
+        "타입 안전성",
+        "풀스택",
+        "api",
+        "react query"
+      ],
+      "rationale": "풀스택 TypeScript를 위한 독특한 엔드투엔드 타입 안전 API 방식으로, 널리 채택된 강력한 선택지이며 api 분야에 실질적인 다양성을 더해 줍니다."
+    },
+    "ja": {
+      "description": "スキーマもコード生成も使わずにエンドツーエンドで型安全な API を作る TypeScript ライブラリです。クライアントはルーターから直接推論された型でサーバーのプロシージャを呼び出せます。クライアントとサーバーでコードを共有するフルスタック TypeScript チーム向けです。",
+      "longDescription": "tRPC は、型を共有するだけで TypeScript のサーバーとクライアントが API の契約を共有できるようにします。サーバー側のルーターにクエリ、ミューテーション、サブスクリプションといったプロシージャを定義すると、クライアントはルーターの型だけをインポートします。これにより呼び出しで補完が効き、入力や出力が変わればコンパイル時にエラーになります。間に OpenAPI や GraphQL のスキーマも生成コードも挟みません。入力の検証には通常 Zod などのライブラリを使い、推論される型もそこから得られます。\n\nアダプターによってサーバーを Next.js、Express、Fastify、AWS Lambda、単体の Node.js、Fetch ベースのランタイム上で動かせ、React や TanStack Query 向けのクライアント連携がキャッシュとデータ取得を担います。両側が TypeScript で書かれたモノレポやフルスタックアプリに適しており、create-t3-app などのスタックの中核にもなっています。一方、他の言語や第三者から利用される公開 API には向かず、その場合は OpenAPI 付きの REST や GraphQL のようなスキーマファーストの手法が適しています。",
+      "keywords": [
+        "typescript",
+        "rpc",
+        "型安全",
+        "フルスタック",
+        "api",
+        "react query"
+      ],
+      "rationale": "フルスタック TypeScript 向けの独自なエンドツーエンド型安全 API の手法で、広く採用された有力な選択肢です。api 分野に確かな多様性を加えます。"
+    },
+    "zh-CN": {
+      "description": "一个无需模式定义或代码生成即可构建端到端类型安全 API 的 TypeScript 库：客户端调用服务端过程时，类型直接从路由器推断而来。适合在客户端和服务端之间共享代码的全栈 TypeScript 团队。",
+      "longDescription": "tRPC 让 TypeScript 服务端和客户端只需共享类型就能共享 API 契约。你在服务端的路由器上定义过程（查询、变更和订阅），客户端只导入路由器的类型，于是调用时就有自动补全，输入或输出一旦变化就会在编译期报错，中间既不需要 OpenAPI 或 GraphQL 模式，也没有生成的代码。输入通常用 Zod 等库校验，推断出的类型也来自这些库。\n\n借助适配器，服务端可以运行在 Next.js、Express、Fastify、AWS Lambda、独立 Node.js 以及基于 Fetch 的运行时中；面向 React 和 TanStack Query 的客户端集成负责缓存和数据获取。它适合两端都用 TypeScript 编写的 monorepo 和全栈应用，也是 create-t3-app 等技术栈的核心组成部分。对于需要供其他语言或第三方调用的公开 API，它就不太合适，此时采用 REST 加 OpenAPI 或 GraphQL 等模式优先的方案更好。",
+      "keywords": [
+        "typescript",
+        "rpc",
+        "类型安全",
+        "全栈",
+        "api",
+        "react query"
+      ],
+      "rationale": "面向全栈 TypeScript 的独特端到端类型安全 API 方案，采用广泛、实力强劲，为 api 类别带来了真正的多样性。"
+    },
+    "es": {
+      "description": "Biblioteca de TypeScript para APIs con tipado seguro de extremo a extremo, sin esquemas ni generación de código: el cliente llama al servidor con tipos inferidos del router. Para equipos full stack en TypeScript que comparten código entre cliente y servidor.",
+      "longDescription": "tRPC permite que un servidor y un cliente en TypeScript compartan el contrato de la API simplemente compartiendo tipos. Defines procedimientos (consultas, mutaciones y suscripciones) en un router del servidor y el cliente importa solo el tipo de ese router, así que las llamadas tienen autocompletado y errores en tiempo de compilación cuando cambian las entradas o salidas, sin esquema OpenAPI o GraphQL ni código generado de por medio. Las entradas suelen validarse con bibliotecas como Zod, que también aportan los tipos inferidos.\n\nSus adaptadores permiten ejecutar el servidor dentro de Next.js, Express, Fastify, AWS Lambda, Node.js independiente y entornos basados en Fetch, mientras que las integraciones de cliente para React y TanStack Query se ocupan de la caché y la obtención de datos. Encaja en monorepos y aplicaciones full stack donde ambos lados están escritos en TypeScript, y es una pieza central de stacks como create-t3-app. Es menos adecuado para APIs públicas consumidas desde otros lenguajes o por terceros, donde funciona mejor un enfoque basado en esquemas como REST con OpenAPI o GraphQL.",
+      "keywords": [
+        "typescript",
+        "rpc",
+        "seguridad de tipos",
+        "full stack",
+        "api",
+        "react query"
+      ],
+      "rationale": "Enfoque distintivo de APIs con tipado seguro de extremo a extremo para TypeScript full stack; una opción sólida y muy adoptada que aporta diversidad real a la categoría api."
+    },
+    "de": {
+      "description": "TypeScript-Bibliothek für durchgängig typsichere APIs ohne Schemas oder Codegenerierung: Clients rufen Server-Prozeduren mit Typen auf, die direkt aus dem Router abgeleitet werden. Für Full-Stack-TypeScript-Teams, die Code zwischen Client und Server teilen.",
+      "longDescription": "Mit tRPC teilen sich ein TypeScript-Server und -Client den API-Vertrag einfach über gemeinsame Typen. Auf dem Server definiert man Prozeduren, also Queries, Mutations und Subscriptions, in einem Router; der Client importiert nur dessen Typ. Aufrufe bekommen dadurch Autovervollständigung und Compilerfehler, sobald sich Ein- oder Ausgaben ändern, ohne OpenAPI- oder GraphQL-Schema und ohne generierten Code dazwischen. Eingaben werden meist mit Bibliotheken wie Zod validiert, die auch die abgeleiteten Typen liefern.\n\nÜber Adapter läuft der Server in Next.js, Express, Fastify, AWS Lambda, eigenständigem Node.js und Fetch-basierten Runtimes; Client-Integrationen für React und TanStack Query übernehmen Caching und Datenabruf. Es passt zu Monorepos und Full-Stack-Apps, bei denen beide Seiten in TypeScript geschrieben sind, und ist ein Kernbaustein von Stacks wie create-t3-app. Für öffentliche APIs, die aus anderen Sprachen oder von Dritten genutzt werden, eignet es sich weniger; dort ist ein Schema-first-Ansatz wie REST mit OpenAPI oder GraphQL besser.",
+      "keywords": [
+        "typescript",
+        "rpc",
+        "Typsicherheit",
+        "Full Stack",
+        "api",
+        "react query"
+      ],
+      "rationale": "Eigenständiger Ansatz für durchgängig typsichere APIs in Full-Stack-TypeScript; eine starke, weit verbreitete Option, die der api-Kategorie echte Vielfalt gibt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2020-07-18",
+      "archived": false,
+      "openIssuesCount": 85,
+      "stargazersCount": 40892,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 87,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Distinctive end-to-end typesafe API approach for full-stack TypeScript; a strong, well-adopted option that adds real diversity to the api category."
+    },
+    "flag": "ok"
+  }
+}

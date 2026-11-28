@@ -1,0 +1,118 @@
+{
+  "name": "Keystone",
+  "slug": "keystone",
+  "description": "Code-first headless CMS and application framework for Node.js: describe your schema in TypeScript and get a GraphQL API plus an auto-generated admin UI. For developers who want a custom back end without writing the boilerplate.",
+  "repository": "https://github.com/keystonejs/keystone",
+  "website": "https://keystonejs.com",
+  "documentation": "https://keystonejs.com/docs",
+  "categories": [
+    "cms",
+    "backend"
+  ],
+  "keywords": [
+    "headless cms",
+    "graphql",
+    "admin ui",
+    "typescript",
+    "prisma",
+    "node.js"
+  ],
+  "longDescription": "Keystone is a framework for building content-driven back ends and headless CMS setups in Node.js. Instead of clicking a data model together in a dashboard, you define lists and fields in a TypeScript config file, and Keystone generates a GraphQL API, a database schema through Prisma and an admin interface where editors can manage the records. It supports PostgreSQL, MySQL and SQLite, so the same project can start on a local file and move to a production database later.\n\nAccess control rules, hooks and virtual fields are written as plain functions, which makes it practical for applications with real business logic and not only for marketing content. Relationship fields, a rich-text document field, image and file fields, and authentication helpers cover common needs, and the API can be extended with your own GraphQL types and resolvers. It suits teams who prefer configuration in code and version control over GUI-driven schemas. Compared with larger headless CMS projects it has a smaller ecosystem of plugins and hosted options, and you are expected to run and deploy it yourself.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "@keystone-6/core",
+      "@keystone-6/auth"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Node.js용 코드 우선 헤드리스 CMS이자 애플리케이션 프레임워크입니다. TypeScript로 스키마를 정의하면 GraphQL API와 자동 생성된 관리자 UI를 얻을 수 있어, 반복 코드 없이 맞춤형 백엔드를 만들고 싶은 개발자에게 맞습니다.",
+      "longDescription": "Keystone은 Node.js에서 콘텐츠 중심 백엔드와 헤드리스 CMS를 구축하기 위한 프레임워크입니다. 대시보드에서 클릭으로 데이터 모델을 만드는 대신 TypeScript 설정 파일에 리스트와 필드를 정의하면, Keystone이 GraphQL API와 Prisma 기반 데이터베이스 스키마, 그리고 편집자가 레코드를 관리할 관리자 화면을 생성해 줍니다. PostgreSQL, MySQL, SQLite를 지원하므로 로컬 파일로 시작한 프로젝트를 나중에 운영용 데이터베이스로 옮길 수 있습니다.\n\n접근 제어 규칙, 훅, 가상 필드를 평범한 함수로 작성하기 때문에 마케팅 콘텐츠뿐 아니라 실제 비즈니스 로직이 있는 애플리케이션에도 쓸 만합니다. 관계 필드, 리치 텍스트용 document 필드, 이미지·파일 필드, 인증 헬퍼가 흔한 요구 사항을 채워 주고, 직접 만든 GraphQL 타입과 리졸버로 API를 확장할 수도 있습니다. GUI로 스키마를 만드는 방식보다 코드와 버전 관리로 설정하는 쪽을 선호하는 팀에 잘 맞습니다. 다만 더 큰 헤드리스 CMS 프로젝트에 비해 플러그인 생태계와 호스팅 선택지가 적고, 운영과 배포는 직접 맡아야 합니다.",
+      "keywords": [
+        "헤드리스 CMS",
+        "GraphQL",
+        "관리자 UI",
+        "TypeScript",
+        "Prisma",
+        "Node.js"
+      ],
+      "rationale": "탄탄한 코드 우선 TypeScript CMS이지만, 카탈로그에 이미 있는 Payload, Strapi, Directus와 겹치는 부분이 큽니다. GraphQL 중심이라는 점이 주된 차별점입니다."
+    },
+    "ja": {
+      "description": "Node.js 向けのコードファーストなヘッドレス CMS 兼アプリケーションフレームワークです。TypeScript でスキーマを書くと GraphQL API と自動生成の管理画面が手に入り、定型コードなしで独自のバックエンドを作りたい開発者に向いています。",
+      "longDescription": "Keystone は、Node.js でコンテンツ中心のバックエンドやヘッドレス CMS を構築するためのフレームワークです。ダッシュボード上のクリック操作でデータモデルを組み立てるのではなく、TypeScript の設定ファイルにリストとフィールドを定義すると、Keystone が GraphQL API、Prisma によるデータベーススキーマ、そして編集者がレコードを管理するための管理画面を生成します。PostgreSQL、MySQL、SQLite に対応しているので、ローカルのファイルで始めたプロジェクトを後から本番用データベースに移すこともできます。\n\nアクセス制御ルール、フック、仮想フィールドは普通の関数として書くため、マーケティング用コンテンツだけでなく、実際のビジネスロジックを持つアプリケーションにも使えます。リレーションフィールド、リッチテキスト用の document フィールド、画像・ファイルフィールド、認証ヘルパーがよくある要件をカバーし、独自の GraphQL 型やリゾルバーで API を拡張することも可能です。GUI でスキーマを作るより、設定をコードとバージョン管理で扱いたいチームに合っています。一方で、より大きなヘッドレス CMS と比べるとプラグインのエコシステムやホスティングの選択肢は少なく、運用とデプロイは自分で行う前提です。",
+      "keywords": [
+        "ヘッドレス CMS",
+        "GraphQL",
+        "管理画面",
+        "TypeScript",
+        "Prisma",
+        "Node.js"
+      ],
+      "rationale": "堅実なコードファーストの TypeScript 製 CMS ですが、カタログにある Payload、Strapi、Directus とかなり重なります。GraphQL 中心である点が主な違いです。"
+    },
+    "zh-CN": {
+      "description": "面向 Node.js 的代码优先无头 CMS 与应用框架：用 TypeScript 描述数据模型，即可获得 GraphQL API 和自动生成的管理后台。适合想要定制后端、又不想写样板代码的开发者。",
+      "longDescription": "Keystone 是一个在 Node.js 中构建内容驱动后端和无头 CMS 的框架。你不需要在控制台里点选拼出数据模型，而是在 TypeScript 配置文件中定义列表和字段，Keystone 会据此生成 GraphQL API、基于 Prisma 的数据库结构，以及供编辑人员管理记录的后台界面。它支持 PostgreSQL、MySQL 和 SQLite，同一个项目可以先用本地文件起步，之后再迁移到生产数据库。\n\n访问控制规则、钩子和虚拟字段都以普通函数编写，因此不仅适合营销内容，也适合带有真实业务逻辑的应用。关系字段、用于富文本的 document 字段、图片和文件字段以及认证辅助工具覆盖了常见需求，还可以用自定义的 GraphQL 类型和解析器扩展 API。它适合更喜欢把配置写在代码里、纳入版本控制，而不是通过图形界面定义结构的团队。与更大型的无头 CMS 相比，它的插件生态和托管选项较少，部署和运维需要自己负责。",
+      "keywords": [
+        "无头 CMS",
+        "GraphQL",
+        "管理后台",
+        "TypeScript",
+        "Prisma",
+        "Node.js"
+      ],
+      "rationale": "扎实的代码优先 TypeScript CMS，但与目录中已有的 Payload、Strapi、Directus 重叠较多，以 GraphQL 为核心是它的主要区别。"
+    },
+    "es": {
+      "description": "CMS headless y framework de aplicaciones para Node.js con enfoque code-first: describes tu esquema en TypeScript y obtienes una API GraphQL y una interfaz de administración generada automáticamente. Para desarrolladores que quieren un back end a medida sin código repetitivo.",
+      "longDescription": "Keystone es un framework para construir back ends orientados a contenido y CMS headless en Node.js. En lugar de montar el modelo de datos a base de clics en un panel, defines listas y campos en un archivo de configuración TypeScript, y Keystone genera una API GraphQL, el esquema de base de datos mediante Prisma y una interfaz de administración donde los editores gestionan los registros. Es compatible con PostgreSQL, MySQL y SQLite, así que un mismo proyecto puede empezar con un archivo local y pasar después a una base de datos de producción.\n\nLas reglas de control de acceso, los hooks y los campos virtuales se escriben como funciones normales, lo que lo hace práctico para aplicaciones con lógica de negocio real y no solo para contenido de marketing. Los campos de relación, un campo document para texto enriquecido, campos de imagen y archivo y utilidades de autenticación cubren las necesidades habituales, y la API se puede ampliar con tipos y resolvers GraphQL propios. Encaja con equipos que prefieren la configuración en código y bajo control de versiones frente a esquemas definidos desde una interfaz gráfica. Frente a proyectos de CMS headless más grandes, su ecosistema de plugins y sus opciones de alojamiento son más reducidos, y se espera que lo despliegues y operes por tu cuenta.",
+      "keywords": [
+        "cms headless",
+        "GraphQL",
+        "panel de administración",
+        "TypeScript",
+        "Prisma",
+        "Node.js"
+      ],
+      "rationale": "Un CMS sólido en TypeScript con enfoque code-first, aunque se solapa bastante con Payload, Strapi y Directus, ya presentes en el catálogo; su diseño centrado en GraphQL es la principal diferencia."
+    },
+    "de": {
+      "description": "Code-first Headless-CMS und Anwendungs-Framework für Node.js: Du beschreibst dein Schema in TypeScript und bekommst eine GraphQL-API sowie eine automatisch erzeugte Admin-Oberfläche. Für Entwickler, die ein eigenes Backend ohne Boilerplate wollen.",
+      "longDescription": "Keystone ist ein Framework, um inhaltsgetriebene Backends und Headless-CMS-Setups mit Node.js zu bauen. Statt ein Datenmodell in einem Dashboard zusammenzuklicken, definierst du Listen und Felder in einer TypeScript-Konfigurationsdatei, und Keystone erzeugt daraus eine GraphQL-API, ein Datenbankschema über Prisma und eine Admin-Oberfläche, in der Redakteure die Datensätze pflegen. Unterstützt werden PostgreSQL, MySQL und SQLite, sodass ein Projekt mit einer lokalen Datei starten und später auf eine Produktionsdatenbank umziehen kann.\n\nZugriffsregeln, Hooks und virtuelle Felder werden als normale Funktionen geschrieben; dadurch eignet es sich auch für Anwendungen mit echter Geschäftslogik und nicht nur für Marketinginhalte. Beziehungsfelder, ein Document-Feld für Rich Text, Bild- und Dateifelder sowie Authentifizierungshelfer decken die üblichen Anforderungen ab, und die API lässt sich mit eigenen GraphQL-Typen und Resolvern erweitern. Es passt zu Teams, die Konfiguration lieber im Code und unter Versionskontrolle halten als Schemas per GUI zu pflegen. Im Vergleich zu größeren Headless-CMS-Projekten ist das Ökosystem an Plugins und Hosting-Angeboten kleiner, und Betrieb sowie Deployment liegen bei dir.",
+      "keywords": [
+        "Headless-CMS",
+        "GraphQL",
+        "Admin-Oberfläche",
+        "TypeScript",
+        "Prisma",
+        "Node.js"
+      ],
+      "rationale": "Ein solides Code-first-CMS in TypeScript, das sich allerdings stark mit Payload, Strapi und Directus im Katalog überschneidet; der GraphQL-zentrierte Ansatz ist der wichtigste Unterschied."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2018-04-05",
+      "archived": false,
+      "openIssuesCount": 153,
+      "stargazersCount": 9997,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "A solid code-first TypeScript CMS, but it overlaps heavily with Payload, Strapi and Directus already in the catalog; its GraphQL-centric design is the main differentiator."
+    },
+    "flag": "ok"
+  }
+}

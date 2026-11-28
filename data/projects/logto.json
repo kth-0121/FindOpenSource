@@ -1,0 +1,118 @@
+{
+  "name": "Logto",
+  "slug": "logto",
+  "description": "Open source identity and access management platform built on OIDC and OAuth 2.1, with prebuilt sign-in flows, multi-tenancy, enterprise SSO and role-based access control. For SaaS and AI product teams that want self-hostable auth infrastructure.",
+  "repository": "https://github.com/logto-io/logto",
+  "website": "https://logto.io",
+  "documentation": "https://docs.logto.io/",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "identity management",
+    "oidc",
+    "oauth 2.1",
+    "single sign-on",
+    "multi-tenancy",
+    "rbac"
+  ],
+  "longDescription": "Logto is an authentication and authorization service that runs alongside your applications, either self-hosted with Docker or Node.js and PostgreSQL, or through the company's managed Logto Cloud. It implements OpenID Connect and OAuth 2.1 and also supports SAML, so web, mobile and backend apps sign users in through standard protocols rather than custom code, while an admin console handles configuration of applications, users and connectors.\n\nIts feature set targets B2B and SaaS products: customizable sign-in pages, social and passwordless login, multi-factor authentication, organizations for multi-tenant apps, enterprise SSO connections and role-based access control for APIs. SDKs cover more than 30 frameworks and platforms, and a management API supports automation. The project also positions itself for securing Model Context Protocol servers and AI agent access. As a standalone service it is one more component to deploy, monitor and upgrade, compared with an auth library embedded directly in the app.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "@logto/node",
+      "@logto/react",
+      "@logto/next"
+    ]
+  },
+  "license": "MPL-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "OIDC와 OAuth 2.1 기반의 오픈소스 ID·접근 관리 플랫폼으로, 미리 만들어진 로그인 흐름, 멀티 테넌시, 엔터프라이즈 SSO, 역할 기반 접근 제어를 제공합니다. 셀프 호스팅이 가능한 인증 인프라를 원하는 SaaS·AI 제품 팀을 위한 도구입니다.",
+      "longDescription": "Logto는 애플리케이션과 나란히 실행되는 인증·인가 서비스로, Docker나 Node.js와 PostgreSQL로 직접 호스팅하거나 회사가 운영하는 관리형 Logto Cloud로 사용할 수 있습니다. OpenID Connect와 OAuth 2.1을 구현하고 SAML도 지원하므로, 웹·모바일·백엔드 앱이 직접 만든 코드가 아니라 표준 프로토콜로 사용자를 로그인시킬 수 있으며, 애플리케이션, 사용자, 커넥터 설정은 관리 콘솔에서 처리합니다.\n\n기능 구성은 B2B와 SaaS 제품을 겨냥합니다. 사용자 정의 가능한 로그인 페이지, 소셜 로그인과 비밀번호 없는 로그인, 다중 인증, 멀티 테넌트 앱을 위한 조직, 엔터프라이즈 SSO 연결, API에 대한 역할 기반 접근 제어를 제공합니다. 30개가 넘는 프레임워크와 플랫폼용 SDK가 있고, 관리 API로 자동화도 할 수 있습니다. Model Context Protocol 서버와 AI 에이전트 접근을 보호하는 용도도 내세우고 있습니다. 독립된 서비스이기 때문에 앱에 직접 넣는 인증 라이브러리와 비교하면 배포하고 모니터링하고 업그레이드해야 할 구성 요소가 하나 더 늘어납니다.",
+      "keywords": [
+        "ID 관리",
+        "oidc",
+        "oauth 2.1",
+        "싱글 사인온",
+        "멀티 테넌시",
+        "rbac"
+      ],
+      "rationale": "멀티 테넌트와 SaaS에 강하게 초점을 맞춘 현대적인 OIDC 기반 ID 플랫폼입니다. 카탈로그의 Keycloak, Zitadel과 겹치지만 꾸준히 관리되는 좋은 대안입니다."
+    },
+    "ja": {
+      "description": "OIDC と OAuth 2.1 を基盤とするオープンソースの ID・アクセス管理プラットフォームで、既製のサインインフロー、マルチテナンシー、エンタープライズ SSO、ロールベースのアクセス制御を備えています。セルフホスト可能な認証基盤を求める SaaS や AI プロダクトのチーム向けです。",
+      "longDescription": "Logto は、アプリケーションと並行して動かす認証・認可サービスで、Docker または Node.js と PostgreSQL でセルフホストするか、運営企業が提供するマネージドの Logto Cloud を利用できます。OpenID Connect と OAuth 2.1 を実装し SAML にも対応しているため、Web・モバイル・バックエンドのアプリは独自コードではなく標準プロトコルでユーザーをサインインさせられます。アプリケーション、ユーザー、コネクターの設定は管理コンソールで行います。\n\n機能は B2B や SaaS プロダクトを想定しており、カスタマイズ可能なサインインページ、ソーシャルログインやパスワードレスログイン、多要素認証、マルチテナントアプリ向けの組織、エンタープライズ SSO 連携、API のロールベースアクセス制御を提供します。30 を超えるフレームワークやプラットフォーム向けの SDK があり、管理 API で自動化も可能です。Model Context Protocol サーバーや AI エージェントのアクセス保護にも使えると打ち出しています。独立したサービスなので、アプリに直接組み込む認証ライブラリと比べると、デプロイ・監視・アップグレードが必要なコンポーネントがひとつ増えます。",
+      "keywords": [
+        "ID 管理",
+        "oidc",
+        "oauth 2.1",
+        "シングルサインオン",
+        "マルチテナンシー",
+        "rbac"
+      ],
+      "rationale": "マルチテナントと SaaS に重点を置いた現代的な OIDC ベースの ID プラットフォームです。カタログの Keycloak や Zitadel と重なりますが、よく保守された代替候補です。"
+    },
+    "zh-CN": {
+      "description": "一个基于 OIDC 和 OAuth 2.1 的开源身份与访问管理平台，提供预置登录流程、多租户、企业 SSO 和基于角色的访问控制，适合需要可自托管认证基础设施的 SaaS 和 AI 产品团队。",
+      "longDescription": "Logto 是一个与应用并行运行的认证与授权服务，可以用 Docker 或 Node.js 加 PostgreSQL 自托管，也可以使用其公司提供的托管版 Logto Cloud。它实现了 OpenID Connect 和 OAuth 2.1，并支持 SAML，因此 Web、移动和后端应用可以通过标准协议而不是自定义代码让用户登录；应用、用户和连接器的配置则在管理控制台中完成。\n\n它的功能面向 B2B 和 SaaS 产品：可自定义的登录页面、社交登录和无密码登录、多因素认证、用于多租户应用的组织、企业 SSO 连接，以及针对 API 的基于角色的访问控制。官方 SDK 覆盖 30 多种框架和平台，管理 API 支持自动化。项目还将自身定位为保护 Model Context Protocol 服务器和 AI 智能体访问的方案。作为独立服务，与直接嵌入应用的认证库相比，它意味着多了一个需要部署、监控和升级的组件。",
+      "keywords": [
+        "身份管理",
+        "oidc",
+        "oauth 2.1",
+        "单点登录",
+        "多租户",
+        "rbac"
+      ],
+      "rationale": "现代化的基于 OIDC 的身份平台，重点面向多租户和 SaaS；与目录中的 Keycloak 和 Zitadel 有重叠，但仍是维护良好的替代选择。"
+    },
+    "es": {
+      "description": "Plataforma open source de gestión de identidades y accesos basada en OIDC y OAuth 2.1, con flujos de inicio de sesión listos, multitenencia, SSO empresarial y control de acceso basado en roles. Para equipos de productos SaaS e IA que buscan auth autoalojable.",
+      "longDescription": "Logto es un servicio de autenticación y autorización que se ejecuta junto a tus aplicaciones, ya sea autoalojado con Docker o con Node.js y PostgreSQL, o a través de Logto Cloud, la versión gestionada de la empresa. Implementa OpenID Connect y OAuth 2.1 y también admite SAML, de modo que las apps web, móviles y de backend inician la sesión de los usuarios mediante protocolos estándar en lugar de código propio, mientras que una consola de administración se encarga de configurar aplicaciones, usuarios y conectores.\n\nSus funciones están pensadas para productos B2B y SaaS: páginas de inicio de sesión personalizables, acceso social y sin contraseña, autenticación multifactor, organizaciones para apps multitenant, conexiones de SSO empresarial y control de acceso basado en roles para APIs. Hay SDK para más de 30 frameworks y plataformas, y una API de gestión permite automatizar tareas. El proyecto también se presenta como opción para proteger servidores de Model Context Protocol y el acceso de agentes de IA. Al ser un servicio independiente, supone un componente más que desplegar, supervisar y actualizar frente a una biblioteca de autenticación integrada en la propia app.",
+      "keywords": [
+        "gestión de identidades",
+        "oidc",
+        "oauth 2.1",
+        "inicio de sesión único",
+        "multitenencia",
+        "rbac"
+      ],
+      "rationale": "Plataforma de identidad moderna basada en OIDC con un fuerte enfoque en multitenencia y SaaS; se solapa con Keycloak y Zitadel, ya en el catálogo, pero es una alternativa bien mantenida."
+    },
+    "de": {
+      "description": "Open-Source-Plattform für Identitäts- und Zugriffsverwaltung auf Basis von OIDC und OAuth 2.1, mit fertigen Anmeldeabläufen, Mandantenfähigkeit, Enterprise-SSO und rollenbasierter Zugriffskontrolle. Für SaaS- und KI-Produktteams, die selbst hostbare Auth-Infrastruktur wollen.",
+      "longDescription": "Logto ist ein Authentifizierungs- und Autorisierungsdienst, der neben den eigenen Anwendungen läuft, entweder selbst gehostet mit Docker oder mit Node.js und PostgreSQL oder über das verwaltete Logto Cloud des Unternehmens. Es implementiert OpenID Connect und OAuth 2.1 und unterstützt zusätzlich SAML, sodass Web-, Mobile- und Backend-Apps Benutzer über Standardprotokolle statt über eigenen Code anmelden; Anwendungen, Benutzer und Connectoren werden in einer Admin-Konsole konfiguriert.\n\nDer Funktionsumfang zielt auf B2B- und SaaS-Produkte: anpassbare Anmeldeseiten, Social- und passwortlose Anmeldung, Multi-Faktor-Authentifizierung, Organisationen für mandantenfähige Apps, Enterprise-SSO-Verbindungen und rollenbasierte Zugriffskontrolle für APIs. SDKs gibt es für mehr als 30 Frameworks und Plattformen, eine Management-API ermöglicht Automatisierung. Das Projekt positioniert sich außerdem für die Absicherung von Model-Context-Protocol-Servern und den Zugriff von KI-Agenten. Als eigenständiger Dienst ist es gegenüber einer direkt in die App eingebetteten Auth-Bibliothek eine zusätzliche Komponente, die bereitgestellt, überwacht und aktualisiert werden muss.",
+      "keywords": [
+        "Identitätsverwaltung",
+        "oidc",
+        "oauth 2.1",
+        "Single Sign-on",
+        "Mandantenfähigkeit",
+        "rbac"
+      ],
+      "rationale": "Moderne, OIDC-basierte Identitätsplattform mit starkem Fokus auf Mandantenfähigkeit und SaaS; überschneidet sich mit Keycloak und Zitadel im Katalog, ist aber eine gut gepflegte Alternative."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2021-06-19",
+      "archived": false,
+      "openIssuesCount": 116,
+      "stargazersCount": 15000,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 87,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Modern OIDC-based identity platform with a strong multi-tenant and SaaS focus; overlaps with Keycloak and Zitadel already in the catalog, but a well-maintained alternative."
+    },
+    "flag": "ok"
+  }
+}

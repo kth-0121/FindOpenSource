@@ -1,0 +1,112 @@
+{
+  "name": "AnythingLLM",
+  "slug": "anything-llm",
+  "description": "All-in-one AI application for chatting with your documents and running AI agents on local or cloud language models. Runs as a desktop app or a self-hosted Docker server with multi-user support, for people and teams wanting a private ChatGPT-style workspace.",
+  "repository": "https://github.com/Mintplex-Labs/anything-llm",
+  "website": "https://anythingllm.com",
+  "documentation": "https://docs.anythingllm.com",
+  "categories": [
+    "ai",
+    "ai-agents"
+  ],
+  "keywords": [
+    "document chat",
+    "rag",
+    "local llm",
+    "ai agents",
+    "private ai",
+    "self-hosted"
+  ],
+  "longDescription": "AnythingLLM packages the pieces of a document-chat setup into one application. You connect a language model provider, add files or links, and it handles chunking, embedding and storage in a vector database so you can ask questions about that content. Work is organized into workspaces that keep documents and conversations apart, and you can run it against local models or hosted APIs depending on how much privacy or capability you need.\n\nIt is available as a desktop app for Mac, Windows and Linux or as a Docker deployment, which adds multi-user permissions and an embeddable chat widget for websites. Built-in agents can browse the web and use MCP tools, a no-code builder assembles agent flows, and a developer API covers custom integrations. It suits individuals and small teams who want a ready-made private assistant without assembling a RAG stack themselves; projects that need deep control over retrieval or agent logic may outgrow its opinionated design and prefer a framework.",
+  "languages": [
+    "JavaScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "로컬 또는 클라우드 언어 모델로 문서와 대화하고 AI 에이전트를 실행할 수 있는 올인원 AI 애플리케이션입니다. 데스크톱 앱이나 다중 사용자를 지원하는 셀프 호스팅 Docker 서버로 실행되며, 비공개 ChatGPT 스타일 작업 공간을 원하는 개인과 팀에 맞습니다.",
+      "longDescription": "AnythingLLM은 문서 기반 채팅에 필요한 요소를 하나의 애플리케이션으로 묶었습니다. 언어 모델 제공자를 연결하고 파일이나 링크를 추가하면, 청크 분할과 임베딩, 벡터 데이터베이스 저장까지 알아서 처리해 그 내용에 대해 질문할 수 있게 해 줍니다. 작업은 문서와 대화를 서로 분리해 두는 워크스페이스 단위로 정리되며, 필요한 개인정보 보호 수준이나 성능에 따라 로컬 모델이나 호스팅 API를 골라 쓸 수 있습니다.\n\nMac, Windows, Linux용 데스크톱 앱 또는 Docker 배포로 제공되며, Docker 버전에서는 다중 사용자 권한 관리와 웹사이트에 넣을 수 있는 채팅 위젯이 추가됩니다. 내장 에이전트는 웹을 탐색하고 MCP 도구를 사용할 수 있고, 노코드 빌더로 에이전트 플로를 구성할 수 있으며, 개발자 API로 맞춤 연동도 가능합니다. RAG 스택을 직접 조립하지 않고 바로 쓸 수 있는 비공개 어시스턴트를 원하는 개인과 소규모 팀에 잘 맞습니다. 다만 검색이나 에이전트 로직을 깊이 제어해야 하는 프로젝트라면 정해진 설계가 답답해져 프레임워크 쪽이 나을 수 있습니다.",
+      "keywords": [
+        "문서 채팅",
+        "RAG",
+        "로컬 LLM",
+        "AI 에이전트",
+        "프라이빗 AI",
+        "셀프 호스팅"
+      ],
+      "rationale": "바로 쓸 수 있는 비공개 문서 채팅·에이전트 앱으로 인기가 높습니다. 프레임워크 중심의 AI 항목이 채우지 못하는 최종 사용자 영역을 담당하지만 에이전트 빌더와 일부 겹칩니다."
+    },
+    "ja": {
+      "description": "ローカルまたはクラウドの言語モデルを使って、ドキュメントとのチャットや AI エージェントの実行ができるオールインワンの AI アプリです。デスクトップアプリ、またはマルチユーザー対応のセルフホスト型 Docker サーバーとして動き、プライベートな ChatGPT 風の作業環境を求める個人やチームに向いています。",
+      "longDescription": "AnythingLLM は、ドキュメントチャットに必要な要素を 1 つのアプリケーションにまとめたものです。言語モデルのプロバイダーを接続し、ファイルやリンクを追加すると、チャンク分割、埋め込み、ベクトルデータベースへの保存までを自動で行い、その内容について質問できるようになります。作業はドキュメントと会話を分けて管理するワークスペース単位で整理され、必要なプライバシーや性能に応じて、ローカルモデルとホスト型 API を使い分けられます。\n\nMac、Windows、Linux 向けのデスクトップアプリ、または Docker でのデプロイとして提供され、Docker 版ではマルチユーザーの権限管理と、Web サイトに埋め込めるチャットウィジェットが加わります。組み込みのエージェントは Web を閲覧したり MCP ツールを使ったりでき、ノーコードのビルダーでエージェントフローを組み立てられるほか、開発者向け API で独自の連携も可能です。RAG の仕組みを自分で組み上げずに、すぐ使えるプライベートアシスタントが欲しい個人や小規模チームに適しています。一方、検索やエージェントのロジックを細かく制御したいプロジェクトでは、決め打ちの設計が窮屈になり、フレームワークの方が合う場合があります。",
+      "keywords": [
+        "ドキュメントチャット",
+        "RAG",
+        "ローカル LLM",
+        "AI エージェント",
+        "プライベート AI",
+        "セルフホスト"
+      ],
+      "rationale": "すぐに使えるプライベートなドキュメントチャット兼エージェントアプリとして人気です。フレームワーク中心の AI 項目にはない利用者向けの領域を補いますが、エージェントビルダーとは一部重なります。"
+    },
+    "zh-CN": {
+      "description": "一体化的 AI 应用，可基于本地或云端语言模型与文档对话并运行 AI 智能体。既可作为桌面应用运行，也可作为支持多用户的自托管 Docker 服务部署，适合想要私有化 ChatGPT 式工作空间的个人和团队。",
+      "longDescription": "AnythingLLM 把文档问答所需的各个环节打包进一个应用。连接语言模型提供方、添加文件或链接后，它会自动完成分块、嵌入以及向量数据库存储，让你可以针对这些内容提问。工作以工作区为单位组织，文档和对话彼此隔离；根据对隐私或能力的需求，可以选择本地模型或托管 API。\n\n它提供适用于 Mac、Windows 和 Linux 的桌面应用，也可以通过 Docker 部署，Docker 版本额外提供多用户权限管理以及可嵌入网站的聊天组件。内置智能体能够浏览网页、调用 MCP 工具，无代码构建器可用来编排智能体流程，开发者 API 则支持自定义集成。它适合希望直接拥有私有助手、而不想自己搭建 RAG 技术栈的个人和小团队；如果项目需要深度控制检索或智能体逻辑，可能会受限于它预设的设计，转而选择开发框架更合适。",
+      "keywords": [
+        "文档问答",
+        "RAG",
+        "本地 LLM",
+        "AI 智能体",
+        "私有 AI",
+        "自托管"
+      ],
+      "rationale": "广受欢迎的开箱即用私有文档问答与智能体应用，填补了以框架为主的 AI 条目所没有覆盖的终端用户场景，但与智能体构建工具有一定重叠。"
+    },
+    "es": {
+      "description": "Aplicación de IA todo en uno para chatear con tus documentos y ejecutar agentes de IA con modelos de lenguaje locales o en la nube. Funciona como app de escritorio o servidor Docker autoalojado multiusuario, para personas y equipos que quieren un espacio privado tipo ChatGPT.",
+      "longDescription": "AnythingLLM reúne en una sola aplicación las piezas necesarias para chatear con documentos. Conectas un proveedor de modelos de lenguaje, añades archivos o enlaces y la herramienta se encarga de trocear, generar embeddings y guardar todo en una base de datos vectorial para que puedas hacer preguntas sobre ese contenido. El trabajo se organiza en espacios que mantienen separados documentos y conversaciones, y puedes usar modelos locales o APIs alojadas según la privacidad o la capacidad que necesites.\n\nSe ofrece como aplicación de escritorio para Mac, Windows y Linux o como despliegue con Docker, que añade permisos multiusuario y un widget de chat integrable en sitios web. Los agentes incorporados pueden navegar por la web y usar herramientas MCP, un constructor sin código permite montar flujos de agentes y una API para desarrolladores cubre las integraciones a medida. Encaja con personas y equipos pequeños que quieren un asistente privado listo para usar sin montar su propia pila RAG; los proyectos que necesitan controlar a fondo la recuperación o la lógica de los agentes pueden quedarse cortos con su diseño cerrado y preferir un framework.",
+      "keywords": [
+        "chat con documentos",
+        "RAG",
+        "LLM local",
+        "agentes de IA",
+        "IA privada",
+        "autoalojado"
+      ],
+      "rationale": "Popular app lista para usar de chat privado con documentos y agentes; cubre un nicho de usuario final que las entradas de IA centradas en frameworks no cubren, con cierto solapamiento con constructores de agentes."
+    },
+    "de": {
+      "description": "All-in-one-KI-Anwendung, um mit eigenen Dokumenten zu chatten und KI-Agenten mit lokalen oder Cloud-Sprachmodellen auszuführen. Läuft als Desktop-App oder selbst gehosteter Docker-Server mit Mehrbenutzerbetrieb – für alle, die einen privaten ChatGPT-artigen Arbeitsbereich wollen.",
+      "longDescription": "AnythingLLM bündelt die Bausteine eines Dokumenten-Chats in einer einzigen Anwendung. Man verbindet einen Sprachmodell-Anbieter, fügt Dateien oder Links hinzu, und die Anwendung übernimmt Chunking, Embedding und die Ablage in einer Vektordatenbank, sodass man Fragen zu diesen Inhalten stellen kann. Gearbeitet wird in Workspaces, die Dokumente und Unterhaltungen voneinander trennen; je nach Bedarf an Datenschutz oder Leistungsfähigkeit lassen sich lokale Modelle oder gehostete APIs verwenden.\n\nEs gibt eine Desktop-App für Mac, Windows und Linux sowie ein Docker-Deployment, das Mehrbenutzer-Berechtigungen und ein auf Websites einbettbares Chat-Widget ergänzt. Eingebaute Agenten können im Web browsen und MCP-Tools nutzen, ein No-Code-Builder stellt Agenten-Flows zusammen, und eine Entwickler-API deckt eigene Integrationen ab. Das passt zu Einzelpersonen und kleinen Teams, die einen fertigen privaten Assistenten wollen, ohne selbst einen RAG-Stack aufzubauen; Projekte, die Retrieval oder Agentenlogik tiefgreifend steuern müssen, stoßen an die Grenzen des vorgegebenen Designs und greifen eher zu einem Framework.",
+      "keywords": [
+        "Dokumenten-Chat",
+        "RAG",
+        "lokales LLM",
+        "KI-Agenten",
+        "private KI",
+        "selbst gehostet"
+      ],
+      "rationale": "Beliebte, sofort nutzbare App für privaten Dokumenten-Chat und Agenten; deckt eine Endnutzer-Nische ab, die die frameworklastigen KI-Einträge nicht bedienen, mit etwas Überschneidung zu Agenten-Buildern."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-24",
+      "repoCreatedAt": "2023-06-04",
+      "archived": false,
+      "openIssuesCount": 353,
+      "stargazersCount": 68710,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 88,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Popular turnkey private document-chat and agent app; fills an end-user niche the framework-heavy AI entries don't, with some overlap with agent builders."
+    },
+    "flag": "ok"
+  }
+}

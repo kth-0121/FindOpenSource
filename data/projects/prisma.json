@@ -1,0 +1,118 @@
+{
+  "name": "Prisma ORM",
+  "slug": "prisma",
+  "description": "Type-safe ORM for Node.js and TypeScript built around a declarative schema file, with a generated query client, migrations and a visual data browser. For application developers working with PostgreSQL, MySQL, SQLite, SQL Server, MongoDB and similar databases.",
+  "repository": "https://github.com/prisma/orm",
+  "website": "https://www.prisma.io",
+  "documentation": "https://www.prisma.io/docs",
+  "categories": [
+    "database",
+    "developer-tools"
+  ],
+  "keywords": [
+    "orm",
+    "typescript",
+    "database migrations",
+    "type safety",
+    "nodejs",
+    "postgresql"
+  ],
+  "longDescription": "Prisma ORM is a database toolkit for TypeScript and Node.js applications that starts from a single schema file. In that file you describe data models, relations and the database connection in Prisma's own schema language, and the tooling uses it to generate a fully typed client whose query results match exactly the fields and relations you select. This removes much of the hand-written mapping code and catches many query mistakes at compile time.\n\nIts main pieces are Prisma Client for queries, Prisma Migrate for generating and applying SQL migrations from schema changes, and Prisma Studio for browsing and editing data. Supported databases include PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, CockroachDB and MongoDB. It is popular in Next.js, NestJS and other TypeScript backends. Its abstraction sits further from raw SQL than query-builder style libraries, so complex reporting queries sometimes fall back to raw SQL, and the schema language is one more thing for a team to learn.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "prisma",
+      "@prisma/client"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "선언적 스키마 파일을 중심으로 한 Node.js·TypeScript용 타입 안전 ORM으로, 생성되는 쿼리 클라이언트, 마이그레이션, 시각적 데이터 브라우저를 제공합니다. PostgreSQL, MySQL, SQLite, SQL Server, MongoDB 등을 다루는 애플리케이션 개발자를 위한 도구입니다.",
+      "longDescription": "Prisma ORM은 하나의 스키마 파일에서 출발하는 TypeScript·Node.js 애플리케이션용 데이터베이스 툴킷입니다. 이 파일에 Prisma 전용 스키마 언어로 데이터 모델, 관계, 데이터베이스 연결을 기술하면, 도구가 이를 바탕으로 완전한 타입을 갖춘 클라이언트를 생성합니다. 쿼리 결과의 타입은 선택한 필드와 관계에 정확히 맞춰지므로, 손으로 작성하던 매핑 코드가 크게 줄고 많은 쿼리 실수를 컴파일 단계에서 잡을 수 있습니다.\n\n주요 구성 요소는 쿼리를 위한 Prisma Client, 스키마 변경으로부터 SQL 마이그레이션을 만들고 적용하는 Prisma Migrate, 데이터를 살펴보고 편집하는 Prisma Studio입니다. 지원 데이터베이스는 PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, CockroachDB, MongoDB입니다. Next.js, NestJS를 비롯한 TypeScript 백엔드에서 널리 쓰입니다. 쿼리 빌더 계열 라이브러리보다 원시 SQL에서 한 단계 더 떨어진 추상화이기 때문에 복잡한 리포팅 쿼리는 원시 SQL로 작성해야 할 때가 있고, 팀이 스키마 언어를 하나 더 익혀야 한다는 점도 감안해야 합니다.",
+      "keywords": [
+        "orm",
+        "typescript",
+        "데이터베이스 마이그레이션",
+        "타입 안전성",
+        "nodejs",
+        "postgresql"
+      ],
+      "rationale": "가장 널리 쓰이는 TypeScript ORM 중 하나이자 카탈로그의 첫 ORM으로, Node.js 앱에서 타입 안전한 데이터베이스 접근을 대표하는 필수 도구입니다."
+    },
+    "ja": {
+      "description": "宣言的なスキーマファイルを軸にした Node.js・TypeScript 向けの型安全な ORM で、生成されるクエリクライアント、マイグレーション、視覚的なデータブラウザーを備えています。PostgreSQL、MySQL、SQLite、SQL Server、MongoDB などを扱うアプリ開発者向けです。",
+      "longDescription": "Prisma ORM は、ひとつのスキーマファイルから始まる TypeScript・Node.js アプリケーション向けのデータベースツールキットです。このファイルに Prisma 独自のスキーマ言語でデータモデル、リレーション、データベース接続を記述すると、ツールがそれをもとに完全に型付けされたクライアントを生成します。クエリ結果の型は選択したフィールドとリレーションに正確に一致するため、手書きのマッピングコードが大幅に減り、多くのクエリの誤りをコンパイル時に検出できます。\n\n主な構成要素は、クエリ用の Prisma Client、スキーマの変更から SQL マイグレーションを生成・適用する Prisma Migrate、データを閲覧・編集できる Prisma Studio です。対応データベースは PostgreSQL、MySQL、MariaDB、SQLite、SQL Server、CockroachDB、MongoDB です。Next.js や NestJS などの TypeScript バックエンドで広く使われています。クエリビルダー系のライブラリよりも生の SQL から離れた抽象化のため、複雑な集計クエリでは生 SQL に頼る場面もあり、チームにとって覚えるべきスキーマ言語がひとつ増える点にも注意が必要です。",
+      "keywords": [
+        "orm",
+        "typescript",
+        "データベースマイグレーション",
+        "型安全",
+        "nodejs",
+        "postgresql"
+      ],
+      "rationale": "最も広く使われている TypeScript ORM のひとつで、カタログ初の ORM です。Node.js アプリでの型安全なデータベースアクセスを代表する欠かせないツールです。"
+    },
+    "zh-CN": {
+      "description": "一个围绕声明式模式文件构建的 Node.js 与 TypeScript 类型安全 ORM，提供自动生成的查询客户端、迁移工具和可视化数据浏览器，适合使用 PostgreSQL、MySQL、SQLite、SQL Server、MongoDB 等数据库的应用开发者。",
+      "longDescription": "Prisma ORM 是面向 TypeScript 和 Node.js 应用的数据库工具包，一切从一个模式文件开始。你在这个文件中用 Prisma 自有的模式语言描述数据模型、关联关系和数据库连接，工具据此生成完全类型化的客户端，查询结果的类型与所选字段和关联精确对应。这大大减少了手写映射代码，并能在编译期发现许多查询错误。\n\n它的主要组成部分是用于查询的 Prisma Client、根据模式变更生成并应用 SQL 迁移的 Prisma Migrate，以及用于浏览和编辑数据的 Prisma Studio。支持的数据库包括 PostgreSQL、MySQL、MariaDB、SQLite、SQL Server、CockroachDB 和 MongoDB。它在 Next.js、NestJS 等 TypeScript 后端中很流行。与查询构建器类的库相比，它的抽象离原生 SQL 更远，复杂的报表查询有时仍需回退到原生 SQL，而且团队还要多学一门模式语言。",
+      "keywords": [
+        "orm",
+        "typescript",
+        "数据库迁移",
+        "类型安全",
+        "nodejs",
+        "postgresql"
+      ],
+      "rationale": "使用最广泛的 TypeScript ORM 之一，也是目录中的首个 ORM；是 Node.js 应用中类型安全数据库访问的必备代表工具。"
+    },
+    "es": {
+      "description": "ORM con tipado seguro para Node.js y TypeScript construido en torno a un archivo de esquema declarativo, con cliente de consultas generado, migraciones y explorador visual de datos. Para quienes trabajan con PostgreSQL, MySQL, SQLite, SQL Server, MongoDB y bases similares.",
+      "longDescription": "Prisma ORM es un conjunto de herramientas de base de datos para aplicaciones TypeScript y Node.js que parte de un único archivo de esquema. En él describes los modelos de datos, las relaciones y la conexión con el lenguaje de esquema propio de Prisma, y las herramientas lo usan para generar un cliente totalmente tipado cuyos resultados coinciden exactamente con los campos y relaciones que seleccionas. Así se elimina buena parte del código de mapeo escrito a mano y muchos errores de consulta se detectan en tiempo de compilación.\n\nSus piezas principales son Prisma Client para las consultas, Prisma Migrate para generar y aplicar migraciones SQL a partir de los cambios de esquema y Prisma Studio para explorar y editar datos. Entre las bases de datos compatibles están PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, CockroachDB y MongoDB. Es popular en Next.js, NestJS y otros backends de TypeScript. Su abstracción está más alejada del SQL puro que las bibliotecas de tipo query builder, así que las consultas de informes complejas a veces requieren SQL directo, y el lenguaje de esquema es algo más que el equipo debe aprender.",
+      "keywords": [
+        "orm",
+        "typescript",
+        "migraciones de base de datos",
+        "seguridad de tipos",
+        "nodejs",
+        "postgresql"
+      ],
+      "rationale": "Uno de los ORM de TypeScript más usados y el primer ORM del catálogo; una herramienta representativa imprescindible para el acceso tipado a bases de datos en aplicaciones Node.js."
+    },
+    "de": {
+      "description": "Typsicheres ORM für Node.js und TypeScript rund um eine deklarative Schemadatei, mit generiertem Query-Client, Migrationen und einem visuellen Datenbrowser. Für Anwendungsentwickler, die mit PostgreSQL, MySQL, SQLite, SQL Server, MongoDB und ähnlichen Datenbanken arbeiten.",
+      "longDescription": "Prisma ORM ist ein Datenbank-Toolkit für TypeScript- und Node.js-Anwendungen, das von einer einzigen Schemadatei ausgeht. Darin beschreibt man Datenmodelle, Relationen und die Datenbankverbindung in Prismas eigener Schemasprache; daraus erzeugt das Tooling einen vollständig typisierten Client, dessen Abfrageergebnisse genau den ausgewählten Feldern und Relationen entsprechen. Das erspart viel handgeschriebenen Mapping-Code und deckt viele Abfragefehler schon beim Kompilieren auf.\n\nDie Hauptbestandteile sind Prisma Client für Abfragen, Prisma Migrate zum Erzeugen und Anwenden von SQL-Migrationen aus Schemaänderungen und Prisma Studio zum Durchsuchen und Bearbeiten von Daten. Unterstützt werden unter anderem PostgreSQL, MySQL, MariaDB, SQLite, SQL Server, CockroachDB und MongoDB. Beliebt ist es in Next.js, NestJS und anderen TypeScript-Backends. Die Abstraktion liegt weiter von reinem SQL entfernt als bei Query-Builder-Bibliotheken, sodass komplexe Reporting-Abfragen manchmal auf Raw SQL zurückgreifen, und die Schemasprache ist für das Team eine weitere Sache zum Lernen.",
+      "keywords": [
+        "orm",
+        "typescript",
+        "Datenbankmigrationen",
+        "Typsicherheit",
+        "nodejs",
+        "postgresql"
+      ],
+      "rationale": "Eines der meistgenutzten TypeScript-ORMs und das erste ORM im Katalog; ein unverzichtbares, repräsentatives Werkzeug für typsicheren Datenbankzugriff in Node.js-Apps."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2019-06-20",
+      "archived": false,
+      "openIssuesCount": 2736,
+      "stargazersCount": 47746,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the most widely used TypeScript ORMs and the first ORM in the catalog; an essential representative tool for typed database access in Node.js apps."
+    },
+    "flag": "ok"
+  }
+}

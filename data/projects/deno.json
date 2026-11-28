@@ -1,0 +1,118 @@
+{
+  "name": "Deno",
+  "slug": "deno",
+  "description": "Secure-by-default runtime for JavaScript, TypeScript and WebAssembly with a built-in formatter, linter, test runner and npm compatibility, aimed at developers who want a batteries-included alternative to Node.js.",
+  "repository": "https://github.com/denoland/deno",
+  "website": "https://deno.com",
+  "documentation": "https://docs.deno.com",
+  "categories": [
+    "developer-tools",
+    "backend"
+  ],
+  "keywords": [
+    "javascript runtime",
+    "typescript",
+    "secure by default",
+    "web standards",
+    "npm compatibility",
+    "node.js alternative"
+  ],
+  "longDescription": "Deno is a JavaScript and TypeScript runtime built on V8 and Rust, started by Ryan Dahl, the original creator of Node.js, to revisit design choices he came to regret. Programs get no file, network or environment access unless it is granted through explicit permission flags, and TypeScript runs out of the box without a separate build step. The runtime favors web-standard APIs such as fetch, Request and Web Streams over runtime-specific ones.\n\nThe deno binary bundles a formatter, linter, test runner, benchmarking tool and documentation generator, and can compile scripts into standalone executables. It imports packages from npm and from JSR, a TypeScript-first registry, and understands package.json, which makes adopting it in existing projects far more practical than in its early years. Typical uses include scripts and CLIs, web servers and edge functions. Some Node.js packages that depend on native addons or unusual APIs may still need workarounds.",
+  "languages": [
+    "Rust",
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "deno"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "기본적으로 안전하게 동작하는 JavaScript·TypeScript·WebAssembly 런타임으로, 포매터·린터·테스트 러너와 npm 호환성을 기본 제공합니다. 필요한 도구가 모두 갖춰진 Node.js 대안을 찾는 개발자에게 맞습니다.",
+      "longDescription": "Deno는 V8과 Rust로 만든 JavaScript·TypeScript 런타임으로, Node.js를 처음 만든 Ryan Dahl이 스스로 아쉬웠던 설계 결정을 다시 생각해 보려고 시작했습니다. 프로그램은 명시적인 권한 플래그로 허용하지 않는 한 파일, 네트워크, 환경 변수에 접근할 수 없고, TypeScript는 별도 빌드 단계 없이 바로 실행됩니다. 런타임 고유 API보다 fetch, Request, Web Streams 같은 웹 표준 API를 우선합니다.\n\ndeno 실행 파일 하나에 포매터, 린터, 테스트 러너, 벤치마크 도구, 문서 생성기가 들어 있으며, 스크립트를 독립 실행 파일로 컴파일할 수도 있습니다. npm과 TypeScript 중심 레지스트리인 JSR의 패키지를 가져올 수 있고 package.json도 이해하기 때문에, 초창기보다 기존 프로젝트에 도입하기가 훨씬 수월해졌습니다. 스크립트와 CLI, 웹 서버, 엣지 함수 등에 주로 쓰입니다. 네이티브 애드온이나 특이한 API에 의존하는 일부 Node.js 패키지는 여전히 우회 방법이 필요할 수 있습니다.",
+      "keywords": [
+        "JavaScript 런타임",
+        "TypeScript",
+        "기본 보안",
+        "웹 표준",
+        "npm 호환",
+        "Node.js 대안"
+      ],
+      "rationale": "기본 보안과 내장 도구를 갖춘 주요 JavaScript·TypeScript 런타임입니다. Node.js 대안이라는 점에서 Bun과 겹치지만 권한 모델과 웹 표준 중심이라는 점이 다릅니다."
+    },
+    "ja": {
+      "description": "デフォルトで安全な JavaScript/TypeScript/WebAssembly ランタイムで、フォーマッター、リンター、テストランナー、npm 互換性を標準で備えています。必要なものが揃った Node.js の代替を求める開発者向けです。",
+      "longDescription": "Deno は V8 と Rust で作られた JavaScript/TypeScript ランタイムで、Node.js の生みの親である Ryan Dahl が、自ら悔やんでいた設計判断を見直すために始めたプロジェクトです。プログラムは明示的な権限フラグで許可しない限り、ファイル、ネットワーク、環境変数にアクセスできません。TypeScript は別途ビルドせずにそのまま動きます。ランタイム独自の API よりも、fetch、Request、Web Streams といった Web 標準 API を重視しています。\n\ndeno バイナリにはフォーマッター、リンター、テストランナー、ベンチマークツール、ドキュメント生成ツールが含まれ、スクリプトを単体の実行ファイルにコンパイルすることもできます。npm と TypeScript ファーストのレジストリである JSR からパッケージを読み込めるうえ、package.json も理解するため、初期に比べて既存プロジェクトへの導入がずっと現実的になりました。主な用途はスクリプトや CLI、Web サーバー、エッジ関数などです。ネイティブアドオンや特殊な API に依存する一部の Node.js パッケージでは、今も回避策が必要になる場合があります。",
+      "keywords": [
+        "JavaScript ランタイム",
+        "TypeScript",
+        "デフォルトで安全",
+        "Web 標準",
+        "npm 互換",
+        "Node.js 代替"
+      ],
+      "rationale": "セキュアなデフォルトと組み込みツールを備えた主要な JavaScript/TypeScript ランタイムです。Node.js 代替として Bun と重なりますが、権限モデルと Web 標準重視の点で異なります。"
+    },
+    "zh-CN": {
+      "description": "默认安全的 JavaScript、TypeScript 和 WebAssembly 运行时，内置格式化工具、代码检查器、测试运行器并兼容 npm，适合想要开箱即用的 Node.js 替代方案的开发者。",
+      "longDescription": "Deno 是基于 V8 和 Rust 构建的 JavaScript 与 TypeScript 运行时，由 Node.js 的最初作者 Ryan Dahl 发起，目的是重新审视他后来感到遗憾的一些设计决定。除非通过明确的权限参数授权，程序无法访问文件、网络或环境变量；TypeScript 无需单独构建即可直接运行。它优先采用 fetch、Request、Web Streams 等 Web 标准 API，而非运行时专有接口。\n\ndeno 可执行文件内置格式化工具、代码检查器、测试运行器、基准测试工具和文档生成器，还能把脚本编译成独立的可执行文件。它可以从 npm 和以 TypeScript 为先的 JSR 注册表导入包，也能识别 package.json，因此在现有项目中采用它比早期要现实得多。常见用途包括脚本与命令行工具、Web 服务器和边缘函数。依赖原生插件或特殊 API 的部分 Node.js 包可能仍需变通处理。",
+      "keywords": [
+        "JavaScript 运行时",
+        "TypeScript",
+        "默认安全",
+        "Web 标准",
+        "npm 兼容",
+        "Node.js 替代"
+      ],
+      "rationale": "具备默认安全机制和内置工具链的主流 JavaScript/TypeScript 运行时；作为 Node.js 替代方案与 Bun 有重叠，但权限模型和对 Web 标准的侧重有所不同。"
+    },
+    "es": {
+      "description": "Runtime seguro por defecto para JavaScript, TypeScript y WebAssembly, con formateador, linter, ejecutor de pruebas y compatibilidad con npm integrados, pensado para quien quiere una alternativa a Node.js con todo incluido.",
+      "longDescription": "Deno es un runtime de JavaScript y TypeScript construido sobre V8 y Rust que inició Ryan Dahl, el creador original de Node.js, para replantear decisiones de diseño de las que acabó arrepintiéndose. Los programas no tienen acceso a archivos, red ni variables de entorno salvo que se conceda con permisos explícitos, y TypeScript funciona sin un paso de compilación aparte. Prefiere API estándar de la web como fetch, Request y Web Streams frente a interfaces propias del runtime.\n\nEl binario deno incluye formateador, linter, ejecutor de pruebas, herramienta de benchmarks y generador de documentación, y puede compilar scripts en ejecutables independientes. Importa paquetes de npm y de JSR, un registro orientado a TypeScript, y entiende package.json, lo que hace mucho más práctico adoptarlo en proyectos existentes que en sus primeros años. Se usa sobre todo para scripts y CLI, servidores web y funciones en el edge. Algunos paquetes de Node.js que dependen de complementos nativos o API poco habituales pueden requerir todavía soluciones alternativas.",
+      "keywords": [
+        "runtime de JavaScript",
+        "TypeScript",
+        "seguro por defecto",
+        "estándares web",
+        "compatibilidad con npm",
+        "alternativa a Node.js"
+      ],
+      "rationale": "Runtime destacado de JavaScript/TypeScript, seguro por defecto y con herramientas integradas; coincide con Bun como alternativa a Node.js, pero se distingue por su modelo de permisos y su apuesta por los estándares web."
+    },
+    "de": {
+      "description": "Standardmäßig sichere Runtime für JavaScript, TypeScript und WebAssembly mit eingebautem Formatter, Linter, Test-Runner und npm-Kompatibilität – für Entwickler, die eine Node.js-Alternative mit allem Nötigen an Bord suchen.",
+      "longDescription": "Deno ist eine JavaScript- und TypeScript-Runtime auf Basis von V8 und Rust, die Ryan Dahl, der ursprüngliche Schöpfer von Node.js, ins Leben rief, um Designentscheidungen zu überdenken, die er später bereute. Programme erhalten keinen Zugriff auf Dateien, Netzwerk oder Umgebungsvariablen, solange er nicht über explizite Berechtigungs-Flags gewährt wird, und TypeScript läuft ohne separaten Build-Schritt. Die Runtime bevorzugt Webstandard-APIs wie fetch, Request und Web Streams gegenüber eigenen Schnittstellen.\n\nDie deno-Binärdatei bringt Formatter, Linter, Test-Runner, Benchmark-Tool und Dokumentationsgenerator mit und kann Skripte zu eigenständigen Programmen kompilieren. Sie importiert Pakete aus npm und aus JSR, einer TypeScript-orientierten Registry, und versteht package.json – das macht den Einsatz in bestehenden Projekten deutlich praktikabler als in den Anfangsjahren. Typische Einsatzfelder sind Skripte und CLIs, Webserver und Edge-Funktionen. Manche Node.js-Pakete mit nativen Add-ons oder ungewöhnlichen APIs brauchen weiterhin Workarounds.",
+      "keywords": [
+        "JavaScript-Runtime",
+        "TypeScript",
+        "standardmäßig sicher",
+        "Webstandards",
+        "npm-Kompatibilität",
+        "Node.js-Alternative"
+      ],
+      "rationale": "Bedeutende, standardmäßig sichere JavaScript-/TypeScript-Runtime mit eingebauten Tools; überschneidet sich als Node.js-Alternative mit Bun, unterscheidet sich aber durch Berechtigungsmodell und Webstandard-Fokus."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2018-05-15",
+      "archived": false,
+      "openIssuesCount": 1766,
+      "stargazersCount": 108944,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Major secure-by-default JavaScript/TypeScript runtime with built-in tooling; overlaps with Bun as a Node.js alternative but differs in its permission model and web-standards focus."
+    },
+    "flag": "ok"
+  }
+}

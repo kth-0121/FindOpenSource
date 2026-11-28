@@ -1,0 +1,116 @@
+{
+  "name": "Node-RED",
+  "slug": "node-red",
+  "description": "Low-code, flow-based programming tool built on Node.js for wiring together devices, APIs and online services in a browser editor, popular for IoT, home automation and industrial integration work.",
+  "repository": "https://github.com/node-red/node-red",
+  "website": "https://nodered.org",
+  "documentation": "https://nodered.org/docs/",
+  "categories": [
+    "automation"
+  ],
+  "keywords": [
+    "flow-based programming",
+    "low-code",
+    "iot",
+    "mqtt",
+    "home automation",
+    "event-driven"
+  ],
+  "longDescription": "Node-RED is a visual programming environment where you build applications by connecting nodes on a canvas in the browser instead of writing everything by hand. Each node does one job, such as receiving an MQTT message, calling an HTTP endpoint, transforming a payload or writing to a database, and messages flow along the wires between them. It runs on Node.js, so it fits on anything from a Raspberry Pi or an edge gateway to a cloud server.\n\nFlows are stored as JSON, which makes them easy to export, share and keep in version control. Thousands of community-contributed nodes extend the palette with protocols, hardware and services, and a function node lets you drop into JavaScript when the built-in nodes are not enough. Typical uses include IoT data collection, home automation, quick integrations and dashboards for factory or sensor data. It is an event-driven runtime rather than a durable workflow engine, so large or long-running business processes can become hard to manage as flows grow.",
+  "languages": [
+    "JavaScript"
+  ],
+  "packages": {
+    "npm": [
+      "node-red"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Node.js 기반의 로우코드 플로우 프로그래밍 도구로, 브라우저 편집기에서 장치·API·온라인 서비스를 연결할 수 있습니다. IoT, 홈 자동화, 산업 현장 연동 작업에 널리 쓰입니다.",
+      "longDescription": "Node-RED는 모든 코드를 직접 작성하는 대신 브라우저 캔버스 위에서 노드를 연결해 애플리케이션을 만드는 시각적 프로그래밍 환경입니다. 각 노드는 MQTT 메시지 수신, HTTP 엔드포인트 호출, 페이로드 변환, 데이터베이스 기록처럼 한 가지 일을 맡고, 메시지는 노드 사이의 연결선을 따라 흘러갑니다. Node.js 위에서 동작하므로 Raspberry Pi나 엣지 게이트웨이부터 클라우드 서버까지 어디에나 올릴 수 있습니다.\n\n플로우는 JSON으로 저장되어 내보내기, 공유, 버전 관리가 쉽습니다. 커뮤니티가 만든 수천 개의 노드가 다양한 프로토콜, 하드웨어, 서비스를 팔레트에 더해 주며, 기본 노드로 부족할 때는 function 노드에서 JavaScript를 직접 작성할 수 있습니다. 주로 IoT 데이터 수집, 홈 자동화, 빠른 시스템 연동, 공장이나 센서 데이터용 대시보드에 쓰입니다. 다만 내구성 있는 워크플로 엔진이 아니라 이벤트 기반 런타임이기 때문에, 플로우가 커지면 규모가 크거나 오래 실행되는 업무 프로세스는 관리하기 어려워질 수 있습니다.",
+      "keywords": [
+        "플로우 기반 프로그래밍",
+        "로우코드",
+        "IoT",
+        "MQTT",
+        "홈 자동화",
+        "이벤트 기반"
+      ],
+      "rationale": "OpenJS Foundation 산하의 대표적인 플로우 기반 연동 도구입니다. IoT와 엣지 환경에 강점이 있어 카탈로그의 n8n 같은 업무 자동화 도구를 보완합니다."
+    },
+    "ja": {
+      "description": "Node.js 上で動くローコードのフローベースプログラミングツールです。ブラウザのエディタでデバイスや API、オンラインサービスをつなげられ、IoT やホームオートメーション、産業系の連携で広く使われています。",
+      "longDescription": "Node-RED は、すべてを手書きする代わりに、ブラウザ上のキャンバスでノードをつないでアプリケーションを組み立てるビジュアルプログラミング環境です。各ノードは MQTT メッセージの受信、HTTP エンドポイントの呼び出し、ペイロードの変換、データベースへの書き込みといった一つの役割を担い、メッセージはノード間のワイヤーを流れていきます。Node.js で動作するため、Raspberry Pi やエッジゲートウェイからクラウドサーバーまで幅広い環境に載せられます。\n\nフローは JSON として保存されるので、エクスポートや共有、バージョン管理が簡単です。コミュニティが提供する数千のノードがプロトコルやハードウェア、各種サービスへの対応をパレットに追加し、組み込みノードで足りない場面では function ノードで JavaScript を書けます。主な用途は IoT のデータ収集、ホームオートメーション、手早いシステム連携、工場やセンサーデータのダッシュボードなどです。一方で、永続的なワークフローエンジンではなくイベント駆動のランタイムなので、フローが大きくなると大規模で長時間動く業務プロセスは管理しにくくなることがあります。",
+      "keywords": [
+        "フローベースプログラミング",
+        "ローコード",
+        "IoT",
+        "MQTT",
+        "ホームオートメーション",
+        "イベント駆動"
+      ],
+      "rationale": "OpenJS Foundation がホストする定番のフローベース連携ツールです。IoT やエッジに強く、カタログ内の n8n のような業務自動化ツールを補完します。"
+    },
+    "zh-CN": {
+      "description": "基于 Node.js 的低代码、基于流程的编程工具，可在浏览器编辑器中把设备、API 和在线服务连接起来，广泛用于物联网、智能家居和工业集成场景。",
+      "longDescription": "Node-RED 是一个可视化编程环境：你在浏览器画布上把节点连接起来构建应用，而不必从头手写所有代码。每个节点只负责一件事，比如接收 MQTT 消息、调用 HTTP 端点、转换数据负载或写入数据库，消息沿着节点之间的连线流动。它运行在 Node.js 上，从树莓派、边缘网关到云服务器都能部署。\n\n流程以 JSON 形式保存，便于导出、分享和纳入版本控制。社区贡献的数千个节点为节点面板补充了各种协议、硬件和服务支持；内置节点不够用时，还可以在 function 节点里直接写 JavaScript。常见用途包括物联网数据采集、智能家居、快速系统集成，以及工厂或传感器数据的仪表盘。需要注意的是，它是事件驱动的运行时，而不是持久化的工作流引擎，流程规模变大后，复杂或长时间运行的业务流程可能会变得难以管理。",
+      "keywords": [
+        "基于流程的编程",
+        "低代码",
+        "物联网",
+        "MQTT",
+        "智能家居",
+        "事件驱动"
+      ],
+      "rationale": "由 OpenJS Foundation 托管的经典流程式集成工具，擅长物联网和边缘场景，与目录中 n8n 等业务自动化工具形成互补。"
+    },
+    "es": {
+      "description": "Herramienta low-code de programación basada en flujos, construida sobre Node.js, para conectar dispositivos, APIs y servicios en línea desde un editor en el navegador. Muy usada en IoT, domótica e integración industrial.",
+      "longDescription": "Node-RED es un entorno de programación visual en el que construyes aplicaciones conectando nodos sobre un lienzo en el navegador, en lugar de escribirlo todo a mano. Cada nodo hace una sola tarea, como recibir un mensaje MQTT, llamar a un endpoint HTTP, transformar un payload o escribir en una base de datos, y los mensajes circulan por los cables que los unen. Funciona sobre Node.js, así que cabe en cualquier sitio, desde una Raspberry Pi o una pasarela edge hasta un servidor en la nube.\n\nLos flujos se guardan como JSON, lo que facilita exportarlos, compartirlos y mantenerlos bajo control de versiones. Miles de nodos aportados por la comunidad amplían la paleta con protocolos, hardware y servicios, y un nodo function permite escribir JavaScript cuando los nodos incluidos no bastan. Se usa sobre todo para recoger datos de IoT, domótica, integraciones rápidas y paneles para datos de fábrica o sensores. Es un runtime orientado a eventos y no un motor de flujos de trabajo duradero, por lo que los procesos de negocio grandes o de larga duración pueden volverse difíciles de gestionar a medida que crecen los flujos.",
+      "keywords": [
+        "programación basada en flujos",
+        "low-code",
+        "IoT",
+        "MQTT",
+        "domótica",
+        "orientado a eventos"
+      ],
+      "rationale": "Herramienta de integración por flujos de referencia, alojada por la OpenJS Foundation; fuerte en IoT y edge, complementa a herramientas de automatización de negocio como n8n ya presentes en el catálogo."
+    },
+    "de": {
+      "description": "Low-Code-Werkzeug für flussbasierte Programmierung auf Basis von Node.js, mit dem sich Geräte, APIs und Online-Dienste in einem Browser-Editor verbinden lassen – beliebt für IoT, Hausautomation und industrielle Integration.",
+      "longDescription": "Node-RED ist eine visuelle Programmierumgebung, in der du Anwendungen baust, indem du Nodes auf einer Arbeitsfläche im Browser verbindest, statt alles von Hand zu schreiben. Jeder Node erledigt genau eine Aufgabe, etwa eine MQTT-Nachricht empfangen, einen HTTP-Endpunkt aufrufen, einen Payload umwandeln oder in eine Datenbank schreiben, und die Nachrichten fließen über die Verbindungen zwischen ihnen. Da es auf Node.js läuft, passt es auf alles vom Raspberry Pi oder Edge-Gateway bis zum Cloud-Server.\n\nFlows werden als JSON gespeichert und lassen sich dadurch leicht exportieren, teilen und versionieren. Tausende von der Community beigesteuerte Nodes erweitern die Palette um Protokolle, Hardware und Dienste, und ein Function-Node erlaubt eigenes JavaScript, wenn die eingebauten Nodes nicht reichen. Typische Einsätze sind IoT-Datenerfassung, Hausautomation, schnelle Integrationen und Dashboards für Fabrik- oder Sensordaten. Es ist eine ereignisgesteuerte Laufzeitumgebung und keine dauerhafte Workflow-Engine; große oder lang laufende Geschäftsprozesse werden mit wachsenden Flows daher schnell unübersichtlich.",
+      "keywords": [
+        "flussbasierte Programmierung",
+        "Low-Code",
+        "IoT",
+        "MQTT",
+        "Hausautomation",
+        "ereignisgesteuert"
+      ],
+      "rationale": "Das maßgebliche flussbasierte Integrationswerkzeug unter dem Dach der OpenJS Foundation; stark bei IoT und Edge und eine gute Ergänzung zu Business-Automatisierung wie n8n im Katalog."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-24",
+      "repoCreatedAt": "2013-09-05",
+      "archived": false,
+      "openIssuesCount": 360,
+      "stargazersCount": 23894,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "score": 94,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The reference flow-based integration tool, hosted by the OpenJS Foundation; strong in IoT and edge settings, complementing business automation tools like n8n already in the catalog."
+    },
+    "flag": "ok"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Whisper",
+  "slug": "whisper",
+  "description": "OpenAI's open-source speech recognition model and Python package for transcribing audio, translating speech into English and identifying the spoken language. Useful for developers and researchers who need offline, multilingual transcription.",
+  "repository": "https://github.com/openai/whisper",
+  "categories": [
+    "ai",
+    "media"
+  ],
+  "keywords": [
+    "speech recognition",
+    "transcription",
+    "speech to text",
+    "asr",
+    "multilingual",
+    "subtitles"
+  ],
+  "longDescription": "Whisper is a general-purpose speech recognition model trained on a large and diverse set of audio, released together with the Python code needed to run it. A single sequence-to-sequence model handles multilingual transcription, translation of speech into English and spoken-language identification, so one tool can process recordings in many languages without a separate pipeline for each.\n\nThe package provides a command-line tool and a Python API and ships several model sizes that trade accuracy against speed and memory, from small models that run on modest hardware to large ones that benefit from a GPU. It relies on ffmpeg to decode audio. Common uses include subtitling videos, transcribing meetings, interviews and podcasts, and adding voice input to applications. The reference implementation is not the fastest way to run the models, so many projects use community ports for faster or real-time inference, and the repository itself changes infrequently.",
+  "languages": [
+    "Python"
+  ],
+  "packages": {
+    "pypi": [
+      "openai-whisper"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "오디오를 받아 적고, 음성을 영어로 번역하고, 말하는 언어를 식별하는 OpenAI의 오픈소스 음성 인식 모델이자 Python 패키지입니다. 오프라인에서 다국어 전사가 필요한 개발자와 연구자에게 유용합니다.",
+      "longDescription": "Whisper는 크고 다양한 오디오 데이터로 학습한 범용 음성 인식 모델로, 실행에 필요한 Python 코드와 함께 공개되었습니다. 하나의 시퀀스-투-시퀀스 모델이 다국어 전사, 음성의 영어 번역, 음성 언어 식별을 모두 처리하므로 언어마다 따로 파이프라인을 두지 않고도 여러 언어의 녹음을 한 도구로 다룰 수 있습니다.\n\n패키지는 명령줄 도구와 Python API를 제공하며, 정확도와 속도·메모리 사이의 균형이 다른 여러 크기의 모델이 들어 있습니다. 작은 모델은 평범한 하드웨어에서도 돌아가고, 큰 모델은 GPU가 있을 때 제 성능을 냅니다. 오디오 디코딩에는 ffmpeg가 필요합니다. 동영상 자막 제작, 회의·인터뷰·팟캐스트 전사, 애플리케이션 음성 입력 추가 등에 흔히 쓰입니다. 참조 구현은 가장 빠른 실행 방법이 아니어서 더 빠르거나 실시간인 추론을 위해 커뮤니티 포트를 쓰는 프로젝트가 많고, 저장소 자체는 자주 변경되지 않습니다.",
+      "keywords": [
+        "음성 인식",
+        "전사",
+        "음성-텍스트 변환",
+        "ASR",
+        "다국어",
+        "자막"
+      ],
+      "rationale": "가장 잘 알려진 오픈 음성-텍스트 변환 모델이자 카탈로그의 유일한 음성 인식 항목으로, 업스트림 개발 속도는 느리지만 좋은 선택입니다."
+    },
+    "ja": {
+      "description": "音声の文字起こし、音声から英語への翻訳、話されている言語の識別を行う、OpenAI のオープンソース音声認識モデルと Python パッケージです。オフラインで多言語の文字起こしが必要な開発者や研究者に役立ちます。",
+      "longDescription": "Whisper は、大規模で多様な音声データで学習された汎用の音声認識モデルで、実行に必要な Python コードとともに公開されています。1 つの系列変換モデルが多言語の文字起こし、音声の英語への翻訳、話された言語の識別をまとめて担うため、言語ごとに別のパイプラインを用意しなくても、さまざまな言語の録音を 1 つのツールで処理できます。\n\nパッケージにはコマンドラインツールと Python API があり、精度と速度・メモリのバランスが異なる複数のモデルサイズが用意されています。小さなモデルは一般的なハードウェアでも動き、大きなモデルは GPU があると本領を発揮します。音声のデコードには ffmpeg が必要です。動画の字幕作成、会議やインタビュー、ポッドキャストの文字起こし、アプリへの音声入力の追加などによく使われます。リファレンス実装は最速の実行方法ではないため、より高速な推論やリアルタイム処理にはコミュニティによる移植版を使うプロジェクトが多く、リポジトリ自体の更新頻度は高くありません。",
+      "keywords": [
+        "音声認識",
+        "文字起こし",
+        "音声テキスト変換",
+        "ASR",
+        "多言語",
+        "字幕"
+      ],
+      "rationale": "最もよく知られたオープンな音声認識モデルで、カタログ唯一の音声認識プロジェクトです。上流の開発は緩やかですが、有力な選択肢です。"
+    },
+    "zh-CN": {
+      "description": "OpenAI 开源的语音识别模型及 Python 包，可转写音频、将语音翻译成英文并识别所说的语言，适合需要离线多语言转写的开发者和研究人员。",
+      "longDescription": "Whisper 是一个在大规模、多样化音频数据上训练的通用语音识别模型，并与运行它所需的 Python 代码一同发布。同一个序列到序列模型就能完成多语言转写、将语音翻译成英文以及识别口语语种，因此无需为每种语言单独搭建流程，一个工具即可处理多种语言的录音。\n\n该软件包提供命令行工具和 Python API，并附带多种尺寸的模型，在准确率与速度、内存占用之间各有取舍：小模型在普通硬件上即可运行，大模型则更适合配合 GPU 使用。音频解码依赖 ffmpeg。常见用途包括为视频生成字幕、转写会议、访谈和播客，以及为应用添加语音输入。官方参考实现并不是运行这些模型最快的方式，因此许多项目会使用社区移植版本来获得更快或实时的推理；仓库本身的更新也不频繁。",
+      "keywords": [
+        "语音识别",
+        "转写",
+        "语音转文字",
+        "ASR",
+        "多语言",
+        "字幕"
+      ],
+      "rationale": "最知名的开源语音转文字模型，也是目录中唯一的语音识别项目；尽管上游开发节奏较慢，仍是很有价值的选择。"
+    },
+    "es": {
+      "description": "Modelo de reconocimiento de voz de código abierto de OpenAI y paquete de Python para transcribir audio, traducir voz al inglés e identificar el idioma hablado. Útil para desarrolladores e investigadores que necesitan transcripción multilingüe sin conexión.",
+      "longDescription": "Whisper es un modelo de reconocimiento de voz de propósito general entrenado con un conjunto de audio amplio y variado, publicado junto con el código de Python necesario para ejecutarlo. Un único modelo secuencia a secuencia se encarga de la transcripción multilingüe, la traducción de voz al inglés y la identificación del idioma hablado, de modo que una sola herramienta procesa grabaciones en muchos idiomas sin un pipeline distinto para cada uno.\n\nEl paquete incluye una herramienta de línea de comandos y una API de Python, y trae varios tamaños de modelo que equilibran precisión frente a velocidad y memoria: los pequeños funcionan en hardware modesto y los grandes se benefician de una GPU. Necesita ffmpeg para decodificar el audio. Se usa a menudo para subtitular vídeos, transcribir reuniones, entrevistas y pódcasts y añadir entrada por voz a aplicaciones. La implementación de referencia no es la forma más rápida de ejecutar los modelos, por lo que muchos proyectos recurren a versiones de la comunidad para una inferencia más rápida o en tiempo real, y el repositorio cambia con poca frecuencia.",
+      "keywords": [
+        "reconocimiento de voz",
+        "transcripción",
+        "voz a texto",
+        "ASR",
+        "multilingüe",
+        "subtítulos"
+      ],
+      "rationale": "El modelo abierto de voz a texto más conocido y la única entrada de reconocimiento de voz del catálogo; una buena opción pese al lento desarrollo upstream."
+    },
+    "de": {
+      "description": "Open-Source-Spracherkennungsmodell und Python-Paket von OpenAI, das Audio transkribiert, Sprache ins Englische übersetzt und die gesprochene Sprache erkennt. Nützlich für Entwickler und Forschende, die mehrsprachige Transkription offline brauchen.",
+      "longDescription": "Whisper ist ein universelles Spracherkennungsmodell, das auf einem großen und vielfältigen Audiodatensatz trainiert und zusammen mit dem nötigen Python-Code veröffentlicht wurde. Ein einziges Sequence-to-Sequence-Modell übernimmt mehrsprachige Transkription, Übersetzung gesprochener Sprache ins Englische und Spracherkennung, sodass ein Werkzeug Aufnahmen in vielen Sprachen verarbeiten kann, ohne für jede eine eigene Pipeline zu brauchen.\n\nDas Paket bietet ein Kommandozeilenwerkzeug und eine Python-API und liefert mehrere Modellgrößen, die Genauigkeit gegen Geschwindigkeit und Speicherbedarf abwägen: Kleine Modelle laufen auf bescheidener Hardware, große profitieren von einer GPU. Zum Dekodieren von Audio wird ffmpeg benötigt. Typische Einsätze sind Untertitel für Videos, die Transkription von Meetings, Interviews und Podcasts sowie Spracheingabe in Anwendungen. Die Referenzimplementierung ist nicht der schnellste Weg, die Modelle auszuführen, daher setzen viele Projekte für schnellere oder Echtzeit-Inferenz auf Community-Portierungen; das Repository selbst ändert sich nur selten.",
+      "keywords": [
+        "Spracherkennung",
+        "Transkription",
+        "Sprache zu Text",
+        "ASR",
+        "mehrsprachig",
+        "Untertitel"
+      ],
+      "rationale": "Das bekannteste offene Speech-to-Text-Modell und der einzige Spracherkennungseintrag im Katalog; trotz langsamer Upstream-Entwicklung eine starke Wahl."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-08-31",
+      "repoCreatedAt": "2022-09-16",
+      "archived": false,
+      "openIssuesCount": 189,
+      "stargazersCount": 113598,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 73,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The best-known open speech-to-text model and the catalog's only speech recognition entry; a strong pick despite slow upstream development."
+    },
+    "flag": "ok"
+  }
+}

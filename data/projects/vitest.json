@@ -1,0 +1,116 @@
+{
+  "name": "Vitest",
+  "slug": "vitest",
+  "description": "Fast unit and component testing framework powered by Vite, offering a Jest-compatible API, native ES module and TypeScript support, and an optional browser mode for JavaScript and TypeScript projects.",
+  "repository": "https://github.com/vitest-dev/vitest",
+  "website": "https://vitest.dev",
+  "documentation": "https://vitest.dev/guide/",
+  "categories": [
+    "testing"
+  ],
+  "keywords": [
+    "unit testing",
+    "test runner",
+    "jest compatible",
+    "vite",
+    "typescript",
+    "component testing"
+  ],
+  "longDescription": "Vitest is a test framework that reuses Vite's transformation pipeline, so tests understand the same configuration, plugins, path aliases and TypeScript or JSX syntax as the application without a separate compile setup. Because it is built around native ES modules, it avoids much of the transform configuration older runners need for modern code, and its watch mode reruns only the tests affected by a change.\n\nThe API intentionally mirrors Jest, with describe, it, expect, mocks, spies and snapshot testing, which makes migrating existing suites largely mechanical. It also offers code coverage through V8 or Istanbul, type testing, in-source tests and a browser mode that runs component tests in real browsers via Playwright or WebdriverIO. It works in projects that do not otherwise use Vite, though it is most seamless when the app already builds with Vite. It focuses on unit and component tests; full end-to-end flows are still better served by a browser automation tool.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "vitest"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Vite 기반의 빠른 단위·컴포넌트 테스트 프레임워크로, Jest 호환 API, 네이티브 ES 모듈과 TypeScript 지원, 선택형 브라우저 모드를 JavaScript·TypeScript 프로젝트에 제공합니다.",
+      "longDescription": "Vitest는 Vite의 변환 파이프라인을 그대로 재사용하는 테스트 프레임워크입니다. 그래서 테스트도 애플리케이션과 같은 설정, 플러그인, 경로 별칭, TypeScript·JSX 문법을 별도 컴파일 설정 없이 이해합니다. 네이티브 ES 모듈을 중심으로 만들어져 예전 테스트 러너가 최신 코드를 다루려면 필요했던 변환 설정을 상당 부분 생략할 수 있고, 워치 모드에서는 변경의 영향을 받는 테스트만 다시 실행합니다.\n\nAPI는 의도적으로 Jest를 따라 describe, it, expect, 목(mock), 스파이, 스냅샷 테스트를 제공하므로 기존 테스트 스위트를 옮기는 작업이 대체로 기계적입니다. 그 밖에도 V8 또는 Istanbul 기반 코드 커버리지, 타입 테스트, 소스 내 테스트, 그리고 Playwright나 WebdriverIO로 실제 브라우저에서 컴포넌트 테스트를 돌리는 브라우저 모드를 지원합니다. Vite를 쓰지 않는 프로젝트에서도 동작하지만, 이미 Vite로 빌드하는 앱에서 가장 매끄럽습니다. 단위·컴포넌트 테스트에 초점을 두므로, 전체 E2E 흐름은 여전히 브라우저 자동화 도구가 더 적합합니다.",
+      "keywords": [
+        "단위 테스트",
+        "테스트 러너",
+        "Jest 호환",
+        "Vite",
+        "TypeScript",
+        "컴포넌트 테스트"
+      ],
+      "rationale": "Jest 호환 API를 갖춘 Vite 네이티브 단위 테스트 러너의 선두 주자로, 카탈로그의 E2E 중심 테스트 도구들을 보완합니다."
+    },
+    "ja": {
+      "description": "Vite を基盤にした高速なユニット・コンポーネントテストフレームワークです。Jest 互換の API、ネイティブ ES モジュールと TypeScript のサポート、任意で使えるブラウザモードを JavaScript/TypeScript プロジェクトに提供します。",
+      "longDescription": "Vitest は Vite の変換パイプラインをそのまま利用するテストフレームワークです。そのためテストも、アプリケーションと同じ設定、プラグイン、パスエイリアス、TypeScript や JSX の構文を、別途コンパイル設定を用意せずに理解できます。ネイティブ ES モジュールを前提に作られているので、古いテストランナーが最新のコードを扱うために必要としていた変換設定の多くが不要で、ウォッチモードでは変更の影響を受けるテストだけを再実行します。\n\nAPI は意図的に Jest に合わせており、describe、it、expect、モック、スパイ、スナップショットテストを備えているため、既存のテストスイートの移行はおおむね機械的に進められます。ほかにも V8 または Istanbul によるカバレッジ計測、型テスト、ソース内テスト、Playwright や WebdriverIO を使って実ブラウザでコンポーネントテストを走らせるブラウザモードがあります。Vite を使っていないプロジェクトでも動きますが、すでに Vite でビルドしているアプリで最もスムーズです。対象はユニットテストとコンポーネントテストで、本格的な E2E フローには引き続きブラウザ自動化ツールのほうが向いています。",
+      "keywords": [
+        "ユニットテスト",
+        "テストランナー",
+        "Jest 互換",
+        "Vite",
+        "TypeScript",
+        "コンポーネントテスト"
+      ],
+      "rationale": "Jest 互換 API を備えた Vite ネイティブのユニットテストランナーの代表格で、カタログにある E2E 中心のテストツールを補完します。"
+    },
+    "zh-CN": {
+      "description": "由 Vite 驱动的快速单元与组件测试框架，为 JavaScript 和 TypeScript 项目提供兼容 Jest 的 API、原生 ES 模块与 TypeScript 支持，以及可选的浏览器模式。",
+      "longDescription": "Vitest 是一个复用 Vite 转换管线的测试框架，因此测试无需单独的编译配置，就能理解与应用相同的配置、插件、路径别名以及 TypeScript 或 JSX 语法。由于它围绕原生 ES 模块构建，旧式测试运行器处理现代代码时所需的大量转换配置都可以省掉，监听模式下也只会重新运行受改动影响的测试。\n\n它的 API 有意与 Jest 保持一致，提供 describe、it、expect、mock、spy 和快照测试，因此迁移现有测试套件基本是机械性的工作。此外还支持基于 V8 或 Istanbul 的代码覆盖率、类型测试、源码内测试，以及通过 Playwright 或 WebdriverIO 在真实浏览器中运行组件测试的浏览器模式。不使用 Vite 的项目也能用它，但在本身就用 Vite 构建的应用中体验最顺畅。它专注于单元和组件测试，完整的端到端流程仍然更适合交给浏览器自动化工具。",
+      "keywords": [
+        "单元测试",
+        "测试运行器",
+        "兼容 Jest",
+        "Vite",
+        "TypeScript",
+        "组件测试"
+      ],
+      "rationale": "领先的 Vite 原生单元测试运行器，API 兼容 Jest；可与目录中以端到端为主的测试工具形成互补。"
+    },
+    "es": {
+      "description": "Framework rápido de pruebas unitarias y de componentes impulsado por Vite, con una API compatible con Jest, soporte nativo de módulos ES y TypeScript, y un modo navegador opcional para proyectos JavaScript y TypeScript.",
+      "longDescription": "Vitest es un framework de pruebas que reutiliza el pipeline de transformación de Vite, de modo que las pruebas entienden la misma configuración, plugins, alias de rutas y sintaxis TypeScript o JSX que la aplicación, sin una configuración de compilación aparte. Al estar construido en torno a módulos ES nativos, se ahorra gran parte de la configuración de transformación que los ejecutores más antiguos necesitan para el código moderno, y su modo watch vuelve a ejecutar solo las pruebas afectadas por un cambio.\n\nLa API imita a propósito la de Jest, con describe, it, expect, mocks, spies y pruebas de snapshot, lo que hace que migrar suites existentes sea en gran parte mecánico. También ofrece cobertura de código con V8 o Istanbul, pruebas de tipos, pruebas dentro del código fuente y un modo navegador que ejecuta pruebas de componentes en navegadores reales mediante Playwright o WebdriverIO. Funciona en proyectos que no usan Vite, aunque resulta más fluido cuando la aplicación ya se compila con Vite. Se centra en pruebas unitarias y de componentes; los flujos end-to-end completos siguen encajando mejor en una herramienta de automatización de navegadores.",
+      "keywords": [
+        "pruebas unitarias",
+        "ejecutor de pruebas",
+        "compatible con Jest",
+        "Vite",
+        "TypeScript",
+        "pruebas de componentes"
+      ],
+      "rationale": "El principal ejecutor de pruebas unitarias nativo de Vite, con API compatible con Jest; complementa las herramientas de pruebas E2E del catálogo."
+    },
+    "de": {
+      "description": "Schnelles Framework für Unit- und Komponententests auf Basis von Vite, mit Jest-kompatibler API, nativer Unterstützung für ES-Module und TypeScript sowie optionalem Browser-Modus für JavaScript- und TypeScript-Projekte.",
+      "longDescription": "Vitest ist ein Test-Framework, das die Transformations-Pipeline von Vite wiederverwendet. Tests verstehen dadurch dieselbe Konfiguration, dieselben Plugins, Pfad-Aliase und dieselbe TypeScript- oder JSX-Syntax wie die Anwendung, ohne eigenes Compile-Setup. Weil es um native ES-Module herum gebaut ist, entfällt ein Großteil der Transformationskonfiguration, die ältere Runner für modernen Code brauchen, und der Watch-Modus führt nur die von einer Änderung betroffenen Tests erneut aus.\n\nDie API orientiert sich bewusst an Jest – mit describe, it, expect, Mocks, Spies und Snapshot-Tests –, sodass sich bestehende Suites weitgehend mechanisch migrieren lassen. Dazu kommen Code-Coverage über V8 oder Istanbul, Typtests, In-Source-Tests und ein Browser-Modus, der Komponententests über Playwright oder WebdriverIO in echten Browsern ausführt. Vitest funktioniert auch in Projekten ohne Vite, am reibungslosesten aber, wenn die App ohnehin mit Vite gebaut wird. Der Fokus liegt auf Unit- und Komponententests; vollständige End-to-End-Abläufe sind bei einem Browser-Automatisierungstool weiterhin besser aufgehoben.",
+      "keywords": [
+        "Unit-Tests",
+        "Test-Runner",
+        "Jest-kompatibel",
+        "Vite",
+        "TypeScript",
+        "Komponententests"
+      ],
+      "rationale": "Führender Vite-nativer Unit-Test-Runner mit Jest-kompatibler API; ergänzt die E2E-orientierten Testtools im Katalog."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2021-12-03",
+      "archived": false,
+      "openIssuesCount": 408,
+      "stargazersCount": 17498,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 88,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Leading Vite-native unit test runner with a Jest-compatible API; complements the E2E-focused testing tools in the catalog."
+    },
+    "flag": "ok"
+  }
+}

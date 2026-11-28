@@ -1,0 +1,116 @@
+{
+  "name": "uv",
+  "slug": "uv",
+  "description": "Extremely fast Python package and project manager written in Rust that covers what pip, pip-tools, pipx, virtualenv and pyenv usually do, for Python developers who want reproducible environments from a single tool.",
+  "repository": "https://github.com/astral-sh/uv",
+  "website": "https://docs.astral.sh/uv",
+  "documentation": "https://docs.astral.sh/uv/getting-started/",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "python",
+    "package manager",
+    "virtual environments",
+    "lockfile",
+    "dependency resolution",
+    "pip alternative"
+  ],
+  "longDescription": "uv is a Python packaging tool from Astral that brings dependency resolution, package installation, virtual environments and Python version management under one command-line program. Because it is implemented in Rust with aggressive caching, installs and resolutions are typically far faster than with pip, which makes a noticeable difference in CI and in large projects. It can be installed without an existing Python and runs on macOS, Linux and Windows.\n\nFor projects, uv manages pyproject.toml dependencies with a cross-platform lockfile and supports workspaces for multi-package repositories. It can download and switch between Python versions, run one-off scripts that declare their dependencies inline, and install command-line tools into isolated environments much like pipx. A pip-compatible interface (uv pip) eases migration of existing workflows. Some edge cases of pip behavior differ, and teams on Poetry or similar tools have to move their configuration to adopt uv's project model fully.",
+  "languages": [
+    "Rust"
+  ],
+  "packages": {
+    "pypi": [
+      "uv"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Rust로 작성된 매우 빠른 Python 패키지·프로젝트 관리자로, 보통 pip, pip-tools, pipx, virtualenv, pyenv가 나눠 맡던 일을 한 도구로 처리합니다. 재현 가능한 환경을 도구 하나로 관리하고 싶은 Python 개발자에게 맞습니다.",
+      "longDescription": "uv는 Astral이 만든 Python 패키징 도구로, 의존성 해석, 패키지 설치, 가상 환경, Python 버전 관리를 하나의 커맨드라인 프로그램으로 묶었습니다. Rust로 구현되고 캐시를 적극적으로 활용하기 때문에 설치와 의존성 해석이 보통 pip보다 훨씬 빠르며, 특히 CI와 대규모 프로젝트에서 차이가 크게 느껴집니다. 기존 Python 없이도 설치할 수 있고 macOS, Linux, Windows에서 동작합니다.\n\n프로젝트에서는 pyproject.toml 의존성을 크로스 플랫폼 잠금 파일로 관리하고, 여러 패키지로 이뤄진 저장소를 위한 워크스페이스를 지원합니다. Python 버전을 내려받아 전환하고, 의존성을 스크립트 안에 선언한 단발성 스크립트를 실행하고, pipx처럼 커맨드라인 도구를 격리된 환경에 설치할 수도 있습니다. pip 호환 인터페이스(uv pip) 덕분에 기존 워크플로를 옮기기도 쉽습니다. 다만 pip와 동작이 다른 예외적인 경우가 있고, Poetry 같은 도구를 쓰던 팀이 uv의 프로젝트 모델을 온전히 도입하려면 설정을 옮겨야 합니다.",
+      "keywords": [
+        "Python",
+        "패키지 매니저",
+        "가상 환경",
+        "잠금 파일",
+        "의존성 해석",
+        "pip 대안"
+      ],
+      "rationale": "빠르게 사실상의 표준이 된 고속 Python 패키지·프로젝트 관리자입니다. 카탈로그에 다른 Python 패키징 도구가 없어 대표 항목으로서 가치가 큽니다."
+    },
+    "ja": {
+      "description": "Rust で書かれた非常に高速な Python のパッケージ・プロジェクト管理ツールで、pip、pip-tools、pipx、virtualenv、pyenv が担ってきた役割を 1 つでカバーします。再現性のある環境を単一ツールで扱いたい Python 開発者向けです。",
+      "longDescription": "uv は Astral が開発した Python のパッケージングツールで、依存関係の解決、パッケージのインストール、仮想環境、Python のバージョン管理を 1 つのコマンドラインプログラムにまとめています。Rust で実装され、キャッシュを積極的に活用するため、インストールや依存関係の解決は通常 pip よりはるかに速く、CI や大規模プロジェクトでは違いがはっきり表れます。既存の Python がなくてもインストールでき、macOS、Linux、Windows で動作します。\n\nプロジェクトでは pyproject.toml の依存関係をクロスプラットフォームのロックファイルで管理し、複数パッケージからなるリポジトリ向けのワークスペースにも対応します。Python のバージョンをダウンロードして切り替えたり、依存関係をスクリプト内に記述した単発のスクリプトを実行したり、pipx のようにコマンドラインツールを隔離環境にインストールしたりできます。pip 互換のインターフェース（uv pip）があるため、既存のワークフローからの移行も容易です。ただし pip と挙動が異なる細かなケースもあり、Poetry などを使っているチームが uv のプロジェクトモデルを全面的に採用するには設定の移行が必要です。",
+      "keywords": [
+        "Python",
+        "パッケージマネージャー",
+        "仮想環境",
+        "ロックファイル",
+        "依存関係解決",
+        "pip 代替"
+      ],
+      "rationale": "あっという間に事実上の標準となった高速な Python パッケージ・プロジェクト管理ツールです。カタログには他の Python パッケージングツールがなく、代表的な項目になります。"
+    },
+    "zh-CN": {
+      "description": "用 Rust 编写、速度极快的 Python 包与项目管理器，一个工具即可覆盖 pip、pip-tools、pipx、virtualenv 和 pyenv 通常承担的工作，适合希望用单一工具获得可复现环境的 Python 开发者。",
+      "longDescription": "uv 是 Astral 推出的 Python 打包工具，把依赖解析、包安装、虚拟环境和 Python 版本管理整合进同一个命令行程序。由于它用 Rust 实现并大量使用缓存，安装和依赖解析通常比 pip 快得多，在 CI 和大型项目中差异尤为明显。它无需预先安装 Python 即可安装，支持 macOS、Linux 和 Windows。\n\n在项目层面，uv 通过跨平台锁文件管理 pyproject.toml 中的依赖，并为多包仓库提供工作区支持。它可以下载并切换 Python 版本，运行在文件内声明依赖的一次性脚本，也能像 pipx 那样把命令行工具安装到隔离环境中。兼容 pip 的接口（uv pip）让现有工作流更容易迁移。不过在一些边缘情况下它的行为与 pip 不同，使用 Poetry 等工具的团队若要完全采用 uv 的项目模型，需要迁移配置。",
+      "keywords": [
+        "Python",
+        "包管理器",
+        "虚拟环境",
+        "锁文件",
+        "依赖解析",
+        "pip 替代"
+      ],
+      "rationale": "迅速成为事实标准的高速 Python 包与项目管理器；目录中尚无其他 Python 打包工具，因此是一个具有代表性的条目。"
+    },
+    "es": {
+      "description": "Gestor de paquetes y proyectos de Python extremadamente rápido, escrito en Rust, que cubre lo que suelen hacer pip, pip-tools, pipx, virtualenv y pyenv, para desarrolladores de Python que quieren entornos reproducibles con una sola herramienta.",
+      "longDescription": "uv es una herramienta de empaquetado de Python creada por Astral que reúne la resolución de dependencias, la instalación de paquetes, los entornos virtuales y la gestión de versiones de Python en un único programa de línea de comandos. Al estar implementado en Rust y apoyarse mucho en la caché, las instalaciones y resoluciones suelen ser muchísimo más rápidas que con pip, algo que se nota especialmente en CI y en proyectos grandes. Se puede instalar sin tener Python previamente y funciona en macOS, Linux y Windows.\n\nEn proyectos, uv gestiona las dependencias de pyproject.toml con un lockfile multiplataforma y admite workspaces para repositorios con varios paquetes. Puede descargar versiones de Python y cambiar entre ellas, ejecutar scripts puntuales que declaran sus dependencias en línea e instalar herramientas de línea de comandos en entornos aislados, al estilo de pipx. Una interfaz compatible con pip (uv pip) facilita migrar flujos de trabajo existentes. En algunos casos límite su comportamiento difiere del de pip, y los equipos que usan Poetry u otras herramientas similares deben trasladar su configuración para adoptar por completo el modelo de proyectos de uv.",
+      "keywords": [
+        "Python",
+        "gestor de paquetes",
+        "entornos virtuales",
+        "lockfile",
+        "resolución de dependencias",
+        "alternativa a pip"
+      ],
+      "rationale": "Se ha convertido rápidamente en el gestor estándar y veloz de paquetes y proyectos de Python; el catálogo no tiene otra herramienta de empaquetado de Python, así que es una entrada representativa."
+    },
+    "de": {
+      "description": "Extrem schneller Paket- und Projektmanager für Python, geschrieben in Rust, der abdeckt, wofür sonst pip, pip-tools, pipx, virtualenv und pyenv nötig sind – für Python-Entwickler, die reproduzierbare Umgebungen mit einem einzigen Tool wollen.",
+      "longDescription": "uv ist ein Python-Packaging-Tool von Astral, das Abhängigkeitsauflösung, Paketinstallation, virtuelle Umgebungen und die Verwaltung von Python-Versionen in einem Kommandozeilenprogramm bündelt. Da es in Rust implementiert ist und konsequent auf Caching setzt, laufen Installationen und Auflösungen meist um ein Vielfaches schneller als mit pip – besonders spürbar in CI und großen Projekten. Es lässt sich ohne vorhandenes Python installieren und läuft unter macOS, Linux und Windows.\n\nIn Projekten verwaltet uv die Abhängigkeiten aus pyproject.toml mit einer plattformübergreifenden Lockfile und unterstützt Workspaces für Repositorys mit mehreren Paketen. Es kann Python-Versionen herunterladen und zwischen ihnen wechseln, Einmal-Skripte mit inline deklarierten Abhängigkeiten ausführen und Kommandozeilen-Tools ähnlich wie pipx in isolierten Umgebungen installieren. Eine pip-kompatible Schnittstelle (uv pip) erleichtert die Migration bestehender Workflows. In einigen Randfällen verhält es sich anders als pip, und Teams, die Poetry oder ähnliche Tools nutzen, müssen ihre Konfiguration umziehen, um das Projektmodell von uv voll zu übernehmen.",
+      "keywords": [
+        "Python",
+        "Paketmanager",
+        "virtuelle Umgebungen",
+        "Lockfile",
+        "Abhängigkeitsauflösung",
+        "pip-Alternative"
+      ],
+      "rationale": "Hat sich rasch zum Standard für schnelles Python-Paket- und Projektmanagement entwickelt; im Katalog gibt es kein anderes Python-Packaging-Tool, daher ein repräsentativer Eintrag."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-26",
+      "repoCreatedAt": "2023-10-02",
+      "archived": false,
+      "openIssuesCount": 3104,
+      "stargazersCount": 92673,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 94,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "Has quickly become the standard fast Python package and project manager; the catalog has no other Python packaging tool, making it a representative entry."
+    },
+    "flag": "ok"
+  }
+}

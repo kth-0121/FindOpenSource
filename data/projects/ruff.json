@@ -1,0 +1,116 @@
+{
+  "name": "Ruff",
+  "slug": "ruff",
+  "description": "Extremely fast Python linter and code formatter written in Rust that can replace Flake8, isort, Black and many plugins with one tool, for Python teams that want quick feedback in editors and CI even on large codebases.",
+  "repository": "https://github.com/astral-sh/ruff",
+  "website": "https://docs.astral.sh/ruff",
+  "documentation": "https://docs.astral.sh/ruff/tutorial/",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "python",
+    "linter",
+    "formatter",
+    "static analysis",
+    "code quality",
+    "flake8 alternative"
+  ],
+  "longDescription": "Ruff is a Python linter and formatter developed by Astral. It reimplements hundreds of rules from Flake8 and its popular plugins, along with tools such as isort and pyupgrade, and its formatter is designed as a near drop-in replacement for Black. Because it is written in Rust, it can check very large codebases in a fraction of the time older Python-based tools need, which has led many well-known open source projects to adopt it.\n\nConfiguration lives in pyproject.toml or ruff.toml, and many violations can be fixed automatically. Ruff integrates with editors through its built-in language server and fits easily into pre-commit hooks and CI. It is especially useful for consolidating a fragmented lint and format setup into a single dependency. Ruff does not perform type checking, so it is usually paired with a separate type checker, and not every rule from the wider Flake8 plugin ecosystem has been ported.",
+  "languages": [
+    "Rust"
+  ],
+  "packages": {
+    "pypi": [
+      "ruff"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Rust로 작성된 매우 빠른 Python 린터이자 코드 포매터로, Flake8, isort, Black과 여러 플러그인을 도구 하나로 대체할 수 있습니다. 대규모 코드베이스에서도 에디터와 CI에서 빠른 피드백을 원하는 Python 팀에게 맞습니다.",
+      "longDescription": "Ruff는 Astral이 개발한 Python 린터이자 포매터입니다. Flake8과 인기 플러그인들, 그리고 isort와 pyupgrade 같은 도구의 규칙 수백 개를 다시 구현했으며, 포매터는 Black을 거의 그대로 대체할 수 있도록 설계되었습니다. Rust로 작성되어 매우 큰 코드베이스도 기존 Python 기반 도구보다 훨씬 짧은 시간에 검사할 수 있고, 그 덕분에 잘 알려진 오픈소스 프로젝트들이 다수 채택했습니다.\n\n설정은 pyproject.toml이나 ruff.toml에 두며, 많은 위반 사항을 자동으로 고칠 수 있습니다. 내장 언어 서버로 에디터와 연동되고 pre-commit 훅이나 CI에도 쉽게 넣을 수 있습니다. 여러 도구로 흩어진 린트·포맷 설정을 의존성 하나로 정리할 때 특히 유용합니다. Ruff는 타입 검사를 하지 않으므로 보통 별도의 타입 체커와 함께 쓰며, 더 넓은 Flake8 플러그인 생태계의 규칙이 모두 옮겨진 것은 아닙니다.",
+      "keywords": [
+        "Python",
+        "린터",
+        "포매터",
+        "정적 분석",
+        "코드 품질",
+        "Flake8 대안"
+      ],
+      "rationale": "여러 주요 프로젝트가 채택한 대표적인 현대 Python 린터·포매터입니다. uv와 겹치지 않고 보완하며, 카탈로그에 비슷한 항목이 없습니다."
+    },
+    "ja": {
+      "description": "Rust で書かれた非常に高速な Python のリンター兼コードフォーマッターで、Flake8、isort、Black と多くのプラグインを 1 つのツールで置き換えられます。大規模なコードベースでもエディターや CI ですばやくフィードバックを得たい Python チーム向けです。",
+      "longDescription": "Ruff は Astral が開発した Python のリンター兼フォーマッターです。Flake8 とその人気プラグイン、さらに isort や pyupgrade といったツールのルールを数百規模で再実装しており、フォーマッターは Black のほぼそのままの置き換えとして設計されています。Rust で書かれているため、非常に大きなコードベースでも従来の Python 製ツールに比べてごくわずかな時間でチェックでき、多くの著名なオープンソースプロジェクトが採用しています。\n\n設定は pyproject.toml または ruff.toml に記述し、多くの違反は自動で修正できます。組み込みの言語サーバーを通じてエディターと連携でき、pre-commit フックや CI にも簡単に組み込めます。複数のツールに分散したリントとフォーマットの設定を 1 つの依存関係に集約したいときに特に役立ちます。Ruff は型チェックを行わないため、通常は別の型チェッカーと組み合わせて使います。また、Flake8 プラグインエコシステム全体のルールがすべて移植されているわけではありません。",
+      "keywords": [
+        "Python",
+        "リンター",
+        "フォーマッター",
+        "静的解析",
+        "コード品質",
+        "Flake8 代替"
+      ],
+      "rationale": "多くの主要プロジェクトが採用する、現代の Python リンター兼フォーマッターの代表格です。uv と重ならずに補完し合い、カタログに同等の項目はありません。"
+    },
+    "zh-CN": {
+      "description": "用 Rust 编写、速度极快的 Python 代码检查器和格式化工具，可用一个工具取代 Flake8、isort、Black 及众多插件，适合希望在大型代码库中也能在编辑器和 CI 里快速获得反馈的 Python 团队。",
+      "longDescription": "Ruff 是 Astral 开发的 Python 代码检查器和格式化工具。它重新实现了 Flake8 及其热门插件，以及 isort、pyupgrade 等工具中的数百条规则，其格式化器则被设计为几乎可以直接替换 Black。由于采用 Rust 编写，它检查超大代码库所需的时间只是传统 Python 工具的一小部分，因此被许多知名开源项目采用。\n\n配置写在 pyproject.toml 或 ruff.toml 中，许多问题都可以自动修复。Ruff 通过内置的语言服务器与编辑器集成，也很容易接入 pre-commit 钩子和 CI。它尤其适合把分散在多个工具中的检查与格式化配置整合为一个依赖。Ruff 不做类型检查，通常需要搭配单独的类型检查器使用；此外，更广泛的 Flake8 插件生态中的规则并未全部移植。",
+      "keywords": [
+        "Python",
+        "代码检查",
+        "格式化工具",
+        "静态分析",
+        "代码质量",
+        "Flake8 替代"
+      ],
+      "rationale": "被众多大型项目采用的主流现代 Python 代码检查与格式化工具；与 uv 互补而不重叠，目录中没有同类条目。"
+    },
+    "es": {
+      "description": "Linter y formateador de código Python extremadamente rápido, escrito en Rust, capaz de sustituir a Flake8, isort, Black y muchos plugins con una sola herramienta, para equipos de Python que quieren respuesta inmediata en el editor y en CI incluso en bases de código grandes.",
+      "longDescription": "Ruff es un linter y formateador de Python desarrollado por Astral. Reimplementa cientos de reglas de Flake8 y sus plugins más populares, además de herramientas como isort y pyupgrade, y su formateador está pensado como un reemplazo casi directo de Black. Al estar escrito en Rust, puede revisar bases de código muy grandes en una fracción del tiempo que necesitan las herramientas tradicionales escritas en Python, lo que ha llevado a muchos proyectos de código abierto conocidos a adoptarlo.\n\nLa configuración se define en pyproject.toml o ruff.toml, y muchas infracciones pueden corregirse automáticamente. Ruff se integra con los editores mediante su servidor de lenguaje incorporado y encaja sin esfuerzo en hooks de pre-commit y en CI. Resulta especialmente útil para unificar en una sola dependencia una configuración de lint y formateo repartida entre varias herramientas. Ruff no realiza comprobación de tipos, por lo que suele combinarse con un comprobador de tipos aparte, y no todas las reglas del ecosistema más amplio de plugins de Flake8 se han portado.",
+      "keywords": [
+        "Python",
+        "linter",
+        "formateador",
+        "análisis estático",
+        "calidad de código",
+        "alternativa a Flake8"
+      ],
+      "rationale": "El linter y formateador moderno de Python predominante, adoptado por muchos proyectos importantes; complementa a uv sin solaparse y no tiene equivalente en el catálogo."
+    },
+    "de": {
+      "description": "Extrem schneller Python-Linter und Code-Formatter, geschrieben in Rust, der Flake8, isort, Black und viele Plugins durch ein einziges Tool ersetzen kann – für Python-Teams, die auch bei großen Codebasen schnelles Feedback in Editor und CI wollen.",
+      "longDescription": "Ruff ist ein Python-Linter und -Formatter von Astral. Er implementiert Hunderte Regeln aus Flake8 und dessen beliebten Plugins sowie aus Tools wie isort und pyupgrade neu, und sein Formatter ist als nahezu direkter Ersatz für Black ausgelegt. Da Ruff in Rust geschrieben ist, prüft es selbst sehr große Codebasen in einem Bruchteil der Zeit, die ältere Python-basierte Tools brauchen – ein Grund, warum viele bekannte Open-Source-Projekte darauf umgestiegen sind.\n\nDie Konfiguration liegt in pyproject.toml oder ruff.toml, und viele Verstöße lassen sich automatisch beheben. Über den eingebauten Language Server integriert sich Ruff in Editoren und passt problemlos in pre-commit-Hooks und CI. Besonders nützlich ist es, um ein zersplittertes Lint- und Format-Setup in einer einzigen Abhängigkeit zusammenzuführen. Ruff führt keine Typprüfung durch und wird daher meist mit einem separaten Type Checker kombiniert; zudem sind nicht alle Regeln aus dem breiteren Flake8-Plugin-Ökosystem portiert.",
+      "keywords": [
+        "Python",
+        "Linter",
+        "Formatter",
+        "statische Analyse",
+        "Codequalität",
+        "Flake8-Alternative"
+      ],
+      "rationale": "Der dominierende moderne Python-Linter und -Formatter, von vielen großen Projekten eingesetzt; ergänzt uv ohne Überschneidung und hat kein Gegenstück im Katalog."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2022-08-09",
+      "archived": false,
+      "openIssuesCount": 2332,
+      "stargazersCount": 51478,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 94,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The dominant modern Python linter and formatter, adopted by many major projects; complements uv without overlapping and has no catalog equivalent."
+    },
+    "flag": "ok"
+  }
+}

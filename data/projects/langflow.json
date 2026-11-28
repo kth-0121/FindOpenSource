@@ -1,0 +1,118 @@
+{
+  "name": "Langflow",
+  "slug": "langflow",
+  "description": "Visual, low-code platform for building AI agents and LLM workflows by connecting components on a canvas, then serving each flow as an API or MCP server. For developers and teams prototyping and deploying retrieval and agent applications.",
+  "repository": "https://github.com/langflow-ai/langflow",
+  "website": "https://www.langflow.org",
+  "documentation": "https://docs.langflow.org",
+  "categories": [
+    "ai-agents",
+    "automation"
+  ],
+  "keywords": [
+    "low-code",
+    "visual builder",
+    "ai agents",
+    "llm workflows",
+    "rag",
+    "mcp"
+  ],
+  "longDescription": "Langflow lets you assemble LLM applications as graphs. Components for models, prompts, vector stores, tools and agents are placed on a canvas and wired together, and an interactive playground runs the flow so you can test and refine it step by step. Every component is backed by Python code that you can open and modify, so the visual editor does not lock you out of custom logic.\n\nFinished flows can be called through a built-in API, exported as JSON for use from Python applications, or exposed as an MCP server so that MCP clients can use them as tools. It integrates with observability tools such as LangSmith and Langfuse and can be installed as a Python package, run in Docker, or used through the Langflow Desktop app. It works well for rapid prototyping of RAG and multi-agent workflows; complex production systems still need code-level testing and versioning practices that a canvas-first tool does not enforce on its own.",
+  "languages": [
+    "Python",
+    "TypeScript"
+  ],
+  "packages": {
+    "pypi": [
+      "langflow"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "캔버스 위에서 컴포넌트를 연결해 AI 에이전트와 LLM 워크플로를 만들고, 완성된 플로를 API나 MCP 서버로 제공하는 시각적 로코드 플랫폼입니다. 검색·에이전트 애플리케이션을 시제품으로 만들고 배포하는 개발자와 팀을 위한 도구입니다.",
+      "longDescription": "Langflow는 LLM 애플리케이션을 그래프 형태로 조립하게 해 줍니다. 모델, 프롬프트, 벡터 저장소, 도구, 에이전트 컴포넌트를 캔버스에 놓고 서로 연결하면, 인터랙티브 플레이그라운드에서 플로를 실행하며 단계별로 테스트하고 다듬을 수 있습니다. 모든 컴포넌트는 직접 열어 수정할 수 있는 Python 코드로 되어 있어, 시각적 편집기를 쓰더라도 맞춤 로직을 넣는 데 제약이 없습니다.\n\n완성한 플로는 내장 API로 호출하거나, JSON으로 내보내 Python 애플리케이션에서 쓰거나, MCP 서버로 공개해 MCP 클라이언트가 도구로 사용하게 할 수 있습니다. LangSmith, Langfuse 같은 관측 도구와 연동되며, Python 패키지로 설치하거나 Docker로 실행하거나 Langflow Desktop 앱으로 쓸 수 있습니다. RAG와 멀티 에이전트 워크플로를 빠르게 시제품으로 만들기에 좋지만, 복잡한 프로덕션 시스템이라면 캔버스 중심 도구가 스스로 강제하지 않는 코드 수준의 테스트와 버전 관리 관행이 여전히 필요합니다.",
+      "keywords": [
+        "로코드",
+        "비주얼 빌더",
+        "AI 에이전트",
+        "LLM 워크플로",
+        "RAG",
+        "MCP"
+      ],
+      "rationale": "LLM 에이전트와 RAG 플로를 만드는 시각적 빌더로 널리 쓰입니다. 코드 중심의 LangChain을 보완하지만 n8n의 AI 워크플로 기능과는 겹칩니다."
+    },
+    "ja": {
+      "description": "キャンバス上でコンポーネントをつないで AI エージェントや LLM ワークフローを構築し、完成したフローを API や MCP サーバーとして提供できるビジュアルなローコードプラットフォームです。検索やエージェントのアプリを試作・デプロイする開発者やチーム向けです。",
+      "longDescription": "Langflow では、LLM アプリケーションをグラフとして組み立てます。モデル、プロンプト、ベクトルストア、ツール、エージェントといったコンポーネントをキャンバスに置いてつなぎ、インタラクティブなプレイグラウンドでフローを実行しながら、ステップごとにテストや調整ができます。各コンポーネントの中身は開いて書き換えられる Python コードなので、ビジュアルエディターを使っていても独自のロジックを組み込めます。\n\n完成したフローは組み込みの API から呼び出したり、JSON としてエクスポートして Python アプリから使ったり、MCP サーバーとして公開して MCP クライアントのツールにしたりできます。LangSmith や Langfuse などのオブザーバビリティツールと連携でき、Python パッケージとしてのインストール、Docker での実行、Langflow Desktop アプリでの利用が可能です。RAG やマルチエージェントのワークフローを素早く試作するのに向いていますが、複雑な本番システムでは、キャンバス中心のツールが自ら強制しないコードレベルのテストやバージョン管理の運用が引き続き必要です。",
+      "keywords": [
+        "ローコード",
+        "ビジュアルビルダー",
+        "AI エージェント",
+        "LLM ワークフロー",
+        "RAG",
+        "MCP"
+      ],
+      "rationale": "LLM エージェントや RAG フローを作るビジュアルビルダーとして広く使われています。コード中心の LangChain を補完しますが、n8n の AI ワークフロー機能とは重なります。"
+    },
+    "zh-CN": {
+      "description": "可视化低代码平台，通过在画布上连接组件来构建 AI 智能体和 LLM 工作流，并把每个流程发布为 API 或 MCP 服务器，适合原型开发和部署检索类、智能体类应用的开发者与团队。",
+      "longDescription": "Langflow 让你以图的方式搭建 LLM 应用。把模型、提示词、向量存储、工具和智能体等组件放到画布上并连接起来，就可以在交互式 playground 中运行流程，逐步测试和调整。每个组件背后都是可以打开修改的 Python 代码，因此使用可视化编辑器并不妨碍加入自定义逻辑。\n\n完成的流程可以通过内置 API 调用，也可以导出为 JSON 供 Python 应用使用，或者作为 MCP 服务器发布，让 MCP 客户端把它当作工具使用。它可与 LangSmith、Langfuse 等可观测性工具集成，可以作为 Python 包安装、在 Docker 中运行，或通过 Langflow Desktop 桌面应用使用。它很适合快速搭建 RAG 和多智能体工作流原型；但对于复杂的生产系统，仍需要代码层面的测试和版本管理实践，而以画布为中心的工具本身并不会强制这些。",
+      "keywords": [
+        "低代码",
+        "可视化构建器",
+        "AI 智能体",
+        "LLM 工作流",
+        "RAG",
+        "MCP"
+      ],
+      "rationale": "被广泛使用的 LLM 智能体与 RAG 流程可视化构建工具，可与偏重代码的 LangChain 互补，但与 n8n 的 AI 工作流功能有所重叠。"
+    },
+    "es": {
+      "description": "Plataforma visual low-code para crear agentes de IA y flujos con LLM conectando componentes en un lienzo y publicar cada flujo como API o servidor MCP. Para desarrolladores y equipos que prototipan y despliegan aplicaciones de recuperación y agentes.",
+      "longDescription": "Langflow permite montar aplicaciones con LLM como grafos. Los componentes de modelos, prompts, almacenes vectoriales, herramientas y agentes se colocan en un lienzo y se conectan entre sí, y un playground interactivo ejecuta el flujo para probarlo y afinarlo paso a paso. Cada componente está respaldado por código Python que puedes abrir y modificar, así que el editor visual no te impide añadir lógica propia.\n\nLos flujos terminados pueden llamarse mediante una API integrada, exportarse como JSON para usarlos desde aplicaciones Python o exponerse como servidor MCP para que los clientes MCP los usen como herramientas. Se integra con herramientas de observabilidad como LangSmith y Langfuse y puede instalarse como paquete de Python, ejecutarse en Docker o usarse con la aplicación Langflow Desktop. Funciona muy bien para prototipar rápido flujos RAG y multiagente; los sistemas de producción complejos siguen necesitando pruebas a nivel de código y prácticas de versionado que una herramienta centrada en el lienzo no impone por sí sola.",
+      "keywords": [
+        "low-code",
+        "constructor visual",
+        "agentes de IA",
+        "flujos con LLM",
+        "RAG",
+        "MCP"
+      ],
+      "rationale": "Constructor visual muy usado para agentes LLM y flujos RAG; complementa a LangChain, más orientado a código, pero se solapa con las funciones de flujos de IA de n8n."
+    },
+    "de": {
+      "description": "Visuelle Low-Code-Plattform, um KI-Agenten und LLM-Workflows durch das Verbinden von Komponenten auf einer Arbeitsfläche zu bauen und jeden Flow als API oder MCP-Server bereitzustellen. Für Teams, die Retrieval- und Agenten-Apps prototypen und ausrollen.",
+      "longDescription": "Mit Langflow werden LLM-Anwendungen als Graphen zusammengesetzt. Komponenten für Modelle, Prompts, Vektorspeicher, Tools und Agenten werden auf einer Arbeitsfläche platziert und verbunden; ein interaktiver Playground führt den Flow aus, sodass man ihn Schritt für Schritt testen und verfeinern kann. Hinter jeder Komponente steckt Python-Code, den man öffnen und anpassen kann – der visuelle Editor schließt eigene Logik also nicht aus.\n\nFertige Flows lassen sich über eine eingebaute API aufrufen, als JSON für Python-Anwendungen exportieren oder als MCP-Server bereitstellen, damit MCP-Clients sie als Tools nutzen können. Langflow integriert sich mit Observability-Werkzeugen wie LangSmith und Langfuse und lässt sich als Python-Paket installieren, in Docker betreiben oder über die Langflow-Desktop-App nutzen. Für schnelles Prototyping von RAG- und Multi-Agenten-Workflows eignet es sich gut; komplexe Produktivsysteme brauchen dennoch Tests und Versionierung auf Code-Ebene, die ein Canvas-zentriertes Werkzeug nicht von sich aus erzwingt.",
+      "keywords": [
+        "Low-Code",
+        "visueller Builder",
+        "KI-Agenten",
+        "LLM-Workflows",
+        "RAG",
+        "MCP"
+      ],
+      "rationale": "Weit verbreiteter visueller Builder für LLM-Agenten und RAG-Flows; ergänzt das codezentrierte LangChain, überschneidet sich aber mit den KI-Workflow-Funktionen von n8n."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2023-02-08",
+      "archived": false,
+      "openIssuesCount": 1379,
+      "stargazersCount": 156990,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 88,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Widely used visual builder for LLM agents and RAG flows; complements code-first LangChain but overlaps with n8n's AI workflow features."
+    },
+    "flag": "ok"
+  }
+}

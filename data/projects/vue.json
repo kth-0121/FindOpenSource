@@ -1,0 +1,116 @@
+{
+  "name": "Vue",
+  "slug": "vue",
+  "description": "Progressive JavaScript framework for building web user interfaces, combining a reactive data model with HTML-based templates and single-file components; suited to anything from small widgets to large single-page apps.",
+  "repository": "https://github.com/vuejs/core",
+  "website": "https://vuejs.org",
+  "documentation": "https://vuejs.org/guide/introduction.html",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "javascript framework",
+    "reactivity",
+    "single-file components",
+    "frontend",
+    "spa",
+    "composition api"
+  ],
+  "longDescription": "Vue is a JavaScript framework for building user interfaces around a fine-grained reactivity system: components declare state, and the framework tracks which parts of the rendered output depend on it so updates touch only what changed. The vuejs/core repository contains Vue 3 itself, including the reactivity package, the runtime and the template compiler. It is designed to be adopted incrementally, so it can enhance one section of a server-rendered page or drive an entire single-page application.\n\nComponents are usually written as single-file components that keep a template, script and scoped styles together, using either the Composition API or the older Options API. Templates are compiled ahead of time into optimized render functions, and server-side rendering is supported. Routing, state management and full-stack features live in separate projects such as Vue Router, Pinia and Nuxt, so larger apps assemble Vue with a few companion libraries rather than getting everything from this repository.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "vue"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "반응형 데이터 모델과 HTML 기반 템플릿, 싱글 파일 컴포넌트를 결합한 점진적 JavaScript 프레임워크로, 작은 위젯부터 대규모 싱글 페이지 앱까지 웹 UI를 만드는 데 적합합니다.",
+      "longDescription": "Vue는 세밀한 반응성 시스템을 중심으로 사용자 인터페이스를 만드는 JavaScript 프레임워크입니다. 컴포넌트가 상태를 선언하면 프레임워크가 렌더링 결과의 어느 부분이 그 상태에 의존하는지 추적하므로, 업데이트 시 바뀐 부분만 다시 그립니다. vuejs/core 저장소에는 반응성 패키지, 런타임, 템플릿 컴파일러를 포함한 Vue 3 본체가 들어 있습니다. 점진적으로 도입할 수 있도록 설계되어 서버에서 렌더링한 페이지의 일부만 개선할 수도 있고, 싱글 페이지 애플리케이션 전체를 구동할 수도 있습니다.\n\n컴포넌트는 보통 템플릿, 스크립트, 스코프 스타일을 한 파일에 담는 싱글 파일 컴포넌트로 작성하며, Composition API나 기존 Options API 중 하나를 사용합니다. 템플릿은 미리 최적화된 렌더 함수로 컴파일되고, 서버 사이드 렌더링도 지원합니다. 라우팅, 상태 관리, 풀스택 기능은 Vue Router, Pinia, Nuxt 같은 별도 프로젝트에 있으므로, 큰 앱은 이 저장소 하나로 모든 것을 해결하기보다 Vue에 몇 가지 동반 라이브러리를 조합해 구성합니다.",
+      "keywords": [
+        "자바스크립트 프레임워크",
+        "반응성",
+        "싱글 파일 컴포넌트",
+        "프런트엔드",
+        "SPA",
+        "Composition API"
+      ],
+      "rationale": "방대한 생태계를 갖춘 주요 프런트엔드 프레임워크 중 하나로, 현재 컴포넌트 라이브러리만 있는 UI 카테고리의 핵심 대표 프로젝트입니다."
+    },
+    "ja": {
+      "description": "リアクティブなデータモデルと HTML ベースのテンプレート、単一ファイルコンポーネントを組み合わせたプログレッシブな JavaScript フレームワークです。小さなウィジェットから大規模な SPA まで Web UI 構築に向いています。",
+      "longDescription": "Vue は、きめ細かなリアクティビティシステムを軸に UI を構築する JavaScript フレームワークです。コンポーネントが状態を宣言すると、描画結果のどの部分がその状態に依存しているかをフレームワークが追跡するため、更新時には変わった箇所だけが反映されます。vuejs/core リポジトリには、リアクティビティパッケージ、ランタイム、テンプレートコンパイラを含む Vue 3 本体が収められています。段階的に導入できるよう設計されており、サーバーで描画したページの一部を拡張することも、SPA 全体を動かすこともできます。\n\nコンポーネントは通常、テンプレート・スクリプト・スコープ付きスタイルを一つにまとめた単一ファイルコンポーネントとして書き、Composition API か従来の Options API を使います。テンプレートは事前に最適化されたレンダー関数へコンパイルされ、サーバーサイドレンダリングにも対応しています。ルーティング、状態管理、フルスタック機能は Vue Router、Pinia、Nuxt などの別プロジェクトが担うため、大規模なアプリではこのリポジトリだけで完結させるのではなく、Vue にいくつかの関連ライブラリを組み合わせて構成します。",
+      "keywords": [
+        "JavaScript フレームワーク",
+        "リアクティビティ",
+        "単一ファイルコンポーネント",
+        "フロントエンド",
+        "SPA",
+        "Composition API"
+      ],
+      "rationale": "大きなエコシステムを持つ主要フロントエンドフレームワークの一つで、現状コンポーネントライブラリしかない UI カテゴリの中核となる代表的プロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "一个渐进式 JavaScript 框架，把响应式数据模型、基于 HTML 的模板和单文件组件结合在一起，适合构建从小型组件到大型单页应用的各类 Web 界面。",
+      "longDescription": "Vue 是一个围绕细粒度响应式系统构建用户界面的 JavaScript 框架：组件声明状态，框架追踪渲染结果中哪些部分依赖这些状态，因此更新时只改动真正变化的部分。vuejs/core 仓库包含 Vue 3 本身，包括响应式包、运行时和模板编译器。它被设计为可以渐进采用，既可以只增强服务端渲染页面中的某一块，也可以驱动整个单页应用。\n\n组件通常写成单文件组件，把模板、脚本和作用域样式放在一起，可以使用组合式 API 或较早的选项式 API。模板会预先编译成优化过的渲染函数，同时支持服务端渲染。路由、状态管理和全栈能力由 Vue Router、Pinia、Nuxt 等独立项目提供，所以较大的应用通常是把 Vue 与几个配套库组合起来，而不是指望这个仓库包办一切。",
+      "keywords": [
+        "JavaScript 框架",
+        "响应式",
+        "单文件组件",
+        "前端",
+        "单页应用",
+        "组合式 API"
+      ],
+      "rationale": "拥有庞大生态的主流前端框架之一；对目前只有组件库的 UI 分类来说是核心代表项目。"
+    },
+    "es": {
+      "description": "Framework progresivo de JavaScript para crear interfaces web que combina un modelo de datos reactivo con plantillas basadas en HTML y componentes de un solo archivo; sirve desde pequeños widgets hasta grandes aplicaciones de una sola página.",
+      "longDescription": "Vue es un framework de JavaScript para crear interfaces de usuario en torno a un sistema de reactividad de grano fino: los componentes declaran su estado y el framework rastrea qué partes de la salida renderizada dependen de él, de modo que las actualizaciones solo tocan lo que cambió. El repositorio vuejs/core contiene Vue 3 en sí, incluidos el paquete de reactividad, el runtime y el compilador de plantillas. Está pensado para adoptarse de forma gradual: puede mejorar una sección de una página renderizada en el servidor o mover una aplicación de una sola página completa.\n\nLos componentes suelen escribirse como componentes de un solo archivo que reúnen plantilla, script y estilos con ámbito, usando la Composition API o la Options API, más antigua. Las plantillas se compilan de antemano a funciones de renderizado optimizadas y se admite el renderizado en servidor. El enrutado, la gestión de estado y las funciones full-stack están en proyectos aparte como Vue Router, Pinia y Nuxt, así que las aplicaciones grandes combinan Vue con algunas bibliotecas complementarias en lugar de obtenerlo todo de este repositorio.",
+      "keywords": [
+        "framework de JavaScript",
+        "reactividad",
+        "componentes de un solo archivo",
+        "frontend",
+        "SPA",
+        "Composition API"
+      ],
+      "rationale": "Uno de los grandes frameworks frontend, con un ecosistema amplio; representante clave de la categoría UI, que hoy solo tiene bibliotecas de componentes."
+    },
+    "de": {
+      "description": "Progressives JavaScript-Framework für Web-Oberflächen, das ein reaktives Datenmodell mit HTML-basierten Templates und Single-File-Components verbindet; geeignet für alles vom kleinen Widget bis zur großen Single-Page-App.",
+      "longDescription": "Vue ist ein JavaScript-Framework für Benutzeroberflächen, das auf einem feingranularen Reaktivitätssystem aufbaut: Komponenten deklarieren ihren Zustand, und das Framework verfolgt, welche Teile der gerenderten Ausgabe davon abhängen, sodass Updates nur das Geänderte betreffen. Das Repository vuejs/core enthält Vue 3 selbst, darunter das Reaktivitätspaket, die Runtime und den Template-Compiler. Vue ist auf schrittweise Einführung ausgelegt und kann einen einzelnen Abschnitt einer serverseitig gerenderten Seite aufwerten oder eine komplette Single-Page-Anwendung antreiben.\n\nKomponenten werden meist als Single-File-Components geschrieben, die Template, Skript und gekapselte Styles bündeln, entweder mit der Composition API oder der älteren Options API. Templates werden vorab in optimierte Render-Funktionen kompiliert, serverseitiges Rendering wird unterstützt. Routing, State-Management und Full-Stack-Funktionen liegen in eigenen Projekten wie Vue Router, Pinia und Nuxt; größere Apps kombinieren Vue daher mit einigen Begleitbibliotheken, statt alles aus diesem Repository zu beziehen.",
+      "keywords": [
+        "JavaScript-Framework",
+        "Reaktivität",
+        "Single-File-Components",
+        "Frontend",
+        "SPA",
+        "Composition API"
+      ],
+      "rationale": "Eines der großen Frontend-Frameworks mit breitem Ökosystem; zentraler Vertreter der UI-Kategorie, die bisher nur Komponentenbibliotheken enthält."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2018-06-12",
+      "archived": false,
+      "openIssuesCount": 991,
+      "stargazersCount": 55105,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 93,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the major frontend frameworks with a large ecosystem; a core representative for the UI category, which currently holds only component libraries."
+    },
+    "flag": "ok"
+  }
+}

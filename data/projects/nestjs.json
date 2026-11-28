@@ -1,0 +1,117 @@
+{
+  "name": "NestJS",
+  "slug": "nestjs",
+  "description": "Progressive Node.js framework for building server-side applications in TypeScript with modules, dependency injection and decorators. Aimed at teams that want an opinionated, Angular-inspired structure for APIs, microservices and enterprise backends.",
+  "repository": "https://github.com/nestjs/nest",
+  "website": "https://nestjs.com",
+  "documentation": "https://docs.nestjs.com/",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "dependency injection",
+    "microservices",
+    "rest api",
+    "backend framework"
+  ],
+  "longDescription": "NestJS is a framework for building server-side applications on Node.js with an architecture borrowed from Angular. Code is organized into modules that group controllers, which handle incoming requests, and providers, which hold business logic and are wired together by a built-in dependency injection container. Decorators describe routes, validation, guards and interceptors, giving large codebases a consistent shape that many teams find easier to scale than a hand-assembled Express app.\n\nBy default it runs on Express and can switch to Fastify, so the existing middleware ecosystem stays usable. Official packages cover GraphQL, WebSockets, microservice transports such as Redis, Kafka, NATS and gRPC, configuration, task scheduling and database integrations like TypeORM and Mongoose, and a CLI scaffolds projects and components. It is common in enterprise APIs and microservice systems. The trade-off is ceremony: its abstractions and decorators add a learning curve and boilerplate compared with minimal frameworks.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "@nestjs/core",
+      "@nestjs/common"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "모듈, 의존성 주입, 데코레이터를 사용해 TypeScript로 서버 애플리케이션을 만드는 프로그레시브 Node.js 프레임워크입니다. API, 마이크로서비스, 엔터프라이즈 백엔드에 Angular에서 영감을 받은 명확한 구조를 원하는 팀을 위한 도구입니다.",
+      "longDescription": "NestJS는 Angular에서 가져온 아키텍처로 Node.js 서버 애플리케이션을 만드는 프레임워크입니다. 코드는 모듈 단위로 구성되며, 모듈은 들어오는 요청을 처리하는 컨트롤러와 비즈니스 로직을 담는 프로바이더를 묶고, 이들은 내장 의존성 주입 컨테이너로 연결됩니다. 데코레이터로 라우트, 검증, 가드, 인터셉터를 선언하기 때문에 큰 코드베이스도 일관된 형태를 유지할 수 있어, 직접 조립한 Express 앱보다 확장하기 쉽다고 느끼는 팀이 많습니다.\n\n기본적으로 Express 위에서 동작하고 Fastify로 바꿀 수도 있어 기존 미들웨어 생태계를 그대로 활용할 수 있습니다. 공식 패키지는 GraphQL, WebSocket, Redis·Kafka·NATS·gRPC 같은 마이크로서비스 전송 계층, 설정 관리, 작업 스케줄링, TypeORM과 Mongoose 같은 데이터베이스 통합을 다루며, CLI가 프로젝트와 컴포넌트의 뼈대를 생성해 줍니다. 엔터프라이즈 API와 마이크로서비스 시스템에서 널리 쓰입니다. 대신 형식이 많은 편이어서, 추상화와 데코레이터 때문에 가벼운 프레임워크에 비해 학습 부담과 보일러플레이트가 늘어납니다.",
+      "keywords": [
+        "nodejs",
+        "typescript",
+        "의존성 주입",
+        "마이크로서비스",
+        "rest api",
+        "백엔드 프레임워크"
+      ],
+      "rationale": "Node.js에서 가장 널리 쓰이는 구조화된 TypeScript 백엔드 프레임워크로, 백엔드 분야의 가벼운 프레임워크들을 보완하는 강력한 선택지입니다."
+    },
+    "ja": {
+      "description": "モジュール、依存性注入、デコレーターを使って TypeScript でサーバーサイドアプリケーションを構築するプログレッシブな Node.js フレームワークです。API やマイクロサービス、エンタープライズのバックエンドに Angular 由来の明確な構造を求めるチーム向けです。",
+      "longDescription": "NestJS は、Angular から取り入れたアーキテクチャで Node.js のサーバーサイドアプリケーションを構築するフレームワークです。コードはモジュール単位で整理され、モジュールは受信リクエストを処理するコントローラーとビジネスロジックを担うプロバイダーをまとめ、それらは組み込みの依存性注入コンテナで結び付けられます。ルート、バリデーション、ガード、インターセプターをデコレーターで記述するため、大規模なコードベースでも一貫した形を保ちやすく、手作業で組み立てた Express アプリより拡張しやすいと感じるチームが多くいます。\n\nデフォルトでは Express 上で動作し、Fastify に切り替えることもできるため、既存のミドルウェア資産をそのまま活用できます。公式パッケージは GraphQL、WebSocket、Redis・Kafka・NATS・gRPC などのマイクロサービス向けトランスポート、設定管理、タスクスケジューリング、TypeORM や Mongoose といったデータベース連携をカバーし、CLI がプロジェクトやコンポーネントの雛形を生成します。エンタープライズの API やマイクロサービスでよく使われています。一方で形式張った部分も多く、抽象化やデコレーターのぶん、軽量なフレームワークに比べて学習コストと定型コードが増えます。",
+      "keywords": [
+        "nodejs",
+        "typescript",
+        "依存性注入",
+        "マイクロサービス",
+        "rest api",
+        "バックエンドフレームワーク"
+      ],
+      "rationale": "Node.js で最も広く使われている構造化された TypeScript バックエンドフレームワークで、バックエンド分野の軽量フレームワークを補完する有力な選択肢です。"
+    },
+    "zh-CN": {
+      "description": "一个渐进式 Node.js 框架，借助模块、依赖注入和装饰器用 TypeScript 构建服务端应用，适合希望为 API、微服务和企业级后端采用受 Angular 启发的规范化结构的团队。",
+      "longDescription": "NestJS 是一个用于在 Node.js 上构建服务端应用的框架，其架构借鉴自 Angular。代码按模块组织，模块中包含处理请求的控制器和承载业务逻辑的提供者，二者通过内置的依赖注入容器连接起来。路由、校验、守卫和拦截器都用装饰器声明，使大型代码库保持一致的结构，许多团队认为这比手工拼装的 Express 应用更容易扩展。\n\n它默认运行在 Express 之上，也可以切换到 Fastify，因此现有的中间件生态依然可用。官方包涵盖 GraphQL、WebSocket、Redis、Kafka、NATS、gRPC 等微服务传输层、配置管理、任务调度以及 TypeORM、Mongoose 等数据库集成，CLI 还能生成项目和组件的脚手架。它在企业级 API 和微服务系统中十分常见。代价是较多的仪式感：与极简框架相比，它的抽象和装饰器会带来更陡的学习曲线和更多样板代码。",
+      "keywords": [
+        "nodejs",
+        "typescript",
+        "依赖注入",
+        "微服务",
+        "rest api",
+        "后端框架"
+      ],
+      "rationale": "Node.js 上使用最广泛的结构化 TypeScript 后端框架；可与后端类别中的轻量框架互补，是很有力的选择。"
+    },
+    "es": {
+      "description": "Framework progresivo de Node.js para crear aplicaciones de servidor en TypeScript con módulos, inyección de dependencias y decoradores. Pensado para equipos que quieren una estructura definida, inspirada en Angular, para APIs, microservicios y backends empresariales.",
+      "longDescription": "NestJS es un framework para crear aplicaciones de servidor en Node.js con una arquitectura tomada de Angular. El código se organiza en módulos que agrupan controladores, que atienden las peticiones entrantes, y proveedores, que contienen la lógica de negocio y se conectan mediante un contenedor de inyección de dependencias integrado. Los decoradores describen rutas, validación, guards e interceptores, lo que da a los proyectos grandes una forma coherente que muchos equipos encuentran más fácil de escalar que una aplicación Express montada a mano.\n\nPor defecto funciona sobre Express y puede cambiarse a Fastify, de modo que el ecosistema de middleware existente sigue siendo utilizable. Los paquetes oficiales cubren GraphQL, WebSockets, transportes de microservicios como Redis, Kafka, NATS y gRPC, configuración, tareas programadas e integraciones con bases de datos como TypeORM y Mongoose, y una CLI genera proyectos y componentes. Es habitual en APIs empresariales y sistemas de microservicios. A cambio exige cierta ceremonia: sus abstracciones y decoradores suponen más curva de aprendizaje y código repetitivo que los frameworks minimalistas.",
+      "keywords": [
+        "nodejs",
+        "typescript",
+        "inyección de dependencias",
+        "microservicios",
+        "api rest",
+        "framework de backend"
+      ],
+      "rationale": "El framework de backend estructurado en TypeScript más usado en Node.js; una opción sólida que complementa a los frameworks más ligeros de la categoría backend."
+    },
+    "de": {
+      "description": "Progressives Node.js-Framework, mit dem sich serverseitige Anwendungen in TypeScript über Module, Dependency Injection und Decorators bauen lassen. Für Teams, die eine klare, von Angular inspirierte Struktur für APIs, Microservices und Enterprise-Backends wollen.",
+      "longDescription": "NestJS ist ein Framework für serverseitige Anwendungen auf Node.js mit einer von Angular übernommenen Architektur. Code wird in Module gegliedert, die Controller für eingehende Requests und Provider mit der Geschäftslogik bündeln; verbunden werden sie über einen eingebauten Dependency-Injection-Container. Decorators beschreiben Routen, Validierung, Guards und Interceptors und geben großen Codebasen eine einheitliche Form, die viele Teams leichter skalieren können als eine von Hand zusammengesetzte Express-App.\n\nStandardmäßig läuft es auf Express und lässt sich auf Fastify umstellen, sodass das bestehende Middleware-Ökosystem nutzbar bleibt. Offizielle Pakete decken GraphQL, WebSockets, Microservice-Transporte wie Redis, Kafka, NATS und gRPC, Konfiguration, Task-Scheduling sowie Datenbankanbindungen wie TypeORM und Mongoose ab, und eine CLI erzeugt Projekte und Komponenten. Verbreitet ist es bei Enterprise-APIs und Microservice-Systemen. Der Preis ist Zeremonie: Abstraktionen und Decorators bedeuten mehr Lernaufwand und Boilerplate als minimalistische Frameworks.",
+      "keywords": [
+        "nodejs",
+        "typescript",
+        "Dependency Injection",
+        "Microservices",
+        "rest-api",
+        "Backend-Framework"
+      ],
+      "rationale": "Das meistgenutzte strukturierte TypeScript-Backend-Framework für Node.js; eine starke Wahl, die leichtere Frameworks in der Backend-Kategorie ergänzt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2017-02-04",
+      "archived": false,
+      "openIssuesCount": 49,
+      "stargazersCount": 77145,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 93,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely used structured TypeScript backend framework for Node.js; a strong pick that complements lighter frameworks in the backend category."
+    },
+    "flag": "ok"
+  }
+}

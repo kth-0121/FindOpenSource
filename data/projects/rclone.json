@@ -1,0 +1,111 @@
+{
+  "name": "rclone",
+  "slug": "rclone",
+  "description": "Command-line tool for copying, syncing, mounting and serving files across dozens of cloud storage providers and protocols, often described as rsync for the cloud. For admins and power users who move data between clouds.",
+  "repository": "https://github.com/rclone/rclone",
+  "website": "https://rclone.org",
+  "documentation": "https://rclone.org/docs/",
+  "categories": [
+    "storage"
+  ],
+  "keywords": [
+    "cloud storage",
+    "file sync",
+    "s3",
+    "fuse mount",
+    "encryption",
+    "cli"
+  ],
+  "longDescription": "rclone is a command-line program for managing files on cloud and remote storage. You configure \"remotes\" for services such as S3-compatible object stores, Google Drive, Dropbox, OneDrive, Backblaze B2, SFTP or WebDAV, and then use one consistent set of commands to list, copy, move, sync and check files between any two of them or with local disk. Transfers are verified with checksums where the backend supports them, and server-side copies are used when possible to avoid downloading data.\n\nBeyond plain transfers, rclone can mount a remote as a local filesystem through FUSE, serve a remote over HTTP, WebDAV, SFTP, FTP or S3, and layer virtual remotes on top of others, for example to encrypt file contents and names, combine several remotes or chunk large files. It also offers two-way sync, bandwidth limits, filtering rules and a remote-control API with an optional web UI. Common uses are cloud-to-cloud migrations, offsite backups and access to cloud drives from servers. It is a power-user tool driven by flags and config files, and behavior differs between backends because each provider exposes different features.",
+  "languages": [
+    "Go"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "수십 가지 클라우드 스토리지와 프로토콜을 오가며 파일을 복사·동기화·마운트·서빙하는 명령줄 도구로, 흔히 '클라우드용 rsync'로 불립니다. 클라우드 간 데이터를 옮기는 관리자와 고급 사용자를 위한 도구입니다.",
+      "longDescription": "rclone은 클라우드와 원격 스토리지의 파일을 관리하는 명령줄 프로그램입니다. S3 호환 오브젝트 스토리지, Google Drive, Dropbox, OneDrive, Backblaze B2, SFTP, WebDAV 같은 서비스를 'remote'로 설정해 두면, 어느 두 저장소 사이에서든 혹은 로컬 디스크와의 사이에서든 같은 명령어로 파일 목록 조회, 복사, 이동, 동기화, 검증을 할 수 있습니다. 백엔드가 지원하면 체크섬으로 전송을 검증하고, 가능한 경우 서버 측 복사를 사용해 데이터를 내려받지 않고 처리합니다.\n\n단순 전송 외에도 FUSE로 원격 저장소를 로컬 파일 시스템처럼 마운트하거나, HTTP, WebDAV, SFTP, FTP, S3로 원격 저장소를 서빙할 수 있습니다. 또 다른 remote 위에 가상 remote를 겹쳐 파일 내용과 이름을 암호화하거나, 여러 remote를 합치거나, 큰 파일을 조각으로 나눌 수도 있습니다. 양방향 동기화, 대역폭 제한, 필터 규칙, 선택형 웹 UI가 딸린 원격 제어 API도 제공합니다. 주로 클라우드 간 마이그레이션, 오프사이트 백업, 서버에서 클라우드 드라이브에 접근하는 용도로 쓰입니다. 플래그와 설정 파일로 다루는 고급 사용자용 도구이며, 제공 업체마다 지원 기능이 달라 백엔드별로 동작에 차이가 있습니다.",
+      "keywords": [
+        "클라우드 스토리지",
+        "파일 동기화",
+        "S3",
+        "FUSE 마운트",
+        "암호화",
+        "CLI"
+      ],
+      "rationale": "여러 클라우드 스토리지 사이에서 데이터를 옮기는 사실상의 표준 CLI입니다. 카탈로그의 스토리지 프로젝트는 대부분 데이터를 저장하는 쪽이라, 이를 연결하는 rclone이 이를 보완합니다."
+    },
+    "ja": {
+      "description": "数十のクラウドストレージやプロトコルをまたいでファイルのコピー、同期、マウント、配信を行うコマンドラインツールで、「クラウド版 rsync」とも呼ばれます。クラウド間でデータを動かす管理者や上級ユーザー向けです。",
+      "longDescription": "rclone は、クラウドやリモートストレージ上のファイルを管理するコマンドラインプログラムです。S3 互換のオブジェクトストレージ、Google Drive、Dropbox、OneDrive、Backblaze B2、SFTP、WebDAV などのサービスを「リモート」として設定すると、任意の 2 つのストレージ間、あるいはローカルディスクとの間で、一貫したコマンドによる一覧表示、コピー、移動、同期、検証ができます。バックエンドが対応していればチェックサムで転送を検証し、可能な場合はサーバー側コピーを使ってデータをダウンロードせずに済ませます。\n\n単純な転送にとどまらず、FUSE でリモートをローカルのファイルシステムとしてマウントしたり、HTTP、WebDAV、SFTP、FTP、S3 でリモートを配信したりできます。さらに、ほかのリモートの上に仮想リモートを重ねて、ファイルの内容と名前を暗号化したり、複数のリモートを束ねたり、大きなファイルを分割したりすることも可能です。双方向同期、帯域制限、フィルタールール、オプションの Web UI 付きリモートコントロール API も備えています。よくある用途はクラウド間の移行、オフサイトバックアップ、サーバーからのクラウドドライブ利用です。フラグと設定ファイルで操作する上級者向けのツールで、プロバイダーごとに提供機能が異なるため、バックエンドによって挙動に差があります。",
+      "keywords": [
+        "クラウドストレージ",
+        "ファイル同期",
+        "S3",
+        "FUSE マウント",
+        "暗号化",
+        "CLI"
+      ],
+      "rationale": "クラウドストレージ間でデータを動かすための事実上の標準 CLI です。カタログのストレージ系プロジェクトは主にデータを保存する側なので、それらをつなぐ rclone が補完になります。"
+    },
+    "zh-CN": {
+      "description": "一款命令行工具，可在数十种云存储服务和协议之间复制、同步、挂载和提供文件，常被称为“云端的 rsync”。面向需要在不同云之间迁移数据的管理员和高级用户。",
+      "longDescription": "rclone 是一个用于管理云端和远程存储上文件的命令行程序。你可以把 S3 兼容对象存储、Google Drive、Dropbox、OneDrive、Backblaze B2、SFTP、WebDAV 等服务配置为“remote”，然后用同一套命令在任意两个存储之间，或与本地磁盘之间列出、复制、移动、同步和校验文件。只要后端支持，传输就会用校验和进行验证；在可行时还会使用服务端复制，避免先把数据下载下来。\n\n除了普通传输，rclone 还能通过 FUSE 把远程存储挂载为本地文件系统，通过 HTTP、WebDAV、SFTP、FTP 或 S3 对外提供远程存储，并且可以在其他 remote 之上叠加虚拟 remote，例如加密文件内容和文件名、合并多个 remote 或把大文件分块。它还支持双向同步、带宽限制、过滤规则，以及带可选 Web UI 的远程控制 API。常见用途包括云到云迁移、异地备份，以及在服务器上访问云盘。它是依靠命令行参数和配置文件操作的高级用户工具，而且各家服务商提供的功能不同，不同后端的行为也会有差异。",
+      "keywords": [
+        "云存储",
+        "文件同步",
+        "S3",
+        "FUSE 挂载",
+        "加密",
+        "命令行"
+      ],
+      "rationale": "在各类云存储之间迁移数据的事实标准 CLI；目录中的存储项目大多负责保存数据，而 rclone 负责在它们之间搬运，形成补充。"
+    },
+    "es": {
+      "description": "Herramienta de línea de comandos para copiar, sincronizar, montar y servir archivos entre decenas de proveedores de almacenamiento en la nube y protocolos; a menudo se la llama el rsync de la nube. Para administradores y usuarios avanzados que mueven datos entre nubes.",
+      "longDescription": "rclone es un programa de línea de comandos para gestionar archivos en almacenamiento remoto y en la nube. Configuras \"remotos\" para servicios como almacenes de objetos compatibles con S3, Google Drive, Dropbox, OneDrive, Backblaze B2, SFTP o WebDAV y después usas un mismo conjunto de comandos para listar, copiar, mover, sincronizar y verificar archivos entre dos cualesquiera de ellos o con el disco local. Las transferencias se comprueban con sumas de verificación cuando el backend lo permite, y se recurre a copias del lado del servidor siempre que es posible para no descargar los datos.\n\nAdemás de las transferencias, rclone puede montar un remoto como sistema de archivos local mediante FUSE, servirlo por HTTP, WebDAV, SFTP, FTP o S3 y apilar remotos virtuales sobre otros, por ejemplo para cifrar el contenido y los nombres de los archivos, combinar varios remotos o trocear archivos grandes. También ofrece sincronización bidireccional, límites de ancho de banda, reglas de filtrado y una API de control remoto con interfaz web opcional. Se usa a menudo para migraciones entre nubes, copias de seguridad externas y acceso a unidades en la nube desde servidores. Es una herramienta para usuarios avanzados basada en opciones y archivos de configuración, y su comportamiento varía según el backend porque cada proveedor ofrece funciones distintas.",
+      "keywords": [
+        "almacenamiento en la nube",
+        "sincronización de archivos",
+        "S3",
+        "montaje FUSE",
+        "cifrado",
+        "CLI"
+      ],
+      "rationale": "La CLI de referencia para mover datos entre servicios de almacenamiento en la nube; complementa a los proyectos de almacenamiento del catálogo, que en su mayoría guardan datos en lugar de trasladarlos."
+    },
+    "de": {
+      "description": "Kommandozeilenwerkzeug zum Kopieren, Synchronisieren, Einhängen und Bereitstellen von Dateien über Dutzende Cloud-Speicher und Protokolle hinweg, oft als rsync für die Cloud bezeichnet. Für Admins und Power-User, die Daten zwischen Clouds bewegen.",
+      "longDescription": "rclone ist ein Kommandozeilenprogramm zur Verwaltung von Dateien in Cloud- und Remote-Speichern. Du richtest „Remotes“ für Dienste wie S3-kompatible Object Stores, Google Drive, Dropbox, OneDrive, Backblaze B2, SFTP oder WebDAV ein und nutzt dann einen einheitlichen Befehlssatz, um Dateien zwischen zwei beliebigen davon oder mit der lokalen Festplatte aufzulisten, zu kopieren, zu verschieben, zu synchronisieren und zu prüfen. Übertragungen werden per Prüfsumme verifiziert, sofern das Backend das unterstützt, und wo möglich kommen serverseitige Kopien zum Einsatz, damit keine Daten heruntergeladen werden müssen.\n\nÜber reine Transfers hinaus kann rclone ein Remote per FUSE als lokales Dateisystem einhängen, es über HTTP, WebDAV, SFTP, FTP oder S3 bereitstellen und virtuelle Remotes über andere legen – etwa um Dateiinhalte und -namen zu verschlüsseln, mehrere Remotes zusammenzufassen oder große Dateien aufzuteilen. Dazu kommen bidirektionale Synchronisation, Bandbreitenlimits, Filterregeln und eine Remote-Control-API mit optionaler Weboberfläche. Typische Einsätze sind Migrationen von Cloud zu Cloud, Offsite-Backups und der Zugriff auf Cloud-Laufwerke von Servern aus. Es ist ein Werkzeug für Power-User, das über Flags und Konfigurationsdateien gesteuert wird, und das Verhalten unterscheidet sich je nach Backend, weil jeder Anbieter andere Funktionen bietet.",
+      "keywords": [
+        "Cloud-Speicher",
+        "Dateisynchronisation",
+        "S3",
+        "FUSE-Mount",
+        "Verschlüsselung",
+        "CLI"
+      ],
+      "rationale": "Die maßgebliche CLI, um Daten zwischen Cloud-Speichern zu bewegen; sie ergänzt die Storage-Projekte im Katalog, die überwiegend Daten speichern statt sie zu transportieren."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2014-03-16",
+      "archived": false,
+      "openIssuesCount": 1368,
+      "stargazersCount": 61332,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 87,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The go-to CLI for moving data between cloud storage services; complements the catalog's storage projects, which mostly store data rather than move it."
+    },
+    "flag": "ok"
+  }
+}

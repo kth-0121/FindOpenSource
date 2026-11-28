@@ -1,0 +1,118 @@
+{
+  "name": "Drizzle ORM",
+  "slug": "drizzle-orm",
+  "description": "Lightweight TypeScript ORM with zero dependencies that lets you define schemas in code and write SQL-like or relational queries with full type safety. Built for PostgreSQL, MySQL and SQLite, including serverless and edge database providers.",
+  "repository": "https://github.com/drizzle-team/drizzle-orm",
+  "website": "https://orm.drizzle.team",
+  "documentation": "https://orm.drizzle.team/docs/overview",
+  "categories": [
+    "database",
+    "developer-tools"
+  ],
+  "keywords": [
+    "orm",
+    "typescript",
+    "sql",
+    "type safety",
+    "serverless",
+    "database migrations"
+  ],
+  "longDescription": "Drizzle ORM is a thin, typed layer over SQL for TypeScript and JavaScript. Tables are declared as TypeScript code rather than in a separate schema language, and queries are written with a builder that mirrors SQL closely, so developers who know SQL can predict the statement that will run. A second, relational query API fetches nested data without manual joins. The package has no runtime dependencies or native binaries, which keeps it small enough for serverless functions and edge runtimes.\n\nIt supports PostgreSQL, MySQL and SQLite plus hosted providers such as Neon, PlanetScale, Turso, Supabase and Cloudflare D1, and runs on Node.js, Bun, Deno and Cloudflare Workers. The companion Drizzle Kit CLI generates and applies migrations from schema changes, and Drizzle Studio offers a browser view of the data. Its SQL-first style suits teams that want control over queries; those preferring a higher-level abstraction may favor alternatives. Stable releases are still on the 0.x line with 1.0 in release candidates, so upgrades can bring breaking changes.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "drizzle-orm",
+      "drizzle-kit"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "의존성이 전혀 없는 가벼운 TypeScript ORM으로, 스키마를 코드로 정의하고 SQL과 비슷한 쿼리나 관계형 쿼리를 완전한 타입 안전성과 함께 작성할 수 있습니다. 서버리스·엣지 데이터베이스 서비스를 포함해 PostgreSQL, MySQL, SQLite를 위해 만들어졌습니다.",
+      "longDescription": "Drizzle ORM은 TypeScript와 JavaScript를 위한 얇고 타입이 지정된 SQL 위의 계층입니다. 테이블은 별도의 스키마 언어가 아니라 TypeScript 코드로 선언하고, 쿼리는 SQL을 거의 그대로 닮은 빌더로 작성하므로 SQL을 아는 개발자라면 실제로 실행될 구문을 쉽게 예상할 수 있습니다. 두 번째 방식인 관계형 쿼리 API를 쓰면 직접 조인을 작성하지 않고도 중첩된 데이터를 가져올 수 있습니다. 런타임 의존성이나 네이티브 바이너리가 없어서 서버리스 함수와 엣지 런타임에 넣기에도 충분히 가볍습니다.\n\nPostgreSQL, MySQL, SQLite는 물론 Neon, PlanetScale, Turso, Supabase, Cloudflare D1 같은 호스팅 서비스를 지원하며, Node.js, Bun, Deno, Cloudflare Workers에서 동작합니다. 함께 제공되는 Drizzle Kit CLI는 스키마 변경으로부터 마이그레이션을 생성하고 적용하며, Drizzle Studio로 브라우저에서 데이터를 살펴볼 수 있습니다. SQL 중심 스타일이라 쿼리를 직접 통제하고 싶은 팀에 잘 맞고, 더 높은 수준의 추상화를 선호한다면 다른 선택지가 나을 수 있습니다. 안정 버전은 아직 0.x이고 1.0은 릴리스 후보 단계이므로, 업그레이드 시 호환성이 깨지는 변경이 있을 수 있습니다.",
+      "keywords": [
+        "orm",
+        "typescript",
+        "sql",
+        "타입 안전성",
+        "서버리스",
+        "데이터베이스 마이그레이션"
+      ],
+      "rationale": "서버리스와 엣지 환경에 강한 가벼운 SQL 중심 TypeScript ORM으로, Prisma와는 결이 다른 대안이자 강력한 선택지입니다."
+    },
+    "ja": {
+      "description": "依存関係ゼロの軽量な TypeScript ORM で、スキーマをコードで定義し、SQL ライクなクエリやリレーショナルクエリを完全な型安全性とともに書けます。サーバーレスやエッジ向けのデータベースサービスを含む PostgreSQL、MySQL、SQLite 向けに作られています。",
+      "longDescription": "Drizzle ORM は、TypeScript と JavaScript のための薄く型付けされた SQL 上のレイヤーです。テーブルは別のスキーマ言語ではなく TypeScript のコードとして宣言し、クエリは SQL にほぼそのまま対応するビルダーで書くため、SQL を知っている開発者なら実際に実行される文を容易に予想できます。もうひとつのリレーショナルクエリ API を使えば、手動で JOIN を書かずにネストしたデータを取得できます。ランタイム依存もネイティブバイナリもないので、サーバーレス関数やエッジランタイムにも載せやすい軽さです。\n\nPostgreSQL、MySQL、SQLite に加え、Neon、PlanetScale、Turso、Supabase、Cloudflare D1 などのホスト型サービスに対応し、Node.js、Bun、Deno、Cloudflare Workers で動作します。付属の Drizzle Kit CLI はスキーマの変更からマイグレーションを生成・適用し、Drizzle Studio ではブラウザーからデータを確認できます。SQL ファーストのスタイルはクエリを自分で制御したいチームに向いており、より高水準の抽象化を好むなら別の選択肢が合うかもしれません。安定版はまだ 0.x 系で 1.0 はリリース候補の段階のため、アップグレード時に破壊的変更が入ることがあります。",
+      "keywords": [
+        "orm",
+        "typescript",
+        "sql",
+        "型安全",
+        "サーバーレス",
+        "データベースマイグレーション"
+      ],
+      "rationale": "サーバーレスやエッジに強い軽量な SQL ファーストの TypeScript ORM で、Prisma とは異なる方向性を持つ有力な選択肢です。"
+    },
+    "zh-CN": {
+      "description": "一个零依赖的轻量 TypeScript ORM，可以用代码定义模式，并以完整的类型安全编写类 SQL 查询或关系查询。专为 PostgreSQL、MySQL 和 SQLite 打造，也支持无服务器和边缘数据库服务。",
+      "longDescription": "Drizzle ORM 是为 TypeScript 和 JavaScript 提供的一层轻薄、带类型的 SQL 封装。表结构直接用 TypeScript 代码声明，而不是写在单独的模式语言里；查询通过与 SQL 高度对应的构建器编写，熟悉 SQL 的开发者可以很容易预判最终执行的语句。另一套关系查询 API 则可以在不手写连接的情况下获取嵌套数据。它没有运行时依赖和原生二进制文件，足够轻巧，适合放进无服务器函数和边缘运行时。\n\n它支持 PostgreSQL、MySQL 和 SQLite，以及 Neon、PlanetScale、Turso、Supabase、Cloudflare D1 等托管服务，可运行在 Node.js、Bun、Deno 和 Cloudflare Workers 上。配套的 Drizzle Kit CLI 能根据模式变更生成并应用迁移，Drizzle Studio 则提供在浏览器中查看数据的界面。这种 SQL 优先的风格适合希望掌控查询的团队；更喜欢高层抽象的团队可能会倾向其他方案。目前稳定版本仍处于 0.x 系列，1.0 还在候选发布阶段，升级时可能会遇到不兼容的变更。",
+      "keywords": [
+        "orm",
+        "typescript",
+        "sql",
+        "类型安全",
+        "无服务器",
+        "数据库迁移"
+      ],
+      "rationale": "轻量、SQL 优先的 TypeScript ORM，在无服务器和边缘场景中表现突出；是与 Prisma 思路不同的有力替代选择。"
+    },
+    "es": {
+      "description": "ORM ligero de TypeScript sin dependencias que permite definir esquemas en código y escribir consultas tipo SQL o relacionales con tipado seguro completo. Diseñado para PostgreSQL, MySQL y SQLite, incluidos los proveedores de bases de datos serverless y edge.",
+      "longDescription": "Drizzle ORM es una capa fina y tipada sobre SQL para TypeScript y JavaScript. Las tablas se declaran como código TypeScript en lugar de en un lenguaje de esquema aparte, y las consultas se escriben con un constructor que refleja SQL muy de cerca, de modo que quien conoce SQL puede prever la sentencia que se ejecutará. Una segunda API de consultas relacionales obtiene datos anidados sin escribir joins a mano. El paquete no tiene dependencias en tiempo de ejecución ni binarios nativos, lo que lo mantiene lo bastante pequeño para funciones serverless y entornos edge.\n\nAdmite PostgreSQL, MySQL y SQLite, además de proveedores alojados como Neon, PlanetScale, Turso, Supabase y Cloudflare D1, y funciona en Node.js, Bun, Deno y Cloudflare Workers. La CLI complementaria Drizzle Kit genera y aplica migraciones a partir de los cambios de esquema, y Drizzle Studio ofrece una vista de los datos en el navegador. Su estilo centrado en SQL conviene a equipos que quieren controlar sus consultas; quienes prefieren una abstracción de más alto nivel quizá elijan otras opciones. Las versiones estables siguen en la serie 0.x, con la 1.0 en fase de release candidate, así que las actualizaciones pueden traer cambios incompatibles.",
+      "keywords": [
+        "orm",
+        "typescript",
+        "sql",
+        "seguridad de tipos",
+        "serverless",
+        "migraciones de base de datos"
+      ],
+      "rationale": "ORM de TypeScript ligero y centrado en SQL, fuerte en entornos serverless y edge; una alternativa sólida con un enfoque distinto al de Prisma."
+    },
+    "de": {
+      "description": "Schlankes TypeScript-ORM ohne Abhängigkeiten, mit dem man Schemas im Code definiert und SQL-ähnliche oder relationale Abfragen vollständig typsicher schreibt. Gebaut für PostgreSQL, MySQL und SQLite, einschließlich Serverless- und Edge-Datenbankanbietern.",
+      "longDescription": "Drizzle ORM ist eine dünne, typisierte Schicht über SQL für TypeScript und JavaScript. Tabellen werden als TypeScript-Code deklariert statt in einer eigenen Schemasprache, und Abfragen entstehen mit einem Builder, der SQL eng nachbildet; wer SQL kennt, kann also vorhersagen, welche Anweisung ausgeführt wird. Eine zweite, relationale Query-API lädt verschachtelte Daten ohne handgeschriebene Joins. Das Paket hat keine Laufzeitabhängigkeiten und keine nativen Binärdateien und ist daher klein genug für Serverless-Funktionen und Edge-Runtimes.\n\nUnterstützt werden PostgreSQL, MySQL und SQLite sowie gehostete Anbieter wie Neon, PlanetScale, Turso, Supabase und Cloudflare D1; es läuft auf Node.js, Bun, Deno und Cloudflare Workers. Die begleitende Drizzle-Kit-CLI erzeugt und wendet Migrationen aus Schemaänderungen an, Drizzle Studio bietet eine Browseransicht der Daten. Der SQL-zentrierte Stil passt zu Teams, die Kontrolle über ihre Abfragen wollen; wer eine höhere Abstraktion bevorzugt, ist mit Alternativen eventuell besser bedient. Stabile Versionen liegen noch auf der 0.x-Linie, 1.0 befindet sich im Release-Candidate-Stadium, daher können Upgrades Breaking Changes mitbringen.",
+      "keywords": [
+        "orm",
+        "typescript",
+        "sql",
+        "Typsicherheit",
+        "Serverless",
+        "Datenbankmigrationen"
+      ],
+      "rationale": "Schlankes, SQL-zentriertes TypeScript-ORM mit Stärken bei Serverless und Edge; eine starke Alternative mit anderem Ansatz als Prisma."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-25",
+      "repoCreatedAt": "2021-06-24",
+      "archived": false,
+      "openIssuesCount": 2088,
+      "stargazersCount": 36419,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 87,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Lightweight SQL-first TypeScript ORM that is strong for serverless and edge use; a distinct, well-adopted alternative to Prisma rather than a duplicate."
+    },
+    "flag": "ok"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "name": "Next.js",
+  "slug": "nextjs",
+  "description": "React framework for building full-stack web applications, with file-based routing, server and client rendering, React Server Components and API endpoints in one project; maintained by Vercel.",
+  "repository": "https://github.com/vercel/next.js",
+  "website": "https://nextjs.org",
+  "documentation": "https://nextjs.org/docs",
+  "categories": [
+    "ui",
+    "backend"
+  ],
+  "keywords": [
+    "react framework",
+    "server-side rendering",
+    "static generation",
+    "react server components",
+    "full-stack",
+    "app router"
+  ],
+  "longDescription": "Next.js is a framework on top of React that handles the parts a React app needs beyond components: routing, rendering strategy, data fetching, bundling and deployment output. Routes are defined by the file system, and each page or layout can be rendered on the server per request, prerendered at build time or revalidated incrementally, so one codebase can mix static marketing pages with dynamic, personalized views.\n\nThe App Router builds on React Server Components, letting components fetch data on the server and stream HTML to the browser, while Server Actions and route handlers cover form submissions and API endpoints without a separate backend service. It also ships image and font optimization and Turbopack, a Rust-based bundler. Self-hosting on Node.js or as a static export is supported, but some features take extra configuration outside Vercel's platform, and the framework's caching and rendering model has a real learning curve. Complex backends still usually live in dedicated services.",
+  "languages": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "next"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "파일 기반 라우팅, 서버·클라이언트 렌더링, React Server Components, API 엔드포인트를 한 프로젝트에서 다룰 수 있는 풀스택 웹 애플리케이션용 React 프레임워크로, Vercel이 관리합니다.",
+      "longDescription": "Next.js는 React 위에서 동작하는 프레임워크로, 컴포넌트 외에 React 앱에 필요한 라우팅, 렌더링 전략, 데이터 페칭, 번들링, 배포 산출물을 담당합니다. 라우트는 파일 시스템으로 정의하며, 각 페이지나 레이아웃을 요청마다 서버에서 렌더링하거나, 빌드 시점에 미리 렌더링하거나, 점진적으로 재검증할 수 있어 한 코드베이스 안에 정적인 마케팅 페이지와 동적인 개인화 화면을 섞을 수 있습니다.\n\nApp Router는 React Server Components를 기반으로 하여 컴포넌트가 서버에서 데이터를 가져오고 HTML을 브라우저로 스트리밍할 수 있게 하며, Server Actions와 라우트 핸들러로 별도 백엔드 서비스 없이 폼 제출과 API 엔드포인트를 처리합니다. 이미지·폰트 최적화와 Rust 기반 번들러인 Turbopack도 포함되어 있습니다. Node.js에서 직접 호스팅하거나 정적 내보내기로 배포할 수 있지만, Vercel 플랫폼 밖에서는 일부 기능에 추가 설정이 필요하고, 캐싱과 렌더링 모델은 익히는 데 상당한 시간이 듭니다. 복잡한 백엔드는 여전히 별도 서비스로 두는 경우가 많습니다.",
+      "keywords": [
+        "React 프레임워크",
+        "서버 사이드 렌더링",
+        "정적 생성",
+        "React Server Components",
+        "풀스택",
+        "App Router"
+      ],
+      "rationale": "풀스택 웹 앱에 가장 널리 쓰이는 React 프레임워크로, UI와 백엔드에 걸친 용도 모두에서 빠질 수 없는 대표 프로젝트입니다."
+    },
+    "ja": {
+      "description": "ファイルベースのルーティング、サーバー/クライアントレンダリング、React Server Components、API エンドポイントを一つのプロジェクトで扱える、フルスタック Web アプリ向けの React フレームワークです。Vercel がメンテナンスしています。",
+      "longDescription": "Next.js は React の上に構築されたフレームワークで、コンポーネント以外に React アプリが必要とするルーティング、レンダリング戦略、データ取得、バンドル、デプロイ用の出力を担います。ルートはファイルシステムで定義し、ページやレイアウトごとにリクエスト時のサーバーレンダリング、ビルド時のプリレンダリング、インクリメンタルな再検証を選べるため、一つのコードベースに静的なマーケティングページと動的でパーソナライズされた画面を共存させられます。\n\nApp Router は React Server Components を土台にしており、コンポーネントがサーバー側でデータを取得して HTML をブラウザへストリーミングできます。Server Actions とルートハンドラーにより、別のバックエンドサービスなしでフォーム送信や API エンドポイントにも対応します。画像・フォントの最適化や、Rust 製バンドラーの Turbopack も同梱されています。Node.js でのセルフホストや静的エクスポートにも対応していますが、Vercel 以外の環境では一部機能に追加設定が必要で、キャッシュとレンダリングのモデルには相応の学習コストがあります。複雑なバックエンドは今でも専用サービスに置くのが一般的です。",
+      "keywords": [
+        "React フレームワーク",
+        "サーバーサイドレンダリング",
+        "静的生成",
+        "React Server Components",
+        "フルスタック",
+        "App Router"
+      ],
+      "rationale": "フルスタック Web アプリで最も広く使われている React フレームワークで、UI とバックエンド寄りの用途の両方に欠かせない代表的プロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "用于构建全栈 Web 应用的 React 框架，在一个项目中提供基于文件的路由、服务端与客户端渲染、React Server Components 和 API 端点；由 Vercel 维护。",
+      "longDescription": "Next.js 是构建在 React 之上的框架，负责 React 应用在组件之外还需要的部分：路由、渲染策略、数据获取、打包和部署产物。路由由文件系统定义，每个页面或布局都可以按请求在服务端渲染、在构建时预渲染，或进行增量重新验证，因此同一个代码库里可以同时包含静态营销页面和动态的个性化页面。\n\nApp Router 基于 React Server Components，组件可以在服务端获取数据并把 HTML 流式传给浏览器；Server Actions 和路由处理器则无需单独的后端服务就能处理表单提交和 API 端点。它还内置了图片与字体优化，以及基于 Rust 的打包工具 Turbopack。支持在 Node.js 上自托管或以静态导出方式部署，但在 Vercel 平台之外，部分功能需要额外配置，而且其缓存与渲染模型有不小的学习成本。复杂的后端通常仍会放在独立的服务中。",
+      "keywords": [
+        "React 框架",
+        "服务端渲染",
+        "静态生成",
+        "React Server Components",
+        "全栈",
+        "App Router"
+      ],
+      "rationale": "全栈 Web 应用中使用最广泛的 React 框架；无论在 UI 还是偏后端的场景中都是不可或缺的代表项目。"
+    },
+    "es": {
+      "description": "Framework de React para crear aplicaciones web full-stack, con enrutado basado en archivos, renderizado en servidor y cliente, React Server Components y endpoints de API en un mismo proyecto; mantenido por Vercel.",
+      "longDescription": "Next.js es un framework sobre React que se ocupa de lo que una aplicación React necesita más allá de los componentes: enrutado, estrategia de renderizado, obtención de datos, empaquetado y salida para despliegue. Las rutas se definen mediante el sistema de archivos, y cada página o layout puede renderizarse en el servidor en cada petición, prerenderizarse al compilar o revalidarse de forma incremental, de modo que un mismo código puede mezclar páginas de marketing estáticas con vistas dinámicas y personalizadas.\n\nEl App Router se basa en React Server Components, lo que permite a los componentes obtener datos en el servidor y transmitir HTML al navegador, mientras que Server Actions y los route handlers cubren envíos de formularios y endpoints de API sin un servicio backend aparte. También incluye optimización de imágenes y fuentes, y Turbopack, un empaquetador escrito en Rust. Se puede autoalojar en Node.js o exportar como sitio estático, pero algunas funciones requieren configuración adicional fuera de la plataforma de Vercel, y su modelo de caché y renderizado tiene una curva de aprendizaje real. Los backends complejos suelen seguir viviendo en servicios dedicados.",
+      "keywords": [
+        "framework de React",
+        "renderizado en servidor",
+        "generación estática",
+        "React Server Components",
+        "full-stack",
+        "App Router"
+      ],
+      "rationale": "El framework de React más usado para aplicaciones web full-stack; representante esencial tanto para UI como para usos cercanos al backend."
+    },
+    "de": {
+      "description": "React-Framework für Full-Stack-Webanwendungen mit dateibasiertem Routing, Server- und Client-Rendering, React Server Components und API-Endpunkten in einem Projekt; gepflegt von Vercel.",
+      "longDescription": "Next.js ist ein Framework auf Basis von React, das übernimmt, was eine React-App jenseits von Komponenten braucht: Routing, Rendering-Strategie, Datenabruf, Bundling und Deployment-Ausgabe. Routen werden über das Dateisystem definiert, und jede Seite oder jedes Layout kann pro Anfrage auf dem Server gerendert, beim Build vorgerendert oder inkrementell revalidiert werden – so lassen sich statische Marketingseiten und dynamische, personalisierte Ansichten in einer Codebasis kombinieren.\n\nDer App Router baut auf React Server Components auf: Komponenten können Daten auf dem Server laden und HTML an den Browser streamen, während Server Actions und Route Handler Formularübermittlungen und API-Endpunkte ohne separaten Backend-Dienst abdecken. Dazu kommen Bild- und Schriftoptimierung sowie Turbopack, ein in Rust geschriebener Bundler. Selbst-Hosting auf Node.js oder ein statischer Export werden unterstützt, doch manche Funktionen brauchen außerhalb der Vercel-Plattform zusätzliche Konfiguration, und das Caching- und Rendering-Modell erfordert echte Einarbeitung. Komplexe Backends liegen meist weiterhin in eigenen Diensten.",
+      "keywords": [
+        "React-Framework",
+        "serverseitiges Rendering",
+        "statische Generierung",
+        "React Server Components",
+        "Full-Stack",
+        "App Router"
+      ],
+      "rationale": "Das meistgenutzte React-Framework für Full-Stack-Web-Apps; ein unverzichtbarer Vertreter für UI- wie backendnahe Einsätze."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2016-10-05",
+      "archived": false,
+      "openIssuesCount": 4156,
+      "stargazersCount": 143742,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most widely used React framework for full-stack web apps; an essential representative for both UI and backend-adjacent use."
+    },
+    "flag": "ok"
+  }
+}

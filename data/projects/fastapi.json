@@ -1,0 +1,117 @@
+{
+  "name": "FastAPI",
+  "slug": "fastapi",
+  "description": "Python web framework for building HTTP APIs from standard type hints, with automatic request validation, serialization and interactive OpenAPI documentation. Aimed at developers who want fast, typed API services with little boilerplate.",
+  "repository": "https://github.com/fastapi/fastapi",
+  "website": "https://fastapi.tiangolo.com",
+  "documentation": "https://fastapi.tiangolo.com/tutorial/",
+  "categories": [
+    "backend",
+    "api"
+  ],
+  "keywords": [
+    "python",
+    "rest api",
+    "openapi",
+    "async",
+    "pydantic",
+    "web framework"
+  ],
+  "longDescription": "FastAPI is a Python framework for building web APIs in which ordinary type hints do most of the work. You declare path, query and body parameters as annotated function arguments or Pydantic models, and the framework uses those declarations to parse and validate incoming data, convert responses and generate an OpenAPI schema. It runs on ASGI servers such as Uvicorn and builds on Starlette for the web layer, so both async and regular functions can serve as endpoints.\n\nBeyond routing, it offers a dependency injection system commonly used for database sessions, authentication and shared settings, security helpers for OAuth2 and API keys, and Swagger UI and ReDoc pages generated from the schema. Typical uses are JSON backends for web and mobile apps, internal microservices and serving machine learning models. It concentrates on the API layer: there is no bundled ORM, admin interface or project template system, so those pieces come from other libraries.",
+  "languages": [
+    "Python"
+  ],
+  "packages": {
+    "pypi": [
+      "fastapi"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "표준 타입 힌트만으로 HTTP API를 만드는 Python 웹 프레임워크로, 요청 검증, 직렬화, 대화형 OpenAPI 문서를 자동으로 제공합니다. 보일러플레이트 없이 빠르고 타입이 명확한 API 서비스를 원하는 개발자를 위한 도구입니다.",
+      "longDescription": "FastAPI는 평범한 타입 힌트가 대부분의 일을 해 주는 Python 웹 API 프레임워크입니다. 경로, 쿼리, 본문 파라미터를 타입이 지정된 함수 인자나 Pydantic 모델로 선언하면, 프레임워크가 그 선언을 바탕으로 들어오는 데이터를 파싱하고 검증하며, 응답을 변환하고 OpenAPI 스키마까지 생성합니다. Uvicorn 같은 ASGI 서버 위에서 동작하고 웹 계층은 Starlette를 기반으로 하므로, async 함수와 일반 함수 모두 엔드포인트로 쓸 수 있습니다.\n\n라우팅 외에도 데이터베이스 세션, 인증, 공통 설정 등에 흔히 쓰이는 의존성 주입 시스템, OAuth2와 API 키를 위한 보안 도우미, 스키마에서 자동 생성되는 Swagger UI와 ReDoc 페이지를 제공합니다. 웹·모바일 앱용 JSON 백엔드, 사내 마이크로서비스, 머신러닝 모델 서빙에 주로 쓰입니다. API 계층에 집중하기 때문에 ORM, 관리자 화면, 프로젝트 템플릿 시스템은 포함되어 있지 않으며 이런 부분은 다른 라이브러리로 채워야 합니다.",
+      "keywords": [
+        "python",
+        "rest api",
+        "openapi",
+        "비동기",
+        "pydantic",
+        "웹 프레임워크"
+      ],
+      "rationale": "현대 Python API 프레임워크의 대표 주자이자 타입 힌트 기반 개발을 정착시킨 프로젝트로, 카탈로그의 백엔드 프레임워크 공백을 분명하게 메워 줍니다."
+    },
+    "ja": {
+      "description": "標準の型ヒントから HTTP API を構築する Python の Web フレームワークで、リクエスト検証、シリアライズ、対話型の OpenAPI ドキュメントを自動で提供します。少ない定型コードで高速かつ型付きの API サービスを作りたい開発者向けです。",
+      "longDescription": "FastAPI は、普通の型ヒントが仕事の大半を担う Python の Web API フレームワークです。パス、クエリ、ボディのパラメータを型注釈付きの関数引数や Pydantic モデルとして宣言すると、フレームワークがその宣言をもとに受信データの解析と検証、レスポンスの変換、OpenAPI スキーマの生成を行います。Uvicorn などの ASGI サーバー上で動作し、Web 層には Starlette を利用しているため、async 関数でも通常の関数でもエンドポイントにできます。\n\nルーティング以外にも、データベースセッションや認証、共通設定によく使われる依存性注入の仕組み、OAuth2 や API キー向けのセキュリティヘルパー、スキーマから生成される Swagger UI と ReDoc のページを備えています。Web・モバイルアプリ向けの JSON バックエンド、社内マイクロサービス、機械学習モデルの提供といった用途が一般的です。API 層に特化しているため、ORM や管理画面、プロジェクトテンプレートの仕組みは同梱されておらず、それらは他のライブラリで補います。",
+      "keywords": [
+        "python",
+        "rest api",
+        "openapi",
+        "非同期",
+        "pydantic",
+        "Web フレームワーク"
+      ],
+      "rationale": "現代的な Python API フレームワークの代表格で、型ヒント駆動の開発を象徴するプロジェクトです。カタログのバックエンドフレームワークの空白を明確に埋めます。"
+    },
+    "zh-CN": {
+      "description": "一个基于标准类型提示构建 HTTP API 的 Python Web 框架，自动提供请求校验、序列化和交互式 OpenAPI 文档，适合希望用很少的样板代码写出高性能、类型明确的 API 服务的开发者。",
+      "longDescription": "FastAPI 是一个 Python Web API 框架，大部分工作都由普通的类型提示完成。你把路径、查询和请求体参数声明为带类型注解的函数参数或 Pydantic 模型，框架就会根据这些声明解析和校验传入数据、转换响应，并生成 OpenAPI 模式。它运行在 Uvicorn 等 ASGI 服务器上，Web 层基于 Starlette，因此异步函数和普通函数都可以作为端点。\n\n除了路由，它还提供依赖注入系统（常用于数据库会话、认证和共享配置）、面向 OAuth2 和 API 密钥的安全辅助工具，以及根据模式自动生成的 Swagger UI 和 ReDoc 页面。典型用途包括为 Web 和移动应用提供 JSON 后端、内部微服务以及机器学习模型服务。它专注于 API 层，不自带 ORM、管理后台或项目模板体系，这些需要借助其他库来补充。",
+      "keywords": [
+        "python",
+        "rest api",
+        "openapi",
+        "异步",
+        "pydantic",
+        "Web 框架"
+      ],
+      "rationale": "现代 Python API 框架的领军者，也是类型提示驱动开发的代表；明显填补了目录中后端框架的空缺。"
+    },
+    "es": {
+      "description": "Framework web de Python para crear APIs HTTP a partir de anotaciones de tipo estándar, con validación de peticiones, serialización y documentación OpenAPI interactiva automáticas. Pensado para quien quiere servicios de API rápidos y tipados con poco código repetitivo.",
+      "longDescription": "FastAPI es un framework de Python para crear APIs web en el que las anotaciones de tipo habituales hacen casi todo el trabajo. Declaras los parámetros de ruta, de consulta y del cuerpo como argumentos anotados o modelos de Pydantic, y el framework usa esas declaraciones para analizar y validar los datos entrantes, convertir las respuestas y generar un esquema OpenAPI. Se ejecuta sobre servidores ASGI como Uvicorn y se apoya en Starlette para la capa web, de modo que tanto funciones asíncronas como normales pueden actuar como endpoints.\n\nAdemás del enrutamiento, ofrece un sistema de inyección de dependencias que se usa a menudo para sesiones de base de datos, autenticación y configuración compartida, utilidades de seguridad para OAuth2 y claves de API, y páginas de Swagger UI y ReDoc generadas a partir del esquema. Se usa sobre todo para backends JSON de aplicaciones web y móviles, microservicios internos y para servir modelos de machine learning. Se centra en la capa de API: no incluye ORM, panel de administración ni sistema de plantillas de proyecto, así que esas piezas vienen de otras bibliotecas.",
+      "keywords": [
+        "python",
+        "api rest",
+        "openapi",
+        "asíncrono",
+        "pydantic",
+        "framework web"
+      ],
+      "rationale": "El framework de API moderno de referencia en Python y un ejemplo emblemático del desarrollo guiado por tipos; cubre un hueco claro entre los frameworks de backend del catálogo."
+    },
+    "de": {
+      "description": "Python-Webframework, das HTTP-APIs aus normalen Type Hints aufbaut und Request-Validierung, Serialisierung sowie interaktive OpenAPI-Dokumentation automatisch mitliefert. Für Entwickler, die schnelle, typisierte API-Dienste mit wenig Boilerplate wollen.",
+      "longDescription": "FastAPI ist ein Python-Framework für Web-APIs, bei dem gewöhnliche Type Hints den Großteil der Arbeit erledigen. Pfad-, Query- und Body-Parameter werden als annotierte Funktionsargumente oder Pydantic-Modelle deklariert; daraus parst und validiert das Framework eingehende Daten, wandelt Antworten um und erzeugt ein OpenAPI-Schema. Es läuft auf ASGI-Servern wie Uvicorn und nutzt Starlette als Web-Schicht, sodass sowohl asynchrone als auch normale Funktionen als Endpunkte dienen können.\n\nNeben dem Routing bietet es ein Dependency-Injection-System, das häufig für Datenbank-Sessions, Authentifizierung und gemeinsame Einstellungen genutzt wird, Sicherheitshelfer für OAuth2 und API-Keys sowie aus dem Schema generierte Swagger-UI- und ReDoc-Seiten. Typische Einsätze sind JSON-Backends für Web- und Mobile-Apps, interne Microservices und das Bereitstellen von Machine-Learning-Modellen. Der Fokus liegt auf der API-Schicht: ORM, Admin-Oberfläche oder ein Projektvorlagen-System sind nicht enthalten und kommen aus anderen Bibliotheken.",
+      "keywords": [
+        "python",
+        "rest-api",
+        "openapi",
+        "asynchron",
+        "pydantic",
+        "Webframework"
+      ],
+      "rationale": "Das führende moderne Python-API-Framework und ein Paradebeispiel für Type-Hint-getriebene Entwicklung; schließt eine klare Lücke bei den Backend-Frameworks im Katalog."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-24",
+      "repoCreatedAt": "2018-12-08",
+      "archived": false,
+      "openIssuesCount": 49,
+      "stargazersCount": 104985,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The leading modern Python API framework and a defining example of type-hint-driven development; fills a clear gap among backend frameworks in the catalog."
+    },
+    "flag": "ok"
+  }
+}

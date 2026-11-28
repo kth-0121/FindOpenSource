@@ -1,0 +1,112 @@
+{
+  "name": "Neovim",
+  "slug": "neovim",
+  "description": "Extensible Vim-based text editor that adds a built-in Lua runtime, language server client and Tree-sitter parsing, for developers who want a fast, keyboard-driven terminal editor they can shape into a full IDE.",
+  "repository": "https://github.com/neovim/neovim",
+  "website": "https://neovim.io",
+  "documentation": "https://neovim.io/doc/",
+  "categories": [
+    "developer-tools"
+  ],
+  "keywords": [
+    "text editor",
+    "vim",
+    "lua",
+    "terminal",
+    "language server",
+    "tree-sitter"
+  ],
+  "longDescription": "Neovim is a fork of Vim that set out to refactor the codebase, make the editor easier to maintain and embed, and open it up to modern plugin development. It keeps most Vim editing habits and Vimscript configuration working, while making Lua a first-class language for configuration and plugins and exposing a msgpack-based RPC API so external programs and graphical front ends can drive the editor.\n\nOut of the box it ships a Language Server Protocol client, Tree-sitter integration for syntax highlighting and code structure, asynchronous job control and a built-in terminal emulator. A large plugin ecosystem builds on these pieces for completion, fuzzy finding, debugging and Git integration, and community distributions offer preconfigured setups. The trade-off is that much of the IDE-like experience depends on assembling and maintaining your own configuration, which takes time to learn.",
+  "languages": [
+    "Vim Script",
+    "Lua"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Lua 런타임, 언어 서버 클라이언트, Tree-sitter 파싱을 내장한 확장 가능한 Vim 기반 텍스트 에디터입니다. 빠르고 키보드 중심인 터미널 에디터를 원하는 만큼 다듬어 완전한 IDE처럼 쓰고 싶은 개발자에게 맞습니다.",
+      "longDescription": "Neovim은 Vim에서 갈라져 나온 프로젝트로, 코드베이스를 리팩터링해 유지보수와 임베딩을 쉽게 하고 현대적인 플러그인 개발이 가능하도록 에디터를 여는 것을 목표로 삼았습니다. Vim의 편집 습관과 Vimscript 설정은 대부분 그대로 쓸 수 있으면서, Lua를 설정과 플러그인의 일급 언어로 삼고, 외부 프로그램과 GUI 프런트엔드가 에디터를 제어할 수 있도록 msgpack 기반 RPC API를 제공합니다.\n\n기본으로 Language Server Protocol 클라이언트, 문법 강조와 코드 구조 분석을 위한 Tree-sitter 통합, 비동기 작업 제어, 내장 터미널 에뮬레이터를 갖추고 있습니다. 이를 바탕으로 자동 완성, 퍼지 검색, 디버깅, Git 연동 등을 위한 방대한 플러그인 생태계가 형성되어 있고, 미리 구성된 커뮤니티 배포판도 있습니다. 다만 IDE 수준의 경험을 얻으려면 직접 설정을 꾸리고 관리해야 하는 부분이 많아 익히는 데 시간이 걸립니다.",
+      "keywords": [
+        "텍스트 에디터",
+        "Vim",
+        "Lua",
+        "터미널",
+        "언어 서버",
+        "Tree-sitter"
+      ],
+      "rationale": "가장 널리 쓰이는 현대적 Vim 계열 에디터이자 카탈로그의 첫 텍스트 에디터로, developer-tools 분야를 대표하는 프로젝트입니다."
+    },
+    "ja": {
+      "description": "Lua ランタイム、言語サーバークライアント、Tree-sitter による構文解析を内蔵した拡張性の高い Vim ベースのテキストエディターです。高速でキーボード中心のターミナルエディターを、本格的な IDE に育てたい開発者向けです。",
+      "longDescription": "Neovim は Vim からフォークしたプロジェクトで、コードベースをリファクタリングして保守や組み込みをしやすくし、モダンなプラグイン開発に開かれたエディターにすることを目指して始まりました。Vim の操作感や Vimscript の設定はほぼそのまま使える一方、Lua を設定とプラグインの第一級の言語として扱い、外部プログラムや GUI フロントエンドからエディターを操作できる msgpack ベースの RPC API を公開しています。\n\n標準で Language Server Protocol クライアント、シンタックスハイライトやコード構造の把握に使う Tree-sitter 統合、非同期ジョブ制御、組み込みのターミナルエミュレーターを備えています。これらを土台に、補完、ファジー検索、デバッグ、Git 連携などの豊富なプラグインエコシステムが育っており、設定済みのコミュニティ配布版もあります。ただし IDE のような使い心地の多くは自分で設定を組み立てて保守することに依存しており、習得には時間がかかります。",
+      "keywords": [
+        "テキストエディター",
+        "Vim",
+        "Lua",
+        "ターミナル",
+        "言語サーバー",
+        "Tree-sitter"
+      ],
+      "rationale": "最も広く使われているモダンな Vim 系エディターで、カタログ初のテキストエディターです。developer-tools を代表するプロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "基于 Vim 的可扩展文本编辑器，内置 Lua 运行时、语言服务器客户端和 Tree-sitter 解析，适合想要一款快速、以键盘为中心、可逐步打造成完整 IDE 的终端编辑器的开发者。",
+      "longDescription": "Neovim 是 Vim 的一个分支，初衷是重构代码库，让编辑器更易于维护和嵌入，并向现代插件开发敞开大门。它保留了绝大多数 Vim 编辑习惯和 Vimscript 配置的可用性，同时把 Lua 作为配置和插件的一等语言，并提供基于 msgpack 的 RPC API，让外部程序和图形前端可以驱动编辑器。\n\n它开箱即带 Language Server Protocol 客户端、用于语法高亮和代码结构分析的 Tree-sitter 集成、异步任务控制以及内置终端模拟器。围绕这些能力形成了庞大的插件生态，涵盖补全、模糊查找、调试和 Git 集成等，社区也提供了预先配置好的发行版。代价是，许多类似 IDE 的体验需要自己组装和维护配置，学习成本不低。",
+      "keywords": [
+        "文本编辑器",
+        "Vim",
+        "Lua",
+        "终端",
+        "语言服务器",
+        "Tree-sitter"
+      ],
+      "rationale": "使用最广泛的现代 Vim 系编辑器，也是目录中的第一款文本编辑器，是 developer-tools 分类的代表性项目。"
+    },
+    "es": {
+      "description": "Editor de texto extensible basado en Vim que incorpora un runtime de Lua, un cliente de servidores de lenguaje y análisis con Tree-sitter, para quien quiere un editor de terminal rápido, manejado con teclado y moldeable hasta convertirlo en un IDE completo.",
+      "longDescription": "Neovim es un fork de Vim que nació para refactorizar el código, hacer el editor más fácil de mantener e integrar y abrirlo al desarrollo moderno de plugins. Mantiene la mayoría de los hábitos de edición de Vim y la configuración en Vimscript, a la vez que convierte Lua en un lenguaje de primera clase para configuración y plugins y expone una API RPC basada en msgpack para que programas externos e interfaces gráficas puedan controlar el editor.\n\nDe serie incluye un cliente de Language Server Protocol, integración con Tree-sitter para el resaltado de sintaxis y la estructura del código, control asíncrono de tareas y un emulador de terminal integrado. Sobre estas piezas se apoya un amplio ecosistema de plugins para autocompletado, búsqueda difusa, depuración e integración con Git, y la comunidad ofrece distribuciones ya configuradas. La contrapartida es que buena parte de la experiencia de IDE depende de montar y mantener tu propia configuración, algo que lleva tiempo aprender.",
+      "keywords": [
+        "editor de texto",
+        "Vim",
+        "Lua",
+        "terminal",
+        "servidor de lenguaje",
+        "Tree-sitter"
+      ],
+      "rationale": "El editor moderno basado en Vim más utilizado y el primer editor de texto del catálogo; un proyecto representativo de developer-tools."
+    },
+    "de": {
+      "description": "Erweiterbarer Texteditor auf Vim-Basis mit eingebauter Lua-Runtime, Language-Server-Client und Tree-sitter-Parsing – für Entwickler, die einen schnellen, tastaturgesteuerten Terminal-Editor zu einer vollwertigen IDE ausbauen wollen.",
+      "longDescription": "Neovim ist ein Fork von Vim, der antrat, um die Codebasis zu überarbeiten, den Editor leichter wartbar und einbettbar zu machen und ihn für moderne Plugin-Entwicklung zu öffnen. Die meisten Vim-Gewohnheiten und Vimscript-Konfigurationen funktionieren weiterhin, zugleich ist Lua eine vollwertige Sprache für Konfiguration und Plugins, und eine msgpack-basierte RPC-API erlaubt es externen Programmen und grafischen Frontends, den Editor zu steuern.\n\nAb Werk bringt Neovim einen Language-Server-Protocol-Client, Tree-sitter-Integration für Syntaxhervorhebung und Codestruktur, asynchrone Job-Steuerung und einen eingebauten Terminal-Emulator mit. Darauf baut ein großes Plugin-Ökosystem für Vervollständigung, Fuzzy-Suche, Debugging und Git-Integration auf, und Community-Distributionen liefern vorkonfigurierte Setups. Der Preis dafür: Ein Großteil des IDE-Gefühls hängt davon ab, die eigene Konfiguration zusammenzustellen und zu pflegen, was Einarbeitungszeit kostet.",
+      "keywords": [
+        "Texteditor",
+        "Vim",
+        "Lua",
+        "Terminal",
+        "Language Server",
+        "Tree-sitter"
+      ],
+      "rationale": "Der meistgenutzte moderne Vim-basierte Editor und der erste Texteditor im Katalog; ein repräsentatives Projekt für developer-tools."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2014-01-31",
+      "archived": false,
+      "openIssuesCount": 1968,
+      "stargazersCount": 103891,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 93,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most widely used modern Vim-based editor and the first text editor in the catalog; a representative developer-tools project."
+    },
+    "flag": "ok"
+  }
+}
