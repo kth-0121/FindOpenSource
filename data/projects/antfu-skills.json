@@ -1,0 +1,116 @@
+{
+  "name": "Anthony Fu Skills",
+  "slug": "antfu-skills",
+  "description": "Anthony Fu's curated Agent Skills for the Vue, Vite and modern TypeScript ecosystem, plus his own workflow skills for issues and pull requests.",
+  "longDescription": "Anthony Fu's collection mixes two kinds of skills. Eight are generated from official documentation: vue, nuxt, pinia, vite, vitepress, vitest, unocss and pnpm. The repo clones each project's docs and builds the skills from them, so they can track upstream, leaning toward TypeScript, ESM and the Composition API. The rest are written by hand: antfu captures his conventions for ESLint, pnpm, monorepos and library publishing, while antfu-create-pr, antfu-issue-triage, antfu-upgrade-deps, antfu-simplify and antfu-query cover a maintainer's routine: opening PRs, triaging issues, upgrading dependencies with taze, trimming diffs and grilling you about a plan.\n\nInstall the generated skills if you use Vue, Nuxt or Vite tooling, and the hand-written ones if his conventions suit you. The README calls the project a proof of concept whose skills haven't been fully tested in practice. The recommended install, the @antfu/skills pack via skills-npm, also bundles skills by other authors.",
+  "repository": "https://github.com/antfu/skills",
+  "website": "https://skills.sh/antfu/skills",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "vue",
+    "vite",
+    "nuxt",
+    "vitest",
+    "typescript"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Anthony Fu가 엄선한 Vue, Vite, 모던 TypeScript 생태계용 Agent Skills와, 이슈·풀 리퀘스트를 위한 그의 워크플로 스킬.",
+      "longDescription": "Anthony Fu의 모음에는 두 종류의 스킬이 섞여 있습니다. 여덟 개는 공식 문서에서 생성한 것으로 vue, nuxt, pinia, vite, vitepress, vitest, unocss, pnpm입니다. 저장소가 각 프로젝트의 문서를 클론해 스킬을 만들기 때문에 업스트림 변경을 따라갈 수 있고, TypeScript, ESM, Composition API 쪽에 무게가 실려 있습니다. 나머지는 직접 작성한 스킬입니다. antfu는 ESLint, pnpm, 모노레포, 라이브러리 배포에 대한 그의 규칙을 담고 있고, antfu-create-pr, antfu-issue-triage, antfu-upgrade-deps, antfu-simplify, antfu-query는 PR 열기, 이슈 분류, taze를 이용한 의존성 업그레이드, 꼭 필요한 부분만 남기도록 diff 줄이기, 계획에 대해 사용자에게 꼬치꼬치 묻기 같은 메인테이너의 일상을 다룹니다.\n\nVue, Nuxt, Vite 도구로 작업한다면 생성된 스킬을, 그의 규칙이 마음에 든다면 직접 작성한 스킬을 설치하세요. README는 이 프로젝트를 스킬이 실제로 충분히 검증되지 않은 개념 증명이라고 설명합니다. 권장 설치 방법은 skills-npm으로 @antfu/skills 팩을 설치하는 것이며, 이 팩에는 다른 작성자의 스킬도 들어 있습니다.",
+      "keywords": [
+        "에이전트 스킬",
+        "Vue",
+        "Vite",
+        "Nuxt",
+        "Vitest",
+        "TypeScript"
+      ],
+      "rationale": "Vue·Vite 생태계 문서에서 생성한 스킬과 유명 메인테이너의 워크플로 스킬을 담았습니다. 스스로 아직 충분히 검증되지 않은 개념 증명이라고 밝힙니다."
+    },
+    "ja": {
+      "description": "Anthony Fu が厳選した Vue、Vite、モダンな TypeScript エコシステム向けの Agent Skills と、issue やプルリクエストのための本人のワークフロースキル。",
+      "longDescription": "Anthony Fu のスキル集には二種類のスキルが混ざっています。八つは公式ドキュメントから生成したもので、vue、nuxt、pinia、vite、vitepress、vitest、unocss、pnpm です。リポジトリが各プロジェクトのドキュメントをクローンしてスキルを作るため、上流の変更に追従でき、TypeScript、ESM、Composition API 寄りの内容になっています。残りは手書きのスキルです。antfu は ESLint、pnpm、モノレポ、ライブラリ公開についての彼の流儀をまとめ、antfu-create-pr、antfu-issue-triage、antfu-upgrade-deps、antfu-simplify、antfu-query は、PR の作成、issue のトリアージ、taze を使った依存関係の更新、diff を本当に必要な部分だけに絞ること、計画について徹底的に質問することといった、メンテナーの日常業務を扱います。\n\nVue、Nuxt、Vite まわりのツールを使うなら生成されたスキルを、彼の流儀が合うなら手書きのスキルを入れましょう。README はこのプロジェクトを、スキルが実際には十分に検証されていない概念実証だと説明しています。推奨されるインストール方法は skills-npm で @antfu/skills パックを入れることで、このパックにはほかの作者のスキルも含まれます。",
+      "keywords": [
+        "エージェントスキル",
+        "Vue",
+        "Vite",
+        "Nuxt",
+        "Vitest",
+        "TypeScript"
+      ],
+      "rationale": "Vue と Vite のエコシステムのドキュメントから生成したスキルと、著名なメンテナーのワークフロースキルを収録。本人はまだ十分に検証されていない概念実証だとしています。"
+    },
+    "zh-CN": {
+      "description": "Anthony Fu 精选的 Vue、Vite 和现代 TypeScript 生态 Agent Skills，外加他自己处理 issue 和拉取请求的工作流技能。",
+      "longDescription": "Anthony Fu 的技能集混合了两类技能。其中八个由官方文档生成：vue、nuxt、pinia、vite、vitepress、vitest、unocss 和 pnpm。仓库会克隆各项目的文档并据此生成技能，因此可以跟上上游的变化，内容偏向 TypeScript、ESM 和 Composition API。其余的是手写技能：antfu 记录了他在 ESLint、pnpm、monorepo 和库发布方面的约定，antfu-create-pr、antfu-issue-triage、antfu-upgrade-deps、antfu-simplify 和 antfu-query 则覆盖维护者的日常：提交 PR、分拣 issue、用 taze 升级依赖、把 diff 精简到真正需要的部分，以及就某个计划反复追问你。\n\n如果你使用 Vue、Nuxt 或 Vite 相关工具，就装生成的技能；如果认同他的约定，再装手写的技能。README 称这个项目是概念验证，技能尚未在实际中充分测试。推荐的安装方式是通过 skills-npm 安装 @antfu/skills 技能包，其中还收录了其他作者的技能。",
+      "keywords": [
+        "智能体技能",
+        "Vue",
+        "Vite",
+        "Nuxt",
+        "Vitest",
+        "TypeScript"
+      ],
+      "rationale": "由 Vue 和 Vite 生态官方文档生成的技能，加上一位知名维护者的工作流技能；作者自称这是尚未充分测试的概念验证。"
+    },
+    "es": {
+      "description": "Las Agent Skills que Anthony Fu selecciona para el ecosistema de Vue, Vite y TypeScript moderno, más sus propias skills de flujo de trabajo para issues y pull requests.",
+      "longDescription": "La colección de Anthony Fu mezcla dos tipos de skills. Ocho se generan a partir de la documentación oficial: vue, nuxt, pinia, vite, vitepress, vitest, unocss y pnpm. El repositorio clona la documentación de cada proyecto y construye las skills a partir de ella, de modo que pueden seguir los cambios de upstream, con preferencia por TypeScript, ESM y la Composition API. El resto están escritas a mano: antfu recoge sus convenciones para ESLint, pnpm, monorepos y publicación de librerías, mientras que antfu-create-pr, antfu-issue-triage, antfu-upgrade-deps, antfu-simplify y antfu-query cubren la rutina de un mantenedor: abrir PRs, clasificar issues, actualizar dependencias con taze, recortar un diff a lo imprescindible y someterte a preguntas sobre un plan.\n\nInstala las skills generadas si trabajas con Vue, Nuxt o herramientas de Vite, y las escritas a mano si sus convenciones te encajan. El README define el proyecto como una prueba de concepto cuyas skills no se han probado a fondo en la práctica. La instalación recomendada es el paquete @antfu/skills mediante skills-npm, que incluye también skills de otros autores.",
+      "keywords": [
+        "skills de agentes",
+        "Vue",
+        "Vite",
+        "Nuxt",
+        "Vitest",
+        "TypeScript"
+      ],
+      "rationale": "Skills generadas a partir de la documentación del ecosistema Vue y Vite, más las skills de flujo de trabajo de un mantenedor conocido; el propio autor lo describe como una prueba de concepto aún sin probar a fondo."
+    },
+    "de": {
+      "description": "Anthony Fus kuratierte Agent Skills für das Ökosystem rund um Vue, Vite und modernes TypeScript, dazu seine eigenen Workflow-Skills für Issues und Pull Requests.",
+      "longDescription": "Anthony Fus Sammlung mischt zwei Arten von Skills. Acht sind aus offizieller Dokumentation generiert: vue, nuxt, pinia, vite, vitepress, vitest, unocss und pnpm. Das Repository klont die Doku jedes Projekts und baut die Skills daraus, damit sie Upstream-Änderungen folgen können, mit klarer Neigung zu TypeScript, ESM und der Composition API. Der Rest ist handgeschrieben: antfu hält seine Konventionen für ESLint, pnpm, Monorepos und das Veröffentlichen von Bibliotheken fest, während antfu-create-pr, antfu-issue-triage, antfu-upgrade-deps, antfu-simplify und antfu-query die Routine eines Maintainers abdecken: PRs öffnen, Issues sichten, Abhängigkeiten mit taze aktualisieren, einen Diff auf das Nötige zusammenstreichen und dich zu einem Plan ausfragen.\n\nInstalliere die generierten Skills, wenn du mit Vue, Nuxt oder Vite-Tooling arbeitest, und die handgeschriebenen, wenn dir seine Konventionen liegen. Das README nennt das Projekt einen Proof of Concept, dessen Skills in der Praxis noch nicht ausreichend getestet sind. Empfohlen wird die Installation des @antfu/skills-Pakets über skills-npm, das auch Skills anderer Autoren enthält.",
+      "keywords": [
+        "Agenten-Skills",
+        "Vue",
+        "Vite",
+        "Nuxt",
+        "Vitest",
+        "TypeScript"
+      ],
+      "rationale": "Aus der Doku des Vue- und Vite-Ökosystems generierte Skills plus die Workflow-Skills eines bekannten Maintainers; nach eigener Aussage ein noch nicht ausreichend getesteter Proof of Concept."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2026-01-28",
+      "archived": false,
+      "openIssuesCount": 0,
+      "stargazersCount": 6101,
+      "productionReadiness": "emerging",
+      "governance": "community",
+      "score": 66,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Docs-generated skills for the Vue and Vite ecosystem plus a well-known maintainer's workflow skills; self-described as a not yet fully tested proof of concept."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

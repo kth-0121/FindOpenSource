@@ -1,0 +1,111 @@
+{
+  "name": "Supabase Agent Skills",
+  "slug": "supabase-agent-skills",
+  "description": "Official Supabase Agent Skills: a general Supabase skill plus Postgres best practices for schema design, queries, indexes and row-level security.",
+  "longDescription": "Supabase's official pack has only two skills, but both are broad. supabase covers the whole platform: Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron and Queues, the supabase-js and @supabase/ssr clients in frameworks such as Next.js and SvelteKit, the CLI and MCP server, migrations, and troubleshooting from logs, RLS surprises and permission errors. supabase-postgres-best-practices is a rule set ranked by impact across eight areas, from query performance and connection management to schema design, locking and row-level security.\n\nInstall supabase if you build on Supabase. The Postgres skill is worth having even if you don't, since it is written for Postgres running anywhere. It also asks to be loaded before any schema, migration or SQL change, however small, so expect it to show up often. Each skill can be installed on its own, and Supabase documents the setup on its AI skills page.",
+  "repository": "https://github.com/supabase/agent-skills",
+  "website": "https://skills.sh/supabase/agent-skills",
+  "documentation": "https://supabase.com/docs/guides/getting-started/ai-skills",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "supabase",
+    "postgres",
+    "row-level-security",
+    "database"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Supabase 공식 Agent Skills: Supabase 전반을 다루는 스킬과, 스키마 설계·쿼리·인덱스·행 수준 보안을 위한 Postgres 모범 사례.",
+      "longDescription": "Supabase 공식 스킬 모음은 스킬이 두 개뿐이지만 둘 다 범위가 넓습니다. supabase는 플랫폼 전체를 다룹니다. Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues부터 Next.js, SvelteKit 같은 프레임워크에서 쓰는 supabase-js와 @supabase/ssr 클라이언트, CLI와 MCP 서버, 마이그레이션, 로그와 예상 밖의 RLS 동작, 권한 오류를 통한 문제 해결까지 포함합니다. supabase-postgres-best-practices는 쿼리 성능과 연결 관리부터 스키마 설계, 잠금, 행 수준 보안까지 여덟 개 영역에 걸쳐 영향도 순으로 정리한 규칙 모음입니다.\n\nSupabase로 개발한다면 supabase를 설치하세요. Postgres 스킬은 어디서 돌아가는 Postgres든 대상으로 하므로 Supabase를 쓰지 않아도 둘 만합니다. 다만 아무리 작은 스키마, 마이그레이션, SQL 변경이라도 그 전에 자신을 불러오라고 요구하므로 자주 등장한다고 생각하세요. 각 스킬은 따로 설치할 수 있고, 설치 방법은 Supabase의 AI 스킬 문서에 나와 있습니다.",
+      "keywords": [
+        "에이전트 스킬",
+        "Supabase",
+        "Postgres",
+        "행 수준 보안",
+        "데이터베이스"
+      ],
+      "rationale": "범위가 넓은 공식 스킬 두 개로 구성됩니다. Postgres 모범 사례 스킬은 Supabase뿐 아니라 모든 Postgres 프로젝트에 유용합니다."
+    },
+    "ja": {
+      "description": "Supabase 公式の Agent Skills。Supabase 全般のスキルと、スキーマ設計・クエリ・インデックス・行レベルセキュリティのための Postgres ベストプラクティス。",
+      "longDescription": "Supabase 公式のスキル集はスキルが二つだけですが、どちらも守備範囲が広いのが特徴です。supabase はプラットフォーム全体を扱います。Database、Auth、Edge Functions、Realtime、Storage、Vectors、Cron、Queues に加え、Next.js や SvelteKit などのフレームワークで使う supabase-js と @supabase/ssr クライアント、CLI と MCP サーバー、マイグレーション、そしてログや想定外の RLS の挙動、権限エラーからのトラブルシューティングまでカバーします。supabase-postgres-best-practices は、クエリ性能や接続管理からスキーマ設計、ロック、行レベルセキュリティまで、八つの領域を影響度順に並べたルール集です。\n\nSupabase で開発しているなら supabase を入れましょう。Postgres のスキルはどこで動く Postgres でも対象にしているので、Supabase を使っていなくても持っておく価値があります。ただし、どんなに小さなスキーマ、マイグレーション、SQL の変更でも事前に読み込むよう指示しているため、頻繁に呼び出されると考えてください。各スキルは個別にインストールでき、手順は Supabase の AI スキルのドキュメントにあります。",
+      "keywords": [
+        "エージェントスキル",
+        "Supabase",
+        "Postgres",
+        "行レベルセキュリティ",
+        "データベース"
+      ],
+      "rationale": "守備範囲の広い公式スキル二つで構成されています。Postgres ベストプラクティスのスキルは Supabase に限らず、あらゆる Postgres プロジェクトで役立ちます。"
+    },
+    "zh-CN": {
+      "description": "Supabase 官方 Agent Skills：一个通用 Supabase 技能，外加涵盖模式设计、查询、索引和行级安全的 Postgres 最佳实践。",
+      "longDescription": "Supabase 的官方技能包只有两个技能，但覆盖面都很广。supabase 涵盖整个平台：Database、Auth、Edge Functions、Realtime、Storage、Vectors、Cron 和 Queues，在 Next.js、SvelteKit 等框架中使用的 supabase-js 和 @supabase/ssr 客户端，CLI 和 MCP 服务器，迁移，以及借助日志排查问题、处理出乎意料的 RLS 行为和权限错误。supabase-postgres-best-practices 是一套按影响程度排序的规则，分为八个方面，从查询性能和连接管理，到模式设计、锁和行级安全。\n\n如果你在 Supabase 上开发，就安装 supabase。即使不用 Supabase，Postgres 技能也值得保留，因为它面向任何环境中运行的 Postgres。它还要求在任何模式、迁移或 SQL 改动之前先加载自己，无论改动多小，所以会经常出现。两个技能都可以单独安装，Supabase 在其 AI 技能文档中说明了安装方法。",
+      "keywords": [
+        "智能体技能",
+        "Supabase",
+        "Postgres",
+        "行级安全",
+        "数据库"
+      ],
+      "rationale": "两个覆盖面很广的官方技能；其中 Postgres 最佳实践技能适用于任何 Postgres 项目，而不仅限于 Supabase。"
+    },
+    "es": {
+      "description": "Agent Skills oficiales de Supabase: una skill general de Supabase y buenas prácticas de Postgres para diseño de esquemas, consultas, índices y seguridad a nivel de fila.",
+      "longDescription": "El paquete oficial de Supabase tiene solo dos skills, pero las dos son amplias. supabase cubre toda la plataforma: Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron y Queues, los clientes supabase-js y @supabase/ssr en frameworks como Next.js y SvelteKit, el CLI y el servidor MCP, las migraciones, y el diagnóstico a partir de logs, comportamientos inesperados de RLS y errores de permisos. supabase-postgres-best-practices es un conjunto de reglas ordenadas por impacto en ocho áreas, desde el rendimiento de consultas y la gestión de conexiones hasta el diseño de esquemas, los bloqueos y la seguridad a nivel de fila.\n\nInstala supabase si construyes sobre Supabase. La skill de Postgres merece la pena aunque no lo hagas, porque está escrita para Postgres en cualquier entorno. Eso sí, pide cargarse antes de cualquier cambio de esquema, migración o SQL, por pequeño que sea, así que aparecerá a menudo. Cada skill se puede instalar por separado, y Supabase explica la instalación en su página de AI skills.",
+      "keywords": [
+        "skills de agentes",
+        "Supabase",
+        "Postgres",
+        "seguridad a nivel de fila",
+        "base de datos"
+      ],
+      "rationale": "Dos skills oficiales y amplias; la de buenas prácticas de Postgres sirve para cualquier proyecto con Postgres, no solo para los de Supabase."
+    },
+    "de": {
+      "description": "Offizielle Supabase Agent Skills: ein allgemeiner Supabase-Skill plus Postgres-Best-Practices für Schema-Design, Queries, Indizes und Row-Level Security.",
+      "longDescription": "Supabases offizielles Paket enthält nur zwei Skills, aber beide sind breit angelegt. supabase deckt die ganze Plattform ab: Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron und Queues, die Clients supabase-js und @supabase/ssr in Frameworks wie Next.js und SvelteKit, die CLI und den MCP-Server, Migrationen sowie die Fehlersuche über Logs, überraschendes RLS-Verhalten und Berechtigungsfehler. supabase-postgres-best-practices ist ein nach Wirkung geordnetes Regelwerk in acht Bereichen, von Query-Performance und Verbindungsverwaltung bis zu Schema-Design, Locking und Row-Level Security.\n\nInstalliere supabase, wenn du auf Supabase baust. Der Postgres-Skill lohnt sich auch sonst, denn er ist für Postgres in jeder Umgebung geschrieben. Er verlangt allerdings, vor jeder Schema-, Migrations- oder SQL-Änderung geladen zu werden, egal wie klein, also wird er oft auftauchen. Jeder Skill lässt sich einzeln installieren, und Supabase beschreibt die Einrichtung auf seiner Seite zu AI Skills.",
+      "keywords": [
+        "Agenten-Skills",
+        "Supabase",
+        "Postgres",
+        "Row-Level Security",
+        "Datenbank"
+      ],
+      "rationale": "Zwei breit angelegte, offizielle Skills; der Postgres-Best-Practices-Skill nützt jedem Postgres-Projekt, nicht nur Supabase-Projekten."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-12",
+      "repoCreatedAt": "2026-01-16",
+      "archived": false,
+      "openIssuesCount": 537,
+      "stargazersCount": 3149,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "score": 75,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Two broad, official skills; the Postgres best-practices skill is useful for any Postgres project, not only Supabase ones."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Apache Solr",
+  "slug": "solr",
+  "description": "Search platform built on Apache Lucene that serves full-text, faceted, vector and geospatial search over HTTP, with SolrCloud for sharding and replication, for teams running search over large document collections on their own infrastructure.",
+  "repository": "https://github.com/apache/solr",
+  "website": "https://solr.apache.org",
+  "documentation": "https://solr.apache.org/guide/solr/latest/",
+  "categories": [
+    "search"
+  ],
+  "keywords": [
+    "full-text search",
+    "lucene",
+    "faceted search",
+    "vector search",
+    "search server",
+    "enterprise search"
+  ],
+  "longDescription": "Apache Solr is a standalone search server built on the Apache Lucene library. Applications send documents to it as JSON, XML or CSV and query it over HTTP, so search can be added to websites, catalogs, intranets and data platforms without embedding a search library directly. The project has been developed at the Apache Software Foundation for well over a decade; its current GitHub repository dates from 2021, when Solr was split out of the shared Lucene codebase into its own top-level project.\n\nSolr covers relevance-ranked full-text search with configurable analyzers, faceting and filtering, highlighting, spell checking, geospatial queries and dense vector search for semantic or hybrid retrieval. SolrCloud mode distributes collections across nodes with sharding and replication, and there is an official Docker image and a Kubernetes operator. An admin UI helps with inspecting cores, schemas and queries. Schema design, cluster tuning and upgrades take real expertise, and newer engines aimed at instant app search are usually quicker to set up for small projects.",
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Apache Lucene 기반의 검색 플랫폼으로, 전문 검색·패싯 검색·벡터 검색·지리 공간 검색을 HTTP로 제공하고 SolrCloud로 샤딩과 복제를 지원합니다. 대규모 문서 컬렉션의 검색을 자체 인프라에서 운영하려는 팀에 적합합니다.",
+      "longDescription": "Apache Solr는 Apache Lucene 라이브러리를 기반으로 한 독립형 검색 서버입니다. 애플리케이션이 JSON, XML, CSV로 문서를 보내고 HTTP로 질의하므로, 검색 라이브러리를 직접 내장하지 않고도 웹사이트, 상품 카탈로그, 인트라넷, 데이터 플랫폼에 검색 기능을 붙일 수 있습니다. 이 프로젝트는 Apache Software Foundation에서 10년을 훌쩍 넘게 개발되어 왔으며, 현재의 GitHub 저장소는 Solr가 Lucene과 함께 쓰던 코드베이스에서 분리되어 독립 최상위 프로젝트가 된 2021년에 만들어졌습니다.\n\nSolr는 분석기를 설정할 수 있는 관련도 순 전문 검색, 패싯과 필터링, 하이라이팅, 철자 검사, 지리 공간 질의, 그리고 의미 기반·하이브리드 검색을 위한 밀집 벡터 검색을 지원합니다. SolrCloud 모드는 샤딩과 복제로 컬렉션을 여러 노드에 분산하며, 공식 Docker 이미지와 Kubernetes 오퍼레이터도 제공됩니다. 관리 UI로 코어, 스키마, 질의를 살펴볼 수 있습니다. 다만 스키마 설계, 클러스터 튜닝, 업그레이드에는 상당한 전문성이 필요하고, 소규모 프로젝트라면 앱 내 즉시 검색을 겨냥한 최신 엔진이 보통 더 빨리 구축됩니다.",
+      "keywords": [
+        "전문 검색",
+        "lucene",
+        "패싯 검색",
+        "벡터 검색",
+        "검색 서버",
+        "엔터프라이즈 검색"
+      ],
+      "rationale": "Elasticsearch, OpenSearch와 겹치지만, 오랜 운영 실적과 ASF 거버넌스를 갖춘 대표적인 Lucene 기반 검색 서버로서 검색 카테고리에 뚜렷한 선택지를 더합니다."
+    },
+    "ja": {
+      "description": "Apache Lucene をベースにした検索プラットフォームで、全文検索、ファセット検索、ベクトル検索、地理空間検索を HTTP で提供し、SolrCloud によるシャーディングとレプリケーションに対応します。大規模な文書コレクションの検索を自前のインフラで運用したいチーム向けです。",
+      "longDescription": "Apache Solr は、Apache Lucene ライブラリの上に構築されたスタンドアロンの検索サーバーです。アプリケーションは JSON、XML、CSV でドキュメントを送り、HTTP で検索するため、検索ライブラリを直接組み込まなくても Web サイト、商品カタログ、イントラネット、データ基盤に検索機能を追加できます。プロジェクトは Apache Software Foundation で 10 年以上にわたって開発されており、現在の GitHub リポジトリは、Solr が Lucene と共有していたコードベースから独立したトップレベルプロジェクトとして分離された 2021 年に作られたものです。\n\nSolr は、アナライザーを設定できる関連度順の全文検索、ファセットとフィルタリング、ハイライト、スペルチェック、地理空間クエリ、そしてセマンティック検索やハイブリッド検索のための密ベクトル検索をカバーします。SolrCloud モードではシャーディングとレプリケーションによってコレクションを複数ノードに分散でき、公式 Docker イメージと Kubernetes オペレーターも用意されています。管理 UI ではコア、スキーマ、クエリを確認できます。一方で、スキーマ設計やクラスターのチューニング、アップグレードには相応の専門知識が必要で、小規模なプロジェクトでは、アプリ内のインスタント検索を狙った新しいエンジンのほうが手早く導入できることが多いでしょう。",
+      "keywords": [
+        "全文検索",
+        "lucene",
+        "ファセット検索",
+        "ベクトル検索",
+        "検索サーバー",
+        "エンタープライズ検索"
+      ],
+      "rationale": "Elasticsearch や OpenSearch と重なる部分はあるものの、長い実績と ASF のガバナンスを持つ代表的な Lucene ベースの検索サーバーであり、検索カテゴリに明確な選択肢を加えます。"
+    },
+    "zh-CN": {
+      "description": "基于 Apache Lucene 的搜索平台，通过 HTTP 提供全文检索、分面搜索、向量搜索和地理空间搜索，并借助 SolrCloud 实现分片与副本，适合在自有基础设施上为大规模文档集合运行搜索的团队。",
+      "longDescription": "Apache Solr 是构建在 Apache Lucene 库之上的独立搜索服务器。应用以 JSON、XML 或 CSV 格式向它提交文档，并通过 HTTP 发起查询，因此无需直接嵌入搜索库，就能为网站、商品目录、企业内网和数据平台加上搜索功能。该项目在 Apache 软件基金会已经开发了十多年；现在的 GitHub 仓库创建于 2021 年，那一年 Solr 从与 Lucene 共用的代码库中拆分出来，成为独立的顶级项目。\n\nSolr 提供可配置分析器的相关性排序全文检索、分面与过滤、高亮、拼写检查、地理空间查询，以及用于语义检索或混合检索的稠密向量搜索。SolrCloud 模式通过分片和副本把集合分布到多个节点上，官方还提供 Docker 镜像和 Kubernetes Operator。管理界面可用于查看核心、Schema 和查询。不过，Schema 设计、集群调优和版本升级都需要相当的专业经验；对于小型项目，面向应用内即时搜索的新一代引擎通常上手更快。",
+      "keywords": [
+        "全文检索",
+        "lucene",
+        "分面搜索",
+        "向量搜索",
+        "搜索服务器",
+        "企业搜索"
+      ],
+      "rationale": "与 Elasticsearch、OpenSearch 有所重叠，但作为久经考验、由 ASF 治理的经典 Lucene 搜索服务器，为搜索分类提供了一个明确的选项。"
+    },
+    "es": {
+      "description": "Plataforma de búsqueda basada en Apache Lucene que ofrece por HTTP búsqueda de texto completo, facetada, vectorial y geoespacial, con SolrCloud para fragmentación y réplica, para equipos que buscan en grandes colecciones de documentos con infraestructura propia.",
+      "longDescription": "Apache Solr es un servidor de búsqueda independiente construido sobre la biblioteca Apache Lucene. Las aplicaciones le envían documentos en JSON, XML o CSV y lo consultan por HTTP, de modo que se puede añadir búsqueda a sitios web, catálogos, intranets y plataformas de datos sin integrar directamente una biblioteca de búsqueda. El proyecto lleva bastante más de una década desarrollándose en la Apache Software Foundation; su repositorio actual en GitHub data de 2021, cuando Solr se separó del código compartido con Lucene y pasó a ser un proyecto de primer nivel propio.\n\nSolr cubre la búsqueda de texto completo ordenada por relevancia con analizadores configurables, facetas y filtros, resaltado, corrección ortográfica, consultas geoespaciales y búsqueda con vectores densos para recuperación semántica o híbrida. El modo SolrCloud reparte las colecciones entre nodos con fragmentación y réplica, y existen una imagen oficial de Docker y un operador para Kubernetes. Una interfaz de administración permite inspeccionar núcleos, esquemas y consultas. Diseñar el esquema, ajustar el clúster y actualizar de versión exige bastante experiencia, y para proyectos pequeños los motores más nuevos orientados a la búsqueda instantánea en aplicaciones suelen ponerse en marcha antes.",
+      "keywords": [
+        "búsqueda de texto completo",
+        "lucene",
+        "búsqueda facetada",
+        "búsqueda vectorial",
+        "servidor de búsqueda",
+        "búsqueda empresarial"
+      ],
+      "rationale": "Coincide en parte con Elasticsearch y OpenSearch, pero es el servidor de búsqueda clásico basado en Lucene, con una larga trayectoria y gobernanza de la ASF, y aporta una opción clara a la categoría de búsqueda."
+    },
+    "de": {
+      "description": "Suchplattform auf Basis von Apache Lucene, die Volltext-, Facetten-, Vektor- und Geosuche über HTTP bereitstellt und mit SolrCloud Sharding und Replikation bietet – für Teams, die Suche über große Dokumentbestände auf eigener Infrastruktur betreiben.",
+      "longDescription": "Apache Solr ist ein eigenständiger Suchserver, der auf der Bibliothek Apache Lucene aufbaut. Anwendungen schicken ihm Dokumente als JSON, XML oder CSV und fragen ihn über HTTP ab, sodass sich Websites, Produktkataloge, Intranets und Datenplattformen mit Suche ausstatten lassen, ohne eine Suchbibliothek direkt einzubetten. Das Projekt wird seit weit über zehn Jahren bei der Apache Software Foundation entwickelt; das heutige GitHub-Repository stammt aus dem Jahr 2021, als Solr aus der gemeinsamen Lucene-Codebasis herausgelöst und zu einem eigenen Top-Level-Projekt wurde.\n\nSolr bietet relevanzsortierte Volltextsuche mit konfigurierbaren Analyzern, Facetten und Filter, Hervorhebung, Rechtschreibkorrektur, Geoabfragen sowie Dense-Vector-Suche für semantisches oder hybrides Retrieval. Im SolrCloud-Modus werden Collections per Sharding und Replikation auf mehrere Knoten verteilt; es gibt ein offizielles Docker-Image und einen Kubernetes-Operator. Eine Admin-Oberfläche hilft beim Untersuchen von Cores, Schemas und Abfragen. Schemadesign, Cluster-Tuning und Upgrades erfordern allerdings echte Erfahrung, und für kleine Projekte sind neuere Engines für sofortige In-App-Suche meist schneller eingerichtet.",
+      "keywords": [
+        "Volltextsuche",
+        "lucene",
+        "Facettensuche",
+        "Vektorsuche",
+        "Suchserver",
+        "Enterprise-Suche"
+      ],
+      "rationale": "Überschneidet sich mit Elasticsearch und OpenSearch, ist aber der klassische Lucene-basierte Suchserver mit langer Erfolgsbilanz und ASF-Governance und ergänzt die Suchkategorie um eine klar eigenständige Option."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2021-02-23",
+      "archived": false,
+      "openIssuesCount": 289,
+      "stargazersCount": 1708,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "score": 100,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Overlaps with Elasticsearch and OpenSearch, but it is the classic Lucene-based search server with a long track record and ASF governance, giving the search category a clearly distinct option."
+    },
+    "flag": "ok"
+  }
+}

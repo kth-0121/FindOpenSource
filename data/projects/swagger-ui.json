@@ -1,0 +1,120 @@
+{
+  "name": "Swagger UI",
+  "slug": "swagger-ui",
+  "description": "Browser-based tool that renders OpenAPI and Swagger definitions as interactive API documentation, letting readers explore endpoints and send test requests. For API teams that want docs generated straight from their spec.",
+  "repository": "https://github.com/swagger-api/swagger-ui",
+  "website": "https://swagger.io",
+  "documentation": "https://swagger.io/docs/open-source-tools/swagger-ui/usage/installation/",
+  "categories": [
+    "api",
+    "developer-tools"
+  ],
+  "keywords": [
+    "openapi",
+    "swagger",
+    "api documentation",
+    "rest api",
+    "interactive docs",
+    "api explorer"
+  ],
+  "longDescription": "Swagger UI turns an OpenAPI description of an HTTP API into a navigable documentation page. Point it at a JSON or YAML definition and it lists operations grouped by tag, shows parameters, request bodies, response schemas and examples, and offers a try-it-out panel that sends real requests from the browser, including with configured authentication. Because the page is generated from the spec, the documentation stays in step with the API as long as the spec does.\n\nIt is distributed in several forms: a dependency-free static bundle that can be dropped onto any web server or CDN, an npm module for bundling into a single-page app, a React component and an official Docker image. Many web frameworks and API gateways embed it to expose docs for their services, and it can be customised through configuration options, plugins and custom styles. It renders and exercises existing specs but does not help author or lint them, so it is usually paired with an editor, linter or code generator.",
+  "languages": [
+    "JavaScript",
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "swagger-ui",
+      "swagger-ui-dist",
+      "swagger-ui-react"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "OpenAPI·Swagger 정의를 대화형 API 문서로 렌더링해, 읽는 사람이 엔드포인트를 살펴보고 테스트 요청까지 보낼 수 있게 해 주는 브라우저 기반 도구입니다. 명세에서 바로 문서를 만들고 싶은 API 팀을 위한 도구입니다.",
+      "longDescription": "Swagger UI는 HTTP API의 OpenAPI 명세를 탐색 가능한 문서 페이지로 바꿔 줍니다. JSON이나 YAML 정의를 지정하면 태그별로 묶인 연산 목록을 보여 주고, 파라미터, 요청 본문, 응답 스키마, 예시를 표시하며, 설정한 인증 정보를 포함해 브라우저에서 실제 요청을 보내는 Try it out 패널도 제공합니다. 페이지가 명세로부터 생성되므로, 명세만 최신으로 유지하면 문서도 API와 함께 맞춰집니다.\n\n여러 형태로 배포됩니다. 어떤 웹 서버나 CDN에도 올릴 수 있는 의존성 없는 정적 번들, 싱글 페이지 앱에 번들링할 수 있는 npm 모듈, React 컴포넌트, 공식 Docker 이미지가 있습니다. 많은 웹 프레임워크와 API 게이트웨이가 서비스 문서를 노출하기 위해 이를 내장하고 있으며, 설정 옵션, 플러그인, 사용자 정의 스타일로 커스터마이즈할 수 있습니다. 기존 명세를 렌더링하고 실행해 볼 뿐 명세 작성이나 린트는 돕지 않으므로, 보통 에디터, 린터, 코드 생성기와 함께 씁니다.",
+      "keywords": [
+        "openapi",
+        "swagger",
+        "api 문서",
+        "rest api",
+        "대화형 문서",
+        "api 탐색기"
+      ],
+      "rationale": "수많은 프레임워크에 내장된, 대화형 OpenAPI 문서를 렌더링하는 표준 방식으로, api와 developer-tools 카테고리에서 독자적인 가치를 지닌 훌륭한 선택지입니다."
+    },
+    "ja": {
+      "description": "OpenAPI や Swagger の定義を対話型の API ドキュメントとして描画し、読み手がエンドポイントを確認したりテストリクエストを送ったりできるブラウザーベースのツールです。仕様から直接ドキュメントを生成したい API チーム向けです。",
+      "longDescription": "Swagger UI は、HTTP API の OpenAPI 記述を閲覧しやすいドキュメントページに変換します。JSON または YAML の定義を指定すると、タグごとにまとめたオペレーションの一覧を表示し、パラメータ、リクエストボディ、レスポンスのスキーマや例を示すほか、設定した認証情報も含めてブラウザーから実際のリクエストを送れる Try it out パネルを備えています。ページは仕様から生成されるため、仕様を最新に保っている限り、ドキュメントも API と食い違いません。\n\n配布形態は複数あり、どの Web サーバーや CDN にも置ける依存関係のない静的バンドル、シングルページアプリに組み込める npm モジュール、React コンポーネント、公式 Docker イメージが用意されています。多くの Web フレームワークや API ゲートウェイが、サービスのドキュメントを公開するためにこれを組み込んでおり、設定オプション、プラグイン、独自スタイルでカスタマイズできます。既存の仕様を表示して試すためのツールで、仕様の作成やリントは手助けしないため、通常はエディター、リンター、コードジェネレーターと組み合わせて使います。",
+      "keywords": [
+        "openapi",
+        "swagger",
+        "api ドキュメント",
+        "rest api",
+        "対話型ドキュメント",
+        "api エクスプローラー"
+      ],
+      "rationale": "数え切れないほどのフレームワークに組み込まれている、対話型 OpenAPI ドキュメント表示の標準的な手段です。api と developer-tools カテゴリにとって独自性のある有力な選択肢です。"
+    },
+    "zh-CN": {
+      "description": "一个基于浏览器的工具，可将 OpenAPI 和 Swagger 定义渲染为交互式 API 文档，让读者浏览端点并发送测试请求，适合希望直接从规范生成文档的 API 团队。",
+      "longDescription": "Swagger UI 能把 HTTP API 的 OpenAPI 描述转换成便于浏览的文档页面。只要指向一个 JSON 或 YAML 定义，它就会按标签分组列出各个操作，展示参数、请求体、响应模式和示例，并提供 Try it out 面板，可以在浏览器中直接发送真实请求（包括使用已配置的认证信息）。由于页面是根据规范生成的，只要规范保持更新，文档就会与 API 保持一致。\n\n它以多种形式发布：可以放到任何 Web 服务器或 CDN 上的无依赖静态包、可打包进单页应用的 npm 模块、React 组件以及官方 Docker 镜像。许多 Web 框架和 API 网关都内嵌了它来展示服务文档，并且可以通过配置项、插件和自定义样式进行定制。它负责渲染和调试现有规范，但不帮助编写或检查规范，因此通常会搭配编辑器、Lint 工具或代码生成器使用。",
+      "keywords": [
+        "openapi",
+        "swagger",
+        "api 文档",
+        "rest api",
+        "交互式文档",
+        "api 浏览器"
+      ],
+      "rationale": "渲染交互式 OpenAPI 文档的标准方式，被无数框架内嵌使用；是 api 和 developer-tools 分类中独具特色的有力选择。"
+    },
+    "es": {
+      "description": "Herramienta para el navegador que convierte definiciones OpenAPI y Swagger en documentación de API interactiva, donde se pueden explorar endpoints y enviar peticiones de prueba. Para equipos que quieren documentación generada directamente desde su especificación.",
+      "longDescription": "Swagger UI convierte la descripción OpenAPI de una API HTTP en una página de documentación navegable. Basta con indicarle una definición JSON o YAML para que liste las operaciones agrupadas por etiqueta, muestre parámetros, cuerpos de petición, esquemas de respuesta y ejemplos, y ofrezca un panel try it out que envía peticiones reales desde el navegador, incluso con la autenticación configurada. Como la página se genera a partir de la especificación, la documentación se mantiene al día con la API siempre que lo haga la especificación.\n\nSe distribuye de varias formas: un paquete estático sin dependencias que puede colocarse en cualquier servidor web o CDN, un módulo npm para integrarlo en una aplicación de una sola página, un componente de React y una imagen oficial de Docker. Muchos frameworks web y gateways de API lo integran para exponer la documentación de sus servicios, y se puede personalizar mediante opciones de configuración, plugins y estilos propios. Muestra y prueba especificaciones existentes, pero no ayuda a redactarlas ni a validarlas, por lo que suele combinarse con un editor, un linter o un generador de código.",
+      "keywords": [
+        "openapi",
+        "swagger",
+        "documentación de api",
+        "api rest",
+        "documentación interactiva",
+        "explorador de api"
+      ],
+      "rationale": "La forma estándar de mostrar documentación OpenAPI interactiva, integrada en innumerables frameworks; una opción sólida y distintiva para las categorías api y developer-tools."
+    },
+    "de": {
+      "description": "Browserbasiertes Werkzeug, das OpenAPI- und Swagger-Definitionen als interaktive API-Dokumentation darstellt, in der Leser Endpunkte erkunden und Testanfragen senden können. Für API-Teams, die ihre Doku direkt aus der Spezifikation erzeugen wollen.",
+      "longDescription": "Swagger UI macht aus der OpenAPI-Beschreibung einer HTTP-API eine navigierbare Dokumentationsseite. Man verweist auf eine JSON- oder YAML-Definition, und das Tool listet die Operationen nach Tags gruppiert auf, zeigt Parameter, Request-Bodies, Antwortschemas und Beispiele und bietet ein Try-it-out-Panel, das echte Anfragen aus dem Browser sendet, auch mit konfigurierter Authentifizierung. Da die Seite aus der Spezifikation erzeugt wird, bleibt die Dokumentation so aktuell wie die Spezifikation selbst.\n\nVerteilt wird es in mehreren Formen: als abhängigkeitsfreies statisches Bundle für jeden Webserver oder jedes CDN, als npm-Modul zum Einbinden in eine Single-Page-App, als React-Komponente und als offizielles Docker-Image. Viele Webframeworks und API-Gateways betten es ein, um die Dokumentation ihrer Dienste bereitzustellen, und es lässt sich über Konfigurationsoptionen, Plugins und eigene Styles anpassen. Es stellt bestehende Spezifikationen dar und macht sie ausprobierbar, hilft aber nicht beim Schreiben oder Linten, weshalb es meist mit einem Editor, Linter oder Codegenerator kombiniert wird.",
+      "keywords": [
+        "openapi",
+        "swagger",
+        "api-dokumentation",
+        "rest-api",
+        "interaktive Doku",
+        "api-explorer"
+      ],
+      "rationale": "Der Standardweg, interaktive OpenAPI-Dokumentation darzustellen, eingebettet in unzählige Frameworks; eine starke, eigenständige Wahl für die Kategorien api und developer-tools."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-23",
+      "repoCreatedAt": "2011-07-15",
+      "archived": false,
+      "openIssuesCount": 1163,
+      "stargazersCount": 29096,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard way to render interactive OpenAPI documentation, embedded by countless frameworks; a strong, distinctive pick for the api and developer-tools categories."
+    },
+    "flag": "ok"
+  }
+}

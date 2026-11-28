@@ -1,0 +1,110 @@
+{
+  "name": "Cloudflare Skills",
+  "slug": "cloudflare-skills",
+  "description": "Official Agent Skills that teach coding agents how to build on Cloudflare: Workers, Durable Objects, the Agents SDK, storage and other platform products.",
+  "longDescription": "Cloudflare's official skills teach coding agents the current way to build on its developer platform. The cloudflare skill is the entry point: describe a need and it picks the product, then hands off to a narrower skill. Those cover the Workers runtime (wrangler, cf-cli, workers-best-practices, workers-development, workers-profiling), stateful apps with durable-objects and agents-sdk, deploying web frameworks with frameworks-on-cloudflare and nextjs-on-cloudflare, newer products such as Sandbox, Artifacts, Flagship, K2 and Basin, and Zero Trust work with cloudflare-one. Installed as a plugin, the pack also adds Cloudflare's remote MCP server.\n\nIt's for teams already on Workers or choosing Cloudflare for a new app, and its main value is keeping agents off outdated APIs and bindings. Apart from web-perf, which audits Core Web Vitals on any site, every skill is Cloudflare-specific, and some track beta or preview releases, such as the cf CLI and Sandbox 1.0, that may change quickly.",
+  "repository": "https://github.com/cloudflare/skills",
+  "website": "https://skills.sh/cloudflare/skills",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "cloudflare",
+    "cloudflare-workers",
+    "serverless",
+    "durable-objects"
+  ],
+  "languages": [
+    "Shell"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "코딩 에이전트에게 Cloudflare 위에서 개발하는 법을 알려 주는 공식 Agent Skills: Workers, Durable Objects, Agents SDK, 스토리지 등 플랫폼 제품.",
+      "longDescription": "Cloudflare의 공식 스킬은 코딩 에이전트에게 개발자 플랫폼을 지금 방식대로 쓰는 법을 알려 줍니다. 진입점은 cloudflare 스킬입니다. 필요한 것을 설명하면 알맞은 제품을 고르고 더 좁은 스킬로 넘깁니다. 하위 스킬은 Workers 런타임(wrangler, cf-cli, workers-best-practices, workers-development, workers-profiling), durable-objects와 agents-sdk로 만드는 상태 유지 앱, frameworks-on-cloudflare와 nextjs-on-cloudflare를 통한 웹 프레임워크 배포, Sandbox, Artifacts, Flagship, K2, Basin 같은 새 제품, 그리고 cloudflare-one을 이용한 Zero Trust 작업을 다룹니다. 플러그인으로 설치하면 Cloudflare 원격 MCP 서버도 함께 추가됩니다.\n\n이미 Workers를 쓰고 있거나 새 앱에 Cloudflare를 고려하는 팀을 위한 것이며, 가장 큰 가치는 에이전트가 낡은 API와 바인딩을 쓰지 않게 하는 데 있습니다. 어떤 사이트든 Core Web Vitals를 점검하는 web-perf를 빼면 모두 Cloudflare 전용이고, cf CLI나 Sandbox 1.0처럼 베타·프리뷰 단계라 빠르게 바뀔 수 있는 제품을 다루는 스킬도 있습니다.",
+      "keywords": [
+        "에이전트 스킬",
+        "Cloudflare",
+        "Cloudflare Workers",
+        "서버리스",
+        "Durable Objects"
+      ],
+      "rationale": "Cloudflare 개발자 플랫폼에 대한 가장 권위 있는 스킬 모음으로, 라우터 스킬과 MCP 서버를 함께 제공합니다. Cloudflare로 개발할 때 주로 가치가 있습니다."
+    },
+    "ja": {
+      "description": "Cloudflare 上での開発方法をコーディングエージェントに教える公式 Agent Skills。Workers、Durable Objects、Agents SDK、ストレージなどのプラットフォーム製品。",
+      "longDescription": "Cloudflare の公式スキルは、開発者プラットフォームを現在の推奨どおりに使う方法をコーディングエージェントに教えます。入口は cloudflare スキルで、やりたいことを説明すると適した製品を選び、より専門的なスキルに引き継ぎます。その先のスキルは、Workers ランタイム（wrangler、cf-cli、workers-best-practices、workers-development、workers-profiling）、durable-objects と agents-sdk による状態を持つアプリ、frameworks-on-cloudflare と nextjs-on-cloudflare による Web フレームワークのデプロイ、Sandbox、Artifacts、Flagship、K2、Basin といった新しい製品、そして cloudflare-one による Zero Trust 関連の作業をカバーします。プラグインとして入れると、Cloudflare のリモート MCP サーバーも追加されます。\n\nすでに Workers を使っているチームや、新しいアプリで Cloudflare を検討しているチーム向けで、最大の価値はエージェントに古い API やバインディングを使わせないことです。どのサイトでも Core Web Vitals を監査できる web-perf を除けばすべて Cloudflare 専用で、cf CLI や Sandbox 1.0 のようにベータやプレビュー段階で変わりやすい製品を扱うスキルもあります。",
+      "keywords": [
+        "エージェントスキル",
+        "Cloudflare",
+        "Cloudflare Workers",
+        "サーバーレス",
+        "Durable Objects"
+      ],
+      "rationale": "Cloudflare の開発者プラットフォームについて最も信頼できるスキル集で、ルーター役のスキルと MCP サーバーが付属します。価値があるのは主に Cloudflare で開発する場合です。"
+    },
+    "zh-CN": {
+      "description": "教编程智能体在 Cloudflare 上构建应用的官方 Agent Skills：Workers、Durable Objects、Agents SDK、存储及其他平台产品。",
+      "longDescription": "Cloudflare 的官方技能教编程智能体按当前推荐的方式使用其开发者平台。入口是 cloudflare 技能：描述你的需求，它会选出合适的产品，再交给更专门的技能。这些技能涵盖 Workers 运行时（wrangler、cf-cli、workers-best-practices、workers-development、workers-profiling），用 durable-objects 和 agents-sdk 构建有状态应用，通过 frameworks-on-cloudflare 和 nextjs-on-cloudflare 部署 Web 框架，Sandbox、Artifacts、Flagship、K2、Basin 等较新的产品，以及借助 cloudflare-one 完成的 Zero Trust 工作。以插件方式安装时，还会一并加入 Cloudflare 的远程 MCP 服务器。\n\n它面向已经在用 Workers、或正考虑为新应用选择 Cloudflare 的团队，最大的价值是让智能体不再使用过时的 API 和绑定。除了能审计任意网站 Core Web Vitals 的 web-perf，其余技能都只适用于 Cloudflare，其中一些跟踪的是 cf CLI、Sandbox 1.0 这类仍处于测试或预览阶段、可能很快变化的版本。",
+      "keywords": [
+        "智能体技能",
+        "Cloudflare",
+        "Cloudflare Workers",
+        "无服务器",
+        "Durable Objects"
+      ],
+      "rationale": "关于 Cloudflare 开发者平台最权威的技能集，附带路由技能和 MCP 服务器；主要在基于 Cloudflare 开发时才有价值。"
+    },
+    "es": {
+      "description": "Agent Skills oficiales que enseñan a los agentes de programación a construir sobre Cloudflare: Workers, Durable Objects, el Agents SDK, almacenamiento y otros productos de la plataforma.",
+      "longDescription": "Las skills oficiales de Cloudflare enseñan a los agentes de programación la forma actual de construir sobre su plataforma para desarrolladores. La skill cloudflare es la puerta de entrada: describes lo que necesitas, elige el producto y pasa el trabajo a una skill más específica. Esas skills cubren el runtime de Workers (wrangler, cf-cli, workers-best-practices, workers-development, workers-profiling), apps con estado mediante durable-objects y agents-sdk, el despliegue de frameworks web con frameworks-on-cloudflare y nextjs-on-cloudflare, productos más nuevos como Sandbox, Artifacts, Flagship, K2 y Basin, y el trabajo de Zero Trust con cloudflare-one. Instalado como plugin, el paquete añade también el servidor MCP remoto de Cloudflare.\n\nEstá pensado para equipos que ya usan Workers o que eligen Cloudflare para una app nueva, y su valor principal es evitar que el agente use APIs y bindings obsoletos. Salvo web-perf, que audita las Core Web Vitals de cualquier sitio, todas las skills son específicas de Cloudflare, y algunas siguen versiones beta o preview, como el CLI cf y Sandbox 1.0, que pueden cambiar rápido.",
+      "keywords": [
+        "skills de agentes",
+        "Cloudflare",
+        "Cloudflare Workers",
+        "serverless",
+        "Durable Objects"
+      ],
+      "rationale": "El conjunto de skills de referencia para la plataforma de desarrolladores de Cloudflare, con una skill de enrutamiento y un servidor MCP incluido; útil sobre todo si construyes sobre Cloudflare."
+    },
+    "de": {
+      "description": "Offizielle Agent Skills, die Coding-Agenten das Entwickeln auf Cloudflare beibringen: Workers, Durable Objects, das Agents SDK, Storage und weitere Plattformprodukte.",
+      "longDescription": "Cloudflares offizielle Skills bringen Coding-Agenten bei, wie man heute auf der Entwicklerplattform baut. Einstieg ist der cloudflare-Skill: Du beschreibst, was du brauchst, er wählt das passende Produkt und übergibt an einen spezielleren Skill. Diese decken die Workers-Runtime ab (wrangler, cf-cli, workers-best-practices, workers-development, workers-profiling), zustandsbehaftete Apps mit durable-objects und agents-sdk, das Deployen von Web-Frameworks mit frameworks-on-cloudflare und nextjs-on-cloudflare, neuere Produkte wie Sandbox, Artifacts, Flagship, K2 und Basin sowie Zero-Trust-Arbeit mit cloudflare-one. Als Plugin installiert, bringt das Paket auch Cloudflares Remote-MCP-Server mit.\n\nEs richtet sich an Teams, die schon auf Workers setzen oder Cloudflare für eine neue App wählen, und sein Hauptnutzen ist, dass der Agent keine veralteten APIs und Bindings mehr verwendet. Außer web-perf, das Core Web Vitals auf jeder Website prüft, sind alle Skills Cloudflare-spezifisch, und einige folgen Beta- oder Preview-Versionen wie der cf CLI und Sandbox 1.0, die sich schnell ändern können.",
+      "keywords": [
+        "Agenten-Skills",
+        "Cloudflare",
+        "Cloudflare Workers",
+        "Serverless",
+        "Durable Objects"
+      ],
+      "rationale": "Die maßgebliche Skill-Sammlung für Cloudflares Entwicklerplattform, mit einem Router-Skill und mitgeliefertem MCP-Server; vor allem nützlich, wenn du auf Cloudflare baust."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-25",
+      "repoCreatedAt": "2025-12-10",
+      "archived": false,
+      "openIssuesCount": 46,
+      "stargazersCount": 3484,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "score": 70,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "The authoritative skill set for Cloudflare's developer platform, with a router skill and a bundled MCP server; valuable mainly if you build on Cloudflare."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

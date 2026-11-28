@@ -208,6 +208,126 @@
     "branch": "main"
   },
   {
+    "name": "antfu-create-pr",
+    "description": "Create a reviewable GitHub pull request from the current branch with a Conventional Commits title, a concise evidence-based body, and before/after screenshots for UI changes. Use when asked to open, create, publish, or prepare a PR.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/antfu-create-pr",
+    "branch": "main"
+  },
+  {
+    "name": "antfu-issue-triage",
+    "description": "Triage open issues and PRs of the current GitHub repo - find already-fixed, duplicate, and spam items, suggest labels, gauge demand from reactions and comments, then present a table of proposed actions and comments for confirmation before touching anything. Use when asked to triage, organize, clean up, or groom issues and PRs.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/antfu-issue-triage",
+    "branch": "main"
+  },
+  {
+    "name": "antfu-query",
+    "description": "Interview the user relentlessly about a plan, decision, or idea until reaching a shared understanding, using the agent's interactive question tool (not plain text). Use when the user wants to stress-test their thinking, clarify requirements, or says \"grill me\" or \"query me\".",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/antfu-query",
+    "branch": "main"
+  },
+  {
+    "name": "antfu-simplify",
+    "description": "Simplify the changes of the current PR or working tree with an ablation study - remove each piece of the diff and keep only what is proven needed - so the result has just-right abstraction, minimal clean code, and stays robust and universal. Use when asked to simplify, slim down, clean up, or reduce the current changes or PR.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/antfu-simplify",
+    "branch": "main"
+  },
+  {
+    "name": "antfu-upgrade-deps",
+    "description": "Upgrade the dependencies of the current project with taze, migrate code for major versions by reading their changelogs, dedupe the lockfile, verify tests, lint, and typecheck, then open a PR. Use when asked to upgrade, update, or bump dependencies.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/antfu-upgrade-deps",
+    "branch": "main"
+  },
+  {
+    "name": "antfu",
+    "description": "Anthony Fu's opinionated tooling and conventions for JavaScript/TypeScript projects. Use when setting up new projects, configuring ESLint/Prettier alternatives, monorepos, library publishing, or when the user mentions Anthony Fu's preferences.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/antfu",
+    "branch": "main"
+  },
+  {
+    "name": "nitro",
+    "description": "Nitro is the framework-agnostic server toolkit (powering Nuxt) for building and deploying web servers anywhere. Use when working with nitro.config, server routes/event handlers, route rules, caching, storage, tasks, websockets, or deploying to Node/Bun/Deno/Cloudflare/Vercel.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/nitro",
+    "branch": "main"
+  },
+  {
+    "name": "nuxt",
+    "description": "Nuxt full-stack Vue framework with SSR, auto-imports, and file-based routing. Use when working with Nuxt apps, server routes, useFetch, middleware, or hybrid rendering.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/nuxt",
+    "branch": "main"
+  },
+  {
+    "name": "pinia",
+    "description": "Pinia official Vue state management library, type-safe and extensible. Use when defining stores, working with state/getters/actions, or implementing store patterns in Vue apps.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/pinia",
+    "branch": "main"
+  },
+  {
+    "name": "pnpm",
+    "description": "Node.js package manager with strict dependency resolution. Use when running pnpm specific commands, configuring workspaces via pnpm-workspace.yaml, or managing dependencies with catalogs, patches, overrides, config dependencies, or the global virtual store.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/pnpm",
+    "branch": "main"
+  },
+  {
+    "name": "unocss",
+    "description": "UnoCSS instant atomic CSS engine, superset of Tailwind CSS. Use when configuring UnoCSS, writing utility rules, shortcuts, or working with presets like Wind, Icons, Attributify.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/unocss",
+    "branch": "main"
+  },
+  {
+    "name": "vite",
+    "description": "Vite build tool configuration, plugin API, SSR, and Vite 8 Rolldown migration. Use when working with Vite projects, vite.config.ts, Vite plugins, or building libraries/SSR apps with Vite.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/vite",
+    "branch": "main"
+  },
+  {
+    "name": "vitepress",
+    "description": "VitePress static site generator powered by Vite and Vue. Use when building documentation sites, configuring themes, or writing Markdown with Vue components.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/vitepress",
+    "branch": "main"
+  },
+  {
+    "name": "vitest",
+    "description": "Vitest fast unit testing framework powered by Vite with Jest-compatible API. Use when writing tests, mocking, configuring coverage, or working with test filtering and fixtures.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/vitest",
+    "branch": "main"
+  },
+  {
+    "name": "vue",
+    "description": "Vue 3 Composition API, script setup macros, reactivity system, and built-in components. Use when writing Vue SFCs, defineProps/defineEmits/defineModel, watchers, or using Transition/Teleport/Suspense/KeepAlive.",
+    "pack": "antfu-skills",
+    "repo": "antfu/skills",
+    "path": "skills/vue",
+    "branch": "main"
+  },
+  {
     "name": "academy-guide",
     "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.",
     "pack": "anthropic-skills",
@@ -360,11 +480,379 @@
     "branch": "main"
   },
   {
-    "name": "hf-mcp",
-    "description": "Use Hugging Face Hub via MCP server tools. Search models, datasets, Spaces, papers. Get repo details, fetch documentation, run compute jobs, and use Gradio Spaces as AI tools. Available when connected to the HF MCP server.",
-    "pack": "huggingface-skills",
-    "repo": "huggingface/skills",
-    "path": "hf-mcp/skills/hf-mcp",
+    "name": "assess-react-native-migration",
+    "description": "Assesses whether and how an existing mobile product should migrate to React Native. Use when auditing one or more product repositories for migration readiness, including products whose iOS, Android, and other clients live in separate directories or repositories; choosing brownfield, greenfield, or a checkpoint-based path; defining a representative trial; or preparing a baseline and ROI decision before implementation. When product scope or material evidence is unavailable, grills the stakeholder with exactly one question per turn instead of sending a questionnaire.",
+    "pack": "callstack-agent-skills",
+    "repo": "callstackincubator/agent-skills",
+    "path": "skills/assess-react-native-migration",
+    "branch": "main"
+  },
+  {
+    "name": "create-react-native-library",
+    "description": "Scaffolds React Native libraries with create-react-native-library for standalone libraries or local native modules and views. Use when creating or working on React Native libraries or adding native functionality in an existing app.",
+    "pack": "callstack-agent-skills",
+    "repo": "callstackincubator/agent-skills",
+    "path": "skills/create-react-native-library",
+    "branch": "main"
+  },
+  {
+    "name": "github-actions",
+    "description": "GitHub Actions workflow patterns for React Native iOS simulator and Android emulator cloud builds with downloadable artifacts. Use when setting up CI build pipelines or downloading GitHub Actions artifacts via gh CLI and GitHub API.",
+    "pack": "callstack-agent-skills",
+    "repo": "callstackincubator/agent-skills",
+    "path": "skills/github-actions",
+    "branch": "main"
+  },
+  {
+    "name": "react-native-best-practices",
+    "description": "Provides React Native performance optimization guidelines for FPS, TTI, bundle size, memory leaks, re-renders, and animations. Applies to tasks involving Hermes optimization, JS thread blocking, bridge overhead, FlashList, native modules, or debugging jank and frame drops.",
+    "pack": "callstack-agent-skills",
+    "repo": "callstackincubator/agent-skills",
+    "path": "skills/react-native-best-practices",
+    "branch": "main"
+  },
+  {
+    "name": "react-native-brownfield-migration",
+    "description": "Implements an accepted incremental brownfield migration from native iOS or Android to React Native or Expo using @callstack/react-native-brownfield. Use after the brownfield path has been selected, when setting up the integration, packaging XCFramework or AAR artifacts, or adding React Native surfaces to native hosts.",
+    "pack": "callstack-agent-skills",
+    "repo": "callstackincubator/agent-skills",
+    "path": "skills/react-native-brownfield-migration",
+    "branch": "main"
+  },
+  {
+    "name": "react-native-tv-best-practices",
+    "description": "Reviews React Native TV apps for focus/D-pad navigation, 10-foot UI layout, TV playback/DRM integration, low-memory TV performance, and TV accessibility. Use when building, debugging, or reviewing react-native-tvos, Expo TV, Amazon Vega/Kepler, or React Native web TV targets where the issue depends on remote input, TV focus, TV packaging, TV hardware, or TV playback constraints.",
+    "pack": "callstack-agent-skills",
+    "repo": "callstackincubator/agent-skills",
+    "path": "skills/react-native-tv-best-practices",
+    "branch": "main"
+  },
+  {
+    "name": "react-navigation",
+    "description": "Provides React Navigation UI patterns for stacks, tabs, drawers etc. Use when building navigation UIs with React Navigation, configuring headers, bottom sheets or handling safe areas and insets.",
+    "pack": "callstack-agent-skills",
+    "repo": "callstackincubator/agent-skills",
+    "path": "skills/react-navigation",
+    "branch": "main"
+  },
+  {
+    "name": "upgrading-react-native",
+    "description": "Upgrades React Native apps to newer versions by applying rn-diff-purge template diffs, updating package.json dependencies, migrating native iOS and Android configuration, resolving CocoaPods and Gradle changes, and handling breaking API updates. Use when upgrading React Native, bumping RN version, updating from RN 0.x to 0.y, or migrating Expo SDK alongside a React Native upgrade.",
+    "pack": "callstack-agent-skills",
+    "repo": "callstackincubator/agent-skills",
+    "path": "skills/upgrading-react-native",
+    "branch": "main"
+  },
+  {
+    "name": "writing-user-docs",
+    "description": "House style for user-facing documentation — voice, scope, structure, and what to leave out. Use this skill whenever writing, editing, or reviewing anything a user reads to learn how to use a tool — help center articles, getting-started guides, tutorials, feature docs, README usage sections, in-app help, release notes, or FAQ entries. Trigger it even when the request is phrased plainly — \"document this feature\", \"write docs for X\", \"explain this to users\", \"write a README for this library\", \"turn these notes into a guide\" — and even when no style guidelines are mentioned. Also use it to review existing docs for tone, bloat, or leaked implementation detail. Do not use it for internal engineering docs, architecture write-ups, RFCs, or code comments.",
+    "pack": "callstack-agent-skills",
+    "repo": "callstackincubator/agent-skills",
+    "path": "skills/writing-user-docs",
+    "branch": "main"
+  },
+  {
+    "name": "agents-sdk",
+    "description": "Build, debug, or review Cloudflare Agents SDK applications using the agents package.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/agents-sdk",
+    "branch": "main"
+  },
+  {
+    "name": "artifacts",
+    "description": "Build, debug, or review code that uses Cloudflare Artifacts, Git-compatible versioned storage, from Workers, the REST API, or Git clients. Use for the env.ARTIFACTS binding, creating, forking, or importing repositories, repo-scoped tokens, and pushing commits from a Worker.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/artifacts",
+    "branch": "main"
+  },
+  {
+    "name": "basin",
+    "description": "Build and troubleshoot Cloudflare Basin analytics workflows with Basin Pipelines, Basin Catalog, and Basin SQL. Use for streaming data into R2 Iceberg tables, managing catalogs, or querying those tables; also use for requests using the former Data Platform, Pipelines, R2 Data Catalog, or R2 SQL names.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/basin",
+    "branch": "main"
+  },
+  {
+    "name": "cf-cli",
+    "description": "Cloudflare's official cf CLI (beta) for the public Cloudflare API and Workers projects. Use for finding and running Cloudflare commands from the terminal — sign-in and profiles, cf cli search, cf schema, cf deploy/dev/build, resource commands for DNS, zones, D1, KV, and R2 — and for choosing between cf and Wrangler in a project.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/cf-cli",
+    "branch": "main"
+  },
+  {
+    "name": "cloudflare-app-bootstrap",
+    "description": "Get a Cloudflare Workers app to a working local request by connecting its bindings, secrets, and initial data, then verifying real application behavior. Use for app setup or onboarding after the project exists; use frameworks-on-cloudflare or cf-cli to create or configure the project, and wrangler or cf-cli for isolated commands.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/cloudflare-app-bootstrap",
+    "branch": "main"
+  },
+  {
+    "name": "cloudflare-email-service",
+    "description": "Implement or troubleshoot Cloudflare Email Sending and Email Routing integrations and their delivery configuration.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/cloudflare-email-service",
+    "branch": "main"
+  },
+  {
+    "name": "cloudflare-one-migrations",
+    "description": "Assess and plan migrations from existing VPN, SWG, or SASE platforms to Cloudflare One, including policy mapping, parity gaps, and rollout.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/cloudflare-one-migrations",
+    "branch": "main"
+  },
+  {
+    "name": "cloudflare-one",
+    "description": "Design, configure, troubleshoot, or review Cloudflare One Zero Trust and SASE deployments. Use cloudflare-one-migrations for migration planning from other vendors. Also use when an agent, script, crawler, or other non-browser client needs to reach a webpage or API protected by Cloudflare Access.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/cloudflare-one",
+    "branch": "main"
+  },
+  {
+    "name": "cloudflare",
+    "description": "Discover and choose Cloudflare products for apps, APIs, AI agents, storage, networking, and security. Use for architecture and product selection, including when the user describes a need without naming a Cloudflare product; then find the relevant skill or documentation. Also use when a Cloudflare-proxied site shows a Cloudflare error page, a `52x` status, a 1xxx error code, or a Cloudflare `403`, to decide whether to fix Cloudflare configuration or the origin.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/cloudflare",
+    "branch": "main"
+  },
+  {
+    "name": "durable-objects",
+    "description": "Build, debug, or review Cloudflare Durable Objects code for persistent state and coordination.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/durable-objects",
+    "branch": "main"
+  },
+  {
+    "name": "flagship",
+    "description": "Build, debug, or review code that uses Cloudflare Flagship feature flags from Workers, OpenFeature SDKs, the evaluation API, or Wrangler. Use for the Flagship binding, targeting rules, percentage rollouts and A/B splits, kill switches, local flag stores, and flag-related API tokens.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/flagship",
+    "branch": "main"
+  },
+  {
+    "name": "frameworks-on-cloudflare",
+    "description": "Build, migrate, and deploy web-framework applications on Cloudflare Workers. Use when a framework project such as Astro, SvelteKit, React Router, TanStack Start, Nuxt, Hono, or a React or Vue SPA targets Cloudflare, or when a framework repository contains Workers deployment configuration.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/frameworks-on-cloudflare",
+    "branch": "main"
+  },
+  {
+    "name": "gateway-workers",
+    "description": "Build, debug, or review Cloudflare Workers invoked by the Forward action in Gateway HTTP policies, including the GatewayMiddleware entrypoint, Gateway types, context, and continuation.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/gateway-workers",
+    "branch": "main"
+  },
+  {
+    "name": "k2",
+    "description": "Build and troubleshoot Cloudflare K2 or K2 Streams durable logs. Use for stream setup, producing from Workers or HTTP, configuring retention and inputs, and consuming through subscriptions.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/k2",
+    "branch": "main"
+  },
+  {
+    "name": "nextjs-on-cloudflare",
+    "description": "Build, migrate, and deploy Next.js apps on Cloudflare Workers with vinext. Use when starting a Next.js project on Cloudflare, moving an existing app to Workers, choosing between vinext and OpenNext, or setting up vinext for Workers. For setup, migration, or deployment, install vinext's upstream skills with `npx skills add cloudflare/vinext` if missing, then read and follow the applicable skill and docs.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/nextjs-on-cloudflare",
+    "branch": "main"
+  },
+  {
+    "name": "sandbox-migrate-to-next",
+    "description": "Migrate Cloudflare Sandbox apps from stable @cloudflare/sandbox to @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-next for apps already on the preview.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/sandbox-migrate-to-next",
+    "branch": "main"
+  },
+  {
+    "name": "sandbox-next",
+    "description": "Build or maintain Cloudflare Sandbox apps on @cloudflare/sandbox@next (SDK 1.0 preview). Use sandbox-migrate-to-next when porting a stable app.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/sandbox-next",
+    "branch": "main"
+  },
+  {
+    "name": "sandbox-stable",
+    "description": "Build or maintain Cloudflare Sandbox apps on the stable @cloudflare/sandbox package. Use sandbox-next for preview apps and sandbox-migrate-to-next for stable-to-preview migrations.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/sandbox-stable",
+    "branch": "main"
+  },
+  {
+    "name": "turnstile-spin",
+    "description": "Set up, repair, or migrate to Cloudflare Turnstile bot verification in an existing frontend and backend, including server-side Siteverify.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/turnstile-spin",
+    "branch": "main"
+  },
+  {
+    "name": "web-perf",
+    "description": "Audit, diagnose, or optimize website loading and interaction performance, Core Web Vitals, and Lighthouse performance scores.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/web-perf",
+    "branch": "main"
+  },
+  {
+    "name": "workers-best-practices",
+    "description": "Cloudflare Workers best practices for production applications. Use when writing, reviewing, or configuring Workers.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/workers-best-practices",
+    "branch": "main"
+  },
+  {
+    "name": "workers-development",
+    "description": "Run, inspect, and debug Cloudflare Workers during local development with cf dev, wrangler dev, or the Cloudflare Vite plugin, using Local Explorer to read and seed binding data and query local traces and logs. Also routes production debugging to Workers observability. Use for debugging requests whether or not the project uses Wrangler.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/workers-development",
+    "branch": "main"
+  },
+  {
+    "name": "workers-profiling",
+    "description": "Profile or debug CPU usage and memory allocation in deployed Cloudflare Workers and Durable Objects. Then use this information to optimize your code.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/workers-profiling",
+    "branch": "main"
+  },
+  {
+    "name": "wrangler",
+    "description": "Run or troubleshoot Wrangler CLI commands in projects that have a wrangler.jsonc, wrangler.json, or wrangler.toml file, including local development, Previews, deployment, and resource management. For new projects and projects without a Wrangler configuration file, use the cf CLI instead.",
+    "pack": "cloudflare-skills",
+    "repo": "cloudflare/skills",
+    "path": "skills/wrangler",
+    "branch": "main"
+  },
+  {
+    "name": "extension-to-functions-codebase",
+    "description": "Skill for converting an installed Firebase Extension (or extension source) into a standalone Cloud Functions for Firebase codebase or publishable npm package, including V1 to V2 trigger upgrades, lifecycle hooks, and declarative security",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/extension-to-functions-codebase",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-ai-logic-basics",
+    "description": "Integrates Firebase AI Logic (formerly Vertex AI for Firebase) into mobile and web apps (Android, iOS, Web, and Flutter) to call Gemini models from client code. Use when provisioning or initializing Firebase AI Logic, or adding Gemini features to an app: text generation, multimodal input, chat, streaming, structured output, hybrid on-device inference, App Check protection, or switching models with Remote Config.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-ai-logic-basics",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-analytics",
+    "description": "Comprehensive guide for Google Analytics for Firebase (GA4F), including base setup, SDK initialization, screen tracking, and event logging on Android and iOS. Use this skill when setting up Google Analytics, adding the SDK, or logging analytics events. Don't use for standalone CLI login or project/config file downloads without Analytics (use firebase-basics), or for Crashlytics, Remote Config, Auth, Firestore, Hosting, App Hosting, or Data Connect.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-analytics",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-app-hosting-basics",
+    "description": "Deploys and manages full-stack web applications (Next.js, Angular) with Server-Side Rendering (SSR) using Firebase App Hosting. Use when deploying Next.js/Angular apps, configuring apphosting.yaml or firebase.json apphosting blocks, managing secrets, setting up GitHub CI/CD, or configuring Blaze billing requirements. Don't use for classic static web hosting, Auth, Firestore, Crashlytics, or Xcode.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-app-hosting-basics",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-auth-basics",
+    "description": "Guide for setting up and using Firebase Authentication. Use this skill when the user's app requires user sign-in, user management, or secure data access using auth rules.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-auth-basics",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-basics",
+    "description": "Provides foundational Firebase CLI setup, CLI installation, version checks (`firebase-tools@latest --version`), CLI login (including --no-localhost), project creation, project selection (`firebase use`), and app config file downloads (`google-services.json`, `GoogleService-Info.plist`). Use ONLY for CLI login, project creation/switching, or downloading app config files. Don't use for Firebase Hosting deploy, Firestore, Auth, App Hosting, Data Connect, Crashlytics, or Remote Config.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-basics",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-crashlytics",
+    "description": "Comprehensive guide for Firebase Crashlytics, including provisioning and SDK usage. Use this skill when the user needs help setting up Crashlytics, adding crash reporting, or using the Crashlytics SDK in their application.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-crashlytics",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-data-connect",
+    "description": "Builds and deploys Firebase SQL Connect (aka Firebase Data Connect) backends with PostgreSQL securely. Use when designing schemas with tables and relations, writing authorized queries and mutations, configuring real-time data updates, or generating type-safe SDKs. Use when you need a relational database with Firebase, or when the user mentions SQL Connect or Data Connect.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-data-connect-basics",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-firestore",
+    "description": "Sets up, manages, queries, and configures Cloud Firestore databases (Standard/Enterprise edition), including data modeling, security rules, indexes, and SDK integrations (Web, Admin, Python, iOS, Android, Flutter). Use when adding or migrating app databases, creating/listing Firestore databases, defining data models/indexes, writing SDK queries, or integrating Firestore SDKs. For authoring or modifying Firestore Security Rules (firestore.rules), delegate to the firestore-rules-author subagent if subagent delegation is available, or use firestore-rules-creation otherwise. Don't use for Data Connect, BigQuery, or standalone Hosting, Auth, Storage/GCS, Crashlytics, or Functions tasks.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-firestore",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-hosting-basics",
+    "description": "Deploys and configures classic Firebase Hosting for static websites, single-page apps (SPAs), and microservices. Use when deploying static sites/SPAs, setting up custom domains, configuring firebase.json hosting settings (redirects, rewrites, headers, multi-site), or managing preview channels. Don't use for Firebase App Hosting (Next.js/SSR), Auth, Firestore queries/rules, Data Connect, or Crashlytics.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-hosting-basics",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-remote-config-basics",
+    "description": "Manages Firebase Remote Config templates, feature flags, loading strategies, and SDKs (Android, iOS). Use when downloading/deploying remoteconfig JSON templates, managing version history/feature flags, setting in-app defaults, fetchAndActivate(), real-time listeners, or SDK setup. Don't use for Firebase Hosting, Auth, Firestore, Data Connect, Crashlytics, or App Hosting.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-remote-config-basics",
+    "branch": "main"
+  },
+  {
+    "name": "firebase-security-rules-auditor",
+    "description": "Audits Firebase (Firestore, Cloud Storage) security rules for vulnerabilities, privilege escalation, role bypasses, create vs update inconsistencies, resource exhaustion, type safety, size limits, and hasOnly ownership checks. Use when auditing/reviewing rules, running red-team rule assessments, or scoring against auditor checklists. Don't use for Firebase CLI (login, deploy), Auth, Crashlytics, Remote Config, or database queries.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firebase-security-rules-auditor",
+    "branch": "main"
+  },
+  {
+    "name": "firestore-rules-creation",
+    "description": "Designs, authors, refactors, and hardens production-grade Cloud Firestore Security Rules (firestore.rules). IMPORTANT: If subagent delegation AND the firestore-rules-author subagent are available in your environment, delegate authoring firestore.rules to the firestore-rules-author subagent. If subagent delegation is unavailable (e.g. not enabled in the IDE), firestore-rules-author is not installed, or you are running inside firestore-rules-author, follow this skill directly.",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/firestore-rules-creation",
+    "branch": "main"
+  },
+  {
+    "name": "xcode-project-setup",
+    "description": "Safely modifies Xcode projects (.pbxproj) to add Swift Packages and link files. Use this skill whenever an iOS project needs dependencies installed (e.g. Firebase, Alamofire).",
+    "pack": "firebase-agent-skills",
+    "repo": "firebase/agent-skills",
+    "path": "skills/xcode-project-setup",
     "branch": "main"
   },
   {
@@ -440,14 +928,6 @@
     "branch": "main"
   },
   {
-    "name": "huggingface-community-evals",
-    "description": "Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation.",
-    "pack": "huggingface-skills",
-    "repo": "huggingface/skills",
-    "path": "skills/huggingface-community-evals",
-    "branch": "main"
-  },
-  {
     "name": "huggingface-datasets",
     "description": "Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics.",
     "pack": "huggingface-skills",
@@ -457,26 +937,10 @@
   },
   {
     "name": "huggingface-gradio",
-    "description": "Build Gradio web UIs and demos in Python. Use when creating or editing Gradio apps, components, event listeners, layouts, or chatbots.",
+    "description": "Build Gradio web UIs and demos in Python. Use when creating, modifying, debugging, or answering questions about Gradio and its capabilities, components, event listeners, or layouts.",
     "pack": "huggingface-skills",
     "repo": "huggingface/skills",
     "path": "skills/huggingface-gradio",
-    "branch": "main"
-  },
-  {
-    "name": "huggingface-llm-trainer",
-    "description": "Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, model selection/leaderboards and model persistence. Use for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.",
-    "pack": "huggingface-skills",
-    "repo": "huggingface/skills",
-    "path": "skills/huggingface-llm-trainer",
-    "branch": "main"
-  },
-  {
-    "name": "huggingface-local-models",
-    "description": "Use to select models to run locally with llama.cpp and GGUF on CPU, Mac Metal, CUDA, or ROCm. Covers finding GGUFs, quant selection, running servers, exact GGUF file lookup, conversion, and OpenAI-compatible local serving.",
-    "pack": "huggingface-skills",
-    "repo": "huggingface/skills",
-    "path": "skills/huggingface-local-models",
     "branch": "main"
   },
   {
@@ -485,14 +949,6 @@
     "pack": "huggingface-skills",
     "repo": "huggingface/skills",
     "path": "skills/huggingface-lora-space-builder",
-    "branch": "main"
-  },
-  {
-    "name": "huggingface-paper-publisher",
-    "description": "Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles.",
-    "pack": "huggingface-skills",
-    "repo": "huggingface/skills",
-    "path": "skills/huggingface-paper-publisher",
     "branch": "main"
   },
   {
@@ -509,14 +965,6 @@
     "pack": "huggingface-skills",
     "repo": "huggingface/skills",
     "path": "skills/huggingface-spaces",
-    "branch": "main"
-  },
-  {
-    "name": "huggingface-tool-builder",
-    "description": "Use this skill when the user wants to build tool/scripts or achieve a task where using data from the Hugging Face API would help. This is especially useful when chaining or combining API calls or the task will be repeated/automated. This Skill creates a reusable script to fetch, enrich or process data.",
-    "pack": "huggingface-skills",
-    "repo": "huggingface/skills",
-    "path": "skills/huggingface-tool-builder",
     "branch": "main"
   },
   {
@@ -577,7 +1025,7 @@
   },
   {
     "name": "last30days",
-    "description": "Research what people actually say about any topic in the last 30 days. Pulls posts and engagement from Reddit, X, YouTube, TikTok, Hacker News, Polymarket, GitHub, and the web. Includes a doctor health check to diagnose broken or missing sources.",
+    "description": "Research the last 30 days; doctor diagnoses broken sources.",
     "pack": "last30days",
     "repo": "mvanhorn/last30days-skill",
     "path": "skills/last30days",
@@ -1005,6 +1453,62 @@
     "pack": "marketingskills",
     "repo": "coreyhaines31/marketingskills",
     "path": "skills/video",
+    "branch": "main"
+  },
+  {
+    "name": "neon-ai-gateway",
+    "description": "One API and one credential for frontier and open-source LLMs and embedding models, built into your Neon branch and powered by Databricks. Use when a user wants to call an LLM, generate embeddings, add AI/chat/an agent to their app, route between model providers (OpenAI, Anthropic, Google/Gemini, Meta, Alibaba, and more), or avoid juggling separate provider API keys and accounts — especially when they already use Neon and want AI requests to branch with their project. Works with the OpenAI SDK, Anthropic SDK, google-genai, the Vercel AI SDK, and Mastra by changing only the base URL. Triggers include \"call an LLM\", \"add AI to my app\", \"chat completion\", \"model routing\", \"LLM proxy/gateway\", \"one API for all models\", \"use Claude/GPT/Gemini\", \"AI SDK\", \"Mastra agent\", \"Neon AI Gateway\", \"generate embeddings\", \"generate images\", and \"log/rate-limit AI calls\".",
+    "pack": "neon-agent-skills",
+    "repo": "neondatabase/agent-skills",
+    "path": "skills/neon-ai-gateway",
+    "branch": "main"
+  },
+  {
+    "name": "neon-auth",
+    "description": "Add authentication to a new app. Use for \"add auth\", \"add login\", Neon Auth (Managed Better Auth), identity routing, sign-up, sign-in, password reset, email OTP, magic links, organizations, phone OTP, OAuth, OAuth server for MCP or third-party OAuth clients, passkeys, MFA, trusted domains, invalid domain, and @neon/auth. No existing identity: default to Managed Better Auth. Keep working Better Auth, Clerk, Supabase Auth, or another IdP. User asked to migrate from Supabase Auth: Managed Better Auth. A required plugin outside Managed support: self-managed Better Auth on a Neon Function or the existing app host. Also use for auth APIs in @neon/neon-js.",
+    "pack": "neon-agent-skills",
+    "repo": "neondatabase/agent-skills",
+    "path": "skills/neon-auth",
+    "branch": "main"
+  },
+  {
+    "name": "neon-functions",
+    "description": "Long-running, serverless Node.js HTTP functions deployed onto your Neon branch, with DATABASE_URL injected automatically and compute that runs next to your data. Use when a user wants to host an API, an AI agent with long streaming responses, a WebSocket or server-sent-events (SSE) server, a webhook handler, a Discord bot, an MCP server, or any request/response workload that risks timing out on short, lambda-style serverless functions — and wants it to branch with their database. Also use for Function Triggers: a cron or an object-storage event that POSTs to a function. Triggers include \"serverless function\", \"deploy an API\", \"long-running function\", \"streaming agent\", \"SSE server\", \"WebSocket server\", \"webhook handler\", \"MCP server\", \"cron\", \"scheduled function\", \"object storage trigger\", \"on upload\", \"function that won't time out\", \"function logs\", \"Neon Functions\", \"Neon Compute\", \"DDoS protection\", \"rate limiting\", and \"production hardening\". For live UIs over database rows, use neon-realtime.",
+    "pack": "neon-agent-skills",
+    "repo": "neondatabase/agent-skills",
+    "path": "skills/neon-functions",
+    "branch": "main"
+  },
+  {
+    "name": "neon-object-storage",
+    "description": "S3-compatible object storage that branches with your database, so each branch gets its own copy of the files and the rows that point at them. Use when a user wants object storage, a bucket, blob/file storage, or somewhere to put uploads, images, documents, avatars, or user-generated files for their app or agent — especially when they already use (or are setting up) Lakebase Postgres and don't want to add a separate storage provider like AWS S3, Cloudflare R2, or Supabase Storage. Triggers include \"object storage\", \"bucket\", \"blob storage\", \"file storage\", \"store uploads/images/files\", \"S3-compatible storage\", \"presigned URL\", \"where do I put files\", \"storage logs\", \"bucket logs\", \"CDN in front of object storage\", \"Neon Object Storage\", \"Neon Storage\", and \"storage that branches with my database\".",
+    "pack": "neon-agent-skills",
+    "repo": "neondatabase/agent-skills",
+    "path": "skills/neon-object-storage",
+    "branch": "main"
+  },
+  {
+    "name": "neon-postgres",
+    "description": "Guides and best practices for working with Lakebase Postgres on Neon: connections, pooled vs direct, schema migrations, branching (including schema-only, reset-from-parent, and branch-per-PR workflows), autoscaling, scale-to-zero, instant restore, read replicas, IP allow lists, logical replication, egress optimization, and Lakebase Search. Use when the work is an existing DATABASE_URL, SQL, schema, inspect, or search. New backends, Auth, files, Functions, and LLM calls go to the parent `neon` skill. Live queries, reactive UIs, and realtime data go to `neon-realtime`. Also use for \"@neondatabase/serverless\", \"@neon/neon-js\", \"neon inspect db\", \"neon postgres computes\", \"Neon branch\", \"schema-only branch\", \"reset branch\", \"branch per PR\", high database bills, network transfer or egress, Free plan limits or a compute suspended over quota (SQLSTATE 53000, HTTP 402), SELECT * optimization, query overfetching, \"semantic search\", \"vector search\", \"full-text search\", \"BM25\", or \"hybrid search\".",
+    "pack": "neon-agent-skills",
+    "repo": "neondatabase/agent-skills",
+    "path": "skills/neon-postgres",
+    "branch": "main"
+  },
+  {
+    "name": "neon-realtime",
+    "description": "Neon Realtime makes any SQL query live. Build realtime, reactive apps and agents on Lakebase Postgres with live SQL queries and reactivity primitives. Use when app UI or agent state must update live from database rows (dashboards, feeds, collaboration, multi-user or multi-device sync), for optimistic mutations, or to replace polling or other realtime sync systems. Triggers include \"live query\", \"subscribe\", \"sync engine\", \"useLiveQuery\", \"TanStack DB\", \"optimistic updates\", \"@neon/realtime\". For push that doesn't come from database rows (presence, typing, LLM streams), use neon-functions.",
+    "pack": "neon-agent-skills",
+    "repo": "neondatabase/agent-skills",
+    "path": "skills/neon-realtime",
+    "branch": "main"
+  },
+  {
+    "name": "neon",
+    "description": "Overview of Neon, a complete set of cloud backend primitives around Lakebase Postgres: Auth, Object Storage, Functions, the AI Gateway, and Realtime. Start here to choose Neon for undecided login, files, APIs, and LLM calls, set up the CLI or MCP server, and follow the branch-first workflow. Use when building an app or backend on Neon, or when \"Neon\" or \"Lakebase Postgres\" is mentioned. Child skill neon-postgres wins for an existing DATABASE_URL, SQL, schema, inspect, or search. Child skill neon-auth wins for login, users, sessions, identity routing, and Managed Better Auth setup. Child skill neon-realtime wins for live queries in reactive apps and agents. Also use for object storage, S3, buckets, serverless functions, function triggers, cron, AI gateway, LLM calls, realtime, logs, Loki, Grafana, observability, postgres, database, backend, Claimable Neon, neon.new, a no-signup database, or pairing Neon with Upstash for cache, Redis, rate limiting, queues, or background jobs.",
+    "pack": "neon-agent-skills",
+    "repo": "neondatabase/agent-skills",
+    "path": "skills/neon",
     "branch": "main"
   },
   {
@@ -2464,6 +2968,358 @@
     "branch": "main"
   },
   {
+    "name": "agents-md",
+    "description": "Creates and maintains concise AGENTS.md and CLAUDE.md project instruction files. Use when asked to create AGENTS.md, update AGENTS.md, maintain agent docs, set up CLAUDE.md, document repository agent conventions, or keep coding-agent instructions minimal and reference-backed.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/agents-md",
+    "branch": "main"
+  },
+  {
+    "name": "blog-writing-guide",
+    "description": "Write, review, and improve blog posts for the Sentry engineering blog following Sentry's specific writing standards, voice, and quality bar. Use this skill whenever someone asks to write a blog post, draft a technical article, review blog content, improve a draft, write a product announcement, create an engineering deep-dive, or produce any written content destined for the Sentry blog or developer audience. Also trigger when the user mentions \"blog post,\" \"blog draft,\" \"write-up,\" \"announcement post,\" \"engineering post,\" \"deep dive,\" \"postmortem,\" or asks for help with technical writing for Sentry. Even if the user just says \"help me write about [feature/topic]\" — if it sounds like it could become a Sentry blog post, use this skill.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/blog-writing-guide",
+    "branch": "main"
+  },
+  {
+    "name": "brand-guidelines",
+    "description": "Write copy following Sentry brand guidelines. Use when writing UI text, error messages, empty states, onboarding flows, 404 pages, documentation, marketing copy, or any user-facing content. Covers both Plain Speech (default) and Sentry Voice tones.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/brand-guidelines",
+    "branch": "main"
+  },
+  {
+    "name": "browse-local-sentry",
+    "description": "Connects an agent's browser to a local Sentry dev server (dev-ui on *.dev.getsentry.net or the full devserver).",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/browse-local-sentry",
+    "branch": "main"
+  },
+  {
+    "name": "claude-settings-audit",
+    "description": "Analyze a repository to generate recommended Claude Code settings.json permissions. Use when setting up a new project, auditing existing settings, or determining which read-only bash commands to allow. Detects tech stack, build tools, and monorepo structure.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/claude-settings-audit",
+    "branch": "main"
+  },
+  {
+    "name": "code-review",
+    "description": "Perform code reviews following Sentry engineering practices. Use when reviewing pull requests, examining code changes, or providing feedback on code quality. Covers security, performance, testing, and design review.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/code-review",
+    "branch": "main"
+  },
+  {
+    "name": "code-simplifier",
+    "description": "Simplifies and refines code for clarity, consistency, and maintainability while preserving all functionality. Use when asked to \"simplify code\", \"clean up code\", \"refactor for clarity\", \"improve readability\", or review recently modified code for elegance. Focuses on project-specific best practices.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/code-simplifier",
+    "branch": "main"
+  },
+  {
+    "name": "commit",
+    "description": "Use for every request to commit changes or draft a commit message. Creates Sentry-style conventional commits with issue references.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/commit",
+    "branch": "main"
+  },
+  {
+    "name": "create-branch",
+    "description": "Create a git branch following Sentry naming conventions. Use when asked to \"create a branch\", \"new branch\", \"start a branch\", \"make a branch\", \"switch to a new branch\", or when starting new work on the default branch.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/create-branch",
+    "branch": "main"
+  },
+  {
+    "name": "django-access-review",
+    "description": "Django access control and IDOR security review. Use when reviewing Django views, DRF viewsets, ORM queries, or any Python/Django code handling user authorization. Trigger keywords: \"IDOR\", \"access control\", \"authorization\", \"Django permissions\", \"object permissions\", \"tenant isolation\", \"broken access\".",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/django-access-review",
+    "branch": "main"
+  },
+  {
+    "name": "django-perf-review",
+    "description": "Django performance code review. Use when asked to \"review Django performance\", \"find N+1 queries\", \"optimize Django\", \"check queryset performance\", \"database performance\", \"Django ORM issues\", or audit Django code for performance problems.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/django-perf-review",
+    "branch": "main"
+  },
+  {
+    "name": "doc-coauthoring",
+    "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/doc-coauthoring",
+    "branch": "main"
+  },
+  {
+    "name": "document-api-endpoint",
+    "description": "Document and type a Sentry API endpoint. Write or fix @extend_schema decorators, specify response TypedDicts, type request parameters, correct type drift between the declared schema and the runtime response, and validate the generated spec. Use when asked to \"document an endpoint\", \"add OpenAPI docs\", \"add/fix @extend_schema\", \"type an endpoint response\", \"fix the response type\", \"fix type drift\", \"reuse a response type\", \"split an overloaded endpoint\", \"specify the response schema\", \"add a TypedDict response\", \"migrate a legacy api-docs path\", \"fix a parameter type\", or \"make an endpoint public\" / \"promote an endpoint\" (promotion is one section here).",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/document-api-endpoint",
+    "branch": "main"
+  },
+  {
+    "name": "find-bugs",
+    "description": "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/find-bugs",
+    "branch": "main"
+  },
+  {
+    "name": "gh-review-requests",
+    "description": "Fetch unread GitHub notifications for open PRs where review is requested from a specified team or opened by a team member. Use when asked to \"find PRs I need to review\", \"show my review requests\", \"what needs my review\", \"fetch GitHub review requests\", or \"check team review queue\".",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/gh-review-requests",
+    "branch": "main"
+  },
+  {
+    "name": "gha-security-review",
+    "description": "GitHub Actions security review for workflow exploitation vulnerabilities. Use when asked to \"review GitHub Actions\", \"audit workflows\", \"check CI security\", \"GHA security\", \"workflow security review\", or review .github/workflows/ for pwn requests, expression injection, credential theft, and supply chain attacks. Exploitation-focused with concrete PoC scenarios.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/gha-security-review",
+    "branch": "main"
+  },
+  {
+    "name": "iterate-pr",
+    "description": "Iterate on a PR until actionable CI passes and high/medium review feedback is addressed. Use for PR CI failures, review feedback, or green-check loops; do not wait for human approval, draft status, or merge gates.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/iterate-pr",
+    "branch": "main"
+  },
+  {
+    "name": "pr-link-issue",
+    "description": "Append a GitHub issue link and its Linear ticket to the current PR's description. Use when asked to \"link issue to pr\", \"fill in issue and linear in pr\", \"add issue refs to pr\", or when given a GitHub issue URL and asked to attach it to the current PR. Resolves the Linear ticket automatically from the issue's linear-linkback comment.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/pr-link-issue",
+    "branch": "main"
+  },
+  {
+    "name": "pr-screenshots",
+    "description": "Capture screenshots of the Sentry UI in a web browser, lay them out in a pull request description as before/after tables, and upload them with `gh --attach`.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/pr-screenshots",
+    "branch": "main"
+  },
+  {
+    "name": "pr-writer",
+    "description": "Create or refresh reviewer-facing PR titles and descriptions. Use when opening a PR, updating its title or body, or preparing branch changes for review.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/pr-writer",
+    "branch": "main"
+  },
+  {
+    "name": "presentation-creator",
+    "description": "Create data-driven presentation slides using React, Vite, and Recharts with Sentry branding. Use when asked to \"create a presentation\", \"build slides\", \"make a deck\", \"create a data presentation\", \"build a Sentry presentation\". Scaffolds a complete slide-based app with charts, animations, and single-file HTML output.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/presentation-creator",
+    "branch": "main"
+  },
+  {
+    "name": "prompt-optimizer",
+    "description": "Creates, optimizes, and iteratively refines agent prompts, system prompts, developer prompts, and reusable prompt templates. Use when asked to improve a prompt, optimize a system prompt, rewrite an agent prompt, tune prompt wording, make a prompt more reliable, port prompts between OpenAI, Claude, or Gemini, or build prompt evals.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/prompt-optimizer",
+    "branch": "main"
+  },
+  {
+    "name": "secret-serialization",
+    "description": "Finds secrets, tokens, passwords, and API keys that can leak through generated serialization: Python dataclass repr and asdict, attrs, pydantic model_dump, NamedTuple, JavaScript JSON.stringify and util.inspect, structured logs, tracing spans, and error reports. Use when asked to \"check for secret serialization\", \"credential in repr\", \"repr=False audit\", \"secret in spans\", \"token in logs\", or when a change adds a credential field to a dataclass, model, or config object, or adds code that stringifies whole objects or every kwarg into telemetry.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/secret-serialization",
+    "branch": "main"
+  },
+  {
+    "name": "security-model",
+    "description": "Define, review, or update SECURITY_MODEL.md files that tell security review tools a repository's threat model, trust boundaries, invariants, reportable finding classes, and exclusions. Use when asked to \"write a security model\", \"threat model this repo for scanners\", \"define security review scope\", \"what counts as a vulnerability here\", \"update SECURITY_MODEL.md\", \"why did the scanner flag or miss this\", or to check whether existing security guidance still matches the code. Not for running a security review or editing the SECURITY.md disclosure policy.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/security-model",
+    "branch": "main"
+  },
+  {
+    "name": "security-review",
+    "description": "Security code review for vulnerabilities. Use when asked to \"security review\", \"find vulnerabilities\", \"check for security issues\", \"audit security\", \"OWASP review\", or review code for injection, XSS, authentication, authorization, cryptography issues. Provides systematic review with confidence-based reporting.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/security-review",
+    "branch": "main"
+  },
+  {
+    "name": "skill-scanner",
+    "description": "Scan agent skills for security issues. Use when asked to \"scan a skill\", \"audit a skill\", \"review skill security\", \"check skill for injection\", \"validate SKILL.md\", or assess whether an agent skill is safe to install. Checks for prompt injection, malicious scripts, excessive permissions, secret exposure, and supply chain risks.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/skill-scanner",
+    "branch": "main"
+  },
+  {
+    "name": "skill-writer",
+    "description": "Create, synthesize, and iteratively improve agent skills following the Agent Skills specification. Use when asked to \"create a skill\", \"write a skill\", \"synthesize sources into a skill\", \"improve a skill from positive/negative examples\", \"update a skill\", or \"maintain skill docs and registration\". Handles source capture, precision passes, authoring, registration, and validation.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/skill-writer",
+    "branch": "main"
+  },
+  {
+    "name": "sred-project-organizer",
+    "description": "Take a list of projects and their related documentation, and organize them into the SRED format for submission.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/sred-project-organizer",
+    "branch": "main"
+  },
+  {
+    "name": "sred-work-summary",
+    "description": "Go back through the previous year of work and create a Notion doc that groups relevant links into projects that can then be documented as SRED projects.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/sred-work-summary",
+    "branch": "main"
+  },
+  {
+    "name": "triage-frontend-issues",
+    "description": "Triage new issues in the Sentry `javascript` project by archiving non-actionable noise. Use when asked to \"triage issues\", \"triage the javascript project\", \"archive non-actionable issues\", \"triage new frontend issues\", or \"clean up the sentry/javascript queue\". Operates only on the sentry/javascript project, only archives (never resolves), and always archives with `untilEscalating`.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/triage-frontend-issues",
+    "branch": "main"
+  },
+  {
+    "name": "typing-exclusion-worker",
+    "description": "Python typing exclusion worker: remove assigned mypy exclusion modules in small scoped batches, fix typing issues, run validation, and produce a structured completion summary. Use when running parallel typing-debt workers or when asked to remove modules from pyproject mypy exclusion overrides.",
+    "pack": "sentry-skills",
+    "repo": "getsentry/skills",
+    "path": "skills/typing-exclusion-worker",
+    "branch": "main"
+  },
+  {
+    "name": "connect-recommend",
+    "description": "Use this skill when the user asks about Stripe Connect configuration, charge patterns, Dashboard access, or how to get started with Connect, is building a marketplace, platform, multi-vendor store, gig platform, or subscription platform, needs to pay out sellers, vendors, or providers, mentions split payments, revenue sharing, multi-party payments, or similar payment distribution concepts, provides a company URL or business description for a recommendation, builds SaaS that routes money between parties (for example, POS, booking, invoicing — not operational SaaS without payment routing), asks about onboarding or KYC for merchants, sellers, and vendors, mentions connected account Dashboard or responsibility configurations, or asks about payment flows, white-label payments, or embedded payments.",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/connect-recommend",
+    "branch": "main"
+  },
+  {
+    "name": "connect-required-verification-information",
+    "description": "Use this skill when the user asks what information a Stripe Connect connected account must provide for verification, onboarding, KYC, or account requirements; when they need to compare requirements between connected-account setups; or when they ask which verification fields, documents, or business details are required for a particular platform country, account country, business type, dashboard, service agreement, or capability.",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/connect-required-verification-information",
+    "branch": "main"
+  },
+  {
+    "name": "metronome",
+    "description": "Guides Metronome usage-based billing integration decisions — event ingestion (single and batch, idempotency, billable metrics), contract design (rate cards, overrides, dimensional pricing, products), invoicing lifecycle (grace periods, finalization, Stripe sync), credit and commit management (prepaid, postpaid, thresholds, auto-recharge), and Stripe integration (arrears invoicing, tax providers, line item limits). Use when building, modifying, or reviewing any Metronome integration — including ingesting usage events, creating customers, contracts, or rate cards, designing billable metric group keys, managing credits and commits, configuring invoicing, syncing invoices with Stripe Billing, billing AI applications for token usage, setting up self-serve (PLG) pricing, reviewing customer health, commit burn, portfolios, or renewals, or migrating from Stripe Billing Meters to Metronome.",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/metronome",
+    "branch": "main"
+  },
+  {
+    "name": "stripe-apps",
+    "description": "Build, modify, or review Stripe Apps and extensions using the relevant documentation and reference guides. Use for custom Stripe Dashboard UI, stripe-app.yaml, @stripe/ui-extension-sdk, @stripe/extensibility-sdk, script extensions, extension interfaces, custom workflow actions, and apps that authenticate to Stripe or react to events. Also use when deciding whether a Stripe extension can support the user's billing or workflow requirements.",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/stripe-apps",
+    "branch": "main"
+  },
+  {
+    "name": "stripe-best-practices",
+    "description": "Guides Stripe integration decisions across development and test environment planning (separate sandboxes vs the shared test mode sandbox), API selection (Checkout Sessions vs PaymentIntents), Connect platform setup (Accounts v2, controller properties), billing/subscriptions, tax and registrations (Stripe Tax, automatic_tax, product tax codes), Treasury financial accounts, integration options (Checkout, Payment Element), migrating from deprecated Stripe APIs, and security best practices (API key management, API key permissions, webhooks, OAuth). Use when planning, building, modifying, testing, or reviewing any Stripe integration, including choosing a development environment, accepting payments, building marketplaces, integrating Stripe, processing payments, setting up subscriptions, collecting sales tax, VAT, or GST, creating connected accounts, or implementing secure key handling.",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/stripe-best-practices",
+    "branch": "main"
+  },
+  {
+    "name": "stripe-bfcm-dashboard",
+    "description": "Builds a Black Friday and Cyber Monday (BFCM) season dashboard of payments, customers, and recurring revenue from the connected Stripe MCP account, as a hosted dashboard or artifact where the agent's tools support one, otherwise as one HTML file. For the 2026 BFCM season only. Use when a merchant asks for a BFCM, Black Friday, Cyber Monday, holiday, holiday sales, or peak-season dashboard, such as \"build me a holiday dashboard\" or \"build me a Cyber Monday dashboard,\" even without the word BFCM.",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/stripe-bfcm-dashboard",
+    "branch": "main"
+  },
+  {
+    "name": "stripe-directory",
+    "description": "Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the documented way to engage them — to pay, donate, subscribe, book, provision, or integrate with them. MUST be used BEFORE web search, model memory, or any other directory/vendor-lookup skill for ANY request that requires selecting, finding, or engaging an external provider or organization — whether a specific one is named (\"pay my Twilio bill\"), implied (\"donate to the Red Cross\"), or only a category is stated (\"set up a mailing client\", \"I need a database\", \"find me a CRM\"). Directory supplies verified recipients and their documented payment or engagement path. Results are ranked by agent-readiness (how reliably an agent can complete the interaction), relevance and popularity. Don't treat this as a search-only tool. Examples: \"setup a database\", \"find hosting\", \"pay X\", \"use Twilio\", \"donate $50 to the Red Cross\", \"book a table at Y\", \"subscribe to a CRM\".",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/stripe-directory",
+    "branch": "main"
+  },
+  {
+    "name": "stripe-docs",
+    "description": "Use when the user or agent needs to read, search, or look up Stripe documentation or API reference. Prefer this over curl or WebFetch for any docs.stripe.com content. Use to fetch gated documentation.",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/stripe-docs",
+    "branch": "main"
+  },
+  {
+    "name": "stripe-implementation-planner",
+    "description": "Plans Stripe product selection and integration architecture for an initial Stripe setup or a material expansion of an existing setup. Use when the user needs personalized recommendations based on their business model, payment models, sales channels, geography, or platform requirements, including requests to plan and build an integration. Don't use for API-version upgrades, product-availability questions, existing-integration debugging, webhook troubleshooting, narrow code changes, product explanations, PR review alone, unrelated implementation planning, or when the user explicitly asks to skip planning.",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/stripe-implementation-planner",
+    "branch": "main"
+  },
+  {
+    "name": "stripe-pay",
+    "description": "Helps users send funds to another Stripe business, transfer money to a Stripe Profile handle or network ID, or ask whether an agent can pay a Stripe business. Use Stripe Directory to find or verify a recipient when the user doesn't provide an exact Stripe Profile handle or network ID.",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/stripe-pay",
+    "branch": "main"
+  },
+  {
+    "name": "stripe-projects",
+    "description": "Use when the user wants to provision infrastructure or third-party services using Stripe Projects. Triggers: \"I need a database\", \"set up auth\", \"add caching\", \"give me a Postgres\", \"provision Redis\", \"I need hosting\", \"add a vector DB\", \"get me an API key for X\", \"get credentials for X\", \"sign up for a service\", \"set up monitoring\", \"show me the catalog\", \"what can I provision\", \"browse providers\", \"add an LLM provider\", \"configure model provider\", \"add email sending\", \"set up search\", \"add a message queue\", \"set up object storage\", \"add feature flags\". Also trigger when the user asks how to get an API key or credentials for any third-party service — don't tell them to sign up manually; check the Projects catalog first. Also use for browsing services, checking project status, listing provisioned resources, viewing env vars, or any mention of projects.dev or adding/provisioning/connecting a cloud service.",
+    "pack": "stripe-agent-skills",
+    "repo": "stripe/ai",
+    "path": "skills/stripe-projects",
+    "branch": "main"
+  },
+  {
+    "name": "supabase-postgres-best-practices",
+    "description": "Postgres best practices maintained by Supabase, for Postgres running anywhere. Load this skill BEFORE writing or changing anything that lives in a Postgres database: creating or altering tables and columns (including choosing column types), schema design, migrations and declarative schema files, RLS policies and the tests that verify them, indexes, triggers, database functions, queues and scheduled jobs (pg_cron, pgmq), vector/semantic search (pgvector), and restoring dumps (pg_restore) or importing data. Also load it when diagnosing slow queries, high CPU, timeouts, EXPLAIN plans, connection exhaustion, locking, bloat, or rows visible to the wrong user or tenant. This is not just a performance guide — schema, migration, security, and SQL authoring tasks need these rules too, even for a one-column change or a single query.",
+    "pack": "supabase-agent-skills",
+    "repo": "supabase/agent-skills",
+    "path": "skills/supabase-postgres-best-practices",
+    "branch": "main"
+  },
+  {
+    "name": "supabase",
+    "description": "Use when doing ANY task involving Supabase. Triggers: Supabase products (Database, Auth, Edge Functions, Realtime, Storage, Vectors, Cron, Queues); client libraries and SSR integrations (supabase-js, @supabase/ssr) in Next.js, React, SvelteKit, Astro, Remix; auth issues (login, logout, sessions, JWT, cookies, getSession, getUser, getClaims, RLS); Supabase CLI or MCP server; schema changes, migrations, declarative schemas, security audits, Postgres extensions (pg_graphql, pg_cron, pg_vector); debugging and troubleshooting errors or unexpected behavior on Supabase projects (HTTP errors, Postgres errors, RLS surprises, permission denied, schema cache issues, timeouts, Edge Function crashes, Realtime drops, Storage failures) and reading or querying logs (Logs Explorer, ClickHouse).",
+    "pack": "supabase-agent-skills",
+    "repo": "supabase/agent-skills",
+    "path": "skills/supabase",
+    "branch": "main"
+  },
+  {
     "name": "brainstorming",
     "description": "You MUST use this before any creative work - creating features, building components, adding functionality, modifying behavior, or planning anything new, in software or out of it (a talk, a business, a renovation).",
     "pack": "superpowers",
@@ -2721,7 +3577,7 @@
   },
   {
     "name": "agent-desktop",
-    "description": "Operate desktop applications on macOS, Windows and Linux through native accessibility trees, using the agent-desktop CLI. Use when an AI agent must see or act on a desktop GUI: click buttons, fill forms, read UI state, navigate menus, toggle checkboxes, scroll, drag, type text, press shortcuts, take screenshots, manage windows, use the clipboard, launch or close apps, read notifications. Triggers on: \"click button\", \"fill form\", \"open app\", \"read UI\", \"computer use\", \"operate desktop\", \"accessibility tree\", \"snapshot app\", \"type into field\", \"navigate menu\", \"toggle checkbox\", \"take screenshot\", \"desktop automation\", \"agent-desktop\", or any desktop GUI task on macOS, Windows or Linux.",
+    "description": "Operate desktop apps on macOS, Windows, and Linux through native accessibility trees with agent-desktop. Use for desktop GUI tasks: observe controls, click, edit fields, navigate menus, manage windows, launch apps, or read notifications.",
     "pack": "vercel-agent-skills",
     "repo": "vercel-labs/agent-desktop",
     "path": "skills/agent-desktop",
@@ -2729,7 +3585,7 @@
   },
   {
     "name": "agent-desktop-linux",
-    "description": "Linux platform guide for the agent-desktop CLI. Lists per command group what works on X11 and on Wayland, how to check the AT-SPI accessibility bus, the first-contact gotchas (app names, Chromium and Electron flags, headed focus, blocked key combos), and where to find lifecycle, screenshot, clipboard, tray, notification and troubleshooting details. Triggers on: \"linux desktop automation\", \"AT-SPI tree\", \"automate GNOME app\", \"agent-desktop on Linux\", \"accessibility bus not available\", \"empty supported_surfaces\", \"wayland screenshot consent\", or any Linux GUI interaction task.",
+    "description": "Linux setup and troubleshooting for agent-desktop: the AT-SPI bus, toolkit identity, X11 versus Wayland, capture consent, and headless refusals.",
     "pack": "vercel-agent-skills",
     "repo": "vercel-labs/agent-desktop",
     "path": "skills/agent-desktop-linux",
@@ -2737,7 +3593,7 @@
   },
   {
     "name": "agent-desktop-macos",
-    "description": "macOS platform guide for the agent-desktop CLI. Use for desktop automation on macOS: granting Accessibility and Screen Recording permission (TCC), what headed mode does on macOS (physical-first click, type and scroll), surfaces (menu, menubar, sheet, popover, alert, dock, menu-bar-extras), menu bar apps and system panels with no window, Notification Center, Chromium and Electron apps including launch --cdp, and fixing PERM_DENIED, empty accessibility trees, ACTION_FAILED and APP_UNRESPONSIVE.",
+    "description": "macOS setup and troubleshooting for agent-desktop: accessibility permissions, native element identity, application-owned surfaces, and headless refusals.",
     "pack": "vercel-agent-skills",
     "repo": "vercel-labs/agent-desktop",
     "path": "skills/agent-desktop-macos",
@@ -2745,7 +3601,7 @@
   },
   {
     "name": "agent-desktop-windows",
-    "description": "Windows platform guide for the agent-desktop CLI. Lists per command group what works on Windows and what refuses, the first-contact gotchas (PowerShell ref quoting, minimized windows, headed-only input), and where to find shell surfaces, notifications, the cursor overlay, UIPI elevation, Chromium/Electron settle behavior and troubleshooting. Triggers on: \"windows desktop automation\", \"UIA tree\", \"automate Windows app\", \"agent-desktop on Windows\", \"elevated window input blocked\", \"E_ACCESSDENIED\", or any Windows GUI interaction task.",
+    "description": "Windows setup and troubleshooting for agent-desktop: PowerShell refs, interactive sessions, UIPI, foreground-safe routes, and verification.",
     "pack": "vercel-agent-skills",
     "repo": "vercel-labs/agent-desktop",
     "path": "skills/agent-desktop-windows",

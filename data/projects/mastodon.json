@@ -1,0 +1,112 @@
+{
+  "name": "Mastodon",
+  "slug": "mastodon",
+  "description": "Self-hosted microblogging server built on ActivityPub, where each instance runs its own community yet follows and talks with the wider fediverse, for communities and organizations that want a social network without a single company in control.",
+  "repository": "https://github.com/mastodon/mastodon",
+  "website": "https://joinmastodon.org",
+  "documentation": "https://docs.joinmastodon.org/",
+  "categories": [
+    "chat"
+  ],
+  "keywords": [
+    "fediverse",
+    "activitypub",
+    "microblogging",
+    "social network",
+    "decentralized",
+    "self-hosted"
+  ],
+  "longDescription": "Mastodon is free, open source software for running a social network server, built on the W3C ActivityPub standard. Each server, or instance, hosts its own users and sets its own rules, but people on different servers can follow and reply to each other, and they can also interact with other ActivityPub software, which together form the decentralized network known as the fediverse. There is no algorithmic feed by default, and individuals, communities, journalists and public bodies use it to publish and converse without depending on one platform owner.\n\nUsers post short messages with images, video, audio and polls, use content warnings and hashtags, and get chronological home timelines, lists and optional full-text search. Server operators have moderation tools for reports, domain blocks and account actions, and a REST and streaming API supports a large ecosystem of official and third-party apps. The stack is Ruby on Rails with PostgreSQL, Redis and Sidekiq, plus Node.js for streaming and an optional Elasticsearch or OpenSearch index. Running a public instance is real operational and moderation work, with storage and federation traffic growing over time.",
+  "languages": [
+    "Ruby",
+    "TypeScript"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "ActivityPub 기반의 셀프 호스팅 마이크로블로깅 서버로, 각 인스턴스가 자체 커뮤니티를 운영하면서도 더 넓은 연합우주(fediverse)와 팔로우하고 소통할 수 있습니다. 한 회사가 통제하지 않는 소셜 네트워크를 원하는 커뮤니티와 조직에 적합합니다.",
+      "longDescription": "Mastodon은 W3C ActivityPub 표준을 기반으로 소셜 네트워크 서버를 운영하는 무료 오픈소스 소프트웨어입니다. 각 서버, 즉 인스턴스는 자체 사용자를 두고 자체 규칙을 정하지만, 서로 다른 서버의 사람들끼리도 팔로우하고 답글을 주고받을 수 있으며, 다른 ActivityPub 소프트웨어와도 상호작용할 수 있습니다. 이들이 함께 이루는 탈중앙 네트워크를 연합우주(fediverse)라고 부릅니다. 기본적으로 알고리즘 피드가 없으며, 개인, 커뮤니티, 언론인, 공공기관이 하나의 플랫폼 소유자에 의존하지 않고 글을 올리고 대화하는 데 사용합니다.\n\n사용자는 이미지, 동영상, 오디오, 투표가 포함된 짧은 글을 올리고, 콘텐츠 경고와 해시태그를 쓰며, 시간순 홈 타임라인, 리스트, 선택적인 전문 검색을 이용합니다. 서버 운영자에게는 신고 처리, 도메인 차단, 계정 조치 같은 모더레이션 도구가 있고, REST와 스트리밍 API를 바탕으로 공식 앱과 서드파티 앱의 큰 생태계가 형성되어 있습니다. 기술 스택은 Ruby on Rails와 PostgreSQL, Redis, Sidekiq이며, 스트리밍에는 Node.js를, 선택적으로 Elasticsearch나 OpenSearch 색인을 사용합니다. 공개 인스턴스를 운영하는 일은 실제 운영과 모더레이션 부담이 따르며, 저장 공간과 연합 트래픽은 시간이 갈수록 늘어납니다.",
+      "keywords": [
+        "연합우주",
+        "activitypub",
+        "마이크로블로깅",
+        "소셜 네트워크",
+        "탈중앙화",
+        "셀프 호스팅"
+      ],
+      "rationale": "연합형 소셜 네트워크의 대표 프로젝트입니다. 카탈로그의 팀 채팅, 포럼, Matrix 서버와 달리 공개 마이크로블로깅을 다루므로 얇은 chat 카테고리에 뚜렷한 차이를 더합니다."
+    },
+    "ja": {
+      "description": "ActivityPub をベースにしたセルフホスト型のマイクロブログサーバーです。各インスタンスが独自のコミュニティを運営しながら、より広い Fediverse ともフォローや会話ができます。一企業に支配されないソーシャルネットワークを求めるコミュニティや組織に向いています。",
+      "longDescription": "Mastodon は、W3C の ActivityPub 標準に基づいてソーシャルネットワークのサーバーを運営するための、無料のオープンソースソフトウェアです。各サーバー（インスタンス）は独自のユーザーを抱え、独自のルールを定めますが、異なるサーバーの人同士でもフォローや返信ができ、他の ActivityPub ソフトウェアともやり取りできます。これらが一体となった分散型ネットワークは Fediverse と呼ばれています。デフォルトではアルゴリズムによるフィードはなく、個人、コミュニティ、ジャーナリスト、公的機関が、特定のプラットフォーム所有者に依存せずに発信や対話を行うために使っています。\n\nユーザーは画像、動画、音声、投票を添えた短い投稿を行い、コンテンツ警告やハッシュタグを使い、時系列のホームタイムライン、リスト、任意の全文検索を利用できます。サーバー管理者には通報対応、ドメインブロック、アカウントへの措置といったモデレーションツールがあり、REST とストリーミングの API を基盤に、公式アプリとサードパーティアプリの大きなエコシステムが育っています。技術スタックは Ruby on Rails と PostgreSQL、Redis、Sidekiq で、ストリーミングには Node.js を使い、必要に応じて Elasticsearch か OpenSearch のインデックスを加えます。公開インスタンスの運営は、運用とモデレーションの両面で本格的な作業になり、ストレージやフェデレーションのトラフィックは時間とともに増えていきます。",
+      "keywords": [
+        "fediverse",
+        "activitypub",
+        "マイクロブログ",
+        "ソーシャルネットワーク",
+        "分散型",
+        "セルフホスト"
+      ],
+      "rationale": "連合型ソーシャルネットワークを代表するプロジェクトです。カタログのチームチャット、フォーラム、Matrix サーバーとは異なり公開マイクロブログを扱うため、手薄な chat カテゴリに明確な違いを加えます。"
+    },
+    "zh-CN": {
+      "description": "基于 ActivityPub 的自托管微博客服务器，每个实例都能运营自己的社区，同时又能与更广泛的联邦宇宙（fediverse）互相关注和交流，适合希望拥有不受单一公司控制的社交网络的社区和组织。",
+      "longDescription": "Mastodon 是基于 W3C ActivityPub 标准、用于运行社交网络服务器的免费开源软件。每台服务器（即实例）拥有自己的用户并制定自己的规则，但不同服务器上的人依然可以互相关注和回复，还能与其他 ActivityPub 软件互动，它们共同构成了被称为联邦宇宙（fediverse）的去中心化网络。它默认没有算法推荐信息流，个人、社区、记者和公共机构都用它来发布内容和交流，而不必依赖某一个平台所有者。\n\n用户可以发布附带图片、视频、音频和投票的短消息，使用内容警告和话题标签，并浏览按时间排序的主页时间线、列表以及可选的全文搜索。服务器管理员拥有处理举报、屏蔽域名和处置账号等审核工具，REST 和流式 API 支撑起了由官方和第三方应用组成的庞大生态。技术栈为 Ruby on Rails 加 PostgreSQL、Redis 和 Sidekiq，流式推送使用 Node.js，并可选配 Elasticsearch 或 OpenSearch 索引。运营一个公开实例需要投入真正的运维和内容审核工作，存储和联邦流量也会随时间不断增长。",
+      "keywords": [
+        "联邦宇宙",
+        "activitypub",
+        "微博客",
+        "社交网络",
+        "去中心化",
+        "自托管"
+      ],
+      "rationale": "联邦式社交网络的代表性项目；与目录中的团队聊天、论坛和 Matrix 服务器不同，它面向公开微博客，为偏少的 chat 分类带来明显差异。"
+    },
+    "es": {
+      "description": "Servidor de microblogging autoalojado basado en ActivityPub, en el que cada instancia gestiona su propia comunidad pero sigue y conversa con el fediverso en general, para comunidades y organizaciones que quieren una red social sin una única empresa al mando.",
+      "longDescription": "Mastodon es software libre y de código abierto para montar un servidor de red social, basado en el estándar ActivityPub del W3C. Cada servidor, o instancia, aloja a sus propios usuarios y fija sus propias normas, pero las personas de servidores distintos pueden seguirse y responderse, y también interactuar con otro software compatible con ActivityPub; todo ello forma la red descentralizada conocida como fediverso. Por defecto no hay un feed algorítmico, y lo usan particulares, comunidades, periodistas e instituciones públicas para publicar y conversar sin depender de un único dueño de plataforma.\n\nLos usuarios publican mensajes cortos con imágenes, vídeo, audio y encuestas, usan advertencias de contenido y etiquetas, y disponen de líneas de tiempo cronológicas, listas y búsqueda de texto completo opcional. Los administradores cuentan con herramientas de moderación para denuncias, bloqueos de dominio y acciones sobre cuentas, y una API REST y de streaming sostiene un amplio ecosistema de apps oficiales y de terceros. La pila es Ruby on Rails con PostgreSQL, Redis y Sidekiq, además de Node.js para el streaming y un índice opcional de Elasticsearch u OpenSearch. Mantener una instancia pública supone un trabajo real de operación y moderación, y el almacenamiento y el tráfico de federación crecen con el tiempo.",
+      "keywords": [
+        "fediverso",
+        "activitypub",
+        "microblogging",
+        "red social",
+        "descentralizado",
+        "autoalojado"
+      ],
+      "rationale": "El proyecto de referencia de las redes sociales federadas; a diferencia del chat de equipo, los foros y el servidor Matrix del catálogo, cubre el microblogging público y aporta una diferencia clara a la escasa categoría de chat."
+    },
+    "de": {
+      "description": "Selbst gehosteter Microblogging-Server auf Basis von ActivityPub, bei dem jede Instanz ihre eigene Community betreibt und trotzdem mit dem gesamten Fediverse folgt und kommuniziert – für Communities und Organisationen, die ein soziales Netzwerk ohne zentralen Konzern wollen.",
+      "longDescription": "Mastodon ist freie Open-Source-Software zum Betrieb eines Servers für ein soziales Netzwerk, aufgebaut auf dem W3C-Standard ActivityPub. Jeder Server, also jede Instanz, hat eigene Nutzer und eigene Regeln, doch Menschen auf verschiedenen Servern können einander folgen und antworten und auch mit anderer ActivityPub-Software interagieren; zusammen bildet das das dezentrale Netzwerk, das als Fediverse bekannt ist. Standardmäßig gibt es keinen algorithmischen Feed, und Einzelpersonen, Communities, Journalisten und Behörden nutzen es, um zu veröffentlichen und sich auszutauschen, ohne von einem Plattformbetreiber abhängig zu sein.\n\nNutzer verfassen kurze Beiträge mit Bildern, Video, Audio und Umfragen, verwenden Inhaltswarnungen und Hashtags und haben chronologische Timelines, Listen und optional eine Volltextsuche. Für Betreiber gibt es Moderationswerkzeuge für Meldungen, Domain-Sperren und Maßnahmen gegen Konten, und eine REST- und Streaming-API trägt ein großes Ökosystem offizieller und externer Apps. Der Stack besteht aus Ruby on Rails mit PostgreSQL, Redis und Sidekiq, dazu Node.js für das Streaming und optional ein Elasticsearch- oder OpenSearch-Index. Eine öffentliche Instanz zu betreiben ist echte Betriebs- und Moderationsarbeit, und Speicherbedarf sowie Föderationsverkehr wachsen mit der Zeit.",
+      "keywords": [
+        "Fediverse",
+        "activitypub",
+        "Microblogging",
+        "soziales Netzwerk",
+        "dezentral",
+        "selbst gehostet"
+      ],
+      "rationale": "Das prägende Projekt für föderierte soziale Netzwerke; anders als Team-Chat, Foren und der Matrix-Server im Katalog deckt es öffentliches Microblogging ab und bringt einen klaren Unterschied in die dünn besetzte Chat-Kategorie."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2016-02-22",
+      "archived": false,
+      "openIssuesCount": 4626,
+      "stargazersCount": 50596,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 84,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The defining federated social network project; unlike the team chat, forum and Matrix server already in the catalog, it covers public microblogging, adding clear diversity to the thin chat category."
+    },
+    "flag": "ok"
+  }
+}

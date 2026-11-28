@@ -1,0 +1,117 @@
+{
+  "name": "Elysia",
+  "slug": "elysia",
+  "description": "TypeScript web framework optimised for Bun, offering end-to-end type safety, schema-based validation and OpenAPI generation. For developers who want fast, strongly typed HTTP APIs whose client shares the server's types.",
+  "repository": "https://github.com/elysiajs/elysia",
+  "website": "https://elysiajs.com",
+  "documentation": "https://elysiajs.com/at-glance.html",
+  "categories": [
+    "backend",
+    "api"
+  ],
+  "keywords": [
+    "typescript",
+    "bun",
+    "web framework",
+    "type safety",
+    "openapi",
+    "rest api"
+  ],
+  "longDescription": "Elysia is a TypeScript HTTP framework designed primarily for the Bun runtime. Routes are defined with a chained API, and the schemas declared for parameters, query strings, bodies and responses act as a single source of truth: they validate requests at runtime, drive the types inferred inside handlers and feed generated OpenAPI documentation. A plugin system lets you share state, decorators, lifecycle hooks and route groups across an application while keeping those types intact.\n\nA companion client called Eden lets a front end call the server with types inferred directly from the route definitions, similar to the tRPC experience but over ordinary HTTP endpoints. Official plugins cover OpenAPI docs, CORS, JWT, static files, cron jobs and GraphQL. It is a good fit for Bun-based APIs and full-stack TypeScript projects. Bun remains the primary target, with adapters for other runtimes; the project is largely led by a single maintainer, and its ecosystem is much smaller than those of Express or Hono.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "elysia"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Bun에 최적화된 TypeScript 웹 프레임워크로, 엔드투엔드 타입 안전성, 스키마 기반 검증, OpenAPI 생성을 제공합니다. 클라이언트가 서버의 타입을 그대로 공유하는 빠르고 강타입의 HTTP API를 원하는 개발자를 위한 도구입니다.",
+      "longDescription": "Elysia는 주로 Bun 런타임을 염두에 두고 설계된 TypeScript HTTP 프레임워크입니다. 라우트는 체이닝 API로 정의하며, 파라미터, 쿼리 문자열, 본문, 응답에 선언한 스키마가 단일한 기준이 됩니다. 이 스키마로 런타임에 요청을 검증하고, 핸들러 안에서 추론되는 타입을 결정하며, OpenAPI 문서 생성에도 활용합니다. 플러그인 시스템을 통해 상태, 데코레이터, 라이프사이클 훅, 라우트 그룹을 애플리케이션 전체에서 공유하면서도 타입을 그대로 유지할 수 있습니다.\n\n함께 제공되는 Eden 클라이언트를 쓰면 프런트엔드에서 라우트 정의로부터 직접 추론한 타입으로 서버를 호출할 수 있어, 평범한 HTTP 엔드포인트 위에서 tRPC와 비슷한 경험을 얻을 수 있습니다. 공식 플러그인은 OpenAPI 문서, CORS, JWT, 정적 파일, cron 작업, GraphQL을 지원합니다. Bun 기반 API와 풀스택 TypeScript 프로젝트에 잘 맞습니다. 다른 런타임용 어댑터가 있지만 주 대상은 여전히 Bun이고, 프로젝트는 사실상 한 명의 메인테이너가 이끌고 있으며, 생태계는 Express나 Hono보다 훨씬 작습니다.",
+      "keywords": [
+        "typescript",
+        "bun",
+        "웹 프레임워크",
+        "타입 안전성",
+        "openapi",
+        "rest api"
+      ],
+      "rationale": "엔드투엔드 타입 클라이언트를 갖춘 Bun 중심의 TypeScript 프레임워크로, Hono, tRPC와 겹치는 부분이 있지만 backend와 api에 독특한 Bun 네이티브 선택지를 더해 줍니다."
+    },
+    "ja": {
+      "description": "Bun に最適化された TypeScript の Web フレームワークで、エンドツーエンドの型安全性、スキーマに基づく検証、OpenAPI の生成を備えています。クライアントがサーバーと型を共有できる、高速で型の強い HTTP API を作りたい開発者向けです。",
+      "longDescription": "Elysia は、主に Bun ランタイム向けに設計された TypeScript の HTTP フレームワークです。ルートはメソッドチェーンの API で定義し、パラメータ、クエリ文字列、ボディ、レスポンスに宣言したスキーマが唯一の情報源として働きます。スキーマは実行時のリクエスト検証、ハンドラー内で推論される型、生成される OpenAPI ドキュメントのすべてに使われます。プラグインの仕組みにより、状態、デコレーター、ライフサイクルフック、ルートグループをアプリケーション全体で共有しつつ、型をそのまま保てます。\n\n付属のクライアント Eden を使うと、フロントエンドからルート定義から直接推論された型でサーバーを呼び出せ、通常の HTTP エンドポイント上で tRPC に近い体験が得られます。公式プラグインは OpenAPI ドキュメント、CORS、JWT、静的ファイル、cron ジョブ、GraphQL をカバーしています。Bun ベースの API やフルスタックの TypeScript プロジェクトに向いています。他のランタイム向けのアダプターはあるものの主な対象は Bun で、プロジェクトは実質的にひとりのメンテナーが率いており、エコシステムは Express や Hono に比べてかなり小規模です。",
+      "keywords": [
+        "typescript",
+        "bun",
+        "Web フレームワーク",
+        "型安全性",
+        "openapi",
+        "rest api"
+      ],
+      "rationale": "エンドツーエンドで型付けされたクライアントを持つ Bun 中心の TypeScript フレームワークです。Hono や tRPC と重なる部分はあるものの、backend と api に独自の Bun ネイティブな選択肢を加えます。"
+    },
+    "zh-CN": {
+      "description": "一个为 Bun 优化的 TypeScript Web 框架，提供端到端类型安全、基于模式的校验和 OpenAPI 生成，适合希望构建快速、强类型 HTTP API 并让客户端共享服务端类型的开发者。",
+      "longDescription": "Elysia 是一个主要为 Bun 运行时设计的 TypeScript HTTP 框架。路由通过链式 API 定义，为参数、查询字符串、请求体和响应声明的模式是唯一的事实来源：它们在运行时校验请求，决定处理函数中推断出的类型，并用于生成 OpenAPI 文档。插件系统可以在整个应用中共享状态、装饰器、生命周期钩子和路由组，同时保持类型完整。\n\n配套客户端 Eden 让前端可以使用直接从路由定义推断出的类型来调用服务端，在普通 HTTP 端点上获得类似 tRPC 的体验。官方插件涵盖 OpenAPI 文档、CORS、JWT、静态文件、定时任务和 GraphQL。它很适合基于 Bun 的 API 和全栈 TypeScript 项目。虽然提供了面向其他运行时的适配器，但主要目标仍是 Bun；项目基本由一位维护者主导，生态也比 Express 或 Hono 小得多。",
+      "keywords": [
+        "typescript",
+        "bun",
+        "Web 框架",
+        "类型安全",
+        "openapi",
+        "rest api"
+      ],
+      "rationale": "以 Bun 为核心、带端到端类型客户端的 TypeScript 框架；与 Hono 和 tRPC 有重叠，但为 backend 和 api 增加了一个独特的 Bun 原生选项。"
+    },
+    "es": {
+      "description": "Framework web en TypeScript optimizado para Bun, con seguridad de tipos de extremo a extremo, validación basada en esquemas y generación de OpenAPI. Para quienes quieren APIs HTTP rápidas y fuertemente tipadas cuyo cliente comparte los tipos del servidor.",
+      "longDescription": "Elysia es un framework HTTP en TypeScript diseñado sobre todo para el runtime Bun. Las rutas se definen con una API encadenada, y los esquemas declarados para parámetros, query strings, cuerpos y respuestas funcionan como única fuente de verdad: validan las peticiones en tiempo de ejecución, determinan los tipos inferidos dentro de los manejadores y alimentan la documentación OpenAPI generada. Un sistema de plugins permite compartir estado, decoradores, hooks del ciclo de vida y grupos de rutas en toda la aplicación sin perder esos tipos.\n\nUn cliente complementario llamado Eden permite que el front end llame al servidor con tipos inferidos directamente de las definiciones de rutas, una experiencia parecida a tRPC pero sobre endpoints HTTP normales. Los plugins oficiales cubren documentación OpenAPI, CORS, JWT, archivos estáticos, tareas cron y GraphQL. Encaja bien en APIs basadas en Bun y proyectos full-stack en TypeScript. Bun sigue siendo el objetivo principal, con adaptadores para otros runtimes; el proyecto lo lidera en gran medida una sola persona, y su ecosistema es mucho más pequeño que el de Express o Hono.",
+      "keywords": [
+        "typescript",
+        "bun",
+        "framework web",
+        "seguridad de tipos",
+        "openapi",
+        "api rest"
+      ],
+      "rationale": "Framework de TypeScript centrado en Bun con un cliente tipado de extremo a extremo; se solapa con Hono y tRPC, pero añade a backend y api una opción nativa de Bun con personalidad propia."
+    },
+    "de": {
+      "description": "Für Bun optimiertes TypeScript-Webframework mit durchgängiger Typsicherheit, schemabasierter Validierung und OpenAPI-Generierung. Für Entwickler, die schnelle, streng typisierte HTTP-APIs wollen, deren Client die Typen des Servers teilt.",
+      "longDescription": "Elysia ist ein TypeScript-HTTP-Framework, das in erster Linie für die Bun-Runtime entworfen wurde. Routen werden über eine verkettete API definiert, und die für Parameter, Query-Strings, Bodies und Antworten deklarierten Schemas bilden die einzige Quelle der Wahrheit: Sie validieren Requests zur Laufzeit, bestimmen die in Handlern inferierten Typen und speisen die generierte OpenAPI-Dokumentation. Über ein Plugin-System lassen sich Zustand, Decorators, Lifecycle-Hooks und Routengruppen in der ganzen Anwendung teilen, ohne dass die Typen verloren gehen.\n\nMit dem begleitenden Client Eden ruft ein Frontend den Server mit Typen auf, die direkt aus den Routendefinitionen abgeleitet werden, ähnlich wie bei tRPC, aber über gewöhnliche HTTP-Endpunkte. Offizielle Plugins decken OpenAPI-Dokumentation, CORS, JWT, statische Dateien, Cron-Jobs und GraphQL ab. Gut geeignet ist es für Bun-basierte APIs und Full-Stack-Projekte in TypeScript. Bun bleibt das Hauptziel, für andere Runtimes gibt es Adapter; das Projekt wird weitgehend von einer einzelnen Person geführt, und das Ökosystem ist deutlich kleiner als bei Express oder Hono.",
+      "keywords": [
+        "typescript",
+        "bun",
+        "Webframework",
+        "Typsicherheit",
+        "openapi",
+        "rest-api"
+      ],
+      "rationale": "Bun-zentriertes TypeScript-Framework mit durchgängig typisiertem Client; überschneidet sich mit Hono und tRPC, ergänzt backend und api aber um eine eigenständige, Bun-native Option."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-25",
+      "repoCreatedAt": "2022-12-04",
+      "archived": false,
+      "openIssuesCount": 416,
+      "stargazersCount": 19422,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 85,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Bun-first TypeScript framework with an end-to-end typed client; overlaps with Hono and tRPC but adds a distinctive Bun-native option to backend and api."
+    },
+    "flag": "ok"
+  }
+}

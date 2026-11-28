@@ -1,0 +1,112 @@
+{
+  "name": "Casdoor",
+  "slug": "casdoor",
+  "description": "Self-hostable identity provider and single sign-on server with a web admin console, speaking OAuth 2.0, OIDC, SAML, CAS, LDAP and SCIM, with Casbin-based authorization. For teams that want to own their user directory and centralize login across apps.",
+  "repository": "https://github.com/casdoor/casdoor",
+  "website": "https://casdoor.ai",
+  "documentation": "https://casdoor.ai/docs/overview",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "identity provider",
+    "single sign-on",
+    "oauth 2.0",
+    "oidc",
+    "saml",
+    "ldap"
+  ],
+  "longDescription": "Casdoor is a complete identity provider rather than an embeddable library or an authentication proxy: it stores users, issues tokens and offers a web console where organizations, applications, identity providers, sign-in methods, email and SMS templates and login-page branding are configured without editing files or redeploying. A Go backend with a React frontend, it runs as a single binary or container next to a relational database such as MySQL, or SQLite for quick trials, with Helm charts for Kubernetes and a managed Casdoor Cloud offering from the team behind it.\n\nOne user directory is exposed over OAuth 2.0, OIDC, SAML 2.0, CAS, LDAP and SCIM, so modern single-page apps and older CAS- or LDAP-only systems can share the same accounts. It supports social and enterprise logins such as Google Workspace, Microsoft Entra ID and GitHub, plus WebAuthn, TOTP-based MFA and policy-based authorization through Casbin models like RBAC and ABAC. Typical uses are internal SSO portals and customer login for multi-tenant products. Its broad feature surface means a lot of configuration, and teams that only need a login screen in front of a reverse proxy may be better served by a smaller tool.",
+  "languages": [
+    "Go",
+    "TypeScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "웹 관리 콘솔을 갖춘 셀프 호스팅 ID 공급자이자 SSO 서버로, OAuth 2.0, OIDC, SAML, CAS, LDAP, SCIM을 지원하고 Casbin 기반 인가 기능을 제공합니다. 사용자 디렉터리를 직접 소유하고 여러 앱의 로그인을 한곳에서 관리하려는 팀을 위한 도구입니다.",
+      "longDescription": "Casdoor는 앱에 넣는 라이브러리나 인증 프록시가 아니라 완전한 ID 공급자입니다. 사용자를 저장하고 토큰을 발급하며, 조직, 애플리케이션, ID 공급자, 로그인 방식, 이메일·SMS 템플릿, 로그인 페이지 브랜딩을 파일 수정이나 재배포 없이 웹 콘솔에서 설정할 수 있습니다. Go 백엔드와 React 프런트엔드로 구성되어 MySQL 같은 관계형 데이터베이스(빠른 체험용으로는 SQLite)와 함께 단일 바이너리나 컨테이너로 실행되며, Kubernetes용 Helm 차트와 개발 팀이 운영하는 관리형 Casdoor Cloud도 있습니다.\n\n하나의 사용자 디렉터리를 OAuth 2.0, OIDC, SAML 2.0, CAS, LDAP, SCIM으로 노출하므로 최신 SPA와 CAS나 LDAP만 지원하는 오래된 시스템이 같은 계정을 공유할 수 있습니다. Google Workspace, Microsoft Entra ID, GitHub 같은 소셜·엔터프라이즈 로그인, WebAuthn, TOTP 기반 MFA, 그리고 RBAC나 ABAC 같은 Casbin 모델을 이용한 정책 기반 인가를 지원합니다. 사내 SSO 포털이나 멀티 테넌트 제품의 고객 로그인에 주로 쓰입니다. 기능 범위가 매우 넓어 익혀야 할 설정도 많고, 리버스 프록시 앞에 로그인 화면만 필요하다면 더 작은 도구가 나을 수 있습니다.",
+      "keywords": [
+        "ID 공급자",
+        "싱글 사인온",
+        "oauth 2.0",
+        "oidc",
+        "saml",
+        "ldap"
+      ],
+      "rationale": "CAS와 LDAP까지 지원하는 폭넓은 프로토콜과 Casbin 기반 인가가 특징이지만, Keycloak, Zitadel, Logto 같은 기존 셀프 호스팅 IdP와 많이 겹칩니다."
+    },
+    "ja": {
+      "description": "Web 管理コンソールを備えたセルフホスト可能な ID プロバイダー兼シングルサインオンサーバーで、OAuth 2.0、OIDC、SAML、CAS、LDAP、SCIM に対応し、Casbin ベースの認可も提供します。ユーザーディレクトリを自ら保有し、複数アプリのログインを一元化したいチーム向けです。",
+      "longDescription": "Casdoor は、アプリに組み込むライブラリや認証プロキシではなく、完全な ID プロバイダーです。ユーザーを保存してトークンを発行し、組織、アプリケーション、ID プロバイダー、サインイン方法、メール・SMS テンプレート、ログインページのブランディングを、ファイル編集や再デプロイなしに Web コンソールから設定できます。Go のバックエンドと React のフロントエンドで構成され、MySQL などのリレーショナルデータベース（手軽な試用なら SQLite）と組み合わせて単一のバイナリまたはコンテナとして動作します。Kubernetes 向けの Helm チャートや、開発チームが運営するマネージド版 Casdoor Cloud も用意されています。\n\n1 つのユーザーディレクトリを OAuth 2.0、OIDC、SAML 2.0、CAS、LDAP、SCIM で公開するため、最新の SPA と CAS や LDAP にしか対応しない古いシステムで同じアカウントを共有できます。Google Workspace、Microsoft Entra ID、GitHub などのソーシャル・エンタープライズログイン、WebAuthn、TOTP による MFA、さらに RBAC や ABAC といった Casbin モデルによるポリシーベースの認可に対応します。社内 SSO ポータルやマルチテナント製品の顧客ログインが代表的な用途です。機能範囲が非常に広いぶん理解すべき設定も多く、リバースプロキシの前にログイン画面を置くだけなら、より小さなツールのほうが適している場合もあります。",
+      "keywords": [
+        "ID プロバイダー",
+        "シングルサインオン",
+        "oauth 2.0",
+        "oidc",
+        "saml",
+        "ldap"
+      ],
+      "rationale": "CAS や LDAP まで含む幅広いプロトコル対応と Casbin ベースの認可が特徴ですが、Keycloak、Zitadel、Logto といった既存のセルフホスト型 IdP と大きく重なります。"
+    },
+    "zh-CN": {
+      "description": "可自托管的身份提供商与单点登录服务器，自带 Web 管理控制台，支持 OAuth 2.0、OIDC、SAML、CAS、LDAP 和 SCIM，并内置基于 Casbin 的授权。适合希望自己掌握用户目录、在多个应用间统一登录的团队。",
+      "longDescription": "Casdoor 是一个完整的身份提供商，而不是嵌入应用的库或认证代理：它存储用户、签发令牌，并提供一个 Web 控制台，无需修改文件或重新部署，就能配置组织、应用、身份提供商、登录方式、邮件和短信模板以及登录页品牌样式。它由 Go 后端和 React 前端组成，以单个二进制文件或容器的形式运行，搭配 MySQL 等关系型数据库（快速试用可用 SQLite），同时提供面向 Kubernetes 的 Helm Chart，以及由开发团队运营的托管服务 Casdoor Cloud。\n\n同一个用户目录可以通过 OAuth 2.0、OIDC、SAML 2.0、CAS、LDAP 和 SCIM 对外提供，因此现代单页应用和只支持 CAS 或 LDAP 的老旧系统可以共用同一套账号。它支持 Google Workspace、Microsoft Entra ID、GitHub 等社交与企业登录，支持 WebAuthn 和基于 TOTP 的多因素认证，还能通过 RBAC、ABAC 等 Casbin 模型实现基于策略的授权。典型用途包括企业内部 SSO 门户和多租户产品的客户登录。它的功能面非常广，需要理解的配置也很多；如果只是想在反向代理前加一个登录页，更小巧的工具可能更合适。",
+      "keywords": [
+        "身份提供商",
+        "单点登录",
+        "oauth 2.0",
+        "oidc",
+        "saml",
+        "ldap"
+      ],
+      "rationale": "协议覆盖面广（包括 CAS 和 LDAP），并内置基于 Casbin 的授权，但与 Keycloak、Zitadel、Logto 等已收录的自托管 IdP 重叠明显。"
+    },
+    "es": {
+      "description": "Proveedor de identidad y servidor de inicio de sesión único autoalojable, con consola web de administración, con OAuth 2.0, OIDC, SAML, CAS, LDAP y SCIM y autorización basada en Casbin. Para equipos que quieren controlar su directorio y centralizar el acceso.",
+      "longDescription": "Casdoor es un proveedor de identidad completo, no una biblioteca que se integra en la aplicación ni un proxy de autenticación: almacena los usuarios, emite los tokens y ofrece una consola web donde se configuran organizaciones, aplicaciones, proveedores de identidad, métodos de inicio de sesión, plantillas de correo y SMS y la imagen de la página de acceso sin editar archivos ni volver a desplegar. Está formado por un backend en Go y un frontend en React, y se ejecuta como un único binario o contenedor junto a una base de datos relacional como MySQL, o SQLite para pruebas rápidas; también hay charts de Helm para Kubernetes y una oferta gestionada, Casdoor Cloud, del equipo que lo desarrolla.\n\nUn mismo directorio de usuarios se expone mediante OAuth 2.0, OIDC, SAML 2.0, CAS, LDAP y SCIM, de modo que aplicaciones de página única modernas y sistemas antiguos que solo hablan CAS o LDAP pueden compartir cuentas. Admite inicios de sesión sociales y empresariales como Google Workspace, Microsoft Entra ID y GitHub, además de WebAuthn, MFA basada en TOTP y autorización por políticas con modelos de Casbin como RBAC y ABAC. Se usa sobre todo para portales internos de SSO y para el acceso de clientes en productos multiinquilino. Su enorme superficie funcional implica mucha configuración que entender, y si solo necesitas una pantalla de acceso delante de un proxy inverso, una herramienta más pequeña puede encajar mejor.",
+      "keywords": [
+        "proveedor de identidad",
+        "inicio de sesión único",
+        "oauth 2.0",
+        "oidc",
+        "saml",
+        "ldap"
+      ],
+      "rationale": "Destaca por su amplio soporte de protocolos, incluidos CAS y LDAP, y por la autorización basada en Casbin, pero se solapa bastante con los IdP autoalojados que ya están en el catálogo, como Keycloak, Zitadel y Logto."
+    },
+    "de": {
+      "description": "Selbst hostbarer Identitätsanbieter und Single-Sign-on-Server mit Web-Adminkonsole, der OAuth 2.0, OIDC, SAML, CAS, LDAP und SCIM spricht und Autorisierung auf Basis von Casbin mitbringt. Für Teams, die ihr Benutzerverzeichnis selbst besitzen und Logins zentralisieren wollen.",
+      "longDescription": "Casdoor ist ein vollständiger Identitätsanbieter und keine einbettbare Bibliothek oder Authentifizierungs-Proxy: Es speichert Benutzer, stellt Tokens aus und bietet eine Webkonsole, in der Organisationen, Anwendungen, Identitätsanbieter, Anmeldemethoden, E-Mail- und SMS-Vorlagen sowie das Branding der Login-Seite ohne Dateibearbeitung oder Neu-Deployment konfiguriert werden. Es besteht aus einem Go-Backend und einem React-Frontend und läuft als einzelnes Binary oder Container neben einer relationalen Datenbank wie MySQL, für schnelle Tests auch mit SQLite. Dazu gibt es Helm-Charts für Kubernetes und mit Casdoor Cloud ein gehostetes Angebot des Teams hinter dem Projekt.\n\nEin einziges Benutzerverzeichnis wird über OAuth 2.0, OIDC, SAML 2.0, CAS, LDAP und SCIM bereitgestellt, sodass moderne Single-Page-Apps und ältere Systeme, die nur CAS oder LDAP beherrschen, dieselben Konten teilen können. Unterstützt werden Social- und Enterprise-Logins wie Google Workspace, Microsoft Entra ID und GitHub, außerdem WebAuthn, TOTP-basierte MFA und richtlinienbasierte Autorisierung über Casbin-Modelle wie RBAC und ABAC. Typische Einsätze sind interne SSO-Portale und Kunden-Logins für mandantenfähige Produkte. Der sehr breite Funktionsumfang bedeutet viel Konfiguration, die verstanden werden will; wer nur einen Login-Bildschirm vor einem Reverse Proxy braucht, ist mit einem kleineren Werkzeug oft besser bedient.",
+      "keywords": [
+        "Identitätsanbieter",
+        "Single Sign-on",
+        "oauth 2.0",
+        "oidc",
+        "saml",
+        "ldap"
+      ],
+      "rationale": "Breite Protokollunterstützung bis hin zu CAS und LDAP sowie Casbin-basierte Autorisierung, aber deutliche Überschneidung mit bereits erfassten selbst gehosteten IdPs wie Keycloak, Zitadel und Logto."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2020-10-22",
+      "archived": false,
+      "openIssuesCount": 90,
+      "stargazersCount": 14974,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Broad protocol coverage including CAS and LDAP plus Casbin-based authorization, but it overlaps heavily with self-hosted IdPs already in the catalog such as Keycloak, Zitadel and Logto."
+    },
+    "flag": "ok"
+  }
+}

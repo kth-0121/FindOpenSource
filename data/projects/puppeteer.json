@@ -1,0 +1,118 @@
+{
+  "name": "Puppeteer",
+  "slug": "puppeteer",
+  "description": "JavaScript library that drives Chrome and Firefox through the DevTools Protocol and WebDriver BiDi, headless by default, for developers automating browsers to test pages, scrape content, generate PDFs and screenshots, or script repetitive web tasks.",
+  "repository": "https://github.com/puppeteer/puppeteer",
+  "website": "https://pptr.dev",
+  "documentation": "https://pptr.dev/guides/what-is-puppeteer",
+  "categories": [
+    "testing",
+    "automation"
+  ],
+  "keywords": [
+    "browser automation",
+    "headless chrome",
+    "web scraping",
+    "end-to-end testing",
+    "pdf generation",
+    "devtools protocol"
+  ],
+  "longDescription": "Puppeteer is a Node.js library that provides a high-level API for controlling a real browser. It talks to Chrome over the Chrome DevTools Protocol and to Chrome or Firefox over WebDriver BiDi, and it runs headless by default, which makes it a common building block for scripts and services that need to load pages, click through flows and read the result exactly as a browser renders it. Installing the main package also downloads a matching Chrome for Testing build, while puppeteer-core lets you bring your own browser.\n\nTypical uses include generating PDFs and screenshots of pages, crawling and scraping single-page applications, automating form submission and UI testing, intercepting network requests and capturing performance traces or code coverage. It is maintained by Google's Chrome team, so support for new Chrome features tends to land early. Puppeteer is a browser control library rather than a full test framework: there is no built-in test runner, assertions or automatic waiting comparable to Playwright Test, so it is usually paired with Jest or a similar runner when used for testing.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "puppeteer",
+      "puppeteer-core"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "DevTools Protocol과 WebDriver BiDi로 Chrome과 Firefox를 제어하며 기본적으로 헤드리스로 동작하는 JavaScript 라이브러리입니다. 페이지 테스트, 콘텐츠 스크래핑, PDF·스크린샷 생성, 반복적인 웹 작업 자동화가 필요한 개발자에게 적합합니다.",
+      "longDescription": "Puppeteer는 실제 브라우저를 제어하는 고수준 API를 제공하는 Node.js 라이브러리입니다. Chrome과는 Chrome DevTools Protocol로, Chrome·Firefox와는 WebDriver BiDi로 통신하며 기본적으로 헤드리스 모드로 실행됩니다. 그래서 페이지를 열고, 여러 단계를 클릭해 진행하고, 브라우저가 렌더링한 결과를 그대로 읽어야 하는 스크립트와 서비스의 기본 구성 요소로 널리 쓰입니다. 기본 패키지를 설치하면 버전에 맞는 Chrome for Testing 빌드가 함께 내려받아지고, puppeteer-core를 쓰면 이미 가진 브라우저를 사용할 수 있습니다.\n\n대표적인 용도로는 페이지의 PDF와 스크린샷 생성, 싱글 페이지 애플리케이션 크롤링과 스크래핑, 폼 제출과 UI 테스트 자동화, 네트워크 요청 가로채기, 성능 트레이스나 코드 커버리지 수집 등이 있습니다. Google의 Chrome 팀이 관리하기 때문에 새로운 Chrome 기능 지원이 빠른 편입니다. 다만 Puppeteer는 완전한 테스트 프레임워크가 아니라 브라우저 제어 라이브러리입니다. Playwright Test에 견줄 만한 테스트 러너, 어설션, 자동 대기가 내장되어 있지 않아, 테스트에 쓸 때는 보통 Jest 같은 러너와 함께 사용합니다.",
+      "keywords": [
+        "브라우저 자동화",
+        "헤드리스 크롬",
+        "웹 스크래핑",
+        "E2E 테스트",
+        "pdf 생성",
+        "devtools protocol"
+      ],
+      "rationale": "Playwright, Selenium과 겹치지만, Chrome 팀이 관리하는 이 원조 헤드리스 Chrome 라이브러리는 PDF 생성, 스크래핑, 브라우저 스크립트 작성 분야에서 여전히 널리 쓰입니다."
+    },
+    "ja": {
+      "description": "DevTools Protocol と WebDriver BiDi で Chrome と Firefox を操作し、デフォルトでヘッドレスで動く JavaScript ライブラリです。ページのテスト、コンテンツのスクレイピング、PDF やスクリーンショットの生成、繰り返しの Web 作業の自動化を行いたい開発者向けです。",
+      "longDescription": "Puppeteer は、実際のブラウザーを操作するための高水準 API を提供する Node.js ライブラリです。Chrome とは Chrome DevTools Protocol で、Chrome や Firefox とは WebDriver BiDi で通信し、デフォルトではヘッドレスで動作します。そのため、ページを読み込み、画面遷移をクリックで進め、ブラウザーが描画したとおりの結果を読み取る必要があるスクリプトやサービスの基本部品としてよく使われています。メインのパッケージをインストールすると対応する Chrome for Testing のビルドも自動でダウンロードされ、puppeteer-core を使えば手持ちのブラウザーを利用できます。\n\n代表的な用途は、ページの PDF やスクリーンショットの生成、シングルページアプリケーションのクロールとスクレイピング、フォーム送信や UI テストの自動化、ネットワークリクエストの横取り、パフォーマンストレースやコードカバレッジの取得などです。Google の Chrome チームがメンテナンスしているため、Chrome の新機能への対応が早い傾向があります。ただし Puppeteer は本格的なテストフレームワークではなく、ブラウザー操作ライブラリです。Playwright Test に相当するテストランナー、アサーション、自動待機は組み込まれていないため、テストに使う場合は Jest などのランナーと組み合わせるのが一般的です。",
+      "keywords": [
+        "ブラウザー自動化",
+        "ヘッドレス Chrome",
+        "Web スクレイピング",
+        "E2E テスト",
+        "PDF 生成",
+        "devtools protocol"
+      ],
+      "rationale": "Playwright や Selenium と重なりますが、Chrome チームがメンテナンスする元祖ヘッドレス Chrome ライブラリとして、PDF 生成、スクレイピング、ブラウザーのスクリプト操作で今も広く使われています。"
+    },
+    "zh-CN": {
+      "description": "通过 DevTools Protocol 和 WebDriver BiDi 控制 Chrome 与 Firefox 的 JavaScript 库，默认以无头模式运行，适合需要自动化浏览器来测试页面、抓取内容、生成 PDF 和截图或编写重复性网页任务脚本的开发者。",
+      "longDescription": "Puppeteer 是一个 Node.js 库，提供用于控制真实浏览器的高级 API。它通过 Chrome DevTools Protocol 与 Chrome 通信，通过 WebDriver BiDi 与 Chrome 或 Firefox 通信，默认以无头模式运行，因此常被用作脚本和服务的基础组件，用来加载页面、点击完成操作流程，并按浏览器实际渲染的样子读取结果。安装主包时会同时下载匹配版本的 Chrome for Testing，而 puppeteer-core 则允许使用你自己的浏览器。\n\n典型用途包括为页面生成 PDF 和截图、爬取和抓取单页应用、自动化表单提交与 UI 测试、拦截网络请求，以及采集性能追踪或代码覆盖率。它由 Google 的 Chrome 团队维护，因此往往能较早支持 Chrome 的新功能。需要注意的是，Puppeteer 是浏览器控制库而不是完整的测试框架：它没有内置可与 Playwright Test 相比的测试运行器、断言和自动等待，用于测试时通常要搭配 Jest 等运行器。",
+      "keywords": [
+        "浏览器自动化",
+        "无头 Chrome",
+        "网页抓取",
+        "端到端测试",
+        "PDF 生成",
+        "devtools protocol"
+      ],
+      "rationale": "与 Playwright、Selenium 有重叠，但作为 Chrome 团队维护的元老级无头 Chrome 库，它在 PDF 生成、网页抓取和浏览器脚本化方面仍被广泛使用。"
+    },
+    "es": {
+      "description": "Biblioteca de JavaScript que controla Chrome y Firefox mediante el DevTools Protocol y WebDriver BiDi, en modo headless por defecto, para desarrolladores que necesitan probar páginas, extraer contenido, generar PDF y capturas o automatizar tareas web repetitivas.",
+      "longDescription": "Puppeteer es una biblioteca de Node.js que ofrece una API de alto nivel para controlar un navegador real. Se comunica con Chrome a través del Chrome DevTools Protocol y con Chrome o Firefox a través de WebDriver BiDi, y funciona en modo headless por defecto, por lo que es una pieza habitual en scripts y servicios que necesitan cargar páginas, recorrer flujos con clics y leer el resultado tal como lo renderiza un navegador. Al instalar el paquete principal se descarga también una versión compatible de Chrome for Testing, mientras que puppeteer-core permite usar un navegador propio.\n\nSus usos típicos son generar PDF y capturas de páginas, rastrear y extraer datos de aplicaciones de una sola página, automatizar el envío de formularios y las pruebas de interfaz, interceptar peticiones de red y capturar trazas de rendimiento o cobertura de código. Lo mantiene el equipo de Chrome de Google, así que el soporte para las novedades de Chrome suele llegar pronto. Puppeteer es una biblioteca de control del navegador y no un framework de pruebas completo: no incluye un ejecutor de pruebas, aserciones ni esperas automáticas comparables a Playwright Test, por lo que para testing se suele combinar con Jest u otro ejecutor similar.",
+      "keywords": [
+        "automatización de navegadores",
+        "chrome headless",
+        "web scraping",
+        "pruebas end-to-end",
+        "generación de pdf",
+        "devtools protocol"
+      ],
+      "rationale": "Se solapa con Playwright y Selenium, pero es la biblioteca original de Chrome headless, mantenida por el equipo de Chrome, y sigue muy extendida para generar PDF, hacer scraping y automatizar navegadores con scripts."
+    },
+    "de": {
+      "description": "JavaScript-Bibliothek, die Chrome und Firefox über das DevTools Protocol und WebDriver BiDi steuert, standardmäßig headless – für Entwickler, die Seiten testen, Inhalte scrapen, PDFs und Screenshots erzeugen oder wiederkehrende Webaufgaben skripten wollen.",
+      "longDescription": "Puppeteer ist eine Node.js-Bibliothek mit einer High-Level-API zur Steuerung eines echten Browsers. Sie spricht mit Chrome über das Chrome DevTools Protocol und mit Chrome oder Firefox über WebDriver BiDi und läuft standardmäßig headless. Damit ist sie ein gängiger Baustein für Skripte und Dienste, die Seiten laden, Abläufe durchklicken und das Ergebnis genau so auslesen müssen, wie ein Browser es rendert. Das Hauptpaket lädt bei der Installation einen passenden Chrome-for-Testing-Build herunter, während puppeteer-core mit einem vorhandenen Browser arbeitet.\n\nTypische Einsätze sind das Erzeugen von PDFs und Screenshots, das Crawlen und Scrapen von Single-Page-Anwendungen, automatisiertes Ausfüllen von Formularen und UI-Tests, das Abfangen von Netzwerkanfragen sowie das Aufzeichnen von Performance-Traces oder Code-Coverage. Gepflegt wird Puppeteer vom Chrome-Team bei Google, weshalb neue Chrome-Funktionen meist früh unterstützt werden. Es ist allerdings eine Bibliothek zur Browsersteuerung und kein vollständiges Testframework: Einen Test-Runner, Assertions und automatisches Warten wie bei Playwright Test gibt es nicht, daher kombiniert man es für Tests meist mit Jest oder einem ähnlichen Runner.",
+      "keywords": [
+        "Browserautomatisierung",
+        "Headless Chrome",
+        "Web-Scraping",
+        "End-to-End-Tests",
+        "PDF-Erzeugung",
+        "devtools protocol"
+      ],
+      "rationale": "Überschneidet sich mit Playwright und Selenium, ist aber die ursprüngliche Headless-Chrome-Bibliothek, gepflegt vom Chrome-Team, und bleibt für PDF-Erzeugung, Scraping und Browser-Skripting weit verbreitet."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-26",
+      "repoCreatedAt": "2017-05-09",
+      "archived": false,
+      "openIssuesCount": 194,
+      "stargazersCount": 95913,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Overlaps with Playwright and Selenium, but it is the original headless Chrome library, maintained by the Chrome team, and remains widely used for PDF generation, scraping and browser scripting."
+    },
+    "flag": "ok"
+  }
+}

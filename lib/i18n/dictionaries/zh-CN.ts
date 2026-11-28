@@ -252,11 +252,11 @@ const dictionary: Dictionary = {
       },
       ml: {
         title: "Hugging Face 机器学习",
-        description: "Hub 操作、数据集、模型训练与评估。",
+        description: "Hub 操作、数据集、模型训练与选型。",
         benefits: [
           "用 hf CLI 管理 Hub 上的模型、数据集和 Space",
           "通过 Dataset Viewer API 浏览、搜索和筛选数据集",
-          "用 TRL 或 Unsloth 微调（SFT、DPO、GRPO），并用 inspect-ai 和 lighteval 本地评估",
+          "用 TRL 做后训练（SFT、DPO、GRPO），并按基准分数为任务挑选最佳模型",
         ],
       },
       shortform: {
@@ -360,6 +360,42 @@ const dictionary: Dictionary = {
             "先问清你真正要做什么，再把规格拆成易读的小段展示",
             "围绕真正的红/绿 TDD、YAGNI 和 DRY 制定计划",
             "子智能体驱动开发可按计划自主工作数小时",
+          ],
+        },
+        addy: {
+          credential: "《Learning JavaScript Design Patterns》作者，曾在 Google 负责 Chrome 开发者体验",
+          summary: "Agent Skills：覆盖从规格到发布全流程的生产级工程技能。",
+          strengths: [
+            "/spec、/plan、/build、/test、/review、/ship 等 10 个斜杠命令串起整个开发流程",
+            "/build 先写计划，批准一次后按测试优先完成所有任务，每个任务单独提交",
+            "/webperf 和 /a11y 进行 Web 性能和无障碍审查",
+          ],
+        },
+        "compound-engineering": {
+          credential: "Every 的 Compound Engineer，Compound Engineering 共同维护者",
+          summary: "Compound Engineering：围绕 头脑风暴 → 计划 → 执行 → 沉淀 循环构建的 38 个技能插件。",
+          strengths: [
+            "/ce-brainstorm 和 /ce-plan 把需求逐步完善成可直接实现的计划",
+            "/ce-work 执行计划，完成简化、审查和提交后再创建 PR",
+            "/ce-compound 把经验写入 docs/solutions/，下一次 /ce-plan 会读取它们",
+          ],
+        },
+        lifeos: {
+          credential: "安全研究员，Fabric 作者",
+          summary: "LifeOS：基于 Claude Code 的个人 AI 框架，把你的目标、上下文和记忆交给智能体。",
+          strengths: [
+            "持续记住过去的会话、决定和经验",
+            "97 个公开技能，涵盖研究、安全、写作、绘画和视频",
+            "安装程序合并而不是覆盖现有设置，也不会动你的 USER/ 文件夹",
+          ],
+        },
+        tstack: {
+          credential: "Ping.gg CEO，T3 Stack 作者",
+          summary: "tstack：Theo 每天使用的智能体技能，整理后人人可用。",
+          strengths: [
+            "full-send 把改动一路推进到合并：验证、审查、提 PR、跟进、合并",
+            "council 让三家不同厂商的模型审查，直到意见一致为止",
+            "takeover 接手别人的 PR、分支或智能体会话并完成，同时保留原作者署名",
           ],
         },
       },

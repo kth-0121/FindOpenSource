@@ -1,0 +1,118 @@
+{
+  "name": "Tailwind CSS",
+  "slug": "tailwindcss",
+  "description": "Utility-first CSS framework that generates styles from the class names used in your markup, for web developers who want to build custom designs quickly without writing and maintaining large hand-written stylesheets.",
+  "repository": "https://github.com/tailwindlabs/tailwindcss",
+  "website": "https://tailwindcss.com",
+  "documentation": "https://tailwindcss.com/docs",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "utility-first css",
+    "css framework",
+    "styling",
+    "responsive design",
+    "design system",
+    "atomic css"
+  ],
+  "longDescription": "Tailwind CSS is a utility-first CSS framework: instead of shipping prebuilt components, it provides small single-purpose classes for spacing, color, typography, layout and more, which you combine directly in HTML or JSX. A build step scans your source files for the class names you actually use and emits only the CSS those classes need, so the final stylesheet stays small no matter how large the framework's vocabulary is.\n\nDesign tokens such as colors, fonts and breakpoints are configured in CSS, and variants cover responsive sizes, hover and focus states, dark mode and container queries. Recent versions use a Rust-powered engine for faster builds and integrate with Vite, PostCSS or a standalone CLI. Teams use it for product UIs, marketing sites and design systems, often pairing it with component kits such as shadcn/ui. The trade-off is markup with long class lists, and on its own it offers no ready-made components or JavaScript behavior.",
+  "languages": [
+    "TypeScript",
+    "Rust"
+  ],
+  "packages": {
+    "npm": [
+      "tailwindcss",
+      "@tailwindcss/vite"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "마크업에 쓴 클래스 이름을 바탕으로 스타일을 생성하는 유틸리티 우선 CSS 프레임워크로, 커다란 스타일시트를 직접 작성하고 유지보수하지 않고도 맞춤 디자인을 빠르게 만들고 싶은 웹 개발자를 위한 도구입니다.",
+      "longDescription": "Tailwind CSS는 유틸리티 우선 CSS 프레임워크입니다. 미리 만든 컴포넌트를 제공하는 대신 여백, 색상, 타이포그래피, 레이아웃 등을 위한 작은 단일 목적 클래스를 제공하고, 이를 HTML이나 JSX에서 바로 조합해 씁니다. 빌드 단계에서 소스 파일을 스캔해 실제로 사용한 클래스 이름만 찾아 필요한 CSS만 생성하므로, 프레임워크가 제공하는 클래스가 아무리 많아도 최종 스타일시트는 작게 유지됩니다.\n\n색상, 글꼴, 브레이크포인트 같은 디자인 토큰은 CSS 안에서 설정하며, 반응형 크기, hover와 focus 상태, 다크 모드, 컨테이너 쿼리를 변형(variant)으로 다룹니다. 최신 버전은 빌드 속도를 높이기 위해 Rust 기반 엔진을 사용하며 Vite, PostCSS, 독립 실행형 CLI와 함께 쓸 수 있습니다. 제품 UI, 마케팅 사이트, 디자인 시스템을 만드는 데 쓰이며 shadcn/ui 같은 컴포넌트 키트와 함께 쓰는 경우가 많습니다. 대신 마크업에 긴 클래스 목록이 붙게 되고, 그 자체로는 완성된 컴포넌트나 JavaScript 동작을 제공하지 않습니다.",
+      "keywords": [
+        "유틸리티 우선 CSS",
+        "CSS 프레임워크",
+        "스타일링",
+        "반응형 디자인",
+        "디자인 시스템",
+        "아토믹 CSS"
+      ],
+      "rationale": "가장 널리 쓰이는 유틸리티 우선 CSS 프레임워크이자 shadcn/ui를 비롯한 많은 UI 키트의 스타일 기반입니다. 카탈로그에는 아직 CSS 프레임워크가 없습니다."
+    },
+    "ja": {
+      "description": "マークアップで使ったクラス名からスタイルを生成するユーティリティファーストの CSS フレームワークです。大量のスタイルシートを手書きで保守せずに、独自デザインを素早く組み立てたい Web 開発者向けです。",
+      "longDescription": "Tailwind CSS はユーティリティファーストの CSS フレームワークです。完成済みのコンポーネントを提供する代わりに、余白、色、タイポグラフィ、レイアウトなどを扱う小さな単一目的のクラスを用意し、それを HTML や JSX の中で直接組み合わせて使います。ビルド時にソースファイルを走査して実際に使われているクラス名だけを拾い、必要な CSS だけを出力するため、フレームワークのクラスがどれだけ多くても最終的なスタイルシートは小さく保たれます。\n\n色、フォント、ブレークポイントといったデザイントークンは CSS の中で設定し、レスポンシブ、hover や focus の状態、ダークモード、コンテナクエリはバリアントとして扱えます。最近のバージョンはビルドを高速化する Rust 製エンジンを採用し、Vite、PostCSS、スタンドアロン CLI と組み合わせて使えます。プロダクト UI、マーケティングサイト、デザインシステムの構築に使われ、shadcn/ui のようなコンポーネントキットと併用されることも多いです。その代わりマークアップには長いクラスの列が並び、単体では既製のコンポーネントや JavaScript の振る舞いは提供しません。",
+      "keywords": [
+        "ユーティリティファースト CSS",
+        "CSS フレームワーク",
+        "スタイリング",
+        "レスポンシブデザイン",
+        "デザインシステム",
+        "アトミック CSS"
+      ],
+      "rationale": "最も広く使われているユーティリティファースト CSS フレームワークで、shadcn/ui をはじめ多くの UI キットのスタイル基盤です。カタログにはまだ CSS フレームワークがありません。"
+    },
+    "zh-CN": {
+      "description": "一款实用类优先（utility-first）的 CSS 框架，根据标记中使用的类名生成样式，面向希望快速构建定制设计、又不想手写和维护大量样式表的 Web 开发者。",
+      "longDescription": "Tailwind CSS 是一款实用类优先的 CSS 框架：它不提供预制组件，而是提供用于间距、颜色、排版、布局等的小型单一用途类，你直接在 HTML 或 JSX 中组合使用。构建步骤会扫描源文件，找出实际用到的类名，只生成这些类所需的 CSS，因此无论框架提供多少类，最终样式表都能保持精简。\n\n颜色、字体、断点等设计令牌在 CSS 中配置，响应式尺寸、hover 与 focus 状态、深色模式和容器查询都通过变体来表达。较新的版本采用 Rust 编写的引擎以加快构建速度，并可与 Vite、PostCSS 或独立 CLI 配合使用。团队用它构建产品界面、营销网站和设计系统，也常与 shadcn/ui 等组件套件搭配。代价是标记中会出现很长的类名列表，而且它本身不提供现成的组件或 JavaScript 交互行为。",
+      "keywords": [
+        "实用类优先 CSS",
+        "CSS 框架",
+        "样式",
+        "响应式设计",
+        "设计系统",
+        "原子化 CSS"
+      ],
+      "rationale": "最主流的实用类优先 CSS 框架，也是 shadcn/ui 等众多 UI 套件的样式基础；目录中尚无 CSS 框架。"
+    },
+    "es": {
+      "description": "Framework CSS utility-first que genera los estilos a partir de los nombres de clase usados en el marcado, para desarrolladores web que quieren crear diseños a medida con rapidez sin escribir ni mantener grandes hojas de estilo a mano.",
+      "longDescription": "Tailwind CSS es un framework CSS utility-first: en lugar de ofrecer componentes prefabricados, proporciona clases pequeñas de un solo propósito para espaciado, color, tipografía, maquetación y más, que se combinan directamente en HTML o JSX. Un paso de compilación analiza los archivos fuente en busca de las clases que realmente se usan y genera solo el CSS que necesitan, de modo que la hoja de estilo final sigue siendo pequeña por mucho vocabulario que tenga el framework.\n\nLos tokens de diseño, como colores, fuentes y puntos de corte, se configuran en CSS, y las variantes cubren tamaños responsivos, estados hover y focus, modo oscuro y container queries. Las versiones recientes usan un motor escrito en Rust para compilar más rápido y se integran con Vite, PostCSS o una CLI independiente. Los equipos lo usan para interfaces de producto, sitios de marketing y sistemas de diseño, a menudo junto a kits de componentes como shadcn/ui. A cambio, el marcado acumula largas listas de clases y, por sí solo, no ofrece componentes listos ni comportamiento en JavaScript.",
+      "keywords": [
+        "css utility-first",
+        "framework css",
+        "estilos",
+        "diseño responsivo",
+        "sistema de diseño",
+        "css atómico"
+      ],
+      "rationale": "El framework CSS utility-first dominante y la capa de estilos de muchos kits de UI, incluido shadcn/ui; el catálogo aún no tiene ningún framework CSS."
+    },
+    "de": {
+      "description": "Utility-First-CSS-Framework, das Styles aus den im Markup verwendeten Klassennamen erzeugt, für Webentwickler, die eigene Designs schnell umsetzen wollen, ohne große handgeschriebene Stylesheets zu schreiben und zu pflegen.",
+      "longDescription": "Tailwind CSS ist ein Utility-First-CSS-Framework: Statt fertiger Komponenten liefert es kleine Klassen mit jeweils einem Zweck für Abstände, Farben, Typografie, Layout und mehr, die man direkt in HTML oder JSX kombiniert. Ein Build-Schritt durchsucht die Quelldateien nach den tatsächlich verwendeten Klassennamen und erzeugt nur das CSS, das diese benötigen, sodass das fertige Stylesheet klein bleibt, egal wie umfangreich das Vokabular des Frameworks ist.\n\nDesign-Tokens wie Farben, Schriften und Breakpoints werden in CSS konfiguriert, und Varianten decken responsive Größen, Hover- und Fokus-Zustände, Dark Mode und Container Queries ab. Neuere Versionen nutzen für schnellere Builds eine in Rust geschriebene Engine und lassen sich mit Vite, PostCSS oder einer eigenständigen CLI einsetzen. Teams bauen damit Produktoberflächen, Marketing-Websites und Designsysteme, oft zusammen mit Komponenten-Kits wie shadcn/ui. Der Preis sind lange Klassenlisten im Markup, und für sich genommen bietet es weder fertige Komponenten noch JavaScript-Verhalten.",
+      "keywords": [
+        "Utility-First-CSS",
+        "CSS-Framework",
+        "Styling",
+        "Responsive Design",
+        "Designsystem",
+        "Atomic CSS"
+      ],
+      "rationale": "Das führende Utility-First-CSS-Framework und die Styling-Grundlage vieler UI-Kits, darunter shadcn/ui; im Katalog gibt es bisher kein CSS-Framework."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2017-10-06",
+      "archived": false,
+      "openIssuesCount": 116,
+      "stargazersCount": 98857,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The dominant utility-first CSS framework and the styling layer under many UI kits, including shadcn/ui; the catalog has no CSS framework yet."
+    },
+    "flag": "ok"
+  }
+}

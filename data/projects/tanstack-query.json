@@ -1,0 +1,119 @@
+{
+  "name": "TanStack Query",
+  "slug": "tanstack-query",
+  "description": "Async state and data-fetching library for React, Vue, Svelte, Solid and Angular that caches server data, deduplicates requests and refreshes it in the background, for developers tired of hand-writing loading, caching and refetch logic.",
+  "repository": "https://github.com/TanStack/query",
+  "website": "https://tanstack.com/query",
+  "documentation": "https://tanstack.com/query/latest/docs",
+  "categories": [
+    "ui",
+    "api"
+  ],
+  "keywords": [
+    "data fetching",
+    "server state",
+    "caching",
+    "react",
+    "async state",
+    "query"
+  ],
+  "longDescription": "TanStack Query is a library for managing server state in frontend applications. Rather than storing fetched data in a global store and writing loading, error and refetch logic by hand, you describe each query with a key and a function that returns a promise, and the library handles caching, request deduplication, background refetching, stale-while-revalidate behavior and cleanup of unused data. It does not care about transport, so it works with REST, GraphQL or any async function.\n\nMutations with optimistic updates, paginated and infinite queries, prefetching, dependent queries, retries, offline support and server-side rendering with hydration are built in, and dedicated devtools show the cache as it changes. A framework-agnostic core powers adapters for React, Vue, Svelte, Solid, Angular and others. It is a common choice for dashboards and data-heavy apps that talk to APIs. It does not make HTTP requests itself or replace a store for purely local UI state, and its caching options take some learning to tune well.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "@tanstack/react-query",
+      "@tanstack/vue-query",
+      "@tanstack/query-core"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "서버 데이터를 캐시하고 중복 요청을 제거하며 백그라운드에서 최신 상태로 유지하는 React, Vue, Svelte, Solid, Angular용 비동기 상태·데이터 페칭 라이브러리로, 로딩·캐싱·재요청 로직을 직접 짜는 데 지친 개발자를 위한 도구입니다.",
+      "longDescription": "TanStack Query는 프런트엔드 애플리케이션의 서버 상태를 관리하는 라이브러리입니다. 가져온 데이터를 전역 스토어에 넣고 로딩, 에러, 재요청 로직을 직접 작성하는 대신, 각 쿼리를 키와 Promise를 반환하는 함수로 기술하면 캐싱, 요청 중복 제거, 백그라운드 재요청, stale-while-revalidate 동작, 사용하지 않는 데이터 정리를 라이브러리가 처리합니다. 전송 방식에 구애받지 않아 REST, GraphQL, 어떤 비동기 함수와도 함께 쓸 수 있습니다.\n\n낙관적 업데이트를 지원하는 뮤테이션, 페이지네이션과 무한 쿼리, 프리페칭, 의존 쿼리, 재시도, 오프라인 지원, 하이드레이션을 포함한 서버 사이드 렌더링이 내장되어 있고, 전용 개발자 도구로 캐시가 바뀌는 모습을 볼 수 있습니다. 프레임워크에 독립적인 코어 위에 React, Vue, Svelte, Solid, Angular 등의 어댑터가 올라갑니다. API와 통신하는 대시보드나 데이터가 많은 앱에서 흔히 선택됩니다. 다만 HTTP 요청을 직접 보내지 않고, 순수한 로컬 UI 상태를 위한 스토어를 대체하지도 않으며, 캐싱 옵션을 잘 조정하려면 어느 정도 학습이 필요합니다.",
+      "keywords": [
+        "데이터 페칭",
+        "서버 상태",
+        "캐싱",
+        "React",
+        "비동기 상태",
+        "쿼리"
+      ],
+      "rationale": "프런트엔드 앱을 위한 대표적인 서버 상태·데이터 페칭 라이브러리로, 카탈로그의 다른 항목이 채우지 못하는 역할을 맡습니다."
+    },
+    "ja": {
+      "description": "サーバーデータをキャッシュし、重複リクエストをまとめ、バックグラウンドで最新に保つ React、Vue、Svelte、Solid、Angular 向けの非同期状態・データ取得ライブラリです。ローディングやキャッシュ、再取得のロジックを手書きするのに疲れた開発者向けです。",
+      "longDescription": "TanStack Query はフロントエンドアプリケーションのサーバー状態を管理するライブラリです。取得したデータをグローバルストアに入れ、ローディングやエラー、再取得のロジックを手で書く代わりに、各クエリをキーと Promise を返す関数で記述するだけで、キャッシュ、リクエストの重複排除、バックグラウンドでの再取得、stale-while-revalidate の挙動、使われなくなったデータの破棄をライブラリが担います。通信手段は問わないので、REST でも GraphQL でも任意の非同期関数でも使えます。\n\n楽観的更新付きのミューテーション、ページネーションや無限クエリ、プリフェッチ、依存クエリ、リトライ、オフライン対応、ハイドレーション付きのサーバーサイドレンダリングが組み込まれており、専用の開発者ツールでキャッシュの変化を確認できます。フレームワーク非依存のコアの上に React、Vue、Svelte、Solid、Angular などのアダプターがあります。API とやり取りするダッシュボードやデータ量の多いアプリでよく選ばれます。ただし HTTP リクエスト自体は行わず、純粋なローカル UI 状態のためのストアの代わりにもならず、キャッシュ設定をうまく調整するにはある程度の学習が必要です。",
+      "keywords": [
+        "データ取得",
+        "サーバー状態",
+        "キャッシュ",
+        "React",
+        "非同期状態",
+        "クエリ"
+      ],
+      "rationale": "フロントエンドアプリ向けの代表的なサーバー状態・データ取得ライブラリで、カタログの他の項目では埋まらない役割を担います。"
+    },
+    "zh-CN": {
+      "description": "面向 React、Vue、Svelte、Solid 和 Angular 的异步状态与数据获取库，可缓存服务端数据、去重请求并在后台保持数据新鲜，适合厌倦了手写加载、缓存和重新请求逻辑的开发者。",
+      "longDescription": "TanStack Query 是一个用于管理前端应用中服务端状态的库。你无需把获取的数据放进全局 store 再手写加载、错误和重新请求逻辑，只需用一个键和一个返回 Promise 的函数描述每个查询，缓存、请求去重、后台重新获取、stale-while-revalidate 行为以及清理不再使用的数据都由库来处理。它不关心传输方式，可以配合 REST、GraphQL 或任意异步函数使用。\n\n它内置了支持乐观更新的变更（mutation）、分页与无限查询、预取、依赖查询、重试、离线支持以及带水合的服务端渲染，专用的开发者工具可以实时查看缓存变化。与框架无关的核心之上提供了 React、Vue、Svelte、Solid、Angular 等适配器。它常用于需要与 API 交互的仪表盘和数据密集型应用。不过它本身不发起 HTTP 请求，也不能替代用于纯本地 UI 状态的 store，要调好缓存选项还需要一定的学习。",
+      "keywords": [
+        "数据获取",
+        "服务端状态",
+        "缓存",
+        "React",
+        "异步状态",
+        "查询"
+      ],
+      "rationale": "前端应用中领先的服务端状态与数据获取库；承担了目录中其他条目都未覆盖的角色。"
+    },
+    "es": {
+      "description": "Biblioteca de estado asíncrono y obtención de datos para React, Vue, Svelte, Solid y Angular que almacena en caché los datos del servidor, deduplica peticiones y los refresca en segundo plano, para quienes están cansados de escribir a mano la lógica de carga y caché.",
+      "longDescription": "TanStack Query es una biblioteca para gestionar el estado del servidor en aplicaciones frontend. En lugar de guardar los datos obtenidos en un store global y escribir a mano la lógica de carga, errores y recarga, describes cada consulta con una clave y una función que devuelve una promesa, y la biblioteca se ocupa de la caché, la deduplicación de peticiones, la recarga en segundo plano, el comportamiento stale-while-revalidate y la limpieza de datos que ya no se usan. No depende del transporte, así que funciona con REST, GraphQL o cualquier función asíncrona.\n\nIncluye mutaciones con actualizaciones optimistas, consultas paginadas e infinitas, precarga, consultas dependientes, reintentos, soporte sin conexión y renderizado en servidor con hidratación, y unas devtools propias muestran cómo cambia la caché. Un núcleo independiente del framework alimenta adaptadores para React, Vue, Svelte, Solid, Angular y otros. Es una elección habitual para paneles y aplicaciones con muchos datos que hablan con APIs. No realiza las peticiones HTTP por sí misma ni sustituye a un store para el estado puramente local de la interfaz, y ajustar bien sus opciones de caché requiere cierto aprendizaje.",
+      "keywords": [
+        "obtención de datos",
+        "estado del servidor",
+        "caché",
+        "react",
+        "estado asíncrono",
+        "consultas"
+      ],
+      "rationale": "La biblioteca de referencia para estado del servidor y obtención de datos en aplicaciones frontend; cubre un papel que ninguna otra entrada del catálogo ocupa."
+    },
+    "de": {
+      "description": "Bibliothek für asynchronen Zustand und Data Fetching für React, Vue, Svelte, Solid und Angular, die Serverdaten cacht, doppelte Anfragen zusammenführt und im Hintergrund aktualisiert, für Entwickler, die Lade-, Cache- und Refetch-Logik nicht mehr selbst schreiben wollen.",
+      "longDescription": "TanStack Query ist eine Bibliothek zur Verwaltung von Serverzustand in Frontend-Anwendungen. Statt abgerufene Daten in einem globalen Store abzulegen und Lade-, Fehler- und Refetch-Logik von Hand zu schreiben, beschreibt man jede Abfrage mit einem Schlüssel und einer Funktion, die ein Promise liefert, und die Bibliothek übernimmt Caching, Deduplizierung von Anfragen, Aktualisierung im Hintergrund, Stale-While-Revalidate-Verhalten und das Aufräumen ungenutzter Daten. Sie ist transportunabhängig und funktioniert mit REST, GraphQL oder jeder beliebigen asynchronen Funktion.\n\nMutationen mit optimistischen Updates, paginierte und unendliche Abfragen, Prefetching, abhängige Abfragen, Wiederholungen, Offline-Unterstützung und serverseitiges Rendering mit Hydration sind eingebaut, und eigene Devtools zeigen den Cache, während er sich ändert. Ein frameworkunabhängiger Kern treibt Adapter für React, Vue, Svelte, Solid, Angular und weitere an. Häufig gewählt wird sie für Dashboards und datenintensive Apps, die mit APIs sprechen. Sie stellt selbst keine HTTP-Anfragen, ersetzt keinen Store für rein lokalen UI-Zustand, und ihre Cache-Optionen gut abzustimmen erfordert etwas Einarbeitung.",
+      "keywords": [
+        "Data Fetching",
+        "Serverzustand",
+        "Caching",
+        "React",
+        "asynchroner Zustand",
+        "Abfragen"
+      ],
+      "rationale": "Die führende Bibliothek für Serverzustand und Data Fetching in Frontend-Apps; deckt eine Rolle ab, die kein anderer Katalogeintrag ausfüllt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2019-09-10",
+      "archived": false,
+      "openIssuesCount": 139,
+      "stargazersCount": 50676,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 93,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading server-state and data-fetching library for frontend apps; covers a role no other catalog entry fills."
+    },
+    "flag": "ok"
+  }
+}

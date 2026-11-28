@@ -1,0 +1,110 @@
+{
+  "name": "Sentry Skills",
+  "slug": "sentry-skills",
+  "description": "Agent Skills the Sentry engineering team uses for its own development work: code review, commits, pull requests, docs and debugging habits.",
+  "longDescription": "Sentry Skills is the set of Agent Skills that Sentry's own engineers use, published in the open. Most of it covers the routine around a change: commit and create-branch follow Sentry's conventions, pr-writer drafts pull request descriptions, iterate-pr keeps fixing a PR until CI passes and review feedback is handled, and code-review, find-bugs and code-simplifier check the work first. The security skills stand out: security-review, gha-security-review for GitHub Actions workflows, django-access-review for IDOR bugs, secret-serialization for tokens leaking through serialized output, and skill-scanner for vetting third-party skills.\n\nIt suits engineers who want a tested review and PR routine, and anyone auditing workflows or skills. The README says the skills are for Sentry employees, and several are tied to Sentry's codebase, brand or SRED submissions. None of them set up Sentry in your app; Sentry keeps those in a separate repository, sentry-for-ai.",
+  "repository": "https://github.com/getsentry/skills",
+  "website": "https://skills.sh/getsentry/skills",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "code-review",
+    "security-review",
+    "pull-requests",
+    "workflow"
+  ],
+  "languages": [
+    "Python"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Sentry 엔지니어링 팀이 자체 개발에 쓰는 에이전트 스킬 모음: 코드 리뷰, 커밋, 풀 리퀘스트, 문서, 디버깅 습관.",
+      "longDescription": "Sentry Skills는 Sentry 엔지니어들이 실제로 쓰는 Agent Skills를 공개한 모음입니다. 대부분은 변경 하나를 둘러싼 일상 작업을 다룹니다. commit과 create-branch는 Sentry의 규칙을 따르고, pr-writer는 풀 리퀘스트 설명을 작성하며, iterate-pr는 CI가 통과하고 리뷰 피드백이 처리될 때까지 PR을 계속 고칩니다. code-review, find-bugs, code-simplifier는 그 전에 작업을 점검합니다. 특히 보안 스킬이 돋보입니다. security-review, GitHub Actions 워크플로를 보는 gha-security-review, IDOR 버그를 찾는 django-access-review, 직렬화된 출력으로 토큰이 새는 곳을 찾는 secret-serialization, 서드파티 스킬을 검사하는 skill-scanner가 있습니다.\n\n검증된 리뷰·PR 루틴을 원하는 엔지니어나 워크플로와 스킬을 감사하려는 사람에게 맞습니다. README에 따르면 이 스킬들은 Sentry 직원용이며, 일부는 Sentry 코드베이스, 브랜드, SRED 제출 업무에 묶여 있습니다. 앱에 Sentry를 설정해 주는 스킬은 없습니다. 그런 스킬은 별도 저장소인 sentry-for-ai에 있습니다.",
+      "keywords": [
+        "에이전트 스킬",
+        "코드 리뷰",
+        "보안 리뷰",
+        "풀 리퀘스트",
+        "워크플로"
+      ],
+      "rationale": "Sentry 엔지니어링 팀이 직접 쓰는 스킬로, 코드 리뷰와 보안 리뷰가 가장 강합니다. 일부는 Sentry 내부 코드베이스와 업무 절차에 묶여 있습니다."
+    },
+    "ja": {
+      "description": "Sentry のエンジニアリングチームが自社の開発で使っているエージェントスキル集。コードレビュー、コミット、プルリクエスト、ドキュメント、デバッグの習慣。",
+      "longDescription": "Sentry Skills は、Sentry のエンジニアが実際に使っている Agent Skills を公開したものです。大半は一つの変更をめぐる日常作業を扱います。commit と create-branch は Sentry の規約に従い、pr-writer はプルリクエストの説明を書き、iterate-pr は CI が通りレビューの指摘が片付くまで PR を直し続けます。その前に code-review、find-bugs、code-simplifier が作業をチェックします。目立つのはセキュリティ系のスキルです。security-review、GitHub Actions のワークフローを調べる gha-security-review、IDOR バグを探す django-access-review、シリアライズされた出力からトークンが漏れる箇所を探す secret-serialization、サードパーティ製スキルを検査する skill-scanner があります。\n\n実績のあるレビューと PR の流れを取り入れたいエンジニアや、ワークフローやスキルを監査したい人に向いています。README によるとこれらは Sentry 社員向けで、いくつかは Sentry のコードベース、ブランド、SRED の申請業務に結びついています。アプリに Sentry を導入するスキルは含まれておらず、それは別リポジトリの sentry-for-ai にあります。",
+      "keywords": [
+        "エージェントスキル",
+        "コードレビュー",
+        "セキュリティレビュー",
+        "プルリクエスト",
+        "ワークフロー"
+      ],
+      "rationale": "Sentry のエンジニアリングチーム自身が使うスキルで、コードレビューとセキュリティレビューが特に強力です。一部は Sentry 社内のコードベースや業務手順に依存しています。"
+    },
+    "zh-CN": {
+      "description": "Sentry 工程团队在自身开发中使用的智能体技能：代码审查、提交、拉取请求、文档和调试习惯。",
+      "longDescription": "Sentry Skills 是 Sentry 工程师实际在用的一组 Agent Skills，现已公开。大部分技能围绕一次代码变更的日常流程：commit 和 create-branch 遵循 Sentry 的约定，pr-writer 撰写拉取请求描述，iterate-pr 会不断修改 PR，直到 CI 通过、评审意见处理完毕，而 code-review、find-bugs 和 code-simplifier 会先把工作检查一遍。安全类技能尤为突出：security-review、检查 GitHub Actions 工作流的 gha-security-review、查找 IDOR 漏洞的 django-access-review、找出令牌经由序列化输出泄露的 secret-serialization，以及审查第三方技能的 skill-scanner。\n\n它适合想要一套成熟的审查和 PR 流程的工程师，也适合需要审计工作流或技能的人。README 说明这些技能是给 Sentry 员工用的，其中一些与 Sentry 的代码库、品牌或 SRED 申报工作绑定。它们都不负责在你的应用中接入 Sentry，那类技能在另一个仓库 sentry-for-ai 里。",
+      "keywords": [
+        "智能体技能",
+        "代码审查",
+        "安全审查",
+        "拉取请求",
+        "工作流"
+      ],
+      "rationale": "Sentry 工程团队自用的技能，代码审查和安全审查是最强项；其中一些与 Sentry 内部代码库和流程绑定。"
+    },
+    "es": {
+      "description": "Las Agent Skills que el equipo de ingeniería de Sentry usa en su propio desarrollo: revisión de código, commits, pull requests, documentación y hábitos de depuración.",
+      "longDescription": "Sentry Skills es el conjunto de Agent Skills que usan los propios ingenieros de Sentry, publicado en abierto. La mayor parte cubre la rutina alrededor de un cambio: commit y create-branch siguen las convenciones de Sentry, pr-writer redacta la descripción del pull request, iterate-pr sigue corrigiendo un PR hasta que pasa el CI y se atienden los comentarios de revisión, y code-review, find-bugs y code-simplifier revisan el trabajo antes. Destacan las skills de seguridad: security-review, gha-security-review para workflows de GitHub Actions, django-access-review para fallos IDOR, secret-serialization para tokens que se filtran por la salida serializada y skill-scanner para revisar skills de terceros.\n\nEncaja con ingenieros que quieren una rutina de revisión y PR ya probada, y con quien necesite auditar workflows o skills. El README indica que las skills son para empleados de Sentry, y varias dependen del código, la marca o las solicitudes SRED de Sentry. Ninguna configura Sentry en tu aplicación; esas están en otro repositorio, sentry-for-ai.",
+      "keywords": [
+        "skills de agentes",
+        "revisión de código",
+        "revisión de seguridad",
+        "pull requests",
+        "flujo de trabajo"
+      ],
+      "rationale": "Las skills de ingeniería que usa el propio Sentry, fuertes sobre todo en revisión de código y de seguridad; varias dependen del código y los procesos internos de Sentry."
+    },
+    "de": {
+      "description": "Agent Skills, die das Engineering-Team von Sentry für die eigene Entwicklung nutzt: Code-Review, Commits, Pull Requests, Doku und Debugging-Gewohnheiten.",
+      "longDescription": "Sentry Skills sind die Agent Skills, die Sentrys eigene Entwickler nutzen, offen veröffentlicht. Der Großteil deckt die Routine rund um eine Änderung ab: commit und create-branch folgen Sentrys Konventionen, pr-writer schreibt Pull-Request-Beschreibungen, iterate-pr bessert einen PR so lange nach, bis die CI grün ist und das Review-Feedback erledigt ist, und code-review, find-bugs und code-simplifier prüfen die Arbeit vorher. Hervorzuheben sind die Security-Skills: security-review, gha-security-review für GitHub-Actions-Workflows, django-access-review für IDOR-Lücken, secret-serialization für Tokens, die über serialisierte Ausgaben durchsickern, und skill-scanner zum Prüfen fremder Skills.\n\nDas passt zu Entwicklern, die eine erprobte Review- und PR-Routine wollen, und zu allen, die Workflows oder Skills auditieren. Laut README sind die Skills für Sentry-Mitarbeitende gedacht, und mehrere hängen an Sentrys Codebasis, Marke oder SRED-Anträgen. Keiner richtet Sentry in deiner App ein; dafür gibt es das separate Repository sentry-for-ai.",
+      "keywords": [
+        "Agenten-Skills",
+        "Code-Review",
+        "Security-Review",
+        "Pull Requests",
+        "Workflow"
+      ],
+      "rationale": "Sentrys eigene Engineering-Skills, am stärksten bei Code- und Security-Reviews; mehrere sind an Sentrys interne Codebasis und Abläufe gebunden."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-14",
+      "repoCreatedAt": "2026-01-05",
+      "archived": false,
+      "openIssuesCount": 32,
+      "stargazersCount": 1207,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "score": 69,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Sentry's own engineering skills, strongest on code and security review; several are tied to Sentry's internal codebase and processes."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

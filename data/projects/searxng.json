@@ -1,0 +1,111 @@
+{
+  "name": "SearXNG",
+  "slug": "searxng",
+  "description": "Self-hostable metasearch engine that sends your query to many web search services at once and merges the results without tracking or profiling users, for individuals and organizations that want private web search under their own control.",
+  "repository": "https://github.com/searxng/searxng",
+  "website": "https://docs.searxng.org",
+  "documentation": "https://docs.searxng.org/admin/index.html",
+  "categories": [
+    "search"
+  ],
+  "keywords": [
+    "metasearch engine",
+    "private search",
+    "web search",
+    "self-hosted",
+    "privacy",
+    "search aggregator"
+  ],
+  "longDescription": "SearXNG is a metasearch engine: instead of crawling and indexing the web itself, it forwards each query to a configurable set of upstream search engines and other sources, then combines and ranks what comes back on a single results page. Users are not tracked or profiled, and because the instance makes the upstream requests, those services see the server rather than the person searching. Anyone can use a public instance or run their own for a household, a team or a community.\n\nResults are organized into categories such as general web, images, videos, news, maps, music, files and science, and each engine can be enabled, weighted or disabled in the settings. It can return results as JSON once that format is enabled and provides an OpenSearch description so browsers can add it as their default search. Self-hosted instances are also increasingly used as a web search backend for LLM tools and agents. It is usually deployed with Docker or the provided install scripts. Result quality and availability depend on the upstream engines, which may rate-limit or block busy instances.",
+  "languages": [
+    "Python"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "검색어를 여러 웹 검색 서비스에 동시에 보내 결과를 합쳐 주면서도 사용자를 추적하거나 프로파일링하지 않는 셀프 호스팅 메타 검색 엔진으로, 직접 관리하는 사적인 웹 검색을 원하는 개인과 조직에 적합합니다.",
+      "longDescription": "SearXNG는 메타 검색 엔진입니다. 웹을 직접 크롤링하고 색인하는 대신, 각 검색어를 설정해 둔 여러 상위 검색 엔진과 기타 소스로 전달한 뒤 돌아온 결과를 하나의 결과 페이지에 합치고 순위를 매깁니다. 사용자는 추적되거나 프로파일링되지 않으며, 상위 서비스에 요청을 보내는 주체가 인스턴스이기 때문에 해당 서비스에는 검색한 사람이 아니라 서버만 보입니다. 공개 인스턴스를 이용할 수도 있고, 가정이나 팀, 커뮤니티를 위해 직접 운영할 수도 있습니다.\n\n결과는 일반 웹, 이미지, 동영상, 뉴스, 지도, 음악, 파일, 학술 같은 카테고리로 나뉘며, 설정에서 엔진마다 켜고 끄거나 가중치를 조정할 수 있습니다. 설정에서 켜면 결과를 JSON으로도 받을 수 있고, OpenSearch 설명 파일을 제공해 브라우저의 기본 검색 엔진으로 추가할 수 있으며, 셀프 호스팅 인스턴스는 LLM 도구와 에이전트의 웹 검색 백엔드로도 점점 많이 쓰입니다. 보통 Docker나 제공되는 설치 스크립트로 배포합니다. 결과의 품질과 가용성은 상위 검색 엔진에 달려 있으며, 요청이 많은 인스턴스는 속도 제한을 받거나 차단될 수 있습니다.",
+      "keywords": [
+        "메타 검색 엔진",
+        "프라이빗 검색",
+        "웹 검색",
+        "셀프 호스팅",
+        "개인정보 보호",
+        "검색 결과 통합"
+      ],
+      "rationale": "카탈로그의 다른 검색 프로젝트는 모두 자체 데이터를 색인하는 엔진입니다. SearXNG는 프라이버시를 중시하는 웹 검색과 셀프 호스팅 LLM 검색 백엔드라는 다른 용도를 채웁니다."
+    },
+    "ja": {
+      "description": "検索語を多数の Web 検索サービスへ同時に送り、結果をまとめて表示しながら、ユーザーを追跡もプロファイリングもしないセルフホスト可能なメタ検索エンジンです。自分たちで管理するプライベートな Web 検索を求める個人や組織に向いています。",
+      "longDescription": "SearXNG はメタ検索エンジンです。自ら Web をクロールしてインデックスを作るのではなく、各クエリを設定済みの上流検索エンジンやその他の情報源に転送し、返ってきた結果を 1 つの結果ページにまとめて順位付けします。ユーザーは追跡もプロファイリングもされず、上流へのリクエストはインスタンスが行うため、上流のサービスから見えるのは検索した本人ではなくサーバーです。公開インスタンスを使うことも、家庭やチーム、コミュニティ向けに自分で運用することもできます。\n\n結果は一般 Web、画像、動画、ニュース、地図、音楽、ファイル、学術といったカテゴリに分かれ、各エンジンは設定で有効化、重み付け、無効化ができます。設定で有効にすれば結果を JSON でも返せるほか、OpenSearch 記述ファイルによってブラウザーの既定の検索エンジンとして登録でき、セルフホストのインスタンスは LLM ツールやエージェントの Web 検索バックエンドとしても使われるようになっています。通常は Docker か付属のインストールスクリプトでデプロイします。結果の質や可用性は上流の検索エンジン次第で、利用の多いインスタンスはレート制限やブロックを受けることがあります。",
+      "keywords": [
+        "メタ検索エンジン",
+        "プライベート検索",
+        "Web 検索",
+        "セルフホスト",
+        "プライバシー",
+        "検索結果の集約"
+      ],
+      "rationale": "カタログ内の他の検索プロジェクトはいずれも自前のデータをインデックスするエンジンです。SearXNG はプライバシー重視の Web 検索や、セルフホストの LLM 向け検索バックエンドという別の用途を担います。"
+    },
+    "zh-CN": {
+      "description": "可自托管的元搜索引擎，会把你的查询同时发往多个网络搜索服务并合并结果，且不追踪、不画像用户，适合希望掌控自己私密网络搜索的个人和组织。",
+      "longDescription": "SearXNG 是一款元搜索引擎：它并不自己抓取和索引网页，而是把每次查询转发给一组可配置的上游搜索引擎和其他数据源，再把返回的内容合并、排序后显示在同一个结果页上。用户不会被追踪或画像，而且由于向上游发起请求的是实例本身，上游服务看到的是服务器而不是搜索者。你可以使用公共实例，也可以为家庭、团队或社区自行部署。\n\n结果按通用网页、图片、视频、新闻、地图、音乐、文件、学术等类别组织，每个引擎都可以在设置中启用、调整权重或禁用。在设置中启用后还能以 JSON 格式返回结果，并提供 OpenSearch 描述文件，可以被浏览器设为默认搜索引擎；自托管实例也越来越多地被用作 LLM 工具和智能体的网络搜索后端。通常使用 Docker 或项目提供的安装脚本部署。结果质量和可用性取决于上游搜索引擎，访问量大的实例可能会被限流或屏蔽。",
+      "keywords": [
+        "元搜索引擎",
+        "隐私搜索",
+        "网络搜索",
+        "自托管",
+        "隐私保护",
+        "搜索聚合"
+      ],
+      "rationale": "目录中其他搜索项目都是为自有数据建立索引的引擎；SearXNG 则满足注重隐私的网络搜索和自托管 LLM 搜索后端这一不同需求。"
+    },
+    "es": {
+      "description": "Metabuscador autoalojable que envía tu consulta a muchos servicios de búsqueda web a la vez y combina los resultados sin rastrear ni perfilar a los usuarios, para personas y organizaciones que quieren una búsqueda web privada bajo su propio control.",
+      "longDescription": "SearXNG es un metabuscador: en lugar de rastrear e indexar la web por su cuenta, reenvía cada consulta a un conjunto configurable de buscadores y otras fuentes, y después combina y ordena lo que recibe en una única página de resultados. Los usuarios no son rastreados ni perfilados y, como es la instancia la que hace las peticiones, esos servicios ven al servidor y no a la persona que busca. Se puede usar una instancia pública o montar una propia para un hogar, un equipo o una comunidad.\n\nLos resultados se organizan en categorías como web general, imágenes, vídeos, noticias, mapas, música, archivos y ciencia, y cada motor puede activarse, ponderarse o desactivarse en la configuración. Si se activa ese formato, también puede devolver los resultados en JSON, y ofrece una descripción OpenSearch para que los navegadores lo añadan como buscador predeterminado, y las instancias autoalojadas se usan cada vez más como backend de búsqueda web para herramientas y agentes basados en LLM. Normalmente se despliega con Docker o con los scripts de instalación incluidos. La calidad y la disponibilidad de los resultados dependen de los buscadores de origen, que pueden limitar o bloquear las instancias con mucho tráfico.",
+      "keywords": [
+        "metabuscador",
+        "búsqueda privada",
+        "búsqueda web",
+        "autoalojado",
+        "privacidad",
+        "agregador de búsqueda"
+      ],
+      "rationale": "Los demás proyectos de búsqueda del catálogo son motores que indexan tus propios datos; SearXNG cubre otra necesidad: búsqueda web respetuosa con la privacidad y un backend de búsqueda autoalojado para LLM."
+    },
+    "de": {
+      "description": "Selbst hostbare Metasuchmaschine, die eine Anfrage gleichzeitig an viele Websuchdienste schickt und die Ergebnisse zusammenführt, ohne Nutzer zu tracken oder Profile anzulegen – für Einzelne und Organisationen, die private Websuche unter eigener Kontrolle wollen.",
+      "longDescription": "SearXNG ist eine Metasuchmaschine: Statt das Web selbst zu crawlen und zu indexieren, leitet sie jede Anfrage an eine konfigurierbare Auswahl vorgelagerter Suchmaschinen und anderer Quellen weiter und fasst die Antworten auf einer gemeinsamen Ergebnisseite zusammen. Nutzer werden weder getrackt noch profiliert, und da die Instanz die Anfragen stellt, sehen die Dienste den Server statt der suchenden Person. Man kann eine öffentliche Instanz nutzen oder eine eigene für Haushalt, Team oder Community betreiben.\n\nDie Ergebnisse sind in Kategorien wie allgemeines Web, Bilder, Videos, Nachrichten, Karten, Musik, Dateien und Wissenschaft gegliedert, und jede Suchmaschine lässt sich in den Einstellungen aktivieren, gewichten oder abschalten. Ist das Format aktiviert, liefert sie Ergebnisse auch als JSON, und eine OpenSearch-Beschreibung sorgt dafür, dass Browser SearXNG als Standardsuche eintragen können; selbst gehostete Instanzen dienen zunehmend auch als Websuch-Backend für LLM-Werkzeuge und Agenten. Üblich ist die Installation per Docker oder mit den mitgelieferten Skripten. Qualität und Verfügbarkeit der Ergebnisse hängen von den vorgelagerten Suchmaschinen ab, die stark genutzte Instanzen drosseln oder sperren können.",
+      "keywords": [
+        "Metasuchmaschine",
+        "private Suche",
+        "Websuche",
+        "selbst gehostet",
+        "Datenschutz",
+        "Suchaggregator"
+      ],
+      "rationale": "Die übrigen Suchprojekte im Katalog sind Engines, die eigene Daten indexieren; SearXNG deckt einen anderen Bedarf ab: datenschutzfreundliche Websuche und ein selbst gehostetes Such-Backend für LLMs."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2021-04-12",
+      "archived": false,
+      "openIssuesCount": 215,
+      "stargazersCount": 39959,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 81,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Every other search project in the catalog is an engine for indexing your own data; SearXNG covers a different need, privacy-respecting web search and a self-hosted search backend for LLMs."
+    },
+    "flag": "ok"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "name": "Vaultwarden",
+  "slug": "vaultwarden",
+  "description": "Unofficial, lightweight Rust server that implements the Bitwarden client API, letting you self-host a password vault that works with the official Bitwarden apps. Not affiliated with Bitwarden; aimed at individuals, families and small teams running their own server.",
+  "repository": "https://github.com/dani-garcia/vaultwarden",
+  "documentation": "https://github.com/dani-garcia/vaultwarden/wiki",
+  "categories": [
+    "authentication"
+  ],
+  "keywords": [
+    "password manager",
+    "self-hosted",
+    "bitwarden compatible",
+    "password vault",
+    "two-factor authentication",
+    "secrets sharing"
+  ],
+  "longDescription": "Vaultwarden is an independent, community-written server for the Bitwarden password manager protocol. It is not an official Bitwarden product and is not affiliated with or endorsed by Bitwarden, Inc.; it reimplements the client API in Rust so that the official browser extensions, desktop and mobile apps can sync against a server you run yourself. Compared with the official self-hosted stack it needs far fewer resources, typically a single container backed by SQLite, MySQL or PostgreSQL, which makes it popular on home servers and small VPS instances.\n\nIt covers most of what everyday users rely on: personal vaults, organizations with collections, groups and member roles, file attachments, Send, emergency access, event logs and two-factor login via authenticator apps, email, FIDO2 WebAuthn, YubiKey or Duo. A bundled, lightly modified web vault and an admin page handle configuration. Because it tracks a proprietary API it can lag behind new Bitwarden features, bugs must be reported to the Vaultwarden project rather than Bitwarden support, and you take on the security responsibility of operating a server that holds every credential you own.",
+  "languages": [
+    "Rust"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Bitwarden 클라이언트 API를 구현한 비공식 경량 Rust 서버로, 공식 Bitwarden 앱과 함께 쓸 수 있는 비밀번호 보관함을 직접 호스팅할 수 있게 해 줍니다. Bitwarden과는 무관한 프로젝트이며, 자체 서버를 운영하려는 개인, 가족, 소규모 팀을 위한 도구입니다.",
+      "longDescription": "Vaultwarden은 Bitwarden 비밀번호 관리자 프로토콜을 위한 독립적인 커뮤니티 제작 서버입니다. Bitwarden의 공식 제품이 아니며 Bitwarden, Inc.와 제휴하거나 보증을 받은 관계도 아닙니다. 클라이언트 API를 Rust로 다시 구현해, 공식 브라우저 확장 프로그램과 데스크톱·모바일 앱이 직접 운영하는 서버와 동기화되도록 합니다. 공식 셀프 호스팅 구성과 비교하면 필요한 자원이 훨씬 적어서 보통 SQLite, MySQL, PostgreSQL을 쓰는 컨테이너 하나로 충분하며, 그래서 홈 서버나 작은 VPS에서 많이 쓰입니다.\n\n일상적으로 필요한 기능은 대부분 갖추고 있습니다. 개인 보관함, 컬렉션·그룹·멤버 역할을 갖춘 조직, 첨부 파일, Send, 긴급 접근, 이벤트 로그, 그리고 인증 앱·이메일·FIDO2 WebAuthn·YubiKey·Duo를 이용한 2단계 로그인을 지원합니다. 약간 수정된 웹 보관함과 관리자 페이지가 함께 제공되어 설정을 처리합니다. 다만 비공개 API를 따라가는 구조라 Bitwarden의 새 기능 지원이 늦어질 수 있고, 버그는 Bitwarden 고객 지원이 아니라 Vaultwarden 프로젝트에 보고해야 합니다. 또한 모든 자격 증명이 담긴 서버를 직접 운영하는 만큼 보안 책임도 스스로 져야 합니다.",
+      "keywords": [
+        "비밀번호 관리자",
+        "셀프 호스팅",
+        "Bitwarden 호환",
+        "비밀번호 보관함",
+        "2단계 인증",
+        "비밀 공유"
+      ],
+      "rationale": "카탈로그에 하나뿐인 셀프 호스팅 비밀번호 관리 서버로, 다른 인증 프로젝트들과 겹치지 않는 홈랩의 필수 도구입니다. 공식 Bitwarden 서버가 아닌 비공식 호환 구현입니다."
+    },
+    "ja": {
+      "description": "Bitwarden クライアント API を実装した非公式で軽量な Rust 製サーバーで、公式 Bitwarden アプリから使えるパスワード保管庫をセルフホストできます。Bitwarden とは無関係のプロジェクトで、自前のサーバーを運用したい個人、家族、小規模チーム向けです。",
+      "longDescription": "Vaultwarden は、Bitwarden パスワードマネージャーのプロトコルに対応した、コミュニティによる独立したサーバー実装です。Bitwarden の公式製品ではなく、Bitwarden, Inc. との提携や承認もありません。クライアント API を Rust で再実装しており、公式のブラウザー拡張機能やデスクトップ・モバイルアプリを、自分で運用するサーバーと同期させられます。公式のセルフホスト構成に比べて必要なリソースがずっと少なく、通常は SQLite、MySQL、PostgreSQL を使うコンテナ 1 つで動くため、自宅サーバーや小さな VPS で広く使われています。\n\n個人用保管庫、コレクション・グループ・メンバーロールを備えた組織、添付ファイル、Send、緊急アクセス、イベントログ、さらに認証アプリ、メール、FIDO2 WebAuthn、YubiKey、Duo による二段階ログインなど、日常的に使う機能の大半をカバーしています。少し手を加えた Web 保管庫と管理画面が同梱され、設定はそこから行えます。一方で、非公開の API を追いかける形のため Bitwarden の新機能への対応が遅れることがあり、不具合は Bitwarden のサポートではなく Vaultwarden プロジェクトに報告する必要があります。また、すべての認証情報を預けるサーバーを自ら運用するので、そのセキュリティ責任も自分で負うことになります。",
+      "keywords": [
+        "パスワードマネージャー",
+        "セルフホスト",
+        "Bitwarden 互換",
+        "パスワード保管庫",
+        "二要素認証",
+        "シークレット共有"
+      ],
+      "rationale": "カタログ唯一のセルフホスト型パスワード管理サーバーで、他の認証プロジェクトと重ならないホームラボの定番です。公式の Bitwarden サーバーではなく、非公式の互換実装です。"
+    },
+    "zh-CN": {
+      "description": "一个非官方的轻量级 Rust 服务端，实现了 Bitwarden 客户端 API，让你可以自托管一个能配合官方 Bitwarden 应用使用的密码库。该项目与 Bitwarden 公司无关，面向想自己运行服务器的个人、家庭和小团队。",
+      "longDescription": "Vaultwarden 是由社区独立编写的 Bitwarden 密码管理器协议服务端。它不是 Bitwarden 的官方产品，与 Bitwarden, Inc. 没有隶属或背书关系；它用 Rust 重新实现了客户端 API，让官方的浏览器扩展、桌面端和移动端应用能够与你自己运行的服务器同步。与官方的自托管方案相比，它所需的资源少得多，通常一个搭配 SQLite、MySQL 或 PostgreSQL 的容器就够了，因此在家庭服务器和小型 VPS 上很受欢迎。\n\n它覆盖了日常使用中的大部分功能：个人密码库、带有集合、群组和成员角色的组织、文件附件、Send、紧急访问、事件日志，以及通过验证器应用、电子邮件、FIDO2 WebAuthn、YubiKey 或 Duo 进行的两步登录。它还附带一个略作修改的网页版密码库和一个管理页面用于配置。不过，由于它追随的是一个专有 API，对 Bitwarden 新功能的支持可能会滞后；遇到问题需要向 Vaultwarden 项目反馈，而不是联系 Bitwarden 官方支持；而且自行运营一台保存全部凭据的服务器，安全责任也需要自己承担。",
+      "keywords": [
+        "密码管理器",
+        "自托管",
+        "兼容 Bitwarden",
+        "密码库",
+        "双因素认证",
+        "密钥共享"
+      ],
+      "rationale": "目录中唯一的自托管密码管理服务端，是与其他认证项目互不重叠的家庭实验室必备工具；它是非官方的兼容实现，而非 Bitwarden 官方服务器。"
+    },
+    "es": {
+      "description": "Servidor ligero y no oficial en Rust que implementa la API de cliente de Bitwarden, para autoalojar una bóveda de contraseñas compatible con las apps oficiales de Bitwarden. No está afiliado a Bitwarden; para personas, familias y equipos pequeños con servidor propio.",
+      "longDescription": "Vaultwarden es un servidor independiente, escrito por la comunidad, para el protocolo del gestor de contraseñas Bitwarden. No es un producto oficial de Bitwarden ni está afiliado a Bitwarden, Inc. ni respaldado por ella: reimplementa en Rust la API de cliente para que las extensiones de navegador y las aplicaciones de escritorio y móviles oficiales se sincronicen con un servidor que tú mismo gestionas. Frente a la pila oficial autoalojada necesita muchos menos recursos, normalmente un único contenedor con SQLite, MySQL o PostgreSQL, por lo que es muy popular en servidores domésticos y VPS pequeños.\n\nCubre casi todo lo que se usa a diario: bóvedas personales, organizaciones con colecciones, grupos y roles de miembros, archivos adjuntos, Send, acceso de emergencia, registros de eventos e inicio de sesión en dos pasos mediante apps de autenticación, correo electrónico, FIDO2 WebAuthn, YubiKey o Duo. Incluye una bóveda web ligeramente modificada y una página de administración para la configuración. Como sigue una API propietaria, puede ir por detrás de las novedades de Bitwarden; los fallos deben comunicarse al proyecto Vaultwarden y no al soporte de Bitwarden, y asumes la responsabilidad de seguridad de operar un servidor que guarda todas tus credenciales.",
+      "keywords": [
+        "gestor de contraseñas",
+        "autoalojado",
+        "compatible con Bitwarden",
+        "bóveda de contraseñas",
+        "autenticación de dos factores",
+        "compartir secretos"
+      ],
+      "rationale": "El único servidor de gestión de contraseñas autoalojado del catálogo, un imprescindible del homelab que no se solapa con los demás proyectos de autenticación; es una implementación compatible no oficial, no el servidor de Bitwarden."
+    },
+    "de": {
+      "description": "Inoffizieller, schlanker Rust-Server, der die Bitwarden-Client-API implementiert und einen selbst gehosteten Passwort-Tresor für die offiziellen Bitwarden-Apps bereitstellt. Nicht mit Bitwarden verbunden; gedacht für Einzelpersonen, Familien und kleine Teams mit eigenem Server.",
+      "longDescription": "Vaultwarden ist ein unabhängiger, von der Community geschriebener Server für das Protokoll des Passwortmanagers Bitwarden. Es ist kein offizielles Bitwarden-Produkt und weder mit Bitwarden, Inc. verbunden noch von dem Unternehmen unterstützt. Das Projekt implementiert die Client-API in Rust neu, sodass sich die offiziellen Browsererweiterungen sowie Desktop- und Mobil-Apps mit einem selbst betriebenen Server synchronisieren. Im Vergleich zum offiziellen Self-Hosting-Stack braucht es deutlich weniger Ressourcen – meist genügt ein einzelner Container mit SQLite, MySQL oder PostgreSQL –, weshalb es auf Heimservern und kleinen VPS sehr beliebt ist.\n\nVaultwarden deckt das meiste ab, was im Alltag gebraucht wird: persönliche Tresore, Organisationen mit Sammlungen, Gruppen und Mitgliederrollen, Dateianhänge, Send, Notfallzugriff, Ereignisprotokolle sowie Zwei-Faktor-Anmeldung per Authenticator-App, E-Mail, FIDO2 WebAuthn, YubiKey oder Duo. Ein leicht angepasster Web-Tresor und eine Admin-Seite für die Konfiguration sind enthalten. Da es einer proprietären API folgt, kann es bei neuen Bitwarden-Funktionen hinterherhinken; Fehler gehören an das Vaultwarden-Projekt statt an den Bitwarden-Support, und man trägt selbst die Sicherheitsverantwortung für einen Server, der sämtliche Zugangsdaten enthält.",
+      "keywords": [
+        "Passwortmanager",
+        "selbst gehostet",
+        "Bitwarden-kompatibel",
+        "Passwort-Tresor",
+        "Zwei-Faktor-Authentifizierung",
+        "Geheimnisse teilen"
+      ],
+      "rationale": "Der einzige selbst gehostete Passwortmanager-Server im Katalog, ein Homelab-Klassiker ohne Überschneidung mit den übrigen Auth-Projekten; eine inoffizielle kompatible Implementierung, nicht der offizielle Bitwarden-Server."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-25",
+      "repoCreatedAt": "2018-02-17",
+      "archived": false,
+      "openIssuesCount": 71,
+      "stargazersCount": 71738,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 77,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The catalog's only self-hosted password manager server, a homelab staple with no overlap among the other auth projects; an unofficial compatible implementation, not Bitwarden's own server."
+    },
+    "flag": "ok"
+  }
+}

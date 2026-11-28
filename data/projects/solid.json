@@ -1,0 +1,116 @@
+{
+  "name": "SolidJS",
+  "slug": "solid",
+  "description": "Declarative JavaScript library for building user interfaces that compiles JSX to real DOM operations and updates them with fine-grained reactivity instead of a virtual DOM, for developers who want React-like syntax with minimal runtime overhead.",
+  "repository": "https://github.com/solidjs/solid",
+  "website": "https://solidjs.com",
+  "documentation": "https://docs.solidjs.com",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "ui library",
+    "fine-grained reactivity",
+    "signals",
+    "jsx",
+    "no virtual dom",
+    "reactive"
+  ],
+  "longDescription": "SolidJS is a UI library that looks familiar to React developers, with JSX and function components, but works very differently underneath. Components run once to set up the view, and the compiler turns templates into direct DOM operations. Reactive primitives such as signals, memos and stores track their dependencies automatically, so when a value changes only the expressions that read it re-run, with no virtual DOM diffing or component re-rendering.\n\nThe core includes async-aware computations, optimistic update primitives, streaming server-side rendering with hydration, and an API for custom renderers that target non-DOM platforms, while the separate SolidStart meta-framework adds routing and full-stack features. Developers pick Solid for performance-sensitive interfaces, embeddable widgets and apps where a small runtime matters. Its ecosystem of component libraries and integrations is much smaller than React's or Vue's, and habits such as destructuring props can break reactivity, which takes some adjustment.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "solid-js"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "JSX를 실제 DOM 조작 코드로 컴파일하고 가상 DOM 대신 세밀한 반응성으로 화면을 갱신하는 선언형 JavaScript UI 라이브러리로, React와 비슷한 문법을 쓰면서 런타임 오버헤드는 최소화하고 싶은 개발자를 위한 도구입니다.",
+      "longDescription": "SolidJS는 JSX와 함수 컴포넌트를 써서 React 개발자에게 익숙해 보이지만, 내부 동작은 전혀 다른 UI 라이브러리입니다. 컴포넌트는 화면을 구성하기 위해 한 번만 실행되고, 컴파일러가 템플릿을 직접적인 DOM 조작으로 바꿉니다. 시그널, 메모, 스토어 같은 반응형 프리미티브가 의존성을 자동으로 추적하므로 값이 바뀌면 그 값을 읽는 표현식만 다시 실행되며, 가상 DOM 비교나 컴포넌트 재렌더링이 없습니다.\n\n코어에는 비동기를 인식하는 계산, 낙관적 업데이트 프리미티브, 하이드레이션을 지원하는 스트리밍 서버 사이드 렌더링, DOM이 아닌 플랫폼을 위한 커스텀 렌더러 API가 포함되어 있고, 별도의 메타 프레임워크인 SolidStart가 라우팅과 풀스택 기능을 더합니다. 성능이 중요한 인터페이스, 다른 페이지에 삽입하는 위젯, 작은 런타임이 중요한 앱에 Solid를 선택합니다. 다만 컴포넌트 라이브러리와 연동 생태계는 React나 Vue보다 훨씬 작고, props 구조 분해 같은 습관이 반응성을 깨뜨릴 수 있어 적응이 필요합니다.",
+      "keywords": [
+        "UI 라이브러리",
+        "세밀한 반응성",
+        "시그널",
+        "JSX",
+        "가상 DOM 없음",
+        "반응형"
+      ],
+      "rationale": "시그널을 대중화하는 데 기여한, 평판 좋은 세밀한 반응성 UI 라이브러리입니다. 생태계는 작지만 Vue와 Svelte 옆에 둘 만한 좋은 추가 선택지입니다."
+    },
+    "ja": {
+      "description": "JSX を実際の DOM 操作にコンパイルし、仮想 DOM の代わりにきめ細かなリアクティビティで画面を更新する宣言的な JavaScript UI ライブラリです。React に近い書き方のまま、ランタイムのオーバーヘッドを最小限に抑えたい開発者向けです。",
+      "longDescription": "SolidJS は JSX と関数コンポーネントを使うため React 開発者には見慣れた姿ですが、内部の仕組みはまったく異なる UI ライブラリです。コンポーネントはビューを組み立てるために一度だけ実行され、コンパイラがテンプレートを直接的な DOM 操作に変換します。シグナル、メモ、ストアといったリアクティブプリミティブが依存関係を自動で追跡するので、値が変わるとそれを読んでいる式だけが再実行され、仮想 DOM の差分計算やコンポーネントの再レンダリングは発生しません。\n\nコアには非同期を意識した計算、楽観的更新のプリミティブ、ハイドレーション対応のストリーミング SSR、DOM 以外のプラットフォーム向けのカスタムレンダラー API が含まれ、別プロジェクトのメタフレームワーク SolidStart がルーティングやフルスタック機能を加えます。パフォーマンスが重要な UI、他のページに埋め込むウィジェット、小さなランタイムが求められるアプリで選ばれています。ただしコンポーネントライブラリや連携のエコシステムは React や Vue よりずっと小さく、props の分割代入のような習慣がリアクティビティを壊すことがあるため、慣れが必要です。",
+      "keywords": [
+        "UI ライブラリ",
+        "きめ細かなリアクティビティ",
+        "シグナル",
+        "JSX",
+        "仮想 DOM なし",
+        "リアクティブ"
+      ],
+      "rationale": "シグナルの普及に一役買った、評価の高いきめ細かなリアクティブ UI ライブラリです。エコシステムは小さめですが、Vue や Svelte と並ぶ良い追加の選択肢です。"
+    },
+    "zh-CN": {
+      "description": "一个声明式 JavaScript UI 库，把 JSX 编译为真实的 DOM 操作，并用细粒度响应式而非虚拟 DOM 来更新界面，面向想要类似 React 的语法、同时把运行时开销降到最低的开发者。",
+      "longDescription": "SolidJS 使用 JSX 和函数组件，React 开发者看着会很熟悉，但底层机制完全不同。组件只运行一次来搭建视图，编译器把模板转换成直接的 DOM 操作。signals、memo 和 store 等响应式原语会自动追踪依赖，当某个值变化时，只有读取它的表达式会重新执行，既没有虚拟 DOM 比对，也没有组件重新渲染。\n\n核心提供了感知异步的计算、乐观更新原语、支持水合的流式服务端渲染，以及面向非 DOM 平台的自定义渲染器 API；独立的元框架 SolidStart 则补充了路由和全栈能力。开发者常在性能敏感的界面、嵌入到其他页面的小部件以及看重运行时体积的应用中选择 Solid。不过它的组件库和集成生态比 React 或 Vue 小得多，而且解构 props 之类的习惯会破坏响应式，需要一定时间适应。",
+      "keywords": [
+        "UI 库",
+        "细粒度响应式",
+        "信号",
+        "JSX",
+        "无虚拟 DOM",
+        "响应式"
+      ],
+      "rationale": "备受好评的细粒度响应式 UI 库，推动了 signals 的普及；生态较小，但作为 Vue 和 Svelte 之外的补充选项很不错。"
+    },
+    "es": {
+      "description": "Biblioteca declarativa de JavaScript para interfaces de usuario que compila JSX en operaciones reales sobre el DOM y las actualiza con reactividad de grano fino en lugar de un DOM virtual, para quienes quieren una sintaxis similar a React con una sobrecarga mínima.",
+      "longDescription": "SolidJS es una biblioteca de UI que resulta familiar a quien viene de React, con JSX y componentes de función, pero que funciona de forma muy distinta por dentro. Los componentes se ejecutan una sola vez para montar la vista y el compilador convierte las plantillas en operaciones directas sobre el DOM. Primitivas reactivas como signals, memos y stores rastrean sus dependencias automáticamente, así que cuando cambia un valor solo se vuelven a ejecutar las expresiones que lo leen, sin comparar un DOM virtual ni volver a renderizar componentes.\n\nEl núcleo incluye cálculos conscientes de la asincronía, primitivas para actualizaciones optimistas, renderizado en servidor por streaming con hidratación y una API para renderizadores personalizados fuera del DOM, mientras que el meta-framework SolidStart, independiente, añade enrutado y funciones full stack. Se elige para interfaces donde el rendimiento importa, widgets incrustados y aplicaciones en las que pesa el tamaño del runtime. Su ecosistema de bibliotecas de componentes e integraciones es mucho menor que el de React o Vue, y costumbres como desestructurar las props pueden romper la reactividad, lo que exige cierta adaptación.",
+      "keywords": [
+        "biblioteca de ui",
+        "reactividad de grano fino",
+        "signals",
+        "jsx",
+        "sin dom virtual",
+        "reactivo"
+      ],
+      "rationale": "Biblioteca de UI reactiva de grano fino muy valorada que ayudó a popularizar las signals; una buena opción adicional junto a Vue y Svelte, aunque con un ecosistema más pequeño."
+    },
+    "de": {
+      "description": "Deklarative JavaScript-Bibliothek für Benutzeroberflächen, die JSX in echte DOM-Operationen kompiliert und diese mit feingranularer Reaktivität statt eines virtuellen DOM aktualisiert, für Entwickler, die React-ähnliche Syntax mit minimalem Laufzeit-Overhead wollen.",
+      "longDescription": "SolidJS ist eine UI-Bibliothek, die React-Entwicklern mit JSX und Funktionskomponenten vertraut vorkommt, intern aber ganz anders arbeitet. Komponenten laufen nur einmal, um die Ansicht aufzubauen, und der Compiler übersetzt Templates in direkte DOM-Operationen. Reaktive Primitive wie Signals, Memos und Stores verfolgen ihre Abhängigkeiten automatisch, sodass bei einer Wertänderung nur die Ausdrücke neu ausgeführt werden, die ihn lesen, ganz ohne Virtual-DOM-Diffing oder erneutes Rendern von Komponenten.\n\nDer Kern bietet asynchronitätsbewusste Berechnungen, Primitive für optimistische Updates, Streaming-SSR mit Hydration und eine API für eigene Renderer jenseits des DOM, während das separate Meta-Framework SolidStart Routing und Full-Stack-Funktionen ergänzt. Gewählt wird Solid für performancekritische Oberflächen, eingebettete Widgets und Apps, bei denen eine kleine Laufzeit zählt. Das Ökosystem an Komponentenbibliotheken und Integrationen ist deutlich kleiner als bei React oder Vue, und Gewohnheiten wie das Destrukturieren von Props können die Reaktivität brechen, was etwas Umgewöhnung verlangt.",
+      "keywords": [
+        "UI-Bibliothek",
+        "feingranulare Reaktivität",
+        "Signals",
+        "JSX",
+        "ohne virtuelles DOM",
+        "reaktiv"
+      ],
+      "rationale": "Angesehene feingranular-reaktive UI-Bibliothek, die Signals mit populär gemacht hat; eine gute zusätzliche Option neben Vue und Svelte, wenn auch mit kleinerem Ökosystem."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2018-04-24",
+      "archived": false,
+      "openIssuesCount": 60,
+      "stargazersCount": 36988,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 87,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Well-regarded fine-grained reactive UI library that helped popularize signals; a good additional option next to Vue and Svelte, though with a smaller ecosystem."
+    },
+    "flag": "ok"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "name": "QuestDB",
+  "slug": "questdb",
+  "description": "High-performance time-series database that ingests millions of rows per second and queries them with SQL extended for time-based analysis, storing data in columnar partitions and Parquet. For teams handling market data, IoT telemetry and real-time metrics.",
+  "repository": "https://github.com/questdb/questdb",
+  "website": "https://questdb.com",
+  "documentation": "https://questdb.com/docs/",
+  "categories": [
+    "database",
+    "analytics"
+  ],
+  "keywords": [
+    "time-series database",
+    "sql",
+    "high ingestion",
+    "columnar",
+    "market data",
+    "parquet"
+  ],
+  "longDescription": "QuestDB is a columnar time-series database built for workloads where events arrive continuously and must be queryable almost immediately, such as trading and market data, sensor telemetry and application metrics. The engine is written mostly in Java designed to avoid garbage collection, with C++ and Rust on hot paths, and stores data in memory-mapped, time-partitioned columns that queries scan in parallel using SIMD instructions and JIT-compiled filters. Partitions can be converted to Apache Parquet so the data stays readable by other tools.\n\nData can be written through the InfluxDB Line Protocol, the project's own binary QWP protocol or official client libraries, and queried over the PostgreSQL wire protocol, so existing Postgres drivers and dashboards like Grafana can connect. The SQL dialect adds time-series constructs such as SAMPLE BY, LATEST ON and ASOF JOIN, along with deduplication, out-of-order ingestion and materialized views. A web console is included for ad-hoc queries. The open source edition is a single-node server; replication, automatic failover, automatic tiering to object storage and other operational features are reserved for the commercial QuestDB Enterprise.",
+  "languages": [
+    "Java"
+  ],
+  "packages": {
+    "npm": [
+      "@questdb/nodejs-client"
+    ],
+    "pypi": [
+      "questdb"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "초당 수백만 행을 수집하고 시간 기반 분석용으로 확장된 SQL로 질의하는 고성능 시계열 데이터베이스로, 데이터를 컬럼형 파티션과 Parquet으로 저장합니다. 시장 데이터, IoT 텔레메트리, 실시간 지표를 다루는 팀에 적합합니다.",
+      "longDescription": "QuestDB는 이벤트가 끊임없이 들어오고 거의 즉시 질의할 수 있어야 하는 워크로드, 예를 들어 트레이딩과 시장 데이터, 센서 텔레메트리, 애플리케이션 지표를 위해 만든 컬럼형 시계열 데이터베이스입니다. 엔진은 대부분 가비지 컬렉션을 피하도록 설계된 Java로 작성되었고, 성능이 중요한 경로에는 C++와 Rust를 씁니다. 데이터는 메모리 매핑된 시간 단위 파티션의 컬럼으로 저장되며, 질의는 SIMD 명령과 JIT 컴파일된 필터로 이를 병렬 스캔합니다. 파티션을 Apache Parquet으로 변환할 수 있어 다른 도구에서도 데이터를 읽을 수 있습니다.\n\n데이터는 InfluxDB Line Protocol, 자체 바이너리 프로토콜인 QWP, 공식 클라이언트 라이브러리로 쓸 수 있고, PostgreSQL 와이어 프로토콜로 질의할 수 있어 기존 Postgres 드라이버나 Grafana 같은 대시보드가 그대로 연결됩니다. SQL 방언에는 SAMPLE BY, LATEST ON, ASOF JOIN 같은 시계열 구문이 추가되어 있고, 중복 제거, 순서가 뒤섞인 데이터 수집, 구체화된 뷰도 지원합니다. 즉석 질의를 위한 웹 콘솔도 포함되어 있습니다. 오픈소스 버전은 단일 노드 서버이며, 복제, 자동 장애 조치, 오브젝트 스토리지로의 자동 계층화 같은 운영 기능은 상용 QuestDB Enterprise에서만 제공됩니다.",
+      "keywords": [
+        "시계열 데이터베이스",
+        "SQL",
+        "고속 수집",
+        "컬럼형",
+        "시장 데이터",
+        "Parquet"
+      ],
+      "rationale": "금융 데이터처럼 수집량이 많은 워크로드에 강한 SQL 중심 시계열 데이터베이스로, InfluxDB와는 겹치지만 질의 모델과 성능 특성이 달라 의미 있는 대안이 됩니다."
+    },
+    "ja": {
+      "description": "毎秒数百万行を取り込み、時間軸の分析向けに拡張された SQL でクエリできる高性能な時系列データベースで、データを列指向のパーティションと Parquet に保存します。市場データ、IoT テレメトリ、リアルタイム指標を扱うチーム向けです。",
+      "longDescription": "QuestDB は、イベントが絶えず到着し、ほぼ即座にクエリできる必要があるワークロード、たとえばトレーディングや市場データ、センサーのテレメトリ、アプリケーション指標のために作られた列指向の時系列データベースです。エンジンの大部分はガベージコレクションを避けるよう設計された Java で書かれ、性能が重要な経路には C++ と Rust が使われています。データはメモリマップされた時間単位のパーティションに列ごとに格納され、クエリは SIMD 命令と JIT コンパイルされたフィルターで並列にスキャンします。パーティションは Apache Parquet に変換でき、他のツールからもデータを読めます。\n\nデータの書き込みには InfluxDB Line Protocol、独自のバイナリプロトコル QWP、公式クライアントライブラリが使え、クエリは PostgreSQL ワイヤープロトコル経由で行えるため、既存の Postgres ドライバーや Grafana などのダッシュボードがそのまま接続できます。SQL 方言には SAMPLE BY、LATEST ON、ASOF JOIN といった時系列向けの構文が加わり、重複排除、順序の乱れたデータの取り込み、マテリアライズドビューにも対応します。アドホックなクエリ用の Web コンソールも付属します。オープンソース版はシングルノードのサーバーで、レプリケーション、自動フェイルオーバー、オブジェクトストレージへの自動階層化などの運用機能は商用の QuestDB Enterprise 限定です。",
+      "keywords": [
+        "時系列データベース",
+        "SQL",
+        "高速取り込み",
+        "列指向",
+        "市場データ",
+        "Parquet"
+      ],
+      "rationale": "金融データのような大量取り込みに強い SQL 中心の時系列データベースです。InfluxDB とは重なるものの、クエリモデルと性能特性が異なり、意味のある選択肢になります。"
+    },
+    "zh-CN": {
+      "description": "一款高性能时序数据库，每秒可写入数百万行数据，并用针对时间分析扩展的 SQL 进行查询，数据以列式分区和 Parquet 格式存储。适合处理行情数据、物联网遥测和实时指标的团队。",
+      "longDescription": "QuestDB 是一款列式时序数据库，专为事件持续涌入且需要几乎立即可查的场景而设计，例如交易与行情数据、传感器遥测以及应用指标。其引擎主要使用经过专门设计以避免垃圾回收的 Java 编写，在性能关键路径上使用 C++ 和 Rust。数据存储在内存映射、按时间分区的列中，查询会借助 SIMD 指令和 JIT 编译的过滤器并行扫描。分区可以转换为 Apache Parquet，方便其他工具读取数据。\n\n数据可以通过 InfluxDB Line Protocol、项目自有的二进制协议 QWP 或官方客户端库写入，并通过 PostgreSQL 线协议查询，因此现有的 Postgres 驱动和 Grafana 等仪表盘都能直接连接。其 SQL 方言增加了 SAMPLE BY、LATEST ON、ASOF JOIN 等时序语法，并支持去重、乱序写入和物化视图，还自带用于即席查询的 Web 控制台。开源版本是单节点服务器；复制、自动故障转移、自动分层到对象存储等运维功能仅在商业版 QuestDB Enterprise 中提供。",
+      "keywords": [
+        "时序数据库",
+        "SQL",
+        "高吞吐写入",
+        "列式存储",
+        "行情数据",
+        "Parquet"
+      ],
+      "rationale": "面向金融行情等高写入量场景、以 SQL 为核心的时序数据库；虽与 InfluxDB 有重叠，但查询模型和性能特点不同，是有意义的替代选择。"
+    },
+    "es": {
+      "description": "Base de datos de series temporales de alto rendimiento que ingiere millones de filas por segundo y las consulta con SQL ampliado para análisis temporal, con datos en particiones columnares y Parquet. Para equipos con datos de mercado, telemetría IoT y métricas en tiempo real.",
+      "longDescription": "QuestDB es una base de datos columnar de series temporales pensada para cargas en las que los eventos llegan sin parar y deben poder consultarse casi al instante, como datos de trading y de mercado, telemetría de sensores o métricas de aplicaciones. El motor está escrito sobre todo en Java diseñado para evitar la recolección de basura, con C++ y Rust en las rutas críticas, y guarda los datos en columnas mapeadas en memoria y particionadas por tiempo que las consultas recorren en paralelo con instrucciones SIMD y filtros compilados JIT. Las particiones pueden convertirse a Apache Parquet para que otras herramientas lean los datos.\n\nLos datos se escriben mediante el InfluxDB Line Protocol, el protocolo binario propio QWP o las bibliotecas cliente oficiales, y se consultan a través del protocolo de red de PostgreSQL, así que los drivers de Postgres existentes y paneles como Grafana se conectan sin más. Su dialecto SQL añade construcciones para series temporales como SAMPLE BY, LATEST ON y ASOF JOIN, además de deduplicación, ingesta fuera de orden y vistas materializadas, e incluye una consola web para consultas ad hoc. La edición open source es un servidor de un solo nodo; la replicación, la conmutación automática por error, el escalonado automático a almacenamiento de objetos y otras funciones operativas quedan para la versión comercial QuestDB Enterprise.",
+      "keywords": [
+        "base de datos de series temporales",
+        "SQL",
+        "ingesta masiva",
+        "columnar",
+        "datos de mercado",
+        "Parquet"
+      ],
+      "rationale": "Una base de datos de series temporales centrada en SQL y fuerte en cargas de ingesta intensiva como los datos financieros; se solapa con InfluxDB, pero su modelo de consulta y su perfil de rendimiento la convierten en una alternativa con sentido."
+    },
+    "de": {
+      "description": "Hochperformante Zeitreihendatenbank, die Millionen Zeilen pro Sekunde aufnimmt und per SQL mit Erweiterungen für zeitbasierte Analysen abfragt; Daten liegen in spaltenorientierten Partitionen und Parquet. Für Teams mit Marktdaten, IoT-Telemetrie und Echtzeit-Metriken.",
+      "longDescription": "QuestDB ist eine spaltenorientierte Zeitreihendatenbank für Workloads, bei denen Ereignisse ununterbrochen eintreffen und nahezu sofort abfragbar sein müssen, etwa Handels- und Marktdaten, Sensortelemetrie oder Anwendungsmetriken. Die Engine ist überwiegend in Java geschrieben, so ausgelegt, dass Garbage Collection vermieden wird, mit C++ und Rust auf den kritischen Pfaden. Die Daten liegen in speicherabgebildeten, zeitlich partitionierten Spalten, die Abfragen parallel mit SIMD-Befehlen und JIT-kompilierten Filtern durchsuchen. Partitionen lassen sich in Apache Parquet umwandeln, sodass auch andere Werkzeuge die Daten lesen können.\n\nGeschrieben wird über das InfluxDB Line Protocol, das eigene Binärprotokoll QWP oder offizielle Client-Bibliotheken; abgefragt wird über das PostgreSQL-Wire-Protokoll, sodass vorhandene Postgres-Treiber und Dashboards wie Grafana direkt andocken. Der SQL-Dialekt ergänzt Zeitreihen-Konstrukte wie SAMPLE BY, LATEST ON und ASOF JOIN sowie Deduplizierung, Ingestion außerhalb der Reihenfolge und materialisierte Sichten; eine Webkonsole für Ad-hoc-Abfragen ist dabei. Die Open-Source-Edition ist ein Single-Node-Server; Replikation, automatisches Failover, automatisches Tiering in Objektspeicher und weitere Betriebsfunktionen bleiben dem kommerziellen QuestDB Enterprise vorbehalten.",
+      "keywords": [
+        "Zeitreihendatenbank",
+        "SQL",
+        "hoher Datendurchsatz",
+        "spaltenorientiert",
+        "Marktdaten",
+        "Parquet"
+      ],
+      "rationale": "SQL-zentrierte Zeitreihendatenbank, stark bei schreibintensiven Workloads wie Finanzdaten; überschneidet sich mit InfluxDB, ist aber durch Abfragemodell und Leistungsprofil eine sinnvolle Alternative."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2014-04-28",
+      "archived": false,
+      "openIssuesCount": 1642,
+      "stargazersCount": 17555,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "SQL-first time-series database strong at high-ingest workloads such as financial data; overlaps with InfluxDB, but its query model and performance profile make it a meaningful alternative."
+    },
+    "flag": "ok"
+  }
+}

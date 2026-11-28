@@ -1,0 +1,116 @@
+{
+  "name": "Preact",
+  "slug": "preact",
+  "description": "Lightweight alternative to React with the same modern component and hooks API in a few kilobytes, for developers who want React-style development with a much smaller bundle, often running existing React libraries through a compatibility layer.",
+  "repository": "https://github.com/preactjs/preact",
+  "website": "https://preactjs.com",
+  "documentation": "https://preactjs.com/guide/v11/getting-started",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "ui library",
+    "virtual dom",
+    "react alternative",
+    "lightweight",
+    "hooks",
+    "components"
+  ],
+  "longDescription": "Preact is a small JavaScript library for building user interfaces with components, a virtual DOM and hooks, following the same API as React. Its core is only a few kilobytes gzipped, which makes it attractive wherever download size and startup time matter: content sites, widgets embedded in third-party pages, progressive web apps and low-powered devices. It stays close to the browser, using standard DOM events and accepting plain attributes such as class.\n\nThe preact/compat layer aliases React imports so that many React libraries run unchanged, and the team also maintains Signals for fine-grained state plus tooling for prerendering and server-side rendering. Teams adopt it to cut bundle size in a React-style codebase or to build lightweight interactive islands inside other frameworks. Compatibility is broad but not perfect: libraries that depend on React internals or the newest React-only features may need workarounds, and its own ecosystem is far smaller than React's.",
+  "languages": [
+    "JavaScript"
+  ],
+  "packages": {
+    "npm": [
+      "preact"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "React와 같은 최신 컴포넌트·훅 API를 몇 킬로바이트 크기로 제공하는 경량 React 대안으로, 번들 크기를 크게 줄이면서 React 방식으로 개발하고 싶은 개발자를 위한 라이브러리이며 호환 레이어로 기존 React 라이브러리도 쓸 수 있습니다.",
+      "longDescription": "Preact는 컴포넌트, 가상 DOM, 훅으로 사용자 인터페이스를 만드는 작은 JavaScript 라이브러리로, React와 같은 API를 따릅니다. 코어가 gzip 기준 몇 킬로바이트에 불과해 다운로드 크기와 시작 시간이 중요한 곳, 예를 들어 콘텐츠 사이트, 다른 페이지에 삽입되는 위젯, 프로그레시브 웹 앱, 저사양 기기에서 특히 매력적입니다. 표준 DOM 이벤트를 쓰고 class 같은 일반 속성을 그대로 받는 등 브라우저에 가깝게 동작합니다.\n\npreact/compat 레이어는 React import를 별칭으로 연결해 많은 React 라이브러리를 그대로 실행할 수 있게 해 주며, 팀은 세밀한 상태 관리를 위한 Signals와 사전 렌더링 및 서버 사이드 렌더링 도구도 함께 관리합니다. React 스타일 코드베이스의 번들 크기를 줄이거나 다른 프레임워크 안에 가벼운 인터랙티브 아일랜드를 만들 때 도입합니다. 호환성은 넓지만 완벽하지 않아서 React 내부 구현이나 최신 React 전용 기능에 의존하는 라이브러리는 우회책이 필요할 수 있고, 자체 생태계는 React보다 훨씬 작습니다.",
+      "keywords": [
+        "UI 라이브러리",
+        "가상 DOM",
+        "React 대안",
+        "경량",
+        "훅",
+        "컴포넌트"
+      ],
+      "rationale": "널리 쓰이는 경량 React 대안으로, 일반 React 항목이 없는 UI 카테고리에 크기를 중시하는 선택지를 더합니다."
+    },
+    "ja": {
+      "description": "React と同じモダンなコンポーネントとフックの API を数キロバイトで提供する軽量な React 代替です。バンドルを大幅に小さくしつつ React 流に開発したい開発者向けで、互換レイヤーを通じて既存の React ライブラリも利用できます。",
+      "longDescription": "Preact はコンポーネント、仮想 DOM、フックで UI を構築する小さな JavaScript ライブラリで、React と同じ API に沿っています。コアは gzip 後わずか数キロバイトなので、コンテンツサイト、他サイトに埋め込むウィジェット、プログレッシブ Web アプリ、低スペック端末など、ダウンロードサイズや起動時間が重要な場面で魅力的です。標準の DOM イベントを使い、class のような素の属性も受け付けるなど、ブラウザに近い作りになっています。\n\npreact/compat レイヤーは React の import をエイリアスし、多くの React ライブラリをそのまま動かせるようにします。チームはきめ細かな状態管理のための Signals や、プリレンダリング・サーバーサイドレンダリング用のツールも保守しています。React 風のコードベースでバンドルサイズを削りたいときや、他のフレームワークの中に軽量なインタラクティブアイランドを作るときに採用されます。互換性は広いものの完全ではなく、React の内部実装や最新の React 専用機能に依存するライブラリでは回避策が必要になることがあり、独自のエコシステムは React よりはるかに小さいです。",
+      "keywords": [
+        "UI ライブラリ",
+        "仮想 DOM",
+        "React 代替",
+        "軽量",
+        "フック",
+        "コンポーネント"
+      ],
+      "rationale": "広く使われている軽量な React 代替で、素の React の項目がない UI カテゴリにサイズ重視の選択肢を加えます。"
+    },
+    "zh-CN": {
+      "description": "React 的轻量替代品，用几 KB 提供与 React 相同的现代组件和 Hooks API，面向希望以 React 方式开发、同时大幅缩小打包体积的开发者，并可通过兼容层运行现有的 React 库。",
+      "longDescription": "Preact 是一个小巧的 JavaScript 库，用组件、虚拟 DOM 和 Hooks 构建用户界面，遵循与 React 相同的 API。它的核心经 gzip 后只有几 KB，因此在下载体积和启动时间很关键的场景中很有吸引力，例如内容网站、嵌入第三方页面的小部件、渐进式 Web 应用和低性能设备。它贴近浏览器，使用标准 DOM 事件，也接受 class 这类普通属性。\n\npreact/compat 兼容层会为 React 的导入设置别名，让许多 React 库无需修改即可运行；团队还维护用于细粒度状态管理的 Signals，以及预渲染和服务端渲染工具。团队常用它为 React 风格的代码库缩减体积，或在其他框架中构建轻量的交互式孤岛。兼容性广泛但并不完美：依赖 React 内部实现或最新 React 专有功能的库可能需要变通处理，而且它自身的生态远小于 React。",
+      "keywords": [
+        "UI 库",
+        "虚拟 DOM",
+        "React 替代",
+        "轻量级",
+        "Hooks",
+        "组件"
+      ],
+      "rationale": "广泛使用的轻量 React 替代方案；为没有 React 本体条目的 UI 分类增加了一个注重体积的选项。"
+    },
+    "es": {
+      "description": "Alternativa ligera a React con la misma API moderna de componentes y hooks en unos pocos kilobytes, para desarrolladores que quieren trabajar al estilo React con un bundle mucho menor, a menudo ejecutando bibliotecas de React existentes mediante una capa de compatibilidad.",
+      "longDescription": "Preact es una pequeña biblioteca de JavaScript para construir interfaces con componentes, un DOM virtual y hooks, siguiendo la misma API que React. Su núcleo ocupa solo unos pocos kilobytes comprimido con gzip, lo que lo hace atractivo allí donde importan el tamaño de descarga y el tiempo de arranque: sitios de contenido, widgets incrustados en páginas de terceros, aplicaciones web progresivas y dispositivos modestos. Se mantiene cerca del navegador, usa eventos DOM estándar y acepta atributos normales como class.\n\nLa capa preact/compat crea alias para las importaciones de React, de modo que muchas bibliotecas de React funcionan sin cambios, y el equipo mantiene además Signals para estado de grano fino y herramientas de prerenderizado y renderizado en servidor. Se adopta para reducir el bundle de una base de código al estilo React o para crear islas interactivas ligeras dentro de otros frameworks. La compatibilidad es amplia pero no total: las bibliotecas que dependen de detalles internos de React o de sus funciones más recientes pueden requerir soluciones alternativas, y su propio ecosistema es mucho más pequeño que el de React.",
+      "keywords": [
+        "biblioteca de ui",
+        "dom virtual",
+        "alternativa a react",
+        "ligero",
+        "hooks",
+        "componentes"
+      ],
+      "rationale": "Una alternativa ligera a React muy utilizada; añade una opción centrada en el tamaño a la categoría de UI, que no tiene una entrada de React propiamente dicho."
+    },
+    "de": {
+      "description": "Leichtgewichtige React-Alternative mit derselben modernen Komponenten- und Hooks-API in wenigen Kilobyte, für Entwickler, die im React-Stil mit deutlich kleinerem Bundle arbeiten wollen, oft mit bestehenden React-Bibliotheken über eine Kompatibilitätsschicht.",
+      "longDescription": "Preact ist eine kleine JavaScript-Bibliothek für Benutzeroberflächen mit Komponenten, virtuellem DOM und Hooks, die derselben API wie React folgt. Der Kern ist gzip-komprimiert nur wenige Kilobyte groß und damit überall attraktiv, wo Downloadgröße und Startzeit zählen: bei Content-Websites, in fremde Seiten eingebetteten Widgets, Progressive Web Apps und schwächeren Geräten. Es bleibt nah am Browser, nutzt standardmäßige DOM-Events und akzeptiert gewöhnliche Attribute wie class.\n\nDie Schicht preact/compat leitet React-Importe um, sodass viele React-Bibliotheken unverändert laufen, und das Team pflegt außerdem Signals für feingranularen Zustand sowie Werkzeuge für Prerendering und serverseitiges Rendering. Eingesetzt wird es, um das Bundle einer React-artigen Codebasis zu verkleinern oder leichte interaktive Inseln in anderen Frameworks zu bauen. Die Kompatibilität ist breit, aber nicht vollständig: Bibliotheken, die auf React-Interna oder die neuesten React-spezifischen Funktionen setzen, brauchen eventuell Workarounds, und das eigene Ökosystem ist weit kleiner als das von React.",
+      "keywords": [
+        "UI-Bibliothek",
+        "virtuelles DOM",
+        "React-Alternative",
+        "leichtgewichtig",
+        "Hooks",
+        "Komponenten"
+      ],
+      "rationale": "Eine weit verbreitete, leichtgewichtige React-Alternative; ergänzt die UI-Kategorie, die keinen reinen React-Eintrag hat, um eine auf Größe optimierte Option."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2015-09-11",
+      "archived": false,
+      "openIssuesCount": 44,
+      "stargazersCount": 39023,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 87,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "A widely used lightweight React alternative; adds a size-focused option to the UI category, which has no plain React entry."
+    },
+    "flag": "ok"
+  }
+}

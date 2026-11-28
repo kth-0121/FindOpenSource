@@ -1,0 +1,112 @@
+{
+  "name": "Wiki.js",
+  "slug": "wikijs",
+  "description": "Self-hosted wiki built on Node.js and PostgreSQL, with Markdown, AsciiDoc and visual editors, group-based permissions, many sign-in providers and Git content sync. For teams and organizations that want an internal knowledge base or public docs on their own servers.",
+  "repository": "https://github.com/requarks/wiki",
+  "website": "https://js.wiki",
+  "documentation": "https://docs.js.wiki",
+  "categories": [
+    "cms"
+  ],
+  "keywords": [
+    "wiki",
+    "knowledge base",
+    "documentation",
+    "markdown",
+    "self-hosted",
+    "ldap"
+  ],
+  "longDescription": "Wiki.js is an open source wiki application for writing, organizing and sharing documentation. Pages can be written in Markdown, AsciiDoc or a visual rich-text editor, and diagrams can be drawn with an embedded Excalidraw editor. The interface is a modern web app with page navigation, version history, search and theming, and the server runs on Node.js with a PostgreSQL database, installed directly or from the official Docker image.\n\nIt is aimed at organizations that need control over who can read and edit what: users are organized into groups with page-level rules, and sign-in can use local accounts or external providers such as LDAP, SAML, OpenID Connect, OAuth2, Microsoft Entra, GitHub or Google. Storage modules can sync content to a Git repository or keep files on S3, Azure, Google Cloud Storage, SFTP or local disk, which helps with backups and editing outside the browser, and there are integrations for analytics and comments. Version 3 is a substantial rewrite of the long-running 2.x line and supports only PostgreSQL. Development is led largely by one maintainer and funded through sponsors.",
+  "languages": [
+    "TypeScript",
+    "Vue"
+  ],
+  "license": "AGPL-3.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Node.js와 PostgreSQL 기반의 셀프 호스팅 위키로, Markdown·AsciiDoc·시각적 편집기, 그룹 단위 권한, 다양한 로그인 공급자, Git 콘텐츠 동기화를 제공합니다. 사내 지식 베이스나 공개 문서를 직접 운영하는 서버에 두려는 팀과 조직에 적합합니다.",
+      "longDescription": "Wiki.js는 문서를 작성하고 정리하고 공유하기 위한 오픈소스 위키 애플리케이션입니다. 페이지는 Markdown, AsciiDoc, 시각적 리치 텍스트 편집기로 작성할 수 있고, 내장된 Excalidraw 편집기로 다이어그램도 그릴 수 있습니다. 인터페이스는 페이지 내비게이션, 버전 기록, 검색, 테마 기능을 갖춘 최신 웹 앱이며, 서버는 Node.js와 PostgreSQL 데이터베이스로 동작하고 직접 설치하거나 공식 Docker 이미지로 실행할 수 있습니다.\n\n누가 무엇을 읽고 편집할 수 있는지 통제해야 하는 조직을 겨냥한 도구로, 사용자를 그룹으로 묶어 페이지 단위 규칙을 적용하고, 로컬 계정이나 LDAP, SAML, OpenID Connect, OAuth2, Microsoft Entra, GitHub, Google 같은 외부 공급자로 로그인할 수 있습니다. 스토리지 모듈을 사용하면 콘텐츠를 Git 저장소와 동기화하거나 파일을 S3, Azure, Google Cloud Storage, SFTP, 로컬 디스크에 둘 수 있어 백업이나 브라우저 밖 편집에 유용하며, 분석·댓글 연동도 제공합니다. 버전 3은 오랫동안 쓰여 온 2.x를 크게 다시 작성한 것으로 PostgreSQL만 지원합니다. 개발은 주로 한 명의 메인테이너가 이끌고 있으며 후원으로 운영됩니다.",
+      "keywords": [
+        "위키",
+        "지식 베이스",
+        "문서화",
+        "마크다운",
+        "셀프 호스팅",
+        "LDAP"
+      ],
+      "rationale": "대표적인 셀프 호스팅 위키입니다. 카탈로그에 위키나 사내 지식 베이스 도구가 없어, 콘텐츠 중심 CMS 항목 옆에서 분명한 공백을 채웁니다."
+    },
+    "ja": {
+      "description": "Node.js と PostgreSQL で動くセルフホスト型の Wiki で、Markdown・AsciiDoc・ビジュアルエディター、グループ単位の権限、多数のログインプロバイダー、Git とのコンテンツ同期を備えています。社内ナレッジベースや公開ドキュメントを自前のサーバーに置きたいチームや組織に向いています。",
+      "longDescription": "Wiki.js は、ドキュメントを書き、整理し、共有するためのオープンソースの Wiki アプリケーションです。ページは Markdown、AsciiDoc、またはビジュアルなリッチテキストエディターで書け、組み込みの Excalidraw エディターで図も描けます。インターフェースはページナビゲーション、版履歴、検索、テーマ機能を備えたモダンな Web アプリで、サーバーは Node.js と PostgreSQL データベースで動作し、直接インストールするか公式の Docker イメージで運用できます。\n\n誰が何を閲覧・編集できるかを管理したい組織向けのツールで、ユーザーをグループにまとめてページ単位のルールを設定でき、ログインにはローカルアカウントのほか LDAP、SAML、OpenID Connect、OAuth2、Microsoft Entra、GitHub、Google などの外部プロバイダーを使えます。ストレージモジュールにより、コンテンツを Git リポジトリと同期したり、ファイルを S3、Azure、Google Cloud Storage、SFTP、ローカルディスクに保存したりでき、バックアップやブラウザー外での編集に役立ちます。アクセス解析やコメントとの連携も用意されています。バージョン 3 は長く使われてきた 2.x 系を大きく書き直したもので、PostgreSQL のみに対応します。開発は主に 1 人のメンテナーが主導し、スポンサーの支援で運営されています。",
+      "keywords": [
+        "Wiki",
+        "ナレッジベース",
+        "ドキュメント",
+        "Markdown",
+        "セルフホスト",
+        "LDAP"
+      ],
+      "rationale": "代表的なセルフホスト型 Wiki です。カタログには Wiki や社内ナレッジベースのツールがなく、コンテンツ系 CMS の並びで明確な空白を埋めます。"
+    },
+    "zh-CN": {
+      "description": "基于 Node.js 和 PostgreSQL 的自托管 Wiki，提供 Markdown、AsciiDoc 和可视化编辑器、基于用户组的权限、多种登录方式以及 Git 内容同步。适合希望把内部知识库或公开文档部署在自有服务器上的团队和组织。",
+      "longDescription": "Wiki.js 是一款开源 Wiki 应用，用于撰写、组织和分享文档。页面可以用 Markdown、AsciiDoc 或可视化富文本编辑器编写，还能通过内置的 Excalidraw 编辑器绘制图表。界面是一个现代化的 Web 应用，具备页面导航、版本历史、搜索和主题功能；服务端运行在 Node.js 上并使用 PostgreSQL 数据库，可以直接安装，也可以通过官方 Docker 镜像运行。\n\n它面向需要控制谁能阅读和编辑哪些内容的组织：用户按组管理并可设置页面级规则，登录既可以使用本地账号，也可以接入 LDAP、SAML、OpenID Connect、OAuth2、Microsoft Entra、GitHub 或 Google 等外部身份提供方。存储模块可以把内容同步到 Git 仓库，或把文件保存在 S3、Azure、Google Cloud Storage、SFTP 或本地磁盘上，便于备份和在浏览器之外编辑；此外还提供统计分析和评论集成。第 3 版是对长期使用的 2.x 系列的大幅重写，只支持 PostgreSQL。项目主要由一位维护者主导开发，依靠赞助维持运作。",
+      "keywords": [
+        "Wiki",
+        "知识库",
+        "文档",
+        "Markdown",
+        "自托管",
+        "LDAP"
+      ],
+      "rationale": "领先的自托管 Wiki；目录中尚无 Wiki 或内部知识库工具，它在内容类 CMS 条目旁填补了明显空白。"
+    },
+    "es": {
+      "description": "Wiki autoalojada sobre Node.js y PostgreSQL, con editores Markdown, AsciiDoc y visual, permisos por grupos, muchos proveedores de inicio de sesión y sincronización con Git. Para equipos que quieren una base de conocimiento interna o documentación pública en servidores propios.",
+      "longDescription": "Wiki.js es una aplicación wiki open source para escribir, organizar y compartir documentación. Las páginas se pueden redactar en Markdown, AsciiDoc o con un editor visual de texto enriquecido, y los diagramas se dibujan con un editor Excalidraw integrado. La interfaz es una aplicación web moderna con navegación entre páginas, historial de versiones, búsqueda y temas, y el servidor funciona con Node.js y una base de datos PostgreSQL, instalado directamente o desde la imagen oficial de Docker.\n\nEstá pensada para organizaciones que necesitan controlar quién puede leer y editar cada cosa: los usuarios se organizan en grupos con reglas por página, y el inicio de sesión puede usar cuentas locales o proveedores externos como LDAP, SAML, OpenID Connect, OAuth2, Microsoft Entra, GitHub o Google. Los módulos de almacenamiento permiten sincronizar el contenido con un repositorio Git o guardar archivos en S3, Azure, Google Cloud Storage, SFTP o disco local, lo que facilita las copias de seguridad y la edición fuera del navegador, y hay integraciones de analítica y comentarios. La versión 3 es una reescritura profunda de la veterana rama 2.x y solo admite PostgreSQL. El desarrollo lo lidera en gran medida un único mantenedor y se financia con patrocinios.",
+      "keywords": [
+        "wiki",
+        "base de conocimiento",
+        "documentación",
+        "markdown",
+        "autoalojado",
+        "ldap"
+      ],
+      "rationale": "Una de las wikis autoalojadas de referencia; el catálogo no tenía ninguna wiki ni herramienta de base de conocimiento interna, así que cubre un hueco claro junto a los CMS orientados a contenido."
+    },
+    "de": {
+      "description": "Selbst gehostetes Wiki auf Basis von Node.js und PostgreSQL mit Markdown-, AsciiDoc- und visuellem Editor, gruppenbasierten Rechten, vielen Login-Anbietern und Git-Sync. Für Teams und Organisationen, die eine interne Wissensdatenbank oder öffentliche Doku selbst betreiben.",
+      "longDescription": "Wiki.js ist eine Open-Source-Wiki-Anwendung zum Schreiben, Ordnen und Teilen von Dokumentation. Seiten lassen sich in Markdown, AsciiDoc oder einem visuellen Rich-Text-Editor verfassen, Diagramme entstehen in einem eingebetteten Excalidraw-Editor. Die Oberfläche ist eine moderne Web-App mit Seitennavigation, Versionshistorie, Suche und Themes; der Server läuft auf Node.js mit einer PostgreSQL-Datenbank und wird direkt installiert oder über das offizielle Docker-Image betrieben.\n\nZielgruppe sind Organisationen, die steuern müssen, wer was lesen und bearbeiten darf: Benutzer werden in Gruppen mit Regeln auf Seitenebene organisiert, und die Anmeldung funktioniert über lokale Konten oder externe Anbieter wie LDAP, SAML, OpenID Connect, OAuth2, Microsoft Entra, GitHub oder Google. Speichermodule synchronisieren Inhalte mit einem Git-Repository oder legen Dateien auf S3, Azure, Google Cloud Storage, SFTP oder der lokalen Festplatte ab, was Backups und das Bearbeiten außerhalb des Browsers erleichtert; dazu kommen Integrationen für Analytics und Kommentare. Version 3 ist eine weitgehende Neuentwicklung der langjährigen 2.x-Reihe und unterstützt nur noch PostgreSQL. Die Entwicklung wird größtenteils von einem einzelnen Maintainer getragen und über Sponsoren finanziert.",
+      "keywords": [
+        "Wiki",
+        "Wissensdatenbank",
+        "Dokumentation",
+        "Markdown",
+        "selbst gehostet",
+        "LDAP"
+      ],
+      "rationale": "Eines der führenden selbst gehosteten Wikis; im Katalog gab es bisher kein Wiki und kein Werkzeug für interne Wissensdatenbanken, es schließt also neben den inhaltsorientierten CMS eine klare Lücke."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-23",
+      "repoCreatedAt": "2016-08-16",
+      "archived": false,
+      "openIssuesCount": 15,
+      "stargazersCount": 29405,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 81,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the leading self-hosted wikis; the catalog had no wiki or internal knowledge base tool, so it fills a clear gap next to the content-focused CMS entries."
+    },
+    "flag": "ok"
+  }
+}

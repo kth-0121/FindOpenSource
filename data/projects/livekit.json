@@ -1,0 +1,121 @@
+{
+  "name": "LiveKit",
+  "slug": "livekit",
+  "description": "Open source WebRTC SFU server and SDKs for adding real-time voice, video and data to apps, used to build video calls, live audio rooms, streaming and voice AI agents, for developers who want to self-host their realtime media infrastructure.",
+  "repository": "https://github.com/livekit/livekit",
+  "website": "https://livekit.com",
+  "documentation": "https://docs.livekit.io/",
+  "categories": [
+    "media",
+    "chat"
+  ],
+  "keywords": [
+    "webrtc",
+    "sfu",
+    "video conferencing",
+    "real-time audio",
+    "voice ai",
+    "live streaming"
+  ],
+  "longDescription": "LiveKit is an open source platform for building real-time audio, video and data features into applications. This repository is the LiveKit server, a scalable, distributed WebRTC selective forwarding unit (SFU) written in Go on top of Pion WebRTC. Participants, whether people, devices or AI agents, join rooms and publish or subscribe to tracks, while the server routes media between them. Client SDKs for web, mobile, desktop and servers live in companion repositories.\n\nThe server supports simulcast and SVC codecs such as VP9 and AV1, selective subscription, speaker detection, end-to-end encryption, data tracks, webhooks, JWT-based access tokens and SIP telephony, and it can be deployed as a single binary, with Docker or on Kubernetes, including multi-region setups. Typical uses are video conferencing, live audio rooms, interactive streaming, robotics teleoperation and voice AI agents built with the separate LiveKit Agents framework. The company behind it also sells a managed LiveKit Cloud, which parts of the docs lean toward. Self-hosting needs careful network setup, such as open UDP ports and TURN.",
+  "languages": [
+    "Go"
+  ],
+  "packages": {
+    "npm": [
+      "livekit-client",
+      "livekit-server-sdk"
+    ],
+    "pypi": [
+      "livekit-api"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "앱에 실시간 음성·영상·데이터 기능을 넣기 위한 오픈소스 WebRTC SFU 서버와 SDK로, 화상 통화, 라이브 오디오 룸, 스트리밍, 음성 AI 에이전트를 만드는 데 쓰입니다. 실시간 미디어 인프라를 직접 호스팅하려는 개발자에게 적합합니다.",
+      "longDescription": "LiveKit은 애플리케이션에 실시간 오디오·비디오·데이터 기능을 구축하기 위한 오픈소스 플랫폼입니다. 이 저장소는 LiveKit 서버로, Pion WebRTC를 기반으로 Go로 작성된 확장 가능한 분산형 WebRTC SFU(selective forwarding unit)입니다. 사람이든 기기든 AI 에이전트든 참가자는 룸에 들어가 트랙을 게시하거나 구독하고, 서버는 그 사이에서 미디어를 전달합니다. 웹, 모바일, 데스크톱, 서버 환경용 클라이언트 SDK는 별도 저장소에 있어, 개발자는 통화 앱을 처음부터 만들지 않고 SDK를 통합하면 됩니다.\n\n서버는 simulcast와 VP9·AV1 같은 SVC 코덱, 선택적 구독, 발화자 감지, 종단 간 암호화, 데이터 트랙, 웹훅, JWT 기반 액세스 토큰, SIP 전화 연동을 지원하며, 단일 바이너리, Docker, Kubernetes로 배포할 수 있고 멀티 리전 구성도 가능합니다. 대표적인 용도는 화상 회의, 라이브 오디오 룸, 인터랙티브 스트리밍, 로봇 원격 조작, 그리고 별도의 LiveKit Agents 프레임워크로 만드는 음성 AI 에이전트입니다. 개발사는 관리형 서비스인 LiveKit Cloud도 판매하며, 일부 권장 기능과 문서는 이 서비스 쪽에 무게를 둡니다. 셀프 호스팅에는 UDP 포트 개방과 TURN 같은 꼼꼼한 네트워크 설정이 필요합니다.",
+      "keywords": [
+        "webrtc",
+        "sfu",
+        "화상 회의",
+        "실시간 오디오",
+        "음성 ai",
+        "라이브 스트리밍"
+      ],
+      "rationale": "카탈로그의 Jitsi Meet은 완성된 회의 앱이지만, LiveKit은 개발자가 자기 제품에 실시간 음성·영상과 음성 AI를 넣을 때 쓰는 인프라 계층으로, 서로 겹치기보다 보완합니다."
+    },
+    "ja": {
+      "description": "アプリにリアルタイムの音声・映像・データ機能を加えるためのオープンソースの WebRTC SFU サーバーと SDK です。ビデオ通話、ライブ音声ルーム、配信、音声 AI エージェントの構築に使われ、リアルタイムメディア基盤をセルフホストしたい開発者に向いています。",
+      "longDescription": "LiveKit は、アプリケーションにリアルタイムの音声・映像・データ機能を組み込むためのオープンソースプラットフォームです。このリポジトリは LiveKit サーバーで、Pion WebRTC を土台に Go で書かれた、スケーラブルな分散型 WebRTC SFU（selective forwarding unit）です。人、デバイス、AI エージェントといった参加者がルームに入ってトラックを配信・購読し、サーバーがその間でメディアを中継します。Web、モバイル、デスクトップ、サーバー向けのクライアント SDK は別のリポジトリにあり、開発者は通話アプリを一から作る代わりに SDK を組み込むことになります。\n\nサーバーは simulcast と VP9・AV1 などの SVC コーデック、選択的な購読、話者検出、エンドツーエンド暗号化、データトラック、Webhook、JWT ベースのアクセストークン、SIP による電話連携に対応し、単一バイナリ、Docker、Kubernetes でデプロイでき、マルチリージョン構成も組めます。主な用途はビデオ会議、ライブ音声ルーム、インタラクティブな配信、ロボットの遠隔操作、そして別の LiveKit Agents フレームワークで作る音声 AI エージェントです。開発元はマネージドサービスの LiveKit Cloud も提供しており、推奨機能やドキュメントの一部はそちらを前提にしています。セルフホストでは UDP ポートの開放や TURN など、ネットワーク設定を慎重に行う必要があります。",
+      "keywords": [
+        "webrtc",
+        "sfu",
+        "ビデオ会議",
+        "リアルタイム音声",
+        "音声 AI",
+        "ライブ配信"
+      ],
+      "rationale": "カタログの Jitsi Meet が完成した会議アプリであるのに対し、LiveKit は開発者が自社製品にリアルタイムの音声・映像や音声 AI を組み込むためのインフラ層であり、重複ではなく補完の関係にあります。"
+    },
+    "zh-CN": {
+      "description": "开源的 WebRTC SFU 服务器及配套 SDK，用于为应用加入实时语音、视频和数据功能，可构建视频通话、实时语音房间、直播和语音 AI 智能体，适合希望自托管实时媒体基础设施的开发者。",
+      "longDescription": "LiveKit 是一个开源平台，用于在应用中构建实时音频、视频和数据功能。本仓库是 LiveKit 服务器：一个基于 Pion WebRTC、用 Go 编写的可扩展分布式 WebRTC SFU（选择性转发单元）。参与者无论是人、设备还是 AI 智能体，都可以加入房间并发布或订阅音视频轨道，由服务器在他们之间转发媒体。面向 Web、移动端、桌面端和服务端的客户端 SDK 位于配套仓库中，开发者只需集成 SDK，而不必从零开发通话应用。\n\n服务器支持 simulcast 以及 VP9、AV1 等 SVC 编码、选择性订阅、说话人检测、端到端加密、数据轨道、Webhook、基于 JWT 的访问令牌和 SIP 电话接入，可以以单一可执行文件、Docker 或 Kubernetes 方式部署，也支持多区域架构。典型用途包括视频会议、实时语音房间、互动直播、机器人远程操控，以及借助独立的 LiveKit Agents 框架构建的语音 AI 智能体。背后的公司还销售托管服务 LiveKit Cloud，部分推荐功能和文档更偏向这项服务。自托管时需要仔细配置网络，例如开放 UDP 端口并设置 TURN。",
+      "keywords": [
+        "webrtc",
+        "sfu",
+        "视频会议",
+        "实时音频",
+        "语音 AI",
+        "直播"
+      ],
+      "rationale": "目录中的 Jitsi Meet 是现成的会议应用，而 LiveKit 是开发者为自家产品加入实时音视频和语音 AI 的基础设施层，两者是互补而非重复。"
+    },
+    "es": {
+      "description": "Servidor SFU de WebRTC y SDK de código abierto para añadir voz, vídeo y datos en tiempo real a las aplicaciones, para crear videollamadas, salas de audio en directo, streaming y agentes de voz con IA, pensado para desarrolladores que autoalojan su infraestructura de medios.",
+      "longDescription": "LiveKit es una plataforma de código abierto para incorporar audio, vídeo y datos en tiempo real a las aplicaciones. Este repositorio contiene el servidor de LiveKit, una SFU (selective forwarding unit) de WebRTC escalable y distribuida, escrita en Go sobre Pion WebRTC. Los participantes, ya sean personas, dispositivos o agentes de IA, entran en salas y publican o se suscriben a pistas, mientras el servidor enruta los medios entre ellos. Los SDK de cliente para web, móvil, escritorio y servidor están en repositorios complementarios, de modo que los desarrolladores integran un SDK en lugar de construir una app de llamadas desde cero.\n\nEl servidor admite simulcast y códecs SVC como VP9 y AV1, suscripción selectiva, detección de quién habla, cifrado de extremo a extremo, pistas de datos, webhooks, tokens de acceso basados en JWT y telefonía SIP, y puede desplegarse como un único binario, con Docker o en Kubernetes, incluso en configuraciones multirregión. Se usa sobre todo para videoconferencias, salas de audio en directo, streaming interactivo, teleoperación de robots y agentes de voz con IA creados con el framework independiente LiveKit Agents. La empresa que lo impulsa vende además el servicio gestionado LiveKit Cloud, y parte de las funciones recomendadas y de la documentación se orienta hacia él. Autoalojarlo exige configurar bien la red, por ejemplo abrir puertos UDP y disponer de TURN.",
+      "keywords": [
+        "webrtc",
+        "sfu",
+        "videoconferencia",
+        "audio en tiempo real",
+        "ia de voz",
+        "streaming en directo"
+      ],
+      "rationale": "Jitsi Meet, ya en el catálogo, es una app de reuniones terminada; LiveKit es la capa de infraestructura con la que los desarrolladores integran voz, vídeo en tiempo real e IA de voz en sus propios productos, así que se complementan más que solaparse."
+    },
+    "de": {
+      "description": "Open-Source-WebRTC-SFU-Server samt SDKs, um Apps um Echtzeit-Sprache, -Video und -Daten zu erweitern – genutzt für Videoanrufe, Live-Audio-Räume, Streaming und Voice-AI-Agenten, für Entwickler, die ihre Echtzeit-Medieninfrastruktur selbst hosten wollen.",
+      "longDescription": "LiveKit ist eine Open-Source-Plattform, um Echtzeit-Audio, -Video und -Daten in Anwendungen einzubauen. Dieses Repository enthält den LiveKit-Server, eine skalierbare, verteilte WebRTC-SFU (Selective Forwarding Unit), geschrieben in Go auf Basis von Pion WebRTC. Teilnehmer – Menschen, Geräte oder KI-Agenten – betreten Räume und veröffentlichen oder abonnieren Tracks, während der Server die Medien zwischen ihnen weiterleitet. Client-SDKs für Web, Mobilgeräte, Desktop und Server liegen in begleitenden Repositories, sodass Entwickler ein SDK integrieren, statt eine Anruf-App von Grund auf zu bauen.\n\nDer Server unterstützt Simulcast und SVC-Codecs wie VP9 und AV1, selektives Abonnieren, Sprechererkennung, Ende-zu-Ende-Verschlüsselung, Daten-Tracks, Webhooks, JWT-basierte Zugriffstoken und SIP-Telefonie und lässt sich als einzelne Binärdatei, mit Docker oder auf Kubernetes betreiben, auch über mehrere Regionen. Typische Einsätze sind Videokonferenzen, Live-Audio-Räume, interaktives Streaming, Fernsteuerung von Robotern und Voice-AI-Agenten, die mit dem separaten Framework LiveKit Agents gebaut werden. Das Unternehmen dahinter verkauft außerdem das gemanagte LiveKit Cloud, und manche empfohlenen Funktionen und Dokumentationsteile sind darauf ausgerichtet. Selbst-Hosting erfordert eine sorgfältige Netzwerkkonfiguration, etwa offene UDP-Ports und TURN.",
+      "keywords": [
+        "webrtc",
+        "sfu",
+        "Videokonferenz",
+        "Echtzeit-Audio",
+        "Voice AI",
+        "Live-Streaming"
+      ],
+      "rationale": "Jitsi Meet im Katalog ist eine fertige Meeting-App; LiveKit ist die Infrastrukturschicht, mit der Entwickler Echtzeit-Sprache, -Video und Voice AI in eigene Produkte einbauen – eher Ergänzung als Überschneidung."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2020-09-30",
+      "archived": false,
+      "openIssuesCount": 228,
+      "stargazersCount": 22432,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Jitsi Meet in the catalog is a finished meeting app; LiveKit is the infrastructure layer developers use to build realtime voice, video and voice AI into their own products, so it complements rather than overlaps."
+    },
+    "flag": "ok"
+  }
+}

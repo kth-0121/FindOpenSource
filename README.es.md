@@ -18,8 +18,8 @@ Busca "autenticación", "chat", "CMS", "base de datos vectorial" o "web scraping
 lista curada de proyectos open source que resuelven ese problema — con la información necesaria
 (licencia, lenguaje, enlaces) para evaluarlos rápidamente.
 
-El catálogo incluye **280+ proyectos curados** en 21 categorías, además de **300+ skills para
-agentes** de 10 skill packs que puedes combinar en un único comando de instalación.
+El catálogo incluye **340+ proyectos curados** en 21 categorías, además de **450+ skills para
+agentes** de 18 skill packs que puedes combinar en un único comando de instalación.
 
 FindOpenSource es un directorio totalmente estático, mantenido por la comunidad. No hay login,
 ni base de datos, ni servicio backend. Cada proyecto es un simple archivo JSON, revisado y
@@ -52,7 +52,7 @@ fusionado a través de pull requests en GitHub.
 - **Valoraciones de Catalog Value** — cada proyecto tiene una valoración de 0 a 5 con una
   justificación escrita de por qué vale la pena incluirlo, además de etiquetas de madurez y
   gobernanza. Consulta [`docs/project-evaluation.md`](docs/project-evaluation.md).
-- **Constructor de skills para agentes** — elige skills de 10 packs (Anthropic, Vercel,
+- **Constructor de skills para agentes** — elige skills de 18 packs (Anthropic, Vercel,
   Superpowers, ...), elige tu agente (Claude Code, Codex, Cursor, ...) y copia un único comando
   de instalación o un prompt. Las selecciones son enlaces compartibles
   (`/es/skills?skills=superpowers/brainstorming`).

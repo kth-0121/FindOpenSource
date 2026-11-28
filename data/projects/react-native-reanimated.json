@@ -1,0 +1,119 @@
+{
+  "name": "React Native Reanimated",
+  "slug": "react-native-reanimated",
+  "description": "Animation library for React Native that runs animations and gesture-driven interactions on the UI thread, with shared values, worklets, layout animations and a CSS-style animation API. For mobile developers who need smooth, responsive motion in their apps.",
+  "repository": "https://github.com/software-mansion/react-native-reanimated",
+  "website": "https://docs.swmansion.com/react-native-reanimated/",
+  "documentation": "https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started/",
+  "categories": [
+    "mobile",
+    "ui"
+  ],
+  "keywords": [
+    "react native",
+    "animation",
+    "gestures",
+    "ui thread",
+    "worklets",
+    "layout animations"
+  ],
+  "longDescription": "React Native Reanimated, developed by Software Mansion, is an alternative to React Native's built-in Animated API in which animation logic runs on the UI thread instead of the JavaScript thread. State that drives motion lives in shared values, and small functions called worklets update styles and props on the native side, so animations stay smooth even while the JavaScript thread is busy rendering or processing data. Many popular navigation, bottom sheet and carousel libraries depend on it.\n\nVersion 4 adds CSS animations and transitions, letting you declare keyframes and transition properties directly in style objects, alongside the established hooks such as useSharedValue, useAnimatedStyle, withTiming and withSpring. Layout animations handle items entering, exiting and changing position, and it pairs with React Native Gesture Handler for interactive, gesture-driven UI and scroll-linked effects. The multi-threading runtime now lives in the separate react-native-worklets package. Reanimated 4 supports only the New Architecture and the three latest React Native versions, so apps on the old architecture have to stay on 3.x until they migrate.",
+  "languages": [
+    "TypeScript",
+    "C++"
+  ],
+  "packages": {
+    "npm": [
+      "react-native-reanimated",
+      "react-native-worklets"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "애니메이션과 제스처 기반 상호작용을 UI 스레드에서 실행하는 React Native 애니메이션 라이브러리로, 공유 값, 워크릿, 레이아웃 애니메이션, CSS 스타일 애니메이션 API를 제공합니다. 앱에서 부드럽고 반응성 좋은 움직임이 필요한 모바일 개발자에게 적합합니다.",
+      "longDescription": "Software Mansion이 개발하는 React Native Reanimated는 React Native 내장 Animated API의 대안으로, 애니메이션 로직을 JavaScript 스레드가 아닌 UI 스레드에서 실행합니다. 움직임을 좌우하는 상태는 공유 값(shared value)에 담기고, 워크릿(worklet)이라는 작은 함수가 네이티브 쪽에서 스타일과 속성을 갱신하므로, JavaScript 스레드가 렌더링이나 데이터 처리로 바쁠 때도 애니메이션이 매끄럽게 유지됩니다. 인기 있는 내비게이션, 바텀 시트, 캐러셀 라이브러리 상당수가 이 라이브러리에 의존합니다.\n\n버전 4에서는 CSS 애니메이션과 트랜지션이 추가되어 스타일 객체 안에서 키프레임과 트랜지션 속성을 바로 선언할 수 있으며, useSharedValue, useAnimatedStyle, withTiming, withSpring 같은 기존 훅도 그대로 쓸 수 있습니다. 레이아웃 애니메이션은 항목의 등장, 퇴장, 위치 변경을 처리하고, React Native Gesture Handler와 함께 쓰면 제스처 기반 인터랙티브 UI와 스크롤 연동 효과를 만들 수 있습니다. 멀티스레딩 런타임은 이제 별도의 react-native-worklets 패키지로 분리되었습니다. Reanimated 4는 New Architecture와 최신 React Native 세 버전만 지원하므로, 구 아키텍처를 쓰는 앱은 마이그레이션할 때까지 3.x를 유지해야 합니다.",
+      "keywords": [
+        "React Native",
+        "애니메이션",
+        "제스처",
+        "UI 스레드",
+        "워크릿",
+        "레이아웃 애니메이션"
+      ],
+      "rationale": "React Native의 표준 애니메이션 라이브러리로, 생태계의 많은 라이브러리가 내부적으로 사용합니다. 모바일 카테고리에서 React Native와 Expo 옆에 비어 있던 모션·애니메이션 계층을 채웁니다."
+    },
+    "ja": {
+      "description": "アニメーションやジェスチャー駆動のインタラクションを UI スレッドで実行する React Native 向けアニメーションライブラリで、共有値、ワークレット、レイアウトアニメーション、CSS スタイルのアニメーション API を備えています。アプリになめらかで反応のよい動きを求めるモバイル開発者に向いています。",
+      "longDescription": "Software Mansion が開発する React Native Reanimated は、React Native 標準の Animated API に代わるライブラリで、アニメーションのロジックを JavaScript スレッドではなく UI スレッドで実行します。動きを決める状態は共有値(shared value)に保持され、ワークレット(worklet)と呼ばれる小さな関数がネイティブ側でスタイルやプロパティを更新するため、JavaScript スレッドがレンダリングやデータ処理で忙しいときでもアニメーションがなめらかに保たれます。人気のナビゲーション、ボトムシート、カルーセルのライブラリの多くがこれに依存しています。\n\nバージョン 4 では CSS アニメーションとトランジションが加わり、スタイルオブジェクトの中でキーフレームやトランジションのプロパティを直接宣言できるようになりました。useSharedValue、useAnimatedStyle、withTiming、withSpring といった従来のフックも引き続き使えます。レイアウトアニメーションは要素の出現、退場、位置の変化を扱い、React Native Gesture Handler と組み合わせることで、ジェスチャー駆動のインタラクティブな UI やスクロール連動の効果を作れます。マルチスレッドのランタイムは別パッケージの react-native-worklets に分離されました。Reanimated 4 は New Architecture と最新 3 バージョンの React Native のみをサポートするため、旧アーキテクチャのアプリは移行するまで 3.x にとどまる必要があります。",
+      "keywords": [
+        "React Native",
+        "アニメーション",
+        "ジェスチャー",
+        "UI スレッド",
+        "ワークレット",
+        "レイアウトアニメーション"
+      ],
+      "rationale": "React Native の標準的なアニメーションライブラリで、エコシステムの多くのライブラリが内部で利用しています。モバイルカテゴリで React Native や Expo の隣に欠けていたモーション・アニメーションの層を補います。"
+    },
+    "zh-CN": {
+      "description": "React Native 动画库，在 UI 线程上运行动画和手势驱动的交互，提供共享值、worklet、布局动画以及 CSS 风格的动画 API。适合需要在应用中实现流畅、灵敏动效的移动开发者。",
+      "longDescription": "React Native Reanimated 由 Software Mansion 开发，是 React Native 内置 Animated API 的替代方案，它把动画逻辑放在 UI 线程而不是 JavaScript 线程上运行。驱动动效的状态保存在共享值(shared value)中，名为 worklet 的小函数在原生侧直接更新样式和属性，因此即使 JavaScript 线程正忙于渲染或处理数据，动画依然保持流畅。许多流行的导航、底部弹出面板和轮播库都依赖它。\n\n第 4 版新增了 CSS 动画和过渡，可以直接在样式对象中声明关键帧和过渡属性，同时保留了 useSharedValue、useAnimatedStyle、withTiming、withSpring 等既有 Hook。布局动画负责处理元素的进入、退出和位置变化，与 React Native Gesture Handler 配合可以实现手势驱动的交互界面和与滚动联动的效果。多线程运行时现已拆分到独立的 react-native-worklets 包中。Reanimated 4 只支持新架构(New Architecture)以及最新的三个 React Native 版本，仍使用旧架构的应用在迁移之前需要继续使用 3.x。",
+      "keywords": [
+        "React Native",
+        "动画",
+        "手势",
+        "UI 线程",
+        "worklet",
+        "布局动画"
+      ],
+      "rationale": "React Native 的标准动画库，生态中大量库都在底层使用它；在移动分类中补上了 React Native 和 Expo 旁边缺失的动效与动画层。"
+    },
+    "es": {
+      "description": "Biblioteca de animaciones para React Native que ejecuta animaciones e interacciones basadas en gestos en el hilo de UI, con valores compartidos, worklets, animaciones de layout y una API al estilo CSS. Para desarrolladores móviles que necesitan movimiento fluido y ágil.",
+      "longDescription": "React Native Reanimated, desarrollada por Software Mansion, es una alternativa a la API Animated integrada en React Native en la que la lógica de animación se ejecuta en el hilo de UI y no en el hilo de JavaScript. El estado que controla el movimiento vive en valores compartidos, y pequeñas funciones llamadas worklets actualizan estilos y props en el lado nativo, de modo que las animaciones siguen siendo fluidas aunque el hilo de JavaScript esté ocupado renderizando o procesando datos. Muchas bibliotecas populares de navegación, hojas inferiores y carruseles dependen de ella.\n\nLa versión 4 añade animaciones y transiciones CSS, que permiten declarar keyframes y propiedades de transición directamente en los objetos de estilo, junto a los hooks ya conocidos como useSharedValue, useAnimatedStyle, withTiming y withSpring. Las animaciones de layout gestionan la entrada, salida y cambio de posición de elementos, y se combina con React Native Gesture Handler para interfaces interactivas guiadas por gestos y efectos ligados al scroll. El runtime de multihilo vive ahora en el paquete independiente react-native-worklets. Reanimated 4 solo admite la New Architecture y las tres versiones más recientes de React Native, así que las apps con la arquitectura antigua deben quedarse en 3.x hasta migrar.",
+      "keywords": [
+        "react native",
+        "animación",
+        "gestos",
+        "hilo de ui",
+        "worklets",
+        "animaciones de layout"
+      ],
+      "rationale": "La biblioteca de animación estándar de React Native, usada internamente por buena parte de su ecosistema; aporta la capa de movimiento y animación que faltaba junto a React Native y Expo en la categoría móvil."
+    },
+    "de": {
+      "description": "Animationsbibliothek für React Native, die Animationen und gestengesteuerte Interaktionen auf dem UI-Thread ausführt, mit Shared Values, Worklets, Layout-Animationen und einer Animations-API im CSS-Stil. Für Mobile-Entwickler, die flüssige, reaktionsschnelle Bewegung brauchen.",
+      "longDescription": "React Native Reanimated wird von Software Mansion entwickelt und ist eine Alternative zur eingebauten Animated-API von React Native, bei der die Animationslogik auf dem UI-Thread statt auf dem JavaScript-Thread läuft. Der Zustand, der die Bewegung steuert, liegt in Shared Values, und kleine Funktionen namens Worklets aktualisieren Styles und Props direkt auf der nativen Seite. So bleiben Animationen flüssig, selbst wenn der JavaScript-Thread mit Rendering oder Datenverarbeitung ausgelastet ist. Viele beliebte Bibliotheken für Navigation, Bottom Sheets und Karussells bauen darauf auf.\n\nVersion 4 bringt CSS-Animationen und -Transitions, mit denen sich Keyframes und Übergangseigenschaften direkt in Style-Objekten deklarieren lassen, ergänzend zu den bewährten Hooks wie useSharedValue, useAnimatedStyle, withTiming und withSpring. Layout-Animationen übernehmen das Ein- und Ausblenden sowie Positionswechsel von Elementen, und zusammen mit React Native Gesture Handler entstehen interaktive, gestengesteuerte Oberflächen und scrollgekoppelte Effekte. Die Multithreading-Laufzeit steckt inzwischen im separaten Paket react-native-worklets. Reanimated 4 unterstützt nur die New Architecture und die drei neuesten React-Native-Versionen, Apps auf der alten Architektur müssen bis zur Migration bei 3.x bleiben.",
+      "keywords": [
+        "React Native",
+        "Animation",
+        "Gesten",
+        "UI-Thread",
+        "Worklets",
+        "Layout-Animationen"
+      ],
+      "rationale": "Die Standard-Animationsbibliothek für React Native, die von großen Teilen des Ökosystems intern genutzt wird; ergänzt die Mobile-Kategorie neben React Native und Expo um die bisher fehlende Ebene für Bewegung und Animation."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2018-04-25",
+      "archived": false,
+      "openIssuesCount": 422,
+      "stargazersCount": 11102,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The standard animation library for React Native, used under the hood by much of its ecosystem; adds the motion and animation layer missing next to React Native and Expo in the mobile category."
+    },
+    "flag": "ok"
+  }
+}

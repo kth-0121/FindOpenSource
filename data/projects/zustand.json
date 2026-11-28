@@ -1,0 +1,116 @@
+{
+  "name": "Zustand",
+  "slug": "zustand",
+  "description": "Small, unopinionated state management library for React built on hooks, letting developers create a global store in a few lines without providers, reducers or boilerplate, while still supporting middleware, persistence and devtools.",
+  "repository": "https://github.com/pmndrs/zustand",
+  "website": "https://zustand-demo.pmnd.rs",
+  "documentation": "https://zustand.docs.pmnd.rs",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "state management",
+    "react",
+    "hooks",
+    "global store",
+    "flux",
+    "lightweight"
+  ],
+  "longDescription": "Zustand is a minimal state management library for React. You create a store by passing a function that returns the initial state and the actions that update it, and components read from it through a hook, subscribing only to the slices they select so unrelated updates do not cause re-renders. There is no context provider to wrap the app in and no action types or reducers to define, which keeps simple global state simple.\n\nMiddleware adds persistence to storage, Redux DevTools integration, Immer-based updates and selector subscriptions, and the vanilla core can be used outside React entirely. It is written in TypeScript and works with server rendering and React Native. Teams use it for UI state shared across components, such as auth status, filters, dialogs or editor state, often alongside a server-state library like TanStack Query. Its deliberately small API means larger apps have to settle on their own conventions for structuring stores.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "zustand"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "훅 기반의 작고 규칙을 강요하지 않는 React 상태 관리 라이브러리로, Provider나 리듀서, 보일러플레이트 없이 몇 줄만으로 전역 스토어를 만들 수 있으면서도 미들웨어, 영속화, 개발자 도구를 지원합니다.",
+      "longDescription": "Zustand는 React를 위한 최소한의 상태 관리 라이브러리입니다. 초기 상태와 이를 변경하는 액션을 반환하는 함수를 넘겨 스토어를 만들고, 컴포넌트는 훅으로 스토어를 읽습니다. 컴포넌트는 자신이 선택한 부분만 구독하므로 관련 없는 업데이트로 다시 렌더링되지 않습니다. 앱을 감쌀 컨텍스트 Provider도, 정의해야 할 액션 타입이나 리듀서도 없어서 단순한 전역 상태는 단순하게 유지됩니다.\n\n미들웨어로 스토리지 영속화, Redux DevTools 연동, Immer 기반 업데이트, 셀렉터 구독을 추가할 수 있고, 바닐라 코어는 React 밖에서도 사용할 수 있습니다. TypeScript로 작성되었으며 서버 렌더링과 React Native에서도 동작합니다. 인증 상태, 필터, 대화상자, 에디터 상태처럼 여러 컴포넌트가 공유하는 UI 상태에 쓰이며, TanStack Query 같은 서버 상태 라이브러리와 함께 쓰는 경우가 많습니다. 의도적으로 API가 작기 때문에 규모가 큰 앱에서는 스토어 구성 방식에 대한 자체 규칙을 정해야 합니다.",
+      "keywords": [
+        "상태 관리",
+        "React",
+        "훅",
+        "전역 스토어",
+        "Flux",
+        "경량"
+      ],
+      "rationale": "가장 인기 있는 React 상태 관리 라이브러리 중 하나로, 범위는 좁지만 카탈로그의 다른 항목이 다루지 않는 클라이언트 상태 역할을 채웁니다."
+    },
+    "ja": {
+      "description": "フックをベースにした小さく押し付けがましくない React 向け状態管理ライブラリです。Provider やリデューサー、ボイラープレートなしで数行でグローバルストアを作れ、ミドルウェア、永続化、開発者ツールにも対応しています。",
+      "longDescription": "Zustand は React のためのミニマルな状態管理ライブラリです。初期状態とそれを更新するアクションを返す関数を渡してストアを作り、コンポーネントはフックを通じてストアを読みます。各コンポーネントは選択した部分だけを購読するので、無関係な更新で再レンダリングされることはありません。アプリを包むコンテキスト Provider も、定義すべきアクションタイプやリデューサーもないため、シンプルなグローバル状態はシンプルなまま保てます。\n\nミドルウェアでストレージへの永続化、Redux DevTools との連携、Immer ベースの更新、セレクター付きの購読を追加でき、バニラのコアは React の外でも使えます。TypeScript で書かれており、サーバーレンダリングや React Native でも動作します。認証状態、フィルター、ダイアログ、エディターの状態など、複数のコンポーネントで共有する UI 状態に使われ、TanStack Query のようなサーバー状態ライブラリと併用されることも多いです。API を意図的に小さくしているため、大規模なアプリではストアの構成方法について独自の規約を決める必要があります。",
+      "keywords": [
+        "状態管理",
+        "React",
+        "フック",
+        "グローバルストア",
+        "Flux",
+        "軽量"
+      ],
+      "rationale": "最も人気のある React 状態管理ライブラリの一つです。対象範囲は狭いものの、カタログの他の項目ではカバーされないクライアント状態の役割を担います。"
+    },
+    "zh-CN": {
+      "description": "一个基于 Hooks、小巧且不强加约定的 React 状态管理库，无需 Provider、reducer 或样板代码，几行就能创建全局 store，同时支持中间件、持久化和开发者工具。",
+      "longDescription": "Zustand 是一个极简的 React 状态管理库。你传入一个返回初始状态及更新动作的函数来创建 store，组件通过 Hook 读取它，并且只订阅自己选取的那部分状态，因此无关的更新不会引发重新渲染。不需要用上下文 Provider 包裹应用，也不需要定义 action 类型或 reducer，简单的全局状态就能保持简单。\n\n通过中间件可以加入存储持久化、Redux DevTools 集成、基于 Immer 的更新和带选择器的订阅，原生（vanilla）核心还能完全脱离 React 使用。它用 TypeScript 编写，支持服务端渲染和 React Native。团队常用它管理跨组件共享的 UI 状态，例如登录状态、筛选条件、对话框或编辑器状态，并经常与 TanStack Query 等服务端状态库搭配使用。由于 API 刻意保持精简，大型应用需要自己制定组织 store 的约定。",
+      "keywords": [
+        "状态管理",
+        "React",
+        "Hooks",
+        "全局 store",
+        "Flux",
+        "轻量级"
+      ],
+      "rationale": "最受欢迎的 React 状态管理库之一；虽然范围较窄，但填补了目录中其他条目未覆盖的客户端状态角色。"
+    },
+    "es": {
+      "description": "Biblioteca de gestión de estado para React, pequeña y sin imposiciones, basada en hooks, que permite crear un store global en pocas líneas sin providers, reducers ni código repetitivo, y que aun así admite middleware, persistencia y devtools.",
+      "longDescription": "Zustand es una biblioteca minimalista de gestión de estado para React. Creas un store pasando una función que devuelve el estado inicial y las acciones que lo modifican, y los componentes lo leen mediante un hook, suscribiéndose solo a las partes que seleccionan, de modo que las actualizaciones ajenas no provocan nuevos renderizados. No hay que envolver la aplicación en un provider de contexto ni definir tipos de acción o reducers, así que el estado global sencillo sigue siendo sencillo.\n\nEl middleware añade persistencia en almacenamiento, integración con Redux DevTools, actualizaciones con Immer y suscripciones con selectores, y el núcleo vanilla puede usarse por completo fuera de React. Está escrito en TypeScript y funciona con renderizado en servidor y React Native. Se usa para estado de interfaz compartido entre componentes, como el estado de autenticación, filtros, diálogos o el estado de un editor, a menudo junto a una biblioteca de estado del servidor como TanStack Query. Su API deliberadamente pequeña obliga a las aplicaciones grandes a acordar sus propias convenciones para estructurar los stores.",
+      "keywords": [
+        "gestión de estado",
+        "react",
+        "hooks",
+        "store global",
+        "flux",
+        "ligero"
+      ],
+      "rationale": "Una de las bibliotecas de estado para React más populares; cubre un papel de estado del cliente que ninguna otra entrada del catálogo ocupa, aunque su alcance es reducido."
+    },
+    "de": {
+      "description": "Kleine, nicht bevormundende State-Management-Bibliothek für React auf Basis von Hooks, mit der Entwickler in wenigen Zeilen einen globalen Store anlegen, ohne Provider, Reducer oder Boilerplate, und die dennoch Middleware, Persistenz und Devtools unterstützt.",
+      "longDescription": "Zustand ist eine minimalistische State-Management-Bibliothek für React. Einen Store erstellt man, indem man eine Funktion übergibt, die den Anfangszustand und die ändernden Aktionen zurückgibt; Komponenten lesen ihn über einen Hook und abonnieren nur die ausgewählten Teile, sodass fremde Updates keine erneuten Renderings auslösen. Es gibt keinen Context-Provider, der die App umschließen muss, und keine Action-Typen oder Reducer, wodurch einfacher globaler Zustand auch einfach bleibt.\n\nMiddleware ergänzt Persistenz im Speicher, Anbindung an die Redux DevTools, Updates mit Immer und Abonnements mit Selektoren, und der Vanilla-Kern lässt sich auch ganz ohne React verwenden. Die Bibliothek ist in TypeScript geschrieben und funktioniert mit serverseitigem Rendering und React Native. Eingesetzt wird sie für UI-Zustand, den mehrere Komponenten teilen, etwa Anmeldestatus, Filter, Dialoge oder Editorzustand, oft zusammen mit einer Serverzustands-Bibliothek wie TanStack Query. Weil die API bewusst klein ist, müssen größere Apps eigene Konventionen für den Aufbau ihrer Stores festlegen.",
+      "keywords": [
+        "State Management",
+        "React",
+        "Hooks",
+        "globaler Store",
+        "Flux",
+        "leichtgewichtig"
+      ],
+      "rationale": "Eine der beliebtesten State-Bibliotheken für React; füllt eine Rolle für Client-Zustand, die kein anderer Katalogeintrag abdeckt, auch wenn ihr Umfang schmal ist."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-23",
+      "repoCreatedAt": "2019-04-09",
+      "archived": false,
+      "openIssuesCount": 2,
+      "stargazersCount": 59031,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 87,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "One of the most popular React state libraries; fills a client-state role nothing else in the catalog covers, though its scope is narrow."
+    },
+    "flag": "ok"
+  }
+}

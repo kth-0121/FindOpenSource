@@ -1,0 +1,111 @@
+{
+  "name": "Dolt",
+  "slug": "dolt",
+  "description": "MySQL-compatible SQL database with Git-style version control built in, so tables can be branched, diffed, merged, cloned, pushed and pulled like a repository. For teams that need auditable data history, reviewable data changes or reproducible datasets.",
+  "repository": "https://github.com/dolthub/dolt",
+  "website": "https://www.dolthub.com",
+  "documentation": "https://docs.dolthub.com/",
+  "categories": [
+    "database"
+  ],
+  "keywords": [
+    "version control",
+    "sql database",
+    "mysql compatible",
+    "data versioning",
+    "branching",
+    "data diff"
+  ],
+  "longDescription": "Dolt applies Git's model to a relational database: instead of versioning files, it versions tables, keeping a commit graph of schema and row changes that can be branched, merged, diffed and rolled back. It runs as a MySQL-compatible server, so existing MySQL clients, drivers and ORMs can connect, and it also offers a command-line interface that mirrors Git commands such as init, add, commit, branch, merge, clone, push and pull. Version control operations are available from SQL through system tables, functions and stored procedures as well.\n\nCommon uses include keeping a full audit trail of who changed which rows, letting people propose data changes on branches and review them before merging, sharing public datasets, building reproducible machine learning inputs, and giving applications or AI agents a database whose state can be inspected and reverted. The company behind it, DoltHub, runs a hosting site for Dolt databases plus self-hosted DoltLab and a managed Hosted Dolt service, and develops a PostgreSQL-flavored sibling called Doltgres. Keeping complete history adds storage overhead, and teams moving heavy MySQL workloads should benchmark and test compatibility first.",
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Git 방식의 버전 관리를 내장한 MySQL 호환 SQL 데이터베이스로, 테이블을 저장소처럼 브랜치, 비교, 병합, 클론, 푸시, 풀할 수 있습니다. 감사 가능한 데이터 이력, 검토 가능한 데이터 변경, 재현 가능한 데이터셋이 필요한 팀을 위한 도구입니다.",
+      "longDescription": "Dolt는 Git의 모델을 관계형 데이터베이스에 적용합니다. 파일이 아니라 테이블을 버전 관리하며, 스키마와 행 변경을 커밋 그래프로 남겨 브랜치, 병합, 비교, 되돌리기를 할 수 있습니다. MySQL 호환 서버로 실행되므로 기존 MySQL 클라이언트, 드라이버, ORM이 그대로 연결되며, init, add, commit, branch, merge, clone, push, pull 같은 Git 명령을 그대로 본뜬 명령줄 인터페이스도 제공합니다. 버전 관리 작업은 시스템 테이블, 함수, 저장 프로시저를 통해 SQL에서도 수행할 수 있습니다.\n\n누가 어떤 행을 바꿨는지 완전한 감사 기록을 남기거나, 브랜치에서 데이터 변경을 제안하고 병합 전에 검토하거나, 공개 데이터셋을 공유하며 협업하거나, 머신러닝을 위한 재현 가능한 입력 데이터를 만들거나, 애플리케이션이나 AI 에이전트에 상태를 살펴보고 되돌릴 수 있는 데이터베이스를 제공하는 용도로 주로 쓰입니다. 개발사인 DoltHub는 Dolt 데이터베이스 호스팅 사이트와 셀프 호스팅용 DoltLab, 관리형 Hosted Dolt 서비스를 운영하며, PostgreSQL 방식의 자매 프로젝트 Doltgres도 개발하고 있습니다. 전체 이력을 보관하는 만큼 저장 공간 부담이 늘고, 무거운 MySQL 워크로드를 옮기려는 팀은 먼저 성능 측정과 호환성 테스트를 해 보는 것이 좋습니다.",
+      "keywords": [
+        "버전 관리",
+        "SQL 데이터베이스",
+        "MySQL 호환",
+        "데이터 버전 관리",
+        "브랜치",
+        "데이터 비교"
+      ],
+      "rationale": "카탈로그에서 유일하게 데이터와 스키마를 Git처럼 브랜치하고 병합할 수 있는 SQL 데이터베이스로, 다른 데이터베이스 항목과 겹치지 않는 뚜렷한 영역을 차지합니다."
+    },
+    "ja": {
+      "description": "Git 流のバージョン管理を組み込んだ MySQL 互換の SQL データベースで、テーブルをリポジトリのようにブランチ、差分比較、マージ、クローン、プッシュ、プルできます。監査可能なデータ履歴、レビューできるデータ変更、再現可能なデータセットが必要なチーム向けです。",
+      "longDescription": "Dolt は Git のモデルをリレーショナルデータベースに当てはめたものです。ファイルではなくテーブルをバージョン管理し、スキーマと行の変更をコミットグラフとして記録するため、ブランチ、マージ、差分比較、ロールバックが行えます。MySQL 互換サーバーとして動作するので既存の MySQL クライアント、ドライバー、ORM がそのまま接続でき、init、add、commit、branch、merge、clone、push、pull といった Git のコマンドをなぞったコマンドラインインターフェースも備えています。バージョン管理の操作は、システムテーブル、関数、ストアドプロシージャを通じて SQL からも実行できます。\n\n誰がどの行を変更したかの完全な監査証跡を残す、ブランチ上でデータ変更を提案してマージ前にレビューする、公開データセットを共有して共同作業する、機械学習向けに再現可能な入力データを用意する、アプリケーションや AI エージェントに状態を確認・巻き戻しできるデータベースを与える、といった用途が一般的です。開発元の DoltHub は Dolt データベースのホスティングサイトに加え、セルフホスト版の DoltLab とマネージドサービスの Hosted Dolt を提供し、PostgreSQL 版の姉妹プロジェクト Doltgres も開発しています。完全な履歴を保持するぶんストレージの負担は増え、重い MySQL ワークロードを移行する場合は事前にベンチマークと互換性の検証を行うべきです。",
+      "keywords": [
+        "バージョン管理",
+        "SQL データベース",
+        "MySQL 互換",
+        "データのバージョン管理",
+        "ブランチ",
+        "データ差分"
+      ],
+      "rationale": "データとスキーマを Git のようにブランチ・マージできる、カタログ唯一の SQL データベースで、他のデータベース項目と重ならない明確な領域を担っています。"
+    },
+    "zh-CN": {
+      "description": "一款内置 Git 式版本控制的 MySQL 兼容 SQL 数据库，可以像代码仓库一样对数据表进行分支、比较差异、合并、克隆、推送和拉取。适合需要可审计数据历史、可评审数据变更或可复现数据集的团队。",
+      "longDescription": "Dolt 把 Git 的模型应用到了关系型数据库上：它版本化的不是文件而是数据表，用提交图记录模式和行级变更，可以进行分支、合并、差异比较和回滚。它以 MySQL 兼容服务器的形式运行，现有的 MySQL 客户端、驱动和 ORM 都能直接连接；同时还提供一个模仿 Git 命令的命令行界面，包括 init、add、commit、branch、merge、clone、push 和 pull。版本控制操作也可以通过系统表、函数和存储过程在 SQL 中完成。\n\n常见用途包括：完整记录谁修改了哪些行的审计轨迹；在分支上提出数据变更并在合并前进行评审；共享公开数据集并协作维护；为机器学习构建可复现的输入数据；以及为应用或 AI 智能体提供一个可以查看并回退状态的数据库。背后的公司 DoltHub 运营着 Dolt 数据库托管网站，并提供可自托管的 DoltLab 和托管服务 Hosted Dolt，还在开发 PostgreSQL 风格的姊妹项目 Doltgres。保留完整历史会带来额外的存储开销，计划迁移重负载 MySQL 业务的团队应先进行基准测试和兼容性验证。",
+      "keywords": [
+        "版本控制",
+        "SQL 数据库",
+        "兼容 MySQL",
+        "数据版本化",
+        "分支",
+        "数据差异"
+      ],
+      "rationale": "目录中唯一能像 Git 一样对数据和模式进行分支与合并的 SQL 数据库，占据了与其他数据库条目互不重叠的独特定位。"
+    },
+    "es": {
+      "description": "Base de datos SQL compatible con MySQL con control de versiones al estilo Git, para ramificar, comparar, fusionar, clonar, enviar y traer tablas como un repositorio. Para equipos que necesitan historial auditable, cambios de datos revisables o conjuntos de datos reproducibles.",
+      "longDescription": "Dolt aplica el modelo de Git a una base de datos relacional: en lugar de versionar archivos, versiona tablas y mantiene un grafo de commits con los cambios de esquema y de filas que se puede ramificar, fusionar, comparar y revertir. Funciona como un servidor compatible con MySQL, de modo que los clientes, drivers y ORM de MySQL existentes pueden conectarse, y además ofrece una interfaz de línea de comandos que reproduce órdenes de Git como init, add, commit, branch, merge, clone, push y pull. Las operaciones de control de versiones también están disponibles desde SQL mediante tablas de sistema, funciones y procedimientos almacenados.\n\nEntre sus usos habituales están mantener un registro de auditoría completo de quién cambió cada fila, proponer cambios de datos en ramas y revisarlos antes de fusionarlos, compartir y mantener en colaboración conjuntos de datos públicos, preparar entradas reproducibles para aprendizaje automático y dar a aplicaciones o agentes de IA una base de datos cuyo estado se puede inspeccionar y revertir. La empresa que lo desarrolla, DoltHub, gestiona un sitio de alojamiento para bases de datos Dolt, además de DoltLab autoalojado y el servicio gestionado Hosted Dolt, y desarrolla un proyecto hermano con sabor a PostgreSQL llamado Doltgres. Conservar el historial completo implica más almacenamiento, y quien quiera migrar cargas pesadas de MySQL debería medir el rendimiento y probar la compatibilidad antes.",
+      "keywords": [
+        "control de versiones",
+        "base de datos SQL",
+        "compatible con MySQL",
+        "versionado de datos",
+        "ramas",
+        "comparación de datos"
+      ],
+      "rationale": "La única base de datos SQL del catálogo que permite ramificar y fusionar datos y esquema como en Git, con un nicho propio que no se solapa con las demás bases de datos."
+    },
+    "de": {
+      "description": "MySQL-kompatible SQL-Datenbank mit eingebauter Versionsverwaltung im Git-Stil: Tabellen lassen sich wie ein Repository branchen, vergleichen, mergen, klonen, pushen und pullen. Für Teams, die prüfbare Datenhistorie, reviewbare Änderungen oder reproduzierbare Datensätze brauchen.",
+      "longDescription": "Dolt überträgt das Modell von Git auf eine relationale Datenbank: Versioniert werden nicht Dateien, sondern Tabellen. Ein Commit-Graph hält Schema- und Zeilenänderungen fest, die sich branchen, mergen, vergleichen und zurückrollen lassen. Dolt läuft als MySQL-kompatibler Server, sodass vorhandene MySQL-Clients, Treiber und ORMs sich direkt verbinden können, und bringt zusätzlich eine Kommandozeile mit, die Git-Befehle wie init, add, commit, branch, merge, clone, push und pull nachbildet. Die Versionsverwaltung ist außerdem per SQL über Systemtabellen, Funktionen und Stored Procedures nutzbar.\n\nTypische Einsätze sind ein lückenloser Audit-Trail darüber, wer welche Zeilen geändert hat, Datenänderungen, die auf Branches vorgeschlagen und vor dem Merge geprüft werden, gemeinsam gepflegte öffentliche Datensätze, reproduzierbare Eingabedaten für Machine Learning sowie Datenbanken für Anwendungen oder KI-Agenten, deren Zustand sich einsehen und zurücksetzen lässt. Das Unternehmen dahinter, DoltHub, betreibt eine Hosting-Plattform für Dolt-Datenbanken sowie das selbst hostbare DoltLab und den verwalteten Dienst Hosted Dolt und entwickelt mit Doltgres ein PostgreSQL-orientiertes Schwesterprojekt. Die vollständige Historie kostet zusätzlichen Speicher, und wer schwere MySQL-Workloads umziehen will, sollte vorher Leistung und Kompatibilität testen.",
+      "keywords": [
+        "Versionsverwaltung",
+        "SQL-Datenbank",
+        "MySQL-kompatibel",
+        "Datenversionierung",
+        "Branching",
+        "Datenvergleich"
+      ],
+      "rationale": "Die einzige SQL-Datenbank im Katalog, in der sich Daten und Schema wie mit Git branchen und mergen lassen – eine eigene Nische ohne Überschneidung mit den anderen Datenbanken."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-25",
+      "repoCreatedAt": "2019-07-24",
+      "archived": false,
+      "openIssuesCount": 689,
+      "stargazersCount": 25010,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The catalog's only SQL database that branches and merges data and schema like Git, a distinct niche with no overlap among the other database entries."
+    },
+    "flag": "ok"
+  }
+}

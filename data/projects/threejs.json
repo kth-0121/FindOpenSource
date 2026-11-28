@@ -1,0 +1,117 @@
+{
+  "name": "three.js",
+  "slug": "threejs",
+  "description": "JavaScript 3D library that wraps WebGL and WebGPU in a scene graph of cameras, lights, meshes and materials, for web developers building interactive 3D graphics, product viewers, visualizations and games in the browser.",
+  "repository": "https://github.com/mrdoob/three.js",
+  "website": "https://threejs.org",
+  "documentation": "https://threejs.org/docs/",
+  "categories": [
+    "ui",
+    "media"
+  ],
+  "keywords": [
+    "3d graphics",
+    "webgl",
+    "webgpu",
+    "rendering",
+    "scene graph",
+    "webxr"
+  ],
+  "longDescription": "three.js is a JavaScript library that makes 3D rendering in the browser practical without writing raw WebGL. It provides a scene graph of objects, cameras and lights, a library of geometries and physically based materials, and renderers for WebGL and the newer WebGPU, along with custom shaders, post-processing and animation support. The same scene can render to a canvas on desktop or mobile, or to VR and AR headsets through WebXR.\n\nA large collection of examples and add-ons includes loaders for formats such as glTF, FBX and OBJ, camera controls and post-processing passes, and projects like React Three Fiber build on top of it. Typical uses are product configurators, interactive marketing pages, architectural and scientific visualizations, generative art and browser games. It is a rendering library rather than a game engine, so editors, physics, networking and asset pipelines come from other tools, and it still publishes 0.x releases in which breaking changes between versions are common.",
+  "languages": [
+    "JavaScript"
+  ],
+  "packages": {
+    "npm": [
+      "three"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "WebGL과 WebGPU를 카메라, 조명, 메시, 머티리얼로 이루어진 씬 그래프로 감싸는 JavaScript 3D 라이브러리로, 브라우저에서 인터랙티브 3D 그래픽, 제품 뷰어, 시각화, 게임을 만드는 웹 개발자를 위한 도구입니다.",
+      "longDescription": "three.js는 WebGL을 직접 작성하지 않고도 브라우저에서 3D 렌더링을 실용적으로 할 수 있게 해 주는 JavaScript 라이브러리입니다. 객체, 카메라, 조명으로 이루어진 씬 그래프, 다양한 지오메트리와 물리 기반 머티리얼, 그리고 WebGL과 최신 WebGPU용 렌더러를 제공하며, 커스텀 셰이더, 후처리, 애니메이션도 지원합니다. 같은 씬을 데스크톱이나 모바일의 캔버스에 렌더링할 수도 있고, WebXR을 통해 VR·AR 헤드셋에 렌더링할 수도 있습니다.\n\n방대한 예제와 애드온에는 glTF, FBX, OBJ 같은 포맷용 로더, 카메라 컨트롤, 후처리 패스 등이 포함되어 있고, React Three Fiber 같은 프로젝트가 그 위에 만들어져 있습니다. 제품 구성기, 인터랙티브 마케팅 페이지, 건축·과학 시각화, 제너러티브 아트, 브라우저 게임이 대표적인 용도입니다. 게임 엔진이 아니라 렌더링 라이브러리이므로 에디터, 물리, 네트워킹, 에셋 파이프라인은 다른 도구에서 가져와야 하고, 여전히 0.x 버전으로 릴리스되어 버전 간 호환성을 깨는 변경이 잦습니다.",
+      "keywords": [
+        "3D 그래픽",
+        "WebGL",
+        "WebGPU",
+        "렌더링",
+        "씬 그래프",
+        "WebXR"
+      ],
+      "rationale": "웹 3D 그래픽의 표준 라이브러리로 카탈로그에 비교할 만한 항목이 없으며, UI와 미디어 양쪽을 대표하는 핵심 프로젝트입니다."
+    },
+    "ja": {
+      "description": "WebGL と WebGPU を、カメラ、ライト、メッシュ、マテリアルからなるシーングラフで包み込む JavaScript の 3D ライブラリです。ブラウザでインタラクティブな 3D グラフィックス、製品ビューアー、可視化、ゲームを作る Web 開発者向けです。",
+      "longDescription": "three.js は、生の WebGL を書かずにブラウザでの 3D レンダリングを現実的にしてくれる JavaScript ライブラリです。オブジェクト、カメラ、ライトからなるシーングラフ、各種ジオメトリと物理ベースのマテリアル、WebGL と新しい WebGPU 向けのレンダラーを備え、カスタムシェーダー、ポストプロセス、アニメーションにも対応しています。同じシーンをデスクトップやモバイルのキャンバスに描画することも、WebXR を通じて VR や AR のヘッドセットに描画することもできます。\n\n豊富なサンプルとアドオンには glTF、FBX、OBJ などのローダー、カメラコントロール、ポストプロセスのパスなどが含まれ、React Three Fiber のようなプロジェクトがその上に構築されています。製品コンフィギュレーター、インタラクティブなマーケティングページ、建築や科学の可視化、ジェネレーティブアート、ブラウザゲームが代表的な用途です。ゲームエンジンではなくレンダリングライブラリなので、エディター、物理演算、ネットワーク、アセットパイプラインは別のツールで補う必要があり、いまも 0.x 系でリリースされているためバージョン間の破壊的変更はよくあります。",
+      "keywords": [
+        "3D グラフィックス",
+        "WebGL",
+        "WebGPU",
+        "レンダリング",
+        "シーングラフ",
+        "WebXR"
+      ],
+      "rationale": "Web 上の 3D グラフィックスの標準ライブラリで、カタログに比肩するものはありません。UI とメディアの両方を代表する重要なプロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "一个 JavaScript 3D 库，用由相机、灯光、网格和材质组成的场景图封装 WebGL 和 WebGPU，面向在浏览器中构建交互式 3D 图形、产品展示、可视化和游戏的 Web 开发者。",
+      "longDescription": "three.js 是一个 JavaScript 库，让你无需编写原始 WebGL 就能在浏览器中实现实用的 3D 渲染。它提供由对象、相机和灯光组成的场景图，一套几何体和基于物理的材质，以及面向 WebGL 和较新的 WebGPU 的渲染器，同时支持自定义着色器、后期处理和动画。同一个场景既可以渲染到桌面或移动端的画布上，也可以通过 WebXR 渲染到 VR 和 AR 头显中。\n\n大量示例和附加组件包括 glTF、FBX、OBJ 等格式的加载器、相机控制器和后期处理通道，React Three Fiber 等项目也构建在它之上。典型用途包括产品配置器、交互式营销页面、建筑与科学可视化、生成艺术和浏览器游戏。它是渲染库而不是游戏引擎，编辑器、物理、网络和资源管线需要借助其他工具；而且它仍以 0.x 版本发布，版本之间的破坏性变更很常见。",
+      "keywords": [
+        "3D 图形",
+        "WebGL",
+        "WebGPU",
+        "渲染",
+        "场景图",
+        "WebXR"
+      ],
+      "rationale": "Web 3D 图形的标准库，目录中没有可比的项目；是 UI 和媒体两个分类的关键代表。"
+    },
+    "es": {
+      "description": "Biblioteca 3D de JavaScript que envuelve WebGL y WebGPU en un grafo de escena con cámaras, luces, mallas y materiales, para desarrolladores web que crean gráficos 3D interactivos, visores de producto, visualizaciones y juegos en el navegador.",
+      "longDescription": "three.js es una biblioteca de JavaScript que hace práctico el renderizado 3D en el navegador sin escribir WebGL a mano. Ofrece un grafo de escena con objetos, cámaras y luces, una colección de geometrías y materiales de renderizado físico, y renderizadores para WebGL y el más reciente WebGPU, además de shaders personalizados, posprocesado y animación. La misma escena puede dibujarse en un canvas de escritorio o móvil, o en visores de realidad virtual y aumentada mediante WebXR.\n\nUna amplia colección de ejemplos y complementos incluye cargadores para formatos como glTF, FBX y OBJ, controles de cámara y pases de posprocesado, y proyectos como React Three Fiber se construyen sobre ella. Sus usos típicos son configuradores de producto, páginas de marketing interactivas, visualizaciones arquitectónicas y científicas, arte generativo y juegos para navegador. Es una biblioteca de renderizado, no un motor de juegos, así que el editor, la física, la red y el flujo de recursos deben venir de otras herramientas, y sigue publicando versiones 0.x en las que los cambios incompatibles entre versiones son habituales.",
+      "keywords": [
+        "gráficos 3d",
+        "webgl",
+        "webgpu",
+        "renderizado",
+        "grafo de escena",
+        "webxr"
+      ],
+      "rationale": "La biblioteca de referencia para gráficos 3D en la web, sin nada comparable en el catálogo; un representante clave tanto de UI como de medios."
+    },
+    "de": {
+      "description": "JavaScript-3D-Bibliothek, die WebGL und WebGPU in einen Szenengraphen aus Kameras, Lichtern, Meshes und Materialien verpackt, für Webentwickler, die interaktive 3D-Grafik, Produktviewer, Visualisierungen und Spiele im Browser bauen.",
+      "longDescription": "three.js ist eine JavaScript-Bibliothek, die 3D-Rendering im Browser praktikabel macht, ohne rohes WebGL schreiben zu müssen. Sie bietet einen Szenengraphen aus Objekten, Kameras und Lichtern, eine Sammlung von Geometrien und physikalisch basierten Materialien sowie Renderer für WebGL und das neuere WebGPU, dazu eigene Shader, Post-Processing und Animation. Dieselbe Szene lässt sich auf einem Canvas auf Desktop oder Mobilgerät oder über WebXR auf VR- und AR-Headsets darstellen.\n\nEine große Sammlung von Beispielen und Add-ons umfasst Loader für Formate wie glTF, FBX und OBJ, Kamerasteuerungen und Post-Processing-Pässe, und Projekte wie React Three Fiber bauen darauf auf. Typische Einsätze sind Produktkonfiguratoren, interaktive Marketingseiten, Architektur- und Wissenschaftsvisualisierungen, generative Kunst und Browserspiele. Es ist eine Rendering-Bibliothek und keine Game-Engine, sodass Editor, Physik, Netzwerk und Asset-Pipeline aus anderen Werkzeugen kommen müssen, und es erscheint weiterhin in 0.x-Versionen, bei denen inkompatible Änderungen zwischen Releases häufig sind.",
+      "keywords": [
+        "3D-Grafik",
+        "WebGL",
+        "WebGPU",
+        "Rendering",
+        "Szenengraph",
+        "WebXR"
+      ],
+      "rationale": "Die Standardbibliothek für 3D-Grafik im Web, ohne Vergleichbares im Katalog; ein zentraler Vertreter sowohl für UI als auch für Medien."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2010-03-23",
+      "archived": false,
+      "openIssuesCount": 404,
+      "stargazersCount": 119583,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 93,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The standard library for 3D graphics on the web, with nothing comparable in the catalog; a key representative for both UI and media."
+    },
+    "flag": "ok"
+  }
+}

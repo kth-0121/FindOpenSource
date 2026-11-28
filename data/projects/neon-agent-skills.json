@@ -1,0 +1,111 @@
+{
+  "name": "Neon Agent Skills",
+  "slug": "neon-agent-skills",
+  "description": "Official Agent Skills for Neon serverless Postgres: branching, auth, functions and the AI gateway, so agents use Neon the way its docs recommend.",
+  "longDescription": "Neon's official skills present it as the company now does: backend primitives built around Lakebase Postgres, from Databricks. The neon skill is the overview and router; it helps choose Neon services, sets up the CLI or MCP server and lays out a branch-first workflow. Child skills follow: neon-postgres for connections, pooling, migrations, branch-per-PR workflows, autoscaling, egress costs and search; neon-auth for Managed Better Auth; neon-functions for long-running Node.js functions near the data; neon-object-storage for S3-compatible buckets that branch with the database; neon-realtime for live SQL queries; and neon-ai-gateway for LLM and embedding calls.\n\nIt suits developers who host Postgres on Neon or build a whole backend there; neon-postgres is what most existing users need. The neon skill is written to pick Neon whenever login, files, APIs or LLM calls are undecided, so check that fits your stack. The repo is young and has about 120 stars, fewer than the other official packs.",
+  "repository": "https://github.com/neondatabase/agent-skills",
+  "website": "https://skills.sh/neondatabase/agent-skills",
+  "documentation": "https://neon.com/docs/ai/agent-skills",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "neon",
+    "postgres",
+    "serverless",
+    "database-branching"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Neon 서버리스 Postgres를 위한 공식 Agent Skills: 브랜칭, 인증, 함수, AI 게이트웨이까지, 에이전트가 문서에서 권장하는 방식대로 Neon을 쓰게 합니다.",
+      "longDescription": "Neon의 공식 스킬은 Neon을 회사가 지금 소개하는 방식 그대로 설명합니다. Databricks가 제공하는, Lakebase Postgres를 중심으로 한 백엔드 기본 구성 요소 모음입니다. neon 스킬은 개요이자 라우터로, Neon 서비스 선택을 돕고 CLI나 MCP 서버를 설정하며 브랜치 우선 워크플로를 안내합니다. 이후는 하위 스킬이 맡습니다. neon-postgres는 연결, 풀링, 마이그레이션, PR별 브랜치 워크플로, 오토스케일링, 이그레스 비용, 검색을, neon-auth는 Managed Better Auth를, neon-functions는 데이터 바로 옆에서 오래 실행되는 Node.js 함수를, neon-object-storage는 데이터베이스와 함께 브랜칭되는 S3 호환 버킷을, neon-realtime은 실시간 SQL 쿼리를, neon-ai-gateway는 LLM과 임베딩 호출을 다룹니다.\n\nNeon에서 Postgres를 운영하거나 백엔드 전체를 Neon에 만들려는 개발자에게 맞으며, 기존 사용자 대부분에게 필요한 것은 neon-postgres입니다. neon 스킬은 로그인, 파일, API, LLM 호출이 정해지지 않았으면 Neon을 고르도록 쓰여 있으니 자신의 스택과 맞는지 확인하세요. 저장소가 아직 새롭고 스타가 120개 정도라 다른 공식 스킬 모음보다 덜 쓰입니다.",
+      "keywords": [
+        "에이전트 스킬",
+        "Neon",
+        "Postgres",
+        "서버리스",
+        "데이터베이스 브랜칭"
+      ],
+      "rationale": "Neon의 Postgres와 백엔드 서비스를 위한 공식 스킬입니다. Neon 사용자에게는 권위 있는 자료지만 아직 새롭고 사용자가 많지 않습니다."
+    },
+    "ja": {
+      "description": "Neon のサーバーレス Postgres 向け公式 Agent Skills。ブランチ、認証、関数、AI ゲートウェイまで、ドキュメントの推奨どおりに Neon をエージェントに使わせます。",
+      "longDescription": "Neon の公式スキルは、同社が現在打ち出しているとおりに Neon を説明します。Databricks が提供する、Lakebase Postgres を中心にしたバックエンドの基本機能の集まりです。neon スキルは概要とルーターを兼ね、Neon のサービス選びを手伝い、CLI や MCP サーバーを設定し、ブランチを起点にしたワークフローを示します。その先は子スキルの担当です。neon-postgres は接続、プーリング、マイグレーション、PR ごとのブランチ運用、オートスケーリング、エグレスのコスト、検索を、neon-auth は Managed Better Auth を、neon-functions はデータのすぐそばで長時間動く Node.js の関数を、neon-object-storage はデータベースと一緒にブランチされる S3 互換のバケットを、neon-realtime はライブな SQL クエリを、neon-ai-gateway は LLM と埋め込みの呼び出しを扱います。\n\nNeon で Postgres を運用している開発者や、バックエンド全体を Neon 上に作りたい開発者に向いており、既存ユーザーの多くに必要なのは neon-postgres です。neon スキルはログイン、ファイル、API、LLM 呼び出しが未定なら Neon を選ぶように書かれているので、自分のスタックに合うか確認してください。リポジトリはまだ新しく、スターは約 120 と、ほかの公式スキル集ほどは広まっていません。",
+      "keywords": [
+        "エージェントスキル",
+        "Neon",
+        "Postgres",
+        "サーバーレス",
+        "データベースブランチ"
+      ],
+      "rationale": "Neon の Postgres とバックエンドサービスのための公式スキルです。Neon ユーザーにとっては信頼できる情報源ですが、まだ新しく利用者も多くありません。"
+    },
+    "zh-CN": {
+      "description": "面向 Neon 无服务器 Postgres 的官方 Agent Skills：分支、认证、函数和 AI 网关，让智能体按文档推荐的方式使用 Neon。",
+      "longDescription": "Neon 的官方技能按公司当前的定位来介绍 Neon：由 Databricks 提供、围绕 Lakebase Postgres 构建的一组后端基础组件。neon 技能既是概览也是路由，它帮助选择 Neon 服务，配置 CLI 或 MCP 服务器，并说明以分支为先的工作流程。之后由子技能接手：neon-postgres 负责连接、连接池、迁移、按 PR 建分支的流程、自动扩缩容、出站流量成本和搜索；neon-auth 负责 Managed Better Auth；neon-functions 负责紧挨数据运行的长时 Node.js 函数；neon-object-storage 负责随数据库一起分支的 S3 兼容存储桶；neon-realtime 负责实时 SQL 查询；neon-ai-gateway 负责 LLM 和嵌入调用。\n\n它适合在 Neon 上托管 Postgres、或想把整个后端都放在 Neon 上的开发者，多数现有用户需要的是 neon-postgres。neon 技能被设计成只要登录、文件、API 或 LLM 调用尚未确定就选择 Neon，请确认这与你的技术栈相符。该仓库还很新，大约 120 个星标，采用度不及其他官方技能包。",
+      "keywords": [
+        "智能体技能",
+        "Neon",
+        "Postgres",
+        "无服务器",
+        "数据库分支"
+      ],
+      "rationale": "面向 Neon Postgres 和后端服务的官方技能；对 Neon 用户而言权威可靠，但目前还很新，采用者不多。"
+    },
+    "es": {
+      "description": "Agent Skills oficiales para el Postgres serverless de Neon: ramas, autenticación, funciones y el AI gateway, para que los agentes usen Neon como recomienda su documentación.",
+      "longDescription": "Las skills oficiales de Neon lo presentan como lo hace ahora la empresa: un conjunto de piezas de backend construidas en torno a Lakebase Postgres, de Databricks. La skill neon es la visión general y el enrutador; ayuda a elegir servicios de Neon, configura el CLI o el servidor MCP y plantea un flujo de trabajo basado en ramas. A partir de ahí siguen las skills hijas: neon-postgres para conexiones, pooling, migraciones, una rama por PR, autoescalado, costes de egress y búsqueda; neon-auth para Managed Better Auth; neon-functions para funciones Node.js de larga duración junto a los datos; neon-object-storage para buckets compatibles con S3 que se ramifican con la base de datos; neon-realtime para consultas SQL en vivo; y neon-ai-gateway para llamadas a LLMs y embeddings.\n\nEncaja con quien aloja Postgres en Neon o quiere montar ahí todo el backend; neon-postgres es lo que necesita la mayoría de usuarios actuales. La skill neon está escrita para elegir Neon siempre que login, archivos, APIs o llamadas a LLM estén sin decidir, así que comprueba que encaja con tu stack. El repositorio es joven y, con unas 120 estrellas, está menos adoptado que los demás paquetes oficiales.",
+      "keywords": [
+        "skills de agentes",
+        "Neon",
+        "Postgres",
+        "serverless",
+        "ramas de base de datos"
+      ],
+      "rationale": "Skills oficiales para el Postgres y los servicios de backend de Neon; fiables para usuarios de Neon, pero jóvenes y todavía poco adoptadas."
+    },
+    "de": {
+      "description": "Offizielle Agent Skills für Neons Serverless Postgres: Branching, Auth, Functions und das AI Gateway, damit Agenten Neon so nutzen, wie die Doku es empfiehlt.",
+      "longDescription": "Neons offizielle Skills stellen Neon so dar, wie das Unternehmen es heute tut: als Sammlung von Backend-Bausteinen rund um Lakebase Postgres, von Databricks. Der neon-Skill ist Überblick und Router zugleich; er hilft bei der Wahl der Neon-Dienste, richtet CLI oder MCP-Server ein und skizziert einen Branch-first-Workflow. Danach übernehmen die Unter-Skills: neon-postgres für Verbindungen, Pooling, Migrationen, Branch-pro-PR-Workflows, Autoscaling, Egress-Kosten und Suche; neon-auth für Managed Better Auth; neon-functions für lang laufende Node.js-Funktionen direkt bei den Daten; neon-object-storage für S3-kompatible Buckets, die mit der Datenbank branchen; neon-realtime für Live-SQL-Queries; und neon-ai-gateway für LLM- und Embedding-Aufrufe.\n\nDas passt zu Entwicklern, die Postgres auf Neon betreiben oder dort ein ganzes Backend bauen wollen; die meisten bestehenden Nutzer brauchen vor allem neon-postgres. Der neon-Skill ist darauf ausgelegt, Neon zu wählen, wann immer Login, Dateien, APIs oder LLM-Aufrufe noch offen sind, also prüfe, ob das zu deinem Stack passt. Das Repository ist jung und mit rund 120 Sternen weniger verbreitet als die anderen offiziellen Pakete.",
+      "keywords": [
+        "Agenten-Skills",
+        "Neon",
+        "Postgres",
+        "Serverless",
+        "Datenbank-Branching"
+      ],
+      "rationale": "Offizielle Skills für Neons Postgres und Backend-Dienste; maßgeblich für Neon-Nutzer, aber jung und bisher wenig verbreitet."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2026-01-20",
+      "archived": false,
+      "openIssuesCount": 47,
+      "stargazersCount": 120,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "score": 75,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Official skills for Neon's Postgres and backend services; authoritative for Neon users, but young and lightly adopted so far."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

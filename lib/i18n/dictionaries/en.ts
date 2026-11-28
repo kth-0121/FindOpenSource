@@ -253,11 +253,11 @@ const dictionary: Dictionary = {
       },
       ml: {
         title: "ML on Hugging Face",
-        description: "Hub operations, datasets, model training and evaluation.",
+        description: "Hub operations, datasets, model training and model selection.",
         benefits: [
           "Manage models, datasets and Spaces on the Hub with the hf CLI",
           "Explore, search and filter datasets through the Dataset Viewer API",
-          "Fine-tune with TRL or Unsloth (SFT, DPO, GRPO) and run local evals with inspect-ai and lighteval",
+          "Post-train with TRL (SFT, DPO, GRPO) and find the best model for a task by benchmark scores",
         ],
       },
       shortform: {
@@ -361,6 +361,42 @@ const dictionary: Dictionary = {
             "Asks what you're really building and shows the spec in short, readable chunks",
             "Plans around true red/green TDD, YAGNI and DRY",
             "Subagent-driven development can follow the plan autonomously for hours",
+          ],
+        },
+        addy: {
+          credential: "Author of Learning JavaScript Design Patterns; led Chrome Developer Experience at Google",
+          summary: "Agent Skills: production-grade engineering skills covering the lifecycle from spec to ship.",
+          strengths: [
+            "10 slash commands map the lifecycle: /spec, /plan, /build, /test, /review, /ship and more",
+            "/build writes the plan and, after one approval, builds every task test-first with a commit per task",
+            "/webperf and /a11y run web performance and accessibility audits",
+          ],
+        },
+        "compound-engineering": {
+          credential: "Compound Engineer at Every, co-maintainer of Compound Engineering",
+          summary: "Compound Engineering: a plugin of 38 skills built around a brainstorm → plan → work → compound loop.",
+          strengths: [
+            "/ce-brainstorm and /ce-plan grow requirements into an implementation-ready plan",
+            "/ce-work carries out the plan, then simplifies, reviews and commits before opening a PR",
+            "/ce-compound saves learnings to docs/solutions/, and the next /ce-plan reads them back",
+          ],
+        },
+        lifeos: {
+          credential: "Security researcher, creator of Fabric",
+          summary: "LifeOS: a personal AI harness on Claude Code that gives the agent your goals, context and memory.",
+          strengths: [
+            "Persistent memory of past sessions, decisions and learnings",
+            "97 public skills, from research and security to writing, art and video",
+            "The installer merges settings instead of overwriting them and never touches your USER/ folder",
+          ],
+        },
+        tstack: {
+          credential: "CEO of Ping.gg, creator of the T3 Stack",
+          summary: "tstack: the agent skills Theo uses every day, cleaned up for anyone to use.",
+          strengths: [
+            "full-send takes a change all the way to a merged PR: proof, review, PR, babysitting and merge",
+            "council has three models from different providers review the work and loops until they agree",
+            "takeover finishes someone else's PR, branch or agent thread while keeping their credit",
           ],
         },
       },

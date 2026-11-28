@@ -1,0 +1,111 @@
+{
+  "name": "Hugo",
+  "slug": "hugo",
+  "description": "Fast static site generator written in Go that turns Markdown content and templates into complete websites, shipped as a single binary with no dependencies. For blogs, documentation and company sites that should be served as plain static files.",
+  "repository": "https://github.com/gohugoio/hugo",
+  "website": "https://gohugo.io",
+  "documentation": "https://gohugo.io/documentation/",
+  "categories": [
+    "cms"
+  ],
+  "keywords": [
+    "static site generator",
+    "markdown",
+    "go templates",
+    "jamstack",
+    "documentation site",
+    "blog"
+  ],
+  "longDescription": "Hugo is a static site generator that builds websites from Markdown and other content files, layout templates or a ready-made theme, and a configuration file. It ships as one self-contained executable with no runtime dependencies and is known for rendering sites with thousands of pages in seconds, which keeps the edit-and-preview loop with its built-in live-reload server fast. The output is plain HTML, CSS and JavaScript that can be hosted on any web server, CDN or static hosting service.\n\nContent is organized into sections, taxonomies such as tags and categories, and multilingual variants, while Go-based templates control the layout. Hugo also includes image processing, an asset pipeline with Sass compilation and JavaScript bundling, shortcodes for reusable snippets, data files, and Hugo Modules for sharing themes and components. It is a common choice for blogs, documentation, portfolios and company sites. The template language takes some getting used to, and there is no built-in editing interface or database, so non-technical editors usually need a Git-based CMS on top.",
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Markdown 콘텐츠와 템플릿을 완성된 웹사이트로 바꿔 주는 Go 기반의 빠른 정적 사이트 생성기로, 의존성 없는 단일 바이너리로 배포됩니다. 정적 파일로 서비스하려는 블로그, 문서, 회사 사이트에 적합합니다.",
+      "longDescription": "Hugo는 Markdown 등의 콘텐츠 파일, 레이아웃 템플릿이나 기성 테마, 설정 파일로 웹사이트를 빌드하는 정적 사이트 생성기입니다. 런타임 의존성이 없는 실행 파일 하나로 배포되며, 수천 페이지짜리 사이트도 몇 초 만에 렌더링하는 것으로 유명합니다. 덕분에 내장된 라이브 리로드 서버로 편집하고 미리 보는 과정이 매우 빠릅니다. 결과물은 순수한 HTML, CSS, JavaScript이므로 어떤 웹 서버, CDN, 정적 호스팅 서비스에도 올릴 수 있습니다.\n\n콘텐츠는 섹션, 태그·카테고리 같은 택소노미, 다국어 버전으로 구성하고, 레이아웃은 Go 기반 템플릿으로 제어합니다. 이미지 처리, Sass 컴파일과 JavaScript 번들링을 지원하는 에셋 파이프라인, 재사용 가능한 조각을 위한 쇼트코드, 데이터 파일, 테마와 컴포넌트를 공유하는 Hugo Modules도 포함되어 있습니다. 블로그, 문서, 포트폴리오, 회사 사이트에 흔히 쓰입니다. 템플릿 언어에 익숙해지는 데 시간이 걸리고 편집 화면이나 데이터베이스가 따로 없으므로, 비개발자 편집자가 쓰려면 보통 Git 기반 CMS를 함께 붙입니다.",
+      "keywords": [
+        "정적 사이트 생성기",
+        "마크다운",
+        "Go 템플릿",
+        "잼스택",
+        "문서 사이트",
+        "블로그"
+      ],
+      "rationale": "가장 널리 알려진 Go 기반 정적 사이트 생성기로 사용자층이 매우 넓습니다. 단일 바이너리와 템플릿 중심 방식으로 Astro를 보완하며, Decap 같은 Git 기반 CMS와도 자연스럽게 어울립니다."
+    },
+    "ja": {
+      "description": "Markdown のコンテンツとテンプレートから完成した Web サイトを生成する、Go 製の高速な静的サイトジェネレーターです。依存関係のない単一バイナリで提供され、静的ファイルとして配信したいブログ、ドキュメント、企業サイトに向いています。",
+      "longDescription": "Hugo は、Markdown などのコンテンツファイル、レイアウトテンプレートまたは既製のテーマ、設定ファイルから Web サイトをビルドする静的サイトジェネレーターです。ランタイム依存のない単一の実行ファイルとして配布され、数千ページ規模のサイトでも数秒でレンダリングできることで知られています。そのため、組み込みのライブリロードサーバーを使った編集とプレビューのサイクルがとても速く回ります。出力は素の HTML、CSS、JavaScript なので、任意の Web サーバー、CDN、静的ホスティングサービスで公開できます。\n\nコンテンツはセクション、タグやカテゴリーなどのタクソノミー、多言語版で整理し、レイアウトは Go ベースのテンプレートで制御します。画像処理、Sass のコンパイルや JavaScript のバンドルを行うアセットパイプライン、再利用できるスニペットとしてのショートコード、データファイル、テーマやコンポーネントを共有する Hugo Modules も備えています。ブログ、ドキュメント、ポートフォリオ、企業サイトでよく使われます。テンプレート言語には慣れが必要で、編集画面やデータベースは持たないため、技術者以外が編集する場合は Git ベースの CMS を組み合わせるのが一般的です。",
+      "keywords": [
+        "静的サイトジェネレーター",
+        "Markdown",
+        "Go テンプレート",
+        "Jamstack",
+        "ドキュメントサイト",
+        "ブログ"
+      ],
+      "rationale": "最もよく知られた Go 製の静的サイトジェネレーターで、利用者が非常に多いプロジェクトです。単一バイナリでテンプレート主体のアプローチは Astro を補完し、Decap のような Git ベースの CMS とも自然に組み合わせられます。"
+    },
+    "zh-CN": {
+      "description": "用 Go 编写的高速静态网站生成器，可将 Markdown 内容和模板生成完整网站，以无依赖的单个二进制文件发布。适合希望以纯静态文件提供服务的博客、文档站和企业网站。",
+      "longDescription": "Hugo 是一款静态网站生成器，根据 Markdown 等内容文件、布局模板或现成主题以及配置文件来构建网站。它以一个不依赖任何运行时的独立可执行文件发布，以能在几秒内渲染包含数千个页面的网站而闻名，因此配合内置的实时重载服务器，编辑与预览的循环非常迅速。生成结果是纯 HTML、CSS 和 JavaScript，可以部署到任何 Web 服务器、CDN 或静态托管服务上。\n\n内容按栏目、标签和分类等分类法以及多语言版本来组织，布局则由基于 Go 的模板控制。Hugo 还内置图片处理、支持 Sass 编译和 JavaScript 打包的资源管道、用于复用片段的短代码、数据文件，以及用于共享主题和组件的 Hugo Modules。它常用于博客、文档、作品集和企业网站。其模板语言需要一定时间适应，而且没有内置的编辑界面或数据库，因此如果有非技术人员参与编辑，通常需要再搭配一个基于 Git 的 CMS。",
+      "keywords": [
+        "静态网站生成器",
+        "Markdown",
+        "Go 模板",
+        "Jamstack",
+        "文档站点",
+        "博客"
+      ],
+      "rationale": "最知名的 Go 静态网站生成器，用户基础庞大；其单二进制、以模板为核心的方式与 Astro 形成互补，也能与 Decap 等基于 Git 的 CMS 自然搭配。"
+    },
+    "es": {
+      "description": "Generador de sitios estáticos muy rápido escrito en Go que convierte contenido Markdown y plantillas en sitios web completos, distribuido como un único binario sin dependencias. Para blogs, documentación y webs corporativas servidas como archivos estáticos.",
+      "longDescription": "Hugo es un generador de sitios estáticos que construye sitios web a partir de archivos de contenido en Markdown u otros formatos, plantillas de diseño o un tema ya hecho, y un archivo de configuración. Se distribuye como un único ejecutable autónomo sin dependencias de ejecución y es conocido por renderizar sitios con miles de páginas en segundos, lo que hace que el ciclo de editar y previsualizar con su servidor de recarga en vivo integrado sea muy ágil. El resultado es HTML, CSS y JavaScript sin más, que se puede alojar en cualquier servidor web, CDN o servicio de hosting estático.\n\nEl contenido se organiza en secciones, taxonomías como etiquetas y categorías, y variantes multilingües, mientras que las plantillas basadas en Go controlan el diseño. Hugo incluye además procesamiento de imágenes, una canalización de recursos con compilación de Sass y empaquetado de JavaScript, shortcodes para fragmentos reutilizables, archivos de datos y Hugo Modules para compartir temas y componentes. Es una opción habitual para blogs, documentación, portafolios y webs de empresa. Su lenguaje de plantillas requiere cierto tiempo de adaptación y no trae interfaz de edición ni base de datos, así que los editores no técnicos suelen necesitar un CMS basado en Git por encima.",
+      "keywords": [
+        "generador de sitios estáticos",
+        "markdown",
+        "plantillas go",
+        "jamstack",
+        "sitio de documentación",
+        "blog"
+      ],
+      "rationale": "El generador de sitios estáticos en Go más conocido y con una enorme base de usuarios; complementa a Astro con un enfoque de binario único basado en plantillas y combina de forma natural con CMS basados en Git como Decap."
+    },
+    "de": {
+      "description": "Schneller Static-Site-Generator in Go, der Markdown-Inhalte und Templates zu vollständigen Websites verarbeitet und als einzelne Binärdatei ohne Abhängigkeiten ausgeliefert wird. Für Blogs, Dokumentation und Firmenseiten, die als statische Dateien laufen sollen.",
+      "longDescription": "Hugo ist ein Static-Site-Generator, der Websites aus Markdown- und anderen Inhaltsdateien, Layout-Templates oder einem fertigen Theme sowie einer Konfigurationsdatei baut. Er wird als eine eigenständige ausführbare Datei ohne Laufzeitabhängigkeiten ausgeliefert und ist dafür bekannt, selbst Sites mit Tausenden Seiten in Sekunden zu rendern. Dadurch bleibt der Zyklus aus Bearbeiten und Vorschau mit dem eingebauten Live-Reload-Server sehr kurz. Das Ergebnis ist reines HTML, CSS und JavaScript, das sich auf jedem Webserver, CDN oder statischen Hosting-Dienst bereitstellen lässt.\n\nInhalte werden in Sektionen, Taxonomien wie Tags und Kategorien sowie mehrsprachige Varianten gegliedert, das Layout steuern Go-basierte Templates. Dazu kommen Bildverarbeitung, eine Asset-Pipeline mit Sass-Kompilierung und JavaScript-Bundling, Shortcodes für wiederverwendbare Bausteine, Datendateien und Hugo Modules zum Teilen von Themes und Komponenten. Hugo ist eine verbreitete Wahl für Blogs, Dokumentation, Portfolios und Unternehmenswebsites. Die Template-Sprache erfordert etwas Eingewöhnung, und es gibt weder eine Bearbeitungsoberfläche noch eine Datenbank, sodass nicht-technische Redakteure meist ein Git-basiertes CMS darüber brauchen.",
+      "keywords": [
+        "Static-Site-Generator",
+        "Markdown",
+        "Go-Templates",
+        "Jamstack",
+        "Dokumentationsseite",
+        "Blog"
+      ],
+      "rationale": "Der bekannteste Static-Site-Generator in Go mit sehr großer Verbreitung; ergänzt Astro um einen template-basierten Ansatz als einzelne Binärdatei und passt gut zu Git-basierten CMS wie Decap."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2013-07-04",
+      "archived": false,
+      "openIssuesCount": 218,
+      "stargazersCount": 90578,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 93,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The best-known Go static site generator with huge adoption; it complements Astro with a single-binary, template-driven approach and pairs naturally with Git-based CMSs like Decap."
+    },
+    "flag": "ok"
+  }
+}

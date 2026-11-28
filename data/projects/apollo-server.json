@@ -1,0 +1,117 @@
+{
+  "name": "Apollo Server",
+  "slug": "apollo-server",
+  "description": "Spec-compliant GraphQL server for Node.js that runs standalone, inside existing web frameworks or serverless functions, or as a subgraph in a federated graph. For teams building GraphQL APIs in TypeScript or JavaScript.",
+  "repository": "https://github.com/apollographql/apollo-server",
+  "website": "https://www.apollographql.com/docs/apollo-server/",
+  "documentation": "https://www.apollographql.com/docs/apollo-server",
+  "categories": [
+    "api"
+  ],
+  "keywords": [
+    "graphql",
+    "graphql server",
+    "nodejs",
+    "typescript",
+    "apollo federation",
+    "api"
+  ],
+  "longDescription": "Apollo Server is an open-source GraphQL server library for Node.js maintained by Apollo GraphQL. You give it a schema written in the GraphQL schema language and a set of resolver functions, and it takes care of parsing, validating and executing operations, formatting errors and serving the endpoint. It works with any GraphQL client, not just Apollo's own, and can pull data from databases, REST services or any other source the resolvers call.\n\nThe @apollo/server package includes a minimal standalone HTTP server, and integration packages connect it to Express and other frameworks or serverless platforms. A plugin system hooks into the request lifecycle for logging, caching, tracing and custom behaviour, and the same library can act as a subgraph in an Apollo Federation supergraph. Typical uses are public or internal GraphQL APIs and backend-for-frontend layers. Some capabilities around federated routing, schema registries and observability live in Apollo's commercial GraphOS platform rather than in this repository.",
+  "languages": [
+    "TypeScript",
+    "JavaScript"
+  ],
+  "packages": {
+    "npm": [
+      "@apollo/server"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "단독으로, 기존 웹 프레임워크나 서버리스 함수 안에서, 또는 페더레이션 그래프의 서브그래프로 실행할 수 있는 사양 준수 Node.js용 GraphQL 서버입니다. TypeScript나 JavaScript로 GraphQL API를 만드는 팀을 위한 도구입니다.",
+      "longDescription": "Apollo Server는 Apollo GraphQL이 관리하는 Node.js용 오픈소스 GraphQL 서버 라이브러리입니다. GraphQL 스키마 언어로 작성한 스키마와 리졸버 함수들을 넘겨주면 연산의 파싱, 검증, 실행, 에러 포맷팅, 엔드포인트 제공까지 처리합니다. Apollo 자체 클라이언트뿐 아니라 어떤 GraphQL 클라이언트와도 함께 쓸 수 있으며, 리졸버가 호출하는 데이터베이스, REST 서비스 등 어떤 소스에서든 데이터를 가져올 수 있습니다.\n\n@apollo/server 패키지에는 최소한의 독립 실행형 HTTP 서버가 들어 있고, 통합 패키지를 통해 Express를 비롯한 다른 프레임워크나 서버리스 플랫폼에 연결할 수 있습니다. 플러그인 시스템으로 요청 라이프사이클에 끼어들어 로깅, 캐싱, 트레이싱, 사용자 정의 동작을 추가할 수 있고, 같은 라이브러리를 Apollo Federation 슈퍼그래프의 서브그래프로도 쓸 수 있습니다. 공개·사내 GraphQL API와 BFF(backend-for-frontend) 계층에 주로 쓰입니다. 페더레이션 라우팅, 스키마 레지스트리, 관측성 관련 일부 기능은 이 저장소가 아니라 Apollo의 상용 플랫폼 GraphOS에 있습니다.",
+      "keywords": [
+        "graphql",
+        "graphql 서버",
+        "nodejs",
+        "typescript",
+        "apollo federation",
+        "api"
+      ],
+      "rationale": "가장 널리 쓰이는 JavaScript GraphQL 서버로, 직접 작성한 스키마와 리졸버를 위한 라이브러리 방식을 제공해 Hasura의 자동 생성 GraphQL 계층을 보완하는 api 카테고리의 훌륭한 선택지입니다."
+    },
+    "ja": {
+      "description": "単体で、既存の Web フレームワークやサーバーレス関数の中で、あるいはフェデレーションされたグラフのサブグラフとして動かせる、仕様準拠の Node.js 向け GraphQL サーバーです。TypeScript や JavaScript で GraphQL API を作るチーム向けです。",
+      "longDescription": "Apollo Server は、Apollo GraphQL が保守している Node.js 向けのオープンソース GraphQL サーバーライブラリです。GraphQL のスキーマ言語で書いたスキーマとリゾルバー関数を渡すと、オペレーションの解析、検証、実行、エラーの整形、エンドポイントの提供までを引き受けます。Apollo 自身のクライアントに限らずあらゆる GraphQL クライアントと組み合わせられ、リゾルバーが呼び出すデータベースや REST サービスなど、どんなソースからでもデータを取得できます。\n\n@apollo/server パッケージには最小限のスタンドアロン HTTP サーバーが含まれており、統合パッケージを使えば Express をはじめとする他のフレームワークやサーバーレス環境に接続できます。プラグインの仕組みでリクエストのライフサイクルにフックし、ロギング、キャッシュ、トレーシング、独自の処理を加えられるほか、同じライブラリを Apollo Federation のスーパーグラフにおけるサブグラフとしても使えます。公開・社内向けの GraphQL API や BFF（backend-for-frontend）層が主な用途です。フェデレーションのルーティング、スキーマレジストリ、オブザーバビリティに関する一部の機能は、このリポジトリではなく Apollo の商用プラットフォーム GraphOS にあります。",
+      "keywords": [
+        "graphql",
+        "graphql サーバー",
+        "nodejs",
+        "typescript",
+        "apollo federation",
+        "api"
+      ],
+      "rationale": "最も広く使われている JavaScript の GraphQL サーバーです。手書きのスキーマとリゾルバー向けのライブラリとして、Hasura の自動生成型 GraphQL 層を補う api カテゴリの有力な選択肢です。"
+    },
+    "zh-CN": {
+      "description": "一个符合规范的 Node.js GraphQL 服务器，可以独立运行、嵌入现有 Web 框架或无服务器函数，也可以作为联邦图中的子图，适合用 TypeScript 或 JavaScript 构建 GraphQL API 的团队。",
+      "longDescription": "Apollo Server 是由 Apollo GraphQL 维护的开源 Node.js GraphQL 服务器库。你提供用 GraphQL 模式语言编写的模式和一组解析器（resolver）函数，它就负责解析、校验和执行操作，格式化错误并对外提供端点。它可以配合任何 GraphQL 客户端使用，而不仅限于 Apollo 自家的客户端，也能从数据库、REST 服务或解析器调用的任何其他来源获取数据。\n\n@apollo/server 包内置一个精简的独立 HTTP 服务器，并通过集成包接入 Express 以及其他框架或无服务器平台。插件系统可以挂接到请求生命周期中，实现日志、缓存、链路追踪和自定义行为；同一个库还可以作为 Apollo Federation 超级图中的子图。典型用途包括对外或内部的 GraphQL API 以及 BFF（backend-for-frontend）层。联邦路由、模式注册中心和可观测性方面的部分功能位于 Apollo 的商业平台 GraphOS 中，而不在本仓库里。",
+      "keywords": [
+        "graphql",
+        "graphql 服务器",
+        "nodejs",
+        "typescript",
+        "apollo federation",
+        "api"
+      ],
+      "rationale": "使用最广泛的 JavaScript GraphQL 服务器；它以面向手写模式和解析器的库形式，补充了 Hasura 自动生成 GraphQL 层的方式，是 api 分类中的有力选择。"
+    },
+    "es": {
+      "description": "Servidor GraphQL para Node.js conforme a la especificación, que funciona de forma independiente, dentro de frameworks web o funciones serverless, o como subgrafo de un grafo federado. Para equipos que crean APIs GraphQL en TypeScript o JavaScript.",
+      "longDescription": "Apollo Server es una biblioteca de servidor GraphQL de código abierto para Node.js mantenida por Apollo GraphQL. Le das un esquema escrito en el lenguaje de esquemas de GraphQL y un conjunto de funciones resolver, y se encarga de analizar, validar y ejecutar las operaciones, dar formato a los errores y servir el endpoint. Funciona con cualquier cliente GraphQL, no solo con el de Apollo, y puede obtener datos de bases de datos, servicios REST o cualquier otra fuente a la que llamen los resolvers.\n\nEl paquete @apollo/server incluye un servidor HTTP independiente mínimo, y los paquetes de integración lo conectan con Express y otros frameworks o plataformas serverless. Un sistema de plugins se engancha al ciclo de vida de cada petición para registro, caché, trazas y comportamiento personalizado, y la misma biblioteca puede actuar como subgrafo en un supergrafo de Apollo Federation. Se usa sobre todo en APIs GraphQL públicas o internas y en capas backend-for-frontend. Algunas capacidades de enrutamiento federado, registro de esquemas y observabilidad están en la plataforma comercial GraphOS de Apollo y no en este repositorio.",
+      "keywords": [
+        "graphql",
+        "servidor graphql",
+        "nodejs",
+        "typescript",
+        "apollo federation",
+        "api"
+      ],
+      "rationale": "El servidor GraphQL de JavaScript más usado; una opción sólida que complementa la capa GraphQL generada de Hasura con una biblioteca para esquemas y resolvers escritos a mano en la categoría api."
+    },
+    "de": {
+      "description": "Spezifikationskonformer GraphQL-Server für Node.js, der eigenständig, innerhalb bestehender Webframeworks oder Serverless-Funktionen oder als Subgraph in einem föderierten Graphen läuft. Für Teams, die GraphQL-APIs in TypeScript oder JavaScript bauen.",
+      "longDescription": "Apollo Server ist eine Open-Source-Bibliothek für GraphQL-Server unter Node.js, die von Apollo GraphQL gepflegt wird. Man übergibt ein in der GraphQL-Schemasprache geschriebenes Schema und eine Reihe von Resolver-Funktionen, und die Bibliothek übernimmt das Parsen, Validieren und Ausführen von Operationen, das Formatieren von Fehlern und das Bereitstellen des Endpunkts. Sie funktioniert mit jedem GraphQL-Client, nicht nur mit dem von Apollo, und kann Daten aus Datenbanken, REST-Diensten oder jeder anderen Quelle beziehen, die die Resolver aufrufen.\n\nDas Paket @apollo/server enthält einen minimalen eigenständigen HTTP-Server, und Integrationspakete binden es an Express sowie weitere Frameworks oder Serverless-Plattformen an. Ein Plugin-System klinkt sich für Logging, Caching, Tracing und eigenes Verhalten in den Request-Lebenszyklus ein, und dieselbe Bibliothek kann als Subgraph in einem Apollo-Federation-Supergraphen dienen. Typische Einsätze sind öffentliche oder interne GraphQL-APIs und Backend-for-Frontend-Schichten. Einige Funktionen rund um föderiertes Routing, Schema-Registry und Observability stecken in Apollos kommerzieller Plattform GraphOS statt in diesem Repository.",
+      "keywords": [
+        "graphql",
+        "graphql-server",
+        "nodejs",
+        "typescript",
+        "apollo federation",
+        "api"
+      ],
+      "rationale": "Der meistgenutzte GraphQL-Server für JavaScript; eine starke Wahl, die Hasuras generierte GraphQL-Schicht in der Kategorie api um eine Bibliothek für handgeschriebene Schemas und Resolver ergänzt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2016-04-21",
+      "archived": false,
+      "openIssuesCount": 100,
+      "stargazersCount": 13956,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely used JavaScript GraphQL server; a strong pick that complements Hasura's generated GraphQL layer with a library for hand-written schemas and resolvers in the api category."
+    },
+    "flag": "ok"
+  }
+}

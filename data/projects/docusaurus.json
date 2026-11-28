@@ -1,0 +1,117 @@
+{
+  "name": "Docusaurus",
+  "slug": "docusaurus",
+  "description": "Static site generator from Meta for documentation websites built with React and MDX, with versioned docs, a blog, translations and search support out of the box. For open source projects and product teams that want polished docs with little setup.",
+  "repository": "https://github.com/meta/docusaurus",
+  "website": "https://docusaurus.io",
+  "documentation": "https://docusaurus.io/docs",
+  "categories": [
+    "cms"
+  ],
+  "keywords": [
+    "documentation site",
+    "static site generator",
+    "react",
+    "mdx",
+    "docs versioning",
+    "i18n"
+  ],
+  "longDescription": "Docusaurus is a framework for building documentation websites. Writers add Markdown or MDX files to a folder, and Docusaurus generates a fast static site with sidebar navigation, a table of contents per page, dark mode and an optional blog, using React for the theme. Because MDX allows React components inside Markdown, pages can mix prose with tabs, admonitions, interactive examples and live code blocks. It started at Facebook, now Meta, to give its many open source projects consistent documentation and has since been adopted widely across the ecosystem.\n\nIts main strengths for docs are versioning that snapshots the documentation for each release, internationalization with a file-based translation workflow, a plugin system, and search through Algolia DocSearch or community local-search plugins. Themes can be adjusted with CSS or by swizzling individual React components. It fits product and open source documentation, developer portals and knowledge bases maintained in Git. Deeper customization requires React knowledge, there is no visual editor for non-technical writers, and large sites with many versions can have long build times.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "@docusaurus/core",
+      "@docusaurus/preset-classic"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Meta가 만든 React·MDX 기반 문서 웹사이트용 정적 사이트 생성기로, 버전별 문서, 블로그, 다국어 번역, 검색 지원을 기본으로 제공합니다. 손이 적게 가면서도 완성도 높은 문서를 원하는 오픈소스 프로젝트와 제품 팀에 적합합니다.",
+      "longDescription": "Docusaurus는 문서 웹사이트를 만들기 위한 프레임워크입니다. 작성자가 폴더에 Markdown이나 MDX 파일을 추가하면, Docusaurus가 React 테마를 사용해 사이드바 내비게이션, 페이지별 목차, 다크 모드, 선택형 블로그를 갖춘 빠른 정적 사이트를 생성합니다. MDX에서는 Markdown 안에 React 컴포넌트를 넣을 수 있어 탭, 안내 상자, 인터랙티브 예제, 실시간 코드 블록을 본문과 섞어 쓸 수 있습니다. Facebook(현 Meta)이 수많은 오픈소스 프로젝트의 문서를 일관되게 관리하려고 시작했으며, 지금은 생태계 전반에서 폭넓게 쓰이고 있습니다.\n\n문서 도구로서의 핵심 강점은 릴리스마다 문서를 스냅숏으로 남기는 버전 관리, 파일 기반 번역 워크플로를 갖춘 국제화, 플러그인 시스템, 그리고 Algolia DocSearch나 커뮤니티 로컬 검색 플러그인을 통한 검색입니다. 테마는 CSS로 조정하거나 개별 React 컴포넌트를 swizzling해 바꿀 수 있습니다. 제품·오픈소스 문서, 개발자 포털, Git으로 관리하는 지식 베이스에 잘 맞습니다. 깊이 커스터마이즈하려면 React 지식이 필요하고, 비개발자를 위한 시각적 편집기는 없으며, 버전이 많은 대형 사이트는 빌드 시간이 길어질 수 있습니다.",
+      "keywords": [
+        "문서 사이트",
+        "정적 사이트 생성기",
+        "React",
+        "MDX",
+        "문서 버전 관리",
+        "다국어 지원"
+      ],
+      "rationale": "가장 널리 쓰이는 React 기반 문서 사이트 생성기입니다. 카탈로그에 전용 문서 프레임워크가 없으며, 개발자 문서 용도로 기존 CMS들을 보완합니다."
+    },
+    "ja": {
+      "description": "Meta が開発した、React と MDX でドキュメントサイトを構築する静的サイトジェネレーターです。バージョン管理されたドキュメント、ブログ、翻訳、検索に標準で対応し、手間をかけずに洗練されたドキュメントを用意したい OSS プロジェクトや製品チームに向いています。",
+      "longDescription": "Docusaurus は、ドキュメント Web サイトを構築するためのフレームワークです。執筆者がフォルダーに Markdown や MDX のファイルを追加すると、Docusaurus が React ベースのテーマで、サイドバーのナビゲーション、ページごとの目次、ダークモード、任意のブログを備えた高速な静的サイトを生成します。MDX では Markdown の中に React コンポーネントを書けるため、タブ、注記ボックス、インタラクティブな例、ライブコードブロックを本文と組み合わせられます。Facebook(現 Meta)が多数のオープンソースプロジェクトのドキュメントを統一するために始めたもので、現在はエコシステム全体で広く採用されています。\n\nドキュメント用途での主な強みは、リリースごとにドキュメントのスナップショットを残すバージョニング、ファイルベースの翻訳ワークフローを備えた国際化、プラグインシステム、そして Algolia DocSearch やコミュニティ製のローカル検索プラグインによる検索です。テーマは CSS で調整するか、個々の React コンポーネントを swizzle して差し替えられます。製品や OSS のドキュメント、開発者ポータル、Git で管理するナレッジベースに適しています。踏み込んだカスタマイズには React の知識が必要で、技術者以外向けのビジュアルエディターはなく、バージョンの多い大規模サイトではビルドに時間がかかることがあります。",
+      "keywords": [
+        "ドキュメントサイト",
+        "静的サイトジェネレーター",
+        "React",
+        "MDX",
+        "ドキュメントのバージョン管理",
+        "多言語対応"
+      ],
+      "rationale": "最も広く使われている React ベースのドキュメントサイトジェネレーターです。カタログには専用のドキュメントフレームワークがなく、開発者向けドキュメントの用途で既存の CMS を補完します。"
+    },
+    "zh-CN": {
+      "description": "Meta 出品的静态网站生成器，基于 React 和 MDX 构建文档网站，开箱即用地支持文档版本、博客、多语言翻译和搜索。适合希望少折腾就能拥有精致文档的开源项目和产品团队。",
+      "longDescription": "Docusaurus 是一个用于构建文档网站的框架。作者只需把 Markdown 或 MDX 文件放进文件夹，Docusaurus 就会使用 React 主题生成一个快速的静态网站，带有侧边栏导航、每页目录、深色模式以及可选的博客。由于 MDX 允许在 Markdown 中使用 React 组件，页面可以把正文与标签页、提示框、交互示例和实时代码块结合起来。它最初由 Facebook(现 Meta)发起，目的是让旗下众多开源项目拥有统一的文档，如今已在整个生态中被广泛采用。\n\n它在文档方面的主要优势包括：为每个发布版本保存文档快照的版本管理、基于文件的翻译流程的国际化支持、插件系统，以及通过 Algolia DocSearch 或社区本地搜索插件实现的搜索。主题可以用 CSS 调整，也可以通过 swizzle 替换单个 React 组件。它适合产品和开源项目文档、开发者门户以及用 Git 维护的知识库。深度定制需要掌握 React，没有面向非技术作者的可视化编辑器，版本众多的大型站点构建时间也可能较长。",
+      "keywords": [
+        "文档站点",
+        "静态网站生成器",
+        "React",
+        "MDX",
+        "文档版本管理",
+        "国际化"
+      ],
+      "rationale": "使用最广泛的基于 React 的文档站点生成器；目录中尚无专门的文档框架，可在开发者文档场景中补充现有的 CMS。"
+    },
+    "es": {
+      "description": "Generador de sitios estáticos de Meta para crear webs de documentación con React y MDX, con documentación versionada, blog, traducciones y soporte de búsqueda de serie. Para proyectos open source y equipos de producto que quieren una documentación cuidada sin mucho esfuerzo.",
+      "longDescription": "Docusaurus es un framework para crear sitios web de documentación. Quien escribe añade archivos Markdown o MDX a una carpeta y Docusaurus genera un sitio estático rápido con navegación lateral, índice por página, modo oscuro y un blog opcional, usando React para el tema. Como MDX permite incluir componentes de React dentro de Markdown, las páginas pueden combinar texto con pestañas, avisos destacados, ejemplos interactivos y bloques de código en vivo. Nació en Facebook, hoy Meta, para dar una documentación coherente a sus numerosos proyectos open source y desde entonces se ha adoptado ampliamente en todo el ecosistema.\n\nSus principales puntos fuertes para documentación son el versionado, que guarda una instantánea de la documentación en cada versión publicada, la internacionalización con un flujo de traducción basado en archivos, un sistema de plugins y la búsqueda mediante Algolia DocSearch o plugins comunitarios de búsqueda local. Los temas se ajustan con CSS o mediante swizzling de componentes React concretos. Encaja en documentación de producto y de proyectos open source, portales para desarrolladores y bases de conocimiento mantenidas en Git. La personalización profunda exige saber React, no hay editor visual para redactores no técnicos y los sitios grandes con muchas versiones pueden tardar bastante en compilarse.",
+      "keywords": [
+        "sitio de documentación",
+        "generador de sitios estáticos",
+        "react",
+        "mdx",
+        "versionado de documentación",
+        "internacionalización"
+      ],
+      "rationale": "El generador de sitios de documentación basado en React más utilizado; el catálogo no tenía ningún framework dedicado a documentación, y complementa las opciones de CMS para documentación técnica."
+    },
+    "de": {
+      "description": "Static-Site-Generator von Meta für Dokumentationswebsites auf Basis von React und MDX, mit versionierter Doku, Blog, Übersetzungen und Suchanbindung direkt ab Werk. Für Open-Source-Projekte und Produktteams, die mit wenig Aufwand eine gepflegte Dokumentation wollen.",
+      "longDescription": "Docusaurus ist ein Framework für Dokumentationswebsites. Autorinnen und Autoren legen Markdown- oder MDX-Dateien in einem Ordner ab, und Docusaurus erzeugt daraus mit einem React-Theme eine schnelle statische Site mit Seitenleisten-Navigation, Inhaltsverzeichnis pro Seite, Dark Mode und optionalem Blog. Da MDX React-Komponenten direkt im Markdown erlaubt, lassen sich Fließtext, Tabs, Hinweisboxen, interaktive Beispiele und Live-Codeblöcke kombinieren. Entstanden ist es bei Facebook, heute Meta, um den vielen eigenen Open-Source-Projekten eine einheitliche Dokumentation zu geben; inzwischen ist es im gesamten Ökosystem weit verbreitet.\n\nSeine wichtigsten Stärken für Dokumentation sind die Versionierung, die für jedes Release einen Stand der Doku festhält, die Internationalisierung mit dateibasiertem Übersetzungs-Workflow, ein Plugin-System und die Suche über Algolia DocSearch oder Community-Plugins für lokale Suche. Themes lassen sich per CSS anpassen oder durch Swizzling einzelner React-Komponenten austauschen. Es eignet sich für Produkt- und Open-Source-Dokumentation, Entwicklerportale und in Git gepflegte Wissensdatenbanken. Tiefere Anpassungen setzen React-Kenntnisse voraus, einen visuellen Editor für nicht-technische Autoren gibt es nicht, und große Sites mit vielen Versionen können lange Build-Zeiten haben.",
+      "keywords": [
+        "Dokumentationsseite",
+        "Static-Site-Generator",
+        "React",
+        "MDX",
+        "Doku-Versionierung",
+        "Internationalisierung"
+      ],
+      "rationale": "Der meistgenutzte React-basierte Generator für Dokumentationsseiten; im Katalog gab es bisher kein eigenes Doku-Framework, und es ergänzt die CMS-Optionen für Entwicklerdokumentation."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2017-06-20",
+      "archived": false,
+      "openIssuesCount": 458,
+      "stargazersCount": 66819,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most widely used React-based documentation site generator; the catalog had no dedicated docs framework, and it complements the CMS options for developer documentation."
+    },
+    "flag": "ok"
+  }
+}

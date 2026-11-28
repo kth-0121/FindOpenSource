@@ -252,11 +252,11 @@ const dictionary: Dictionary = {
       },
       ml: {
         title: "Hugging Face 머신러닝",
-        description: "Hub 작업, 데이터셋, 모델 학습과 평가.",
+        description: "Hub 작업, 데이터셋, 모델 학습과 선택.",
         benefits: [
           "hf CLI로 Hub의 모델·데이터셋·Space를 관리",
           "Dataset Viewer API로 데이터셋을 탐색·검색·필터링",
-          "TRL·Unsloth로 파인튜닝(SFT, DPO, GRPO)하고 inspect-ai·lighteval로 로컬 평가",
+          "TRL로 후속 학습(SFT, DPO, GRPO)하고 벤치마크 점수로 작업에 맞는 모델 찾기",
         ],
       },
       shortform: {
@@ -360,6 +360,42 @@ const dictionary: Dictionary = {
             "무엇을 만들려는지 먼저 묻고 스펙을 읽기 쉬운 짧은 단위로 보여줌",
             "진짜 레드/그린 TDD, YAGNI, DRY 중심으로 구현 계획을 세움",
             "서브에이전트 주도 개발로 몇 시간씩 계획대로 자율 작업",
+          ],
+        },
+        addy: {
+          credential: "『Learning JavaScript Design Patterns』 저자, 전 Google Chrome 개발자 경험 리드",
+          summary: "Agent Skills: 스펙부터 배포까지 개발 전 과정을 다루는 실무용 엔지니어링 스킬.",
+          strengths: [
+            "/spec, /plan, /build, /test, /review, /ship 등 10개 슬래시 명령어로 개발 전 과정을 진행",
+            "/build가 계획을 세우고, 한 번 승인하면 모든 작업을 테스트 우선으로 만들고 작업마다 커밋",
+            "/webperf와 /a11y로 웹 성능과 접근성을 점검",
+          ],
+        },
+        "compound-engineering": {
+          credential: "Every의 Compound Engineer, Compound Engineering 공동 관리자",
+          summary: "Compound Engineering: 브레인스토밍 → 계획 → 작업 → 축적 루프로 짜인 38개 스킬 플러그인.",
+          strengths: [
+            "/ce-brainstorm과 /ce-plan으로 요구 사항을 바로 구현할 수 있는 계획으로 발전",
+            "/ce-work가 계획을 실행한 뒤 단순화·리뷰·커밋까지 마치고 PR을 생성",
+            "/ce-compound가 배운 점을 docs/solutions/에 남기고, 다음 /ce-plan이 이를 다시 참고",
+          ],
+        },
+        lifeos: {
+          credential: "보안 연구자, Fabric 제작자",
+          summary: "LifeOS: 목표·맥락·기억을 에이전트에게 주는 Claude Code 기반 개인 AI 하네스.",
+          strengths: [
+            "지난 세션의 내용, 결정, 배운 점을 계속 기억",
+            "리서치·보안부터 글쓰기·그림·영상까지 97개 공개 스킬",
+            "설치 시 기존 설정을 덮어쓰지 않고 합치며, USER/ 폴더는 건드리지 않음",
+          ],
+        },
+        tstack: {
+          credential: "Ping.gg CEO, T3 Stack 제작자",
+          summary: "tstack: Theo가 매일 쓰는 에이전트 스킬을 누구나 쓰기 좋게 정리한 모음.",
+          strengths: [
+            "full-send가 변경 사항을 검증·리뷰·PR 작성·관리·머지까지 끝까지 처리",
+            "council이 서로 다른 회사의 모델 세 개에게 리뷰를 받고 의견이 일치할 때까지 반복",
+            "takeover가 다른 사람의 PR·브랜치·에이전트 작업을 이어받아 마무리하고 기여자 표시는 유지",
           ],
         },
       },

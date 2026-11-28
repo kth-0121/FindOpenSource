@@ -1,0 +1,117 @@
+{
+  "name": "OpenAPI Generator",
+  "slug": "openapi-generator",
+  "description": "Code generator that turns OpenAPI definitions into API client libraries, server stubs, documentation and configuration in dozens of languages and frameworks. For teams that want consistent SDKs and servers derived from one spec.",
+  "repository": "https://github.com/OpenAPITools/openapi-generator",
+  "website": "https://openapi-generator.tech",
+  "documentation": "https://openapi-generator.tech/docs/installation",
+  "categories": [
+    "api",
+    "developer-tools"
+  ],
+  "keywords": [
+    "openapi",
+    "code generation",
+    "sdk generator",
+    "api client",
+    "server stubs",
+    "rest api"
+  ],
+  "longDescription": "OpenAPI Generator reads an OpenAPI 2.0 or 3.x document and produces source code from it: client SDKs, server stubs, API documentation, schema files and configuration. It started in 2018 as a community fork of Swagger Codegen and now ships a long list of generators for languages and frameworks such as TypeScript, Java, Kotlin, Python, Go, C#, Rust, PHP and Swift, each with its own options for libraries, serialisation and naming.\n\nIt can run as a standalone JAR, through a Docker image, from an npm wrapper or via Maven and Gradle plugins, which makes it easy to regenerate code in CI whenever the spec changes. Generators are template-driven, so teams commonly override templates or write custom generators to match their conventions. Typical uses include publishing SDKs for public APIs, keeping frontend and microservice clients in sync with backend contracts and bootstrapping server skeletons. Output quality and feature coverage vary noticeably between generators, and the very large open issue count reflects how many targets the project tries to support.",
+  "languages": [
+    "Java"
+  ],
+  "packages": {
+    "npm": [
+      "@openapitools/openapi-generator-cli"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "OpenAPI 정의로부터 수십 가지 언어와 프레임워크용 API 클라이언트 라이브러리, 서버 스텁, 문서, 설정 파일을 만들어 내는 코드 생성기입니다. 하나의 명세에서 일관된 SDK와 서버를 얻고 싶은 팀을 위한 도구입니다.",
+      "longDescription": "OpenAPI Generator는 OpenAPI 2.0 또는 3.x 문서를 읽어 클라이언트 SDK, 서버 스텁, API 문서, 스키마 파일, 설정 파일 같은 소스 코드를 만들어 냅니다. 2018년 Swagger Codegen의 커뮤니티 포크로 시작했으며, 지금은 TypeScript, Java, Kotlin, Python, Go, C#, Rust, PHP, Swift 등 수많은 언어와 프레임워크를 위한 생성기를 제공하고, 생성기마다 라이브러리, 직렬화, 명명 방식에 관한 옵션이 따로 있습니다.\n\n독립 실행형 JAR, Docker 이미지, npm 래퍼, Maven·Gradle 플러그인으로 실행할 수 있어 명세가 바뀔 때마다 CI에서 코드를 다시 생성하기 쉽습니다. 생성기는 템플릿 기반이라 팀의 규칙에 맞게 템플릿을 덮어쓰거나 사용자 정의 생성기를 작성하는 경우가 많습니다. 공개 API용 SDK 배포, 프런트엔드와 마이크로서비스 클라이언트를 백엔드 계약과 동기화하는 작업, 서버 골격 생성에 주로 쓰입니다. 생성기마다 출력 품질과 기능 범위의 차이가 꽤 크며, 매우 많은 미해결 이슈 수는 이 프로젝트가 지원하려는 대상이 그만큼 많다는 것을 보여 줍니다.",
+      "keywords": [
+        "openapi",
+        "코드 생성",
+        "sdk 생성기",
+        "api 클라이언트",
+        "서버 스텁",
+        "rest api"
+      ],
+      "rationale": "클라이언트와 서버를 위한 가장 포괄적인 오픈소스 OpenAPI 코드 생성기로, API 워크플로에서 명세를 코드로 바꾸는 쪽을 맡아 Swagger UI를 보완하는 훌륭한 선택지입니다."
+    },
+    "ja": {
+      "description": "OpenAPI の定義から、数十の言語やフレームワーク向けの API クライアントライブラリ、サーバースタブ、ドキュメント、設定ファイルを生成するコードジェネレーターです。ひとつの仕様から一貫した SDK とサーバーを得たいチーム向けです。",
+      "longDescription": "OpenAPI Generator は、OpenAPI 2.0 または 3.x のドキュメントを読み込み、クライアント SDK、サーバースタブ、API ドキュメント、スキーマファイル、設定ファイルといったソースコードを生成します。2018 年に Swagger Codegen のコミュニティフォークとして始まり、現在は TypeScript、Java、Kotlin、Python、Go、C#、Rust、PHP、Swift など多数の言語やフレームワーク向けのジェネレーターを備え、それぞれにライブラリ、シリアライズ、命名に関するオプションがあります。\n\n単体の JAR、Docker イメージ、npm ラッパー、Maven や Gradle のプラグインから実行できるため、仕様が変わるたびに CI でコードを再生成するのも簡単です。ジェネレーターはテンプレート駆動なので、チームの規約に合わせてテンプレートを上書きしたり、独自のジェネレーターを書いたりするのが一般的です。公開 API 向け SDK の配布、フロントエンドやマイクロサービスのクライアントをバックエンドの契約と同期させること、サーバーの骨組みの作成などが主な用途です。ジェネレーターごとに出力品質や機能の網羅度にかなり差があり、非常に多い未解決 Issue の数は、このプロジェクトがサポートしようとしている対象の多さを物語っています。",
+      "keywords": [
+        "openapi",
+        "コード生成",
+        "sdk ジェネレーター",
+        "api クライアント",
+        "サーバースタブ",
+        "rest api"
+      ],
+      "rationale": "クライアントとサーバーの両方に対応する最も包括的なオープンソースの OpenAPI コードジェネレーターです。API ワークフローのうち仕様からコードへの部分を担い、Swagger UI を補う有力な選択肢です。"
+    },
+    "zh-CN": {
+      "description": "一个代码生成器，可根据 OpenAPI 定义为数十种语言和框架生成 API 客户端库、服务端桩代码、文档和配置，适合希望从同一份规范得到一致 SDK 和服务端的团队。",
+      "longDescription": "OpenAPI Generator 读取 OpenAPI 2.0 或 3.x 文档，并据此生成源代码：客户端 SDK、服务端桩代码、API 文档、模式文件和配置文件。它于 2018 年作为 Swagger Codegen 的社区分支起步，如今提供大量生成器，覆盖 TypeScript、Java、Kotlin、Python、Go、C#、Rust、PHP、Swift 等语言和框架，每个生成器都有关于所用库、序列化和命名的独立选项。\n\n它可以作为独立 JAR、通过 Docker 镜像、借助 npm 包装器或通过 Maven 和 Gradle 插件运行，因此很容易在 CI 中随规范变化重新生成代码。生成器基于模板，团队通常会覆盖模板或编写自定义生成器来符合自己的规范。典型用途包括为公开 API 发布 SDK、让前端和微服务客户端与后端契约保持同步，以及快速搭建服务端骨架。不同生成器之间的输出质量和功能覆盖差异明显，而数量庞大的未关闭 issue 也反映出该项目试图支持的目标之多。",
+      "keywords": [
+        "openapi",
+        "代码生成",
+        "sdk 生成器",
+        "api 客户端",
+        "服务端桩代码",
+        "rest api"
+      ],
+      "rationale": "覆盖客户端和服务端的最全面的开源 OpenAPI 代码生成器；负责 API 工作流中从规范到代码的环节，是对 Swagger UI 的有力补充。"
+    },
+    "es": {
+      "description": "Generador de código que convierte definiciones OpenAPI en bibliotecas cliente, stubs de servidor, documentación y configuración para decenas de lenguajes y frameworks. Para equipos que quieren SDKs y servidores coherentes derivados de una sola especificación.",
+      "longDescription": "OpenAPI Generator lee un documento OpenAPI 2.0 o 3.x y produce código a partir de él: SDKs cliente, stubs de servidor, documentación de la API, archivos de esquema y configuración. Nació en 2018 como un fork comunitario de Swagger Codegen y hoy incluye una larga lista de generadores para lenguajes y frameworks como TypeScript, Java, Kotlin, Python, Go, C#, Rust, PHP y Swift, cada uno con sus propias opciones de bibliotecas, serialización y nomenclatura.\n\nPuede ejecutarse como JAR independiente, mediante una imagen de Docker, desde un wrapper de npm o con plugins de Maven y Gradle, lo que facilita regenerar el código en CI cada vez que cambia la especificación. Los generadores se basan en plantillas, así que es habitual sobrescribirlas o escribir generadores propios para ajustarse a las convenciones del equipo. Se usa sobre todo para publicar SDKs de APIs públicas, mantener los clientes de front end y microservicios sincronizados con los contratos del backend y crear esqueletos de servidor. La calidad del resultado y la cobertura de funciones varían bastante entre generadores, y el enorme número de issues abiertas refleja la cantidad de destinos que el proyecto intenta soportar.",
+      "keywords": [
+        "openapi",
+        "generación de código",
+        "generador de sdk",
+        "cliente de api",
+        "stubs de servidor",
+        "api rest"
+      ],
+      "rationale": "El generador de código OpenAPI de código abierto más completo para clientes y servidores; una opción sólida que complementa a Swagger UI al cubrir el paso de la especificación al código."
+    },
+    "de": {
+      "description": "Codegenerator, der aus OpenAPI-Definitionen API-Clientbibliotheken, Server-Stubs, Dokumentation und Konfiguration für Dutzende Sprachen und Frameworks erzeugt. Für Teams, die einheitliche SDKs und Server aus einer einzigen Spezifikation ableiten wollen.",
+      "longDescription": "OpenAPI Generator liest ein OpenAPI-2.0- oder -3.x-Dokument und erzeugt daraus Quellcode: Client-SDKs, Server-Stubs, API-Dokumentation, Schemadateien und Konfiguration. Das Projekt entstand 2018 als Community-Fork von Swagger Codegen und bietet heute eine lange Liste von Generatoren für Sprachen und Frameworks wie TypeScript, Java, Kotlin, Python, Go, C#, Rust, PHP und Swift, jeweils mit eigenen Optionen für Bibliotheken, Serialisierung und Namensgebung.\n\nEs läuft als eigenständiges JAR, über ein Docker-Image, mit einem npm-Wrapper oder über Maven- und Gradle-Plugins, sodass sich Code in der CI bei jeder Änderung der Spezifikation leicht neu erzeugen lässt. Die Generatoren arbeiten mit Templates, weshalb Teams häufig Templates überschreiben oder eigene Generatoren schreiben, um ihren Konventionen zu entsprechen. Typische Einsätze sind das Veröffentlichen von SDKs für öffentliche APIs, das Synchronhalten von Frontend- und Microservice-Clients mit Backend-Verträgen und das Anlegen von Server-Grundgerüsten. Ausgabequalität und Funktionsumfang schwanken deutlich zwischen den Generatoren, und die sehr hohe Zahl offener Issues spiegelt wider, wie viele Ziele das Projekt abdecken will.",
+      "keywords": [
+        "openapi",
+        "Codegenerierung",
+        "sdk-generator",
+        "api-client",
+        "Server-Stubs",
+        "rest-api"
+      ],
+      "rationale": "Der umfassendste Open-Source-Codegenerator für OpenAPI-Clients und -Server; eine starke Wahl, die Swagger UI ergänzt, indem sie den Schritt von der Spezifikation zum Code abdeckt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2018-05-12",
+      "archived": false,
+      "openIssuesCount": 5915,
+      "stargazersCount": 26878,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 87,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most comprehensive open-source OpenAPI code generator for clients and servers; a strong pick that complements Swagger UI by covering the spec-to-code side of API workflows."
+    },
+    "flag": "ok"
+  }
+}

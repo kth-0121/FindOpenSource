@@ -1,0 +1,115 @@
+{
+  "name": "yt-dlp",
+  "slug": "yt-dlp",
+  "description": "Feature-rich command-line audio and video downloader supporting thousands of sites, with detailed format selection, subtitles, playlists and post-processing through ffmpeg, for anyone archiving online media or building download features into their own tools.",
+  "repository": "https://github.com/yt-dlp/yt-dlp",
+  "documentation": "https://github.com/yt-dlp/yt-dlp#readme",
+  "categories": [
+    "media"
+  ],
+  "keywords": [
+    "video downloader",
+    "audio downloader",
+    "command-line",
+    "media archiving",
+    "youtube-dl fork",
+    "ffmpeg"
+  ],
+  "longDescription": "yt-dlp is a command-line program for downloading audio and video from YouTube and thousands of other websites. It started as a fork of youtube-dl, based on the now inactive youtube-dlc, and has since become the actively maintained tool in that lineage, with many extra features and much faster fixes when sites change. It can be used from the terminal or imported as a Python library, and many graphical front ends, media servers and archiving tools rely on it under the hood.\n\nIts options cover choosing and sorting formats by resolution, codec or size, downloading whole playlists and channels, fetching subtitles, thumbnails and metadata, embedding chapters, marking or removing SponsorBlock segments, using cookies from a browser for content behind a login, and output templates that control file names. ffmpeg and ffprobe are strongly recommended for merging streams and post-processing, and full YouTube support now also relies on a JavaScript runtime such as Deno to run the yt-dlp-ejs component. Because extractors depend on how each site works, breakage is common and staying on a recent release matters, and users remain responsible for respecting copyright and site terms.",
+  "languages": [
+    "Python"
+  ],
+  "packages": {
+    "pypi": [
+      "yt-dlp"
+    ]
+  },
+  "license": "Unlicense",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "수천 개 사이트를 지원하는 기능이 풍부한 명령줄 오디오·동영상 다운로더로, 세밀한 포맷 선택, 자막, 재생목록, ffmpeg를 이용한 후처리를 제공합니다. 온라인 미디어를 보관하거나 자기 도구에 다운로드 기능을 넣으려는 사람에게 적합합니다.",
+      "longDescription": "yt-dlp는 YouTube를 비롯한 수천 개 웹사이트에서 오디오와 동영상을 내려받는 명령줄 프로그램입니다. 지금은 활동이 멈춘 youtube-dlc를 바탕으로 한 youtube-dl의 포크로 시작했으며, 이제는 그 계보에서 활발히 관리되는 도구가 되어 많은 추가 기능을 갖추고 사이트가 바뀔 때 훨씬 빠르게 수정됩니다. 터미널에서 쓸 수도 있고 Python 라이브러리로 가져와 쓸 수도 있으며, 많은 GUI 프런트엔드, 미디어 서버, 아카이빙 도구가 내부적으로 yt-dlp에 의존합니다.\n\n해상도·코덱·용량 기준의 포맷 선택과 정렬, 재생목록과 채널 전체 다운로드, 자막·썸네일·메타데이터 가져오기, 챕터 삽입, SponsorBlock 구간 표시나 제거, 로그인이 필요한 콘텐츠를 위한 브라우저 쿠키 사용, 파일 이름을 정하는 출력 템플릿 같은 옵션을 제공합니다. 스트림 병합과 후처리에는 ffmpeg와 ffprobe가 강력히 권장되며, 현재 YouTube 지원에는 yt-dlp-ejs 구성 요소를 위한 Deno 같은 JavaScript 런타임도 필요합니다. 추출기는 각 사이트의 동작 방식에 좌우되므로 고장이 잦아 최신 릴리스를 유지하는 것이 중요하고, 저작권과 사이트 약관을 지킬 책임은 사용자에게 있습니다.",
+      "keywords": [
+        "동영상 다운로더",
+        "오디오 다운로더",
+        "명령줄",
+        "미디어 아카이빙",
+        "youtube-dl 포크",
+        "ffmpeg"
+      ],
+      "rationale": "카탈로그에 이런 도구는 없으며, 사실상 표준이 된 미디어 다운로더로서 수많은 아카이빙 도구와 미디어 도구에 내장되어 있습니다. 미디어 카테고리에서 FFmpeg와 자연스럽게 어울립니다."
+    },
+    "ja": {
+      "description": "数千のサイトに対応した多機能なコマンドラインの音声・動画ダウンローダーです。細かなフォーマット選択、字幕、プレイリスト、ffmpeg による後処理を備え、オンラインのメディアを保存したい人や、自作ツールにダウンロード機能を組み込みたい人に向いています。",
+      "longDescription": "yt-dlp は、YouTube をはじめとする数千の Web サイトから音声や動画をダウンロードするコマンドラインプログラムです。現在は開発が止まっている youtube-dlc をベースにした youtube-dl のフォークとして始まり、今ではその系譜で活発にメンテナンスされているツールとなりました。多くの追加機能を備え、サイト側の変更への修正もずっと速くなっています。ターミナルから使うことも Python ライブラリとして読み込むこともでき、多くの GUI フロントエンド、メディアサーバー、アーカイブツールが内部で yt-dlp を利用しています。\n\n解像度、コーデック、サイズによるフォーマットの選択と並べ替え、プレイリストやチャンネル全体のダウンロード、字幕・サムネイル・メタデータの取得、チャプターの埋め込み、SponsorBlock の区間のマークや削除、ログインが必要なコンテンツのためのブラウザー Cookie の利用、ファイル名を決める出力テンプレートなどのオプションがあります。ストリームの結合や後処理には ffmpeg と ffprobe が強く推奨され、現在の YouTube 対応では yt-dlp-ejs コンポーネントのために Deno などの JavaScript ランタイムも必要です。抽出処理は各サイトの仕組みに依存するため不具合は頻繁に起き、最新リリースを使い続けることが重要です。また、著作権やサイトの利用規約を守る責任は利用者にあります。",
+      "keywords": [
+        "動画ダウンローダー",
+        "音声ダウンローダー",
+        "コマンドライン",
+        "メディアアーカイブ",
+        "youtube-dl フォーク",
+        "ffmpeg"
+      ],
+      "rationale": "カタログに同種のツールはなく、事実上の標準となったメディアダウンローダーとして数多くのアーカイブツールやメディアツールに組み込まれています。メディアカテゴリで FFmpeg と自然に組み合わさります。"
+    },
+    "zh-CN": {
+      "description": "功能丰富的命令行音视频下载工具，支持数千个网站，提供细致的格式选择、字幕、播放列表以及基于 ffmpeg 的后期处理，适合需要存档网络媒体或在自己工具中加入下载功能的用户。",
+      "longDescription": "yt-dlp 是一个命令行程序，可以从 YouTube 以及数千个其他网站下载音频和视频。它最初是基于已停止活跃开发的 youtube-dlc 的 youtube-dl 分支，如今已成为这一谱系中持续积极维护的工具，功能大幅增加，网站变化后的修复也快得多。它既可以在终端中使用，也可以作为 Python 库导入，许多图形前端、媒体服务器和存档工具都在底层依赖它。\n\n它的选项涵盖：按分辨率、编码或大小选择和排序格式，下载整个播放列表和频道，获取字幕、缩略图和元数据，嵌入章节，标记或移除 SponsorBlock 片段，借用浏览器 Cookie 访问需要登录的内容，以及用输出模板控制文件名。合并音视频流和后期处理强烈建议安装 ffmpeg 和 ffprobe，而目前的 YouTube 支持还需要 Deno 等 JavaScript 运行时来运行 yt-dlp-ejs 组件。由于提取器依赖于各网站的实现方式，失效情况很常见，保持使用最新版本很重要；遵守版权和网站条款的责任仍在用户自己。",
+      "keywords": [
+        "视频下载",
+        "音频下载",
+        "命令行",
+        "媒体存档",
+        "youtube-dl 分支",
+        "ffmpeg"
+      ],
+      "rationale": "目录中没有类似工具；它是事实标准的媒体下载器，被大量存档和媒体工具内置使用，与媒体分类中的 FFmpeg 形成自然搭配。"
+    },
+    "es": {
+      "description": "Descargador completo de audio y vídeo para línea de comandos, compatible con miles de sitios, con selección detallada de formatos, subtítulos, listas de reproducción y posprocesado con ffmpeg, para quien archiva contenido en línea o integra descargas en sus herramientas.",
+      "longDescription": "yt-dlp es un programa de línea de comandos para descargar audio y vídeo de YouTube y de miles de sitios web más. Nació como un fork de youtube-dl basado en youtube-dlc, hoy inactivo, y se ha convertido en la herramienta de ese linaje que se mantiene de forma activa, con muchas funciones adicionales y correcciones mucho más rápidas cuando los sitios cambian. Se puede usar desde la terminal o importar como biblioteca de Python, y numerosas interfaces gráficas, servidores multimedia y herramientas de archivo dependen de él por debajo.\n\nSus opciones permiten elegir y ordenar formatos por resolución, códec o tamaño, descargar listas de reproducción y canales completos, obtener subtítulos, miniaturas y metadatos, incrustar capítulos, marcar o eliminar segmentos de SponsorBlock, usar las cookies del navegador para contenido que exige iniciar sesión y definir plantillas de salida para los nombres de archivo. Se recomienda encarecidamente tener ffmpeg y ffprobe para unir flujos y posprocesar, y el soporte de YouTube necesita ahora también un entorno de JavaScript como Deno para el componente yt-dlp-ejs. Como los extractores dependen del funcionamiento de cada sitio, las roturas son frecuentes y conviene usar siempre una versión reciente; respetar los derechos de autor y las condiciones de cada sitio sigue siendo responsabilidad del usuario.",
+      "keywords": [
+        "descargador de vídeos",
+        "descargador de audio",
+        "línea de comandos",
+        "archivo multimedia",
+        "fork de youtube-dl",
+        "ffmpeg"
+      ],
+      "rationale": "No hay nada parecido en el catálogo; es el descargador multimedia de facto, integrado en innumerables herramientas de archivo y multimedia, y encaja de forma natural junto a FFmpeg en la categoría de medios."
+    },
+    "de": {
+      "description": "Funktionsreicher Audio- und Video-Downloader für die Kommandozeile mit Unterstützung für Tausende Websites, feiner Formatauswahl, Untertiteln, Playlists und Nachbearbeitung über ffmpeg – für alle, die Online-Medien archivieren oder Downloads in eigene Werkzeuge einbauen.",
+      "longDescription": "yt-dlp ist ein Kommandozeilenprogramm zum Herunterladen von Audio und Video von YouTube und Tausenden weiteren Websites. Es entstand als Fork von youtube-dl auf Basis des inzwischen inaktiven youtube-dlc und ist heute das aktiv gepflegte Werkzeug dieser Linie, mit vielen zusätzlichen Funktionen und deutlich schnelleren Korrekturen, wenn sich Websites ändern. Man kann es im Terminal nutzen oder als Python-Bibliothek importieren, und zahlreiche grafische Oberflächen, Medienserver und Archivierungswerkzeuge setzen intern darauf.\n\nDie Optionen reichen von der Auswahl und Sortierung von Formaten nach Auflösung, Codec oder Größe über den Download ganzer Playlists und Kanäle, das Abrufen von Untertiteln, Vorschaubildern und Metadaten, das Einbetten von Kapiteln und das Markieren oder Entfernen von SponsorBlock-Segmenten bis zur Nutzung von Browser-Cookies für Inhalte hinter einem Login und Ausgabevorlagen für Dateinamen. Für das Zusammenführen von Streams und die Nachbearbeitung werden ffmpeg und ffprobe dringend empfohlen, und für YouTube ist inzwischen zusätzlich eine JavaScript-Laufzeit wie Deno für die Komponente yt-dlp-ejs nötig. Da die Extraktoren von der Funktionsweise jeder Website abhängen, geht oft etwas kaputt und aktuelle Releases sind wichtig; für die Einhaltung von Urheberrecht und Nutzungsbedingungen bleiben die Nutzer selbst verantwortlich.",
+      "keywords": [
+        "Video-Downloader",
+        "Audio-Downloader",
+        "Kommandozeile",
+        "Medienarchivierung",
+        "youtube-dl-Fork",
+        "ffmpeg"
+      ],
+      "rationale": "Nichts Vergleichbares im Katalog; der De-facto-Standard unter den Medien-Downloadern, eingebaut in unzählige Archivierungs- und Medienwerkzeuge, und in der Medien-Kategorie eine natürliche Ergänzung zu FFmpeg."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-24",
+      "repoCreatedAt": "2020-10-26",
+      "archived": false,
+      "openIssuesCount": 2793,
+      "stargazersCount": 211244,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 89,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Nothing like it is in the catalog; it is the de facto media downloader, embedded in countless archiving and media tools, and pairs naturally with FFmpeg in the media category."
+    },
+    "flag": "ok"
+  }
+}

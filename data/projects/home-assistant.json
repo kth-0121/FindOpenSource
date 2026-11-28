@@ -1,0 +1,116 @@
+{
+  "name": "Home Assistant",
+  "slug": "home-assistant",
+  "description": "Home automation platform that runs locally on a Raspberry Pi or home server, connects thousands of smart devices and services through integrations, and runs automations and dashboards, for households that want local control and privacy over a cloud hub.",
+  "repository": "https://github.com/home-assistant/core",
+  "website": "https://www.home-assistant.io",
+  "documentation": "https://www.home-assistant.io/docs/",
+  "categories": [
+    "automation"
+  ],
+  "keywords": [
+    "home automation",
+    "smart home",
+    "iot",
+    "local control",
+    "self-hosted",
+    "device integrations"
+  ],
+  "longDescription": "Home Assistant is an open source home automation platform designed to run on hardware inside the home, such as a Raspberry Pi, a mini PC or a dedicated appliance. It brings lights, sensors, thermostats, media players, energy meters and many other devices from different vendors into one system, and it puts local control and privacy first so the home keeps working without depending on each manufacturer's cloud. The project is developed by a large worldwide community and is part of the non-profit Open Home Foundation.\n\nIts modular architecture is built around integrations, and a very large catalog of them is maintained in this core repository. On top of the device state model sit automations and scripts with triggers, conditions and actions, customizable dashboards, history and energy tracking, and a voice assistant pipeline. Companion apps for Android and iOS, a REST and WebSocket API and an add-on ecosystem extend it further. Most users install it through the Home Assistant OS image or a container. The integration surface is vast, so quality varies between integrations, and monthly releases sometimes include breaking changes worth reading before upgrading.",
+  "languages": [
+    "Python"
+  ],
+  "packages": {
+    "pypi": [
+      "homeassistant"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Raspberry Pi나 홈 서버에서 로컬로 동작하는 홈 오토메이션 플랫폼으로, 통합 기능을 통해 수천 가지 스마트 기기와 서비스를 연결하고 자동화와 대시보드를 실행합니다. 클라우드 허브 대신 로컬 제어와 프라이버시를 원하는 가정에 적합합니다.",
+      "longDescription": "Home Assistant는 Raspberry Pi, 미니 PC, 전용 기기처럼 집 안에 있는 하드웨어에서 실행하도록 설계된 오픈소스 홈 오토메이션 플랫폼입니다. 여러 제조사의 조명, 센서, 온도 조절기, 미디어 플레이어, 에너지 계량기 등 다양한 기기를 하나의 시스템으로 모으며, 로컬 제어와 프라이버시를 최우선으로 삼아 각 제조사의 클라우드에 기대지 않고도 집이 계속 동작하게 합니다. 전 세계의 대규모 커뮤니티가 개발하고 있으며, 비영리 단체인 Open Home Foundation에 속한 프로젝트입니다.\n\n모듈형 아키텍처는 통합(integration)을 중심으로 구성되며, 매우 방대한 통합 목록이 이 core 저장소에서 관리됩니다. 기기 상태 모델 위에 트리거·조건·동작으로 이루어진 자동화와 스크립트, 사용자 지정 대시보드, 기록과 에너지 추적, 음성 비서 파이프라인이 올라갑니다. Android·iOS 컴패니언 앱, REST·WebSocket API, 애드온 생태계로 기능을 더 넓힐 수 있습니다. 대부분은 Home Assistant OS 이미지나 컨테이너로 설치합니다. 통합의 범위가 워낙 넓어 통합마다 품질 차이가 있고, 매달 나오는 릴리스에 호환성을 깨는 변경이 포함되기도 하므로 업그레이드 전에 릴리스 노트를 읽어 보는 것이 좋습니다.",
+      "keywords": [
+        "홈 오토메이션",
+        "스마트 홈",
+        "iot",
+        "로컬 제어",
+        "셀프 호스팅",
+        "기기 통합"
+      ],
+      "rationale": "오픈소스 홈 오토메이션을 대표하는 프로젝트입니다. 카탈로그의 자동화 도구는 업무 워크플로나 범용 플로 도구여서, 스마트 홈 분야는 다른 어떤 항목도 채우지 못하는 영역입니다."
+    },
+    "ja": {
+      "description": "Raspberry Pi や自宅サーバーでローカルに動作するホームオートメーション基盤です。インテグレーションを通じて数千種類のスマートデバイスやサービスとつながり、オートメーションやダッシュボードを実行します。クラウドのハブではなくローカル制御とプライバシーを重視する家庭向けです。",
+      "longDescription": "Home Assistant は、Raspberry Pi やミニ PC、専用アプライアンスなど、家の中にあるハードウェアで動かすことを前提としたオープンソースのホームオートメーション基盤です。照明、センサー、サーモスタット、メディアプレーヤー、電力計など、さまざまなメーカーの機器を 1 つのシステムにまとめ、ローカル制御とプライバシーを最優先にしているため、各メーカーのクラウドに頼らなくても家の機能が動き続けます。世界中の大規模なコミュニティによって開発されており、非営利団体 Open Home Foundation のプロジェクトです。\n\nモジュール式のアーキテクチャはインテグレーションを中心に構成され、その非常に大きなカタログがこの core リポジトリで管理されています。デバイスの状態モデルの上に、トリガー・条件・アクションで組み立てるオートメーションとスクリプト、カスタマイズ可能なダッシュボード、履歴とエネルギーの記録、音声アシスタントのパイプラインが載っています。Android と iOS のコンパニオンアプリ、REST と WebSocket の API、アドオンのエコシステムでさらに拡張できます。多くのユーザーは Home Assistant OS のイメージかコンテナでインストールします。インテグレーションの範囲が膨大なため品質にはばらつきがあり、毎月のリリースには互換性を壊す変更が含まれることもあるので、アップグレード前にリリースノートを確認するのが賢明です。",
+      "keywords": [
+        "ホームオートメーション",
+        "スマートホーム",
+        "iot",
+        "ローカル制御",
+        "セルフホスト",
+        "デバイス連携"
+      ],
+      "rationale": "オープンソースのホームオートメーションを代表するプロジェクトです。カタログの自動化ツールは業務ワークフローや汎用フローツールが中心で、スマートホームは他のどの項目も埋めていない領域です。"
+    },
+    "zh-CN": {
+      "description": "在树莓派或家庭服务器上本地运行的家庭自动化平台，通过集成连接数千种智能设备和服务，并运行自动化和仪表板，适合希望用本地控制和隐私保护取代云端中枢的家庭。",
+      "longDescription": "Home Assistant 是一款开源家庭自动化平台，设计用于运行在家中的硬件上，例如树莓派、迷你主机或专用设备。它把来自不同厂商的灯具、传感器、温控器、媒体播放器、电表等各种设备整合进同一个系统，并把本地控制和隐私放在首位，让家里的设备无需依赖各厂商的云服务也能正常运转。项目由遍布全球的大型社区开发，隶属于非营利组织 Open Home Foundation。\n\n它采用围绕“集成”构建的模块化架构，数量庞大的集成都维护在这个 core 仓库中。在设备状态模型之上，提供由触发器、条件和动作组成的自动化与脚本、可自定义的仪表板、历史记录与能耗统计，以及语音助手流水线。Android 和 iOS 配套应用、REST 与 WebSocket API 以及加载项生态可以进一步扩展其功能。大多数用户通过 Home Assistant OS 镜像或容器来安装。由于集成覆盖面极广，各集成的质量参差不齐，而且每月发布的版本有时包含不兼容变更，升级前最好先阅读发布说明。",
+      "keywords": [
+        "家庭自动化",
+        "智能家居",
+        "iot",
+        "本地控制",
+        "自托管",
+        "设备集成"
+      ],
+      "rationale": "开源家庭自动化领域的标志性项目；目录中的自动化工具主要面向业务工作流或通用流程编排，智能家居是其他条目都没有覆盖的领域。"
+    },
+    "es": {
+      "description": "Plataforma de domótica que se ejecuta en local en una Raspberry Pi o un servidor doméstico, conecta miles de dispositivos y servicios mediante integraciones y ejecuta automatizaciones y paneles, para hogares que prefieren control local y privacidad a un hub en la nube.",
+      "longDescription": "Home Assistant es una plataforma de domótica de código abierto pensada para funcionar en hardware dentro de casa, como una Raspberry Pi, un mini PC o un dispositivo dedicado. Reúne en un solo sistema luces, sensores, termostatos, reproductores multimedia, medidores de energía y muchos otros dispositivos de distintos fabricantes, y da prioridad al control local y a la privacidad para que la casa siga funcionando sin depender de la nube de cada fabricante. La desarrolla una gran comunidad internacional y forma parte de la Open Home Foundation, una organización sin ánimo de lucro.\n\nSu arquitectura modular gira en torno a las integraciones, y en este repositorio core se mantiene un catálogo muy amplio de ellas. Sobre el modelo de estados de los dispositivos se apoyan automatizaciones y scripts con disparadores, condiciones y acciones, paneles personalizables, historial y seguimiento energético, y una cadena de asistente de voz. Las apps complementarias para Android e iOS, una API REST y WebSocket y un ecosistema de complementos la amplían todavía más. La mayoría de usuarios la instala con la imagen de Home Assistant OS o en un contenedor. Al ser tan extensa la superficie de integraciones, la calidad varía entre ellas, y las versiones mensuales a veces incluyen cambios incompatibles que conviene revisar antes de actualizar.",
+      "keywords": [
+        "domótica",
+        "hogar inteligente",
+        "iot",
+        "control local",
+        "autoalojado",
+        "integración de dispositivos"
+      ],
+      "rationale": "El proyecto de referencia de la domótica de código abierto; las herramientas de automatización del catálogo se centran en flujos de negocio o en flujos genéricos, y el hogar inteligente es un hueco que ninguna otra entrada cubre."
+    },
+    "de": {
+      "description": "Hausautomationsplattform, die lokal auf einem Raspberry Pi oder Heimserver läuft, über Integrationen Tausende smarter Geräte und Dienste anbindet und Automationen sowie Dashboards ausführt – für Haushalte, die lokale Kontrolle und Privatsphäre einem Cloud-Hub vorziehen.",
+      "longDescription": "Home Assistant ist eine Open-Source-Plattform für Hausautomation, die für den Betrieb auf Hardware im eigenen Zuhause gedacht ist, etwa auf einem Raspberry Pi, einem Mini-PC oder einer dedizierten Box. Sie fasst Lampen, Sensoren, Thermostate, Mediaplayer, Energiezähler und viele weitere Geräte unterschiedlicher Hersteller in einem System zusammen und stellt lokale Kontrolle und Privatsphäre an erste Stelle, damit das Zuhause auch ohne die Cloud des jeweiligen Herstellers funktioniert. Entwickelt wird sie von einer großen weltweiten Community; das Projekt gehört zur gemeinnützigen Open Home Foundation.\n\nDie modulare Architektur ist um Integrationen herum aufgebaut, von denen ein sehr großer Katalog in diesem core-Repository gepflegt wird. Auf dem Zustandsmodell der Geräte setzen Automationen und Skripte mit Auslösern, Bedingungen und Aktionen auf, dazu anpassbare Dashboards, Verlauf und Energieauswertung sowie eine Sprachassistenten-Pipeline. Begleit-Apps für Android und iOS, eine REST- und WebSocket-API und ein Add-on-Ökosystem erweitern das Ganze. Die meisten installieren es über das Image von Home Assistant OS oder als Container. Weil die Zahl der Integrationen so groß ist, schwankt deren Qualität, und die monatlichen Releases enthalten mitunter Breaking Changes, die man vor einem Update lesen sollte.",
+      "keywords": [
+        "Hausautomation",
+        "Smart Home",
+        "iot",
+        "lokale Steuerung",
+        "selbst gehostet",
+        "Geräteintegration"
+      ],
+      "rationale": "Das prägende Projekt für Open-Source-Hausautomation; die Automatisierungswerkzeuge im Katalog zielen auf Geschäftsabläufe oder allgemeine Flows, und das Smart Home ist eine Lücke, die kein anderer Eintrag füllt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2013-09-17",
+      "archived": false,
+      "openIssuesCount": 3856,
+      "stargazersCount": 92515,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "score": 100,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The defining open source home automation project; the catalog's automation tools target business workflows or generic flows, so the smart home is a gap no other entry fills."
+    },
+    "flag": "ok"
+  }
+}

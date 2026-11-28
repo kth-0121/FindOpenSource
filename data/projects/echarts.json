@@ -1,0 +1,117 @@
+{
+  "name": "Apache ECharts",
+  "slug": "echarts",
+  "description": "Charting library from the Apache Software Foundation that renders interactive charts to Canvas or SVG from a declarative options object, for developers building dashboards and reports that need many chart types, large datasets and rich interaction.",
+  "repository": "https://github.com/apache/echarts",
+  "website": "https://echarts.apache.org",
+  "documentation": "https://echarts.apache.org/handbook/en/get-started/",
+  "categories": [
+    "ui",
+    "analytics"
+  ],
+  "keywords": [
+    "charts",
+    "data visualization",
+    "dashboard",
+    "canvas",
+    "svg",
+    "charting library"
+  ],
+  "longDescription": "Apache ECharts is a JavaScript charting library in which you describe a chart as a configuration object, covering series, axes, legends, tooltips and visual mapping, and the library takes care of layout, rendering and interaction. It draws through its ZRender engine to either Canvas or SVG, and supports server-side rendering for producing chart images or markup without a browser.\n\nIt ships a wide range of chart types, including line, bar, scatter, pie, candlestick, heatmap, tree, treemap, sunburst, sankey, graph, gauge, parallel coordinates and geographic maps, plus data zoom, brushing, linked charts, dataset transforms and accessibility options. Progressive rendering helps it cope with large numbers of data points. It is common in BI tools, admin dashboards and monitoring screens, and community wrappers exist for most frontend frameworks. For highly customized visuals its option objects can grow large and hard to reason about, and a lower-level library like D3 gives more control.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "echarts"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Apache 소프트웨어 재단의 차트 라이브러리로, 선언형 옵션 객체를 바탕으로 인터랙티브 차트를 Canvas나 SVG로 렌더링하며 다양한 차트 유형, 대용량 데이터, 풍부한 인터랙션이 필요한 대시보드와 보고서를 만드는 개발자를 위한 도구입니다.",
+      "longDescription": "Apache ECharts는 시리즈, 축, 범례, 툴팁, 비주얼 매핑을 담은 설정 객체로 차트를 기술하면 레이아웃, 렌더링, 인터랙션을 라이브러리가 처리해 주는 JavaScript 차트 라이브러리입니다. 자체 ZRender 엔진을 통해 Canvas나 SVG로 그리며, 브라우저 없이 차트 이미지나 마크업을 만들어 내는 서버 사이드 렌더링도 지원합니다.\n\n선, 막대, 산점도, 파이, 캔들스틱, 히트맵, 트리, 트리맵, 선버스트, 생키, 그래프, 게이지, 평행 좌표, 지도 등 다양한 차트 유형을 제공하며, 데이터 줌, 브러싱, 연동 차트, 데이터셋 변환, 접근성 옵션도 갖추고 있습니다. 점진적 렌더링 덕분에 많은 데이터 포인트도 처리할 수 있습니다. BI 도구, 관리자 대시보드, 모니터링 화면에서 흔히 쓰이며, 대부분의 프런트엔드 프레임워크용 커뮤니티 래퍼가 있습니다. 다만 고도로 맞춤화된 시각화에서는 옵션 객체가 커지고 파악하기 어려워질 수 있으며, 이럴 때는 D3 같은 저수준 라이브러리가 더 많은 제어권을 줍니다.",
+      "keywords": [
+        "차트",
+        "데이터 시각화",
+        "대시보드",
+        "Canvas",
+        "SVG",
+        "차트 라이브러리"
+      ],
+      "rationale": "폭넓은 차트 유형을 갖춘 ASF의 최상급 차트 라이브러리로, D3와 겹치는 부분은 있지만 대시보드용 선언형 도구로서 D3를 잘 보완합니다."
+    },
+    "ja": {
+      "description": "Apache ソフトウェア財団のチャートライブラリで、宣言的なオプションオブジェクトからインタラクティブなチャートを Canvas または SVG に描画します。多様なチャート種別、大規模データ、豊富な操作性が求められるダッシュボードやレポートを作る開発者向けです。",
+      "longDescription": "Apache ECharts は、系列、軸、凡例、ツールチップ、ビジュアルマッピングを含む設定オブジェクトでチャートを記述すると、レイアウト、描画、インタラクションをライブラリが引き受けてくれる JavaScript のチャートライブラリです。独自の ZRender エンジンで Canvas または SVG に描画し、ブラウザなしでチャート画像やマークアップを生成するサーバーサイドレンダリングにも対応しています。\n\n折れ線、棒、散布図、円、ローソク足、ヒートマップ、ツリー、ツリーマップ、サンバースト、サンキー、グラフ、ゲージ、平行座標、地図など幅広いチャート種別を備え、データズーム、ブラッシング、連動チャート、データセット変換、アクセシビリティのオプションも用意されています。プログレッシブレンダリングにより大量のデータ点も扱えます。BI ツール、管理画面のダッシュボード、監視画面でよく使われ、主要なフロントエンドフレームワーク向けのコミュニティ製ラッパーもあります。ただし高度にカスタマイズした表現では設定オブジェクトが膨らんで見通しが悪くなりがちで、そうした場合は D3 のような低レベルなライブラリの方が細かく制御できます。",
+      "keywords": [
+        "チャート",
+        "データ可視化",
+        "ダッシュボード",
+        "Canvas",
+        "SVG",
+        "チャートライブラリ"
+      ],
+      "rationale": "幅広いチャート種別を備えた ASF のトップクラスのチャートライブラリです。D3 と重なる部分はありますが、ダッシュボード向けの宣言的な選択肢として D3 をよく補完します。"
+    },
+    "zh-CN": {
+      "description": "Apache 软件基金会旗下的图表库，根据声明式配置项把交互式图表渲染到 Canvas 或 SVG，面向需要丰富图表类型、海量数据和强交互能力的仪表盘与报表开发者。",
+      "longDescription": "Apache ECharts 是一个 JavaScript 图表库：你用一个配置对象描述图表，包括系列、坐标轴、图例、提示框和视觉映射，布局、渲染和交互都由库来完成。它通过自研的 ZRender 引擎绘制到 Canvas 或 SVG，并支持服务端渲染，无需浏览器即可生成图表图片或标记。\n\n它提供丰富的图表类型，包括折线图、柱状图、散点图、饼图、K 线图、热力图、树图、矩形树图、旭日图、桑基图、关系图、仪表盘、平行坐标和地理地图，还支持数据区域缩放、刷选、图表联动、数据集转换和无障碍选项。渐进式渲染帮助它应对大量数据点。它在 BI 工具、后台管理仪表盘和监控大屏中很常见，社区也为大多数前端框架提供了封装。不过对于高度定制的可视化，配置对象可能变得庞大且难以理解，此时 D3 这类底层库能提供更多控制。",
+      "keywords": [
+        "图表",
+        "数据可视化",
+        "仪表盘",
+        "Canvas",
+        "SVG",
+        "图表库"
+      ],
+      "rationale": "ASF 旗下顶级的图表库，图表类型覆盖广泛；虽与 D3 有所重叠，但作为面向仪表盘的声明式方案能很好地补充 D3。"
+    },
+    "es": {
+      "description": "Biblioteca de gráficos de la Apache Software Foundation que dibuja gráficos interactivos en Canvas o SVG a partir de un objeto de opciones declarativo, para desarrolladores que crean paneles e informes con muchos tipos de gráfico, grandes volúmenes de datos e interacción rica.",
+      "longDescription": "Apache ECharts es una biblioteca de gráficos en JavaScript en la que describes un gráfico mediante un objeto de configuración, con series, ejes, leyendas, tooltips y mapeo visual, y la biblioteca se encarga de la disposición, el renderizado y la interacción. Dibuja a través de su motor ZRender en Canvas o SVG y admite renderizado en servidor para generar imágenes o marcado de gráficos sin navegador.\n\nIncluye una gran variedad de tipos de gráfico, como líneas, barras, dispersión, sectores, velas, mapas de calor, árboles, treemaps, sunburst, sankey, grafos, indicadores, coordenadas paralelas y mapas geográficos, además de zoom de datos, selección por área, gráficos vinculados, transformaciones de conjuntos de datos y opciones de accesibilidad. El renderizado progresivo le ayuda a manejar grandes cantidades de puntos. Es habitual en herramientas de BI, paneles de administración y pantallas de monitorización, y existen envoltorios de la comunidad para la mayoría de frameworks frontend. En visualizaciones muy personalizadas, sus objetos de opciones pueden crecer y volverse difíciles de entender, y una biblioteca de más bajo nivel como D3 ofrece más control.",
+      "keywords": [
+        "gráficos",
+        "visualización de datos",
+        "panel",
+        "canvas",
+        "svg",
+        "biblioteca de gráficos"
+      ],
+      "rationale": "Una biblioteca de gráficos de primer nivel de la ASF con una amplia cobertura de tipos; un complemento declarativo sólido a D3 para paneles, aunque ambos se solapan."
+    },
+    "de": {
+      "description": "Diagrammbibliothek der Apache Software Foundation, die interaktive Diagramme aus einem deklarativen Options-Objekt auf Canvas oder SVG rendert, für Entwickler, die Dashboards und Berichte mit vielen Diagrammtypen, großen Datenmengen und umfangreicher Interaktion bauen.",
+      "longDescription": "Apache ECharts ist eine JavaScript-Diagrammbibliothek, bei der man ein Diagramm als Konfigurationsobjekt mit Serien, Achsen, Legenden, Tooltips und visuellem Mapping beschreibt, während die Bibliothek Layout, Rendering und Interaktion übernimmt. Gezeichnet wird über die eigene ZRender-Engine auf Canvas oder SVG, und serverseitiges Rendering erzeugt Diagrammbilder oder Markup auch ohne Browser.\n\nSie bringt eine große Auswahl an Diagrammtypen mit, darunter Linien-, Balken-, Streu- und Kreisdiagramme, Kerzencharts, Heatmaps, Bäume, Treemaps, Sunburst, Sankey, Graphen, Tachos, parallele Koordinaten und geografische Karten, dazu Datenzoom, Brushing, verknüpfte Diagramme, Dataset-Transformationen und Barrierefreiheitsoptionen. Progressives Rendering hilft bei sehr vielen Datenpunkten. Verbreitet ist sie in BI-Werkzeugen, Admin-Dashboards und Monitoring-Bildschirmen, und für die meisten Frontend-Frameworks gibt es Wrapper aus der Community. Bei stark individuellen Visualisierungen können die Options-Objekte groß und unübersichtlich werden, und eine Low-Level-Bibliothek wie D3 bietet dann mehr Kontrolle.",
+      "keywords": [
+        "Diagramme",
+        "Datenvisualisierung",
+        "Dashboard",
+        "Canvas",
+        "SVG",
+        "Diagrammbibliothek"
+      ],
+      "rationale": "Eine erstklassige Diagrammbibliothek der ASF mit breiter Abdeckung an Diagrammtypen; eine starke deklarative Ergänzung zu D3 für Dashboards, auch wenn sich beide überschneiden."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-25",
+      "repoCreatedAt": "2013-04-03",
+      "archived": false,
+      "openIssuesCount": 1476,
+      "stargazersCount": 67816,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "score": 100,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "A top-tier ASF charting library with broad chart coverage; a strong declarative complement to D3 for dashboards, though the two overlap."
+    },
+    "flag": "ok"
+  }
+}

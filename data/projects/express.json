@@ -1,0 +1,117 @@
+{
+  "name": "Express",
+  "slug": "express",
+  "description": "Minimal, unopinionated web framework for Node.js that provides routing, middleware chaining and HTTP helpers. A long-standing default for JavaScript developers building REST APIs, web servers and backends of any size.",
+  "repository": "https://github.com/expressjs/express",
+  "website": "https://expressjs.com",
+  "documentation": "https://expressjs.com/en/guide/routing.html",
+  "categories": [
+    "backend",
+    "api"
+  ],
+  "keywords": [
+    "nodejs",
+    "web framework",
+    "middleware",
+    "rest api",
+    "http server",
+    "javascript"
+  ],
+  "longDescription": "Express is a small web framework for Node.js that sits as a thin layer above the built-in HTTP module. An application is a stack of middleware functions that receive the request and response objects in order, so concerns such as body parsing, logging, sessions or authentication are added one function at a time. Routing maps HTTP methods and URL patterns to handlers, and helpers cover common chores like sending JSON, setting headers, redirecting and serving static files.\n\nIts deliberately minimal core has made it the base of a huge middleware ecosystem and of other tools built on top of it. It is commonly used for REST and JSON APIs, server-rendered sites with a template engine, prototypes and backends for single-page apps. Version 5 modernised the API and passes rejected promises from async handlers straight to error handling. Express leaves structure, validation, data access and type safety to the developer, so larger teams often add their own conventions or reach for a more opinionated framework.",
+  "languages": [
+    "JavaScript"
+  ],
+  "packages": {
+    "npm": [
+      "express"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "라우팅, 미들웨어 체이닝, HTTP 도우미를 제공하는 Node.js용 미니멀하고 자유도 높은 웹 프레임워크입니다. REST API, 웹 서버, 규모를 가리지 않는 백엔드를 만드는 JavaScript 개발자들이 오랫동안 기본으로 써 온 선택지입니다.",
+      "longDescription": "Express는 Node.js 내장 HTTP 모듈 위에 얇게 얹힌 작은 웹 프레임워크입니다. 애플리케이션은 요청·응답 객체를 차례로 넘겨받는 미들웨어 함수들의 스택으로 구성되므로, 본문 파싱, 로깅, 세션, 인증 같은 기능을 함수 하나씩 추가하는 방식으로 붙여 나갑니다. 라우팅은 HTTP 메서드와 URL 패턴을 핸들러에 연결하고, JSON 응답, 헤더 설정, 리디렉션, 정적 파일 제공 같은 자주 쓰는 작업은 도우미 함수가 처리합니다.\n\n의도적으로 최소화한 코어 덕분에 방대한 미들웨어 생태계와 그 위에 만들어진 여러 도구의 토대가 되었습니다. REST·JSON API, 템플릿 엔진을 쓰는 서버 렌더링 사이트, 프로토타입, 싱글 페이지 앱의 백엔드에 흔히 쓰입니다. 버전 5에서는 API가 현대화되었고, async 핸들러에서 거부된 Promise가 곧바로 에러 처리로 전달됩니다. 다만 구조, 검증, 데이터 접근, 타입 안전성은 개발자의 몫이라, 규모가 큰 팀은 자체 규칙을 더하거나 더 정형화된 프레임워크를 택하는 경우가 많습니다.",
+      "keywords": [
+        "nodejs",
+        "웹 프레임워크",
+        "미들웨어",
+        "rest api",
+        "http 서버",
+        "javascript"
+      ],
+      "rationale": "Node.js의 고전적인 미니멀 웹 프레임워크이자 방대한 미들웨어 생태계의 기반으로, NestJS와 Hono를 보완하는 backend·api 카테고리의 필수 대표 프로젝트입니다."
+    },
+    "ja": {
+      "description": "ルーティング、ミドルウェアの連結、HTTP ヘルパーを備えた Node.js 向けのミニマルで自由度の高い Web フレームワークです。REST API や Web サーバー、あらゆる規模のバックエンドを作る JavaScript 開発者に長く定番として使われています。",
+      "longDescription": "Express は、Node.js 組み込みの HTTP モジュールの上に薄く載る小さな Web フレームワークです。アプリケーションはリクエストとレスポンスのオブジェクトを順に受け取るミドルウェア関数の積み重ねとして構成されるため、ボディの解析、ロギング、セッション、認証といった処理を関数ひとつずつ追加していけます。ルーティングは HTTP メソッドと URL パターンをハンドラーに対応付け、JSON の送信、ヘッダーの設定、リダイレクト、静的ファイルの配信といった定番の処理はヘルパーが担います。\n\n意図的に最小限に抑えたコアにより、巨大なミドルウェアのエコシステムと、その上に作られた数多くのツールの土台となってきました。REST や JSON の API、テンプレートエンジンを使ったサーバーレンダリングのサイト、プロトタイプ、シングルページアプリのバックエンドなどでよく使われます。バージョン 5 では API が刷新され、async ハンドラーで reject された Promise がそのままエラー処理に渡されるようになりました。一方で、構成、バリデーション、データアクセス、型安全性は開発者に委ねられるため、大規模なチームでは独自の規約を加えたり、より規約の強いフレームワークを選んだりすることがよくあります。",
+      "keywords": [
+        "nodejs",
+        "Web フレームワーク",
+        "ミドルウェア",
+        "rest api",
+        "http サーバー",
+        "javascript"
+      ],
+      "rationale": "Node.js の古典的なミニマル Web フレームワークで、巨大なミドルウェアエコシステムの基盤です。NestJS や Hono を補う、backend と api カテゴリに欠かせない代表的プロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "一个极简、不强加约定的 Node.js Web 框架，提供路由、中间件链和 HTTP 辅助工具。长期以来一直是 JavaScript 开发者构建 REST API、Web 服务器以及各种规模后端的默认选择。",
+      "longDescription": "Express 是一个小巧的 Node.js Web 框架，只在内置 HTTP 模块之上加了薄薄一层。应用由一组中间件函数堆叠而成，它们依次接收请求和响应对象，因此请求体解析、日志、会话、认证等功能都可以一个函数一个函数地加进来。路由把 HTTP 方法和 URL 模式映射到处理函数，发送 JSON、设置响应头、重定向和提供静态文件等常见工作则由辅助方法完成。\n\n刻意保持精简的核心使它成为庞大中间件生态以及众多上层工具的基础。它常用于 REST 和 JSON API、配合模板引擎的服务端渲染网站、原型开发以及单页应用的后端。第 5 版对 API 进行了现代化改造，async 处理函数中被拒绝的 Promise 会直接交给错误处理流程。不过项目结构、数据校验、数据访问和类型安全都留给开发者自己决定，所以较大的团队往往会补充自己的约定，或者改用约定更强的框架。",
+      "keywords": [
+        "nodejs",
+        "Web 框架",
+        "中间件",
+        "rest api",
+        "http 服务器",
+        "javascript"
+      ],
+      "rationale": "经典的 Node.js 极简 Web 框架，也是庞大中间件生态的基础；作为 NestJS 和 Hono 的补充，是 backend 和 api 分类中不可或缺的代表项目。"
+    },
+    "es": {
+      "description": "Framework web minimalista y sin imposiciones para Node.js que ofrece enrutamiento, encadenamiento de middleware y utilidades HTTP. Una opción por defecto desde hace años para crear APIs REST, servidores web y backends de cualquier tamaño en JavaScript.",
+      "longDescription": "Express es un pequeño framework web para Node.js que añade una capa fina sobre el módulo HTTP integrado. Una aplicación es una pila de funciones middleware que reciben en orden los objetos de petición y respuesta, de modo que tareas como analizar el cuerpo, registrar logs, gestionar sesiones o autenticar se añaden función a función. El enrutamiento asocia métodos HTTP y patrones de URL con manejadores, y hay utilidades para tareas habituales como enviar JSON, fijar cabeceras, redirigir o servir archivos estáticos.\n\nSu núcleo deliberadamente mínimo lo ha convertido en la base de un enorme ecosistema de middleware y de otras herramientas construidas encima. Se usa a menudo para APIs REST y JSON, sitios renderizados en servidor con un motor de plantillas, prototipos y backends de aplicaciones de una sola página. La versión 5 modernizó la API y envía directamente al manejo de errores las promesas rechazadas en manejadores asíncronos. Express deja en manos del desarrollador la estructura, la validación, el acceso a datos y la seguridad de tipos, por lo que los equipos grandes suelen añadir sus propias convenciones o elegir un framework más estructurado.",
+      "keywords": [
+        "nodejs",
+        "framework web",
+        "middleware",
+        "api rest",
+        "servidor http",
+        "javascript"
+      ],
+      "rationale": "El framework web minimalista clásico de Node.js y la base de un enorme ecosistema de middleware; un representante imprescindible de las categorías backend y api que complementa a NestJS y Hono."
+    },
+    "de": {
+      "description": "Minimalistisches, wenig vorschreibendes Webframework für Node.js mit Routing, verketteter Middleware und HTTP-Helfern. Seit vielen Jahren die Standardwahl für JavaScript-Entwickler, die REST-APIs, Webserver und Backends jeder Größe bauen.",
+      "longDescription": "Express ist ein kleines Webframework für Node.js, das als dünne Schicht über dem eingebauten HTTP-Modul liegt. Eine Anwendung besteht aus einem Stapel von Middleware-Funktionen, die Request- und Response-Objekt nacheinander erhalten; Body-Parsing, Logging, Sessions oder Authentifizierung kommen so Funktion für Funktion hinzu. Das Routing ordnet HTTP-Methoden und URL-Muster Handlern zu, und Helfer übernehmen alltägliche Aufgaben wie JSON senden, Header setzen, Weiterleiten oder statische Dateien ausliefern.\n\nDer bewusst minimale Kern hat es zur Grundlage eines riesigen Middleware-Ökosystems und vieler darauf aufbauender Werkzeuge gemacht. Typische Einsätze sind REST- und JSON-APIs, serverseitig gerenderte Seiten mit Template-Engine, Prototypen und Backends für Single-Page-Apps. Version 5 hat die API modernisiert und reicht abgelehnte Promises aus async-Handlern direkt an die Fehlerbehandlung weiter. Struktur, Validierung, Datenzugriff und Typsicherheit überlässt Express dem Entwickler, weshalb größere Teams oft eigene Konventionen ergänzen oder zu einem stärker strukturierten Framework greifen.",
+      "keywords": [
+        "nodejs",
+        "Webframework",
+        "Middleware",
+        "rest-api",
+        "http-server",
+        "javascript"
+      ],
+      "rationale": "Das klassische minimalistische Node.js-Webframework und Basis eines riesigen Middleware-Ökosystems; ein unverzichtbarer Vertreter der Kategorien backend und api, der NestJS und Hono ergänzt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-19",
+      "repoCreatedAt": "2009-06-26",
+      "archived": false,
+      "openIssuesCount": 267,
+      "stargazersCount": 69677,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "score": 100,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The classic minimal Node.js web framework and the base of a vast middleware ecosystem; an essential representative for the backend and api categories, complementing NestJS and Hono."
+    },
+    "flag": "ok"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": ".NET MAUI",
+  "slug": "maui",
+  "description": "Cross-platform .NET framework for building native Android, iOS, macOS and Windows apps from a single C# and XAML codebase, and the successor to Xamarin.Forms. For .NET developers who want to share UI and business logic across mobile and desktop.",
+  "repository": "https://github.com/dotnet/maui",
+  "website": "https://dot.net/maui",
+  "documentation": "https://learn.microsoft.com/dotnet/maui/",
+  "categories": [
+    "mobile"
+  ],
+  "keywords": [
+    "cross-platform",
+    "c#",
+    "xaml",
+    "mobile apps",
+    "desktop apps",
+    "xamarin"
+  ],
+  "longDescription": ".NET MAUI (Multi-platform App UI) is the official .NET framework for native client apps on Android, iOS, iPadOS, macOS and Windows. It evolved from Xamarin.Forms and ships as a workload of the .NET SDK, so a single project can target every platform while still producing native app packages. The UI is written in XAML or C#, controls are mapped to each platform's native views through a handler architecture, and cross-platform APIs give access to device features such as sensors, storage, connectivity and secure preferences.\n\nTeams typically use the MVVM pattern with data binding, hot reload in Visual Studio, and the .NET MAUI Community Toolkit for extra controls and helpers, while Blazor Hybrid lets an app render Razor web components inside a native shell. It is a natural choice for organizations already invested in C# and .NET, for example for line-of-business and field apps. Releases follow the yearly .NET cadence, so apps need regular upgrades; macOS support runs through Mac Catalyst, Linux is not an official target, and the third-party component ecosystem is smaller than those of Flutter or React Native.",
+  "languages": [
+    "C#"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "하나의 C#·XAML 코드베이스로 Android, iOS, macOS, Windows용 네이티브 앱을 만드는 크로스 플랫폼 .NET 프레임워크이자 Xamarin.Forms의 후속작입니다. 모바일과 데스크톱에서 UI와 비즈니스 로직을 공유하려는 .NET 개발자에게 적합합니다.",
+      "longDescription": ".NET MAUI(Multi-platform App UI)는 Android, iOS, iPadOS, macOS, Windows용 네이티브 클라이언트 앱을 위한 공식 .NET 프레임워크입니다. Xamarin.Forms에서 발전했으며 .NET SDK의 워크로드로 제공되므로, 하나의 프로젝트로 모든 플랫폼을 대상으로 삼으면서도 네이티브 앱 패키지를 만들 수 있습니다. UI는 XAML이나 C#으로 작성하고, 컨트롤은 핸들러 아키텍처를 통해 각 플랫폼의 네이티브 뷰에 매핑되며, 크로스 플랫폼 API로 센서, 저장소, 네트워크 연결, 보안 설정 같은 기기 기능에 접근할 수 있습니다.\n\n보통 데이터 바인딩을 활용한 MVVM 패턴, Visual Studio의 핫 리로드, 추가 컨트롤과 도우미를 제공하는 .NET MAUI Community Toolkit을 함께 사용하며, Blazor Hybrid를 쓰면 네이티브 셸 안에서 Razor 웹 컴포넌트를 렌더링할 수 있습니다. 업무용 앱이나 현장 업무 앱처럼 이미 C#과 .NET에 투자한 조직에 자연스러운 선택입니다. 릴리스는 매년 나오는 .NET 주기를 따르므로 앱을 정기적으로 업그레이드해야 하고, macOS 지원은 Mac Catalyst를 통해 이루어지며, Linux는 공식 대상이 아니고, 서드파티 컴포넌트 생태계는 Flutter나 React Native보다 작습니다.",
+      "keywords": [
+        "크로스 플랫폼",
+        "C#",
+        "XAML",
+        "모바일 앱",
+        "데스크톱 앱",
+        "Xamarin"
+      ],
+      "rationale": "크로스 플랫폼 네이티브 앱을 위한 대표적인 C#/.NET 선택지입니다. 모바일 카테고리에서 Flutter, React Native, Compose Multiplatform 옆에 비어 있던 .NET 자리를 채웁니다."
+    },
+    "ja": {
+      "description": "単一の C#・XAML コードベースから Android、iOS、macOS、Windows のネイティブアプリを構築するクロスプラットフォームの .NET フレームワークで、Xamarin.Forms の後継です。モバイルとデスクトップで UI とビジネスロジックを共有したい .NET 開発者に向いています。",
+      "longDescription": ".NET MAUI(Multi-platform App UI)は、Android、iOS、iPadOS、macOS、Windows 向けのネイティブクライアントアプリのための公式 .NET フレームワークです。Xamarin.Forms から発展したもので、.NET SDK のワークロードとして提供されるため、1 つのプロジェクトで全プラットフォームを対象にしつつ、ネイティブのアプリパッケージを生成できます。UI は XAML または C# で記述し、コントロールはハンドラーアーキテクチャを通じて各プラットフォームのネイティブビューに対応付けられます。センサー、ストレージ、ネットワーク接続、セキュアな設定保存などのデバイス機能にはクロスプラットフォーム API でアクセスできます。\n\n一般的には、データバインディングを使った MVVM パターン、Visual Studio のホットリロード、追加のコントロールやヘルパーを提供する .NET MAUI Community Toolkit を組み合わせて使います。Blazor Hybrid を使えば、ネイティブのシェルの中で Razor の Web コンポーネントを描画することもできます。業務アプリや現場向けアプリなど、すでに C# と .NET に投資している組織にとって自然な選択肢です。リリースは毎年の .NET のサイクルに沿うためアプリの定期的なアップグレードが必要で、macOS 対応は Mac Catalyst 経由、Linux は公式の対象外であり、サードパーティ製コンポーネントのエコシステムは Flutter や React Native より小さめです。",
+      "keywords": [
+        "クロスプラットフォーム",
+        "C#",
+        "XAML",
+        "モバイルアプリ",
+        "デスクトップアプリ",
+        "Xamarin"
+      ],
+      "rationale": "クロスプラットフォームのネイティブアプリ開発における代表的な C#/.NET の選択肢です。モバイルカテゴリで Flutter、React Native、Compose Multiplatform の隣に欠けていた .NET の枠を埋めます。"
+    },
+    "zh-CN": {
+      "description": "跨平台 .NET 框架，可用一套 C# 和 XAML 代码构建 Android、iOS、macOS 和 Windows 原生应用，是 Xamarin.Forms 的继任者。适合希望在移动端和桌面端共享界面与业务逻辑的 .NET 开发者。",
+      "longDescription": ".NET MAUI(Multi-platform App UI)是用于开发 Android、iOS、iPadOS、macOS 和 Windows 原生客户端应用的官方 .NET 框架。它由 Xamarin.Forms 演进而来，以 .NET SDK 工作负载的形式提供，因此一个项目即可面向所有平台，同时仍能生成原生应用包。界面使用 XAML 或 C# 编写，控件通过处理程序(handler)架构映射到各平台的原生视图，跨平台 API 则可访问传感器、存储、网络连接和安全偏好设置等设备功能。\n\n团队通常会结合使用数据绑定的 MVVM 模式、Visual Studio 的热重载，以及提供额外控件和辅助工具的 .NET MAUI Community Toolkit；借助 Blazor Hybrid，还可以在原生外壳中渲染 Razor Web 组件。对于已经深度使用 C# 和 .NET 的组织，例如开发业务系统和外勤应用，它是很自然的选择。版本发布遵循 .NET 每年一次的节奏，因此应用需要定期升级；macOS 支持通过 Mac Catalyst 实现，Linux 不是官方支持的目标平台，第三方组件生态也比 Flutter 或 React Native 小。",
+      "keywords": [
+        "跨平台",
+        "C#",
+        "XAML",
+        "移动应用",
+        "桌面应用",
+        "Xamarin"
+      ],
+      "rationale": "跨平台原生应用开发的主要 C#/.NET 选项；在移动分类中填补了 Flutter、React Native 和 Compose Multiplatform 旁边缺少的 .NET 位置。"
+    },
+    "es": {
+      "description": "Framework multiplataforma de .NET para crear apps nativas de Android, iOS, macOS y Windows desde una única base de código en C# y XAML, sucesor de Xamarin.Forms. Para desarrolladores .NET que quieren compartir interfaz y lógica de negocio entre móvil y escritorio.",
+      "longDescription": ".NET MAUI (Multi-platform App UI) es el framework oficial de .NET para aplicaciones cliente nativas en Android, iOS, iPadOS, macOS y Windows. Evolucionó a partir de Xamarin.Forms y se distribuye como una carga de trabajo del SDK de .NET, de modo que un solo proyecto puede apuntar a todas las plataformas y seguir generando paquetes de app nativos. La interfaz se escribe en XAML o C#, los controles se asignan a las vistas nativas de cada plataforma mediante una arquitectura de handlers, y unas APIs multiplataforma dan acceso a funciones del dispositivo como sensores, almacenamiento, conectividad y preferencias seguras.\n\nLos equipos suelen trabajar con el patrón MVVM y enlace de datos, la recarga en caliente de Visual Studio y el .NET MAUI Community Toolkit para controles y utilidades adicionales, mientras que Blazor Hybrid permite renderizar componentes web Razor dentro de una aplicación nativa. Es una elección natural para organizaciones que ya han apostado por C# y .NET, por ejemplo en aplicaciones de gestión interna o de trabajo de campo. Las versiones siguen el ritmo anual de .NET, así que las apps necesitan actualizaciones periódicas; el soporte de macOS pasa por Mac Catalyst, Linux no es una plataforma oficial y el ecosistema de componentes de terceros es más reducido que el de Flutter o React Native.",
+      "keywords": [
+        "multiplataforma",
+        "c#",
+        "xaml",
+        "apps móviles",
+        "apps de escritorio",
+        "xamarin"
+      ],
+      "rationale": "La principal opción de C#/.NET para apps nativas multiplataforma; cubre el hueco de .NET junto a Flutter, React Native y Compose Multiplatform en la categoría móvil."
+    },
+    "de": {
+      "description": "Plattformübergreifendes .NET-Framework für native Android-, iOS-, macOS- und Windows-Apps aus einer gemeinsamen Codebasis in C# und XAML, Nachfolger von Xamarin.Forms. Für .NET-Entwickler, die UI und Geschäftslogik zwischen Mobilgeräten und Desktop teilen wollen.",
+      "longDescription": ".NET MAUI (Multi-platform App UI) ist das offizielle .NET-Framework für native Client-Apps auf Android, iOS, iPadOS, macOS und Windows. Es ist aus Xamarin.Forms hervorgegangen und wird als Workload des .NET SDK ausgeliefert, sodass ein einziges Projekt alle Plattformen ansprechen und trotzdem native App-Pakete erzeugen kann. Die Oberfläche entsteht in XAML oder C#, Steuerelemente werden über eine Handler-Architektur auf die nativen Views der jeweiligen Plattform abgebildet, und plattformübergreifende APIs öffnen den Zugriff auf Gerätefunktionen wie Sensoren, Speicher, Netzwerkstatus und sichere Einstellungen.\n\nTeams arbeiten meist mit dem MVVM-Muster und Data Binding, Hot Reload in Visual Studio und dem .NET MAUI Community Toolkit für zusätzliche Steuerelemente und Helfer; mit Blazor Hybrid lassen sich Razor-Webkomponenten innerhalb einer nativen App-Hülle darstellen. Für Organisationen, die bereits auf C# und .NET setzen, etwa bei Fachanwendungen oder Apps für den Außendienst, ist es eine naheliegende Wahl. Releases folgen dem jährlichen .NET-Rhythmus, Apps brauchen also regelmäßige Upgrades; macOS wird über Mac Catalyst unterstützt, Linux ist kein offizielles Ziel, und das Ökosystem an Drittanbieter-Komponenten ist kleiner als bei Flutter oder React Native.",
+      "keywords": [
+        "plattformübergreifend",
+        "C#",
+        "XAML",
+        "Mobile Apps",
+        "Desktop-Apps",
+        "Xamarin"
+      ],
+      "rationale": "Die wichtigste C#/.NET-Option für plattformübergreifende native Apps; füllt in der Mobile-Kategorie die .NET-Lücke neben Flutter, React Native und Compose Multiplatform."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2020-05-08",
+      "archived": false,
+      "openIssuesCount": 1337,
+      "stargazersCount": 23319,
+      "productionReadiness": "mature",
+      "governance": "foundation",
+      "score": 94,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The main C#/.NET option for cross-platform native apps; fills the .NET gap next to Flutter, React Native and Compose Multiplatform in the mobile category."
+    },
+    "flag": "ok"
+  }
+}

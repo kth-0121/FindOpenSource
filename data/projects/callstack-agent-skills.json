@@ -1,0 +1,110 @@
+{
+  "name": "Callstack React Native Skills",
+  "slug": "callstack-agent-skills",
+  "description": "Agent Skills from Callstack for React Native work: performance, upgrades, library creation, migrations and CI, written for AI coding assistants.",
+  "longDescription": "Callstack packages lessons from its work on production React Native apps into skills for AI coding assistants. react-native-best-practices is the centerpiece: performance guidance for FPS, startup time, bundle size, memory leaks, re-renders and animations, based on Callstack's React Native optimization guide. upgrading-react-native handles version upgrades including native changes, create-react-native-library scaffolds libraries and native modules, react-navigation covers stacks, tabs and drawers, and react-native-tv-best-practices handles focus navigation and playback on TV. Two skills cover moving native apps to React Native: assessing the migration, then doing it incrementally. github-actions builds simulator and emulator artifacts in CI.\n\nInstall it if you ship React Native apps; the performance and upgrade skills alone are worth it. writing-user-docs is a general docs style guide rather than a React Native skill, and the testing skills the README lists live in other repositories.",
+  "repository": "https://github.com/callstackincubator/agent-skills",
+  "website": "https://skills.sh/callstackincubator/agent-skills",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "react-native",
+    "mobile",
+    "app-performance",
+    "react-navigation"
+  ],
+  "languages": [
+    "Shell"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Callstack이 만든 React Native용 Agent Skills: 성능, 업그레이드, 라이브러리 제작, 마이그레이션, CI를 AI 코딩 어시스턴트용으로 정리했습니다.",
+      "longDescription": "Callstack은 프로덕션 React Native 앱을 만들며 얻은 경험을 AI 코딩 어시스턴트용 스킬로 묶었습니다. 중심은 react-native-best-practices입니다. FPS, 시작 시간, 번들 크기, 메모리 누수, 리렌더링, 애니메이션에 대한 성능 가이드로, Callstack의 React Native 최적화 가이드를 바탕으로 합니다. upgrading-react-native는 템플릿 diff를 적용하고 iOS·Android 네이티브 변경을 처리하며, create-react-native-library는 라이브러리와 네이티브 모듈의 뼈대를 만들고, react-navigation은 스택, 탭, 드로어를, react-native-tv-best-practices는 TV의 포커스 내비게이션과 재생을 다룹니다. 네이티브 앱을 React Native로 옮기는 스킬도 두 개 있습니다. 하나는 이전 여부와 방법을 평가하고, 다른 하나는 점진적인 브라운필드 마이그레이션을 실행합니다. github-actions는 CI에서 시뮬레이터·에뮬레이터용 빌드 결과물을 만듭니다.\n\nReact Native 앱을 출시한다면 설치하세요. 성능과 업그레이드 스킬만으로도 값어치가 있습니다. 저장소가 callstackincubator 아래에 있고, writing-user-docs는 React Native 스킬이 아니라 일반적인 문서 스타일 가이드이며, README에 나오는 테스트 스킬은 다른 저장소에 있다는 점은 알아 두세요.",
+      "keywords": [
+        "에이전트 스킬",
+        "React Native",
+        "모바일",
+        "앱 성능",
+        "React Navigation"
+      ],
+      "rationale": "React Native에 집중하는 회사가 만든 실용적인 성능, 업그레이드, 마이그레이션 스킬입니다. 대상이 React Native로 좁습니다."
+    },
+    "ja": {
+      "description": "Callstack による React Native 向けの Agent Skills。パフォーマンス、アップグレード、ライブラリ作成、移行、CI を AI コーディングアシスタント向けにまとめています。",
+      "longDescription": "Callstack は、本番の React Native アプリに取り組んできた知見を、AI コーディングアシスタント向けのスキルにまとめました。中心は react-native-best-practices で、FPS、起動時間、バンドルサイズ、メモリリーク、再レンダリング、アニメーションについてのパフォーマンスガイドです。Callstack の React Native 最適化ガイドがもとになっています。upgrading-react-native はテンプレートの差分を適用して iOS と Android のネイティブ側の変更を進め、create-react-native-library はライブラリやネイティブモジュールの雛形を作り、react-navigation はスタック、タブ、ドロワーを、react-native-tv-best-practices は TV でのフォーカス移動と再生を扱います。ネイティブアプリを React Native に移すためのスキルも二つあり、一つは移行すべきかとその方法を評価し、もう一つは段階的なブラウンフィールド移行を実行します。github-actions は CI でシミュレーターとエミュレーター向けのビルド成果物を作ります。\n\nReact Native のアプリを出しているなら入れましょう。パフォーマンスとアップグレードのスキルだけでも価値があります。なお、リポジトリは callstackincubator の下にあり、writing-user-docs は React Native 用ではなく汎用のドキュメントスタイルガイドで、README に載っているテスト系のスキルは別のリポジトリにあります。",
+      "keywords": [
+        "エージェントスキル",
+        "React Native",
+        "モバイル",
+        "アプリのパフォーマンス",
+        "React Navigation"
+      ],
+      "rationale": "React Native に特化した会社による、実用的なパフォーマンス、アップグレード、移行のスキルです。対象は React Native に限られます。"
+    },
+    "zh-CN": {
+      "description": "Callstack 推出的 React Native Agent Skills：面向 AI 编程助手，涵盖性能、升级、库开发、迁移和 CI。",
+      "longDescription": "Callstack 把开发生产级 React Native 应用积累的经验整理成了给 AI 编程助手用的技能。核心是 react-native-best-practices：关于 FPS、启动时间、包体积、内存泄漏、重复渲染和动画的性能指南，基于 Callstack 的 React Native 优化指南。upgrading-react-native 应用模板差异并处理 iOS 和 Android 原生改动，create-react-native-library 为库和原生模块搭建脚手架，react-navigation 涵盖栈、标签页和抽屉导航，react-native-tv-best-practices 负责 TV 上的焦点导航和播放。还有两个技能用于把原生应用迁移到 React Native：一个评估是否迁移以及如何迁移，另一个执行渐进式的 brownfield 迁移。github-actions 则在 CI 中构建模拟器和仿真器产物。\n\n如果你在发布 React Native 应用，就安装它，单是性能和升级技能就值得。需要注意：仓库位于 callstackincubator 组织下，writing-user-docs 是通用的文档风格指南而不是 React Native 技能，README 中列出的测试技能则在其他仓库里。",
+      "keywords": [
+        "智能体技能",
+        "React Native",
+        "移动开发",
+        "应用性能",
+        "React Navigation"
+      ],
+      "rationale": "来自专注 React Native 的公司，提供实用的性能、升级和迁移技能；只适用于 React Native 技术栈。"
+    },
+    "es": {
+      "description": "Agent Skills de Callstack para trabajar con React Native: rendimiento, actualizaciones, creación de librerías, migraciones y CI, escritas para asistentes de programación con IA.",
+      "longDescription": "Callstack recoge en skills para asistentes de programación lo aprendido trabajando en apps de React Native en producción. react-native-best-practices es la pieza central: guía de rendimiento para FPS, tiempo de arranque, tamaño del bundle, fugas de memoria, re-renders y animaciones, basada en la guía de optimización de React Native de Callstack. upgrading-react-native aplica los diffs de la plantilla y resuelve los cambios nativos de iOS y Android, create-react-native-library genera librerías y módulos nativos, react-navigation cubre stacks, tabs y drawers, y react-native-tv-best-practices se ocupa de la navegación por foco y la reproducción en TV. Dos skills llevan apps nativas a React Native: una evalúa si migrar y cómo, y la otra ejecuta una migración brownfield incremental. github-actions genera en CI builds para simulador y emulador.\n\nInstálalo si publicas apps con React Native; solo las skills de rendimiento y de actualización ya lo justifican. Ten en cuenta que el repositorio está bajo callstackincubator, que writing-user-docs es una guía de estilo general para documentación y no una skill de React Native, y que las skills de testing que cita el README están en otros repositorios.",
+      "keywords": [
+        "skills de agentes",
+        "React Native",
+        "móvil",
+        "rendimiento de apps",
+        "React Navigation"
+      ],
+      "rationale": "Skills prácticas de rendimiento, actualización y migración de React Native, de una empresa centrada en React Native; limitadas a ese stack."
+    },
+    "de": {
+      "description": "Agent Skills von Callstack für die Arbeit mit React Native: Performance, Upgrades, Bibliotheken, Migrationen und CI, geschrieben für KI-Coding-Assistenten.",
+      "longDescription": "Callstack bündelt die Erfahrung aus seiner Arbeit an produktiven React-Native-Apps in Skills für KI-Coding-Assistenten. Herzstück ist react-native-best-practices: Performance-Leitlinien zu FPS, Startzeit, Bundle-Größe, Speicherlecks, Re-Renders und Animationen, basierend auf Callstacks React-Native-Optimierungsleitfaden. upgrading-react-native wendet Template-Diffs an und arbeitet die nativen Änderungen für iOS und Android ab, create-react-native-library erzeugt Bibliotheken und native Module, react-navigation deckt Stacks, Tabs und Drawer ab, und react-native-tv-best-practices kümmert sich um Fokus-Navigation und Wiedergabe auf dem Fernseher. Zwei Skills bringen native Apps zu React Native: einer bewertet, ob und wie migriert werden sollte, der andere führt eine schrittweise Brownfield-Migration durch. github-actions baut in der CI Artefakte für Simulator und Emulator.\n\nInstalliere es, wenn du React-Native-Apps auslieferst; schon die Performance- und Upgrade-Skills lohnen sich. Beachte, dass das Repository unter callstackincubator liegt, writing-user-docs ein allgemeiner Doku-Styleguide und kein React-Native-Skill ist und die im README genannten Test-Skills in anderen Repositories liegen.",
+      "keywords": [
+        "Agenten-Skills",
+        "React Native",
+        "Mobile",
+        "App-Performance",
+        "React Navigation"
+      ],
+      "rationale": "Praxisnahe Skills für Performance, Upgrades und Migration in React Native, von einem auf React Native spezialisierten Unternehmen; auf diesen Stack beschränkt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-08",
+      "repoCreatedAt": "2026-01-14",
+      "archived": false,
+      "openIssuesCount": 8,
+      "stargazersCount": 1722,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "score": 64,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Practical React Native performance, upgrade and migration skills from a company focused on React Native; narrow to that stack."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

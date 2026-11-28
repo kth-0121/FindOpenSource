@@ -253,11 +253,11 @@ const dictionary: Dictionary = {
       },
       ml: {
         title: "ML en Hugging Face",
-        description: "Operaciones del Hub, datasets, entrenamiento y evaluación de modelos.",
+        description: "Operaciones del Hub, datasets, entrenamiento y selección de modelos.",
         benefits: [
           "Gestiona modelos, datasets y Spaces del Hub con la CLI hf",
           "Explora, busca y filtra datasets con la Dataset Viewer API",
-          "Ajusta modelos con TRL o Unsloth (SFT, DPO, GRPO) y evalúa en local con inspect-ai y lighteval",
+          "Post-entrena con TRL (SFT, DPO, GRPO) y encuentra el mejor modelo para una tarea según benchmarks",
         ],
       },
       shortform: {
@@ -361,6 +361,42 @@ const dictionary: Dictionary = {
             "Pregunta qué quieres construir de verdad y muestra la especificación en partes cortas",
             "Planifica con TDD red/green real, YAGNI y DRY",
             "El desarrollo dirigido por subagentes puede seguir el plan solo durante horas",
+          ],
+        },
+        addy: {
+          credential: "Autor de Learning JavaScript Design Patterns; dirigió la experiencia de desarrollo de Chrome en Google",
+          summary: "Agent Skills: skills de ingeniería de nivel producción que cubren el ciclo completo, de la especificación al lanzamiento.",
+          strengths: [
+            "10 comandos de barra recorren el ciclo: /spec, /plan, /build, /test, /review, /ship y más",
+            "/build escribe el plan y, tras una sola aprobación, construye cada tarea con tests primero y un commit por tarea",
+            "/webperf y /a11y auditan el rendimiento web y la accesibilidad",
+          ],
+        },
+        "compound-engineering": {
+          credential: "Compound Engineer en Every y co-mantenedor de Compound Engineering",
+          summary: "Compound Engineering: un plugin de 38 skills construido en torno al ciclo lluvia de ideas → plan → trabajo → acumulación.",
+          strengths: [
+            "/ce-brainstorm y /ce-plan convierten los requisitos en un plan listo para implementar",
+            "/ce-work ejecuta el plan y simplifica, revisa y hace commit antes de abrir el PR",
+            "/ce-compound guarda lo aprendido en docs/solutions/ y el siguiente /ce-plan lo vuelve a leer",
+          ],
+        },
+        lifeos: {
+          credential: "Investigador de seguridad, creador de Fabric",
+          summary: "LifeOS: un entorno de IA personal sobre Claude Code que da al agente tus objetivos, tu contexto y tu memoria.",
+          strengths: [
+            "Memoria persistente de sesiones, decisiones y aprendizajes anteriores",
+            "97 skills públicas, desde investigación y seguridad hasta escritura, arte y vídeo",
+            "El instalador fusiona la configuración en lugar de sobrescribirla y nunca toca tu carpeta USER/",
+          ],
+        },
+        tstack: {
+          credential: "CEO de Ping.gg y creador del T3 Stack",
+          summary: "tstack: las skills de agente que Theo usa a diario, ordenadas para que cualquiera pueda usarlas.",
+          strengths: [
+            "full-send lleva un cambio hasta un PR fusionado: prueba, revisión, PR, seguimiento y merge",
+            "council pide revisión a tres modelos de proveedores distintos y repite hasta que coinciden",
+            "takeover termina el PR, la rama o el hilo de agente de otra persona manteniendo su autoría",
           ],
         },
       },

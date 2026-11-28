@@ -1,0 +1,117 @@
+{
+  "name": "Gin",
+  "slug": "gin",
+  "description": "HTTP web framework for Go with a fast radix-tree router, middleware chaining, request binding and validation, and JSON rendering. Popular with Go developers building lightweight REST APIs and microservices.",
+  "repository": "https://github.com/gin-gonic/gin",
+  "website": "https://gin-gonic.com",
+  "documentation": "https://gin-gonic.com/en/docs/",
+  "categories": [
+    "backend",
+    "api"
+  ],
+  "keywords": [
+    "go",
+    "web framework",
+    "http router",
+    "middleware",
+    "rest api",
+    "microservices"
+  ],
+  "longDescription": "Gin is a web framework for Go that adds routing, middleware and request-handling helpers on top of the standard net/http package. Its router uses a radix tree derived from httprouter, which keeps route matching fast and light on allocations, and every handler receives a Context object that bundles access to path parameters, headers, the request body and response writers. Route groups make it easy to apply shared prefixes and middleware to sets of endpoints.\n\nCommon features include binding and validating JSON, XML, form and query data into structs, rendering JSON, XML, YAML and HTML templates, recovery from panics, request logging and a large collection of community middleware for CORS, sessions, JWT authentication and more. It is widely used for REST APIs, microservices and backend services where Go's performance and simple deployment matter. Gin is intentionally small: it provides no ORM, dependency injection or project structure, and some Go developers now prefer the standard library router, which gained method and path patterns in recent Go releases.",
+  "languages": [
+    "Go"
+  ],
+  "packages": {
+    "go": [
+      "github.com/gin-gonic/gin"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "빠른 radix 트리 라우터, 미들웨어 체이닝, 요청 바인딩과 검증, JSON 렌더링을 갖춘 Go용 HTTP 웹 프레임워크입니다. 가벼운 REST API와 마이크로서비스를 만드는 Go 개발자들에게 인기가 높습니다.",
+      "longDescription": "Gin은 표준 net/http 패키지 위에 라우팅, 미들웨어, 요청 처리 도우미를 더한 Go 웹 프레임워크입니다. 라우터는 httprouter에서 파생된 radix 트리를 사용해 경로 매칭이 빠르고 메모리 할당이 적으며, 모든 핸들러는 경로 파라미터, 헤더, 요청 본문, 응답 작성기에 접근할 수 있는 Context 객체를 받습니다. 라우트 그룹을 쓰면 여러 엔드포인트에 공통 접두사와 미들웨어를 손쉽게 적용할 수 있습니다.\n\nJSON, XML, 폼, 쿼리 데이터를 구조체로 바인딩하고 검증하는 기능, JSON·XML·YAML·HTML 템플릿 렌더링, 패닉 복구, 요청 로깅, 그리고 CORS, 세션, JWT 인증 등을 위한 방대한 커뮤니티 미들웨어가 주요 기능입니다. Go의 성능과 간단한 배포가 중요한 REST API, 마이크로서비스, 백엔드 서비스에 널리 쓰입니다. 의도적으로 작게 유지되어 ORM, 의존성 주입, 프로젝트 구조는 제공하지 않으며, 최근 Go 릴리스에서 표준 라이브러리 라우터가 메서드·경로 패턴을 지원하게 되면서 이를 더 선호하는 Go 개발자도 있습니다.",
+      "keywords": [
+        "go",
+        "웹 프레임워크",
+        "http 라우터",
+        "미들웨어",
+        "rest api",
+        "마이크로서비스"
+      ],
+      "rationale": "가장 인기 있는 Go 웹 프레임워크이자 카탈로그의 첫 Go HTTP 프레임워크로 훌륭한 선택지이지만, Go 표준 라이브러리와 Echo, Fiber 같은 대안이 있어 유일무이한 존재는 아닙니다."
+    },
+    "ja": {
+      "description": "高速な radix ツリーのルーター、ミドルウェアの連結、リクエストのバインドと検証、JSON レンダリングを備えた Go 向けの HTTP Web フレームワークです。軽量な REST API やマイクロサービスを作る Go 開発者に人気があります。",
+      "longDescription": "Gin は、標準の net/http パッケージの上にルーティング、ミドルウェア、リクエスト処理のヘルパーを加えた Go の Web フレームワークです。ルーターは httprouter から派生した radix ツリーを使っており、ルートのマッチングが高速でメモリ割り当ても少なく、各ハンドラーはパスパラメータ、ヘッダー、リクエストボディ、レスポンスの書き込みにアクセスできる Context オブジェクトを受け取ります。ルートグループを使えば、複数のエンドポイントに共通のプレフィックスやミドルウェアを簡単に適用できます。\n\nJSON、XML、フォーム、クエリのデータを構造体にバインドして検証する機能、JSON・XML・YAML・HTML テンプレートのレンダリング、panic からの回復、リクエストログ、さらに CORS、セッション、JWT 認証などのための豊富なコミュニティ製ミドルウェアが主な特徴です。Go の性能とデプロイの手軽さが活きる REST API、マイクロサービス、バックエンドサービスで広く使われています。意図的に小さく保たれており、ORM、依存性注入、プロジェクト構成は提供しません。また最近の Go のリリースで標準ライブラリのルーターがメソッドやパスのパターンに対応したため、そちらを好む Go 開発者もいます。",
+      "keywords": [
+        "go",
+        "Web フレームワーク",
+        "http ルーター",
+        "ミドルウェア",
+        "rest api",
+        "マイクロサービス"
+      ],
+      "rationale": "最も人気のある Go の Web フレームワークで、カタログ初の Go 向け HTTP フレームワークです。有力な選択肢ですが、Go の標準ライブラリや Echo、Fiber などの代替があるため唯一無二ではありません。"
+    },
+    "zh-CN": {
+      "description": "一个 Go 语言 HTTP Web 框架，提供快速的基数树路由、中间件链、请求绑定与校验以及 JSON 渲染，深受构建轻量级 REST API 和微服务的 Go 开发者欢迎。",
+      "longDescription": "Gin 是一个 Go Web 框架，在标准库 net/http 之上增加了路由、中间件和请求处理辅助功能。它的路由器使用源自 httprouter 的基数树，路由匹配速度快、内存分配少；每个处理函数都会收到一个 Context 对象，可以统一访问路径参数、请求头、请求体和响应写入器。借助路由组，可以方便地为一组端点统一设置前缀和中间件。\n\n常用功能包括把 JSON、XML、表单和查询参数绑定到结构体并进行校验，渲染 JSON、XML、YAML 和 HTML 模板，从 panic 中恢复，请求日志，以及大量用于 CORS、会话、JWT 认证等的社区中间件。它广泛用于看重 Go 性能和简单部署的 REST API、微服务和后端服务。Gin 刻意保持小巧，不提供 ORM、依赖注入或项目结构；而且由于近期 Go 版本的标准库路由已支持方法和路径模式，一些 Go 开发者更倾向于直接使用标准库。",
+      "keywords": [
+        "go",
+        "Web 框架",
+        "http 路由",
+        "中间件",
+        "rest api",
+        "微服务"
+      ],
+      "rationale": "最流行的 Go Web 框架，也是目录中第一个 Go HTTP 框架；是很强的选择，但 Go 标准库以及 Echo、Fiber 等替代方案的存在使它并非唯一。"
+    },
+    "es": {
+      "description": "Framework web HTTP para Go con un enrutador rápido basado en árbol radix, encadenamiento de middleware, vinculación y validación de peticiones y renderizado JSON. Muy popular entre quienes crean APIs REST ligeras y microservicios en Go.",
+      "longDescription": "Gin es un framework web para Go que añade enrutamiento, middleware y utilidades para manejar peticiones sobre el paquete estándar net/http. Su enrutador usa un árbol radix derivado de httprouter, lo que mantiene la búsqueda de rutas rápida y con pocas asignaciones de memoria, y cada manejador recibe un objeto Context que reúne el acceso a parámetros de ruta, cabeceras, cuerpo de la petición y escritura de la respuesta. Los grupos de rutas facilitan aplicar prefijos y middleware comunes a conjuntos de endpoints.\n\nEntre sus funciones habituales están vincular y validar datos JSON, XML, de formulario y de consulta en structs, renderizar JSON, XML, YAML y plantillas HTML, recuperarse de panics, registrar peticiones y una gran colección de middleware de la comunidad para CORS, sesiones, autenticación JWT y más. Se usa mucho en APIs REST, microservicios y servicios de backend donde importan el rendimiento de Go y su despliegue sencillo. Gin es pequeño a propósito: no ofrece ORM, inyección de dependencias ni estructura de proyecto, y algunos desarrolladores de Go prefieren ahora el enrutador de la biblioteca estándar, que admite patrones de método y ruta en versiones recientes de Go.",
+      "keywords": [
+        "go",
+        "framework web",
+        "enrutador http",
+        "middleware",
+        "api rest",
+        "microservicios"
+      ],
+      "rationale": "El framework web más popular de Go y el primer framework HTTP de Go del catálogo; una opción sólida, aunque la biblioteca estándar de Go y alternativas como Echo y Fiber impiden que sea la única referencia."
+    },
+    "de": {
+      "description": "HTTP-Webframework für Go mit schnellem Radix-Tree-Router, verketteter Middleware, Request-Binding mit Validierung und JSON-Rendering. Beliebt bei Go-Entwicklern, die schlanke REST-APIs und Microservices bauen.",
+      "longDescription": "Gin ist ein Webframework für Go, das Routing, Middleware und Helfer für die Request-Verarbeitung auf dem Standardpaket net/http aufsetzt. Der Router nutzt einen von httprouter abgeleiteten Radix-Tree, der das Routen-Matching schnell und allokationsarm hält, und jeder Handler erhält ein Context-Objekt, das Zugriff auf Pfadparameter, Header, Request-Body und Response-Writer bündelt. Mit Routengruppen lassen sich gemeinsame Präfixe und Middleware bequem auf mehrere Endpunkte anwenden.\n\nZu den gängigen Funktionen gehören das Binden und Validieren von JSON-, XML-, Formular- und Query-Daten in Structs, das Rendern von JSON, XML, YAML und HTML-Templates, Recovery bei Panics, Request-Logging sowie eine große Sammlung von Community-Middleware für CORS, Sessions, JWT-Authentifizierung und mehr. Verbreitet ist es bei REST-APIs, Microservices und Backend-Diensten, bei denen Gos Performance und einfaches Deployment zählen. Gin ist bewusst klein: Es bietet weder ORM noch Dependency Injection oder eine Projektstruktur, und manche Go-Entwickler greifen inzwischen lieber zum Router der Standardbibliothek, der in neueren Go-Versionen Methoden- und Pfadmuster beherrscht.",
+      "keywords": [
+        "go",
+        "Webframework",
+        "http-router",
+        "Middleware",
+        "rest-api",
+        "Microservices"
+      ],
+      "rationale": "Das populärste Go-Webframework und das erste Go-HTTP-Framework im Katalog; eine starke Wahl, die wegen der Go-Standardbibliothek und Alternativen wie Echo und Fiber aber nicht alleinstehend ist."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-10-10",
+      "repoCreatedAt": "2014-06-16",
+      "archived": false,
+      "openIssuesCount": 843,
+      "stargazersCount": 89606,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 88,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The most popular Go web framework and the first Go HTTP framework in the catalog; a strong pick, though Go's standard library and alternatives like Echo and Fiber keep it from being singular."
+    },
+    "flag": "ok"
+  }
+}

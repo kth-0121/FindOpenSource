@@ -1,0 +1,117 @@
+{
+  "name": "Spree Commerce",
+  "slug": "spree",
+  "description": "Open source headless commerce platform built on Ruby on Rails, with REST APIs, TypeScript SDKs, a React admin dashboard and a Next.js storefront. For teams building multi-vendor marketplaces, B2B and wholesale stores, or cross-border shops on infrastructure they own.",
+  "repository": "https://github.com/spree/spree",
+  "website": "https://spreecommerce.org",
+  "documentation": "https://spreecommerce.org/docs/",
+  "categories": [
+    "ecommerce"
+  ],
+  "keywords": [
+    "ecommerce",
+    "headless commerce",
+    "ruby on rails",
+    "marketplace",
+    "b2b",
+    "next.js storefront"
+  ],
+  "longDescription": "Spree Commerce is one of the longest-running open source ecommerce platforms, started in 2007 and still actively developed. Its Rails back end provides the commerce primitives, including products and variants, pricing, multi-location inventory, promotions, gift cards, taxes, fulfillment and returns, and exposes them through REST APIs with OpenAPI specs and matching TypeScript SDKs. Merchants work in a React admin dashboard, and a separate open source Next.js storefront can be forked as a starting point or replaced with any custom frontend, mobile app or point of sale.\n\nRecent releases put marketplace and B2B features into the open source core: seller onboarding, per-seller order splitting, commissions and Stripe Connect payouts, as well as price lists, customer groups and company accounts. Markets bundle currency, language and payment options per region, and built-in integrations cover Stripe, Adyen, PayPal, Avalara and Meilisearch. The backend ships as a Docker image and includes an MCP server for managing a store through AI assistants. The core is BSD-3-Clause licensed, while multi-tenant SaaS, approval workflows and SLA support belong to a paid Enterprise Edition.",
+  "languages": [
+    "Ruby",
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "@spree/sdk"
+    ]
+  },
+  "license": "BSD-3-Clause",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Ruby on Rails 기반의 오픈소스 헤드리스 커머스 플랫폼으로, REST API, TypeScript SDK, React 관리자 대시보드, Next.js 스토어프런트를 제공합니다. 직접 소유한 인프라에서 멀티 벤더 마켓플레이스, B2B·도매몰, 해외 판매 쇼핑몰을 구축하려는 팀에 적합합니다.",
+      "longDescription": "Spree Commerce는 2007년에 시작되어 지금도 활발히 개발되고 있는, 가장 오래된 오픈소스 이커머스 플랫폼 중 하나입니다. Rails 백엔드가 상품과 옵션, 가격, 다중 창고 재고, 프로모션, 기프트 카드, 세금, 배송, 반품 같은 커머스 기본 기능을 제공하고, 이를 OpenAPI 명세를 갖춘 REST API와 대응하는 TypeScript SDK로 노출합니다. 판매자는 React 관리자 대시보드에서 작업하며, 별도로 제공되는 오픈소스 Next.js 스토어프런트를 포크해 출발점으로 삼거나 맞춤 프런트엔드, 모바일 앱, POS로 대체할 수 있습니다.\n\n최근 릴리스에서는 마켓플레이스와 B2B 기능이 오픈소스 코어에 들어왔습니다. 판매자 입점, 판매자별 주문 분할, 수수료와 Stripe Connect 정산, 그리고 가격표, 고객 그룹, 기업 계정을 지원합니다. Markets 기능은 지역별 통화, 언어, 결제 수단을 묶어 관리하고, Stripe, Adyen, PayPal, Avalara, Meilisearch 연동이 기본 제공됩니다. 백엔드는 Docker 이미지로 배포되며, AI 어시스턴트로 상점을 관리할 수 있는 MCP 서버가 포함되어 있습니다. 코어는 BSD-3-Clause 라이선스이며, 멀티 테넌트 SaaS, 승인 워크플로, SLA 지원은 유료 Enterprise Edition에 속합니다.",
+      "keywords": [
+        "이커머스",
+        "헤드리스 커머스",
+        "Ruby on Rails",
+        "마켓플레이스",
+        "B2B",
+        "Next.js 스토어프런트"
+      ],
+      "rationale": "오픈소스 코어가 이제 마켓플레이스와 B2B까지 아우르는 오래된 Rails 커머스 플랫폼입니다. 이미 여러 헤드리스 선택지가 있는 이커머스 카테고리에 Ruby 생태계와 마켓플레이스 중심 관점을 더합니다."
+    },
+    "ja": {
+      "description": "Ruby on Rails 上に構築されたオープンソースのヘッドレスコマースプラットフォームで、REST API、TypeScript SDK、React 製の管理ダッシュボード、Next.js のストアフロントを備えています。自前のインフラでマルチベンダーマーケットプレイス、B2B・卸売サイト、越境 EC を構築するチームに向いています。",
+      "longDescription": "Spree Commerce は 2007 年に始まり、現在も活発に開発が続く、最も歴史の長いオープンソース EC プラットフォームの一つです。Rails のバックエンドが、商品とバリエーション、価格設定、複数拠点の在庫、プロモーション、ギフトカード、税、フルフィルメント、返品といったコマースの基本機能を提供し、OpenAPI 仕様付きの REST API と対応する TypeScript SDK で公開します。事業者は React 製の管理ダッシュボードで作業し、別リポジトリのオープンソース Next.js ストアフロントをフォークして出発点にすることも、独自のフロントエンド、モバイルアプリ、POS に置き換えることもできます。\n\n最近のリリースでは、マーケットプレイスと B2B の機能がオープンソースのコアに入りました。出店者のオンボーディング、出店者ごとの注文分割、手数料と Stripe Connect による支払い、さらに価格表、顧客グループ、法人アカウントに対応しています。Markets は地域ごとの通貨、言語、決済手段をまとめて管理し、Stripe、Adyen、PayPal、Avalara、Meilisearch との連携が組み込まれています。バックエンドは Docker イメージで提供され、AI アシスタントからストアを管理できる MCP サーバーも含まれます。コアは BSD-3-Clause ライセンスで、マルチテナント SaaS、承認ワークフロー、SLA サポートは有料の Enterprise Edition に含まれます。",
+      "keywords": [
+        "EC サイト",
+        "ヘッドレスコマース",
+        "Ruby on Rails",
+        "マーケットプレイス",
+        "B2B",
+        "Next.js ストアフロント"
+      ],
+      "rationale": "オープンソースのコアがマーケットプレイスと B2B までカバーするようになった、歴史ある Rails 製コマースプラットフォームです。すでに複数のヘッドレス系がある EC カテゴリに、Ruby エコシステムとマーケットプレイス重視の視点を加えます。"
+    },
+    "zh-CN": {
+      "description": "基于 Ruby on Rails 的开源无头电商平台，提供 REST API、TypeScript SDK、React 管理后台和 Next.js 店面。适合在自有基础设施上搭建多商户市场、B2B 与批发商城或跨境网店的团队。",
+      "longDescription": "Spree Commerce 是历史最悠久的开源电商平台之一，始于 2007 年，至今仍在积极开发。它的 Rails 后端提供商品与规格、定价、多仓库库存、促销、礼品卡、税费、履约和退货等电商基础能力，并通过带 OpenAPI 规范的 REST API 及配套的 TypeScript SDK 对外提供。商家在 React 管理后台中操作，另有一个开源的 Next.js 店面可以 fork 作为起点，也可以换成任意自定义前端、移动应用或 POS 系统。\n\n近期版本把多商户市场和 B2B 功能纳入了开源核心：商家入驻、按商家拆分订单、佣金和 Stripe Connect 结算，以及价格表、客户分组和企业账户。Markets 功能按地区组合货币、语言和支付方式，并内置 Stripe、Adyen、PayPal、Avalara 和 Meilisearch 集成。后端以 Docker 镜像发布，还包含一个 MCP 服务器，可通过 AI 助手管理店铺。核心采用 BSD-3-Clause 许可证，多租户 SaaS、审批流程和 SLA 支持则属于付费的 Enterprise Edition。",
+      "keywords": [
+        "电商",
+        "无头电商",
+        "Ruby on Rails",
+        "多商户市场",
+        "B2B",
+        "Next.js 店面"
+      ],
+      "rationale": "历史悠久的 Rails 电商平台，其开源核心如今已涵盖多商户市场和 B2B；为已有多个无头方案的电商分类补充了 Ruby 生态和以多商户市场为重点的选择。"
+    },
+    "es": {
+      "description": "Plataforma de comercio headless open source sobre Ruby on Rails, con APIs REST, SDKs en TypeScript, panel de administración en React y tienda en Next.js. Para equipos que crean marketplaces multivendedor, tiendas B2B y mayoristas o venta internacional en infraestructura propia.",
+      "longDescription": "Spree Commerce es una de las plataformas de comercio electrónico open source con más recorrido: nació en 2007 y sigue en desarrollo activo. Su backend en Rails proporciona las piezas básicas del comercio, como productos y variantes, precios, inventario en varias ubicaciones, promociones, tarjetas regalo, impuestos, logística y devoluciones, y las expone mediante APIs REST con especificaciones OpenAPI y SDKs en TypeScript correspondientes. Los comercios trabajan en un panel de administración en React, y una tienda Next.js open source independiente puede bifurcarse como punto de partida o sustituirse por cualquier frontend propio, app móvil o terminal de punto de venta.\n\nLas versiones recientes han incorporado al núcleo open source funciones de marketplace y B2B: alta de vendedores, división de pedidos por vendedor, comisiones y pagos con Stripe Connect, además de listas de precios, grupos de clientes y cuentas de empresa. Los Markets agrupan moneda, idioma y métodos de pago por región, y hay integraciones de serie con Stripe, Adyen, PayPal, Avalara y Meilisearch. El backend se distribuye como imagen Docker e incluye un servidor MCP para gestionar la tienda con asistentes de IA. El núcleo tiene licencia BSD-3-Clause, mientras que el SaaS multiinquilino, los flujos de aprobación y el soporte con SLA forman parte de una Enterprise Edition de pago.",
+      "keywords": [
+        "comercio electrónico",
+        "comercio headless",
+        "ruby on rails",
+        "marketplace",
+        "b2b",
+        "tienda next.js"
+      ],
+      "rationale": "Veterana plataforma de comercio en Rails cuyo núcleo open source ya cubre marketplaces y B2B; añade el ecosistema Ruby y un enfoque de marketplace a una categoría de ecommerce que ya cuenta con varias opciones headless."
+    },
+    "de": {
+      "description": "Open-Source-Headless-Commerce-Plattform auf Basis von Ruby on Rails mit REST-APIs, TypeScript-SDKs, React-Admin-Dashboard und Next.js-Storefront. Für Teams, die Multi-Vendor-Marktplätze, B2B- und Großhandelsshops oder internationalen Handel auf eigener Infrastruktur aufbauen.",
+      "longDescription": "Spree Commerce gehört zu den langlebigsten Open-Source-E-Commerce-Plattformen: 2007 gestartet und bis heute aktiv weiterentwickelt. Das Rails-Backend liefert die Commerce-Grundbausteine wie Produkte und Varianten, Preise, Lagerbestände an mehreren Standorten, Promotions, Geschenkkarten, Steuern, Fulfillment und Retouren und stellt sie über REST-APIs mit OpenAPI-Spezifikationen und passenden TypeScript-SDKs bereit. Händler arbeiten in einem React-Admin-Dashboard, und eine separate Open-Source-Storefront in Next.js lässt sich als Ausgangspunkt forken oder durch ein eigenes Frontend, eine Mobile-App oder ein Kassensystem ersetzen.\n\nNeuere Releases haben Marktplatz- und B2B-Funktionen in den Open-Source-Kern geholt: Onboarding von Verkäufern, Aufteilung von Bestellungen pro Verkäufer, Provisionen und Auszahlungen über Stripe Connect sowie Preislisten, Kundengruppen und Firmenkonten. Markets bündeln Währung, Sprache und Zahlungsarten pro Region, und Integrationen für Stripe, Adyen, PayPal, Avalara und Meilisearch sind eingebaut. Das Backend wird als Docker-Image ausgeliefert und enthält einen MCP-Server, über den sich der Shop mit KI-Assistenten verwalten lässt. Der Kern steht unter BSD-3-Clause, Multi-Tenant-SaaS, Freigabe-Workflows und SLA-Support gehören zur kostenpflichtigen Enterprise Edition.",
+      "keywords": [
+        "E-Commerce",
+        "Headless Commerce",
+        "Ruby on Rails",
+        "Marktplatz",
+        "B2B",
+        "Next.js-Storefront"
+      ],
+      "rationale": "Langjährige Rails-Commerce-Plattform, deren Open-Source-Kern inzwischen Marktplätze und B2B abdeckt; bringt das Ruby-Ökosystem und einen Marktplatz-Schwerpunkt in eine E-Commerce-Kategorie, die bereits mehrere Headless-Optionen hat."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2008-03-10",
+      "archived": false,
+      "openIssuesCount": 232,
+      "stargazersCount": 15858,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Long-running Rails commerce platform whose open source core now covers marketplaces and B2B; adds the Ruby ecosystem and a marketplace focus to an ecommerce category that already has several headless options."
+    },
+    "flag": "ok"
+  }
+}

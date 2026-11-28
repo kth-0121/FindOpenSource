@@ -24,6 +24,14 @@ export const SKILL_PACK_ORDER = [
   "marketingskills",
   "last30days",
   "humanizer",
+  "sentry-skills",
+  "cloudflare-skills",
+  "supabase-agent-skills",
+  "firebase-agent-skills",
+  "stripe-agent-skills",
+  "neon-agent-skills",
+  "callstack-agent-skills",
+  "antfu-skills",
   "scientific-agent-skills",
 ];
 
@@ -86,8 +94,8 @@ export const PRESETS = [
     skills: [
       "huggingface-skills/hf-cli",
       "huggingface-skills/huggingface-datasets",
-      "huggingface-skills/huggingface-llm-trainer",
-      "huggingface-skills/huggingface-community-evals",
+      "huggingface-skills/trl-training",
+      "huggingface-skills/huggingface-best",
     ],
   },
   {

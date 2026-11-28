@@ -1,0 +1,117 @@
+{
+  "name": "TinaCMS",
+  "slug": "tinacms",
+  "description": "Git-backed headless CMS that adds an editing interface and live visual editing to Markdown, MDX, JSON and YAML files stored in your repository, queried through a GraphQL API. For developers who want editors to update site content without leaving Git.",
+  "repository": "https://github.com/tinacms/tinacms",
+  "website": "https://tina.io",
+  "documentation": "https://tina.io/docs/",
+  "categories": [
+    "cms"
+  ],
+  "keywords": [
+    "headless cms",
+    "git-based cms",
+    "visual editing",
+    "markdown",
+    "graphql",
+    "next.js"
+  ],
+  "longDescription": "TinaCMS is an open source content management system that keeps content as files in a Git repository instead of a separate database. Developers define a schema for collections such as posts, pages or authors, and Tina provides an admin interface where editors fill in forms and use a rich-text editor, with optional live visual editing that updates the actual page as they type. Saved changes are committed back to the repository, so content gets the same history, branching and review process as code.\n\nContent is queried through a generated GraphQL API with a typed client, which works for both static generation and server-side rendering and resolves references between documents. Visual editing is built around React, so it fits best with frameworks such as Next.js, while other site generators can use the forms-based editor. The same team runs TinaCloud, a hosted service that handles authentication and Git syncing; self-hosting the backend is possible but means wiring up your own database adapter, auth provider and Git provider. It suits developer-led marketing sites, documentation and blogs.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "tinacms",
+      "@tinacms/cli"
+    ]
+  },
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "저장소에 있는 Markdown, MDX, JSON, YAML 파일에 편집 화면과 실시간 시각적 편집을 더하고 GraphQL API로 조회하게 해 주는 Git 기반 헤드리스 CMS입니다. 편집자가 Git을 벗어나지 않고 사이트 콘텐츠를 수정하길 원하는 개발자에게 적합합니다.",
+      "longDescription": "TinaCMS는 콘텐츠를 별도의 데이터베이스가 아닌 Git 저장소의 파일로 보관하는 오픈소스 콘텐츠 관리 시스템입니다. 개발자가 게시물, 페이지, 작성자 같은 컬렉션의 스키마를 정의하면, Tina가 편집자용 관리 화면을 제공합니다. 편집자는 폼과 리치 텍스트 편집기로 작업하고, 선택적으로 실시간 시각적 편집을 켜면 입력하는 즉시 실제 페이지에 변경 사항이 반영됩니다. 저장한 내용은 저장소에 커밋되므로 콘텐츠도 코드와 똑같이 이력, 브랜치, 리뷰 과정을 거칩니다.\n\n콘텐츠는 자동 생성되는 GraphQL API와 타입이 지정된 클라이언트로 조회하며, 정적 생성과 서버 사이드 렌더링 모두에서 동작하고 문서 간 참조도 해석합니다. 시각적 편집은 React를 중심으로 만들어져 Next.js 같은 프레임워크와 가장 잘 맞고, 다른 사이트 생성기에서는 폼 기반 편집기를 사용할 수 있습니다. 같은 팀이 인증과 Git 동기화를 처리하는 호스팅 서비스 TinaCloud를 운영하며, 백엔드를 직접 호스팅할 수도 있지만 데이터베이스 어댑터, 인증 공급자, Git 공급자를 직접 연결해야 합니다. 개발자가 주도하는 마케팅 사이트, 문서, 블로그에 잘 어울립니다.",
+      "keywords": [
+        "헤드리스 CMS",
+        "Git 기반 CMS",
+        "시각적 편집",
+        "마크다운",
+        "GraphQL",
+        "Next.js"
+      ],
+      "rationale": "실시간 시각적 편집을 갖춘 Git 기반 CMS입니다. 개념적으로 Decap CMS와 겹치지만 타입이 있는 GraphQL 콘텐츠 계층과 React 중심 편집을 제공하므로 좋은 추가 선택지입니다."
+    },
+    "ja": {
+      "description": "リポジトリ内の Markdown、MDX、JSON、YAML ファイルに編集画面とライブのビジュアル編集を加え、GraphQL API で取得できるようにする Git ベースのヘッドレス CMS です。編集者が Git の外に出ずにサイトのコンテンツを更新できるようにしたい開発者に向いています。",
+      "longDescription": "TinaCMS は、コンテンツを独立したデータベースではなく Git リポジトリ内のファイルとして保持するオープンソースのコンテンツ管理システムです。開発者が投稿、ページ、著者といったコレクションのスキーマを定義すると、Tina が編集者向けの管理画面を提供します。編集者はフォームやリッチテキストエディターで作業でき、オプションのライブビジュアル編集を使えば入力に合わせて実際のページが更新されます。保存した変更はリポジトリにコミットされるため、コンテンツもコードと同じように履歴、ブランチ、レビューの流れに乗せられます。\n\nコンテンツは自動生成される GraphQL API と型付きクライアントで取得でき、静的生成とサーバーサイドレンダリングの両方で動作し、ドキュメント間の参照も解決します。ビジュアル編集は React を前提に作られているため Next.js などのフレームワークと最も相性がよく、その他のサイトジェネレーターではフォームベースのエディターを利用できます。同じチームが認証と Git 同期を担うホスティングサービス TinaCloud を運営しています。バックエンドのセルフホストも可能ですが、データベースアダプター、認証プロバイダー、Git プロバイダーを自分で組み込む必要があります。開発者主導のマーケティングサイト、ドキュメント、ブログに適しています。",
+      "keywords": [
+        "ヘッドレス CMS",
+        "Git ベース CMS",
+        "ビジュアル編集",
+        "Markdown",
+        "GraphQL",
+        "Next.js"
+      ],
+      "rationale": "ライブのビジュアル編集を備えた Git ベースの CMS です。考え方は Decap CMS と重なりますが、型付きの GraphQL コンテンツ層と React 中心の編集体験があり、有力な追加の選択肢になります。"
+    },
+    "zh-CN": {
+      "description": "基于 Git 的无头 CMS，为仓库中的 Markdown、MDX、JSON 和 YAML 文件提供编辑界面和实时可视化编辑，并通过 GraphQL API 查询内容。适合希望编辑人员不离开 Git 就能更新网站内容的开发者。",
+      "longDescription": "TinaCMS 是一款开源内容管理系统，它把内容作为文件保存在 Git 仓库中，而不是放在单独的数据库里。开发者为文章、页面、作者等集合定义模式后，Tina 会提供一个管理界面，编辑人员可以通过表单和富文本编辑器工作；启用可选的实时可视化编辑后，输入内容会即时反映到真实页面上。保存的修改会提交回仓库，因此内容也能像代码一样拥有历史记录、分支和审核流程。\n\n内容通过自动生成的 GraphQL API 和带类型的客户端查询，同时适用于静态生成和服务端渲染，并能解析文档之间的引用。可视化编辑围绕 React 构建，因此与 Next.js 等框架最为契合，其他站点生成器则可以使用基于表单的编辑器。同一团队还运营托管服务 TinaCloud，负责身份验证和 Git 同步；后端也可以自行托管，但需要自己接入数据库适配器、认证提供方和 Git 提供方。它适合由开发者主导的营销网站、文档和博客。",
+      "keywords": [
+        "无头 CMS",
+        "基于 Git 的 CMS",
+        "可视化编辑",
+        "Markdown",
+        "GraphQL",
+        "Next.js"
+      ],
+      "rationale": "具备实时可视化编辑的基于 Git 的 CMS；理念上与 Decap CMS 有重叠，但提供带类型的 GraphQL 内容层和以 React 为核心的编辑体验，是不错的补充选择。"
+    },
+    "es": {
+      "description": "CMS headless basado en Git que añade una interfaz de edición y edición visual en vivo a archivos Markdown, MDX, JSON y YAML guardados en tu repositorio, consultables mediante una API GraphQL. Para desarrolladores que quieren que los editores actualicen contenido sin salir de Git.",
+      "longDescription": "TinaCMS es un sistema de gestión de contenidos open source que guarda el contenido como archivos en un repositorio Git en lugar de en una base de datos aparte. Los desarrolladores definen un esquema para colecciones como entradas, páginas o autores, y Tina ofrece una interfaz de administración donde los editores rellenan formularios y usan un editor de texto enriquecido, con edición visual en vivo opcional que actualiza la página real mientras escriben. Los cambios guardados se confirman en el repositorio, de modo que el contenido tiene el mismo historial, ramas y proceso de revisión que el código.\n\nEl contenido se consulta mediante una API GraphQL generada con un cliente tipado, que funciona tanto con generación estática como con renderizado en servidor y resuelve referencias entre documentos. La edición visual está construida en torno a React, así que encaja mejor con frameworks como Next.js, mientras que otros generadores de sitios pueden usar el editor basado en formularios. El mismo equipo opera TinaCloud, un servicio alojado que gestiona la autenticación y la sincronización con Git; el backend también se puede autoalojar, pero exige conectar por tu cuenta un adaptador de base de datos, un proveedor de autenticación y un proveedor de Git. Es adecuado para webs de marketing, documentación y blogs gestionados por desarrolladores.",
+      "keywords": [
+        "cms headless",
+        "cms basado en git",
+        "edición visual",
+        "markdown",
+        "graphql",
+        "next.js"
+      ],
+      "rationale": "CMS basado en Git con edición visual en vivo; se solapa conceptualmente con Decap CMS, pero aporta una capa de contenido GraphQL tipada y una edición centrada en React, así que es una buena opción adicional."
+    },
+    "de": {
+      "description": "Git-basiertes Headless-CMS, das Markdown-, MDX-, JSON- und YAML-Dateien im eigenen Repository um eine Bearbeitungsoberfläche und visuelles Live-Editing ergänzt und per GraphQL-API abfragbar macht. Für Entwickler, deren Redakteure Inhalte pflegen sollen, ohne Git zu verlassen.",
+      "longDescription": "TinaCMS ist ein Open-Source-Content-Management-System, das Inhalte als Dateien in einem Git-Repository statt in einer separaten Datenbank speichert. Entwickler definieren ein Schema für Collections wie Beiträge, Seiten oder Autoren, und Tina stellt eine Admin-Oberfläche bereit, in der Redakteure Formulare ausfüllen und einen Rich-Text-Editor nutzen. Optional gibt es visuelles Live-Editing, bei dem sich die echte Seite schon während des Tippens aktualisiert. Gespeicherte Änderungen werden ins Repository committet, sodass Inhalte dieselbe Historie, dieselben Branches und denselben Review-Prozess wie Code bekommen.\n\nAbgefragt werden Inhalte über eine generierte GraphQL-API mit typisiertem Client, die sowohl mit statischer Generierung als auch mit Server-Side Rendering funktioniert und Referenzen zwischen Dokumenten auflöst. Das visuelle Editing ist auf React ausgelegt und passt daher am besten zu Frameworks wie Next.js; andere Site-Generatoren können den formularbasierten Editor verwenden. Dasselbe Team betreibt TinaCloud, einen gehosteten Dienst für Authentifizierung und Git-Synchronisierung. Das Backend lässt sich auch selbst hosten, dann müssen Datenbankadapter, Auth-Provider und Git-Provider aber selbst angebunden werden. Gut geeignet für entwicklergetriebene Marketing-Websites, Dokumentation und Blogs.",
+      "keywords": [
+        "Headless-CMS",
+        "Git-basiertes CMS",
+        "visuelles Editing",
+        "Markdown",
+        "GraphQL",
+        "Next.js"
+      ],
+      "rationale": "Git-basiertes CMS mit visuellem Live-Editing; konzeptionell überschneidet es sich mit Decap CMS, bietet aber eine typisierte GraphQL-Inhaltsschicht und React-zentriertes Editing und ist damit eine gute zusätzliche Option."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2019-07-23",
+      "archived": false,
+      "openIssuesCount": 496,
+      "stargazersCount": 13896,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Git-backed CMS with live visual editing; it overlaps conceptually with Decap CMS but offers a typed GraphQL content layer and React-first editing, so a good additional option."
+    },
+    "flag": "ok"
+  }
+}

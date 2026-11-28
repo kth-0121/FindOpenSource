@@ -1,0 +1,116 @@
+{
+  "name": "Angular",
+  "slug": "angular",
+  "description": "Full-featured TypeScript web framework from Google with components, routing, forms, an HTTP client and a CLI built in, aimed at teams building large, long-lived single-page and server-rendered applications.",
+  "repository": "https://github.com/angular/angular",
+  "website": "https://angular.dev",
+  "documentation": "https://angular.dev/overview",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "web framework",
+    "typescript",
+    "single-page application",
+    "components",
+    "signals",
+    "enterprise"
+  ],
+  "longDescription": "Angular is a TypeScript-based framework for building web applications, maintained by a team at Google. Unlike view libraries that leave routing, forms and data access to third parties, it ships an integrated set of official packages that are versioned and released together, along with a CLI that scaffolds projects, runs builds and tests, and applies automated migrations when you upgrade between major versions.\n\nApplications are built from components with HTML templates, and state can be handled with signals for fine-grained reactivity. Dependency injection, a router with lazy loading, reactive and template-driven forms, an HTTP client, internationalization and server-side rendering with hydration are all part of the platform. It is popular with enterprises and large teams that value consistent conventions across many developers and projects. The breadth that makes it cohesive also brings a steeper learning curve and more structure than smaller libraries, which can feel heavy for simple sites.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "@angular/core"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "컴포넌트, 라우팅, 폼, HTTP 클라이언트, CLI를 기본으로 갖춘 Google의 TypeScript 웹 프레임워크로, 규모가 크고 오래 유지되는 싱글 페이지 앱과 서버 렌더링 앱을 만드는 팀을 위한 도구입니다.",
+      "longDescription": "Angular는 Google 팀이 유지보수하는 TypeScript 기반 웹 애플리케이션 프레임워크입니다. 라우팅, 폼, 데이터 접근을 서드파티에 맡기는 뷰 라이브러리와 달리, 함께 버전이 관리되고 함께 릴리스되는 공식 패키지 세트를 제공합니다. 또한 프로젝트를 생성하고, 빌드와 테스트를 실행하며, 메이저 버전을 올릴 때 자동 마이그레이션을 적용해 주는 CLI도 포함되어 있습니다.\n\n애플리케이션은 HTML 템플릿을 가진 컴포넌트로 구성되며, 상태는 세밀한 반응성을 제공하는 시그널로 다룰 수 있습니다. 의존성 주입, 지연 로딩을 지원하는 라우터, 반응형 폼과 템플릿 기반 폼, HTTP 클라이언트, 국제화, 하이드레이션을 포함한 서버 사이드 렌더링이 모두 플랫폼에 들어 있습니다. 많은 개발자와 프로젝트에 걸쳐 일관된 규칙을 중시하는 기업과 대규모 팀에서 인기가 높습니다. 다만 이런 폭넓음 때문에 작은 라이브러리보다 학습 곡선이 가파르고 구조가 많아, 단순한 사이트에는 무겁게 느껴질 수 있습니다.",
+      "keywords": [
+        "웹 프레임워크",
+        "TypeScript",
+        "싱글 페이지 애플리케이션",
+        "컴포넌트",
+        "시그널",
+        "엔터프라이즈"
+      ],
+      "rationale": "3대 프런트엔드 프레임워크 중 하나이자 엔터프라이즈 팀이 흔히 선택하는 프레임워크로, 모든 것을 갖춘 접근 방식으로 Vue와 Svelte를 보완합니다."
+    },
+    "ja": {
+      "description": "コンポーネント、ルーティング、フォーム、HTTP クライアント、CLI を標準で備えた Google 発の TypeScript 製 Web フレームワークです。大規模で長く運用されるシングルページアプリやサーバーレンダリングアプリを作るチーム向けです。",
+      "longDescription": "Angular は Google のチームが保守する、TypeScript ベースの Web アプリケーションフレームワークです。ルーティングやフォーム、データアクセスをサードパーティに任せるビューライブラリとは異なり、まとめてバージョン管理・リリースされる公式パッケージ群を提供します。さらに、プロジェクトの雛形作成、ビルドやテストの実行、メジャーバージョン間のアップグレード時の自動マイグレーションまでこなす CLI も備えています。\n\nアプリケーションは HTML テンプレートを持つコンポーネントで構成し、状態はきめ細かなリアクティビティを持つシグナルで扱えます。依存性注入、遅延読み込みに対応したルーター、リアクティブフォームとテンプレート駆動フォーム、HTTP クライアント、国際化、ハイドレーション付きのサーバーサイドレンダリングまでがプラットフォームに含まれています。多くの開発者やプロジェクトで一貫した規約を重視する企業や大規模チームで人気があります。一方で、その網羅性ゆえに小さなライブラリより学習曲線が急で構造も多く、シンプルなサイトには重く感じられることがあります。",
+      "keywords": [
+        "Web フレームワーク",
+        "TypeScript",
+        "シングルページアプリケーション",
+        "コンポーネント",
+        "シグナル",
+        "エンタープライズ"
+      ],
+      "rationale": "三大フロントエンドフレームワークの一つで、エンタープライズのチームによく選ばれます。オールインワンの方針で Vue や Svelte を補完します。"
+    },
+    "zh-CN": {
+      "description": "来自 Google 的全功能 TypeScript Web 框架，内置组件、路由、表单、HTTP 客户端和 CLI，面向构建大型、长期维护的单页应用和服务端渲染应用的团队。",
+      "longDescription": "Angular 是由 Google 团队维护的基于 TypeScript 的 Web 应用框架。与把路由、表单和数据访问交给第三方的视图库不同，它提供一整套统一版本、一起发布的官方包，并附带一个 CLI，可用于生成项目、运行构建和测试，并在升级大版本时自动执行迁移。\n\n应用由带 HTML 模板的组件构成，状态可以用提供细粒度响应式的 signals 管理。依赖注入、支持懒加载的路由器、响应式表单和模板驱动表单、HTTP 客户端、国际化以及带水合的服务端渲染都是平台的一部分。它在重视跨众多开发者和项目保持一致约定的企业和大型团队中很受欢迎。正是这种全面性，让它的学习曲线比小型库更陡、结构更多，对简单网站来说可能显得笨重。",
+      "keywords": [
+        "Web 框架",
+        "TypeScript",
+        "单页应用",
+        "组件",
+        "信号",
+        "企业级"
+      ],
+      "rationale": "三大前端框架之一，也是企业团队的常见选择；以开箱即用的全套方案补充了 Vue 和 Svelte。"
+    },
+    "es": {
+      "description": "Framework web completo en TypeScript creado por Google, con componentes, enrutado, formularios, cliente HTTP y CLI integrados, pensado para equipos que construyen aplicaciones de página única y renderizadas en servidor grandes y de larga vida.",
+      "longDescription": "Angular es un framework basado en TypeScript para crear aplicaciones web, mantenido por un equipo de Google. A diferencia de las bibliotecas de vistas que dejan el enrutado, los formularios y el acceso a datos en manos de terceros, incluye un conjunto integrado de paquetes oficiales que se versionan y publican juntos, además de una CLI que genera proyectos, ejecuta compilaciones y pruebas y aplica migraciones automáticas al actualizar entre versiones mayores.\n\nLas aplicaciones se construyen con componentes que tienen plantillas HTML, y el estado puede gestionarse con signals para una reactividad de grano fino. La inyección de dependencias, un router con carga diferida, formularios reactivos y basados en plantillas, un cliente HTTP, internacionalización y renderizado en servidor con hidratación forman parte de la plataforma. Es popular en empresas y equipos grandes que valoran convenciones coherentes entre muchos desarrolladores y proyectos. La amplitud que le da cohesión también implica una curva de aprendizaje más pronunciada y más estructura que bibliotecas más pequeñas, algo que puede resultar pesado para sitios sencillos.",
+      "keywords": [
+        "framework web",
+        "typescript",
+        "aplicación de página única",
+        "componentes",
+        "signals",
+        "empresarial"
+      ],
+      "rationale": "Uno de los tres grandes frameworks frontend y una elección habitual en equipos empresariales; complementa a Vue y Svelte con un enfoque que lo incluye todo."
+    },
+    "de": {
+      "description": "Umfassendes TypeScript-Webframework von Google mit integrierten Komponenten, Routing, Formularen, HTTP-Client und CLI, gedacht für Teams, die große, langlebige Single-Page- und serverseitig gerenderte Anwendungen bauen.",
+      "longDescription": "Angular ist ein TypeScript-basiertes Framework für Webanwendungen, das von einem Team bei Google gepflegt wird. Anders als View-Bibliotheken, die Routing, Formulare und Datenzugriff Drittanbietern überlassen, bringt es einen integrierten Satz offizieller Pakete mit, die gemeinsam versioniert und veröffentlicht werden, dazu eine CLI, die Projekte anlegt, Builds und Tests ausführt und beim Wechsel zwischen Hauptversionen automatische Migrationen anwendet.\n\nAnwendungen bestehen aus Komponenten mit HTML-Templates, und Zustand lässt sich mit Signals für feingranulare Reaktivität verwalten. Dependency Injection, ein Router mit Lazy Loading, reaktive und templatebasierte Formulare, ein HTTP-Client, Internationalisierung sowie serverseitiges Rendering mit Hydration gehören zur Plattform. Beliebt ist es bei Unternehmen und großen Teams, die über viele Entwickler und Projekte hinweg einheitliche Konventionen schätzen. Dieselbe Breite, die es so geschlossen macht, bedeutet aber auch eine steilere Lernkurve und mehr Struktur als bei kleineren Bibliotheken, was für einfache Websites schwerfällig wirken kann.",
+      "keywords": [
+        "Webframework",
+        "TypeScript",
+        "Single-Page-Anwendung",
+        "Komponenten",
+        "Signals",
+        "Enterprise"
+      ],
+      "rationale": "Eines der drei großen Frontend-Frameworks und eine häufige Wahl für Unternehmensteams; ergänzt Vue und Svelte mit einem Ansatz, bei dem alles mitgeliefert wird."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-25",
+      "repoCreatedAt": "2014-09-18",
+      "archived": false,
+      "openIssuesCount": 976,
+      "stargazersCount": 101520,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "One of the three major frontend frameworks and a common choice for enterprise teams; complements Vue and Svelte with a batteries-included approach."
+    },
+    "flag": "ok"
+  }
+}

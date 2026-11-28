@@ -1,0 +1,111 @@
+{
+  "name": "Ruby on Rails",
+  "slug": "rails",
+  "description": "Full-stack Ruby web framework built on convention over configuration, bundling an ORM, routing, views, mailers and background jobs. For teams that want to ship database-backed web apps quickly with one cohesive toolkit.",
+  "repository": "https://github.com/rails/rails",
+  "website": "https://rubyonrails.org",
+  "documentation": "https://guides.rubyonrails.org/",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "ruby",
+    "web framework",
+    "mvc",
+    "active record",
+    "full-stack",
+    "convention over configuration"
+  ],
+  "longDescription": "Ruby on Rails is a framework for building database-backed web applications in Ruby, organised around the model-view-controller pattern and a strong preference for convention over configuration. When you follow its naming and directory conventions, much of the wiring between URLs, controllers, models and database tables happens without explicit setup, and generators scaffold resources, migrations and tests from the command line.\n\nIt ships as integrated components: Active Record for the ORM and schema migrations, Action Pack for routing and controllers, Action View for templates, Active Job for background work, Action Mailer for email, Active Storage for uploads and Action Cable for WebSockets, with Hotwire as the default approach to interactive front ends. It suits SaaS products, internal tools, marketplaces and content sites where a small team needs to move fast. The trade-off is that its conventions shape the whole application, so it fits less naturally for a thin API-only service or when you want fine control over every layer.",
+  "languages": [
+    "Ruby"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "설정보다 관례를 우선하는 원칙 위에 만들어진 풀스택 Ruby 웹 프레임워크로, ORM, 라우팅, 뷰, 메일러, 백그라운드 작업을 한데 묶어 제공합니다. 하나의 일관된 도구로 데이터베이스 기반 웹 앱을 빠르게 출시하려는 팀에 적합합니다.",
+      "longDescription": "Ruby on Rails는 데이터베이스 기반 웹 애플리케이션을 Ruby로 만들기 위한 프레임워크로, 모델-뷰-컨트롤러 패턴과 설정보다 관례를 강하게 선호하는 철학을 중심으로 구성됩니다. 이름 규칙과 디렉터리 구조를 따르기만 하면 URL, 컨트롤러, 모델, 데이터베이스 테이블 사이의 연결 상당 부분이 별도 설정 없이 이루어지고, 제너레이터가 명령줄에서 리소스, 마이그레이션, 테스트의 뼈대를 만들어 줍니다.\n\n여러 구성 요소가 통합된 형태로 제공됩니다. ORM과 스키마 마이그레이션을 맡는 Active Record, 라우팅과 컨트롤러의 Action Pack, 템플릿의 Action View, 백그라운드 작업의 Active Job, 이메일의 Action Mailer, 파일 업로드의 Active Storage, WebSocket의 Action Cable이 있으며, 인터랙티브한 프런트엔드는 기본적으로 Hotwire 방식을 씁니다. 작은 팀이 빠르게 움직여야 하는 SaaS 제품, 사내 도구, 마켓플레이스, 콘텐츠 사이트에 잘 맞습니다. 대신 관례가 애플리케이션 전체의 모양을 결정하기 때문에, 얇은 API 전용 서비스나 모든 계층을 세밀하게 통제하고 싶은 경우에는 덜 자연스럽습니다.",
+      "keywords": [
+        "ruby",
+        "웹 프레임워크",
+        "mvc",
+        "active record",
+        "풀스택",
+        "설정보다 관례"
+      ],
+      "rationale": "설정보다 관례 원칙을 정의한 프레임워크이자 Ruby의 대표 웹 스택으로, 다른 Ruby 프레임워크가 없는 backend 카테고리에서 꼭 필요한 대표 프로젝트입니다."
+    },
+    "ja": {
+      "description": "「設定より規約」の考え方に基づくフルスタックの Ruby Web フレームワークで、ORM、ルーティング、ビュー、メーラー、バックグラウンドジョブを一式で備えています。まとまったツールキットでデータベース駆動の Web アプリを素早く出したいチーム向けです。",
+      "longDescription": "Ruby on Rails は、データベースを使う Web アプリケーションを Ruby で構築するためのフレームワークで、MVC パターンと「設定より規約」を強く重んじる設計を軸にしています。命名やディレクトリの規約に従えば、URL、コントローラー、モデル、データベースのテーブルの間の結び付けの多くが明示的な設定なしに成立し、ジェネレーターがコマンドラインからリソース、マイグレーション、テストの雛形を作ります。\n\n統合されたコンポーネント群として提供されており、ORM とスキーママイグレーションの Active Record、ルーティングとコントローラーの Action Pack、テンプレートの Action View、バックグラウンド処理の Active Job、メールの Action Mailer、アップロードの Active Storage、WebSocket の Action Cable があり、インタラクティブなフロントエンドには Hotwire が標準的な手法として使われます。小さなチームが素早く動く必要がある SaaS、社内ツール、マーケットプレイス、コンテンツサイトに向いています。その代わり規約がアプリケーション全体の形を決めるため、薄い API 専用サービスや、あらゆる層を細かく制御したい場合には馴染みにくい面があります。",
+      "keywords": [
+        "ruby",
+        "Web フレームワーク",
+        "mvc",
+        "active record",
+        "フルスタック",
+        "設定より規約"
+      ],
+      "rationale": "「設定より規約」を体現したフレームワークであり、Ruby の主要な Web スタックです。ほかに Ruby フレームワークがない backend カテゴリにとって欠かせない代表的プロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "一个奉行“约定优于配置”的全栈 Ruby Web 框架，集成了 ORM、路由、视图、邮件和后台任务。适合希望用一套统一工具快速交付数据库驱动 Web 应用的团队。",
+      "longDescription": "Ruby on Rails 是一个用 Ruby 构建数据库驱动 Web 应用的框架，围绕 MVC 模式和对“约定优于配置”的强烈偏好来组织。只要遵循它的命名和目录约定，URL、控制器、模型与数据库表之间的大部分关联无需显式配置就能建立，生成器还能在命令行中为资源、迁移和测试搭好骨架。\n\n它以一组集成组件的形式提供：负责 ORM 和模式迁移的 Active Record、负责路由和控制器的 Action Pack、负责模板的 Action View、负责后台任务的 Active Job、负责邮件的 Action Mailer、负责文件上传的 Active Storage 以及负责 WebSocket 的 Action Cable，交互式前端默认采用 Hotwire 方案。它适合需要小团队快速推进的 SaaS 产品、内部工具、交易平台和内容网站。代价是这些约定会塑造整个应用，因此对于轻量的纯 API 服务，或者想精细控制每一层的场景，它就不那么自然。",
+      "keywords": [
+        "ruby",
+        "Web 框架",
+        "mvc",
+        "active record",
+        "全栈",
+        "约定优于配置"
+      ],
+      "rationale": "定义了“约定优于配置”理念的框架，也是 Ruby 的主流 Web 技术栈；在没有其他 Ruby 框架的 backend 分类中是不可或缺的代表项目。"
+    },
+    "es": {
+      "description": "Framework web full-stack para Ruby basado en convención sobre configuración, que incluye ORM, enrutamiento, vistas, envío de correo y tareas en segundo plano. Para equipos que quieren lanzar rápido aplicaciones web con base de datos usando un conjunto coherente.",
+      "longDescription": "Ruby on Rails es un framework para crear aplicaciones web con base de datos en Ruby, organizado en torno al patrón modelo-vista-controlador y a una fuerte preferencia por la convención sobre la configuración. Si sigues sus convenciones de nombres y directorios, gran parte de la conexión entre URLs, controladores, modelos y tablas se resuelve sin configuración explícita, y los generadores crean desde la línea de comandos el esqueleto de recursos, migraciones y pruebas.\n\nSe distribuye como un conjunto de componentes integrados: Active Record para el ORM y las migraciones de esquema, Action Pack para enrutamiento y controladores, Action View para plantillas, Active Job para trabajos en segundo plano, Action Mailer para correo, Active Storage para subida de archivos y Action Cable para WebSockets, con Hotwire como enfoque por defecto para interfaces interactivas. Encaja bien en productos SaaS, herramientas internas, marketplaces y sitios de contenido donde un equipo pequeño necesita avanzar rápido. A cambio, sus convenciones dan forma a toda la aplicación, por lo que resulta menos natural para un servicio ligero solo de API o cuando se quiere control fino sobre cada capa.",
+      "keywords": [
+        "ruby",
+        "framework web",
+        "mvc",
+        "active record",
+        "full-stack",
+        "convención sobre configuración"
+      ],
+      "rationale": "El framework que definió la convención sobre configuración y el principal stack web de Ruby; un representante imprescindible de la categoría backend, que no tiene otro framework de Ruby."
+    },
+    "de": {
+      "description": "Full-Stack-Webframework für Ruby nach dem Prinzip Konvention vor Konfiguration, mit ORM, Routing, Views, Mailern und Hintergrundjobs aus einem Guss. Für Teams, die datenbankgestützte Web-Apps schnell mit einem stimmigen Werkzeugkasten ausliefern wollen.",
+      "longDescription": "Ruby on Rails ist ein Framework für datenbankgestützte Webanwendungen in Ruby, aufgebaut um das Model-View-Controller-Muster und eine klare Vorliebe für Konvention vor Konfiguration. Wer den Namens- und Verzeichniskonventionen folgt, bekommt einen Großteil der Verbindung zwischen URLs, Controllern, Models und Datenbanktabellen ohne explizite Einrichtung, und Generatoren legen Ressourcen, Migrationen und Tests per Kommandozeile an.\n\nRails besteht aus integrierten Komponenten: Active Record für ORM und Schema-Migrationen, Action Pack für Routing und Controller, Action View für Templates, Active Job für Hintergrundarbeit, Action Mailer für E-Mails, Active Storage für Uploads und Action Cable für WebSockets; für interaktive Frontends ist Hotwire der Standardansatz. Es eignet sich für SaaS-Produkte, interne Tools, Marktplätze und Content-Seiten, bei denen ein kleines Team schnell vorankommen muss. Der Preis dafür: Die Konventionen prägen die gesamte Anwendung, sodass es für schlanke reine API-Dienste oder bei gewünschter Feinkontrolle über jede Schicht weniger natürlich passt.",
+      "keywords": [
+        "ruby",
+        "Webframework",
+        "mvc",
+        "active record",
+        "Full-Stack",
+        "Konvention vor Konfiguration"
+      ],
+      "rationale": "Das Framework, das Konvention vor Konfiguration geprägt hat, und der wichtigste Web-Stack für Ruby; ein unverzichtbarer Vertreter der Kategorie backend, in der es kein anderes Ruby-Framework gibt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2008-04-11",
+      "archived": false,
+      "openIssuesCount": 1752,
+      "stargazersCount": 59078,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 93,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The defining convention-over-configuration framework and the main Ruby web stack; an essential representative for the backend category, which has no other Ruby framework."
+    },
+    "flag": "ok"
+  }
+}

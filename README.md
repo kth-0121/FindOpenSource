@@ -18,8 +18,8 @@ Search "authentication", "chat", "CMS", "vector database" or "web scraping" and 
 list of open source projects that solve that problem — with enough information (license,
 language, links) to quickly evaluate them.
 
-The catalog lists **280+ curated projects** across 21 categories, plus **300+ agent skills**
-from 10 skill packs you can mix into one install command.
+The catalog lists **340+ curated projects** across 21 categories, plus **450+ agent skills**
+from 18 skill packs you can mix into one install command.
 
 FindOpenSource is a fully static, community-maintained directory. There is no login, no
 database, and no backend service. Every project is a plain JSON file, reviewed and merged
@@ -45,7 +45,7 @@ through GitHub pull requests.
 - **Catalog Value ratings** — every project carries a 0–5 rating with a written rationale for why
   it's worth including, plus maturity/governance tags. See
   [`docs/project-evaluation.md`](docs/project-evaluation.md).
-- **Agent skill builder** — pick skills from 10 packs (Anthropic, Vercel, Superpowers, ...),
+- **Agent skill builder** — pick skills from 18 packs (Anthropic, Vercel, Superpowers, ...),
   pick your agent (Claude Code, Codex, Cursor, ...) and copy one install command or a prompt.
   Selections are shareable links (`/en/skills?skills=superpowers/brainstorming`).
 - **Skill pack guides** — one page per pack: who it's for, which skills to start with, what to

@@ -1,0 +1,116 @@
+{
+  "name": "Axum",
+  "slug": "axum",
+  "description": "Ergonomic, modular web framework for Rust from the Tokio project, built on hyper and the tower middleware ecosystem. For Rust developers who want type-safe routing and request extraction for async HTTP services and APIs.",
+  "repository": "https://github.com/tokio-rs/axum",
+  "documentation": "https://docs.rs/axum/latest/axum/",
+  "categories": [
+    "backend",
+    "api"
+  ],
+  "keywords": [
+    "rust",
+    "web framework",
+    "tokio",
+    "async",
+    "tower",
+    "rest api"
+  ],
+  "longDescription": "Axum is an HTTP routing and request-handling library for Rust maintained under the Tokio organisation. Handlers are ordinary async functions whose arguments are extractors: types that pull path parameters, query strings, JSON bodies, headers or shared application state out of the request, with the compiler checking that everything fits together. Routes are declared through a macro-free API, and responses can be any type that converts into one, which keeps handler code short.\n\nWhat sets it apart is that it has no middleware system of its own. It runs on hyper and uses tower services and layers, so timeouts, tracing, compression, authorization and other tower-http utilities work out of the box and can be shared with hyper or tonic gRPC services. It is used for JSON APIs, microservices, WebSocket servers and backends where Rust's performance and safety guarantees matter. It is still pre-1.0, so minor releases can bring breaking changes, and compiler errors around handler types can be hard to read at first.",
+  "languages": [
+    "Rust"
+  ],
+  "packages": {
+    "cargo": [
+      "axum"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Tokio 프로젝트가 만든 Rust용 웹 프레임워크로, hyper와 tower 미들웨어 생태계 위에 구축되어 사용하기 편하고 모듈화되어 있습니다. 비동기 HTTP 서비스와 API에서 타입 안전한 라우팅과 요청 추출을 원하는 Rust 개발자를 위한 도구입니다.",
+      "longDescription": "Axum은 Tokio 조직 아래에서 관리되는 Rust용 HTTP 라우팅·요청 처리 라이브러리입니다. 핸들러는 평범한 async 함수이며, 그 인자는 추출자(extractor), 즉 요청에서 경로 파라미터, 쿼리 문자열, JSON 본문, 헤더, 공유 애플리케이션 상태를 꺼내는 타입들입니다. 이 모든 것이 맞물리는지는 컴파일러가 검사합니다. 라우트는 매크로 없는 API로 선언하고, 응답으로 변환될 수 있는 타입이면 무엇이든 반환할 수 있어 핸들러 코드가 짧게 유지됩니다.\n\n가장 큰 차별점은 자체 미들웨어 시스템이 없다는 점입니다. hyper 위에서 동작하며 tower의 서비스와 레이어를 사용하므로, 타임아웃, 트레이싱, 압축, 인가 등 tower-http의 기능을 바로 쓸 수 있고 hyper나 tonic gRPC 서비스와도 공유할 수 있습니다. Rust의 성능과 안전성 보장이 중요한 JSON API, 마이크로서비스, WebSocket 서버, 백엔드에 쓰입니다. 아직 1.0 이전이라 마이너 릴리스에서도 호환성이 깨지는 변경이 있을 수 있고, 핸들러 타입과 관련된 컴파일 오류는 처음에는 읽기 어려울 수 있습니다.",
+      "keywords": [
+        "rust",
+        "웹 프레임워크",
+        "tokio",
+        "비동기",
+        "tower",
+        "rest api"
+      ],
+      "rationale": "Tokio 생태계에서 나온 대표적인 Rust 웹 프레임워크이자 카탈로그의 첫 Rust HTTP 프레임워크로, backend와 api 카테고리에 언어 다양성을 더해 주는 훌륭한 선택지입니다."
+    },
+    "ja": {
+      "description": "Tokio プロジェクトによる Rust 向けの使いやすくモジュール化された Web フレームワークで、hyper と tower のミドルウェアエコシステムの上に構築されています。非同期の HTTP サービスや API で型安全なルーティングとリクエスト抽出を求める Rust 開発者向けです。",
+      "longDescription": "Axum は、Tokio の Organization で管理されている Rust 向けの HTTP ルーティング・リクエスト処理ライブラリです。ハンドラーは普通の async 関数で、その引数はエクストラクター、つまりリクエストからパスパラメータ、クエリ文字列、JSON ボディ、ヘッダー、共有アプリケーション状態を取り出す型です。それらが正しく組み合わさっているかはコンパイラーが確認します。ルートはマクロを使わない API で宣言し、レスポンスにはレスポンスへ変換できる任意の型を返せるため、ハンドラーのコードが短く保たれます。\n\n最大の特徴は、独自のミドルウェアの仕組みを持たないことです。hyper 上で動作し、tower のサービスとレイヤーを使うため、タイムアウト、トレーシング、圧縮、認可といった tower-http の機能がそのまま使え、hyper や tonic による gRPC サービスとも共有できます。Rust の性能と安全性の保証が重要な JSON API、マイクロサービス、WebSocket サーバー、バックエンドで使われています。まだ 1.0 前のため、マイナーリリースでも破壊的変更が入ることがあり、ハンドラーの型にまつわるコンパイルエラーは最初は読み解きにくいかもしれません。",
+      "keywords": [
+        "rust",
+        "Web フレームワーク",
+        "tokio",
+        "非同期",
+        "tower",
+        "rest api"
+      ],
+      "rationale": "Tokio エコシステム発の代表的な Rust Web フレームワークで、カタログ初の Rust 向け HTTP フレームワークです。backend と api に言語の多様性をもたらす有力な選択肢です。"
+    },
+    "zh-CN": {
+      "description": "由 Tokio 项目推出的 Rust Web 框架，构建在 hyper 和 tower 中间件生态之上，易用且模块化，适合希望为异步 HTTP 服务和 API 获得类型安全路由与请求提取能力的 Rust 开发者。",
+      "longDescription": "Axum 是由 Tokio 组织维护的 Rust HTTP 路由与请求处理库。处理函数就是普通的 async 函数，其参数是提取器（extractor），也就是从请求中取出路径参数、查询字符串、JSON 请求体、请求头或共享应用状态的类型，而它们能否正确组合由编译器负责检查。路由通过不依赖宏的 API 声明，响应可以是任何能转换为响应的类型，因此处理函数的代码十分简洁。\n\n它最大的不同在于没有自己的中间件系统。它运行在 hyper 之上，直接使用 tower 的服务和层，因此超时、链路追踪、压缩、鉴权等 tower-http 工具开箱即用，还能与 hyper 或 tonic gRPC 服务共享。它常用于看重 Rust 性能和安全保证的 JSON API、微服务、WebSocket 服务器和后端。目前仍处于 1.0 之前，次版本也可能带来破坏性变更，而与处理函数类型相关的编译错误起初可能比较难读懂。",
+      "keywords": [
+        "rust",
+        "Web 框架",
+        "tokio",
+        "异步",
+        "tower",
+        "rest api"
+      ],
+      "rationale": "来自 Tokio 生态的领先 Rust Web 框架，也是目录中第一个 Rust HTTP 框架；是为 backend 和 api 分类增加语言多样性的有力选择。"
+    },
+    "es": {
+      "description": "Framework web ergonómico y modular para Rust del proyecto Tokio, construido sobre hyper y el ecosistema de middleware tower. Para quienes desarrollan en Rust y quieren enrutamiento y extracción de peticiones con tipos seguros en servicios HTTP asíncronos.",
+      "longDescription": "Axum es una biblioteca de enrutamiento y manejo de peticiones HTTP para Rust mantenida dentro de la organización Tokio. Los manejadores son funciones async normales cuyos argumentos son extractores: tipos que sacan de la petición parámetros de ruta, query strings, cuerpos JSON, cabeceras o estado compartido de la aplicación, mientras el compilador comprueba que todo encaje. Las rutas se declaran con una API sin macros, y la respuesta puede ser cualquier tipo convertible en una, lo que mantiene el código de los manejadores breve.\n\nLo que lo distingue es que no tiene un sistema de middleware propio. Funciona sobre hyper y usa servicios y capas de tower, así que timeouts, trazas, compresión, autorización y otras utilidades de tower-http funcionan directamente y pueden compartirse con servicios hyper o gRPC con tonic. Se usa en APIs JSON, microservicios, servidores WebSocket y backends donde importan el rendimiento y las garantías de seguridad de Rust. Aún no ha llegado a la 1.0, por lo que las versiones menores pueden traer cambios incompatibles, y los errores de compilación relacionados con los tipos de los manejadores pueden costar de entender al principio.",
+      "keywords": [
+        "rust",
+        "framework web",
+        "tokio",
+        "asíncrono",
+        "tower",
+        "api rest"
+      ],
+      "rationale": "El principal framework web de Rust, del ecosistema Tokio, y el primer framework HTTP de Rust del catálogo; una opción sólida que aporta diversidad de lenguajes a backend y api."
+    },
+    "de": {
+      "description": "Ergonomisches, modulares Webframework für Rust aus dem Tokio-Projekt, aufgebaut auf hyper und dem tower-Middleware-Ökosystem. Für Rust-Entwickler, die typsicheres Routing und Request-Extraktion für asynchrone HTTP-Dienste und APIs wollen.",
+      "longDescription": "Axum ist eine Bibliothek für HTTP-Routing und Request-Verarbeitung in Rust, die unter dem Dach der Tokio-Organisation gepflegt wird. Handler sind gewöhnliche async-Funktionen, deren Argumente Extraktoren sind: Typen, die Pfadparameter, Query-Strings, JSON-Bodies, Header oder geteilten Anwendungszustand aus dem Request holen, wobei der Compiler prüft, dass alles zusammenpasst. Routen werden über eine makrofreie API deklariert, und als Antwort taugt jeder Typ, der sich in eine Response umwandeln lässt, was Handler-Code kurz hält.\n\nBesonders ist, dass Axum kein eigenes Middleware-System hat. Es läuft auf hyper und nutzt Services und Layer von tower, sodass Timeouts, Tracing, Kompression, Autorisierung und weitere tower-http-Werkzeuge sofort funktionieren und sich mit hyper- oder tonic-gRPC-Diensten teilen lassen. Eingesetzt wird es für JSON-APIs, Microservices, WebSocket-Server und Backends, bei denen Rusts Performance und Sicherheitsgarantien zählen. Es ist noch vor Version 1.0, Minor-Releases können also Breaking Changes enthalten, und Compilerfehler rund um Handler-Typen sind anfangs oft schwer zu lesen.",
+      "keywords": [
+        "rust",
+        "Webframework",
+        "tokio",
+        "asynchron",
+        "tower",
+        "rest-api"
+      ],
+      "rationale": "Das führende Rust-Webframework aus dem Tokio-Ökosystem und das erste Rust-HTTP-Framework im Katalog; eine starke Wahl, die backend und api um eine weitere Sprache bereichert."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2021-05-30",
+      "archived": false,
+      "openIssuesCount": 108,
+      "stargazersCount": 28015,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 83,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "The leading Rust web framework from the Tokio ecosystem and the first Rust HTTP framework in the catalog; a strong pick that adds language diversity to backend and api."
+    },
+    "flag": "ok"
+  }
+}

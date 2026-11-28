@@ -983,7 +983,7 @@
   },
   "huggingface-skills": {
     "en": {
-      "intro": "Hugging Face's skills teach an agent the Hub and the libraries around it. hf-cli is the base: it covers the hf command for downloading, uploading and managing models, datasets and Spaces. Around it are task skills for training (huggingface-llm-trainer, trl-training, huggingface-vision-trainer, train-sentence-transformers), evaluation, datasets, Gradio apps and Spaces, running models locally with llama.cpp, and papers. A separate hf-cloud group handles deploying models to Amazon SageMaker.\n\nInstall hf-cli first, then add the skills for the work you actually do. Most people need three or four of the 26.",
+      "intro": "Hugging Face's skills teach an agent the Hub and the libraries around it. hf-cli is the base: it covers the hf command for downloading, uploading and managing models, datasets and Spaces. Around it are task skills for training (trl-training, huggingface-vision-trainer, train-sentence-transformers), datasets, Gradio apps and Spaces, and papers. A separate hf-cloud group handles deploying models to Amazon SageMaker.\n\nInstall hf-cli first, then add the skills for the work you actually do. Most people need three or four of the 20.",
       "bestFor": [
         "ML engineers who want the agent to handle Hub chores: uploads, downloads, repo setup",
         "Fine-tuning language or vision models with TRL or Unsloth on Hugging Face Jobs",
@@ -999,16 +999,16 @@
           "why": "Browses, filters and downloads dataset rows through the Dataset Viewer API."
         },
         {
-          "skill": "huggingface-llm-trainer",
-          "why": "SFT, DPO and GRPO fine-tuning runs on Hugging Face Jobs."
+          "skill": "trl-training",
+          "why": "Post-training with TRL: SFT, DPO, GRPO and reward models."
         },
         {
           "skill": "huggingface-gradio",
           "why": "Builds Gradio interfaces and demos in Python."
         },
         {
-          "skill": "huggingface-local-models",
-          "why": "Picks a GGUF file and quantization to run a model locally with llama.cpp."
+          "skill": "huggingface-best",
+          "why": "Finds the best model for a task by comparing benchmark scores."
         }
       ],
       "beforeInstall": [
@@ -1017,7 +1017,7 @@
       ]
     },
     "ko": {
-      "intro": "Hugging Face의 스킬은 에이전트에게 Hub와 그 주변 라이브러리를 가르칩니다. 기본은 hf-cli로, 모델, 데이터셋, Spaces를 다운로드, 업로드, 관리하는 hf 명령을 다룹니다. 그 주위로 학습(huggingface-llm-trainer, trl-training, huggingface-vision-trainer, train-sentence-transformers), 평가, 데이터셋, Gradio 앱과 Spaces, llama.cpp로 로컬에서 모델 실행하기, 논문을 위한 작업별 스킬이 있습니다. 별도의 hf-cloud 그룹은 Amazon SageMaker에 모델을 배포하는 일을 맡습니다.\n\n먼저 hf-cli를 설치한 뒤, 실제로 하는 작업에 맞는 스킬을 추가하세요. 대부분은 26개 중 서너 개면 충분합니다.",
+      "intro": "Hugging Face의 스킬은 에이전트에게 Hub와 그 주변 라이브러리를 가르칩니다. 기본은 hf-cli로, 모델, 데이터셋, Spaces를 다운로드, 업로드, 관리하는 hf 명령을 다룹니다. 그 주위로 학습(trl-training, huggingface-vision-trainer, train-sentence-transformers), 데이터셋, Gradio 앱과 Spaces, 논문을 위한 작업별 스킬이 있습니다. 별도의 hf-cloud 그룹은 Amazon SageMaker에 모델을 배포하는 일을 맡습니다.\n\n먼저 hf-cli를 설치한 뒤, 실제로 하는 작업에 맞는 스킬을 추가하세요. 대부분은 20개 중 서너 개면 충분합니다.",
       "bestFor": [
         "업로드, 다운로드, 저장소 설정 같은 Hub 잡무를 에이전트에 맡기고 싶은 ML 엔지니어",
         "Hugging Face Jobs에서 TRL이나 Unsloth로 언어 모델이나 비전 모델을 파인튜닝하는 경우",
@@ -1033,16 +1033,16 @@
           "why": "Dataset Viewer API로 데이터셋 행을 탐색하고, 필터링하고, 다운로드합니다."
         },
         {
-          "skill": "huggingface-llm-trainer",
-          "why": "Hugging Face Jobs에서 SFT, DPO, GRPO 파인튜닝을 실행합니다."
+          "skill": "trl-training",
+          "why": "TRL로 SFT, DPO, GRPO, 보상 모델 학습을 진행합니다."
         },
         {
           "skill": "huggingface-gradio",
           "why": "Python으로 Gradio 인터페이스와 데모를 만듭니다."
         },
         {
-          "skill": "huggingface-local-models",
-          "why": "llama.cpp로 모델을 로컬에서 실행할 GGUF 파일과 양자화 방식을 고릅니다."
+          "skill": "huggingface-best",
+          "why": "벤치마크 점수를 비교해 작업에 가장 알맞은 모델을 찾습니다."
         }
       ],
       "beforeInstall": [
@@ -1051,7 +1051,7 @@
       ]
     },
     "ja": {
-      "intro": "Hugging Faceのスキルは、Hubとその周辺のライブラリの使い方をエージェントに教えます。基本となるのはhf-cliで、モデル、データセット、Spacesのダウンロード、アップロード、管理を行うhfコマンドをカバーします。その周りに、学習（huggingface-llm-trainer、trl-training、huggingface-vision-trainer、train-sentence-transformers）、評価、データセット、GradioアプリとSpaces、llama.cppによるローカルでのモデル実行、論文のためのタスク別スキルがあります。別のhf-cloudグループは、Amazon SageMakerへのモデルのデプロイを扱います。\n\nまずhf-cliをインストールし、実際に行う作業に合ったスキルを追加してください。ほとんどの人に必要なのは26個のうち3〜4個です。",
+      "intro": "Hugging Faceのスキルは、Hubとその周辺のライブラリの使い方をエージェントに教えます。基本となるのはhf-cliで、モデル、データセット、Spacesのダウンロード、アップロード、管理を行うhfコマンドをカバーします。その周りに、学習（trl-training、huggingface-vision-trainer、train-sentence-transformers）、データセット、GradioアプリとSpaces、論文のためのタスク別スキルがあります。別のhf-cloudグループは、Amazon SageMakerへのモデルのデプロイを扱います。\n\nまずhf-cliをインストールし、実際に行う作業に合ったスキルを追加してください。ほとんどの人に必要なのは20個のうち3〜4個です。",
       "bestFor": [
         "アップロード、ダウンロード、リポジトリ設定といったHubの雑務をエージェントに任せたいMLエンジニア",
         "Hugging Face Jobs上でTRLやUnslothを使った言語モデル・ビジョンモデルのファインチューニング",
@@ -1067,16 +1067,16 @@
           "why": "Dataset Viewer APIを通じてデータセットの行を閲覧、絞り込み、ダウンロードします。"
         },
         {
-          "skill": "huggingface-llm-trainer",
-          "why": "Hugging Face Jobs上でのSFT、DPO、GRPOのファインチューニング実行。"
+          "skill": "trl-training",
+          "why": "TRLでSFT、DPO、GRPO、報酬モデルの学習を行います。"
         },
         {
           "skill": "huggingface-gradio",
           "why": "PythonでGradioのインターフェースやデモを作ります。"
         },
         {
-          "skill": "huggingface-local-models",
-          "why": "llama.cppでモデルをローカル実行するためのGGUFファイルと量子化を選びます。"
+          "skill": "huggingface-best",
+          "why": "ベンチマークスコアを比べて、タスクに最適なモデルを探します。"
         }
       ],
       "beforeInstall": [
@@ -1085,7 +1085,7 @@
       ]
     },
     "zh-CN": {
-      "intro": "Hugging Face 的技能教智能体使用 Hub 及其周边的库。hf-cli 是基础：它涵盖用于下载、上传和管理模型、数据集与 Spaces 的 hf 命令。围绕它的是各类任务技能，包括训练（huggingface-llm-trainer、trl-training、huggingface-vision-trainer、train-sentence-transformers）、评估、数据集、Gradio 应用和 Spaces、用 llama.cpp 在本地运行模型，以及论文。另有一组 hf-cloud 技能负责把模型部署到 Amazon SageMaker。\n\n先安装 hf-cli，再添加你实际工作所需的技能。26 个技能中，大多数人只需要三四个。",
+      "intro": "Hugging Face 的技能教智能体使用 Hub 及其周边的库。hf-cli 是基础：它涵盖用于下载、上传和管理模型、数据集与 Spaces 的 hf 命令。围绕它的是各类任务技能，包括训练（trl-training、huggingface-vision-trainer、train-sentence-transformers）、数据集、Gradio 应用和 Spaces、以及论文。另有一组 hf-cloud 技能负责把模型部署到 Amazon SageMaker。\n\n先安装 hf-cli，再添加你实际工作所需的技能。20 个技能中，大多数人只需要三四个。",
       "bestFor": [
         "希望智能体处理 Hub 琐事（上传、下载、仓库设置）的机器学习工程师",
         "在 Hugging Face Jobs 上用 TRL 或 Unsloth 微调语言或视觉模型",
@@ -1101,16 +1101,16 @@
           "why": "通过 Dataset Viewer API 浏览、筛选和下载数据集行。"
         },
         {
-          "skill": "huggingface-llm-trainer",
-          "why": "在 Hugging Face Jobs 上运行 SFT、DPO 和 GRPO 微调。"
+          "skill": "trl-training",
+          "why": "用 TRL 进行 SFT、DPO、GRPO 和奖励模型训练。"
         },
         {
           "skill": "huggingface-gradio",
           "why": "用 Python 构建 Gradio 界面和演示。"
         },
         {
-          "skill": "huggingface-local-models",
-          "why": "挑选 GGUF 文件和量化方式，用 llama.cpp 在本地运行模型。"
+          "skill": "huggingface-best",
+          "why": "比较基准分数，为任务找到最合适的模型。"
         }
       ],
       "beforeInstall": [
@@ -1119,7 +1119,7 @@
       ]
     },
     "es": {
-      "intro": "Las skills de Hugging Face enseñan a un agente el Hub y las bibliotecas que lo rodean. hf-cli es la base: cubre el comando hf para descargar, subir y gestionar modelos, datasets y Spaces. A su alrededor hay skills por tarea para entrenamiento (huggingface-llm-trainer, trl-training, huggingface-vision-trainer, train-sentence-transformers), evaluación, datasets, aplicaciones Gradio y Spaces, ejecución de modelos en local con llama.cpp, y papers. Un grupo aparte, hf-cloud, se encarga de desplegar modelos en Amazon SageMaker.\n\nInstala primero hf-cli y luego añade las skills del trabajo que de verdad haces. La mayoría de la gente necesita tres o cuatro de las 26.",
+      "intro": "Las skills de Hugging Face enseñan a un agente el Hub y las bibliotecas que lo rodean. hf-cli es la base: cubre el comando hf para descargar, subir y gestionar modelos, datasets y Spaces. A su alrededor hay skills por tarea para entrenamiento (trl-training, huggingface-vision-trainer, train-sentence-transformers), datasets, aplicaciones Gradio y Spaces, y papers. Un grupo aparte, hf-cloud, se encarga de desplegar modelos en Amazon SageMaker.\n\nInstala primero hf-cli y luego añade las skills del trabajo que de verdad haces. La mayoría de la gente necesita tres o cuatro de las 20.",
       "bestFor": [
         "Ingenieros de ML que quieren que el agente se encargue de las tareas del Hub: subidas, descargas, configuración de repos",
         "Fine-tuning de modelos de lenguaje o de visión con TRL o Unsloth en Hugging Face Jobs",
@@ -1135,16 +1135,16 @@
           "why": "Explora, filtra y descarga filas de datasets mediante la API de Dataset Viewer."
         },
         {
-          "skill": "huggingface-llm-trainer",
-          "why": "Ejecuciones de fine-tuning SFT, DPO y GRPO en Hugging Face Jobs."
+          "skill": "trl-training",
+          "why": "Post-entrenamiento con TRL: SFT, DPO, GRPO y modelos de recompensa."
         },
         {
           "skill": "huggingface-gradio",
           "why": "Crea interfaces y demos de Gradio en Python."
         },
         {
-          "skill": "huggingface-local-models",
-          "why": "Elige un archivo GGUF y una cuantización para ejecutar un modelo en local con llama.cpp."
+          "skill": "huggingface-best",
+          "why": "Encuentra el mejor modelo para una tarea comparando puntuaciones de benchmarks."
         }
       ],
       "beforeInstall": [
@@ -1153,7 +1153,7 @@
       ]
     },
     "de": {
-      "intro": "Die Skills von Hugging Face bringen einem Agenten den Hub und die Bibliotheken drumherum bei. hf-cli ist die Basis: Es deckt den Befehl hf zum Herunterladen, Hochladen und Verwalten von Modellen, Datasets und Spaces ab. Darum herum gibt es Aufgaben-Skills für Training (huggingface-llm-trainer, trl-training, huggingface-vision-trainer, train-sentence-transformers), Evaluation, Datasets, Gradio-Apps und Spaces, das lokale Ausführen von Modellen mit llama.cpp und Papers. Eine eigene Gruppe hf-cloud kümmert sich um das Deployment von Modellen auf Amazon SageMaker.\n\nInstalliere zuerst hf-cli und ergänze dann die Skills für die Arbeit, die du tatsächlich machst. Die meisten brauchen drei oder vier der 26.",
+      "intro": "Die Skills von Hugging Face bringen einem Agenten den Hub und die Bibliotheken drumherum bei. hf-cli ist die Basis: Es deckt den Befehl hf zum Herunterladen, Hochladen und Verwalten von Modellen, Datasets und Spaces ab. Darum herum gibt es Aufgaben-Skills für Training (trl-training, huggingface-vision-trainer, train-sentence-transformers), Datasets, Gradio-Apps und Spaces und Papers. Eine eigene Gruppe hf-cloud kümmert sich um das Deployment von Modellen auf Amazon SageMaker.\n\nInstalliere zuerst hf-cli und ergänze dann die Skills für die Arbeit, die du tatsächlich machst. Die meisten brauchen drei oder vier der 20.",
       "bestFor": [
         "ML-Engineers, die dem Agenten Hub-Routinearbeit überlassen wollen: Uploads, Downloads, Repo-Einrichtung",
         "Sprach- oder Vision-Modelle mit TRL oder Unsloth auf Hugging Face Jobs feintunen",
@@ -1169,16 +1169,16 @@
           "why": "Durchsucht, filtert und lädt Dataset-Zeilen über die Dataset Viewer API herunter."
         },
         {
-          "skill": "huggingface-llm-trainer",
-          "why": "SFT-, DPO- und GRPO-Feintuning-Läufe auf Hugging Face Jobs."
+          "skill": "trl-training",
+          "why": "Nachtraining mit TRL: SFT, DPO, GRPO und Reward-Modelle."
         },
         {
           "skill": "huggingface-gradio",
           "why": "Baut Gradio-Oberflächen und -Demos in Python."
         },
         {
-          "skill": "huggingface-local-models",
-          "why": "Wählt eine GGUF-Datei und Quantisierung, um ein Modell lokal mit llama.cpp auszuführen."
+          "skill": "huggingface-best",
+          "why": "Findet per Vergleich von Benchmark-Werten das beste Modell für eine Aufgabe."
         }
       ],
       "beforeInstall": [
@@ -1816,6 +1816,1366 @@
       "beforeInstall": [
         "Integrations-Skills wie benchling-integration, dnanexus-integration und latchbio-integration brauchen ein Konto auf der jeweiligen Plattform.",
         "Die klinischen Skills sind nur für die Forschungsdokumentation gedacht. clinical-decision-support schließt die Patientenversorgung ausdrücklich aus, und treatment-plans formatiert nur Entscheidungen, die zugelassene Fachkräfte bereits getroffen haben."
+      ]
+    }
+  },
+  "sentry-skills": {
+    "en": {
+      "intro": "Sentry publishes the skills its engineers actually use, and most of them cover the loop around a change. create-branch and commit apply Sentry's naming and commit-message conventions, pr-writer writes a reviewer-facing title and description, and iterate-pr keeps pushing fixes until CI is green and the high and medium review comments are dealt with. code-review, find-bugs and code-simplifier check the work before it goes up.\n\nThe security skills are worth installing even if you never touch Sentry's code: security-review, gha-security-review, secret-serialization and skill-scanner. Skip the ones built for Sentry's own repo and processes, such as document-api-endpoint, browse-local-sentry, triage-frontend-issues and the two SRED skills.",
+      "bestFor": [
+        "Developers who want branches, commits and PR descriptions written to one consistent convention",
+        "Reviewing a branch for bugs and security holes before opening the PR",
+        "Auditing GitHub Actions workflows, or a third-party skill, before you trust it"
+      ],
+      "startWith": [
+        {
+          "skill": "find-bugs",
+          "why": "Reviews the changes on your current branch for bugs, security issues and code quality problems."
+        },
+        {
+          "skill": "iterate-pr",
+          "why": "Fixes CI failures and actionable review feedback until the checks pass. It doesn't wait for approval, so use it on branches you're happy to let the agent push to."
+        },
+        {
+          "skill": "gha-security-review",
+          "why": "Audits your .github/workflows files for patterns an attacker could exploit."
+        },
+        {
+          "skill": "skill-scanner",
+          "why": "Checks an agent skill for prompt injection and other security problems before you install it."
+        }
+      ],
+      "beforeInstall": [
+        "The README says these skills are for Sentry employees. commit, create-branch and pr-writer follow Sentry's conventions (commit adds issue references, for example), so check they match your team's rules first.",
+        "Nothing here adds Sentry to your app or debugs production errors. Sentry keeps those skills in a separate repository, getsentry/sentry-for-ai."
+      ]
+    },
+    "ko": {
+      "intro": "Sentry는 엔지니어들이 실제로 쓰는 스킬을 공개했고, 대부분은 변경 하나를 둘러싼 흐름을 다룹니다. create-branch와 commit은 Sentry의 브랜치 이름과 커밋 메시지 규칙을 적용하고, pr-writer는 리뷰어가 읽을 제목과 설명을 쓰며, iterate-pr는 CI가 통과하고 중요도 높음·중간 리뷰 코멘트가 처리될 때까지 수정을 계속 푸시합니다. code-review, find-bugs, code-simplifier는 올리기 전에 작업을 점검합니다.\n\nSentry 코드를 다룰 일이 없어도 보안 스킬은 설치할 만합니다. security-review, gha-security-review, secret-serialization, skill-scanner입니다. document-api-endpoint, browse-local-sentry, triage-frontend-issues, SRED 관련 두 스킬처럼 Sentry 자체 저장소와 절차를 위해 만든 것은 건너뛰세요.",
+      "bestFor": [
+        "브랜치, 커밋, PR 설명을 하나의 일관된 규칙으로 작성하고 싶은 개발자",
+        "PR을 열기 전에 브랜치의 버그와 보안 구멍을 점검하는 경우",
+        "GitHub Actions 워크플로나 서드파티 스킬을 믿기 전에 감사하는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "find-bugs",
+          "why": "현재 브랜치의 변경 사항에서 버그, 보안 문제, 코드 품질 문제를 찾습니다."
+        },
+        {
+          "skill": "iterate-pr",
+          "why": "체크가 통과할 때까지 CI 실패와 처리할 만한 리뷰 피드백을 고칩니다. 승인을 기다리지 않으므로 에이전트가 푸시해도 괜찮은 브랜치에서 쓰세요."
+        },
+        {
+          "skill": "gha-security-review",
+          "why": ".github/workflows 파일에서 공격자가 악용할 수 있는 패턴을 감사합니다."
+        },
+        {
+          "skill": "skill-scanner",
+          "why": "설치하기 전에 에이전트 스킬에 프롬프트 인젝션 같은 보안 문제가 없는지 확인합니다."
+        }
+      ],
+      "beforeInstall": [
+        "README에 따르면 이 스킬들은 Sentry 직원용입니다. commit, create-branch, pr-writer는 Sentry 규칙을 따르므로(예: commit은 이슈 참조를 붙입니다) 먼저 팀 규칙과 맞는지 확인하세요.",
+        "앱에 Sentry를 추가하거나 프로덕션 오류를 디버깅하는 스킬은 없습니다. 그런 스킬은 별도 저장소인 getsentry/sentry-for-ai에 있습니다."
+      ]
+    },
+    "ja": {
+      "intro": "Sentry はエンジニアが実際に使っているスキルを公開しており、その多くは一つの変更をめぐる流れを扱います。create-branch と commit は Sentry のブランチ名とコミットメッセージの規約を適用し、pr-writer はレビュアー向けのタイトルと説明を書き、iterate-pr は CI が通り、重要度が高・中のレビューコメントが片付くまで修正をプッシュし続けます。code-review、find-bugs、code-simplifier は、上げる前に作業をチェックします。\n\nSentry のコードに触れることがなくても、セキュリティ系のスキルは入れる価値があります。security-review、gha-security-review、secret-serialization、skill-scanner です。document-api-endpoint、browse-local-sentry、triage-frontend-issues、二つの SRED スキルのように、Sentry 自身のリポジトリや業務のために作られたものは飛ばしてください。",
+      "bestFor": [
+        "ブランチ、コミット、PR の説明を一貫した規約で書きたい開発者",
+        "PR を開く前に、ブランチのバグやセキュリティホールを洗い出したい場合",
+        "GitHub Actions のワークフローやサードパーティ製スキルを信頼する前に監査したい場合"
+      ],
+      "startWith": [
+        {
+          "skill": "find-bugs",
+          "why": "現在のブランチの変更から、バグ、セキュリティ上の問題、コード品質の問題を探します。"
+        },
+        {
+          "skill": "iterate-pr",
+          "why": "チェックが通るまで CI の失敗と対応すべきレビュー指摘を直します。承認を待たないので、エージェントにプッシュさせてよいブランチで使いましょう。"
+        },
+        {
+          "skill": "gha-security-review",
+          "why": ".github/workflows のファイルを、攻撃者に悪用されうるパターンがないか監査します。"
+        },
+        {
+          "skill": "skill-scanner",
+          "why": "インストール前に、エージェントスキルにプロンプトインジェクションなどの問題がないか確認します。"
+        }
+      ],
+      "beforeInstall": [
+        "README によると、これらは Sentry 社員向けのスキルです。commit、create-branch、pr-writer は Sentry の規約に従う（たとえば commit は issue への参照を付ける）ので、まずチームのルールと合うか確認してください。",
+        "アプリに Sentry を組み込んだり本番エラーをデバッグしたりするスキルは含まれていません。それらは別リポジトリの getsentry/sentry-for-ai にあります。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Sentry 公开了工程师真正在用的技能，其中大部分围绕一次变更的完整流程。create-branch 和 commit 套用 Sentry 的分支命名和提交信息约定，pr-writer 写出面向评审者的标题和描述，iterate-pr 会持续推送修复，直到 CI 通过、高和中优先级的评审意见都处理完。code-review、find-bugs 和 code-simplifier 则在提交前检查一遍。\n\n即使你从不接触 Sentry 的代码，安全类技能也值得安装：security-review、gha-security-review、secret-serialization 和 skill-scanner。为 Sentry 自身仓库和流程打造的技能可以跳过，比如 document-api-endpoint、browse-local-sentry、triage-frontend-issues 以及两个 SRED 技能。",
+      "bestFor": [
+        "希望分支、提交和 PR 描述都按同一套约定来写的开发者",
+        "在开 PR 之前检查分支里的 bug 和安全漏洞",
+        "在信任 GitHub Actions 工作流或第三方技能之前先做审计"
+      ],
+      "startWith": [
+        {
+          "skill": "find-bugs",
+          "why": "检查当前分支的改动，找出 bug、安全问题和代码质量问题。"
+        },
+        {
+          "skill": "iterate-pr",
+          "why": "修复 CI 失败和需要处理的评审意见，直到检查通过。它不会等待批准，所以只在允许智能体推送的分支上使用。"
+        },
+        {
+          "skill": "gha-security-review",
+          "why": "审计 .github/workflows 文件，找出可能被攻击者利用的写法。"
+        },
+        {
+          "skill": "skill-scanner",
+          "why": "安装前检查智能体技能是否存在提示注入等安全问题。"
+        }
+      ],
+      "beforeInstall": [
+        "README 说明这些技能是给 Sentry 员工用的。commit、create-branch 和 pr-writer 遵循 Sentry 的约定（例如 commit 会加上 issue 引用），请先确认它们与团队规则一致。",
+        "这里没有把 Sentry 接入应用或调试线上错误的技能。Sentry 把那些技能放在另一个仓库 getsentry/sentry-for-ai 中。"
+      ]
+    },
+    "es": {
+      "intro": "Sentry publica las skills que sus ingenieros usan de verdad, y la mayoría cubre el ciclo alrededor de un cambio. create-branch y commit aplican las convenciones de Sentry para nombres de rama y mensajes de commit, pr-writer escribe un título y una descripción pensados para quien revisa, e iterate-pr sigue subiendo correcciones hasta que el CI está en verde y se resuelven los comentarios de prioridad alta y media. code-review, find-bugs y code-simplifier revisan el trabajo antes de subirlo.\n\nLas skills de seguridad valen la pena aunque nunca toques el código de Sentry: security-review, gha-security-review, secret-serialization y skill-scanner. Sáltate las que están hechas para el repositorio y los procesos de Sentry, como document-api-endpoint, browse-local-sentry, triage-frontend-issues y las dos skills de SRED.",
+      "bestFor": [
+        "Desarrolladores que quieren ramas, commits y descripciones de PR con una convención coherente",
+        "Revisar una rama en busca de bugs y fallos de seguridad antes de abrir el PR",
+        "Auditar workflows de GitHub Actions, o una skill de terceros, antes de confiar en ellos"
+      ],
+      "startWith": [
+        {
+          "skill": "find-bugs",
+          "why": "Revisa los cambios de tu rama actual en busca de bugs, problemas de seguridad y de calidad de código."
+        },
+        {
+          "skill": "iterate-pr",
+          "why": "Corrige fallos de CI y comentarios de revisión accionables hasta que pasan los checks. No espera aprobación, así que úsala en ramas donde aceptes que el agente haga push."
+        },
+        {
+          "skill": "gha-security-review",
+          "why": "Audita tus archivos de .github/workflows en busca de patrones que un atacante podría explotar."
+        },
+        {
+          "skill": "skill-scanner",
+          "why": "Comprueba si una skill de agente tiene inyección de prompts u otros problemas de seguridad antes de instalarla."
+        }
+      ],
+      "beforeInstall": [
+        "El README dice que estas skills son para empleados de Sentry. commit, create-branch y pr-writer siguen las convenciones de Sentry (commit añade referencias a issues, por ejemplo), así que comprueba antes que encajan con las reglas de tu equipo.",
+        "Nada de esto añade Sentry a tu aplicación ni depura errores en producción. Sentry tiene esas skills en otro repositorio, getsentry/sentry-for-ai."
+      ]
+    },
+    "de": {
+      "intro": "Sentry veröffentlicht die Skills, die seine Entwickler tatsächlich nutzen, und die meisten decken den Ablauf rund um eine Änderung ab. create-branch und commit wenden Sentrys Konventionen für Branch-Namen und Commit-Nachrichten an, pr-writer schreibt Titel und Beschreibung für Reviewer, und iterate-pr pusht so lange Korrekturen, bis die CI grün ist und die Review-Kommentare mit hoher und mittlerer Priorität erledigt sind. code-review, find-bugs und code-simplifier prüfen die Arbeit, bevor sie hochgeht.\n\nDie Security-Skills lohnen sich auch, wenn du nie mit Sentrys Code arbeitest: security-review, gha-security-review, secret-serialization und skill-scanner. Lass die Skills weg, die für Sentrys eigenes Repository und eigene Abläufe gebaut sind, etwa document-api-endpoint, browse-local-sentry, triage-frontend-issues und die beiden SRED-Skills.",
+      "bestFor": [
+        "Entwickler, die Branches, Commits und PR-Beschreibungen nach einer einheitlichen Konvention wollen",
+        "Einen Branch vor dem PR auf Bugs und Sicherheitslücken prüfen",
+        "GitHub-Actions-Workflows oder fremde Skills auditieren, bevor man ihnen vertraut"
+      ],
+      "startWith": [
+        {
+          "skill": "find-bugs",
+          "why": "Prüft die Änderungen auf deinem aktuellen Branch auf Bugs, Sicherheitsprobleme und Codequalität."
+        },
+        {
+          "skill": "iterate-pr",
+          "why": "Behebt CI-Fehler und umsetzbares Review-Feedback, bis die Checks grün sind. Er wartet nicht auf Freigabe, also nutze ihn nur auf Branches, auf die der Agent pushen darf."
+        },
+        {
+          "skill": "gha-security-review",
+          "why": "Prüft deine .github/workflows-Dateien auf Muster, die ein Angreifer ausnutzen könnte."
+        },
+        {
+          "skill": "skill-scanner",
+          "why": "Prüft einen Agent-Skill vor der Installation auf Prompt Injection und andere Sicherheitsprobleme."
+        }
+      ],
+      "beforeInstall": [
+        "Laut README sind diese Skills für Sentry-Mitarbeitende gedacht. commit, create-branch und pr-writer folgen Sentrys Konventionen (commit fügt zum Beispiel Issue-Referenzen hinzu), also prüfe zuerst, ob sie zu den Regeln deines Teams passen.",
+        "Nichts davon baut Sentry in deine App ein oder debuggt Produktionsfehler. Diese Skills liegen im separaten Repository getsentry/sentry-for-ai."
+      ]
+    }
+  },
+  "cloudflare-skills": {
+    "en": {
+      "intro": "Cloudflare's pack is built around one router skill. cloudflare helps the agent pick a product when you describe a need without naming one, then hands off to a product skill: wrangler and cf-cli for commands, workers-best-practices and workers-development for writing and running Workers locally, durable-objects and agents-sdk for stateful apps and AI agents, and frameworks-on-cloudflare or nextjs-on-cloudflare for deploying an existing web framework.\n\nUse the plugin install where your agent supports it, since it also connects Cloudflare's MCP server for API and docs access. With 24 skills, many for specialized products such as K2, Basin, Flagship, Gateway Workers and Cloudflare One, most teams only need a handful.",
+      "bestFor": [
+        "Teams building or reviewing Cloudflare Workers who want the agent on current APIs and bindings",
+        "Moving an Astro, SvelteKit, Nuxt or Next.js app onto Workers",
+        "Building stateful AI agents with the Agents SDK and Durable Objects"
+      ],
+      "startWith": [
+        {
+          "skill": "cloudflare",
+          "why": "Start here when you know the problem but not which Cloudflare product solves it."
+        },
+        {
+          "skill": "workers-best-practices",
+          "why": "Production rules for writing, reviewing and configuring Workers."
+        },
+        {
+          "skill": "wrangler",
+          "why": "Runs and troubleshoots Wrangler for local dev, previews, deploys and resources such as KV, R2 and D1."
+        },
+        {
+          "skill": "durable-objects",
+          "why": "Persistent state and coordination: chat rooms, games, bookings, WebSockets and alarms."
+        }
+      ],
+      "beforeInstall": [
+        "cf-cli covers a CLI that is still in beta, and sandbox-next targets the Sandbox 1.0 preview. Use sandbox-stable if you want the current stable package.",
+        "wrangler and cf-cli can deploy and change resources on your Cloudflare account. Check which account and environment the agent is pointed at before approving those commands."
+      ]
+    },
+    "ko": {
+      "intro": "Cloudflare 스킬 모음은 라우터 역할을 하는 스킬 하나를 중심으로 짜여 있습니다. 제품 이름 없이 필요한 것만 설명해도 cloudflare가 알맞은 제품을 고르고 제품별 스킬로 넘깁니다. 명령 실행은 wrangler와 cf-cli, Workers 작성과 로컬 실행은 workers-best-practices와 workers-development, 상태 유지 앱과 AI 에이전트는 durable-objects와 agents-sdk, 기존 웹 프레임워크 배포는 frameworks-on-cloudflare나 nextjs-on-cloudflare가 맡습니다.\n\n에이전트가 지원한다면 플러그인으로 설치하세요. API와 문서에 접근하는 Cloudflare MCP 서버도 함께 연결됩니다. 스킬이 24개이고 K2, Basin, Flagship, Gateway Workers, Cloudflare One처럼 특화된 제품용이 많아서, 대부분의 팀은 몇 개만 있으면 됩니다.",
+      "bestFor": [
+        "에이전트가 최신 API와 바인딩으로 Cloudflare Workers를 만들고 리뷰하길 원하는 팀",
+        "Astro, SvelteKit, Nuxt, Next.js 앱을 Workers로 옮기는 경우",
+        "Agents SDK와 Durable Objects로 상태를 가진 AI 에이전트를 만드는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "cloudflare",
+          "why": "문제는 알지만 어떤 Cloudflare 제품이 해결해 주는지 모를 때 여기서 시작하세요."
+        },
+        {
+          "skill": "workers-best-practices",
+          "why": "Workers를 작성하고 리뷰하고 설정할 때 지킬 프로덕션 규칙입니다."
+        },
+        {
+          "skill": "wrangler",
+          "why": "로컬 개발, 프리뷰, 배포, KV·R2·D1 같은 리소스 관리를 위한 Wrangler 실행과 문제 해결을 돕습니다."
+        },
+        {
+          "skill": "durable-objects",
+          "why": "채팅방, 게임, 예약, WebSocket, 알람처럼 지속되는 상태와 조율이 필요한 경우에 씁니다."
+        }
+      ],
+      "beforeInstall": [
+        "cf-cli는 아직 베타인 CLI를 다루고, sandbox-next는 Sandbox 1.0 프리뷰를 대상으로 합니다. 현재 안정 버전 패키지를 원한다면 sandbox-stable을 쓰세요.",
+        "wrangler와 cf-cli는 Cloudflare 계정에 배포하고 리소스를 변경할 수 있습니다. 그런 명령을 승인하기 전에 에이전트가 어떤 계정과 환경을 보고 있는지 확인하세요."
+      ]
+    },
+    "ja": {
+      "intro": "Cloudflare のスキル集は、ルーター役のスキル一つを中心に組まれています。製品名を挙げずにやりたいことを説明すると、cloudflare が適した製品を選び、製品別のスキルに引き継ぎます。コマンド操作は wrangler と cf-cli、Workers の作成とローカル実行は workers-best-practices と workers-development、状態を持つアプリと AI エージェントは durable-objects と agents-sdk、既存の Web フレームワークのデプロイは frameworks-on-cloudflare か nextjs-on-cloudflare が担当します。\n\nエージェントが対応していればプラグインとしてインストールしましょう。API とドキュメントにアクセスする Cloudflare の MCP サーバーも接続されます。スキルは 24 個あり、K2、Basin、Flagship、Gateway Workers、Cloudflare One など特化した製品向けのものも多いので、ほとんどのチームに必要なのは一部だけです。",
+      "bestFor": [
+        "最新の API とバインディングで Cloudflare Workers を書き、レビューしてほしいチーム",
+        "Astro、SvelteKit、Nuxt、Next.js のアプリを Workers に移す場合",
+        "Agents SDK と Durable Objects で状態を持つ AI エージェントを作る場合"
+      ],
+      "startWith": [
+        {
+          "skill": "cloudflare",
+          "why": "課題はわかっていても、どの Cloudflare 製品で解決できるかわからないときの出発点です。"
+        },
+        {
+          "skill": "workers-best-practices",
+          "why": "Workers を書く、レビューする、設定するときの本番向けルールです。"
+        },
+        {
+          "skill": "wrangler",
+          "why": "ローカル開発、プレビュー、デプロイ、KV・R2・D1 などのリソース管理で Wrangler を実行し、トラブルに対処します。"
+        },
+        {
+          "skill": "durable-objects",
+          "why": "チャットルーム、ゲーム、予約、WebSocket、アラームなど、永続的な状態と調整が必要な場面向けです。"
+        }
+      ],
+      "beforeInstall": [
+        "cf-cli はまだベータ版の CLI を扱い、sandbox-next は Sandbox 1.0 のプレビューが対象です。現行の安定版パッケージを使うなら sandbox-stable を選んでください。",
+        "wrangler と cf-cli は Cloudflare アカウントへのデプロイやリソースの変更ができます。そうしたコマンドを承認する前に、エージェントがどのアカウントと環境を向いているか確認してください。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Cloudflare 的技能包围绕一个路由技能组织。即使你只描述需求、不点名产品，cloudflare 也会帮智能体选出合适的产品，再交给对应的产品技能：命令操作用 wrangler 和 cf-cli，编写和本地运行 Workers 用 workers-best-practices 和 workers-development，有状态应用和 AI 智能体用 durable-objects 和 agents-sdk，部署现有 Web 框架则用 frameworks-on-cloudflare 或 nextjs-on-cloudflare。\n\n如果你的智能体支持，请用插件方式安装，这样还会接入用于访问 API 和文档的 Cloudflare MCP 服务器。技能共有 24 个，其中不少面向 K2、Basin、Flagship、Gateway Workers、Cloudflare One 等专门产品，大多数团队只需要其中几个。",
+      "bestFor": [
+        "希望智能体用当前 API 和绑定来编写和审查 Cloudflare Workers 的团队",
+        "把 Astro、SvelteKit、Nuxt 或 Next.js 应用迁移到 Workers",
+        "用 Agents SDK 和 Durable Objects 构建有状态的 AI 智能体"
+      ],
+      "startWith": [
+        {
+          "skill": "cloudflare",
+          "why": "知道要解决什么问题、但不确定该用哪个 Cloudflare 产品时，从这里开始。"
+        },
+        {
+          "skill": "workers-best-practices",
+          "why": "编写、审查和配置 Workers 时遵循的生产级规则。"
+        },
+        {
+          "skill": "wrangler",
+          "why": "运行和排查 Wrangler，用于本地开发、预览、部署以及 KV、R2、D1 等资源。"
+        },
+        {
+          "skill": "durable-objects",
+          "why": "持久状态与协调：聊天室、游戏、预订、WebSocket 和定时器（alarms）。"
+        }
+      ],
+      "beforeInstall": [
+        "cf-cli 针对的 CLI 仍处于测试阶段，sandbox-next 面向 Sandbox 1.0 预览版。如果想用当前稳定版的包，请选 sandbox-stable。",
+        "wrangler 和 cf-cli 可以在你的 Cloudflare 账户上部署和修改资源。批准这类命令前，先确认智能体指向的是哪个账户和环境。"
+      ]
+    },
+    "es": {
+      "intro": "El paquete de Cloudflare gira en torno a una skill de enrutamiento. cloudflare ayuda al agente a elegir producto cuando describes una necesidad sin nombrar ninguno, y luego pasa a una skill de producto: wrangler y cf-cli para comandos, workers-best-practices y workers-development para escribir y ejecutar Workers en local, durable-objects y agents-sdk para apps con estado y agentes de IA, y frameworks-on-cloudflare o nextjs-on-cloudflare para desplegar un framework web existente.\n\nInstálalo como plugin si tu agente lo permite, porque así también conecta el servidor MCP de Cloudflare para acceder a la API y a la documentación. Son 24 skills, muchas para productos especializados como K2, Basin, Flagship, Gateway Workers y Cloudflare One, así que la mayoría de equipos solo necesita unas pocas.",
+      "bestFor": [
+        "Equipos que crean o revisan Cloudflare Workers y quieren que el agente use APIs y bindings actuales",
+        "Llevar una app de Astro, SvelteKit, Nuxt o Next.js a Workers",
+        "Crear agentes de IA con estado usando el Agents SDK y Durable Objects"
+      ],
+      "startWith": [
+        {
+          "skill": "cloudflare",
+          "why": "Empieza aquí cuando conoces el problema pero no qué producto de Cloudflare lo resuelve."
+        },
+        {
+          "skill": "workers-best-practices",
+          "why": "Reglas de producción para escribir, revisar y configurar Workers."
+        },
+        {
+          "skill": "wrangler",
+          "why": "Ejecuta y diagnostica Wrangler para desarrollo local, previews, despliegues y recursos como KV, R2 y D1."
+        },
+        {
+          "skill": "durable-objects",
+          "why": "Estado persistente y coordinación: salas de chat, juegos, reservas, WebSockets y alarmas."
+        }
+      ],
+      "beforeInstall": [
+        "cf-cli cubre un CLI que sigue en beta, y sandbox-next apunta a la preview de Sandbox 1.0. Usa sandbox-stable si quieres el paquete estable actual.",
+        "wrangler y cf-cli pueden desplegar y modificar recursos de tu cuenta de Cloudflare. Comprueba a qué cuenta y entorno apunta el agente antes de aprobar esos comandos."
+      ]
+    },
+    "de": {
+      "intro": "Cloudflares Paket ist um einen Router-Skill herum aufgebaut. cloudflare hilft dem Agenten, ein Produkt zu wählen, wenn du nur ein Problem beschreibst, und übergibt dann an einen Produkt-Skill: wrangler und cf-cli für Befehle, workers-best-practices und workers-development zum Schreiben und lokalen Ausführen von Workers, durable-objects und agents-sdk für zustandsbehaftete Apps und KI-Agenten, frameworks-on-cloudflare oder nextjs-on-cloudflare für das Deployen eines bestehenden Web-Frameworks.\n\nInstalliere es als Plugin, wenn dein Agent das unterstützt, denn dann wird auch Cloudflares MCP-Server für API- und Doku-Zugriff verbunden. Bei 24 Skills, viele davon für spezielle Produkte wie K2, Basin, Flagship, Gateway Workers und Cloudflare One, brauchen die meisten Teams nur eine Handvoll.",
+      "bestFor": [
+        "Teams, die Cloudflare Workers bauen oder reviewen und den Agenten auf aktuellen APIs und Bindings haben wollen",
+        "Eine Astro-, SvelteKit-, Nuxt- oder Next.js-App auf Workers umziehen",
+        "Zustandsbehaftete KI-Agenten mit dem Agents SDK und Durable Objects bauen"
+      ],
+      "startWith": [
+        {
+          "skill": "cloudflare",
+          "why": "Der Einstieg, wenn du das Problem kennst, aber nicht das Cloudflare-Produkt, das es löst."
+        },
+        {
+          "skill": "workers-best-practices",
+          "why": "Produktionsregeln zum Schreiben, Reviewen und Konfigurieren von Workers."
+        },
+        {
+          "skill": "wrangler",
+          "why": "Führt Wrangler aus und behebt Probleme bei lokaler Entwicklung, Previews, Deploys und Ressourcen wie KV, R2 und D1."
+        },
+        {
+          "skill": "durable-objects",
+          "why": "Persistenter Zustand und Koordination: Chatrooms, Spiele, Buchungen, WebSockets und Alarms."
+        }
+      ],
+      "beforeInstall": [
+        "cf-cli behandelt eine CLI, die noch in der Beta ist, und sandbox-next zielt auf die Preview von Sandbox 1.0. Nimm sandbox-stable, wenn du das aktuelle stabile Paket willst.",
+        "wrangler und cf-cli können in deinem Cloudflare-Konto deployen und Ressourcen ändern. Prüfe vor dem Freigeben solcher Befehle, auf welches Konto und welche Umgebung der Agent zeigt."
+      ]
+    }
+  },
+  "supabase-agent-skills": {
+    "en": {
+      "intro": "This pack is two skills. supabase is the general one: it applies to any Supabase task, from wiring up Auth with @supabase/ssr in Next.js to Edge Function crashes, Realtime drops, Storage failures and reading the logs. supabase-postgres-best-practices is the database rulebook, grouped into eight categories ranked by impact: query performance, connection management, schema design, concurrency and locking, security and RLS, data access patterns, monitoring and advanced features.\n\nThe second skill isn't tied to Supabase. It's written for Postgres running anywhere, so it fits any project with a Postgres database.",
+      "bestFor": [
+        "Apps on Supabase that use Auth, Storage, Edge Functions or Realtime",
+        "Writing RLS policies and migrations without exposing rows to the wrong user",
+        "Diagnosing slow queries, timeouts, locking or connection exhaustion in any Postgres"
+      ],
+      "startWith": [
+        {
+          "skill": "supabase",
+          "why": "One entry point for every Supabase product, the client libraries, the CLI and the MCP server."
+        },
+        {
+          "skill": "supabase-postgres-best-practices",
+          "why": "Schema, index, RLS and query rules to check before any database change."
+        }
+      ],
+      "beforeInstall": [
+        "supabase-postgres-best-practices tells the agent to load it before any schema, migration or SQL change, even a single column. That's intended, but it adds context to small database edits.",
+        "You can install either skill on its own with npx skills add supabase/agent-skills --skill <name>, or both as Claude Code plugins."
+      ]
+    },
+    "ko": {
+      "intro": "이 스킬 모음은 스킬 두 개로 되어 있습니다. supabase는 범용 스킬로, Next.js에서 @supabase/ssr로 Auth를 연결하는 일부터 Edge Function 크래시, Realtime 연결 끊김, Storage 오류, 로그 읽기까지 Supabase와 관련된 모든 작업에 쓰입니다. supabase-postgres-best-practices는 데이터베이스 규칙서로, 영향도 순으로 여덟 개 범주로 나뉩니다. 쿼리 성능, 연결 관리, 스키마 설계, 동시성과 잠금, 보안과 RLS, 데이터 접근 패턴, 모니터링, 고급 기능입니다.\n\n두 번째 스킬은 Supabase에 묶여 있지 않습니다. 어디서 돌아가는 Postgres든 대상으로 쓰였기 때문에 Postgres 데이터베이스를 쓰는 프로젝트라면 어디에나 맞습니다.",
+      "bestFor": [
+        "Auth, Storage, Edge Functions, Realtime을 쓰는 Supabase 기반 앱",
+        "엉뚱한 사용자에게 행이 노출되지 않도록 RLS 정책과 마이그레이션을 작성하는 경우",
+        "어떤 Postgres에서든 느린 쿼리, 타임아웃, 잠금, 연결 고갈을 진단하는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "supabase",
+          "why": "모든 Supabase 제품, 클라이언트 라이브러리, CLI, MCP 서버를 위한 하나의 진입점입니다."
+        },
+        {
+          "skill": "supabase-postgres-best-practices",
+          "why": "데이터베이스를 바꾸기 전에 확인할 스키마, 인덱스, RLS, 쿼리 규칙입니다."
+        }
+      ],
+      "beforeInstall": [
+        "supabase-postgres-best-practices는 컬럼 하나를 바꾸더라도 스키마, 마이그레이션, SQL 변경 전에 자신을 불러오라고 에이전트에 지시합니다. 의도된 동작이지만 작은 데이터베이스 수정에도 컨텍스트가 늘어납니다.",
+        "npx skills add supabase/agent-skills --skill <name>으로 스킬을 하나씩 설치하거나, 둘 다 Claude Code 플러그인으로 설치할 수 있습니다."
+      ]
+    },
+    "ja": {
+      "intro": "このスキル集は二つのスキルでできています。supabase は汎用のスキルで、Next.js で @supabase/ssr を使って Auth をつなぐ作業から、Edge Function のクラッシュ、Realtime の切断、Storage のエラー、ログの読み解きまで、Supabase に関わるあらゆる作業で使われます。supabase-postgres-best-practices はデータベースのルールブックで、影響度順に八つのカテゴリに分かれています。クエリ性能、接続管理、スキーマ設計、並行性とロック、セキュリティと RLS、データアクセスのパターン、モニタリング、高度な機能です。\n\n二つ目のスキルは Supabase に縛られていません。どこで動く Postgres でも対象にしているので、Postgres データベースを使うプロジェクトならどれにも合います。",
+      "bestFor": [
+        "Auth、Storage、Edge Functions、Realtime を使う Supabase ベースのアプリ",
+        "別のユーザーに行が見えてしまわないよう、RLS ポリシーとマイグレーションを書く場合",
+        "どの Postgres でも、遅いクエリ、タイムアウト、ロック、接続の枯渇を診断したい場合"
+      ],
+      "startWith": [
+        {
+          "skill": "supabase",
+          "why": "すべての Supabase 製品、クライアントライブラリ、CLI、MCP サーバーへの共通の入口です。"
+        },
+        {
+          "skill": "supabase-postgres-best-practices",
+          "why": "データベースを変更する前に確認すべきスキーマ、インデックス、RLS、クエリのルールです。"
+        }
+      ],
+      "beforeInstall": [
+        "supabase-postgres-best-practices は、カラム一つの変更でも、スキーマ、マイグレーション、SQL を変える前に読み込むようエージェントに指示します。意図どおりの動作ですが、小さなデータベース修正でもコンテキストが増えます。",
+        "npx skills add supabase/agent-skills --skill <name> でスキルを一つずつ入れることも、両方を Claude Code のプラグインとして入れることもできます。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "这个技能包只有两个技能。supabase 是通用技能，适用于任何与 Supabase 相关的工作，从在 Next.js 中用 @supabase/ssr 接入 Auth，到 Edge Function 崩溃、Realtime 断连、Storage 失败以及查看日志。supabase-postgres-best-practices 是数据库规则手册，按影响程度分为八类：查询性能、连接管理、模式设计、并发与锁、安全与 RLS、数据访问模式、监控以及高级功能。\n\n第二个技能并不绑定 Supabase。它面向任何环境中运行的 Postgres，所以适合所有使用 Postgres 数据库的项目。",
+      "bestFor": [
+        "使用 Auth、Storage、Edge Functions 或 Realtime 的 Supabase 应用",
+        "编写 RLS 策略和迁移，避免数据行暴露给错误的用户",
+        "在任何 Postgres 中诊断慢查询、超时、锁等待或连接耗尽"
+      ],
+      "startWith": [
+        {
+          "skill": "supabase",
+          "why": "所有 Supabase 产品、客户端库、CLI 和 MCP 服务器的统一入口。"
+        },
+        {
+          "skill": "supabase-postgres-best-practices",
+          "why": "任何数据库改动之前都应核对的模式、索引、RLS 和查询规则。"
+        }
+      ],
+      "beforeInstall": [
+        "supabase-postgres-best-practices 会要求智能体在任何模式、迁移或 SQL 改动前先加载它，哪怕只改一列。这是有意为之，但会给小的数据库修改增加上下文。",
+        "可以用 npx skills add supabase/agent-skills --skill <name> 单独安装某个技能，也可以把两个都作为 Claude Code 插件安装。"
+      ]
+    },
+    "es": {
+      "intro": "Este paquete son dos skills. supabase es la general: sirve para cualquier tarea con Supabase, desde conectar Auth con @supabase/ssr en Next.js hasta caídas de Edge Functions, desconexiones de Realtime, fallos de Storage y la lectura de logs. supabase-postgres-best-practices es el reglamento de la base de datos, agrupado en ocho categorías ordenadas por impacto: rendimiento de consultas, gestión de conexiones, diseño de esquemas, concurrencia y bloqueos, seguridad y RLS, patrones de acceso a datos, monitorización y funciones avanzadas.\n\nLa segunda skill no está atada a Supabase. Está escrita para Postgres en cualquier entorno, así que encaja en cualquier proyecto con una base de datos Postgres.",
+      "bestFor": [
+        "Apps sobre Supabase que usan Auth, Storage, Edge Functions o Realtime",
+        "Escribir políticas RLS y migraciones sin exponer filas al usuario equivocado",
+        "Diagnosticar consultas lentas, timeouts, bloqueos o agotamiento de conexiones en cualquier Postgres"
+      ],
+      "startWith": [
+        {
+          "skill": "supabase",
+          "why": "Un único punto de entrada para todos los productos de Supabase, las librerías cliente, el CLI y el servidor MCP."
+        },
+        {
+          "skill": "supabase-postgres-best-practices",
+          "why": "Reglas de esquema, índices, RLS y consultas que revisar antes de cualquier cambio en la base de datos."
+        }
+      ],
+      "beforeInstall": [
+        "supabase-postgres-best-practices pide al agente que la cargue antes de cualquier cambio de esquema, migración o SQL, aunque sea una sola columna. Es intencionado, pero añade contexto a los cambios pequeños.",
+        "Puedes instalar cada skill por separado con npx skills add supabase/agent-skills --skill <name>, o las dos como plugins de Claude Code."
+      ]
+    },
+    "de": {
+      "intro": "Dieses Paket besteht aus zwei Skills. supabase ist der allgemeine: Er greift bei jeder Supabase-Aufgabe, vom Anbinden von Auth mit @supabase/ssr in Next.js bis zu abstürzenden Edge Functions, abbrechendem Realtime, Storage-Fehlern und dem Lesen der Logs. supabase-postgres-best-practices ist das Regelwerk für die Datenbank, gegliedert in acht nach Wirkung geordnete Kategorien: Query-Performance, Verbindungsverwaltung, Schema-Design, Nebenläufigkeit und Locking, Sicherheit und RLS, Datenzugriffsmuster, Monitoring und fortgeschrittene Features.\n\nDer zweite Skill ist nicht an Supabase gebunden. Er ist für Postgres in jeder Umgebung geschrieben und passt damit zu jedem Projekt mit einer Postgres-Datenbank.",
+      "bestFor": [
+        "Apps auf Supabase, die Auth, Storage, Edge Functions oder Realtime nutzen",
+        "RLS-Policies und Migrationen schreiben, ohne Zeilen den falschen Nutzern zu zeigen",
+        "Langsame Queries, Timeouts, Locking oder erschöpfte Verbindungen in jedem Postgres diagnostizieren"
+      ],
+      "startWith": [
+        {
+          "skill": "supabase",
+          "why": "Ein Einstieg für alle Supabase-Produkte, die Client-Bibliotheken, die CLI und den MCP-Server."
+        },
+        {
+          "skill": "supabase-postgres-best-practices",
+          "why": "Regeln zu Schema, Indizes, RLS und Queries, die vor jeder Datenbankänderung geprüft werden."
+        }
+      ],
+      "beforeInstall": [
+        "supabase-postgres-best-practices weist den Agenten an, ihn vor jeder Schema-, Migrations- oder SQL-Änderung zu laden, auch bei einer einzigen Spalte. Das ist gewollt, macht kleine Datenbankänderungen aber kontextlastiger.",
+        "Du kannst jeden Skill einzeln mit npx skills add supabase/agent-skills --skill <name> installieren oder beide als Claude-Code-Plugins."
+      ]
+    }
+  },
+  "firebase-agent-skills": {
+    "en": {
+      "intro": "Firebase's skills are cut along product lines. firebase-basics is the base layer for the CLI: logging in, creating and switching projects, and downloading google-services.json or GoogleService-Info.plist. On top of it sits one skill per product: firebase-auth-basics, firebase-firestore, firebase-hosting-basics, firebase-app-hosting-basics, firebase-data-connect, firebase-remote-config-basics, firebase-crashlytics, firebase-analytics and firebase-ai-logic-basics.\n\nThe security rules skills are the ones to reach for before launch: firestore-rules-creation writes the rules and firebase-security-rules-auditor tries to break them. Several skills say explicitly when not to use them, which keeps the agent from loading half the pack for one task.",
+      "bestFor": [
+        "Web and mobile apps on Firebase that need Auth, Firestore and Hosting set up correctly",
+        "Writing and auditing Firestore and Cloud Storage security rules before launch",
+        "Calling Gemini from an Android, iOS, Flutter or web app through Firebase AI Logic"
+      ],
+      "startWith": [
+        {
+          "skill": "firebase-basics",
+          "why": "Gets the CLI logged in and the right project selected, which the other skills rely on."
+        },
+        {
+          "skill": "firebase-firestore",
+          "why": "Data modeling, queries, indexes, rules and SDK setup for Cloud Firestore."
+        },
+        {
+          "skill": "firestore-rules-creation",
+          "why": "Designs and hardens production-grade firestore.rules."
+        },
+        {
+          "skill": "firebase-security-rules-auditor",
+          "why": "Checks Firestore and Cloud Storage rules for privilege escalation, role bypasses and missing type and size checks."
+        }
+      ],
+      "beforeInstall": [
+        "These skills run the Firebase CLI against real projects, so deploys and rule changes land on whichever project firebase use has selected. Confirm it before approving.",
+        "firestore-rules-creation hands the work to a firestore-rules-author subagent when your agent supports subagents and has it installed. Otherwise it writes the rules itself."
+      ]
+    },
+    "ko": {
+      "intro": "Firebase 스킬은 제품 단위로 나뉘어 있습니다. firebase-basics는 CLI의 기반 층으로, 로그인, 프로젝트 생성과 전환, google-services.json이나 GoogleService-Info.plist 다운로드를 맡습니다. 그 위에 제품마다 스킬이 하나씩 있습니다. firebase-auth-basics, firebase-firestore, firebase-hosting-basics, firebase-app-hosting-basics, firebase-data-connect, firebase-remote-config-basics, firebase-crashlytics, firebase-analytics, firebase-ai-logic-basics입니다.\n\n출시 전에 꼭 써야 할 것은 보안 규칙 스킬입니다. firestore-rules-creation이 규칙을 작성하고 firebase-security-rules-auditor가 그 규칙을 뚫어 봅니다. 여러 스킬이 언제 쓰지 말아야 하는지 명시해 두어서, 작업 하나에 스킬 절반을 불러오는 일을 막아 줍니다.",
+      "bestFor": [
+        "Auth, Firestore, Hosting을 제대로 설정해야 하는 Firebase 기반 웹·모바일 앱",
+        "출시 전에 Firestore와 Cloud Storage 보안 규칙을 작성하고 감사하는 경우",
+        "Firebase AI Logic으로 Android, iOS, Flutter, 웹 앱에서 Gemini를 호출하는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "firebase-basics",
+          "why": "CLI 로그인과 올바른 프로젝트 선택을 처리합니다. 다른 스킬들이 이를 전제로 합니다."
+        },
+        {
+          "skill": "firebase-firestore",
+          "why": "Cloud Firestore의 데이터 모델링, 쿼리, 인덱스, 규칙, SDK 설정을 다룹니다."
+        },
+        {
+          "skill": "firestore-rules-creation",
+          "why": "프로덕션 수준의 firestore.rules를 설계하고 강화합니다."
+        },
+        {
+          "skill": "firebase-security-rules-auditor",
+          "why": "Firestore와 Cloud Storage 규칙에서 권한 상승, 역할 우회, 빠진 타입·크기 검사를 찾습니다."
+        }
+      ],
+      "beforeInstall": [
+        "이 스킬들은 실제 프로젝트를 대상으로 Firebase CLI를 실행하므로, 배포와 규칙 변경은 firebase use로 선택된 프로젝트에 적용됩니다. 승인하기 전에 확인하세요.",
+        "firestore-rules-creation은 에이전트가 서브에이전트를 지원하고 firestore-rules-author 서브에이전트가 설치되어 있으면 작업을 그쪽에 넘깁니다. 그렇지 않으면 직접 규칙을 작성합니다."
+      ]
+    },
+    "ja": {
+      "intro": "Firebase のスキルは製品ごとに分かれています。firebase-basics は CLI の土台で、ログイン、プロジェクトの作成と切り替え、google-services.json や GoogleService-Info.plist のダウンロードを担当します。その上に製品ごとのスキルが一つずつあります。firebase-auth-basics、firebase-firestore、firebase-hosting-basics、firebase-app-hosting-basics、firebase-data-connect、firebase-remote-config-basics、firebase-crashlytics、firebase-analytics、firebase-ai-logic-basics です。\n\nリリース前に使うべきなのはセキュリティルールのスキルです。firestore-rules-creation がルールを書き、firebase-security-rules-auditor がそれを破ろうとします。いくつかのスキルは使うべきでない場面を明記しているので、一つの作業でスキルの半分を読み込むような事態を防げます。",
+      "bestFor": [
+        "Auth、Firestore、Hosting を正しく設定する必要がある Firebase ベースの Web・モバイルアプリ",
+        "リリース前に Firestore と Cloud Storage のセキュリティルールを書いて監査する場合",
+        "Firebase AI Logic を通じて Android、iOS、Flutter、Web アプリから Gemini を呼び出す場合"
+      ],
+      "startWith": [
+        {
+          "skill": "firebase-basics",
+          "why": "CLI へのログインと正しいプロジェクトの選択を済ませます。ほかのスキルはこれを前提にしています。"
+        },
+        {
+          "skill": "firebase-firestore",
+          "why": "Cloud Firestore のデータモデリング、クエリ、インデックス、ルール、SDK の設定。"
+        },
+        {
+          "skill": "firestore-rules-creation",
+          "why": "本番レベルの firestore.rules を設計し、堅牢にします。"
+        },
+        {
+          "skill": "firebase-security-rules-auditor",
+          "why": "Firestore と Cloud Storage のルールに、権限昇格、ロールの迂回、型やサイズのチェック漏れがないか調べます。"
+        }
+      ],
+      "beforeInstall": [
+        "これらのスキルは実際のプロジェクトに対して Firebase CLI を実行するので、デプロイやルールの変更は firebase use で選ばれているプロジェクトに反映されます。承認する前に確認してください。",
+        "firestore-rules-creation は、エージェントがサブエージェントに対応していて firestore-rules-author が入っていれば、作業をそちらに任せます。そうでなければ自分でルールを書きます。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Firebase 的技能按产品划分。firebase-basics 是 CLI 的基础层：登录、创建和切换项目，以及下载 google-services.json 或 GoogleService-Info.plist。在它之上，每个产品各有一个技能：firebase-auth-basics、firebase-firestore、firebase-hosting-basics、firebase-app-hosting-basics、firebase-data-connect、firebase-remote-config-basics、firebase-crashlytics、firebase-analytics 和 firebase-ai-logic-basics。\n\n上线前最该用的是安全规则技能：firestore-rules-creation 负责编写规则，firebase-security-rules-auditor 负责试着攻破它们。好几个技能都写明了什么情况下不该使用，这能避免智能体为一个任务加载半个技能包。",
+      "bestFor": [
+        "需要正确配置 Auth、Firestore 和 Hosting 的 Firebase Web 和移动应用",
+        "上线前编写并审计 Firestore 和 Cloud Storage 安全规则",
+        "通过 Firebase AI Logic 在 Android、iOS、Flutter 或 Web 应用中调用 Gemini"
+      ],
+      "startWith": [
+        {
+          "skill": "firebase-basics",
+          "why": "完成 CLI 登录并选好正确的项目，其他技能都依赖这一步。"
+        },
+        {
+          "skill": "firebase-firestore",
+          "why": "Cloud Firestore 的数据建模、查询、索引、规则和 SDK 配置。"
+        },
+        {
+          "skill": "firestore-rules-creation",
+          "why": "设计并加固生产级的 firestore.rules。"
+        },
+        {
+          "skill": "firebase-security-rules-auditor",
+          "why": "检查 Firestore 和 Cloud Storage 规则中的权限提升、角色绕过以及缺失的类型和大小校验。"
+        }
+      ],
+      "beforeInstall": [
+        "这些技能会针对真实项目运行 Firebase CLI，部署和规则变更都会落到 firebase use 当前选中的项目上。批准之前请先确认。",
+        "如果智能体支持子智能体并装有 firestore-rules-author，firestore-rules-creation 会把工作交给它；否则就自己编写规则。"
+      ]
+    },
+    "es": {
+      "intro": "Las skills de Firebase están divididas por producto. firebase-basics es la capa base del CLI: iniciar sesión, crear y cambiar de proyecto, y descargar google-services.json o GoogleService-Info.plist. Encima hay una skill por producto: firebase-auth-basics, firebase-firestore, firebase-hosting-basics, firebase-app-hosting-basics, firebase-data-connect, firebase-remote-config-basics, firebase-crashlytics, firebase-analytics y firebase-ai-logic-basics.\n\nLas de reglas de seguridad son las que conviene usar antes del lanzamiento: firestore-rules-creation escribe las reglas y firebase-security-rules-auditor intenta romperlas. Varias skills indican expresamente cuándo no usarlas, lo que evita que el agente cargue medio paquete para una sola tarea.",
+      "bestFor": [
+        "Apps web y móviles sobre Firebase que necesitan configurar bien Auth, Firestore y Hosting",
+        "Escribir y auditar reglas de seguridad de Firestore y Cloud Storage antes del lanzamiento",
+        "Llamar a Gemini desde una app Android, iOS, Flutter o web mediante Firebase AI Logic"
+      ],
+      "startWith": [
+        {
+          "skill": "firebase-basics",
+          "why": "Deja el CLI con la sesión iniciada y el proyecto correcto seleccionado, algo que las demás skills dan por hecho."
+        },
+        {
+          "skill": "firebase-firestore",
+          "why": "Modelado de datos, consultas, índices, reglas y configuración del SDK de Cloud Firestore."
+        },
+        {
+          "skill": "firestore-rules-creation",
+          "why": "Diseña y refuerza un firestore.rules apto para producción."
+        },
+        {
+          "skill": "firebase-security-rules-auditor",
+          "why": "Revisa las reglas de Firestore y Cloud Storage en busca de escaladas de privilegios, saltos de rol y comprobaciones de tipo y tamaño que faltan."
+        }
+      ],
+      "beforeInstall": [
+        "Estas skills ejecutan el CLI de Firebase contra proyectos reales, así que los despliegues y cambios de reglas van al proyecto que tenga seleccionado firebase use. Compruébalo antes de aprobar.",
+        "firestore-rules-creation delega el trabajo en un subagente firestore-rules-author si tu agente admite subagentes y lo tiene instalado. Si no, escribe las reglas por sí misma."
+      ]
+    },
+    "de": {
+      "intro": "Firebases Skills sind entlang der Produkte geschnitten. firebase-basics ist die Grundlage für die CLI: Anmelden, Projekte anlegen und wechseln sowie google-services.json oder GoogleService-Info.plist herunterladen. Darauf baut je ein Skill pro Produkt auf: firebase-auth-basics, firebase-firestore, firebase-hosting-basics, firebase-app-hosting-basics, firebase-data-connect, firebase-remote-config-basics, firebase-crashlytics, firebase-analytics und firebase-ai-logic-basics.\n\nVor dem Launch sind die Security-Rules-Skills die wichtigsten: firestore-rules-creation schreibt die Regeln, firebase-security-rules-auditor versucht, sie zu knacken. Mehrere Skills sagen ausdrücklich, wann man sie nicht verwenden soll, damit der Agent nicht für eine Aufgabe das halbe Paket lädt.",
+      "bestFor": [
+        "Web- und Mobile-Apps auf Firebase, bei denen Auth, Firestore und Hosting richtig eingerichtet sein müssen",
+        "Security Rules für Firestore und Cloud Storage vor dem Launch schreiben und prüfen",
+        "Gemini über Firebase AI Logic aus einer Android-, iOS-, Flutter- oder Web-App aufrufen"
+      ],
+      "startWith": [
+        {
+          "skill": "firebase-basics",
+          "why": "Meldet die CLI an und wählt das richtige Projekt aus, worauf die anderen Skills aufbauen."
+        },
+        {
+          "skill": "firebase-firestore",
+          "why": "Datenmodellierung, Queries, Indizes, Regeln und SDK-Einrichtung für Cloud Firestore."
+        },
+        {
+          "skill": "firestore-rules-creation",
+          "why": "Entwirft und härtet produktionsreife firestore.rules."
+        },
+        {
+          "skill": "firebase-security-rules-auditor",
+          "why": "Prüft Regeln für Firestore und Cloud Storage auf Rechteausweitung, umgangene Rollen und fehlende Typ- und Größenprüfungen."
+        }
+      ],
+      "beforeInstall": [
+        "Diese Skills führen die Firebase CLI gegen echte Projekte aus, Deploys und Regeländerungen landen also in dem Projekt, das firebase use gerade ausgewählt hat. Prüfe das vor der Freigabe.",
+        "firestore-rules-creation gibt die Arbeit an einen firestore-rules-author-Subagenten ab, wenn dein Agent Subagenten unterstützt und dieser installiert ist. Sonst schreibt der Skill die Regeln selbst."
+      ]
+    }
+  },
+  "stripe-agent-skills": {
+    "en": {
+      "intro": "Most of this pack is about building a Stripe integration that holds up. stripe-best-practices is the core: it steers decisions like Checkout Sessions versus PaymentIntents, separate sandboxes versus the shared test mode, Accounts v2 for Connect, Stripe Tax, moving off deprecated APIs and API key security. stripe-implementation-planner works a level above, recommending products for your business model, while connect-recommend and connect-required-verification-information handle marketplace and platform setups. stripe-docs lets the agent read docs.stripe.com directly, gated pages included.\n\nThe rest is newer and acts on the world: stripe-directory, stripe-pay and stripe-projects let an agent find providers, pay Stripe businesses and provision services. Install those only if you want an agent doing that.",
+      "bestFor": [
+        "Developers adding payments, subscriptions or tax to an app who want current Stripe APIs, not outdated ones",
+        "Marketplaces and platforms setting up Stripe Connect",
+        "Teams adding usage-based billing with Metronome"
+      ],
+      "startWith": [
+        {
+          "skill": "stripe-best-practices",
+          "why": "The integration rulebook: API choice, test environments, Connect, billing, tax and key security."
+        },
+        {
+          "skill": "stripe-docs",
+          "why": "Reads Stripe's docs and API reference directly, so the agent stops guessing parameters."
+        },
+        {
+          "skill": "stripe-implementation-planner",
+          "why": "Recommends which Stripe products fit before you write any integration code."
+        },
+        {
+          "skill": "connect-recommend",
+          "why": "Picks a Connect configuration and charge pattern for marketplaces and platforms."
+        }
+      ],
+      "beforeInstall": [
+        "stripe-pay sends real funds, stripe-projects signs up for and provisions services, and stripe-directory asks to run before any vendor lookup, even for \"I need a database\". Leave them out unless you want an agent handling payments and accounts.",
+        "stripe-bfcm-dashboard is built for the 2026 Black Friday and Cyber Monday season only, and it reads from a connected Stripe MCP account."
+      ]
+    },
+    "ko": {
+      "intro": "이 스킬 모음의 대부분은 튼튼한 Stripe 연동을 만드는 데 집중합니다. 핵심은 stripe-best-practices입니다. Checkout Sessions와 PaymentIntents, 별도 샌드박스와 공용 테스트 모드, Connect의 Accounts v2, Stripe Tax, 지원 중단된 API에서의 이전, API 키 보안 같은 결정을 이끌어 줍니다. stripe-implementation-planner는 한 단계 위에서 비즈니스 모델에 맞는 제품을 추천하고, connect-recommend와 connect-required-verification-information은 마켓플레이스와 플랫폼 구성을 맡습니다. stripe-docs는 접근 제한 페이지를 포함해 docs.stripe.com을 에이전트가 직접 읽게 해 줍니다.\n\n나머지는 더 새롭고, 실제로 행동합니다. stripe-directory, stripe-pay, stripe-projects는 에이전트가 서비스 제공자를 찾고, Stripe 사업자에게 돈을 보내고, 서비스를 프로비저닝하게 합니다. 에이전트가 그런 일을 하길 원할 때만 설치하세요.",
+      "bestFor": [
+        "앱에 결제, 구독, 세금 계산을 붙이면서 낡은 API가 아닌 최신 Stripe API를 원하는 개발자",
+        "Stripe Connect를 구성하는 마켓플레이스와 플랫폼",
+        "Metronome으로 사용량 기반 과금을 도입하는 팀"
+      ],
+      "startWith": [
+        {
+          "skill": "stripe-best-practices",
+          "why": "API 선택, 테스트 환경, Connect, 빌링, 세금, 키 보안을 아우르는 연동 규칙서입니다."
+        },
+        {
+          "skill": "stripe-docs",
+          "why": "Stripe 문서와 API 레퍼런스를 직접 읽게 해서 에이전트가 파라미터를 추측하지 않게 합니다."
+        },
+        {
+          "skill": "stripe-implementation-planner",
+          "why": "연동 코드를 쓰기 전에 어떤 Stripe 제품이 맞는지 추천합니다."
+        },
+        {
+          "skill": "connect-recommend",
+          "why": "마켓플레이스와 플랫폼에 맞는 Connect 구성과 결제 방식을 고릅니다."
+        }
+      ],
+      "beforeInstall": [
+        "stripe-pay는 실제로 돈을 보내고, stripe-projects는 서비스에 가입해 프로비저닝하며, stripe-directory는 \"데이터베이스가 필요해\" 같은 요청에도 다른 업체 검색보다 먼저 실행되려 합니다. 에이전트에게 결제와 계정 관리를 맡길 생각이 없다면 빼 두세요.",
+        "stripe-bfcm-dashboard는 2026년 블랙프라이데이·사이버먼데이 시즌 전용이며, 연결된 Stripe MCP 계정에서 데이터를 읽습니다."
+      ]
+    },
+    "ja": {
+      "intro": "このスキル集の大半は、しっかりした Stripe の組み込みを作ることに向けられています。中心は stripe-best-practices で、Checkout Sessions か PaymentIntents か、個別のサンドボックスか共有のテストモードか、Connect の Accounts v2、Stripe Tax、非推奨 API からの移行、API キーのセキュリティといった判断を導きます。stripe-implementation-planner はその一段上で、ビジネスモデルに合った製品を提案し、connect-recommend と connect-required-verification-information はマーケットプレイスやプラットフォームの構成を扱います。stripe-docs を使うと、エージェントはアクセス制限付きのページも含めて docs.stripe.com を直接読めます。\n\n残りはより新しく、実際に行動するスキルです。stripe-directory、stripe-pay、stripe-projects によって、エージェントは提供者を探し、Stripe 上の事業者に支払い、サービスをプロビジョニングできます。エージェントにそこまで任せたい場合だけ入れてください。",
+      "bestFor": [
+        "アプリに決済、サブスクリプション、税計算を追加し、古い API ではなく最新の Stripe API を使いたい開発者",
+        "Stripe Connect を構成するマーケットプレイスやプラットフォーム",
+        "Metronome で従量課金を導入するチーム"
+      ],
+      "startWith": [
+        {
+          "skill": "stripe-best-practices",
+          "why": "API の選択、テスト環境、Connect、請求、税、キーのセキュリティをまとめた組み込みのルールブックです。"
+        },
+        {
+          "skill": "stripe-docs",
+          "why": "Stripe のドキュメントと API リファレンスを直接読ませ、エージェントがパラメータを推測しないようにします。"
+        },
+        {
+          "skill": "stripe-implementation-planner",
+          "why": "組み込みのコードを書く前に、どの Stripe 製品が合うかを提案します。"
+        },
+        {
+          "skill": "connect-recommend",
+          "why": "マーケットプレイスやプラットフォームに合う Connect の構成と課金パターンを選びます。"
+        }
+      ],
+      "beforeInstall": [
+        "stripe-pay は実際にお金を送り、stripe-projects はサービスに登録してプロビジョニングし、stripe-directory は「データベースが欲しい」といった依頼でも、ほかの事業者検索より先に動こうとします。支払いやアカウント管理をエージェントに任せるつもりがなければ外しておきましょう。",
+        "stripe-bfcm-dashboard は 2026 年のブラックフライデーとサイバーマンデーのシーズン専用で、接続された Stripe MCP アカウントからデータを読みます。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "这个技能包的大部分内容都是为了做出经得起考验的 Stripe 集成。核心是 stripe-best-practices：它引导各种决策，比如用 Checkout Sessions 还是 PaymentIntents、独立沙盒还是共享测试模式、Connect 的 Accounts v2、Stripe Tax、迁离已弃用的 API，以及 API 密钥安全。stripe-implementation-planner 站在更高一层，根据你的商业模式推荐产品，connect-recommend 和 connect-required-verification-information 则处理市场平台类的配置。stripe-docs 让智能体直接读取 docs.stripe.com，包括需要权限的页面。\n\n其余技能较新，会直接采取行动：stripe-directory、stripe-pay 和 stripe-projects 让智能体查找服务商、向 Stripe 商家付款并开通服务。只有在你希望智能体做这些事时才安装它们。",
+      "bestFor": [
+        "为应用添加支付、订阅或税费计算，并希望使用当前而非过时 Stripe API 的开发者",
+        "配置 Stripe Connect 的市场和平台",
+        "用 Metronome 引入按用量计费的团队"
+      ],
+      "startWith": [
+        {
+          "skill": "stripe-best-practices",
+          "why": "集成规则手册：API 选择、测试环境、Connect、计费、税务和密钥安全。"
+        },
+        {
+          "skill": "stripe-docs",
+          "why": "直接读取 Stripe 文档和 API 参考，智能体就不用再猜参数。"
+        },
+        {
+          "skill": "stripe-implementation-planner",
+          "why": "在写任何集成代码之前，先推荐适合的 Stripe 产品。"
+        },
+        {
+          "skill": "connect-recommend",
+          "why": "为市场和平台选择合适的 Connect 配置和收款模式。"
+        }
+      ],
+      "beforeInstall": [
+        "stripe-pay 会真的转出资金，stripe-projects 会注册并开通服务，而 stripe-directory 要求在任何服务商查找之前运行，连“我需要一个数据库”也不例外。除非你希望智能体处理付款和账户，否则别装它们。",
+        "stripe-bfcm-dashboard 只为 2026 年黑色星期五和网络星期一购物季打造，数据来自已连接的 Stripe MCP 账户。"
+      ]
+    },
+    "es": {
+      "intro": "La mayor parte de este paquete trata de construir una integración con Stripe que aguante. stripe-best-practices es el núcleo: orienta decisiones como Checkout Sessions frente a PaymentIntents, sandboxes separados frente al modo de prueba compartido, Accounts v2 para Connect, Stripe Tax, abandonar APIs obsoletas y la seguridad de las API keys. stripe-implementation-planner trabaja un nivel por encima y recomienda productos según tu modelo de negocio, mientras que connect-recommend y connect-required-verification-information se ocupan de marketplaces y plataformas. stripe-docs permite al agente leer docs.stripe.com directamente, páginas restringidas incluidas.\n\nEl resto es más reciente y actúa en el mundo real: stripe-directory, stripe-pay y stripe-projects permiten al agente buscar proveedores, pagar a negocios de Stripe y aprovisionar servicios. Instálalas solo si quieres que un agente haga eso.",
+      "bestFor": [
+        "Desarrolladores que añaden pagos, suscripciones o impuestos a una app y quieren APIs actuales de Stripe, no obsoletas",
+        "Marketplaces y plataformas que configuran Stripe Connect",
+        "Equipos que incorporan facturación por uso con Metronome"
+      ],
+      "startWith": [
+        {
+          "skill": "stripe-best-practices",
+          "why": "El reglamento de la integración: elección de API, entornos de prueba, Connect, facturación, impuestos y seguridad de claves."
+        },
+        {
+          "skill": "stripe-docs",
+          "why": "Lee directamente la documentación y la referencia de la API de Stripe, así el agente deja de adivinar parámetros."
+        },
+        {
+          "skill": "stripe-implementation-planner",
+          "why": "Recomienda qué productos de Stripe encajan antes de escribir código de integración."
+        },
+        {
+          "skill": "connect-recommend",
+          "why": "Elige una configuración de Connect y un patrón de cobro para marketplaces y plataformas."
+        }
+      ],
+      "beforeInstall": [
+        "stripe-pay envía fondos reales, stripe-projects da de alta y aprovisiona servicios, y stripe-directory pide ejecutarse antes de cualquier búsqueda de proveedores, incluso ante un \"necesito una base de datos\". No las instales salvo que quieras que un agente gestione pagos y cuentas.",
+        "stripe-bfcm-dashboard está hecho solo para la temporada de Black Friday y Cyber Monday de 2026, y lee los datos de una cuenta de Stripe conectada por MCP."
+      ]
+    },
+    "de": {
+      "intro": "Der Großteil dieses Pakets dreht sich um eine Stripe-Integration, die hält. Kern ist stripe-best-practices: Es lenkt Entscheidungen wie Checkout Sessions oder PaymentIntents, eigene Sandboxes oder der gemeinsame Testmodus, Accounts v2 für Connect, Stripe Tax, der Abschied von veralteten APIs und die Sicherheit von API-Schlüsseln. stripe-implementation-planner setzt eine Ebene höher an und empfiehlt Produkte passend zum Geschäftsmodell, während connect-recommend und connect-required-verification-information Marktplatz- und Plattform-Setups abdecken. Mit stripe-docs liest der Agent docs.stripe.com direkt, auch zugangsbeschränkte Seiten.\n\nDer Rest ist neuer und handelt in der echten Welt: Mit stripe-directory, stripe-pay und stripe-projects findet ein Agent Anbieter, bezahlt Stripe-Unternehmen und stellt Dienste bereit. Installiere diese nur, wenn ein Agent genau das tun soll.",
+      "bestFor": [
+        "Entwickler, die Zahlungen, Abos oder Steuern in eine App einbauen und aktuelle statt veralteter Stripe-APIs wollen",
+        "Marktplätze und Plattformen, die Stripe Connect einrichten",
+        "Teams, die nutzungsbasierte Abrechnung mit Metronome einführen"
+      ],
+      "startWith": [
+        {
+          "skill": "stripe-best-practices",
+          "why": "Das Regelwerk der Integration: API-Wahl, Testumgebungen, Connect, Billing, Steuern und Schlüsselsicherheit."
+        },
+        {
+          "skill": "stripe-docs",
+          "why": "Liest Stripes Doku und API-Referenz direkt, damit der Agent keine Parameter mehr rät."
+        },
+        {
+          "skill": "stripe-implementation-planner",
+          "why": "Empfiehlt passende Stripe-Produkte, bevor Integrationscode entsteht."
+        },
+        {
+          "skill": "connect-recommend",
+          "why": "Wählt eine Connect-Konfiguration und ein Zahlungsmuster für Marktplätze und Plattformen."
+        }
+      ],
+      "beforeInstall": [
+        "stripe-pay überweist echtes Geld, stripe-projects meldet Dienste an und stellt sie bereit, und stripe-directory will vor jeder Anbietersuche laufen, selbst bei „Ich brauche eine Datenbank“. Lass sie weg, wenn kein Agent Zahlungen und Konten verwalten soll.",
+        "stripe-bfcm-dashboard ist nur für die Black-Friday- und Cyber-Monday-Saison 2026 gebaut und liest aus einem verbundenen Stripe-MCP-Konto."
+      ]
+    }
+  },
+  "neon-agent-skills": {
+    "en": {
+      "intro": "The neon skill is the front door. It explains what Neon offers beyond the database, sets up the CLI or MCP server, and sends the agent to a child skill: neon-postgres for anything touching an existing DATABASE_URL, SQL or schema, neon-auth for login and sessions, neon-realtime for live queries, and neon-functions, neon-object-storage and neon-ai-gateway for compute, files and LLM calls.\n\nWhat ties them together is branching. Auth, object storage and functions branch along with the database, so a preview branch gets its own users, uploads and rows. If you only use Neon as a Postgres host, neon-postgres is most of what you need.",
+      "bestFor": [
+        "Projects on Neon Postgres that use branches for previews, pull requests or tests",
+        "Building a full backend on Neon: auth, file storage, functions and LLM calls in one place",
+        "Reining in egress costs or Free plan quota errors on an existing Neon database"
+      ],
+      "startWith": [
+        {
+          "skill": "neon-postgres",
+          "why": "Connections, pooled vs direct, migrations, branch-per-PR workflows, autoscaling and egress fixes."
+        },
+        {
+          "skill": "neon",
+          "why": "Overview and router: sets up the CLI or MCP server and picks the right child skill."
+        },
+        {
+          "skill": "neon-auth",
+          "why": "Adds sign-up, sign-in, OAuth and organizations through Managed Better Auth."
+        }
+      ],
+      "beforeInstall": [
+        "The neon skill is written to pick Neon for login, files, APIs and LLM calls whenever you haven't chosen something else. Say so up front if you already use another auth provider or storage service.",
+        "Older skills such as neon-postgres-branches and neon-postgres-egress-optimizer were folded into neon-postgres. If you installed them before, update neon-postgres and delete the stale folders."
+      ]
+    },
+    "ko": {
+      "intro": "neon 스킬이 정문입니다. 데이터베이스 외에 Neon이 제공하는 것을 설명하고, CLI나 MCP 서버를 설정한 뒤 에이전트를 하위 스킬로 보냅니다. 기존 DATABASE_URL, SQL, 스키마와 관련된 일은 neon-postgres, 로그인과 세션은 neon-auth, 실시간 쿼리는 neon-realtime, 컴퓨팅·파일·LLM 호출은 neon-functions, neon-object-storage, neon-ai-gateway가 맡습니다.\n\n이들을 하나로 묶는 개념은 브랜칭입니다. 인증, 오브젝트 스토리지, 함수가 데이터베이스와 함께 브랜칭되므로 프리뷰 브랜치마다 사용자, 업로드 파일, 행이 따로 생깁니다. Neon을 Postgres 호스팅으로만 쓴다면 필요한 것은 대부분 neon-postgres에 있습니다.",
+      "bestFor": [
+        "프리뷰, 풀 리퀘스트, 테스트에 브랜치를 쓰는 Neon Postgres 프로젝트",
+        "인증, 파일 저장, 함수, LLM 호출을 한곳에 모아 Neon에 백엔드 전체를 만드는 경우",
+        "기존 Neon 데이터베이스의 이그레스 비용이나 Free 플랜 할당량 오류를 잡는 경우"
+      ],
+      "startWith": [
+        {
+          "skill": "neon-postgres",
+          "why": "연결, 풀링과 직접 연결, 마이그레이션, PR별 브랜치 워크플로, 오토스케일링, 이그레스 문제 해결을 다룹니다."
+        },
+        {
+          "skill": "neon",
+          "why": "개요이자 라우터입니다. CLI나 MCP 서버를 설정하고 알맞은 하위 스킬을 고릅니다."
+        },
+        {
+          "skill": "neon-auth",
+          "why": "Managed Better Auth로 회원가입, 로그인, OAuth, 조직 기능을 추가합니다."
+        }
+      ],
+      "beforeInstall": [
+        "neon 스킬은 따로 정한 것이 없으면 로그인, 파일, API, LLM 호출에 Neon을 고르도록 쓰여 있습니다. 이미 다른 인증 제공자나 스토리지 서비스를 쓰고 있다면 처음에 알려 주세요.",
+        "neon-postgres-branches, neon-postgres-egress-optimizer 같은 예전 스킬은 neon-postgres로 합쳐졌습니다. 예전에 설치했다면 neon-postgres를 업데이트하고 남은 폴더를 지우세요."
+      ]
+    },
+    "ja": {
+      "intro": "neon スキルが正面玄関です。データベース以外に Neon が提供するものを説明し、CLI や MCP サーバーを設定してから、エージェントを子スキルに振り分けます。既存の DATABASE_URL、SQL、スキーマに関わる作業は neon-postgres、ログインとセッションは neon-auth、ライブクエリは neon-realtime、コンピュート、ファイル、LLM 呼び出しは neon-functions、neon-object-storage、neon-ai-gateway が担当します。\n\nこれらをまとめているのがブランチという考え方です。認証、オブジェクトストレージ、関数がデータベースと一緒にブランチされるので、プレビュー用のブランチごとにユーザー、アップロード、行が分かれます。Neon を Postgres のホスティングとしてだけ使うなら、必要なものはほぼ neon-postgres にあります。",
+      "bestFor": [
+        "プレビュー、プルリクエスト、テストにブランチを使う Neon Postgres のプロジェクト",
+        "認証、ファイル保存、関数、LLM 呼び出しをまとめて Neon 上にバックエンド全体を作る場合",
+        "既存の Neon データベースで、エグレスのコストや Free プランの上限エラーを抑えたい場合"
+      ],
+      "startWith": [
+        {
+          "skill": "neon-postgres",
+          "why": "接続、プール接続と直接接続、マイグレーション、PR ごとのブランチ運用、オートスケーリング、エグレス対策。"
+        },
+        {
+          "skill": "neon",
+          "why": "概要とルーターを兼ねます。CLI や MCP サーバーを設定し、適切な子スキルを選びます。"
+        },
+        {
+          "skill": "neon-auth",
+          "why": "Managed Better Auth で、サインアップ、サインイン、OAuth、組織機能を追加します。"
+        }
+      ],
+      "beforeInstall": [
+        "neon スキルは、ほかに決めていなければログイン、ファイル、API、LLM 呼び出しに Neon を選ぶよう書かれています。別の認証プロバイダーやストレージサービスを使っているなら、最初に伝えておきましょう。",
+        "neon-postgres-branches や neon-postgres-egress-optimizer といった以前のスキルは neon-postgres に統合されました。以前インストールしていたなら、neon-postgres を更新して古いフォルダを削除してください。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "neon 技能是正门。它介绍 Neon 在数据库之外还提供什么，配置 CLI 或 MCP 服务器，然后把智能体引导到子技能：涉及现有 DATABASE_URL、SQL 或模式的工作交给 neon-postgres，登录和会话交给 neon-auth，实时查询交给 neon-realtime，计算、文件和 LLM 调用则分别交给 neon-functions、neon-object-storage 和 neon-ai-gateway。\n\n把它们串在一起的是分支。认证、对象存储和函数都会随数据库一起分支，所以每个预览分支都有自己的用户、上传文件和数据行。如果你只把 Neon 当作 Postgres 托管服务，所需的大部分内容都在 neon-postgres 里。",
+      "bestFor": [
+        "用分支做预览、拉取请求或测试的 Neon Postgres 项目",
+        "在 Neon 上搭建完整后端：认证、文件存储、函数和 LLM 调用集中在一处",
+        "控制现有 Neon 数据库的出站流量成本或 Free 套餐配额错误"
+      ],
+      "startWith": [
+        {
+          "skill": "neon-postgres",
+          "why": "连接、池化与直连、迁移、按 PR 建分支的流程、自动扩缩容以及出站流量优化。"
+        },
+        {
+          "skill": "neon",
+          "why": "概览兼路由：配置 CLI 或 MCP 服务器，并选出合适的子技能。"
+        },
+        {
+          "skill": "neon-auth",
+          "why": "通过 Managed Better Auth 添加注册、登录、OAuth 和组织功能。"
+        }
+      ],
+      "beforeInstall": [
+        "只要你没有另行选定，neon 技能就会为登录、文件、API 和 LLM 调用选择 Neon。如果你已经在用别的认证服务或存储服务，请一开始就说明。",
+        "neon-postgres-branches、neon-postgres-egress-optimizer 等旧技能已并入 neon-postgres。如果以前安装过，请更新 neon-postgres 并删除残留的旧目录。"
+      ]
+    },
+    "es": {
+      "intro": "La skill neon es la puerta de entrada. Explica qué ofrece Neon más allá de la base de datos, configura el CLI o el servidor MCP y manda al agente a una skill hija: neon-postgres para todo lo que toque un DATABASE_URL existente, SQL o el esquema, neon-auth para login y sesiones, neon-realtime para consultas en vivo, y neon-functions, neon-object-storage y neon-ai-gateway para cómputo, archivos y llamadas a LLM.\n\nLo que las une es el branching. La autenticación, el almacenamiento de objetos y las funciones se ramifican junto con la base de datos, así que cada rama de preview tiene sus propios usuarios, archivos subidos y filas. Si solo usas Neon como hosting de Postgres, casi todo lo que necesitas está en neon-postgres.",
+      "bestFor": [
+        "Proyectos con Neon Postgres que usan ramas para previews, pull requests o tests",
+        "Montar un backend completo en Neon: autenticación, archivos, funciones y llamadas a LLM en un solo sitio",
+        "Contener costes de egress o errores de cuota del plan Free en una base de datos Neon existente"
+      ],
+      "startWith": [
+        {
+          "skill": "neon-postgres",
+          "why": "Conexiones, pooled frente a directa, migraciones, una rama por PR, autoescalado y ajustes de egress."
+        },
+        {
+          "skill": "neon",
+          "why": "Visión general y enrutador: configura el CLI o el servidor MCP y elige la skill hija adecuada."
+        },
+        {
+          "skill": "neon-auth",
+          "why": "Añade registro, inicio de sesión, OAuth y organizaciones mediante Managed Better Auth."
+        }
+      ],
+      "beforeInstall": [
+        "La skill neon está escrita para elegir Neon para login, archivos, APIs y llamadas a LLM siempre que no hayas elegido otra cosa. Dilo desde el principio si ya usas otro proveedor de autenticación o de almacenamiento.",
+        "Skills antiguas como neon-postgres-branches y neon-postgres-egress-optimizer se fusionaron en neon-postgres. Si las instalaste antes, actualiza neon-postgres y borra las carpetas obsoletas."
+      ]
+    },
+    "de": {
+      "intro": "Der neon-Skill ist die Eingangstür. Er erklärt, was Neon über die Datenbank hinaus bietet, richtet CLI oder MCP-Server ein und schickt den Agenten zu einem Unter-Skill: neon-postgres für alles rund um eine bestehende DATABASE_URL, SQL oder das Schema, neon-auth für Login und Sessions, neon-realtime für Live-Queries, und neon-functions, neon-object-storage und neon-ai-gateway für Compute, Dateien und LLM-Aufrufe.\n\nZusammengehalten wird das Ganze vom Branching. Auth, Object Storage und Functions branchen zusammen mit der Datenbank, sodass jeder Preview-Branch eigene Nutzer, Uploads und Zeilen hat. Wenn du Neon nur als Postgres-Host nutzt, steckt das meiste, was du brauchst, in neon-postgres.",
+      "bestFor": [
+        "Projekte auf Neon Postgres, die Branches für Previews, Pull Requests oder Tests nutzen",
+        "Ein komplettes Backend auf Neon bauen: Auth, Dateispeicher, Functions und LLM-Aufrufe an einem Ort",
+        "Egress-Kosten oder Quotenfehler im Free-Plan bei einer bestehenden Neon-Datenbank in den Griff bekommen"
+      ],
+      "startWith": [
+        {
+          "skill": "neon-postgres",
+          "why": "Verbindungen, gepoolt oder direkt, Migrationen, Branch-pro-PR-Workflows, Autoscaling und Egress-Optimierung."
+        },
+        {
+          "skill": "neon",
+          "why": "Überblick und Router: richtet CLI oder MCP-Server ein und wählt den passenden Unter-Skill."
+        },
+        {
+          "skill": "neon-auth",
+          "why": "Fügt Registrierung, Anmeldung, OAuth und Organisationen über Managed Better Auth hinzu."
+        }
+      ],
+      "beforeInstall": [
+        "Der neon-Skill ist darauf ausgelegt, Neon für Login, Dateien, APIs und LLM-Aufrufe zu wählen, solange du nichts anderes festgelegt hast. Sag es gleich zu Beginn, wenn du schon einen anderen Auth- oder Storage-Anbieter nutzt.",
+        "Ältere Skills wie neon-postgres-branches und neon-postgres-egress-optimizer sind in neon-postgres aufgegangen. Wenn du sie früher installiert hast, aktualisiere neon-postgres und lösche die veralteten Ordner."
+      ]
+    }
+  },
+  "callstack-agent-skills": {
+    "en": {
+      "intro": "Callstack's skills cover three stages of a React Native app. For building, react-native-best-practices is the one most people install first: it covers profiling and fixing FPS, startup time, bundle size, memory and re-render problems, with guidance on Hermes and FlashList. react-navigation, create-react-native-library and react-native-tv-best-practices handle navigation, native modules and TV apps, upgrading-react-native walks through a version bump, and github-actions produces simulator and emulator builds in CI.\n\nFor teams with existing native iOS and Android apps, assess-react-native-migration helps decide whether to move to React Native, and react-native-brownfield-migration carries out the move in phases once that path is chosen.",
+      "bestFor": [
+        "React Native apps with janky scrolling, slow startup or a growing bundle",
+        "Upgrading an app across React Native versions, native iOS and Android changes included",
+        "Native iOS and Android teams weighing an incremental move to React Native"
+      ],
+      "startWith": [
+        {
+          "skill": "react-native-best-practices",
+          "why": "Performance guidance for FPS, TTI, bundle size, memory leaks, re-renders and animations."
+        },
+        {
+          "skill": "upgrading-react-native",
+          "why": "Applies rn-diff-purge template diffs and works through the CocoaPods and Gradle changes."
+        },
+        {
+          "skill": "react-navigation",
+          "why": "Stack, tab and drawer patterns, headers, bottom sheets and safe areas."
+        }
+      ],
+      "beforeInstall": [
+        "The testing skills the README lists, react-native-testing, agent-device and dogfood, live in other repositories and aren't part of this install.",
+        "writing-user-docs isn't React Native-specific: it applies a house style to any user-facing docs. Leave it out if your team already has one."
+      ]
+    },
+    "ko": {
+      "intro": "Callstack 스킬은 React Native 앱의 세 단계를 다룹니다. 개발 단계에서는 대부분 react-native-best-practices부터 설치합니다. FPS, 시작 시간, 번들 크기, 메모리, 리렌더링 문제를 프로파일링하고 고치는 법을 다루며 Hermes와 FlashList에 대한 지침도 담겨 있습니다. react-navigation, create-react-native-library, react-native-tv-best-practices는 내비게이션, 네이티브 모듈, TV 앱을 맡고, upgrading-react-native는 버전 업그레이드 과정을 안내하며, github-actions는 CI에서 시뮬레이터·에뮬레이터용 빌드를 만듭니다.\n\n이미 네이티브 iOS·Android 앱이 있는 팀이라면 assess-react-native-migration으로 React Native로 옮길지 판단하고, 그 방향이 정해지면 react-native-brownfield-migration으로 단계적으로 옮길 수 있습니다.",
+      "bestFor": [
+        "스크롤이 버벅이거나 시작이 느리거나 번들이 커지는 React Native 앱",
+        "네이티브 iOS·Android 변경까지 포함해 React Native 버전을 올리는 경우",
+        "React Native로 점진적 전환을 검토하는 네이티브 iOS·Android 팀"
+      ],
+      "startWith": [
+        {
+          "skill": "react-native-best-practices",
+          "why": "FPS, TTI, 번들 크기, 메모리 누수, 리렌더링, 애니메이션에 대한 성능 가이드입니다."
+        },
+        {
+          "skill": "upgrading-react-native",
+          "why": "rn-diff-purge 템플릿 diff를 적용하고 CocoaPods와 Gradle 변경을 처리합니다."
+        },
+        {
+          "skill": "react-navigation",
+          "why": "스택, 탭, 드로어 패턴과 헤더, 바텀 시트, 안전 영역을 다룹니다."
+        }
+      ],
+      "beforeInstall": [
+        "README에 나오는 테스트 스킬인 react-native-testing, agent-device, dogfood는 다른 저장소에 있어서 이번 설치에 포함되지 않습니다.",
+        "writing-user-docs는 React Native 전용이 아니라 모든 사용자용 문서에 하우스 스타일을 적용합니다. 팀에 이미 스타일 가이드가 있다면 빼 두세요."
+      ]
+    },
+    "ja": {
+      "intro": "Callstack のスキルは、React Native アプリの三つの段階をカバーします。開発の段階では、多くの人がまず react-native-best-practices を入れます。FPS、起動時間、バンドルサイズ、メモリ、再レンダリングの問題をプロファイルして直す方法を扱い、Hermes や FlashList についての指針もあります。react-navigation、create-react-native-library、react-native-tv-best-practices はナビゲーション、ネイティブモジュール、TV アプリを担当し、upgrading-react-native はバージョンアップの手順を案内し、github-actions は CI でシミュレーターとエミュレーター向けのビルドを作ります。\n\nすでにネイティブの iOS・Android アプリを持つチームなら、assess-react-native-migration で React Native に移るべきかを判断し、その方針が決まったら react-native-brownfield-migration で段階的に移行できます。",
+      "bestFor": [
+        "スクロールがカクつく、起動が遅い、バンドルが膨らんでいる React Native アプリ",
+        "ネイティブの iOS・Android の変更も含めて React Native のバージョンを上げる場合",
+        "React Native への段階的な移行を検討しているネイティブ iOS・Android チーム"
+      ],
+      "startWith": [
+        {
+          "skill": "react-native-best-practices",
+          "why": "FPS、TTI、バンドルサイズ、メモリリーク、再レンダリング、アニメーションのパフォーマンスガイド。"
+        },
+        {
+          "skill": "upgrading-react-native",
+          "why": "rn-diff-purge のテンプレート差分を適用し、CocoaPods と Gradle の変更を進めます。"
+        },
+        {
+          "skill": "react-navigation",
+          "why": "スタック、タブ、ドロワーのパターン、ヘッダー、ボトムシート、セーフエリア。"
+        }
+      ],
+      "beforeInstall": [
+        "README に載っているテスト系のスキル、react-native-testing、agent-device、dogfood は別のリポジトリにあり、このインストールには含まれません。",
+        "writing-user-docs は React Native 専用ではなく、ユーザー向けのあらゆるドキュメントに独自のスタイルを適用します。チームにすでにスタイルガイドがあるなら外しておきましょう。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Callstack 的技能覆盖 React Native 应用的三个阶段。开发阶段，大多数人最先安装 react-native-best-practices：它讲解如何分析和修复 FPS、启动时间、包体积、内存和重复渲染问题，还包含关于 Hermes 和 FlashList 的建议。react-navigation、create-react-native-library 和 react-native-tv-best-practices 分别负责导航、原生模块和 TV 应用，upgrading-react-native 带你完成版本升级，github-actions 则在 CI 中产出模拟器和仿真器构建。\n\n对于已有原生 iOS 和 Android 应用的团队，assess-react-native-migration 帮助判断是否要迁移到 React Native，确定方向后，react-native-brownfield-migration 会分阶段完成迁移。",
+      "bestFor": [
+        "滚动卡顿、启动缓慢或包体积不断变大的 React Native 应用",
+        "跨 React Native 版本升级应用，包括原生 iOS 和 Android 的改动",
+        "正在考虑逐步迁移到 React Native 的原生 iOS 和 Android 团队"
+      ],
+      "startWith": [
+        {
+          "skill": "react-native-best-practices",
+          "why": "关于 FPS、TTI、包体积、内存泄漏、重复渲染和动画的性能指南。"
+        },
+        {
+          "skill": "upgrading-react-native",
+          "why": "应用 rn-diff-purge 模板差异，并处理 CocoaPods 和 Gradle 的改动。"
+        },
+        {
+          "skill": "react-navigation",
+          "why": "栈、标签页和抽屉导航模式，以及标题栏、底部弹层和安全区域。"
+        }
+      ],
+      "beforeInstall": [
+        "README 列出的测试技能 react-native-testing、agent-device 和 dogfood 位于其他仓库，不包含在这次安装中。",
+        "writing-user-docs 并非 React Native 专用，它会给所有面向用户的文档套用一套内部风格。如果团队已有风格指南，就别装它。"
+      ]
+    },
+    "es": {
+      "intro": "Las skills de Callstack cubren tres etapas de una app de React Native. Para construir, react-native-best-practices es la que casi todos instalan primero: explica cómo perfilar y corregir problemas de FPS, tiempo de arranque, tamaño del bundle, memoria y re-renders, con pautas sobre Hermes y FlashList. react-navigation, create-react-native-library y react-native-tv-best-practices se ocupan de la navegación, los módulos nativos y las apps de TV, upgrading-react-native guía un cambio de versión y github-actions genera builds de simulador y emulador en CI.\n\nPara equipos con apps nativas de iOS y Android, assess-react-native-migration ayuda a decidir si pasar a React Native, y react-native-brownfield-migration ejecuta la migración por fases una vez elegido ese camino.",
+      "bestFor": [
+        "Apps de React Native con scroll a tirones, arranque lento o un bundle que no para de crecer",
+        "Actualizar una app entre versiones de React Native, incluidos los cambios nativos de iOS y Android",
+        "Equipos nativos de iOS y Android que valoran pasar a React Native de forma gradual"
+      ],
+      "startWith": [
+        {
+          "skill": "react-native-best-practices",
+          "why": "Guía de rendimiento para FPS, TTI, tamaño del bundle, fugas de memoria, re-renders y animaciones."
+        },
+        {
+          "skill": "upgrading-react-native",
+          "why": "Aplica los diffs de plantilla de rn-diff-purge y resuelve los cambios de CocoaPods y Gradle."
+        },
+        {
+          "skill": "react-navigation",
+          "why": "Patrones de stack, tabs y drawer, cabeceras, bottom sheets y áreas seguras."
+        }
+      ],
+      "beforeInstall": [
+        "Las skills de testing que menciona el README, react-native-testing, agent-device y dogfood, están en otros repositorios y no se instalan con este paquete.",
+        "writing-user-docs no es específica de React Native: aplica una guía de estilo propia a cualquier documentación para usuarios. Déjala fuera si tu equipo ya tiene una."
+      ]
+    },
+    "de": {
+      "intro": "Callstacks Skills decken drei Phasen einer React-Native-App ab. Beim Bauen installieren die meisten zuerst react-native-best-practices: Es zeigt, wie man Probleme mit FPS, Startzeit, Bundle-Größe, Speicher und Re-Renders profiliert und behebt, inklusive Hinweisen zu Hermes und FlashList. react-navigation, create-react-native-library und react-native-tv-best-practices übernehmen Navigation, native Module und TV-Apps, upgrading-react-native führt durch ein Versions-Upgrade, und github-actions erzeugt in der CI Builds für Simulator und Emulator.\n\nFür Teams mit bestehenden nativen iOS- und Android-Apps hilft assess-react-native-migration bei der Entscheidung, ob ein Wechsel zu React Native sinnvoll ist, und react-native-brownfield-migration setzt ihn in Phasen um, sobald der Weg feststeht.",
+      "bestFor": [
+        "React-Native-Apps mit ruckelndem Scrollen, langsamem Start oder wachsendem Bundle",
+        "Eine App über React-Native-Versionen hinweg aktualisieren, native iOS- und Android-Änderungen eingeschlossen",
+        "Native iOS- und Android-Teams, die einen schrittweisen Umstieg auf React Native abwägen"
+      ],
+      "startWith": [
+        {
+          "skill": "react-native-best-practices",
+          "why": "Performance-Leitlinien zu FPS, TTI, Bundle-Größe, Speicherlecks, Re-Renders und Animationen."
+        },
+        {
+          "skill": "upgrading-react-native",
+          "why": "Wendet die Template-Diffs von rn-diff-purge an und arbeitet die Änderungen an CocoaPods und Gradle ab."
+        },
+        {
+          "skill": "react-navigation",
+          "why": "Muster für Stacks, Tabs und Drawer, Header, Bottom Sheets und Safe Areas."
+        }
+      ],
+      "beforeInstall": [
+        "Die im README genannten Test-Skills react-native-testing, agent-device und dogfood liegen in anderen Repositories und gehören nicht zu dieser Installation.",
+        "writing-user-docs ist nicht React-Native-spezifisch, sondern wendet einen Hausstil auf jede Nutzerdokumentation an. Lass ihn weg, wenn dein Team schon einen hat."
+      ]
+    }
+  },
+  "antfu-skills": {
+    "en": {
+      "intro": "Anthony Fu's repo holds two kinds of skills. Eight are generated from official docs (vue, nuxt, pinia, vite, vitepress, vitest, unocss and pnpm), and the repo keeps clones of those docs so the skills can be regenerated when upstream changes. Six are hand-written and opinionated: antfu for his project conventions, plus workflow skills for opening PRs, triaging issues, upgrading dependencies, simplifying a diff and stress-testing a plan.\n\nThe generated skills lean toward modern defaults such as TypeScript, ESM and the Composition API, so expect answers in that style. The workflow skills work in any GitHub repo, not just Vue ones.",
+      "bestFor": [
+        "Vue and Nuxt apps where the agent keeps reaching for outdated APIs",
+        "Library authors working with Vite, Vitest, UnoCSS and pnpm workspaces",
+        "Maintainers who want help triaging issues and keeping dependencies current"
+      ],
+      "startWith": [
+        {
+          "skill": "vue",
+          "why": "Composition API, script setup macros, reactivity and built-in components, drawn from the Vue docs."
+        },
+        {
+          "skill": "vite",
+          "why": "Config, the plugin API, SSR, library mode and the Vite 8 Rolldown migration."
+        },
+        {
+          "skill": "antfu-upgrade-deps",
+          "why": "Upgrades dependencies with taze, migrates major versions using their changelogs and opens a PR."
+        },
+        {
+          "skill": "antfu-issue-triage",
+          "why": "Finds fixed, duplicate and spam issues and proposes actions in a table for you to confirm."
+        }
+      ],
+      "beforeInstall": [
+        "The README calls this a proof of concept: the skills haven't been fully tested in practice, so check their advice against the official docs when it matters.",
+        "antfu applies Anthony Fu's own preferences for ESLint, pnpm and monorepo setup. Skip it if your project follows different conventions."
+      ]
+    },
+    "ko": {
+      "intro": "Anthony Fu의 저장소에는 두 종류의 스킬이 있습니다. 여덟 개는 공식 문서에서 생성한 것(vue, nuxt, pinia, vite, vitepress, vitest, unocss, pnpm)이고, 저장소가 그 문서의 클론을 유지하므로 업스트림이 바뀌면 스킬을 다시 생성할 수 있습니다. 여섯 개는 직접 작성한 주관이 뚜렷한 스킬입니다. 프로젝트 규칙을 담은 antfu와, PR 열기, 이슈 분류, 의존성 업그레이드, diff 단순화, 계획 검증을 위한 워크플로 스킬입니다.\n\n생성된 스킬은 TypeScript, ESM, Composition API 같은 최신 기본값 쪽으로 기울어 있으니 그런 스타일의 답을 예상하세요. 워크플로 스킬은 Vue 저장소가 아니어도 모든 GitHub 저장소에서 쓸 수 있습니다.",
+      "bestFor": [
+        "에이전트가 자꾸 낡은 API를 쓰는 Vue·Nuxt 앱",
+        "Vite, Vitest, UnoCSS, pnpm 워크스페이스로 작업하는 라이브러리 작성자",
+        "이슈 분류와 의존성 최신화에 도움을 받고 싶은 메인테이너"
+      ],
+      "startWith": [
+        {
+          "skill": "vue",
+          "why": "Vue 문서에서 가져온 Composition API, script setup 매크로, 반응성, 내장 컴포넌트를 다룹니다."
+        },
+        {
+          "skill": "vite",
+          "why": "설정, 플러그인 API, SSR, 라이브러리 모드, Vite 8 Rolldown 마이그레이션을 다룹니다."
+        },
+        {
+          "skill": "antfu-upgrade-deps",
+          "why": "taze로 의존성을 올리고, 변경 로그를 읽어 메이저 버전을 마이그레이션한 뒤 PR을 엽니다."
+        },
+        {
+          "skill": "antfu-issue-triage",
+          "why": "이미 고쳐졌거나 중복이거나 스팸인 이슈를 찾고, 확인할 수 있게 처리안을 표로 제시합니다."
+        }
+      ],
+      "beforeInstall": [
+        "README는 이 프로젝트를 개념 증명이라고 부릅니다. 스킬이 실제로 충분히 검증되지 않았으니, 중요한 부분은 공식 문서와 대조해 확인하세요.",
+        "antfu는 ESLint, pnpm, 모노레포 설정에 대한 Anthony Fu 본인의 취향을 적용합니다. 프로젝트가 다른 규칙을 따른다면 건너뛰세요."
+      ]
+    },
+    "ja": {
+      "intro": "Anthony Fu のリポジトリには二種類のスキルがあります。八つは公式ドキュメントから生成したもの（vue、nuxt、pinia、vite、vitepress、vitest、unocss、pnpm）で、リポジトリがそのドキュメントのクローンを持っているため、上流が変われば作り直せます。六つは手書きで、方針がはっきりしたスキルです。プロジェクトの流儀をまとめた antfu と、PR の作成、issue のトリアージ、依存関係の更新、diff の簡素化、計画の検証のためのワークフロースキルです。\n\n生成されたスキルは TypeScript、ESM、Composition API といったモダンな既定に寄っているので、そうしたスタイルの回答になると考えてください。ワークフロースキルは Vue に限らず、どの GitHub リポジトリでも使えます。",
+      "bestFor": [
+        "エージェントが古い API を使いがちな Vue・Nuxt アプリ",
+        "Vite、Vitest、UnoCSS、pnpm ワークスペースを使うライブラリ作者",
+        "issue のトリアージや依存関係の更新を手伝ってほしいメンテナー"
+      ],
+      "startWith": [
+        {
+          "skill": "vue",
+          "why": "Vue のドキュメントをもとにした Composition API、script setup のマクロ、リアクティビティ、組み込みコンポーネント。"
+        },
+        {
+          "skill": "vite",
+          "why": "設定、プラグイン API、SSR、ライブラリモード、Vite 8 の Rolldown への移行。"
+        },
+        {
+          "skill": "antfu-upgrade-deps",
+          "why": "taze で依存関係を更新し、変更履歴を読んでメジャーバージョンを移行し、PR を作ります。"
+        },
+        {
+          "skill": "antfu-issue-triage",
+          "why": "修正済み、重複、スパムの issue を見つけ、確認用に対応案を表で示します。"
+        }
+      ],
+      "beforeInstall": [
+        "README はこれを概念実証と呼んでいます。スキルは実際には十分に検証されていないので、重要な場面では公式ドキュメントと照らし合わせてください。",
+        "antfu は ESLint、pnpm、モノレポの設定について Anthony Fu 本人の好みを適用します。プロジェクトが別の流儀なら飛ばしてください。"
+      ]
+    },
+    "zh-CN": {
+      "intro": "Anthony Fu 的仓库有两类技能。八个由官方文档生成（vue、nuxt、pinia、vite、vitepress、vitest、unocss 和 pnpm），仓库保留了这些文档的克隆，上游有变化时可以重新生成技能。六个是手写的、带有鲜明个人风格的技能：记录项目约定的 antfu，以及用于提交 PR、分拣 issue、升级依赖、精简 diff 和推敲计划的工作流技能。\n\n生成的技能偏向 TypeScript、ESM、Composition API 等现代默认做法，所以给出的回答也会是这种风格。工作流技能适用于任何 GitHub 仓库，不限于 Vue 项目。",
+      "bestFor": [
+        "智能体总是用过时 API 的 Vue 和 Nuxt 应用",
+        "使用 Vite、Vitest、UnoCSS 和 pnpm workspace 的库作者",
+        "希望在分拣 issue 和保持依赖更新上得到帮助的维护者"
+      ],
+      "startWith": [
+        {
+          "skill": "vue",
+          "why": "来自 Vue 文档的 Composition API、script setup 宏、响应式系统和内置组件。"
+        },
+        {
+          "skill": "vite",
+          "why": "配置、插件 API、SSR、库模式以及 Vite 8 的 Rolldown 迁移。"
+        },
+        {
+          "skill": "antfu-upgrade-deps",
+          "why": "用 taze 升级依赖，参照变更日志迁移大版本，然后提交 PR。"
+        },
+        {
+          "skill": "antfu-issue-triage",
+          "why": "找出已修复、重复和垃圾 issue，并以表格列出建议操作供你确认。"
+        }
+      ],
+      "beforeInstall": [
+        "README 称这是一个概念验证：技能尚未在实际中充分测试，关键之处请对照官方文档核实。",
+        "antfu 会套用 Anthony Fu 本人在 ESLint、pnpm 和 monorepo 配置上的偏好。如果你的项目遵循不同约定，就跳过它。"
+      ]
+    },
+    "es": {
+      "intro": "El repositorio de Anthony Fu tiene dos tipos de skills. Ocho se generan a partir de la documentación oficial (vue, nuxt, pinia, vite, vitepress, vitest, unocss y pnpm), y el repositorio guarda clones de esa documentación para poder regenerarlas cuando cambia upstream. Seis están escritas a mano y tienen opiniones claras: antfu para sus convenciones de proyecto, más skills de flujo de trabajo para abrir PRs, clasificar issues, actualizar dependencias, simplificar un diff y poner a prueba un plan.\n\nLas skills generadas se inclinan por valores modernos como TypeScript, ESM y la Composition API, así que espera respuestas en ese estilo. Las de flujo de trabajo sirven en cualquier repositorio de GitHub, no solo en proyectos de Vue.",
+      "bestFor": [
+        "Apps de Vue y Nuxt en las que el agente insiste en usar APIs obsoletas",
+        "Autores de librerías que trabajan con Vite, Vitest, UnoCSS y workspaces de pnpm",
+        "Mantenedores que quieren ayuda para clasificar issues y tener las dependencias al día"
+      ],
+      "startWith": [
+        {
+          "skill": "vue",
+          "why": "Composition API, macros de script setup, reactividad y componentes integrados, sacados de la documentación de Vue."
+        },
+        {
+          "skill": "vite",
+          "why": "Configuración, la API de plugins, SSR, modo librería y la migración a Rolldown de Vite 8."
+        },
+        {
+          "skill": "antfu-upgrade-deps",
+          "why": "Actualiza dependencias con taze, migra versiones mayores a partir de sus changelogs y abre un PR."
+        },
+        {
+          "skill": "antfu-issue-triage",
+          "why": "Encuentra issues ya resueltas, duplicadas o spam y propone acciones en una tabla para que las confirmes."
+        }
+      ],
+      "beforeInstall": [
+        "El README lo llama prueba de concepto: las skills no se han probado a fondo en la práctica, así que contrasta sus consejos con la documentación oficial cuando importe.",
+        "antfu aplica las preferencias del propio Anthony Fu para ESLint, pnpm y monorepos. Sáltatela si tu proyecto sigue otras convenciones."
+      ]
+    },
+    "de": {
+      "intro": "Anthony Fus Repository enthält zwei Arten von Skills. Acht sind aus offizieller Doku generiert (vue, nuxt, pinia, vite, vitepress, vitest, unocss und pnpm), und das Repository hält Klone dieser Doku vor, damit sich die Skills bei Upstream-Änderungen neu erzeugen lassen. Sechs sind handgeschrieben und meinungsstark: antfu für seine Projektkonventionen sowie Workflow-Skills zum Öffnen von PRs, Sichten von Issues, Aktualisieren von Abhängigkeiten, Vereinfachen eines Diffs und Abklopfen eines Plans.\n\nDie generierten Skills neigen zu modernen Standards wie TypeScript, ESM und der Composition API, rechne also mit Antworten in diesem Stil. Die Workflow-Skills funktionieren in jedem GitHub-Repository, nicht nur in Vue-Projekten.",
+      "bestFor": [
+        "Vue- und Nuxt-Apps, in denen der Agent immer wieder zu veralteten APIs greift",
+        "Bibliotheksautoren, die mit Vite, Vitest, UnoCSS und pnpm-Workspaces arbeiten",
+        "Maintainer, die Hilfe beim Sichten von Issues und Aktuellhalten von Abhängigkeiten wollen"
+      ],
+      "startWith": [
+        {
+          "skill": "vue",
+          "why": "Composition API, script-setup-Makros, Reaktivität und eingebaute Komponenten, aus der Vue-Doku."
+        },
+        {
+          "skill": "vite",
+          "why": "Konfiguration, Plugin-API, SSR, Library Mode und die Rolldown-Migration von Vite 8."
+        },
+        {
+          "skill": "antfu-upgrade-deps",
+          "why": "Aktualisiert Abhängigkeiten mit taze, migriert Major-Versionen anhand ihrer Changelogs und öffnet einen PR."
+        },
+        {
+          "skill": "antfu-issue-triage",
+          "why": "Findet erledigte, doppelte und Spam-Issues und schlägt Aktionen in einer Tabelle zur Bestätigung vor."
+        }
+      ],
+      "beforeInstall": [
+        "Das README nennt das Projekt einen Proof of Concept: Die Skills sind in der Praxis noch nicht ausreichend getestet, also gleiche ihre Ratschläge bei Wichtigem mit der offiziellen Doku ab.",
+        "antfu wendet Anthony Fus eigene Vorlieben für ESLint, pnpm und Monorepo-Setups an. Lass ihn weg, wenn dein Projekt anderen Konventionen folgt."
       ]
     }
   }

@@ -1,0 +1,116 @@
+{
+  "name": "Excalidraw",
+  "slug": "excalidraw",
+  "description": "Open source virtual whiteboard with a hand-drawn look for sketching diagrams, wireframes and flowcharts, with end-to-end encrypted real-time collaboration, also published as a React component for embedding the editor in your own app.",
+  "repository": "https://github.com/excalidraw/excalidraw",
+  "website": "https://excalidraw.com",
+  "documentation": "https://plus.excalidraw.com/docs/sdk",
+  "categories": [
+    "ui"
+  ],
+  "keywords": [
+    "whiteboard",
+    "diagrams",
+    "sketching",
+    "collaboration",
+    "wireframes",
+    "react component"
+  ],
+  "longDescription": "Excalidraw is a whiteboard tool for quick diagrams that look sketched by hand. It offers an infinite canvas with shapes, arrows that stay bound to the elements they connect, text, free drawing, frames, images and reusable shape libraries, plus keyboard shortcuts for building flowcharts and a command palette. Drawings can be exported to PNG or SVG, copied to the clipboard, or saved in an open JSON format, and Mermaid definitions can be pasted in and turned into editable shapes.\n\nThe hosted app at excalidraw.com works offline as a PWA, autosaves in the browser, and supports live collaboration in which the server cannot read the encrypted scene. The editor itself is published as a React component on npm with props and an imperative API, so products can embed whiteboarding or diagram editing. Teams use it for architecture sketches, brainstorming, interview whiteboarding and documentation illustrations. The hand-drawn style is deliberate, so it is not meant for precise technical drawings, and some hosted-app features such as collaboration are not yet part of the npm package.",
+  "languages": [
+    "TypeScript"
+  ],
+  "packages": {
+    "npm": [
+      "@excalidraw/excalidraw"
+    ]
+  },
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "손으로 그린 듯한 느낌으로 다이어그램, 와이어프레임, 플로차트를 스케치하는 오픈소스 가상 화이트보드로, 종단 간 암호화된 실시간 협업을 지원하며 자체 앱에 에디터를 넣을 수 있는 React 컴포넌트로도 제공됩니다.",
+      "longDescription": "Excalidraw는 손으로 스케치한 듯한 다이어그램을 빠르게 그리는 화이트보드 도구입니다. 무한 캔버스 위에서 도형, 연결한 요소에 계속 붙어 있는 화살표, 텍스트, 자유 그리기, 프레임, 이미지, 재사용 가능한 도형 라이브러리를 쓸 수 있고, 플로차트를 빠르게 만드는 키보드 단축키와 명령 팔레트도 제공합니다. 그림은 PNG나 SVG로 내보내거나 클립보드에 복사하거나 공개된 JSON 형식으로 저장할 수 있으며, Mermaid 정의를 붙여 넣으면 편집 가능한 도형으로 바꿔 줍니다.\n\nexcalidraw.com의 호스팅 앱은 PWA로 오프라인에서도 동작하고, 브라우저에 자동 저장되며, 서버가 암호화된 장면을 읽을 수 없는 실시간 협업을 지원합니다. 에디터 자체는 props와 명령형 API를 갖춘 React 컴포넌트로 npm에 배포되어, 제품에 화이트보드나 다이어그램 편집 기능을 넣을 수 있습니다. 아키텍처 스케치, 브레인스토밍, 면접 화이트보드, 문서용 그림에 쓰입니다. 손그림 스타일은 의도된 것이므로 정밀한 기술 도면에는 맞지 않으며, 협업 같은 호스팅 앱의 일부 기능은 아직 npm 패키지에 포함되어 있지 않습니다.",
+      "keywords": [
+        "화이트보드",
+        "다이어그램",
+        "스케치",
+        "협업",
+        "와이어프레임",
+        "React 컴포넌트"
+      ],
+      "rationale": "큰 인기를 끄는 손그림 스타일 화이트보드이자 삽입 가능한 다이어그램 에디터입니다. 카탈로그에는 비교할 만한 화이트보드나 다이어그램 도구가 없습니다."
+    },
+    "ja": {
+      "description": "手描き風の見た目で図、ワイヤーフレーム、フローチャートをスケッチできるオープンソースの仮想ホワイトボードです。エンドツーエンド暗号化されたリアルタイム共同編集に対応し、自分のアプリにエディターを組み込める React コンポーネントとしても公開されています。",
+      "longDescription": "Excalidraw は、手で描いたような図を素早く作るためのホワイトボードツールです。無限キャンバスの上で、図形、接続先の要素に追従し続ける矢印、テキスト、フリーハンド描画、フレーム、画像、再利用できる図形ライブラリを使え、フローチャートを素早く組み立てるキーボードショートカットやコマンドパレットも備えています。描いたものは PNG や SVG への書き出し、クリップボードへのコピー、オープンな JSON 形式での保存ができ、Mermaid の定義を貼り付ければ編集可能な図形に変換されます。\n\nexcalidraw.com のホスト版アプリは PWA としてオフラインでも動作し、ブラウザに自動保存され、サーバーが暗号化されたシーンを読めない形でのリアルタイム共同編集に対応しています。エディター本体は props と命令的 API を備えた React コンポーネントとして npm で公開されているため、製品にホワイトボードや図の編集機能を組み込めます。アーキテクチャのスケッチ、ブレインストーミング、面接でのホワイトボード、ドキュメントの図版などに使われています。手描き風のスタイルは意図的なもので、精密な技術図面には向かず、共同編集などホスト版の一部機能はまだ npm パッケージに含まれていません。",
+      "keywords": [
+        "ホワイトボード",
+        "作図",
+        "スケッチ",
+        "共同編集",
+        "ワイヤーフレーム",
+        "React コンポーネント"
+      ],
+      "rationale": "絶大な人気を誇る手描き風ホワイトボードで、組み込み可能な作図エディターでもあります。カタログには同等のホワイトボードや作図ツールがありません。"
+    },
+    "zh-CN": {
+      "description": "一款开源虚拟白板，以手绘风格绘制图表、线框图和流程图，支持端到端加密的实时协作，同时以 React 组件的形式发布，可把编辑器嵌入你自己的应用。",
+      "longDescription": "Excalidraw 是一款用于快速绘制手绘风格图表的白板工具。它提供无限画布，支持图形、始终吸附在所连接元素上的箭头、文本、自由绘制、框架、图片和可复用的图形库，还有用于快速搭建流程图的键盘快捷键和命令面板。绘图可以导出为 PNG 或 SVG、复制到剪贴板，或保存为开放的 JSON 格式；粘贴 Mermaid 定义即可转换成可编辑的图形。\n\nexcalidraw.com 上的托管应用作为 PWA 可离线使用，会自动保存到浏览器，并支持服务器无法读取加密场景内容的实时协作。编辑器本身以带有 props 和命令式 API 的 React 组件形式发布在 npm 上，产品可以借此嵌入白板或图表编辑功能。团队用它绘制架构草图、头脑风暴、面试白板和文档插图。手绘风格是有意为之，因此不适合精确的技术制图；协作等托管应用中的部分功能目前也尚未包含在 npm 包里。",
+      "keywords": [
+        "白板",
+        "图表绘制",
+        "草图",
+        "协作",
+        "线框图",
+        "React 组件"
+      ],
+      "rationale": "极受欢迎的手绘风格白板和可嵌入的图表编辑器；目录中还没有可比的白板或绘图工具。"
+    },
+    "es": {
+      "description": "Pizarra virtual de código abierto con aspecto de dibujo a mano para esbozar diagramas, wireframes y diagramas de flujo, con colaboración en tiempo real cifrada de extremo a extremo, y publicada también como componente de React para integrar el editor en tu propia aplicación.",
+      "longDescription": "Excalidraw es una pizarra para hacer diagramas rápidos que parecen dibujados a mano. Ofrece un lienzo infinito con formas, flechas que siguen unidas a los elementos que conectan, texto, dibujo libre, marcos, imágenes y bibliotecas de formas reutilizables, además de atajos de teclado para montar diagramas de flujo y una paleta de comandos. Los dibujos se pueden exportar a PNG o SVG, copiar al portapapeles o guardar en un formato JSON abierto, y es posible pegar definiciones de Mermaid para convertirlas en formas editables.\n\nLa aplicación alojada en excalidraw.com funciona sin conexión como PWA, guarda automáticamente en el navegador y permite colaborar en directo sin que el servidor pueda leer la escena cifrada. El propio editor se publica en npm como componente de React con props y una API imperativa, de modo que los productos pueden integrar una pizarra o edición de diagramas. Los equipos lo usan para bocetos de arquitectura, lluvias de ideas, pizarras en entrevistas e ilustraciones para documentación. El estilo a mano es intencionado, por lo que no está pensado para dibujos técnicos precisos, y algunas funciones de la aplicación alojada, como la colaboración, aún no forman parte del paquete de npm.",
+      "keywords": [
+        "pizarra",
+        "diagramas",
+        "bocetos",
+        "colaboración",
+        "wireframes",
+        "componente de react"
+      ],
+      "rationale": "Pizarra con estilo a mano enormemente popular y editor de diagramas integrable; el catálogo no tiene ninguna herramienta de pizarra o diagramas comparable."
+    },
+    "de": {
+      "description": "Quelloffenes virtuelles Whiteboard im Handzeichnungsstil zum Skizzieren von Diagrammen, Wireframes und Flussdiagrammen, mit Ende-zu-Ende-verschlüsselter Echtzeit-Zusammenarbeit, auch als React-Komponente verfügbar, um den Editor in eigene Apps einzubetten.",
+      "longDescription": "Excalidraw ist ein Whiteboard-Werkzeug für schnelle Diagramme, die wie von Hand skizziert aussehen. Es bietet eine unendliche Zeichenfläche mit Formen, Pfeilen, die an den verbundenen Elementen haften bleiben, Text, Freihandzeichnen, Frames, Bildern und wiederverwendbaren Formbibliotheken, dazu Tastenkürzel zum Aufbau von Flussdiagrammen und eine Befehlspalette. Zeichnungen lassen sich als PNG oder SVG exportieren, in die Zwischenablage kopieren oder in einem offenen JSON-Format speichern, und eingefügte Mermaid-Definitionen werden zu bearbeitbaren Formen.\n\nDie gehostete App auf excalidraw.com funktioniert als PWA offline, speichert automatisch im Browser und unterstützt Live-Zusammenarbeit, bei der der Server die verschlüsselte Szene nicht lesen kann. Der Editor selbst erscheint auf npm als React-Komponente mit Props und imperativer API, sodass Produkte Whiteboard- oder Diagrammbearbeitung einbetten können. Teams nutzen es für Architekturskizzen, Brainstorming, Whiteboard-Aufgaben in Bewerbungsgesprächen und Illustrationen für Dokumentation. Der Handzeichnungsstil ist gewollt, daher eignet es sich nicht für präzise technische Zeichnungen, und manche Funktionen der gehosteten App wie die Zusammenarbeit sind noch nicht Teil des npm-Pakets.",
+      "keywords": [
+        "Whiteboard",
+        "Diagramme",
+        "Skizzen",
+        "Zusammenarbeit",
+        "Wireframes",
+        "React-Komponente"
+      ],
+      "rationale": "Äußerst beliebtes Whiteboard im Handzeichnungsstil und einbettbarer Diagrammeditor; im Katalog gibt es kein vergleichbares Whiteboard- oder Diagrammwerkzeug."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2020-01-02",
+      "archived": false,
+      "openIssuesCount": 3628,
+      "stargazersCount": 136421,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "Hugely popular hand-drawn whiteboard and embeddable diagram editor; the catalog has no comparable whiteboard or diagramming tool."
+    },
+    "flag": "ok"
+  }
+}

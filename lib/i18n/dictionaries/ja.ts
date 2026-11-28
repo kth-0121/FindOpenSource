@@ -252,11 +252,11 @@ const dictionary: Dictionary = {
       },
       ml: {
         title: "Hugging Faceで機械学習",
-        description: "Hubの操作、データセット、モデルの学習と評価。",
+        description: "Hubの操作、データセット、モデルの学習と選定。",
         benefits: [
           "hf CLI で Hub のモデル・データセット・Space を管理",
           "Dataset Viewer API でデータセットを探索・検索・フィルタ",
-          "TRL や Unsloth でファインチューニング（SFT・DPO・GRPO）し、inspect-ai と lighteval でローカル評価",
+          "TRL でポストトレーニング（SFT・DPO・GRPO）し、ベンチマークスコアでタスクに最適なモデルを探す",
         ],
       },
       shortform: {
@@ -360,6 +360,42 @@ const dictionary: Dictionary = {
             "何を作りたいのかをまず尋ね、仕様を読みやすい短い単位で提示",
             "本物のレッド/グリーン TDD・YAGNI・DRY を軸に計画を立てる",
             "サブエージェント駆動開発で数時間にわたり計画どおり自律作業",
+          ],
+        },
+        addy: {
+          credential: "『Learning JavaScript Design Patterns』著者、元 Google Chrome デベロッパーエクスペリエンス責任者",
+          summary: "Agent Skills: 仕様からリリースまで開発の全工程をカバーする実務向けエンジニアリングスキル。",
+          strengths: [
+            "/spec、/plan、/build、/test、/review、/ship など 10 個のスラッシュコマンドで開発の流れを進行",
+            "/build が計画を立て、一度承認すれば全タスクをテスト優先で実装し、タスクごとにコミット",
+            "/webperf と /a11y で Web パフォーマンスとアクセシビリティを監査",
+          ],
+        },
+        "compound-engineering": {
+          credential: "Every の Compound Engineer、Compound Engineering の共同メンテナー",
+          summary: "Compound Engineering: ブレインストーミング → 計画 → 作業 → 蓄積のループで構成された 38 スキルのプラグイン。",
+          strengths: [
+            "/ce-brainstorm と /ce-plan で要件をすぐ実装できる計画に育てる",
+            "/ce-work が計画を実行し、簡素化・レビュー・コミットまで済ませてから PR を作成",
+            "/ce-compound が学びを docs/solutions/ に残し、次の /ce-plan がそれを読み込む",
+          ],
+        },
+        lifeos: {
+          credential: "セキュリティ研究者、Fabric の作者",
+          summary: "LifeOS: 目標・文脈・記憶をエージェントに与える、Claude Code ベースの個人 AI ハーネス。",
+          strengths: [
+            "過去のセッション、決定、学びを継続して記憶",
+            "リサーチやセキュリティから執筆・アート・動画まで 97 個の公開スキル",
+            "インストーラーは設定を上書きせずマージし、USER/ フォルダには触れない",
+          ],
+        },
+        tstack: {
+          credential: "Ping.gg CEO、T3 Stack の作者",
+          summary: "tstack: Theo が毎日使うエージェントスキルを、誰でも使えるよう整理したもの。",
+          strengths: [
+            "full-send が変更を検証・レビュー・PR 作成・見守り・マージまで最後まで進める",
+            "council が異なる提供元の 3 つのモデルにレビューさせ、合意するまで繰り返す",
+            "takeover が他人の PR・ブランチ・エージェントのスレッドを引き継いで仕上げ、クレジットは残す",
           ],
         },
       },

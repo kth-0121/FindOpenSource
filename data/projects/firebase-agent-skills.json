@@ -1,0 +1,111 @@
+{
+  "name": "Firebase Agent Skills",
+  "slug": "firebase-agent-skills",
+  "description": "Official Agent Skills for building with Firebase: Authentication, Firestore, Hosting, Cloud Functions, AI Logic and related services.",
+  "longDescription": "Firebase's official skills give coding agents task-sized guides to the Firebase CLI and main products. firebase-basics handles CLI login, projects and app config files, and product skills cover Authentication, Cloud Firestore, classic Hosting, App Hosting for server-rendered Next.js and Angular apps, Data Connect with PostgreSQL, Remote Config, Crashlytics, Analytics and AI Logic for calling Gemini from client code. Two skills handle security rules: firestore-rules-creation writes and hardens firestore.rules, and firebase-security-rules-auditor checks Firestore and Cloud Storage rules for privilege escalation and other holes. Others turn an installed Firebase Extension into your own Cloud Functions code or add Swift packages to Xcode projects.\n\nIt suits web and mobile developers on Firebase, and installs via the skills CLI, a Gemini CLI extension, or Claude Code and Codex plugins. Everything is Firebase-specific, and the skills are finely split, so one feature may need two or three.",
+  "repository": "https://github.com/firebase/agent-skills",
+  "website": "https://skills.sh/firebase/agent-skills",
+  "documentation": "https://firebase.google.com/docs/ai-assistance/agent-skills",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "firebase",
+    "firestore",
+    "security-rules",
+    "backend"
+  ],
+  "languages": [
+    "JavaScript"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Firebase로 개발하기 위한 공식 Agent Skills: Authentication, Firestore, Hosting, Cloud Functions, AI Logic 및 관련 서비스.",
+      "longDescription": "Firebase의 공식 스킬은 코딩 에이전트에게 Firebase CLI와 주요 제품을 작업 단위로 안내합니다. firebase-basics는 CLI 로그인, 프로젝트, 앱 설정 파일을 맡고, 제품별 스킬은 Authentication, Cloud Firestore, 클래식 Hosting, 서버 렌더링 Next.js·Angular 앱을 위한 App Hosting, PostgreSQL 기반 Data Connect, Remote Config, Crashlytics, Analytics, 클라이언트 코드에서 Gemini를 호출하는 AI Logic을 다룹니다. 보안 규칙 스킬도 두 개 있습니다. firestore-rules-creation은 firestore.rules를 작성하고 강화하며, firebase-security-rules-auditor는 Firestore와 Cloud Storage 규칙에서 권한 상승 같은 구멍을 찾습니다. 설치된 Firebase Extension을 직접 관리하는 Cloud Functions 코드로 바꾸는 스킬과 Xcode 프로젝트에 Swift 패키지를 추가하는 스킬도 있습니다.\n\n이미 Firebase를 쓰는 웹·모바일 개발자에게 맞으며, skills CLI나 Gemini CLI 확장, Claude Code 플러그인, Codex 플러그인으로 설치할 수 있습니다. 모두 Firebase 전용이고 스킬이 잘게 나뉘어 있어서, 기능 하나에 두세 개가 함께 쓰일 수 있습니다.",
+      "keywords": [
+        "에이전트 스킬",
+        "Firebase",
+        "Firestore",
+        "보안 규칙",
+        "백엔드"
+      ],
+      "rationale": "제품별로 나뉜 공식 Firebase 가이드이며 보안 규칙 스킬이 특히 강합니다. Firebase 사용자에게만 유용합니다."
+    },
+    "ja": {
+      "description": "Firebase で開発するための公式 Agent Skills。Authentication、Firestore、Hosting、Cloud Functions、AI Logic などのサービス。",
+      "longDescription": "Firebase の公式スキルは、Firebase CLI と主要な製品の使い方を、作業単位のガイドとしてコーディングエージェントに渡します。firebase-basics は CLI のログイン、プロジェクト、アプリの設定ファイルを担当し、製品別のスキルは Authentication、Cloud Firestore、従来の Hosting、サーバーレンダリングする Next.js や Angular アプリ向けの App Hosting、PostgreSQL を使う Data Connect、Remote Config、Crashlytics、Analytics、クライアントコードから Gemini を呼び出す AI Logic をカバーします。セキュリティルールのスキルも二つあり、firestore-rules-creation は firestore.rules を書いて堅牢にし、firebase-security-rules-auditor は Firestore と Cloud Storage のルールに権限昇格などの穴がないか調べます。インストール済みの Firebase Extension を自前の Cloud Functions のコードに変換するスキルや、Xcode プロジェクトに Swift パッケージを追加するスキルもあります。\n\nすでに Firebase を使っている Web・モバイル開発者向けで、skills CLI のほか、Gemini CLI の拡張機能、Claude Code のプラグイン、Codex のプラグインとしても入れられます。すべて Firebase 専用で、スキルが細かく分かれているため、一つの機能に二、三個が使われることもあります。",
+      "keywords": [
+        "エージェントスキル",
+        "Firebase",
+        "Firestore",
+        "セキュリティルール",
+        "バックエンド"
+      ],
+      "rationale": "製品ごとに分かれた公式の Firebase ガイドで、セキュリティルールのスキルが特に充実しています。役立つのは Firebase ユーザーに限られます。"
+    },
+    "zh-CN": {
+      "description": "用于 Firebase 开发的官方 Agent Skills：Authentication、Firestore、Hosting、Cloud Functions、AI Logic 及相关服务。",
+      "longDescription": "Firebase 的官方技能以任务为单位，为编程智能体讲解 Firebase CLI 及其主要产品。firebase-basics 负责 CLI 登录、项目和应用配置文件，各产品技能则涵盖 Authentication、Cloud Firestore、经典 Hosting、面向服务端渲染 Next.js 和 Angular 应用的 App Hosting、基于 PostgreSQL 的 Data Connect、Remote Config、Crashlytics、Analytics，以及从客户端代码调用 Gemini 的 AI Logic。另有两个安全规则技能：firestore-rules-creation 编写并加固 firestore.rules，firebase-security-rules-auditor 检查 Firestore 和 Cloud Storage 规则中的权限提升等漏洞。还有技能可以把已安装的 Firebase Extension 转换成你自己的 Cloud Functions 代码，以及为 Xcode 项目添加 Swift 包。\n\n它适合已经在用 Firebase 的 Web 和移动开发者，可以通过 skills CLI 安装，也可以作为 Gemini CLI 扩展、Claude Code 插件或 Codex 插件安装。所有技能都只针对 Firebase，而且拆分得很细，一个功能可能会用到两三个技能。",
+      "keywords": [
+        "智能体技能",
+        "Firebase",
+        "Firestore",
+        "安全规则",
+        "后端"
+      ],
+      "rationale": "按产品拆分的官方 Firebase 指南，安全规则相关技能格外扎实；只对 Firebase 用户有用。"
+    },
+    "es": {
+      "description": "Agent Skills oficiales para construir con Firebase: Authentication, Firestore, Hosting, Cloud Functions, AI Logic y servicios relacionados.",
+      "longDescription": "Las skills oficiales de Firebase dan a los agentes de programación guías del tamaño de una tarea para el CLI de Firebase y sus productos principales. firebase-basics se ocupa del login en el CLI, los proyectos y los archivos de configuración de la app, y las skills de producto cubren Authentication, Cloud Firestore, el Hosting clásico, App Hosting para apps de Next.js y Angular con renderizado en servidor, Data Connect con PostgreSQL, Remote Config, Crashlytics, Analytics y AI Logic para llamar a Gemini desde el código cliente. Dos skills tratan las reglas de seguridad: firestore-rules-creation escribe y refuerza firestore.rules, y firebase-security-rules-auditor revisa las reglas de Firestore y Cloud Storage en busca de escaladas de privilegios y otros agujeros. Otras convierten una Firebase Extension instalada en tu propio código de Cloud Functions y añaden paquetes de Swift a proyectos de Xcode.\n\nEncaja con desarrolladores web y móviles que ya usan Firebase, y se instala con el CLI de skills o como extensión de Gemini CLI, plugin de Claude Code o plugin de Codex. Todo es específico de Firebase, y las skills están muy divididas, así que una funcionalidad puede necesitar dos o tres.",
+      "keywords": [
+        "skills de agentes",
+        "Firebase",
+        "Firestore",
+        "reglas de seguridad",
+        "backend"
+      ],
+      "rationale": "Guía oficial de Firebase, producto por producto, con skills de reglas de seguridad especialmente sólidas; útil solo para quienes usan Firebase."
+    },
+    "de": {
+      "description": "Offizielle Agent Skills für die Entwicklung mit Firebase: Authentication, Firestore, Hosting, Cloud Functions, AI Logic und verwandte Dienste.",
+      "longDescription": "Firebases offizielle Skills geben Coding-Agenten aufgabengroße Anleitungen für die Firebase CLI und die wichtigsten Produkte. firebase-basics kümmert sich um CLI-Login, Projekte und App-Konfigurationsdateien, und die Produkt-Skills decken Authentication, Cloud Firestore, klassisches Hosting, App Hosting für serverseitig gerenderte Next.js- und Angular-Apps, Data Connect mit PostgreSQL, Remote Config, Crashlytics, Analytics und AI Logic ab, mit dem man Gemini aus Client-Code aufruft. Zwei Skills behandeln Security Rules: firestore-rules-creation schreibt und härtet firestore.rules, firebase-security-rules-auditor prüft Regeln für Firestore und Cloud Storage auf Rechteausweitung und andere Lücken. Weitere wandeln eine installierte Firebase Extension in eigenen Cloud-Functions-Code um und fügen Xcode-Projekten Swift-Pakete hinzu.\n\nDas passt zu Web- und Mobile-Entwicklern, die schon Firebase nutzen, und lässt sich über die skills CLI oder als Gemini-CLI-Erweiterung, Claude-Code-Plugin oder Codex-Plugin installieren. Alles ist Firebase-spezifisch, und die Skills sind fein aufgeteilt, sodass ein Feature zwei oder drei davon braucht.",
+      "keywords": [
+        "Agenten-Skills",
+        "Firebase",
+        "Firestore",
+        "Security Rules",
+        "Backend"
+      ],
+      "rationale": "Offizielle Firebase-Anleitung Produkt für Produkt, mit besonders starken Skills für Security Rules; nur für Firebase-Nutzer relevant."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-09",
+      "repoCreatedAt": "2026-02-10",
+      "archived": false,
+      "openIssuesCount": 71,
+      "stargazersCount": 533,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "score": 75,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Official, product-by-product Firebase guidance with unusually strong security-rules skills; useful only to Firebase users."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

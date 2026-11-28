@@ -1,0 +1,111 @@
+{
+  "name": "Laravel",
+  "slug": "laravel",
+  "description": "PHP web application framework with an expressive syntax, bundling an ORM, routing, templating, queues, authentication scaffolding and testing tools. Aimed at PHP developers building anything from APIs to full web applications.",
+  "repository": "https://github.com/laravel/framework",
+  "website": "https://laravel.com",
+  "documentation": "https://laravel.com/docs",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "php",
+    "web framework",
+    "eloquent orm",
+    "mvc",
+    "artisan",
+    "rest api"
+  ],
+  "longDescription": "Laravel is a PHP framework for web applications and APIs that favours readable, expressive code and a batteries-included toolkit. This repository holds the framework core; new projects usually start from the separate application skeleton and use the Artisan command-line tool to generate controllers, models, migrations and other boilerplate. A service container and facades handle dependency wiring, and the Eloquent ORM maps database tables to models with relationships, scopes and migrations.\n\nOut of the box it covers routing and middleware, Blade templates, validation, queues and scheduled tasks, events and broadcasting, caching, mail and notifications, plus a built-in testing layer. First-party packages add authentication starter kits, API tokens, subscription billing, full-text search and more. It is popular for SaaS products, business applications, e-commerce back offices and REST backends. Some surrounding offerings, such as hosting and monitoring services from the company behind it, are commercial, and its facade-heavy style is a matter of taste for teams that prefer explicit dependencies.",
+  "languages": [
+    "PHP"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "표현력 있는 문법을 갖춘 PHP 웹 애플리케이션 프레임워크로, ORM, 라우팅, 템플릿, 큐, 인증 스캐폴딩, 테스트 도구를 함께 제공합니다. API부터 완전한 웹 애플리케이션까지 만드는 PHP 개발자를 위한 프레임워크입니다.",
+      "longDescription": "Laravel은 읽기 쉽고 표현력 있는 코드와 필요한 기능을 두루 갖춘 툴킷을 지향하는 PHP 웹 애플리케이션·API 프레임워크입니다. 이 저장소에는 프레임워크 코어가 들어 있으며, 새 프로젝트는 보통 별도의 애플리케이션 스켈레톤에서 시작해 Artisan 명령줄 도구로 컨트롤러, 모델, 마이그레이션 등 반복적인 코드를 생성합니다. 서비스 컨테이너와 파사드가 의존성 연결을 맡고, Eloquent ORM은 관계, 스코프, 마이그레이션과 함께 데이터베이스 테이블을 모델에 매핑합니다.\n\n라우팅과 미들웨어, Blade 템플릿, 검증, 큐와 예약 작업, 이벤트와 브로드캐스팅, 캐시, 메일과 알림, 내장 테스트 계층을 기본으로 제공합니다. 공식 패키지로 인증 스타터 키트, API 토큰, 구독 결제, 전문 검색 등을 더할 수 있습니다. SaaS 제품, 업무용 애플리케이션, 이커머스 관리 시스템, REST 백엔드에 많이 쓰입니다. 개발사가 운영하는 호스팅·모니터링 서비스 같은 주변 제품 일부는 유료이며, 파사드를 많이 쓰는 스타일은 명시적인 의존성을 선호하는 팀에게는 취향이 갈릴 수 있습니다.",
+      "keywords": [
+        "php",
+        "웹 프레임워크",
+        "eloquent orm",
+        "mvc",
+        "artisan",
+        "rest api"
+      ],
+      "rationale": "가장 널리 쓰이는 PHP 웹 프레임워크이자 현대 PHP 개발의 확실한 대표로, 다른 PHP 프레임워크가 없는 backend 카테고리의 공백을 메워 줍니다."
+    },
+    "ja": {
+      "description": "表現力のある構文を持つ PHP の Web アプリケーションフレームワークで、ORM、ルーティング、テンプレート、キュー、認証の雛形、テストツールを一通り備えています。API から本格的な Web アプリまで作る PHP 開発者向けです。",
+      "longDescription": "Laravel は、読みやすく表現力のあるコードと、必要な機能を一通り揃えたツールキットを重視する PHP の Web アプリケーション・API フレームワークです。このリポジトリにはフレームワーク本体が含まれており、新しいプロジェクトは通常、別リポジトリのアプリケーション雛形から始め、Artisan コマンドラインツールでコントローラー、モデル、マイグレーションなどの定型コードを生成します。サービスコンテナとファサードが依存関係の結び付けを担い、Eloquent ORM がリレーション、スコープ、マイグレーションとともにデータベースのテーブルをモデルに対応付けます。\n\nルーティングとミドルウェア、Blade テンプレート、バリデーション、キューと定期タスク、イベントとブロードキャスト、キャッシュ、メールと通知、組み込みのテスト層を標準で備えています。公式パッケージを使えば、認証のスターターキット、API トークン、サブスクリプション課金、全文検索なども追加できます。SaaS、業務アプリケーション、EC のバックオフィス、REST バックエンドで広く使われています。開発元によるホスティングや監視サービスなど周辺サービスの一部は有料で、ファサードを多用するスタイルは明示的な依存関係を好むチームにとって好みが分かれるところです。",
+      "keywords": [
+        "php",
+        "Web フレームワーク",
+        "eloquent orm",
+        "mvc",
+        "artisan",
+        "rest api"
+      ],
+      "rationale": "最も広く使われている PHP の Web フレームワークで、現代的な PHP 開発の明確な代表です。ほかに PHP フレームワークがない backend カテゴリの空白を埋めます。"
+    },
+    "zh-CN": {
+      "description": "一个语法优雅的 PHP Web 应用框架，集成了 ORM、路由、模板、队列、认证脚手架和测试工具，面向从 API 到完整 Web 应用都要开发的 PHP 开发者。",
+      "longDescription": "Laravel 是一个面向 Web 应用和 API 的 PHP 框架，推崇可读、富有表现力的代码以及开箱即用的完整工具集。本仓库是框架核心；新项目通常从单独的应用骨架开始，并使用 Artisan 命令行工具生成控制器、模型、迁移等样板代码。服务容器和门面（Facade）负责依赖装配，Eloquent ORM 则把数据库表映射为模型，并支持关联、查询作用域和迁移。\n\n它默认提供路由与中间件、Blade 模板、数据校验、队列与定时任务、事件与广播、缓存、邮件与通知，以及内置的测试层。官方扩展包还能加入认证入门套件、API 令牌、订阅计费、全文搜索等功能。它在 SaaS 产品、企业业务系统、电商后台和 REST 后端中十分流行。其背后公司提供的托管、监控等周边服务部分是商业产品，而大量使用门面的风格对偏好显式依赖的团队来说见仁见智。",
+      "keywords": [
+        "php",
+        "Web 框架",
+        "eloquent orm",
+        "mvc",
+        "artisan",
+        "rest api"
+      ],
+      "rationale": "使用最广泛的 PHP Web 框架，也是现代 PHP 开发的明确代表；填补了 backend 分类中没有 PHP 框架的空白。"
+    },
+    "es": {
+      "description": "Framework de aplicaciones web para PHP con una sintaxis expresiva, que incluye ORM, enrutamiento, plantillas, colas, andamiaje de autenticación y herramientas de pruebas. Pensado para quienes desarrollan en PHP desde APIs hasta aplicaciones web completas.",
+      "longDescription": "Laravel es un framework de PHP para aplicaciones web y APIs que prioriza un código legible y expresivo y un conjunto de herramientas completo de serie. Este repositorio contiene el núcleo del framework; los proyectos nuevos suelen partir del esqueleto de aplicación, que está aparte, y usan la herramienta de línea de comandos Artisan para generar controladores, modelos, migraciones y otro código repetitivo. Un contenedor de servicios y las facades se encargan de conectar dependencias, y el ORM Eloquent asigna tablas a modelos con relaciones, scopes y migraciones.\n\nDe serie cubre enrutamiento y middleware, plantillas Blade, validación, colas y tareas programadas, eventos y broadcasting, caché, correo y notificaciones, además de una capa de pruebas integrada. Los paquetes oficiales añaden kits de inicio de autenticación, tokens de API, cobro de suscripciones, búsqueda de texto completo y más. Es muy popular para productos SaaS, aplicaciones de negocio, backoffices de comercio electrónico y backends REST. Algunos servicios alrededor, como el hosting y la monitorización de la empresa que lo impulsa, son comerciales, y su estilo basado en facades no convence a todos los equipos que prefieren dependencias explícitas.",
+      "keywords": [
+        "php",
+        "framework web",
+        "eloquent orm",
+        "mvc",
+        "artisan",
+        "api rest"
+      ],
+      "rationale": "El framework web de PHP más usado y el representante claro del desarrollo moderno en PHP; cubre un hueco, ya que la categoría backend no tiene otro framework de PHP."
+    },
+    "de": {
+      "description": "PHP-Framework für Webanwendungen mit ausdrucksstarker Syntax, das ORM, Routing, Templates, Queues, Authentifizierungsgerüste und Testwerkzeuge mitbringt. Für PHP-Entwickler, die von APIs bis zu kompletten Webanwendungen alles bauen.",
+      "longDescription": "Laravel ist ein PHP-Framework für Webanwendungen und APIs, das auf lesbaren, ausdrucksstarken Code und einen umfassenden Werkzeugkasten setzt. Dieses Repository enthält den Framework-Kern; neue Projekte starten meist vom separaten Anwendungsgerüst und erzeugen Controller, Models, Migrationen und anderen Boilerplate mit dem Kommandozeilenwerkzeug Artisan. Ein Service-Container und Facades kümmern sich um die Verdrahtung von Abhängigkeiten, und das Eloquent-ORM bildet Datenbanktabellen samt Beziehungen, Scopes und Migrationen auf Models ab.\n\nVon Haus aus deckt es Routing und Middleware, Blade-Templates, Validierung, Queues und geplante Tasks, Events und Broadcasting, Caching, Mail und Benachrichtigungen sowie eine eingebaute Testschicht ab. Offizielle Pakete ergänzen Starter-Kits für die Authentifizierung, API-Tokens, Abo-Abrechnung, Volltextsuche und mehr. Beliebt ist es für SaaS-Produkte, Geschäftsanwendungen, E-Commerce-Backoffices und REST-Backends. Einige begleitende Angebote wie Hosting- und Monitoring-Dienste der dahinterstehenden Firma sind kommerziell, und der stark auf Facades setzende Stil ist für Teams, die explizite Abhängigkeiten bevorzugen, Geschmackssache.",
+      "keywords": [
+        "php",
+        "Webframework",
+        "eloquent orm",
+        "mvc",
+        "artisan",
+        "rest-api"
+      ],
+      "rationale": "Das meistgenutzte PHP-Webframework und der klare Vertreter moderner PHP-Entwicklung; schließt eine Lücke, da die Kategorie backend sonst kein PHP-Framework enthält."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2013-01-10",
+      "archived": false,
+      "openIssuesCount": 104,
+      "stargazersCount": 35205,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The most widely used PHP web framework and the clear representative of modern PHP development; fills a gap, as the backend category has no other PHP framework."
+    },
+    "flag": "ok"
+  }
+}

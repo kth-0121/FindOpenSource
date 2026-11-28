@@ -1,0 +1,111 @@
+{
+  "name": "Shopware",
+  "slug": "shopware",
+  "description": "Open commerce platform built on Symfony and Vue.js, with a ready storefront, an admin panel, APIs for headless frontends and a large extension ecosystem. For merchants and agencies, especially in Europe, building B2C or B2B shops they can host and customize.",
+  "repository": "https://github.com/shopware/shopware",
+  "website": "https://shopware.com",
+  "documentation": "https://developer.shopware.com/docs/",
+  "categories": [
+    "ecommerce"
+  ],
+  "keywords": [
+    "ecommerce",
+    "online shop",
+    "symfony",
+    "php",
+    "headless commerce",
+    "b2b"
+  ],
+  "longDescription": "Shopware 6 is an ecommerce platform developed by the German company Shopware AG. Its MIT-licensed core covers the product catalog, cart and checkout, customer accounts, order management, promotions and multiple sales channels, plus a Rule Builder for conditional pricing, shipping and payment logic and a Flow Builder that ties events to automated actions. Merchants run the shop from a Vue.js administration, and Shopping Experiences let them compose content-rich category and landing pages on top of the default Twig-based storefront.\n\nFor developers, the PHP and Symfony foundation can be extended through plugins, apps and themes, and thousands of community and commercial extensions cover payment providers, ERP connectors, themes and marketing tools. The Store API and Admin API also allow headless setups, and Shopware Frontends offers a Vue and Nuxt toolkit for custom storefronts. It is especially strong in German-speaking markets, where many agencies specialize in it. Several advanced B2B, AI and enterprise features are reserved for paid plans, and larger shops need solid PHP hosting with a search engine, caching and background workers.",
+  "languages": [
+    "PHP"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Symfony와 Vue.js 기반의 오픈 커머스 플랫폼으로, 바로 쓸 수 있는 스토어프런트, 관리자 패널, 헤드리스 프런트엔드용 API, 방대한 확장 생태계를 갖췄습니다. 직접 호스팅하고 커스터마이즈할 B2C·B2B 쇼핑몰을 만드는 판매자와 에이전시, 특히 유럽 시장에 적합합니다.",
+      "longDescription": "Shopware 6는 독일 기업 Shopware AG가 개발하는 이커머스 플랫폼입니다. MIT 라이선스의 코어에는 상품 카탈로그, 장바구니와 결제, 고객 계정, 주문 관리, 프로모션, 여러 판매 채널이 포함되며, 가격·배송·결제 조건을 정의하는 Rule Builder와 이벤트를 자동화 작업에 연결하는 Flow Builder도 들어 있습니다. 판매자는 Vue.js로 만든 관리 화면에서 쇼핑몰을 운영하고, Shopping Experiences 기능으로 기본 Twig 기반 스토어프런트 위에 콘텐츠가 풍부한 카테고리·랜딩 페이지를 구성할 수 있습니다.\n\n개발자는 PHP·Symfony 기반 위에서 플러그인, 앱, 테마로 기능을 확장할 수 있고, 결제 대행사, ERP 연동, 테마, 마케팅 도구 등을 다루는 수천 개의 커뮤니티·상용 확장이 있습니다. Store API와 Admin API로 헤드리스 구성도 가능하며, Shopware Frontends는 맞춤형 스토어프런트를 위한 Vue·Nuxt 툴킷을 제공합니다. 특히 독일어권 시장에서 강세를 보이며, 이를 전문으로 하는 에이전시도 많습니다. 고급 B2B, AI, 엔터프라이즈 기능 일부는 유료 플랜에만 포함되고, 규모가 큰 쇼핑몰은 검색 엔진, 캐시, 백그라운드 워커를 갖춘 탄탄한 PHP 호스팅이 필요합니다.",
+      "keywords": [
+        "이커머스",
+        "온라인 쇼핑몰",
+        "Symfony",
+        "PHP",
+        "헤드리스 커머스",
+        "B2B"
+      ],
+      "rationale": "확장 생태계가 큰 유럽의 대표 커머스 플랫폼입니다. Sylius 옆에서 훨씬 넓은 판매자층을 가진 Symfony/PHP 선택지를 더하지만, 이커머스 카테고리에는 이미 여러 항목이 있습니다."
+    },
+    "ja": {
+      "description": "Symfony と Vue.js で構築されたオープンなコマースプラットフォームで、すぐに使えるストアフロント、管理画面、ヘッドレス向け API、大規模な拡張機能エコシステムを備えています。自前でホストしてカスタマイズする B2C・B2B ショップを構築する事業者や制作会社、特に欧州市場に向いています。",
+      "longDescription": "Shopware 6 は、ドイツの Shopware AG が開発する EC プラットフォームです。MIT ライセンスのコアには、商品カタログ、カートと決済、顧客アカウント、受注管理、プロモーション、複数の販売チャネルが含まれ、価格・配送・決済の条件を定義する Rule Builder や、イベントを自動処理に結び付ける Flow Builder も備えています。事業者は Vue.js 製の管理画面からショップを運営し、Shopping Experiences を使って、標準の Twig ベースのストアフロント上にコンテンツ豊富なカテゴリーページやランディングページを組み立てられます。\n\n開発者は PHP と Symfony の基盤の上で、プラグイン、アプリ、テーマによって機能を拡張でき、決済サービス、ERP 連携、テーマ、マーケティングツールなどを扱う数千のコミュニティ製・商用の拡張機能があります。Store API と Admin API によるヘッドレス構成も可能で、Shopware Frontends はカスタムストアフロント向けの Vue/Nuxt ツールキットを提供します。特にドイツ語圏の市場で強く、専門の制作会社も多数あります。高度な B2B、AI、エンタープライズ機能の一部は有料プラン限定で、規模の大きいショップには検索エンジン、キャッシュ、バックグラウンドワーカーを備えたしっかりした PHP ホスティングが必要です。",
+      "keywords": [
+        "EC サイト",
+        "オンラインショップ",
+        "Symfony",
+        "PHP",
+        "ヘッドレスコマース",
+        "B2B"
+      ],
+      "rationale": "大きな拡張エコシステムを持つ欧州の主要コマースプラットフォームです。Sylius と並ぶ Symfony/PHP の選択肢として、はるかに広い事業者層をカバーしますが、EC カテゴリにはすでに複数の項目があります。"
+    },
+    "zh-CN": {
+      "description": "基于 Symfony 和 Vue.js 的开放电商平台，提供现成的店面、管理后台、用于无头前端的 API 以及庞大的扩展生态。适合搭建可自行托管和定制的 B2C 或 B2B 网店的商家与服务商，尤其是欧洲市场。",
+      "longDescription": "Shopware 6 是由德国公司 Shopware AG 开发的电商平台。其采用 MIT 许可证的核心涵盖商品目录、购物车与结账、客户账户、订单管理、促销和多销售渠道，还包含用于定义条件化定价、配送和支付逻辑的 Rule Builder，以及把事件与自动化操作关联起来的 Flow Builder。商家通过基于 Vue.js 的管理后台运营店铺，并可借助 Shopping Experiences 在默认的 Twig 店面之上搭建内容丰富的分类页和落地页。\n\n对开发者而言，PHP 与 Symfony 的基础可以通过插件、应用和主题进行扩展，社区和商业扩展多达数千个，涵盖支付服务、ERP 对接、主题和营销工具。借助 Store API 和 Admin API 也能实现无头架构，Shopware Frontends 则提供了用于自定义店面的 Vue 和 Nuxt 工具包。它在德语区市场尤其强势，有大量专门从事 Shopware 项目的服务商。部分高级 B2B、AI 和企业功能仅包含在付费方案中，规模较大的店铺还需要配备搜索引擎、缓存和后台任务进程的可靠 PHP 托管环境。",
+      "keywords": [
+        "电商",
+        "网店",
+        "Symfony",
+        "PHP",
+        "无头电商",
+        "B2B"
+      ],
+      "rationale": "拥有庞大扩展生态的欧洲主流电商平台；在 Sylius 之外补充了一个商家覆盖面广得多的 Symfony/PHP 选项，不过电商分类中已有多个条目。"
+    },
+    "es": {
+      "description": "Plataforma de comercio abierta construida con Symfony y Vue.js, con tienda lista para usar, panel de administración, APIs para frontends headless y un gran ecosistema de extensiones. Para comercios y agencias, sobre todo en Europa, que crean tiendas B2C o B2B propias.",
+      "longDescription": "Shopware 6 es una plataforma de comercio electrónico desarrollada por la empresa alemana Shopware AG. Su núcleo con licencia MIT incluye catálogo de productos, carrito y checkout, cuentas de cliente, gestión de pedidos, promociones y múltiples canales de venta, además de un Rule Builder para lógica condicional de precios, envíos y pagos y un Flow Builder que vincula eventos con acciones automatizadas. Los comercios gestionan la tienda desde una administración en Vue.js, y las Shopping Experiences permiten componer páginas de categoría y landing pages ricas en contenido sobre la tienda predeterminada basada en Twig.\n\nPara desarrolladores, la base en PHP y Symfony se amplía con plugins, apps y temas, y miles de extensiones comunitarias y comerciales cubren pasarelas de pago, conectores ERP, temas y herramientas de marketing. La Store API y la Admin API permiten también montajes headless, y Shopware Frontends ofrece un kit con Vue y Nuxt para tiendas personalizadas. Es especialmente fuerte en los mercados de habla alemana, donde muchas agencias se especializan en él. Varias funciones avanzadas de B2B, IA y empresa están reservadas a planes de pago, y las tiendas grandes necesitan un hosting PHP sólido con motor de búsqueda, caché y procesos en segundo plano.",
+      "keywords": [
+        "comercio electrónico",
+        "tienda online",
+        "symfony",
+        "php",
+        "comercio headless",
+        "b2b"
+      ],
+      "rationale": "Gran plataforma de comercio europea con un amplio ecosistema de extensiones; añade una opción Symfony/PHP junto a Sylius con mucha más adopción entre comercios, aunque la categoría de ecommerce ya tiene varias entradas."
+    },
+    "de": {
+      "description": "Offene Commerce-Plattform auf Basis von Symfony und Vue.js mit fertiger Storefront, Admin-Oberfläche, APIs für Headless-Frontends und großem Erweiterungs-Ökosystem. Für Händler und Agenturen, vor allem in Europa, die B2C- oder B2B-Shops selbst hosten und anpassen.",
+      "longDescription": "Shopware 6 ist eine E-Commerce-Plattform der deutschen Shopware AG. Der MIT-lizenzierte Kern umfasst Produktkatalog, Warenkorb und Checkout, Kundenkonten, Bestellverwaltung, Promotions und mehrere Verkaufskanäle, dazu den Rule Builder für bedingte Preis-, Versand- und Zahlungslogik sowie den Flow Builder, der Ereignisse mit automatisierten Aktionen verknüpft. Händler steuern den Shop über eine Administration in Vue.js, und mit Shopping Experiences lassen sich auf der standardmäßigen Twig-Storefront inhaltsreiche Kategorie- und Landingpages zusammenstellen.\n\nEntwickler erweitern die PHP- und Symfony-Basis über Plugins, Apps und Themes, und Tausende Community- und kommerzielle Erweiterungen decken Zahlungsanbieter, ERP-Anbindungen, Themes und Marketing-Tools ab. Store API und Admin API ermöglichen auch Headless-Setups, und Shopware Frontends bietet ein Vue- und Nuxt-Toolkit für eigene Storefronts. Besonders stark ist Shopware im deutschsprachigen Raum, wo sich viele Agenturen darauf spezialisiert haben. Einige fortgeschrittene B2B-, KI- und Enterprise-Funktionen sind kostenpflichtigen Plänen vorbehalten, und größere Shops brauchen ein solides PHP-Hosting mit Suchmaschine, Caching und Hintergrund-Workern.",
+      "keywords": [
+        "E-Commerce",
+        "Onlineshop",
+        "Symfony",
+        "PHP",
+        "Headless Commerce",
+        "B2B"
+      ],
+      "rationale": "Bedeutende europäische Commerce-Plattform mit großem Erweiterungs-Ökosystem; ergänzt Sylius um eine Symfony/PHP-Option mit deutlich breiterer Händlerbasis, auch wenn die E-Commerce-Kategorie schon mehrere Einträge hat."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2018-05-03",
+      "archived": false,
+      "openIssuesCount": 1676,
+      "stargazersCount": 3479,
+      "productionReadiness": "mature",
+      "governance": "vendor-backed",
+      "score": 90,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Major European commerce platform with a large extension ecosystem; adds a Symfony/PHP option beside Sylius with far broader merchant adoption, though the ecommerce category already has several entries."
+    },
+    "flag": "ok"
+  }
+}

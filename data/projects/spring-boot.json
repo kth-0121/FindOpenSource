@@ -1,0 +1,111 @@
+{
+  "name": "Spring Boot",
+  "slug": "spring-boot",
+  "description": "Opinionated layer over the Spring Framework for building stand-alone, production-ready Java and Kotlin services with auto-configuration, embedded servers and starter dependencies. A default choice for JVM backend teams.",
+  "repository": "https://github.com/spring-projects/spring-boot",
+  "website": "https://spring.io/projects/spring-boot",
+  "documentation": "https://docs.spring.io/spring-boot/",
+  "categories": [
+    "backend"
+  ],
+  "keywords": [
+    "java",
+    "spring",
+    "microservices",
+    "auto-configuration",
+    "kotlin",
+    "rest api"
+  ],
+  "longDescription": "Spring Boot makes the Spring Framework practical to start with by replacing most manual configuration with sensible defaults. Adding a starter dependency, such as one for web, data access or security, pulls in a curated set of libraries, and auto-configuration then wires matching beans based on what is on the classpath and in your properties files. Applications package as executable JARs with an embedded web server such as Tomcat or Jetty, so a service runs with a single command instead of being deployed into an application server.\n\nIt also provides externalised configuration with profiles, Actuator endpoints for health checks and metrics, Maven and Gradle plugins, container image builds and GraalVM native image support. Teams use it for REST APIs, microservices, batch jobs and event-driven systems, usually together with projects such as Spring Data, Spring Security and Spring Cloud. The convenience has a cost: startup time, memory use and the amount of implicit configuration can surprise newcomers, and debugging auto-configuration requires some understanding of Spring internals.",
+  "languages": [
+    "Java"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Spring Framework 위에 정해진 기본값을 더해, 자동 구성, 내장 서버, 스타터 의존성으로 독립 실행형 프로덕션급 Java·Kotlin 서비스를 만들게 해 주는 계층입니다. JVM 백엔드 팀이 기본으로 고르는 선택지입니다.",
+      "longDescription": "Spring Boot는 수작업 설정 대부분을 합리적인 기본값으로 대체해 Spring Framework를 쉽게 시작할 수 있게 해 줍니다. 웹, 데이터 접근, 보안 등을 위한 스타터 의존성을 추가하면 검증된 라이브러리 묶음이 함께 들어오고, 자동 구성이 클래스패스와 프로퍼티 파일의 내용을 보고 알맞은 빈을 연결합니다. 애플리케이션은 Tomcat이나 Jetty 같은 내장 웹 서버를 포함한 실행 가능한 JAR로 패키징되므로, 애플리케이션 서버에 배포하지 않고 명령 하나로 서비스를 실행할 수 있습니다.\n\n프로필을 지원하는 외부 설정, 헬스 체크와 메트릭을 위한 Actuator 엔드포인트, Maven·Gradle 플러그인, 컨테이너 이미지 빌드, GraalVM 네이티브 이미지 지원도 제공합니다. REST API, 마이크로서비스, 배치 작업, 이벤트 기반 시스템에 쓰이며, 보통 Spring Data, Spring Security, Spring Cloud 같은 프로젝트와 함께 사용됩니다. 편리함에는 대가가 있어서, 시작 시간과 메모리 사용량, 암묵적인 설정의 양은 처음 접하는 사람을 놀라게 할 수 있고, 자동 구성을 디버깅하려면 Spring 내부 구조를 어느 정도 이해해야 합니다.",
+      "keywords": [
+        "java",
+        "spring",
+        "마이크로서비스",
+        "자동 구성",
+        "kotlin",
+        "rest api"
+      ],
+      "rationale": "Java 백엔드 개발에서 가장 지배적인 프레임워크이자 오늘날 Spring 생태계를 쓰는 주된 방식으로, 규모가 더 작은 Quarkus 항목과 함께 backend 카테고리에 꼭 필요한 대표 프로젝트입니다."
+    },
+    "ja": {
+      "description": "Spring Framework に既定の構成を加え、自動構成、組み込みサーバー、スターター依存関係によって、単体で動く本番品質の Java・Kotlin サービスを作れるようにするレイヤーです。JVM バックエンドチームの定番です。",
+      "longDescription": "Spring Boot は、手作業の設定の大半を妥当なデフォルトに置き換えることで、Spring Framework を手軽に使い始められるようにします。Web、データアクセス、セキュリティなどのスターター依存関係を追加すると厳選されたライブラリ一式が導入され、自動構成がクラスパスやプロパティファイルの内容に応じて適切な Bean を組み立てます。アプリケーションは Tomcat や Jetty などの組み込み Web サーバーを含む実行可能 JAR としてパッケージされるため、アプリケーションサーバーにデプロイせずコマンドひとつでサービスを起動できます。\n\nプロファイル対応の外部化された設定、ヘルスチェックやメトリクス用の Actuator エンドポイント、Maven と Gradle のプラグイン、コンテナイメージのビルド、GraalVM ネイティブイメージへの対応も備えています。REST API、マイクロサービス、バッチ処理、イベント駆動システムに使われ、多くの場合 Spring Data、Spring Security、Spring Cloud などと組み合わされます。便利さには代償もあり、起動時間やメモリ使用量、暗黙の設定の多さは初めて触れる人を驚かせることがあり、自動構成のデバッグには Spring の内部への一定の理解が必要です。",
+      "keywords": [
+        "java",
+        "spring",
+        "マイクロサービス",
+        "自動構成",
+        "kotlin",
+        "rest api"
+      ],
+      "rationale": "Java バックエンド開発で最も支配的なフレームワークであり、今日 Spring エコシステムを使う主な手段です。規模の小さい Quarkus と並び、backend カテゴリに欠かせない代表的プロジェクトです。"
+    },
+    "zh-CN": {
+      "description": "构建在 Spring Framework 之上的约定式层，借助自动配置、内嵌服务器和 Starter 依赖，快速构建可独立运行、可投入生产的 Java 和 Kotlin 服务，是 JVM 后端团队的默认之选。",
+      "longDescription": "Spring Boot 用合理的默认值取代了大部分手工配置，让 Spring Framework 变得容易上手。添加一个 Starter 依赖（例如 Web、数据访问或安全相关的 Starter）就会引入一组精选的库，随后自动配置会根据类路径和配置文件中的内容装配相应的 Bean。应用被打包为内嵌 Tomcat 或 Jetty 等 Web 服务器的可执行 JAR，一条命令即可运行服务，而无需部署到应用服务器中。\n\n它还提供支持多环境 Profile 的外部化配置、用于健康检查和指标的 Actuator 端点、Maven 和 Gradle 插件、容器镜像构建以及 GraalVM 原生镜像支持。团队用它来构建 REST API、微服务、批处理任务和事件驱动系统，通常还会搭配 Spring Data、Spring Security 和 Spring Cloud 等项目。便利也有代价：启动时间、内存占用和大量隐式配置可能让新手感到意外，而调试自动配置需要对 Spring 内部机制有一定了解。",
+      "keywords": [
+        "java",
+        "spring",
+        "微服务",
+        "自动配置",
+        "kotlin",
+        "rest api"
+      ],
+      "rationale": "Java 后端开发中占主导地位的框架，也是如今使用 Spring 生态的主要方式；与规模较小的 Quarkus 一起，是 backend 分类不可或缺的代表项目。"
+    },
+    "es": {
+      "description": "Capa con opiniones sobre Spring Framework para crear servicios Java y Kotlin autónomos y listos para producción, con autoconfiguración, servidores embebidos y dependencias starter. Una opción por defecto para equipos de backend en la JVM.",
+      "longDescription": "Spring Boot hace que empezar con Spring Framework sea práctico al sustituir la mayor parte de la configuración manual por valores por defecto razonables. Al añadir una dependencia starter, por ejemplo para web, acceso a datos o seguridad, se incorpora un conjunto seleccionado de bibliotecas, y la autoconfiguración conecta los beans adecuados según lo que haya en el classpath y en los archivos de propiedades. Las aplicaciones se empaquetan como JAR ejecutables con un servidor web embebido como Tomcat o Jetty, así que un servicio arranca con un solo comando en lugar de desplegarse en un servidor de aplicaciones.\n\nTambién ofrece configuración externa con perfiles, endpoints de Actuator para comprobaciones de salud y métricas, plugins para Maven y Gradle, generación de imágenes de contenedor y soporte para imágenes nativas de GraalVM. Los equipos lo usan para APIs REST, microservicios, procesos por lotes y sistemas orientados a eventos, normalmente junto a proyectos como Spring Data, Spring Security y Spring Cloud. La comodidad tiene un precio: el tiempo de arranque, el consumo de memoria y la cantidad de configuración implícita pueden sorprender a quien empieza, y depurar la autoconfiguración exige entender en parte el funcionamiento interno de Spring.",
+      "keywords": [
+        "java",
+        "spring",
+        "microservicios",
+        "autoconfiguración",
+        "kotlin",
+        "api rest"
+      ],
+      "rationale": "El framework dominante en el backend con Java y la forma principal de usar hoy el ecosistema Spring; un representante imprescindible de la categoría backend junto a la entrada más pequeña de Quarkus."
+    },
+    "de": {
+      "description": "Meinungsstarke Schicht über dem Spring Framework, mit der sich eigenständige, produktionsreife Java- und Kotlin-Dienste per Auto-Konfiguration, eingebetteten Servern und Starter-Abhängigkeiten bauen lassen. Eine Standardwahl für JVM-Backend-Teams.",
+      "longDescription": "Spring Boot macht den Einstieg ins Spring Framework praktikabel, indem es den Großteil der manuellen Konfiguration durch sinnvolle Voreinstellungen ersetzt. Eine Starter-Abhängigkeit, etwa für Web, Datenzugriff oder Sicherheit, bringt eine kuratierte Auswahl an Bibliotheken mit, und die Auto-Konfiguration verdrahtet anschließend passende Beans anhand dessen, was im Classpath und in den Properties-Dateien steht. Anwendungen werden als ausführbare JARs mit eingebettetem Webserver wie Tomcat oder Jetty gepackt, sodass ein Dienst mit einem einzigen Befehl startet, statt in einen Applikationsserver deployt zu werden.\n\nDazu kommen externalisierte Konfiguration mit Profilen, Actuator-Endpunkte für Health-Checks und Metriken, Plugins für Maven und Gradle, das Bauen von Container-Images und Unterstützung für GraalVM Native Images. Teams setzen es für REST-APIs, Microservices, Batch-Jobs und ereignisgesteuerte Systeme ein, meist zusammen mit Projekten wie Spring Data, Spring Security und Spring Cloud. Der Komfort hat seinen Preis: Startzeit, Speicherbedarf und die Menge an impliziter Konfiguration können Neulinge überraschen, und das Debuggen der Auto-Konfiguration setzt ein gewisses Verständnis der Spring-Interna voraus.",
+      "keywords": [
+        "java",
+        "spring",
+        "Microservices",
+        "Auto-Konfiguration",
+        "kotlin",
+        "rest-api"
+      ],
+      "rationale": "Das dominierende Framework für Java-Backends und heute der wichtigste Weg, das Spring-Ökosystem zu nutzen; neben dem kleineren Quarkus-Eintrag ein unverzichtbarer Vertreter der Kategorie backend."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2012-10-19",
+      "archived": false,
+      "openIssuesCount": 503,
+      "stargazersCount": 81887,
+      "productionReadiness": "foundational",
+      "governance": "vendor-backed",
+      "score": 96,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The dominant framework for Java backend development and the main way the Spring ecosystem is used today; an essential backend representative alongside the smaller Quarkus entry."
+    },
+    "flag": "ok"
+  }
+}

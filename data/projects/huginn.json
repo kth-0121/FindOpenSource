@@ -1,0 +1,110 @@
+{
+  "name": "Huginn",
+  "slug": "huginn",
+  "description": "Self-hosted system for building agents that watch websites, feeds, inboxes and webhooks, pass events to each other and act on your behalf, for people who want a hackable IFTTT or Zapier alternative that keeps their data on their own server.",
+  "repository": "https://github.com/huginn/huginn",
+  "documentation": "https://github.com/huginn/huginn/wiki",
+  "categories": [
+    "automation"
+  ],
+  "keywords": [
+    "automation agents",
+    "web monitoring",
+    "event-driven",
+    "self-hosted",
+    "ifttt alternative",
+    "rss"
+  ],
+  "longDescription": "Huginn is a Ruby on Rails application for building agents that perform automated tasks online. Each agent does one job, such as fetching a web page, reading an RSS feed or IMAP mailbox, receiving a webhook or listening to an MQTT topic, and emits events that other agents consume, so chains of agents form a directed graph of small steps. The project describes itself as a hackable version of IFTTT or Zapier running on your own server, and it has been around since 2013.\n\nCommon uses include getting an email when a website changes, watching for price drops or travel deals, sending digest emails at set times, detecting spikes or gaps in an event stream, posting to Slack, Telegram and other services, and publishing your own feeds or JSON endpoints from collected events. Custom logic can be written in JavaScript, Liquid templates or jq, and agents can call OpenAI-compatible APIs to summarize or classify text. It runs as a web process plus a background worker backed by MySQL or PostgreSQL, usually via the official Docker images. Agents are configured as JSON options rather than in a polished visual builder, so it suits technically minded users best.",
+  "languages": [
+    "Ruby"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "웹사이트, 피드, 메일함, 웹훅을 감시하고 서로 이벤트를 주고받으며 사용자를 대신해 작업하는 에이전트를 만드는 셀프 호스팅 시스템입니다. 데이터를 자기 서버에 두면서 마음대로 고칠 수 있는 IFTTT·Zapier 대안을 원하는 사람에게 적합합니다.",
+      "longDescription": "Huginn은 온라인에서 자동화 작업을 수행하는 에이전트를 만드는 Ruby on Rails 애플리케이션입니다. 각 에이전트는 웹 페이지 가져오기, RSS 피드나 IMAP 메일함 읽기, 웹훅 받기, MQTT 토픽 구독 같은 한 가지 일을 맡고, 다른 에이전트가 소비하는 이벤트를 내보냅니다. 이렇게 에이전트를 이어 붙이면 작은 단계들로 이루어진 방향 그래프가 만들어집니다. 프로젝트는 스스로를 자기 서버에서 돌리는, 마음대로 고칠 수 있는 IFTTT나 Zapier라고 소개하며, 2013년부터 이어져 온 프로젝트입니다.\n\n흔한 용도로는 웹사이트가 바뀌면 이메일 받기, 가격 하락이나 여행 특가 감시, 정해진 시간에 요약 메일 보내기, 이벤트 흐름의 급증이나 공백 감지, Slack·Telegram 등으로 게시하기, 수집한 이벤트로 자체 피드나 JSON 엔드포인트 공개하기 등이 있습니다. 사용자 정의 로직은 JavaScript, Liquid 템플릿, jq로 작성할 수 있고, 에이전트가 OpenAI 호환 API를 호출해 텍스트를 요약하거나 분류할 수도 있습니다. 웹 프로세스와 백그라운드 워커로 동작하며 MySQL이나 PostgreSQL을 사용하고, 보통 공식 Docker 이미지로 운영합니다. 에이전트 설정은 세련된 비주얼 빌더가 아니라 JSON 옵션으로 하므로 기술에 익숙한 사용자에게 가장 잘 맞습니다.",
+      "keywords": [
+        "자동화 에이전트",
+        "웹 모니터링",
+        "이벤트 기반",
+        "셀프 호스팅",
+        "ifttt 대안",
+        "rss"
+      ],
+      "rationale": "n8n, Node-RED와 겹치지만, 오래 쓰여 온 에이전트 기반 이벤트 모델과 웹 감시·피드 중심 성격 덕분에 개인 자동화를 위한 좋은 추가 선택지입니다."
+    },
+    "ja": {
+      "description": "Web サイト、フィード、メールボックス、Webhook を監視し、エージェント同士でイベントを受け渡しながらユーザーに代わって動く、セルフホスト型のエージェント構築システムです。データを自分のサーバーに置いたまま、自由に手を加えられる IFTTT や Zapier の代替を求める人向けです。",
+      "longDescription": "Huginn は、オンラインで自動化タスクを実行するエージェントを作るための Ruby on Rails アプリケーションです。各エージェントは Web ページの取得、RSS フィードや IMAP メールボックスの読み取り、Webhook の受信、MQTT トピックの購読といった 1 つの仕事を受け持ち、他のエージェントが受け取るイベントを発行します。エージェントをつなげていくと、小さなステップからなる有向グラフができあがります。プロジェクト自身は「自分のサーバーで動く、ハックしやすい IFTTT や Zapier」と説明しており、2013 年から続いています。\n\nよくある使い方としては、Web サイトが変わったらメールで知らせる、値下げや旅行のお得情報を監視する、決まった時刻にダイジェストメールを送る、イベントの流れの急増や途切れを検知する、Slack や Telegram などに投稿する、集めたイベントから独自のフィードや JSON エンドポイントを公開する、といったものがあります。独自のロジックは JavaScript、Liquid テンプレート、jq で書け、エージェントから OpenAI 互換 API を呼び出してテキストを要約・分類することもできます。Web プロセスとバックグラウンドワーカーで構成され、MySQL か PostgreSQL を使い、通常は公式の Docker イメージで運用します。エージェントの設定は洗練されたビジュアルビルダーではなく JSON のオプションで行うため、技術に慣れたユーザーに最も向いています。",
+      "keywords": [
+        "自動化エージェント",
+        "Web 監視",
+        "イベント駆動",
+        "セルフホスト",
+        "IFTTT 代替",
+        "rss"
+      ],
+      "rationale": "n8n や Node-RED と重なりますが、長く使われてきたエージェント型のイベントモデルと、Web 監視やフィードを中心とした性格から、個人の自動化に向けた良い追加の選択肢です。"
+    },
+    "zh-CN": {
+      "description": "自托管的智能体构建系统，智能体可以监视网站、订阅源、邮箱和 Webhook，彼此传递事件并代你执行操作，适合想要一个可随意改造、数据留在自己服务器上的 IFTTT 或 Zapier 替代品的用户。",
+      "longDescription": "Huginn 是一个 Ruby on Rails 应用，用来构建在网上执行自动化任务的智能体（agent）。每个智能体只负责一件事，例如抓取网页、读取 RSS 订阅或 IMAP 邮箱、接收 Webhook 或监听 MQTT 主题，并产生供其他智能体消费的事件，多个智能体串联起来就形成由小步骤组成的有向图。项目自称是运行在你自己服务器上的、可随意改造的 IFTTT 或 Zapier，自 2013 年起一直在发展。\n\n常见用法包括：网站内容变化时发邮件提醒、监控降价或旅行优惠、定时发送摘要邮件、检测事件流中的突增或中断、向 Slack、Telegram 等服务发帖，以及把收集到的事件发布成自己的订阅源或 JSON 接口。自定义逻辑可以用 JavaScript、Liquid 模板或 jq 编写，智能体还能调用兼容 OpenAI 的 API 来摘要或分类文本。它由一个 Web 进程和一个后台 worker 组成，使用 MySQL 或 PostgreSQL，通常通过官方 Docker 镜像部署。智能体以 JSON 选项进行配置，而不是通过精致的可视化编辑器，因此最适合有一定技术基础的用户。",
+      "keywords": [
+        "自动化智能体",
+        "网页监控",
+        "事件驱动",
+        "自托管",
+        "IFTTT 替代",
+        "rss"
+      ],
+      "rationale": "与 n8n、Node-RED 有重叠，但凭借久经使用的基于智能体的事件模型，以及以网页监控和订阅源为核心的定位，是个人自动化的一个不错补充。"
+    },
+    "es": {
+      "description": "Sistema autoalojado para crear agentes que vigilan sitios web, feeds, buzones y webhooks, se pasan eventos entre sí y actúan en tu nombre, para quien quiere una alternativa a IFTTT o Zapier fácil de modificar y que mantiene los datos en su propio servidor.",
+      "longDescription": "Huginn es una aplicación de Ruby on Rails para crear agentes que realizan tareas automatizadas en internet. Cada agente se encarga de una sola cosa, como descargar una página web, leer un feed RSS o un buzón IMAP, recibir un webhook o escuchar un tema MQTT, y emite eventos que consumen otros agentes, de modo que las cadenas de agentes forman un grafo dirigido de pasos pequeños. El propio proyecto se presenta como una versión modificable de IFTTT o Zapier que funciona en tu servidor, y existe desde 2013.\n\nEntre sus usos habituales están recibir un correo cuando cambia una web, vigilar bajadas de precio u ofertas de viaje, enviar resúmenes por correo a horas fijas, detectar picos o huecos en un flujo de eventos, publicar en Slack, Telegram y otros servicios, y publicar tus propios feeds o endpoints JSON a partir de los eventos recogidos. La lógica personalizada puede escribirse en JavaScript, plantillas Liquid o jq, y los agentes pueden llamar a APIs compatibles con OpenAI para resumir o clasificar texto. Funciona como un proceso web más un worker en segundo plano con MySQL o PostgreSQL, normalmente mediante las imágenes oficiales de Docker. Los agentes se configuran con opciones en JSON y no con un editor visual pulido, así que encaja mejor con usuarios con perfil técnico.",
+      "keywords": [
+        "agentes de automatización",
+        "monitorización web",
+        "orientado a eventos",
+        "autoalojado",
+        "alternativa a ifttt",
+        "rss"
+      ],
+      "rationale": "Se solapa con n8n y Node-RED, pero su veterano modelo de eventos basado en agentes y su enfoque en vigilar webs y feeds lo convierten en una buena opción adicional para la automatización personal."
+    },
+    "de": {
+      "description": "Selbst gehostetes System für Agenten, die Websites, Feeds, Postfächer und Webhooks beobachten, sich gegenseitig Ereignisse weiterreichen und in deinem Auftrag handeln – für alle, die eine anpassbare Alternative zu IFTTT oder Zapier mit Daten auf dem eigenen Server suchen.",
+      "longDescription": "Huginn ist eine Ruby-on-Rails-Anwendung zum Bau von Agenten, die automatisierte Aufgaben im Netz erledigen. Jeder Agent übernimmt genau eine Aufgabe, etwa eine Webseite abrufen, einen RSS-Feed oder ein IMAP-Postfach lesen, einen Webhook empfangen oder ein MQTT-Topic abonnieren, und erzeugt Ereignisse, die andere Agenten weiterverarbeiten. Ketten solcher Agenten bilden so einen gerichteten Graphen aus kleinen Schritten. Das Projekt beschreibt sich selbst als anpassbare Version von IFTTT oder Zapier auf dem eigenen Server und existiert seit 2013.\n\nTypische Einsätze sind E-Mail-Benachrichtigungen bei Änderungen an einer Website, das Beobachten von Preissenkungen oder Reiseangeboten, Sammel-Mails zu festen Zeiten, das Erkennen von Spitzen oder Lücken in einem Ereignisstrom, Beiträge in Slack, Telegram und anderen Diensten sowie eigene Feeds oder JSON-Endpunkte aus den gesammelten Ereignissen. Eigene Logik lässt sich in JavaScript, Liquid-Templates oder jq schreiben, und Agenten können OpenAI-kompatible APIs aufrufen, um Texte zusammenzufassen oder zu klassifizieren. Huginn läuft als Webprozess plus Hintergrund-Worker mit MySQL oder PostgreSQL, meist über die offiziellen Docker-Images. Agenten werden über JSON-Optionen statt in einem ausgefeilten visuellen Editor konfiguriert, daher passt es am besten zu technisch versierten Nutzern.",
+      "keywords": [
+        "Automatisierungsagenten",
+        "Web-Monitoring",
+        "ereignisgesteuert",
+        "selbst gehostet",
+        "IFTTT-Alternative",
+        "rss"
+      ],
+      "rationale": "Überschneidet sich mit n8n und Node-RED, ist mit seinem bewährten agentenbasierten Ereignismodell und dem Fokus auf Web- und Feed-Überwachung aber eine gute zusätzliche Option für persönliche Automatisierung."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2013-03-10",
+      "archived": false,
+      "openIssuesCount": 698,
+      "stargazersCount": 50657,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 83,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Overlaps with n8n and Node-RED, but its long-standing agent-based event model and focus on watching websites and feeds make it a good additional option for personal automation."
+    },
+    "flag": "ok"
+  }
+}

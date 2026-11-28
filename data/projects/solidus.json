@@ -1,0 +1,105 @@
+{
+  "name": "Solidus",
+  "slug": "solidus",
+  "description": "Ruby on Rails ecommerce framework, originally forked from Spree, distributed as a set of gems for the core models, API, admin and storefront. For Rails developers and agencies who want a code-first store they can deeply customize inside their own application.",
+  "repository": "https://github.com/solidusio/solidus",
+  "website": "https://solidus.io",
+  "documentation": "https://guides.solidus.io/",
+  "categories": [
+    "ecommerce"
+  ],
+  "keywords": [
+    "ecommerce",
+    "ruby on rails",
+    "online store",
+    "rails engine",
+    "spree fork"
+  ],
+  "longDescription": "Solidus is an open source ecommerce platform for Ruby on Rails that began in 2015 as a fork of Spree, with an emphasis on stability, predictable upgrades and flexibility for merchants with complex requirements. It is packaged as several gems: solidus_core with the essential models for products, orders, payments, shipments and taxes, solidus_api for a REST API, an admin interface, a promotions system and sample data. Teams can install the full bundle or take only the core and build their own frontend, admin or API on top.\n\nNew stores are created by adding Solidus to a Rails application and running its installer, which can generate a starter storefront that is copied into the project so it can be modified freely rather than overridden. A catalog of extensions adds payment gateways, subscriptions, reviews and other features. It suits Rails teams and agencies implementing custom commerce logic, not merchants looking for a turnkey hosted shop. The project is community-funded through Open Collective, with the agency Nebulab acting as main contributor and project director, and its ecosystem is smaller than those of the major PHP or JavaScript platforms.",
+  "languages": [
+    "Ruby"
+  ],
+  "license": "BSD-3-Clause",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "Spree에서 포크해 출발한 Ruby on Rails 이커머스 프레임워크로, 코어 모델, API, 관리자, 스토어프런트를 gem 묶음으로 제공합니다. 자신의 애플리케이션 안에서 깊이 커스터마이즈할 수 있는 코드 중심 쇼핑몰을 원하는 Rails 개발자와 에이전시에 적합합니다.",
+      "longDescription": "Solidus는 2015년 Spree의 포크로 시작한 Ruby on Rails용 오픈소스 이커머스 플랫폼으로, 안정성, 예측 가능한 업그레이드, 복잡한 요구 사항을 가진 판매자를 위한 유연성을 중시합니다. 여러 gem으로 나뉘어 있으며, 상품, 주문, 결제, 배송, 세금에 관한 핵심 모델을 담은 solidus_core, REST API를 제공하는 solidus_api, 관리자 화면, 프로모션 시스템, 샘플 데이터로 구성됩니다. 전체 묶음을 설치할 수도 있고, 코어만 가져와 그 위에 자체 프런트엔드, 관리자, API를 만들 수도 있습니다.\n\n새 쇼핑몰은 Rails 애플리케이션에 Solidus를 추가하고 설치 도구를 실행해 만듭니다. 이때 스타터 스토어프런트를 생성할 수 있는데, 코드가 프로젝트 안으로 복사되므로 덮어쓰기 대신 자유롭게 수정할 수 있습니다. 확장 목록에서 결제 게이트웨이, 정기 구독, 리뷰 등의 기능을 추가할 수 있습니다. 맞춤 커머스 로직을 구현하는 Rails 팀과 에이전시에 어울리며, 바로 쓸 수 있는 호스팅형 쇼핑몰을 찾는 판매자에게는 맞지 않습니다. 프로젝트는 Open Collective를 통한 커뮤니티 후원으로 운영되고 에이전시 Nebulab이 주요 기여자이자 프로젝트 디렉터를 맡고 있으며, 생태계 규모는 주요 PHP·JavaScript 플랫폼보다 작습니다.",
+      "keywords": [
+        "이커머스",
+        "Ruby on Rails",
+        "온라인 쇼핑몰",
+        "Rails 엔진",
+        "Spree 포크"
+      ],
+      "rationale": "평판 좋은 Rails 커머스 프레임워크지만, 카탈로그에 이미 있는 Spree와 같은 생태계의 포크입니다. 보수적이고 커뮤니티가 후원하는 운영 방식을 선호하는 Rails 팀에게는 타당한 대안입니다."
+    },
+    "ja": {
+      "description": "Spree からフォークして生まれた Ruby on Rails 向け EC フレームワークで、コアモデル、API、管理画面、ストアフロントを gem の集合として提供します。自分のアプリケーション内で深くカスタマイズできる、コード主体のストアを求める Rails 開発者や制作会社に向いています。",
+      "longDescription": "Solidus は、2015 年に Spree のフォークとして始まった Ruby on Rails 向けのオープンソース EC プラットフォームで、安定性、予測しやすいアップグレード、複雑な要件を持つ事業者のための柔軟性を重視しています。複数の gem に分かれており、商品、注文、決済、配送、税に関する中核モデルを収めた solidus_core、REST API を提供する solidus_api、管理画面、プロモーションの仕組み、サンプルデータで構成されます。すべてをまとめて導入することも、コアだけを使って独自のフロントエンド、管理画面、API を構築することもできます。\n\n新しいストアは、Rails アプリケーションに Solidus を追加してインストーラーを実行することで作成します。その際にスターター用のストアフロントを生成でき、コードがプロジェクト内にコピーされるため、上書きではなく自由に書き換えられます。拡張機能のカタログから、決済ゲートウェイ、定期購入、レビューなどの機能を追加できます。独自のコマースロジックを実装する Rails チームや制作会社に向いており、すぐに使えるホスティング型ショップを探す事業者向けではありません。プロジェクトは Open Collective を通じたコミュニティの資金で運営され、制作会社の Nebulab が主要コントリビューター兼プロジェクトディレクターを務めています。エコシステムの規模は主要な PHP や JavaScript のプラットフォームより小さめです。",
+      "keywords": [
+        "EC サイト",
+        "Ruby on Rails",
+        "オンラインストア",
+        "Rails エンジン",
+        "Spree フォーク"
+      ],
+      "rationale": "評価の高い Rails 製コマースフレームワークですが、カタログにすでにある Spree と同じエコシステムのフォークです。保守的でコミュニティの資金で運営される体制を好む Rails チームにとっては妥当な代替案です。"
+    },
+    "zh-CN": {
+      "description": "从 Spree 分叉而来的 Ruby on Rails 电商框架，以一组 gem 的形式提供核心模型、API、管理后台和店面。适合希望在自有应用中深度定制、以代码为中心搭建商店的 Rails 开发者和服务商。",
+      "longDescription": "Solidus 是一款面向 Ruby on Rails 的开源电商平台，2015 年作为 Spree 的分叉项目起步，注重稳定性、可预期的升级路径，以及为需求复杂的商家提供灵活性。它拆分为多个 gem：包含商品、订单、支付、发货和税费等核心模型的 solidus_core，提供 REST API 的 solidus_api，以及管理界面、促销系统和示例数据。团队可以安装完整套件，也可以只使用核心，在其上自行构建前端、管理后台或 API。\n\n新建商店的方式是在 Rails 应用中加入 Solidus 并运行安装程序，安装时可以生成一个入门店面，其代码会被复制到项目中，因此可以直接自由修改，而不必通过覆盖的方式定制。扩展目录提供支付网关、订阅、评价等功能。它适合需要实现定制化电商逻辑的 Rails 团队和服务商，并不适合寻找开箱即用托管店铺的商家。项目通过 Open Collective 由社区资助，服务商 Nebulab 担任主要贡献者和项目总监，其生态规模小于主流的 PHP 或 JavaScript 电商平台。",
+      "keywords": [
+        "电商",
+        "Ruby on Rails",
+        "网上商店",
+        "Rails 引擎",
+        "Spree 分叉"
+      ],
+      "rationale": "口碑良好的 Rails 电商框架，但它是 Spree 的分叉，与目录中已有的 Spree 属于同一生态；对偏好其稳健、由社区资助的运作方式的 Rails 团队来说，仍是合理的替代选择。"
+    },
+    "es": {
+      "description": "Framework de comercio electrónico para Ruby on Rails, nacido como fork de Spree y distribuido como un conjunto de gems con modelos base, API, administración y tienda. Para desarrolladores y agencias Rails que quieren una tienda muy personalizable dentro de su app.",
+      "longDescription": "Solidus es una plataforma de comercio electrónico open source para Ruby on Rails que nació en 2015 como fork de Spree, con énfasis en la estabilidad, las actualizaciones predecibles y la flexibilidad para comercios con requisitos complejos. Se distribuye en varias gems: solidus_core con los modelos esenciales de productos, pedidos, pagos, envíos e impuestos, solidus_api con una API REST, una interfaz de administración, un sistema de promociones y datos de ejemplo. Los equipos pueden instalar el paquete completo o usar solo el núcleo y construir encima su propio frontend, administración o API.\n\nLas tiendas nuevas se crean añadiendo Solidus a una aplicación Rails y ejecutando su instalador, que puede generar una tienda inicial cuyo código se copia al proyecto para modificarlo libremente en lugar de sobrescribirlo. Un catálogo de extensiones añade pasarelas de pago, suscripciones, reseñas y otras funciones. Es adecuado para equipos Rails y agencias que implementan lógica de comercio a medida, no para comercios que buscan una tienda alojada lista para usar. El proyecto se financia de forma comunitaria a través de Open Collective, con la agencia Nebulab como principal contribuidora y directora del proyecto, y su ecosistema es más pequeño que el de las grandes plataformas PHP o JavaScript.",
+      "keywords": [
+        "comercio electrónico",
+        "ruby on rails",
+        "tienda online",
+        "motor rails",
+        "fork de spree"
+      ],
+      "rationale": "Framework de comercio en Rails muy respetado, pero es un fork de Spree dentro del mismo ecosistema, y Spree ya está en el catálogo; sigue siendo una alternativa defendible para equipos Rails que prefieren su enfoque conservador y financiado por la comunidad."
+    },
+    "de": {
+      "description": "E-Commerce-Framework für Ruby on Rails, ursprünglich als Fork von Spree entstanden und als Satz von Gems für Kernmodelle, API, Admin und Storefront verteilt. Für Rails-Entwickler und Agenturen, die einen codezentrierten, tief anpassbaren Shop in der eigenen Anwendung wollen.",
+      "longDescription": "Solidus ist eine Open-Source-E-Commerce-Plattform für Ruby on Rails, die 2015 als Fork von Spree begann und Wert auf Stabilität, planbare Upgrades und Flexibilität für Händler mit komplexen Anforderungen legt. Sie ist in mehrere Gems aufgeteilt: solidus_core mit den zentralen Modellen für Produkte, Bestellungen, Zahlungen, Sendungen und Steuern, solidus_api für eine REST-API, eine Admin-Oberfläche, ein Promotion-System und Beispieldaten. Teams können das komplette Paket installieren oder nur den Kern verwenden und darauf ein eigenes Frontend, Admin oder eine eigene API aufbauen.\n\nNeue Shops entstehen, indem man Solidus zu einer Rails-Anwendung hinzufügt und den Installer ausführt. Dieser kann eine Starter-Storefront erzeugen, deren Code ins Projekt kopiert wird, sodass man ihn frei ändern kann, statt ihn zu überschreiben. Ein Katalog von Erweiterungen ergänzt Zahlungsanbieter, Abonnements, Bewertungen und weitere Funktionen. Solidus passt zu Rails-Teams und Agenturen, die individuelle Commerce-Logik umsetzen, nicht zu Händlern, die einen sofort nutzbaren gehosteten Shop suchen. Das Projekt wird über Open Collective von der Community finanziert, die Agentur Nebulab ist Hauptbeitragende und Projektleitung, und das Ökosystem ist kleiner als das der großen PHP- oder JavaScript-Plattformen.",
+      "keywords": [
+        "E-Commerce",
+        "Ruby on Rails",
+        "Onlineshop",
+        "Rails-Engine",
+        "Spree-Fork"
+      ],
+      "rationale": "Angesehenes Rails-Commerce-Framework, aber ein Fork von Spree im selben Ökosystem, und Spree ist bereits im Katalog; dennoch eine vertretbare Alternative für Rails-Teams, die den konservativen, von der Community finanzierten Ansatz bevorzugen."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-27",
+      "repoCreatedAt": "2015-02-18",
+      "archived": false,
+      "openIssuesCount": 80,
+      "stargazersCount": 5347,
+      "productionReadiness": "mature",
+      "governance": "community",
+      "score": 87,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 2,
+      "rationale": "Respected Rails commerce framework, but a fork of Spree in the same ecosystem, and Spree is already in the catalog; still a defensible alternative for Rails teams that prefer its conservative, community-funded approach."
+    },
+    "flag": "ok"
+  }
+}

@@ -6,7 +6,14 @@ import { defaultLocale, type Locale } from "./i18n/config";
 
 const projectsDir = path.join(process.cwd(), "data", "projects");
 
+// Every page calls into this many times; re-reading and re-parsing ~340 files per call made the build time out.
+// ponytail: process-lifetime cache, so `next dev` needs a restart to pick up edited project JSON.
+let cache: Project[] | undefined;
 function loadProjects(): Project[] {
+  return (cache ??= readProjects());
+}
+
+function readProjects(): Project[] {
   const files = fs.readdirSync(projectsDir).filter((file) => file.endsWith(".json"));
   const projects = files.map((file) => {
     const raw = fs.readFileSync(path.join(projectsDir, file), "utf-8");

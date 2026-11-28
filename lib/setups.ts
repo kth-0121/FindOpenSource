@@ -40,6 +40,38 @@ export const SETUPS = [
     stars: 316_000,
     install: ["/plugin install superpowers@claude-plugins-official"],
   },
+  {
+    id: "addy",
+    person: "Addy Osmani",
+    github: "addyosmani",
+    repo: "addyosmani/agent-skills",
+    stars: 120_000,
+    install: ["/plugin marketplace add addyosmani/agent-skills", "/plugin install agent-skills@addy-agent-skills"],
+  },
+  {
+    id: "compound-engineering",
+    person: "Kieran Klaassen",
+    github: "kieranklaassen",
+    repo: "EveryInc/compound-engineering-plugin",
+    stars: 26_000,
+    install: ["/plugin marketplace add EveryInc/compound-engineering-plugin", "/plugin install compound-engineering"],
+  },
+  {
+    id: "lifeos",
+    person: "Daniel Miessler",
+    github: "danielmiessler",
+    repo: "danielmiessler/LifeOS",
+    stars: 20_000,
+    install: ["curl -fsSL https://ourlifeos.ai/install.sh | bash"],
+  },
+  {
+    id: "tstack",
+    person: "Theo Browne",
+    github: "t3dotgg",
+    repo: "t3dotgg/tstack",
+    stars: 4_000,
+    install: ["git clone https://github.com/t3dotgg/tstack", "cp -R tstack/skills/* ~/.claude/skills/"],
+  },
 ] as const;
 
 export type SetupId = (typeof SETUPS)[number]["id"];

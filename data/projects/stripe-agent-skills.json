@@ -1,0 +1,111 @@
+{
+  "name": "Stripe Agent Skills",
+  "slug": "stripe-agent-skills",
+  "description": "Official Stripe Agent Skills that help coding agents integrate Stripe payments, Connect and billing correctly, from the repo Stripe keeps its AI tooling in.",
+  "longDescription": "Stripe keeps its agent skills in stripe/ai, which also held its now-deprecated agent toolkit and MCP packages. Most skills help an agent build on Stripe correctly: stripe-best-practices covers choices like Checkout Sessions versus PaymentIntents, sandboxes, Connect, subscriptions, Stripe Tax and API key security; stripe-implementation-planner recommends products for new or expanding setups; two Connect skills cover platform setup and verification requirements; stripe-apps covers Dashboard extensions, metronome covers usage-based billing, and stripe-docs reads docs.stripe.com, gated pages included. A newer group acts for you: stripe-directory finds providers, stripe-pay sends funds to Stripe businesses and stripe-projects provisions third-party services.\n\nPayment integrators get the most from the first group. Review the second before installing: those skills move money or sign up for services, and their triggers are broad. stripe-bfcm-dashboard is for the 2026 holiday season only.",
+  "repository": "https://github.com/stripe/ai",
+  "website": "https://skills.sh/stripe/ai",
+  "documentation": "https://docs.stripe.com/agents",
+  "categories": [
+    "ai-agents"
+  ],
+  "keywords": [
+    "agent-skill",
+    "stripe",
+    "payments",
+    "billing",
+    "stripe-connect"
+  ],
+  "languages": [
+    "TypeScript"
+  ],
+  "license": "MIT",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "코딩 에이전트가 Stripe 결제, Connect, 빌링을 올바르게 연동하도록 돕는 Stripe 공식 Agent Skills로, Stripe가 AI 도구를 모아 둔 저장소에 있습니다.",
+      "longDescription": "Stripe는 에이전트 스킬을 stripe/ai 저장소에 두고 있습니다. 지금은 지원이 중단된 에이전트 툴킷과 MCP 패키지가 있던 곳이기도 합니다. 대부분의 스킬은 에이전트가 Stripe 위에서 제대로 개발하도록 돕습니다. stripe-best-practices는 Checkout Sessions와 PaymentIntents 중 무엇을 쓸지, 샌드박스, Connect, 구독, Stripe Tax, API 키 보안 같은 결정을 다루고, stripe-implementation-planner는 새로 시작하거나 확장하는 구성에 맞는 제품을 추천합니다. Connect 스킬 두 개는 플랫폼 구성과 인증 요건을 다루며, stripe-apps는 Dashboard 확장, metronome은 사용량 기반 과금, stripe-docs는 접근 제한 페이지를 포함한 docs.stripe.com 읽기를 맡습니다. 더 새로운 묶음은 사용자 대신 직접 행동합니다. stripe-directory는 서비스 제공자를 찾고, stripe-pay는 Stripe 사업자에게 돈을 보내며, stripe-projects는 서드파티 서비스를 프로비저닝합니다.\n\n결제를 연동하는 개발자에게는 첫 번째 묶음이 가장 유용합니다. 두 번째 묶음은 돈을 옮기거나 서비스에 가입하고 트리거 범위도 넓으므로 설치 전에 꼼꼼히 살펴보세요. stripe-bfcm-dashboard는 2026년 연말 쇼핑 시즌 전용입니다.",
+      "keywords": [
+        "에이전트 스킬",
+        "Stripe",
+        "결제",
+        "빌링",
+        "Stripe Connect"
+      ],
+      "rationale": "Stripe 연동을 제대로 하기 위한 공식 가이드에, 에이전트가 결제하고 서비스를 프로비저닝하게 하는 새 스킬이 더해졌습니다. 주로 Stripe 사용자에게 의미가 있습니다."
+    },
+    "ja": {
+      "description": "コーディングエージェントが Stripe の決済、Connect、請求を正しく組み込めるようにする Stripe 公式 Agent Skills。Stripe が AI ツールをまとめているリポジトリにあります。",
+      "longDescription": "Stripe はエージェントスキルを stripe/ai リポジトリで公開しています。現在は非推奨になったエージェントツールキットや MCP パッケージが置かれていた場所でもあります。大半のスキルは、エージェントが Stripe 上で正しく開発するためのものです。stripe-best-practices は Checkout Sessions と PaymentIntents のどちらを使うか、サンドボックス、Connect、サブスクリプション、Stripe Tax、API キーのセキュリティといった判断を扱い、stripe-implementation-planner は新規または拡張する構成に合った製品を提案します。二つの Connect スキルはプラットフォームの設定と本人確認の要件を、stripe-apps は Dashboard の拡張を、metronome は従量課金を扱い、stripe-docs はアクセス制限付きのページも含めて docs.stripe.com を読みます。より新しいグループはユーザーの代わりに実際に動きます。stripe-directory は提供者を探し、stripe-pay は Stripe 上の事業者に送金し、stripe-projects はサードパーティのサービスをプロビジョニングします。\n\n決済を組み込む開発者にとって役立つのは主に前者のグループです。後者はお金を動かしたりサービスに登録したりするうえ、発動条件も広いので、入れる前によく確認してください。stripe-bfcm-dashboard は 2026 年のホリデーシーズン専用です。",
+      "keywords": [
+        "エージェントスキル",
+        "Stripe",
+        "決済",
+        "請求",
+        "Stripe Connect"
+      ],
+      "rationale": "Stripe の組み込みを正しく行うための公式ガイドに、エージェントが支払いやサービスのプロビジョニングを行う新しいスキルが加わっています。主に Stripe ユーザー向けです。"
+    },
+    "zh-CN": {
+      "description": "Stripe 官方 Agent Skills，帮助编程智能体正确集成 Stripe 支付、Connect 和计费，存放在 Stripe 汇集 AI 工具的仓库中。",
+      "longDescription": "Stripe 把智能体技能放在 stripe/ai 仓库里，这个仓库也曾存放现已弃用的智能体工具包和 MCP 包。大部分技能帮助智能体在 Stripe 上正确开发：stripe-best-practices 涵盖 Checkout Sessions 还是 PaymentIntents、沙盒、Connect、订阅、Stripe Tax 和 API 密钥安全等决策；stripe-implementation-planner 为新建或扩展的方案推荐产品；两个 Connect 技能分别处理平台配置和验证要求；stripe-apps 负责 Dashboard 扩展，metronome 负责按用量计费，stripe-docs 则读取 docs.stripe.com，包括需要权限的页面。另一组较新的技能会替你直接行动：stripe-directory 查找服务商，stripe-pay 向 Stripe 商家付款，stripe-projects 开通第三方服务。\n\n集成支付的开发者从第一组中获益最多。第二组会转移资金或注册服务，触发范围也很宽，安装前请仔细查看。stripe-bfcm-dashboard 只适用于 2026 年的节日购物季。",
+      "keywords": [
+        "智能体技能",
+        "Stripe",
+        "支付",
+        "计费",
+        "Stripe Connect"
+      ],
+      "rationale": "帮助正确完成 Stripe 集成的官方指南，另有让智能体付款和开通服务的新技能；主要对 Stripe 用户有意义。"
+    },
+    "es": {
+      "description": "Agent Skills oficiales de Stripe que ayudan a los agentes de programación a integrar bien pagos, Connect y facturación, desde el repositorio donde Stripe guarda sus herramientas de IA.",
+      "longDescription": "Stripe tiene sus skills para agentes en stripe/ai, el repositorio que también alojaba su agent toolkit y sus paquetes MCP, hoy obsoletos. La mayoría ayuda al agente a construir bien sobre Stripe: stripe-best-practices cubre decisiones como Checkout Sessions frente a PaymentIntents, sandboxes, Connect, suscripciones, Stripe Tax y la seguridad de las API keys; stripe-implementation-planner recomienda productos para una integración nueva o que se amplía; dos skills de Connect tratan la configuración de la plataforma y los requisitos de verificación; stripe-apps cubre las extensiones del Dashboard, metronome la facturación por uso y stripe-docs lee docs.stripe.com, incluidas las páginas restringidas. Un grupo más reciente actúa en tu nombre: stripe-directory busca proveedores, stripe-pay envía fondos a negocios de Stripe y stripe-projects aprovisiona servicios de terceros.\n\nQuien integra pagos saca más partido del primer grupo. Revisa el segundo antes de instalarlo, porque esas skills mueven dinero o dan de alta servicios y sus disparadores son amplios. stripe-bfcm-dashboard es solo para la temporada de fiestas de 2026.",
+      "keywords": [
+        "skills de agentes",
+        "Stripe",
+        "pagos",
+        "facturación",
+        "Stripe Connect"
+      ],
+      "rationale": "Guía oficial para hacer bien las integraciones con Stripe, más skills nuevas que permiten al agente pagar y aprovisionar servicios; relevante sobre todo para usuarios de Stripe."
+    },
+    "de": {
+      "description": "Offizielle Stripe Agent Skills, mit denen Coding-Agenten Stripe-Zahlungen, Connect und Billing korrekt integrieren, aus dem Repository, in dem Stripe seine KI-Tools pflegt.",
+      "longDescription": "Stripe pflegt seine Agent Skills in stripe/ai, dem Repository, in dem auch das inzwischen eingestellte Agent Toolkit und die MCP-Pakete lagen. Die meisten Skills helfen dem Agenten, korrekt auf Stripe zu bauen: stripe-best-practices behandelt Entscheidungen wie Checkout Sessions oder PaymentIntents, Sandboxes, Connect, Abonnements, Stripe Tax und die Sicherheit von API-Schlüsseln; stripe-implementation-planner empfiehlt Produkte für ein neues oder wachsendes Setup; zwei Connect-Skills decken Plattformkonfiguration und Verifizierungsanforderungen ab; stripe-apps behandelt Dashboard-Erweiterungen, metronome nutzungsbasierte Abrechnung, und stripe-docs liest docs.stripe.com, auch zugangsbeschränkte Seiten. Eine neuere Gruppe handelt in deinem Namen: stripe-directory findet Anbieter, stripe-pay überweist Geld an Stripe-Unternehmen und stripe-projects stellt Dienste von Drittanbietern bereit.\n\nWer Zahlungen integriert, hat vor allem von der ersten Gruppe etwas. Prüfe die zweite vor der Installation genau, denn diese Skills bewegen Geld oder melden Dienste an, und ihre Auslöser sind weit gefasst. stripe-bfcm-dashboard gilt nur für die Feiertagssaison 2026.",
+      "keywords": [
+        "Agenten-Skills",
+        "Stripe",
+        "Zahlungen",
+        "Billing",
+        "Stripe Connect"
+      ],
+      "rationale": "Offizielle Anleitung für korrekte Stripe-Integrationen, ergänzt um neuere Skills, mit denen Agenten bezahlen und Dienste bereitstellen; vor allem für Stripe-Nutzer relevant."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-25",
+      "repoCreatedAt": "2024-11-11",
+      "archived": false,
+      "openIssuesCount": 53,
+      "stargazersCount": 2101,
+      "productionReadiness": "emerging",
+      "governance": "vendor-backed",
+      "score": 79,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 3,
+      "rationale": "Official guidance for getting Stripe integrations right, plus newer skills that let agents pay and provision services; relevant mainly to Stripe users."
+    },
+    "flag": "ok"
+  },
+  "intents": [
+    {
+      "concept": "agent-tools",
+      "strength": "primary"
+    }
+  ]
+}

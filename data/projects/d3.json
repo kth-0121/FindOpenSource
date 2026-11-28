@@ -1,0 +1,117 @@
+{
+  "name": "D3",
+  "slug": "d3",
+  "description": "Low-level JavaScript library for building custom data visualizations by binding data to SVG, Canvas and HTML, with modules for scales, shapes, layouts and transitions, aimed at developers and data journalists who want full control over every chart.",
+  "repository": "https://github.com/d3/d3",
+  "website": "https://d3js.org",
+  "documentation": "https://d3js.org/getting-started",
+  "categories": [
+    "ui",
+    "analytics"
+  ],
+  "keywords": [
+    "data visualization",
+    "charts",
+    "svg",
+    "dataviz",
+    "maps",
+    "interactive graphics"
+  ],
+  "longDescription": "D3 (Data-Driven Documents) is a collection of JavaScript modules for creating bespoke, interactive visualizations in the browser. Rather than offering a fixed set of chart types, it gives you building blocks: selections that join data to DOM elements, scales that map values to positions and colors, generators for lines, areas and arcs, axes, and transitions that animate changes. You compose these into exactly the graphic you have in mind, drawn with SVG, Canvas or plain HTML.\n\nBeyond the basics it includes force-directed graph simulation, hierarchical layouts such as trees and treemaps, geographic projections for maps, zoom and brush interactions, and helpers for parsing data and computing statistics. Newsrooms, researchers and product teams use it for explanatory graphics and custom dashboards, and many higher-level charting libraries are built on it. The flexibility has a price: even a simple bar chart takes noticeably more code than a declarative charting library, and the learning curve is steep.",
+  "languages": [
+    "JavaScript"
+  ],
+  "packages": {
+    "npm": [
+      "d3"
+    ]
+  },
+  "license": "ISC",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "데이터를 SVG, Canvas, HTML에 바인딩해 맞춤형 데이터 시각화를 만드는 저수준 JavaScript 라이브러리로, 스케일, 도형, 레이아웃, 트랜지션 모듈을 제공하며 모든 차트를 세밀하게 제어하고 싶은 개발자와 데이터 저널리스트를 위한 도구입니다.",
+      "longDescription": "D3(Data-Driven Documents)는 브라우저에서 맞춤형 인터랙티브 시각화를 만들기 위한 JavaScript 모듈 모음입니다. 정해진 차트 종류를 제공하는 대신 구성 요소를 제공합니다. 데이터를 DOM 요소에 결합하는 셀렉션, 값을 위치와 색상으로 매핑하는 스케일, 선·영역·호를 만드는 생성기, 축, 변화를 애니메이션으로 보여 주는 트랜지션 등을 조합해, SVG, Canvas, 일반 HTML로 원하는 그래픽을 정확히 그려 낼 수 있습니다.\n\n기본 기능 외에도 힘 기반 그래프 시뮬레이션, 트리와 트리맵 같은 계층형 레이아웃, 지도를 위한 지리 투영, 줌과 브러시 인터랙션, 데이터 파싱과 통계 계산 도우미가 포함되어 있습니다. 언론사, 연구자, 제품 팀이 설명형 그래픽과 맞춤형 대시보드를 만드는 데 사용하며, 많은 상위 수준 차트 라이브러리가 D3 위에 만들어져 있습니다. 다만 이런 유연성에는 대가가 있어서, 간단한 막대 차트 하나에도 선언형 차트 라이브러리보다 눈에 띄게 많은 코드가 필요하고 학습 곡선도 가파릅니다.",
+      "keywords": [
+        "데이터 시각화",
+        "차트",
+        "SVG",
+        "데이터비즈",
+        "지도",
+        "인터랙티브 그래픽"
+      ],
+      "rationale": "웹에서 맞춤형 데이터 시각화를 위한 기반 라이브러리로, 많은 차트 도구의 토대이며 카탈로그에 없던 저수준 시각화 선택지를 더합니다."
+    },
+    "ja": {
+      "description": "データを SVG、Canvas、HTML に結び付けて独自のデータ可視化を作る低レベルな JavaScript ライブラリです。スケール、図形、レイアウト、トランジションのモジュールを備え、すべてのチャートを細かく制御したい開発者やデータジャーナリスト向けです。",
+      "longDescription": "D3(Data-Driven Documents)は、ブラウザでオーダーメイドのインタラクティブな可視化を作るための JavaScript モジュール群です。決まった種類のチャートを用意する代わりに部品を提供します。データを DOM 要素に結び付けるセレクション、値を位置や色に対応させるスケール、線・面・円弧のジェネレーター、軸、変化をアニメーションさせるトランジションなどを組み合わせて、SVG、Canvas、素の HTML で思い描いたとおりの図を描けます。\n\n基本機能に加えて、力学モデルによるグラフのシミュレーション、ツリーやツリーマップなどの階層レイアウト、地図のための地理投影、ズームやブラシのインタラクション、データの解析や統計計算のヘルパーも備えています。報道機関、研究者、プロダクトチームが解説用のグラフィックや独自のダッシュボードに使っており、多くの高レベルなチャートライブラリが D3 の上に作られています。その柔軟性の代償として、単純な棒グラフでも宣言的なチャートライブラリよりかなり多くのコードが必要になり、学習曲線も急です。",
+      "keywords": [
+        "データ可視化",
+        "チャート",
+        "SVG",
+        "データビジュアライゼーション",
+        "地図",
+        "インタラクティブグラフィックス"
+      ],
+      "rationale": "Web でのカスタムデータ可視化の基盤となるライブラリで、多くのチャートツールを支えています。カタログに欠けていた低レベルな可視化の選択肢を加えます。"
+    },
+    "zh-CN": {
+      "description": "一个底层 JavaScript 库，通过把数据绑定到 SVG、Canvas 和 HTML 来构建定制数据可视化，提供比例尺、图形、布局和过渡等模块，面向希望完全掌控每张图表的开发者和数据新闻工作者。",
+      "longDescription": "D3（Data-Driven Documents）是一组用于在浏览器中创建定制交互式可视化的 JavaScript 模块。它不提供固定的图表类型，而是提供构建块：把数据绑定到 DOM 元素的选择集、把数值映射为位置和颜色的比例尺、线条、面积和弧形生成器、坐标轴，以及为变化添加动画的过渡。你可以把这些组合成心中所想的图形，并用 SVG、Canvas 或普通 HTML 绘制。\n\n除基础功能外，它还包括力导向图模拟、树和矩形树图等层级布局、用于地图的地理投影、缩放和刷选交互，以及数据解析和统计计算的辅助工具。新闻机构、研究人员和产品团队用它制作解释性图表和定制仪表盘，许多更高层的图表库也构建在它之上。这种灵活性是有代价的：即便是一个简单的柱状图，也比声明式图表库需要多得多的代码，学习曲线也很陡。",
+      "keywords": [
+        "数据可视化",
+        "图表",
+        "SVG",
+        "可视化",
+        "地图",
+        "交互式图形"
+      ],
+      "rationale": "Web 定制数据可视化的基础库，支撑着许多图表工具，为目录补充了此前缺少的底层可视化选项。"
+    },
+    "es": {
+      "description": "Biblioteca de JavaScript de bajo nivel para crear visualizaciones de datos a medida vinculando datos a SVG, Canvas y HTML, con módulos de escalas, formas, layouts y transiciones, pensada para desarrolladores y periodistas de datos que quieren control total sobre cada gráfico.",
+      "longDescription": "D3 (Data-Driven Documents) es una colección de módulos de JavaScript para crear visualizaciones interactivas a medida en el navegador. En lugar de ofrecer un conjunto fijo de tipos de gráfico, proporciona piezas: selecciones que unen datos con elementos del DOM, escalas que convierten valores en posiciones y colores, generadores de líneas, áreas y arcos, ejes y transiciones que animan los cambios. Con ellas compones exactamente el gráfico que tienes en mente, dibujado con SVG, Canvas o HTML.\n\nAdemás de lo básico incluye simulación de grafos dirigida por fuerzas, layouts jerárquicos como árboles y treemaps, proyecciones geográficas para mapas, interacciones de zoom y selección por área, y utilidades para analizar datos y calcular estadísticas. Redacciones, investigadores y equipos de producto lo usan para gráficos explicativos y paneles a medida, y muchas bibliotecas de gráficos de más alto nivel se apoyan en él. Esa flexibilidad tiene un precio: incluso un gráfico de barras sencillo requiere bastante más código que una biblioteca declarativa, y la curva de aprendizaje es pronunciada.",
+      "keywords": [
+        "visualización de datos",
+        "gráficos",
+        "svg",
+        "dataviz",
+        "mapas",
+        "gráficos interactivos"
+      ],
+      "rationale": "La biblioteca fundamental para visualización de datos a medida en la web; sostiene muchas herramientas de gráficos y aporta una opción de bajo nivel que faltaba en el catálogo."
+    },
+    "de": {
+      "description": "Low-Level-JavaScript-Bibliothek für individuelle Datenvisualisierungen, die Daten an SVG, Canvas und HTML bindet, mit Modulen für Skalen, Formen, Layouts und Übergänge, für Entwickler und Datenjournalisten, die jedes Diagramm vollständig kontrollieren wollen.",
+      "longDescription": "D3 (Data-Driven Documents) ist eine Sammlung von JavaScript-Modulen, mit denen sich maßgeschneiderte, interaktive Visualisierungen im Browser erstellen lassen. Statt eines festen Satzes von Diagrammtypen liefert sie Bausteine: Selektionen, die Daten mit DOM-Elementen verknüpfen, Skalen, die Werte auf Positionen und Farben abbilden, Generatoren für Linien, Flächen und Bögen, Achsen und Übergänge, die Änderungen animieren. Daraus setzt man genau die Grafik zusammen, die man im Kopf hat, gezeichnet mit SVG, Canvas oder einfachem HTML.\n\nÜber die Grundlagen hinaus gibt es kräftebasierte Graphsimulation, hierarchische Layouts wie Bäume und Treemaps, geografische Projektionen für Karten, Zoom- und Brush-Interaktionen sowie Hilfen zum Parsen von Daten und für Statistik. Redaktionen, Forschende und Produktteams nutzen sie für erklärende Grafiken und eigene Dashboards, und viele höherstufige Diagrammbibliotheken bauen auf ihr auf. Die Flexibilität hat ihren Preis: Selbst ein einfaches Balkendiagramm braucht spürbar mehr Code als mit einer deklarativen Diagrammbibliothek, und die Lernkurve ist steil.",
+      "keywords": [
+        "Datenvisualisierung",
+        "Diagramme",
+        "SVG",
+        "Dataviz",
+        "Karten",
+        "interaktive Grafiken"
+      ],
+      "rationale": "Die grundlegende Bibliothek für individuelle Datenvisualisierung im Web; Basis vieler Diagrammwerkzeuge und eine Low-Level-Option, die dem Katalog bisher fehlte."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-23",
+      "repoCreatedAt": "2010-09-27",
+      "archived": false,
+      "openIssuesCount": 26,
+      "stargazersCount": 114031,
+      "productionReadiness": "foundational",
+      "governance": "community",
+      "score": 93,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 5,
+      "rationale": "The foundational library for custom data visualization on the web; underpins many chart tools and adds a low-level viz option the catalog lacks."
+    },
+    "flag": "ok"
+  }
+}

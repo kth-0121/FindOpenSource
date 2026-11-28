@@ -1,0 +1,111 @@
+{
+  "name": "Vitess",
+  "slug": "vitess",
+  "description": "Cloud-native clustering system that scales MySQL horizontally through sharding while applications keep talking to what looks like a single database. A CNCF graduated project born at YouTube, for teams that have outgrown one MySQL server.",
+  "repository": "https://github.com/vitessio/vitess",
+  "website": "https://vitess.io",
+  "documentation": "https://vitess.io/docs/",
+  "categories": [
+    "database"
+  ],
+  "keywords": [
+    "mysql",
+    "sharding",
+    "horizontal scaling",
+    "distributed database",
+    "kubernetes",
+    "resharding"
+  ],
+  "longDescription": "Vitess is a database clustering layer built around MySQL. It was developed at YouTube from 2011 to manage a fleet that grew to tens of thousands of MySQL nodes, was later adopted by companies such as Slack, Square and JD.com, and is now a graduated project of the Cloud Native Computing Foundation. Applications connect to VTGate, a stateless proxy that speaks the MySQL protocol and routes each query to the right shard, while VTTablet processes run alongside every MySQL instance and a topology service keeps track of the cluster layout.\n\nThe main draw is that data can be split across many MySQL servers without rewriting application code around sharding logic. Shards can be split or merged as data grows, with a cutover that takes only seconds, and tables can be moved between keyspaces online. Vitess also provides connection pooling, query protection, managed online schema changes and integration with Kubernetes through an operator. It is a substantial system to run, with several components to deploy and monitor, and queries or transactions spanning multiple shards come with restrictions that a single MySQL server does not have, so it pays off mainly at large scale.",
+  "languages": [
+    "Go"
+  ],
+  "license": "Apache-2.0",
+  "featured": false,
+  "dateAdded": "2026-11-28",
+  "translations": {
+    "ko": {
+      "description": "애플리케이션은 단일 데이터베이스처럼 보이는 대상과 통신하면서도 샤딩으로 MySQL을 수평 확장해 주는 클라우드 네이티브 클러스터링 시스템입니다. YouTube에서 시작된 CNCF 졸업 프로젝트로, MySQL 서버 한 대로는 부족해진 팀을 위한 도구입니다.",
+      "longDescription": "Vitess는 MySQL을 중심으로 만든 데이터베이스 클러스터링 계층입니다. 2011년부터 YouTube에서 개발되어 수만 대 규모로 늘어난 MySQL 노드를 관리하는 데 쓰였고, 이후 Slack, Square, JD.com 같은 기업이 도입했으며, 현재는 Cloud Native Computing Foundation의 졸업 프로젝트입니다. 애플리케이션은 MySQL 프로토콜을 사용하는 무상태 프록시 VTGate에 접속하고, VTGate가 각 쿼리를 알맞은 샤드로 보냅니다. 모든 MySQL 인스턴스 옆에서는 VTTablet 프로세스가 실행되고, 토폴로지 서비스가 클러스터 구성을 추적합니다.\n\n가장 큰 장점은 애플리케이션 코드를 샤딩 로직에 맞춰 다시 짜지 않고도 데이터를 여러 MySQL 서버에 나눠 담을 수 있다는 점입니다. 데이터가 늘어나면 샤드를 나누거나 합칠 수 있고, 전환은 몇 초면 끝나며, 테이블을 키스페이스 간에 온라인으로 옮길 수도 있습니다. 커넥션 풀링, 쿼리 보호, 관리형 온라인 스키마 변경, 오퍼레이터를 통한 Kubernetes 연동도 제공합니다. 다만 배포하고 모니터링할 구성 요소가 여럿인 큰 시스템이고, 여러 샤드에 걸친 쿼리와 트랜잭션에는 단일 MySQL 서버에 없는 제약이 있으므로 주로 대규모 환경에서 그 가치를 발휘합니다.",
+      "keywords": [
+        "MySQL",
+        "샤딩",
+        "수평 확장",
+        "분산 데이터베이스",
+        "Kubernetes",
+        "리샤딩"
+      ],
+      "rationale": "MySQL 수평 확장의 표준으로 자리 잡은 CNCF 졸업 프로젝트로, 새 데이터베이스인 TiDB와 달리 기존 MySQL 위에서 샤딩을 제공한다는 점에서 뚜렷이 구별됩니다."
+    },
+    "ja": {
+      "description": "アプリケーションからは単一のデータベースに見せたまま、シャーディングで MySQL を水平スケールさせるクラウドネイティブなクラスタリングシステムです。YouTube で生まれた CNCF の卒業プロジェクトで、MySQL サーバー 1 台では足りなくなったチーム向けです。",
+      "longDescription": "Vitess は MySQL を中心に構築されたデータベースのクラスタリング層です。2011 年から YouTube で開発され、数万台規模に膨らんだ MySQL ノードの管理に使われてきました。その後 Slack、Square、JD.com などの企業に採用され、現在は Cloud Native Computing Foundation の卒業プロジェクトになっています。アプリケーションは MySQL プロトコルを話すステートレスなプロキシ VTGate に接続し、VTGate が各クエリを適切なシャードへ振り分けます。各 MySQL インスタンスの横では VTTablet プロセスが動き、トポロジーサービスがクラスター構成を管理します。\n\n最大の魅力は、アプリケーションのコードをシャーディングのロジックに合わせて書き直さずに、データを多数の MySQL サーバーへ分散できることです。データの増加に応じてシャードを分割・統合でき、切り替えは数秒で完了します。テーブルをキースペース間でオンライン移動することも可能です。コネクションプーリング、クエリ保護、マネージドなオンラインスキーマ変更、オペレーターによる Kubernetes 連携も備えています。一方で、デプロイと監視が必要なコンポーネントが複数ある大がかりなシステムであり、複数シャードにまたがるクエリやトランザクションには単一の MySQL サーバーにはない制約があるため、真価を発揮するのは主に大規模な環境です。",
+      "keywords": [
+        "MySQL",
+        "シャーディング",
+        "水平スケーリング",
+        "分散データベース",
+        "Kubernetes",
+        "リシャーディング"
+      ],
+      "rationale": "MySQL の水平スケーリングの定番となった CNCF 卒業プロジェクトです。新しいデータベースである TiDB とは異なり、既存の MySQL の上でシャーディングを実現する点ではっきり区別されます。"
+    },
+    "zh-CN": {
+      "description": "一套云原生集群系统，通过分片对 MySQL 进行水平扩展，而应用看到的仍像是单个数据库。它诞生于 YouTube，是 CNCF 毕业项目，适合单台 MySQL 服务器已不够用的团队。",
+      "longDescription": "Vitess 是一个围绕 MySQL 构建的数据库集群层。它自 2011 年起在 YouTube 开发，用于管理规模增长到数万个节点的 MySQL 集群，之后被 Slack、Square、京东等公司采用，如今是 Cloud Native Computing Foundation 的毕业项目。应用连接到 VTGate，这是一个使用 MySQL 协议的无状态代理，负责把每条查询路由到正确的分片；每个 MySQL 实例旁都运行着一个 VTTablet 进程，拓扑服务则负责记录集群布局。\n\n它最大的吸引力在于，无需围绕分片逻辑重写应用代码，就能把数据拆分到多台 MySQL 服务器上。随着数据增长，可以拆分或合并分片，切换只需几秒钟，还能在线将表迁移到其他 keyspace。Vitess 还提供连接池、查询保护、托管式在线表结构变更，以及通过 Operator 与 Kubernetes 集成。不过，它是一个需要部署和监控多个组件的庞大系统，跨多个分片的查询和事务也存在单台 MySQL 服务器没有的限制，因此主要在大规模场景下才能体现价值。",
+      "keywords": [
+        "MySQL",
+        "分片",
+        "水平扩展",
+        "分布式数据库",
+        "Kubernetes",
+        "重新分片"
+      ],
+      "rationale": "已成为 MySQL 水平扩展事实标准的 CNCF 毕业项目；与全新的数据库 TiDB 不同，它在现有 MySQL 之上提供分片能力，定位清晰。"
+    },
+    "es": {
+      "description": "Sistema de clustering cloud native que escala MySQL horizontalmente mediante sharding, mientras las aplicaciones siguen viendo lo que parece una sola base de datos. Proyecto graduado de la CNCF nacido en YouTube, para equipos a los que ya no les basta un servidor MySQL.",
+      "longDescription": "Vitess es una capa de clustering de bases de datos construida en torno a MySQL. Se desarrolló en YouTube a partir de 2011 para gestionar una flota que llegó a decenas de miles de nodos MySQL, después la adoptaron empresas como Slack, Square y JD.com, y hoy es un proyecto graduado de la Cloud Native Computing Foundation. Las aplicaciones se conectan a VTGate, un proxy sin estado que habla el protocolo de MySQL y dirige cada consulta al shard adecuado, mientras que junto a cada instancia de MySQL se ejecuta un proceso VTTablet y un servicio de topología lleva el registro de la estructura del clúster.\n\nSu principal atractivo es que permite repartir los datos entre muchos servidores MySQL sin reescribir el código de la aplicación en torno a la lógica de sharding. Los shards pueden dividirse o fusionarse a medida que crecen los datos, con un cambio que dura solo unos segundos, y las tablas pueden moverse entre keyspaces en línea. Vitess también ofrece pool de conexiones, protección de consultas, cambios de esquema en línea gestionados e integración con Kubernetes mediante un operador. Es un sistema considerable de operar, con varios componentes que desplegar y vigilar, y las consultas o transacciones que abarcan varios shards tienen restricciones que no existen en un único servidor MySQL, por lo que compensa sobre todo a gran escala.",
+      "keywords": [
+        "MySQL",
+        "sharding",
+        "escalado horizontal",
+        "base de datos distribuida",
+        "Kubernetes",
+        "resharding"
+      ],
+      "rationale": "Proyecto graduado de la CNCF que se ha convertido en la referencia para escalar MySQL horizontalmente; a diferencia de TiDB, que es una base de datos nueva, aporta sharding sobre el propio MySQL, lo que lo diferencia con claridad."
+    },
+    "de": {
+      "description": "Cloud-natives Clustering-System, das MySQL per Sharding horizontal skaliert, während Anwendungen weiterhin mit scheinbar einer einzigen Datenbank sprechen. Ein bei YouTube entstandenes, graduiertes CNCF-Projekt für Teams, denen ein MySQL-Server nicht mehr reicht.",
+      "longDescription": "Vitess ist eine Clustering-Schicht für Datenbanken, die rund um MySQL aufgebaut ist. Es wurde ab 2011 bei YouTube entwickelt, um eine Flotte zu verwalten, die auf Zehntausende MySQL-Knoten anwuchs, wurde später von Unternehmen wie Slack, Square und JD.com übernommen und ist heute ein graduiertes Projekt der Cloud Native Computing Foundation. Anwendungen verbinden sich mit VTGate, einem zustandslosen Proxy, der das MySQL-Protokoll spricht und jede Abfrage an den richtigen Shard weiterleitet. Neben jeder MySQL-Instanz läuft ein VTTablet-Prozess, und ein Topologie-Dienst verwaltet den Aufbau des Clusters.\n\nDer größte Vorteil: Daten lassen sich auf viele MySQL-Server verteilen, ohne den Anwendungscode um Sharding-Logik herum neu zu schreiben. Shards können mit wachsender Datenmenge geteilt oder zusammengelegt werden, wobei die Umschaltung nur Sekunden dauert, und Tabellen lassen sich online zwischen Keyspaces verschieben. Dazu kommen Connection-Pooling, Abfrageschutz, verwaltete Online-Schemaänderungen und die Kubernetes-Integration über einen Operator. Vitess ist allerdings ein umfangreiches System mit mehreren Komponenten, die bereitgestellt und überwacht werden müssen, und shardübergreifende Abfragen oder Transaktionen unterliegen Einschränkungen, die ein einzelner MySQL-Server nicht hat – es lohnt sich daher vor allem bei großem Maßstab.",
+      "keywords": [
+        "MySQL",
+        "Sharding",
+        "horizontale Skalierung",
+        "verteilte Datenbank",
+        "Kubernetes",
+        "Resharding"
+      ],
+      "rationale": "Graduiertes CNCF-Projekt und etablierter Standard für horizontal skaliertes MySQL; anders als die eigenständige Datenbank TiDB bringt es Sharding auf bestehendes MySQL und ist damit klar abgegrenzt."
+    }
+  },
+  "evaluation": {
+    "quality": {
+      "lastCommitAt": "2026-11-28",
+      "repoCreatedAt": "2013-06-27",
+      "archived": false,
+      "openIssuesCount": 1170,
+      "stargazersCount": 21436,
+      "productionReadiness": "foundational",
+      "governance": "foundation",
+      "score": 100,
+      "evaluatedAt": "2026-11-28"
+    },
+    "catalogValue": {
+      "rating": 4,
+      "rationale": "CNCF graduated project and the established way to scale MySQL horizontally; unlike TiDB, a separate database, it adds sharding on top of MySQL itself, which keeps it clearly distinct."
+    },
+    "flag": "ok"
+  }
+}
